@@ -1,0 +1,76 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Wprowdzenie}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Kolejowe, łukowe przęsła mostowe. Przegląd}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Typy.\\Cechy.\\Problemy związane z dynamiką.}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}\textbf {Wydzielić rozdział?} Modele obiektów w celach analiz dynamicznych\\Kalibracja/Walidacja/Weryfikacja.}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Dynamiczne obciążenie kolejowe}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Realne obciążenia - tabor.\\Modele obciążenia.\\Przepisy normowe i wytyczne.}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Identyfikacja modalna}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Klasyfikacja metod analizy modalnej}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Teoretyczna analiza modalna}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Zagadnienie własne}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Układ nietłumiony}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Układ tłumiony}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Transformacja do współrzędnych normalnych}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Odpowiedź systemów dynamicznych o jednym stopniu swobody}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Metoda klasyczna}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Całka Duhamela}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Metoda przejścia do dziedziny częstotliwości}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Metody numeryczne}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.4}Odpowiedź systemów dynamicznych o skończonej liczbie stopni swobody (MDOF)}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Metoda superpozycji modalnej}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Metoda time-step Newmarka}{23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Metody doświadczalnej analizy modalnej}{23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Metody analizy modalnej}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Metody operacyjnej analizy modalnej}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Metoda ERA}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Metoda NEXT-ERA}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}Implementacja programu}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}Testy numeryczne metody NEXT-ERA}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.10}Testy eksperymentalne metody NEXT-ERA}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}{25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Wprowadzenie: metody optymalizacji w tym ,,nieróżniczkowe''.\\Particle Swarm optimization - opis, przegląd.\\Wielokryterialne PSO - opis przegląd.\\Opis implementacji.}{25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Budowa modelu numerycznego}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Badania - identyfikacja modalna: wybór punktów, opis badań, wyniki identyfikacji}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Kalibracja modelu numerycznego z wykorzystaniem PSO}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Wielokryterialna optymalizacja modelu: opis + wyniki}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Podsumowanie i wnioski}{29}%

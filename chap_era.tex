@@ -26,10 +26,10 @@ Najogólniej analizę modalną można podzielić na dwie główne gałęzie zale
 
 \begin{figure}[h]
 	\centering
-	\subfloat[Procedura teoretyczna]{\includegraphics{/modal_analisys/schemat_theory_exper_a.pdf}
+	\subfloat[Procedura teoretyczna]{\includegraphics{/modal_analysis/schemat_theory_exper_a.pdf}
 	\label{fig:theExpProcA}
 	} \\
-	\subfloat[Procedura doświadczalna]{\includegraphics{/modal_analisys/schemat_theory_exper_b.pdf}
+	\subfloat[Procedura doświadczalna]{\includegraphics{/modal_analysis/schemat_theory_exper_b.pdf}
 	\label{fig:theExpProcB}}
 	\captionsetup{justification=centering}
 	\caption{Porównanie procedur teoretycznej i doświadczalnej analizy modalnej}
@@ -48,6 +48,8 @@ Doświadczalna analiza modalna dzieli się na dwie główne odnogi związane z z
 Kwestia pomiaru sił wymuszających wpływa na podstawowe różnice pomiędzy dwoma rodzinami metod: EMA i OMA. EMA najczęściej prowadzona jest w kontrolowanych warunkach i przez to pozwala dostarczyć bardziej szczegółowych i dokładniejszych informacji na temat zachowania dynamicznego konstrukcji. Jednakże w przypadku rzeczywistych konstrukcji inżynierskich (np. mosty) trudno jest stworzyć takie kontrolowane warunki. Obiekt musi zostać na czas pomiarów wyłączony z eksploatacji. Okazuje się to często niemożliwe z przyczyn proceduralnych, a na pewno kosztowne. Drugim zasadniczym ryzykiem jest potrzeba stworzenia takiego systemu wymuszenia, które wywoła mierzalną odpowiedź konstrukcji. W przypadku dużych konstrukcji inżynierskich może okazać się to trudne do zrealizowania ponieważ oddziaływania środowiskowe mogą wywoływać efekty oddziaływań porównywalne z kontrolowanym wymuszeniem. OMA praktycznie pozbywa się negatywnych skutków potrzeby kontroli wymuszenia. Badania prowadzone mogą być przy normalnej eksploatacji, a losowe oddziaływania środowiskowe zazwyczaj polepszają jakość wyników. Oczywiście odbywa się to kosztem dokładności rezultatów. Teoretyczne założenia metody są spełnione tylko w sposób przybliżony. Z tego względu serie pomiarowe zwykle muszą trwać znacznie dłużej, a interpretacja wyników wymaga większego doświadczenia.
 
 \textbf{Połączenie obu typów analiz}
+
+Obszerność zagadnień dotyczących analizy teoretycznej i identyfikacji modalnej wypełnia wiele tomów specjalistycznej literatury. Mimo chęci nie sposób przytoczyć je wszystkie z zadowalającą dokładnością. W rozdziale opisano najważniejsze według autora pojęcia których zrozumienie było kluczowe do  przeprowadzenia badań i analiz numerycznych.
 
 \section{Teoretyczna analiza modalna}
 \label{section: eigen}
@@ -330,7 +332,24 @@ gdzie współczynniki $\beta$ i $\gamma$ definiują zmienność przyspieszeń w 
 Metoda numeryczna do wyznaczenia trzech niewiadomych $\vect{\ddot{x}}_{i+1}$, $\vect{\dot{x}}_{i+1}$ i $\vect{x}_{i+1}$ wymaga układu trzech równań macierzowych. Zatem dwa zaproponowane równania \ref{eq: newmark_a} i \ref{eq: newmark_b}, połączone z równaniem równowagi (\ref{eq: motion_time_step}) zapewnionym na końcu kroku czasowego, pozwalają wyznaczyć przemieszczenia, prędkość i przyspieszenia w chwili $t_{i+1}$. Ze względu na występowanie w równaniach (\ref{eq: newmark}) składników w chwili czasowej $i+1$ po obu stronach równania, algorytm musi mieć charakter iteracyjny. Jednakże istnieją modyfikacje równań, które dla układów liniowych pozwalają rozwiązać układ w jednym kroku.
 
 
-\section{Metody doświadczalnej analizy modalnej}
+\section{Operacyjna analiza modalna (OMA)}
+\subsection{Koncepcja OMA}
+W ogólności doświadczalna analiza modalna to proces korelacji charakterystyk dynamicznych modelu matematycznego, z fizycznymi właściwościami systemu opisanego rezultatami pomiarów. Przypomnijmy, że w OMA do procesu estymacji parametrów modalnych używane są tylko pomiary odpowiedzi konstrukcji. Różni ją to od EMA, w której mierzone są zarówno wymuszenia jak i odpowiedź. 
+Fundamentem wszystkich metod OMA jest założenie, że badana struktura obciążona jest wymuszeniem o widmie zbliżonym do białego szumu. Oznacza to, żę energia konstrukcji jest rozłożona w szerokim paśmie częstotliwości, które zawiera wszystkie interesuje badacza mody do identyfikacji. Z oczywistych względów idealne wymuszenie o charakterystyce białego szumu nie jest możliwe. Większość metod radzi sobie z tym brakiem, jednak najważniejsze jest, żeby wszystkie interesujące mody były odpowiednio wzbudzone, tak aby ich wkład był wychwycony przez przyrządy pomiarowe. \cite{Brincker2015} tłumaczą tę koncepcję za pomocą fikcyjnego, kolorowego filtru obciążenia. Zaproponowano, że kolorowe obciążenie może być traktowanego jako wynik obciążenia kolorowego filtru (zgodnego z obciążeniem) przez idealnie biały szum. Udowodniono, że takie podejście nie zmienia fizycznych modów systemu. Należy jednak pamiętać, że metody OMA w tym przypadku dokonają identyfikacji modalnej zarówno struktury fizycznej, jak i filtra obciążenia. Koncepcję zaprezentowano na rysunku \ref{fig: color_filter_oma}. Najważniejszą konsekwencją jest możliwość występowania wśród wyników identyfikacji nie tylko modów związanych z konstrukcją, ale też wynikających z warunków obciążenia. Należy pamiętać również, że pomierzone wartości obarczone są szumem pomiarowym. Nie niesie on żadnej istotnej, fizycznej informacji, ale jest nieunikniony w trakcie rzeczywistych pomiarów. Tak więc wynik identyfikacji zawiera w sobie trzy składowe:
+\begin{itemize}
+	\item parametry modalne związane z drganiami własnymi konstrukcji,
+	\item myślowy filtr obciążenia, kolorujący biały szum do rzeczywistego, nieznanego obciążenia,
+	\item szum pomiarowy.
+\end{itemize} 
+W idealnych warunkach, kiedy filtr obciążenia ma biały kolor, a szum pomiarowy byłby zerowy, OMA zidentyfikuje wyłącznie mody konstrukcji.
+\begin{figure}[h] \label{fig: color_filter_oma}
+	\centering
+	\includegraphics[]{/modal_analysis/filter_coloring.pdf}
+	\captionsetup{justification=centering}
+	\caption{Schemat układu identyfikowanego przez OMA przy koncepcji kolorowego filtru obciążenia}
+\end{figure}
+
+
 
 
 W tej pracy zastosowano następując, klasyczne kryteria podziału metod identyfikacji:

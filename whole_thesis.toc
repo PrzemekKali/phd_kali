@@ -33,7 +33,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Całka Duhamela}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Metoda przejścia do dziedziny częstotliwości}{19}%
+\contentsline {subsubsection}{Metoda przejścia do dziedziny częstotliwości}{20}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Metody numeryczne}{20}%
 \defcounter {refsection}{0}\relax 
@@ -43,34 +43,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Metoda całkowania bezpośredniego równań ruchu - Newmarka}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Metody doświadczalnej analizy modalnej}{24}%
+\contentsline {section}{\numberline {3.3}Operacyjna analiza modalna (OMA)}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Metody analizy modalnej}{24}%
+\contentsline {subsection}{\numberline {3.3.1}Koncepcja OMA}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Metody operacyjnej analizy modalnej}{24}%
+\contentsline {section}{\numberline {3.4}Metody analizy modalnej}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Metoda ERA}{24}%
+\contentsline {section}{\numberline {3.5}Metody operacyjnej analizy modalnej}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Metoda NEXT-ERA}{24}%
+\contentsline {section}{\numberline {3.6}Metoda ERA}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Implementacja programu}{24}%
+\contentsline {section}{\numberline {3.7}Metoda NEXT-ERA}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.9}Testy numeryczne metody NEXT-ERA}{24}%
+\contentsline {section}{\numberline {3.8}Implementacja programu}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.10}Testy eksperymentalne metody NEXT-ERA}{24}%
+\contentsline {section}{\numberline {3.9}Testy numeryczne metody NEXT-ERA}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}{25}%
+\contentsline {section}{\numberline {3.10}Testy eksperymentalne metody NEXT-ERA}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Wprowadzenie: metody optymalizacji w tym ,,nieróżniczkowe''.\\Particle Swarm optimization - opis, przegląd.\\Wielokryterialne PSO - opis przegląd.\\Opis implementacji.}{25}%
+\contentsline {chapter}{\numberline {4}Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}{26}%
+\contentsline {section}{\numberline {4.1}Wprowadzenie: metody optymalizacji w tym ,,nieróżniczkowe''.\\Particle Swarm optimization - opis, przegląd.\\Wielokryterialne PSO - opis przegląd.\\Opis implementacji.}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Budowa modelu numerycznego}{26}%
+\contentsline {chapter}{\numberline {5}Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Badania - identyfikacja modalna: wybór punktów, opis badań, wyniki identyfikacji}{26}%
+\contentsline {section}{\numberline {5.1}Budowa modelu numerycznego}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Kalibracja modelu numerycznego z wykorzystaniem PSO}{27}%
+\contentsline {section}{\numberline {5.2}Badania - identyfikacja modalna: wybór punktów, opis badań, wyniki identyfikacji}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Wielokryterialna optymalizacja modelu: opis + wyniki}{27}%
+\contentsline {section}{\numberline {5.3}Kalibracja modelu numerycznego z wykorzystaniem PSO}{29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Podsumowanie i wnioski}{29}%
+\contentsline {section}{\numberline {5.4}Wielokryterialna optymalizacja modelu: opis + wyniki}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Podsumowanie i wnioski}{31}%

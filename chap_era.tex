@@ -1,7 +1,7 @@
 \chapter{Identyfikacja modalna}
 
 Drgania towarzyszą ludzkości od zawsze. Jakkolwiek trywialnie nie brzmiałoby to zdanie, wibracje występują w naszym otoczeniu przejawiając się często w sposób niepożądany: wywołują dyskomfort użytkowania, są odbierane jako hałas, powodują zjawiska zmęczeniowe czy w skrajnej sytuacji wywołują uszkodzenia i zniszczenia \parencite{Maia1997}. Wciąż postępujący rozwój nauki połączony z komputeryzacją i informatyzacją sprawiają, że używane materiały są coraz wytrzymalsze. Jednocześnie rośnie zapotrzebowanie na coraz większe, spektakularne konstrukcje. Te dwa czynniki połączone ze sobą sprawiają, że zachowanie dynamiczne struktury często decyduje o właściwościach użytkowych i wytrzymałościowych konstrukcji. W odpowiedzi na zapotrzebowanie, w sposób naturalny rozwinęła się dziedzina nauki zajmująca się opisem i modelowaniem zjawisk dynamicznych. Podstawowym narzędziem służącym identyfikacji parametrów modalnych i zachowania dynamicznego jest analiza modalna \teng{modal analysis}. Często Analiza modalna bywa określana jako identyfikacja modalna \teng{modal identification}. \parencite{Zhang2004} w pracy definiuje identyfikacje modalną jako gałąź szerszego pojęcia identyfikacji systemów, a jej celem jest budowa modelu matematycznego systemu dynamicznego poprzez pomiar i analizę zestawu danych wejściowych i wyjściowych. Z kolei \cite{Chmielewski1998} zwięźle precyzuje pojęcie modelu matematycznego dla zagadnień dynamiki budowli jako "równanie lub zbiór równań, które opisują ruch modelu obliczeniowego". \cite{Ewins2000} podaje trzy główne cele przeprowadzania analizy modalnej:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item ocena źródła drgań i ich przebiegu,
 	\item weryfikacja modeli teoretycznych i przewidywanie zjawisk dynamicznych,
 	\item identyfikacja charakterystyk materiałowych ciała poddanego wymuszeniu dynamicznemu (np. tłumienie, tarcie, wytrzymałość zmęczeniowa). 
@@ -9,7 +9,7 @@ Drgania towarzyszą ludzkości od zawsze. Jakkolwiek trywialnie nie brzmiałoby 
 Każdy z powyższych celów może być jedynie środkiem do osiągnięcia zupełnie innego celu. W rzeczywistości tak właśnie jest najczęściej o czym świadczy mnogość aplikacji analizy modalnej w bardzo różnych zagadnieniach dotyczących konstrukcji.
 
 W poniższej pracy tak jak w zdecydowanej większości innych opracowaniach, modele matematyczne będą oparte na trzech głównych zasadach \parencite{Maia1997}:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item system jest liniowy,
 	\item obowiązuje zasada wzajemności Maxwell'a,
 	\item system jest niezależny od czasu.
@@ -144,7 +144,7 @@ Dla układu o $N$ stopniach swobody możemy wyznaczyć $N$ par częstotliwości 
 \end{equation}
 
 W większości przypadków zagadnienie własne jest rozwiązywane numerycznie za pomocą maszyn cyfrowych. Metody numeryczne wykorzystują iteracyjne algorytmy do rozwiązania zagadnienia własnego. \cite{Chopra2012a} definiuje trzy główne kategorie algorytmów: 
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Metody iteracji wektora wykorzystujące właściwości równania (\ref{eq: char_equation3}),
 	\item Metody transformacyjne korzystające z ortogonalności wektorów własnych,
 	\item Metody iteracyjne wykorzystujące równanie charakterystyczne (\ref{eq: char_equation_det}).
@@ -197,7 +197,7 @@ Przegląd metod pozwalających wyznaczyć odpowiedź konstrukcji poddanej wymusz
 	m\ddot{x}+c\dot{x}+k{x}=f(t)
 \end{equation}
 Dla tak sformułowanego problemu istnieją cztery podstawowe metody wyznaczenia odpowiedzi dynamicznej:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item klasyczne rozwiązanie równań różniczkowych,
 	\item wykorzystanie całki Duhamela,
 	\item rozwiązanie w dziedzinie częstotliwości,
@@ -228,13 +228,13 @@ Zastosowanie powyższych trzech metody wyznaczania odpowiedzi dynamicznej ograni
 Stworzono wiele metod i algorytmów numerycznych służących skutecznemu rozwiązaniu równań ruchu. Powstało również wiele pozycji traktujących o tym zagadnieniu (LITERATRA). Z tego względu przytoczono tylko podstawowe pojęcia i założenia dotyczące istoty rozwiązań numerycznych.
 
 Metody numeryczne w głównej mierze opierają się na mechanizmie kroku czasowego \teng{time-step} (p. \ref{section: mdof_response}). Zwykle nie jest to rozwiązanie ścisłe. Metody dostarczają jedynie przybliżonych rozwiązań, dlatego też muszą spełniać następujące kryteria:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item zbieżności \teng{convergence} - wraz ze zmniejszeniem kroku czasowego, rozwiązanie powinno zmierzać do rozwiązania dokładnego,
 	\item stabilności \teng{stability} - rozwiązanie powinno być stabilne pomimo występowania błędów zaokrągleń,
 	\item dokładności \teng{accuracy} - rozwiązanie powinno być dostatecznie bliskie rozwiązanie dokładnego.
 \end{itemize}
 Wśród metod numerycznych, które okazały się skuteczne w rozwiązaniach problemów możemy wyróżnić trzy główne:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item metoda interpolacji funkcji wymuszającej,
 \item metoda różnic skończonych,
 \item metoda średniego lub liniowego przyspieszenia w przedziale różnicowym, oparte na metodzie Newmark'a.
@@ -325,10 +325,10 @@ Rodzina metod numerycznych opartych na koncepcji kroku czasowego została rozwin
 	\end{align}
 \end{subequations}
 gdzie współczynniki $\beta$ i $\gamma$ definiują zmienność przyspieszeń w trakcie kroku czasowego i istotnie wpływają na stabilność i dokładność metody. Ze względu na oba te warunki, przy braku modyfikacji algorytmu, parametry powinny mieć następujące wartości: $\gamma = \frac{1}{2}$, a $ \frac{1}{6}\leq \beta \leq \frac{1}{4}$. Na skrajach zalecanego przedziału wartości parametru $\beta$ występują dwa przypadki szczególne, w których przyspieszenie ma określony charakter w kroku czasowym:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item przyspieszenie stałe - $\gamma = \frac{1}{2},\: \beta = \frac{1}{4}$
 	\item przyspieszenie zmienne liniowo - $\gamma = \frac{1}{2},\: \beta = \frac{1}{6}$
-\end{itemize}
+\end{itemize}[noitemsep]
 Metoda numeryczna do wyznaczenia trzech niewiadomych $\vect{\ddot{x}}_{i+1}$, $\vect{\dot{x}}_{i+1}$ i $\vect{x}_{i+1}$ wymaga układu trzech równań macierzowych. Zatem dwa zaproponowane równania \ref{eq: newmark_a} i \ref{eq: newmark_b}, połączone z równaniem równowagi (\ref{eq: motion_time_step}) zapewnionym na końcu kroku czasowego, pozwalają wyznaczyć przemieszczenia, prędkość i przyspieszenia w chwili $t_{i+1}$. Ze względu na występowanie w równaniach (\ref{eq: newmark}) składników w chwili czasowej $i+1$ po obu stronach równania, algorytm musi mieć charakter iteracyjny. Jednakże istnieją modyfikacje równań, które dla układów liniowych pozwalają rozwiązać układ w jednym kroku.
 
 
@@ -336,7 +336,7 @@ Metoda numeryczna do wyznaczenia trzech niewiadomych $\vect{\ddot{x}}_{i+1}$, $\
 \subsection{Koncepcja OMA}
 W ogólności doświadczalna analiza modalna to proces korelacji charakterystyk dynamicznych modelu matematycznego, z fizycznymi właściwościami systemu opisanego rezultatami pomiarów. Przypomnijmy, że w OMA do procesu estymacji parametrów modalnych używane są tylko pomiary odpowiedzi konstrukcji. Różni ją to od EMA, w której mierzone są zarówno wymuszenia jak i odpowiedź. 
 Fundamentem wszystkich metod OMA jest założenie, że badana struktura obciążona jest wymuszeniem o widmie zbliżonym do białego szumu. Oznacza to, żę energia konstrukcji jest rozłożona w szerokim paśmie częstotliwości, które zawiera wszystkie interesuje badacza mody do identyfikacji. Z oczywistych względów idealne wymuszenie o charakterystyce białego szumu nie jest możliwe. Większość metod radzi sobie z tym brakiem, jednak najważniejsze jest, żeby wszystkie interesujące mody były odpowiednio wzbudzone, tak aby ich wkład był wychwycony przez przyrządy pomiarowe. \cite{Brincker2015} tłumaczą tę koncepcję za pomocą fikcyjnego, kolorowego filtru obciążenia. Zaproponowano, że kolorowe obciążenie może być traktowanego jako wynik obciążenia kolorowego filtru (zgodnego z obciążeniem) przez idealnie biały szum. Udowodniono, że takie podejście nie zmienia fizycznych modów systemu. Należy jednak pamiętać, że metody OMA w tym przypadku dokonają identyfikacji modalnej zarówno struktury fizycznej, jak i filtra obciążenia. Koncepcję zaprezentowano na rysunku \ref{fig: color_filter_oma}. Najważniejszą konsekwencją jest możliwość występowania wśród wyników identyfikacji nie tylko modów związanych z konstrukcją, ale też wynikających z warunków obciążenia. Należy pamiętać również, że pomierzone wartości obarczone są szumem pomiarowym. Nie niesie on żadnej istotnej, fizycznej informacji, ale jest nieunikniony w trakcie rzeczywistych pomiarów. Tak więc wynik identyfikacji zawiera w sobie trzy składowe:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item parametry modalne związane z drganiami własnymi konstrukcji,
 	\item myślowy filtr obciążenia, kolorujący biały szum do rzeczywistego, nieznanego obciążenia,
 	\item szum pomiarowy.
@@ -350,11 +350,25 @@ W idealnych warunkach, kiedy filtr obciążenia ma biały kolor, a szum pomiarow
 \end{figure}
 
 
+Metody identyfikacji modalnej dzielą się na dwa główne rodzaje związane z wiodącą dziedziną w której są rozwiązywane numerycznie:
+\begin{itemize}[noitemsep]
+	\item metody w dziedzinie czasu \teng{time-domain methods (TDM)},
+	\item metody w dziedzinie częstotliwości \teng{frequency-domain methods (FDM)}.
+\end{itemize}
+Metody w dziedzinie czasu wykorzystują do estymacji funkcje odpowiedzi impulsowej \teng{inpulse response function (IRF)}, natomiast w dziedzinie częstotliwości bazą do identyfikacji są funkcje odpowiedzi częstotliwościowe \teng{frequency-response function (FRF)}. \cite{Maia1997} sugerują, że metody w dziedzinie czasu są z reguły lepszym wyborem w przypadku dużego przedziału interesujących badacza częstotliwości, albo dużej liczby modów w tym zakresie. Natomiast metody w dziedzinie częstotliwości dostarczają lepszych wyników kiedy zakres częstotliwości jest niewielki, a liczba modów relatywnie mała.
 
+Drugie kryterium podziału dotyczy liczby modów, które mogą być analizowane za pomocą danej metody. Podział jest zbliżony do tego dotyczącego teoretycznej analizy modalnej. Metoda może identyfikować albo jeden stopień swobody \teng{single degree-of-freedom} albo wiele stopni swobody \teng{multiple degree-of-freedom}.
+
+Metody TDM i FDM możemy podzielić również na bezpośrednie \teng{direct} i pośrednie \teng{indirect}. Różnica polega na sposobie wyznaczania FRF. Metody bezpośrednie pozwalają wyznaczyć ją bezpośrednio z równania ruchu. Natomiast metody pośrednie estymują FRF na podstawie wcześniej zidentyfikowanego modelu modalnego.
+Ostatnim przyjętym ogólnie kryterium podziału jest liczba punktów poddanych wymuszeniu i mierzonych w trakcie serii pomiarowej. Koresponduje to z liczbą analizowanych jednocześnie przez metodę identyfikacji funkcji FRF. Kiedy mówimy o jednoczesnej analizie tylko jednej funkcji FRF mamy do czynienia z metodą (SISO)  
+
+
+
+Drugim kryterium podziału jest 
 
 W tej pracy zastosowano następując, klasyczne kryteria podziału metod identyfikacji:
 
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item wymaganie dotyczące istnienia dostępnego, rzeczywistego obiektu badawczego,
 	\item liczba mierzonych punktów wymuszenia i odpowiedzi,
 	\item 

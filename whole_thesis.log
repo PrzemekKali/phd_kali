@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.29)  30 AUG 2020 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.29)  30 AUG 2020 21:17
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -999,19 +999,28 @@ Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldlargesymbols=\mathgroup7
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
+)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip79
+\enit@outerparindent=\dimen301
+\enit@toks=\toks42
+\enit@inbox=\box61
+\enit@count@id=\count425
+\enitdp@description=\count426
 ))
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count425
-\@quotereset=\count426
+\@quotelevel=\count427
+\@quotereset=\count428
 
 (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 mode.def
 File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count427
-\l__pdf_internal_box=\box61
+\l__kernel_color_stack_int=\count429
+\l__pdf_internal_box=\box62
 ) (whole_thesis.aux (dictionary.aux) (chap_era.aux))
 \openout1 = `whole_thesis.aux'.
 
@@ -1186,17 +1195,17 @@ Package biblatex Info: Reference segment=0 on input line 5.
 (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count428
-\scratchdimen=\dimen301
-\scratchbox=\box62
-\nofMPsegments=\count429
-\nofMParguments=\count430
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count431
-\MPscratchDim=\dimen302
-\MPnumerator=\count432
-\makeMPintoPDFobject=\count433
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count430
+\scratchdimen=\dimen302
+\scratchbox=\box63
+\nofMPsegments=\count431
+\nofMParguments=\count432
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count433
+\MPscratchDim=\dimen303
+\MPnumerator=\count434
+\makeMPintoPDFobject=\count435
+\everyMPtoPDFconversion=\toks44
 )
 (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1405,38 +1414,41 @@ alysis/schemat_theory_exper_b.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-[14] [15] [16] [17] [18] [19] [20]
+[14] [15] [16] [17] [18] [19]
 Overfull \hbox (1.62227pt too wide) in paragraph at lines 240--241
 []\OT4/cmr/m/n/12 metoda ±red-niego lub li-nio-wego przy-spie-sze-nia w prze-dz
 iale ró»-ni-co-wym, oparte
  []
 
-[21]
+[20]
 
-LaTeX Warning: Reference `eq: superposition_modal_1' on page 22 undefined on in
+LaTeX Warning: Reference `eq: superposition_modal_1' on page 21 undefined on in
 put line 264.
 
-[22] [23]
+[21] [22]
 
 Package caption Warning: \label without proper reference on input line 345.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig: color_filter_oma' on page 24 undefined on input 
+LaTeX Warning: Reference `fig: color_filter_oma' on page 23 undefined on input 
 line 338.
 
-[24]
+[23]
 
 pdfTeX warning: pdflatex.exe (file ./figures//modal_analysis/filter_coloring.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures//modal_analysis/filter_coloring.pdf, id=239, 426.98572pt x 159.69682
+<./figures//modal_analysis/filter_coloring.pdf, id=236, 426.98572pt x 159.69682
 pt>
 File: ./figures//modal_analysis/filter_coloring.pdf Graphic file (type pdf)
 <use ./figures//modal_analysis/filter_coloring.pdf>
 Package pdftex.def Info: ./figures//modal_analysis/filter_coloring.pdf  used on
  input line 347.
 (pdftex.def)             Requested size: 426.98466pt x 159.69643pt.
-[25 <./figures//modal_analysis/filter_coloring.pdf>]) [26]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24]) [25 <./figures//modal_analysis/filter_coloring.pdf>] [26]
 Rozdzia\l  4.
 [27
 
@@ -1515,25 +1527,25 @@ ion: multiple pdfs with page group included in a single page
 >]
 Rozdzia\l  6.
 
-Overfull \hbox (100.38716pt too wide) in paragraph at lines 121--122
+Overfull \hbox (100.38716pt too wide) in paragraph at lines 124--125
 \OT4/cmr/m/n/12 dowe. Wska-zówka do okre-±le-nia sta-cjo-nar-no-±ci { je-±li wa
 r-to-±ci s¡ pra-wie staªe. ([];
  []
 
 
-Overfull \hbox (45.45857pt too wide) in paragraph at lines 127--128
+Overfull \hbox (45.45857pt too wide) in paragraph at lines 130--131
 []\OT4/cmr/m/n/12 Blisko po-ªo-»one piki { zmniej-sze-nie cz¦-sto-tli-wo-±ci pr
 ób-ko-wa-nia ([]) 
  []
 
 
-Overfull \hbox (72.518pt too wide) in paragraph at lines 133--134
+Overfull \hbox (72.518pt too wide) in paragraph at lines 136--137
 \OT4/cmr/m/n/12 a cz¦-sto-tli-wo±¢ prób-ko-wa-nia jest równa cz¦-sto-tli-wo-±ci
  u»y-tych sy-gna-ªów ([]) 
  []
 
 
-Overfull \hbox (142.49359pt too wide) in paragraph at lines 148--149
+Overfull \hbox (142.49359pt too wide) in paragraph at lines 151--152
 []\OT4/cmr/m/n/12 ; []; []; [])
  []
 
@@ -1541,22 +1553,22 @@ Overfull \hbox (142.49359pt too wide) in paragraph at lines 148--149
 
 ]
 LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 
-153.
+156.
  (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 ) [32]
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
-176.
+179.
  (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-Overfull \hbox (2.78679pt too wide) in paragraph at lines 177--177
+Overfull \hbox (2.78679pt too wide) in paragraph at lines 180--180
 [][]\OT4/cmr/m/n/12 Clough, Ray W i Jo-seph Pen-zien (1975). \OT4/cmr/m/it/12 D
 y-na-mics of struc-tu-res\OT4/cmr/m/n/12 . New York: McGraw-
  []
 
 
-Overfull \hbox (17.09633pt too wide) in paragraph at lines 177--177
+Overfull \hbox (17.09633pt too wide) in paragraph at lines 180--180
 [][]\OT4/cmr/m/n/12 Fialko, Ser-gey (2000). ``High-preformance ag-gre-ga-tion e
 lement-by-element Ritz-gradient
  []
@@ -1567,7 +1579,7 @@ lement-by-element Ritz-gradient
 ! Misplaced alignment tab character &.
 <argument> Computers &
                        Structures
-l.177 
+l.180 
       
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1580,18 +1592,25 @@ might try typing `S' now just to see what is salvageable.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33584 strings out of 481212
- 796480 string characters out of 2905973
- 1511083 words of memory out of 3000000
- 48607 multiletter control sequences out of 15000+200000
+ 33903 strings out of 481212
+ 801879 string characters out of 2905973
+ 1519761 words of memory out of 3000000
+ 48922 multiletter control sequences out of 15000+200000
  557783 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,10n,102p,2145b,1784s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,10n,102p,2145b,1794s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\przem\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti
 1200.pk>{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/pltt.e
 nc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plsc.enc}{C
@@ -1624,7 +1643,7 @@ Local/Programs/MiKTeX/fonts/type1/public/pl/plsy6.pfb><C:/Users/przem/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/pl/plsy8.pfb><C:/Users/przem/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/pl/plti12.pfb><C:/Users/przem/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/pl/pltt12.pfb>
-Output written on whole_thesis.pdf (34 pages, 933032 bytes).
+Output written on whole_thesis.pdf (34 pages, 933888 bytes).
 PDF statistics:
  427 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

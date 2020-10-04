@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.29)  30 AUG 2020 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.29)  31 AUG 2020 10:37
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -1448,7 +1448,10 @@ Package pdftex.def Info: ./figures//modal_analysis/filter_coloring.pdf  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24]) [25 <./figures//modal_analysis/filter_coloring.pdf>] [26]
+[24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./figures//modal_analysis/filter_coloring.pdf>]) [26]
 Rozdzia\l  4.
 [27
 
@@ -1592,13 +1595,6 @@ might try typing `S' now just to see what is salvageable.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
@@ -1643,7 +1639,7 @@ Local/Programs/MiKTeX/fonts/type1/public/pl/plsy6.pfb><C:/Users/przem/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/pl/plsy8.pfb><C:/Users/przem/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/pl/plti12.pfb><C:/Users/przem/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/pl/pltt12.pfb>
-Output written on whole_thesis.pdf (34 pages, 933888 bytes).
+Output written on whole_thesis.pdf (34 pages, 934508 bytes).
 PDF statistics:
  427 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

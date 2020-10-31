@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.29)  4 OCT 2020 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.29)  31 OCT 2020 23:30
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -1425,16 +1425,7 @@ iale rÛª-ni-co-wym, oparte
 LaTeX Warning: Reference `eq: superposition_modal_1' on page 21 undefined on in
 put line 264.
 
-[21] [22]
-
-Package caption Warning: \label without proper reference on input line 345.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig: color_filter_oma' on page 23 undefined on input 
-line 338.
-
-[23]
+[21] [22] [23]
 
 pdfTeX warning: pdflatex.exe (file ./figures//modal_analysis/filter_coloring.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
@@ -1448,28 +1439,29 @@ Package pdftex.def Info: ./figures//modal_analysis/filter_coloring.pdf  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25 <./figures//modal_analysis/filter_coloring.pdf>]) [26]
+[24] [25 <./figures//modal_analysis/filter_coloring.pdf>] [26] [27]
 Rozdzia\l  4.
-[27
-
+) [28
 
 ]
 Rozdzia\l  5.
+[29
+
+
+]
+Rozdzia\l  6.
 
 Overfull \hbox (1.00836pt too wide) in paragraph at lines 77--77
 []\OT4/cmr/bx/n/17.28 Badania - iden-ty-fi-ka-cja mo-dalna: wy-bÛr punk-
  []
 
-<./figures/correlogram_badania.pdf, id=263, 371.16034pt x 211.38443pt>
+<./figures/correlogram_badania.pdf, id=269, 371.16034pt x 211.38443pt>
 File: ./figures/correlogram_badania.pdf Graphic file (type pdf)
 <use ./figures/correlogram_badania.pdf>
 Package pdftex.def Info: ./figures/correlogram_badania.pdf  used on input line 
 81.
 (pdftex.def)             Requested size: 426.79134pt x 243.06761pt.
-<./figures/diagram_non_filtered.pdf, id=264, 440.38524pt x 219.34402pt>
+<./figures/diagram_non_filtered.pdf, id=270, 440.38524pt x 219.34402pt>
 File: ./figures/diagram_non_filtered.pdf Graphic file (type pdf)
 <use ./figures/diagram_non_filtered.pdf>
 Package pdftex.def Info: ./figures/diagram_non_filtered.pdf  used on input line
@@ -1480,7 +1472,7 @@ Overfull \hbox (13.59282pt too wide) in paragraph at lines 87--89
  [][] 
  []
 
-<./figures/diagram_filtered2.pdf, id=265, 440.38524pt x 219.34402pt>
+<./figures/diagram_filtered2.pdf, id=271, 440.38524pt x 219.34402pt>
 File: ./figures/diagram_filtered2.pdf Graphic file (type pdf)
 <use ./figures/diagram_filtered2.pdf>
 Package pdftex.def Info: ./figures/diagram_filtered2.pdf  used on input line 93
@@ -1491,7 +1483,7 @@ Overfull \hbox (13.59282pt too wide) in paragraph at lines 93--95
  [][] 
  []
 
-<./figures/identified_mode_1.pdf, id=266, 248.40805pt x 248.40805pt>
+<./figures/identified_mode_1.pdf, id=272, 248.40805pt x 248.40805pt>
 File: ./figures/identified_mode_1.pdf Graphic file (type pdf)
 <use ./figures/identified_mode_1.pdf>
 Package pdftex.def Info: ./figures/identified_mode_1.pdf  used on input line 99
@@ -1509,26 +1501,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 2680) has occurred while \output is active []
 
- [28
+ [30
 
  <./figures/correlogram_badania.pdf>]
 Overfull \hbox (5.47784pt too wide) has occurred while \output is active
-\OT4/cmr/m/sl/12 5.3.  KALIBRACJA MODELU NUMERYCZNEGO Z WYKORZYSTANIEM PSO \OT4
-/cmr/m/n/12 29
+\OT4/cmr/m/sl/12 6.3.  KALIBRACJA MODELU NUMERYCZNEGO Z WYKORZYSTANIEM PSO \OT4
+/cmr/m/n/12 31
  []
 
-[29 <./figures/diagram_non_filtered.pdf>]
+[31 <./figures/diagram_non_filtered.pdf>]
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 30 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+\OT4/cmr/m/n/12 32 \OT4/cmr/m/sl/12 ROZDZIAä 6.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[30 <./figures/diagram_filtered2.pdf> <./figures/identified_mode_1.pdf
+[32 <./figures/diagram_filtered2.pdf> <./figures/identified_mode_1.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/identified_mode_1.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-Rozdzia\l  6.
+Rozdzia\l  7.
 
 Overfull \hbox (100.38716pt too wide) in paragraph at lines 124--125
 \OT4/cmr/m/n/12 dowe. Wska-zÛwka do okre-±le-nia sta-cjo-nar-no-±ci { je-±li wa
@@ -1552,14 +1544,14 @@ Overfull \hbox (142.49359pt too wide) in paragraph at lines 151--152
 []\OT4/cmr/m/n/12 ; []; []; [])
  []
 
-[31
+[33
 
 ]
 LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 
 156.
  (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-) [32]
+) [34]
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
 179.
  (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmtt.fd
@@ -1576,22 +1568,15 @@ Overfull \hbox (17.09633pt too wide) in paragraph at lines 180--180
 lement-by-element Ritz-gradient
  []
 
-[33
+[35
 
 ]
-! Misplaced alignment tab character &.
-<argument> Computers &
-                       Structures
-l.180 
-      
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Overfull \hbox (24.0837pt too wide) in paragraph at lines 180--180
+\OT4/cmtt/m/n/12 http : / / files / 155 / Juang % 20i % 20Suzuki % 20 -[] %2019
+88 % 20 -[] %20An % 20eigensystem %
+ []
 
-[34] (whole_thesis.aux (dictionary.aux) (chap_era.aux))
+[36] [37] (whole_thesis.aux (dictionary.aux) (chap_era.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1600,13 +1585,13 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33903 strings out of 481212
- 801879 string characters out of 2905973
- 1519761 words of memory out of 3000000
- 48922 multiletter control sequences out of 15000+200000
+ 34011 strings out of 481212
+ 804739 string characters out of 2905973
+ 1521007 words of memory out of 3000000
+ 49030 multiletter control sequences out of 15000+200000
  557783 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,10n,102p,2145b,1794s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,10n,102p,2145b,2731s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\przem\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti
 1200.pk>{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/pltt.e
 nc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plsc.enc}{C
@@ -1639,9 +1624,9 @@ Local/Programs/MiKTeX/fonts/type1/public/pl/plsy6.pfb><C:/Users/przem/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/pl/plsy8.pfb><C:/Users/przem/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/pl/plti12.pfb><C:/Users/przem/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/pl/pltt12.pfb>
-Output written on whole_thesis.pdf (34 pages, 934516 bytes).
+Output written on whole_thesis.pdf (37 pages, 949006 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
+ 439 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

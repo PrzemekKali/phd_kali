@@ -47,8 +47,51 @@
       \field{title}{{Finite element procedures}}
       \field{year}{2006}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2006_Bathe_Finite element procedures.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Bathe - 2006 - Finite element procedures.pdf:pdf
       \endverb
+    \endentry
+    \entry{Brincker2001b}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=df9b403f49896f79fad5822bff520a57}{%
+           family={Brincker},
+           familyi={B\bibinitperiod},
+           given={Rune},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=d2605b601fc5776e2b99537e2241f52b}{%
+           family={Ventura},
+           familyi={V\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=2526b2c7392016b6b5268e754820fafe}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={Palle},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Orlando, FL, USA}%
+      }
+      \strng{namehash}{2f13c5b1f4dd7f0b9311d3308a1be3da}
+      \strng{fullhash}{2f13c5b1f4dd7f0b9311d3308a1be3da}
+      \strng{bibnamehash}{2f13c5b1f4dd7f0b9311d3308a1be3da}
+      \strng{authorbibnamehash}{2f13c5b1f4dd7f0b9311d3308a1be3da}
+      \strng{authornamehash}{2f13c5b1f4dd7f0b9311d3308a1be3da}
+      \strng{authorfullhash}{2f13c5b1f4dd7f0b9311d3308a1be3da}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 19th international modal analysis conference (IMAC)}
+      \field{title}{{Damping estimation by frequency domain decomposition}}
+      \field{volume}{1}
+      \field{year}{2001}
+      \field{pages}{698\bibrangedash 703}
+      \range{pages}{6}
     \endentry
     \entry{Brincker2015}{book}{}
       \name{author}{2}{}{%
@@ -58,12 +101,12 @@
            given={Rune},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=742412b722cd5f85d50773bd1ce30918}{%
+        {{un=1,uniquepart=given,hash=742412b722cd5f85d50773bd1ce30918}{%
            family={Ventura},
            familyi={V\bibinitperiod},
            given={Carlos\bibnamedelima E.},
            giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{language}{1}{%
         {English}%
@@ -98,9 +141,94 @@
       \verb 10.1002/9781118535141
       \endverb
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2015_Brincker, Ventura_Introduction to Operational Modal Analysis.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Brincker, Ventura - 2015 - Introduction to Operational Modal Analysis.pdf:pdf
       \endverb
       \keyw{Modal analysis,SCIENCE / Mechanics / General,Structural analysis (Engineering)}
+    \endentry
+    \entry{Brincker2000}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=df9b403f49896f79fad5822bff520a57}{%
+           family={Brincker},
+           familyi={B\bibinitperiod},
+           given={Rune},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3aed92084155d1c9b4b8a70af7f7d618}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lingmi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcdbdde49c3947e9ff96400800a5894d}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1bbdb05256c6547e836343aa316e20b1}
+      \strng{fullhash}{1bbdb05256c6547e836343aa316e20b1}
+      \strng{bibnamehash}{1bbdb05256c6547e836343aa316e20b1}
+      \strng{authorbibnamehash}{1bbdb05256c6547e836343aa316e20b1}
+      \strng{authornamehash}{1bbdb05256c6547e836343aa316e20b1}
+      \strng{authorfullhash}{1bbdb05256c6547e836343aa316e20b1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. of the 18*‘International Modal Analysis Conference (IMAC), San Antonio, Texas}
+      \field{title}{{Modal identiﬁcation from ambient responses using frequency domain decomposition}}
+      \field{year}{2000}
+    \endentry
+    \entry{Brincker2001a}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=df9b403f49896f79fad5822bff520a57}{%
+           family={Brincker},
+           familyi={B\bibinitperiod},
+           given={Rune},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3aed92084155d1c9b4b8a70af7f7d618}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lingmi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=2526b2c7392016b6b5268e754820fafe}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={Palle},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{b9e60855c1918c600fd668fc071e19ec}
+      \strng{fullhash}{b9e60855c1918c600fd668fc071e19ec}
+      \strng{bibnamehash}{b9e60855c1918c600fd668fc071e19ec}
+      \strng{authorbibnamehash}{b9e60855c1918c600fd668fc071e19ec}
+      \strng{authornamehash}{b9e60855c1918c600fd668fc071e19ec}
+      \strng{authorfullhash}{b9e60855c1918c600fd668fc071e19ec}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0964-1726}
+      \field{journaltitle}{Smart materials and structures}
+      \field{number}{3}
+      \field{title}{{Modal identification of output-only systems using frequency domain decomposition}}
+      \field{volume}{10}
+      \field{year}{2001}
+      \field{pages}{441}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C\:/Users/przem/Desktop/2005_IOMAC_OMA_PolyMAX.pdf:pdf
+      \endverb
     \endentry
     \entry{Caughey1961}{article}{}
       \name{author}{2}{}{%
@@ -141,7 +269,7 @@
       \field{pages}{1458\bibrangedash 1461}
       \range{pages}{4}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1961_Caughey, O'kelly_Effect of damping on the natural frequencies of linear dynamic systems.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Caughey, O'kelly - 1961 - Effect of damping on the natural frequencies of linear dynamic systems.pdf:pdf
       \endverb
     \endentry
     \entry{Chmielewski1998}{book}{}
@@ -217,7 +345,7 @@
       \field{pages}{944}
       \range{pages}{1}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop//2012_Chopra_Dynamics of structures theory and applications to earthquake engineering.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Chopra - 2012 - Numerical Evaluation of Dynamic Response.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://files/681/Chopra - 2012 - Dynamics of structures theory and applications to.pdf
@@ -267,7 +395,7 @@
       \field{pages}{634}
       \range{pages}{1}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop//1975_Clough, Penzien_Dynamics of structures.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Clough, Penzien - 1975 - Dynamics of structures.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://files/103/Clough i Penzien - 1975 - Dynamics of structures.pdf
@@ -309,9 +437,78 @@
       \field{title}{{Modal testing: theory, practice and application}}
       \field{year}{2000}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2000_Ewins_Modal testing theory, practice and application.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Ewins - 2000 - Modal testing theory, practice and application.pdf:pdf
       \endverb
       \keyw{Mechanische Schwingung,Modalanalyse,Structural dynamics -- Mathematical models,Vibration -- Mathematical models,Vibra{ç}{õ}es (modelos matem{á}ticos)}
+    \endentry
+    \entry{Extractor1999}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=852303a4472820c8f8ae9c56fa4ee483}{%
+           family={{Extractor ARTeMIS}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{852303a4472820c8f8ae9c56fa4ee483}
+      \strng{fullhash}{852303a4472820c8f8ae9c56fa4ee483}
+      \strng{bibnamehash}{852303a4472820c8f8ae9c56fa4ee483}
+      \strng{authorbibnamehash}{852303a4472820c8f8ae9c56fa4ee483}
+      \strng{authornamehash}{852303a4472820c8f8ae9c56fa4ee483}
+      \strng{authorfullhash}{852303a4472820c8f8ae9c56fa4ee483}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Aalborg, Denmark}
+      \field{title}{{Structural vibration solutions}}
+      \field{year}{1999}
+    \endentry
+    \entry{Felber1994}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c9b0e75d45df26524c9101a17258a8a}{%
+           family={Felber},
+           familyi={F\bibinitperiod},
+           given={Andreas\bibnamedelima Johann},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {THE UNIVERSITY OF BRITISH COLUMBIA}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {University of British Columbia}%
+      }
+      \strng{namehash}{6c9b0e75d45df26524c9101a17258a8a}
+      \strng{fullhash}{6c9b0e75d45df26524c9101a17258a8a}
+      \strng{bibnamehash}{6c9b0e75d45df26524c9101a17258a8a}
+      \strng{authorbibnamehash}{6c9b0e75d45df26524c9101a17258a8a}
+      \strng{authornamehash}{6c9b0e75d45df26524c9101a17258a8a}
+      \strng{authorfullhash}{6c9b0e75d45df26524c9101a17258a8a}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There is an increasing need to verify analytical dynamic models used for the seismic evaluation of existing bridges. During a retrofit evaluation, analytical models are created to predict the bridge response and damage levels due to seismic loading. These models should be verified so damage levels can be determined more confidently. Currently experimental studies are only occasionally performed on existing structures to verify analytical models because existing testing methods are toocostly, require traffic shutdowns, and do not deliver results quickly enough for routine use.}
+      \field{number}{April}
+      \field{title}{{Development of a hybrid bridge evaluation system}}
+      \field{type}{phdthesis}
+      \field{year}{1994}
+      \field{pages}{297}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Felber - 2005 - DEVELOPMENT OF A HYBRID BRIDGE EVALUATION SYSTEM.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/433/Felber - DEVELOPMENT OF A HYBRID BRIDGE EVALUATION SYSTEM.pdf http://files/436/Felber - DEVELOPMENT OF A HYBRID BRIDGE EVALUATION SYSTEM.pdf
+      \endverb
+      \verb{url}
+      \verb http://files/433/Felber%20-%20DEVELOPMENT%20OF%20A%20HYBRID%20BRIDGE%20EVALUATION%20SYSTEM.pdf%20http://files/436/Felber%20-%20DEVELOPMENT%20OF%20A%20HYBRID%20BRIDGE%20EVALUATION%20SYSTEM.pdf
+      \endverb
     \endentry
     \entry{Fialko2000}{article}{}
       \name{author}{1}{}{%
@@ -342,6 +539,53 @@
       \field{year}{2000}
       \field{pages}{537\bibrangedash 550}
       \range{pages}{14}
+    \endentry
+    \entry{Giorcelli1994}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b42ff2d00bf10a934c38c137e39e6f1d}{%
+           family={Giorcelli},
+           familyi={G\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c152431bc0ed2326c56a6925029d9a78}{%
+           family={Garibaldi},
+           familyi={G\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9da48255f874f3ab78426d3f7f4b45e}{%
+           family={Fasana},
+           familyi={F\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d59e2991ee2e3b817578bc5fae9c341b}{%
+           family={Riva},
+           familyi={R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21b8597175bd91b536d695f8700f45e0}
+      \strng{fullhash}{1106b363533d1a19c79761a27baee8b1}
+      \strng{bibnamehash}{21b8597175bd91b536d695f8700f45e0}
+      \strng{authorbibnamehash}{21b8597175bd91b536d695f8700f45e0}
+      \strng{authornamehash}{21b8597175bd91b536d695f8700f45e0}
+      \strng{authorfullhash}{1106b363533d1a19c79761a27baee8b1}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SPIE}
+      \field{isbn}{0277-786X}
+      \field{title}{{Modal Analysis and system identification using ARMAV models}}
+      \field{volume}{2251}
+      \field{year}{1994}
+      \field{pages}{676}
+      \range{pages}{1}
     \endentry
     \entry{Golub2013}{article}{}
       \name{author}{2}{}{%
@@ -374,8 +618,34 @@
       \field{title}{{Matrix computations, 4th}}
       \field{year}{2013}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2013_Golub, Van Loan_Matrix computations, 4th.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Golub, Van Loan - 2013 - Matrix computations, 4th.pdf:pdf
       \endverb
+    \endentry
+    \entry{Huang2000}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ac1a884def3e3d1adcda11ad76049147}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={C\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac1a884def3e3d1adcda11ad76049147}
+      \strng{fullhash}{ac1a884def3e3d1adcda11ad76049147}
+      \strng{bibnamehash}{ac1a884def3e3d1adcda11ad76049147}
+      \strng{authorbibnamehash}{ac1a884def3e3d1adcda11ad76049147}
+      \strng{authornamehash}{ac1a884def3e3d1adcda11ad76049147}
+      \strng{authorfullhash}{ac1a884def3e3d1adcda11ad76049147}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{12th World Conference on Earthquake Engineering, Auckland, New Zealand, paper}
+      \field{number}{1702}
+      \field{title}{{Modal identification of structures using ARMAV model for ambient vibration measurement}}
+      \field{year}{2000}
     \endentry
     \entry{Hughes1987}{book}{}
       \name{author}{1}{}{%
@@ -407,11 +677,46 @@
       \field{title}{{The Finite Element Method: Linear Static and Dynamic Finite Element Analysis}}
       \field{year}{1987}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1987_Hughes_The Finite Element Method Linear Static and Dynamic Finite Element Analysis.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Hughes - 1987 - The Finite Element Method Linear Static and Dynamic Finite Element Analysis.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Ibrahim1983}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=db8f1312f474d23f0bfc121b1fa39906}{%
+           family={Ibrahim},
+           familyi={I\bibinitperiod},
+           given={Samir\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{db8f1312f474d23f0bfc121b1fa39906}
+      \strng{fullhash}{db8f1312f474d23f0bfc121b1fa39906}
+      \strng{bibnamehash}{db8f1312f474d23f0bfc121b1fa39906}
+      \strng{authorbibnamehash}{db8f1312f474d23f0bfc121b1fa39906}
+      \strng{authornamehash}{db8f1312f474d23f0bfc121b1fa39906}
+      \strng{authorfullhash}{db8f1312f474d23f0bfc121b1fa39906}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the American Control Conference}
+      \field{issn}{07431619}
+      \field{title}{{TIME DOMAIN MODAL PARAMETER IDENTIFICATION AND MODELING OF STRUCTURES.}}
+      \field{volume}{3}
+      \field{year}{1983}
+      \field{pages}{989\bibrangedash 996}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.23919/acc.1983.4788259
       \endverb
     \endentry
     \entry{Inman1995}{inproceedings}{}
-      \name{author}{3}{}{%
+      \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=26a229af3cb54093613e2fa7b30d3298}{%
            family={Inman},
            familyi={I\bibinitperiod},
@@ -424,22 +729,16 @@
            given={Gerard},
            giveni={G\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=26a229af3cb54093613e2fa7b30d3298}{%
-           family={Inman},
-           familyi={I\bibinitperiod},
-           given={Daniel\bibnamedelima J},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{564aa9d33e513ed7d3ee27429625a901}
-      \strng{fullhash}{564aa9d33e513ed7d3ee27429625a901}
-      \strng{bibnamehash}{564aa9d33e513ed7d3ee27429625a901}
-      \strng{authorbibnamehash}{564aa9d33e513ed7d3ee27429625a901}
-      \strng{authornamehash}{564aa9d33e513ed7d3ee27429625a901}
-      \strng{authorfullhash}{564aa9d33e513ed7d3ee27429625a901}
+      \strng{namehash}{58eff64bc6f391476caee8145c40c496}
+      \strng{fullhash}{58eff64bc6f391476caee8145c40c496}
+      \strng{bibnamehash}{58eff64bc6f391476caee8145c40c496}
+      \strng{authorbibnamehash}{58eff64bc6f391476caee8145c40c496}
+      \strng{authornamehash}{58eff64bc6f391476caee8145c40c496}
+      \strng{authorfullhash}{58eff64bc6f391476caee8145c40c496}
       \field{sortinit}{I}
       \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
       \field{extradatescope}{labelyear}
@@ -454,13 +753,97 @@
       \field{pages}{7}
       \range{pages}{1}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop//1995_Inman, Lallement, Inman_A TUTORIAL ON COMPLEX EIGENVALUES.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Inman, Lallement - 1995 - A TUTORIAL ON COMPLEX EIGENVALUES.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://files/1095/Lallement i Inman - A TUTORIAL ON COMPLEX EIGENVALUES.pdf
       \endverb
       \verb{url}
       \verb http://files/1095/Lallement%20i%20Inman%20-%20A%20TUTORIAL%20ON%20COMPLEX%20EIGENVALUES.pdf
+      \endverb
+    \endentry
+    \entry{Juang1988}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=382cceeb3a0bb5df8ac96b154c665b6a}{%
+           family={Juang},
+           familyi={J\bibinitperiod},
+           given={J-N},
+           giveni={J\bibinithyphendelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58f0a358a8c5aa1775716a83caed90d4}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Hideto},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2634ce0a8e62d6cb31a9e1ea87b2b6ae}
+      \strng{fullhash}{2634ce0a8e62d6cb31a9e1ea87b2b6ae}
+      \strng{bibnamehash}{2634ce0a8e62d6cb31a9e1ea87b2b6ae}
+      \strng{authorbibnamehash}{2634ce0a8e62d6cb31a9e1ea87b2b6ae}
+      \strng{authornamehash}{2634ce0a8e62d6cb31a9e1ea87b2b6ae}
+      \strng{authorfullhash}{2634ce0a8e62d6cb31a9e1ea87b2b6ae}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0739-3717}
+      \field{journaltitle}{Journal of vibration, acoustics, stress, and reliability in design}
+      \field{number}{1}
+      \field{title}{{An eigensystem realization algorithm in frequency domain for modal parameter identification}}
+      \field{volume}{110}
+      \field{year}{1988}
+      \field{pages}{24\bibrangedash 29}
+      \range{pages}{6}
+      \verb{file}
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Juang, Suzuki - 1988 - An eigensystem realization algorithm in frequency domain for modal parameter identification.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/155/Juang i Suzuki - 1988 - An eigensystem realization algorithm in frequency .pdf
+      \endverb
+      \verb{url}
+      \verb http://files/155/Juang%20i%20Suzuki%20-%201988%20-%20An%20eigensystem%20realization%20algorithm%20in%20frequency%20.pdf
+      \endverb
+    \endentry
+    \entry{Juang1985}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=e82210292dc91328d84c64ae5b37c6a7}{%
+           family={Juang},
+           familyi={J\bibinitperiod},
+           given={Jer-Nan},
+           giveni={J\bibinithyphendelim N\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=987367dcb2a2a0437cd99eca329af612}{%
+           family={Pappa},
+           familyi={P\bibinitperiod},
+           given={Richard\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{d80fadb6c7f410d18e4fb60fbd87d0d7}
+      \strng{fullhash}{d80fadb6c7f410d18e4fb60fbd87d0d7}
+      \strng{bibnamehash}{d80fadb6c7f410d18e4fb60fbd87d0d7}
+      \strng{authorbibnamehash}{d80fadb6c7f410d18e4fb60fbd87d0d7}
+      \strng{authornamehash}{d80fadb6c7f410d18e4fb60fbd87d0d7}
+      \strng{authorfullhash}{d80fadb6c7f410d18e4fb60fbd87d0d7}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0731-5090}
+      \field{journaltitle}{Journal of guidance, control, and dynamics}
+      \field{number}{5}
+      \field{title}{{An eigensystem realization algorithm for modal parameter identification and model reduction}}
+      \field{volume}{8}
+      \field{year}{1985}
+      \field{pages}{620\bibrangedash 627}
+      \range{pages}{8}
+      \verb{file}
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Juang, Pappa - 1985 - An eigensystem realization algorithm for modal parameter identification and model reduction.pdf:pdf
       \endverb
     \endentry
     \entry{Lengvarsky2013}{article}{}
@@ -498,7 +881,7 @@
       \field{pages}{173\bibrangedash 179}
       \range{pages}{7}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2013_Lengvarsk{\'{y}}, Bocko_Theoretical basis of modal analysis.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Lengvarsk{\'{y}}, Bocko - 2013 - Theoretical basis of modal analysis.pdf:pdf
       \endverb
     \endentry
     \entry{Maia1997}{book}{}
@@ -537,7 +920,7 @@
       \field{pages}{488}
       \range{pages}{1}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2001_Maia, Silva_Modal analysis identification techniques.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Maia, Silva - 1997 - Theoretical and Experimental Modal Analysis.pdf:pdf
       \endverb
     \endentry
     \entry{Newmark1959}{article}{}
@@ -572,8 +955,36 @@
       \field{pages}{67\bibrangedash 94}
       \range{pages}{28}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1959_Newmark_A method of computation for structural dynamics.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Newmark - 1959 - A method of computation for structural dynamics.pdf:pdf
       \endverb
+    \endentry
+    \entry{Norton2009}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c65dbb4fa8862b55ae331bfa13198ea}{%
+           family={Norton},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{6c65dbb4fa8862b55ae331bfa13198ea}
+      \strng{fullhash}{6c65dbb4fa8862b55ae331bfa13198ea}
+      \strng{bibnamehash}{6c65dbb4fa8862b55ae331bfa13198ea}
+      \strng{authorbibnamehash}{6c65dbb4fa8862b55ae331bfa13198ea}
+      \strng{authornamehash}{6c65dbb4fa8862b55ae331bfa13198ea}
+      \strng{authorfullhash}{6c65dbb4fa8862b55ae331bfa13198ea}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0486469352}
+      \field{title}{{An introduction to identification}}
+      \field{year}{2009}
     \endentry
     \entry{Papadrakakis1993}{book}{}
       \name{author}{1}{}{%
@@ -601,6 +1012,196 @@
       \field{labeltitlesource}{title}
       \field{title}{{Solving large-scale problems in mechanics}}
       \field{year}{1993}
+    \endentry
+    \entry{Pappa1985}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=0d1a49dd4ae3a87fa34f857a7c00be25}{%
+           family={Pappa},
+           familyi={P\bibinitperiod},
+           given={R\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=2}}%
+        {{un=1,uniquepart=given,hash=c7132ba1b68ee085efe03278480d795a}{%
+           family={Juang},
+           familyi={J\bibinitperiod},
+           given={J\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{2}{%
+        {JPL Proc. of the Workshop on Identification}%
+        {Control of Flexible Space Struct., Vol. 3}%
+      }
+      \strng{namehash}{f8b2d0693dae7d41ed7ddfd7c62cb1f8}
+      \strng{fullhash}{f8b2d0693dae7d41ed7ddfd7c62cb1f8}
+      \strng{bibnamehash}{f8b2d0693dae7d41ed7ddfd7c62cb1f8}
+      \strng{authorbibnamehash}{f8b2d0693dae7d41ed7ddfd7c62cb1f8}
+      \strng{authornamehash}{f8b2d0693dae7d41ed7ddfd7c62cb1f8}
+      \strng{authorfullhash}{f8b2d0693dae7d41ed7ddfd7c62cb1f8}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A method, called the Eigensystem Realization Algorithm (ERA), is developed for modal parameter identification and model reduction of dynamic systems from test data. A new approach is introduced in conjunction with the singular value decomposition technique to derive the basic formulation of minimum order realization which is an extended version of the Ho-Kalman algorithm. The basic formulation is then transformed into modal space for modal parameter identification. Two accuracy indicators are developed to quantitatively identify the system modes and noise modes. For illustration of the algorithm, examples are shown using simulation data and experimental data for a rectangular grid structure.}
+      \field{title}{{An Eigensystem Realization Algorithm (ERA) for modal parameter identification and model reduction}}
+      \field{year}{1985}
+      \verb{file}
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Pappa, Juang - 1985 - An Eigensystem Realization Algorithm (ERA) for modal parameter identification and model reduction.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/153/Pappa i Juang - 1985 - An Eigensystem Realization Algorithm (ERA) for mod.pdf
+      \endverb
+      \verb{url}
+      \verb http://files/153/Pappa%20i%20Juang%20-%201985%20-%20An%20Eigensystem%20Realization%20Algorithm%20(ERA)%20for%20mod.pdf
+      \endverb
+      \keyw{SPACECRAFT DESIGN,TESTING AND PERFORMANCE}
+    \endentry
+    \entry{Pappa1985a}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=987367dcb2a2a0437cd99eca329af612}{%
+           family={Pappa},
+           familyi={P\bibinitperiod},
+           given={Richard\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=db8f1312f474d23f0bfc121b1fa39906}{%
+           family={Ibrahim},
+           familyi={I\bibinitperiod},
+           given={Samir\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{225446c36cf85a4dfd41663c2531f84c}
+      \strng{fullhash}{225446c36cf85a4dfd41663c2531f84c}
+      \strng{bibnamehash}{225446c36cf85a4dfd41663c2531f84c}
+      \strng{authorbibnamehash}{225446c36cf85a4dfd41663c2531f84c}
+      \strng{authornamehash}{225446c36cf85a4dfd41663c2531f84c}
+      \strng{authorfullhash}{225446c36cf85a4dfd41663c2531f84c}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{A parametric study of the Ibrahim time domain modal identification algorithm}}
+      \field{year}{1985}
+      \verb{file}
+      \verb :C\:/Users/przem/Downloads/AParametricStudyoftheIbrahimTimeDomainAlgorithm1981 (1).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Peeters2000}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=613d35f40085a6de4b0074a11e021e8c}{%
+           family={Peeters},
+           familyi={P\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{613d35f40085a6de4b0074a11e021e8c}
+      \strng{fullhash}{613d35f40085a6de4b0074a11e021e8c}
+      \strng{bibnamehash}{613d35f40085a6de4b0074a11e021e8c}
+      \strng{authorbibnamehash}{613d35f40085a6de4b0074a11e021e8c}
+      \strng{authornamehash}{613d35f40085a6de4b0074a11e021e8c}
+      \strng{authorfullhash}{613d35f40085a6de4b0074a11e021e8c}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ph. D Dissertation, Katholieke Universiteir Leuven}
+      \field{title}{{System Identification and Damage Detection in Civil Engineering}}
+      \field{type}{phdthesis}
+      \field{year}{2000}
+    \endentry
+    \entry{Peeters1999a}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=613d35f40085a6de4b0074a11e021e8c}{%
+           family={Peeters},
+           familyi={P\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4512886c1383fc4564544694430b4ad4}{%
+           family={{De Roeck}},
+           familyi={D\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9adeaaaedebe934db89cd374618328cf}
+      \strng{fullhash}{9adeaaaedebe934db89cd374618328cf}
+      \strng{bibnamehash}{9adeaaaedebe934db89cd374618328cf}
+      \strng{authorbibnamehash}{9adeaaaedebe934db89cd374618328cf}
+      \strng{authornamehash}{9adeaaaedebe934db89cd374618328cf}
+      \strng{authorfullhash}{9adeaaaedebe934db89cd374618328cf}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When performing vibration tests on civil engineering structures, it is often unpractical and expensive to use artificial excitation (shakers, drop weights). Ambient excitation on the contrary is freely available (traffic, wind), but it causes other challenges. The ambient input remains unknown and the system identification algorithms have to deal with output-only measurements. For instance, realization algorithms can be used: originally formulated for impulse responses they were easily extended to output covariances. More recently, data-driven stochastic subspace algorithms which avoid the computation of the output covariances were developed. The key element of these algorithms is the projection of the row space of the future outputs into the row space of the past outputs. Also typical for ambient testing of large structures is that not all degrees of freedom can be measured at once but that they are divided into several set-ups with overlapping reference sensors. These reference sensors are needed to obtain global mode shapes. In this paper, a novel approach of stochastic subspace identification is presented that incorporates the idea of the reference sensors already in the identification step: the row space of future outputs is projected into the row space of past reference outputs. The algorithm is validated with real vibration data from a steel mast excited by wind load. The price paid for the important gain concerning computational efficiency in the new approach is that the prediction errors for the non-reference channels are higher. The estimates of the eigenfrequencies and damping ratios do not suffer from this fact.}
+      \field{issn}{0888-3270}
+      \field{journaltitle}{Mechanical systems and signal processing}
+      \field{number}{6}
+      \field{title}{{Reference-based stochastic subspace identification for output-only modal analysis}}
+      \field{volume}{13}
+      \field{year}{1999}
+      \field{pages}{855\bibrangedash 878}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1006/mssp.1999.1249
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Peeters, De Roeck - 1999 - Reference-based stochastic subspace identification for output-only modal analysis.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/182/Peeters i De Roeck - 1999 - Reference-based stochastic subspace identification.pdf
+      \endverb
+      \verb{url}
+      \verb http://files/182/Peeters%20i%20De%20Roeck%20-%201999%20-%20Reference-based%20stochastic%20subspace%20identification.pdf
+      \endverb
+    \endentry
+    \entry{Peeters2005}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=613d35f40085a6de4b0074a11e021e8c}{%
+           family={Peeters},
+           familyi={P\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ad0fbefb960c53145522aece87bdec9}{%
+           family={{Van der Auweraer}},
+           familyi={V\bibinitperiod},
+           given={Herman},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b8a77916e92b7b576cf1e3daa2492bf1}
+      \strng{fullhash}{b8a77916e92b7b576cf1e3daa2492bf1}
+      \strng{bibnamehash}{b8a77916e92b7b576cf1e3daa2492bf1}
+      \strng{authorbibnamehash}{b8a77916e92b7b576cf1e3daa2492bf1}
+      \strng{authornamehash}{b8a77916e92b7b576cf1e3daa2492bf1}
+      \strng{authorfullhash}{b8a77916e92b7b576cf1e3daa2492bf1}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 1st International Operational Modal Analysis Conference, Copenhagen, Denmark}
+      \field{title}{{PolyMAX: a revolution in operational modal analysis}}
+      \field{year}{2005}
+      \verb{file}
+      \verb :C\:/Users/przem/Desktop/2005_IOMAC_OMA_PolyMAX.pdf:pdf
+      \endverb
     \endentry
     \entry{Rainieri2014}{book}{}
       \name{author}{2}{}{%
@@ -640,8 +1241,45 @@
       \field{title}{{Operational Modal Analysis of Civil Engineering Structures: An Introduction and Guide for Applications}}
       \field{year}{2014}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2014_Rainieri, Fabbrocino_Operational Modal Analysis of Civil Engineering Structures An Introduction and Guide for Applications.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Rainieri, Fabbrocino - 2014 - Operational Modal Analysis of Civil Engineering Structures An Introduction and Guide for Applications.pdf:pdf
       \endverb
+    \endentry
+    \entry{Reynders2014}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=acff6192ce342a0549789b5f42465355}{%
+           family={Reynders},
+           familyi={R\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e4115e88b96ee8816b9e2038c27596c}{%
+           family={Schevenels},
+           familyi={S\bibinitperiod},
+           given={Mattias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4512886c1383fc4564544694430b4ad4}{%
+           family={{De Roeck}},
+           familyi={D\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c862707fcfa1ff13b8090bc56ba13d25}
+      \strng{fullhash}{c862707fcfa1ff13b8090bc56ba13d25}
+      \strng{bibnamehash}{c862707fcfa1ff13b8090bc56ba13d25}
+      \strng{authorbibnamehash}{c862707fcfa1ff13b8090bc56ba13d25}
+      \strng{authornamehash}{c862707fcfa1ff13b8090bc56ba13d25}
+      \strng{authorfullhash}{c862707fcfa1ff13b8090bc56ba13d25}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Department of Civil Engineering, KU Leuven}
+      \field{title}{{MACEC 3.2: A Matlab toolbox for experimental and operational modal analysis}}
+      \field{year}{2014}
     \endentry
     \entry{Rucka2014}{book}{}
       \name{author}{2}{}{%
@@ -678,7 +1316,7 @@
       \field{title}{{Dynamika budowli : z przyk{ł}adami w {ś}rodowisku MATLAB®}}
       \field{year}{2014}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop//2014_Rucka, Wilde_Dynamika budowli z przyk{\l}adami w {\'{s}}rodowisku MATLAB{\textregistered}.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Rucka, Wilde - 2014 - Dynamika budowli z przyk{\l}adami w {\'{s}}rodowisku MATLAB{\textregistered}.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://files/107/Rucka i Wilde - 2014 - Dynamika budowli z przyk{\l}adami w {\'{s}}rodowisku MATL.pdf
@@ -687,6 +1325,179 @@
       \verb http://files/107/Rucka%20i%20Wilde%20-%202014%20-%20Dynamika%20budowli%20z%20przyk%7B%5Cl%7Dadami%20w%20%7B%5C'%7Bs%7D%7Drodowisku%20MATL.pdf
       \endverb
       \keyw{Dynamika konstrukcji -- oprogramowanie -- podr{ȩ}czn,Dynamika konstrukcji -- oprogramowanie -- zadania,Matlab (oprogramowanie) -- podr{ȩ}czniki akademickie,Matlab (oprogramowanie) -- zadania i {ć}wiczenia}
+    \endentry
+    \entry{Shi1987}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b021e844e28b9560f13df017fc1db48e}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cae2aaf86b5e3b7f810e6ea84b8ef7c}{%
+           family={St{ü}hler},
+           familyi={S\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc858584dab7375ec44685b646ed924a}
+      \strng{fullhash}{fc858584dab7375ec44685b646ed924a}
+      \strng{bibnamehash}{fc858584dab7375ec44685b646ed924a}
+      \strng{authorbibnamehash}{fc858584dab7375ec44685b646ed924a}
+      \strng{authornamehash}{fc858584dab7375ec44685b646ed924a}
+      \strng{authorfullhash}{fc858584dab7375ec44685b646ed924a}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Modal Analysis Conference, 5 th, London, England}
+      \field{title}{{Modal analysis with AR (ARMA) model and unknown excitation}}
+      \field{year}{1987}
+      \field{pages}{1171\bibrangedash 1176}
+      \range{pages}{6}
+    \endentry
+    \entry{VanOverschee1996}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4b9d9e6b4548ec719d4e54aa5144ad10}{%
+           family={{Van Overschee}},
+           familyi={V\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0015ed1c5600e0f872cdc14119c2480a}{%
+           family={{De Moor}},
+           familyi={D\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Kluwer Academic Publishers}%
+      }
+      \strng{namehash}{af1d813228f6b03c3f88367085655c7a}
+      \strng{fullhash}{af1d813228f6b03c3f88367085655c7a}
+      \strng{bibnamehash}{af1d813228f6b03c3f88367085655c7a}
+      \strng{authorbibnamehash}{af1d813228f6b03c3f88367085655c7a}
+      \strng{authornamehash}{af1d813228f6b03c3f88367085655c7a}
+      \strng{authorfullhash}{af1d813228f6b03c3f88367085655c7a}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Subspace Identification for Linear Systems: Theory, Implementation, Applications}}
+      \field{year}{1996}
+      \keyw{Kalman filter,QRD,SISTA,SVD,numerical algebra,software development,state space methods,stochastic realization theory,stochastic systems,subspace system identification,system identification,time domain identification,time series analysis}
+    \endentry
+    \entry{Verboven2005}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c891d84881d95b2c2814970cc1399a44}{%
+           family={Verboven},
+           familyi={V\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2bd6b1ab8441a70029923d0e5a3a32d5}{%
+           family={Guillaume},
+           familyi={G\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f40d62f513cfbef699b3db180340359}{%
+           family={Cauberghe},
+           familyi={C\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba212f931775c46c1de1fd84536538eb}{%
+           family={Vanlanduit},
+           familyi={V\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70ceac8686d93b9d0b5ffc53fb07a0d8}{%
+           family={Parloo},
+           familyi={P\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{bbc10ba5e6cd2ba6413e940c86ee7d1e}
+      \strng{fullhash}{aa248da0c58c54fc8989939c2fcdd806}
+      \strng{bibnamehash}{bbc10ba5e6cd2ba6413e940c86ee7d1e}
+      \strng{authorbibnamehash}{bbc10ba5e6cd2ba6413e940c86ee7d1e}
+      \strng{authornamehash}{bbc10ba5e6cd2ba6413e940c86ee7d1e}
+      \strng{authorfullhash}{aa248da0c58c54fc8989939c2fcdd806}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-460X}
+      \field{journaltitle}{Journal of sound and vibration}
+      \field{number}{3-5}
+      \field{title}{{A comparison of frequency-domain transfer function model estimator formulations for structural dynamics modelling}}
+      \field{volume}{279}
+      \field{year}{2005}
+      \field{pages}{775\bibrangedash 798}
+      \range{pages}{24}
+    \endentry
+    \entry{Vold1982}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1ab4b19e666d3bf8dcdec7ba96ce9138}{%
+           family={Vold},
+           familyi={V\bibinitperiod},
+           given={Harvard},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2b7c52215d18c97fe7466264b6fc8a7}{%
+           family={Kundrat},
+           familyi={K\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff673c027fa3dafbe1ef0afbdbe6291d}{%
+           family={Rocklin},
+           familyi={R\bibinitperiod},
+           given={G\bibnamedelima Thomas},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f43176558a6cbe01617fdf2ec1f767aa}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{621aa58cf81fe92df28b8b37866d3fe6}
+      \strng{fullhash}{0d1179e2401f96f0f71454a14c93523c}
+      \strng{bibnamehash}{621aa58cf81fe92df28b8b37866d3fe6}
+      \strng{authorbibnamehash}{621aa58cf81fe92df28b8b37866d3fe6}
+      \strng{authornamehash}{621aa58cf81fe92df28b8b37866d3fe6}
+      \strng{authorfullhash}{0d1179e2401f96f0f71454a14c93523c}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0096-736X}
+      \field{journaltitle}{SAE Transactions}
+      \field{title}{{A multi-input modal estimation algorithm for mini-computers}}
+      \field{year}{1982}
+      \field{pages}{815\bibrangedash 821}
+      \range{pages}{7}
     \endentry
     \entry{Wilson1997}{book}{}
       \name{author}{1}{}{%
@@ -747,7 +1558,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0045-7949}
-      \field{journaltitle}{Computers & Structures}
+      \field{journaltitle}{Computers \& structures}
       \field{number}{1-4}
       \field{title}{{An eigensolution strategy for large systems}}
       \field{volume}{16}
@@ -769,12 +1580,12 @@
            given={Rune},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=2526b2c7392016b6b5268e754820fafe}{%
+        {{un=2,uniquepart=given,hash=2526b2c7392016b6b5268e754820fafe}{%
            family={Andersen},
            familyi={A\bibinitperiod},
            given={Palle},
            giveni={P\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \strng{namehash}{43c8584b9e5fcab9455de5eec75e368f}
       \strng{fullhash}{43c8584b9e5fcab9455de5eec75e368f}
@@ -797,7 +1608,7 @@
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2004_Zhang, Brincker, Andersen_An overview of major developments and issues in modal identification.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Zhang, Brincker, Andersen - 2004 - An overview of major developments and issues in modal identification.pdf:pdf
       \endverb
     \endentry
   \enddatalist

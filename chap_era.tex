@@ -342,40 +342,61 @@ Fundamentem wszystkich metod OMA jest założenie, że badana struktura obciąż
 	\item szum pomiarowy.
 \end{itemize} 
 W idealnych warunkach, kiedy filtr obciążenia ma biały kolor, a szum pomiarowy byłby zerowy, OMA zidentyfikuje wyłącznie mody konstrukcji.
-\begin{figure}[h] \label{fig: color_filter_oma}
+\begin{figure}[h] 
 	\centering
 	\includegraphics[]{/modal_analysis/filter_coloring.pdf}
 	\captionsetup{justification=centering}
 	\caption{Schemat układu identyfikowanego przez OMA przy koncepcji kolorowego filtru obciążenia}
+	\label{fig: color_filter_oma}
 \end{figure}
 
+\subsection{Metody operacyjnej analizy modalnej}
 
-Metody identyfikacji modalnej dzielą się na dwa główne rodzaje związane z wiodącą dziedziną w której są rozwiązywane numerycznie:
+Metody identyfikacji modalnej dzielą się na dwa główne rodzaje związane z dziedziną w której działa algorytm:
 \begin{itemize}[noitemsep]
 	\item metody w dziedzinie czasu \teng{time-domain methods (TDM)},
 	\item metody w dziedzinie częstotliwości \teng{frequency-domain methods (FDM)}.
 \end{itemize}
-Metody w dziedzinie czasu wykorzystują do estymacji funkcje odpowiedzi impulsowej \teng{inpulse response function (IRF)}, natomiast w dziedzinie częstotliwości bazą do identyfikacji są funkcje odpowiedzi częstotliwościowe \teng{frequency-response function (FRF)}. \cite{Maia1997} sugerują, że metody w dziedzinie czasu są z reguły lepszym wyborem w przypadku dużego przedziału interesujących badacza częstotliwości, albo dużej liczby modów w tym zakresie. Natomiast metody w dziedzinie częstotliwości dostarczają lepszych wyników kiedy zakres częstotliwości jest niewielki, a liczba modów relatywnie mała.
+Metody EMA w dziedzinie czasu wykorzystują do estymacji parametrów modalnych funkcje odpowiedzi impulsowej \teng{inpulse response function (IRF)}. W OMA, nośnikiem informacji o odpowiedzi swobodnej układu \teng{free decays} są funkcje korelacji \teng{correlation functions}. Identyfikacja parametrów polega w tym przypadku na dopasowaniu parametrów modalnych do informacji zawartej w funkcjach korelacji. Stosowane są do tego modele parametryczne wykorzystujące techniki regresji. Główną różnicą pomiędzy dostępnymi algorytmami TD jest właśnie zastosowana metoda regresji. Zasadniczo wszystkie metody TD stosowane w EMA mogą być użyte w OMA właśnie z zastosowaniem funkcji korelacji. 
 
-Drugie kryterium podziału dotyczy liczby modów, które mogą być analizowane za pomocą danej metody. Podział jest zbliżony do tego dotyczącego teoretycznej analizy modalnej. Metoda może identyfikować albo jeden stopień swobody \teng{single degree-of-freedom} albo wiele stopni swobody \teng{multiple degree-of-freedom}.
+
+Podobną analogię jak w metodach TD można zauważyć dla metod w dziedzinie częstotliwości. W algorytmach EMA w dziedzinie częstotliwości bazą do identyfikacji są funkcje odpowiedzi częstotliwościowej \teng{frequency-response function (FRF)}. W OMA rolę tę pełnią funkcje gęstości widmowej \teng{spectral density functions}.
+
+Przed wyborem dziedziny w której badacz chce się poruszać, warto poznać elementy charakterystyczne dla grupy algorytmów TD i FD. Podstawową wadą metod TD jest to, że wszystkie mody, które występują w sygnale są ujęte w funkcjach korelacji. W konsekwencji wszystkie mody zawsze są rozważane w trakcie rozwiązania problemu. Z kolei ich zaletą, w porównaniu do metod FD, jest większa odporność na wystąpienie błędów systematycznych w estymowanych parametrach modalnych. Niejako w kontrze do metod TD, zaletą metod FD jest to, że każdy z modów występuje w wąskim przedziale częstotliwości. Dzięki temu możliwe jest rozważanie tylko przedziałów częstotliwości, w których występują interesujące badacza mody. Z drugiej strony wadą metod FD jest wykorzystywanie do identyfikacji funkcje gęstości widmowej, które są wyznaczane za pomocą różnych metod (CYTOWANIE) obciążonych błędami systematycznymi. Błędy te nieuchronnie przenoszą się na wynikowe parametry modalne, a określenie ich wpływu jest problematyczne. \cite{Maia1997} sugerują, że metody w dziedzinie czasu są z reguły lepszym wyborem w przypadku dużego przedziału interesujących badacza częstotliwości, albo dużej liczby modów w tym zakresie. Natomiast metody w dziedzinie częstotliwości dostarczają lepszych wyników kiedy zakres częstotliwości jest niewielki, a liczba modów relatywnie mała. 
+
+Drugie kryterium podziału algorytmów dotyczy liczby modów, które mogą być jednocześnie analizowane za pomocą danej metody. Podział jest zbliżony do tego dotyczącego teoretycznej analizy modalnej. Metoda może identyfikować albo jeden stopień swobody \teng{single degree-of-freedom} albo wiele stopni swobody \teng{multiple degree-of-freedom}.
 
 Metody TDM i FDM możemy podzielić również na bezpośrednie \teng{direct} i pośrednie \teng{indirect}. Różnica polega na sposobie wyznaczania FRF. Metody bezpośrednie pozwalają wyznaczyć ją bezpośrednio z równania ruchu. Natomiast metody pośrednie estymują FRF na podstawie wcześniej zidentyfikowanego modelu modalnego.
-Ostatnim przyjętym ogólnie kryterium podziału jest liczba punktów poddanych wymuszeniu i mierzonych w trakcie serii pomiarowej. Koresponduje to z liczbą analizowanych jednocześnie przez metodę identyfikacji funkcji FRF. Kiedy mówimy o jednoczesnej analizie tylko jednej funkcji FRF mamy do czynienia z metodą (SISO).
 
+Ostatnim ogólnie przyjętym kryterium podziału jest liczba punktów poddanych wymuszeniu i mierzonych w trakcie serii pomiarowej. Koresponduje to z liczbą analizowanych jednocześnie przez metodę identyfikacji funkcji FRF. Kiedy mówimy o jednoczesnej analizie tylko jednej funkcji FRF mamy do czynienia z metodą jedno-wejście-jedno-wyjście (SISO) \teng{single-input-single-output}. Kiedy mierzymy wymuszenie w jednym punkcie, a odpowiedź badamy w kilku różnych punktach na konstrukcji, otrzymując kilka funkcji FRF, metodę klasyfikuje się jako jedno-wejście-wiele-wyjść (SIMO) \teng{single-input-multi-output}. W powyższej technice obowiązuje założenie, że parametry modalne uzyskane z każdej funkcji FRF będą takie same. Innymi słowy są to parametry globalne dla całej konstrukcji. Naturalnym rozwinięciem są metody które mogą analizować wszystkie dostępne funkcje FRF jednocześnie, uzyskane w skutek wymuszenia i pomiaru wielu różnych punktów. Metody te określane są jako wiele-wejść-wiele-wyjść (MIMO) \teng{multi-input-multi-output}.
 
-
-Drugim kryterium podziału jest 
-
-W tej pracy zastosowano następując, klasyczne kryteria podziału metod identyfikacji:
-
+\cite{Maia1997} opisali szczegółowo wiele z metod zarówno eksperymentalnej jaki i doświadczalnej analizy modalnej. Z kolei \cite{Brincker2015} sklasyfikowali najpopularniejsze, używane współcześnie metody identyfikacji OMA. Spośród algorytmów działających w dziedzinie czasu należy wymienić:
 \begin{itemize}[noitemsep]
-	\item wymaganie dotyczące istnienia dostępnego, rzeczywistego obiektu badawczego,
-	\item liczba mierzonych punktów wymuszenia i odpowiedzi,
-	\item 
+\item Poly Reference (PR) \parencite{Norton2009,Vold1982},
+\item Autoregressive Moving Average (ARMA) \parencite{Shi1987,Huang2000,Giorcelli1994},
+\item Ibrahim Time Domain (ITD) \parencite{Ibrahim1983,Pappa1985a},
+\item Eigensystem Realization Algorithm (ERA) \parencite{Juang1985,Pappa1985,Juang1988},
+\item Stochastic Subspace Identification (SSI). \parencite{VanOverschee1996,Peeters1999a,Peeters2000}. 
 \end{itemize}
 
-	\section{Metody analizy modalnej}
-	\section{Metody operacyjnej analizy modalnej}
+Warto zaznaczyć, żę metoda ERA przy zastosowaniu postulatów NExT stanowi jeden z pośrednich wariantów metody SSI, używający funkcji korelacji jako źródła informacji przy identyfikacji.
+
+Z kolei najpopularniejsze algorytmy w dziedzinie częstotliwości to:
+\begin{itemize}[noitemsep]
+\item Basic Frequency Domain (Peak-Picking) \parencite{Felber1994},
+\item Frequency-Domain-Decomposition (FDD) \parencite{Brincker2000,Brincker2001a,Brincker2001b},
+\item The Least Squares Complex Frequency Method (LSCF) \parencite{Verboven2005},
+\item The Poly-Reference Least Squares Complex Frequency Method (p-LSCF) \parencite{Peeters2005}.
+\end{itemize}
+
+
+
+Wszystkie z powyższych algorytmów są bardzo dobrze opisane i udokumentowane w literaturze. Trudno orzec, który z nich jest obiektywnie najlepszy. Wiele zależy od doświadczenia i wiedzy autora oraz specyfiki zadania. Jak powiedział Sam Ibrahim: "Jeśli nie występują blisko położone mody i szum - wszystko zadziała" \teng{"If there are no closely spaced modes and no noise - everything works"}. Wybór metody może więc zależeć od preferencji, umiejętności programowania czy dostępnych narzędzi. W literaturze można napotkać wiele indywidualnych aplikacji algorytów (CYTOWANIE). Istnieją również komercyjne programy, które pozwala na identyfikację modalną. Do najpopularniejszych należą ARTeMIS - SVS \parencite{Extractor1999} i MACEC - dodatek do programu MATLAB \parencite{Reynders2014}.
+
+Do identyfikacji parametrów modalnych konstrukcji, które są częścią tej pracy autor zdecydował o zastosowaniu algorytmu NExT-ERA. Wynika to z doświadczenia zespołu mostów Politechniki Gdańskiej przy stosowaniu tej metody oraz z dostępnej szerokiej literatury pokazującej skuteczne zastosowanie tej metody w przypadku badania mostów. W kolejnym rozdziale omówiono szczegóły metody oraz implementację jej algorytmu w autorskiej aplikacji napisanej w języku python.
+
+	\chapter{Metody analizy modalnej}
+
 	Podział metod (diagram)
 	\section{Metoda ERA}
 	\section{Metoda NEXT-ERA}

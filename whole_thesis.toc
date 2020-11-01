@@ -15,64 +15,74 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Identyfikacja modalna}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Klasyfikacja metod analizy modalnej}{12}%
+\contentsline {section}{\numberline {3.1}Wiadomości wstępne}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Teoretyczna analiza modalna}{14}%
+\contentsline {section}{\numberline {3.2}Klasyfikacja metod analizy modalnej}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Zagadnienie własne}{15}%
+\contentsline {section}{\numberline {3.3}Teoretyczna analiza modalna}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Układ nietłumiony}{15}%
+\contentsline {subsection}{\numberline {3.3.1}Zagadnienie własne}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Układ tłumiony}{17}%
+\contentsline {subsubsection}{Układ nietłumiony}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Transformacja do współrzędnych normalnych}{18}%
+\contentsline {subsubsection}{Układ tłumiony}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Odpowiedź systemów dynamicznych o jednym stopniu swobody}{18}%
+\contentsline {subsection}{\numberline {3.3.2}Transformacja do współrzędnych normalnych}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Metoda klasyczna}{19}%
+\contentsline {subsection}{\numberline {3.3.3}Odpowiedź systemów dynamicznych o jednym stopniu swobody}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Całka Duhamela}{19}%
+\contentsline {subsubsection}{Metoda klasyczna}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Metoda przejścia do dziedziny częstotliwości}{19}%
+\contentsline {subsubsection}{Całka Duhamela}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Metody numeryczne}{20}%
+\contentsline {subsubsection}{Metoda przejścia do dziedziny częstotliwości}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Odpowiedź systemów dynamicznych o skończonej liczbie stopni swobody (MDOF)}{21}%
+\contentsline {subsubsection}{Metody numeryczne}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Metoda superpozycji modalnej}{21}%
+\contentsline {subsection}{\numberline {3.3.4}Odpowiedź systemów dynamicznych o skończonej liczbie stopni swobody (MDOF)}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Metoda całkowania bezpośredniego równań ruchu - Newmarka}{23}%
+\contentsline {subsubsection}{Metoda superpozycji modalnej}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Operacyjna analiza modalna (OMA)}{24}%
+\contentsline {subsubsection}{Metoda całkowania bezpośredniego równań ruchu - Newmarka}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Koncepcja OMA}{24}%
+\contentsline {section}{\numberline {3.4}Operacyjna analiza modalna (OMA)}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Metody operacyjnej analizy modalnej}{24}%
+\contentsline {subsection}{\numberline {3.4.1}Koncepcja OMA}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Metody analizy modalnej}{28}%
+\contentsline {subsection}{\numberline {3.4.2}Metody operacyjnej analizy modalnej}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Metoda ERA}{28}%
+\contentsline {section}{\numberline {3.5}Metoda NExT-ERA}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Metoda NEXT-ERA}{28}%
+\contentsline {subsection}{\numberline {3.5.1}Funkcje korelacji - odpowiedź swobodna układu}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Implementacja programu}{28}%
+\contentsline {subsection}{\numberline {3.5.2}Eigenystem Realization Algorithm}{29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Testy numeryczne metody NEXT-ERA}{28}%
+\contentsline {subsection}{\numberline {3.5.3}Elementy przetwarzania sygnałów}{29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Testy eksperymentalne metody NEXT-ERA}{28}%
+\contentsline {chapter}{\numberline {4}Metody analizy modalnej}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}{29}%
+\contentsline {section}{\numberline {4.1}Metoda ERA}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Wprowadzenie: metody optymalizacji w tym ,,nieróżniczkowe''.\\Particle Swarm optimization - opis, przegląd.\\Wielokryterialne PSO - opis przegląd.\\Opis implementacji.}{29}%
+\contentsline {section}{\numberline {4.2}Metoda NEXT-ERA}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}{30}%
+\contentsline {section}{\numberline {4.3}Implementacja programu}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Budowa modelu numerycznego}{30}%
+\contentsline {section}{\numberline {4.4}Testy numeryczne metody NEXT-ERA}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Badania - identyfikacja modalna: wybór punktów, opis badań, wyniki identyfikacji}{30}%
+\contentsline {section}{\numberline {4.5}Testy eksperymentalne metody NEXT-ERA}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Kalibracja modelu numerycznego z wykorzystaniem PSO}{31}%
+\contentsline {chapter}{\numberline {5}Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Wielokryterialna optymalizacja modelu: opis + wyniki}{31}%
+\contentsline {section}{\numberline {5.1}Wprowadzenie: metody optymalizacji w tym ,,nieróżniczkowe''.\\Particle Swarm optimization - opis, przegląd.\\Wielokryterialne PSO - opis przegląd.\\Opis implementacji.}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Podsumowanie i wnioski}{33}%
+\contentsline {chapter}{\numberline {6}Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}{32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Budowa modelu numerycznego}{32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Badania - identyfikacja modalna: wybór punktów, opis badań, wyniki identyfikacji}{32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Kalibracja modelu numerycznego z wykorzystaniem PSO}{33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Wielokryterialna optymalizacja modelu: opis + wyniki}{33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Podsumowanie i wnioski}{35}%

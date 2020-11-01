@@ -762,6 +762,54 @@
       \verb http://files/1095/Lallement%20i%20Inman%20-%20A%20TUTORIAL%20ON%20COMPLEX%20EIGENVALUES.pdf
       \endverb
     \endentry
+    \entry{James1995}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a928e9972968cbdb93010bb6dcebc5a1}{%
+           family={James},
+           familyi={J\bibinitperiod},
+           given={G\bibnamedelima H},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a78ed21b3cf5072f40908d455f19a519}{%
+           family={Carne},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima G},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf8489de5e28f899a9b7290f53692fe3}{%
+           family={Lauffer},
+           familyi={L\bibinitperiod},
+           given={James\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6ca57d5512c18daf284c6407333e699c}
+      \strng{fullhash}{6ca57d5512c18daf284c6407333e699c}
+      \strng{bibnamehash}{6ca57d5512c18daf284c6407333e699c}
+      \strng{authorbibnamehash}{6ca57d5512c18daf284c6407333e699c}
+      \strng{authornamehash}{6ca57d5512c18daf284c6407333e699c}
+      \strng{authorfullhash}{6ca57d5512c18daf284c6407333e699c}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1055-0763}
+      \field{journaltitle}{Modal Analysis-the International Journal of Analytical and Experimental Modal Analysis}
+      \field{number}{4}
+      \field{title}{{The natural excitation technique (NExT) for modal parameter extraction from operating structures}}
+      \field{volume}{10}
+      \field{year}{1995}
+      \field{pages}{260}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://files/58/James i in. - 1995 - The natural excitation technique (NExT) for modal .pdf
+      \endverb
+      \verb{url}
+      \verb http://files/58/James%20i%20in.%20-%201995%20-%20The%20natural%20excitation%20technique%20(NExT)%20for%20modal%20.pdf
+      \endverb
+    \endentry
     \entry{Juang1988}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=382cceeb3a0bb5df8ac96b154c665b6a}{%

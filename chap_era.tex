@@ -1,6 +1,40 @@
 \chapter{Identyfikacja modalna}
 
-Drgania towarzyszą ludzkości od zawsze. Jakkolwiek trywialnie nie brzmiałoby to zdanie, wibracje występują w naszym otoczeniu przejawiając się często w sposób niepożądany: wywołują dyskomfort użytkowania, są odbierane jako hałas, powodują zjawiska zmęczeniowe czy w skrajnej sytuacji wywołują uszkodzenia i zniszczenia \parencite{Maia1997}. Wciąż postępujący rozwój nauki połączony z komputeryzacją i informatyzacją sprawiają, że używane materiały są coraz wytrzymalsze. Jednocześnie rośnie zapotrzebowanie na coraz większe, spektakularne konstrukcje. Te dwa czynniki połączone ze sobą sprawiają, że zachowanie dynamiczne struktury często decyduje o właściwościach użytkowych i wytrzymałościowych konstrukcji. W odpowiedzi na zapotrzebowanie, w sposób naturalny rozwinęła się dziedzina nauki zajmująca się opisem i modelowaniem zjawisk dynamicznych. Podstawowym narzędziem służącym identyfikacji parametrów modalnych i zachowania dynamicznego jest analiza modalna \teng{modal analysis}. Często Analiza modalna bywa określana jako identyfikacja modalna \teng{modal identification}. \parencite{Zhang2004} w pracy definiuje identyfikacje modalną jako gałąź szerszego pojęcia identyfikacji systemów, a jej celem jest budowa modelu matematycznego systemu dynamicznego poprzez pomiar i analizę zestawu danych wejściowych i wyjściowych. Z kolei \cite{Chmielewski1998} zwięźle precyzuje pojęcie modelu matematycznego dla zagadnień dynamiki budowli jako "równanie lub zbiór równań, które opisują ruch modelu obliczeniowego". \cite{Ewins2000} podaje trzy główne cele przeprowadzania analizy modalnej:
+\section{Wiadomości wstępne}
+Podstawowym celem pracy jest określenie zależności pomiędzy przyjętymi rozwiązaniami konstrukcyjnymi mostów kolejowych, a ich zachowaniem dynamicznym. Predykcja odpowiedzi, jak wspomniano wcześniej, możliwa jest dzięki rozwiązaniom numerycznym modeli MES poddanych odpowiednim obciążeniom. Na każdym etapie analiz trzeba zdawać sobie sprawę z niepewności, które mogą wystąpić przy konstruowaniu założeń. \cite{Brincker2015} zestawili różnego rodzaju parametry występujące w modelu i stopień niepewności, który im towarzyszy na etapie modelowania. Niepewności te przytoczono w tabeli \ref{table:uncertainitesModel}. Wyraźnie widać, że przyjęcie niektórych parametrów modelu w sposób bezkrytyczny może prowadzić do zupełnie nieodpowiednich rezultatów. Niektóre, związane np ze sztywnością szeroko rozumianych podpór czy połączeń śrubowych, mogą wypaczyć rezultaty i wprowadzić badacza w błąd na temat stanu i zachowania konstrukcji. Aby zbudować model, który będzie efektywnie odwzorowywał rzeczywiste zachowanie należy dołożyć wszelkich starań aby wyeliminować możliwe niepewności. Model taki może zostać poddany walidacji i kalibracji. Oba te pojęcia zostaną rozwinięte w następnych rozdziałach. Niemniej, aby model dostosować do rzeczywistych warunków należy mieć punkt odniesienia. W przypadku analizy statycznej takim odniesieniem mogą być pomiary statyczne ugięć, np. w trakcie próbnego obciążenia. W przypadku analizy dynamicznej, do porównania będą służyć charakterystyki modalne: częstotliwości i postaci drgań własnych oraz tłumienia. Parametry te można zaczerpnąć z literatury i doświadczenia na etapie projektowania. Na etapie badania rzeczywistej konstrukcji warto sięgnąć po narzędzie zwane identyfikacją modalną. Poniższy rozdział przytoczy podstawowe zagadanienia związane z analizą modalną, obliczeniami odpowiedzi dynamicznej i identyfikacją charakterystyk modalnych układu. Informacje te zostaną w dalszej części pracy zastosowane w obliczeniach numerycznych i optymalizacyjnych.
+
+
+
+\begin{table} 
+	\label{table:uncertainitesModel}
+	\centering
+	\caption{Niepewności najistotniejszych parametrów modeli numerycznych i modalnych na podstawie \cite{Brincker2015}}
+	\rowcolors{1}{}{gray!10}
+	\begin{tabular}{p{0.7\linewidth} | c}
+		\toprule 
+		Własność fizyczna   & Poziom niepewności \\
+		\midrule
+		Moduł sprężystości i gęstość masy dla stali i innych metali  &    1--5    \\
+		Moduł sprężystości i gęstość masy dla betonu, drewna i zbrojonych włóknami materiałów & 5--20\\
+		Warunki brzegowe z podłożem &    10-nieskończoność     \\
+		Połączenia śrubowe & 10-nieskończoność\\
+		Połączenia spawane & 2-10\\
+		Masa całkowita & 1-5 \\
+		Określana częstotliwość drgań własnych & 0.1-0.05\\
+		Pomierzona odpowiedź & 0.2-2\\
+		Określane postaci drgań własnych & 2-5\\ 
+		Określane tłumienie & 5-20\\
+		Współczynnik skalujący postaci drgań własnych & 5-30\\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+
+
+GDZIEŚ DO WSTĘPU: Drgania towarzyszą ludzkości od zawsze. Jakkolwiek trywialnie nie brzmiałoby to zdanie, wibracje występują w naszym otoczeniu przejawiając się często w sposób niepożądany: wywołują dyskomfort użytkowania, są odbierane jako hałas, powodują zjawiska zmęczeniowe czy w skrajnej sytuacji wywołują uszkodzenia i zniszczenia \parencite{Maia1997}. Wciąż postępujący rozwój nauki połączony z komputeryzacją i informatyzacją sprawiają, że używane materiały są coraz wytrzymalsze. Jednocześnie rośnie zapotrzebowanie na coraz większe, spektakularne konstrukcje. Te dwa czynniki połączone ze sobą sprawiają, że zachowanie dynamiczne struktury często decyduje o właściwościach użytkowych i wytrzymałościowych konstrukcji. 
+
+
+W odpowiedzi na zapotrzebowanie, w sposób naturalny rozwinęła się dziedzina nauki zajmująca się opisem i modelowaniem zjawisk dynamicznych. Podstawowym narzędziem służącym identyfikacji parametrów modalnych i zachowania dynamicznego jest analiza modalna \teng{modal analysis}. Często Analiza modalna bywa określana jako identyfikacja modalna \teng{modal identification}. \parencite{Zhang2004} w pracy definiuje identyfikacje modalną jako gałąź szerszego pojęcia identyfikacji systemów, a jej celem jest budowa modelu matematycznego systemu dynamicznego poprzez pomiar i analizę zestawu danych wejściowych i wyjściowych. Z kolei \cite{Chmielewski1998} zwięźle precyzuje pojęcie modelu matematycznego dla zagadnień dynamiki budowli jako "równanie lub zbiór równań, które opisują ruch modelu obliczeniowego". \cite{Ewins2000} podaje trzy główne cele przeprowadzania analizy modalnej:
 \begin{itemize}[noitemsep]
 	\item ocena źródła drgań i ich przebiegu,
 	\item weryfikacja modeli teoretycznych i przewidywanie zjawisk dynamicznych,
@@ -8,7 +42,7 @@ Drgania towarzyszą ludzkości od zawsze. Jakkolwiek trywialnie nie brzmiałoby 
 \end{itemize}
 Każdy z powyższych celów może być jedynie środkiem do osiągnięcia zupełnie innego celu. W rzeczywistości tak właśnie jest najczęściej o czym świadczy mnogość aplikacji analizy modalnej w bardzo różnych zagadnieniach dotyczących konstrukcji.
 
-W poniższej pracy tak jak w zdecydowanej większości innych opracowaniach, modele matematyczne będą oparte na trzech głównych zasadach \parencite{Maia1997}:
+W poniższej pracy, tak jak w zdecydowanej większości innych opracowań, modele matematyczne będą oparte na trzech głównych zasadach \parencite{Maia1997}:
 \begin{itemize}[noitemsep]
 	\item system jest liniowy,
 	\item obowiązuje zasada wzajemności Maxwell'a,
@@ -394,6 +428,37 @@ Z kolei najpopularniejsze algorytmy w dziedzinie częstotliwości to:
 Wszystkie z powyższych algorytmów są bardzo dobrze opisane i udokumentowane w literaturze. Trudno orzec, który z nich jest obiektywnie najlepszy. Wiele zależy od doświadczenia i wiedzy autora oraz specyfiki zadania. Jak powiedział Sam Ibrahim: "Jeśli nie występują blisko położone mody i szum - wszystko zadziała" \teng{"If there are no closely spaced modes and no noise - everything works"}. Wybór metody może więc zależeć od preferencji, umiejętności programowania czy dostępnych narzędzi. W literaturze można napotkać wiele indywidualnych aplikacji algorytów (CYTOWANIE). Istnieją również komercyjne programy, które pozwala na identyfikację modalną. Do najpopularniejszych należą ARTeMIS - SVS \parencite{Extractor1999} i MACEC - dodatek do programu MATLAB \parencite{Reynders2014}.
 
 Do identyfikacji parametrów modalnych konstrukcji, które są częścią tej pracy autor zdecydował o zastosowaniu algorytmu NExT-ERA. Wynika to z doświadczenia zespołu mostów Politechniki Gdańskiej przy stosowaniu tej metody oraz z dostępnej szerokiej literatury pokazującej skuteczne zastosowanie tej metody w przypadku badania mostów. W kolejnym rozdziale omówiono szczegóły metody oraz implementację jej algorytmu w autorskiej aplikacji napisanej w języku python.
+
+\section{Metoda NExT-ERA}
+Metoda NExT-ERA jest jedną z metod operacyjnej analizy modalnej. Składnik NExT pochodzi od słów \textbf{N}atural \textbf{Ex}citation \textbf{T}echnique. NExT jest właściwie klasą metodą OMA. Zawiera w sobie algorytmy początkowo stworzone do eksperymentalnej analizy modalnej wejście-wyjście \teng{input-output} (np. ERA, LSCE, ITD), a które następnie rozszerzone zostały do analizy problemu jedynie na podstawie sygnałów odpowiedzi konstrukcji \teng{output-only}. Taką możliwość ujawniło odkrycie faktu, że funkcje korelacji odpowiedzi konstrukcji, wywołanej losowymi wymuszeniami mogą być wyrażone jako suma zanikających sinusoid. Potwierdzono również, że funkcje korelacji zawierają informację na temat parametrów modalnych struktury. Zauważono więc, że można zastąpić tradycyjnie używane funkcje odpowiedzi impulsowej (IRF), funkcjami korelacji losowych drgań konstrukcji pod wymuszeniem środowiskowym. W ten sposób tradycyjne metody EMA zostały skutecznie zaadaptowane do OMA \parencite{Rainieri2014}. W dalszej części rozdziału zostaną przedstawione najważniejsze zagadniania dotyczące identyfikacje metodą NExT-ERA. 
+
+\subsection{Funkcje korelacji - odpowiedź swobodna układu}
+Funkcje korelacji posiadają dwie wspomniane wcześniej właściwości kluczowe dla OMA. Po pierwsze teoretycznie zawierają wszystkie informacje na temat parametrów modalnych konstrukcji. Po drugie mogą być utożsamiane z drganiami swobodnymi, gasnącymi układu \parencite{James1995}.
+
+Zwykle zakładamy, że mierzone sygnały posiadają wartość średnią równą zero oraz są Gaussowskie \teng{Gaussian signals} lub bliskie Gaussowskim \parencite{Brincker2015}. W takich przypadkach wszystkie parametry modalne możemy odnaleźć w funkcjach korelacji. Możemy to stwierdzić na bazie centralnego twierdzenia granicznego \teng{central limit theorem}. Mówi ono, że dla niezależnych zmiennych losowych $\bm{X_i}$ o jednakowym rozkładzie, fluktuujących wokół wartości oczekiwanej $\mu$ i o skończonej wariancji $\sigma^2$ to wyrażenie \ref{eq:centralLimitTheorem}
+\begin{equation} \label{eq:centralLimitTheorem}
+	\frac{\frac{1}{n}\sum_{i=1}^{M} \bm{X_i} - \mu}{\frac{\sigma}{M}}
+\end{equation}
+zbiega według rozkładu do rozkładu Gaussa przy nieskończonej liczbie M.
+\cite{Brincker2015} przedstawili uzasadnienie użycia tego twierdzenia w przypadku OMA w następujący sposób. Rozważmy zestaw zmiennych losowych $\{x_1,x_2,...,x_M\}$, które są niezależne i posiadają identyczny rozkład, ze średnią wartością $\mu$ i wariancją $\sigma^2$. Liniowa kombinacja tych zmiennych losowych jest dana wzorem:
+\begin{equation} \label{eq:CLTsum}
+	y = \sum_{i=1}^{M} a_i x_i
+\end{equation}
+ Centralne twierdzenie graniczne mówi o tym, że dla dużej liczby zmiennych losowych $M$ rozkład $y$ jest w przybliżeniu normalny, z wartością średnią $\mu_y=\mu\sum a_i$, wariancją $\sigma_y^2=\sigma^2\sum \sigma^2$ i przy $M \xrightarrow{} \infty$ zbiega do rozkładu normalnego. Odwołując się do dynamiki budowli możemy zapisać, że odpowiedź układu $y(t)$ jest splotem pomiędzy siłą wymuszającą $x(\tau)$, a funkcją odpowiedzi impulsowej $h(t)$. Dla sygnału dyskretnego z krokiem czasowym $\Delta t$ i ograniczając się jedynie do $N_m$ istotnych z punktu widzenia pamięci systemu próbek, zależność może być przedstawiona następująco:
+ \begin{equation}
+ 	y(n) = \sum_{k=n-N_m}^{n} h(n-k)x(k)\Delta t
+ \end{equation}
+Można zauważyć, że dla wymuszenia szumem białym odpowiedź dynamiczna $y(n)$ jest sumą, którą można przedstawić wzorem \ref{eq:CLTsum}, gdzie poszczególne składniki obciążenia $x(k)$ nie muszą mieć rozkładu Gaussa, ale ostateczna odpowiedź będzie mieć rozkład normalny. Wynika to wprost z Centralnego Twierdzenia Granicznego. Warto nadmienić, że założenie o wymuszeniu białym szumem zapewnia nam niezależność składników obciążenia $x(k)$. 
+
+Dalej o tym dlaczego corelacje opisują rozklad gaussa i je przedstawić.
+
+
+
+
+\subsection{Eigenystem Realization Algorithm}
+
+\subsection{Elementy przetwarzania sygnałów}
+
 
 	\chapter{Metody analizy modalnej}
 

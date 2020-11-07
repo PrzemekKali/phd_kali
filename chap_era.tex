@@ -432,27 +432,100 @@ Do identyfikacji parametrów modalnych konstrukcji, które są częścią tej pr
 \section{Metoda NExT-ERA}
 Metoda NExT-ERA jest jedną z metod operacyjnej analizy modalnej. Składnik NExT pochodzi od słów \textbf{N}atural \textbf{Ex}citation \textbf{T}echnique. NExT jest właściwie klasą metodą OMA. Zawiera w sobie algorytmy początkowo stworzone do eksperymentalnej analizy modalnej wejście-wyjście \teng{input-output} (np. ERA, LSCE, ITD), a które następnie rozszerzone zostały do analizy problemu jedynie na podstawie sygnałów odpowiedzi konstrukcji \teng{output-only}. Taką możliwość ujawniło odkrycie faktu, że funkcje korelacji odpowiedzi konstrukcji, wywołanej losowymi wymuszeniami mogą być wyrażone jako suma zanikających sinusoid. Potwierdzono również, że funkcje korelacji zawierają informację na temat parametrów modalnych struktury. Zauważono więc, że można zastąpić tradycyjnie używane funkcje odpowiedzi impulsowej (IRF), funkcjami korelacji losowych drgań konstrukcji pod wymuszeniem środowiskowym. W ten sposób tradycyjne metody EMA zostały skutecznie zaadaptowane do OMA \parencite{Rainieri2014}. W dalszej części rozdziału zostaną przedstawione najważniejsze zagadniania dotyczące identyfikacje metodą NExT-ERA. 
 
-\subsection{Funkcje korelacji - odpowiedź swobodna układu}
-Funkcje korelacji posiadają dwie wspomniane wcześniej właściwości kluczowe dla OMA. Po pierwsze teoretycznie zawierają wszystkie informacje na temat parametrów modalnych konstrukcji. Po drugie mogą być utożsamiane z drganiami swobodnymi, gasnącymi układu \parencite{James1995}.
+\subsection{Funkcje korelacji, a odpowiedź swobodna układu}
+Przyjmijmy, że $X$ oznacza zmienną losową, a $x(t)$ realizację tej zmiennej losowej w czasie. $x(t)$ w tej pracy może być utożsamiany z zaobserwowanym sygnałem. Wprowadźmy prostą definicję kowariancji. Jest to funkcja, która dostarcza informacji o zależności pomiędzy dwoma zmiennymi i dana jest wzorem:
+\begin{equation}
+	\mathrm{cov}[X,Y] = \mathrm{E}[XY]=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}xyp_{xy}(x,y)\,dxdy
+\end{equation}
+gdzie: $\mathrm{E}[\,]$ - wartość oczekiwana, $p_{xy}(x,y)$ - wspólna funkcja gęstości prawdopodobieństwa. Używając metody uśredniania w czasie $[0,T]$ możemy zapisać kowariancję jako:
+\begin{equation}
+	\mathrm{cov}[x(t),y(t)] = \mathrm{E}[x(t)y(t)]=\frac{1}{T}\int_{0}^{T}x(t)y(t) \,dt
+\end{equation}
+Korelacją możemy określić zależność jak dla kowariancji, w której usunięto czynnik stały (wartość średnią) i opisać równaniem (\ref{eq: correlationDef}). W OMA zwykle sygnały na samym początku analizy są pozbawiane czynnika stałego, stąd użycie właśnie funkcji korelacji jest dla tej rodziny metod analizy modalnej kluczowe.
+\begin{equation} \label{eq: correlationDef}
+	\mathrm{cor}[x(t),y(t)] = \mathrm{E}[(x(t)-\mu_x)(y(t)-\mu_y)]=\frac{1}{T}\int_{0}^{T}(x(t)-\mu_x)(y_{}(t)-\mu_y) \,dt
+\end{equation}
 
-Zwykle zakładamy, że mierzone sygnały posiadają wartość średnią równą zero oraz są Gaussowskie \teng{Gaussian signals} lub bliskie Gaussowskim \parencite{Brincker2015}. W takich przypadkach wszystkie parametry modalne możemy odnaleźć w funkcjach korelacji. Możemy to stwierdzić na bazie centralnego twierdzenia granicznego \teng{central limit theorem}. Mówi ono, że dla niezależnych zmiennych losowych $\bm{X_i}$ o jednakowym rozkładzie, fluktuujących wokół wartości oczekiwanej $\mu$ i o skończonej wariancji $\sigma^2$ to wyrażenie \ref{eq:centralLimitTheorem}
+W OMA funkcja korelacji wykorzystywana jest jako autokorelacja \teng{autocorrelation} i cross-korelacja \teng{cross-correlation}. Dla pojedynczego sygnału $x(t)$ można rozważyć jak wygląda korelacja pomiędzy punktem $x(t)$, a punktem $x(t+\tau)$, czyli odległym w czasie o $\tau$. Przedstawienie graficzne problemu pokazano na rysunku \ref{fig: autocorrelationExample}. Intuicyjnie widać, że wartość korelacji dla punktów bliskich sobie będzie duża, a dla punktów bardzo od siebie odległych będzie maleć. Autokorelacją nazwiemy funkcję daną równaniem (\ref{eq: autocorrelationDef}), gdzie funkcję $y$ w równaniu (\ref{eq: correlationDef}) zastąpiono $x(t+\tau)$. 
+\begin{figure}[h] 
+	\centering
+	\includegraphics[]{/korelacja/korelacja.pdf}
+	\captionsetup{justification=centering}
+	\caption{Autokorelacja, jako korelacja wartości funkcji $x(t)$ w czasie $t$ i $t+\tau$}
+	\label{fig: autocorrelationExample}
+\end{figure}
+\begin{equation} \label{eq: autocorrelationDef}
+	R_x(\tau)=\mathrm{E}[x(t)x(t+\tau)]
+\end{equation}
+Funkcję cross-korelacji opiszemy analogicznie jak autokorelacji, z tą różnicą, że pod uwagę weźmiemy dwa losowe sygnały $x(t)$ i $y(t)$.
+\begin{equation} \label{eq: crosscorrelationDef}
+	\begin{aligned}
+	R_{xy}(\tau)=\mathrm{E}[x(t)y(t+\tau)]\\	
+	R_{yx}(\tau)=\mathrm{E}[y(t)x(t+\tau)]
+	\end{aligned}
+\end{equation}
+
+Nie znając funkcji gęstości prawdopodobieństwa, funkcje autokorelacji  i cross-korelacji można wyznaczyć za pomocą uśredniania w czasie co opisano równaniami odpowiednio (\ref{eq: timeAveAutocorrelation}) i (\ref{eq: timeAveCrosscorrelation}). W dalszej części pracy podane zostaną inne przykłady metod wyznaczania funkcji korelacji.
+\begin{equation} \label{eq: timeAveAutocorrelation}
+	R_x = \frac{1}{T}\int_{0}^{T}x(t)x(t+\tau) \,dt
+\end{equation}
+
+\begin{equation} \label{eq: timeAveCrosscorrelation}
+	\begin{aligned}
+	R_{xy} = \frac{1}{T}\int_{0}^{T}x(t)y(t+\tau) \,dt \\
+	R_{yx} = \frac{1}{T}\int_{0}^{T}y(t)x(t+\tau) \,dt 
+\end{aligned}
+\end{equation}
+
+W praktyce wykonywanych jest wiele pomiarów. Załóżmy, że dla zestawu $N$ pomiarów, zmierzone odpowiedzi mogą być zestawione w wektor:
+\begin{equation}
+\vect{y}(t) = \{y_1(t),y_2(t),y_3(t), \hdots ,y_N(t)\}^T
+\end{equation}
+Wyniki autokorelacji i cross-korelacji pomiędzy wszystkimi zmierzonymi sygnałami można zagregować i zapisać macierzowo (\ref{eq: matCorelationDef}). Na przekątnej macierzy znajdują się funkcje autokorelacji, a poza przekątną cross-korelacji.
+\begin{equation} \label{eq: matCorelationDef}
+	\matr{R}^T(\tau)=\mathrm{E}[\vect{y}(t)\vect{y}^T(t+\tau)]
+\end{equation}
+Macierzą korelacji \teng{correlation matrix} nazywa się macierz (\ref{eq: matCorelationDef}) dla $\tau=0$ co można zapisać wzorem (\ref{eq: correlationMatrixDef}).
+\begin{equation} \label{eq: correlationMatrixDef}
+	\matr{C}=\mathrm{E}[\vect{y}(t)\vect{y}^T(t)]=\matr{R}(0)
+\end{equation}
+
+Funkcje korelacji posiadają dwie wspomniane wcześniej właściwości kluczowe dla OMA. Po pierwsze teoretycznie pozwalają wyodrębnić wszystkie informacje na temat parametrów modalnych konstrukcji z sygnału losowego. Po drugie mogą być utożsamiane z drganiami swobodnymi, gasnącymi układu \parencite{James1995}. Oba założenia zostały wyjaśnione i udowodnione poniżej.
+
+Założenie o reprezentacji wszystkich parametrów modalnych przez funkcje korelacji opiera się na wykorzystaniu właściwości funkcji korelacji, rozkładu normalnego oraz Centralnego Twierdzenia Granicznego \teng{central limit theorem}. Centralne Twierdzenie Graniczne mówi, że dla niezależnych zmiennych losowych $X_i$ o jednakowym rozkładzie, fluktuujących wokół wartości oczekiwanej $\mu$ i o skończonej wariancji $\sigma^2$ to wyrażenie (\ref{eq:centralLimitTheorem})
 \begin{equation} \label{eq:centralLimitTheorem}
-	\frac{\frac{1}{n}\sum_{i=1}^{M} \bm{X_i} - \mu}{\frac{\sigma}{M}}
+	\frac{\frac{1}{n}\sum_{i=1}^{M} X_i - \mu}{\frac{\sigma}{M}}
 \end{equation}
 zbiega według rozkładu do rozkładu Gaussa przy nieskończonej liczbie M.
 \cite{Brincker2015} przedstawili uzasadnienie użycia tego twierdzenia w przypadku OMA w następujący sposób. Rozważmy zestaw zmiennych losowych $\{x_1,x_2,...,x_M\}$, które są niezależne i posiadają identyczny rozkład, ze średnią wartością $\mu$ i wariancją $\sigma^2$. Liniowa kombinacja tych zmiennych losowych jest dana wzorem:
 \begin{equation} \label{eq:CLTsum}
 	y = \sum_{i=1}^{M} a_i x_i
 \end{equation}
- Centralne twierdzenie graniczne mówi o tym, że dla dużej liczby zmiennych losowych $M$ rozkład $y$ jest w przybliżeniu normalny, z wartością średnią $\mu_y=\mu\sum a_i$, wariancją $\sigma_y^2=\sigma^2\sum \sigma^2$ i przy $M \xrightarrow{} \infty$ zbiega do rozkładu normalnego. Odwołując się do dynamiki budowli możemy zapisać, że odpowiedź układu $y(t)$ jest splotem pomiędzy siłą wymuszającą $x(\tau)$, a funkcją odpowiedzi impulsowej $h(t)$. Dla sygnału dyskretnego z krokiem czasowym $\Delta t$ i ograniczając się jedynie do $N_m$ istotnych z punktu widzenia pamięci systemu próbek, zależność może być przedstawiona następująco:
+ Centralne twierdzenie graniczne mówi o tym, że dla dużej liczby zmiennych losowych $M$ rozkład $y$ jest w przybliżeniu normalny, z wartością średnią $\mu_y=\mu\sum a_i$, wariancją $\sigma_y^2=\sigma^2\sum \sigma^2$ i przy $M \xrightarrow{} \infty$ zbiega do rozkładu normalnego. Odwołując się do dynamiki budowli możemy zapisać, że odpowiedź układu $y(t)$ jest splotem siły wymuszającej $x(\tau)$ i funkcji odpowiedzi impulsowej $h(t)$ co pokazano równaniem:
+ \begin{equation} \label{eq:convolutionResponse}
+ 	y(t)=\int_{-\infty}^{\infty}h(t-\tau)x(\tau) \,d\tau
+ \end{equation}
+ 
+  Dla sygnału dyskretnego z krokiem czasowym $\Delta t$ i ograniczając się jedynie do $N_m$ istotnych z punktu widzenia pamięci systemu próbek, zależność może być przedstawiona następująco:
  \begin{equation}
  	y(n) = \sum_{k=n-N_m}^{n} h(n-k)x(k)\Delta t
  \end{equation}
-Można zauważyć, że dla wymuszenia szumem białym odpowiedź dynamiczna $y(n)$ jest sumą, którą można przedstawić wzorem \ref{eq:CLTsum}, gdzie poszczególne składniki obciążenia $x(k)$ nie muszą mieć rozkładu Gaussa, ale ostateczna odpowiedź będzie mieć rozkład normalny. Wynika to wprost z Centralnego Twierdzenia Granicznego. Warto nadmienić, że założenie o wymuszeniu białym szumem zapewnia nam niezależność składników obciążenia $x(k)$. 
+Można zauważyć, że dla wymuszenia szumem białym odpowiedź dynamiczna $y(n)$ jest sumą, którą można przedstawić wzorem (\ref{eq:CLTsum}), gdzie poszczególne składniki obciążenia $x(k)$ nie muszą mieć rozkładu normalnego, ale ostateczna odpowiedź będzie mieć rozkład Gaussa. Wynika to wprost z Centralnego Twierdzenia Granicznego. Warto nadmienić, że założenie o wymuszeniu białym szumem zapewnia nam niezależność składników obciążenia $x(k)$. 
 
+Bazując na powyższym, w OMA zwykle zakładamy, że mierzone sygnały posiadają wartość średnią równą zero oraz są Gaussowskie \teng{Gaussian signals} lub bliskie Gaussowskim \parencite{Brincker2015}. Przypomnijmy, że jednowymiarowa funkcja gęstości prawdopodobieństwa rozkładu normalnego dana jest wzorem:
+\begin{equation}
+	p(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+\end{equation}
+, a przyjmując dodatkowo wartość średnią równą
+ zero wzór można wyrazić następująco:
+\begin{equation} \label{eq:normalDensZeroMean}
+	p(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{x^2}{2\sigma^2}}
+\end{equation}
+Dla wektora losowego, zawierającego zmienne losowe o zerowej wartości średniej funkcja gęstości prawdopodobieństwa może być zapisana jako:
+\begin{equation}
+	p(x) = \frac{1}{(2\pi)^\frac{M}{2} \matr{|C|}}e^{\vect{x}^T\matr{C}^{-1}\vect{x}/2}
+\end{equation}
 Dalej o tym dlaczego corelacje opisują rozklad gaussa i je przedstawić.
-
-
 
 
 \subsection{Eigenystem Realization Algorithm}

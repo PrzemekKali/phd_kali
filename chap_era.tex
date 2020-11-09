@@ -476,7 +476,10 @@ Nie znając funkcji gęstości prawdopodobieństwa, funkcje autokorelacji  i cro
 	R_{yx} = \frac{1}{T}\int_{0}^{T}y(t)x(t+\tau) \,dt 
 \end{aligned}
 \end{equation}
-
+Jedną z istotnych właściwości funkcji korelacji jest możliwość wyznaczenia jej przez splot między sygnałem $x(-t)$ i $y(t)$, co zapisano równaniem (\ref{eq: splotCorrelation}). Główną zaletą tego rozwiązania jest prostota obliczeń, ponieważ splot dwóch funkcji jest łatwy do wyznaczenia w dziedzinie częstotliwości \parencite{Brincker2015}.
+\begin{equation} \label{eq: splotCorrelation}
+	R_{xy}(\tau)=x(-t)*y(t)
+\end{equation}
 W praktyce wykonywanych jest wiele pomiarów. Załóżmy, że dla zestawu $N$ pomiarów, zmierzone odpowiedzi mogą być zestawione w wektor:
 \begin{equation}
 \vect{y}(t) = \{y_1(t),y_2(t),y_3(t), \hdots ,y_N(t)\}^T
@@ -582,13 +585,28 @@ Zarówno IRF jak i FRF można uogólnić do układów MDOF o $N$ stopniach swobo
 \end{equation}
 gdzie $\vect{A}_n=Q_n \vect{\psi}_n\vect{\psi}_n^T$, $\vect{\psi}_n$ to n-ta postać drgań własnych, a $Q_n$ to współczynnik skalujący mody, a $\lambda_n=\sigma_n+i\omega_{d,n}$ jest n-tym biegunem układu zawierającym informacje na temat częstotliwości drgań własnych tłumionych $f_{d,n}=\omega_{d,n}/(2\pi)$ i liczby tłumienia $\xi_r=-\sigma_n/\sqrt{\sigma_n^2+\omega_{d,n}^2}$ n-tego moda.
 
-Gęstość widmowa jest kolejnym kluczowym pojęciem potrzebnym do pełnego zrozumieniu znaczenia funkcji korelacji dla OMA. Gęstość widmowa mocy \teng{auto spectral density} dla przebiegu czasowego $x(t)$ jest zdefiniowana jako transformata Fouriera z funkcji korelacji $R_x(\tau)$ \ref{eq: spectralDensity}. Istnieje również zależność odwrotna, w której odwrotna transformata Fouriera z gęstości wydmowej pozwala otrzymać funkcję korelacji \ref{eq: correlationInversSpectralDensity}.
+Gęstość widmowa jest kolejnym kluczowym pojęciem potrzebnym do pełnego zrozumieniu znaczenia funkcji korelacji dla OMA. Gęstość widmowa \teng{auto spectral density} dla przebiegu czasowego $x(t)$ jest zdefiniowana jako transformata Fouriera z funkcji korelacji $R_x(\tau)$ \ref{eq: spectralDensity}. Istnieje również zależność odwrotna, w której odwrotną transformata Fouriera z gęstości widmowej pozwala otrzymać funkcję korelacji \ref{eq: correlationInversSpectralDensity}. Początkowy wyraz funkcji korelacji $R_x(0)$ jest reprezentacją twierdzenia Parsevela i pozwala stwierdzić, że gęstość widmowa pokazuje rozkład energii w funkcji częstotliwości. Stąd gęstość widmową nazywa się również zamiennie gęstością widmową mocy \teng{power spectral density} (PSD) \parencite{Brincker2015}.
 \begin{equation} \label{eq: spectralDensity}
-	G_x(\omega) = \int_{-\infty}^{\infty}R_x(\tau)e^{-i\omega\tau}\,d\tau
+	G_x(\omega) = \frac{1}{2\pi}\int_{-\infty}^{\infty}R_x(\tau)e^{-i\omega\tau}\,d\tau
 \end{equation}
 \begin{equation} \label{eq: correlationInversSpectralDensity}
-	R_x(\omega) = \frac{1}{2\pi}\int_{-\infty}^{\infty}G_x(\omega)e^{i\omega\tau}\,d\omega
+	R_x(\omega) = \int_{-\infty}^{\infty}G_x(\omega)e^{i\omega\tau}\,d\omega
 \end{equation}
+Podobnie zdefiniować można gęstość widmową pomiędzy dwoma sygnałami $x(t)$ i $y(t)$ \teng{cross spectral density}, jako przekształcenie Fouriera funkcji cross-korelacji $R_{xy}(t)$. 
+
+\begin{equation} \label{eq: crossspectralDensity}
+	G_{xy}(\omega) = \frac{1}{2\pi}\int_{-\infty}^{\infty}R_{xy}(\tau)e^{-i\omega\tau}\,d\tau
+\end{equation}
+\begin{equation} \label{eq: crosscorrelationInversSpectralDensity}
+	R_{xy}(\omega) = \int_{-\infty}^{\infty}G_{xy}(\omega)e^{i\omega\tau}\,d\omega
+\end{equation}
+Wykorzystanie właściwości splotu funkcji korelacji (!!!) i  splotu\footnote{Transformata Fouriera splotu dwóch funkcji w dziedzinie czasu $h(t)$ i $g(t)$ jest równa iloczynowi transformat Fouriera każdej z funkcji osobno. Innymi słowy transformacie Fouriera wyrażenia $h(t)*g(t)$ odpowiada iloczyn $H_k G_k$, gdzie: $H_k$ - transformata Fouriera funkcji $h(t)$, $G_k$ - transformata Fouriera funkcji $g(t)$.} oraz transformaty Fouriera pozwala uzyskać następującą właściwość gęstości widmowej:
+\begin{equation} 
+	G_{xy}(\omega) = X^*(\omega)Y(\omega)
+\end{equation}
+
+Sprawdź symetrię Hermitowską
+https://pl.wikipedia.org/wiki/Widmo_sygna%C5%82u
 
 
 Uogólniony zapis zależności wymuszenie-odpowiedź dla układu MIMO (wiele-wejść-wiele-wyjść) przedstawia się następująco:

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.29)  9 NOV 2020 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.29)  11 NOV 2020 17:25
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -1540,7 +1540,7 @@ Package pdftex.def Info: ./figures//korelacja/korelacja.pdf  used on input line
 (pdftex.def)             Requested size: 312.97952pt x 108.12016pt.
 [29 <./figures//korelacja/korelacja.pdf>] [30] [31] [32]
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 603.
+(Font)              <5> on input line 616.
  [33] [34]
 Rozdzia\l  4.
 ) [35
@@ -1557,13 +1557,13 @@ Overfull \hbox (1.00836pt too wide) in paragraph at lines 77--77
 []\OT4/cmr/bx/n/17.28 Badania - iden-ty-fi-ka-cja mo-dalna: wy-bór punk-
  []
 
-<./figures/correlogram_badania.pdf, id=318, 371.16034pt x 211.38443pt>
+<./figures/correlogram_badania.pdf, id=319, 371.16034pt x 211.38443pt>
 File: ./figures/correlogram_badania.pdf Graphic file (type pdf)
 <use ./figures/correlogram_badania.pdf>
 Package pdftex.def Info: ./figures/correlogram_badania.pdf  used on input line 
 81.
 (pdftex.def)             Requested size: 426.79134pt x 243.06761pt.
-<./figures/diagram_non_filtered.pdf, id=319, 440.38524pt x 219.34402pt>
+<./figures/diagram_non_filtered.pdf, id=320, 440.38524pt x 219.34402pt>
 File: ./figures/diagram_non_filtered.pdf Graphic file (type pdf)
 <use ./figures/diagram_non_filtered.pdf>
 Package pdftex.def Info: ./figures/diagram_non_filtered.pdf  used on input line
@@ -1574,7 +1574,7 @@ Overfull \hbox (13.59282pt too wide) in paragraph at lines 87--89
  [][] 
  []
 
-<./figures/diagram_filtered2.pdf, id=320, 440.38524pt x 219.34402pt>
+<./figures/diagram_filtered2.pdf, id=321, 440.38524pt x 219.34402pt>
 File: ./figures/diagram_filtered2.pdf Graphic file (type pdf)
 <use ./figures/diagram_filtered2.pdf>
 Package pdftex.def Info: ./figures/diagram_filtered2.pdf  used on input line 93
@@ -1585,7 +1585,7 @@ Overfull \hbox (13.59282pt too wide) in paragraph at lines 93--95
  [][] 
  []
 
-<./figures/identified_mode_1.pdf, id=321, 248.40805pt x 248.40805pt>
+<./figures/identified_mode_1.pdf, id=322, 248.40805pt x 248.40805pt>
 File: ./figures/identified_mode_1.pdf Graphic file (type pdf)
 <use ./figures/identified_mode_1.pdf>
 Package pdftex.def Info: ./figures/identified_mode_1.pdf  used on input line 99
@@ -1682,19 +1682,19 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34511 strings out of 481212
- 813251 string characters out of 2905973
- 1539849 words of memory out of 3000000
- 49491 multiletter control sequences out of 15000+200000
+ 34520 strings out of 481212
+ 813430 string characters out of 2905973
+ 1539965 words of memory out of 3000000
+ 49500 multiletter control sequences out of 15000+200000
  560998 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,12n,102p,2205b,2748s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,17n,102p,2205b,2729s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\przem\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti
 1200.pk>{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/pltt.e
 nc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plsc.enc}{C
 :/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plrm.enc}{C:/Use
-rs/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:/Users/pr
-zem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plms.enc}{C:/Users/przem/A
+rs/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plms.enc}{C:/Users/pr
+zem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:/Users/przem/A
 ppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plme.enc} <C:\Users\przem\AppDa
 ta\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/przem/
 AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plit.enc}<C:/Users/przem/AppDa
@@ -1722,12 +1722,13 @@ cal/Programs/MiKTeX/fonts/type1/public/pl/plsl12.pfb><C:/Users/przem/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/pl/plss8.pfb><C:/Users/przem/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/przem/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/pl/plsy6.pfb><C:/Users/przem/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/pl/plsy8.pfb><C:/Users/przem/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/pl/plti12.pfb><C:/Users/przem/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/pl/pltt12.pfb>
-Output written on whole_thesis.pdf (44 pages, 1011285 bytes).
+l/Programs/MiKTeX/fonts/type1/public/pl/plsy7.pfb><C:/Users/przem/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/pl/plsy8.pfb><C:/Users/przem/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/pl/plti12.pfb><C:/Users/przem/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/pl/pltt12.pfb>
+Output written on whole_thesis.pdf (44 pages, 1017789 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
+ 506 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

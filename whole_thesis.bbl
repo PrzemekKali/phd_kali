@@ -50,6 +50,37 @@
       \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Bathe - 2006 - Finite element procedures.pdf:pdf
       \endverb
     \endentry
+    \entry{Boashash2015}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8cbe2b7e7d3f077e746d29fe91afe676}{%
+           family={Boashash},
+           familyi={B\bibinitperiod},
+           given={Boualem},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{8cbe2b7e7d3f077e746d29fe91afe676}
+      \strng{fullhash}{8cbe2b7e7d3f077e746d29fe91afe676}
+      \strng{bibnamehash}{8cbe2b7e7d3f077e746d29fe91afe676}
+      \strng{authorbibnamehash}{8cbe2b7e7d3f077e746d29fe91afe676}
+      \strng{authornamehash}{8cbe2b7e7d3f077e746d29fe91afe676}
+      \strng{authorfullhash}{8cbe2b7e7d3f077e746d29fe91afe676}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0123985250}
+      \field{title}{{Time-frequency signal analysis and processing: a comprehensive reference}}
+      \field{year}{2015}
+      \verb{file}
+      \verb :C\:/Users/przem/Downloads/84999_01.pdf:pdf
+      \endverb
+    \endentry
     \entry{Brincker2001b}{inproceedings}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=df9b403f49896f79fad5822bff520a57}{%
@@ -226,9 +257,6 @@
       \field{year}{2001}
       \field{pages}{441}
       \range{pages}{1}
-      \verb{file}
-      \verb :C\:/Users/przem/Desktop/2005_IOMAC_OMA_PolyMAX.pdf:pdf
-      \endverb
     \endentry
     \entry{Caughey1961}{article}{}
       \name{author}{2}{}{%

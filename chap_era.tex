@@ -635,7 +635,17 @@ Równanie to jest nazywane twierdzeniem podstawowym \teng{fundamental theorem} m
 	\end{split}
 \end{equation}
 
-Za
+Jak już wielokrotnie wspomniano, w OMA zakłada się wymuszenie Gaussowskim, stacjonarnym szumem białym o zerowej wartości średniej. Podstawowym efektem tego założenia wymuszenia $x(t)$ w postaci białego szumu jest brak korelacji pomiędzy wymuszeniem w chwili $t$ i w chwili $t+\tau$. Wyjątkiem jest przypadek $\tau=0$. Stąd sygnał posiada zerową wartość średnią, a funkcja korelacji jest deltą Diraca co zapiszemy:
+\begin{equation}
+	R_x(\tau)=\mathrm{E}[x(t)x(t+\tau)] = 2\pi G_{x0} \delta(\tau)
+\end{equation} 
+gdzie $G_{x0}$ jest współczynnikiem skalującym. Zakładając dalej, że biały szum działa jedynie w ograniczonym spektrum od $0$ do $B$, a $\sigma_x^2$ to niezmiennie wariancja sygnału, otrzymamy przekształconą wersję () funkcji korelacji. Na jej podstawie można stwierdzić, że PSD wymuszenia (będąca transformatą Fouriera funkcji korelacji) jest wartością stałą.
+\begin{equation}
+	R_x(\tau)=2\pi \frac{\sigma_x^2}{2B} \delta(\tau)
+\end{equation} 
+
+
+
 
 
 

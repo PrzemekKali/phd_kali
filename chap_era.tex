@@ -585,10 +585,10 @@ Zarówno IRF jak i FRF można uogólnić do układów MDOF o $N$ stopniach swobo
 	\vect{\tilde{y}}(\omega)=\matr{\tilde{H}}(i\omega)\vect{\tilde{x}}(\omega)
 \end{equation}
 gdzie $\matr{H}(t)$ jest macierzą zawierającą funkcje IRF, $\vect{x}(t)$ jest wektorem sił wymuszających, $\vect{\tilde{y}}(\omega)$ i $\vect{\tilde{x}}(\omega)$ są transformatami Fouriera odpowiednio $\vect{x}(t)$ i $\vect{y}(t)$, a $\matr{\tilde{H}}(i\omega)$ jest macierzą FRF. Wyrażenia na odpowiednio IRF $\matr{H}(t)$ i FRF $\matr{\tilde{H}}(i\omega)$ podano poniżej.
-\begin{equation}
+\begin{equation} \label{eq: IRFmimo}
 	\matr{H}(t)=\sum_{n=1}^{N}(\vect{A}_n e^{\lambda_n t} + \vect{A}_n^* e^{\lambda_n t})
-\end{equation}
-\begin{equation}
+\end{equation} 
+\begin{equation} \label{eq: FRFmimo}
 	\matr{\tilde{H}}(i\omega)=\sum_{n=1}^{N}(\frac{\vect{A}_n}{i\omega-\lambda_n} + \frac{\vect{A}_n^*}{i\omega-\lambda_n^*})
 \end{equation}
 gdzie $\vect{A}_n=Q_n \vect{\psi}_n\vect{\psi}_n^T$, $\vect{\psi}_n$ to n-ta postać drgań własnych, $Q_n$ to współczynnik skalujący mody, a $\lambda_n=\sigma_n+i\omega_{d,n}$ jest n-tym biegunem układu zawierającym informacje na temat częstotliwości drgań własnych tłumionych $f_{d,n}=\omega_{d,n}/(2\pi)$ i liczby tłumienia $\xi_r=-\sigma_n/\sqrt{\sigma_n^2+\omega_{d,n}^2}$ n-tego moda.
@@ -624,25 +624,61 @@ Rozważamy ponownie układ SISO o odpowiedzi $y(t)$ przy wzbudzeniu $x(t)$: $y(t
 	G_{y}(\omega) = Y^*(\omega)Y(\omega)
 \end{equation}
 Wykorzystując transformatę FOuriera oraz przemienność i łączność splotu zapisać można następujące równanie pokazujące zależność pomiędzy gęstością widmową odpowiedzi i wymuszenia układu.
-\begin{equation}
+\begin{equation} \label{eq: sisofundamentaltheorem}
 	G_{y}(\omega) = G_x(\omega)|H^*(i\omega)|^2
 \end{equation}
-Równanie to jest nazywane twierdzeniem podstawowym \teng{fundamental theorem} metody OMA. Dla układu MIMO twierdzenie to przyjmuje następującą formę:
-\begin{equation}
+Równanie (\ref{eq: sisofundamentaltheorem}) jest nazywane twierdzeniem podstawowym \teng{fundamental theorem} metody OMA. Dla układu MIMO twierdzenie to przyjmuje następującą formę w dziedzinie częstotliwości:
+\begin{equation} \label{eq: matrixoutputspectraldensity}
 	\begin{split}
 	\matr{G}_{y}(\omega) &=\matr{\tilde{H}}^*(i\omega)\matr{G}_x(\omega)\matr{\tilde{H}}^T(i\omega)\\
 	&=\matr{\tilde{H}}^*(i\omega)\matr{G}_x(\omega)\matr{\tilde{H}}^T(i\omega)
 	\end{split}
+\end{equation}
+z kolei w dziedzinie czasu odpowiadająca macierz korelacji przedstawia się następująco:
+\begin{equation} \label{eq: matrixoutputcorrelation}
+		\matr{R}_y(\tau)=\matr{H}(-\tau)*\matr{R}_x(\tau)*\matr{H}^T(\tau)
 \end{equation}
 
 Jak już wielokrotnie wspomniano, w OMA zakłada się wymuszenie Gaussowskim, stacjonarnym szumem białym o zerowej wartości średniej. Podstawowym efektem tego założenia wymuszenia $x(t)$ w postaci białego szumu jest brak korelacji pomiędzy wymuszeniem w chwili $t$ i w chwili $t+\tau$. Wyjątkiem jest przypadek $\tau=0$. Stąd sygnał posiada zerową wartość średnią, a funkcja korelacji jest deltą Diraca co zapiszemy:
 \begin{equation}
 	R_x(\tau)=\mathrm{E}[x(t)x(t+\tau)] = 2\pi G_{x0} \delta(\tau)
 \end{equation} 
-gdzie $G_{x0}$ jest współczynnikiem skalującym. Zakładając dalej, że biały szum działa jedynie w ograniczonym spektrum od $0$ do $B$, a $\sigma_x^2$ to niezmiennie wariancja sygnału, otrzymamy przekształconą wersję () funkcji korelacji. Na jej podstawie można stwierdzić, że PSD wymuszenia (będąca transformatą Fouriera funkcji korelacji) jest wartością stałą.
-\begin{equation}
+gdzie $G_{x0}$ jest współczynnikiem skalującym. Zakładając dalej, że biały szum działa jedynie w ograniczonym spektrum od $0$ do $B$, a $\sigma_x^2$ to niezmiennie wariancja sygnału, otrzymamy przekształconą wersję () funkcji korelacji. Na jej podstawie można stwierdzić, że PSD wymuszenia (będąca transformatą Fouriera funkcji korelacji) jest wartością stałą\footnote{Transformata Fouriera delty Diraca jest równa jedności: $\int_{-\infty}^{\infty} \delta(t) e^{i\omega t}\,dt = e^{-i\omega\times 0}=1$ \parencite{Zielinski2002}} .
+\begin{equation} \label{eq: whitenoisecorrelationSISO}
 	R_x(\tau)=2\pi \frac{\sigma_x^2}{2B} \delta(\tau)
 \end{equation} 
+
+Chcąc rozwinąć tę zależność do układu MIMO załóżmy sygnały wymuszenia $x_1(t)$ i $x_2(t)$ jako szumy białe. Sformułowanie macierzy korelacji z wykorzystaniem równania (\ref{eq: whitenoisecorrelationSISO}) prowadzi do następującej zależności:
+ \begin{equation} \label{eq: whitenoisecorrelationMIMO}
+ 	\matr{R}_x(\tau)=\mathrm{E}[\vect{x}(t)\vect{x}^T(t+\tau)]=2\pi \frac{\delta(\tau)}{2B}\matr{C}
+ \end{equation} 
+gdzie $\matr{C}$ jest macierzą kowariancji sygnałów. Macierz gęstości widmowej sygnałów wymuszenia szumem białym ma postać:
+ \begin{equation} \label{eq: spectraldensitymatrixWHITENOISE}
+	\matr{G}_x(\omega)=\begin{cases}
+		\frac{\matr{C}}{2B}, & 0\le\omega\le B\\
+		0, & \omega>B
+		\end{cases}
+\end{equation} 
+ 
+
+Podsumowując powyższy ciąg myślowy możliwa jest dekompozycja równania (\ref{eq: matrixoutputcorrelation}) w dziedzinie czasu i równania (\ref{eq: matrixoutputspectraldensity}) w dziedzinie częstotliwości. Dekompozycję w dziedzinie czasu przeprowadzili po raz pierwszy \cite{James1993,James1995}. Z kolei dekompozycję w dziedzinie częstotliwości przedstawili \cite{Brincker2000,Brincker2001a}. W powyższych pracach przedstawiono pełny tok postępowania. Poniżej przytoczono rezultaty końcowe w postaci opisu macierzy korelacji sygnałów odpowiedzi układu (\ref{eq: decomposedRx}) i macierzy korelacji gęstości widmowej odpowiedzi (\ref{eq: decomposedGx}).
+
+\begin{equation} \label{eq: decomposedRx}
+	\matr{R}_y(\tau)=\begin{cases}
+		\sum_{n=1}^{N} (\vect{\phi_n}{\vect{\gamma}_n}^Te^{\lambda_n \tau} + \vect{\phi_n}^*{\vect{\gamma}_n}^He^{\lambda_n^* \tau}), & \tau\ge 0\\
+		\sum_{n=1}^{N} (\vect{\gamma_n}{\vect{\phi}_n}^Te^{-\lambda_n |\tau|} + \vect{\gamma_n}^*{\vect{\phi}_n}^He^{-\lambda_n^* |\tau|}), & \tau< 0.
+	\end{cases}
+\end{equation} 
+
+\begin{equation} \label{eq: decomposedGx}
+	\matr{G}_y(\omega)=\sum_{n=1}^{N}\frac{\vect{\phi_n}{\vect{\gamma}_n}^T}{i\omega-\lambda_r}+\frac{\vect{\phi_n}^*{\vect{\gamma}_n}^H}{i\omega-\lambda_r^*}+\frac{{\vect{\gamma}_n}\vect{\phi_n}^T}{-i\omega-\lambda_r}+\frac{{\vect{\gamma}_n}^*\vect{\phi_n}^H}{-i\omega-\lambda_r^*}
+\end{equation} 
+
+
+gdzie oznaczenia przyjęto jak w równaniach (\ref{eq: IRFmimo}) i (\ref{eq: FRFmimo}), a $\vect{\gamma}_n$ oznacza wektor referencyjny związany z n-tym modem. Wektor ten zależny jest od wszystkich parametrów modalnych systemu oraz lokalizacji i macierzy korelacji wymuszeń \parencite{Rainieri2014, Peeters2000}. Równanie (\ref{eq: decomposedRx}) pokazuje, że funkcje korelacji odpowiedzi mogą być wyrażone za pomocą sumy zespolonych funkcji eksponencjalnych. Stąd, funkcje korelacji mogą być użyte jako funkcje odpowiedzi impulowej w metodach TD identyfikacji parametrów modalnych.
+
+
+
 
 
 

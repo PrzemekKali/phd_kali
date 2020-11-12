@@ -576,14 +576,27 @@ gdzie $X(\omega)$ i $Y(\omega)$ są odpowiednio transformatami Fouriera wymuszen
 
 
 
-Zarówno IRF jak i FRF można uogólnić do układów MDOF o $N$ stopniach swobody. Wyrażenia na odpowiednio IRF $\matr{H}(t)$ i FRF $\matr{H}(\omega)$ podano poniżej.
+Zarówno IRF jak i FRF można uogólnić do układów MDOF o $N$ stopniach swobody. Zapis zależności wymuszenie-odpowiedź dla układu MIMO (wiele-wejść-wiele-wyjść) przedstawiono dla dziedziny czasu (\ref{eq: mimoIRFyx}) i częstotliwości (\ref{eq: mimoFRFyx}).
+
+\begin{equation} \label{eq: mimoIRFyx}
+	\vect{y}(t)=\matr{H}(t)*\vect{x}(t)
+\end{equation}
+\begin{equation} \label{eq: mimoFRFyx}
+	\vect{\tilde{y}}(\omega)=\matr{\tilde{H}}(i\omega)\vect{\tilde{x}}(\omega)
+\end{equation}
+gdzie $\matr{H}(t)$ jest macierzą zawierającą funkcje IRF, $\vect{x}(t)$ jest wektorem sił wymuszających, $\vect{\tilde{y}}(\omega)$ i $\vect{\tilde{x}}(\omega)$ są transformatami Fouriera odpowiednio $\vect{x}(t)$ i $\vect{y}(t)$, a $\matr{\tilde{H}}(i\omega)$ jest macierzą FRF. Wyrażenia na odpowiednio IRF $\matr{H}(t)$ i FRF $\matr{\tilde{H}}(i\omega)$ podano poniżej.
 \begin{equation}
 	\matr{H}(t)=\sum_{n=1}^{N}(\vect{A}_n e^{\lambda_n t} + \vect{A}_n^* e^{\lambda_n t})
 \end{equation}
 \begin{equation}
-	\matr{H}(\omega)=\sum_{n=1}^{N}(\frac{\vect{A}_n}{i\omega-\lambda_n} + \frac{\vect{A}_n^*}{i\omega-\lambda_n^*})
+	\matr{\tilde{H}}(i\omega)=\sum_{n=1}^{N}(\frac{\vect{A}_n}{i\omega-\lambda_n} + \frac{\vect{A}_n^*}{i\omega-\lambda_n^*})
 \end{equation}
-gdzie $\vect{A}_n=Q_n \vect{\psi}_n\vect{\psi}_n^T$, $\vect{\psi}_n$ to n-ta postać drgań własnych, a $Q_n$ to współczynnik skalujący mody, a $\lambda_n=\sigma_n+i\omega_{d,n}$ jest n-tym biegunem układu zawierającym informacje na temat częstotliwości drgań własnych tłumionych $f_{d,n}=\omega_{d,n}/(2\pi)$ i liczby tłumienia $\xi_r=-\sigma_n/\sqrt{\sigma_n^2+\omega_{d,n}^2}$ n-tego moda.
+gdzie $\vect{A}_n=Q_n \vect{\psi}_n\vect{\psi}_n^T$, $\vect{\psi}_n$ to n-ta postać drgań własnych, $Q_n$ to współczynnik skalujący mody, a $\lambda_n=\sigma_n+i\omega_{d,n}$ jest n-tym biegunem układu zawierającym informacje na temat częstotliwości drgań własnych tłumionych $f_{d,n}=\omega_{d,n}/(2\pi)$ i liczby tłumienia $\xi_r=-\sigma_n/\sqrt{\sigma_n^2+\omega_{d,n}^2}$ n-tego moda.
+
+
+
+
+
 
 Gęstość widmowa jest kolejnym kluczowym pojęciem potrzebnym do pełnego zrozumieniu znaczenia funkcji korelacji dla OMA. Gęstość widmowa \teng{auto spectral density} dla przebiegu czasowego $x(t)$ jest zdefiniowana jako transformata Fouriera z funkcji korelacji $R_x(\tau)$ \ref{eq: spectralDensity}. Istnieje również zależność odwrotna, w której odwrotną transformata Fouriera z gęstości widmowej pozwala otrzymać funkcję korelacji \ref{eq: correlationInversSpectralDensity}. Początkowy wyraz funkcji korelacji $R_x(0)$ jest reprezentacją twierdzenia Parsevela i pozwala stwierdzić, że gęstość widmowa pokazuje rozkład energii w funkcji częstotliwości. Stąd gęstość widmową nazywa się również zamiennie gęstością widmową mocy \teng{power spectral density} (PSD) \parencite{Brincker2015}.
 \begin{equation} \label{eq: spectralDensity}
@@ -600,19 +613,45 @@ Podobnie zdefiniować można gęstość widmową pomiędzy dwoma sygnałami $x(t
 \begin{equation} \label{eq: crosscorrelationInversSpectralDensity}
 	R_{xy}(\omega) = \int_{-\infty}^{\infty}G_{xy}(\omega)e^{i\omega\tau}\,d\omega
 \end{equation}
-Wykorzystanie właściwości splotu funkcji korelacji (!!!) i  splotu\footnote{Transformata Fouriera splotu dwóch funkcji w dziedzinie czasu $h(t)$ i $g(t)$ jest równa iloczynowi transformat Fouriera każdej z funkcji osobno. Innymi słowy transformacie Fouriera wyrażenia $h(t)*g(t)$ odpowiada iloczyn $H_k G_k$, gdzie: $H_k$ - transformata Fouriera funkcji $h(t)$, $G_k$ - transformata Fouriera funkcji $g(t)$.} oraz transformaty Fouriera pozwala uzyskać następującą właściwość gęstości widmowej:
-\begin{equation} 
+Wykorzystanie właściwości splotu funkcji korelacji (\ref{eq: splotCorrelation}) i  splotu\footnote{Transformata Fouriera splotu dwóch funkcji w dziedzinie czasu $h(t)$ i $g(t)$ jest równa iloczynowi transformat Fouriera każdej z funkcji osobno. Innymi słowy transformacie Fouriera wyrażenia $h(t)*g(t)$ odpowiada iloczyn $H_k G_k$, gdzie: $H_k$ - transformata Fouriera funkcji $h(t)$, $G_k$ - transformata Fouriera funkcji $g(t)$.} oraz symetrii Hermitowskiej\footnote{Jeżeli $H(\omega)$ jest transformatą Fouriera rzeczywistej funkcji $h(t)$, to prawdziwe jest równanie $H(\omega)=H^*(-\omega)$. Równanie to jest nazywane symetrią Hermitowską \parencite{Boashash2015}.} transformaty Fouriera pozwala uzyskać następującą właściwość gęstości widmowej (\ref{eq: specDensSplot}). Należy nadmienić, że zależność ta będzie spełniona przy założeniu okresowego (lub bardzo długiego) sygnału \parencite{Brincker2015}.
+\begin{equation} \label{eq: specDensSplot}
 	G_{xy}(\omega) = X^*(\omega)Y(\omega)
 \end{equation}
 
-Sprawdź symetrię Hermitowską
-https://pl.wikipedia.org/wiki/Widmo_sygna%C5%82u
 
-
-Uogólniony zapis zależności wymuszenie-odpowiedź dla układu MIMO (wiele-wejść-wiele-wyjść) przedstawia się następująco:
-\begin{equation} 
-	\vect{y}(t)=\matr{H}(t)*\vect{x}(t)
+Rozważamy ponownie układ SISO o odpowiedzi $y(t)$ przy wzbudzeniu $x(t)$: $y(t)=x(t)*h(t)$ (\ref{eq: convolutionIntegralIRF}). Wykorzystując równanie (\ref{eq: specDensSplot}) zapiszemy równanie na gęstość widmową odpowiedzi:
+\begin{equation} \label{g}
+	G_{y}(\omega) = Y^*(\omega)Y(\omega)
 \end{equation}
+Wykorzystując transformatę FOuriera oraz przemienność i łączność splotu zapisać można następujące równanie pokazujące zależność pomiędzy gęstością widmową odpowiedzi i wymuszenia układu.
+\begin{equation}
+	G_{y}(\omega) = G_x(\omega)|H^*(i\omega)|^2
+\end{equation}
+Równanie to jest nazywane twierdzeniem podstawowym \teng{fundamental theorem} metody OMA. Dla układu MIMO twierdzenie to przyjmuje następującą formę:
+\begin{equation}
+	\begin{split}
+	\matr{G}_{y}(\omega) &=\matr{\tilde{H}}^*(i\omega)\matr{G}_x(\omega)\matr{\tilde{H}}^T(i\omega)\\
+	&=\matr{\tilde{H}}^*(i\omega)\matr{G}_x(\omega)\matr{\tilde{H}}^T(i\omega)
+	\end{split}
+\end{equation}
+
+Jak już wielokrotnie wspomniano, w OMA zakłada się wymuszenie Gaussowskim, stacjonarnym szumem białym o zerowej wartości średniej. Podstawowym efektem tego założenia wymuszenia $x(t)$ w postaci białego szumu jest brak korelacji pomiędzy wymuszeniem w chwili $t$ i w chwili $t+\tau$. Wyjątkiem jest przypadek $\tau=0$. Stąd sygnał posiada zerową wartość średnią, a funkcja korelacji jest deltą Diraca co zapiszemy:
+\begin{equation}
+	R_x(\tau)=\mathrm{E}[x(t)x(t+\tau)] = 2\pi G_{x0} \delta(\tau)
+\end{equation} 
+gdzie $G_{x0}$ jest współczynnikiem skalującym. Zakładając dalej, że biały szum działa jedynie w ograniczonym spektrum od $0$ do $B$, a $\sigma_x^2$ to niezmiennie wariancja sygnału, otrzymamy przekształconą wersję () funkcji korelacji. Na jej podstawie można stwierdzić, że PSD wymuszenia (będąca transformatą Fouriera funkcji korelacji) jest wartością stałą.
+\begin{equation}
+	R_x(\tau)=2\pi \frac{\sigma_x^2}{2B} \delta(\tau)
+\end{equation} 
+
+
+
+
+
+
+
+
+
 
 
 

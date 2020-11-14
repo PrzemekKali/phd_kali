@@ -684,7 +684,7 @@ Równanie (\ref{eq: decomposedRx}) pokazuje, że funkcje korelacji odpowiedzi mo
 Metoda ERA została opracowana w latach 80 XX w. przez naukowców z NASA Langley Research Center: Richarda Pappa i Jer-Nan Juanga. Przedstawili oni koncept identyfikacji modalnej i redukcji modelu układu dynamicznego na podstawie danych pomiarowych. Nowość, którą wprowadzili autorzy było wykorzystanie połączenie pojęć z teorii kontroli i algorytmu rozkładu względem wartości osobliwych. Fundamentalne prace opisujące metodą zostały opisane w \parencite{Pappa1985,Juang1985,Juang1988}. Spośród polskich autorów, szczegółowy opis metody zawarli w swoich pracach \cite{Szafranski2013} i \cite{Dudek2008}.
 
 \subsubsection{Liniowy model dynamiczny w przestrzeni stanów}
-Model przestrzeni stanów \teng{state-space model} używany jest do przekształcenia równania różniczkowego drugiego rzędu (\ref{eq: mot_dam}), do dwóch równań rzędu pierwszego nazywanych równaniami stanu i obserwacji. Dla przejrzystości macierzowe równanie ruchu przytoczono ponownie poniżej:
+Model przestrzeni stanów\footnote{Według \cite{Kaczorek2016} stanem układu nazywamy zbiór liniowo niezależnych wielkości $x_1, x_2, x_3,\dots,x_n$ określających w pełni skutki przeszłych oddziaływań $(t<t_0)$ na układ, który jest wystarczający do wyznaczenie przebiegów chwilowych dowolnych wielkości w tym układzie dla $t>t_0$, gdy znane są wymuszenia i parametry obwodu. Wielkości $x_1, x_2, x_3,\dots,x_n$ nazywa się zmiennymi stanu, a wektor $\vect{x}=[x_1, x_2, x_3,\dots,x_n]$ wektorem stanu tego obwodu.} \teng{state-space model} używany jest do przekształcenia równania różniczkowego drugiego rzędu (\ref{eq: mot_dam}), do dwóch równań rzędu pierwszego.     Dla przejrzystości macierzowe równanie ruchu przytoczono ponownie poniżej:
 \begin{equation}
 	\vect{M} \vect{\ddot{x}}(t) +\vect{C} \vect{\dot{x}}(t)+ \vect{Kx}(t) = \vect{F}(t)
 \end{equation}
@@ -698,13 +698,13 @@ Macierzowe równanie ruchu może być więc przekształcone następująco:
 	\vect{\ddot{x}}(t) +\vect{M}^{-1} \vect{C} \vect{\dot{x}}(t)+ \vect{M}^{-1}\vect{Kx}(t) = \vect{M}^{-1}\vect{\bar{B}}\vect{u}(t)
 \end{equation}
 Definiując wektor stanu jako:
-\begin{equation}
+\begin{equation} \label{eq: stateVector}
 	\vect{s}(t) = \begin{Bmatrix}
 		\vect{\dot{x}}(t) \\
 		\vect{x}(t)
 	\end{Bmatrix}
 \end{equation}
-i podstawiając go do równania (\ref{eq: STATEmanipulated_mot_eq}) dodatkowo wykorzystując równość $\vect{M}\vect{\dot{x}}(t)=\vect{M}\vect{\dot{x}}(t)$ otrzymamy:
+i podstawiając go do równania (\ref{eq: STATEmanipulated_mot_eq}) dodatkowo wykorzystując oczywistą równość $\vect{M}\vect{\dot{x}}(t)=\vect{M}\vect{\dot{x}}(t)$ otrzymamy:
 \begin{equation}
 	\vect{\dot{s}}(t) = 
 		\begin{bmatrix}
@@ -716,7 +716,7 @@ i podstawiając go do równania (\ref{eq: STATEmanipulated_mot_eq}) dodatkowo wy
 		\vect{0}
 	\end{bmatrix} \vect{u}(t)
 \end{equation}
-Stąd możemy zdefiniować macierz: $\vect{A}_c$ i $\vect{B}_c$, które nazywane są odpowiednio macierzą stanu \teng{state matrix} i macierzą wejścia \teng{input influecne matrix}.
+Stąd możemy zdefiniować następujące macierze: $\vect{A}_c$ i $\vect{B}_c$:
 \begin{equation}
 	\vect{A}_c = 
 	\begin{bmatrix}
@@ -725,21 +725,51 @@ Stąd możemy zdefiniować macierz: $\vect{A}_c$ i $\vect{B}_c$, które nazywane
 	\end{bmatrix} 
 \end{equation}
 \begin{equation}
-\vect{B}_c + 
+\vect{B}_c = 
 	\begin{bmatrix}
 		-\vect{M}^{-1}\vect{\bar{B}} \\
 		\vect{0}
-	\end{bmatrix}
+	\end{bmatrix}\phantom{\qquad\qquad\quad}
 \end{equation}
 Dzięki tak sformułowanym elementom zapiszmy równanie stanu \teng{state equation} następująco:
-\begin{equation}
+\begin{equation} \label{eq: stateEquation}
 \vect{\dot{s}}(t)= \vect{A}_c\vect{s}(t)+\vect{B}_c\vect{u}(t)
 \end{equation}
+W równaniu (\ref{eq: stateEquation}) $\vect{s}(t)$ jest wektorem stanu (\ref{eq: stateVector}), czyli zestawem wielkości opisujących w sposób jednoznaczny stan modelowanego układu, a $\vect{u}(t)$ jest wektorem wejścia (sterowania) i opisuje sygnał wejściowy. Macierze $\vect{A}_c$ i $\vect{B}_c$, nazywane są odpowiednio macierzą stanu (systemu) \teng{state matrix} i macierzą wejścia \teng{input influecne matrix}. Są to macierze stałych współczynników, które odwzorowują modelowany układ dynamiczny i parametry elementów tworzących ten układ.
 
+Drugim równaniem pozwalającym na stworzenie modelu w przestrzeni stanów jest równanie obserwacji \teng{observation equation} lub inaczej równanie wyjścia. W ogólności ma ono postać:
+\begin{equation} \label{eq: observationEquationCont}
+	\vect{y}(t) = \vect{C_a}\vect{\ddot{x}}(t) + \vect{C_v}\vect{\dot{x}}(t) +\vect{C_d}\vect{x}(t)
+\end{equation}
+gdzie: $\vect{y}(t)$ jest wektorem mierzonej odpowiedzi w $m$ punktach pomiarowych, a $\vect{\ddot{x}}(t)$, $\vect{\dot{x}}(t)$ i $\vect{x}(t)$ to odpowiednio mierzone przyspieszenia, prędkości i przemieszczenia w danych $m$ punktach. Z kolei macierze $\vect{C_a}$, $\vect{C_v}$ i $\vect{C_d}$ określają lokalizację mierzonych, odpowiadających im przyspieszeń, prędkości i przemieszczeń. Należy zaznaczyć, że rzeczywista konstrukcja składa się z nieskończonej liczby stopni swobody. Nawet w przypadku dyskretyzacji do układu MDOF, jak to ma miejsce w przypadku obliczeń numerycznych, liczba stopni swobody jest ogromna. Z tego względu, w trakcie pomiarów znacznie redukuje się liczbę mierzonych stopni swobody właśnie do $m$. Podstawiając równanie (\ref{eq: STATEmanipulated_mot_eq}) do (\ref{eq: observationEquationCont}), po przekształceniach można otrzymać następujące równanie obserwacji:
+\begin{equation} \label{eq: observationEquation}
+	\vect{y}(t) = \vect{C}_c\vect{s}(t)+\vect{D}_c\vect{u}(t)
+\end{equation}
+w którym:
+\begin{equation}
+	\vect{C}_c = 
+	\begin{bmatrix} 
+		\vect{C}_v-\vect{C}_a\vect{M}^{-1}\vect{C}  &  \vect{C}_d-\vect{C}_a\vect{M}^{-1}\vect{K}
+	\end{bmatrix}
+\end{equation}
+\begin{equation}
+	\vect{D}_c = \vect{C}_a\vect{M}^{-1}\vect{\bar{B}} \phantom{\qquad\qquad\qquad\qquad\qquad\quad.}
+	\end{equation}
+Macierz $\vect{C}_c$ jest nazywana macierzą wyjścia \teng{output influence matrix}, a $\vect{D}_c$ macierzą przenoszenia lub transmisyjną \teng{direct transmission matrix}. Równania stanu (\ref{eq: stateEquation}) i obserwacji (\ref{eq: observationEquation}) łącznie tworzą ciągły, deterministyczny model przestrzeni stanów:
+\begin{equation} \label{eq: con_state_space_model}
+	\begin{aligned}
+\vect{\dot{s}}(t)= \vect{A}_c\vect{s}(t)+\vect{B}_c\vect{u}(t) \\
+\vect{y}(t) = \vect{C}_c\vect{s}(t)+\vect{D}_c\vect{u}(t)
+	\end{aligned}
+\end{equation}
 
-
-
-
+Wielkości mierzone w trakcie eksperymentu są próbkowane jedynie w dyskretnych chwilach czasowych. W takim razie, naturalnym dla rzeczywistych zastosowań jest przekształcenie modelu ciągłego przestrzeni stanów w model dyskretny. Zakładając stały czas próbkowania równy $\Delta t$, równania ciągłe mogą być zdyskretyzowane i rozwiązane jedynie w chwilach czasowych $t_k=k\Delta t$ dla $k\in N$. Dla poprawności zapisu dyskretnego, wymagane jest założenie o stałych wartościach elementów wektora wejścia $\vect{u}(t)$ w trakcie pojedynczego kroku czasowego, tj. $\vect{u}(t)=\vect{u}_k$ dla $t \in [k\Delta t, (k+1)\Delta t]$. Przy spełnieniu powyższych założeń możemy zapisać dyskretny model przestrzeni stanów:
+\begin{equation} \label{eq: dis_state_space_model}
+	\begin{aligned}
+		\vect{\dot{s}}_{k+1}= \vect{A}\vect{s}_k+\vect{B}\vect{u}_k \\
+		\vect{y}_k = \vect{C}\vect{s}_k+\vect{D}\vect{u}_k
+	\end{aligned}
+\end{equation}
 
 
 \subsection{Elementy przetwarzania sygnałów}

@@ -87,12 +87,12 @@ Obszerność zagadnień dotyczących analizy teoretycznej i identyfikacji modaln
 
 \section{Teoretyczna analiza modalna}
 \label{section: eigen}
-Metody teoretycznej analizy modalnej są obszernie opisane w literaturze przedmiotu (cytowania). Ze względu na złożoność rzeczywistych konstrukcji, w praktyce mają one zastosowanie głównie w formie rozwiązań numerycznych.  Według przedstawionej na rysunku \ref{fig:theExpProcA} procedury metody teoretycznej analizy modalnej służą głównie dwóm celom: identyfikacji charakterystyk modalnych (częstotliwości i postaci drgań własnych) i wyznaczaniu odpowiedzi układu. Dla zrozumienia zagadnienia, metody analityczne najczęściej przedstawione są dla najprostszego przypadku układu z jednym stopniem swobody. Układ ten z reguły łatwo daje się uogólnić do układu o wielu stopniach swobody. Macierzowe równanie drgań wymuszonych dla tłumionego układu o skończonej liczbie stopni swobody przedstawiono we wzorze \ref{eq: mot_und}. 
-\begin{equation} \label{eq: mot_und}
+Metody teoretycznej analizy modalnej są obszernie opisane w literaturze przedmiotu (cytowania). Ze względu na złożoność rzeczywistych konstrukcji, w praktyce mają one zastosowanie głównie w formie rozwiązań numerycznych.  Według przedstawionej na rysunku \ref{fig:theExpProcA} procedury metody teoretycznej analizy modalnej służą głównie dwóm celom: identyfikacji charakterystyk modalnych (częstotliwości i postaci drgań własnych) i wyznaczaniu odpowiedzi układu. Dla zrozumienia zagadnienia, metody analityczne najczęściej przedstawione są dla najprostszego przypadku układu z jednym stopniem swobody. Układ ten z reguły łatwo daje się uogólnić do układu o wielu stopniach swobody. Macierzowe równanie drgań wymuszonych dla tłumionego układu o skończonej liczbie stopni swobody przedstawiono we wzorze \ref{eq: mot_dam}. 
+\begin{equation} \label{eq: mot_dam}
 \vect{M} \vect{\ddot{x}}(t) +\vect{C} \vect{\dot{x}}(t)+ \vect{Kx}(t) = \vect{F}(t)
 \end{equation}
 gdzie $\vect{M},\vect{C},\vect{K}$ to odpowiednio macierze mass, tłumienia i sztywności, $\vect{x}$ to wektor współrzędnych uogólnionych (przemieszczeń lub obrotów punktu), $\vect{F}(t)$ to wektor uogólnionych sił wymuszających. Wzór \ref{eq: mot_dam} odpowiadający formule \ref{eq: mot_und} pozbawionej składnika reprezentującego opory ruchu opisuje ruch nietłumiony układu. 
-\begin{equation} \label{eq: mot_dam}
+\begin{equation} \label{eq: mot_und}
 \vect{M} \vect{\ddot{x}}(t) +\vect{Kx}(t) = \vect{F}(t)
 \end{equation}
 
@@ -623,7 +623,7 @@ Rozważamy ponownie układ SISO o odpowiedzi $y(t)$ przy wzbudzeniu $x(t)$: $y(t
 \begin{equation} \label{g}
 	G_{y}(\omega) = Y^*(\omega)Y(\omega)
 \end{equation}
-Wykorzystując transformatę FOuriera oraz przemienność i łączność splotu zapisać można następujące równanie pokazujące zależność pomiędzy gęstością widmową odpowiedzi i wymuszenia układu.
+Wykorzystując transformatę Fouriera oraz przemienność i łączność splotu zapisać można następujące równanie pokazujące zależność pomiędzy gęstością widmową odpowiedzi i wymuszenia układu.
 \begin{equation} \label{eq: sisofundamentaltheorem}
 	G_{y}(\omega) = G_x(\omega)|H^*(i\omega)|^2
 \end{equation}
@@ -675,34 +675,77 @@ Podsumowując powyższy ciąg myślowy możliwa jest dekompozycja równania (\re
 \end{equation} 
 
 
-gdzie oznaczenia przyjęto jak w równaniach (\ref{eq: IRFmimo}) i (\ref{eq: FRFmimo}), a $\vect{\gamma}_n$ oznacza wektor referencyjny związany z n-tym modem. Wektor ten zależny jest od wszystkich parametrów modalnych systemu oraz lokalizacji i macierzy korelacji wymuszeń \parencite{Rainieri2014, Peeters2000}. Równanie (\ref{eq: decomposedRx}) pokazuje, że funkcje korelacji odpowiedzi mogą być wyrażone za pomocą sumy zespolonych funkcji eksponencjalnych. Stąd, funkcje korelacji mogą być użyte jako funkcje odpowiedzi impulowej w metodach TD identyfikacji parametrów modalnych.
+gdzie oznaczenia przyjęto jak w równaniach (\ref{eq: IRFmimo}) i (\ref{eq: FRFmimo}), a $\vect{\gamma}_n$ oznacza wektor referencyjny związany z n-tym modem. Wektor ten zależny jest od wszystkich parametrów modalnych systemu oraz lokalizacji i macierzy korelacji wymuszeń \parencite{Rainieri2014, Peeters2000}. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Równanie (\ref{eq: decomposedRx}) pokazuje, że funkcje korelacji odpowiedzi mogą być wyrażone za pomocą sumy zespolonych funkcji eksponencjalnych. \cite{SHEN2003} wskazują na podobieństwo jego formy do równania (\ref{eq: IRFmimo}). \cite{Kennedy1995}, w swojej kluczowej dla metody NExT pracy, rozwinęli to równanie do postaci ukazującej funkcję korelacji jako sumę zanikających sinusoid, o charakterystyce takiej samej jak w przypadku IRF. Podsumowując, funkcje korelacji mogą być użyte jako funkcje odpowiedzi impulsowej (IRF) w metodach TD identyfikacji parametrów modalnych.
 
 
 \subsection{Eigenystem Realization Algorithm}
+Metoda ERA została opracowana w latach 80 XX w. przez naukowców z NASA Langley Research Center: Richarda Pappa i Jer-Nan Juanga. Przedstawili oni koncept identyfikacji modalnej i redukcji modelu układu dynamicznego na podstawie danych pomiarowych. Nowość, którą wprowadzili autorzy było wykorzystanie połączenie pojęć z teorii kontroli i algorytmu rozkładu względem wartości osobliwych. Fundamentalne prace opisujące metodą zostały opisane w \parencite{Pappa1985,Juang1985,Juang1988}. Spośród polskich autorów, szczegółowy opis metody zawarli w swoich pracach \cite{Szafranski2013} i \cite{Dudek2008}.
+
+\subsubsection{Liniowy model dynamiczny w przestrzeni stanów}
+Model przestrzeni stanów \teng{state-space model} używany jest do przekształcenia równania różniczkowego drugiego rzędu (\ref{eq: mot_dam}), do dwóch równań rzędu pierwszego nazywanych równaniami stanu i obserwacji. Dla przejrzystości macierzowe równanie ruchu przytoczono ponownie poniżej:
+\begin{equation}
+	\vect{M} \vect{\ddot{x}}(t) +\vect{C} \vect{\dot{x}}(t)+ \vect{Kx}(t) = \vect{F}(t)
+\end{equation}
+gdzie: $\vect{M}$, $\vect{C}$, $\vect{K}$ to odpowiednio macierze mas, tłumienia i sztywności, $\vect{x}(t)$ jest wektorem przemieszczenia, a $\vect{F}(t)$ jest wektorem wymuszenia. 
+Wektor wymuszenia można poddać faktoryzacji do macierzy $\vect{\bar{B}}$ oraz wektora $\vect{u}(t)$ (\ref{eq: }). Macierz $\vect{\bar{B}}$ opisuje lokalizację punków wymuszenia, a wektor $\vect{u}(t)$ intensywność tego wymuszenia w funkcji czasu.
+\begin{equation}
+	\vect{F}(t) = \vect{\bar{B}}\vect{u}(t)
+\end{equation} 
+Macierzowe równanie ruchu może być więc przekształcone następująco:
+\begin{equation} \label{eq: STATEmanipulated_mot_eq}
+	\vect{\ddot{x}}(t) +\vect{M}^{-1} \vect{C} \vect{\dot{x}}(t)+ \vect{M}^{-1}\vect{Kx}(t) = \vect{M}^{-1}\vect{\bar{B}}\vect{u}(t)
+\end{equation}
+Definiując wektor stanu jako:
+\begin{equation}
+	\vect{s}(t) = \begin{Bmatrix}
+		\vect{\dot{x}}(t) \\
+		\vect{x}(t)
+	\end{Bmatrix}
+\end{equation}
+i podstawiając go do równania (\ref{eq: STATEmanipulated_mot_eq}) dodatkowo wykorzystując równość $\vect{M}\vect{\dot{x}}(t)=\vect{M}\vect{\dot{x}}(t)$ otrzymamy:
+\begin{equation}
+	\vect{\dot{s}}(t) = 
+		\begin{bmatrix}
+		-\vect{M}^{-1}\vect{C} & -\vect{M}^{-1}\vect{K} \\
+		\vect{I} & \vect{0}
+		\end{bmatrix} \vect{s}(t) + 
+	\begin{bmatrix}
+		-\vect{M}^{-1}\vect{\bar{B}} \\
+		\vect{0}
+	\end{bmatrix} \vect{u}(t)
+\end{equation}
+Stąd możemy zdefiniować macierz: $\vect{A}_c$ i $\vect{B}_c$, które nazywane są odpowiednio macierzą stanu \teng{state matrix} i macierzą wejścia \teng{input influecne matrix}.
+\begin{equation}
+	\vect{A}_c = 
+	\begin{bmatrix}
+		-\vect{M}^{-1}\vect{C} & -\vect{M}^{-1}\vect{K} \\
+		\vect{I} & \vect{0}
+	\end{bmatrix} 
+\end{equation}
+\begin{equation}
+\vect{B}_c + 
+	\begin{bmatrix}
+		-\vect{M}^{-1}\vect{\bar{B}} \\
+		\vect{0}
+	\end{bmatrix}
+\end{equation}
+Dzięki tak sformułowanym elementom zapiszmy równanie stanu \teng{state equation} następująco:
+\begin{equation}
+\vect{\dot{s}}(t)= \vect{A}_c\vect{s}(t)+\vect{B}_c\vect{u}(t)
+\end{equation}
+
+
+
+
+
+
 
 \subsection{Elementy przetwarzania sygnałów}
 
 
-	\chapter{Metody analizy modalnej}
-
-	Podział metod (diagram)
-	\section{Metoda ERA}
-	\section{Metoda NEXT-ERA}
-	\section{Implementacja programu}
+\section{Implementacja programu}
 MAC - \parencite{allemang_modal_2003} formuła musi być dla zespolonych a nie tylko transpozycja!
 \section{Testy numeryczne metody NEXT-ERA}
 \section{Testy eksperymentalne metody NEXT-ERA}

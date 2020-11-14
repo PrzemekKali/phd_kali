@@ -1535,6 +1535,53 @@
       \endverb
       \keyw{Dynamika konstrukcji -- oprogramowanie -- podr{ȩ}czn,Dynamika konstrukcji -- oprogramowanie -- zadania,Matlab (oprogramowanie) -- podr{ȩ}czniki akademickie,Matlab (oprogramowanie) -- zadania i {ć}wiczenia}
     \endentry
+    \entry{Schutter2000}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3fc61f1c60423ec529e037233d4095ad}{%
+           family={Schutter},
+           familyi={S\bibinitperiod},
+           given={B.De},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3fc61f1c60423ec529e037233d4095ad}
+      \strng{fullhash}{3fc61f1c60423ec529e037233d4095ad}
+      \strng{bibnamehash}{3fc61f1c60423ec529e037233d4095ad}
+      \strng{authorbibnamehash}{3fc61f1c60423ec529e037233d4095ad}
+      \strng{authornamehash}{3fc61f1c60423ec529e037233d4095ad}
+      \strng{authorfullhash}{3fc61f1c60423ec529e037233d4095ad}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We give a survey of the results in connection with the minimal state-space realization problem for linear time-invariant systems. We start with a brief historical overview and a short introduction to linear system theory. Next we present some of the basic algorithms for the reduction of nonminimal state-space realizations and for the minimal state-space realization of in{ÿ}nite or {ÿ}nite sequences of Markov parameters of linear time-invariant systems. Finally, we discuss some extensions of this problem to other classes of systems and point out some related problems. c 2000 Elsevier Science B.V. All rights reserved.}
+      \field{issn}{03770427}
+      \field{journaltitle}{Journal of Computational and Applied Mathematics}
+      \field{month}{4}
+      \field{number}{1-2}
+      \field{title}{{Minimal state-space realization in linear system theory: an overview}}
+      \field{volume}{121}
+      \field{year}{2000}
+      \field{pages}{331\bibrangedash 354}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/S0377-0427(00)00341-1
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2000_Schutter_Minimal state-space realization in linear system theory an overview.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0377042700003411 http://files/102/Schutter - 2000 - Minimal state-space realization in linear system t.pdf
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0377042700003411%20http://files/102/Schutter%20-%202000%20-%20Minimal%20state-space%20realization%20in%20linear%20system%20t.pdf
+      \endverb
+    \endentry
     \entry{SHEN2003}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=453e4a70e5a7851596e338a586217605}{%

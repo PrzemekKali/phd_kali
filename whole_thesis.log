@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.21)  14 NOV 2020 21:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.21)  14 NOV 2020 23:55
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -1580,7 +1580,18 @@ Underfull \vbox (badness 1281) has occurred while \output is active []
 
 LaTeX Warning: Reference `eq: ' on page 36 undefined on input line 692.
 
-[36]) [37] [38]
+
+Overfull \hbox (12.66397pt too wide) in paragraph at lines 706--708
+\OT4/cmr/m/n/12 sta-wia-j¡c go do rów-na-nia (3.85[]) do-dat-kowo wy-ko-rzy-stu
+-j¡c oczy-wi-st¡ rów-no±¢ $\OML/plm/b/it/12 M[]\OT4/cmr/m/n/12 (\OML/plm/m/it/1
+2 t\OT4/cmr/m/n/12 ) =
+ []
+
+[36] [37]
+
+LaTeX Warning: Citation 'Phan1991' on page 38 undefined on input line 799.
+
+) [38]
 Rozdzia\l  4.
 [39
 
@@ -1742,29 +1753,27 @@ Overfull \hbox (16.90869pt too wide) in paragraph at lines 180--180
 nnedy % 20i % 20Eberhart %
  []
 
-[46] [47] (whole_thesis.aux (dictionary.aux) (chap_era.aux))
+[46] [47] [48] (whole_thesis.aux (dictionary.aux) (chap_era.aux))
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                whole_thesis
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34347 strings out of 481522
- 810077 string characters out of 2913237
- 1527527 words of memory out of 3000000
- 48998 multiletter control sequences out of 15000+200000
+ 34353 strings out of 481522
+ 810233 string characters out of 2913237
+ 1527632 words of memory out of 3000000
+ 49004 multiletter control sequences out of 15000+200000
  558248 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,17n,102p,2205b,2720s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,17n,102p,2205b,2731s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\KBP\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 ti1200.pk>{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/pl
 tt.enc}{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plsc.
@@ -1803,9 +1812,9 @@ eX 2.9/fonts/type1/public/pl/plsy7.pfb><C:/Users/KBP/AppData/Local/Programs/MiK
 TeX 2.9/fonts/type1/public/pl/plsy8.pfb><C:/Users/KBP/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/pl/plti12.pfb><C:/Users/KBP/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/pl/pltt12.pfb>
-Output written on whole_thesis.pdf (47 pages, 1041622 bytes).
+Output written on whole_thesis.pdf (48 pages, 1045008 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
+ 518 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

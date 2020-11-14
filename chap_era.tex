@@ -681,7 +681,7 @@ Równanie (\ref{eq: decomposedRx}) pokazuje, że funkcje korelacji odpowiedzi mo
 
 
 \subsection{Eigenystem Realization Algorithm}
-Metoda ERA została opracowana w latach 80 XX w. przez naukowców z NASA Langley Research Center: Richarda Pappa i Jer-Nan Juanga. Przedstawili oni koncept identyfikacji modalnej i redukcji modelu układu dynamicznego na podstawie danych pomiarowych. Nowość, którą wprowadzili autorzy było wykorzystanie połączenie pojęć z teorii kontroli i algorytmu rozkładu względem wartości osobliwych. Fundamentalne prace opisujące metodą zostały opisane w \parencite{Pappa1985,Juang1985,Juang1988}. Spośród polskich autorów, szczegółowy opis metody zawarli w swoich pracach \cite{Szafranski2013} i \cite{Dudek2008}.
+Metoda ERA została opracowana w latach 80' XX w. przez naukowców z NASA Langley Research Center: Richarda Pappa i Jer-Nan Juang'a. Przedstawili oni koncept identyfikacji modalnej i redukcji modelu układu dynamicznego na podstawie danych pomiarowych. Nowość, którą wprowadzili autorzy było wykorzystanie połączenie pojęć z teorii kontroli i algorytmu rozkładu względem wartości osobliwych. Fundamentalne prace opisujące metodą zostały opisane w \parencite{Pappa1985,Juang1985,Juang1988}. Spośród polskich autorów, szczegółowy opis metody zawarli w swoich pracach \cite{Szafranski2013} i \cite{Dudek2008}.
 
 \subsubsection{Liniowy model dynamiczny w przestrzeni stanów}
 Model przestrzeni stanów\footnote{Według \cite{Kaczorek2016} stanem układu nazywamy zbiór liniowo niezależnych wielkości $x_1, x_2, x_3,\dots,x_n$ określających w pełni skutki przeszłych oddziaływań $(t<t_0)$ na układ, który jest wystarczający do wyznaczenie przebiegów chwilowych dowolnych wielkości w tym układzie dla $t>t_0$, gdy znane są wymuszenia i parametry obwodu. Wielkości $x_1, x_2, x_3,\dots,x_n$ nazywa się zmiennymi stanu, a wektor $\vect{x}=[x_1, x_2, x_3,\dots,x_n]$ wektorem stanu tego obwodu.} \teng{state-space model} używany jest do przekształcenia równania różniczkowego drugiego rzędu (\ref{eq: mot_dam}), do dwóch równań rzędu pierwszego.     Dla przejrzystości macierzowe równanie ruchu przytoczono ponownie poniżej:
@@ -697,14 +697,14 @@ Macierzowe równanie ruchu może być więc przekształcone następująco:
 \begin{equation} \label{eq: STATEmanipulated_mot_eq}
 	\vect{\ddot{x}}(t) +\vect{M}^{-1} \vect{C} \vect{\dot{x}}(t)+ \vect{M}^{-1}\vect{Kx}(t) = \vect{M}^{-1}\vect{\bar{B}}\vect{u}(t)
 \end{equation}
-Definiując wektor stanu jako:
+Zdefiniujmy wektor stanu jako:
 \begin{equation} \label{eq: stateVector}
 	\vect{s}(t) = \begin{Bmatrix}
 		\vect{\dot{x}}(t) \\
 		\vect{x}(t)
 	\end{Bmatrix}
 \end{equation}
-i podstawiając go do równania (\ref{eq: STATEmanipulated_mot_eq}) dodatkowo wykorzystując oczywistą równość $\vect{M}\vect{\dot{x}}(t)=\vect{M}\vect{\dot{x}}(t)$ otrzymamy:
+Liczba komponentów tworzących wektor stanu jest nazywana rzędem modelu. Podstawiając go do równania (\ref{eq: STATEmanipulated_mot_eq}) dodatkowo wykorzystując oczywistą równość $\vect{M}\vect{\dot{x}}(t)=\vect{M}\vect{\dot{x}}(t)$ otrzymamy:
 \begin{equation}
 	\vect{\dot{s}}(t) = 
 		\begin{bmatrix}
@@ -770,6 +770,34 @@ Wielkości mierzone w trakcie eksperymentu są próbkowane jedynie w dyskretnych
 		\vect{y}_k = \vect{C}\vect{s}_k+\vect{D}\vect{u}_k
 	\end{aligned}
 \end{equation}
+gdzie macierze $\vect{A}$, $\vect{B}$, $\vect{C}$, $\vect{D}$ są odpowiednio macierzami stanu, wejścia, wyjścia i przenoszenia dla dyskretnego modelu przestrzeni stanów.
+
+\subsubsection{Odpowiedź impulsowa w przestrzeni stanów}
+Przyjmijmy układ dynamiczny opisany równaniem (\ref{eq: dis_state_space_model}). Parametry Markova takiego systemu $\vect{G}_k$ można zdefiniować następująco \parencite{Schutter2000}:
+\begin{equation} \label{eq: markovParameters}
+		\vect{G}_k= \begin{cases}
+\vect{D}, & \text{dla }k=0 \\
+\vect{C}\vect{A}^{k-1}\vect{B}, & \text{dla }k=1,2, \dots
+\end{cases}
+\end{equation}
+Jeżeli spełnione jest równanie (\ref{eq: markovParameters}) to zestaw macierzy $\vect{A}$, $\vect{B}$, $\vect{C}$, $\vect{D}$ jest realizacją łańcucha $G(k)\; \text{dla } k=1,2\dots,\infty$. Realizację nazywa się minimalną, kiedy rząd modelu jest minimalny (\ref{eq: stateVector}).
+
+Zakładając warunek początkowy $\vect{s}(0)=\vect{0}$ i wymuszenie wszystkich punktów układu jednostkowym impulsem w postaci:
+\begin{equation}
+	\delta_k = \begin{cases}
+		1, & \text{dla }k=0 \\
+		0, & \text{dla } k>0 
+	\end{cases}
+\end{equation}
+otrzymamy odpowiedź układu postaci:
+\begin{equation} \label{eq: impulseInputLTI}
+	\vect{Y}_k= \begin{cases}
+		\vect{D}, & \text{dla }k=0 \\
+		\vect{C}\vect{A}^{k-1}\vect{B}, & \text{dla }k=1,2, \dots
+	\end{cases}
+\end{equation}
+Równanie (\ref{eq: impulseInputLTI}) nazywa się odpowiedzią impulsową układu. Można zauważyć, że elementy sekwencji parametrów Markova odpowiadają wprost elementom odpowiedzi impulsowej układu \parencite{Phan1991}. 
+
 
 
 \subsection{Elementy przetwarzania sygnałów}

@@ -432,7 +432,7 @@ Do identyfikacji parametrów modalnych konstrukcji, które są częścią tej pr
 \section{Metoda NExT-ERA}
 Metoda NExT-ERA jest jedną z metod operacyjnej analizy modalnej. Składnik NExT pochodzi od słów \textbf{N}atural \textbf{Ex}citation \textbf{T}echnique. NExT jest właściwie klasą metodą OMA. Zawiera w sobie algorytmy początkowo stworzone do eksperymentalnej analizy modalnej wejście-wyjście \teng{input-output} (np. ERA, LSCE, ITD), a które następnie rozszerzone zostały do analizy problemu jedynie na podstawie sygnałów odpowiedzi konstrukcji \teng{output-only}. Taką możliwość ujawniło odkrycie faktu, że funkcje korelacji odpowiedzi konstrukcji, wywołanej losowymi wymuszeniami mogą być wyrażone jako suma zanikających sinusoid. Potwierdzono również, że funkcje korelacji zawierają informację na temat parametrów modalnych struktury. Zauważono więc, że można zastąpić tradycyjnie używane funkcje odpowiedzi impulsowej (IRF), funkcjami korelacji losowych drgań konstrukcji pod wymuszeniem środowiskowym. W ten sposób tradycyjne metody EMA zostały skutecznie zaadaptowane do OMA \parencite{Rainieri2014}. W dalszej części rozdziału zostaną przedstawione najważniejsze zagadniania dotyczące identyfikacje metodą NExT-ERA. 
 
-\subsection{Funkcje korelacji, a odpowiedź swobodna układu}
+\subsection{Funkcje korelacji, a odpowiedź swobodna układu} \label{sect: correlationFunction}
 Przyjmijmy, że $X$ oznacza zmienną losową, a $x(t)$ realizację tej zmiennej losowej w czasie. $x(t)$ w tej pracy może być utożsamiany z zaobserwowanym sygnałem. Wprowadźmy prostą definicję kowariancji. Jest to funkcja, która dostarcza informacji o zależności pomiędzy dwoma zmiennymi i dana jest wzorem:
 \begin{equation}
 	\mathrm{cov}[X,Y] = \mathrm{E}[XY]=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}xyp_{xy}(x,y)\,dxdy
@@ -796,7 +796,41 @@ otrzymamy odpowiedź układu postaci:
 		\vect{C}\vect{A}^{k-1}\vect{B}, & \text{dla }k=1,2, \dots
 	\end{cases}
 \end{equation}
-Równanie (\ref{eq: impulseInputLTI}) nazywa się odpowiedzią impulsową układu. Można zauważyć, że elementy sekwencji parametrów Markova odpowiadają wprost elementom odpowiedzi impulsowej układu \parencite{Phan1991}. 
+Równanie (\ref{eq: impulseInputLTI}) nazywa się odpowiedzią impulsową układu. Można zauważyć, że elementy sekwencji parametrów Markova odpowiadają wprost elementom odpowiedzi impulsowej układu \parencite{Phan1991}.
+W przypadku identyfikacji modalnej rzeczywistej konstrukcji wyznaczenie macierzy opisujących układ jest celem. Dysponując pomierzonym sygnałem odpowiedzi swobodnej (wzbudzonej impulsem) możliwe jest sformułowanie parametrów Markova i poszukiwanie rozwiązania w postaci macierzy układu. W przypadku OMA odpowiedź impulsowa układu może być zastąpiona funkcjami korelacji co udowodniono w (\ref{sect: correlationFunction}).
+Niezależnie od źródła danych, sygnały można złożyć w parametry Markova w identyczny sposób. W dalszej części wywodu elementy algorytmu ERA opisywane będą w sposób tradycyjny, operując na sygnale z odpowiedzi swobodnej układu. 
+
+Załóżmy, że $y_k^n$ jest odpowiedzią konstrukcji w chwili czasowej $k\Delta t$, zmierzoną w punkcie pomiarowym $n$. Parametry Markova $\vect{y}_k$ zdefiniujemy zestawiając odpowiedź układu z wszystkich punktów pomiarowych dla danej chwili czasowej $k\Delta t$:
+\begin{equation}
+	\vect{Y}_k = \begin{Bmatrix}
+		y_k^1 \\ y_k^2 \\ y_k^3 \\ \vdots \\ y_k^m 
+	\end{Bmatrix},
+	\qquad \text{dla } k=1,2,3,\dots
+\end{equation}
+\subsubsection{Sformułowanie macierzy Hankela}
+Algorytm metody ERA rozpoczyna się od wyznaczenia uogólnionej, blokowej\footnote{Macierz blokową można opisać jako macierz złożoną z innych macierzy. Na przykład mając 4 macierze $N \times N$: $\vect{A}_1$, $\vect{A}_2$, $\vect{A}_3$, $\vect{A}_4$, można sformułować macierz $2N\times2N$ postaci $\vect{A}=\big[\begin{smallmatrix}
+		\vect{A}_1 & \vect{A}_2\\
+		\vect{A}_3 & \vect{A}_4
+	\end{smallmatrix}\big]$, która posiada dwa blokowe wiersze i dwie blokowe kolumny.}  macierzy Hankela\footnote{W ogólności macierzą Hankela nazywamy taką macierz $\vect{A}$ o wymiarach $r\times s$, że spełniona jest równość: $\vect{A_{r+1,s-1}}=\vect{A_{r-1,s+1}}$ } dyskretnego układu dynamicznego $\vect{H}$. 
+\begin{equation}
+	\begin{split}
+	\vect{H}_{k-1}&=\begin{bmatrix}
+		\vect{Y}_k		&	\vect{Y}_{k+1} &   \vect{Y}_{k+1}	& \dots	& \vect{Y}_{k+s-1} \\
+		\vect{Y}_{k+1}	&	\vect{Y}_{k+2} &   \vect{Y}_{k+3}	& \dots	& \vect{Y}_{1+k+s-1} \\
+		\vect{Y}_{k+2}	&	\vect{Y}_{k+3} &   \vect{Y}_{k+4}	& \dots	& \vect{Y}_{2+k+s-1} \\	
+		\vdots			&	\vdots			&	\vdots			& \ddots & \vdots\\
+		\vect{Y}_{r-1+k}	&	\vect{Y}_{r-1+k+1} &   \vect{Y}_{r-1+k+2}	& \dots	& \vect{Y}_{r-1+k+s-1} 	
+	\end{bmatrix} \\ 
+&= \begin{bmatrix}
+	\vect{C}\vect{A}^{k-1}\vect{B}	&	\vect{C}\vect{A}^{k}\vect{B} &   \vect{C}\vect{A}^{k+1}\vect{B}	& \dots	 & \vect{C}\vect{A}^{k+s-2}\vect{B} \\
+	\vect{C}\vect{A}^{k}\vect{B}	&	\vect{C}\vect{A}^{k+1}\vect{B} &   \vect{C}\vect{A}^{k+2}\vect{B}	& \dots	 & \vect{C}\vect{A}^{k+1+s-2}\vect{B} \\
+	\vect{C}\vect{A}^{k+1}\vect{B}	&	\vect{C}\vect{A}^{k+2}\vect{B} &   \vect{C}\vect{A}^{k+3}\vect{B}	& \dots	 & \vect{C}\vect{A}^{k+3+s-2}\vect{B} \\	
+	\vdots							&	\vdots						   &   \vdots							& \ddots & \vdots\\
+	\vect{C}\vect{A}^{r+k-2}\vect{B}	&	\vect{C}\vect{A}^{r+k-2+1}\vect{B} &   \vect{C}\vect{A}^{r+k-2+2}\vect{B}	& \dots	 & \vect{C}\vect{A}^{r+k-2+s-2}\vect{B} 	
+\end{bmatrix}
+\end{split}
+\end{equation}
+
 
 
 

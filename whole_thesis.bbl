@@ -1418,6 +1418,53 @@
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2005_Peeters, Van der Auweraer_PolyMAX a revolution in operational modal analysis.pdf:pdf
       \endverb
     \endentry
+    \entry{Phan1991}{report}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=772a83d101f43f05728d4e7d4bf28a93}{%
+           family={Phan},
+           familyi={P\bibinitperiod},
+           given={Minh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=e82210292dc91328d84c64ae5b37c6a7}{%
+           family={Juang},
+           familyi={J\bibinitperiod},
+           given={Jer-Nan},
+           giveni={J\bibinithyphendelim N\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=2efdfd1cd5ba50457fb4e787cfd43e20}{%
+           family={Longman},
+           familyi={L\bibinitperiod},
+           given={Richard\bibnamedelima W},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {NASA Langley Research Center}%
+      }
+      \list{location}{1}{%
+        {Hampton, Virginia}%
+      }
+      \strng{namehash}{623fdadc0a2dce376e7d3e0d588da58d}
+      \strng{fullhash}{623fdadc0a2dce376e7d3e0d588da58d}
+      \strng{bibnamehash}{623fdadc0a2dce376e7d3e0d588da58d}
+      \strng{authorbibnamehash}{623fdadc0a2dce376e7d3e0d588da58d}
+      \strng{authornamehash}{623fdadc0a2dce376e7d3e0d588da58d}
+      \strng{authorfullhash}{623fdadc0a2dce376e7d3e0d588da58d}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{NASA Technical Memorandum 104156}
+      \field{title}{{On Markov parameters in system identification}}
+      \field{type}{techreport}
+      \field{year}{1991}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1991_Phan, Juang, Longman_On Markov parameters in system identification.pdf:pdf
+      \endverb
+    \endentry
     \entry{Rainieri2014}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=29bb803ee2aee4a58a9af5add112f7df}{%

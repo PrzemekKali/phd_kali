@@ -1,6 +1,6 @@
 \chapter{Identyfikacja modalna}
 
-\section{Wiadomości wstępne}
+\section{Wiadomości wstępne} \label{section: modalAnalysisIntro}
 Podstawowym celem pracy jest określenie zależności pomiędzy przyjętymi rozwiązaniami konstrukcyjnymi mostów kolejowych, a ich zachowaniem dynamicznym. Predykcja odpowiedzi, jak wspomniano wcześniej, możliwa jest dzięki rozwiązaniom numerycznym modeli MES poddanych odpowiednim obciążeniom. Na każdym etapie analiz trzeba zdawać sobie sprawę z niepewności, które mogą wystąpić przy konstruowaniu założeń. \cite{Brincker2015} zestawili różnego rodzaju parametry występujące w modelu i stopień niepewności, który im towarzyszy na etapie modelowania. Niepewności te przytoczono w tabeli \ref{table:uncertainitesModel}. Wyraźnie widać, że przyjęcie niektórych parametrów modelu w sposób bezkrytyczny może prowadzić do zupełnie nieodpowiednich rezultatów. Niektóre, związane np ze sztywnością szeroko rozumianych podpór czy połączeń śrubowych, mogą wypaczyć rezultaty i wprowadzić badacza w błąd na temat stanu i zachowania konstrukcji. Aby zbudować model, który będzie efektywnie odwzorowywał rzeczywiste zachowanie należy dołożyć wszelkich starań aby wyeliminować możliwe niepewności. Model taki może zostać poddany walidacji i kalibracji. Oba te pojęcia zostaną rozwinięte w następnych rozdziałach. Niemniej, aby model dostosować do rzeczywistych warunków należy mieć punkt odniesienia. W przypadku analizy statycznej takim odniesieniem mogą być pomiary statyczne ugięć, np. w trakcie próbnego obciążenia. W przypadku analizy dynamicznej, do porównania będą służyć charakterystyki modalne: częstotliwości i postaci drgań własnych oraz tłumienia. Parametry te można zaczerpnąć z literatury i doświadczenia na etapie projektowania. Na etapie badania rzeczywistej konstrukcji warto sięgnąć po narzędzie zwane identyfikacją modalną. Poniższy rozdział przytoczy podstawowe zagadanienia związane z analizą modalną, obliczeniami odpowiedzi dynamicznej i identyfikacją charakterystyk modalnych układu. Informacje te zostaną w dalszej części pracy zastosowane w obliczeniach numerycznych i optymalizacyjnych.
 
 
@@ -384,6 +384,16 @@ W idealnych warunkach, kiedy filtr obciążenia ma biały kolor, a szum pomiarow
 	\label{fig: color_filter_oma}
 \end{figure}
 
+Operacyjna Analiza Modalna jest obwarowana pewnymi założeniami. Są one rozwinięciem założeń podanych w punkcie \ref{section: modalAnalysisIntro}. Układ poddany analizie OMA musi spełniać następujące warunki:
+\begin{itemize}
+	\item liniowość - odpowiedź układ na zadaną kombinację obciążeń, jest sumą odpowiedzi odpowiadających każdemu obciążeniu traktowanemu osobno - zasada superpozycji,
+	\item stacjonarność - charakterystyki dynamiczne konstrukcji nie zmieniają się w czasie. Innymi słowy, współczynniki równań różniczkowych opisujących odpowiedź struktury są niezależne od czasu.
+	\item obserwowalność - dobór lokalizacji punktów pomiarowych musi być tak zaprojektowany, żeby był w stanie dostrzec interesujące obserwatora mody. Niezależnie od tego w trakcie analizy spełnione muszą być również kryteria obserwowalności sterowalności opisane w punkcie \ref{section: hankelMatrix}.
+\end{itemize}
+
+
+WARUNKI DOTYCZĄCE WYMUZENIA? \cite{Rainieri2014}
+
 \subsection{Metody operacyjnej analizy modalnej}
 
 Metody identyfikacji modalnej dzielą się na dwa główne rodzaje związane z dziedziną w której działa algorytm:
@@ -681,7 +691,7 @@ Równanie (\ref{eq: decomposedRx}) pokazuje, że funkcje korelacji odpowiedzi mo
 
 
 \subsection{Eigenystem Realization Algorithm}
-Metoda ERA została opracowana w latach 80' XX w. przez naukowców z NASA Langley Research Center: Richarda Pappa i Jer-Nan Juang'a. Przedstawili oni koncept identyfikacji modalnej i redukcji modelu układu dynamicznego na podstawie danych pomiarowych. Nowość, którą wprowadzili autorzy było wykorzystanie połączenie pojęć z teorii kontroli i algorytmu rozkładu względem wartości osobliwych. Fundamentalne prace opisujące metodą zostały opisane w \parencite{Pappa1985,Juang1985,Juang1988}. Spośród polskich autorów, szczegółowy opis metody zawarli w swoich pracach \cite{Szafranski2013} i \cite{Dudek2008}.
+Metoda ERA została opracowana w latach 80' XX w. przez naukowców z NASA Langley Research Center: Richarda Pappa i Jer-Nan Juang'a. Przedstawili oni koncept identyfikacji modalnej i redukcji modelu układu dynamicznego na podstawie danych pomiarowych. Nowością, którą wprowadzili autorzy było połączenie pojęć z teorii kontroli i algorytmu rozkładu względem wartości osobliwych. Fundamentalne prace opisujące metodą zostały opisane w \parencite{Pappa1985,Juang1985,Juang1988,Juang1994}. Algorytm ERA był wielokrotnie testowany, na przykaład pod względem odporności na zaszumienie danych pomiarowych \parencite{Juang1986, Li2011}. Spośród polskich autorów, szczegółowy opis metody zawarli w swoich pracach \cite{Szafranski2013} i \cite{Dudek2008}.
 
 \subsubsection{Liniowy model dynamiczny w przestrzeni stanów}
 Model przestrzeni stanów\footnote{Według \cite{Kaczorek2016} stanem układu nazywamy zbiór liniowo niezależnych wielkości $x_1, x_2, x_3,\dots,x_n$ określających w pełni skutki przeszłych oddziaływań $(t<t_0)$ na układ, który jest wystarczający do wyznaczenie przebiegów chwilowych dowolnych wielkości w tym układzie dla $t>t_0$, gdy znane są wymuszenia i parametry obwodu. Wielkości $x_1, x_2, x_3,\dots,x_n$ nazywa się zmiennymi stanu, a wektor $\vect{x}=[x_1, x_2, x_3,\dots,x_n]$ wektorem stanu tego obwodu.} \teng{state-space model} używany jest do przekształcenia równania różniczkowego drugiego rzędu (\ref{eq: mot_dam}), do dwóch równań rzędu pierwszego.     Dla przejrzystości macierzowe równanie ruchu przytoczono ponownie poniżej:
@@ -773,7 +783,7 @@ Wielkości mierzone w trakcie eksperymentu są próbkowane jedynie w dyskretnych
 gdzie macierze $\vect{A}$, $\vect{B}$, $\vect{C}$, $\vect{D}$ są odpowiednio macierzami stanu, wejścia, wyjścia i przenoszenia dla dyskretnego modelu przestrzeni stanów.
 
 \subsubsection{Odpowiedź impulsowa w przestrzeni stanów}
-Przyjmijmy układ dynamiczny opisany równaniem (\ref{eq: dis_state_space_model}). Parametry Markova takiego systemu $\vect{G}_k$ można zdefiniować następująco \parencite{Schutter2000}:
+Przyjmijmy układ dynamiczny opisany równaniem (\ref{eq: dis_state_space_model}), w którym $\vect{s}_k$ - jest n-wymiarowym wektorem stan, $\vect{u}_k$ - m-wymiarowym wektorem sterowania, a $\vect{y}_k$ - p-wymiarowym wektorem obserwacji. Parametry Markova takiego systemu $\vect{G}_k$ można zdefiniować następująco \parencite{Schutter2000}:
 \begin{equation} \label{eq: markovParameters}
 		\vect{G}_k= \begin{cases}
 \vect{D}, & \text{dla }k=0 \\
@@ -800,39 +810,111 @@ Równanie (\ref{eq: impulseInputLTI}) nazywa się odpowiedzią impulsową układ
 W przypadku identyfikacji modalnej rzeczywistej konstrukcji wyznaczenie macierzy opisujących układ jest celem. Dysponując pomierzonym sygnałem odpowiedzi swobodnej (wzbudzonej impulsem) możliwe jest sformułowanie parametrów Markova i poszukiwanie rozwiązania w postaci macierzy układu. W przypadku OMA odpowiedź impulsowa układu może być zastąpiona funkcjami korelacji co udowodniono w (\ref{sect: correlationFunction}).
 Niezależnie od źródła danych, sygnały można złożyć w parametry Markova w identyczny sposób. W dalszej części wywodu elementy algorytmu ERA opisywane będą w sposób tradycyjny, operując na sygnale z odpowiedzi swobodnej układu. 
 
-Załóżmy, że $y_k^n$ jest odpowiedzią konstrukcji w chwili czasowej $k\Delta t$, zmierzoną w punkcie pomiarowym $n$. Parametry Markova $\vect{y}_k$ zdefiniujemy zestawiając odpowiedź układu z wszystkich punktów pomiarowych dla danej chwili czasowej $k\Delta t$:
+Załóżmy, że $y_k^i$ jest odpowiedzią konstrukcji w chwili czasowej $k\Delta t$, zmierzoną w punkcie pomiarowym $n$, jednym z wszystkich $m$ punktów pomiarowych. Parametry Markova $\vect{Y}_k$ zdefiniujemy zestawiając odpowiedź układu z wszystkich punktów pomiarowych dla danej chwili czasowej $k\Delta t$:
 \begin{equation}
 	\vect{Y}_k = \begin{Bmatrix}
 		y_k^1 \\ y_k^2 \\ y_k^3 \\ \vdots \\ y_k^m 
 	\end{Bmatrix},
 	\qquad \text{dla } k=1,2,3,\dots
 \end{equation}
-\subsubsection{Sformułowanie macierzy Hankela}
-Algorytm metody ERA rozpoczyna się od wyznaczenia uogólnionej, blokowej\footnote{Macierz blokową można opisać jako macierz złożoną z innych macierzy. Na przykład mając 4 macierze $N \times N$: $\vect{A}_1$, $\vect{A}_2$, $\vect{A}_3$, $\vect{A}_4$, można sformułować macierz $2N\times2N$ postaci $\vect{A}=\big[\begin{smallmatrix}
+\subsubsection{Sformułowanie macierzy Hankela} \label{section: hankelMatrix}
+Algorytm metody ERA rozpoczyna się od sformułowania uogólnionej, blokowej\footnote{Macierz blokową można opisać jako macierz złożoną z innych macierzy. Na przykład mając 4 macierze $N \times N$: $\vect{A}_1$, $\vect{A}_2$, $\vect{A}_3$, $\vect{A}_4$, można sformułować macierz $2N\times2N$ postaci $\vect{A}=\big[\begin{smallmatrix}
 		\vect{A}_1 & \vect{A}_2\\
 		\vect{A}_3 & \vect{A}_4
-	\end{smallmatrix}\big]$, która posiada dwa blokowe wiersze i dwie blokowe kolumny.}  macierzy Hankela\footnote{W ogólności macierzą Hankela nazywamy taką macierz $\vect{A}$ o wymiarach $r\times s$, że spełniona jest równość: $\vect{A_{r+1,s-1}}=\vect{A_{r-1,s+1}}$ } dyskretnego układu dynamicznego $\vect{H}$. 
-\begin{equation}
+	\end{smallmatrix}\big]$, która posiada dwa blokowe wiersze i dwie blokowe kolumny.
+}  
+macierzy Hankela\footnote{W ogólności macierzą Hankela nazywamy taką macierz $\vect{A}$ o wymiarach $r\times s$, że spełniona jest równość: $\vect{A_{r+1,s-1}}=\vect{A_{r-1,s+1}}$ 
+} 
+dyskretnego układu dynamicznego $\vect{H}$ o wymiarach $r\times s$. Wymiary $r$ i $s$ nazywane są parametrami projektowymi \parencite{Szafranski2013} i oznaczają: $r$ - liczbę blokowych wierszy, $s$ - liczbę blokowych kolumn macierzy Hankela. Jeżeli spełnione są warunki $s>n$ i $r>n$ to właściwością macierzy Hankela jest to, że jej rząd jest równy rzędowi systemu oraz dwukrotnej liczbie modów systemu.
+\begin{equation} \label{eq: genericHankelMatrix}
 	\begin{split}
 	\vect{H}_{k-1}&=\begin{bmatrix}
-		\vect{Y}_k		&	\vect{Y}_{k+1} &   \vect{Y}_{k+1}	& \dots	& \vect{Y}_{k+s-1} \\
-		\vect{Y}_{k+1}	&	\vect{Y}_{k+2} &   \vect{Y}_{k+3}	& \dots	& \vect{Y}_{1+k+s-1} \\
-		\vect{Y}_{k+2}	&	\vect{Y}_{k+3} &   \vect{Y}_{k+4}	& \dots	& \vect{Y}_{2+k+s-1} \\	
-		\vdots			&	\vdots			&	\vdots			& \ddots & \vdots\\
-		\vect{Y}_{r-1+k}	&	\vect{Y}_{r-1+k+1} &   \vect{Y}_{r-1+k+2}	& \dots	& \vect{Y}_{r-1+k+s-1} 	
+		\vect{Y}_k		&	\vect{Y}_{k+1} 	& \dots	& \vect{Y}_{k+s-1} \\
+		\vect{Y}_{k+1}	&	\vect{Y}_{k+2}	& \dots	& \vect{Y}_{1+k+s-1} \\
+		\vect{Y}_{k+2}	&	\vect{Y}_{k+3} 	& \dots	& \vect{Y}_{2+k+s-1} \\	
+		\vdots			&	\vdots			& \ddots & \vdots\\
+		\vect{Y}_{r-1+k}	&	\vect{Y}_{r-1+k+1} 	& \dots	& \vect{Y}_{r-1+k+s-1} 	
 	\end{bmatrix} \\ 
 &= \begin{bmatrix}
-	\vect{C}\vect{A}^{k-1}\vect{B}	&	\vect{C}\vect{A}^{k}\vect{B} &   \vect{C}\vect{A}^{k+1}\vect{B}	& \dots	 & \vect{C}\vect{A}^{k+s-2}\vect{B} \\
-	\vect{C}\vect{A}^{k}\vect{B}	&	\vect{C}\vect{A}^{k+1}\vect{B} &   \vect{C}\vect{A}^{k+2}\vect{B}	& \dots	 & \vect{C}\vect{A}^{k+1+s-2}\vect{B} \\
-	\vect{C}\vect{A}^{k+1}\vect{B}	&	\vect{C}\vect{A}^{k+2}\vect{B} &   \vect{C}\vect{A}^{k+3}\vect{B}	& \dots	 & \vect{C}\vect{A}^{k+3+s-2}\vect{B} \\	
-	\vdots							&	\vdots						   &   \vdots							& \ddots & \vdots\\
-	\vect{C}\vect{A}^{r+k-2}\vect{B}	&	\vect{C}\vect{A}^{r+k-2+1}\vect{B} &   \vect{C}\vect{A}^{r+k-2+2}\vect{B}	& \dots	 & \vect{C}\vect{A}^{r+k-2+s-2}\vect{B} 	
-\end{bmatrix}
+	\vect{C}\vect{A}^{k-1}\vect{B}	&	\vect{C}\vect{A}^{k}\vect{B} 	& \dots	 & \vect{C}\vect{A}^{k+s-2}\vect{B} \\
+	\vect{C}\vect{A}^{k}\vect{B}	&	\vect{C}\vect{A}^{k+1}\vect{B} 	& \dots	 & \vect{C}\vect{A}^{k+1+s-2}\vect{B} \\
+	\vect{C}\vect{A}^{k+1}\vect{B}	&	\vect{C}\vect{A}^{k+2}\vect{B} 	& \dots	 & \vect{C}\vect{A}^{k+3+s-2}\vect{B} \\	
+	\vdots							&	\vdots							& \ddots & \vdots\\
+	\vect{C}\vect{A}^{r-2+k}\vect{B}	&	\vect{C}\vect{A}^{r-2+k+1}\vect{B} 	& \dots	 & \vect{C}\vect{A}^{r+k+s-3}\vect{B} 	
+\end{bmatrix}\in \mathcal{R}^{rm\times sp}\\
+&= \vect{P}_r \vect{A}^{k-1}\vect{Q}_s\qquad \text{dla } k\ge 1
 \end{split}
 \end{equation}
+Macierze $P_r$ i $Q_s$ to odpowiednio macierze obserwacji i sterowania układu i są zdefiniowane następująco:
+\begin{equation}
+	\vect{P}_r = \begin{bmatrix}
+		\vect{C} \\ 
+		\vect{CA} \\
+		\vect{CA}^2\\
+		\vdots \\
+		\vect{CA}^{r-1}\\
+	\end{bmatrix}
+	\qquad
+	\vect{Q}_s = \begin{bmatrix}
+	\vect{B} & \vect{AB} & \vect{A}^2\vect{B} & \dots & \vect{A}^{s-1}\vect{B}    
+\end{bmatrix}	
+\end{equation}
 
+\subsubsection{Realizacja minimalna modelu w przestrzeni stanów}
 
+Jak już wspomniano realizacją układu nazywamy zestaw macierzy $(\vect{A},\vect{B},\vect{C},\vect{D})$. Podstawowym zdaniem jest znalezienie takiej realizacji, dla której zmierzona odpowiedź układu będzie możliwa od odtworzenia przez równania modelu w przestrzeni stanów. W przypadku odpowiedzi swobodnej, nie ma miejsca dodatkowe wymuszenie w trakcie pomiaru, więc prawdziwa jest zależność $\vect{D}=\vect{Y}_0$. Wszystkich możliwych realizacji, pozwalających spełnić powyższy warunek, jest nieskończenie wiele \parencite{Juang1985}. Naturalnym wyzwaniem jest wiec znalezienie takiej realizacji, dla której rząd modelu będzie minimalny, a rząd modelu jest wprost związany z wymiarami macierzy $(\vect{A},\vect{B},\vect{C},\vect{D})$. Pierwsze prace dotyczące poszukiwania realizacji minimalnej zostały podane w \parencite{Kalman1963,Ho1966}.
 
+Aby ułatwić zrozumienie poszukiwania minimalnej realizacji przywołajmy twierdzenia o obserwowalności i sterowalności realizacji:
+
+Twierdzenie o obserwowalności. Realizacja w postaci zestawu macierzy $(\vect{A},\vect{B},\vect{C},\vect{D})$ nazywana jest obserwowalną jeżeli macierz obserwacji $\vect{P}_r$ jest rzędu $n$, gdzie $n$ jest rzędem systemu. Jeżeli realizacja jest obserwowalna to zawsze możliwe jest odtworzenie początkowego stanu $s_0$ na podstawie znanych odpowiedzi i wymuszenia układu dla $k>0$.
+
+Twierdzenie o sterowalności. Realizacja w postaci zestawu macierzy $(\vect{A},\vect{B},\vect{C},\vect{D})$ nazywana jest sterowalną jeżeli macierz sterowania $\vect{Q}_s$ jest rzędu $n$, gdzie $n$ jest rzędem systemu. Jeżeli realizacja jest sterowalna to zawsze możliwe jest takie przyjęcie parametrów wymuszenia, żeby w skończonej liczbie kroków doprowadzić układ ze stanu początkowego, do pożądanego stanu.
+
+Dodatkowo Kalman sformułował następujace twierdzenie: Realizacja $(\vect{A},\vect{B},\vect{C},\vect{D})$ jest minimalna, wtedy i tylko wtedy gdy jest sterowalna i obserwowalna.
+Podsmowując, minimalna realizacja musi spełniać warunki sterowalności i obserwowalności. Aby to zapewnić odpowiednie wymiary macierzy Hankela. W przypadku gdybyśmy zbudowali macierz Hankela z parametrów Markova pozbawionych szumów, rząd macierzy byłby równy rzędowi modelu $n$, pod warunkiem, że wymiary $rm$ i $sp$ są większe niż $n$. W rzeczywistości, pomiary obarczone są szumami związanymi z pracą aparatury pomiarowej i samym przebiegiem pomiaru. Dodatkowo w rzeczywistych konstrukcjach zawsze występuje pewien stopień nieliniowości i model liniowy być może nigdy nie jest w stanie perfekcyjnie jej opisać. Konsekwencją wystąpienia szumów w pomierzonym sygnale jest powiększenie rzędu model względem układu odpowiadającego sygnałom nie obarczonych szumem. Zadaniem analityka jest więc określić najmniejszy rząd modelu, dla którego realizacja pozwoli na wystarczająco wierny opis układu, przy jednoczesnym spełnieniu kryteriów błędu.
+
+\subsubsection{Dekompozycja według wartości osobliwych (SVD)}
+Pierwszym właściwym krokiem algorytmu ERA jest sformułowanie macierzy Hankela $\vect{H}_0$ oraz $\vect{H}_1$. Posługując się wzorem (\ref{eq: genericHankelMatrix}) sformułujmy:
+\begin{equation} \label{eq: HankelMatrixZero}
+		\vect{H}_0 =\begin{bmatrix}
+			\vect{Y}_0		&	\vect{Y}_{1} 	& \dots	& \vect{Y}_{s-1} \\
+			\vect{Y}_1		&	\vect{Y}_{2}	& \dots	& \vect{Y}_{s} \\
+			\vect{Y}_2		&	\vect{Y}_{3} 	& \dots	& \vect{Y}_{s+1} \\	
+			\vdots			&	\vdots			& \ddots & \vdots\\
+			\vect{Y}_{r-1}	&	\vect{Y}_{r} 	& \dots	& \vect{Y}_{r+s-2} 	
+		\end{bmatrix} 
+\end{equation}
+\begin{equation} \label{eq: HankelMatrixShift}
+	\vect{H}_1 =\begin{bmatrix}
+		\vect{Y}_1		&	\vect{Y}_{2} 	& \dots	& \vect{Y}_{s} \\
+		\vect{Y}_2		&	\vect{Y}_{3}	& \dots	& \vect{Y}_{s+1} \\
+		\vect{Y}_3		&	\vect{Y}_{4} 	& \dots	& \vect{Y}_{s+2} \\	
+		\vdots			&	\vdots			& \ddots & \vdots\\
+		\vect{Y}_{r}	&	\vect{Y}_{r+1} 	& \dots	& \vect{Y}_{r+s-1} 	
+	\end{bmatrix} 
+\end{equation}
+Wykorzystując opis macierzy Hankela za pomocą macierzy obserwacji i sterowania możemy zapisać że:
+\begin{equation}
+	\begin{split}
+	\vect{H}_0 &= \vect{P}_r \vect{A}^{1-1}\vect{Q}_s=\vect{P}_r\vect{Q}_s \\
+	\vect{H}_1 &= \vect{P}_r \vect{A}^{2-1}\vect{Q}_s=\vect{P}_r\vect{A}\vect{Q}_s \\
+	\end{split}
+\end{equation}
+Zauważmy, że dwie kolejne macierze Hankela pozwalają na proste wyznaczenie macierzy systemu $\vect{A}$. 
+Jako metodę do oceny rzędu macierzy Hankela wykorzystano algorytm rozkładu według wartości osobliwych SVD \teng{Singular Value Decmoposition}. Dla macierzy $\vect{H}_0$ zapiszemy:
+\begin{equation}
+	\vect{H}_0 = \vect{R}\vect{\Sigma} \vect{S} = \begin{bmatrix}
+		\vect{R}_1 & \vect{R}_2
+	\end{bmatrix}\begin{bmatrix}
+	\vect{\Sigma}_1 & \vect{0} \\
+\vect{0} & \vect{0} 
+\end{bmatrix}\begin{bmatrix}
+\vect{S}_1^T \\
+\vect{S}_2^T 
+\end{bmatrix}
+
+\end{equation}
+w którym, $\Sigma$ jest macierzą diagonalną o wymiarach $(rm\times s)$ i zawiera 
 
 \subsection{Elementy przetwarzania sygnałów}
 

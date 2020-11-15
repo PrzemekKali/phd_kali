@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.29)  15 NOV 2020 02:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.29)  15 NOV 2020 17:54
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -1536,32 +1536,128 @@ lusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: ./figures//korelacja/korelacja.pdf Graphic file (type pdf)
 <use ./figures//korelacja/korelacja.pdf>
 Package pdftex.def Info: ./figures//korelacja/korelacja.pdf  used on input line
- 452.
+ 462.
 (pdftex.def)             Requested size: 312.97952pt x 108.12016pt.
-[29 <./figures//korelacja/korelacja.pdf>] [30] [31] [32]
+[29 <./figures//korelacja/korelacja.pdf>] [30] [31] [32] [33]
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 616.
- [33] [34]
-Underfull \vbox (badness 1281) has occurred while \output is active []
+(Font)              <5> on input line 626.
+ [34]
 
- [35]
-
-LaTeX Warning: Reference `eq: ' on page 36 undefined on input line 692.
+LaTeX Warning: Citation 'Juang1994' on page 35 undefined on input line 694.
 
 
-Overfull \hbox (12.66397pt too wide) in paragraph at lines 706--708
+LaTeX Warning: Citation 'Juang1986' on page 35 undefined on input line 694.
+
+
+LaTeX Warning: Citation 'Li2011' on page 35 undefined on input line 694.
+
+[35]
+
+LaTeX Warning: Reference `eq: ' on page 36 undefined on input line 702.
+
+
+Overfull \hbox (12.66397pt too wide) in paragraph at lines 716--718
 \OT4/cmr/m/n/12 sta-wia-j°c go do rÛw-na-nia (3.85[]) do-dat-kowo wy-ko-rzy-stu
 -j°c oczy-wi-st° rÛw-no±¢ $\OML/plm/b/it/12 M[]\OT4/cmr/m/n/12 (\OML/plm/m/it/1
 2 t\OT4/cmr/m/n/12 ) =
  []
 
-[36] [37]
-Underfull \vbox (badness 6412) has occurred while \output is active []
+[36] [37] [38]
 
- [38])
+LaTeX Warning: Citation 'Kalman1963' on page 39 undefined on input line 865.
+
+
+LaTeX Warning: Citation 'Ho1966' on page 39 undefined on input line 865.
+
 [39]
+Overfull \hbox (17.26996pt too wide) in paragraph at lines 869--870
+[]\OT4/cmr/m/n/12 Twierdzenie o ob-ser-wo-wal-no-±ci. Re-ali-za-cja w po-staci 
+ze-stawu ma-cie-rzy $(\OML/plm/b/it/12 A\OML/plm/m/it/12 ; \OML/plm/b/it/12 B\O
+ML/plm/m/it/12 ; \OML/plm/b/it/12 C\OML/plm/m/it/12 ; \OML/plm/b/it/12 D\OT4/cm
+r/m/n/12 )$
+ []
+
+
+Overfull \hbox (1.27707pt too wide) in paragraph at lines 871--872
+[]\OT4/cmr/m/n/12 Twierdzenie o ste-ro-wal-no-±ci. Re-ali-za-cja w po-staci ze-
+stawu ma-cie-rzy $(\OML/plm/b/it/12 A\OML/plm/m/it/12 ; \OML/plm/b/it/12 B\OML/
+plm/m/it/12 ; \OML/plm/b/it/12 C\OML/plm/m/it/12 ; \OML/plm/b/it/12 D\OT4/cmr/m
+/n/12 )$
+ []
+
+
+Overfull \hbox (8.22284pt too wide) in paragraph at lines 873--875
+[]\OT4/cmr/m/n/12 Dodatkowo Kal-man sfor-mu-™o-wa™ na-st¶-pu-jace twier-dze-nie
+: Re-ali-za-cja $(\OML/plm/b/it/12 A\OML/plm/m/it/12 ; \OML/plm/b/it/12 B\OML/p
+lm/m/it/12 ; \OML/plm/b/it/12 C\OML/plm/m/it/12 ; \OML/plm/b/it/12 D\OT4/cmr/m/
+n/12 )$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.915 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.915 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.917 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in vertical mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.917 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.917 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.917 \end{equation}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+) [41]
 Rozdzia\l  4.
-[40
+[42
 
 
 ]
@@ -1571,13 +1667,13 @@ Overfull \hbox (1.00836pt too wide) in paragraph at lines 77--77
 []\OT4/cmr/bx/n/17.28 Badania - iden-ty-fi-ka-cja mo-dalna: wy-bÛr punk-
  []
 
-<./figures/correlogram_badania.pdf, id=335, 371.16034pt x 211.38443pt>
+<./figures/correlogram_badania.pdf, id=341, 371.16034pt x 211.38443pt>
 File: ./figures/correlogram_badania.pdf Graphic file (type pdf)
 <use ./figures/correlogram_badania.pdf>
 Package pdftex.def Info: ./figures/correlogram_badania.pdf  used on input line 
 81.
 (pdftex.def)             Requested size: 426.79134pt x 243.06761pt.
-<./figures/diagram_non_filtered.pdf, id=336, 440.38524pt x 219.34402pt>
+<./figures/diagram_non_filtered.pdf, id=342, 440.38524pt x 219.34402pt>
 File: ./figures/diagram_non_filtered.pdf Graphic file (type pdf)
 <use ./figures/diagram_non_filtered.pdf>
 Package pdftex.def Info: ./figures/diagram_non_filtered.pdf  used on input line
@@ -1588,7 +1684,7 @@ Overfull \hbox (13.59282pt too wide) in paragraph at lines 87--89
  [][] 
  []
 
-<./figures/diagram_filtered2.pdf, id=337, 440.38524pt x 219.34402pt>
+<./figures/diagram_filtered2.pdf, id=343, 440.38524pt x 219.34402pt>
 File: ./figures/diagram_filtered2.pdf Graphic file (type pdf)
 <use ./figures/diagram_filtered2.pdf>
 Package pdftex.def Info: ./figures/diagram_filtered2.pdf  used on input line 93
@@ -1599,7 +1695,7 @@ Overfull \hbox (13.59282pt too wide) in paragraph at lines 93--95
  [][] 
  []
 
-<./figures/identified_mode_1.pdf, id=338, 248.40805pt x 248.40805pt>
+<./figures/identified_mode_1.pdf, id=344, 248.40805pt x 248.40805pt>
 File: ./figures/identified_mode_1.pdf Graphic file (type pdf)
 <use ./figures/identified_mode_1.pdf>
 Package pdftex.def Info: ./figures/identified_mode_1.pdf  used on input line 99
@@ -1617,15 +1713,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 2680) has occurred while \output is active []
 
- [41
+ [43
 
  <./figures/correlogram_badania.pdf>]
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 42 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+\OT4/cmr/m/n/12 44 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[42 <./figures/diagram_non_filtered.pdf>] [43 <./figures/diagram_filtered2.pdf>
+[44 <./figures/diagram_non_filtered.pdf>] [45 <./figures/diagram_filtered2.pdf>
  <./figures/identified_mode_1.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/identified_mode_1.pdf): PDF inclus
@@ -1655,14 +1751,14 @@ Overfull \hbox (142.49359pt too wide) in paragraph at lines 151--152
 []\OT4/cmr/m/n/12 ; []; []; [])
  []
 
-[44
+[46
 
 ]
 LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 
 156.
  (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-) [45]
+) [47]
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
 179.
  (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmtt.fd
@@ -1692,7 +1788,7 @@ Overfull \hbox (17.09633pt too wide) in paragraph at lines 180--180
 lement-by-element Ritz-gradient
  []
 
-[46
+[48
 
 ]
 Overfull \hbox (5.24585pt too wide) in paragraph at lines 180--180
@@ -1713,19 +1809,24 @@ Overfull \hbox (16.90869pt too wide) in paragraph at lines 180--180
 nnedy % 20i % 20Eberhart %
  []
 
-[47] [48] [49] (whole_thesis.aux (dictionary.aux) (chap_era.aux))
+[49] [50] [51] (whole_thesis.aux (dictionary.aux) (chap_era.aux))
 
 LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                whole_thesis
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34599 strings out of 481212
- 815572 string characters out of 2905973
- 1542790 words of memory out of 3000000
- 49579 multiletter control sequences out of 15000+200000
+ 34607 strings out of 481212
+ 815730 string characters out of 2905973
+ 1541959 words of memory out of 3000000
+ 49587 multiletter control sequences out of 15000+200000
  560998 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,24n,102p,2205b,2739s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1768,9 +1869,9 @@ l/Programs/MiKTeX/fonts/type1/public/pl/plsy7.pfb><C:/Users/przem/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/pl/plsy8.pfb><C:/Users/przem/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/pl/plti12.pfb><C:/Users/przem/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/pl/pltt12.pfb>
-Output written on whole_thesis.pdf (49 pages, 1057795 bytes).
+Output written on whole_thesis.pdf (51 pages, 1067540 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
+ 538 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

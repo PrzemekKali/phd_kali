@@ -49,13 +49,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Koncepcja OMA}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Metody operacyjnej analizy modalnej}{25}%
+\contentsline {subsection}{\numberline {3.4.2}Metody operacyjnej analizy modalnej}{26}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Metoda NExT-ERA}{28}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.1}Funkcje korelacji, a odpowiedź swobodna układu}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.2}Eigenystem Realization Algorithm}{35}%
+\contentsline {subsection}{\numberline {3.5.2}Eigenystem Realization Algorithm}{36}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Liniowy model dynamiczny w przestrzeni stanów}{36}%
 \defcounter {refsection}{0}\relax 
@@ -63,26 +63,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Sformułowanie macierzy Hankela}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.3}Elementy przetwarzania sygnałów}{39}%
+\contentsline {subsubsection}{Realizacja minimalna modelu w przestrzeni stanów}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Implementacja programu}{39}%
+\contentsline {subsubsection}{Dekompozycja według wartości osobliwych (SVD)}{40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Testy numeryczne metody NEXT-ERA}{39}%
+\contentsline {subsection}{\numberline {3.5.3}Elementy przetwarzania sygnałów}{41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Testy eksperymentalne metody NEXT-ERA}{39}%
+\contentsline {section}{\numberline {3.6}Implementacja programu}{41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}{40}%
+\contentsline {section}{\numberline {3.7}Testy numeryczne metody NEXT-ERA}{41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Wprowadzenie: metody optymalizacji w tym ,,nieróżniczkowe''.\\Particle Swarm optimization - opis, przegląd.\\Wielokryterialne PSO - opis przegląd.\\Opis implementacji.}{40}%
+\contentsline {section}{\numberline {3.8}Testy eksperymentalne metody NEXT-ERA}{41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}{41}%
+\contentsline {chapter}{\numberline {4}Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}{42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Budowa modelu numerycznego}{41}%
+\contentsline {section}{\numberline {4.1}Wprowadzenie: metody optymalizacji w tym ,,nieróżniczkowe''.\\Particle Swarm optimization - opis, przegląd.\\Wielokryterialne PSO - opis przegląd.\\Opis implementacji.}{42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Badania - identyfikacja modalna: wybór punktów, opis badań, wyniki identyfikacji}{41}%
+\contentsline {chapter}{\numberline {5}Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}{43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Kalibracja modelu numerycznego z wykorzystaniem PSO}{42}%
+\contentsline {section}{\numberline {5.1}Budowa modelu numerycznego}{43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Wielokryterialna optymalizacja modelu: opis + wyniki}{42}%
+\contentsline {section}{\numberline {5.2}Badania - identyfikacja modalna: wybór punktów, opis badań, wyniki identyfikacji}{43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Podsumowanie i wnioski}{44}%
+\contentsline {section}{\numberline {5.3}Kalibracja modelu numerycznego z wykorzystaniem PSO}{44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Wielokryterialna optymalizacja modelu: opis + wyniki}{44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Podsumowanie i wnioski}{46}%

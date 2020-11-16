@@ -894,7 +894,7 @@ Pierwszym właściwym krokiem algorytmu ERA jest sformułowanie macierzy Hankela
 	\end{bmatrix} 
 \end{equation}
 Wykorzystując opis macierzy Hankela za pomocą macierzy obserwacji i sterowania możemy zapisać że:
-\begin{equation}
+\begin{equation} \label{eq: HankelZeroOne}
 	\begin{split}
 	\vect{H}_0 &= \vect{P}_r \vect{A}^{1-1}\vect{Q}_s=\vect{P}_r\vect{Q}_s \\
 	\vect{H}_1 &= \vect{P}_r \vect{A}^{2-1}\vect{Q}_s=\vect{P}_r\vect{A}\vect{Q}_s \\
@@ -902,8 +902,8 @@ Wykorzystując opis macierzy Hankela za pomocą macierzy obserwacji i sterowania
 \end{equation}
 Zauważmy, że dwie kolejne macierze Hankela pozwalają na proste wyznaczenie macierzy systemu $\vect{A}$. 
 Jako metodę do oceny rzędu macierzy Hankela wykorzystano algorytm rozkładu według wartości osobliwych SVD \teng{Singular Value Decmoposition}. Dla macierzy $\vect{H}_0$ zapiszemy:
-\begin{equation}
-	\vect{H}_0 = \vect{R}\vect{\Sigma} \vect{S} = \begin{bmatrix}
+\begin{equation} \label{eq: SVDHzero}
+	\vect{H}_0 = \vect{R}\vect{\Sigma} \vect{S}^T = \begin{bmatrix}
 		\vect{R}_1 & \vect{R}_2
 	\end{bmatrix}\begin{bmatrix}
 	\vect{\Sigma}_1 & \vect{0} \\
@@ -912,9 +912,65 @@ Jako metodę do oceny rzędu macierzy Hankela wykorzystano algorytm rozkładu we
 \vect{S}_1^T \\
 \vect{S}_2^T 
 \end{bmatrix}
-
 \end{equation}
-w którym, $\Sigma$ jest macierzą diagonalną o wymiarach $(rm\times s)$ i zawiera 
+w którym, $\vect{\Sigma}$ jest prostokątną macierzą diagonalną o wymiarach $(rm\times s)$ i zawiera wartości osobliwe macierzy $\vect{H}_0$. Wartości osobliwe $d_i$ rozmieszczone na przekątnej ułożone są w sposób niemalejący, tak że $d_1\ge d_2\ge d_3\ge\dots\ge d_n$. Z kolei kolumny macierzy $\vect{R}$ i $\vect{S}$ są ortonormalnymi wektorami osobliwymi odpowiadającymi poszczególnym wartościom osobliwym $\vect{d}_i$. Macierz wartości osobliwych można zapisać w następującej formie:
+\begin{equation}
+	\vect{\Sigma} = \begin{bmatrix}
+		\vect{\Sigma}_n & \vect{0} \\
+		\vect{0} & \vect{0}
+	\end{bmatrix}
+\end{equation}
+
+gdzie $\vect{\Sigma}_1$ jest macierzą diagonalną o $n$ wartościach niezerowych na przekątnej, a pozostałe elementy macierzy $\vect{\Sigma}$ są zerowe. Taką formę będzie miała macierz w przypadku braku szumów w sygnale i perfekcyjnym spełnieniu wszystkich założeń identyfikacji. Liczba wartości osobliwych będzie równa rzędowi macierzy Hankela i rzędowi modelu. Niestety w rzeczywistości takie warunki nie mają nigdy miejsca. W takim przypadku liczba niezerowych wartości osobliwych będzie większa niż $n$. Analiza SVD pozwala jednak efektywnie ocenić rząd macierzy. Wartości osobliwe, które odpowiadają fizycznej informacji na temat systemu są zawsze relatywnie duże, a wartości wywołane przez nieidealne warunki pomiaru relatywnie małe. Ostatecznie można dokonać podziału na wartości znaczące (oznaczające rząd modelu) i nieznaczące. Za pomocą macierzy można tę sytuację odwzorować następująco:
+\begin{equation}
+	\vect{\Sigma}_N = \begin{bmatrix}
+		\vect{\Sigma}_n & \vect{0} \\
+		\vect{0} & \vect{\bar{\Sigma}}
+	\end{bmatrix} = \text{diag}[d_1,d_2,d_3,\dots d_n,d_{n+1},\dots,d_N]
+\end{equation}
+gdzie $d_i(i=1,\dots,n)) $ oznaczają istotne, a $d_i(i=n,\dots,N))$ nieistotne wartości osobliwe. Postawienie wyraźnej granicy pomiędzy wartościami istotnymi i nieistotnymi nie jest oczywiste. Rozrysowując wartości osobliwe na wykresie, zwykle widać miejsce gdzie dwie kolejne wartości różnią istotnie. Taki skok utożsamiany jest z końcem wartości istotnych. Niestety nie jest to regułą i aby w pełni odwzorować układ warto nieznacznie zwiększyć rząd modelu w trakcie identyfikacji \parencite{Szafranski2013,Hollkamp2001}. Podobnie zapiszmy dla macierzy $\vect{S}$ i $\vect{R}$:
+\begin{equation}
+	\vect{R}_N = \begin{bmatrix}
+		\vect{R}_n & \vect{\bar{R}} 
+	\end{bmatrix} 
+\qquad 
+\vect{S}_N = \begin{bmatrix}
+	\vect{S}_n & \vect{\bar{S}} 
+\end{bmatrix}
+\end{equation}
+Porównując równania (\ref{eq: genericHankelMatrix}) i (\ref{eq: SVDHzero}) i przyjmując $k=1$ otrzymamy:
+\begin{equation} 
+\vect{P}_r\vect{Q}_s=\vect{R}\vect{\Sigma} \vect{S}^T = \vect{R}\vect{\Sigma}^{1/2}\vect{\Sigma}^{1/2} \vect{S}^T
+\end{equation}
+Następnie wykorzystując powyższy podział i równanie \ref{eq: HankelZeroOne} otrzymamy następującą zależność:
+\begin{equation} 
+	\vect{H}_1 =\vect{R}\vect{\Sigma}^{1/2}\vect{A}\vect{\Sigma}^{1/2} \vect{S}^T
+\end{equation}
+Przekształcenia pozwalają uzyskać formułę na wyznaczenie macierzy systemu $\vect{A}$:
+\begin{equation} 
+	\vect{A} =\vect{\Sigma}^{-1/2}\vect{R}^T\vect{H}_1\vect{S}\vect{\Sigma}^{-1/2}
+\end{equation}
+
+Zakładając że $\vect{0}_i$ jest macierzą zerową rzędu $i$, a $\vect{I}_i$ jest macierzą jednostkową rzędu $i$ zdefiniujmy macierze pomocnicze:
+\begin{equation} 
+	\vect{E}^T_p =\begin{bmatrix}
+		\vect{I}_p & \vect{0}_p & \dots & \vect{0}_p	
+	\end{bmatrix} \qquad
+\vect{E}^T_m = \begin{bmatrix}
+	\vect{I}_m & \vect{0}_m & \dots & \vect{0}_m	
+\end{bmatrix} 
+\end{equation}
+Po wykorzystując wzór (\ref{eq: genericHankelMatrix}) i wykonując przekształcenia możliwe jest wyznaczenie macierzy systemu będących minimalną realizacją. Po wykonaniu SVD i przyjęciu jedynie istotnych wartości osobliwych jako rzędu modelu $n$ zapisać można równania na przybliżone wartości macierzy modelu w przestrzeni stanów, które dla odróżnienia oznaczono przez $(\hat{\cdot})$:
+\begin{equation}
+	\begin{split}
+\vect{\hat{A}} &= \vect{\Sigma}_n^{-1/2}\vect{R}_n^T\vect{H}_1\vect{S}_n\vect{\Sigma}_n^{-1/2} \\
+\vect{\hat{B}} &= \vect{\Sigma}_n^{1/2}\vect{S}_n^T\vect{E}_m \\
+\vect{\hat{C}} &= \vect{E}_p^T\vect{R}_n\vect{\Sigma}_n^{1/2}
+\end{split}
+\end{equation}
+Przybliżone macierze dla wybranego rzędu $n$ są wartościami estymowanymi w sensie metody najmniejszych kwadratów \parencite{Juang1994}.
+\subsubsection{Identyfikacja parametrów modalnych}
+Rozwiązując zagadnienie własne dla macierzy $\vect{\hat{A}}$ otrzymamy zestaw niezależnych częstości własnych i postaci drgań własnych. Zestawiając je w macierz widmową (\ref{}) i modalną (\ref{}) otrzymamy minimalną realizację ($\vect{\hat{A}}$ we współrzędnych modalnych.
 
 \subsection{Elementy przetwarzania sygnałów}
 

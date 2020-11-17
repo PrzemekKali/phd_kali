@@ -825,7 +825,7 @@ Algorytm metody ERA rozpoczyna się od sformułowania uogólnionej, blokowej\foo
 }  
 macierzy Hankela\footnote{W ogólności macierzą Hankela nazywamy taką macierz $\vect{A}$ o wymiarach $r\times s$, że spełniona jest równość: $\vect{A_{r+1,s-1}}=\vect{A_{r-1,s+1}}$ 
 } 
-dyskretnego układu dynamicznego $\vect{H}$ o wymiarach $r\times s$. Wymiary $r$ i $s$ nazywane są parametrami projektowymi \parencite{Szafranski2013} i oznaczają: $r$ - liczbę blokowych wierszy, $s$ - liczbę blokowych kolumn macierzy Hankela. Jeżeli spełnione są warunki $s>n$ i $r>n$ to właściwością macierzy Hankela jest to, że jej rząd jest równy rzędowi systemu oraz dwukrotnej liczbie modów systemu.
+dyskretnego układu dynamicznego $\vect{H}$ o wymiarach $r\times s$. Wymiary $r$ i $s$ nazywane są parametrami projektowymi \parencite{Szafranski2013} i oznaczają: $r$ - liczbę blokowych wierszy, $s$ - liczbę blokowych kolumn macierzy Hankela. Jeżeli spełnione są warunki $s>n$ i $r>n$ to właściwością macierzy Hankela jest to, że w przypadku pomiarów pozbawionych szumów rząd macierzy Hankela jest równy rzędowi systemu oraz dwukrotnej liczbie modów systemu.
 \begin{equation} \label{eq: genericHankelMatrix}
 	\begin{split}
 	\vect{H}_{k-1}&=\begin{bmatrix}
@@ -859,6 +859,7 @@ Macierze $P_r$ i $Q_s$ to odpowiednio macierze obserwacji i sterowania układu i
 	\vect{B} & \vect{AB} & \vect{A}^2\vect{B} & \dots & \vect{A}^{s-1}\vect{B}    
 \end{bmatrix}	
 \end{equation}
+Problem wyboru wartości parametrów $s$ i $r$ nie jest ściśle rozwiązany. Zestawienie różnych badań dotyczących doboru parametrów projektowych przedstawił w pracy \cite{Szafranski2013}. Na pewno należy spełnić zależność $s>n$ i $r>n$. Z uwagi na występowanie w sygnale pomiarowym szumów i niepewności związanych ze wstępnym oszacowaniem rzędu modelu parametry trzeba zawyżyć. Jednym z powszechniej używanych zaleceń jest przyjęcie $r=(5\div10)n$ $s=(2\div3)r$ \parencite{Dudek2008}. Część badaczy zaleca aby parametr $s$ dobrać tak, żeby macierz Hankela zawierała większość lub wszystkie parametry Markova odpowiadające wyraźnemu sygnałowi $s = (\frac{2}{3}\div 1)N_s-r-2$ gdzie $N_s$ oznacza liczbę próbek wyraźnego sygnału \parencite{Caicedo2011,Nayeri2009}.
 
 \subsubsection{Realizacja minimalna modelu w przestrzeni stanów}
 
@@ -968,11 +969,31 @@ Po wykorzystując wzór (\ref{eq: genericHankelMatrix}) i wykonując przekształ
 \vect{\hat{C}} &= \vect{E}_p^T\vect{R}_n\vect{\Sigma}_n^{1/2}
 \end{split}
 \end{equation}
-Przybliżone macierze dla wybranego rzędu $n$ są wartościami estymowanymi w sensie metody najmniejszych kwadratów \parencite{Juang1994}.
+Przybliżone macierze dla wybranego rzędu $n$ są wartościami estymowanymi w sensie metody najmniejszych kwadratów \parencite{Juang1994, Rainieri2014}.
 \subsubsection{Identyfikacja parametrów modalnych}
-Rozwiązując zagadnienie własne dla macierzy $\vect{\hat{A}}$ otrzymamy zestaw niezależnych częstości własnych i postaci drgań własnych. Zestawiając je w macierz widmową (\ref{}) i modalną (\ref{}) otrzymamy minimalną realizację ($\vect{\hat{A}}$ we współrzędnych modalnych.
+Rozwiązując zagadnienie własne dla macierzy $\vect{\hat{A}}$ otrzymamy zestaw niezależnych zespolonych wartości własnych $\lambda_i$ i wektorów własnych $\phi_i$. Zestawiając je podobnie jak macierz widmową $\vect{\Lambda}$ (\ref{}) i modalną $\vect{\Phi}$ (\ref{}) otrzymamy minimalną realizację ($\vect{\hat{A}}$, $\vect{\hat{B}}$, $\vect{\hat{C}}$) we współrzędnych modalnych ($\vect{\Lambda}$, $\vect{\Phi}^{-1}\vect{\hat{B}}$, $\vect{\hat{C}}\vect{\Phi}$). Poszczególne elementy realizacji we współrzędnych modalnych dostarczają różnych informacji na temat zidentyfikowanych charakterystyk modalnych. $\vect{\Lambda}$ zawiera informacje o tłumieniu i częstotliwościach drgań własnych układu. $\vect{\Phi}^{-1}\vect{\hat{B}}$ definiuje początkowe amplitudy modalne. Z kolei $\vect{\hat{C}}\vect{\Phi}$ zawiera w sobie postaci drgań własnych wyznaczone dla punktów pomiarowych \parencite{Li2011}.
+Przed wyznaczeniem częstości drgań własnych i tłumienia należy przetranformować macierz $\vect{\Lambda}$ z formy dyskretnej do formy ciągłej $\vect{\Lambda}_c$ \parencite{Szafranski2013}.
+\begin{equation}
+	\vect{\Lambda}_c = \frac{1}{\Delta t} \text{ln}\vect{\Lambda}
+\end{equation} 
+w którym $\Delta t$ oznacza krok czasowy próbkowania, taki że $\Delta t = 1/f_s$ dla $f_s$ będącej częstotliwością próbkowania pomiaru. Częstość drgań własnych $\omega_{ni}$ oraz tłumienie $\xi_i$ wyznaczyć można na podstaw wartości własnych zebranych w macierzy $\vect{\Lambda}_c$, a postaci drgań własnych $\psi_i$ z macierzy $\vect{\Phi}$ za pomocą następujących formuł:
+\begin{equation}
+	\omega_{ni} = |\lambda_{ci}|= \sqrt{\text{Re}(\lambda_{ci})^2+\text{Im}(\lambda_{ci})^2}
+\end{equation}
+\begin{equation}
+	\xi_{i} = -\frac{\text{Re}(\lambda_{ci})}{\omega_{ni}} 
+\end{equation}
+\begin{equation}
+	\psi_{j,i} = |\phi_{j,i}|\text{sign}\Big(\text{Re}(\phi_{j,i})\Big)
+\end{equation}
+
+gdzie $i=1,2,3,\dots,n$ ($n$ - rząd modelu), $j=1,2,3,\dots,m$, ($m$ - liczba punktów pomiarowych), $|\cdot|$ oznacza moduł liczby zespolonej, $\text{Re}(\cdot)$ i $\text{Im}(\cdot)$ oznaczają odpowiednio część rzeczywistą i urojoną liczby zespolonej, a $text{sign}$ jest funkcją zwracającą $+1$ dla liczb dodatnich i $-1$ dla liczb ujemnych.
+
+\subsubsection{}
+
 
 \subsection{Elementy przetwarzania sygnałów}
+
 
 
 \section{Implementacja programu}

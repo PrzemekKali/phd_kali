@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.21)  16 NOV 2020 20:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.21)  17 NOV 2020 15:41
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -1585,7 +1585,7 @@ Overfull \hbox (12.66397pt too wide) in paragraph at lines 716--718
  []
 
 [36] [37] [38] [39]
-Overfull \hbox (17.26996pt too wide) in paragraph at lines 869--870
+Overfull \hbox (17.26996pt too wide) in paragraph at lines 870--871
 []\OT4/cmr/m/n/12 Twierdzenie o ob-ser-wo-wal-no-±ci. Re-ali-za-cja w po-staci 
 ze-stawu ma-cie-rzy $(\OML/plm/b/it/12 A\OML/plm/m/it/12 ; \OML/plm/b/it/12 B\O
 ML/plm/m/it/12 ; \OML/plm/b/it/12 C\OML/plm/m/it/12 ; \OML/plm/b/it/12 D\OT4/cm
@@ -1593,7 +1593,7 @@ r/m/n/12 )$
  []
 
 
-Overfull \hbox (1.27707pt too wide) in paragraph at lines 871--872
+Overfull \hbox (1.27707pt too wide) in paragraph at lines 872--873
 []\OT4/cmr/m/n/12 Twierdzenie o ste-ro-wal-no-±ci. Re-ali-za-cja w po-staci ze-
 stawu ma-cie-rzy $(\OML/plm/b/it/12 A\OML/plm/m/it/12 ; \OML/plm/b/it/12 B\OML/
 plm/m/it/12 ; \OML/plm/b/it/12 C\OML/plm/m/it/12 ; \OML/plm/b/it/12 D\OT4/cmr/m
@@ -1601,7 +1601,7 @@ plm/m/it/12 ; \OML/plm/b/it/12 C\OML/plm/m/it/12 ; \OML/plm/b/it/12 D\OT4/cmr/m
  []
 
 
-Overfull \hbox (8.22284pt too wide) in paragraph at lines 873--875
+Overfull \hbox (8.22284pt too wide) in paragraph at lines 874--876
 []\OT4/cmr/m/n/12 Dodatkowo Kal-man sfor-mu-™o-wa™ na-st¶-pu-jace twier-dze-nie
 : Re-ali-za-cja $(\OML/plm/b/it/12 A\OML/plm/m/it/12 ; \OML/plm/b/it/12 B\OML/p
 lm/m/it/12 ; \OML/plm/b/it/12 C\OML/plm/m/it/12 ; \OML/plm/b/it/12 D\OT4/cmr/m/
@@ -1609,12 +1609,19 @@ n/12 )$
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4291) has occurred while \output is active []
 
  [40]
-[41]) [42]
+[41]
+
+LaTeX Warning: Reference `' on page 42 undefined on input line 974.
+
+
+LaTeX Warning: Reference `' on page 42 undefined on input line 974.
+
+[42]) [43]
 Rozdzia\l  4.
-[43
+[44
 
 
 ]
@@ -1624,13 +1631,13 @@ Overfull \hbox (1.00836pt too wide) in paragraph at lines 77--77
 []\OT4/cmr/bx/n/17.28 Badania - iden-ty-fi-ka-cja mo-dalna: wy-bÛr punk-
  []
 
-<./figures/correlogram_badania.pdf, id=345, 371.16034pt x 211.38443pt>
+<./figures/correlogram_badania.pdf, id=348, 371.16034pt x 211.38443pt>
 File: ./figures/correlogram_badania.pdf Graphic file (type pdf)
 <use ./figures/correlogram_badania.pdf>
 Package pdftex.def Info: ./figures/correlogram_badania.pdf  used on input line 
 81.
 (pdftex.def)             Requested size: 426.79134pt x 243.06761pt.
-<./figures/diagram_non_filtered.pdf, id=346, 440.38524pt x 219.34402pt>
+<./figures/diagram_non_filtered.pdf, id=349, 440.38524pt x 219.34402pt>
 File: ./figures/diagram_non_filtered.pdf Graphic file (type pdf)
 <use ./figures/diagram_non_filtered.pdf>
 Package pdftex.def Info: ./figures/diagram_non_filtered.pdf  used on input line
@@ -1641,7 +1648,7 @@ Overfull \hbox (13.59282pt too wide) in paragraph at lines 87--89
  [][] 
  []
 
-<./figures/diagram_filtered2.pdf, id=347, 440.38524pt x 219.34402pt>
+<./figures/diagram_filtered2.pdf, id=350, 440.38524pt x 219.34402pt>
 File: ./figures/diagram_filtered2.pdf Graphic file (type pdf)
 <use ./figures/diagram_filtered2.pdf>
 Package pdftex.def Info: ./figures/diagram_filtered2.pdf  used on input line 93
@@ -1652,7 +1659,7 @@ Overfull \hbox (13.59282pt too wide) in paragraph at lines 93--95
  [][] 
  []
 
-<./figures/identified_mode_1.pdf, id=348, 248.40805pt x 248.40805pt>
+<./figures/identified_mode_1.pdf, id=351, 248.40805pt x 248.40805pt>
 File: ./figures/identified_mode_1.pdf Graphic file (type pdf)
 <use ./figures/identified_mode_1.pdf>
 Package pdftex.def Info: ./figures/identified_mode_1.pdf  used on input line 99
@@ -1670,21 +1677,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 2680) has occurred while \output is active []
 
- [44
+ [45
 
  <./figures/correlogram_badania.pdf>]
-Overfull \hbox (5.47784pt too wide) has occurred while \output is active
-\OT4/cmr/m/sl/12 5.3.  KALIBRACJA MODELU NUMERYCZNEGO Z WYKORZYSTANIEM PSO \OT4
-/cmr/m/n/12 45
- []
-
-[45 <./figures/diagram_non_filtered.pdf>]
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
 \OT4/cmr/m/n/12 46 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[46 <./figures/diagram_filtered2.pdf> <./figures/identified_mode_1.pdf
+[46 <./figures/diagram_non_filtered.pdf>] [47 <./figures/diagram_filtered2.pdf>
+ <./figures/identified_mode_1.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/identified_mode_1.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
@@ -1713,7 +1715,7 @@ Overfull \hbox (142.49359pt too wide) in paragraph at lines 151--152
 []\OT4/cmr/m/n/12 ; []; []; [])
  []
 
-[47
+[48
 
 ]
 LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 
@@ -1722,7 +1724,7 @@ LaTeX Font Info:    Trying to load font information for OT4+cmss on input line
 ("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/polski\ot4cmss.fd"
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-[48]
+[49]
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
 179.
 
@@ -1747,15 +1749,14 @@ l.180 \end
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+[50
 
+]
 Overfull \hbox (17.09633pt too wide) in paragraph at lines 180--180
 [][]\OT4/cmr/m/n/12 Fialko, Ser-gey (2000). ``High-preformance ag-gre-ga-tion e
 lement-by-element Ritz-gradient
  []
 
-[49
-
-]
 
 ! Package inputenc Error: Unicode character Œí (U+0392)
 (inputenc)                not set up for use with LaTeX.
@@ -1776,7 +1777,7 @@ en-ti-fi-ca-tion\OT4/cmr/m/n/12 . Prentice-Hall, Inc. \OT4/cmr/m/sc/12 isbn\OT4
 /cmr/m/n/12 : 013079211X. 
  []
 
-[50] [51] [52] (whole_thesis.aux (dictionary.aux) (chap_era.aux))
+[51] [52] [53] (whole_thesis.aux (dictionary.aux) (chap_era.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1789,13 +1790,13 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34401 strings out of 481522
- 811346 string characters out of 2913237
- 1529131 words of memory out of 3000000
- 49052 multiletter control sequences out of 15000+200000
+ 34430 strings out of 481522
+ 812094 string characters out of 2913237
+ 1529207 words of memory out of 3000000
+ 49081 multiletter control sequences out of 15000+200000
  558248 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,24n,102p,2205b,2738s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,24n,102p,2205b,2730s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\KBP\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 ti1200.pk>{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/pl
 tt.enc}{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plsc.
@@ -1836,9 +1837,9 @@ MiKTeX 2.9/fonts/type1/public/pl/plsy7.pfb><C:/Users/KBP/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb><C:/Users/KBP/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/public/pl/plti12.pfb><C:/Users/KBP/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/pl/pltt12.pfb>
-Output written on whole_thesis.pdf (52 pages, 1072851 bytes).
+Output written on whole_thesis.pdf (53 pages, 1079223 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
+ 544 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

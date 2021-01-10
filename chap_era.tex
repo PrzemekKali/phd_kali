@@ -987,16 +987,71 @@ w którym $\Delta t$ oznacza krok czasowy próbkowania, taki że $\Delta t = 1/f
 	\psi_{j,i} = |\phi_{j,i}|\text{sign}\Big(\text{Re}(\phi_{j,i})\Big)
 \end{equation}
 
-gdzie $i=1,2,3,\dots,n$ ($n$ - rząd modelu), $j=1,2,3,\dots,m$, ($m$ - liczba punktów pomiarowych), $|\cdot|$ oznacza moduł liczby zespolonej, $\text{Re}(\cdot)$ i $\text{Im}(\cdot)$ oznaczają odpowiednio część rzeczywistą i urojoną liczby zespolonej, a $text{sign}$ jest funkcją zwracającą $+1$ dla liczb dodatnich i $-1$ dla liczb ujemnych.
-
-\subsubsection{}
-
+gdzie $i=1,2,3,\dots,n$ ($n$ - rząd modelu), $j=1,2,3,\dots,m$, ($m$ - liczba punktów pomiarowych), $|\cdot|$ oznacza moduł liczby zespolonej, $\text{Re}(\cdot)$ i $\text{Im}(\cdot)$ oznaczają odpowiednio część rzeczywistą i urojoną liczby zespolonej, a $\text{sign}(\cdot)$ jest funkcją zwracającą $+1$ dla liczb dodatnich i $-1$ dla liczb ujemnych.
 
 \subsection{Elementy przetwarzania sygnałów}
 
 
 
 \section{Implementacja programu}
+Na rynku istnieją komercyjne aplikacje komputerowe, stworzone do identyfikacji modalnej. Należą do nich przede wszystkim ARTeMIS - SVS i MACEC - dodatek do programu MATLAB. Programy te służą zarówno naukowcom jak i szeroko pojętemu przemysłowi. Nie powinno więc dziwić, że są skomercjalizowane i płatne. W trakcie realizacji pracy doktorskiej podjęto decyzję o napisaniu własnej aplikacji komputerowej służącej identyfikacji modalnej. Zdaniem autora takie podejście zapewnia pełną kontrolę nad algorytmem i parametrami identyfikacji oraz nad sposobem przedstawienia wyników. Niebagatelnym profitem napisania programu autorskiego jest również lepsze zrozumienie mechanizmów i wrażliwości elementów algorytmu.
+W początkowej fazie tworzenia zaplanowano następującą funkcjonalność programu:
+\begin{itemize}
+	\item wczytywanie i podgląd sygnałów pomiarowych, grupowanie sygnałów w serie pomiarowe, ze wskazaniem sygnałów referencyjnych i lokalizacją punktów pomiarowych,
+	\item przetwarzanie sygnałów: okienkowanie, usuniecie składowej stałej i trendu, filtrowanie, zmiana próbkowania,
+	\item wyznaczenie funkcji odpowiedzi impulsowych sygnałów wykorzystując algorytm NExT, z możliwością podziału na serie pomiarowe z punktem referencyjnym oraz uśredniania serii pomiarowych,
+	\item identyfikacja modalna za pomocą algorytmu ERA,
+	\item elementy kontroli obliczeń: zmiana parametrów metod, wybór elementów przetwarzania sygnałów,
+	\item elementy wizualizacji wyników: wykresy sygnałów, animacja postaci drgań własnych, postaci we współrzędnych biegunowych, diagramy stabilizacyjne metody NExT-ERA.
+\end{itemize}
+Aplikację napisano w języku Python 3.6 głównie z użyciem bibliotek NUMPY i SCIPY do obliczeń oraz MATPLOTLIB do tworzenia wizualizacji. Dodano interfejs graficzny wykorzystujący technologię Qt. Elementy interfejsu pokazano na rysunkach (!!!).
+
+Diagram stabilizacyjny i kryteria oceny
+
+Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przypadku aplikacji służącej celom naukowym, gdzie zakłada się pewien poziom wiedzy i świadomości użytkownika w zdecydowano że testom poddane zostanie jedynie jądro programu - algorytm NExT-ERA. W tym celu założono wykonanie dwóch testów: numerycznego i laboratoryjnego. Test numeryczny ma opierać się na wykonaniu modelu obliczeniowego w oprogramowaniu MES, a następnie obciążeniu go losowo (w przybliżeniu szumem białym) i wykonaniu analizy dynamicznej. Test laboratoryjny ma polegać na pomiarze i analizie drgań środowiskowych rzeczywistego obiektu badawczego. Przedmiotem badań była konstrukcja o schemacie statycznym bliskim belce swobodnie podpartej. Model numeryczny wykonano w programie MES bazujac na inwentaryzacji wymiarów obiektu laboratoryjnego. Szczegółowe założenia testów, ich przebieg i rezultaty podano poniżej. 
+
 MAC - \parencite{allemang_modal_2003} formuła musi być dla zespolonych a nie tylko transpozycja!
 \section{Testy numeryczne metody NEXT-ERA}
+Test numeryczny wykonano na modelu ramy przestrzennej o zewnętrznym schemacie statycznym bliskim belce swobodnie podpartej. Model wykonano w środowisku MES SOFiSTiK z użyciem jednowymiarowych elementów belkowych. Wizualizację oraz schemat statyczny pokazano na rysunku (!!!).
+Przed przystąpieniem do analizy wygenerowano 5000 losowych przypadków obciążenia. Losowy charakter uzyskano za pomocą następujących założeń dla każdego przypadku obciążenia:
+\begin{itemize}
+	\item w każdym węźle pośrednim może, ale nie musi, być przyłożona siła pionowa lub poprzeczna,
+	\item jeśli siła została przyłożona, jej wartość jest losowana z zakresu od -3 do 3 N dla każdego węzła indywidualnie,
+	\item w trakcie analizy, w każdym kroku czasowym losowany jest jeden przypadek obciążenia z wygenerowanych 5000.
+\end{itemize}
+Na modelu wykonano analizę time-step Newmarka-Wilsona. Znając rozwiązanie dynamicznego problemu własnego dla przedmiotowego modelu zauważono, że pierwszych 5 częstotliwości drgań własnych mieści się w zakresie do 400 Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 0.001 s$. Zgodnie z kryterium Nyquista pozwoliło to zarejestrować drgania teoretycznie do częstotliwości 500 Hz. Nadpróbkowany sygnał względem najbardziej interesujących pierwszych trzech modów (zawartych do 200Hz) zmniejsza ryzyko i wpływ ewentualnych błędów numerycznych na odpowiedź modów bliskich połowie częstotliwości próbkowania. Błędy te są naturalną konsekwencja stosowania algorytmu bezpośredniego całkowania bez tłumienia numerycznego. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT na sygnale złożonym z wartości obciążenia jednego z węzłów w czasie. Widmo częstotliwościowe przedstawiono na rysunku (!!!). Całkowity czas analizy przyjęto jako 25s (25000 kroków czasowych).
+
+Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach pośrednich, na kierunku pionowym i poprzecznym. Do programu wprowadzono stworzone sygnały z informacją o lokalizacji punktów odczytu. Z sygnałów usunięto składową stałą. Uzyskano odpowiedzi impulsowe jak na rysunku {\ref{fig: cross_corr_blue_beam}}. W dalszej części zastosowano algorytm ERA. Doboru parametrów dokonano przy pomocy diagramu stabilizacyjnego.
+\begin{figure}[h]
+	\centering
+	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue_input_load/fig_20_59_12_0.555.pdf}}%
+	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue_input_load/fig_20_59_13_0.655.pdf}}\\
+	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue_input_load/fig_20_59_13_0.414.pdf}}%
+	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue_input_load/fig_20_59_13_0.079.pdf}}%
+	\captionsetup{justification=centering}
+	\caption{Transformaty Fouriera funkcji wymuszenia przykładowych węzłów w modelu testowym}
+	\label{fig: fft_load_input_blue_beam}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue_ccf/fig_CCF_CSD_00003_19_59_23.pdf}}%
+	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue_ccf/fig_CCF_CSD_00004_19_59_32.pdf}}\\
+	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue_ccf/fig_CCF_CSD_00007_19_59_25.pdf}}%
+	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue_ccf/fig_CCF_CSD_00008_19_59_34.pdf}}%
+	\captionsetup{justification=centering}
+	\caption{Przykłady otrzymanych funkcji cross-korelacji w dziedzinie częstotliwości i dziedzinie czasu}
+	\label{fig: cross_corr_blue_beam}
+\end{figure}
+
+
+
+
+
+
+
+
+ 
+
+
+
 \section{Testy eksperymentalne metody NEXT-ERA}

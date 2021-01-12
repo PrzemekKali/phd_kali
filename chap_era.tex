@@ -1008,7 +1008,7 @@ Aplikację napisano w języku Python 3.6 głównie z użyciem bibliotek NUMPY i 
 
 Diagram stabilizacyjny i kryteria oceny
 
-Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przypadku aplikacji służącej celom naukowym, gdzie zakłada się pewien poziom wiedzy i świadomości użytkownika w zdecydowano że testom poddane zostanie jedynie jądro programu - algorytm NExT-ERA. W tym celu założono wykonanie dwóch testów: numerycznego i laboratoryjnego. Test numeryczny ma opierać się na wykonaniu modelu obliczeniowego w oprogramowaniu MES, a następnie obciążeniu go losowo (w przybliżeniu szumem białym) i wykonaniu analizy dynamicznej. Test laboratoryjny ma polegać na pomiarze i analizie drgań środowiskowych rzeczywistego obiektu badawczego. Przedmiotem badań była konstrukcja o schemacie statycznym bliskim belce swobodnie podpartej. Model numeryczny wykonano w programie MES bazujac na inwentaryzacji wymiarów obiektu laboratoryjnego. Szczegółowe założenia testów, ich przebieg i rezultaty podano poniżej. 
+Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przypadku aplikacji służącej celom naukowym, gdzie zakłada się pewien poziom wiedzy i świadomości użytkownika zdecydowano, że testom poddane zostanie jedynie jądro programu - algorytm NExT-ERA. W tym celu założono wykonanie dwóch testów: numerycznego i laboratoryjnego. Test numeryczny ma opierać się na wykonaniu modelu obliczeniowego w oprogramowaniu MES, a następnie obciążeniu go losowo (w przybliżeniu szumem białym) i wykonaniu analizy dynamicznej. Test laboratoryjny ma polegać na pomiarze i analizie drgań środowiskowych rzeczywistego obiektu badawczego. Przedmiotem badań była konstrukcja o schemacie statycznym bliskim belce swobodnie podpartej. Model numeryczny wykonano w programie MES bazujac na inwentaryzacji wymiarów obiektu laboratoryjnego. Szczegółowe założenia testów, ich przebieg i rezultaty podano poniżej. 
 
 MAC - \parencite{allemang_modal_2003} formuła musi być dla zespolonych a nie tylko transpozycja!
 \section{Testy numeryczne metody NEXT-ERA}
@@ -1020,31 +1020,129 @@ Przed przystąpieniem do analizy wygenerowano 5000 losowych przypadków obciąż
 	\item w trakcie analizy, w każdym kroku czasowym losowany jest jeden przypadek obciążenia z wygenerowanych 5000.
 \end{itemize}
 Na modelu wykonano analizę time-step Newmarka-Wilsona. Znając rozwiązanie dynamicznego problemu własnego dla przedmiotowego modelu zauważono, że pierwszych 5 częstotliwości drgań własnych mieści się w zakresie do 400 Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 0.001 s$. Zgodnie z kryterium Nyquista pozwoliło to zarejestrować drgania teoretycznie do częstotliwości 500 Hz. Nadpróbkowany sygnał względem najbardziej interesujących pierwszych trzech modów (zawartych do 200Hz) zmniejsza ryzyko i wpływ ewentualnych błędów numerycznych na odpowiedź modów bliskich połowie częstotliwości próbkowania. Błędy te są naturalną konsekwencja stosowania algorytmu bezpośredniego całkowania bez tłumienia numerycznego. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT na sygnale złożonym z wartości obciążenia jednego z węzłów w czasie. Widmo częstotliwościowe przedstawiono na rysunku (!!!). Całkowity czas analizy przyjęto jako 25s (25000 kroków czasowych).
-
-Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach pośrednich, na kierunku pionowym i poprzecznym. Do programu wprowadzono stworzone sygnały z informacją o lokalizacji punktów odczytu. Z sygnałów usunięto składową stałą. Uzyskano odpowiedzi impulsowe jak na rysunku {\ref{fig: cross_corr_blue_beam}}. W dalszej części zastosowano algorytm ERA. Doboru parametrów dokonano przy pomocy diagramu stabilizacyjnego.
 \begin{figure}[h]
 	\centering
-	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue_input_load/fig_20_59_12_0.555.pdf}}%
-	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue_input_load/fig_20_59_13_0.655.pdf}}\\
-	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue_input_load/fig_20_59_13_0.414.pdf}}%
-	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue_input_load/fig_20_59_13_0.079.pdf}}%
+	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue/input_load/fig_20_59_12_0.555.pdf}}%
+	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue/input_load/fig_20_59_13_0.655.pdf}}\\
+	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue/input_load/fig_20_59_13_0.414.pdf}}%
+	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue/input_load/fig_20_59_13_0.079.pdf}}%
 	\captionsetup{justification=centering}
 	\caption{Transformaty Fouriera funkcji wymuszenia przykładowych węzłów w modelu testowym}
 	\label{fig: fft_load_input_blue_beam}
 \end{figure}
+
+Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach pośrednich, na kierunku pionowym i poprzecznym. Do programu wprowadzono stworzone sygnały z informacją o lokalizacji punktów odczytu. Z sygnałów usunięto składową stałą. Uzyskano odpowiedzi impulsowe jak na rysunku {\ref{fig: cross_corr_blue_beam}}. W dalszej części zastosowano algorytm ERA. Doboru parametrów dokonano przy pomocy diagramu stabilizacyjnego.
+
 \begin{figure}[h]
 	\centering
-	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue_ccf/fig_CCF_CSD_00003_19_59_23.pdf}}%
-	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue_ccf/fig_CCF_CSD_00004_19_59_32.pdf}}\\
-	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue_ccf/fig_CCF_CSD_00007_19_59_25.pdf}}%
-	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue_ccf/fig_CCF_CSD_00008_19_59_34.pdf}}%
+	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_22_31_32.pdf}}\\
+	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_filtr_time_22_33_13.pdf}}%
+	\captionsetup{justification=centering}
+	\caption{Diagram stabilizacyjny metody NExT-ERA testowego modelu numerycznego: a) diagram niefiltrowany, b) diagram filtrowany}
+	\label{fig: stab_diags_blue_beam}
+\end{figure}
+
+
+
+
+
+
+
+\begin{figure}[h]
+	\centering
+	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00003_19_59_23.pdf}}%
+	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00004_19_59_32.pdf}}\\
+	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00007_19_59_25.pdf}}%
+	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00008_19_59_34.pdf}}%
 	\captionsetup{justification=centering}
 	\caption{Przykłady otrzymanych funkcji cross-korelacji w dziedzinie częstotliwości i dziedzinie czasu}
 	\label{fig: cross_corr_blue_beam}
 \end{figure}
 
 
+\begin{figure}[h]
+	\centering
+	\begin{tabular}[c]{c}
+		\subfloat[Mod 1, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod1}%
+			\begin{tabular}[b]{c c c}
+				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_0_time_00_17_57.pdf}%
+				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_0_time_00_19_14.pdf}%
+				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_0_time_22_53_14.pdf}%
+			\end{tabular}}\\
+		
+		\subfloat[Mod 2, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod2}%
+			\begin{tabular}[b]{c c c}
+				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_2_time_00_19_31.pdf}%
+				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_2_time_00_19_46.pdf}%
+				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_2_time_22_53_25.pdf}%
+		\end{tabular}}\\
+		\subfloat[Mod 3, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod3}%
+		\begin{tabular}[b]{c c c}
+			\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_4_time_00_20_17.pdf}%
+			\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_4_time_00_20_25.pdf}%
+			\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_4_time_22_53_36.pdf}%
+	\end{tabular}}\\
+		\subfloat[Mod 4, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod4}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_6_time_00_20_53.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_6_time_00_21_00.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_6_time_22_53_55.pdf}%
+\end{tabular}}\\
+	\end{tabular}
+\caption{Full caption }
 
+\end{figure}
+
+\begin{figure}[h]\ContinuedFloat
+	\centering
+	\begin{tabular}[c]{c}
+		\subfloat[Mod 5, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod5}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_8_time_00_21_13.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_8_time_00_21_23.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_8_time_22_54_06.pdf}%
+\end{tabular}}\\
+		\subfloat[Mod 6, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod6}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_10_time_00_21_41.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_10_time_00_21_53.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_10_time_22_54_15.pdf}%
+\end{tabular}}\\
+		\subfloat[Mod 7, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod7}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_12_time_00_22_11.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_12_time_00_22_18.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_12_time_22_54_40.pdf}%
+\end{tabular}}\\
+		\subfloat[Mod 8, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod8}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_14_time_00_22_33.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_14_time_00_22_39.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_14_time_22_54_49.pdf}%
+\end{tabular}}\\
+	\end{tabular}
+\caption{Full caption cont.}
+\end{figure}
+\begin{figure}[h]\ContinuedFloat
+	\centering
+	\begin{tabular}[c]{c}
+		\subfloat[Mod 9, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod9}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_16_time_00_22_57.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_16_time_00_23_07.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_16_time_22_55_10.pdf}%
+\end{tabular}}\\
+		\subfloat[Mod 10, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod10}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_18_time_00_23_23.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_18_time_00_23_28.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_18_time_22_55_21.pdf}%
+\end{tabular}}\\
+
+	\end{tabular}
+	\caption{Full caption cont.}
+	\label{fig: test_blue_mods}
+\end{figure}
 
 
 

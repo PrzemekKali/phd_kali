@@ -1031,21 +1031,19 @@ Na modelu wykonano analizę time-step Newmarka-Wilsona. Znając rozwiązanie dyn
 	\label{fig: fft_load_input_blue_beam}
 \end{figure}
 
-Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach pośrednich, na kierunku pionowym i poprzecznym. Do programu wprowadzono stworzone sygnały z informacją o lokalizacji punktów odczytu. Z sygnałów usunięto składową stałą. Uzyskano odpowiedzi impulsowe jak na rysunku {\ref{fig: cross_corr_blue_beam}}. W dalszej części zastosowano algorytm ERA. Doboru parametrów dokonano przy pomocy diagramu stabilizacyjnego.
+Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach pośrednich, na kierunku pionowym i poprzecznym. Do programu wprowadzono stworzone sygnały z informacją o lokalizacji punktów odczytu. Z sygnałów usunięto składową stałą. Uzyskano odpowiedzi impulsowe jak na rysunku {\ref{fig: cross_corr_blue_beam}}. W dalszej części zastosowano algorytm ERA. Doboru parametrów dokonano przy pomocy diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Na diagramie w wersji filtrowanej (Rys. \ref{fig: stab_diags_blue_beam_b}) wyraźnie widać kilkanaście zidentyfikowanych modów. Zdecydowano o analizie jedynie tych mieszczących się w zakresie 0-200Hz. Diagram pozwolił na odczytanie minimalnego rzędu modelu zawierającego wszystkie stabilne mody o wartości $n=120$. Diagram został stworzony dla parametrów metody NExT -ERA dobranych iteracyjnie.
 
 \begin{figure}[h]
 	\centering
 	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_22_31_32.pdf}}\\
-	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_filtr_time_22_33_13.pdf}}%
+	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_filtr_time_22_33_13.pdf},\label{fig: stab_diags_blue_beam_b}}%
+	
 	\captionsetup{justification=centering}
 	\caption{Diagram stabilizacyjny metody NExT-ERA testowego modelu numerycznego: a) diagram niefiltrowany, b) diagram filtrowany}
 	\label{fig: stab_diags_blue_beam}
 \end{figure}
 
-
-
-
-
+Wprowadzono wyznaczone parametry do programu. Jako punkt referencyjny na kierunku $Y$ wybrano punkt !!!, a na kierunku pionowym $Z$ punkt !!!. Uzyskano odpowiedzi impulsowe dla każdego punktu. Przykładowe funkcje odpowiedzi impulsowej z odpowiadającą im transformatą Fouriera przedstawiono na rysunku \ref{fig: cross_corr_blue_beam}. Funkcje posiadają wyraźnie gasnący charakter, które wizualnie mogą być określone jako drgania swobodne przy małej wartości tłumienia. Następnie wyznaczone funkcje IRF zostały wprowadzone do metody ERA. Wyniki obliczono dla rzędu modelu równego $n=120$ zgodnie ze wskazaniami diagramu stabilizacyjnego (Rys. fig: stab_diags_blue_beam). Spośród wszystkich modów wybrano te, które na diagramie ujawniają się jako rzeczywiste i stabilne. Wyniki w formie postaci drgań własnych w przestrzeni kartezjańskiej na kierunku pionowym $Z$ i poprzecznym $Y$ przedstawiono na rysunku (!!!). Postaci pokazano również w układzie biegunowym na rysunku (!!!). Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w tabeli (!!!).
 
 
 \begin{figure}[h]
@@ -1064,29 +1062,26 @@ Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach 
 	\centering
 	\begin{tabular}[c]{c}
 		\subfloat[Mod 1, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod1}%
-			\begin{tabular}[b]{c c c}
-				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_0_time_00_17_57.pdf}%
-				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_0_time_00_19_14.pdf}%
-				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_0_time_22_53_14.pdf}%
+			\begin{tabular}[b]{c c}
+				\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_0_time_00_17_57.pdf}%
+				\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_0_time_00_19_14.pdf}%
 			\end{tabular}}\\
 		
 		\subfloat[Mod 2, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod2}%
-			\begin{tabular}[b]{c c c}
-				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_2_time_00_19_31.pdf}%
-				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_2_time_00_19_46.pdf}%
-				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_2_time_22_53_25.pdf}%
+			\begin{tabular}[b]{c c}
+				\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_2_time_00_19_31.pdf}%
+				\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_2_time_00_19_46.pdf}%
 		\end{tabular}}\\
 		\subfloat[Mod 3, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod3}%
-		\begin{tabular}[b]{c c c}
-			\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_4_time_00_20_17.pdf}%
-			\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_4_time_00_20_25.pdf}%
-			\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_4_time_22_53_36.pdf}%
+		\begin{tabular}[b]{c c}
+			\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_4_time_00_20_17.pdf}%
+			\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_4_time_00_20_25.pdf}%
+		
 	\end{tabular}}\\
 		\subfloat[Mod 4, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod4}%
-	\begin{tabular}[b]{c c c}
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_6_time_00_20_53.pdf}%
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_6_time_00_21_00.pdf}%
-		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_6_time_22_53_55.pdf}%
+	\begin{tabular}[b]{c c}
+		\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_6_time_00_20_53.pdf}%
+		\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_6_time_00_21_00.pdf}%
 \end{tabular}}\\
 	\end{tabular}
 \caption{Full caption }

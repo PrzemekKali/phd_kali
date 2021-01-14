@@ -1035,23 +1035,23 @@ Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach 
 
 \begin{figure}[h]
 	\centering
-	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_22_31_32.pdf}}\\
-	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_filtr_time_22_33_13.pdf},\label{fig: stab_diags_blue_beam_b}}%
+	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pdf}}\\
+	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf},\label{fig: stab_diags_blue_beam_b}}%
 	
 	\captionsetup{justification=centering}
 	\caption{Diagram stabilizacyjny metody NExT-ERA testowego modelu numerycznego: a) diagram niefiltrowany, b) diagram filtrowany}
 	\label{fig: stab_diags_blue_beam}
 \end{figure}
 
-Wprowadzono wyznaczone parametry do programu. Jako punkt referencyjny na kierunku $Y$ wybrano punkt !!!, a na kierunku pionowym $Z$ punkt !!!. Uzyskano odpowiedzi impulsowe dla każdego punktu. Przykładowe funkcje odpowiedzi impulsowej z odpowiadającą im transformatą Fouriera przedstawiono na rysunku \ref{fig: cross_corr_blue_beam}. Funkcje posiadają wyraźnie gasnący charakter, które wizualnie mogą być określone jako drgania swobodne przy małej wartości tłumienia. Następnie wyznaczone funkcje IRF zostały wprowadzone do metody ERA. Wyniki obliczono dla rzędu modelu równego $n=120$ zgodnie ze wskazaniami diagramu stabilizacyjnego (Rys. fig: stab_diags_blue_beam). Spośród wszystkich modów wybrano te, które na diagramie ujawniają się jako rzeczywiste i stabilne. Wyniki w formie postaci drgań własnych w przestrzeni kartezjańskiej na kierunku pionowym $Z$ i poprzecznym $Y$ przedstawiono na rysunku (!!!). Postaci pokazano również w układzie biegunowym na rysunku (!!!). Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w tabeli (!!!).
+Wprowadzono wyznaczone parametry do programu. Jako punkt referencyjny na kierunku $Y$ wybrano punkt !!!, a na kierunku pionowym $Z$ punkt !!!. Uzyskano odpowiedzi impulsowe dla każdego punktu. Przykładowe funkcje odpowiedzi impulsowej z odpowiadającą im transformatą Fouriera przedstawiono na rysunku \ref{fig: cross_corr_blue_beam}. Funkcje posiadają wyraźnie gasnący charakter, które wizualnie mogą być określone jako drgania swobodne przy małej wartości tłumienia. Następnie wyznaczone funkcje IRF zostały wprowadzone do metody ERA. Wyniki obliczono dla rzędu modelu równego $n=120$ zgodnie ze wskazaniami diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Spośród wszystkich modów wybrano te, które na diagramie ujawniają się jako rzeczywiste i stabilne. Wyniki w formie postaci drgań własnych w przestrzeni kartezjańskiej na kierunku pionowym $Z$ i poprzecznym $Y$ przedstawiono na rysunku (!!!). Postaci pokazano również w układzie biegunowym na rysunku (!!!). Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w tabeli (!!!).
 
 
 \begin{figure}[h]
 	\centering
-	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00003_19_59_23.pdf}}%
-	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00004_19_59_32.pdf}}\\
-	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00007_19_59_25.pdf}}%
-	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00008_19_59_34.pdf}}%
+	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf}}%
+	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf}}\\
+	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf}}%
+	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf}}%
 	\captionsetup{justification=centering}
 	\caption{Przykłady otrzymanych funkcji cross-korelacji w dziedzinie częstotliwości i dziedzinie czasu}
 	\label{fig: cross_corr_blue_beam}
@@ -1062,26 +1062,29 @@ Wprowadzono wyznaczone parametry do programu. Jako punkt referencyjny na kierunk
 	\centering
 	\begin{tabular}[c]{c}
 		\subfloat[Mod 1, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod1}%
-			\begin{tabular}[b]{c c}
-				\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_0_time_00_17_57.pdf}%
-				\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_0_time_00_19_14.pdf}%
+			\begin{tabular}[b]{c c c}
+				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_0_time_22_08_38.pdf}%
+				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_0_time_22_08_55.pdf}%
+				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_0_time_22_07_54.pdf}%
 			\end{tabular}}\\
 		
 		\subfloat[Mod 2, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod2}%
 			\begin{tabular}[b]{c c}
-				\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_2_time_00_19_31.pdf}%
-				\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_2_time_00_19_46.pdf}%
+				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_2_time_22_09_15.pdf}%
+				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_2_time_22_09_26.pdf}%
+				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_2_time_22_09_04.pdf}%
 		\end{tabular}}\\
 		\subfloat[Mod 3, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod3}%
 		\begin{tabular}[b]{c c}
-			\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_4_time_00_20_17.pdf}%
-			\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_4_time_00_20_25.pdf}%
-		
+			\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_4_time_22_09_56.pdf}%
+			\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_4_time_22_10_36.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_4_time_22_09_47.pdf}%
 	\end{tabular}}\\
 		\subfloat[Mod 4, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod4}%
 	\begin{tabular}[b]{c c}
-		\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_6_time_00_20_53.pdf}%
-		\includegraphics[width=0.5\linewidth]{/test_blue/blue_modes/fig_mod_6_time_00_21_00.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_6_time_22_10_59.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_6_time_22_11_12.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_6_time_22_10_52.pdf}%
 \end{tabular}}\\
 	\end{tabular}
 \caption{Full caption }
@@ -1093,56 +1096,54 @@ Wprowadzono wyznaczone parametry do programu. Jako punkt referencyjny na kierunk
 	\begin{tabular}[c]{c}
 		\subfloat[Mod 5, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod5}%
 	\begin{tabular}[b]{c c c}
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_8_time_00_21_13.pdf}%
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_8_time_00_21_23.pdf}%
-		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_8_time_22_54_06.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_8_time_22_11_37.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_8_time_22_11_45.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_8_time_22_11_32.pdf}%
 \end{tabular}}\\
 		\subfloat[Mod 6, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod6}%
 	\begin{tabular}[b]{c c c}
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_10_time_00_21_41.pdf}%
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_10_time_00_21_53.pdf}%
-		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_10_time_22_54_15.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_10_time_22_12_47.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_10_time_22_12_15.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_10_time_22_14_19.pdf}%
 \end{tabular}}\\
 		\subfloat[Mod 7, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod7}%
 	\begin{tabular}[b]{c c c}
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_12_time_00_22_11.pdf}%
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_12_time_00_22_18.pdf}%
-		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_12_time_22_54_40.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_16_time_22_21_41.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_16_time_22_22_09.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_16_time_22_21_32.pdf}%
 \end{tabular}}\\
 		\subfloat[Mod 8, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod8}%
 	\begin{tabular}[b]{c c c}
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_14_time_00_22_33.pdf}%
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_14_time_00_22_39.pdf}%
-		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_14_time_22_54_49.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_24_time_22_22_41.pdf}%
+		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_24_time_22_22_48.pdf}%
+		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_24_time_22_22_25.pdf}%
 \end{tabular}}\\
 	\end{tabular}
 \caption{Full caption cont.}
 \end{figure}
-\begin{figure}[h]\ContinuedFloat
+
+
+\begin{figure}[h]
 	\centering
-	\begin{tabular}[c]{c}
-		\subfloat[Mod 9, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod9}%
-	\begin{tabular}[b]{c c c}
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_16_time_00_22_57.pdf}%
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_16_time_00_23_07.pdf}%
-		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_16_time_22_55_10.pdf}%
-\end{tabular}}\\
-		\subfloat[Mod 10, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod10}%
-	\begin{tabular}[b]{c c c}
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_18_time_00_23_23.pdf}%
-		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_18_time_00_23_28.pdf}%
-		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_18_time_22_55_21.pdf}%
-\end{tabular}}\\
-
-	\end{tabular}
-	\caption{Full caption cont.}
-	\label{fig: test_blue_mods}
+	\subfloat[Mod 1, $f_1=19.70 \text{Hz}$]{\label{fig: test_blue_sof_mod1}%
+	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small001.png}}%
+	\subfloat[Mod 2, $f_2=54.96 \text{Hz}$]{\label{fig: test_blue_sof_mod2}%
+	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small003.png}}\\	
+	\subfloat[Mod 3, $f_3=77,33 \text{Hz}$]{\label{fig: test_blue_sof_mod3}%
+	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small004.png}}%		
+	\subfloat[Mod 4, $f_4=157.99 \text{Hz}$]{\label{fig: test_blue_sof_mod4}%
+	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small005.png}}\\
+	\subfloat[Mod 5, $f_5=197.88 \text{Hz}$]{\label{fig: test_blue_sof_mod5}%
+	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small006.png}}%
+	\subfloat[Mod 6, $f_6=205.29 \text{Hz}$]{\label{fig: test_blue_sof_mod6}%
+	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small007.png}}\\
+	\subfloat[Mod 7, $f_7=310.83 \text{Hz}$]{\label{fig: test_blue_sof_mod7}%
+	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small009.png}}%
+	\subfloat[Mod 8, $f_8=384.62 \text{Hz}$]{\label{fig: test_blue_sof_mod8}%
+	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small010.png}}%
+	\caption{Full caption }
+	
 \end{figure}
-
-
-
-
-
  
 
 

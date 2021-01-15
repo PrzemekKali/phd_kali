@@ -1144,8 +1144,30 @@ Wprowadzono wyznaczone parametry do programu. Jako punkt referencyjny na kierunk
 	\caption{Full caption }
 	
 \end{figure}
- 
 
+%\resizebox{\textwidth}{!}{%
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+	\caption{Porównanie zidentyfikowanych parametrów modalnych obiektu testowego}
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{@{}c|c|c|cccc|llll@{}}
+		\toprule
+		\multicolumn{1}{l|}{} & \textbf{\begin{tabular}[c]{@{}c@{}}Analiza\\ modalna\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Zakładane\\ tłumienie\end{tabular}} & \multicolumn{4}{c|}{\textbf{Model MES}}                                      & \multicolumn{4}{c|}{\textbf{Badania}}                                                                                                                        \\ \midrule
+		\multicolumn{1}{l|}{} & \textbf{Częst.}                                                    & \textbf{LDT}                                                           & \textbf{Częst.}   & \textbf{Stosunek} & \textbf{LDT}     & \textbf{Stosunek} & \multicolumn{1}{c}{\textbf{Częst.}}   & \multicolumn{1}{c}{\textbf{Stosunek}} & \multicolumn{1}{c}{\textbf{LDT}}     & \multicolumn{1}{c}{\textbf{Stosunek}} \\ \midrule
+		\multicolumn{1}{l|}{} & \textbf{{[}Hz{]}}                                                  & \textbf{{[}-{]}}                                                       & \textbf{{[}Hz{]}} & \textbf{{[}\%{]}} & \textbf{{[}-{]}} & \textbf{{[}\%{]}} & \multicolumn{1}{c}{\textbf{{[}Hz{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} & \multicolumn{1}{c}{\textbf{{[}-{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} \\ \midrule
+		\textbf{Mod 1}        & 19.77                                                              & 0.0303                                                                 & 19.701            & 100\%             & 0.0291           & 96\%              &                                       &                                       &                                      &                                       \\ \midrule
+		\textbf{Mod 2}        & 54.93                                                              & 0.0189                                                                 & 54.958            & 100\%             & 0.0232           & 123\%             &                                       &                                       &                                      &                                       \\ \midrule
+		\textbf{Mod 3}        & 78.2                                                               & 0.0199                                                                 & 77.331            & 99\%              & 0.0190            & 96\%              &                                       &                                       &                                      &                                       \\ \midrule
+		\textbf{Mod 4}        & 161.35                                                             & 0.0302                                                                 & 157.995           & 98\%              & 0.0240            & 79\%              &                                       &                                       &                                      &                                       \\ \midrule
+		\textbf{Mod 5}        & 200.38                                                             & 0.0361                                                                 & 197.881           & 99\%              & 0.0325           & 90\%              &                                       &                                       &                                      &                                       \\ \midrule
+		\textbf{Mod 6}        & 212.24                                                             & 0.0379                                                                 & 205.290            & 97\%              & 0.0410            & 108\%             &                                       &                                       &                                      &                                       \\ \midrule
+		\textbf{Mod 7}        & 217.12                                                             & 0.0386                                                                 & -                 & -                 & -                & -                 &                                       &                                       &                                      &                                       \\ \midrule
+		\textbf{Mod 8}        & 336.59                                                             & 0.0577                                                                 & 310.834           & 92\%              & 0.0473           & 82\%              &                                       &                                       &                                      &                                       \\ \midrule
+		\textbf{Mod 9}        & 410.22                                                             & 0.0697                                                                 & 384.619           & 94\%              & 0.0628           & 90\%              &                                       &                                       &                                      &                                       \\ \midrule
+		\textbf{Mod 10}       & 451.89                                                             & 0.0765                                                                 & -                 & -                 & -                & -                 &                                       &                                       &                                      &                                       \\ \bottomrule
+	\end{tabular}}
 
+\end{table}
 
 \section{Testy eksperymentalne metody NEXT-ERA}

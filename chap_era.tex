@@ -1012,20 +1012,34 @@ Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przyp
 
 MAC - \parencite{allemang_modal_2003} formuła musi być dla zespolonych a nie tylko transpozycja!
 \section{Testy numeryczne metody NEXT-ERA}
-Test numeryczny wykonano na modelu ramy przestrzennej o zewnętrznym schemacie statycznym bliskim belce swobodnie podpartej. Model wykonano w środowisku MES SOFiSTiK z użyciem jednowymiarowych elementów belkowych. Wizualizację oraz schemat statyczny pokazano na rysunku (!!!).
+Test numeryczny wykonano na modelu ramy przestrzennej o zewnętrznym schemacie statycznym bliskim belce swobodnie podpartej. Model wykonano w środowisku MES SOFiSTiK z użyciem jednowymiarowych elementów belkowych. Wizualizację oraz schemat statyczny pokazano na rysunku \ref{fig: test_beam_wis_model}.
+\begin{figure}[h]
+	\centering
+	\subfloat[Wizualizacja]{\includegraphics[width=0.5\linewidth]{/test_blue/sof_wis/wis_small002.png}}%
+	\subfloat[Schemat statyczny]{\includegraphics[width=0.5\linewidth]{/test_blue/sof_wis/wis_small001.png}}%
+	\captionsetup{justification=centering}
+	\caption{Wizualizacja i schemat statyczny testowego modelu numerycznego}
+	\label{fig: test_beam_wis_model}
+\end{figure}
+
+
+
+
+
+
 Przed przystąpieniem do analizy wygenerowano 5000 losowych przypadków obciążenia. Losowy charakter uzyskano za pomocą następujących założeń dla każdego przypadku obciążenia:
 \begin{itemize}
 	\item w każdym węźle pośrednim może, ale nie musi, być przyłożona siła pionowa lub poprzeczna,
 	\item jeśli siła została przyłożona, jej wartość jest losowana z zakresu od -3 do 3 N dla każdego węzła indywidualnie,
 	\item w trakcie analizy, w każdym kroku czasowym losowany jest jeden przypadek obciążenia z wygenerowanych 5000.
 \end{itemize}
-Na modelu wykonano analizę time-step Newmarka-Wilsona. Znając rozwiązanie dynamicznego problemu własnego dla przedmiotowego modelu zauważono, że pierwszych 5 częstotliwości drgań własnych mieści się w zakresie do 400 Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 0.001 s$. Zgodnie z kryterium Nyquista pozwoliło to zarejestrować drgania teoretycznie do częstotliwości 500 Hz. Nadpróbkowany sygnał względem najbardziej interesujących pierwszych trzech modów (zawartych do 200Hz) zmniejsza ryzyko i wpływ ewentualnych błędów numerycznych na odpowiedź modów bliskich połowie częstotliwości próbkowania. Błędy te są naturalną konsekwencja stosowania algorytmu bezpośredniego całkowania bez tłumienia numerycznego. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT na sygnale złożonym z wartości obciążenia jednego z węzłów w czasie. Widmo częstotliwościowe przedstawiono na rysunku (!!!). Całkowity czas analizy przyjęto jako 25s (25000 kroków czasowych).
+Na modelu wykonano analizę time-step Newmarka-Wilsona. Znając rozwiązanie problemu własnego dynamiki dla przedmiotowego modelu zauważono, zdecydowano o sprawdzeniu modów w zakresie do ok 200Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 1/2500 s$. Zgodnie z kryterium Nyquista pozwoliło to identyfikować drgania teoretycznie do częstotliwości 1250 Hz. Niemniej jednak, sygnał wyjściowy powinien zostać nadpróbkowany znacznie bardziej niżeli dwukrotnie. Odpowiedź z rozwiązania numerycznego powinna być wyznaczona z próbkowaniem ok 10-15 razy większym niż częstotliwość najwyższego, interesującego modu \parencite{Zotowski2017c}. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT na sygnale złożonym z wartości obciążenia czterech węzłów w funkcji czasu. Widma częstotliwościowe przedstawiono na rysunku \ref{fig: fft_load_input_blue_beam}. Całkowity czas analizy przyjęto równy 25s ($25*2500=62500$ kroków czasowych). Widmo częstotliwościowe nie ujawnia żadnej dominującej częstotliwości i jest można uznać je za równe w całym zakresie.
 \begin{figure}[h]
 	\centering
-	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue/input_load/fig_20_59_12_0.555.pdf}}%
-	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue/input_load/fig_20_59_13_0.655.pdf}}\\
-	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue/input_load/fig_20_59_13_0.414.pdf}}%
-	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue/input_load/fig_20_59_13_0.079.pdf}}%
+	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue/input_load/input_load_1.pdf}}%
+	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue/input_load/input_load_2.pdf}}\\
+	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue/input_load/input_load_3.pdf}}%
+	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue/input_load/input_load_4.pdf}}%
 	\captionsetup{justification=centering}
 	\caption{Transformaty Fouriera funkcji wymuszenia przykładowych węzłów w modelu testowym}
 	\label{fig: fft_load_input_blue_beam}
@@ -1152,6 +1166,7 @@ Wprowadzono wyznaczone parametry do programu. Jako punkt referencyjny na kierunk
 	\caption{Porównanie zidentyfikowanych parametrów modalnych obiektu testowego}
 	\resizebox{\textwidth}{!}{%
 	\begin{tabular}{@{}c|c|c|cccc|llll@{}}
+		
 		\toprule
 		\multicolumn{1}{l|}{} & \textbf{\begin{tabular}[c]{@{}c@{}}Analiza\\ modalna\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Zakładane\\ tłumienie\end{tabular}} & \multicolumn{4}{c|}{\textbf{Model MES}}                                      & \multicolumn{4}{c|}{\textbf{Badania}}                                                                                                                        \\ \midrule
 		\multicolumn{1}{l|}{} & \textbf{Częst.}                                                    & \textbf{LDT}                                                           & \textbf{Częst.}   & \textbf{Stosunek} & \textbf{LDT}     & \textbf{Stosunek} & \multicolumn{1}{c}{\textbf{Częst.}}   & \multicolumn{1}{c}{\textbf{Stosunek}} & \multicolumn{1}{c}{\textbf{LDT}}     & \multicolumn{1}{c}{\textbf{Stosunek}} \\ \midrule

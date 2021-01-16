@@ -1025,15 +1025,42 @@ Test numeryczny wykonano na modelu ramy przestrzennej o zewnętrznym schemacie s
 
 
 
-
-
 Przed przystąpieniem do analizy wygenerowano 5000 losowych przypadków obciążenia. Losowy charakter uzyskano za pomocą następujących założeń dla każdego przypadku obciążenia:
 \begin{itemize}
 	\item w każdym węźle pośrednim może, ale nie musi, być przyłożona siła pionowa lub poprzeczna,
 	\item jeśli siła została przyłożona, jej wartość jest losowana z zakresu od -3 do 3 N dla każdego węzła indywidualnie,
 	\item w trakcie analizy, w każdym kroku czasowym losowany jest jeden przypadek obciążenia z wygenerowanych 5000.
 \end{itemize}
-Na modelu wykonano analizę time-step Newmarka-Wilsona. Znając rozwiązanie problemu własnego dynamiki dla przedmiotowego modelu zauważono, zdecydowano o sprawdzeniu modów w zakresie do ok 200Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 1/2500 s$. Zgodnie z kryterium Nyquista pozwoliło to identyfikować drgania teoretycznie do częstotliwości 1250 Hz. Niemniej jednak, sygnał wyjściowy powinien zostać nadpróbkowany znacznie bardziej niżeli dwukrotnie. Odpowiedź z rozwiązania numerycznego powinna być wyznaczona z próbkowaniem ok 10-15 razy większym niż częstotliwość najwyższego, interesującego modu \parencite{Zotowski2017c}. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT na sygnale złożonym z wartości obciążenia czterech węzłów w funkcji czasu. Widma częstotliwościowe przedstawiono na rysunku \ref{fig: fft_load_input_blue_beam}. Całkowity czas analizy przyjęto równy 25s ($25*2500=62500$ kroków czasowych). Widmo częstotliwościowe nie ujawnia żadnej dominującej częstotliwości i jest można uznać je za równe w całym zakresie.
+Rozwiązano problem własny dynamiki przedmiotowego modelu i otrzymano rezultaty jak na rysunku \ref{fig: modal_mods_blue_beam}).
+
+\begin{figure}[h]
+	\centering
+	\subfloat[Mod 1, $f_1=19.70 \text{Hz}$]{\label{fig: test_blue_sof_mod1}%
+		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small001.png}}%
+	\subfloat[Mod 2, $f_2=54.93 \text{Hz}$]{\label{fig: test_blue_sof_mod2}%
+		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small003.png}}%	
+	\subfloat[Mod 3, $f_3=78.20 \text{Hz}$]{\label{fig: test_blue_sof_mod3}%
+		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small004.png}}\\		
+	\subfloat[Mod 4, $f_4=161.35 \text{Hz}$]{\label{fig: test_blue_sof_mod4}%
+		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small005.png}}%
+	\subfloat[Mod 5, $f_5=200.38 \text{Hz}$]{\label{fig: test_blue_sof_mod5}%
+		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small006.png}}%
+	\subfloat[Mod 6, $f_6=212.24 \text{Hz}$]{\label{fig: test_blue_sof_mod6}%
+		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small007.png}}\\
+	\subfloat[Mod 7, $f_7=217.12 \text{Hz}$]{\label{fig: test_blue_sof_mod7}%
+		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small008.png}}%
+	\subfloat[Mod 8, $f_8=336.59 \text{Hz}$]{\label{fig: test_blue_sof_mod8}%
+		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small009.png}}%
+	\subfloat[Mod 9, $f_9=410.22 \text{Hz}$]{\label{fig: test_blue_sof_mod9}%
+		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small010.png}}\\
+	\subfloat[Mod 10, $f_{10}=451.89 \text{Hz}$]{\label{fig: test_blue_sof_mod10}%
+		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small011.png}}\\
+	
+	\caption{Rozwiązanie analizy modalnej modelu testowego}
+	\label{fig: modal_mods_blue_beam}
+\end{figure}
+
+ Odpowiedź konstrukcji na wymuszenie losowe wyznaczono metodą time-step Newmarka-Wilsona. Zdecydowano o sprawdzeniu modów w zakresie do około 250Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 1/2500 s$. Zgodnie z kryterium Nyquista taki krok pozwala identyfikować drgania teoretycznie do częstotliwości 1250 Hz. Niemniej jednak, sygnał wyjściowy powinien zostać nadpróbkowany znacznie bardziej niżeli dwukrotnie. Odpowiedź z rozwiązania numerycznego powinna być wyznaczona z próbkowaniem ok 10-15 razy większym niż częstotliwość najwyższego, interesującego modu \parencite{Zotowski2017c}. Większość modów odczytanych z analizy modalnej mieści się w zamierzonym zakresie do 250 Hz. Mody powyżej 250 Hz zostaną również uwzględnione w analizie dla pokazania zmniejszenia dokładności z uwagi na zbyt rzadkie próbkowanie. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT sygnału złożonego z wartości obciążenia czterech węzłów w funkcji czasu. Widma częstotliwościowe przedstawiono na rysunku \ref{fig: fft_load_input_blue_beam}. Całkowity czas analizy przyjęto równy 25s ($25*2500=62500$ kroków czasowych). Widmo częstotliwościowe nie ujawnia żadnej dominującej częstotliwości i można uznać je za równe w całym zakresie.
 \begin{figure}[h]
 	\centering
 	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue/input_load/input_load_1.pdf}}%
@@ -1045,7 +1072,7 @@ Na modelu wykonano analizę time-step Newmarka-Wilsona. Znając rozwiązanie pro
 	\label{fig: fft_load_input_blue_beam}
 \end{figure}
 
-Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach pośrednich, na kierunku pionowym i poprzecznym. Do programu wprowadzono stworzone sygnały z informacją o lokalizacji punktów odczytu. Z sygnałów usunięto składową stałą. Uzyskano odpowiedzi impulsowe jak na rysunku {\ref{fig: cross_corr_blue_beam}}. W dalszej części zastosowano algorytm ERA. Doboru parametrów dokonano przy pomocy diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Na diagramie w wersji filtrowanej (Rys. \ref{fig: stab_diags_blue_beam_b}) wyraźnie widać kilkanaście zidentyfikowanych modów. Zdecydowano o analizie jedynie tych mieszczących się w zakresie 0-200Hz. Diagram pozwolił na odczytanie minimalnego rzędu modelu zawierającego wszystkie stabilne mody o wartości $n=120$. Diagram został stworzony dla parametrów metody NExT -ERA dobranych iteracyjnie.
+Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach pośrednich, na kierunku pionowym i poprzecznym. Do programu wprowadzono stworzone sygnały z informacją o lokalizacji punktów odczytu. Jako punkt referencyjny na kierunku $Y$ wybrano punkt odległy o 0.3L od podpory, a na kierunku pionowym $Z$ punkt odległy o 0.4L od podpory. O wyborze punktów referencyjnych decyduje warunek, że nie mogą one znajdować się w węzłach żadnej analizowanej postaci drgań. Doboru parametrów identyfikacji dokonano przy pomocy diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Na ostatecznym diagramie w wersji filtrowanej (Rys. \ref{fig: stab_diags_blue_beam_b}) wyraźnie widać 8 zidentyfikowanych, stabilnych modów. Odczytano minimalny rzęd modelu zawierający wszystkie stabilne mody o wartości $n=20$. Diagram tworzony iteracyjnie pozwolił ostatecznie wyznaczyć parametry metody, które przynoszą pewne, stabilne rozwiązanie. Dobrane parametry użyto w pojedynczym przebiegu algorytmu metody NExT-ERA w celu uzyskania pełnego rozwiązania.
 
 \begin{figure}[h]
 	\centering
@@ -1053,12 +1080,11 @@ Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach 
 	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf},\label{fig: stab_diags_blue_beam_b}}%
 	
 	\captionsetup{justification=centering}
-	\caption{Diagram stabilizacyjny metody NExT-ERA testowego modelu numerycznego: a) diagram niefiltrowany, b) diagram filtrowany}
+	\caption{Diagram stabilizacyjny metody NExT-ERA testowego modelu numerycznego: (a) diagram niefiltrowany, (b) diagram filtrowany}
 	\label{fig: stab_diags_blue_beam}
 \end{figure}
 
-Wprowadzono wyznaczone parametry do programu. Jako punkt referencyjny na kierunku $Y$ wybrano punkt !!!, a na kierunku pionowym $Z$ punkt !!!. Uzyskano odpowiedzi impulsowe dla każdego punktu. Przykładowe funkcje odpowiedzi impulsowej z odpowiadającą im transformatą Fouriera przedstawiono na rysunku \ref{fig: cross_corr_blue_beam}. Funkcje posiadają wyraźnie gasnący charakter, które wizualnie mogą być określone jako drgania swobodne przy małej wartości tłumienia. Następnie wyznaczone funkcje IRF zostały wprowadzone do metody ERA. Wyniki obliczono dla rzędu modelu równego $n=120$ zgodnie ze wskazaniami diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Spośród wszystkich modów wybrano te, które na diagramie ujawniają się jako rzeczywiste i stabilne. Wyniki w formie postaci drgań własnych w przestrzeni kartezjańskiej na kierunku pionowym $Z$ i poprzecznym $Y$ przedstawiono na rysunku (!!!). Postaci pokazano również w układzie biegunowym na rysunku (!!!). Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w tabeli (!!!).
-
+Wprowadzono wyznaczone parametry do programu. Uzyskano odpowiedzi impulsowe dla każdego punktu, których przykłady wraz z odpowiadającą im transformatą Fouriera przedstawiono na rysunku \ref{fig: cross_corr_blue_beam}. 
 
 \begin{figure}[h]
 	\centering
@@ -1070,6 +1096,25 @@ Wprowadzono wyznaczone parametry do programu. Jako punkt referencyjny na kierunk
 	\caption{Przykłady otrzymanych funkcji cross-korelacji w dziedzinie częstotliwości i dziedzinie czasu}
 	\label{fig: cross_corr_blue_beam}
 \end{figure}
+
+
+Funkcje posiadają wyraźnie gasnący, okresowy charakter. Następnie wyznaczone funkcje IRF zostały wprowadzone do metody ERA. Wyniki obliczono dla rzędu modelu równego $n=20$ zgodnie ze wskazaniami diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Spośród wszystkich modów wybrano te, które na diagramie ujawniają się jako rzeczywiste i stabilne. Wyniki w formie postaci drgań własnych na kierunku pionowym $Z$ i poprzecznym $Y$ oraz dla obu kierunków w układzie biegunowym przedstawiono na rysunku \ref{fig: mods_blue_beam}. 
+
+
+
+
+
+
+
+
+
+
+
+
+Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w tabeli \ref{tab: blue_beam_comparison}. Obserwując uzyskane z analizy modalnej postaci można zauważyć, że Mod 7 i Mod 10 mają charakter skrętny. Posługując się modelem belkowym i odczytując przyspieszenia węzłów na kierunku $Y$ i $Z$ nie ma możliwości zaobserwować postaci skrętnych. Przeprowadzona identyfikacja potwierdza ten fakt nie wskazując tych modów jako stabilnych rozwiązań. Z tego względu w tabeli zbiorczej zostały one oznaczone jako brakujące. Porównując 
+
+
+
 
 
 \begin{figure}[h]
@@ -1102,7 +1147,7 @@ Wprowadzono wyznaczone parametry do programu. Jako punkt referencyjny na kierunk
 \end{tabular}}\\
 	\end{tabular}
 \caption{Full caption }
-
+\label{fig: mods_blue_beam}
 \end{figure}
 
 \begin{figure}[h]\ContinuedFloat
@@ -1137,33 +1182,14 @@ Wprowadzono wyznaczone parametry do programu. Jako punkt referencyjny na kierunk
 \end{figure}
 
 
-\begin{figure}[h]
-	\centering
-	\subfloat[Mod 1, $f_1=19.70 \text{Hz}$]{\label{fig: test_blue_sof_mod1}%
-	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small001.png}}%
-	\subfloat[Mod 2, $f_2=54.96 \text{Hz}$]{\label{fig: test_blue_sof_mod2}%
-	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small003.png}}\\	
-	\subfloat[Mod 3, $f_3=77,33 \text{Hz}$]{\label{fig: test_blue_sof_mod3}%
-	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small004.png}}%		
-	\subfloat[Mod 4, $f_4=157.99 \text{Hz}$]{\label{fig: test_blue_sof_mod4}%
-	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small005.png}}\\
-	\subfloat[Mod 5, $f_5=197.88 \text{Hz}$]{\label{fig: test_blue_sof_mod5}%
-	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small006.png}}%
-	\subfloat[Mod 6, $f_6=205.29 \text{Hz}$]{\label{fig: test_blue_sof_mod6}%
-	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small007.png}}\\
-	\subfloat[Mod 7, $f_7=310.83 \text{Hz}$]{\label{fig: test_blue_sof_mod7}%
-	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small009.png}}%
-	\subfloat[Mod 8, $f_8=384.62 \text{Hz}$]{\label{fig: test_blue_sof_mod8}%
-	\includegraphics[width=0.50\linewidth]{/test_blue/sof_wis/image_small010.png}}%
-	\caption{Full caption }
-	
-\end{figure}
+
 
 %\resizebox{\textwidth}{!}{%
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
 \begin{table}[]
 	\caption{Porównanie zidentyfikowanych parametrów modalnych obiektu testowego}
+	\label{tab: blue_beam_comparison}
 	\resizebox{\textwidth}{!}{%
 	\begin{tabular}{@{}c|c|c|cccc|llll@{}}
 		

@@ -24,7 +24,7 @@
         {{un=0,uniquepart=base,hash=0d709c7a8f4b980c57eabfeec0ea9d86}{%
            family={Bathe},
            familyi={B\bibinitperiod},
-           given={Klaus-J{ü}rgen},
+           given={Klaus-Jürgen},
            giveni={K\bibinithyphendelim J\bibinitperiod},
            givenun=0}}%
       }
@@ -160,7 +160,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Comprehensively covers the basic principles and practice of Operational Modal Analysis (OMA). Covers all important aspects that are needed to understand why OMA is a practical tool for modal testing Covers advanced topics, including closely spaced modes, mode shape scaling, mode shape expansion and estimation of stress and strain in operational responses Discusses practical applications of Operational Modal Analysis Includes examples supported by MATLAB® applications Accompanied by a website hosting a MATLAB® toolbox for Operational Modal Analysis}
+      \field{abstract}{Comprehensively covers the basic principles and practice of Operational Modal Analysis (OMA). Covers all important aspects that are needed to understand why OMA is a practical tool for modal testing Covers advanced topics, including closely spaced modes, mode shape scaling, mode shape expansion and estimation of stress and strain in operational responses Discusses practical applications of Operational Modal Analysis Includes examples supported by MATLAB{®} applications Accompanied by a website hosting a MATLAB{®} toolbox for Operational Modal Analysis}
       \field{annotation}{From Duplicate 2 (Introduction to Operational Modal Analysis - Brincker, Rune; Ventura, Carlos) Accession Number: 1017454; OCLC: 908554403; Language: English}
       \field{booktitle}{Introduction to Operational Modal Analysis}
       \field{isbn}{978-1-119-96315-8}
@@ -257,6 +257,76 @@
       \field{year}{2001}
       \field{pages}{441}
       \range{pages}{1}
+    \endentry
+    \entry{Brownjohn2010}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1c938cc7d247164c352b72f238e1ae6a}{%
+           family={Brownjohn},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi M.W.\bibnamedelimi W},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d09aa6dbabc5319e4a65ba4d82e1bc38}{%
+           family={Magalhaes},
+           familyi={M\bibinitperiod},
+           given={Filipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=086882322219e6e275079e94a94a96b2}{%
+           family={Caetano},
+           familyi={C\bibinitperiod},
+           given={Elsa},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cfa878367c7983f820a84e0b3a00d24}{%
+           family={Cunha},
+           familyi={C\bibinitperiod},
+           given={Alvaro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{d8c4fcab80d062c1d2321561f64635f9}
+      \strng{fullhash}{044baaf0346e841b774eda4747b40ee4}
+      \strng{bibnamehash}{d8c4fcab80d062c1d2321561f64635f9}
+      \strng{authorbibnamehash}{d8c4fcab80d062c1d2321561f64635f9}
+      \strng{authornamehash}{d8c4fcab80d062c1d2321561f64635f9}
+      \strng{authorfullhash}{044baaf0346e841b774eda4747b40ee4}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An ambient vibration survey of the Humber Bridge was carried out in July 2008 by a combined team from the UK, Portugal and Hong Kong. The exercise had several purposes that included the evaluation of the current technology for instrumentation and system identification and the generation of an experimental dataset of modal properties to be used for validation and updating of finite element models for scenario simulation and structural health monitoring. The exercise was conducted as part of a project aimed at developing online diagnosis capabilities for three landmark European suspension bridges.}
+      \field{annotation}{From Duplicate 3 (Ambient vibration re-testing and operational modal analysis of the Humber Bridge - Brownjohn, J M W; Magalhaes, Filipe; Caetano, Elsa; Cunha, Alvaro) Accession Number: edsbas.B96BECBF; Publication Type: Academic Journal; Language: English; Publication Date: 20100101; Rights: This manuscript version is made available under the CC-BY-NC-ND 4.0 license http://creativecommons.org/licenses/by-nc-nd/4.0/; Imprint: United Kingdom, Europe: Elsevier, 2010. Related Material: http://www.sciencedirect.com/science/article/pii/S0141029610000878}
+      \field{issn}{01410296}
+      \field{journaltitle}{Engineering Structures}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{{Ambient vibration re-testing and operational modal analysis of the Humber Bridge}}
+      \field{volume}{32}
+      \field{year}{2010}
+      \field{pages}{2003\bibrangedash 2018}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.engstruct.2010.02.034
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Brownjohn et al. - 2010 - Ambient vibration re-testing and operational modal analysis of the Humber Bridge.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.engstruct.2010.02.034 https://linkinghub.elsevier.com/retrieve/pii/S0141029610000878 http://files/1054/Brownjohn et al. - 2010 - Ambient vibration re-testing and operational modal.pdf http://files/685/Brownjohn i in. - 2010 - A
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.engstruct.2010.02.034%20https://linkinghub.elsevier.com/retrieve/pii/S0141029610000878%20http://files/1054/Brownjohn%20et%20al.%20-%202010%20-%20Ambient%20vibration%20re-testing%20and%20operational%20modal.pdf%20http://files/685/Brownjohn%20i%20in.%20-%202010%20-%20A
+      \endverb
+      \keyw{Operational modal analysis,Structural identification,Suspension bridge,operational modal analysis,structural identification,suspension bridge}
     \endentry
     \entry{Caicedo2011}{article}{}
       \name{author}{1}{}{%
@@ -374,11 +444,11 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Accession Number: bg.000040486; Corporate Authors: Wydawnictwo Arkady.; Other Notes: Wykaz pi{ś}miennictwa s. [292-294].; Ksi{a̧}{ż}ka mo{ż}e s{ł}u{ż}y{ć} jako podr{ȩ}cznik dla student{ó}w politechnik i dla projektant{ó}w oraz konstruktor{ó}w.; Publication Type: Book; Physical Description: 291, [3] s. : il. ; 25 cm.; Language: Polish}
+      \field{annotation}{Accession Number: bg.000040486; Corporate Authors: Wydawnictwo Arkady.; Other Notes: Wykaz piśmiennictwa s. [292-294].; Ksia̧żka może s{ł}użyć jako podrȩcznik dla studentów politechnik i dla projektantów oraz konstruktorów.; Publication Type: Book; Physical Description: 291, [3] s. : il. ; 25 cm.; Language: Polish}
       \field{isbn}{83-213-4072-5}
       \field{title}{{Podstawy dynamiki budowli.}}
       \field{year}{1998}
-      \keyw{Dynamika budowli,Dynamika konstrukcji -- podr{ȩ}czniki akademickie}
+      \keyw{Dynamika budowli,Dynamika konstrukcji -- podrȩczniki akademickie}
     \endentry
     \entry{Chopra2012a}{book}{}
       \name{author}{1}{}{%
@@ -475,7 +545,7 @@
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Gda{ń}sk : nak{ł}. aut., 2008.}%
+        {Gdańsk : nak{ł}. aut., 2008.}%
       }
       \strng{namehash}{92067a757a974d8a9f3739bbee220f53}
       \strng{fullhash}{92067a757a974d8a9f3739bbee220f53}
@@ -489,7 +559,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Identyfikacja parametr{ó}w dynamicznych konstrukcji mostowych na bazie drga{ń} wywo{ł}anych obci{a̧}{ż}eniem {ś}rodowiskowym : [rozprawa doktorska]}}
+      \field{title}{{Identyfikacja parametrów dynamicznych konstrukcji mostowych na bazie drgań wywo{ł}anych obcia̧żeniem środowiskowym : [rozprawa doktorska]}}
       \field{type}{phdthesis}
       \field{year}{2008}
       \verb{file}
@@ -537,7 +607,7 @@
       \verb{file}
       \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Ewins - 2000 - Modal testing theory, practice and application.pdf:pdf
       \endverb
-      \keyw{Mechanische Schwingung,Modalanalyse,Structural dynamics -- Mathematical models,Vibration -- Mathematical models,Vibra{ç}{õ}es (modelos matem{á}ticos)}
+      \keyw{Mechanische Schwingung,Modalanalyse,Structural dynamics -- Mathematical models,Vibration -- Mathematical models,Vibrações (modelos matemáticos)}
     \endentry
     \entry{Extractor1999}{article}{}
       \name{author}{1}{}{%
@@ -722,7 +792,7 @@
            giveni={Β\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=8f999e2ff0e4fbffc192cf659be520b8}{%
-           family={K{á}lm{á}n},
+           family={Kálmán},
            familyi={K\bibinitperiod},
            given={Rudolf\bibnamedelima E},
            giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
@@ -1093,7 +1163,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The basic concept of the Eigensystem Realization Algorithm for modal parameter identification and model reduction is extended to minimize the distortion of the identified parameters caused by noise. The mathematical foundation for the properties of accuracy indicators, such as the singular values of the data matrix and modal amplitude coherence, is provided, based on knowledge of the noise characteristics. These indicators quantitatively discriminate noise from system information and are used to reduce the realized system model to a better approximation of the true model. Monte Carlo simulations are included to support the analytical studies. © 1985 American Institute of Aeronautics and Astronautics, Inc.}
+      \field{abstract}{The basic concept of the Eigensystem Realization Algorithm for modal parameter identification and model reduction is extended to minimize the distortion of the identified parameters caused by noise. The mathematical foundation for the properties of accuracy indicators, such as the singular values of the data matrix and modal amplitude coherence, is provided, based on knowledge of the noise characteristics. These indicators quantitatively discriminate noise from system information and are used to reduce the realized system model to a better approximation of the true model. Monte Carlo simulations are included to support the analytical studies. {©} 1985 American Institute of Aeronautics and Astronautics, Inc.}
       \field{issn}{07315090}
       \field{journaltitle}{Journal of Guidance, Control, and Dynamics}
       \field{number}{3}
@@ -1185,13 +1255,13 @@
            giveni={T\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=5261e735de347b422e8870f56f450e08}{%
-           family={Dzieli{ń}ski},
+           family={Dzieliński},
            familyi={D\bibinitperiod},
            given={Andrzej},
            giveni={A\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=3e7912b438d59bbc0c49b9ea93f2a57c}{%
-           family={D{a̧}browski},
+           family={Da̧browski},
            familyi={D\bibinitperiod},
            given={W{ł}odzimierz},
            giveni={W\bibinitperiod},
@@ -1309,7 +1379,7 @@
     \entry{Lengvarsky2013}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=dcb82e336d476d6ea96c34eb956cc428}{%
-           family={Lengvarsk{ý}},
+           family={Lengvarský},
            familyi={L\bibinitperiod},
            given={Pavol},
            giveni={P\bibinitperiod},
@@ -1495,7 +1565,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{While numerous studies have been published concerning the application of a variety of system identification techniques in conjunction with vibration measurements from civil infrastructure systems, there is a paucity of publications addressing the influence of algorithm-specific control parameters that impact the correct and efficient application of the selected identification scheme. Furthermore, as dense sensor arrays become widely accessible in civil infrastructure applications, voluminous amounts of multichannel data streams are becoming available for processing, thus imposing new demands on identification procedures regarding high-dimensionality (in both the spatial as well as the temporal domains) requirements that may render some methods inapplicable if careful attention is not paid to practical implementation issues. This paper provides a comprehensive study of three time-domain identification algorithms applied in conjunction with the Natural Excitation Technique in order to extract the modal parameters of a newly constructed long-span bridge that was monitored, in its virgin state, over a relatively long period of time with a state-of-the-art dense sensor array. The three methods used are: the eigensystem realization algorithm (ERA), the ERA with data correlations, and the least squares algorithm. One of the critical issues in the mentioned algorithms, is selection of the reference degree-of-freedom (DOF). Previous experiences have shown that one cannot rely on a single reference DOF for identification of all modes. Consequently, the aforementioned identification formulations were modified to include multiple reference DOF, simultaneously, or one at a time. An autonomous algorithm was presented to distinguish the genuine structural modes from spurious noise or computational modes. Based on some parameter studies, some useful guidelines for the selection of critical user-selectable parameters are presented. © 2009 ASCE.}
+      \field{abstract}{While numerous studies have been published concerning the application of a variety of system identification techniques in conjunction with vibration measurements from civil infrastructure systems, there is a paucity of publications addressing the influence of algorithm-specific control parameters that impact the correct and efficient application of the selected identification scheme. Furthermore, as dense sensor arrays become widely accessible in civil infrastructure applications, voluminous amounts of multichannel data streams are becoming available for processing, thus imposing new demands on identification procedures regarding high-dimensionality (in both the spatial as well as the temporal domains) requirements that may render some methods inapplicable if careful attention is not paid to practical implementation issues. This paper provides a comprehensive study of three time-domain identification algorithms applied in conjunction with the Natural Excitation Technique in order to extract the modal parameters of a newly constructed long-span bridge that was monitored, in its virgin state, over a relatively long period of time with a state-of-the-art dense sensor array. The three methods used are: the eigensystem realization algorithm (ERA), the ERA with data correlations, and the least squares algorithm. One of the critical issues in the mentioned algorithms, is selection of the reference degree-of-freedom (DOF). Previous experiences have shown that one cannot rely on a single reference DOF for identification of all modes. Consequently, the aforementioned identification formulations were modified to include multiple reference DOF, simultaneously, or one at a time. An autonomous algorithm was presented to distinguish the genuine structural modes from spurious noise or computational modes. Based on some parameter studies, some useful guidelines for the selection of critical user-selectable parameters are presented. {©} 2009 ASCE.}
       \field{issn}{0733-9399}
       \field{journaltitle}{Journal of engineering mechanics}
       \field{number}{7}
@@ -1783,7 +1853,7 @@
       \field{title}{{PolyMAX: a revolution in operational modal analysis}}
       \field{year}{2005}
       \verb{file}
-      \verb :C\:/Users/przem/Desktop/2005_IOMAC_OMA_PolyMAX.pdf:pdf
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Peeters, Van der Auweraer - 2005 - PolyMAX a revolution in operational modal analysis.pdf:pdf
       \endverb
     \endentry
     \entry{Phan1991}{report}{}
@@ -1927,7 +1997,7 @@
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Gda{ń}sk : Wydawnictwo Politechniki Gda{ń}skiej, 2014.}%
+        {Gdańsk : Wydawnictwo Politechniki Gdańskiej, 2014.}%
       }
       \strng{namehash}{622fc8245a0655c2a9e91365a69b714a}
       \strng{fullhash}{622fc8245a0655c2a9e91365a69b714a}
@@ -1941,14 +2011,14 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{From Duplicate 1 (Dynamika budowli : z przyk{ł}adami w {ś}rodowisku MATLAB® - Rucka, Magdalena; Wilde, Krzysztof) Accession Number: bg.000101703; Corporate Authors: Politechnika Gda{ń}ska. Wydawnictwo.; Other Notes: Bibliogr. s. [192].; Dla student{ó}w Budownictwa i kierunk{ó}w pokrewnych (Transport czy In{ż}ynieria {Ś}rodowiska).; Publication Type: Book; Physical Description: 191, [1] s. : il. ; 25 cm.; Language: Polish}
+      \field{annotation}{From Duplicate 1 (Dynamika budowli : z przyk{ł}adami w środowisku MATLAB{®} - Rucka, Magdalena; Wilde, Krzysztof) Accession Number: bg.000101703; Corporate Authors: Politechnika Gdańska. Wydawnictwo.; Other Notes: Bibliogr. s. [192].; Dla studentów Budownictwa i kierunków pokrewnych (Transport czy Inżynieria Środowiska).; Publication Type: Book; Physical Description: 191, [1] s. : il. ; 25 cm.; Language: Polish}
       \field{isbn}{978-83-7348-588-4}
-      \field{title}{{Dynamika budowli : z przyk{ł}adami w {ś}rodowisku MATLAB®}}
+      \field{title}{{Dynamika budowli : z przyk{ł}adami w środowisku MATLAB{®}}}
       \field{year}{2014}
       \verb{file}
       \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Rucka, Wilde - 2014 - Dynamika budowli z przyk{\l}adami w {\'{s}}rodowisku MATLAB{\textregistered}.pdf:pdf
       \endverb
-      \keyw{Dynamika konstrukcji -- oprogramowanie -- podr{ȩ}czn,Dynamika konstrukcji -- oprogramowanie -- zadania,Matlab (oprogramowanie) -- podr{ȩ}czniki akademickie,Matlab (oprogramowanie) -- zadania i {ć}wiczenia}
+      \keyw{Dynamika konstrukcji -- oprogramowanie -- podrȩczn,Dynamika konstrukcji -- oprogramowanie -- zadania,Matlab (oprogramowanie) -- podrȩczniki akademickie,Matlab (oprogramowanie) -- zadania i ćwiczenia}
     \endentry
     \entry{Schutter2000}{article}{}
       \name{author}{1}{}{%
@@ -1974,7 +2044,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We give a survey of the results in connection with the minimal state-space realization problem for linear time-invariant systems. We start with a brief historical overview and a short introduction to linear system theory. Next we present some of the basic algorithms for the reduction of nonminimal state-space realizations and for the minimal state-space realization of in{ÿ}nite or {ÿ}nite sequences of Markov parameters of linear time-invariant systems. Finally, we discuss some extensions of this problem to other classes of systems and point out some related problems. c 2000 Elsevier Science B.V. All rights reserved.}
+      \field{abstract}{We give a survey of the results in connection with the minimal state-space realization problem for linear time-invariant systems. We start with a brief historical overview and a short introduction to linear system theory. Next we present some of the basic algorithms for the reduction of nonminimal state-space realizations and for the minimal state-space realization of inÿnite or ÿnite sequences of Markov parameters of linear time-invariant systems. Finally, we discuss some extensions of this problem to other classes of systems and point out some related problems. c 2000 Elsevier Science B.V. All rights reserved.}
       \field{issn}{03770427}
       \field{journaltitle}{Journal of Computational and Applied Mathematics}
       \field{month}{4}
@@ -2060,7 +2130,7 @@
            giveni={D\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=9cae2aaf86b5e3b7f810e6ea84b8ef7c}{%
-           family={St{ü}hler},
+           family={Stühler},
            familyi={S\bibinitperiod},
            given={W},
            giveni={W\bibinitperiod},
@@ -2087,14 +2157,14 @@
     \entry{Szafranski2013}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cd67a8b12a8d088eddf172525fa7e462}{%
-           family={Szafra{ń}ski},
+           family={Szafrański},
            familyi={S\bibinitperiod},
            given={Marek},
            giveni={M\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Gda{ń}sk, 2013.}%
+        {Gdańsk, 2013.}%
       }
       \strng{namehash}{cd67a8b12a8d088eddf172525fa7e462}
       \strng{fullhash}{cd67a8b12a8d088eddf172525fa7e462}
@@ -2108,7 +2178,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{From Duplicate 2 (Oddzia{ł}ywania taboru na mosty kolejowe przy zmiennych parametrach ruchu - Szafra{ń}ski, Marek Ryszard; {Ż}{ó}{ł}towski, Krzysztof; Bie{ń}, Jan; Wilde, Krzysztof) Accession Number: bg.000097703; Corporate Authors: Politechnika Gda{ń}ska. Wydzia{ł} In{ż}ynierii L{a̧}dowej i {Ś}rodowiska.; Other Notes: Niepublikowana praca doktorska.; Promotor: Krzysztof {Ż}{ó}{ł}towski.; Recenzent: Jan Bie{ń}, Krzysztof Wilde.; Praca doktorska. Politechnika Gda{ń}ska. Wydzia{ł} In{ż}ynierii L{a̧}dowej i {Ś}rodowiska, 2014.; Bibliogr. s. I-XI.; Dost{ȩ}pne r{ó}wnie{ż} w wersji elektronicznej.; Streszcz. ang.; Publication Type: Book; Physical Description: [196] s. pag. varia, [3] k. tabl. z{ł}o{ż}. : il. ; 30 cm.; Language: Polish}
+      \field{annotation}{From Duplicate 2 (Oddzia{ł}ywania taboru na mosty kolejowe przy zmiennych parametrach ruchu - Szafrański, Marek Ryszard; Żó{ł}towski, Krzysztof; Bień, Jan; Wilde, Krzysztof) Accession Number: bg.000097703; Corporate Authors: Politechnika Gdańska. Wydzia{ł} Inżynierii La̧dowej i Środowiska.; Other Notes: Niepublikowana praca doktorska.; Promotor: Krzysztof Żó{ł}towski.; Recenzent: Jan Bień, Krzysztof Wilde.; Praca doktorska. Politechnika Gdańska. Wydzia{ł} Inżynierii La̧dowej i Środowiska, 2014.; Bibliogr. s. I-XI.; Dostȩpne również w wersji elektronicznej.; Streszcz. ang.; Publication Type: Book; Physical Description: [196] s. pag. varia, [3] k. tabl. z{ł}oż. : il. ; 30 cm.; Language: Polish}
       \field{title}{{Odzia{ł}ywania taboru na mosty kolejowe przy zmiennych parametrach ruchu}}
       \field{type}{phdthesis}
       \field{year}{2013}
@@ -2257,6 +2327,39 @@
       \field{pages}{815\bibrangedash 821}
       \range{pages}{7}
     \endentry
+    \entry{Welch1967}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=576f8524fc13840ed07f2aa33fe35170}{%
+           family={Welch},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{576f8524fc13840ed07f2aa33fe35170}
+      \strng{fullhash}{576f8524fc13840ed07f2aa33fe35170}
+      \strng{bibnamehash}{576f8524fc13840ed07f2aa33fe35170}
+      \strng{authorbibnamehash}{576f8524fc13840ed07f2aa33fe35170}
+      \strng{authornamehash}{576f8524fc13840ed07f2aa33fe35170}
+      \strng{authorfullhash}{576f8524fc13840ed07f2aa33fe35170}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9278}
+      \field{journaltitle}{IEEE Transactions on audio and electroacoustics}
+      \field{number}{2}
+      \field{title}{{The use of fast Fourier transform for the estimation of power spectra: a method based on time averaging over short, modified periodograms}}
+      \field{volume}{15}
+      \field{year}{1967}
+      \field{pages}{70\bibrangedash 73}
+      \range{pages}{4}
+      \verb{file}
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Welch - 1967 - The use of fast Fourier transform for the estimation of power spectra a method based on time averaging over short, modifi.pdf:pdf
+      \endverb
+    \endentry
     \entry{Wilson1997}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1049d4a1478878c3cce8f5a95a85802e}{%
@@ -2372,7 +2475,7 @@
     \entry{Zielinski2002}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=95935b13a9d24e0cbc55f4bd4f3df115}{%
-           family={Zieli{ń}ski},
+           family={Zieliński},
            familyi={Z\bibinitperiod},
            given={Tomasz\bibnamedelima Piotr},
            giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
@@ -2394,9 +2497,52 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-83-88309-55-7}
-      \field{title}{{Od teorii do cyfrowego przetwarzania sygna{ł}{ó}w}}
+      \field{title}{{Od teorii do cyfrowego przetwarzania sygna{ł}ów}}
       \field{year}{2002}
-      \keyw{Filtry cyfrowe (elektryczno{ś}{ć}) -- projektowanie i,Przetwarzanie sygna{ł}{ó}w -- modele matematyczne,Przetwarzanie sygna{ł}{ó}w -- techniki cyfrowe,Przetwarzanie sygna{ł}{ó}w cyfrowe,Sygna{ł}y -- teoria,Teoria sygna{ł}{ó}w (telekomunikacja)}
+      \keyw{Filtry cyfrowe (elektryczność) -- projektowanie i,Przetwarzanie sygna{ł}ów -- modele matematyczne,Przetwarzanie sygna{ł}ów -- techniki cyfrowe,Przetwarzanie sygna{ł}ów cyfrowe,Sygna{ł}y -- teoria,Teoria sygna{ł}ów (telekomunikacja)}
+    \endentry
+    \entry{Zotowski2017c}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e04fefba95be94cf71b2dcad052b4cb9}{%
+           family={Binczyk},
+           familyi={B\bibinitperiod},
+           given={Miko{ł}aj},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41fa4f90f5269a645ebdef8712425470}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemys{ł}aw},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c22fcba042cdad80625cfee98cf2242}
+      \strng{fullhash}{8c22fcba042cdad80625cfee98cf2242}
+      \strng{bibnamehash}{8c22fcba042cdad80625cfee98cf2242}
+      \strng{authorbibnamehash}{8c22fcba042cdad80625cfee98cf2242}
+      \strng{authornamehash}{8c22fcba042cdad80625cfee98cf2242}
+      \strng{authorfullhash}{8c22fcba042cdad80625cfee98cf2242}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{cb9534033b86c869f82bce604a68568e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{3981896807}
+      \field{title}{{Footbridges. Dynamic Design–Selected Problems}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://files/639/footbridges-dynamic-design-selected-problems,142027-1.html
+      \endverb
+      \verb{url}
+      \verb http://files/639/footbridges-dynamic-design-selected-problems,142027-1.html
+      \endverb
     \endentry
   \enddatalist
   \missing{allemang_modal_2003}

@@ -989,10 +989,6 @@ w którym $\Delta t$ oznacza krok czasowy próbkowania, taki że $\Delta t = 1/f
 
 gdzie $i=1,2,3,\dots,n$ ($n$ - rząd modelu), $j=1,2,3,\dots,m$, ($m$ - liczba punktów pomiarowych), $|\cdot|$ oznacza moduł liczby zespolonej, $\text{Re}(\cdot)$ i $\text{Im}(\cdot)$ oznaczają odpowiednio część rzeczywistą i urojoną liczby zespolonej, a $\text{sign}(\cdot)$ jest funkcją zwracającą $+1$ dla liczb dodatnich i $-1$ dla liczb ujemnych.
 
-\subsection{Elementy przetwarzania sygnałów}
-
-
-
 \section{Implementacja programu}
 Na rynku istnieją komercyjne aplikacje komputerowe, stworzone do identyfikacji modalnej. Należą do nich przede wszystkim ARTeMIS - SVS i MACEC - dodatek do programu MATLAB. Programy te służą zarówno naukowcom jak i szeroko pojętemu przemysłowi. Nie powinno więc dziwić, że są skomercjalizowane i płatne. W trakcie realizacji pracy doktorskiej podjęto decyzję o napisaniu własnej aplikacji komputerowej służącej identyfikacji modalnej. Zdaniem autora takie podejście zapewnia pełną kontrolę nad algorytmem i parametrami identyfikacji oraz nad sposobem przedstawienia wyników. Niebagatelnym profitem napisania programu autorskiego jest również lepsze zrozumienie mechanizmów i wrażliwości elementów algorytmu.
 W początkowej fazie tworzenia zaplanowano następującą funkcjonalność programu:
@@ -1006,7 +1002,81 @@ W początkowej fazie tworzenia zaplanowano następującą funkcjonalność progr
 \end{itemize}
 Aplikację napisano w języku Python 3.6 głównie z użyciem bibliotek NUMPY i SCIPY do obliczeń oraz MATPLOTLIB do tworzenia wizualizacji. Dodano interfejs graficzny wykorzystujący technologię Qt. Elementy interfejsu pokazano na rysunkach (!!!).
 
-Diagram stabilizacyjny i kryteria oceny
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{/program/okno_programu.JPG}
+	\captionsetup{justification=centering}
+	\caption{Widok na okno główne autorskiej aplikacji do identyfikacji modalnej}
+	\label{fig: okno_programu_widok}
+\end{figure}
+
+\subsection{Algorytm programu}
+
+Algorytm programu przedstawiono na grafice [].
+Poniżej omówiono podstawowe informacje na temat użytych metod przetwarzania sygnałów.
+
+Wstępnie sygnały wyjściowe mogą być poddane standardowemu przetwarzaniu sygnału. Do zastosowanych metod należy filtrowanie, usuwanie składowej stałej i obniżenie próbkowania \teng{downsampling, resampling}. Filtrowanie może posłużyć do odrzucenia niechcianych składowych z sygnału i ograniczyć identyfikację jedynie do określonego obszaru. Odcięcie składowej stałej jest koniecznym elementem przygotowania sygnałów do identyfikacji. Bez tego zabiegu, tak jak w przypadku Transformaty Fouriera występuje istotny pik na zerowej odciętej, tak utrudniona może być identyfikacja modów o niskiej częstotliwości. Zmiana częstotliwości próbkowania jest bardzo przydatną funkcją. Podobnie do filtrowania zmniejsza zakres analizowanej dziedziny, ale w odróżnieniu do filtrowania zmniejsza również liczbę próbek sygnału. Należy pamiętać, że resampling nie jest tożsamy pominięciu części próbek z sygnału. Wpływ obróbki sygnału na wyniki identyfikacji oraz zalecenia dotyczące przyjmowanych parametrów opisał \cite{Caicedo2011} 
+
+
+Pierwszym głównym etapem w algorytmie NExT-ERA jest wyznaczenie funkcji korelacji wprowadzonych sygnałów. Wyznaczanie funkcji korelacji metodą bezpośrednią jest wymagające obliczeniowo. Z tego powodu wykorzystuje się zależność pomiędzy gęstością widmową mocy, a funkcją korelacji (\ref{eq: spectralDensity} i \ref{eq: correlationInversSpectralDensity}). Wyznaczenie gęstości widmowej mocy jest możliwe za pomocą znacznie bardziej efektywnych algorytmów. Jednym z nich jest metoda Welch'a \parencite{Welch1967,Brincker2015}, którą zastosowano w programie. Umożliwiono również łączenie i uśrednianie wielu serii pomiarowych w jeden wynik identyfikacji. Wykorzystano do tego algorytm przedstawiony w \cite{Brownjohn2010}. W przypadku łączenia serii pomiarowych w jeden wynik, konieczne jest zastosowanie punktów referencyjnych. Punkty referencyjne są to punkty stałe w trakcie całych pomiarów, muszą występować w każdej serii pomiarowej i nie mogą znajdować się w węźle żadnej postaci drgań. Innymi słowy punkt referencyjny musi mieć niezerową wartość w wektorze określającym postać drgań, którą należy zidentyfikować. W zastosowanym algorytmie istnieje możliwość wyboru po jednym punkcie referencyjnym dla każdego z kierunków drgań: X, Y, Z. Łączenie serii pomiarowych odbywa się w następujący sposób:
+\begin{itemize}
+	\item Algorytmem Welch'a wyznaczane są funkcje wzajemnych gęstości widmowych mocy pomiędzy sygnałem referencyjnym, a pozostałymi sygnałami na powiązanym kierunku.  Wzajemne gęstości widmowe związane z danym punktem referencyjnym są zestawione w jeden wektor.
+	\item Wyznaczane są funkcje auto gęstości widmowych mocy dla sygnałów w punktach referencyjnych. Użyty jest do tego ten sam algorytm co w przypadku wzajemnych funkcji gęstości widmowej mocy, z tą różnicą że sygnały wejściowe są identyczne. 
+	\item Funkcje wzajemnej gęstości widmowej mocy zestawione w jednym wektorze dzielone są przez funkcję auto gęstości widmowej punktu referencyjnego. W tym przypadku wymagane jest aby długość wektora wszystkich wektorów była równa. Identycznie postępuje się z każdym wektorem gęstości widmowych mocy.
+	\item Auto gęstości widmowe mocy dla danego punktu referencyjnego są uśredniane. Auto gęstości widmowe mocy są sumowane ze wszystkich ustawień, a wynik jest podzielony przez liczbę ustawień.
+	\item Po procesie uśredniania gęstości widmowych mocy punktów referencyjnych następuje działanie odwrotne. Wcześniej podzielone wzajemne gęstości widmowe mocy mnożone są przez uśrednione auto gęstości widmowe mocy punktów referencyjnych.
+	\item Wynikowe gęstości widmowe mocy przekształcane są za pomocą odwrotnej Transformaty Fouriera do sygnałów w dziedzinie czasu. Otrzymany wynik odpowiada funkcjom cross-korelacji i może być użyty w metodzie ERA.
+	
+\end{itemize}
+
+Uśrednianie serii pomiarowych z tym samym ustawieniem punktów pomiarowych odbywa się przez sumowanie gęstości widmowych mocy z powtórzonych serii pomiarowych i podzieleniu przez liczbę powtórzonych serii. Pomimo zestawienia funkcji gęstości widmowych mocy w wektory, wszystkie wspomniane wyżej operacje mnożenia i dzielenia funkcji gęstości widmowych mocy polegają na działaniu na poszczególne prążki spektrum, a nie na klasycznym rozumieniu mnożenia i dzielenia wektorów. 
+
+Ważnym elementem w procesie identyfikacji modalnej jest korzystanie z diagramów stabilizacyjnych. W przypadku obarczonych szumem pomiarów przyjęty rząd modelu musi być zadeklarowany jako większy niż miało by to miejsce w idealnych warunkach. Diagram stabilizacyjny pozwala na określenie minimalnego rzędu modelu, przy którym występują wszystkie interesujące mody i są one stabilne. Zastosowanie diagramów stabilizacyjnych opisano między innymi w (!!!). W programie zastosowano dwie wersje diagramów: niefiltrowaną i filtrowaną. Wersja niefiltrowana obrazuje wszystkie wyznaczone mody: rzeczywiste i fikcyjne. Odróżnia je w zależności od wyników dla niższego rzędu modelu. Jeśli istnieje w modelu o rząd niższym mod spełniający odpowiednie kryteria to jest on uznany za rzeczywisty. Zastosowane w programie kryteria to:
+\begin{itemize}
+	\item częstotliwość w dwóch kolejnych krokach nie może się różnić o więcej niż 1\%,
+	\item tłumienie w dwóch kolejnych krokach nie może się różnić o więcej niż 5\%,
+	\item parametr MAC dla dwóch kolejnych modów musi być większy niż 0.9,
+	\item parametr MPC dla dwóch kolejnych modów musi być większy niż 0.8.
+\end{itemize}
+
+Diagram filtrowany w czytelny sposób pozwala przedstawić jedynie mody uznane za rzeczywiste. Jego stworzenie opiera się na następujacych krokach:
+\begin{itemize}
+	\item Podział dziedziny częstotliwości na wąskie pasma (np. 1\% dolnej granicy pasma) i podział wszystkich punktów według przynależności do poszczególnych pasm,
+	\item Odrzucenie punktów, dla których tłumienie jest zbyt duże ($\text{LDT}\ge0.3$) lub ujemne,
+	\item Wyznaczenie parametru MAC pomiędzy wszystkimi punktami w paśmie oraz parametru MPC dla każdego modu w paśmie.
+	\item Wyznaczenie wartości średniej i odchylenia standardowego częstotliwości, tłumienia i parametrów MAC i MPC dla punktów pasma. Jeżeli wartości średnie pomniejszone o odchylenie standardowe są spełniają dopuszczalne warunki, to zestaw punktów uznany jest za określający rzeczywisty mod. Jeżeli nie, wyszukiwany jest punkt charakteryzujący się najgorszym parametrem MAC lub MPC albo zbyt różniącą się liczbą tłumienia i jest odrzucany. Następnie ponownie oceniana jest wartość średnia i odchylenie standardowe. Proces ten toczy się do momentu odrzucenia wszystkich punktów lub spełnienia kryteriów uznania mod za rzeczywisty.
+	\item Ostatecznie jako rzeczywiste i stabilne określane są mody, dla których liczba punktów w paśmie jest większa od wartości minimalnej. Domyślnie jest to 20\% maksymalnego rzędu modelu na diagramie.
+\end{itemize}
+
+
+Parametry MAC i MPC są istotną częścią programu i służą ocenie poprawności wyników. Poniżej przytoczono ich definicje.
+
+Wynikiem przeprowadzonej analizy modalnej są postaci i częstotliwości o wartościach zespolonych. Postaci zidentyfikowane na podstawie pomiarów wartości rzeczywistych powinny stanowić wektory o współrzędnych rzeczywistych. W przypadku modów normalnych wszystkie punkty konstrukcji drgają dokładnie w fazie lub w przeciw fazie względem siebie. Przeciwnie, kiedy postaci są wektorami zespolonymi przemieszczenia osiągają wartości ekstremalne w różnych chwilach czasowych dla różnych stopni swobody. \cite{ewins_modal_2000,chopra_dynamics_2012} podają przykładowe przyczyny powstania postaci o wektorach zespolonych. Są to m.in. efekt żyroskopowy, efekty aerodynamiczne, nieliniowość czy nieproporcjonalne tłumienie.Zidentyfikowane mody zwykle występują w postaci zespolonej. Wynika to z relatywnie niskiego wskaźnika sygnału do szumu \parencite{rainieri_operational_2014}. Mimo to, "stopień zespolenia" jest zwykle niewielki i w praktycznych zastosowaniach błąd wynikający z tej cechy może być zaniedbany. Mimo to ważnym jest żeby rozróżnić, które mody są normalne, a które w dużej mierze zespolone. Jedną z najprostszych metod jest wykreślenie współrzędnych składników postaci w zespolonym układzie współrzędnych. Metoda została szerzej opisana w \parencite{ewins_modal_2000}. Podstawą jest, że jeśli w konstrukcji występuje tłumienie proporcjonalne to składniki danej postaci układają się na linii prostej w zespolonym układzie współrzędnych \parencite{rainieri_operational_2014}).
+Do ilościowego określenia stopnia przestrzennej spójności moda \cite{pappa_consistent-mode_1992} opracowali wskaźnik MPC (\textit{Modal Phase Collinearity}). Jest on dla $i$-tego moda określony wzorem \ref{eq:mpc_ratio}.
+\begin{equation}
+	{S}_{xx}={\mathbf{\Phi}'}_{i}^{\mathsf{T}} {\mathbf{\Phi}} '_{i} \quad
+	%\end{equation}
+	%\begin{equation}
+	{S}_{yy}={\mathbf{\Phi}''}_{i}^{\mathsf{T}} {\mathbf{\Phi}}''_{i} \quad
+	%\end{equation}
+	%\begin{equation}
+	{S}_{xy}={\mathbf{\Phi}'}_{i}^{\mathsf{T}} {\mathbf{\Phi}}''_{i}
+\end{equation}
+\begin{equation}
+	{\mu}=\frac{S_{xx}-S_{yy}}{2S_{xy}} \quad \quad
+	\beta=\mu+\mathrm{sgn}(S_{xy}\sqrt{\mu^{2}+1}) \quad \quad
+	\tau=\tan^{-1}{(\beta)} \quad
+\end{equation}
+\begin{equation}
+	\lambda_{1}=S_{xx}+\frac{S_{xy}(2(\mu^{2}+1)\sin^{2}{(\tau)}-1)}{\mu}
+\end{equation}
+\begin{equation}
+	\lambda_{2}=S_{yy}+\frac{S_{xy}(2(\mu^{2}+1)\sin^{2}{(\tau)}-1)}{\mu}
+\end{equation}
+\begin{equation} \label{eq:mpc_ratio}
+	\mathrm{MPC}_{i}=\left[2\cdot\left(\frac{\lambda_{1}}{\lambda_{1}+\lambda_{2}}-0.5\right)\right]^{2}
+\end{equation}
+gdzie $\mathrm{sgn}(\cdot)$ oznacza funkcję zwracającą znak liczby. Wskaźnik MPC jest bezwymiarowy. Przyjmuje wartości z zakresu od 0 dla modów z zupełnie nieskorelowanymi kątami fazowymi do 1 dla modów jednofazowych. Przykłady zastosowania tego wskaźnika zaprezentowano w pracach 
 
 Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przypadku aplikacji służącej celom naukowym, gdzie zakłada się pewien poziom wiedzy i świadomości użytkownika zdecydowano, że testom poddane zostanie jedynie jądro programu - algorytm NExT-ERA. W tym celu założono wykonanie dwóch testów: numerycznego i laboratoryjnego. Test numeryczny ma opierać się na wykonaniu modelu obliczeniowego w oprogramowaniu MES, a następnie obciążeniu go losowo (w przybliżeniu szumem białym) i wykonaniu analizy dynamicznej. Test laboratoryjny ma polegać na pomiarze i analizie drgań środowiskowych rzeczywistego obiektu badawczego. Przedmiotem badań była konstrukcja o schemacie statycznym bliskim belce swobodnie podpartej. Model numeryczny wykonano w programie MES bazujac na inwentaryzacji wymiarów obiektu laboratoryjnego. Szczegółowe założenia testów, ich przebieg i rezultaty podano poniżej. 
 
@@ -1111,13 +1181,13 @@ Funkcje posiadają wyraźnie gasnący, okresowy charakter. Następnie wyznaczone
 
 
 
-Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w tabeli \ref{tab: blue_beam_comparison}. Obserwując uzyskane z analizy modalnej postaci można zauważyć, że Mod 7 i Mod 10 mają charakter skrętny. Posługując się modelem belkowym i odczytując przyspieszenia węzłów na kierunku $Y$ i $Z$ nie ma możliwości zaobserwować postaci skrętnych. Przeprowadzona identyfikacja potwierdza ten fakt nie wskazując tych modów jako stabilnych rozwiązań. Z tego względu w tabeli zbiorczej zostały one oznaczone jako brakujące. Porównując 
+ 
 
 
 
 
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\begin{tabular}[c]{c}
 		\subfloat[Mod 1, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod1}%
@@ -1150,7 +1220,7 @@ Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w t
 \label{fig: mods_blue_beam}
 \end{figure}
 
-\begin{figure}[h]\ContinuedFloat
+\begin{figure}[h!]\ContinuedFloat
 	\centering
 	\begin{tabular}[c]{c}
 		\subfloat[Mod 5, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod5}%
@@ -1184,6 +1254,23 @@ Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w t
 
 
 
+
+
+\section{Testy eksperymentalne metody NEXT-ERA}
+W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. !!!). Belka została zamocowana do podłoża tak, żeby jedna z podpór miała możliwość przesuwu wzdłuż osi podłużnej. Na belce magnetycznie przymocowano czujniki akcelerometryczne. Rozmieszczono je w punktach odpowiadających węzłom modelu, w których odczytywano przyspieszenia z analizy. Wymuszenia belki odbywały przez delikatne dotknięcia i gładzenie belki. Przeprowadzono analizę sygnałów analogicznie jak dla modelu numerycznego. Diagramy stabilizacyjne pokazano na rysunku (!!!). Zidentyfikowane częstotliwości i postaci drgań zamieszczono na rysunku (!!!).
+
+
+
+
+
+\section{Podsumowanie}
+Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w tabeli \ref{tab: blue_beam_comparison}. Obserwując uzyskane z analizy modalnej postaci można zauważyć, że Mod 7 i Mod 10 mają charakter skrętny. Posługując się modelem belkowym i odczytując przyspieszenia węzłów na kierunku $Y$ i $Z$ nie ma możliwości zaobserwować tych postaci. Przeprowadzona identyfikacja potwierdza ten fakt, nie wskazując tych modów jako stabilnych rozwiązań. Z tego względu w tabeli zbiorczej zostały one oznaczone jako brakujące. Jak pokazano w tabeli ...
+
+
+
+
+
+
 %\resizebox{\textwidth}{!}{%
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
@@ -1191,24 +1278,22 @@ Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w t
 	\caption{Porównanie zidentyfikowanych parametrów modalnych obiektu testowego}
 	\label{tab: blue_beam_comparison}
 	\resizebox{\textwidth}{!}{%
-	\begin{tabular}{@{}c|c|c|cccc|llll@{}}
-		
-		\toprule
-		\multicolumn{1}{l|}{} & \textbf{\begin{tabular}[c]{@{}c@{}}Analiza\\ modalna\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Zakładane\\ tłumienie\end{tabular}} & \multicolumn{4}{c|}{\textbf{Model MES}}                                      & \multicolumn{4}{c|}{\textbf{Badania}}                                                                                                                        \\ \midrule
-		\multicolumn{1}{l|}{} & \textbf{Częst.}                                                    & \textbf{LDT}                                                           & \textbf{Częst.}   & \textbf{Stosunek} & \textbf{LDT}     & \textbf{Stosunek} & \multicolumn{1}{c}{\textbf{Częst.}}   & \multicolumn{1}{c}{\textbf{Stosunek}} & \multicolumn{1}{c}{\textbf{LDT}}     & \multicolumn{1}{c}{\textbf{Stosunek}} \\ \midrule
-		\multicolumn{1}{l|}{} & \textbf{{[}Hz{]}}                                                  & \textbf{{[}-{]}}                                                       & \textbf{{[}Hz{]}} & \textbf{{[}\%{]}} & \textbf{{[}-{]}} & \textbf{{[}\%{]}} & \multicolumn{1}{c}{\textbf{{[}Hz{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} & \multicolumn{1}{c}{\textbf{{[}-{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} \\ \midrule
-		\textbf{Mod 1}        & 19.77                                                              & 0.0303                                                                 & 19.701            & 100\%             & 0.0291           & 96\%              &                                       &                                       &                                      &                                       \\ \midrule
-		\textbf{Mod 2}        & 54.93                                                              & 0.0189                                                                 & 54.958            & 100\%             & 0.0232           & 123\%             &                                       &                                       &                                      &                                       \\ \midrule
-		\textbf{Mod 3}        & 78.2                                                               & 0.0199                                                                 & 77.331            & 99\%              & 0.0190            & 96\%              &                                       &                                       &                                      &                                       \\ \midrule
-		\textbf{Mod 4}        & 161.35                                                             & 0.0302                                                                 & 157.995           & 98\%              & 0.0240            & 79\%              &                                       &                                       &                                      &                                       \\ \midrule
-		\textbf{Mod 5}        & 200.38                                                             & 0.0361                                                                 & 197.881           & 99\%              & 0.0325           & 90\%              &                                       &                                       &                                      &                                       \\ \midrule
-		\textbf{Mod 6}        & 212.24                                                             & 0.0379                                                                 & 205.290            & 97\%              & 0.0410            & 108\%             &                                       &                                       &                                      &                                       \\ \midrule
-		\textbf{Mod 7}        & 217.12                                                             & 0.0386                                                                 & -                 & -                 & -                & -                 &                                       &                                       &                                      &                                       \\ \midrule
-		\textbf{Mod 8}        & 336.59                                                             & 0.0577                                                                 & 310.834           & 92\%              & 0.0473           & 82\%              &                                       &                                       &                                      &                                       \\ \midrule
-		\textbf{Mod 9}        & 410.22                                                             & 0.0697                                                                 & 384.619           & 94\%              & 0.0628           & 90\%              &                                       &                                       &                                      &                                       \\ \midrule
-		\textbf{Mod 10}       & 451.89                                                             & 0.0765                                                                 & -                 & -                 & -                & -                 &                                       &                                       &                                      &                                       \\ \bottomrule
+		\begin{tabular}{@{}c|c|c|cccc|llll@{}}
+			
+			\toprule
+			\multicolumn{1}{l|}{} & \textbf{\begin{tabular}[c]{@{}c@{}}Analiza\\ modalna\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Zakładane\\ tłumienie\end{tabular}} & \multicolumn{4}{c|}{\textbf{Model MES}}                                      & \multicolumn{4}{c|}{\textbf{Badania}}                                                                                                                        \\ \midrule
+			\multicolumn{1}{l|}{} & \textbf{Częst.}                                                    & \textbf{LDT}                                                           & \textbf{Częst.}   & \textbf{Stosunek} & \textbf{LDT}     & \textbf{Stosunek} & \multicolumn{1}{c}{\textbf{Częst.}}   & \multicolumn{1}{c}{\textbf{Stosunek}} & \multicolumn{1}{c}{\textbf{LDT}}     & \multicolumn{1}{c}{\textbf{Stosunek}} \\ \midrule
+			\multicolumn{1}{l|}{} & \textbf{{[}Hz{]}}                                                  & \textbf{{[}-{]}}                                                       & \textbf{{[}Hz{]}} & \textbf{{[}\%{]}} & \textbf{{[}-{]}} & \textbf{{[}\%{]}} & \multicolumn{1}{c}{\textbf{{[}Hz{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} & \multicolumn{1}{c}{\textbf{{[}-{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} \\ \midrule
+			\textbf{Mod 1}        & 19.77                                                              & 0.0303                                                                 & 19.701            & 100\%             & 0.0291           & 96\%              &                                       &                                       &                                      &                                       \\ \midrule
+			\textbf{Mod 2}        & 54.93                                                              & 0.0189                                                                 & 54.958            & 100\%             & 0.0232           & 123\%             &                                       &                                       &                                      &                                       \\ \midrule
+			\textbf{Mod 3}        & 78.2                                                               & 0.0199                                                                 & 77.331            & 99\%              & 0.0190            & 96\%              &                                       &                                       &                                      &                                       \\ \midrule
+			\textbf{Mod 4}        & 161.35                                                             & 0.0302                                                                 & 157.995           & 98\%              & 0.0240            & 79\%              &                                       &                                       &                                      &                                       \\ \midrule
+			\textbf{Mod 5}        & 200.38                                                             & 0.0361                                                                 & 197.881           & 99\%              & 0.0325           & 90\%              &                                       &                                       &                                      &                                       \\ \midrule
+			\textbf{Mod 6}        & 212.24                                                             & 0.0379                                                                 & 205.290            & 97\%              & 0.0410            & 108\%             &                                       &                                       &                                      &                                       \\ \midrule
+			\textbf{Mod 7}        & 217.12                                                             & 0.0386                                                                 & -                 & -                 & -                & -                 &                                       &                                       &                                      &                                       \\ \midrule
+			\textbf{Mod 8}        & 336.59                                                             & 0.0577                                                                 & 310.834           & 92\%              & 0.0473           & 82\%              &                                       &                                       &                                      &                                       \\ \midrule
+			\textbf{Mod 9}        & 410.22                                                             & 0.0697                                                                 & 384.619           & 94\%              & 0.0628           & 90\%              &                                       &                                       &                                      &                                       \\ \midrule
+			\textbf{Mod 10}       & 451.89                                                             & 0.0765                                                                 & -                 & -                 & -                & -                 &                                       &                                       &                                      &                                       \\ \bottomrule
 	\end{tabular}}
-
+	
 \end{table}
-
-\section{Testy eksperymentalne metody NEXT-ERA}

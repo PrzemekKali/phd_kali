@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.10)  16 JAN 2021 21:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.10)  17 JAN 2021 01:08
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -1637,140 +1637,156 @@ LaTeX Warning: Reference `' on page 42 undefined on input line 974.
 LaTeX Warning: Reference `' on page 42 undefined on input line 974.
 
 [42] [43]
-<./figures///test_blue/sof_wis/wis_small002.png, id=345, 1702.86188pt x 624.834
+<./figures///program/okno_programu.JPG, id=345, 1011.78pt x 603.0028pt>
+File: ./figures///program/okno_programu.JPG Graphic file (type jpg)
+<use ./figures///program/okno_programu.JPG>
+Package pdftex.def Info: ./figures///program/okno_programu.JPG  used on input l
+ine 1007.
+(pdftex.def)             Requested size: 426.79134pt x 254.36357pt.
+ [44 <./figures///program/okno_programu.JPG>] [45] [46]
+LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 
+1057.
+
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
+File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+[47]
+<./figures///test_blue/sof_wis/wis_small002.png, id=359, 1702.86188pt x 624.834
 38pt>
 File: ./figures///test_blue/sof_wis/wis_small002.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/wis_small002.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/wis_small002.png  used o
-n input line 1018.
+n input line 1088.
 (pdftex.def)             Requested size: 213.39566pt x 78.29478pt.
-<./figures///test_blue/sof_wis/wis_small001.png, id=346, 1702.86188pt x 624.834
+<./figures///test_blue/sof_wis/wis_small001.png, id=360, 1702.86188pt x 624.834
 38pt>
 File: ./figures///test_blue/sof_wis/wis_small001.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/wis_small001.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/wis_small001.png  used o
-n input line 1019.
+n input line 1089.
 (pdftex.def)             Requested size: 213.39566pt x 78.29478pt.
- [44 <./figures///test_blue/sof_wis/wis_small002.png (PNG copy)> <./figures///t
-est_blue/sof_wis/wis_small001.png (PNG copy)>]
-<./figures///test_blue/sof_wis/image_small001.png, id=350, 3898.06313pt x 2116.
+<./figures///test_blue/sof_wis/image_small001.png, id=361, 3898.06313pt x 2116.
 15594pt>
 File: ./figures///test_blue/sof_wis/image_small001.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small001.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small001.png  used
- on input line 1039.
+ on input line 1109.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small003.png, id=351, 3898.06313pt x 2116.
+<./figures///test_blue/sof_wis/image_small003.png, id=362, 3898.06313pt x 2116.
 15594pt>
 File: ./figures///test_blue/sof_wis/image_small003.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small003.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small003.png  used
- on input line 1041.
+ on input line 1111.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small004.png, id=352, 3898.06313pt x 2116.
+<./figures///test_blue/sof_wis/image_small004.png, id=363, 3898.06313pt x 2116.
 15594pt>
 File: ./figures///test_blue/sof_wis/image_small004.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small004.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small004.png  used
- on input line 1043.
+ on input line 1113.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small005.png, id=353, 3898.06313pt x 2116.
+<./figures///test_blue/sof_wis/image_small005.png, id=364, 3898.06313pt x 2116.
 15594pt>
 File: ./figures///test_blue/sof_wis/image_small005.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small005.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small005.png  used
- on input line 1045.
+ on input line 1115.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small006.png, id=354, 3898.06313pt x 2116.
+<./figures///test_blue/sof_wis/image_small006.png, id=365, 3898.06313pt x 2116.
 15594pt>
 File: ./figures///test_blue/sof_wis/image_small006.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small006.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small006.png  used
- on input line 1047.
+ on input line 1117.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small007.png, id=355, 3898.06313pt x 2116.
+<./figures///test_blue/sof_wis/image_small007.png, id=366, 3898.06313pt x 2116.
 15594pt>
 File: ./figures///test_blue/sof_wis/image_small007.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small007.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small007.png  used
- on input line 1049.
+ on input line 1119.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small008.png, id=356, 3898.06313pt x 2116.
+<./figures///test_blue/sof_wis/image_small008.png, id=367, 3898.06313pt x 2116.
 15594pt>
 File: ./figures///test_blue/sof_wis/image_small008.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small008.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small008.png  used
- on input line 1051.
+ on input line 1121.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small009.png, id=357, 3898.06313pt x 2116.
+<./figures///test_blue/sof_wis/image_small009.png, id=368, 3898.06313pt x 2116.
 15594pt>
 File: ./figures///test_blue/sof_wis/image_small009.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small009.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small009.png  used
- on input line 1053.
+ on input line 1123.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small010.png, id=358, 3898.06313pt x 2116.
+<./figures///test_blue/sof_wis/image_small010.png, id=369, 3898.06313pt x 2116.
 15594pt>
 File: ./figures///test_blue/sof_wis/image_small010.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small010.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small010.png  used
- on input line 1055.
+ on input line 1125.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small011.png, id=359, 3898.06313pt x 2116.
+<./figures///test_blue/sof_wis/image_small011.png, id=370, 3898.06313pt x 2116.
 15594pt>
 File: ./figures///test_blue/sof_wis/image_small011.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small011.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small011.png  used
- on input line 1057.
+ on input line 1127.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
 
 
-LaTeX Warning: Citation 'Zotowski2017c' on page 45 undefined on input line 1063
-.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///test_blue/input_load/input_load_1.pdf, id=360, 222.07143pt x 159.3
+<./figures///test_blue/input_load/input_load_1.pdf, id=371, 222.07143pt x 159.3
 1656pt>
 File: ./figures///test_blue/input_load/input_load_1.pdf Graphic file (type pdf)
 
 <use ./figures///test_blue/input_load/input_load_1.pdf>
 Package pdftex.def Info: ./figures///test_blue/input_load/input_load_1.pdf  use
-d on input line 1066.
+d on input line 1136.
 (pdftex.def)             Requested size: 222.07088pt x 159.31616pt.
-<./figures///test_blue/input_load/input_load_2.pdf, id=361, 222.07143pt x 159.3
+<./figures///test_blue/input_load/input_load_2.pdf, id=372, 222.07143pt x 159.3
 1656pt>
 File: ./figures///test_blue/input_load/input_load_2.pdf Graphic file (type pdf)
 
 <use ./figures///test_blue/input_load/input_load_2.pdf>
 Package pdftex.def Info: ./figures///test_blue/input_load/input_load_2.pdf  use
-d on input line 1067.
+d on input line 1137.
 (pdftex.def)             Requested size: 222.07088pt x 159.31616pt.
 
-Overfull \hbox (17.35042pt too wide) in paragraph at lines 1066--1067
+Overfull \hbox (17.35042pt too wide) in paragraph at lines 1136--1137
  [][][] 
  []
 
-<./figures///test_blue/input_load/input_load_3.pdf, id=362, 222.07143pt x 159.3
+<./figures///test_blue/input_load/input_load_3.pdf, id=373, 222.07143pt x 159.3
 1656pt>
 File: ./figures///test_blue/input_load/input_load_3.pdf Graphic file (type pdf)
 
 <use ./figures///test_blue/input_load/input_load_3.pdf>
 Package pdftex.def Info: ./figures///test_blue/input_load/input_load_3.pdf  use
-d on input line 1068.
+d on input line 1138.
 (pdftex.def)             Requested size: 222.07088pt x 159.31616pt.
-<./figures///test_blue/input_load/input_load_4.pdf, id=363, 222.07143pt x 159.3
+<./figures///test_blue/input_load/input_load_4.pdf, id=374, 222.07143pt x 159.3
 1656pt>
 File: ./figures///test_blue/input_load/input_load_4.pdf Graphic file (type pdf)
 
 <use ./figures///test_blue/input_load/input_load_4.pdf>
 Package pdftex.def Info: ./figures///test_blue/input_load/input_load_4.pdf  use
-d on input line 1069.
+d on input line 1139.
 (pdftex.def)             Requested size: 222.07088pt x 159.31616pt.
 
-Overfull \hbox (17.35042pt too wide) in paragraph at lines 1068--1071
+Overfull \hbox (17.35042pt too wide) in paragraph at lines 1138--1141
  [][][] 
  []
 
-[45 <./figures///test_blue/sof_wis/image_small001.png (PNG copy)> <./figures///
+[48 <./figures///test_blue/sof_wis/wis_small002.png (PNG copy)> <./figures///te
+st_blue/sof_wis/wis_small001.png (PNG copy)>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[49 <./figures///test_blue/sof_wis/image_small001.png (PNG copy)> <./figures///
 test_blue/sof_wis/image_small003.png (PNG copy)> <./figures///test_blue/sof_wis
 /image_small004.png (PNG copy)> <./figures///test_blue/sof_wis/image_small005.p
 ng (PNG copy)> <./figures///test_blue/sof_wis/image_small006.png (PNG copy)> <.
@@ -1778,7 +1794,291 @@ ng (PNG copy)> <./figures///test_blue/sof_wis/image_small006.png (PNG copy)> <.
 lue/sof_wis/image_small008.png (PNG copy)> <./figures///test_blue/sof_wis/image
 _small009.png (PNG copy)> <./figures///test_blue/sof_wis/image_small010.png (PN
 G copy)> <./figures///test_blue/sof_wis/image_small011.png (PNG copy)>]
-[46 <./figures///test_blue/input_load/input_load_1.pdf> <./figures///test_blue/
+<./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pdf, i
+d=382, 428.889pt x 169.18018pt>
+File: ./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.p
+df Graphic file (type pdf)
+<use ./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pd
+f>
+Package pdftex.def Info: ./figures///test_blue/stab_diag/fig_stab_diagram_nonfi
+ltr_time_20_20_50.pdf  used on input line 1149.
+(pdftex.def)             Requested size: 426.79134pt x 168.35625pt.
+<./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf, id=3
+83, 428.889pt x 169.18018pt>
+File: ./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf 
+Graphic file (type pdf)
+<use ./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf>
+Package pdftex.def Info: ./figures///test_blue/stab_diag/fig_stab_diagram_filtr
+_time_20_20_54.pdf  used on input line 1150.
+(pdftex.def)             Requested size: 426.79134pt x 168.35625pt.
+
+Overfull \hbox (3.26385pt too wide) in paragraph at lines 1150--1151
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf, id=384, 225.75708pt 
+x 214.08707pt>
+File: ./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf Graphic file (ty
+pe pdf)
+<use ./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf>
+Package pdftex.def Info: ./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.p
+df  used on input line 1161.
+(pdftex.def)             Requested size: 225.75652pt x 214.08653pt.
+<./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf, id=385, 225.75708pt 
+x 214.5426pt>
+File: ./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf Graphic file (ty
+pe pdf)
+<use ./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf>
+Package pdftex.def Info: ./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.p
+df  used on input line 1162.
+(pdftex.def)             Requested size: 225.75652pt x 214.54207pt.
+
+Overfull \hbox (24.7217pt too wide) in paragraph at lines 1161--1162
+ [][][] 
+ []
+
+<./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf, id=386, 225.75708pt 
+x 213.88905pt>
+File: ./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf Graphic file (ty
+pe pdf)
+<use ./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf>
+Package pdftex.def Info: ./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.p
+df  used on input line 1163.
+(pdftex.def)             Requested size: 225.75652pt x 213.88852pt.
+<./figures///test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf, id=387, 229.58388pt 
+x 211.93095pt>
+File: ./figures///test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf Graphic file (ty
+pe pdf)
+<use ./figures///test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf>
+Package pdftex.def Info: ./figures///test_blue/ccf/fig_CCF_CSD_00008_20_08_44.p
+df  used on input line 1164.
+(pdftex.def)             Requested size: 229.5833pt x 211.93042pt.
+
+Overfull \hbox (28.54848pt too wide) in paragraph at lines 1163--1166
+ [][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures///test_blue/blue_modes/fig_mod_0_time_22_08_38.pdf, id=388, 190.8610
+8pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_38.pdf Graphic file
+ (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_38.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_
+38.pdf  used on input line 1198.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/blue_modes/fig_mod_0_time_22_08_55.pdf, id=389, 190.8610
+8pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_55.pdf Graphic file
+ (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_55.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_
+55.pdf  used on input line 1198.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/polar/fig_polar_mod_0_time_22_07_54.pdf, id=390, 205.600
+22pt x 218.31453pt>
+File: ./figures///test_blue/polar/fig_polar_mod_0_time_22_07_54.pdf Graphic fil
+e (type pdf)
+<use ./figures///test_blue/polar/fig_polar_mod_0_time_22_07_54.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_0_time_22_07
+_54.pdf  used on input line 1198.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+<./figures///test_blue/blue_modes/fig_mod_2_time_22_09_15.pdf, id=391, 190.8610
+8pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_15.pdf Graphic file
+ (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_15.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_
+15.pdf  used on input line 1205.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/blue_modes/fig_mod_2_time_22_09_26.pdf, id=392, 190.8610
+8pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_26.pdf Graphic file
+ (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_26.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_
+26.pdf  used on input line 1205.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/polar/fig_polar_mod_2_time_22_09_04.pdf, id=393, 205.600
+22pt x 218.31453pt>
+File: ./figures///test_blue/polar/fig_polar_mod_2_time_22_09_04.pdf Graphic fil
+e (type pdf)
+<use ./figures///test_blue/polar/fig_polar_mod_2_time_22_09_04.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_2_time_22_09
+_04.pdf  used on input line 1205.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+<./figures///test_blue/blue_modes/fig_mod_4_time_22_09_56.pdf, id=394, 190.8610
+8pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_4_time_22_09_56.pdf Graphic file
+ (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_4_time_22_09_56.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_4_time_22_09_
+56.pdf  used on input line 1211.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/blue_modes/fig_mod_4_time_22_10_36.pdf, id=395, 190.8610
+8pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_4_time_22_10_36.pdf Graphic file
+ (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_4_time_22_10_36.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_4_time_22_10_
+36.pdf  used on input line 1211.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/polar/fig_polar_mod_4_time_22_09_47.pdf, id=396, 205.600
+22pt x 218.31453pt>
+File: ./figures///test_blue/polar/fig_polar_mod_4_time_22_09_47.pdf Graphic fil
+e (type pdf)
+<use ./figures///test_blue/polar/fig_polar_mod_4_time_22_09_47.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_4_time_22_09
+_47.pdf  used on input line 1211.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+<./figures///test_blue/blue_modes/fig_mod_6_time_22_10_59.pdf, id=397, 190.8610
+8pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_6_time_22_10_59.pdf Graphic file
+ (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_6_time_22_10_59.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_6_time_22_10_
+59.pdf  used on input line 1217.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/blue_modes/fig_mod_6_time_22_11_12.pdf, id=398, 190.8610
+8pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_6_time_22_11_12.pdf Graphic file
+ (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_6_time_22_11_12.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_6_time_22_11_
+12.pdf  used on input line 1217.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/polar/fig_polar_mod_6_time_22_10_52.pdf, id=399, 205.600
+22pt x 218.31453pt>
+File: ./figures///test_blue/polar/fig_polar_mod_6_time_22_10_52.pdf Graphic fil
+e (type pdf)
+<use ./figures///test_blue/polar/fig_polar_mod_6_time_22_10_52.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_6_time_22_10
+_52.pdf  used on input line 1217.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+
+Overfull \hbox (24.00648pt too wide) in paragraph at lines 1192--1219
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 37.06517pt on input line 1221.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figures///test_blue/blue_modes/fig_mod_8_time_22_11_37.pdf, id=400, 190.8610
+8pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_37.pdf Graphic file
+ (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_37.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_
+37.pdf  used on input line 1231.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/blue_modes/fig_mod_8_time_22_11_45.pdf, id=401, 190.8610
+8pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_45.pdf Graphic file
+ (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_45.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_
+45.pdf  used on input line 1231.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/polar/fig_polar_mod_8_time_22_11_32.pdf, id=402, 205.600
+22pt x 218.31453pt>
+File: ./figures///test_blue/polar/fig_polar_mod_8_time_22_11_32.pdf Graphic fil
+e (type pdf)
+<use ./figures///test_blue/polar/fig_polar_mod_8_time_22_11_32.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_8_time_22_11
+_32.pdf  used on input line 1231.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+<./figures///test_blue/blue_modes/fig_mod_10_time_22_12_47.pdf, id=403, 190.861
+08pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_10_time_22_12_47.pdf Graphic fil
+e (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_10_time_22_12_47.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_10_time_22_12
+_47.pdf  used on input line 1237.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/blue_modes/fig_mod_10_time_22_12_15.pdf, id=404, 190.861
+08pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_10_time_22_12_15.pdf Graphic fil
+e (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_10_time_22_12_15.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_10_time_22_12
+_15.pdf  used on input line 1237.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/polar/fig_polar_mod_10_time_22_14_19.pdf, id=405, 205.60
+022pt x 218.31453pt>
+File: ./figures///test_blue/polar/fig_polar_mod_10_time_22_14_19.pdf Graphic fi
+le (type pdf)
+<use ./figures///test_blue/polar/fig_polar_mod_10_time_22_14_19.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_10_time_22_1
+4_19.pdf  used on input line 1237.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+<./figures///test_blue/blue_modes/fig_mod_16_time_22_21_41.pdf, id=406, 190.861
+08pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_16_time_22_21_41.pdf Graphic fil
+e (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_16_time_22_21_41.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_16_time_22_21
+_41.pdf  used on input line 1243.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/blue_modes/fig_mod_16_time_22_22_09.pdf, id=407, 190.861
+08pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_16_time_22_22_09.pdf Graphic fil
+e (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_16_time_22_22_09.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_16_time_22_22
+_09.pdf  used on input line 1243.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/polar/fig_polar_mod_16_time_22_21_32.pdf, id=408, 205.60
+022pt x 218.31453pt>
+File: ./figures///test_blue/polar/fig_polar_mod_16_time_22_21_32.pdf Graphic fi
+le (type pdf)
+<use ./figures///test_blue/polar/fig_polar_mod_16_time_22_21_32.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_16_time_22_2
+1_32.pdf  used on input line 1243.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+<./figures///test_blue/blue_modes/fig_mod_24_time_22_22_41.pdf, id=409, 190.861
+08pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_24_time_22_22_41.pdf Graphic fil
+e (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_24_time_22_22_41.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_24_time_22_22
+_41.pdf  used on input line 1249.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/blue_modes/fig_mod_24_time_22_22_48.pdf, id=410, 190.861
+08pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes/fig_mod_24_time_22_22_48.pdf Graphic fil
+e (type pdf)
+<use ./figures///test_blue/blue_modes/fig_mod_24_time_22_22_48.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_24_time_22_22
+_48.pdf  used on input line 1249.
+(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
+<./figures///test_blue/polar/fig_polar_mod_24_time_22_22_25.pdf, id=411, 205.60
+022pt x 218.31453pt>
+File: ./figures///test_blue/polar/fig_polar_mod_24_time_22_22_25.pdf Graphic fi
+le (type pdf)
+<use ./figures///test_blue/polar/fig_polar_mod_24_time_22_22_25.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_24_time_22_2
+2_25.pdf  used on input line 1249.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+
+Overfull \hbox (24.00648pt too wide) in paragraph at lines 1225--1251
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 37.06517pt on input line 1252.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[50 <./figures///test_blue/input_load/input_load_1.pdf> <./figures///test_blue/
 input_load/input_load_2.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/input_load/input_load_
@@ -1792,300 +2092,18 @@ pdfTeX warning: pdflatex.exe (file ./figures///test_blue/input_load/input_load_
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/input_load/input_load_
 4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pdf, i
-d=503, 428.889pt x 169.18018pt>
-File: ./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.p
-df Graphic file (type pdf)
-<use ./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pd
-f>
-Package pdftex.def Info: ./figures///test_blue/stab_diag/fig_stab_diagram_nonfi
-ltr_time_20_20_50.pdf  used on input line 1079.
-(pdftex.def)             Requested size: 426.79134pt x 168.35625pt.
-<./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf, id=5
-04, 428.889pt x 169.18018pt>
-File: ./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf 
-Graphic file (type pdf)
-<use ./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf>
-Package pdftex.def Info: ./figures///test_blue/stab_diag/fig_stab_diagram_filtr
-_time_20_20_54.pdf  used on input line 1080.
-(pdftex.def)             Requested size: 426.79134pt x 168.35625pt.
 
-Overfull \hbox (3.26385pt too wide) in paragraph at lines 1080--1081
- [][] 
- []
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1277.
 
-<./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf, id=505, 225.75708pt 
-x 214.08707pt>
-File: ./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf Graphic file (ty
-pe pdf)
-<use ./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf>
-Package pdftex.def Info: ./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.p
-df  used on input line 1091.
-(pdftex.def)             Requested size: 225.75652pt x 214.08653pt.
-<./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf, id=506, 225.75708pt 
-x 214.5426pt>
-File: ./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf Graphic file (ty
-pe pdf)
-<use ./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf>
-Package pdftex.def Info: ./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.p
-df  used on input line 1092.
-(pdftex.def)             Requested size: 225.75652pt x 214.54207pt.
-
-Overfull \hbox (24.7217pt too wide) in paragraph at lines 1091--1092
- [][][] 
- []
-
-<./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf, id=507, 225.75708pt 
-x 213.88905pt>
-File: ./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf Graphic file (ty
-pe pdf)
-<use ./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf>
-Package pdftex.def Info: ./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.p
-df  used on input line 1093.
-(pdftex.def)             Requested size: 225.75652pt x 213.88852pt.
-<./figures///test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf, id=508, 229.58388pt 
-x 211.93095pt>
-File: ./figures///test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf Graphic file (ty
-pe pdf)
-<use ./figures///test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf>
-Package pdftex.def Info: ./figures///test_blue/ccf/fig_CCF_CSD_00008_20_08_44.p
-df  used on input line 1094.
-(pdftex.def)             Requested size: 229.5833pt x 211.93042pt.
-
-Overfull \hbox (28.54848pt too wide) in paragraph at lines 1093--1096
- [][][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[47 <./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pd
-f> <./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf
+) [51 <./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.
+pdf> <./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/stab_diag/fig_stab_dia
 gram_filtr_time_20_20_54.pdf): PDF inclusion: multiple pdfs with page group inc
 luded in a single page
->]
-<./figures///test_blue/blue_modes/fig_mod_0_time_22_08_38.pdf, id=638, 190.8610
-8pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_38.pdf Graphic file
- (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_38.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_
-38.pdf  used on input line 1115.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/blue_modes/fig_mod_0_time_22_08_55.pdf, id=639, 190.8610
-8pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_55.pdf Graphic file
- (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_55.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_0_time_22_08_
-55.pdf  used on input line 1115.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/polar/fig_polar_mod_0_time_22_07_54.pdf, id=640, 205.600
-22pt x 218.31453pt>
-File: ./figures///test_blue/polar/fig_polar_mod_0_time_22_07_54.pdf Graphic fil
-e (type pdf)
-<use ./figures///test_blue/polar/fig_polar_mod_0_time_22_07_54.pdf>
-Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_0_time_22_07
-_54.pdf  used on input line 1115.
-(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
-<./figures///test_blue/blue_modes/fig_mod_2_time_22_09_15.pdf, id=641, 190.8610
-8pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_15.pdf Graphic file
- (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_15.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_
-15.pdf  used on input line 1122.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/blue_modes/fig_mod_2_time_22_09_26.pdf, id=642, 190.8610
-8pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_26.pdf Graphic file
- (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_26.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_2_time_22_09_
-26.pdf  used on input line 1122.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/polar/fig_polar_mod_2_time_22_09_04.pdf, id=643, 205.600
-22pt x 218.31453pt>
-File: ./figures///test_blue/polar/fig_polar_mod_2_time_22_09_04.pdf Graphic fil
-e (type pdf)
-<use ./figures///test_blue/polar/fig_polar_mod_2_time_22_09_04.pdf>
-Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_2_time_22_09
-_04.pdf  used on input line 1122.
-(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
-<./figures///test_blue/blue_modes/fig_mod_4_time_22_09_56.pdf, id=644, 190.8610
-8pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_4_time_22_09_56.pdf Graphic file
- (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_4_time_22_09_56.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_4_time_22_09_
-56.pdf  used on input line 1128.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/blue_modes/fig_mod_4_time_22_10_36.pdf, id=645, 190.8610
-8pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_4_time_22_10_36.pdf Graphic file
- (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_4_time_22_10_36.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_4_time_22_10_
-36.pdf  used on input line 1128.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/polar/fig_polar_mod_4_time_22_09_47.pdf, id=646, 205.600
-22pt x 218.31453pt>
-File: ./figures///test_blue/polar/fig_polar_mod_4_time_22_09_47.pdf Graphic fil
-e (type pdf)
-<use ./figures///test_blue/polar/fig_polar_mod_4_time_22_09_47.pdf>
-Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_4_time_22_09
-_47.pdf  used on input line 1128.
-(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
-<./figures///test_blue/blue_modes/fig_mod_6_time_22_10_59.pdf, id=647, 190.8610
-8pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_6_time_22_10_59.pdf Graphic file
- (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_6_time_22_10_59.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_6_time_22_10_
-59.pdf  used on input line 1134.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/blue_modes/fig_mod_6_time_22_11_12.pdf, id=648, 190.8610
-8pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_6_time_22_11_12.pdf Graphic file
- (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_6_time_22_11_12.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_6_time_22_11_
-12.pdf  used on input line 1134.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/polar/fig_polar_mod_6_time_22_10_52.pdf, id=649, 205.600
-22pt x 218.31453pt>
-File: ./figures///test_blue/polar/fig_polar_mod_6_time_22_10_52.pdf Graphic fil
-e (type pdf)
-<use ./figures///test_blue/polar/fig_polar_mod_6_time_22_10_52.pdf>
-Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_6_time_22_10
-_52.pdf  used on input line 1134.
-(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
-
-Overfull \hbox (24.00648pt too wide) in paragraph at lines 1109--1136
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 37.06517pt on input line 1138.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./figures///test_blue/blue_modes/fig_mod_8_time_22_11_37.pdf, id=650, 190.8610
-8pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_37.pdf Graphic file
- (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_37.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_
-37.pdf  used on input line 1148.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/blue_modes/fig_mod_8_time_22_11_45.pdf, id=651, 190.8610
-8pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_45.pdf Graphic file
- (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_45.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_8_time_22_11_
-45.pdf  used on input line 1148.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/polar/fig_polar_mod_8_time_22_11_32.pdf, id=652, 205.600
-22pt x 218.31453pt>
-File: ./figures///test_blue/polar/fig_polar_mod_8_time_22_11_32.pdf Graphic fil
-e (type pdf)
-<use ./figures///test_blue/polar/fig_polar_mod_8_time_22_11_32.pdf>
-Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_8_time_22_11
-_32.pdf  used on input line 1148.
-(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
-<./figures///test_blue/blue_modes/fig_mod_10_time_22_12_47.pdf, id=653, 190.861
-08pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_10_time_22_12_47.pdf Graphic fil
-e (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_10_time_22_12_47.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_10_time_22_12
-_47.pdf  used on input line 1154.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/blue_modes/fig_mod_10_time_22_12_15.pdf, id=654, 190.861
-08pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_10_time_22_12_15.pdf Graphic fil
-e (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_10_time_22_12_15.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_10_time_22_12
-_15.pdf  used on input line 1154.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/polar/fig_polar_mod_10_time_22_14_19.pdf, id=655, 205.60
-022pt x 218.31453pt>
-File: ./figures///test_blue/polar/fig_polar_mod_10_time_22_14_19.pdf Graphic fi
-le (type pdf)
-<use ./figures///test_blue/polar/fig_polar_mod_10_time_22_14_19.pdf>
-Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_10_time_22_1
-4_19.pdf  used on input line 1154.
-(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
-<./figures///test_blue/blue_modes/fig_mod_16_time_22_21_41.pdf, id=656, 190.861
-08pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_16_time_22_21_41.pdf Graphic fil
-e (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_16_time_22_21_41.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_16_time_22_21
-_41.pdf  used on input line 1160.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/blue_modes/fig_mod_16_time_22_22_09.pdf, id=657, 190.861
-08pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_16_time_22_22_09.pdf Graphic fil
-e (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_16_time_22_22_09.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_16_time_22_22
-_09.pdf  used on input line 1160.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/polar/fig_polar_mod_16_time_22_21_32.pdf, id=658, 205.60
-022pt x 218.31453pt>
-File: ./figures///test_blue/polar/fig_polar_mod_16_time_22_21_32.pdf Graphic fi
-le (type pdf)
-<use ./figures///test_blue/polar/fig_polar_mod_16_time_22_21_32.pdf>
-Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_16_time_22_2
-1_32.pdf  used on input line 1160.
-(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
-<./figures///test_blue/blue_modes/fig_mod_24_time_22_22_41.pdf, id=659, 190.861
-08pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_24_time_22_22_41.pdf Graphic fil
-e (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_24_time_22_22_41.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_24_time_22_22
-_41.pdf  used on input line 1166.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/blue_modes/fig_mod_24_time_22_22_48.pdf, id=660, 190.861
-08pt x 189.72298pt>
-File: ./figures///test_blue/blue_modes/fig_mod_24_time_22_22_48.pdf Graphic fil
-e (type pdf)
-<use ./figures///test_blue/blue_modes/fig_mod_24_time_22_22_48.pdf>
-Package pdftex.def Info: ./figures///test_blue/blue_modes/fig_mod_24_time_22_22
-_48.pdf  used on input line 1166.
-(pdftex.def)             Requested size: 149.37956pt x 148.48703pt.
-<./figures///test_blue/polar/fig_polar_mod_24_time_22_22_25.pdf, id=661, 205.60
-022pt x 218.31453pt>
-File: ./figures///test_blue/polar/fig_polar_mod_24_time_22_22_25.pdf Graphic fi
-le (type pdf)
-<use ./figures///test_blue/polar/fig_polar_mod_24_time_22_22_25.pdf>
-Package pdftex.def Info: ./figures///test_blue/polar/fig_polar_mod_24_time_22_2
-2_25.pdf  used on input line 1166.
-(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
-
-Overfull \hbox (24.00648pt too wide) in paragraph at lines 1142--1168
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 37.06517pt on input line 1169.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1177.
-
-) [48] [49 <./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf> <./figure
-s///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf
+>] [52] [53 <./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf> <./figur
+es///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/ccf/fig_CCF_CSD_00004_
 20_05_38.pdf): PDF inclusion: multiple pdfs with page group included in a singl
@@ -2100,7 +2118,7 @@ e page
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/ccf/fig_CCF_CSD_00008_
 20_08_44.pdf): PDF inclusion: multiple pdfs with page group included in a singl
 e page
->] [50 <./figures///test_blue/blue_modes/fig_mod_0_time_22_08_38.pdf> <./figure
+>] [54 <./figures///test_blue/blue_modes/fig_mod_0_time_22_08_38.pdf> <./figure
 s///test_blue/blue_modes/fig_mod_0_time_22_08_55.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/blue_modes/fig_mod_0_t
@@ -2156,7 +2174,7 @@ ingle page
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/polar/fig_polar_mod_6_
 time_22_10_52.pdf): PDF inclusion: multiple pdfs with page group included in a 
 single page
->] [51 <./figures///test_blue/blue_modes/fig_mod_8_time_22_11_37.pdf> <./figure
+>] [55 <./figures///test_blue/blue_modes/fig_mod_8_time_22_11_37.pdf> <./figure
 s///test_blue/blue_modes/fig_mod_8_time_22_11_45.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/blue_modes/fig_mod_8_t
@@ -2214,7 +2232,7 @@ _time_22_22_25.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
 >]
 Rozdzia\l  4.
-[52
+[56
 
 
 
@@ -2225,13 +2243,13 @@ Overfull \hbox (1.00836pt too wide) in paragraph at lines 77--77
 []\OT4/cmr/bx/n/17.28 Badania - iden-ty-fi-ka-cja mo-dalna: wy-bÛr punk-
  []
 
-<./figures//correlogram_badania.pdf, id=1541, 371.16034pt x 211.38443pt>
+<./figures//correlogram_badania.pdf, id=1556, 371.16034pt x 211.38443pt>
 File: ./figures//correlogram_badania.pdf Graphic file (type pdf)
 <use ./figures//correlogram_badania.pdf>
 Package pdftex.def Info: ./figures//correlogram_badania.pdf  used on input line
  81.
 (pdftex.def)             Requested size: 426.79134pt x 243.06761pt.
-<./figures//diagram_non_filtered.pdf, id=1542, 440.38524pt x 219.34402pt>
+<./figures//diagram_non_filtered.pdf, id=1557, 440.38524pt x 219.34402pt>
 File: ./figures//diagram_non_filtered.pdf Graphic file (type pdf)
 <use ./figures//diagram_non_filtered.pdf>
 Package pdftex.def Info: ./figures//diagram_non_filtered.pdf  used on input lin
@@ -2242,7 +2260,7 @@ Overfull \hbox (13.59282pt too wide) in paragraph at lines 87--89
  [][] 
  []
 
-<./figures//diagram_filtered2.pdf, id=1543, 440.38524pt x 219.34402pt>
+<./figures//diagram_filtered2.pdf, id=1558, 440.38524pt x 219.34402pt>
 File: ./figures//diagram_filtered2.pdf Graphic file (type pdf)
 <use ./figures//diagram_filtered2.pdf>
 Package pdftex.def Info: ./figures//diagram_filtered2.pdf  used on input line 9
@@ -2253,7 +2271,7 @@ Overfull \hbox (13.59282pt too wide) in paragraph at lines 93--95
  [][] 
  []
 
-<./figures//identified_mode_1.pdf, id=1544, 248.40805pt x 248.40805pt>
+<./figures//identified_mode_1.pdf, id=1559, 248.40805pt x 248.40805pt>
 File: ./figures//identified_mode_1.pdf Graphic file (type pdf)
 <use ./figures//identified_mode_1.pdf>
 Package pdftex.def Info: ./figures//identified_mode_1.pdf  used on input line 9
@@ -2271,15 +2289,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 2680) has occurred while \output is active []
 
- [53
+ [57
 
  <./figures//correlogram_badania.pdf>]
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 54 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+\OT4/cmr/m/n/12 58 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[54 <./figures//diagram_non_filtered.pdf>] [55 <./figures//diagram_filtered2.pd
+[58 <./figures//diagram_non_filtered.pdf>] [59 <./figures//diagram_filtered2.pd
 f> <./figures//identified_mode_1.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//identified_mode_1.pdf): PDF inclu
@@ -2309,24 +2327,22 @@ Overfull \hbox (142.49359pt too wide) in paragraph at lines 152--153
 []\OT4/cmr/m/n/12 ; []; []; [])
  []
 
-[56
+[60
 
 ]
-LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 
-157.
- (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
-File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-) [57]
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
-180.
+155.
  (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-Overfull \hbox (2.78679pt too wide) in paragraph at lines 181--181
+Overfull \hbox (2.78679pt too wide) in paragraph at lines 156--156
 [][]\OT4/cmr/m/n/12 Clough, Ray W i Jo-seph Pen-zien (1975). \OT4/cmr/m/it/12 D
 y-na-mics of struc-tu-res\OT4/cmr/m/n/12 . New York: McGraw-
  []
 
+[61
+
+]
 
 ! Package inputenc Error: Unicode character Ãß (U+0327)
 (inputenc)                not set up for use with LaTeX.
@@ -2335,15 +2351,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181 \end
+l.156 \end
           {document}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[58
 
-]
-Overfull \hbox (17.09633pt too wide) in paragraph at lines 181--181
+Overfull \hbox (17.09633pt too wide) in paragraph at lines 156--156
 [][]\OT4/cmr/m/n/12 Fialko, Ser-gey (2000). ``High-preformance ag-gre-ga-tion e
 lement-by-element Ritz-gradient
  []
@@ -2356,37 +2370,32 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181 \end
+l.156 \end
           {document}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-Overfull \hbox (32.23328pt too wide) in paragraph at lines 181--181
+[62]
+Overfull \hbox (32.23328pt too wide) in paragraph at lines 156--156
 [][]\OT4/cmr/m/n/12 Juang, Jer-Nan (1994). \OT4/cmr/m/it/12 Ap-plied sys-tem id
 en-ti-fi-ca-tion\OT4/cmr/m/n/12 . Prentice-Hall, Inc. \OT4/cmr/m/sc/12 isbn\OT4
 /cmr/m/n/12 : 013079211X. 
  []
 
-[59] [60] [61] (whole_thesis.aux (dictionary.aux) (chap_era.aux))
+[63] [64] [65] (whole_thesis.aux (dictionary.aux) (chap_era.aux))
 
 LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                whole_thesis
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35672 strings out of 479696
- 851711 string characters out of 2867115
- 1639381 words of memory out of 3000000
- 52089 multiletter control sequences out of 15000+200000
- 429340 words of font info for 94 fonts, out of 3000000 for 9000
+ 35705 strings out of 479696
+ 852568 string characters out of 2867115
+ 1638538 words of memory out of 3000000
+ 52118 multiletter control sequences out of 15000+200000
+ 430794 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,24n,102p,2205b,1770s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
@@ -2429,9 +2438,9 @@ grams/MiKTeX/fonts/type1/public/pl/plti12.pfb><C:/Users/przem/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/pl/pltt12.pfb><C:/Users/przem/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/przem/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on whole_thesis.pdf (61 pages, 18185944 bytes).
+Output written on whole_thesis.pdf (65 pages, 18357949 bytes).
 PDF statistics:
- 1737 PDF objects out of 2073 (max. 8388607)
+ 1750 PDF objects out of 2073 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 308 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 313 words of extra memory for PDF output out of 10000 (max. 10000000)
 

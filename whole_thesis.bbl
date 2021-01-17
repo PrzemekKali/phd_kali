@@ -19,6 +19,209 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Allemang1982}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=0069bd29d651072e1ef48a2e4ae3ba8f}{%
+           family={Allemang},
+           familyi={A\bibinitperiod},
+           given={Randall\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=c8e5e49ac2907aad172e4a9412e593e3}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {SEM Orlando}%
+      }
+      \strng{namehash}{bb55635d99c0c8b933c3d8ae38c98236}
+      \strng{fullhash}{bb55635d99c0c8b933c3d8ae38c98236}
+      \strng{bibnamehash}{bb55635d99c0c8b933c3d8ae38c98236}
+      \strng{authorbibnamehash}{bb55635d99c0c8b933c3d8ae38c98236}
+      \strng{authornamehash}{bb55635d99c0c8b933c3d8ae38c98236}
+      \strng{authorfullhash}{bb55635d99c0c8b933c3d8ae38c98236}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 1st international modal analysis conference. Vol. 1.}
+      \field{title}{{A correlation coefficient for modal vector analysis}}
+      \field{year}{1982}
+      \field{pages}{110\bibrangedash 116}
+      \range{pages}{7}
+    \endentry
+    \entry{Allemang2003}{article}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=0069bd29d651072e1ef48a2e4ae3ba8f}{%
+           family={Allemang},
+           familyi={A\bibinitperiod},
+           given={Randall\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{0069bd29d651072e1ef48a2e4ae3ba8f}
+      \strng{fullhash}{0069bd29d651072e1ef48a2e4ae3ba8f}
+      \strng{bibnamehash}{0069bd29d651072e1ef48a2e4ae3ba8f}
+      \strng{authorbibnamehash}{0069bd29d651072e1ef48a2e4ae3ba8f}
+      \strng{authornamehash}{0069bd29d651072e1ef48a2e4ae3ba8f}
+      \strng{authorfullhash}{0069bd29d651072e1ef48a2e4ae3ba8f}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article reviews the development of the original modal assurance criterion (MAC) together with other related assurance criteria that have been proposed over the last twenty years. Some of the other assurance criteria that will be discussed include the coordinate modal assurance criterion (COMAC), the frequency response assurance criterion (FRAC), coordinate orthogonality check (CORTHOG), frequency scaled modal assurance criterion (FMAC), partial modal assurance criterion (PMAC), scaled modal assurance criterion (SMAC), and modal assurance criterion using reciprocal modal vectors (MACRV). In particular, the thought process that relates the original MAC development to ordinary coherence and to orthogonality computations will be explained. Several uses of MAC that may not be obvious to the casual observer (modal parameter estimation consistency diagrams and model updating are two examples) will be identified. The common problems with the implementation and use of modal assurance criterion computations will also be identified. Reprinted by permission of the publisher.}
+      \field{annotation}{From Duplicate 1 (The Modal Assurance Criterion—Twenty Years of Use and Abuse. - Allemang, Randall J) Accession Number: 500872689; Authors: Allemang, Randall J.; Physical Description:Bibliographic footnotes; Graph; Illustration; Table; Subject: Modal analysis; Subject: Vibration (Mechanics); Number of Pages: 10p; Record Type: Article}
+      \field{issn}{15410161}
+      \field{journaltitle}{Sound \& Vibration}
+      \field{number}{8}
+      \field{title}{{The Modal Assurance Criterion—Twenty Years of Use and Abuse.}}
+      \field{volume}{37}
+      \field{year}{2003}
+      \field{pages}{14\bibrangedash 23}
+      \range{pages}{10}
+      \verb{file}
+      \verb :C\:/Users/przem/Desktop/0308alle.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/129/Allemang - 2003 - The Modal Assurance Criterion—Twenty Years of Use .pdf
+      \endverb
+      \verb{url}
+      \verb http://files/129/Allemang%20-%202003%20-%20The%20Modal%20Assurance%20Criterion%E2%80%94Twenty%20Years%20of%20Use%20.pdf
+      \endverb
+      \keyw{Modal analysis,Vibration (Mechanics)}
+    \endentry
+    \entry{Bachmann2012}{book}{}
+      \name{author}{15}{}{%
+        {{un=0,uniquepart=base,hash=2c70fedf28ba64f78804e9cfbd0755da}{%
+           family={Bachmann},
+           familyi={B\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef40326e045d52bf5924e293287af5c0}{%
+           family={Ammann},
+           familyi={A\bibinitperiod},
+           given={Walter\bibnamedelima J},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6623fd56cc5a6a1e93144005d9440697}{%
+           family={Deischl},
+           familyi={D\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f13a9cecf11baacdac72f650416b088}{%
+           family={Eisenmann},
+           familyi={E\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d465680cedeaa7151ca7b4787a09ae82}{%
+           family={Floegl},
+           familyi={F\bibinitperiod},
+           given={Ingomar},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56dee1412806030d994c4277858688ea}{%
+           family={Hirsch},
+           familyi={H\bibinitperiod},
+           given={Gerhard\bibnamedelima H},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc7591ff2421964047f1740a6ae02f94}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Günter\bibnamedelima K},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e30d8b5265aff998c41bf0f1573154f}{%
+           family={Lande},
+           familyi={L\bibinitperiod},
+           given={Göran\bibnamedelima J},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b0d1c437c95aec9eed941ce6ce70a69}{%
+           family={Mahrenholtz},
+           familyi={M\bibinitperiod},
+           given={Oskar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ab909a2d7584514e68d27cdc2541c12}{%
+           family={Natke},
+           familyi={N\bibinitperiod},
+           given={Hans\bibnamedelima G},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb37db0ec1dd97e76ea512cf713fa587}{%
+           family={Nussbaumer},
+           familyi={N\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=606706d59365defd970709cded626e31}{%
+           family={Pretlove},
+           familyi={P\bibinitperiod},
+           given={Anthony\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e0b27b24248f384661d51c57da7517f}{%
+           family={Rainer},
+           familyi={R\bibinitperiod},
+           given={Johann\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6aae24c2803bc5caf24f99870fb6247f}{%
+           family={Saemann},
+           familyi={S\bibinitperiod},
+           given={Ernst-Ulrich},
+           giveni={E\bibinithyphendelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7749ff211021c79cb48fc9c52e6e827c}{%
+           family={Steinbeisser},
+           familyi={S\bibinitperiod},
+           given={Lorenz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Birkhäuser}%
+      }
+      \strng{namehash}{32d374d3e49ebce36a09325dc8100a52}
+      \strng{fullhash}{dd99f7cf0bd5820310866ef4e05960d8}
+      \strng{bibnamehash}{32d374d3e49ebce36a09325dc8100a52}
+      \strng{authorbibnamehash}{32d374d3e49ebce36a09325dc8100a52}
+      \strng{authornamehash}{32d374d3e49ebce36a09325dc8100a52}
+      \strng{authorfullhash}{dd99f7cf0bd5820310866ef4e05960d8}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Authors: Hugo Bachmann, Walter J. Ammann, Florian Deischl, Josef Eisenmann, Ingomar Floegl, Gerhard H. Hirsch, Günter K. Klein, Göran J. Lande, Oskar Mahrenholtz, Hans G. Natke, Hans Nussbaumer, Anthony J. Pretlove, Johann H. Rainer, Ernst-Ulrich Saemann, Lorenz Steinbeisser. Large structures such as factories, gymnasia, concert halls, bridges, towers, masts and chimneys can be detrimentally affected by vibrations. These vibrations can cause either serviceability problems, severely hampering the user's comfort, or safety problems. The aim of this book is to provide structural and civil engineers working in construction and environmental engineering with practical guidelines for counteracting vibration problems. Dynamic actions are considered from the following sources of vibration: - human body motions, - rotating, oscillating and impacting machines, - wind flow, - road traffic, railway traffic and construction work. The main section of the book presents tools that aid in decision-making and in deriving simple solutions to cases of frequently occurring "normal" vibration problems. Complexer problems and more advanced solutions are also considered. In all cases these guidelines should enable the engineer to decide on appropriate solutions expeditiously. The appendices of the book contain fundamentals essential to the main chapters.}
+      \field{isbn}{978-3-0348-9231-5}
+      \field{title}{{Vibration Problems in Structures: Practical Guidelines}}
+      \field{year}{2012}
+      \field{pages}{248}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://books.google.pl/books?id=pth5BgAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.pl/books?id=pth5BgAAQBAJ
+      \endverb
+      \keyw{Science / Mechanics / Dynamics,Technology & Engineering / Construction / General,Technology & Engineering / Construction / Heating,,Technology & Engineering / Engineering (General),Technology & Engineering / General,Technology & Engineering / Manufacturing,Technology & Engineering / Mechanical}
+    \endentry
     \entry{Bathe2006}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0d709c7a8f4b980c57eabfeec0ea9d86}{%
@@ -702,6 +905,54 @@
       \field{pages}{537\bibrangedash 550}
       \range{pages}{14}
     \endentry
+    \entry{Fryba1999}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=401a4d46c3044b62c46cc63e60cf0002}{%
+           family={Frýba},
+           familyi={F\bibinitperiod},
+           given={Ladislav},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Thomas Telford Publishing}%
+      }
+      \strng{namehash}{401a4d46c3044b62c46cc63e60cf0002}
+      \strng{fullhash}{401a4d46c3044b62c46cc63e60cf0002}
+      \strng{bibnamehash}{401a4d46c3044b62c46cc63e60cf0002}
+      \strng{authorbibnamehash}{401a4d46c3044b62c46cc63e60cf0002}
+      \strng{authornamehash}{401a4d46c3044b62c46cc63e60cf0002}
+      \strng{authorfullhash}{401a4d46c3044b62c46cc63e60cf0002}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Resonance vibrations have been observed on railway bridges subjected to high speed trains. An elementary theoretical model of a bridge was investigated using the integral transformation method which provides an estimation of the amplitudes of the free vibration In addition, the analysis gives the critical speeds at which the resonance vibration may occur. They are caused by two reasons: repeated action of axle loads and high speed itself. While the first cause of critical speeds has been reached on today's high speed lines the second one not yet. The maximum amplitudes of resonance vibration appear at the moment when the last axle leaves the bridge and, therefore, their values were calculated for the deflection, bending moment and acceleration of the bridge deck. Simple expressions similar to dynamic impact factor were given to these values which enable to assess the railway bridges for high speed trains. Comparison of the theory with the experiments is satisfactory. ?? 2001 Elsevier Science Ltd.}
+      \field{booktitle}{Vibration of solids and structures under moving loads}
+      \field{edition}{Third edit}
+      \field{isbn}{978-0-7277-3996-4}
+      \field{month}{2}
+      \field{title}{{Vibration of Solids and Structures under Moving Loads}}
+      \field{volume}{23}
+      \field{year}{1999}
+      \field{pages}{548\bibrangedash 556}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1680/vosasuml.35393
+      \endverb
+      \verb{urlraw}
+      \verb http://www.icevirtuallibrary.com/doi/book/10.1680/vosasuml.35393 http://files/843/epdf.pub_vibration-of-solids-and-structures-under-moving-lo.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.icevirtuallibrary.com/doi/book/10.1680/vosasuml.35393%20http://files/843/epdf.pub_vibration-of-solids-and-structures-under-moving-lo.pdf
+      \endverb
+      \keyw{dynamics of bridges,railway bridges,resonance vibration}
+    \endentry
     \entry{Giorcelli1994}{inproceedings}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=b42ff2d00bf10a934c38c137e39e6f1d}{%
@@ -929,6 +1180,37 @@
       \verb{file}
       \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Hughes - 1987 - The Finite Element Method Linear Static and Dynamic Finite Element Analysis.pdf:pdf
       \endverb
+    \endentry
+    \entry{Hunt1992}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6877666cb644e96ca1a20a906853f0ea}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima L},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA}%
+      }
+      \strng{namehash}{6877666cb644e96ca1a20a906853f0ea}
+      \strng{fullhash}{6877666cb644e96ca1a20a906853f0ea}
+      \strng{bibnamehash}{6877666cb644e96ca1a20a906853f0ea}
+      \strng{authorbibnamehash}{6877666cb644e96ca1a20a906853f0ea}
+      \strng{authornamehash}{6877666cb644e96ca1a20a906853f0ea}
+      \strng{authorfullhash}{6877666cb644e96ca1a20a906853f0ea}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc 10th international modal analysis conference}
+      \field{title}{{Application of an enhanced coordinate modal assurance criterion}}
+      \field{volume}{1}
+      \field{year}{1992}
+      \field{pages}{66\bibrangedash 71}
+      \range{pages}{6}
     \endentry
     \entry{Ibrahim1983}{inproceedings}{}
       \name{author}{1}{}{%
@@ -1508,6 +1790,37 @@
       \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Maia, Silva - 1997 - Theoretical and Experimental Modal Analysis.pdf:pdf
       \endverb
     \endentry
+    \entry{MITCHELL1998}{confpaper}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=38dcfae0378604fa9b47f0d049fb3c10}{%
+           family={MITCHELL},
+           familyi={M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Santa Barbara CA}%
+      }
+      \strng{namehash}{38dcfae0378604fa9b47f0d049fb3c10}
+      \strng{fullhash}{38dcfae0378604fa9b47f0d049fb3c10}
+      \strng{bibnamehash}{38dcfae0378604fa9b47f0d049fb3c10}
+      \strng{authorbibnamehash}{38dcfae0378604fa9b47f0d049fb3c10}
+      \strng{authornamehash}{38dcfae0378604fa9b47f0d049fb3c10}
+      \strng{authorfullhash}{38dcfae0378604fa9b47f0d049fb3c10}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{16th international modal analysis conference}
+      \field{isbn}{0-912053-59-3}
+      \field{title}{{Increasing the sensitivity of the modal assurance criteria (MAC) to small mode shape changes : The IMAC}}
+      \field{year}{1998}
+      \field{pages}{64\bibrangedash 69}
+      \range{pages}{6}
+    \endentry
     \entry{Nayeri2009}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=d8e5bc66f46039398f3d0738d812957c}{%
@@ -1716,6 +2029,58 @@
       \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Pappa, Juang - 1985 - An Eigensystem Realization Algorithm (ERA) for modal parameter identification and model reduction.pdf:pdf
       \endverb
       \keyw{SPACECRAFT DESIGN,TESTING AND PERFORMANCE}
+    \endentry
+    \entry{Pappa1992}{book}{}
+      \name{author}{3}{}{%
+        {{un=2,uniquepart=given,hash=987367dcb2a2a0437cd99eca329af612}{%
+           family={Pappa},
+           familyi={P\bibinitperiod},
+           given={Richard\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=373c683dccd29b3279c46dc380811bee}{%
+           family={Elliott},
+           familyi={E\bibinitperiod},
+           given={Kenny\bibnamedelima B},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3d77205c237a8f164fdae383704f9be}{%
+           family={Schenk},
+           familyi={S\bibinitperiod},
+           given={Axel},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Hampton, Va. : [Springfield, Va. : National Aeronautics}%
+        {Space Administration, Langley Research Center ; For sale by the National Technical Information Service, 1992}%
+      }
+      \strng{namehash}{3dbffe62becdd5dc77ebe90b04c61728}
+      \strng{fullhash}{3dbffe62becdd5dc77ebe90b04c61728}
+      \strng{bibnamehash}{3dbffe62becdd5dc77ebe90b04c61728}
+      \strng{authorbibnamehash}{3dbffe62becdd5dc77ebe90b04c61728}
+      \strng{authornamehash}{3dbffe62becdd5dc77ebe90b04c61728}
+      \strng{authorfullhash}{3dbffe62becdd5dc77ebe90b04c61728}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Accession Number: edsgpr.000386513; Corporate Authors: Langley Research Center.; Other Notes: Distributed to depository libraries in microfiche.; Shipping list no.: 92-2230-M.; Microfiche.; [cat:si]; Publication Type: Book; Physical Description: 1 v.; Language: English; Other Titles: Consistent mode indicator for the Eigensystem ....; OCLC: 000386513; US GPO Item Number: 0830-D (MF); Gov. Doc: NAS 1.15:107607}
+      \field{booktitle}{NASA technical memorandum: 107607}
+      \field{title}{{A consistent-mode indicator for the Eigensystem Realization Algorithm}}
+      \field{year}{1992}
+      \verb{file}
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Pappa, Elliott, Schenk - 1992 - A consistent-mode indicator for the Eigensystem Realization Algorithm.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/97/Pappa i in. - 1992 - A consistent-mode indicator for the Eigensystem Re.pdf
+      \endverb
+      \verb{url}
+      \verb http://files/97/Pappa%20i%20in.%20-%201992%20-%20A%20consistent-mode%20indicator%20for%20the%20Eigensystem%20Re.pdf
+      \endverb
+      \keyw{Eigenvalues.,Structural dynamics -- Testing.}
     \endentry
     \entry{Pappa1985a}{article}{}
       \name{author}{2}{}{%
@@ -2019,6 +2384,42 @@
       \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Rucka, Wilde - 2014 - Dynamika budowli z przyk{\l}adami w {\'{s}}rodowisku MATLAB{\textregistered}.pdf:pdf
       \endverb
       \keyw{Dynamika konstrukcji -- oprogramowanie -- podrȩczn,Dynamika konstrukcji -- oprogramowanie -- zadania,Matlab (oprogramowanie) -- podrȩczniki akademickie,Matlab (oprogramowanie) -- zadania i ćwiczenia}
+    \endentry
+    \entry{Salamak2003}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=895374e0762d8f004e34eb80e36bb5ff}{%
+           family={Salamak},
+           familyi={S\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{895374e0762d8f004e34eb80e36bb5ff}
+      \strng{fullhash}{895374e0762d8f004e34eb80e36bb5ff}
+      \strng{bibnamehash}{895374e0762d8f004e34eb80e36bb5ff}
+      \strng{authorbibnamehash}{895374e0762d8f004e34eb80e36bb5ff}
+      \strng{authornamehash}{895374e0762d8f004e34eb80e36bb5ff}
+      \strng{authorfullhash}{895374e0762d8f004e34eb80e36bb5ff}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{From Duplicate 2 (Doświadczalne metody określania poziomu t{ł}umienia drgań w k{ł}adkach dla pieszych - Salamak, Marek) Accession Number: edsbas.3B29E20D; Contributors: Weseli, Jerzy. Promotor; Publication Type: Thesis; Language: Polish; Format: application/pdf; Publication Date: 20030101; Rights: w{ł}asność autora ; zasób dostȩpny wy{ł}a̧cznie z komputerów Biblioteki G{ł}ównej PŚl ; brak możliwości drukowania i edycji dokumentu; Imprint: Poland, Europe: [s.n.], 2003. Related Material: oai:delibra.bg.polsl.pl:publication:4703 Related Material: Wydzia{ł} Budownictwa. Politechnika Śla̧ska}
+      \field{title}{{Doświadczalne metody określania poziomu t{ł}umienia drgań w k{ł}adkach dla pieszych}}
+      \field{type}{phdthesis}
+      \field{year}{2003}
+      \verb{file}
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Salamak - 2003 - Do{\'{s}}wiadczalne metody okre{\'{s}}lania poziomu t{\l}umienia drga{\'{n}} w k{\l}adkach dla pieszych.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/105/Salamak - 2003 - Do{\'{s}}wiadczalne metody okre{\'{s}}lania poziomu t{\l}umienia .pdf http://han.bg.pg.edu.pl/han/ebsco/sea
+      \endverb
+      \verb{url}
+      \verb http://files/105/Salamak%20-%202003%20-%20Do%7B%5C'%7Bs%7D%7Dwiadczalne%20metody%20okre%7B%5C'%7Bs%7D%7Dlania%20poziomu%20t%7B%5Cl%7Dumienia%20.pdf%20http://han.bg.pg.edu.pl/han/ebsco/sea
+      \endverb
+      \keyw{drgania,dynamika mostów,konstrukcje inżynierskie,konstrukcje mostowe,k{ł}adki dla pieszych,mosty dla pieszych,t{ł}umienie drgań}
     \endentry
     \entry{Schutter2000}{article}{}
       \name{author}{1}{}{%
@@ -2427,6 +2828,47 @@
       \field{pages}{259\bibrangedash 265}
       \range{pages}{7}
     \endentry
+    \entry{Yamaguchi1997}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8b72c2fc0659c20078b22fb594e43e4c}{%
+           family={Yamaguchi},
+           familyi={Y\bibinitperiod},
+           given={Hiroki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43f81c67b0869ad1ae1625fb3da6375c}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Manabu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{1350badf96f578c77d9510461640ee68}
+      \strng{fullhash}{1350badf96f578c77d9510461640ee68}
+      \strng{bibnamehash}{1350badf96f578c77d9510461640ee68}
+      \strng{authorbibnamehash}{1350badf96f578c77d9510461640ee68}
+      \strng{authornamehash}{1350badf96f578c77d9510461640ee68}
+      \strng{authorfullhash}{1350badf96f578c77d9510461640ee68}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-6105}
+      \field{journaltitle}{Journal of wind engineering and industrial aerodynamics}
+      \field{title}{{Mode-dependence of structural damping in cable-stayed bridges}}
+      \field{volume}{72}
+      \field{year}{1997}
+      \field{pages}{289\bibrangedash 300}
+      \range{pages}{12}
+      \verb{file}
+      \verb :C\:/Users/przem/Desktop/1-s2.0-S0167610597002493-main.pdf:pdf
+      \endverb
+    \endentry
     \entry{Zhang2004}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=3aed92084155d1c9b4b8a70af7f7d618}{%
@@ -2545,16 +2987,11 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{allemang_modal_2003}
   \missing{bendat_random_2011}
   \missing{brownjohn_ambient_2010}
   \missing{caicedo_practical_2011}
-  \missing{chopra_dynamics_2012}
-  \missing{ewins_modal_2000}
   \missing{hollkamp_modal_2001}
   \missing{nayeri_study_2009}
-  \missing{pappa_consistent-mode_1992}
-  \missing{rainieri_operational_2014}
   \missing{rucka_dynamika_2014}
   \missing{siringoringo_system_2008}
   \missing{szafranski_oddzialywania_2013}

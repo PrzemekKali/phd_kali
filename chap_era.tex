@@ -278,7 +278,7 @@ Pomimo, że powyższe metody są opisane dla układu SDOF, są łatwo uogólnian
 
 \subsection{Odpowiedź systemów dynamicznych o skończonej liczbie stopni swobody (MDOF)} \label{section: mdof_response}
 
-Systemy o skończonej liczbie stopni swobody mogą charakteryzować się tłumieniem klasycznym (proporcjonalnym) bądź nieklasycznym (nieproporcjonalnym). Mogą być liniowe lub nieliniowe geometrycznie lub materiałowo. Czynniki te mają wpływ na wybór metody przewidywania odpowiedzi takiego układu. Macierzowe równanie ruchu dla układu o $N$ stopniach swobody możemy zapisać jako $N$ równań różniczkowych w formie (\ref{eq: mot_und}) dla wygody ponownie opisanej równaniem (\ref{eq: mot_und_num})
+Systemy o skończonej liczbie stopni swobody mogą charakteryzować się tłumieniem klasycznym (proporcjonalnym) bądź nieklasycznym (nieproporcjonalnym). Mogą być liniowe lub nieliniowe geometrycznie lub materiałowo. Czynniki te mają wpływ na wybór metody przewidywania odpowiedzi takiego układu. Macierzowe równanie ruchu dla układu o $N$ stopniach swobody możemy zapisać jako $N$ równań różniczkowych w formie (\ref{eq: mot_und_num})
 \begin{equation} \label{eq: mot_und_num}
 	\vect{M} \vect{\ddot{x}}(t) +\vect{C} \vect{\dot{x}}(t)+ \vect{Kx}(t) = \vect{F}(t)
 \end{equation}
@@ -364,6 +364,54 @@ gdzie współczynniki $\beta$ i $\gamma$ definiują zmienność przyspieszeń w 
 	\item przyspieszenie zmienne liniowo - $\gamma = \frac{1}{2},\: \beta = \frac{1}{6}$
 \end{itemize}[noitemsep]
 Metoda numeryczna do wyznaczenia trzech niewiadomych $\vect{\ddot{x}}_{i+1}$, $\vect{\dot{x}}_{i+1}$ i $\vect{x}_{i+1}$ wymaga układu trzech równań macierzowych. Zatem dwa zaproponowane równania \ref{eq: newmark_a} i \ref{eq: newmark_b}, połączone z równaniem równowagi (\ref{eq: motion_time_step}) zapewnionym na końcu kroku czasowego, pozwalają wyznaczyć przemieszczenia, prędkość i przyspieszenia w chwili $t_{i+1}$. Ze względu na występowanie w równaniach (\ref{eq: newmark}) składników w chwili czasowej $i+1$ po obu stronach równania, algorytm musi mieć charakter iteracyjny. Jednakże istnieją modyfikacje równań, które dla układów liniowych pozwalają rozwiązać układ w jednym kroku.
+
+\section{Mała dawka tłumienia}
+Drgania układów rzeczywistych nierozerwalnie związane są tłumieniem.  Wśród polskich autorów obszerne rozważania na temat tłumienia drgań mostów przeprowadził \cite{Salamak2003}. Określa on tlumienie drgań jako rozproszenie energii mechanicznej drgającego układu. Tłumienie można podzielić ze względu na źródło na konstrukcyjne i zewnętrzne. W przypadku liniowych układów zazwyczaj przyjmuje się tłumienie klasyczne, proporcjonalne opisane jak w równaniu \ref{eq: mot_und_num}.
+Obecnie nie ma możliwości analitycznego wyznaczenia wartości tłumienia dla projektowanej konstrukcji. Istnieją opracowania poparte badaniami informujące o zalecanych wartościach tłumienia jakie należy przyjąć przy projektowaniu danej konstrukcji. Przykładowe wartości oraz wzory empiryczne można odnaleźć w pracach \parencite{Salamak2003, Fryba1999,Bachmann2012,Yamaguchi1997}.
+W literaturze można odnaleźć kilka miar tłumienia. Pierwszą z nich jest liczba tłumienia \teng{damping ratio} nazywana również ułamkiem tłumienia lub tłumieniem względnym. Definiuje się ją jako stosunek współczynnika tłumienia wiskotycznego do tłumienia krytycznego. Dla jednego stopnia swobody (por. (\ref{eq: eq_mot_sdof})) liczę tłumienia można zapisać formułą (\ref{eq: damping_ratio_def}).
+\begin{equation} \label{eq: damping_ratio_def}
+	\zeta = \frac{c}{c_{kr}}=\frac{c}{2m\omega}
+\end{equation}
+Tłumieniem krytycznym nazywamy wartość tłumienia, po przekroczeniu której ruch staje się aperiodyczny. Dla tłumienia równego tłumieniu krytycznemu liczba tłumienia jest równa 1. W przypadku mostów liczba tłumienia zwykle nie przekracza 10\% \parencite{Salamak2003}. 
+
+Inną miarą tłumienia jest Logarytmiczny Dekrement Tłumienia (LDT). Określa się go jako logarytm naturalny stosunku dwóch kolejnych amplitud drgań swobodnych danego modu (\ref{eq: LDT_1}).
+\begin{equation} \label{eq: LDT_1}
+	LDT = \ln{\frac{a_n}{a_{n+1}}}
+\end{equation}
+Przy małym tłumieniu wartości dwóch kolejnych amplitud mogą różnić się nieznacznie, a więc błąd powstały przy odczycie może być duży. W takim przypadku zalecane jest wyznaczenie średniego dekrementu z odleglejszych w czasie amplitud, Odczytując wartość $n$-tej amplitudy i $n+m$-tej amplitudy wartość LDT można wyznaczyć z równania:
+ \begin{equation} \label{eq: LDT_N}
+ 	\text{LDT} = \frac{1}{m}\ln{\frac{a_n}{a_{n+m}}}
+ \end{equation}
+Zależność pomiędzy LDT, a liczbą tłumienia określona jest następująco:
+ \begin{equation} \label{eq: LDT_dampingratio}
+	\text{LDT} = \ln{\frac{q(t)}{q(t+T)}}=\ln{\frac{e^{-\zeta\omega t}}{e^{-\zeta\omega(t+T)}}} =\ln{e^{\zeta\omega t}}=\zeta\omega T = \zeta\omega\frac{2\pi}{\omega_d}=\frac{2\pi\zeta}{\sqrt{1-\zeta^2}}
+\end{equation}
+gdzie: $\omega_d$ - częstość drgań tłumionych $(\omega_d=\sqrt{1-\zeta^2})$, $T$ - okres drgań tłumionych $T=\frac{2\pi}{\omega_d}$. W przypadku drgań konstrukcji budowlanych liczba tłumienia jest z reguły niewielka $(\zeta<0.1)$. Z tego względu częstość drgań własnych tłumionych i nietłumionych są zbliżone. W takim przypadku zależność pomiędzy LDT, a liczbą tłumienia często upraszcza się do postaci przybliżonej:
+\begin{equation}
+\text{LDT} \approx 2\pi\zeta
+\end{equation}
+
+Spośród metod pozwalających na uwzględnienie tłumienia w obliczeniach najpopularniejszą jest tłumienie masowo-sztywnościowe Rayleigh'a \parencite{Chopra2012a}. Opiera się ono na stworzeniu macierzy tłumienia $\matr{C}$ bazując na liniowej kombinacji macierzy mas $\matr{M}$ i macierzy sztywności $\matr{K}$ (por. \ref{eq: mot_und_num}):
+\begin{equation} \label{eq: rayleigh_damping}
+	\matr{C}=a_0\matr{M}+a_1\matr{K}
+\end{equation}
+W przypadku zastosowania tłumienia Rayleigh'a liczba tłumienia odpowiadająca danemu modowi wyznaczona jest z wzoru:
+\begin{equation} \label{eq: damping_rayleigh}
+	\zeta_n = \frac{a_0}{2}\frac{1}{\omega_n} + \frac{a_1}{2}\omega_n
+\end{equation}
+Z kolei przyjmując liczbę tłumienia o określonej wartości można wyznaczyć wartości parametrów $a_0$ i $a_1$. Dla danych częstości $\omega_i$ i $\omega_j$ współczynniki Rayleigh'a wyznaczyć można z wzorów (\ref{eq: raileigh_parameters}).
+\begin{equation} \label{eq: raileigh_parameters}
+	a_0 = \zeta\frac{2\omega_i\omega_j}{\omega_i+\omega_j} \qquad a_1 = \zeta\frac{2}{\omega_i+\omega_j}
+\end{equation}
+Wpływ składowych macierzy tłumienia pochodzących od macierzy mas i macierzy sztywności najlepiej zobrazować na przykładzie jednego stopnia swobody. Jakościowo wpływ przedstawiono na rysunku \ref{fig: rayleigh_chart}.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[]{/rayleigh/rayleigh_chart.pdf}
+	\captionsetup{justification=centering}
+	\caption{Wizualizacja wpływu masy i sztywności na macierz tłumienia według Rayleigh'a}
+	\label{fig: rayleigh_chart}
+\end{figure}
+Z rysunku \ref{fig: rayleigh_chart} można wysnuć przydatne z praktycznego punktu widzenia wnioski. Założone tłumienie $\zeta$ jest spełnione jedynie dla dwóch użytych w formułach \ref{eq: raileigh_parameters} częstości $\omega_i$ i $\omega_j$. Składnik $c_1=a_1 k$ wzrasta liniowo wraz ze wzrostem częstości. Z kolei składnik $c_0 = a_0 m$ maleje nieliniowo wraz ze wzrostem częstości. Sumaryczna wartość obu składników z reguły gwarantuje dla wąskiego przedziału częstości $<\omega_i ,\omega_j>$ tłumienie zbliżone do zakładanego.
 
 
 \section{Operacyjna analiza modalna (OMA)}
@@ -1000,13 +1048,13 @@ W początkowej fazie tworzenia zaplanowano następującą funkcjonalność progr
 	\item elementy kontroli obliczeń: zmiana parametrów metod, wybór elementów przetwarzania sygnałów,
 	\item elementy wizualizacji wyników: wykresy sygnałów, animacja postaci drgań własnych, postaci we współrzędnych biegunowych, diagramy stabilizacyjne metody NExT-ERA.
 \end{itemize}
-Aplikację napisano w języku Python 3.6 głównie z użyciem bibliotek NUMPY i SCIPY do obliczeń oraz MATPLOTLIB do tworzenia wizualizacji. Dodano interfejs graficzny wykorzystujący technologię Qt. Elementy interfejsu pokazano na rysunkach (!!!).
+Aplikację napisano w języku Python 3.6 głównie z użyciem bibliotek NUMPY i SCIPY do obliczeń oraz MATPLOTLIB do wizualizacji rezultatów. Dodano interfejs graficzny wykorzystujący technologię Qt. Elementy interfejsu pokazano na rysunku \ref{fig: okno_programu_widok}.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{/program/okno_programu.JPG}
 	\captionsetup{justification=centering}
-	\caption{Widok na okno główne autorskiej aplikacji do identyfikacji modalnej}
+	\caption{Widok na okno główne stworzonej aplikacji do identyfikacji modalnej}
 	\label{fig: okno_programu_widok}
 \end{figure}
 
@@ -1031,15 +1079,15 @@ Pierwszym głównym etapem w algorytmie NExT-ERA jest wyznaczenie funkcji korela
 
 Uśrednianie serii pomiarowych z tym samym ustawieniem punktów pomiarowych odbywa się przez sumowanie gęstości widmowych mocy z powtórzonych serii pomiarowych i podzieleniu przez liczbę powtórzonych serii. Pomimo zestawienia funkcji gęstości widmowych mocy w wektory, wszystkie wspomniane wyżej operacje mnożenia i dzielenia funkcji gęstości widmowych mocy polegają na działaniu na poszczególne prążki spektrum, a nie na klasycznym rozumieniu mnożenia i dzielenia wektorów. 
 
-Ważnym elementem w procesie identyfikacji modalnej jest korzystanie z diagramów stabilizacyjnych. W przypadku obarczonych szumem pomiarów przyjęty rząd modelu musi być zadeklarowany jako większy niż miało by to miejsce w idealnych warunkach. Diagram stabilizacyjny pozwala na określenie minimalnego rzędu modelu, przy którym występują wszystkie interesujące mody i są one stabilne. Zastosowanie diagramów stabilizacyjnych opisano między innymi w (!!!). W programie zastosowano dwie wersje diagramów: niefiltrowaną i filtrowaną. Wersja niefiltrowana obrazuje wszystkie wyznaczone mody: rzeczywiste i fikcyjne. Odróżnia je w zależności od wyników dla niższego rzędu modelu. Jeśli istnieje w modelu o rząd niższym mod spełniający odpowiednie kryteria to jest on uznany za rzeczywisty. Zastosowane w programie kryteria to:
+\subsection{Elementy oceny poprawności rozwiązania}
+Ważnym elementem w procesie identyfikacji modalnej jest ocena poprawności uzyskanego rozwiązania. W tym celu najczęściej wykorzystywane są diagramy stabilizacyjne. W przypadku pomiarów obarczonych szumem, przyjęty rząd modelu musi być zadeklarowany jako większy niż miało by to miejsce w idealnych warunkach. Diagram stabilizacyjny pozwala na określenie minimalnego rzędu modelu, przy którym występują wszystkie interesujące mody i są one stabilne. Zastosowanie diagramów stabilizacyjnych opisano między innymi w (!!!). W programie zastosowano dwie wersje diagramów: niefiltrowaną i filtrowaną. Wersja niefiltrowana obrazuje wszystkie wyznaczone mody: rzeczywiste i fikcyjne. Odróżnia je w zależności od wyników dla niższego rzędu modelu. Jeśli istnieje w modelu o rząd niższym mod spełniający odpowiednie kryteria to jest on uznany za rzeczywisty. Zastosowane w programie domyślne kryteria to:
 \begin{itemize}
 	\item częstotliwość w dwóch kolejnych krokach nie może się różnić o więcej niż 1\%,
 	\item tłumienie w dwóch kolejnych krokach nie może się różnić o więcej niż 5\%,
-	\item parametr MAC dla dwóch kolejnych modów musi być większy niż 0.9,
-	\item parametr MPC dla dwóch kolejnych modów musi być większy niż 0.8.
+	\item parametr MAC dla postaci w dwóch kolejnych krokach musi być większy niż 0.9,
+	\item parametr MPC postaci modu musi być większy niż 0.8.
 \end{itemize}
-
-Diagram filtrowany w czytelny sposób pozwala przedstawić jedynie mody uznane za rzeczywiste. Jego stworzenie opiera się na następujacych krokach:
+Diagram niefiltrowany obrazuje rozkład zidentyfikowanych modów w domenie częstotliwości. Wstępnie pozwala ocenić czy istnieją mody stabilne (częstotliwość i tłumienie), o rzeczywistych wektorach postaci (MPC) i o niezmiennej formie (MAC). W przypadku dużego rzędu modelu i bliskich sobie modów trudno jednoznacznie odnaleźć jedynie poprawne rozwiązania. Z tego względu stworzono również wersję filtrowaną diagramu stabilizacyjnego. Diagram filtrowany w znacznie bardziej czytelny sposób pozwala przedstawić jedynie mody uznane za rzeczywiste. Jego generacja opiera się na następujących krokach:
 \begin{itemize}
 	\item Podział dziedziny częstotliwości na wąskie pasma (np. 1\% dolnej granicy pasma) i podział wszystkich punktów według przynależności do poszczególnych pasm,
 	\item Odrzucenie punktów, dla których tłumienie jest zbyt duże ($\text{LDT}\ge0.3$) lub ujemne,
@@ -1047,12 +1095,11 @@ Diagram filtrowany w czytelny sposób pozwala przedstawić jedynie mody uznane z
 	\item Wyznaczenie wartości średniej i odchylenia standardowego częstotliwości, tłumienia i parametrów MAC i MPC dla punktów pasma. Jeżeli wartości średnie pomniejszone o odchylenie standardowe są spełniają dopuszczalne warunki, to zestaw punktów uznany jest za określający rzeczywisty mod. Jeżeli nie, wyszukiwany jest punkt charakteryzujący się najgorszym parametrem MAC lub MPC albo zbyt różniącą się liczbą tłumienia i jest odrzucany. Następnie ponownie oceniana jest wartość średnia i odchylenie standardowe. Proces ten toczy się do momentu odrzucenia wszystkich punktów lub spełnienia kryteriów uznania mod za rzeczywisty.
 	\item Ostatecznie jako rzeczywiste i stabilne określane są mody, dla których liczba punktów w paśmie jest większa od wartości minimalnej. Domyślnie jest to 20\% maksymalnego rzędu modelu na diagramie.
 \end{itemize}
+Wskaźniki MAC i MPC są istotną częścią algorytmu programu i służą ocenie poprawności wyników. Poniżej przytoczono ich definicje i podstawowe właściwości. 
 
-
-Parametry MAC i MPC są istotną częścią programu i służą ocenie poprawności wyników. Poniżej przytoczono ich definicje.
-
-Wynikiem przeprowadzonej analizy modalnej są postaci i częstotliwości o wartościach zespolonych. Postaci zidentyfikowane na podstawie pomiarów wartości rzeczywistych powinny stanowić wektory o współrzędnych rzeczywistych. W przypadku modów normalnych wszystkie punkty konstrukcji drgają dokładnie w fazie lub w przeciw fazie względem siebie. Przeciwnie, kiedy postaci są wektorami zespolonymi przemieszczenia osiągają wartości ekstremalne w różnych chwilach czasowych dla różnych stopni swobody. \cite{ewins_modal_2000,chopra_dynamics_2012} podają przykładowe przyczyny powstania postaci o wektorach zespolonych. Są to m.in. efekt żyroskopowy, efekty aerodynamiczne, nieliniowość czy nieproporcjonalne tłumienie.Zidentyfikowane mody zwykle występują w postaci zespolonej. Wynika to z relatywnie niskiego wskaźnika sygnału do szumu \parencite{rainieri_operational_2014}. Mimo to, "stopień zespolenia" jest zwykle niewielki i w praktycznych zastosowaniach błąd wynikający z tej cechy może być zaniedbany. Mimo to ważnym jest żeby rozróżnić, które mody są normalne, a które w dużej mierze zespolone. Jedną z najprostszych metod jest wykreślenie współrzędnych składników postaci w zespolonym układzie współrzędnych. Metoda została szerzej opisana w \parencite{ewins_modal_2000}. Podstawą jest, że jeśli w konstrukcji występuje tłumienie proporcjonalne to składniki danej postaci układają się na linii prostej w zespolonym układzie współrzędnych \parencite{rainieri_operational_2014}).
-Do ilościowego określenia stopnia przestrzennej spójności moda \cite{pappa_consistent-mode_1992} opracowali wskaźnik MPC (\textit{Modal Phase Collinearity}). Jest on dla $i$-tego moda określony wzorem \ref{eq:mpc_ratio}.
+\subsubsection{Model Phase Colinearity (MPC)}
+Wynikiem przeprowadzonej analizy modalnej są postaci i częstotliwości o wartościach zespolonych. Postaci zidentyfikowane na podstawie pomiarów wartości rzeczywistych powinny stanowić wektory o współrzędnych rzeczywistych. W przypadku modów normalnych wszystkie punkty konstrukcji drgają dokładnie w fazie lub w przeciw fazie względem siebie. Przeciwnie, kiedy postaci są wektorami zespolonymi, przemieszczenia osiągają wartości ekstremalne w różnych chwilach czasowych dla różnych stopni swobody. \cite{Ewins2000,Chopra2012a} podają przykładowe przyczyny powstania postaci o wektorach zespolonych. Są to m.in. efekt żyroskopowy, efekty aerodynamiczne, nieliniowość czy nieproporcjonalne tłumienie. Zidentyfikowane mody zwykle występują w postaci zespolonej. Wynika to z relatywnie niskiego wskaźnika sygnału do szumu \parencite{Rainieri2014}. Mimo to, "stopień zespolenia" jest zwykle niewielki i w praktycznych zastosowaniach błąd wynikający z tej cechy może być zaniedbany. Mimo to ważnym jest żeby rozróżnić, które mody są normalne, a które w dużej mierze zespolone. Jedną z najprostszych metod jest wykreślenie współrzędnych składników postaci w układzie biegunowym. Metoda została szerzej opisana w \parencite{Ewins2000}. Zasadą jest, że jeśli w konstrukcji występuje tłumienie proporcjonalne to składniki danej postaci układają się na linii prostej w zespolonym układzie współrzędnych \parencite{Rainieri2014}).
+Do ilościowego określenia stopnia przestrzennej spójności modu \cite{Pappa1992} opracowali wskaźnik MPC (\textit{Modal Phase Collinearity}). Jest on dla $i$-tego moda określony wzorem \ref{eq:mpc_ratio}
 \begin{equation}
 	{S}_{xx}={\mathbf{\Phi}'}_{i}^{\mathsf{T}} {\mathbf{\Phi}} '_{i} \quad
 	%\end{equation}
@@ -1076,13 +1123,33 @@ Do ilościowego określenia stopnia przestrzennej spójności moda \cite{pappa_c
 \begin{equation} \label{eq:mpc_ratio}
 	\mathrm{MPC}_{i}=\left[2\cdot\left(\frac{\lambda_{1}}{\lambda_{1}+\lambda_{2}}-0.5\right)\right]^{2}
 \end{equation}
-gdzie $\mathrm{sgn}(\cdot)$ oznacza funkcję zwracającą znak liczby. Wskaźnik MPC jest bezwymiarowy. Przyjmuje wartości z zakresu od 0 dla modów z zupełnie nieskorelowanymi kątami fazowymi do 1 dla modów jednofazowych. Przykłady zastosowania tego wskaźnika zaprezentowano w pracach 
+gdzie $\mathrm{sgn}(\cdot)$ oznacza funkcję zwracającą znak liczby. Wskaźnik MPC jest bezwymiarowy i przyjmuje wartości z zakresu od 0 (dla modów z zupełnie nieskorelowanymi kątami fazowymi) do 1 (dla modów jednofazowych). Przykłady zastosowania tego wskaźnika zaprezentowano w pracach (!!!).
+\subsubsection{Modal Assurance Criterion (MAC)}
 
-Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przypadku aplikacji służącej celom naukowym, gdzie zakłada się pewien poziom wiedzy i świadomości użytkownika zdecydowano, że testom poddane zostanie jedynie jądro programu - algorytm NExT-ERA. W tym celu założono wykonanie dwóch testów: numerycznego i laboratoryjnego. Test numeryczny ma opierać się na wykonaniu modelu obliczeniowego w oprogramowaniu MES, a następnie obciążeniu go losowo (w przybliżeniu szumem białym) i wykonaniu analizy dynamicznej. Test laboratoryjny ma polegać na pomiarze i analizie drgań środowiskowych rzeczywistego obiektu badawczego. Przedmiotem badań była konstrukcja o schemacie statycznym bliskim belce swobodnie podpartej. Model numeryczny wykonano w programie MES bazujac na inwentaryzacji wymiarów obiektu laboratoryjnego. Szczegółowe założenia testów, ich przebieg i rezultaty podano poniżej. 
+Kryterium MAC (Modal Assurance Criterion) pozwala ocenić miarę dopasowania (stopień liniowości) dwóch wektorów modalnych \parencite{Allemang1982}. Jest to podstawowe i najbardziej popularne kryterium służące porównaniu wektorów modalnych \cite{Rainieri2014}. Jego wartość waha się od 0 (dla braku dopasowania) do 1 (dla idealnego dopasowania). Definicja wskaźnika dana jest wzorem \ref{eq: MAC_definition}.
+\begin{equation} \label{eq: MAC_definition}
+	MAC_n = \frac{ (\vect{\psi_{n,a}}^H\vect{\psi_{n,e}})^2}
+	{\vect{\psi_{n,a}}^H\vect{\psi_{n,a}}\vect{\psi_{n,e}}^H\vect{\psi_{n,e}}}
+\end{equation}
+gdzie $\vect{\psi_{n,a}} \text{i} \vect{\psi_{n,e}}$ to wektory postaci drgań własnych, a $(\cdot)^H$ oznacza sprzężenie Hermitowskie wektora.
+Należy pamiętać, że kryterium MAC nie wskazuje czy rozwiązanie jest poprawne lub czy wektory modalne są ortogonalne. Wynik pokazuje jedynie dopasowanie dwóch wektorów. Wskaźnik MAC jest nieodporny na błędy zawarte jednocześnie w obu wektorach. Z tego względu za każdym razem należy kontrolować założenia metody. Zbiór wskazówek do stosowania kryterium MAC w swojej pracy zawarł \cite{Allemang2003}. Poza swoistą instrukcją użycia wskaźnika, wskazuje on następujące główne przyczyny niemiarodajnych wyników przy korzystaniu z kryterium MAC:
+\begin{itemize}
+	\item traktowanie kryterium MAC jako informacji o ortogonalności wektorów,
+	\item nieprawidłowe matematyczne sformułowanie kryterium, głównie zastąpienie sprzężenia Hermitowskiego transpozycją. Zmiana ta jest słuszna wyłącznie przy rzeczywistych wektorach modalnych,
+	\item duże różnice w wartościach współrzędnych wektorów. Kryterium jest bardzo wrażliwe na duże wartości, a niewrażliwe na małe wartości,
+	\item przyjęcie zbyt małej liczby współrzędnych wektora,
+	\item wypełnienie zerami współrzędnych wektora, na temat których nie ma żadnej informacji.
+\end{itemize}
 
-MAC - \parencite{allemang_modal_2003} formuła musi być dla zespolonych a nie tylko transpozycja!
+Ze względu na ograniczenia kryterium MAC, od momentu jego powstania powstał szereg pokrewnych wskaźników. Są to między innymi: Coordinate Modal Assurance Criterion (COMAC) \parencite{Ewins2000}, Enhanced Coordinate Modal Assurance Criterion (ECOMAC) \parencite{Hunt1992} czy Inverse Modal Assurance Criterion (IMAC) \parencite{MITCHELL1998}. Każde z kryteriów zostało zmodyfikowane w celu wyeliminowania konkretnego ograniczenia oryginalnej wersji. Zestawienie i opis wielu z nich przedstawiono miedzy innymi w pracach \parencite{Allemang2003,Rainieri2014,Szafranski2013,Salamak2003} 
+
+Poza diagramem stabilizacyjnym, w niniejszej pracy kryterium MAC zostało również użyte przy doborze lokalizacji czujników w trakcie pomiarów na konstrukcji rzeczywistej. Jest to kolejne z popularnych zastosowań współczynnika MAC \parencite{Allemang2003}. Polega na takim doborze punktów pomiarowych, aby zidentyfikowane w tych punktach postaci drgań były od siebie maksymalnie różne. Opis przyjętego rozwiązania i wyniki obliczeń przedstawiono w wynikach badań w rozdziale (!!!).
+
+
+
+
 \section{Testy numeryczne metody NEXT-ERA}
-Test numeryczny wykonano na modelu ramy przestrzennej o zewnętrznym schemacie statycznym bliskim belce swobodnie podpartej. Model wykonano w środowisku MES SOFiSTiK z użyciem jednowymiarowych elementów belkowych. Wizualizację oraz schemat statyczny pokazano na rysunku \ref{fig: test_beam_wis_model}.
+Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przypadku aplikacji służącej celom naukowym, gdzie zakłada się pewien poziom wiedzy i świadomości użytkownika zdecydowano, że testom poddane zostanie jedynie jądro programu - algorytm NExT-ERA. W tym celu założono wykonanie dwóch testów: numerycznego i laboratoryjnego. Test numeryczny ma opierać się na wykonaniu modelu obliczeniowego w oprogramowaniu MES, a następnie obciążeniu go losowo (w przybliżeniu szumem białym) i wykonaniu analizy dynamicznej. Test laboratoryjny ma polegać na pomiarze i analizie drgań środowiskowych rzeczywistego obiektu badawczego. Przedmiotem badań była konstrukcja o schemacie statycznym bliskim belce swobodnie podpartej. Model numeryczny wykonano w programie MES bazujac na inwentaryzacji wymiarów obiektu laboratoryjnego. Szczegółowe założenia testów, ich przebieg i rezultaty podano poniżej. Test numeryczny wykonano na modelu ramy przestrzennej o zewnętrznym schemacie statycznym bliskim belce swobodnie podpartej. Model wykonano w środowisku MES SOFiSTiK z użyciem jednowymiarowych elementów belkowych. Wizualizację oraz schemat statyczny pokazano na rysunku \ref{fig: test_beam_wis_model}.
 \begin{figure}[h]
 	\centering
 	\subfloat[Wizualizacja]{\includegraphics[width=0.5\linewidth]{/test_blue/sof_wis/wis_small002.png}}%
@@ -1101,7 +1168,7 @@ Przed przystąpieniem do analizy wygenerowano 5000 losowych przypadków obciąż
 	\item jeśli siła została przyłożona, jej wartość jest losowana z zakresu od -3 do 3 N dla każdego węzła indywidualnie,
 	\item w trakcie analizy, w każdym kroku czasowym losowany jest jeden przypadek obciążenia z wygenerowanych 5000.
 \end{itemize}
-Rozwiązano problem własny dynamiki przedmiotowego modelu i otrzymano rezultaty jak na rysunku \ref{fig: modal_mods_blue_beam}).
+Rozwiązano problem własny dynamiki przedmiotowego modelu i otrzymano rezultaty jak na rysunku \ref{fig: modal_mods_blue_beam}.
 
 \begin{figure}[h]
 	\centering
@@ -1130,7 +1197,7 @@ Rozwiązano problem własny dynamiki przedmiotowego modelu i otrzymano rezultaty
 	\label{fig: modal_mods_blue_beam}
 \end{figure}
 
- Odpowiedź konstrukcji na wymuszenie losowe wyznaczono metodą time-step Newmarka-Wilsona. Zdecydowano o sprawdzeniu modów w zakresie do około 250Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 1/2500 s$. Zgodnie z kryterium Nyquista taki krok pozwala identyfikować drgania teoretycznie do częstotliwości 1250 Hz. Niemniej jednak, sygnał wyjściowy powinien zostać nadpróbkowany znacznie bardziej niżeli dwukrotnie. Odpowiedź z rozwiązania numerycznego powinna być wyznaczona z próbkowaniem ok 10-15 razy większym niż częstotliwość najwyższego, interesującego modu \parencite{Zotowski2017c}. Większość modów odczytanych z analizy modalnej mieści się w zamierzonym zakresie do 250 Hz. Mody powyżej 250 Hz zostaną również uwzględnione w analizie dla pokazania zmniejszenia dokładności z uwagi na zbyt rzadkie próbkowanie. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT sygnału złożonego z wartości obciążenia czterech węzłów w funkcji czasu. Widma częstotliwościowe przedstawiono na rysunku \ref{fig: fft_load_input_blue_beam}. Całkowity czas analizy przyjęto równy 25s ($25*2500=62500$ kroków czasowych). Widmo częstotliwościowe nie ujawnia żadnej dominującej częstotliwości i można uznać je za równe w całym zakresie.
+ Odpowiedź konstrukcji na wymuszenie losowe wyznaczono metodą time-step Newmarka-Wilsona. Zdecydowano o sprawdzeniu modów w zakresie do około 250Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 1/2500 s$. Zgodnie z kryterium Nyquista taki krok pozwala identyfikować drgania teoretycznie do częstotliwości 1250 Hz. Niemniej jednak, sygnał wyjściowy powinien zostać nadpróbkowany znacznie bardziej niżeli dwukrotnie. Aby zapewnić dokładność rezultatu, odpowiedź z rozwiązania numerycznego powinna być wyznaczona z próbkowaniem ok 10-15 razy większym niż częstotliwość najwyższego, interesującego modu \parencite{Zotowski2017c}. Większość modów odczytanych z analizy modalnej mieści się w zamierzonym zakresie do 250 Hz. Kilka modów powyżej 250 Hz zostanie również uwzględnione w analizie dla pokazania zmniejszenia dokładności z uwagi na zbyt rzadkie próbkowanie. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Tłumienie konstrukcji przyjęto jako masowo-sztywnościowe według metody Rayleigha (\ref{eq: rayleigh_damping}). Współczynniki metody wyznaczono zakładając tłumienie $\text{LDT}=3\%$ dla częstotliwości 20 Hz i 160 Hz. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT sygnału złożonego z wartości obciążenia czterech węzłów w funkcji czasu. Widma częstotliwościowe przedstawiono na rysunku \ref{fig: fft_load_input_blue_beam}. Całkowity czas analizy przyjęto równy 25s ($25*2500=62500$ kroków czasowych). Widmo częstotliwościowe nie ujawnia żadnej dominującej częstotliwości i można uznać je za równe w całym zakresie.
 \begin{figure}[h]
 	\centering
 	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue/input_load/input_load_1.pdf}}%
@@ -1190,65 +1257,65 @@ Funkcje posiadają wyraźnie gasnący, okresowy charakter. Następnie wyznaczone
 \begin{figure}[h!]
 	\centering
 	\begin{tabular}[c]{c}
-		\subfloat[Mod 1, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod1}%
+		\subfloat[Mod 1, $f_1=19.701 \text{Hz}$]{\label{fig: test_blue_mod1}%
 			\begin{tabular}[b]{c c c}
 				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_0_time_22_08_38.pdf}%
 				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_0_time_22_08_55.pdf}%
 				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_0_time_22_07_54.pdf}%
 			\end{tabular}}\\
 		
-		\subfloat[Mod 2, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod2}%
+		\subfloat[Mod 2, $f_2=54.958 \text{Hz}$]{\label{fig: test_blue_mod2}%
 			\begin{tabular}[b]{c c}
 				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_2_time_22_09_15.pdf}%
 				\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_2_time_22_09_26.pdf}%
 				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_2_time_22_09_04.pdf}%
 		\end{tabular}}\\
-		\subfloat[Mod 3, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod3}%
+		\subfloat[Mod 3, $f_3=77.331 \text{Hz}$]{\label{fig: test_blue_mod3}%
 		\begin{tabular}[b]{c c}
 			\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_4_time_22_09_56.pdf}%
 			\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_4_time_22_10_36.pdf}%
 		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_4_time_22_09_47.pdf}%
 	\end{tabular}}\\
-		\subfloat[Mod 4, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod4}%
+		\subfloat[Mod 4, $f_4=157.995 \text{Hz}$]{\label{fig: test_blue_mod4}%
 	\begin{tabular}[b]{c c}
 		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_6_time_22_10_59.pdf}%
 		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_6_time_22_11_12.pdf}%
 		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_6_time_22_10_52.pdf}%
 \end{tabular}}\\
 	\end{tabular}
-\caption{Full caption }
+\caption{Zidentyfikowane charakterystyki modalne belki testowej}
 \label{fig: mods_blue_beam}
 \end{figure}
 
 \begin{figure}[h!]\ContinuedFloat
 	\centering
 	\begin{tabular}[c]{c}
-		\subfloat[Mod 5, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod5}%
+		\subfloat[Mod 5, $f_5=197.881 \text{Hz}$]{\label{fig: test_blue_mod5}%
 	\begin{tabular}[b]{c c c}
 		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_8_time_22_11_37.pdf}%
 		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_8_time_22_11_45.pdf}%
 		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_8_time_22_11_32.pdf}%
 \end{tabular}}\\
-		\subfloat[Mod 6, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod6}%
+		\subfloat[Mod 6, $f_6=205.290 \text{Hz}$]{\label{fig: test_blue_mod6}%
 	\begin{tabular}[b]{c c c}
 		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_10_time_22_12_47.pdf}%
 		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_10_time_22_12_15.pdf}%
 		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_10_time_22_14_19.pdf}%
 \end{tabular}}\\
-		\subfloat[Mod 7, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod7}%
+		\subfloat[Mod 7, $f_7=310.834 \text{Hz}$]{\label{fig: test_blue_mod7}%
 	\begin{tabular}[b]{c c c}
 		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_16_time_22_21_41.pdf}%
 		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_16_time_22_22_09.pdf}%
 		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_16_time_22_21_32.pdf}%
 \end{tabular}}\\
-		\subfloat[Mod 8, $f_1=1.1111 \text{Hz}$]{\label{fig: test_blue_mod8}%
+		\subfloat[Mod 8, $f_8=384.619 \text{Hz}$]{\label{fig: test_blue_mod8}%
 	\begin{tabular}[b]{c c c}
 		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_24_time_22_22_41.pdf}%
 		\includegraphics[width=0.35\linewidth]{/test_blue/blue_modes/fig_mod_24_time_22_22_48.pdf}%
 		\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_24_time_22_22_25.pdf}%
 \end{tabular}}\\
 	\end{tabular}
-\caption{Full caption cont.}
+\caption{Zidentyfikowane charakterystyki modalne belki testowej kont.}
 \end{figure}
 
 

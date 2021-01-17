@@ -1324,7 +1324,19 @@ Funkcje posiadają wyraźnie gasnący, okresowy charakter. Następnie wyznaczone
 
 
 \section{Testy eksperymentalne metody NEXT-ERA}
-W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. !!!). Belka została zamocowana do podłoża tak, żeby jedna z podpór miała możliwość przesuwu wzdłuż osi podłużnej. Na belce magnetycznie przymocowano czujniki akcelerometryczne. Rozmieszczono je w punktach odpowiadających węzłom modelu, w których odczytywano przyspieszenia z analizy. Wymuszenia belki odbywały przez delikatne dotknięcia i gładzenie belki. Przeprowadzono analizę sygnałów analogicznie jak dla modelu numerycznego. Diagramy stabilizacyjne pokazano na rysunku (!!!). Zidentyfikowane częstotliwości i postaci drgań zamieszczono na rysunku (!!!).
+W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. !!!). Belka została zamocowana do podłoża tak, żeby jedna z podpór miała możliwość przesuwu wzdłuż osi podłużnej. System pomiarowy składał się z wzmacniacza pomiarowego PMX firmy HBP, kabli i niskoszumowych, piezorezystywnych czujników akcelerometrycznych firmy TE CONNECTIVITY. Do obsługi wzmacniacza i akwizycji danych użyto program HBM Catman Easy. Czujniki przymocowano magnetycznie do belki. Zastosowano czujniki 3 osiowe, ale rejestrowano jedynie przyspieszenia pionowe i poprzeczne. Zakres pomiarowy akcelerometrów wynosi $\pm 2 \text{g}$, a gwarantowane szumy są określone jako mniejsze niż $25\mu \text{g RMS}$. Punkty pomiarowe przyjęto w punktach odpowiadających węzłom modelu, w których odczytywano przyspieszenia w testach numerycznych. Częstotliwość próbkowania w trakcie rejestracji przyjęto jako 2400 Hz. Wymuszenia belki odbywały przez delikatne dotknięcia i gładzenie belki palcami. Czas serii pomiarowej przyjęto zgodnie z zaleceniami opisanymi w \cite{Brincker2015}. Według autorów minimalny czas gwarantujący poprawne określenie tłumienia, bez ryzyka negatywnego wpływu obciążeń metody Welch'a, musi być dłuższy niż 20 okien czasowych użytych przy wyznaczeniu funkcji korelacji. Z tego względu zalecana minimalna długość pomiaru dana jest nierównością \ref{eq: minimum_oma_time_series}.
+\begin{equation} \label{eq: minimum_oma_time_series}
+	T_{tot} > \frac{20}{2\zeta f_{min}}=\frac{10}{\zeta f_{min}}
+\end{equation}
+gdzie $f_{min}$ oznacza najniższą częstotliwość drgań własnych układu. Dla podanego układu minimalna częstotliwość drgań własnych wyznaczona teoretycznie wynosi $f_{min}=19.7 \text{Hz}$, a przewidywana liczba tłumienia wynosi $\zeta \approx 0.005$. Minimalna długość serii pomiarowej wynosi więc $T_{min} = \frac{10}{0.005\cdot 19.7} = 101.5 \text{s}$. 
+
+Wyznaczono również stosunek poziomu sygnału do szumu posługując się wzorem (\ref{})
+\begin{equation}
+	SN = 20 \log{\frac{y_{max}}{\sigma_n}}
+\end{equation}
+gdzie $y_{max}$ oznacza maksymalną chwilową wartość sygnału, którą układ jest w stanie zarejestrować bez zniekształceń, a $\sigma_n$ jest wartością RMS szumu tła. Według zaleceń ANSI S2.47 wartość ta nie powinna być mniejsza niż 10 dB. \cite{Brincker2015} zalecają by w przypadku OMA stosunek sygnału do szumu nie był mniejszy niż 40 dB. Dla zastosowanego systemu pomiarowego zmierzony szum charakteryzuje się wartością RMS $\sigma_n = $
+
+  Przeprowadzono analizę sygnałów analogicznie jak dla modelu numerycznego. Diagramy stabilizacyjne pokazano na rysunku (!!!). Zidentyfikowane częstotliwości i postaci drgań zamieszczono na rysunku (!!!).
 
 
 

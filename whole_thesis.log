@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.10)  17 JAN 2021 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.10)  17 JAN 2021 23:30
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -2068,19 +2068,81 @@ pdfTeX warning: pdflatex.exe (file ./figures///test_blue/input_load/input_load_
 
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/input_load/input_load_
 4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
+>] [54 <./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50
+.pdf> <./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1344.
-
-) [54 <./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.
-pdf> <./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/stab_diag/fig_stab_dia
 gram_filtr_time_20_20_54.pdf): PDF inclusion: multiple pdfs with page group inc
 luded in a single page
->] [55] [56 <./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf> <./figur
-es///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf
+>]
+
+LaTeX Warning: Reference `' on page 55 undefined on input line 1333.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1335 	
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.1335 	
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1336 \end{equation}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in vertical mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.1336 \end{equation}
+                     
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1336 \end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.1336 \end{equation}
+                     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1355.
+
+) [55] [56 <./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf> <./figure
+s///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/ccf/fig_CCF_CSD_00004_
 20_05_38.pdf): PDF inclusion: multiple pdfs with page group included in a singl
@@ -2397,10 +2459,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35803 strings out of 479696
- 855247 string characters out of 2867115
- 1641584 words of memory out of 3000000
- 52207 multiletter control sequences out of 15000+200000
+ 35805 strings out of 479696
+ 855288 string characters out of 2867115
+ 1644602 words of memory out of 3000000
+ 52209 multiletter control sequences out of 15000+200000
  430794 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,24n,102p,2204b,1770s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2444,7 +2506,7 @@ grams/MiKTeX/fonts/type1/public/pl/plti12.pfb><C:/Users/przem/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/pl/pltt12.pfb><C:/Users/przem/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/przem/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on whole_thesis.pdf (69 pages, 18388436 bytes).
+Output written on whole_thesis.pdf (69 pages, 18390581 bytes).
 PDF statistics:
  1793 PDF objects out of 2073 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

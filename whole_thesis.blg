@@ -1,34 +1,29 @@
-[0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is 'whole_thesis.blg'
-[76] biber-MSWIN64:322> INFO - === 
-[130] Biber.pm:415> INFO - Reading 'whole_thesis.bcf'
-[307] Biber.pm:943> INFO - Found 74 citekeys in bib section 0
-[342] Biber.pm:4256> INFO - Processing section 0
-[343] Utils.pm:75> INFO - Globbing data source '2020_08_19_My_Collection.bib'
-[376] Utils.pm:91> INFO - Globbed data source '2020_08_19_My_Collection.bib' to 2020_08_19_My_Collection.bib
-[406] Biber.pm:4455> INFO - Looking for bibtex format file '2020_08_19_My_Collection.bib' for section 0
-[473] bibtex.pm:1653> INFO - LaTeX decoding ...
-[2238] bibtex.pm:1471> INFO - Found BibTeX data source '2020_08_19_My_Collection.bib'
-[2476] Utils.pm:304> WARN - ISBN '0277-786X' in entry 'Giorcelli1994' is invalid - run biber with '--validate_datamodel' for details.
-[2567] Utils.pm:304> WARN - month field 'jul' in entry 'Kennedy1995' is not an integer - this will probably not sort properly.
-[2593] Utils.pm:304> WARN - month field 'apr' in entry 'Schutter2000' is not an integer - this will probably not sort properly.
-[2631] Utils.pm:304> WARN - I didn't find a database entry for 'allemang_modal_2003' (section 0)
-[2631] Utils.pm:304> WARN - I didn't find a database entry for 'szafranski_oddzialywania_2013' (section 0)
-[2631] Utils.pm:304> WARN - I didn't find a database entry for 'rucka_dynamika_2014' (section 0)
-[2631] Utils.pm:304> WARN - I didn't find a database entry for 'caicedo_practical_2011' (section 0)
-[2631] Utils.pm:304> WARN - I didn't find a database entry for 'bendat_random_2011' (section 0)
-[2631] Utils.pm:304> WARN - I didn't find a database entry for 'welch_use_1967' (section 0)
-[2632] Utils.pm:304> WARN - I didn't find a database entry for 'brownjohn_ambient_2010' (section 0)
-[2632] Utils.pm:304> WARN - I didn't find a database entry for 'hollkamp_modal_2001' (section 0)
-[2632] Utils.pm:304> WARN - I didn't find a database entry for 'nayeri_study_2009' (section 0)
-[2632] Utils.pm:304> WARN - I didn't find a database entry for 'siringoringo_system_2008' (section 0)
-[2632] Utils.pm:304> WARN - I didn't find a database entry for 'ewins_modal_2000' (section 0)
-[2632] Utils.pm:304> WARN - I didn't find a database entry for 'chopra_dynamics_2012' (section 0)
-[2632] Utils.pm:304> WARN - I didn't find a database entry for 'rainieri_operational_2014' (section 0)
-[2632] Utils.pm:304> WARN - I didn't find a database entry for 'pappa_consistent-mode_1992' (section 0)
-[2727] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2727] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2727] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[2832] bbl.pm:652> INFO - Writing 'whole_thesis.bbl' with encoding 'UTF-8'
-[2874] bbl.pm:755> INFO - Output to whole_thesis.bbl
-[2879] Biber.pm:128> INFO - WARNINGS: 17
+[0] Config.pm:312> INFO - This is Biber 2.15 (beta)
+[0] Config.pm:315> INFO - Logfile is 'whole_thesis.blg'
+[154] biber-MSWIN64:330> INFO - === 
+[186] Biber.pm:415> INFO - Reading 'whole_thesis.bcf'
+[367] Biber.pm:952> INFO - Found 81 citekeys in bib section 0
+[395] Biber.pm:4334> INFO - Processing section 0
+[417] Biber.pm:4523> INFO - Looking for bibtex format file '2020_08_19_My_Collection.bib' for section 0
+[486] bibtex.pm:1682> INFO - LaTeX decoding ...
+[1966] bibtex.pm:1494> INFO - Found BibTeX data source '2020_08_19_My_Collection.bib'
+[2195] Utils.pm:395> WARN - month field 'feb' in entry 'Fryba1999' is not an integer - this will probably not sort properly.
+[2253] Utils.pm:395> WARN - ISBN '0277-786X' in entry 'Giorcelli1994' is invalid - run biber with '--validate_datamodel' for details.
+[2367] Utils.pm:395> WARN - month field 'jul' in entry 'Kennedy1995' is not an integer - this will probably not sort properly.
+[2403] Utils.pm:395> WARN - month field 'apr' in entry 'Schutter2000' is not an integer - this will probably not sort properly.
+[2450] Utils.pm:395> WARN - month field 'aug' in entry 'Brownjohn2010' is not an integer - this will probably not sort properly.
+[2489] Utils.pm:395> WARN - I didn't find a database entry for 'szafranski_oddzialywania_2013' (section 0)
+[2489] Utils.pm:395> WARN - I didn't find a database entry for 'rucka_dynamika_2014' (section 0)
+[2489] Utils.pm:395> WARN - I didn't find a database entry for 'caicedo_practical_2011' (section 0)
+[2489] Utils.pm:395> WARN - I didn't find a database entry for 'bendat_random_2011' (section 0)
+[2489] Utils.pm:395> WARN - I didn't find a database entry for 'welch_use_1967' (section 0)
+[2490] Utils.pm:395> WARN - I didn't find a database entry for 'brownjohn_ambient_2010' (section 0)
+[2490] Utils.pm:395> WARN - I didn't find a database entry for 'hollkamp_modal_2001' (section 0)
+[2490] Utils.pm:395> WARN - I didn't find a database entry for 'nayeri_study_2009' (section 0)
+[2490] Utils.pm:395> WARN - I didn't find a database entry for 'siringoringo_system_2008' (section 0)
+[2655] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2655] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2656] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[2788] bbl.pm:651> INFO - Writing 'whole_thesis.bbl' with encoding 'UTF-8'
+[2861] bbl.pm:754> INFO - Output to whole_thesis.bbl
+[2874] Biber.pm:128> INFO - WARNINGS: 14

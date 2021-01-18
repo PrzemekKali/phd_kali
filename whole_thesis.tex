@@ -67,44 +67,17 @@ Treść dotyczącza tykresu zbiorczego
 	
 	
 	
-	\include{chap_era}
-	
+\include{chap_era}
+
 
 \chapter{Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}
 	\section{Wprowadzenie: metody optymalizacji w tym ,,nieróżniczkowe''.\\Particle Swarm optimization - opis, przegląd.\\Wielokryterialne PSO - opis przegląd.\\Opis implementacji.}
-\chapter{Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}
-	\section{Budowa modelu numerycznego}
-	\section{Badania - identyfikacja modalna: wybór punktów, opis badań, wyniki identyfikacji}
-Zastosowane kryteria: max mac 0.6, rowno na obie strony, maksymalna srednia z wektorow punktow. Dodac zmiennosc w kombinacjach maksymalnego momentu jako przestroge.
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{correlogram_badania.pdf}
-	\captionsetup{justification=centering}
-	\caption{Diagram AUTOMAC dla pierwszych dziesięciu wektorów postaci drgań własnych, odczytanych z modelu dla wybranych punktów pomiarowych}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[]{diagram_non_filtered.pdf}
-	\captionsetup{justification=centering}
-	\caption{Diagram stabilizacyjny metody NExT-ERA.}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[]{diagram_filtered2.pdf}
-	\captionsetup{justification=centering}
-	\caption{Diagram stabilizacyjny metody NExT-ERA.}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[]{identified_mode_1.pdf}
-	\captionsetup{justification=centering}
-	\caption{Diagram stabilizacyjny metody NExT-ERA.}
-\end{figure}
+	
+	
+	
+	
+\include{wk2_research}
 
-	\section{Kalibracja modelu numerycznego z wykorzystaniem PSO}
-	\section{Wielokryterialna optymalizacja modelu: opis + wyniki}
-\chapter{Podsumowanie i wnioski}
-Podsumowania wnioski
 
 
 
@@ -151,32 +124,7 @@ Algorytm filtrowanego diagramu stabilizacyjnego  \parencite{caicedo_practical_20
 
 Parametry alfa i beta \parencite{brownjohn_ambient_2010,caicedo_practical_2011,hollkamp_modal_2001,nayeri_study_2009,siringoringo_system_2008,szafranski_oddzialywania_2013}  przyjmować tak żeby alfa zawierała ok dwukrotność liczby biegunów (4x liczba modów) a parametr beta swoim zakresem obejmował odpowiednią liczbę sygnałów)
 
-Wynikiem przeprowadzonej analizy modalnej są postaci i częstotliwości o wartościach zespolonych. Postaci zidentyfikowane na podstawie pomiarów wartości rzeczywistych powinny stanowić wektory o współrzędnych rzeczywistych. W przypadku modów normalnych wszystkie punkty konstrukcji drgają dokładnie w fazie lub w przeciw fazie względem siebie. Przeciwnie, kiedy postaci są wektorami zespolonymi przemieszczenia osiągają wartości ekstremalne w różnych chwilach czasowych dla różnych stopni swobody. \cite{ewins_modal_2000,chopra_dynamics_2012} podają przykładowe przyczyny powstania postaci o wektorach zespolonych. Są to m.in. efekt żyroskopowy, efekty aerodynamiczne, nieliniowość czy nieproporcjonalne tłumienie.Zidentyfikowane mody zwykle występują w postaci zespolonej. Wynika to z relatywnie niskiego wskaźnika sygnału do szumu \parencite{rainieri_operational_2014}. Mimo to, "stopień zespolenia" jest zwykle niewielki i w praktycznych zastosowaniach błąd wynikający z tej cechy może być zaniedbany. Mimo to ważnym jest żeby rozróżnić, które mody są normalne, a które w dużej mierze zespolone. Jedną z najprostszych metod jest wykreślenie współrzędnych składników postaci w zespolonym układzie współrzędnych. Metoda została szerzej opisana w \parencite{ewins_modal_2000}. Podstawą jest, że jeśli w konstrukcji występuje tłumienie proporcjonalne to składniki danej postaci układają się na linii prostej w zespolonym układzie współrzędnych \parencite{rainieri_operational_2014}).
-Do ilościowego określenia stopnia przestrzennej spójności moda \cite{pappa_consistent-mode_1992} opracowali wskaźnik MPC (\textit{Modal Phase Collinearity}). Jest on dla $i$-tego moda określony wzorem \ref{eq:mpc_ratio}.
-\begin{equation}
-{S}_{xx}={\mathbf{\Phi}'}_{i}^{\mathsf{T}} {\mathbf{\Phi}} '_{i} \quad
-%\end{equation}
-%\begin{equation}
-{S}_{yy}={\mathbf{\Phi}''}_{i}^{\mathsf{T}} {\mathbf{\Phi}}''_{i} \quad
-%\end{equation}
-%\begin{equation}
-{S}_{xy}={\mathbf{\Phi}'}_{i}^{\mathsf{T}} {\mathbf{\Phi}}''_{i}
-\end{equation}
-\begin{equation}
-{\mu}=\frac{S_{xx}-S_{yy}}{2S_{xy}} \quad \quad
-\beta=\mu+\mathrm{sgn}(S_{xy}\sqrt{\mu^{2}+1}) \quad \quad
-\tau=\tan^{-1}{(\beta)} \quad
-\end{equation}
-\begin{equation}
-\lambda_{1}=S_{xx}+\frac{S_{xy}(2(\mu^{2}+1)\sin^{2}{(\tau)}-1)}{\mu}
-\end{equation}
-\begin{equation}
-\lambda_{2}=S_{yy}+\frac{S_{xy}(2(\mu^{2}+1)\sin^{2}{(\tau)}-1)}{\mu}
-\end{equation}
-\begin{equation} \label{eq:mpc_ratio}
-\mathrm{MPC}_{i}=\left[2\cdot\left(\frac{\lambda_{1}}{\lambda_{1}+\lambda_{2}}-0.5\right)\right]^{2}
-\end{equation}
-gdzie $\mathrm{sgn}(\cdot)$ oznacza funkcję zwracającą znak liczby. Wskaźnik MPC jest bezwymiarowy. Przyjmuje wartości z zakresu od 0 dla modów z zupełnie nieskorelowanymi kątami fazowymi do 1 dla modów jednofazowych. Przykłady zastosowania tego wskaźnika zaprezentowano w pracach 
+
 \printbibliography
 \end{document}
 

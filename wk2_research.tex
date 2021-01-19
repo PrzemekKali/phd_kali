@@ -1,7 +1,40 @@
 \chapter{Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}
+
+\begin{figure}[h]
+	\centering
+	\subfloat{\includegraphics[height=0.35\textheight]{/WK2/zdjecia/widok_front2.jpg}} 
+	\captionsetup{justification=centering}
+	\caption{Widok od frontu na wiadukt WK2}
+	\label{fig: wk2_foto_widok_front}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\subfloat[Widok z góry]{\includegraphics[height=0.2\textheight]{/WK2/zdjecia/wezglowie.jpg}} 
+	\qquad
+	\subfloat[Widok z dołu]{\includegraphics[height=0.2\textheight]{/WK2/zdjecia/detal_wezglowie_dol.jpg}}
+	\captionsetup{justification=centering}
+	\caption{Szczegóły konstrukcyjne w obrębie połączenia łuku ze ściągiem}
+	\label{fig: wk2_foto_wezglowie}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\subfloat{\includegraphics[height=0.2\textheight]{/WK2/zdjecia/zakotwienie_wieszak.jpg}}
+	\captionsetup{justification=centering}
+	\caption{Detal połączenia wieszaka łuku z pomostem}
+	\label{fig: wk2_foto_wieszak}
+\end{figure}
+
+
+
+
+
+
 \section{Budowa modelu numerycznego}
 
 Na potrzeby analiz numerycznych zbudowano model MES w środowisku SOFiSTiK (rys. \ref{fig: model_wk2_visualization}) Model przestrzenny składa się kilku rodzajów elementów skończonych. Z jednowymiarowych elementów belkowych wykonano łuki, stężenia, belki ściągu, wzmocnienia wezgłowii i żebra pomostu ortotropowego. Z elementów kratowych stworzono wieszaki. Blachę pomostu wykonano z czterowęzłowych elementów powłokowych. Połączenia pomiędzy końcami wieszaków i osiami łuku oraz ściągu zrealizowano przez połączenia kinematyczne translacji i rotacji węzłów. Podparcia pionowe w miejscach łożysk mostu zrealizowano za pomocą sztywnych więzów węzłów. Nie zablokowano przesuwów podłużnych i poprzecznych za pomocą blokady przemieszczeń. Zamiast tego na obu kierunkach zamocowano elastyczne elementy o bardzo dużej sztywności. Dostosowanie do istniejących warunków łożyskowania opisane zostało w dalszej części rozdziału. Usztywnienia wezgłowii zamodelowano za pomocą rusztu elementów belkowych o przekroju składającym się z dwóch blach odsuniętych od siebie na szerokość przekroju skrzynkowego łuku. Elementy strukturalne konstrukcji (takie jak ściągi, pomost, dźwigary łukowe, elementy podparcia itd.) podzielono w modelu na grupy pozwalające odnosić się do nich jako całości. Przekroje elementów belkowych przyjęto zgodnie z dostępną dokumentacją (!!!). Wymiary przekrojów zmiennych po długości zostały interpolowane liniowo. Widoczne na rysunku (\ref{fig: model_wk2_static_scheme}) dodatkowe połączenia kinematyczne są przygotowaniem dla możliwości podłączenia innych konfiguracji wieszaków.
+
+
+
 \begin{figure}[h]
 	\centering
 	\subfloat[Widok A]{\includegraphics[width=0.5\linewidth]{/WK2/model/SCIAG_PAR_v01_vis_1.jpg}}%
@@ -9,6 +42,7 @@ Na potrzeby analiz numerycznych zbudowano model MES w środowisku SOFiSTiK (rys.
 	\captionsetup{justification=centering}
 	\caption{Wizualizacja przestrzennego modelu numerycznego wiaduktu WK2 Pomorskiej Kolei Metropolitalnej}
 	\label{fig: model_wk2_visualization}
+	
 \end{figure}
 \begin{figure}[h]
 	\centering
@@ -24,6 +58,19 @@ Obciążenie ciężarem własnym konstrukcji zostało wygenerowane na podstawie 
 
 \section{Badania - identyfikacja modalna: wybór punktów, opis badań, wyniki identyfikacji}
 Zastosowane kryteria: max mac 0.6, rowno na obie strony, maksymalna srednia z wektorow punktow. Dodac zmiennosc w kombinacjach maksymalnego momentu jako przestroge.
+
+
+\begin{figure}[h]
+	\centering
+	\subfloat[System akwizycji: komputer i wzmacniacz pomiarowy PMX]{\includegraphics[width=0.48\linewidth]{/WK2/zdjecia/system_pomiarowy.jpg}} \quad 
+	\subfloat[3 osiowy akcelerometr]{\includegraphics[width=0.48\linewidth]{/WK2/zdjecia/czujnik_3_osie.jpg}} 
+	\captionsetup{justification=centering}
+	\caption{System pomiarowy użyty do identyfikacji modalnej wiaduktu WK2}
+	\label{fig: wk2_foto_aparatura}
+\end{figure}
+
+
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{WK2/correlogram_badania.pdf}

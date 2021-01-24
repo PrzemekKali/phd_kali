@@ -1739,6 +1739,61 @@
       \endverb
       \keyw{ERA,Modal parameters,Model identification,Model order,noise}
     \endentry
+    \entry{azinski2015}{report}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f838a05d3562c0dcc977c6eb01ccb29d}{%
+           family={{Ł}aziński},
+           familyi={Ł\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a9defad507bcb3d2f5e7e27c5016a38}{%
+           family={Malinowski},
+           familyi={M\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd67a8b12a8d088eddf172525fa7e462}{%
+           family={Szafrański},
+           familyi={S\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=895374e0762d8f004e34eb80e36bb5ff}{%
+           family={Salamak},
+           familyi={S\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Politechnika Ślaska, Zespó{ł} Badań Terenowych}%
+      }
+      \list{location}{1}{%
+        {Gliwice}%
+      }
+      \strng{namehash}{8b7f6afdfc5bf66ac349596d425cf391}
+      \strng{fullhash}{584723fb82802e2bb0d987a75561040e}
+      \strng{bibnamehash}{8b7f6afdfc5bf66ac349596d425cf391}
+      \strng{authorbibnamehash}{8b7f6afdfc5bf66ac349596d425cf391}
+      \strng{authornamehash}{8b7f6afdfc5bf66ac349596d425cf391}
+      \strng{authorfullhash}{584723fb82802e2bb0d987a75561040e}
+      \field{sortinit}{Ł}
+      \field{sortinithash}{942850f937bf7915dc64193b62cb82c1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Raport z próbnego obcia̧żenia statycznego i dynamicznego Wiadukt Kolejowy WK-2 w ciagu projektownej linii PKM w Gdańsku}}
+      \field{type}{techreport}
+      \field{year}{2015}
+    \endentry
     \entry{Maia1997}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=704d49fd8d2a22f83874b9b0cf83c5f5}{%

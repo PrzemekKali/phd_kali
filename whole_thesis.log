@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  25 JAN 2021 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  26 JAN 2021 17:16
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -1589,7 +1589,13 @@ File: ./figures///modal_analysis/filter_coloring.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures///modal_analysis/filter_coloring.pdf  used o
 n input line 429.
 (pdftex.def)             Requested size: 426.98466pt x 159.69643pt.
-[27 <./figures///modal_analysis/filter_coloring.pdf>] [28] [29] [30]
+[27 <./figures///modal_analysis/filter_coloring.pdf>] [28]
+Overfull \hbox (3.82614pt too wide) in paragraph at lines 479--480
+[]\OT4/cmr/m/n/12 Frequency-Domain-Decomposition (FDD) ([]Brinc-ker, L. Zhang i
+ An-der-sen 2000;
+ []
+
+[29] [30]
 
 pdfTeX warning: pdflatex.exe (file ./figures///korelacja/korelacja.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
@@ -2402,9 +2408,6 @@ Overfull \hbox (1.00836pt too wide) in paragraph at lines 92--92
  []
 
 
-LaTeX Warning: Citation 'Poprawa2018' on page 64 undefined on input line 94.
-
-
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
 \OT4/cmr/m/n/12 64 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
@@ -2418,61 +2421,87 @@ Aã, WYNIKI IDENTYFIKACJI \OT4/cmr/m/n/12 65
  []
 
 [65 <./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg>]
-<./figures///WK2/zdjecia/system_pomiarowy.jpg, id=2361, 1759.57375pt x 989.6975
+
+pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/punkty_pomiarowe_aut
+omac_croped.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
+1.5> allowed
+<./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf, id=2361, 429.2838
+pt x 187.42029pt>
+File: ./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf Graphic file 
+(type pdf)
+<use ./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf>
+Package pdftex.def Info: ./figures///WK2/rysunki/punkty_pomiarowe_automac_crope
+d.pdf  used on input line 115.
+(pdftex.def)             Requested size: 429.28275pt x 187.41983pt.
+
+Overfull \hbox (2.49141pt too wide) in paragraph at lines 115--117
+ [][] 
+ []
+
+<./figures///WK2/zdjecia/system_pomiarowy.jpg, id=2362, 1759.57375pt x 989.6975
 pt>
 File: ./figures///WK2/zdjecia/system_pomiarowy.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/system_pomiarowy.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/system_pomiarowy.jpg  used on 
-input line 120.
+input line 129.
 (pdftex.def)             Requested size: 204.85802pt x 115.22481pt.
 
-Underfull \hbox (badness 2894) in paragraph at lines 120--120
+Underfull \hbox (badness 2894) in paragraph at lines 129--129
 []\OT4/cmr/m/n/10 (a) |Sys-tem akwi-zy-cji da-nych: kom-pu-ter i
  []
 
-<./figures///WK2/zdjecia/czujnik_3_osie.jpg, id=2362, 2665.96pt x 1499.6025pt>
+<./figures///WK2/zdjecia/czujnik_3_osie.jpg, id=2363, 2665.96pt x 1499.6025pt>
 File: ./figures///WK2/zdjecia/czujnik_3_osie.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/czujnik_3_osie.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/czujnik_3_osie.jpg  used on in
-put line 121.
+put line 130.
 (pdftex.def)             Requested size: 204.85802pt x 115.21118pt.
-<./figures//WK2/correlogram_badania.pdf, id=2363, 371.16034pt x 211.38443pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures//WK2/correlogram_badania.pdf, id=2364, 371.16034pt x 211.38443pt>
 File: ./figures//WK2/correlogram_badania.pdf Graphic file (type pdf)
 <use ./figures//WK2/correlogram_badania.pdf>
 Package pdftex.def Info: ./figures//WK2/correlogram_badania.pdf  used on input 
-line 131.
+line 140.
 (pdftex.def)             Requested size: 426.79134pt x 243.06761pt.
-<./figures//WK2/diagram_non_filtered.pdf, id=2364, 440.38524pt x 219.34402pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures//WK2/diagram_non_filtered.pdf, id=2365, 440.38524pt x 219.34402pt>
 File: ./figures//WK2/diagram_non_filtered.pdf Graphic file (type pdf)
 <use ./figures//WK2/diagram_non_filtered.pdf>
 Package pdftex.def Info: ./figures//WK2/diagram_non_filtered.pdf  used on input
- line 137.
+ line 146.
 (pdftex.def)             Requested size: 426.79134pt x 212.576pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//WK2/diagram_filtered2.pdf, id=2365, 440.38524pt x 219.34402pt>
+<./figures//WK2/diagram_filtered2.pdf, id=2366, 440.38524pt x 219.34402pt>
 File: ./figures//WK2/diagram_filtered2.pdf Graphic file (type pdf)
 <use ./figures//WK2/diagram_filtered2.pdf>
 Package pdftex.def Info: ./figures//WK2/diagram_filtered2.pdf  used on input li
-ne 143.
+ne 152.
 (pdftex.def)             Requested size: 440.38416pt x 219.34348pt.
 
-Overfull \hbox (13.59282pt too wide) in paragraph at lines 143--145
+Overfull \hbox (13.59282pt too wide) in paragraph at lines 152--154
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//WK2/identified_mode_1.pdf, id=2366, 248.40805pt x 248.40805pt>
+<./figures//WK2/identified_mode_1.pdf, id=2367, 248.40805pt x 248.40805pt>
 File: ./figures//WK2/identified_mode_1.pdf Graphic file (type pdf)
 <use ./figures//WK2/identified_mode_1.pdf>
 Package pdftex.def Info: ./figures//WK2/identified_mode_1.pdf  used on input li
-ne 149.
+ne 158.
 (pdftex.def)             Requested size: 248.40744pt x 248.40744pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 5460) has occurred while \output is active []
 
 
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
@@ -2480,27 +2509,27 @@ Overfull \hbox (54.74542pt too wide) has occurred while \output is active
  KOLEI METROPOLITALNEJ
  []
 
-[66 <./figures///WK2/zdjecia/system_pomiarowy.jpg> <./figures///WK2/zdjecia/czu
-jnik_3_osie.jpg> <./figures//WK2/correlogram_badania.pdf>]
+[66 <./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf>]
 Overfull \hbox (5.47784pt too wide) has occurred while \output is active
 \OT4/cmr/m/sl/12 5.4.  KALIBRACJA MODELU NUMERYCZNEGO Z WYKORZYSTANIEM PSO \OT4
 /cmr/m/n/12 67
  []
 
-[67 <./figures//WK2/diagram_non_filtered.pdf>]
+[67 <./figures///WK2/zdjecia/system_pomiarowy.jpg> <./figures///WK2/zdjecia/czu
+jnik_3_osie.jpg> <./figures//WK2/correlogram_badania.pdf>]
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
 \OT4/cmr/m/n/12 68 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[68 <./figures//WK2/diagram_filtered2.pdf> <./figures//WK2/identified_mode_1.pd
-f
+[68 <./figures//WK2/diagram_non_filtered.pdf> <./figures//WK2/diagram_filtered2
+.pdf
 
-pdfTeX warning: pdflatex.exe (file ./figures//WK2/identified_mode_1.pdf): PDF i
+pdfTeX warning: pdflatex.exe (file ./figures//WK2/diagram_filtered2.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
->]
+>] [69 <./figures//WK2/identified_mode_1.pdf>]
 Rozdzia\l  6.
-) [69
+) [70
 
 ]
 Overfull \hbox (100.38716pt too wide) in paragraph at lines 98--99
@@ -2525,7 +2554,7 @@ Overfull \hbox (142.49359pt too wide) in paragraph at lines 125--126
 []\OT4/cmr/m/n/12 ; []; []; [])
  []
 
-[70
+[71
 
 
 ]
@@ -2540,7 +2569,7 @@ Overfull \hbox (5.55869pt too wide) in paragraph at lines 129--129
 0The % 20Modal % 20Assurance %
  []
 
-[71
+[72
 
 ]
 Overfull \hbox (2.78679pt too wide) in paragraph at lines 129--129
@@ -2554,13 +2583,14 @@ Overfull \hbox (17.09633pt too wide) in paragraph at lines 129--129
 lement-by-element Ritz-gradient
  []
 
-[72]
+[73]
 Overfull \hbox (32.23328pt too wide) in paragraph at lines 129--129
 [][]\OT4/cmr/m/n/12 Juang, Jer-Nan (1994). \OT4/cmr/m/it/12 Ap-plied sys-tem id
 en-ti-fi-ca-tion\OT4/cmr/m/n/12 . Prentice-Hall, Inc. \OT4/cmr/m/sc/12 isbn\OT4
 /cmr/m/n/12 : 013079211X. 
  []
 
+[74]
 
 ! Package inputenc Error: Unicode character Ãß (U+0327)
 (inputenc)                not set up for use with LaTeX.
@@ -2574,37 +2604,28 @@ l.129 \end
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-Package biblatex Warning: No driver for entry type 'confpaper'.
-(biblatex)                Using fallback driver on input line 128.
-
-[73]
+[75]
 Overfull \hbox (1.4319pt too wide) in paragraph at lines 129--129
 [][]\OT4/cmr/m/n/12 Salamak, Ma-rek (2003). ``Do-±wiad-czalne me-tody okre-±la-
 nia po-ziomu t™u-mie-nia drga´
  []
 
-[74] [75] (whole_thesis.aux (dictionary.aux) (chap_era.aux) (wk2_research.aux))
+[76] [77] (whole_thesis.aux (dictionary.aux) (chap_era.aux) (wk2_research.aux))
 
 LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                whole_thesis
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36034 strings out of 479584
- 862953 string characters out of 2862472
- 1651168 words of memory out of 3000000
- 52516 multiletter control sequences out of 15000+200000
+ 36067 strings out of 479584
+ 864037 string characters out of 2862472
+ 1651537 words of memory out of 3000000
+ 52548 multiletter control sequences out of 15000+200000
  430794 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 109i,24n,107p,2204b,1771s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 109i,24n,107p,2671b,1771s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-s
 uper-ts1.enc}{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl
 /pltt.enc}{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/pl
@@ -2646,9 +2667,9 @@ TeX 2.9/fonts/type1/public/pl/plti12.pfb><C:/Users/KBP/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/pl/pltt12.pfb><C:/Users/KBP/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/KBP/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on whole_thesis.pdf (75 pages, 23048624 bytes).
+Output written on whole_thesis.pdf (77 pages, 23105536 bytes).
 PDF statistics:
- 2562 PDF objects out of 2984 (max. 8388607)
+ 2582 PDF objects out of 2984 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 378 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -89,17 +89,17 @@ Obciążenie ciężarem własnym konstrukcji zostało wygenerowane na podstawie 
 
 
 
-\section{Badania - identyfikacja modalna: wybór punktów, opis badań, wyniki identyfikacji}
+\section{Identyfikacja modalna wiaduktu WK2}
 Przed przystąpieniem do procesu optymalizacji układu statycznego dźwigara łukowego model należało skalibrować. Z uwagi na zakres planowanych analiz kluczowe dla analizy dynamicznej jest aby model w odpowiedni sposób odzwierciedlał rzeczywistość w zakresie parametrów modalnych. Mając do dyspozycji rzeczywisty obiekt, zdecydowano o wykonaniu badań terenowych, które pozwolą na identyfikację częstotliwości i postaci drgań własnych oraz towarzyszącego im tłumienia. Obiekt jest w ciągłej eksploatacji. Z tych względów zdecydowano o wykorzystaniu Operacyjnej Analizy Modalnej do identyfikacji parametrów modalnych przęsła.
 Przed przystąpieniem do badań przygotowano plan zawierający kluczowe punkty, bez których spełnienia badania mogą zakończyć się niepowodzeniem lub wyniki mogą być trudne w interpretacji. \cite{Brincker2015} sporządzili listę zaleceń, które należy wypełnić w trakcie przygotowań eksperymentu OMA aby zakończył się on powodzeniem. Podobne zalecenia w swojej pracy sformułował \cite{Poprawa2018}. W kontekście założonych celów i wybranego obiektu badawczego główne z nich to:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item opracowanie strategi prowadzenia badań i akwizycji danych,
 \item uzgodnienia administracyjne - wstęp na obiekt i możliwość prowadzenia badań pod ruchem,
 \item dobranie sprzętu pomiarowego.
 \end{itemize}
 
 Zarządca obiektu zezwolił na prowadzenie badań pod ruchem w towarzystwie sygnalisty. Średnie natężenie ruchu na obiekcie w trakcie badań to około 1 przejazd na 30 min. Wybór sprzętu pomiarowego ograniczał się do zastosowania posiadanego sprzętu do akwizycji przyspieszeń opisanego w punkcie (!!!). Najistotniejszym punktem przygotowania badań było opracowanie strategii badań. Według \cite{Brincker2015} plan badań OMA powinien zawierać następujące punkty:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item sporządzoną siatkę pomiarową,
 	\item kolejność ustawień czujników w seriach pomiarowych,
 	\item określenie liczby osób potrzebnych do przeprowadzenia eksperymentu,
@@ -107,15 +107,49 @@ Zarządca obiektu zezwolił na prowadzenie badań pod ruchem w towarzystwie sygn
 	\item określenie parametrów akwizycji danych (częstotliwość próbkowania, długość pomiarów, liczba powtórzeń serii pomiarowych itd.)
 \end{itemize}
 
-Dostępny system pomiarowy składał się z dwóch akcelerometrów 3-osiowych i z dwóch czujników 1-osiowych.  Mając do dyspozycji ograniczoną liczbę jednocześnie mierzonych punktów należało przeprowadzić symulację najlepszego rozmieszczenia punktów pomiarowych na obiekcie. Przykłady metod pozwalających na optymalne rozmieszczenie punktów pomiarowych w analizach dynamicznych zaprezentowano w literaturze i najczęściej opierają się one na wyznaczeniu reprezentatywnego wskaźnika, dzięki któremu da się porównać różne ustawienia. Między innymi \cite{Kammer1991,Papadopoulos1998} zaproponowali użycie Modalnej Energii Kinetycznej \teng{Modal Kinetic Energy}, \cite{Udwadia1994} macierzy informacyjnej Fishera \teng{Fisher Information Matrix}, a \cite{Penny1994,Allemang2003} macierzy MAC dla zestawu modów. \cite{Zhang2017} przedstawili zwięzłe zestawienie powyższych metod i zaproponowali opcję optymalizującą lokalizację punktów pomiarowych przy wielu ustawieniach pomiarowych, zarówno dla punktów pomiarowych jak i punktów referencyjnych. Autorzy zwracają również uwagę, że przy wielu punktach pomiaru ścisła ocena wszystkich możliwych ustawień jest wymagająca obliczeniowo bądź niemożliwa. Z tego względu stosowane są algorytmy heurystyczne bądź meta-heurystyczne. W poniższej pracy wykorzystano metodę wykorzystującą kryterium MAC. Podobne postępowanie przedstawił w swojej pracy \cite{Poprawa2018}. Polega ono na wyznaczeniu teoretycznych postaci drgań własnych na przykład z dostępnego modelu MES. Dla zbioru możliwych położeń czujników odczytywane są przemieszczenia znormalizowane danej postaci drgań. Ze zbioru możliwych położeń wybierane są punkty, gdzie umieszczone mają zostać czujniki. Następne odczytywane są dla nich przemieszczenia znormalizowane (z analizy modalnej) dla wszystkich interesujących modów. Posiłkując się opisem postaci drgań w wybranych punktach tworzona jest macierz współczynników MAC. Każdą postać porównuje się ze wszystkimi innymi i najczęściej z samą sobą. W ten sposób na przekątnej macierzy pojawiają się wartości równe 1 - idealne dopasowanie według kryterium MAC - co dla identycznych wektorów jest oczywiste. Poza przekątną wartości MAC mieszczą się między 0, a 1. Celem analizy jest, aby poza przekątną wartości były możliwie małe. Przy małym dopasowaniu, zidentyfikowane postaci będą miały szanse być zidentyfikowane jednoznacznie przy mocno ograniczonej liczbie punktów pomiarowych i bliskim położeniu modów w dziedzinie częstotliwości.
-
-
+\subsubsection{Wybór punktów pomiarowych}
+Dostępny system pomiarowy składał się z dwóch akcelerometrów 3-osiowych i z dwóch czujników 1-osiowych.  Mając do dyspozycji ograniczoną liczbę jednocześnie mierzonych punktów należało przeprowadzić symulację najlepszego rozmieszczenia punktów pomiarowych na obiekcie. Przykłady metod pozwalających na optymalne rozmieszczenie punktów pomiarowych w analizach dynamicznych zaprezentowano w literaturze i najczęściej opierają się one na wyznaczeniu reprezentatywnego wskaźnika, dzięki któremu da się porównać różne ustawienia. Między innymi \cite{Kammer1991,Papadopoulos1998} zaproponowali użycie Modalnej Energii Kinetycznej \teng{Modal Kinetic Energy}, \cite{Udwadia1994} macierzy informacyjnej Fishera \teng{Fisher Information Matrix}, a \cite{Penny1994,Allemang2003} macierzy MAC dla zestawu modów. \cite{Zhang2017} przedstawili zwięzłe zestawienie powyższych metod i zaproponowali opcję optymalizującą lokalizację punktów pomiarowych przy wielu ustawieniach pomiarowych, zarówno dla punktów pomiarowych jak i punktów referencyjnych. Autorzy zwracają również uwagę, że przy wielu punktach pomiaru ścisła ocena wszystkich możliwych ustawień jest wymagająca obliczeniowo bądź niemożliwa. Z tego względu stosowane są algorytmy heurystyczne bądź meta-heurystyczne. 
+W niniejszej pracy zastosowano metodę wykorzystującą kryterium MAC \parencite{Penny1994}. Podobne postępowanie przedstawił w swojej pracy \cite{Poprawa2018}. Polega ono na wyznaczeniu teoretycznych postaci drgań własnych z dostępnego modelu MES. Dla zbioru wszystkich możliwych położeń czujników odczytywane są przemieszczenia znormalizowane danej postaci drgań. Ze zbioru możliwych położeń wybierane są punkty, gdzie umieszczone mają zostać czujniki. Posiłkując się opisem postaci drgań w wybranych punktach tworzona jest macierz MAC. Każdą postać porównuje się ze wszystkimi innymi i z samą sobą. W ten sposób na przekątnej macierzy pojawiają się wartości równe 1 co oznacza oczywiste, idealne dopasowanie według kryterium MAC dla równych wektorów. Poza przekątną, wartości MAC mieszczą się w przedziale 0 - 1. Celem analizy jest dobór punktów pomiarowych tak by poza przekątną wartości były możliwie małe. Przy małym dopasowaniu, postaci będą miały szanse być zidentyfikowane jednoznacznie przy mocno ograniczonej liczbie punktów pomiarowych i bliskim położeniu modów w dziedzinie częstotliwości. Dla każdego rozwiązania należy wyznaczyć wskaźnik, który pozwala ocenić zbiór punktów względem innych. \cite{Penny1994} zaproponowali w jednym z wariantów maksymalną wartość MAC wśród elementów poza przekątną macierzy oraz średnią kwadratową (RMS)\footnote{Średnią kwadratową wyznaczono zgodnie z definicją z równania: $x_{\text{RMS}}=\sqrt{\frac{x_1^2+x_2^2+x_3^2+\dots+x_n^2}{n}}$} ze wszystkich elementów powyżej przekątnej macierzy MAC. Im niższa wartość maksymalna i im niższa średnia kwadratowa tym lepiej.
 \begin{figure}[h]
 	\centering
 	\includegraphics{/WK2/rysunki/punkty_pomiarowe_automac_croped.pdf}
 	\captionsetup{justification=centering}
-	\caption{}
+	\caption{Lokalizacje dozwolone przy doborze punktów pomiarowych}
 	\label{fig: wk2_automac_points_all}
+\end{figure}
+Z uwagi na dostępny czas badań ustalono, że całość badań musi być zrealizowana w 3 ustawieniach czujników. W przypadku wiaduktu, akcelerometry 3-osiowe potraktowano jako 2-osiowe. Odrzucono pomiar wzdłuż osi podłużnej obiektu jako nieistotny. W tej sytuacji jeden czujnik 2-osiowy posłużył jako punkt referencyjny mierzący drgania pionowe i poprzeczne. Pozostałe 4 punkty pomiarowe mogły być zmieniane w poszczególnych ustawieniach. Ostatecznie przy trzech ustawieniach możliwy był pomiar w 14 punktach pomiarowych $(6+4+4)$ w tym 10 na kierunku pionowym $Z$ i 4 na kierunku poprzecznym $Y$. Kolejnym koniecznym przy doborze siatki pomiarowej ograniczeniem było to, że dostęp do konstrukcji był możliwy jedynie z pomostu. Z uwagi na występowanie modów związanych głównie z bocznym ruchem łuków (rys. \ref{mody_teoretyczne}) narzucono, że 4 punkty pomiarowe $2Y \text{i} 2Z$ zostaną zamocowane bezpośrednio na łuku. Uwzględniając powyższe założenia pozostało do dyspozycji 8 punktów pomiarowych $Z$ i 2 punkty pomiarowe $Y$. Punkty $Y$ są związane z $Z$ w ramach obudowy czujnika 2-osiowego, zaniechano więc doboru lokalizacji z uwagi na punkty $Y$ i skupiono się tylko na kierunku $Z$. Na rysunku \ref{fig: wk2_automac_points_all} kolorem czerwonym zaznaczono zbiór wszystkich dozwolonych do wyboru punktów. Kolorem niebieskim zaznaczono punkty zarezerwowane dla czujników mocowanych do łuku. Punków czerwonych jest 26 i należy z nich wybrać 8. Wykonano kombinację bez powtórzeń i uzyskano 1562275 zestawów lokalizacji czujników. Dla każdego zestawu wyznaczono macierz MAC uwzględniając 10 pierwszych modów z modelu MES, a następnie RMS i maksymalny element każdej macierzy. Zestawy posortowano względem każdego parametru i wyniki przedstawiono graficznie na rysunku \ref{fig: wk2_automac_charts}. 
+\begin{figure}[h]
+	\centering
+	\captionsetup{justification=centering}
+	\subfloat[Maksymalne MAC z elementów poza przekątną macierzy]{\includegraphics[]{/WK2/automac/max_mac.pdf}}% 
+	\subfloat[RMS z elementów poza przekątną macierzy]{\includegraphics[]{/WK2/automac/rms.pdf}} 
+	\captionsetup{justification=centering}
+	\caption{Wskaźniki oceniające jakość wyboru zestawu punktów pomiarowych dla wszystkich analizowanych kombinacji}
+	\label{fig: wk2_automac_charts}
+\end{figure}
+Logicznym wyborem punktów byłoby wzięcie pod uwagę ustawień charakteryzujących się minimalną wartością jednego z parametrów. Jednakże prowadząc badania terenowe należy brać pod uwagę czynniki takie jak ułożenie kabli, możliwości systemu pomiarowego do łączenia punktów pomiarowych, przejście przez czynną linię kolejową. Z tego powodu zaproponowano układ czujników intuicyjnie pozwalających na dobrą identyfikację modalną, a jednocześnie gwarantujący komfort w montażu i kontroli przez jedną osobę. Wybrane punkty pokazano na rysunku \ref{fig: wk2_automac_points_choosen}. Dla wybranego zestawu punktów wyznaczono macierz MAC (Rys. \ref{fig: wk2_automac_correlogram}) i wskaźniki: RMS i maksymalną wartość MAC. Wskaźniki zaznaczono na rysunku \ref{fig: wk2_automac_charts} pomarańczowym krzyżykiem, pokazując jakość dokonanego wyboru wśród wszystkich możliwych. Na podstawie wartości RMS można stwierdzić, że narzucony wariant charakteryzuje się niską wartością parametru i jego dalsze optymalizowanie kosztem utrudnień w trakcie pomiarów, oceniono jako nieopłacalne. Należy również zaznaczyć, że wartość RMS elementów poza przekątną macierzy MAC mierzy jedynie średnią zależność wszystkich par wektorów. Nie uwzględnia wielkości amplitud poszczególnych modów w punktach i ich znaczenia na ostateczne zachowanie dynamiczne kładki. W przedmiotowym przypadku zamocowano punkty pomiarowe w miejscach, gdzie kryterium RMS jest jednocześnie niskie (Rys. \ref{fig: wk2_automac_charts}) i przemieszczenia modalne dla głównych modów giętnych i skrętnych pomostu są bliskie ekstremalnym (Rys. \ref{mody teoretyczne}).
+
+
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics{/WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf}
+	\captionsetup{justification=centering}
+	\caption{Wybrane do badań punkty pomiarowe}
+	\label{fig: wk2_automac_points_choosen}
+\end{figure}
+
+
+
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{WK2/automac/correlogram_0.pdf}
+	\captionsetup{justification=centering}
+	\caption{Macierz MAC dla pierwszych dziesięciu wektorów postaci drgań własnych, odczytanych z modelu dla wybranych punktów pomiarowych}
+	\label{fig: wk2_automac_correlogram}
 \end{figure}
 
 
@@ -135,12 +169,7 @@ Zastosowane kryteria: max mac 0.6, rowno na obie strony, maksymalna srednia z we
 
 
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{WK2/correlogram_badania.pdf}
-	\captionsetup{justification=centering}
-	\caption{Diagram AUTOMAC dla pierwszych dziesięciu wektorów postaci drgań własnych, odczytanych z modelu dla wybranych punktów pomiarowych}
-\end{figure}
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{WK2/diagram_non_filtered.pdf}

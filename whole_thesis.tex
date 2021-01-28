@@ -10,119 +10,24 @@
 
 \include{dictionary}
 
-
-
 \chapter*{Wprowadzenie}
 \addcontentsline{toc}{chapter}{Wprowdzenie}  
-\chapter{Kolejowe, łukowe przęsła mostowe. Przegląd}
 
+%Kolejowe mosty łukowe
+\include{chap_luki}
 
-
-\begin{figure}[h]
-	\centering
-	\subfloat[label 1]{\includegraphics{WK2/proste_300_decisive_freq.pdf}}%
-	\subfloat[label 2]{\includegraphics{WK2/proste_300_decisive_freq.pdf}}%
-	\captionsetup{justification=centering}
-	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
-\end{figure}
-Treść dotyczącza tykresu zbiorczego 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{WK2/proste_300_3d_weig.pdf}
-	\captionsetup{justification=centering}
-	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{WK2/proste_300_0_3_3d_arch_weig.pdf}
-	\captionsetup{justification=centering}
-	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{WK2/proste_300_3d_freq.pdf}
-	\captionsetup{justification=centering}
-	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{WK2/proste_300_all.pdf}
-	\captionsetup{justification=centering}
-	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
-\end{figure}
-
-
-
-
-
-
-
-
-
-	\section{Typy.\\Cechy.\\Problemy związane z dynamiką.}
-	\section{\textbf{Wydzielić rozdział?} Modele obiektów w celach analiz dynamicznych\\Kalibracja/Walidacja/Weryfikacja.}
-\chapter{Dynamiczne obciążenie kolejowe}
-	\section{Realne obciążenia - tabor.\\Modele obciążenia.\\Przepisy normowe i wytyczne.}
 	
-	
-	
-	
-\include{chap_era}
+%Dynamiczna Analiza Konstrukcji
+\include{chap_dynamic}
 
+%Identyfikacja modalna
+\include{chap_oma}
 
-\chapter{Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}
-	\section{Wprowadzenie: metody optymalizacji w tym ,,nieróżniczkowe''.\\Particle Swarm optimization - opis, przegląd.\\Wielokryterialne PSO - opis przegląd.\\Opis implementacji.}
+%Optymalizacja metodą roju cząstek
+\include{chap_pso}
 	
-	
-	
-	
+%Badania wiaduktu WK2
 \include{wk2_research}
-
-
-
-
-
-
-
-
-
-
-Some claim \parencite{szafranski_oddzialywania_2013,rucka_dynamika_2014}
-Parametry metody NeXT-ERA: \parencite{caicedo_practical_2011}
-1)	Długość okna użytego przy transformacie Fouriera
-2)	Wybór kanału referencyjnego
-3)	Wielkość macierzy Hankela – alfa i beta
-4)	Liczba biegunów do identyfikacji
-5)	Długość i częstotliwość próbkowania sygnału wejściowego
-
-Wykres dwóch pierwszych momentów sygnału – średniej i odchylenie standardowe. Wskazówka do określenia stacjonarności – jeśli wartości są prawie stałe. \parencite{caicedo_practical_2011,bendat_random_2011}
-
-
-Wybór sygnałów: parametry częstotliwość próbkowania, noise-to-signal ratio i stacjonarność
-
-
-Blisko położone piki – zmniejszenie częstotliwości próbkowania \parencite{caicedo_practical_2011}
-
-
-Częstotliwość próbkowania – obniżenie – wartość ok 2 razy większa niż interesujące częstotliwości \parencite{caicedo_practical_2011}
-
-
-Liczba punktów funkcji kros korelacji jest równa liczbie punktów użytych w FFT, a częstotliwość próbkowania jest równa częstotliwości użytych sygnałów \parencite{caicedo_practical_2011}
-
-MAC kryterium doboru punktów pomiarowych dla testów dynamicznych 
-
-
-Metoda Welcha \parencite{welch_use_1967}
-
-
-Oś pionowa oznaczona jako $g^2$ \parencite{caicedo_practical_2011}
-
-Alfa i beta – numer column 4x liczba modów (2x liczba biegunów). Numer wierszy – numer punktów w cross spectral density? \parencite{caicedo_practical_2011}. Ostatecznie chodzi o to by uwzględnić tyle danych z CCF żeby nie ująć ani za dużo ani za mało.
-
-
-Algorytm filtrowanego diagramu stabilizacyjnego  \parencite{caicedo_practical_2011}
-
-Parametry alfa i beta \parencite{brownjohn_ambient_2010,caicedo_practical_2011,hollkamp_modal_2001,nayeri_study_2009,siringoringo_system_2008,szafranski_oddzialywania_2013}  przyjmować tak żeby alfa zawierała ok dwukrotność liczby biegunów (4x liczba modów) a parametr beta swoim zakresem obejmował odpowiednią liczbę sygnałów)
 
 
 \printbibliography

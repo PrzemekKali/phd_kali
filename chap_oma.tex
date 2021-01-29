@@ -912,7 +912,7 @@ Funkcje posiadają wyraźnie gasnący, okresowy charakter. Następnie wyznaczone
 
 
 
-\subsection{Testy eksperymentalne metody NEXT-ERA}
+\subsection{Testy eksperymentalne metody NEXT-ERA} \label{sect: next_era_lab_test}
 W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. !!!). Belka została zamocowana do podłoża tak, żeby jedna z podpór miała możliwość przesuwu wzdłuż osi podłużnej. System pomiarowy składał się z wzmacniacza pomiarowego PMX firmy HBM (Hottinger Baldwin Messtechnik GmbH, Darmstadt, Germany), kabli i niskoszumowych, piezorezystywnych czujników akcelerometrycznych firmy TE CONNECTIVITY. Do obsługi wzmacniacza i akwizycji danych użyto program HBM Catman Easy. Czujniki przymocowano magnetycznie do belki. Zastosowano czujniki 3 osiowe, ale rejestrowano jedynie przyspieszenia pionowe i poprzeczne. Zakres pomiarowy akcelerometrów wynosi $\pm 2 \text{g}$, a gwarantowane szumy są określone jako mniejsze niż $25\mu \text{g RMS}$. Punkty pomiarowe przyjęto w punktach odpowiadających węzłom modelu, w których odczytywano przyspieszenia w testach numerycznych. Częstotliwość próbkowania w trakcie rejestracji przyjęto jako 2400 Hz. Wymuszenia belki odbywały przez delikatne dotknięcia i gładzenie belki palcami. Czas serii pomiarowej przyjęto zgodnie z zaleceniami opisanymi w \cite{Brincker2015}. Według autorów minimalny czas gwarantujący poprawne określenie tłumienia, bez ryzyka negatywnego wpływu obciążeń metody Welch'a, musi być dłuższy niż 20 okien czasowych użytych przy wyznaczeniu funkcji korelacji. Z tego względu zalecana minimalna długość pomiaru dana jest nierównością \ref{eq: minimum_oma_time_series}.
 \begin{equation} \label{eq: minimum_oma_time_series}
 	T_{tot} > \frac{20}{2\zeta f_{min}}=\frac{10}{\zeta f_{min}}

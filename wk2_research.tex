@@ -86,8 +86,7 @@ Na potrzeby analiz numerycznych zbudowano model MES w środowisku SOFiSTiK (rys.
 \end{figure}
 
 Obciążenie ciężarem własnym konstrukcji zostało wygenerowane na podstawie ciężarów wprowadzonych przekrojów elementów liniowych bądź grubości elementów powłokowych. Dodatkowe elementy takie jak przepony i zakotwienia wieszaków dodane zostały jako obciążenia węzłowe. Osobny przypadek obciążenia stanowi pomost roboczy dodany jako ekwiwalentne obciążenie węzłowe i momenty zginające. Ostatnim obciążeniem stałym jest ciężar tłucznia. Z uwagi na ułożenie toru po łuku w planie, rozkład tłucznia na obiekcie nie jest regularną, symetryczną bryłą. Dostępna dokumentacja obiektu nie dostarcza dokładnych informacji o ułożeniu podsypki na pomoście. Podsypka została w prosty sposób zinwentaryzowana przez pomiar grubości w niektórych punktach charakterystycznych. Na rysunku \ref{fig: wk2_cross_sect} zaprezentowano zinwentaryzowany układ tłucznia w przekroju przęsłowym. Zastosowana metoda pomiaru objętości tłucznia nie jest dokładna i na pewno nie odzwierciedla realnego rozkładu ciężaru podsypki na obiekcie. Z tego względu podzielono obciążenie tłuczniem na dwa osobne przypadki: równomiernie rozłożone obciążenie na całym pomoście i obciążenie równomierne o szerokości (!!!) usytuowane wzdłuż osi toru. Wartość obciążenia tłuczniem przyjęto z normy (!!!).
-
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\begin{tabular}[c]{c}
 		\subfloat[Mod 1, $f_1=1.408\text{ Hz}$]{\label{fig: wk2_origin_mod01}%
@@ -121,7 +120,7 @@ Obciążenie ciężarem własnym konstrukcji zostało wygenerowane na podstawie 
 		\includegraphics[width=0.7\textwidth]{/WK2/model/mod_origin/f6s.jpg}%
 \end{tabular}}\\
 	\end{tabular}
-	\caption{}
+	\caption{Postaci i częstotliwości drgań własnych wiaduktu WK2 - Model wstępny}
 	\label{fig: model_wk2_origin_mods}
 \end{figure}
 
@@ -149,7 +148,7 @@ Obciążenie ciężarem własnym konstrukcji zostało wygenerowane na podstawie 
 				\includegraphics[width=0.7\textwidth]{/WK2/model/mod_origin/f10s.jpg}%
 		\end{tabular}}\\
 	\end{tabular}
-	\caption{Postaci i częstotliwości drgań własnych wiaduktu WK2 - Model wstępny}
+	\caption{Postaci i częstotliwości drgań własnych wiaduktu WK2 - Model wstępny. Kont.}
 \end{figure}
 
 \section{Identyfikacja modalna wiaduktu WK2}
@@ -172,6 +171,7 @@ Zarządca obiektu zezwolił na prowadzenie badań pod ruchem w towarzystwie sygn
 
 \subsubsection{Wybór punktów pomiarowych}
 Dostępny system pomiarowy składał się z dwóch akcelerometrów 3-osiowych i z dwóch czujników 1-osiowych.  Mając do dyspozycji ograniczoną liczbę jednocześnie mierzonych punktów należało przeprowadzić symulację najlepszego rozmieszczenia punktów pomiarowych na obiekcie. Przykłady metod pozwalających na optymalne rozmieszczenie punktów pomiarowych w analizach dynamicznych zaprezentowano w literaturze i najczęściej opierają się one na wyznaczeniu reprezentatywnego wskaźnika, dzięki któremu da się porównać różne ustawienia. Między innymi \cite{Kammer1991,Papadopoulos1998} zaproponowali użycie Modalnej Energii Kinetycznej \teng{Modal Kinetic Energy}, \cite{Udwadia1994} macierzy informacyjnej Fishera \teng{Fisher Information Matrix}, a \cite{Penny1994,Allemang2003} macierzy MAC dla zestawu modów. \cite{Zhang2017} przedstawili zwięzłe zestawienie powyższych metod i zaproponowali opcję optymalizującą lokalizację punktów pomiarowych przy wielu ustawieniach pomiarowych, zarówno dla punktów pomiarowych jak i punktów referencyjnych. Autorzy zwracają również uwagę, że przy wielu punktach pomiaru ścisła ocena wszystkich możliwych ustawień jest wymagająca obliczeniowo bądź niemożliwa. Z tego względu stosowane są algorytmy heurystyczne bądź meta-heurystyczne. 
+
 W niniejszej pracy zastosowano metodę wykorzystującą kryterium MAC \parencite{Penny1994}. Podobne postępowanie przedstawił w swojej pracy \cite{Poprawa2018}. Polega ono na wyznaczeniu teoretycznych postaci drgań własnych z dostępnego modelu MES. Dla zbioru wszystkich możliwych położeń czujników odczytywane są przemieszczenia znormalizowane danej postaci drgań. Ze zbioru możliwych położeń wybierane są punkty, gdzie umieszczone mają zostać czujniki. Posiłkując się opisem postaci drgań w wybranych punktach tworzona jest macierz MAC. Każdą postać porównuje się ze wszystkimi innymi i z samą sobą. W ten sposób na przekątnej macierzy pojawiają się wartości równe 1 co oznacza oczywiste, idealne dopasowanie według kryterium MAC dla równych wektorów. Poza przekątną, wartości MAC mieszczą się w przedziale 0 - 1. Celem analizy jest dobór punktów pomiarowych tak by poza przekątną wartości były możliwie małe. Przy małym dopasowaniu, postaci będą miały szanse być zidentyfikowane jednoznacznie przy mocno ograniczonej liczbie punktów pomiarowych i bliskim położeniu modów w dziedzinie częstotliwości. Dla każdego rozwiązania należy wyznaczyć wskaźnik, który pozwala ocenić zbiór punktów względem innych. \cite{Penny1994} zaproponowali w jednym z wariantów maksymalną wartość MAC wśród elementów poza przekątną macierzy oraz średnią kwadratową (RMS)\footnote{Średnią kwadratową wyznaczono zgodnie z definicją z równania: $x_{\text{RMS}}=\sqrt{\frac{x_1^2+x_2^2+x_3^2+\dots+x_n^2}{n}}$} ze wszystkich elementów powyżej przekątnej macierzy MAC. Im niższa wartość maksymalna i im niższa średnia kwadratowa tym lepiej.
 \begin{figure}[h]
 	\centering
@@ -180,7 +180,7 @@ W niniejszej pracy zastosowano metodę wykorzystującą kryterium MAC \parencite
 	\caption{Lokalizacje dozwolone przy doborze punktów pomiarowych}
 	\label{fig: wk2_automac_points_all}
 \end{figure}
-Z uwagi na dostępny czas badań ustalono, że całość badań musi być zrealizowana w 3 ustawieniach czujników. W przypadku wiaduktu, akcelerometry 3-osiowe potraktowano jako 2-osiowe. Odrzucono pomiar wzdłuż osi podłużnej obiektu jako nieistotny. W tej sytuacji jeden czujnik 2-osiowy posłużył jako punkt referencyjny mierzący drgania pionowe i poprzeczne. Pozostałe 4 punkty pomiarowe mogły być zmieniane w poszczególnych ustawieniach. Ostatecznie przy trzech ustawieniach możliwy był pomiar w 14 punktach pomiarowych $(6+4+4)$ w tym 10 na kierunku pionowym $Z$ i 4 na kierunku poprzecznym $Y$. Kolejnym koniecznym przy doborze siatki pomiarowej ograniczeniem było to, że dostęp do konstrukcji był możliwy jedynie z pomostu. Z uwagi na występowanie modów związanych głównie z bocznym ruchem łuków (rys. \ref{fig: model_wk2_origin_mods}) narzucono, że 4 punkty pomiarowe $2Y \text{i} 2Z$ zostaną zamocowane bezpośrednio na łuku. Uwzględniając powyższe założenia pozostało do dyspozycji 8 punktów pomiarowych $Z$ i 2 punkty pomiarowe $Y$. Punkty $Y$ są związane z $Z$ w ramach obudowy czujnika 2-osiowego, zaniechano więc doboru lokalizacji z uwagi na punkty $Y$ i skupiono się tylko na kierunku $Z$. Na rysunku \ref{fig: wk2_automac_points_all} kolorem czerwonym zaznaczono zbiór wszystkich dozwolonych do wyboru punktów. Kolorem niebieskim zaznaczono punkty zarezerwowane dla czujników mocowanych do łuku. Punków czerwonych jest 26 i należy z nich wybrać 8. Wykonano kombinację bez powtórzeń i uzyskano 1562275 zestawów lokalizacji czujników. Dla każdego zestawu wyznaczono macierz MAC uwzględniając 10 pierwszych modów z modelu MES, a następnie RMS i maksymalny element każdej macierzy. Zestawy posortowano względem każdego parametru i wyniki przedstawiono graficznie na rysunku \ref{fig: wk2_automac_charts}. 
+Z uwagi na ograniczony czas dostępu do obiektu ustalono, że całość badań musi być zrealizowana w 3 ustawieniach dostępnych czujników. W przypadku wiaduktu, akcelerometry 3-osiowe potraktowano jako 2-osiowe. Odrzucono pomiar wzdłuż osi podłużnej obiektu jako nieistotny. W tej sytuacji jeden czujnik 2-osiowy posłużył jako punkt referencyjny mierzący drgania pionowe i poprzeczne. Pozostałe 4 punkty pomiarowe mogły być zmieniane w poszczególnych ustawieniach. Ostatecznie przy trzech ustawieniach możliwy był pomiar w 14 punktach pomiarowych $(6+4+4)$ w tym 10 na kierunku pionowym $Z$ i 4 na kierunku poprzecznym $Y$. Kolejnym koniecznym przy doborze siatki pomiarowej ograniczeniem było to, że dostęp do konstrukcji był możliwy jedynie z pomostu. Z uwagi na występowanie modów związanych głównie z bocznym ruchem łuków (rys. \ref{fig: model_wk2_origin_mods}) narzucono, że 4 punkty pomiarowe $2Y \text{i} 2Z$ zostaną zamocowane bezpośrednio na łuku. Uwzględniając powyższe założenia pozostało do dyspozycji 8 punktów pomiarowych $Z$ i 2 punkty pomiarowe $Y$. Punkty $Y$ są związane z $Z$ w ramach obudowy czujnika 2-osiowego, zaniechano więc doboru lokalizacji z uwagi na punkty $Y$ i skupiono się tylko na kierunku $Z$. Na rysunku \ref{fig: wk2_automac_points_all} kolorem czerwonym zaznaczono zbiór wszystkich dozwolonych do wyboru punktów. Kolorem niebieskim zaznaczono punkty zarezerwowane dla czujników mocowanych do łuku. Punków czerwonych jest 26 i należy z nich wybrać 8. Wykonano kombinację bez powtórzeń i uzyskano 1562275 zestawów lokalizacji czujników. Dla każdego zestawu wyznaczono macierz MAC uwzględniając 10 pierwszych modów z modelu MES, a następnie RMS i maksymalny element każdej macierzy. Zestawy posortowano względem każdego parametru i wyniki przedstawiono graficznie na rysunku \ref{fig: wk2_automac_charts}. 
 \begin{figure}[h]
 	\centering
 	\captionsetup{justification=centering}
@@ -190,7 +190,7 @@ Z uwagi na dostępny czas badań ustalono, że całość badań musi być zreali
 	\caption{Wskaźniki oceniające jakość wyboru zestawu punktów pomiarowych dla wszystkich analizowanych kombinacji}
 	\label{fig: wk2_automac_charts}
 \end{figure}
-Logicznym wyborem punktów byłoby wzięcie pod uwagę ustawień charakteryzujących się minimalną wartością jednego z parametrów. Jednakże prowadząc badania terenowe należy brać pod uwagę czynniki takie jak ułożenie kabli, możliwości systemu pomiarowego do łączenia punktów pomiarowych, przejście przez czynną linię kolejową. Z tego powodu zaproponowano układ czujników intuicyjnie pozwalających na dobrą identyfikację modalną, a jednocześnie gwarantujący komfort w montażu i kontroli przez jedną osobę. Wybrane punkty pokazano na rysunku \ref{fig: wk2_automac_points_choosen}. Dla wybranego zestawu punktów wyznaczono macierz MAC (Rys. \ref{fig: wk2_automac_correlogram}) i wskaźniki: RMS i maksymalną wartość MAC. Wskaźniki zaznaczono na rysunku \ref{fig: wk2_automac_charts} pomarańczowym krzyżykiem, pokazując jakość dokonanego wyboru wśród wszystkich możliwych. Na podstawie wartości RMS można stwierdzić, że narzucony wariant charakteryzuje się niską wartością parametru i jego dalsze optymalizowanie kosztem utrudnień w trakcie pomiarów, oceniono jako nieopłacalne. Należy również zaznaczyć, że wartość RMS elementów poza przekątną macierzy MAC mierzy jedynie średnią zależność wszystkich par wektorów. Nie uwzględnia wielkości amplitud poszczególnych modów w punktach i ich znaczenia na ostateczne zachowanie dynamiczne kładki. W przedmiotowym przypadku zamocowano punkty pomiarowe w miejscach, gdzie kryterium RMS jest jednocześnie niskie (Rys. \ref{fig: wk2_automac_charts}) i przemieszczenia modalne dla głównych modów giętnych i skrętnych pomostu są bliskie ekstremalnym (Rys. \ref{mody teoretyczne}).
+Logicznym wyborem punktów byłoby wzięcie pod uwagę ustawień charakteryzujących się minimalną wartością jednego z parametrów. Jednakże prowadząc badania terenowe należy brać pod uwagę czynniki takie jak ułożenie kabli, możliwości systemu pomiarowego do łączenia punktów pomiarowych, przejście przez czynną linię kolejową. Z tego powodu zaproponowano układ czujników intuicyjnie pozwalających na dobrą identyfikację modalną, a jednocześnie gwarantujący komfort w montażu i kontroli przez jedną osobę. Wybrane punkty pokazano na rysunku \ref{fig: wk2_automac_points_choosen}. Dla wybranego zestawu punktów wyznaczono macierz MAC (Rys. \ref{fig: wk2_automac_correlogram}) i wskaźniki: RMS i maksymalną wartość MAC. Wskaźniki zaznaczono na rysunku \ref{fig: wk2_automac_charts} pomarańczowym krzyżykiem, pokazując jakość dokonanego wyboru wśród wszystkich możliwych. Na podstawie wartości RMS można stwierdzić, że narzucony wariant charakteryzuje się niską wartością parametru i jego dalsze optymalizowanie kosztem utrudnień w trakcie pomiarów, oceniono jako nieopłacalne. Należy również zaznaczyć, że wartość RMS elementów poza przekątną macierzy MAC mierzy jedynie średnią zależność wszystkich par wektorów. Nie uwzględnia wielkości amplitud poszczególnych modów w punktach i ich znaczenia na ostateczne zachowanie dynamiczne kładki. W przedmiotowym przypadku zamocowano punkty pomiarowe w miejscach, gdzie kryterium RMS jest jednocześnie niskie (Rys. \ref{fig: wk2_automac_charts}) i przemieszczenia modalne dla głównych modów giętnych i skrętnych pomostu są bliskie ekstremalnym (Rys. \ref{fig: model_wk2_origin_mods}).
 
 
 
@@ -228,8 +228,6 @@ Badania na obiekcie przeprowadzone zostały w dniu 17 czerwca 2019 r. Wykorzysta
 \subsubsection{Środki obciążeniowe}
 W trakcie badań na obiekcie odbywał się standardowy dla PKM ruch pociągów pasażerskich. Pomiędzy przejazdami, w asyście sygnalisty eksperymentator przemieszczał się biegając i podskakując po obiekcie. \ref{fig: wk2_foto_obciazenia}. Porównanie amplitud drgań bez wymuszenia i z dodatkowym wymuszeniem pokazano na rysunku \ref{RYSUNEK POMIAR DRGAN}. Z punktu widzenia pomiaru drgań środowiskowych należy zwrócić uwagę na pomniejsze oddziaływania działające przy braku obciążeń kolejowych na obiekcie. Pod obiektem odbywał się ruch w ciągu magistralnej linii kolejowej nr 202. W odległości około 150 m od wiaduktu, niemal równolegle przebiega główna arteria Gdańska - aleja Grunwaldzka, na której ciągu dnia panuje stały, znaczny ruch samochodowy. W podobnej odległości od obiektu panowały prace budowlane z wykorzystaniem ciężkiego sprzętu.
 
-
-
 \begin{figure}[h]
 	\centering
 	\subfloat[System akwizycji danych: komputer i wzmacniacz pomiarowy HBM PMX]{\includegraphics[width=0.48\linewidth]{/WK2/zdjecia/system_pomiarowy.jpg}} \quad 
@@ -250,29 +248,20 @@ W trakcie badań na obiekcie odbywał się standardowy dla PKM ruch pociągów p
 	\label{fig: wk2_foto_obciazenia}
 \end{figure}
 
-
-
+\subsubsection{Rezultaty badań}
+Zmierzone sygnały poddano analizie NExT-ERA. W procesie iteracyjnym przyjęto parametry metody pozwalające uzyskać stabilne rozwiązania. Na rysunku \ref{fig: wk2_research_stabdiags} przestawiono diagramy stabilizacyjne metody. Zidentyfikowano 11 pierwszych modów o częstotliwościach mniejszych niż 8 Hz. Charakterystyki zidentyfikowanych modów zestawiono w tabeli \{}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{WK2/diagram_non_filtered.pdf}
+	\subfloat[Diagram niefiltorwany]{\includegraphics[width=\textwidth]{WK2/badania/diagram_non_filtered.pdf}}\\
+	\subfloat[Diagram filtrowany]{\includegraphics[]{WK2/badania/diagram_filtered2.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Diagram stabilizacyjny metody NExT-ERA.}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[]{WK2/diagram_filtered2.pdf}
-	\captionsetup{justification=centering}
-	\caption{Diagram stabilizacyjny metody NExT-ERA.}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[]{WK2/identified_mode_1.pdf}
-	\captionsetup{justification=centering}
-	\caption{Diagram stabilizacyjny metody NExT-ERA.}
+	\caption{Diagramy stabilizacyjne metody NExT-ERA w badaniach wiaduktu WK2}
+	\label{fig: wk2_research_stabdiags}
 \end{figure}
 
 \section{Kalibracja modelu numerycznego z wykorzystaniem PSO}
+
 \section{Wielokryterialna optymalizacja modelu: opis + wyniki}
 
 \begin{figure}[h]

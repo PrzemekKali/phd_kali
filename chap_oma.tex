@@ -917,7 +917,7 @@ W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. !!!). B
 \begin{equation} \label{eq: minimum_oma_time_series}
 	T_{tot} > \frac{20}{2\zeta f_{min}}=\frac{10}{\zeta f_{min}}
 \end{equation}
-gdzie $f_{min}$ oznacza najniższą częstotliwość drgań własnych układu. Dla podanego układu minimalna częstotliwość drgań własnych wyznaczona teoretycznie wynosi $f_{min}=19.7 \text{Hz}$, a przewidywana liczba tłumienia wynosi $\zeta \approx 0.005$. Minimalna długość serii pomiarowej wynosi więc $T_{min} = \frac{10}{0.005\cdot 19.7} = 101.5 \text{s}$. 
+gdzie $f_{min}$ oznacza najniższą częstotliwość drgań własnych układu. Dla podanego układu minimalna częstotliwość drgań własnych wyznaczona teoretycznie wynosi $f_{min}=19.7 \text{Hz}$, a przewidywana minimalna liczba tłumienia wynosi $\zeta \approx 0.005$. Minimalna długość serii pomiarowej wynosi więc $T_{min} = \frac{10}{0.005\cdot 19.7} = 101.5 \text{s}$. 
 
 Wyznaczono również stosunek poziomu sygnału do szumu posługując się wzorem (\ref{})
 \begin{equation}
@@ -931,7 +931,7 @@ Przeprowadzono analizę sygnałów analogicznie jak dla modelu numerycznego, z t
 
 
 
-\section{Podsumowanie}
+\section{Podsumowanie testów metody NExT-ERA}
 Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w tabeli \ref{tab: blue_beam_comparison}. Obserwując uzyskane z analizy modalnej postaci można zauważyć, że Mod 7 i Mod 10 mają charakter skrętny. Posługując się modelem belkowym i odczytując przyspieszenia węzłów na kierunku $Y$ i $Z$ nie ma możliwości zaobserwować tych postaci. Przeprowadzona identyfikacja potwierdza ten fakt, nie wskazując tych modów jako stabilnych rozwiązań. Z tego względu w tabeli zbiorczej zostały one oznaczone jako brakujące.
 
 
@@ -949,7 +949,7 @@ Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w t
 		\begin{tabular}{@{}c|c|c|cccc|llll@{}}
 			
 			\toprule
-			\multicolumn{1}{l|}{} & \textbf{\begin{tabular}[c]{@{}c@{}}Analiza\\ modalna\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Zakładane\\ tłumienie\end{tabular}} & \multicolumn{4}{c|}{\textbf{Model MES}}                                      & \multicolumn{4}{c|}{\textbf{Badania}}                                                                                                                        \\ \midrule
+			\multicolumn{1}{l|}{} & \textbf{\begin{tabular}[c]{@{}c@{}}Analiza\\ modalna\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Zakładane\\ tłumienie\end{tabular}} & \multicolumn{4}{c|}{\textbf{Model MES niekalibrowany}}                                      & \multicolumn{4}{c|}{\textbf{Badania}}                                                                                                                        \\ \midrule
 			\multicolumn{1}{l|}{} & \textbf{Częst.}                                                    & \textbf{LDT}                                                           & \textbf{Częst.}   & \textbf{Stosunek} & \textbf{LDT}     & \textbf{Stosunek} & \multicolumn{1}{c}{\textbf{Częst.}}   & \multicolumn{1}{c}{\textbf{Stosunek}} & \multicolumn{1}{c}{\textbf{LDT}}     & \multicolumn{1}{c}{\textbf{Stosunek}} \\ \midrule
 			\multicolumn{1}{l|}{} & \textbf{{[}Hz{]}}                                                  & \textbf{{[}-{]}}                                                       & \textbf{{[}Hz{]}} & \textbf{{[}\%{]}} & \textbf{{[}-{]}} & \textbf{{[}\%{]}} & \multicolumn{1}{c}{\textbf{{[}Hz{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} & \multicolumn{1}{c}{\textbf{{[}-{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} \\ \midrule
 			\textbf{Mod 1}        & 19.77                                                              & 0.0303                                                                 & 19.701            & 100\%             & 0.0291           & 96\%              &                                       &                                       &                                      &                                       \\ \midrule

@@ -86,7 +86,7 @@ Na potrzeby analiz numerycznych zbudowano model MES w środowisku SOFiSTiK (rys.
 \end{figure}
 
 Obciążenie ciężarem własnym konstrukcji zostało wygenerowane na podstawie ciężarów wprowadzonych przekrojów elementów liniowych bądź grubości elementów powłokowych. Dodatkowe elementy takie jak przepony i zakotwienia wieszaków dodane zostały jako obciążenia węzłowe. Osobny przypadek obciążenia stanowi pomost roboczy dodany jako ekwiwalentne obciążenie węzłowe i momenty zginające. Ostatnim obciążeniem stałym jest ciężar tłucznia. Z uwagi na ułożenie toru po łuku w planie, rozkład tłucznia na obiekcie nie jest regularną, symetryczną bryłą. Dostępna dokumentacja obiektu nie dostarcza dokładnych informacji o ułożeniu podsypki na pomoście. Podsypka została w prosty sposób zinwentaryzowana przez pomiar grubości w niektórych punktach charakterystycznych. Na rysunku \ref{fig: wk2_cross_sect} zaprezentowano zinwentaryzowany układ tłucznia w przekroju przęsłowym. Zastosowana metoda pomiaru objętości tłucznia nie jest dokładna i na pewno nie odzwierciedla realnego rozkładu ciężaru podsypki na obiekcie. Z tego względu podzielono obciążenie tłuczniem na dwa osobne przypadki: równomiernie rozłożone obciążenie na całym pomoście i obciążenie równomierne o szerokości (!!!) usytuowane wzdłuż osi toru. Wartość obciążenia tłuczniem przyjęto z normy (!!!).
-\begin{figure}[h!]
+\begin{figure}[p]
 	\centering
 	\begin{tabular}[c]{c}
 		\subfloat[Mod 1, $f_1=1.408\text{ Hz}$]{\label{fig: wk2_origin_mod01}%
@@ -124,7 +124,7 @@ Obciążenie ciężarem własnym konstrukcji zostało wygenerowane na podstawie 
 	\label{fig: model_wk2_origin_mods}
 \end{figure}
 
-\begin{figure}[h]\ContinuedFloat
+\begin{figure}[H]\ContinuedFloat
 	\centering
 	\begin{tabular}[c]{c}
 		\subfloat[Mod 7, $f_7=5.584 \text{ Hz}$]{\label{fig: wk2_origin_mod07}%
@@ -173,15 +173,16 @@ Zarządca obiektu zezwolił na prowadzenie badań pod ruchem w towarzystwie sygn
 Dostępny system pomiarowy składał się z dwóch akcelerometrów 3-osiowych i z dwóch czujników 1-osiowych.  Mając do dyspozycji ograniczoną liczbę jednocześnie mierzonych punktów należało przeprowadzić symulację najlepszego rozmieszczenia punktów pomiarowych na obiekcie. Przykłady metod pozwalających na optymalne rozmieszczenie punktów pomiarowych w analizach dynamicznych zaprezentowano w literaturze i najczęściej opierają się one na wyznaczeniu reprezentatywnego wskaźnika, dzięki któremu da się porównać różne ustawienia. Między innymi \cite{Kammer1991,Papadopoulos1998} zaproponowali użycie Modalnej Energii Kinetycznej \teng{Modal Kinetic Energy}, \cite{Udwadia1994} macierzy informacyjnej Fishera \teng{Fisher Information Matrix}, a \cite{Penny1994,Allemang2003} macierzy MAC dla zestawu modów. \cite{Zhang2017} przedstawili zwięzłe zestawienie powyższych metod i zaproponowali opcję optymalizującą lokalizację punktów pomiarowych przy wielu ustawieniach pomiarowych, zarówno dla punktów pomiarowych jak i punktów referencyjnych. Autorzy zwracają również uwagę, że przy wielu punktach pomiaru ścisła ocena wszystkich możliwych ustawień jest wymagająca obliczeniowo bądź niemożliwa. Z tego względu stosowane są algorytmy heurystyczne bądź meta-heurystyczne. 
 
 W niniejszej pracy zastosowano metodę wykorzystującą kryterium MAC \parencite{Penny1994}. Podobne postępowanie przedstawił w swojej pracy \cite{Poprawa2018}. Polega ono na wyznaczeniu teoretycznych postaci drgań własnych z dostępnego modelu MES. Dla zbioru wszystkich możliwych położeń czujników odczytywane są przemieszczenia znormalizowane danej postaci drgań. Ze zbioru możliwych położeń wybierane są punkty, gdzie umieszczone mają zostać czujniki. Posiłkując się opisem postaci drgań w wybranych punktach tworzona jest macierz MAC. Każdą postać porównuje się ze wszystkimi innymi i z samą sobą. W ten sposób na przekątnej macierzy pojawiają się wartości równe 1 co oznacza oczywiste, idealne dopasowanie według kryterium MAC dla równych wektorów. Poza przekątną, wartości MAC mieszczą się w przedziale 0 - 1. Celem analizy jest dobór punktów pomiarowych tak by poza przekątną wartości były możliwie małe. Przy małym dopasowaniu, postaci będą miały szanse być zidentyfikowane jednoznacznie przy mocno ograniczonej liczbie punktów pomiarowych i bliskim położeniu modów w dziedzinie częstotliwości. Dla każdego rozwiązania należy wyznaczyć wskaźnik, który pozwala ocenić zbiór punktów względem innych. \cite{Penny1994} zaproponowali w jednym z wariantów maksymalną wartość MAC wśród elementów poza przekątną macierzy oraz średnią kwadratową (RMS)\footnote{Średnią kwadratową wyznaczono zgodnie z definicją z równania: $x_{\text{RMS}}=\sqrt{\frac{x_1^2+x_2^2+x_3^2+\dots+x_n^2}{n}}$} ze wszystkich elementów powyżej przekątnej macierzy MAC. Im niższa wartość maksymalna i im niższa średnia kwadratowa tym lepiej.
-\begin{figure}[h]
+\begin{figure}[t]
 	\centering
 	\includegraphics{/WK2/rysunki/punkty_pomiarowe_automac_croped.pdf}
 	\captionsetup{justification=centering}
 	\caption{Lokalizacje dozwolone przy doborze punktów pomiarowych}
 	\label{fig: wk2_automac_points_all}
 \end{figure}
+
 Z uwagi na ograniczony czas dostępu do obiektu ustalono, że całość badań musi być zrealizowana w 3 ustawieniach dostępnych czujników. W przypadku wiaduktu, akcelerometry 3-osiowe potraktowano jako 2-osiowe. Odrzucono pomiar wzdłuż osi podłużnej obiektu jako nieistotny. W tej sytuacji jeden czujnik 2-osiowy posłużył jako punkt referencyjny mierzący drgania pionowe i poprzeczne. Pozostałe 4 punkty pomiarowe mogły być zmieniane w poszczególnych ustawieniach. Ostatecznie przy trzech ustawieniach możliwy był pomiar w 14 punktach pomiarowych $(6+4+4)$ w tym 10 na kierunku pionowym $Z$ i 4 na kierunku poprzecznym $Y$. Kolejnym koniecznym przy doborze siatki pomiarowej ograniczeniem było to, że dostęp do konstrukcji był możliwy jedynie z pomostu. Z uwagi na występowanie modów związanych głównie z bocznym ruchem łuków (rys. \ref{fig: model_wk2_origin_mods}) narzucono, że 4 punkty pomiarowe $2Y \text{i} 2Z$ zostaną zamocowane bezpośrednio na łuku. Uwzględniając powyższe założenia pozostało do dyspozycji 8 punktów pomiarowych $Z$ i 2 punkty pomiarowe $Y$. Punkty $Y$ są związane z $Z$ w ramach obudowy czujnika 2-osiowego, zaniechano więc doboru lokalizacji z uwagi na punkty $Y$ i skupiono się tylko na kierunku $Z$. Na rysunku \ref{fig: wk2_automac_points_all} kolorem czerwonym zaznaczono zbiór wszystkich dozwolonych do wyboru punktów. Kolorem niebieskim zaznaczono punkty zarezerwowane dla czujników mocowanych do łuku. Punków czerwonych jest 26 i należy z nich wybrać 8. Wykonano kombinację bez powtórzeń i uzyskano 1562275 zestawów lokalizacji czujników. Dla każdego zestawu wyznaczono macierz MAC uwzględniając 10 pierwszych modów z modelu MES, a następnie RMS i maksymalny element każdej macierzy. Zestawy posortowano względem każdego parametru i wyniki przedstawiono graficznie na rysunku \ref{fig: wk2_automac_charts}. 
-\begin{figure}[h]
+\begin{figure}[t]
 	\centering
 	\captionsetup{justification=centering}
 	\subfloat[Maksymalne MAC z elementów poza przekątną macierzy]{\includegraphics[]{/WK2/automac/max_mac.pdf}}% 
@@ -207,7 +208,7 @@ Logicznym wyborem punktów byłoby wzięcie pod uwagę ustawień charakteryzują
 
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{WK2/automac/correlogram_0.pdf}
 	\captionsetup{justification=centering}
@@ -249,16 +250,108 @@ W trakcie badań na obiekcie odbywał się standardowy dla PKM ruch pociągów p
 \end{figure}
 
 \subsubsection{Rezultaty badań}
-Zmierzone sygnały poddano analizie NExT-ERA. W procesie iteracyjnym przyjęto parametry metody pozwalające uzyskać stabilne rozwiązania. Na rysunku \ref{fig: wk2_research_stabdiags} przestawiono diagramy stabilizacyjne metody. Zidentyfikowano 11 pierwszych modów o częstotliwościach mniejszych niż 8 Hz. Charakterystyki zidentyfikowanych modów zestawiono w tabeli \{}
+Zmierzone sygnały poddano analizie NExT-ERA. W procesie iteracyjnym przyjęto parametry metody pozwalające uzyskać stabilne rozwiązania. Na rysunku \ref{fig: wk2_research_stabdiags} przestawiono diagramy stabilizacyjne metody. Zidentyfikowano 11 pierwszych modów o częstotliwościach mniejszych niż 8 Hz. Charakterystyki zidentyfikowanych modów zestawiono w tabeli {}
 
 \begin{figure}[h]
 	\centering
-	\subfloat[Diagram niefiltorwany]{\includegraphics[width=\textwidth]{WK2/badania/fig_stab_diagram_nonfiltr.pdf}}\\
-	\subfloat[Diagram filtrowany]{\includegraphics[]{WK2/badania/fig_stab_diagram_filtr.pdf}}
+	\subfloat[Diagram niefiltorwany]{\includegraphics[]{WK2/ident/fig_stab_diagram_nonfiltr.pdf}}\\
+	\subfloat[Diagram filtrowany]{\includegraphics[]{WK2/ident/fig_stab_diagram_filtr.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Diagramy stabilizacyjne metody NExT-ERA w badaniach wiaduktu WK2}
 	\label{fig: wk2_research_stabdiags}
 \end{figure}
+
+\begin{figure}[p]
+	\centering
+	\begin{tabular}[c]{c}
+	\subfloat[Mod 1, $f_1=1.468 \text{Hz}$]{\label{fig: wk2_research_mod01}%
+			\begin{tabular}[b]{c c c}
+				\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_11_time_20_08_21.pdf}%
+				\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_11_time_20_09_01.pdf}%
+				\includegraphics[height=0.20\textheight]{/wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf}%
+		\end{tabular}}\\
+	\subfloat[Mod 2, $f_2=2.481 \text{Hz}$]{\label{fig: wk2_research_mod02}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_23_time_20_09_19.pdf}%
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_23_time_20_09_26.pdf}%
+		\includegraphics[height=0.20\textheight]{/wk2/ident/mods/fig_polar_mod_23_time_16_57_54.pdf}%
+\end{tabular}}\\
+	\subfloat[Mod 3, $f_3=2.551 \text{Hz}$]{\label{fig: wk2_research_mod03}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_25_time_20_09_56.pdf}%
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_25_time_20_10_13.pdf}%
+		\includegraphics[height=0.20\textheight]{/wk2/ident/mods/fig_polar_mod_25_time_16_58_42.pdf}%
+\end{tabular}}\\
+	\subfloat[Mod 4, $f_4=2.769 \text{Hz}$]{\label{fig: wk2_research_mod04}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_27_time_20_10_31.pdf}%
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_27_time_20_10_46.pdf}%
+		\includegraphics[height=0.20\textheight]{/wk2/ident/mods/fig_polar_mod_27_time_16_59_26.pdf}%
+\end{tabular}}\\
+
+	\end{tabular}
+\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2}
+\label{fig: wk2_research_mods1}
+\end{figure}
+
+
+\begin{figure}[p]\ContinuedFloat
+	\centering
+	\begin{tabular}[c]{c}
+	\subfloat[Mod 5, $f_5=3.435 \text{Hz}$]{\label{fig: wk2_research_mod05}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_33_time_20_11_02.pdf}%
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_33_time_20_11_12.pdf}%
+		\includegraphics[height=0.20\textheight]{/wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf}%
+\end{tabular}}\\
+
+	\subfloat[Mod 6, $f_6=4.853 \text{Hz}$]{\label{fig: wk2_research_mod06}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_47_time_20_11_28.pdf}%
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_47_time_20_11_53.pdf}%
+		\includegraphics[height=0.20\textheight]{/wk2/ident/mods/fig_polar_mod_47_time_17_00_46.pdf}%
+\end{tabular}}\\
+	\subfloat[Mod 7, $f_7=5.809 \text{Hz}$]{\label{fig: wk2_research_mod07}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_57_time_20_12_12.pdf}%
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_57_time_20_12_20.pdf}%
+		\includegraphics[height=0.20\textheight]{/wk2/ident/mods/fig_polar_mod_57_time_17_01_27.pdf}%
+\end{tabular}}\\
+	\subfloat[Mod 8, $f_8=5.874 \text{Hz}$]{\label{fig: wk2_research_mod08}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_59_time_20_12_37.pdf}%
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_59_time_20_12_48.pdf}%
+		\includegraphics[height=0.20\textheight]{/wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf}%
+\end{tabular}}\\
+	\end{tabular}
+\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2}
+\label{fig: wk2_research_mods2}
+\end{figure}
+
+
+\begin{figure}[H]\ContinuedFloat
+	\centering
+	\begin{tabular}[c]{c}
+	\subfloat[Mod 9, $f_9=6.132 \text{Hz}$]{\label{fig: wk2_research_mod09}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_61_time_20_13_07.pdf}%
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_61_time_20_13_32.pdf}%
+		\includegraphics[height=0.20\textheight]{/wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf}%
+\end{tabular}}\\
+	\subfloat[Mod 10, $f_{10}=7.483 \text{Hz}$]{\label{fig: wk2_research_mod10}%
+	\begin{tabular}[b]{c c c}
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_75_time_20_13_51.pdf}%
+		\includegraphics[height=0.20\textheight,trim=0 0 0 25,clip]{/wk2/ident/mods/fig_mod_75_time_20_14_02.pdf}%
+		\includegraphics[height=0.20\textheight]{/wk2/ident/mods/fig_polar_mod_75_time_17_18_33.pdf}%
+\end{tabular}}\\
+
+
+
+	\end{tabular}
+	\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2}
+	\label{fig: wk2_research_mods3}
+\end{figure}
+
 
 \section{Kalibracja modelu numerycznego z wykorzystaniem PSO}
 

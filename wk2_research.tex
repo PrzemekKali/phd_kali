@@ -149,6 +149,7 @@ Obciążenie ciężarem własnym konstrukcji zostało wygenerowane na podstawie 
 		\end{tabular}}\\
 	\end{tabular}
 	\caption{Postaci i częstotliwości drgań własnych wiaduktu WK2 - Model wstępny. Kont.}
+	
 \end{figure}
 
 \section{Identyfikacja modalna wiaduktu WK2}
@@ -217,17 +218,15 @@ Logicznym wyborem punktów byłoby wzięcie pod uwagę ustawień charakteryzują
 \end{figure}
 
 
-\subsubsection{CZAS SAMPLING ITP}
+\subsubsection{Parametry akwizycji danych}
+Przed przystąpieniem do badań wyznaczono podstawowe parametry pozwalające na przeprowadzenie poprawnego eksperymentu OMA. Posługując się formułami (\ref{eq: oma_min_sampling} - \ref{eq: oma_min_sampling}) określono minimalną częstotliwość próbkowania jako $f_{s,min}=2.4\cdot8=19.2\text{Hz}$ i minimalny czas prowadzenia pomiarów w jednym ustawieniu jako $T_{min}=\frac{10}{0.005\cdot1.4}=1429\text{s}=23.8\text{min}$. Ostatecznie zdecydowano o prowadzeniu pomiarów ze znacznym nadpróbkowaniem o częstotliwości $f_s=300\text{Hz}$ i w seriach czasowych 20 do 30 min.
 
-
-
-\textbf{Zastosowane kryteria: max mac 0.6, rowno na obie strony, maksymalna srednia z wektorow punktow. Dodac zmiennosc w kombinacjach maksymalnego momentu jako przestroge.}
 
 \subsubsection{Przebieg badań}
-Badania na obiekcie przeprowadzone zostały w dniu 17 czerwca 2019 r. Wykorzystano zestaw pomiarowy opisany w rozdziale \ref{sect: next_era_lab_test}. Zestaw w trakcie badań pokazano na rysunku \ref{fig: wk2_foto_aparatura}. Pomiary wykonano zgodnie z planem. Akwizycję danych podzielono na 3 ustawienia. Punkty pomiarowe w poszczególnych ustawieniach oznaczono na rysunku \ref{fig: wk2_automac_points_choosen}. Warunki atmosferyczne były stabilne: brak odczuwalnych podmuchów wiatru, silne operowanie słońca.
+Badania na obiekcie przeprowadzone zostały w dniu 17 czerwca 2019 r. Wykorzystano zestaw pomiarowy opisany w rozdziale \ref{sect: next_era_lab_test}. Zestaw w trakcie badań pokazano na rysunku \ref{fig: wk2_foto_aparatura}. Pomiary wykonano zgodnie z planem. Akwizycję danych podzielono na 3 ustawienia. Akwizycja danych w każdym ustawieniu wynosiła od 20 do 30 min. Punkty pomiarowe w poszczególnych ustawieniach oznaczono na rysunku \ref{fig: wk2_automac_points_choosen}. Warunki atmosferyczne były stabilne: brak odczuwalnych podmuchów wiatru, silne operowanie słońca.
 
 \subsubsection{Środki obciążeniowe}
-W trakcie badań na obiekcie odbywał się standardowy dla PKM ruch pociągów pasażerskich. Pomiędzy przejazdami, w asyście sygnalisty eksperymentator przemieszczał się biegając i podskakując po obiekcie. \ref{fig: wk2_foto_obciazenia}. Porównanie amplitud drgań bez wymuszenia i z dodatkowym wymuszeniem pokazano na rysunku \ref{RYSUNEK POMIAR DRGAN}. Z punktu widzenia pomiaru drgań środowiskowych należy zwrócić uwagę na pomniejsze oddziaływania działające przy braku obciążeń kolejowych na obiekcie. Pod obiektem odbywał się ruch w ciągu magistralnej linii kolejowej nr 202. W odległości około 150 m od wiaduktu, niemal równolegle przebiega główna arteria Gdańska - aleja Grunwaldzka, na której ciągu dnia panuje stały, znaczny ruch samochodowy. W podobnej odległości od obiektu panowały prace budowlane z wykorzystaniem ciężkiego sprzętu.
+W trakcie badań na obiekcie odbywał się standardowy dla PKM ruch pociągów pasażerskich. Pomiędzy przejazdami, w asyście sygnalisty eksperymentator przemieszczał się biegając i podskakując po obiekcie. \ref{fig: wk2_foto_obciazenia}. Porównanie amplitud drgań bez wymuszenia i z dodatkowym wymuszeniem pokazano na rysunku \ref{RYSUNEK POMIAR DRGAN}. Z punktu widzenia pomiaru drgań środowiskowych należy zwrócić uwagę na pomniejsze oddziaływania występujące przy braku obciążeń kolejowych na obiekcie. Pod obiektem odbywał się ruch w ciągu magistralnej linii kolejowej nr 202. W odległości około 150 m od wiaduktu, niemal równolegle przebiega główna arteria Gdańska - aleja Grunwaldzka, na której ciągu dnia panuje stały, znaczny ruch samochodowy. W podobnej odległości od obiektu panowały prace budowlane z wykorzystaniem ciężkiego sprzętu.
 
 \begin{figure}[h]
 	\centering
@@ -249,17 +248,42 @@ W trakcie badań na obiekcie odbywał się standardowy dla PKM ruch pociągów p
 	\label{fig: wk2_foto_obciazenia}
 \end{figure}
 
-\subsubsection{Rezultaty badań}
-Zmierzone sygnały poddano analizie NExT-ERA. W procesie iteracyjnym przyjęto parametry metody pozwalające uzyskać stabilne rozwiązania. Na rysunku \ref{fig: wk2_research_stabdiags} przestawiono diagramy stabilizacyjne metody. Zidentyfikowano 11 pierwszych modów o częstotliwościach mniejszych niż 8 Hz. Charakterystyki zidentyfikowanych modów zestawiono w tabeli {}
+\subsubsection{Analiza i rezultaty badań}
+Zarejestrowane sygnały poddano analizie OMA metodą NExT-ERA. W procesie iteracyjnym przyjęto parametry metody pozwalające uzyskać stabilne rozwiązania. Uwzględniając wyniki z analizy modalnej modelu teoretycznego (rys. \ref{fig: model_wk2_origin_mods}), stwierdzono że niektóre częstotliwości drgań własnych są bardzo bliskie. \cite{Caicedo2011} w takiej sytuacji proponuje obniżenie częstotliwości próbkowania sygnału. Zabieg ten zwiększa szanse na zidentyfikowanie blisko położonych modów przez uwzględnienie w analizie mniejszego, całkowitego zakresu częstotliwości. Zastosowano resampling do próbkowania 30Hz. Szerokość okna FFT przy obliczaniu funkcji korelacji przyjęto jako 1024. Wybrane okno przy zmniejszonej częstotliwości próbkowania pozwoliło uzyskać funkcje korelacji o długości około 17s. Wymiary macierzy Hankela przyjęto jako $r=110$ i $s=150$. Uwzględniono w ten sposób w macierzy Hankela niespełna 9s odpowiedzi impulsowej konstrukcji danej funkcjami korelacji. Taki czas pozwala na uwzględnienie kilkunastu okresów drgań modu o najniższej częstotliwości. Na rysunku \ref{fig: wk2_research_stabdiags} przestawiono diagramy stabilizacyjne metody w wersji filtrowanej i niefiltrowanej dla rzędu maksymalnego równego $n=150$. Przy tworzeniu diagramów zastosowano następujące kryteria poprawności rozwiązania:
+\begin{itemize}[noitemsep]
+	\item maksymalna różnica częstotliwości (\ref{eq: stabdiag_crit_freq}): $\Delta f \le 0.005$,
+	\item maksymalny tłumienia (\ref{eq: stabdiag_crit_ksi}): $\Delta \xi \le 0.03$,
+	\item minimalne kryterium MAC i MPC (\ref{eq: stabdiag_crit_MPC_MAC}): $\text{MPC}\ge 0.95$ \quad$\text{MAC}\ge 0.95$
+\end{itemize}
 
-\begin{figure}[h]
+
+ Zidentyfikowano 10 pierwszych modów o częstotliwościach mniejszych niż 8 Hz. Pomimo zidentyfikowania również modów o wyższych częstotliwościach dalsze rozważania ograniczono do pierwszych dziesięciu. Z praktycznego punktu widzenia, dla obiektów mostowych jedynie kilka najniższych modów ma znaczący wpływ na odpowiedź dynamiczną konstrukcji. Charakterystyki zidentyfikowanych modów przedstawiono na wykresach \ref{fig: wk2_research_mods1} i w tabeli \ref{tab: wk2_ident_mods}.
+
+\begin{figure}[]
 	\centering
-	\subfloat[Diagram niefiltorwany]{\includegraphics[]{WK2/ident/fig_stab_diagram_nonfiltr.pdf}}\\
+	\subfloat[Diagram niefiltrowany]{\includegraphics[]{WK2/ident/fig_stab_diagram_nonfiltr.pdf}}\\
 	\subfloat[Diagram filtrowany]{\includegraphics[]{WK2/ident/fig_stab_diagram_filtr.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Diagramy stabilizacyjne metody NExT-ERA w badaniach wiaduktu WK2}
 	\label{fig: wk2_research_stabdiags}
 \end{figure}
+
+\begin{table}[]
+	\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2}
+	\label{tab: wk2_ident_mods}
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{@{}lcccccccccc@{}}
+	\toprule
+	\multicolumn{1}{c}{}              & \textbf{Mod 1} & \textbf{Mod 2} & \textbf{Mod 3} & \textbf{Mod 4} & \textbf{Mod 5} & \textbf{Mod 6} & \textbf{Mod 7} & \textbf{Mod 8} & \textbf{Mod 9} & \textbf{Mod 10} \\ \midrule
+	\textbf{Częstotliwość {[}Hz{]}}   & 1.468          & 2.481          & 2.551          & 2.769          & 3.435          & 4.853          & 5.809          & 5.874          & 6.132          & 7.483           \\
+	\textbf{Liczba tłumienia {[}-{]}} & 0.007          & 0.009          & 0.006          & 0.011          & 0.012          & 0.012          & 0.005          & 0.005          & 0.002          & 0.004           \\
+	\textbf{LDT {[}-{]}}              & 0.043          & 0.053          & 0.037          & 0.070          & 0.077          & 0.077          & 0.028          & 0.031          & 0.013          & 0.024           \\ \bottomrule
+\end{tabular}}
+\end{table}
+
+
+
+
 
 \begin{figure}[p]
 	\centering
@@ -324,7 +348,7 @@ Zmierzone sygnały poddano analizie NExT-ERA. W procesie iteracyjnym przyjęto p
 		\includegraphics[height=0.20\textheight]{/wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf}%
 \end{tabular}}\\
 	\end{tabular}
-\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2}
+\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2 kont.}
 \label{fig: wk2_research_mods2}
 \end{figure}
 
@@ -348,9 +372,16 @@ Zmierzone sygnały poddano analizie NExT-ERA. W procesie iteracyjnym przyjęto p
 
 
 	\end{tabular}
-	\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2}
+	\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2 kont.}
 	\label{fig: wk2_research_mods3}
 \end{figure}
+
+
+
+
+
+
+
 
 
 \section{Kalibracja modelu numerycznego z wykorzystaniem PSO}
@@ -389,6 +420,8 @@ Treść dotyczącza tykresu zbiorczego
 	\captionsetup{justification=centering}
 	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
 \end{figure}
+
+
 
 \chapter{Podsumowanie i wnioski}
 Podsumowania wnioski

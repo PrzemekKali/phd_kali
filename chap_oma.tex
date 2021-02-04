@@ -629,7 +629,7 @@ gdzie $i=1,2,3,\dots,n$ ($n$ - rząd modelu), $j=1,2,3,\dots,m$, ($m$ - liczba p
 \section{Aplikacja do identyfikacji modalnej OMA}
 Na rynku istnieją komercyjne aplikacje komputerowe, stworzone do identyfikacji modalnej. Należą do nich przede wszystkim ARTeMIS - SVS i MACEC - dodatek do programu MATLAB. Programy te służą zarówno naukowcom jak i szeroko pojętemu przemysłowi. Nie powinno więc dziwić, że są skomercjalizowane i płatne. W trakcie realizacji pracy doktorskiej podjęto decyzję o napisaniu własnej aplikacji komputerowej służącej identyfikacji modalnej. Zdaniem autora takie podejście zapewnia pełną kontrolę nad algorytmem i parametrami identyfikacji oraz nad sposobem przedstawienia wyników. Niebagatelnym profitem napisania programu autorskiego jest również lepsze zrozumienie mechanizmów i wrażliwości elementów algorytmu.
 W początkowej fazie tworzenia zaplanowano następującą funkcjonalność programu:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item wczytywanie i podgląd sygnałów pomiarowych, grupowanie sygnałów w serie pomiarowe, ze wskazaniem sygnałów referencyjnych i lokalizacją punktów pomiarowych,
 	\item przetwarzanie sygnałów: okienkowanie, usuniecie składowej stałej i trendu, filtrowanie, zmiana próbkowania,
 	\item wyznaczenie funkcji odpowiedzi impulsowych sygnałów wykorzystując algorytm NExT, z możliwością podziału na serie pomiarowe z punktem referencyjnym oraz uśredniania serii pomiarowych,
@@ -656,7 +656,7 @@ Wstępnie sygnały wyjściowe mogą być poddane standardowemu przetwarzaniu syg
 
 
 Pierwszym głównym etapem w algorytmie NExT-ERA jest wyznaczenie funkcji korelacji wprowadzonych sygnałów. Wyznaczanie funkcji korelacji metodą bezpośrednią jest wymagające obliczeniowo. Z tego powodu wykorzystuje się zależność pomiędzy gęstością widmową mocy, a funkcją korelacji (\ref{eq: spectralDensity} i \ref{eq: correlationInversSpectralDensity}). Wyznaczenie gęstości widmowej mocy jest możliwe za pomocą znacznie bardziej efektywnych algorytmów. Jednym z nich jest metoda Welch'a \parencite{Welch1967,Brincker2015}, którą zastosowano w programie. Umożliwiono również łączenie i uśrednianie wielu serii pomiarowych w jeden wynik identyfikacji. Wykorzystano do tego algorytm przedstawiony w \cite{Brownjohn2010}. W przypadku łączenia serii pomiarowych w jeden wynik, konieczne jest zastosowanie punktów referencyjnych. Punkty referencyjne są to punkty stałe w trakcie całych pomiarów, muszą występować w każdej serii pomiarowej i nie mogą znajdować się w węźle żadnej postaci drgań. Innymi słowy punkt referencyjny musi mieć niezerową wartość w wektorze określającym postać drgań, którą należy zidentyfikować. W zastosowanym algorytmie istnieje możliwość wyboru po jednym punkcie referencyjnym dla każdego z kierunków drgań: X, Y, Z. Łączenie serii pomiarowych odbywa się w następujący sposób:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Algorytmem Welch'a wyznaczane są funkcje wzajemnych gęstości widmowych mocy pomiędzy sygnałem referencyjnym, a pozostałymi sygnałami na powiązanym kierunku.  Wzajemne gęstości widmowe związane z danym punktem referencyjnym są zestawione w jeden wektor.
 	\item Wyznaczane są funkcje auto gęstości widmowych mocy dla sygnałów w punktach referencyjnych. Użyty jest do tego ten sam algorytm co w przypadku wzajemnych funkcji gęstości widmowej mocy, z tą różnicą że sygnały wejściowe są identyczne. 
 	\item Funkcje wzajemnej gęstości widmowej mocy zestawione w jednym wektorze dzielone są przez funkcję auto gęstości widmowej punktu referencyjnego. W tym przypadku wymagane jest aby długość wektora wszystkich wektorów była równa. Identycznie postępuje się z każdym wektorem gęstości widmowych mocy.
@@ -669,15 +669,24 @@ Pierwszym głównym etapem w algorytmie NExT-ERA jest wyznaczenie funkcji korela
 Uśrednianie serii pomiarowych z tym samym ustawieniem punktów pomiarowych odbywa się przez sumowanie gęstości widmowych mocy z powtórzonych serii pomiarowych i podzieleniu przez liczbę powtórzonych serii. Pomimo zestawienia funkcji gęstości widmowych mocy w wektory, wszystkie wspomniane wyżej operacje mnożenia i dzielenia funkcji gęstości widmowych mocy polegają na działaniu na poszczególne prążki spektrum, a nie na klasycznym rozumieniu mnożenia i dzielenia wektorów. 
 
 \subsection{Elementy oceny poprawności rozwiązania}
-Ważnym elementem w procesie identyfikacji modalnej jest ocena poprawności uzyskanego rozwiązania. W tym celu najczęściej wykorzystywane są diagramy stabilizacyjne. W przypadku pomiarów obarczonych szumem, przyjęty rząd modelu musi być zadeklarowany jako większy niż miało by to miejsce w idealnych warunkach. Diagram stabilizacyjny pozwala na określenie minimalnego rzędu modelu, przy którym występują wszystkie interesujące mody i są one stabilne. Zastosowanie diagramów stabilizacyjnych opisano między innymi w (!!!). W programie zastosowano dwie wersje diagramów: niefiltrowaną i filtrowaną. Wersja niefiltrowana obrazuje wszystkie wyznaczone mody: rzeczywiste i fikcyjne. Odróżnia je w zależności od wyników dla niższego rzędu modelu. Jeśli istnieje w modelu o rząd niższym mod spełniający odpowiednie kryteria to jest on uznany za rzeczywisty. Zastosowane w programie domyślne kryteria to:
-\begin{itemize}
-	\item częstotliwość w dwóch kolejnych krokach nie może się różnić o więcej niż 1\%,
-	\item tłumienie w dwóch kolejnych krokach nie może się różnić o więcej niż 5\%,
-	\item parametr MAC dla postaci w dwóch kolejnych krokach musi być większy niż 0.9,
-	\item parametr MPC postaci modu musi być większy niż 0.8.
+Ważnym elementem w procesie identyfikacji modalnej jest ocena poprawności uzyskanego rozwiązania. W tym celu najczęściej wykorzystywane są diagramy stabilizacyjne. W przypadku pomiarów obarczonych szumem, przyjęty rząd modelu musi być zadeklarowany jako większy niż miało by to miejsce w idealnych warunkach. Diagram stabilizacyjny pozwala na określenie minimalnego rzędu modelu, przy którym występują wszystkie interesujące mody i są one stabilne. Zastosowanie diagramów stabilizacyjnych opisano między innymi w (!!!). W programie zastosowano dwie wersje diagramów: niefiltrowaną i filtrowaną. Wersja niefiltrowana obrazuje wszystkie wyznaczone mody: rzeczywiste i fikcyjne. Odróżnia je w zależności od wyników dla niższego rzędu modelu. Jeśli istnieje w modelu o rząd niższym mod spełniający odpowiednie kryteria to jest on uznany za rzeczywisty. Dla rzędu modelu $n$ i obliczonego modu $i$ zastosowane w programie domyślne kryteria to:
+\begin{itemize}[noitemsep]
+	\item częstotliwość $f$ w dwóch kolejnych krokach nie może się różnić o więcej niż 1\%,
+	\begin{equation}\label{eq: stabdiag_crit_freq}
+		\Delta f =  \Big| 1-\frac{f_{n,i}}{f_{n+1,i}}\Big|  \le 0.01
+	\end{equation}
+	\item tłumienie $\xi$ w dwóch kolejnych krokach nie może się różnić o więcej niż 5\%,
+		\begin{equation}\label{eq: stabdiag_crit_ksi}
+		\Delta \xi =  \Big| 1-\frac{\xi_{n,i}}{\xi_{n+1,i}}\Big|  \le 0.05
+	\end{equation}
+	\item parametr MAC dla postaci w dwóch kolejnych krokach musi być większy niż 0.95,	
+	\item parametr MPC postaci modu musi być większy niż 0.9.
+	\begin{equation}\label{eq: stabdiag_crit_MPC_MAC}
+		\text{MAC}_i^{n,n+1} \ge 0.95 \qquad \text{MPC}_i \ge 0.90
+	\end{equation}
 \end{itemize}
 Diagram niefiltrowany obrazuje rozkład zidentyfikowanych modów w domenie częstotliwości. Wstępnie pozwala ocenić czy istnieją mody stabilne (częstotliwość i tłumienie), o rzeczywistych wektorach postaci (MPC) i o niezmiennej formie (MAC). W przypadku dużego rzędu modelu i bliskich sobie modów trudno jednoznacznie odnaleźć jedynie poprawne rozwiązania. Z tego względu stworzono również wersję filtrowaną diagramu stabilizacyjnego. Diagram filtrowany w znacznie bardziej czytelny sposób pozwala przedstawić jedynie mody uznane za rzeczywiste. Jego generacja opiera się na następujących krokach:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Podział dziedziny częstotliwości na wąskie pasma (np. 1\% dolnej granicy pasma) i podział wszystkich punktów według przynależności do poszczególnych pasm,
 	\item Odrzucenie punktów, dla których tłumienie jest zbyt duże ($\text{LDT}\ge0.3$) lub ujemne,
 	\item Wyznaczenie parametru MAC pomiędzy wszystkimi punktami w paśmie oraz parametru MPC dla każdego modu w paśmie.
@@ -700,7 +709,7 @@ Do ilościowego określenia stopnia przestrzennej spójności modu \cite{Pappa19
 \end{equation}
 \begin{equation}
 	{\mu}=\frac{S_{xx}-S_{yy}}{2S_{xy}} \quad \quad
-	\beta=\mu+\mathrm{sgn}(S_{xy}\sqrt{\mu^{2}+1}) \quad \quad
+	\beta=\mu+\mathrm{sgn}(S_{xy})\sqrt{\mu^{2}+1} \quad \quad
 	\tau=\tan^{-1}{(\beta)} \quad
 \end{equation}
 \begin{equation}
@@ -717,12 +726,12 @@ gdzie $\mathrm{sgn}(\cdot)$ oznacza funkcję zwracającą znak liczby. Wskaźnik
 
 Kryterium MAC (Modal Assurance Criterion) pozwala ocenić miarę dopasowania (stopień liniowości) dwóch wektorów modalnych \parencite{Allemang1982}. Jest to podstawowe i najbardziej popularne kryterium służące porównaniu wektorów modalnych \cite{Rainieri2014}. Jego wartość waha się od 0 (dla braku dopasowania) do 1 (dla idealnego dopasowania). Definicja wskaźnika dana jest wzorem \ref{eq: MAC_definition}.
 \begin{equation} \label{eq: MAC_definition}
-	MAC_n = \frac{ (\vect{\psi_{n,a}}^H\vect{\psi_{n,e}})^2}
+	\text{MAC}_n = \frac{ (\vect{\psi_{n,a}}^H\vect{\psi_{n,e}})^2}
 	{\vect{\psi_{n,a}}^H\vect{\psi_{n,a}}\vect{\psi_{n,e}}^H\vect{\psi_{n,e}}}
 \end{equation}
-gdzie $\vect{\psi_{n,a}} \text{i} \vect{\psi_{n,e}}$ to wektory postaci drgań własnych, a $(\cdot)^H$ oznacza sprzężenie Hermitowskie wektora.
+gdzie $\vect{\psi_{n,a}}$ i $\vect{\psi_{n,e}}$ to wektory postaci drgań własnych, a $(\cdot)^H$ oznacza sprzężenie Hermitowskie wektora.
 Należy pamiętać, że kryterium MAC nie wskazuje czy rozwiązanie jest poprawne lub czy wektory modalne są ortogonalne. Wynik pokazuje jedynie dopasowanie dwóch wektorów. Wskaźnik MAC jest nieodporny na błędy zawarte jednocześnie w obu wektorach. Z tego względu za każdym razem należy kontrolować założenia metody. Zbiór wskazówek do stosowania kryterium MAC w swojej pracy zawarł \cite{Allemang2003}. Poza swoistą instrukcją użycia wskaźnika, wskazuje on następujące główne przyczyny niemiarodajnych wyników przy korzystaniu z kryterium MAC:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item traktowanie kryterium MAC jako informacji o ortogonalności wektorów,
 	\item nieprawidłowe matematyczne sformułowanie kryterium, głównie zastąpienie sprzężenia Hermitowskiego transpozycją. Zmiana ta jest słuszna wyłącznie przy rzeczywistych wektorach modalnych,
 	\item duże różnice w wartościach współrzędnych wektorów. Kryterium jest bardzo wrażliwe na duże wartości, a niewrażliwe na małe wartości,
@@ -752,14 +761,14 @@ Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przyp
 
 
 Przed przystąpieniem do analizy wygenerowano 5000 losowych przypadków obciążenia. Losowy charakter uzyskano za pomocą następujących założeń dla każdego przypadku obciążenia:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item w każdym węźle pośrednim może, ale nie musi, być przyłożona siła pionowa lub poprzeczna,
 	\item jeśli siła została przyłożona, jej wartość jest losowana z zakresu od -3 do 3 N dla każdego węzła indywidualnie,
 	\item w trakcie analizy, w każdym kroku czasowym losowany jest jeden przypadek obciążenia z wygenerowanych 5000.
 \end{itemize}
 Rozwiązano problem własny dynamiki przedmiotowego modelu i otrzymano rezultaty jak na rysunku \ref{fig: modal_mods_blue_beam}.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[Mod 1, $f_1=19.70 \text{Hz}$]{\label{fig: test_blue_sof_mod1}%
 		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small001.png}}%
@@ -798,9 +807,9 @@ Odpowiedź konstrukcji na wymuszenie losowe wyznaczono metodą time-step Newmark
 	\label{fig: fft_load_input_blue_beam}
 \end{figure}
 
-Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach pośrednich, na kierunku pionowym i poprzecznym. Do programu wprowadzono stworzone sygnały z informacją o lokalizacji punktów odczytu. Jako punkt referencyjny na kierunku $Y$ wybrano punkt odległy o 0.3L od podpory, a na kierunku pionowym $Z$ punkt odległy o 0.4L od podpory. O wyborze punktów referencyjnych decyduje warunek, że nie mogą one znajdować się w węzłach żadnej analizowanej postaci drgań. Doboru parametrów identyfikacji dokonano przy pomocy diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Na ostatecznym diagramie w wersji filtrowanej (Rys. \ref{fig: stab_diags_blue_beam_b}) wyraźnie widać 8 zidentyfikowanych, stabilnych modów. Odczytano minimalny rzęd modelu zawierający wszystkie stabilne mody o wartości $n=20$. Diagram tworzony iteracyjnie pozwolił ostatecznie wyznaczyć parametry metody, które przynoszą pewne, stabilne rozwiązanie. Dobrane parametry użyto w pojedynczym przebiegu algorytmu metody NExT-ERA w celu uzyskania pełnego rozwiązania.
+Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach pośrednich, na kierunku pionowym i poprzecznym. Do programu wprowadzono stworzone sygnały z informacją o lokalizacji punktów odczytu. Jako punkt referencyjny na kierunku $Y$ wybrano punkt odległy o 0.3L od podpory, a na kierunku pionowym $Z$ punkt odległy o 0.4L od podpory. O wyborze punktów referencyjnych decyduje warunek, że nie mogą one znajdować się w węzłach żadnej analizowanej postaci drgań. Doboru parametrów identyfikacji dokonano przy pomocy diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Na ostatecznym diagramie w wersji filtrowanej (Rys. \ref{fig: stab_diags_blue_beam_b}) wyraźnie widać 8 zidentyfikowanych, stabilnych modów. Odczytano minimalny rząd modelu zawierający wszystkie stabilne mody jako $n=20$. Diagram tworzony iteracyjnie pozwolił ostatecznie wyznaczyć parametry metody, które przynoszą pewne, stabilne rozwiązanie. Dobrane parametry użyto w celu wyznaczenia ostatecznego rozwiązania identyfikacji.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pdf}}\\
 	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf},\label{fig: stab_diags_blue_beam_b}}%
@@ -812,7 +821,7 @@ Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach 
 
 Wprowadzono wyznaczone parametry do programu. Uzyskano odpowiedzi impulsowe dla każdego punktu, których przykłady wraz z odpowiadającą im transformatą Fouriera przedstawiono na rysunku \ref{fig: cross_corr_blue_beam}. 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf}}%
 	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf}}\\
@@ -822,28 +831,9 @@ Wprowadzono wyznaczone parametry do programu. Uzyskano odpowiedzi impulsowe dla 
 	\caption{Przykłady otrzymanych funkcji cross-korelacji w dziedzinie częstotliwości i dziedzinie czasu}
 	\label{fig: cross_corr_blue_beam}
 \end{figure}
-
-
 Funkcje posiadają wyraźnie gasnący, okresowy charakter. Następnie wyznaczone funkcje IRF zostały wprowadzone do metody ERA. Wyniki obliczono dla rzędu modelu równego $n=20$ zgodnie ze wskazaniami diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Spośród wszystkich modów wybrano te, które na diagramie ujawniają się jako rzeczywiste i stabilne. Wyniki w formie postaci drgań własnych na kierunku pionowym $Z$ i poprzecznym $Y$ oraz dla obu kierunków w układzie biegunowym przedstawiono na rysunku \ref{fig: mods_blue_beam}. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\begin{figure}[h!]
+\begin{figure}[p]
 	\centering
 	\begin{tabular}[c]{c}
 		\subfloat[Mod 1, $f_1=19.701 \text{Hz}$]{\label{fig: test_blue_mod1}%
@@ -876,7 +866,7 @@ Funkcje posiadają wyraźnie gasnący, okresowy charakter. Następnie wyznaczone
 	\label{fig: mods_blue_beam}
 \end{figure}
 
-\begin{figure}[h!]\ContinuedFloat
+\begin{figure}[p]\ContinuedFloat
 	\centering
 	\begin{tabular}[c]{c}
 		\subfloat[Mod 5, $f_5=197.881 \text{Hz}$]{\label{fig: test_blue_mod5}%
@@ -913,18 +903,30 @@ Funkcje posiadają wyraźnie gasnący, okresowy charakter. Następnie wyznaczone
 
 
 \subsection{Testy eksperymentalne metody NEXT-ERA} \label{sect: next_era_lab_test}
-W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. !!!). Belka została przymocowana do podłoża aby uniemożliwić przemieszczenie się podpór i przesuwanie belki jako bryły sztywnej. System pomiarowy składał się z wzmacniacza pomiarowego PMX firmy HBM (Hottinger Baldwin Messtechnik GmbH, Darmstadt, Germany), kabli i niskoszumnych, piezorezystywnych czujników akcelerometrycznych firmy TE CONNECTIVITY. Do obsługi wzmacniacza i akwizycji danych użyto program HBM Catman Easy. Czujniki przymocowano magnetycznie do belki. Zastosowano dwa czujniki 3 osiowe, ale rejestrowano jedynie przyspieszenia pionowe i poprzeczne. Zakres pomiarowy akcelerometrów wynosi $\pm 2 \text{g}$, a gwarantowane szumy są określone jako mniejsze niż $25\mu \text{g RMS}$. Częstotliwość próbkowania w trakcie rejestracji przyjęto jako 2400 Hz. \textbf{Wymuszenia belki odbywały przez delikatne dotknięcia i gładzenie belki palcami.} Czas serii pomiarowej przyjęto zgodnie z zaleceniami opisanymi w \cite{Brincker2015}. Według autorów minimalny czas gwarantujący poprawne określenie tłumienia, bez ryzyka negatywnego wpływu obciążeń metody Welch'a, musi być dłuższy niż 20 okien czasowych użytych przy wyznaczeniu funkcji korelacji. Z tego względu zalecana minimalna długość pomiaru dana jest nierównością \ref{eq: minimum_oma_time_series}.
-\begin{equation} \label{eq: minimum_oma_time_series}
-	T_{tot} > \frac{20}{2\zeta f_{min}}=\frac{10}{\zeta f_{min}}
-\end{equation}
-gdzie $f_{min}$ oznacza najniższą częstotliwość drgań własnych układu. Dla podanego układu minimalna częstotliwość drgań własnych wyznaczona teoretycznie wynosi $f_{min}=19.7 \text{Hz}$, a przewidywana minimalna liczba tłumienia wynosi $\zeta \approx 0.005$. Minimalna długość serii pomiarowej wynosi więc $T_{min} = \frac{10}{0.005\cdot 19.7} = 101.5 \text{s}$. 
+W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. !!!). Belka została przymocowana do podłoża aby uniemożliwić przemieszczenie się podpór i przesuwanie belki jako bryły sztywnej. System pomiarowy składał się z wzmacniacza pomiarowego PMX firmy HBM (Hottinger Baldwin Messtechnik GmbH, Darmstadt, Germany), kabli i niskoszumnych, piezorezystywnych czujników akcelerometrycznych firmy TE CONNECTIVITY. Do obsługi wzmacniacza i akwizycji danych użyto program HBM Catman Easy. Czujniki przymocowano magnetycznie do belki. Zastosowano dwa czujniki 3 osiowe, ale rejestrowano jedynie przyspieszenia pionowe i poprzeczne. Zakres pomiarowy akcelerometrów wynosi $\pm 2 \text{g}$, a gwarantowane szumy są określone jako mniejsze niż $25\mu \text{g RMS}$. \textbf{Wymuszenia belki odbywały przez delikatne dotknięcia i gładzenie belki palcami.}
 
+
+
+\subsubsection{Częstotliwość próbkowania}
+Częstotliwość próbkowania $f_s$ określa jak często rejestrowana będzie wartość mierzona. Zwykle zakłada się równy odstęp pomiędzy próbkami $\Delta t$. W kontekście pomiarów dynamicznych konstrukcji ważne jest aby zarejestrować drgania o wszystkich interesujących częstotliwościach. Teoretycznie gwarantuje to przyjęcie dwukrotnie większej częstotliwości próbkowania $f_s$ niż najwyższa interesująca częstotliwość odpowiedzi układu $f_{max}$. Graniczna częstotliwość nazywa się częstotliwością Nyquista i wynosi $f_N = 0.5f_s$. Jednakże systemy akwizycji danych najczęściej posiadają filtry antyaliasingowe, które mają swoje odbicie w pobliżu częstotliwości Nyquista. \cite{Brincker2015} podają, że z tego względu częstotliwość Nyquista musi o 20\% większa niż wymagana teoretycznie. Podsumowując minimalna zaleca częstotliwość próbkowania powinna być równa:
+\begin{equation} \label{eq: oma_min_sampling}
+	f_s > 2.4 f_{max}
+\end{equation}
+Przyjmując założoną minimalną granicę interesujących modów jako 250Hz wyliczono częstotliwość próbkowania jako $f_{s,min}=2.4\cdot250\text{Hz}=600\text{Hz}.$ W badaniach przyjęto znacznie wyższą częstotliwość równą $f_s$=2400Hz chcąc, podobnie jak w przypadku modelu teoretycznego, móc zidentyfikować również kilka wyższych modów.
+\subsubsection{Długość pomiarów}
+Czas serii pomiarowej przyjęto zgodnie z zaleceniami opisanymi w \cite{Brincker2015}. Według autorów minimalny czas gwarantujący poprawne określenie tłumienia, bez ryzyka negatywnego wpływu obciążeń metody Welch'a, musi być dłuższy niż 20 okien czasowych użytych przy wyznaczeniu funkcji korelacji. Z tego względu zalecana minimalna długość pomiaru dana jest nierównością \ref{eq: minimum_oma_time_series}.
+\begin{equation} \label{eq: oma_min_time_series}
+	T_{tot} > \frac{20}{2\xi f_{min}}=\frac{10}{\xi f_{min}}
+\end{equation}
+gdzie $f_{min}$ oznacza najniższą częstotliwość drgań własnych układu. Dla podanego układu minimalna częstotliwość drgań własnych wyznaczona teoretycznie wynosi $f_{min}=19.7 \text{Hz}$, a przewidywana minimalna liczba tłumienia wynosi $\xi \approx 0.005$. Minimalna długość serii pomiarowej wynosi więc $T_{min} = \frac{10}{0.005\cdot 19.7} = 101.5 \text{s}$. 
+
+\subsubsection{Stosunek sygnału do szumu pomiarowego}
 Wyznaczono również stosunek poziomu sygnału do szumu posługując się wzorem (\ref{})
-\begin{equation}
+\begin{equation} \label{eq: oma_dynamic_range}
 	SN = 20 \log{\frac{y_{max}}{\sigma_n}}
 \end{equation}
 gdzie $y_{max}$ oznacza maksymalną chwilową wartość sygnału, którą układ jest w stanie zarejestrować bez zniekształceń, a $\sigma_n$ jest wartością RMS szumu tła. Według zaleceń ANSI S2.47 wartość ta nie powinna być mniejsza niż 10 dB. \cite{Brincker2015} zalecają by w przypadku OMA stosunek sygnału do szumu nie był mniejszy niż 40 dB. Dla zastosowanego systemu pomiarowego zmierzony szum charakteryzuje się wartością RMS $\sigma_n = $
-
+\subsubsection{Przebieg badań}
 Przeprowadzono analizę sygnałów analogicznie jak dla modelu numerycznego, z tą różnicą że drgania mierzono w 8 ustawieniach. Jeden z czujników działał jako referencyjny i w ciągu całych badań znajdował się w odległości 0.4L od podpory. Drugi z czujników był przestawiany tak, że ostatecznie zmierzono przyspieszenia w 9 punktach odpowiadających węzłom modelu numerycznego. Diagramy stabilizacyjne pokazano na rysunku (!!!). Zidentyfikowane częstotliwości i postaci drgań zamieszczono na rysunku (!!!). Rezultaty porównano z obliczeniami numerycznymi w tabeli (!!!).
 
 
@@ -949,7 +951,7 @@ Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w t
 		\begin{tabular}{@{}c|c|c|cccc|llll@{}}
 			
 			\toprule
-			\multicolumn{1}{l|}{} & \textbf{\begin{tabular}[c]{@{}c@{}}Analiza\\ modalna\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Zakładane\\ tłumienie\end{tabular}} & \multicolumn{4}{c|}{\textbf{Model MES niekalibrowany}}                                      & \multicolumn{4}{c|}{\textbf{Badania}}                                                                                                                        \\ \midrule
+			\multicolumn{1}{l|}{} & \textbf{\begin{tabular}[c]{@{}c@{}}Analiza\\ modalna\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Zakładane\\ tłumienie\end{tabular}} & \multicolumn{4}{c|}{\textbf{Model MES niekalibrowany}}                                      & \multicolumn{4}{c}{\textbf{Badania}}                                                                                                                        \\ \midrule
 			\multicolumn{1}{l|}{} & \textbf{Częst.}                                                    & \textbf{LDT}                                                           & \textbf{Częst.}   & \textbf{Stosunek} & \textbf{LDT}     & \textbf{Stosunek} & \multicolumn{1}{c}{\textbf{Częst.}}   & \multicolumn{1}{c}{\textbf{Stosunek}} & \multicolumn{1}{c}{\textbf{LDT}}     & \multicolumn{1}{c}{\textbf{Stosunek}} \\ \midrule
 			\multicolumn{1}{l|}{} & \textbf{{[}Hz{]}}                                                  & \textbf{{[}-{]}}                                                       & \textbf{{[}Hz{]}} & \textbf{{[}\%{]}} & \textbf{{[}-{]}} & \textbf{{[}\%{]}} & \multicolumn{1}{c}{\textbf{{[}Hz{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} & \multicolumn{1}{c}{\textbf{{[}-{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} \\ \midrule
 			\textbf{Mod 1}        & 19.77                                                              & 0.0303                                                                 & 19.701            & 100\%             & 0.0291           & 96\%              &                                       &                                       &                                      &                                       \\ \midrule

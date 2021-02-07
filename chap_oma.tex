@@ -747,7 +747,7 @@ Poza diagramem stabilizacyjnym, w niniejszej pracy kryterium MAC zostało równi
 
 
 \subsection{Testy numeryczne metody NEXT-ERA}
-Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przypadku aplikacji służącej celom naukowym, gdzie zakłada się pewien poziom wiedzy i świadomości użytkownika zdecydowano, że testom poddane zostanie jedynie jądro programu - algorytm NExT-ERA. W tym celu założono wykonanie dwóch testów: numerycznego i laboratoryjnego. Test numeryczny ma opierać się na wykonaniu modelu obliczeniowego w oprogramowaniu MES, a następnie obciążeniu go losowo (w przybliżeniu szumem białym) i wykonaniu analizy dynamicznej. Test laboratoryjny ma polegać na pomiarze i analizie drgań środowiskowych rzeczywistego obiektu badawczego. Przedmiotem badań była konstrukcja o schemacie statycznym bliskim belce swobodnie podpartej. Model numeryczny wykonano w programie MES bazujac na inwentaryzacji wymiarów obiektu laboratoryjnego. Szczegółowe założenia testów, ich przebieg i rezultaty podano poniżej. Test numeryczny wykonano na modelu ramy przestrzennej o zewnętrznym schemacie statycznym bliskim belce swobodnie podpartej. Model wykonano w środowisku MES SOFiSTiK z użyciem jednowymiarowych elementów belkowych. Wizualizację oraz schemat statyczny pokazano na rysunku \ref{fig: test_beam_wis_model}.
+Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przypadku aplikacji służącej celom naukowym, gdzie zakłada się pewien poziom wiedzy i świadomości użytkownika zdecydowano, że testom poddane zostanie jedynie jądro programu - algorytm NExT-ERA. W tym celu założono wykonanie dwóch testów: numerycznego i laboratoryjnego. Test numeryczny ma opierać się na wykonaniu modelu obliczeniowego w oprogramowaniu MES, a następnie obciążeniu go losowo (w przybliżeniu szumem białym) i wykonaniu analizy dynamicznej. Test laboratoryjny ma polegać na pomiarze i analizie drgań środowiskowych rzeczywistego obiektu badawczego. Przedmiotem badań była konstrukcja o schemacie statycznym bliskim belce swobodnie podpartej. Model numeryczny wykonano w programie MES bazujac na inwentaryzacji wymiarów obiektu laboratoryjnego (przedstawiony w punkcie \ref{sect: next_era_lab_test}). Test numeryczny wykonano na modelu ramy przestrzennej o zewnętrznym schemacie statycznym bliskim obiektowi laboratoryjnemu. Założono, że głównym aspektem porównawczym z badaniami laboratoryjnymi mają być mody giętne pionowe. Z tego powodu znacznie uproszczono względem rzeczywistości strefy podporowe. Model wykonano w środowisku MES SOFiSTiK z użyciem jednowymiarowych elementów belkowych. Wizualizację oraz schemat statyczny pokazano na rysunku \ref{fig: test_beam_wis_model}.
 \begin{figure}[h]
 	\centering
 	\subfloat[Wizualizacja]{\includegraphics[width=0.5\linewidth]{/test_blue/sof_wis/wis_small002.png}}%
@@ -903,7 +903,7 @@ Funkcje posiadają wyraźnie gasnący, okresowy charakter. Na odpowiadających i
 
 
 \subsection{Testy eksperymentalne metody NEXT-ERA} \label{sect: next_era_lab_test}
-W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. !!!). Belka została przymocowana do podłoża aby uniemożliwić przemieszczenie się podpór i przesuwanie belki jako bryły sztywnej. System pomiarowy składał się z wzmacniacza pomiarowego PMX firmy HBM (Hottinger Baldwin Messtechnik GmbH, Darmstadt, Germany), kabli i niskoszumnych, piezorezystywnych czujników akcelerometrycznych firmy TE CONNECTIVITY. Do obsługi wzmacniacza i akwizycji danych użyto program HBM Catman Easy. Czujniki przymocowano magnetycznie do belki. Zastosowano dwa czujniki 3 osiowe, ale rejestrowano jedynie przyspieszenia pionowe i poprzeczne. Zakres pomiarowy akcelerometrów wynosi $\pm 2 \text{g}$, a gwarantowane szumy są określone jako mniejsze niż $25\mu \text{g RMS}$. \textbf{Wymuszenia belki odbywały przez delikatne dotknięcia i gładzenie belki palcami.}
+W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. !!!). Belka została przymocowana do podłoża aby uniemożliwić przemieszczenie się podpór i przesuwanie belki jako bryły sztywnej. System pomiarowy składał się z wzmacniacza pomiarowego PMX firmy HBM (Hottinger Baldwin Messtechnik GmbH, Darmstadt, Germany), kabli i niskoszumnych, piezorezystywnych czujników akcelerometrycznych firmy TE CONNECTIVITY. Do obsługi wzmacniacza i akwizycji danych użyto program HBM Catman Easy. Czujniki przymocowano magnetycznie do belki. Zastosowano dwa czujniki 3 osiowe, ale rejestrowano jedynie przyspieszenia pionowe i poprzeczne. Zakres pomiarowy akcelerometrów wynosi $\pm 2 \text{g}$, a gwarantowane szumy są określone jako mniejsze niż $25\mu \text{g RMS}$.
 
 
 
@@ -921,17 +921,97 @@ Czas serii pomiarowej przyjęto zgodnie z zaleceniami opisanymi w \cite{Brincker
 gdzie $f_{min}$ oznacza najniższą częstotliwość drgań własnych układu. Dla podanego układu minimalna częstotliwość drgań własnych wyznaczona teoretycznie wynosi $f_{min}=19.7 \text{Hz}$, a przewidywana minimalna liczba tłumienia wynosi $\xi \approx 0.005$. Minimalna długość serii pomiarowej wynosi więc $T_{min} = \frac{10}{0.005\cdot 19.7} = 101.5 \text{s}$. 
 
 \subsubsection{Stosunek sygnału do szumu pomiarowego}
-Wyznaczono również stosunek poziomu sygnału do szumu posługując się wzorem (\ref{})
+Wyznaczono również stosunek poziomu sygnału do szumu posługując się wzorem:
 \begin{equation} \label{eq: oma_dynamic_range}
-	SN = 20 \log{\frac{y_{max}}{\sigma_n}}
+	SN = 20 \log{\frac{\sigma_s}{\sigma_n}}
 \end{equation}
-gdzie $y_{max}$ oznacza maksymalną chwilową wartość sygnału, którą układ jest w stanie zarejestrować bez zniekształceń, a $\sigma_n$ jest wartością RMS szumu tła. Według zaleceń ANSI S2.47 wartość ta nie powinna być mniejsza niż 10 dB. \cite{Brincker2015} zalecają by w przypadku OMA stosunek sygnału do szumu nie był mniejszy niż 40 dB. Dla zastosowanego systemu pomiarowego zmierzony szum charakteryzuje się wartością RMS $\sigma_n = $
+gdzie $\sigma_s$ oznacza wartość RMS sygnału zmierzonego, a $\sigma_n$ jest wartością RMS szumu tła. Według zaleceń ANSI S2.47 wartość ta nie powinna być mniejsza niż 10 dB. \cite{Brincker2015} zalecają by w przypadku OMA stosunek sygnału do szumu nie był mniejszy niż 30-40 dB.
+
 \subsubsection{Przebieg badań}
-Przeprowadzono analizę sygnałów analogicznie jak dla modelu numerycznego, z tą różnicą że drgania mierzono w 8 ustawieniach. Jeden z czujników działał jako referencyjny i w ciągu całych badań znajdował się w odległości 0.4L od podpory. Drugi z czujników był przestawiany tak, że ostatecznie zmierzono przyspieszenia w 9 punktach odpowiadających węzłom modelu numerycznego. Diagramy stabilizacyjne pokazano na rysunku (!!!). Zidentyfikowane częstotliwości i postaci drgań zamieszczono na rysunku (!!!). Rezultaty porównano z obliczeniami numerycznymi w tabeli (!!!).
+Przeprowadzono analizę sygnałów NExT-ERA podobnie jak miało to miejsce dla modelu numerycznego. Zastosowano dwa czujniki referencyjne. Jeden, mierzący pionowe i poprzeczne przyspieszenia w ciągu całych badań znajdował się w odległości 0.4L od podpory. Drugi, mierzący jedynie przyspieszenia poziome znajdował się w odległości 0.3L od podpory. Zwiększenie liczby czujników referencyjnych pozwala uniknąć sytuacji, gdzie jedyny czujnik referencyjny będzie znajdował się w węźle jakiegoś modu, co nie pozwoli go później zidentyfikować. W takiej sytuacji drugi czujnik może w innym wariancie identyfikacji posłużyć jako referencyjny, a wyniki z obu wariantów można spalić. Trzeci, ruchomy czujnik był przestawiany 10 razy tak, że ostatecznie zmierzono przyspieszenia w obu kierunkach w 11 punktach odpowiadających węzłom modelu numerycznego oraz punktom podporowym. Stanowisko pomiarowe zostało zaprezentowane na rysunku \ref{fig: blue_beam_lab_photo_a}, a szczegóły konstrukcyjne i podparcia na rysunku \ref{fig: blue_beam_lab_photo_b}. 
+\begin{figure}[h]
+	\centering
+		\begin{tabular}[c]{c}
+		\subfloat[Elementy aparatury pomiarowej]{\label{fig: blue_beam_lab_photo_a}%
+			\begin{tabular}[b]{c c c}
+			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07486.jpg}
+			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07500.jpg}
+			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07475.jpg}
+		\end{tabular}}\\
+			\subfloat[Szczegóły konstrukcyjne belki testowej]{\label{fig: blue_beam_lab_photo_b}%
+		\begin{tabular}[b]{c c c}
+			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07487.jpg}
+			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07477_1.jpg}
+			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07502.jpg}
+	\end{tabular}}\\
+
+	\end{tabular}
+	\captionsetup{justification=centering}
+	\caption{Szczegóły konstrukcyjne w obrębie połączenia łuku ze ściągiem}
+	\label{fig: blue_beam_lab_photo}
+\end{figure}
+
+Pomiary odbywały się w pomieszczeniu, w godzinach wieczornych. Z tego powodu amplitudy przyspieszeń wywołane oddziaływaniem otoczenia były znikome. Dla zastosowanego układu pomiarowego zmierzony w laboratorium szum charakteryzuje się wartością RMS $\sigma_n=0.00138$. Sygnał nie zmieniał swojej mocy niezależnie od tego czy czujnik był umieszczony na obiekcie czy na stabilnym podłożu. Z tego względu w badaniach zastosowano sztuczne wymuszenie. \cite{Brincker} w przypadku badań laboratoryjnych zalecają szuranie lub gładzenie obiektu. W badaniach szurano po strukturze zgniecionym papierem pakowym. Wiotka struktura elementu wymuszającego nie powinna wpłynąć na dodatkowe tłumienie drgań. RMS jednominutowego sygnału pomierzonego ze sztucznym wymuszeniem wyniósł $\sigma_n=0.0539$. Dla takich rezultatów obliczony wg formuły (\ref{eq: oma_dynamic_range}) stosunek sygnału do szumu jest równy $SN = 20\log{\frac{0.0539}{0.0014}}=31.84\text{dB}$. Wyznaczona wartość jest większa niż zalecana.
+
+\subsubsection{Rezultaty badań}
+Diagramy stabilizacyjny metody NExT-ERA pokazano na rysunku \ref{fig: stab_diags_lab_blue_beam}. Zidentyfikowano 4 stabilne mody. Zidentyfikowane częstotliwości i postaci drgań zamieszczono na rysunku (!!!). Rezultaty porównano również z obliczeniami numerycznymi w tabeli \ref{tab: blue_beam_comparison}. 
+\begin{figure}[h]
+	\centering
+	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag_lab/fig_stab_diagram_nonfiltr_time_17_49_58.pdf}}\\
+	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag_lab/fig_stab_diagram_filtr_time_17_49_52.pdf}}%
+	\captionsetup{justification=centering}
+	\caption{Diagram stabilizacyjny metody NExT-ERA rzeczywistej belki testowej: (a) diagram niefiltrowany, (b) diagram filtrowany}
+	\label{fig: stab_diags_lab_blue_beam}
+\end{figure}
+
+\begin{figure}[p]
+	\centering
+	\begin{tabular}[c]{c}
+		\subfloat[Mod 1, $f_1=20.467 \text{Hz}$]{\label{fig: blue_beam_research_mod01}%
+			\begin{tabular}[b]{c c c}
+				\includegraphics[width=0.35\linewidth,trim=0 0 0 25,clip]{/test_blue/blue_modes_lab/fig_mod_0_time_18_20_13.pdf}%
+				\includegraphics[width=0.35\linewidth,trim=0 0 0 25,clip]{/test_blue/blue_modes_lab/fig_mod_0_time_18_20_19.pdf}%
+				\includegraphics[width=0.3\linewidth]{/test_blue/polar_lab/fig_polar_mod_0_time_18_20_26.pdf}%
+		\end{tabular}}\\
+		\subfloat[Mod 2, $f_2=22.236 \text{Hz}$]{\label{fig: blue_beam_research_mod02}%
+			\begin{tabular}[b]{c c c}
+				\includegraphics[width=0.35\linewidth,trim=0 0 0 25,clip]{/test_blue/blue_modes_lab/fig_mod_2_time_18_21_14.pdf}%
+				\includegraphics[width=0.35\linewidth,trim=0 0 0 25,clip]{/test_blue/blue_modes_lab/fig_mod_2_time_18_21_24.pdf}%
+				\includegraphics[width=0.3\linewidth]{/test_blue/polar_lab/fig_polar_mod_2_time_18_21_30.pdf}%
+		\end{tabular}}\\
+		\subfloat[Mod 3, $f_3=76.736 \text{Hz}$]{\label{fig: blue_beam_research_mod03}%
+			\begin{tabular}[b]{c c c}
+				\includegraphics[width=0.35\linewidth,trim=0 0 0 25,clip]{/test_blue/blue_modes_lab/fig_mod_8_time_18_20_48.pdf}%
+				\includegraphics[width=0.35\linewidth,trim=0 0 0 25,clip]{/test_blue/blue_modes_lab/fig_mod_8_time_18_20_55.pdf}%
+				\includegraphics[width=0.3\linewidth]{/test_blue/polar_lab/fig_polar_mod_8_time_18_20_59.pdf}%
+		\end{tabular}}\\
+		\subfloat[Mod 4, $f_4=163.584 \text{Hz}$]{\label{fig: blue_beam_research_mod04}%
+			\begin{tabular}[b]{c c c}
+				\includegraphics[width=0.35\linewidth,trim=0 0 0 25,clip]{/test_blue/blue_modes_lab/fig_mod_16_time_18_21_53.pdf}%
+				\includegraphics[width=0.35\linewidth,trim=0 0 0 25,clip]{/test_blue/blue_modes_lab/fig_mod_16_time_18_21_58.pdf}%
+				\includegraphics[width=0.3\linewidth]{/test_blue/polar_lab/fig_polar_mod_16_time_18_22_02.pdf}%
+		\end{tabular}}\\
+		
+	\end{tabular}
+	\caption{Zidentyfikowane charakterystyki modalne belki testowej}
+	\label{fig: blue_beam_research_mods}
+\end{figure}
+
+Analizując postaci drgań można zauważyć, że zidentyfikowano poprawnie 3 giętne pionowe postaci drgań. Pomimo bardzo dobrej zgodności ich tłumienie jest jednak znacząco większe niż zakładane LDT$=3\%$ w modelu numerycznym. Z uwagi na dużą wartość tłumienia dokonano prostej weryfikacji. Na rysunku \ref{fig: blue_beam_natural_vib} pokazano przyspieszenia pionowe środkowego punktu belki, drgającego swobodnie po wymuszeniu siłą impulsową. 
+Sygnał odfiltrowano do 25Hz uzyskując drgania w pierwszej postaci. Odczytano wartości kolejnych amplitud o numerach 1, 10 i 20. Dla obu przedziałów 1-10 i 10-20 wyznaczono logarytmiczny dekrement tłumienia: $\textrm{LDT}_{1-10} = \frac{1}{10-1} \ln{\frac{3.156}{1.378}}=0.092 \quad
+\textrm{LDT}_{10-20}=\frac{1}{20-10}\ln{\frac{1.378}{0.544}}=0.093$. Wyznaczone tłumienia są zbliżone do wartości wynikającej z analizy NExT-ERA.
 
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim=0 0 0 17,clip]{/test_blue/fig_00_12_14_0.978.pdf}
+	\captionsetup{justification=centering}
+	\caption{Odpowiedź swobodna belki testowej}
+	\label{fig: blue_beam_natural_vib}
+\end{figure}
 
 
+ Jedyna giętna postać poprzeczna nie odpowiada strukturalnie żadnej z wyznaczonych w analizach numerycznych. Mimo to sklasyfikowano ją jako mod 2 w tabeli \ref{tab: blue_beam_comparison}. Charakteryzuje się ona ruchem wszystkich punków pomiarowych, w jednym kierunku i o zbliżonej amplitudzie. Dotyczy to także punków nad miejscami podparcia. Mimo to mod został zidentyfikowany jako stabilny i charakteryzuje się bardzo wysokim tłumieniem (LDT$=0.44$). Istnieje kilka elementów, które mogły wpłynąć na brak poprawnej identyfikacji modów giętnych, poziomych belki. Głównym jest różniąca się struktura fragmentów podporowych. Podpora belki laboratoryjnej była złożona z połączenia śrubowego i nie była solidnie przymocowana do podłoża. W modelu numerycznym w tym miejscu ustalono sztywne więzy w układzie belki swobodnie podpartej. Postać i wysokie tłumienie moda nr 2 może świadczyć, że belka wahała się na boki w całości i nie udało się wymusić drgań poprzecznych o bardzo wysokich częstotliwościach.
 
 \section{Podsumowanie testów metody NExT-ERA}
 Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w tabeli \ref{tab: blue_beam_comparison}. Obserwując uzyskane z analizy modalnej postaci można zauważyć, że Mod 7 i Mod 10 mają charakter skrętny. Posługując się modelem belkowym i odczytując przyspieszenia węzłów na kierunku $Y$ i $Z$ nie ma możliwości zaobserwować tych postaci. Przeprowadzona identyfikacja potwierdza ten fakt, nie wskazując tych modów jako stabilnych rozwiązań. Z tego względu w tabeli zbiorczej zostały one oznaczone jako brakujące.
@@ -948,24 +1028,22 @@ Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w t
 	\caption{Porównanie zidentyfikowanych parametrów modalnych obiektu testowego}
 	\label{tab: blue_beam_comparison}
 	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{@{}c|c|c|cccc|llll@{}}
-			
-			\toprule
-			\multicolumn{1}{l|}{} & \textbf{\begin{tabular}[c]{@{}c@{}}Analiza\\ modalna\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Zakładane\\ tłumienie\end{tabular}} & \multicolumn{4}{c|}{\textbf{Model MES niekalibrowany}}                                      & \multicolumn{4}{c}{\textbf{Badania}}                                                                                                                        \\ \midrule
-			\multicolumn{1}{l|}{} & \textbf{Częst.}                                                    & \textbf{LDT}                                                           & \textbf{Częst.}   & \textbf{Stosunek} & \textbf{LDT}     & \textbf{Stosunek} & \multicolumn{1}{c}{\textbf{Częst.}}   & \multicolumn{1}{c}{\textbf{Stosunek}} & \multicolumn{1}{c}{\textbf{LDT}}     & \multicolumn{1}{c}{\textbf{Stosunek}} \\ \midrule
-			\multicolumn{1}{l|}{} & \textbf{{[}Hz{]}}                                                  & \textbf{{[}-{]}}                                                       & \textbf{{[}Hz{]}} & \textbf{{[}\%{]}} & \textbf{{[}-{]}} & \textbf{{[}\%{]}} & \multicolumn{1}{c}{\textbf{{[}Hz{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} & \multicolumn{1}{c}{\textbf{{[}-{]}}} & \multicolumn{1}{c}{\textbf{{[}\%{]}}} \\ \midrule
-			\textbf{Mod 1}        & 19.77                                                              & 0.0303                                                                 & 19.701            & 100\%             & 0.0291           & 96\%              &                                       &                                       &                                      &                                       \\ \midrule
-			\textbf{Mod 2}        & 54.93                                                              & 0.0189                                                                 & 54.958            & 100\%             & 0.0232           & 123\%             &                                       &                                       &                                      &                                       \\ \midrule
-			\textbf{Mod 3}        & 78.2                                                               & 0.0199                                                                 & 77.331            & 99\%              & 0.0190            & 96\%              &                                       &                                       &                                      &                                       \\ \midrule
-			\textbf{Mod 4}        & 161.35                                                             & 0.0302                                                                 & 157.995           & 98\%              & 0.0240            & 79\%              &                                       &                                       &                                      &                                       \\ \midrule
-			\textbf{Mod 5}        & 200.38                                                             & 0.0361                                                                 & 197.881           & 99\%              & 0.0325           & 90\%              &                                       &                                       &                                      &                                       \\ \midrule
-			\textbf{Mod 6}        & 212.24                                                             & 0.0379                                                                 & 205.290            & 97\%              & 0.0410            & 108\%             &                                       &                                       &                                      &                                       \\ \midrule
-			\textbf{Mod 7}        & 217.12                                                             & 0.0386                                                                 & -                 & -                 & -                & -                 &                                       &                                       &                                      &                                       \\ \midrule
-			\textbf{Mod 8}        & 336.59                                                             & 0.0577                                                                 & 310.834           & 92\%              & 0.0473           & 82\%              &                                       &                                       &                                      &                                       \\ \midrule
-			\textbf{Mod 9}        & 410.22                                                             & 0.0697                                                                 & 384.619           & 94\%              & 0.0628           & 90\%              &                                       &                                       &                                      &                                       \\ \midrule
-			\textbf{Mod 10}       & 451.89                                                             & 0.0765                                                                 & -                 & -                 & -                & -                 &                                       &                                       &                                      &                                       \\ \bottomrule
+	\begin{tabular}{@{}c|c|c|cccc|cccc@{}}
+		\toprule
+		\multicolumn{1}{l|}{} & \textbf{\begin{tabular}[c]{@{}c@{}}Analiza\\ modalna\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Zakładane\\ tłumienie\end{tabular}} & \multicolumn{4}{c|}{\textbf{Model MES}}                                      & \multicolumn{4}{c}{\textbf{Badania}}                                        \\ \midrule
+		\multicolumn{1}{l|}{} & \textbf{Częst.}                                                    & \textbf{LDT}                                                           & \textbf{Częst.}   & \textbf{Stosunek} & \textbf{LDT}     & \textbf{Stosunek} & \textbf{Częst.}   & \textbf{Stosunek} & \textbf{LDT}     & \textbf{Stosunek} \\ \midrule
+		\multicolumn{1}{l|}{} & \textbf{{[}Hz{]}}                                                  & \textbf{{[}-{]}}                                                       & \textbf{{[}Hz{]}} & \textbf{{[}\%{]}} & \textbf{{[}-{]}} & \textbf{{[}\%{]}} & \textbf{{[}Hz{]}} & \textbf{{[}\%{]}} & \textbf{{[}-{]}} & \textbf{{[}\%{]}} \\ \midrule
+		\textbf{Mod 1}        & 19.77                                                              & 0.0303                                                                 & 19.701            & 100\%             & 0.0291           & 96\%              & 20.467            & 104\%             & 0.097            & 333\%             \\ \midrule
+		\textbf{Mod 2}        & 54.93                                                              & 0.0189                                                                 & 54.958            & 100\%             & 0.0232           & 123\%             & 22.236            & 40\%              & 0.440            & 2335\%            \\ \midrule
+		\textbf{Mod 3}        & 78.20                                                              & 0.0199                                                                 & 77.331            & 99\%              & 0.0190           & 96\%              & 76.739            & 98\%              & 0.151            & 760\%             \\ \midrule
+		\textbf{Mod 4}        & 161.35                                                             & 0.0302                                                                 & 157.995           & 98\%              & 0.0240           & 79\%              & 163.584           & 101\%             & 0.185            & 614\%             \\ \midrule
+		\textbf{Mod 5}        & 200.38                                                             & 0.0361                                                                 & 197.881           & 99\%              & 0.0325           & 90\%              & -                 & -                 & -                & -                 \\ \midrule
+		\textbf{Mod 6}        & 212.24                                                             & 0.0379                                                                 & 205.29            & 97\%              & 0.0410           & 108\%             & -                 & -                 & -                & -                 \\ \midrule
+		\textbf{Mod 7}        & 217.12                                                             & 0.0386                                                                 & -                 & -                 & -                & -                 & -                 & -                 & -                & -                 \\ \midrule
+		\textbf{Mod 8}        & 336.59                                                             & 0.0577                                                                 & 310.834           & 92\%              & 0.0473           & 82\%              & -                 & -                 & -                & -                 \\ \midrule
+		\textbf{Mod 9}        & 410.22                                                             & 0.0697                                                                 & 384.619           & 94\%              & 0.0628           & 90\%              & -                 & -                 & -                & -                 \\ \midrule
+		\textbf{Mod 10}       & 451.89                                                             & 0.0765                                                                 & -                 & -                 & -                & -                 & -                 & -                 & -                & -                 \\ \bottomrule
 	\end{tabular}}
-	
 \end{table}
 
 

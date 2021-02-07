@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  5 FEB 2021 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.18)  7 FEB 2021 01:39
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -8,9 +8,9 @@ L3 programming layer <2021-01-09> xparse <2020-03-03>
 \openout2 = `preamble.aux'.
 
 (preamble.tex
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count177
@@ -26,17 +26,17 @@ File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-) ("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty
-"
+)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- ("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count186
@@ -52,19 +52,17 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks16
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cf
-g"))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2020/12/16 3.52 The Babel package
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2020/12/16 3.52 Babel common definitions
 \babel@savecnt=\count189
 \U@D=\dimen147
-\l@babelnohyphens=\language83
+\l@babelnohyphens=\language79
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.def
-")
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count190
@@ -72,24 +70,22 @@ File: babel.def 2020/12/16 3.52 Babel common definitions
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-polish\polish.
-ldf"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/babel-polish\polish.ldf
 Language: polish 2005/03/31 v1.2l Polish support from the babel system
 Package babel Info: Making " an active character on input line 83.
 \pl@left=\dimen148
 \pl@down=\dimen149
 \pl@right=\dimen150
 \pl@temp=\dimen151
-))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/polski\polski.sty"
+)) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\polski.sty
 Package: polski 2017/05/04 v1.3.4 Polish language package
 
    Switching to Polish text encoding and Polish maths fonts.
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ot4enc.def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\ot4enc.def
 File: ot4enc.def 2020/08/10 v2.0s Standard LaTeX file
 Now handling font encoding OT4 ...
 ... no UTF-8 mapping file for font encoding OT4
@@ -97,7 +93,7 @@ Now handling font encoding OT4 ...
 LaTeX Font Info:    Trying to load font information for OT4+cmr on input line 3
 60.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/polski\ot4cmr.fd"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
@@ -132,30 +128,24 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 360.
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.c
-fg"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.
-def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.st
-y"
+) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/latex-tools\array.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \col@sep=\dimen152
 \ar@mcellbox=\box47
@@ -178,54 +168,48 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\svgnam.def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\svgnam.def
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdftexcmds\pdftexc
-mds.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infwarer
-r.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.st
-y"
+) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count192
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoptions.
-sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetkey
-s.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
+)) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count193
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) ("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -281,14 +265,14 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip59
 \blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language84
+\blx@langwohyphens=\language80
 \c@mincomprange=\count302
 \c@maxcomprange=\count303
 \c@mincompwidth=\count304
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -380,15 +364,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-compat.
-def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.de
-f"
+ (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 \c@textcitecount=\count373
 \c@textcitetotal=\count374
@@ -407,14 +388,14 @@ File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\authory
-ear.bbx"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear
+.bbx
 File: authoryear.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\standar
-d.bbx"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count382
 \c@bbx:relatedtotal=\count383
@@ -422,8 +403,8 @@ File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\authory
-ear.cbx"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear
+.cbx
 File: authoryear.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -436,28 +417,25 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.cf
-g"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
-))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgfplots\pgfplots.st
-y"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.
-revision.tex")
+)) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.st
+y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+ision.tex)
 Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphic
-s.cfg"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
@@ -465,47 +443,45 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 \Gin@req@height=\dimen154
 \Gin@req@width=\dimen155
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\ti
-kz.sty"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.s
-ty"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs
-.sty"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfu
-til-common.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
 \pgfutil@everybye=\toks21
 \pgfutil@tempdima=\dimen156
 \pgfutil@tempdimb=\dimen157
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfu
-til-common-lists.tex"))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfu
-til-latex.def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
 \pgfutil@abb=\box49
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfr
-cs.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision.t
-ex")
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 ))
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfco
-re.sty"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgfs
-ys.sty"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
-fsys.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfk
-eys.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
 \pgfkeys@pathtoks=\toks22
 \pgfkeys@temptoks=\toks23
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfk
-eysfiltered.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+filtered.code.tex
 \pgfkeys@tmptoks=\toks24
 ))
 \pgf@x=\dimen158
@@ -529,42 +505,42 @@ eysfiltered.code.tex"
 \t@pgf@tokc=\toks27
 \pgf@sys@id@count=\count388
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
-f.cfg"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
-fsys-pdftex.def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
 File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
-fsys-common-pdf.def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
-fsyssoftpath.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfsyssoftpath@smallbuffer@items=\count389
 \pgfsyssoftpath@bigbuffer@items=\count390
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
-fsysprotocol.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-core.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.c
-ode.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathca
-lc.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathut
-il.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathpa
-rser.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
 \pgfmath@dimen=\dimen168
 \pgfmath@count=\count391
 \pgfmath@box=\box50
@@ -572,32 +548,32 @@ rser.code.tex"
 \pgfmath@stack@operand=\toks29
 \pgfmath@stack@operation=\toks30
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
-nctions.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
-nctions.basic.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
-nctions.trigonometric.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
-nctions.random.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
-nctions.comparison.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
-nctions.base.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
-nctions.round.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
-nctions.misc.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
-nctions.integerarithmetics.code.tex")))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfl
-oat.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
 \c@pgfmathroundto@lastzeros=\count392
 ))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.co
-de.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-corepoints.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@picminx=\dimen169
 \pgf@picmaxx=\dimen170
@@ -614,133 +590,132 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@zx=\dimen181
 \pgf@zy=\dimen182
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-corepathconstruct.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@path@lastx=\dimen183
 \pgf@path@lasty=\dimen184
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-corepathusage.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@shorten@end@additional=\dimen185
 \pgf@shorten@start@additional=\dimen186
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-corescopes.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box51
 \pgf@hbox=\box52
 \pgf@layerbox@main=\box53
 \pgf@picture@serial@count=\count393
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-coregraphicstate.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgflinewidth=\dimen187
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-coretransformations.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@pt@x=\dimen188
 \pgf@pt@y=\dimen189
 \pgf@pt@temp=\dimen190
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-corequick.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-coreobjects.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
 File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-corepathprocessing.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-corearrows.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfarrowsep=\dimen191
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-coreshade.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen192
 \pgf@sys@shading@range@num=\count394
 \pgf@shadingcount=\count395
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-coreimage.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-coreexternal.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfexternal@startupbox=\box54
 ))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-corelayers.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
 File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-coretransparency.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
 File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-corepatterns.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
 File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
-corerdf.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
 File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
-uleshapes.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfnodeparttextbox=\box55
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
-uleplot.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\pg
-fcomp-version-0-65.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@nodesepstart=\dimen193
 \pgf@nodesepend=\dimen194
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\pg
-fcomp-version-1-18.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 ))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgffor
-.sty"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkey
-s.sty"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfk
-eys.code.tex"))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.sty
-"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.c
-ode.tex"))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgff
-or.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.c
-ode.tex")
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex)
 \pgffor@iter=\dimen195
 \pgffor@skip=\dimen196
 \pgffor@stack=\toks31
 \pgffor@toks=\toks32
 ))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/
-tikz\tikz.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgfl
-ibraryplothandlers.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@plot@mark@count=\count396
 \pgfplotmarksize=\dimen197
@@ -762,8 +737,8 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikznumberofcurrentchild=\count399
 \tikz@fig@count=\count400
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
-ulematrix.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfmatrixcurrentrow=\count401
 \pgfmatrixcurrentcolumn=\count402
@@ -771,14 +746,14 @@ File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 \tikz@expandcount=\count404
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarytopaths.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.
-code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsc
-ore.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
+e.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
+.code.tex
 \t@pgfplots@toka=\toks33
 \t@pgfplots@tokb=\toks34
 \t@pgfplots@tokc=\toks35
@@ -786,73 +761,73 @@ ore.code.tex"
 \c@pgfplots@coordindex=\count405
 \c@pgfplots@scanlineindex=\count406
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\pgfpl
-otssysgeneric.code.tex"))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs\pgfp
-lotslibrary.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/oldpgfcom
-patib\pgfplotsoldpgfsupp_loader.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgfl
-ibraryfpu.code.tex"))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgfp
-lotsutil.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststruc
-ture\pgfplotsliststructure.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststruc
-ture\pgfplotsliststructureext.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststruc
-ture\pgfplotsarray.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
+sysgeneric.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplot
+slibrary.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfpu.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructure.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructureext.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count407
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststruc
-ture\pgfplotsmatrix.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/numtable\
-pgfplotstableshared.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsmatrix.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
+plotstableshared.code.tex
 \c@pgfplotstable@counta=\count408
 \t@pgfplotstable@a=\toks36
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststruc
-ture\pgfplotsdeque.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgfp
-lotsbinary.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgfp
-lotsbinary.data.code.tex"))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgfp
-lotsutil.verb.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs\pgfl
-ibrarypgfplots.surfshading.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsdeque.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.data.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.verb.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
+arypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count409
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\pgfli
-brarypgfplots.surfshading.pgfsys-pdftex.def")))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgfp
-lotscolormap.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgfp
-lotscolor.code.tex"))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplotss
-tackedplots.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsp
-lothandlers.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsm
-eshplothandler.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsm
-eshplotimage.code.tex")))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.
-scaling.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsc
-oordprocessing.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.
-errorbars.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.
-markers.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplotst
-icks.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.
-paths.code.tex")
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarydecorations.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
-uledecorations.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
+rypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolormap.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolor.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstac
+kedplots.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplot
+handlers.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plothandler.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plotimage.code.tex)))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sca
+ling.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoor
+dprocessing.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.err
+orbars.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mar
+kers.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstick
+s.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pat
+hs.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen263
 \pgfdecoratedremainingdistance=\dimen264
 \pgfdecoratedinputsegmentcompleteddistance=\dimen265
@@ -864,14 +839,14 @@ uledecorations.code.tex"
 )
 \tikz@lib@dec@box=\box60
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/deco
-rations\pgflibrarydecorations.pathmorphing.code.tex"))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/deco
-rations\pgflibrarydecorations.pathreplacing.code.tex"))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathreplacing.code.tex))
 \pgfplots@numplots=\count411
 \pgfplots@xmin@reg=\dimen270
 \pgfplots@xmax@reg=\dimen271
@@ -880,18 +855,18 @@ rations\pgflibrarydecorations.pathreplacing.code.tex"))
 \pgfplots@zmin@reg=\dimen274
 \pgfplots@zmax@reg=\dimen275
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryplotmarks.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgfl
-ibraryplotmarks.code.tex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.sty
-"
+
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen276
 \captionmargin@=\dimen277
@@ -905,34 +880,28 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count412
 \c@continuedfloat=\count413
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adjustbox.
-sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
-
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.te
-x"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.t
-ex"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks37
 \XKV@tempa@toks=\toks38
 )
 \XKV@depth=\count414
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adjcalc.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\trimclip.s
-ty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/collectbox\collectbo
-x.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+ty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box61
 )
@@ -942,8 +911,7 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen286
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\tc-pdftex.
-def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen287
@@ -955,20 +923,16 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pdepth=\dimen293
 \adjbox@ptotalheight=\dimen294
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage\ifoddpage.
-sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count415
-)
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/varwidth\varwidth.st
-y"
+) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box62
 \sift@deathcycles=\count416
 \@vwid@loff=\dimen295
 \@vwid@roff=\dimen296
-))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\subfig.sty"
+)) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count417
 \sf@farskip=\skip74
@@ -984,7 +948,7 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@top=\skip77
 \sf@bottom=\skip78
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count424
 \float@exts=\toks39
@@ -992,22 +956,24 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks40
 \@floatcapt=\box64
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip79
+
 For additional information on amsmath, use the `?' option.
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks41
 \ex@=\dimen298
-)) ("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.st
-y"
+))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen299
-) ("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
-"
+)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count425
@@ -1048,7 +1014,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/latex-tools\bm.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\bm.sty
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
@@ -1057,8 +1023,7 @@ Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumitem.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip82
 \enit@outerparindent=\dimen307
@@ -1067,8 +1032,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count437
 \enitdp@description=\count438
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen308
 \lightrulewidth=\dimen309
@@ -1088,10 +1052,10 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count442
 \@thisrulewidth=\dimen320
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ragged2e\ragged2e.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
- ("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everysel.sty"
+
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/ms\everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip83
@@ -1108,21 +1072,23 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedLeftParindent=\skip94
 \RaggedRightParindent=\skip95
 \JustifyingParindent=\skip96
-) ("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\pifont.sty"
+)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\upzd.fd"
+
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\upsy.fd"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/latex-tools\longtabl
-e.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\longtable.s
+ty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip97
 \LTright=\skip98
@@ -1140,8 +1106,7 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@chunks=\count447
 \LT@p@ftn=\toks47
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/01/02 v2.6 Span multiple rows of a table
 \multirow@colwidth=\skip101
 \multirow@cntb=\count448
@@ -1155,13 +1120,13 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count449
 \@quotereset=\count450
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend-
-pdftex.def"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
 File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count451
 \l__pdf_internal_box=\box72
-) (whole_thesis.aux (dictionary.aux) (chap_luki.aux)
-(chap_dynamic.aux) (chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
+) (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
+(chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
 \openout1 = `whole_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1217,8 +1182,8 @@ LaTeX Font Info:    ... okay on input line 5.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf
-.mkii"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count452
 \scratchdimen=\dimen323
@@ -1232,8 +1197,8 @@ LaTeX Font Info:    ... okay on input line 5.
 \makeMPintoPDFobject=\count457
 \everyMPtoPDFconversion=\toks49
 )
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopd
-f-base.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -1241,16 +1206,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 Package biblatex Info: Trying to load language 'polish'...
 Package biblatex Info: ... file 'polish.lbx' found.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\polish.
-lbx"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\polish.lbx
 File: polish.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
-
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
+ (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-01-09 L3 programming layer (loader) 
 )
 Package biblatex Info: ... and expl3
@@ -1258,14 +1221,14 @@ Package biblatex Info: ... and expl3
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-case-ex
-pl3.sty"
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\xp
-arse.sty"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
 Package: xparse 2020-10-27 L3 Experimental document command parser
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\xp
-arse-generic.tex"))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e-generic.tex))
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
 \openout3 = `whole_thesis.bcf'.
@@ -1343,13 +1306,12 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
-
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ltcaption.st
-y"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
- ABD: EverySelectfont initializing macros
+
+ABD: EverySelectfont initializing macros
 
 LaTeX Warning: Command \selectfont   has changed.
                Check if current package is valid.
@@ -1357,19 +1319,19 @@ LaTeX Warning: Command \selectfont   has changed.
 LaTeX Info: Redefining \selectfont on input line 5.
 LaTeX Font Info:    Trying to load font information for OML+plm on input line 6
 .
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/polski\omlplm.fd"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 
 6.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/polski\omsplsy.fd"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+plex on input line 
 6.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/polski\omxplex.fd"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -1386,7 +1348,7 @@ LaTeX Font Info:    External font `plex10' loaded for size
 \providecommand \oddpage@label [2]{}
 
 
-{C:/Users/KBP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/przem/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 (whole_thesis.toc
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <12> on input line 8.
@@ -1631,7 +1593,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 
 702.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/polski\ot4cmss.fd"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 [47]
@@ -1649,8 +1611,11 @@ File: ./figures///test_blue/sof_wis/wis_small001.png Graphic file (type png)
 Package pdftex.def Info: ./figures///test_blue/sof_wis/wis_small001.png  used o
 n input line 754.
 (pdftex.def)             Requested size: 213.39566pt x 78.29478pt.
- [48 <./figures///test_blue/sof_wis/wis_small002.png (PNG copy)> <./figures///t
-est_blue/sof_wis/wis_small001.png (PNG copy)>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[48]
 <./figures///test_blue/sof_wis/image_small001.png, id=292, 3898.06313pt x 2116.
 15594pt>
 File: ./figures///test_blue/sof_wis/image_small001.png Graphic file (type png)
@@ -1763,16 +1728,17 @@ Overfull \hbox (17.35042pt too wide) in paragraph at lines 803--806
  [][][] 
  []
 
-[49 <./figures///test_blue/sof_wis/image_small001.png (PNG copy)> <./figures///
-test_blue/sof_wis/image_small003.png (PNG copy)> <./figures///test_blue/sof_wis
-/image_small004.png (PNG copy)> <./figures///test_blue/sof_wis/image_small005.p
-ng (PNG copy)> <./figures///test_blue/sof_wis/image_small006.png (PNG copy)> <.
-/figures///test_blue/sof_wis/image_small007.png (PNG copy)> <./figures///test_b
-lue/sof_wis/image_small008.png (PNG copy)> <./figures///test_blue/sof_wis/image
-_small009.png (PNG copy)> <./figures///test_blue/sof_wis/image_small010.png (PN
-G copy)> <./figures///test_blue/sof_wis/image_small011.png (PNG copy)>]
-[50 <./figures///test_blue/input_load/input_load_1.pdf> <./figures///test_blue/
-input_load/input_load_2.pdf
+[49 <./figures///test_blue/sof_wis/wis_small002.png (PNG copy)> <./figures///te
+st_blue/sof_wis/wis_small001.png (PNG copy)> <./figures///test_blue/sof_wis/ima
+ge_small001.png (PNG copy)> <./figures///test_blue/sof_wis/image_small003.png (
+PNG copy)> <./figures///test_blue/sof_wis/image_small004.png (PNG copy)> <./fig
+ures///test_blue/sof_wis/image_small005.png (PNG copy)> <./figures///test_blue/
+sof_wis/image_small006.png (PNG copy)> <./figures///test_blue/sof_wis/image_sma
+ll007.png (PNG copy)> <./figures///test_blue/sof_wis/image_small008.png (PNG co
+py)> <./figures///test_blue/sof_wis/image_small009.png (PNG copy)> <./figures//
+/test_blue/sof_wis/image_small010.png (PNG copy)> <./figures///test_blue/sof_wi
+s/image_small011.png (PNG copy)>] [50 <./figures///test_blue/input_load/input_l
+oad_1.pdf> <./figures///test_blue/input_load/input_load_2.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///test_blue/input_load/input_load_
 2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -2203,48 +2169,254 @@ _time_22_22_25.pdf): PDF inclusion: multiple pdfs with page group included in a
 LaTeX Warning: Reference `eq: minimum_oma_time_series' on page 55 undefined on 
 input line 917.
 
-
-LaTeX Warning: Reference `' on page 55 undefined on input line 924.
-
 [55]
+<./figures///test_blue/lab_photo/DSC07486.jpg, id=1481, 1445.4pt x 813.2784pt>
+File: ./figures///test_blue/lab_photo/DSC07486.jpg Graphic file (type jpg)
+<use ./figures///test_blue/lab_photo/DSC07486.jpg>
+Package pdftex.def Info: ./figures///test_blue/lab_photo/DSC07486.jpg  used on 
+input line 940.
+(pdftex.def)             Requested size: 128.0387pt x 72.0378pt.
+<./figures///test_blue/lab_photo/DSC07500.jpg, id=1482, 1068.3915pt x 601.0455p
+t>
+File: ./figures///test_blue/lab_photo/DSC07500.jpg Graphic file (type jpg)
+<use ./figures///test_blue/lab_photo/DSC07500.jpg>
+Package pdftex.def Info: ./figures///test_blue/lab_photo/DSC07500.jpg  used on 
+input line 940.
+(pdftex.def)             Requested size: 128.0387pt x 72.03062pt.
+<./figures///test_blue/lab_photo/DSC07475.jpg, id=1483, 1276.0473pt x 717.882pt
+>
+File: ./figures///test_blue/lab_photo/DSC07475.jpg Graphic file (type jpg)
+<use ./figures///test_blue/lab_photo/DSC07475.jpg>
+Package pdftex.def Info: ./figures///test_blue/lab_photo/DSC07475.jpg  used on 
+input line 940.
+(pdftex.def)             Requested size: 128.0387pt x 72.02243pt.
+<./figures///test_blue/lab_photo/DSC07487.jpg, id=1484, 1445.4pt x 813.2784pt>
+File: ./figures///test_blue/lab_photo/DSC07487.jpg Graphic file (type jpg)
+<use ./figures///test_blue/lab_photo/DSC07487.jpg>
+Package pdftex.def Info: ./figures///test_blue/lab_photo/DSC07487.jpg  used on 
+input line 946.
+(pdftex.def)             Requested size: 128.0387pt x 72.0378pt.
+<./figures///test_blue/lab_photo/DSC07477_1.jpg, id=1485, 810.1467pt x 455.7828
+pt>
+File: ./figures///test_blue/lab_photo/DSC07477_1.jpg Graphic file (type jpg)
+<use ./figures///test_blue/lab_photo/DSC07477_1.jpg>
+Package pdftex.def Info: ./figures///test_blue/lab_photo/DSC07477_1.jpg  used o
+n input line 946.
+(pdftex.def)             Requested size: 128.0387pt x 72.02957pt.
+<./figures///test_blue/lab_photo/DSC07502.jpg, id=1486, 1445.4pt x 813.2784pt>
+File: ./figures///test_blue/lab_photo/DSC07502.jpg Graphic file (type jpg)
+<use ./figures///test_blue/lab_photo/DSC07502.jpg>
+Package pdftex.def Info: ./figures///test_blue/lab_photo/DSC07502.jpg  used on 
+input line 946.
+(pdftex.def)             Requested size: 128.0387pt x 72.0378pt.
+
+
+LaTeX Warning: Citation 'Brincker' on page 56 undefined on input line 954.
+
+[56 <./figures///test_blue/lab_photo/DSC07486.jpg> <./figures///test_blue/lab_p
+hoto/DSC07500.jpg> <./figures///test_blue/lab_photo/DSC07475.jpg> <./figures///
+test_blue/lab_photo/DSC07487.jpg> <./figures///test_blue/lab_photo/DSC07477_1.j
+pg> <./figures///test_blue/lab_photo/DSC07502.jpg>]
+<./figures///test_blue/stab_diag_lab/fig_stab_diagram_nonfiltr_time_17_49_58.pd
+f, id=1490, 432.7158pt x 169.76137pt>
+File: ./figures///test_blue/stab_diag_lab/fig_stab_diagram_nonfiltr_time_17_49_
+58.pdf Graphic file (type pdf)
+<use ./figures///test_blue/stab_diag_lab/fig_stab_diagram_nonfiltr_time_17_49_5
+8.pdf>
+Package pdftex.def Info: ./figures///test_blue/stab_diag_lab/fig_stab_diagram_n
+onfiltr_time_17_49_58.pdf  used on input line 960.
+(pdftex.def)             Requested size: 426.79134pt x 167.44516pt.
+<./figures///test_blue/stab_diag_lab/fig_stab_diagram_filtr_time_17_49_52.pdf, 
+id=1491, 432.7158pt x 169.76137pt>
+File: ./figures///test_blue/stab_diag_lab/fig_stab_diagram_filtr_time_17_49_52.
+pdf Graphic file (type pdf)
+<use ./figures///test_blue/stab_diag_lab/fig_stab_diagram_filtr_time_17_49_52.p
+df>
+Package pdftex.def Info: ./figures///test_blue/stab_diag_lab/fig_stab_diagram_f
+iltr_time_17_49_52.pdf  used on input line 961.
+(pdftex.def)             Requested size: 426.79134pt x 167.44516pt.
+<./figures///test_blue/blue_modes_lab/fig_mod_0_time_18_20_13.pdf, id=1492, 190
+.86108pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes_lab/fig_mod_0_time_18_20_13.pdf Graphic 
+file (type pdf)
+<use ./figures///test_blue/blue_modes_lab/fig_mod_0_time_18_20_13.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes_lab/fig_mod_0_time_18
+_20_13.pdf  used on input line 975.
+(pdftex.def)             Requested size: 149.37956pt x 128.84732pt.
+<./figures///test_blue/blue_modes_lab/fig_mod_0_time_18_20_19.pdf, id=1494, 190
+.86108pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes_lab/fig_mod_0_time_18_20_19.pdf Graphic 
+file (type pdf)
+<use ./figures///test_blue/blue_modes_lab/fig_mod_0_time_18_20_19.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes_lab/fig_mod_0_time_18
+_20_19.pdf  used on input line 975.
+(pdftex.def)             Requested size: 149.37956pt x 128.84732pt.
+<./figures///test_blue/polar_lab/fig_polar_mod_0_time_18_20_26.pdf, id=1496, 20
+5.60022pt x 218.31453pt>
+File: ./figures///test_blue/polar_lab/fig_polar_mod_0_time_18_20_26.pdf Graphic
+ file (type pdf)
+<use ./figures///test_blue/polar_lab/fig_polar_mod_0_time_18_20_26.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar_lab/fig_polar_mod_0_time_1
+8_20_26.pdf  used on input line 975.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+<./figures///test_blue/blue_modes_lab/fig_mod_2_time_18_21_14.pdf, id=1497, 190
+.86108pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes_lab/fig_mod_2_time_18_21_14.pdf Graphic 
+file (type pdf)
+<use ./figures///test_blue/blue_modes_lab/fig_mod_2_time_18_21_14.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes_lab/fig_mod_2_time_18
+_21_14.pdf  used on input line 981.
+(pdftex.def)             Requested size: 149.37956pt x 128.84732pt.
+<./figures///test_blue/blue_modes_lab/fig_mod_2_time_18_21_24.pdf, id=1499, 190
+.86108pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes_lab/fig_mod_2_time_18_21_24.pdf Graphic 
+file (type pdf)
+<use ./figures///test_blue/blue_modes_lab/fig_mod_2_time_18_21_24.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes_lab/fig_mod_2_time_18
+_21_24.pdf  used on input line 981.
+(pdftex.def)             Requested size: 149.37956pt x 128.84732pt.
+<./figures///test_blue/polar_lab/fig_polar_mod_2_time_18_21_30.pdf, id=1501, 20
+5.60022pt x 218.31453pt>
+File: ./figures///test_blue/polar_lab/fig_polar_mod_2_time_18_21_30.pdf Graphic
+ file (type pdf)
+<use ./figures///test_blue/polar_lab/fig_polar_mod_2_time_18_21_30.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar_lab/fig_polar_mod_2_time_1
+8_21_30.pdf  used on input line 981.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+<./figures///test_blue/blue_modes_lab/fig_mod_8_time_18_20_48.pdf, id=1502, 190
+.86108pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes_lab/fig_mod_8_time_18_20_48.pdf Graphic 
+file (type pdf)
+<use ./figures///test_blue/blue_modes_lab/fig_mod_8_time_18_20_48.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes_lab/fig_mod_8_time_18
+_20_48.pdf  used on input line 987.
+(pdftex.def)             Requested size: 149.37956pt x 128.84732pt.
+<./figures///test_blue/blue_modes_lab/fig_mod_8_time_18_20_55.pdf, id=1504, 190
+.86108pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes_lab/fig_mod_8_time_18_20_55.pdf Graphic 
+file (type pdf)
+<use ./figures///test_blue/blue_modes_lab/fig_mod_8_time_18_20_55.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes_lab/fig_mod_8_time_18
+_20_55.pdf  used on input line 987.
+(pdftex.def)             Requested size: 149.37956pt x 128.84732pt.
+<./figures///test_blue/polar_lab/fig_polar_mod_8_time_18_20_59.pdf, id=1506, 20
+5.60022pt x 218.31453pt>
+File: ./figures///test_blue/polar_lab/fig_polar_mod_8_time_18_20_59.pdf Graphic
+ file (type pdf)
+<use ./figures///test_blue/polar_lab/fig_polar_mod_8_time_18_20_59.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar_lab/fig_polar_mod_8_time_1
+8_20_59.pdf  used on input line 987.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+<./figures///test_blue/blue_modes_lab/fig_mod_16_time_18_21_53.pdf, id=1507, 19
+0.86108pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes_lab/fig_mod_16_time_18_21_53.pdf Graphic
+ file (type pdf)
+<use ./figures///test_blue/blue_modes_lab/fig_mod_16_time_18_21_53.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes_lab/fig_mod_16_time_1
+8_21_53.pdf  used on input line 993.
+(pdftex.def)             Requested size: 149.37956pt x 128.84732pt.
+<./figures///test_blue/blue_modes_lab/fig_mod_16_time_18_21_58.pdf, id=1509, 19
+0.86108pt x 189.72298pt>
+File: ./figures///test_blue/blue_modes_lab/fig_mod_16_time_18_21_58.pdf Graphic
+ file (type pdf)
+<use ./figures///test_blue/blue_modes_lab/fig_mod_16_time_18_21_58.pdf>
+Package pdftex.def Info: ./figures///test_blue/blue_modes_lab/fig_mod_16_time_1
+8_21_58.pdf  used on input line 993.
+(pdftex.def)             Requested size: 149.37956pt x 128.84732pt.
+<./figures///test_blue/polar_lab/fig_polar_mod_16_time_18_22_02.pdf, id=1511, 2
+05.60022pt x 218.31453pt>
+File: ./figures///test_blue/polar_lab/fig_polar_mod_16_time_18_22_02.pdf Graphi
+c file (type pdf)
+<use ./figures///test_blue/polar_lab/fig_polar_mod_16_time_18_22_02.pdf>
+Package pdftex.def Info: ./figures///test_blue/polar_lab/fig_polar_mod_16_time_
+18_22_02.pdf  used on input line 993.
+(pdftex.def)             Requested size: 128.0387pt x 135.95987pt.
+
+Overfull \hbox (24.00648pt too wide) in paragraph at lines 969--996
+ [][] 
+ []
+
+[57 <./figures///test_blue/stab_diag_lab/fig_stab_diagram_nonfiltr_time_17_49_5
+8.pdf> <./figures///test_blue/stab_diag_lab/fig_stab_diagram_filtr_time_17_49_5
+2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures///test_blue/stab_diag_lab/fig_stab
+_diagram_filtr_time_17_49_52.pdf): PDF inclusion: multiple pdfs with page group
+ included in a single page
+>] [58 <./figures///test_blue/blue_modes_lab/fig_mod_0_time_18_20_13.pdf> <./fi
+gures///test_blue/blue_modes_lab/fig_mod_0_time_18_20_19.pdf> <./figures///test
+_blue/blue_modes_lab/fig_mod_2_time_18_21_14.pdf> <./figures///test_blue/blue_m
+odes_lab/fig_mod_2_time_18_21_24.pdf> <./figures///test_blue/blue_modes_lab/fig
+_mod_8_time_18_20_48.pdf> <./figures///test_blue/blue_modes_lab/fig_mod_8_time_
+18_20_55.pdf> <./figures///test_blue/blue_modes_lab/fig_mod_16_time_18_21_53.pd
+f> <./figures///test_blue/blue_modes_lab/fig_mod_16_time_18_21_58.pdf> <./figur
+es///test_blue/polar_lab/fig_polar_mod_0_time_18_20_26.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures///test_blue/polar_lab/fig_polar_mo
+d_0_time_18_20_26.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./figures///test_blue/polar_lab/fig_polar_mod_2_time_18_21_30.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures///test_blue/polar_lab/fig_polar_mo
+d_2_time_18_21_30.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./figures///test_blue/polar_lab/fig_polar_mod_8_time_18_20_59.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures///test_blue/polar_lab/fig_polar_mo
+d_8_time_18_20_59.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./figures///test_blue/polar_lab/fig_polar_mod_16_time_18_22_02.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures///test_blue/polar_lab/fig_polar_mo
+d_16_time_18_22_02.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+>]
+<./figures///test_blue/fig_00_12_14_0.978.pdf, id=1996, 355.58438pt x 185.64795
+pt>
+File: ./figures///test_blue/fig_00_12_14_0.978.pdf Graphic file (type pdf)
+<use ./figures///test_blue/fig_00_12_14_0.978.pdf>
+Package pdftex.def Info: ./figures///test_blue/fig_00_12_14_0.978.pdf  used on 
+input line 1007.
+(pdftex.def)             Requested size: 355.5835pt x 168.58374pt.
+
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 947.
+               Default added (so using `tbp') on input line 1027.
 
 
-Overfull \hbox (1.01878pt too wide) in paragraph at lines 972--978
+Overfull \hbox (1.01878pt too wide) in paragraph at lines 1050--1056
 []\OT4/cmr/m/n/12 Parametry me-tody NeXT-ERA: ([]) 1) D™u-go±¢ okna uªy-
  []
 
 
-Overfull \hbox (100.38716pt too wide) in paragraph at lines 979--980
+Overfull \hbox (100.38716pt too wide) in paragraph at lines 1057--1058
 \OT4/cmr/m/n/12 dowe. Wska-zÛwka do okre-±le-nia sta-cjo-nar-no-±ci { je-±li wa
 r-to-±ci s° pra-wie sta™e. ([];
  []
 
-
-Overfull \hbox (45.45857pt too wide) in paragraph at lines 985--986
+[59 <./figures///test_blue/fig_00_12_14_0.978.pdf>]
+Overfull \hbox (45.45857pt too wide) in paragraph at lines 1063--1064
 []\OT4/cmr/m/n/12 Blisko po-™o-ªone piki { zmniej-sze-nie cz¶-sto-tli-wo-±ci pr
 Ûb-ko-wa-nia ([]) 
  []
 
 
-Overfull \hbox (72.518pt too wide) in paragraph at lines 991--992
+Overfull \hbox (72.518pt too wide) in paragraph at lines 1069--1070
 \OT4/cmr/m/n/12 a cz¶-sto-tli-wo±¢ prÛb-ko-wa-nia jest rÛwna cz¶-sto-tli-wo-±ci
  uªy-tych sy-gna-™Ûw ([]) 
  []
 
-[56])
-Overfull \hbox (142.49359pt too wide) in paragraph at lines 1006--24
+)
+Overfull \hbox (142.49359pt too wide) in paragraph at lines 1084--24
 []\OT4/cmr/m/n/12 ; []; []; [])
  []
 
-[57]
+[60]
 \openout2 = `chap_pso.aux'.
 
  (chap_pso.tex
 Rozdzia\l  4.
-) [58
+) [61
 
 
 
@@ -2259,7 +2431,7 @@ Rozdzia\l  5.
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/widok_z_boku_croped.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<./figures///WK2/rysunki/widok_z_boku_croped.pdf, id=1490, 455.18065pt x 137.19
+<./figures///WK2/rysunki/widok_z_boku_croped.pdf, id=2070, 455.18065pt x 137.19
 234pt>
 File: ./figures///WK2/rysunki/widok_z_boku_croped.pdf Graphic file (type pdf)
 <use ./figures///WK2/rysunki/widok_z_boku_croped.pdf>
@@ -2276,7 +2448,7 @@ Overfull \hbox (28.38818pt too wide) in paragraph at lines 14--16
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_dzwigara_cr
 oped.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf, id=1491, 455.18065pt x 4
+<./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf, id=2071, 455.18065pt x 4
 26.27235pt>
 File: ./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf Graphic file (type p
 df)
@@ -2294,7 +2466,7 @@ Overfull \hbox (23.49855pt too wide) in paragraph at lines 23--25
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_poprzeczny_
 croped.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
-<./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf, id=1492, 373.39522pt x
+<./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf, id=2072, 373.39522pt x
  220.42351pt>
 File: ./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf Graphic file (type
  pdf)
@@ -2308,13 +2480,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[59
+[62
 
 
 
 
  <./figures///WK2/rysunki/widok_z_boku_croped.pdf>]
-<./figures///WK2/zdjecia/widok_front2.jpg, id=1502, 1373.13pt x 1029.8475pt>
+<./figures///WK2/zdjecia/widok_front2.jpg, id=2082, 1373.13pt x 1029.8475pt>
 File: ./figures///WK2/zdjecia/widok_front2.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/widok_front2.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/widok_front2.jpg  used on inpu
@@ -2324,13 +2496,13 @@ t line 40.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/zdjecia/wezglowie.jpg, id=1503, 1715.40875pt x 1207.51125pt>
+<./figures///WK2/zdjecia/wezglowie.jpg, id=2083, 1715.40875pt x 1207.51125pt>
 File: ./figures///WK2/zdjecia/wezglowie.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/wezglowie.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/wezglowie.jpg  used on input l
 ine 47.
 (pdftex.def)             Requested size: 199.66287pt x 140.55446pt.
-<./figures///WK2/zdjecia/detal_wezglowie_dol.jpg, id=1504, 1373.13pt x 1029.847
+<./figures///WK2/zdjecia/detal_wezglowie_dol.jpg, id=2084, 1373.13pt x 1029.847
 5pt>
 File: ./figures///WK2/zdjecia/detal_wezglowie_dol.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/detal_wezglowie_dol.jpg>
@@ -2340,7 +2512,7 @@ on input line 49.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/zdjecia/zakotwienie_wieszak.jpg, id=1505, 1373.13pt x 1029.847
+<./figures///WK2/zdjecia/zakotwienie_wieszak.jpg, id=2085, 1373.13pt x 1029.847
 5pt>
 File: ./figures///WK2/zdjecia/zakotwienie_wieszak.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/zakotwienie_wieszak.jpg>
@@ -2353,25 +2525,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 1325) has occurred while \output is active []
 
+ [63 <./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 60 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+\OT4/cmr/m/n/12 64 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[60 <./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61 <./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf> <./figures///WK2/
-zdjecia/widok_front2.jpg>]
-<./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg, id=2244, 2192.94281pt x 1455.93
+[64 <./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf> <./figures///WK2/z
+djecia/widok_front2.jpg>]
+<./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg, id=2823, 2192.94281pt x 1455.93
 938pt>
 File: ./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg>
 Package pdftex.def Info: ./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg  used on
  input line 73.
 (pdftex.def)             Requested size: 213.39566pt x 141.67026pt.
-<./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg, id=2245, 2306.6175pt x 1656.187
+<./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg, id=2824, 2306.6175pt x 1656.187
 5pt>
 File: ./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg>
@@ -2382,7 +2554,7 @@ Package pdftex.def Info: ./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg, id=2246, 1810.51407pt x 921
+<./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg, id=2825, 1810.51407pt x 921
 .4425pt>
 File: ./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg Graphic file (type jpg)
 
@@ -2393,81 +2565,81 @@ d on input line 82.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/model/mod_origin/f1f.jpg, id=2247, 1134.48843pt x 1227.83719pt
+<./figures///WK2/model/mod_origin/f1f.jpg, id=2826, 1134.48843pt x 1227.83719pt
 >
 File: ./figures///WK2/model/mod_origin/f1f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f1f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f1f.jpg  used on inpu
 t line 96.
 (pdftex.def)             Requested size: 77.91626pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f1s.jpg, id=2248, 2160.57187pt x 526.21594pt>
+<./figures///WK2/model/mod_origin/f1s.jpg, id=2827, 2160.57187pt x 526.21594pt>
 
 File: ./figures///WK2/model/mod_origin/f1s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f1s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f1s.jpg  used on inpu
 t line 96.
 (pdftex.def)             Requested size: 298.75262pt x 72.7624pt.
-<./figures///WK2/model/mod_origin/f2f.jpg, id=2249, 1301.61281pt x 1184.17406pt
+<./figures///WK2/model/mod_origin/f2f.jpg, id=2828, 1301.61281pt x 1184.17406pt
 >
 File: ./figures///WK2/model/mod_origin/f2f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f2f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f2f.jpg  used on inpu
 t line 101.
 (pdftex.def)             Requested size: 92.69122pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f2s.jpg, id=2250, 1992.69469pt x 476.53032pt>
+<./figures///WK2/model/mod_origin/f2s.jpg, id=2829, 1992.69469pt x 476.53032pt>
 
 File: ./figures///WK2/model/mod_origin/f2s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f2s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f2s.jpg  used on inpu
 t line 101.
 (pdftex.def)             Requested size: 298.75262pt x 71.4401pt.
-<./figures///WK2/model/mod_origin/f3f.jpg, id=2251, 1011.78pt x 1291.82625pt>
+<./figures///WK2/model/mod_origin/f3f.jpg, id=2830, 1011.78pt x 1291.82625pt>
 File: ./figures///WK2/model/mod_origin/f3f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f3f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f3f.jpg  used on inpu
 t line 106.
 (pdftex.def)             Requested size: 66.0459pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f3s.jpg, id=2252, 2177.13374pt x 566.86781pt>
+<./figures///WK2/model/mod_origin/f3s.jpg, id=2831, 2177.13374pt x 566.86781pt>
 
 File: ./figures///WK2/model/mod_origin/f3s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f3s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f3s.jpg  used on inpu
 t line 106.
 (pdftex.def)             Requested size: 298.75262pt x 77.7867pt.
-<./figures///WK2/model/mod_origin/f4f.jpg, id=2253, 1185.67969pt x 1266.23062pt
+<./figures///WK2/model/mod_origin/f4f.jpg, id=2832, 1185.67969pt x 1266.23062pt
 >
 File: ./figures///WK2/model/mod_origin/f4f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f4f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f4f.jpg  used on inpu
 t line 111.
 (pdftex.def)             Requested size: 78.95345pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f4s.jpg, id=2254, 2165.84157pt x 523.9575pt>
+<./figures///WK2/model/mod_origin/f4s.jpg, id=2833, 2165.84157pt x 523.9575pt>
 File: ./figures///WK2/model/mod_origin/f4s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f4s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f4s.jpg  used on inpu
 t line 111.
 (pdftex.def)             Requested size: 298.75262pt x 72.27423pt.
-<./figures///WK2/model/mod_origin/f5f.jpg, id=2255, 977.90344pt x 1090.0725pt>
+<./figures///WK2/model/mod_origin/f5f.jpg, id=2834, 977.90344pt x 1090.0725pt>
 File: ./figures///WK2/model/mod_origin/f5f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f5f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f5f.jpg  used on inpu
 t line 116.
 (pdftex.def)             Requested size: 75.65244pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f5s.jpg, id=2256, 2007.75093pt x 413.29407pt>
+<./figures///WK2/model/mod_origin/f5s.jpg, id=2835, 2007.75093pt x 413.29407pt>
 
 File: ./figures///WK2/model/mod_origin/f5s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f5s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f5s.jpg  used on inpu
 t line 116.
 (pdftex.def)             Requested size: 298.75262pt x 61.49323pt.
-<./figures///WK2/model/mod_origin/f6f.jpg, id=2257, 776.14969pt x 1004.25188pt>
+<./figures///WK2/model/mod_origin/f6f.jpg, id=2836, 776.14969pt x 1004.25188pt>
 
 File: ./figures///WK2/model/mod_origin/f6f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f6f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f6f.jpg  used on inpu
 t line 121.
 (pdftex.def)             Requested size: 65.17244pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f6s.jpg, id=2258, 2001.72844pt x 505.89pt>
+<./figures///WK2/model/mod_origin/f6s.jpg, id=2837, 2001.72844pt x 505.89pt>
 File: ./figures///WK2/model/mod_origin/f6s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f6s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f6s.jpg  used on inpu
@@ -2476,63 +2648,57 @@ t line 121.
 
 LaTeX Warning: Float too large for page by 24.30034pt on input line 125.
 
-
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 62 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[62 <./figures///WK2/zdjecia/wezglowie.jpg> <./figures///WK2/zdjecia/detal_wezg
+[65 <./figures///WK2/zdjecia/wezglowie.jpg> <./figures///WK2/zdjecia/detal_wezg
 lowie_dol.jpg> <./figures///WK2/zdjecia/zakotwienie_wieszak.jpg>]
-<./figures///WK2/model/mod_origin/f7f.jpg, id=2262, 964.35281pt x 1242.89343pt>
+<./figures///WK2/model/mod_origin/f7f.jpg, id=2841, 964.35281pt x 1242.89343pt>
 
 File: ./figures///WK2/model/mod_origin/f7f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f7f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f7f.jpg  used on inpu
 t line 134.
 (pdftex.def)             Requested size: 65.42209pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f7s.jpg, id=2263, 2185.41469pt x 534.49687pt>
+<./figures///WK2/model/mod_origin/f7s.jpg, id=2842, 2185.41469pt x 534.49687pt>
 
 File: ./figures///WK2/model/mod_origin/f7s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f7s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f7s.jpg  used on inpu
 t line 134.
 (pdftex.def)             Requested size: 298.75262pt x 73.05925pt.
-<./figures///WK2/model/mod_origin/f8f.jpg, id=2264, 760.34062pt x 1151.80313pt>
+<./figures///WK2/model/mod_origin/f8f.jpg, id=2843, 760.34062pt x 1151.80313pt>
 
 File: ./figures///WK2/model/mod_origin/f8f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f8f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f8f.jpg  used on inpu
 t line 139.
 (pdftex.def)             Requested size: 55.66566pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f8s.jpg, id=2265, 2167.34718pt x 654.19406pt>
+<./figures///WK2/model/mod_origin/f8s.jpg, id=2844, 2167.34718pt x 654.19406pt>
 
 File: ./figures///WK2/model/mod_origin/f8s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f8s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f8s.jpg  used on inpu
 t line 139.
 (pdftex.def)             Requested size: 298.75262pt x 90.16907pt.
-<./figures///WK2/model/mod_origin/f9f.jpg, id=2266, 810.77907pt x 832.61063pt>
+<./figures///WK2/model/mod_origin/f9f.jpg, id=2845, 810.77907pt x 832.61063pt>
 File: ./figures///WK2/model/mod_origin/f9f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f9f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f9f.jpg  used on inpu
 t line 144.
 (pdftex.def)             Requested size: 82.10948pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f9s.jpg, id=2267, 2171.86406pt x 494.59781pt>
+<./figures///WK2/model/mod_origin/f9s.jpg, id=2846, 2171.86406pt x 494.59781pt>
 
 File: ./figures///WK2/model/mod_origin/f9s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f9s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f9s.jpg  used on inpu
 t line 144.
 (pdftex.def)             Requested size: 298.75262pt x 68.02815pt.
-<./figures///WK2/model/mod_origin/f10f.jpg, id=2268, 1117.92656pt x 1301.61281p
+<./figures///WK2/model/mod_origin/f10f.jpg, id=2847, 1117.92656pt x 1301.61281p
 t>
 File: ./figures///WK2/model/mod_origin/f10f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f10f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f10f.jpg  used on inp
 ut line 149.
 (pdftex.def)             Requested size: 72.42896pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f10s.jpg, id=2269, 1997.96437pt x 457.71pt>
+<./figures///WK2/model/mod_origin/f10s.jpg, id=2848, 1997.96437pt x 457.71pt>
 File: ./figures///WK2/model/mod_origin/f10s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f10s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f10s.jpg  used on inp
@@ -2541,30 +2707,36 @@ ut line 149.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63 <./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg> <./figures///WK2/model/SCI
-AG_PAR_v01_vis_2.jpg> <./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg>]
+
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 64 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+\OT4/cmr/m/n/12 66 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[64 <./figures///WK2/model/mod_origin/f1f.jpg> <./figures///WK2/model/mod_origi
+[66 <./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg> <./figures///WK2/model/SCIA
+G_PAR_v01_vis_2.jpg> <./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg>]
+[67 <./figures///WK2/model/mod_origin/f1f.jpg> <./figures///WK2/model/mod_origi
 n/f1s.jpg> <./figures///WK2/model/mod_origin/f2f.jpg> <./figures///WK2/model/mo
 d_origin/f2s.jpg> <./figures///WK2/model/mod_origin/f3f.jpg> <./figures///WK2/m
 odel/mod_origin/f3s.jpg> <./figures///WK2/model/mod_origin/f4f.jpg> <./figures/
 //WK2/model/mod_origin/f4s.jpg> <./figures///WK2/model/mod_origin/f5f.jpg> <./f
 igures///WK2/model/mod_origin/f5s.jpg> <./figures///WK2/model/mod_origin/f6f.jp
-g> <./figures///WK2/model/mod_origin/f6s.jpg>] [65 <./figures///WK2/model/mod_o
-rigin/f7f.jpg> <./figures///WK2/model/mod_origin/f7s.jpg> <./figures///WK2/mode
-l/mod_origin/f8f.jpg> <./figures///WK2/model/mod_origin/f8s.jpg> <./figures///W
-K2/model/mod_origin/f9f.jpg> <./figures///WK2/model/mod_origin/f9s.jpg> <./figu
-res///WK2/model/mod_origin/f10f.jpg> <./figures///WK2/model/mod_origin/f10s.jpg
->]
+g> <./figures///WK2/model/mod_origin/f6s.jpg>]
+Overfull \hbox (54.74542pt too wide) has occurred while \output is active
+\OT4/cmr/m/n/12 68 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+ KOLEI METROPOLITALNEJ
+ []
+
+[68 <./figures///WK2/model/mod_origin/f7f.jpg> <./figures///WK2/model/mod_origi
+n/f7s.jpg> <./figures///WK2/model/mod_origin/f8f.jpg> <./figures///WK2/model/mo
+d_origin/f8s.jpg> <./figures///WK2/model/mod_origin/f9f.jpg> <./figures///WK2/m
+odel/mod_origin/f9s.jpg> <./figures///WK2/model/mod_origin/f10f.jpg> <./figures
+///WK2/model/mod_origin/f10s.jpg>]
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/punkty_pomiarowe_aut
 omac_croped.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf, id=2279, 429.2838
+<./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf, id=2859, 429.2838
 pt x 170.70235pt>
 File: ./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf Graphic file 
 (type pdf)
@@ -2577,20 +2749,14 @@ Overfull \hbox (2.49141pt too wide) in paragraph at lines 179--181
  [][] 
  []
 
-
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 66 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[66]
-<./figures///WK2/automac/max_mac.pdf, id=2283, 216.78133pt x 211.38443pt>
+[69]
+<./figures///WK2/automac/max_mac.pdf, id=2863, 216.78133pt x 211.38443pt>
 File: ./figures///WK2/automac/max_mac.pdf Graphic file (type pdf)
 <use ./figures///WK2/automac/max_mac.pdf>
 Package pdftex.def Info: ./figures///WK2/automac/max_mac.pdf  used on input lin
 e 189.
 (pdftex.def)             Requested size: 216.78079pt x 211.3839pt.
-<./figures///WK2/automac/rms.pdf, id=2284, 221.03139pt x 211.38443pt>
+<./figures///WK2/automac/rms.pdf, id=2864, 221.03139pt x 211.38443pt>
 File: ./figures///WK2/automac/rms.pdf Graphic file (type pdf)
 <use ./figures///WK2/automac/rms.pdf>
 Package pdftex.def Info: ./figures///WK2/automac/rms.pdf  used on input line 19
@@ -2601,12 +2767,18 @@ Overfull \hbox (11.0203pt too wide) in paragraph at lines 189--192
  [][][] 
  []
 
-[67 <./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf>]
+
+Overfull \hbox (54.74542pt too wide) has occurred while \output is active
+\OT4/cmr/m/n/12 70 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+ KOLEI METROPOLITALNEJ
+ []
+
+[70 <./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/punkty_pomiarowe_pun
 kty_pomiarowe_croped.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf, id=2303,
+<./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf, id=2882,
  429.2838pt x 187.42029pt>
 File: ./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf Grap
 hic file (type pdf)
@@ -2622,7 +2794,7 @@ Overfull \hbox (2.49141pt too wide) in paragraph at lines 202--204
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//WK2/automac/correlogram_0.pdf, id=2304, 371.16034pt x 211.38443pt>
+<./figures//WK2/automac/correlogram_0.pdf, id=2883, 371.16034pt x 211.38443pt>
 File: ./figures//WK2/automac/correlogram_0.pdf Graphic file (type pdf)
 <use ./figures//WK2/automac/correlogram_0.pdf>
 Package pdftex.def Info: ./figures//WK2/automac/correlogram_0.pdf  used on inpu
@@ -2631,26 +2803,26 @@ t line 214.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 68 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[68 <./figures///WK2/automac/max_mac.pdf> <./figures///WK2/automac/rms.pdf
+ [71 <./figures///WK2/automac/max_mac.pdf> <./figures///WK2/automac/rms.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/automac/rms.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69 <./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf> <./
-figures//WK2/automac/correlogram_0.pdf>]
 
-LaTeX Warning: Reference `RYSUNEK POMIAR DRGAN' on page 70 undefined on input l
+Overfull \hbox (54.74542pt too wide) has occurred while \output is active
+\OT4/cmr/m/n/12 72 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+ KOLEI METROPOLITALNEJ
+ []
+
+[72 <./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf> <./f
+igures//WK2/automac/correlogram_0.pdf>]
+
+LaTeX Warning: Reference `RYSUNEK POMIAR DRGAN' on page 73 undefined on input l
 ine 229.
 
-<./figures///WK2/zdjecia/system_pomiarowy.jpg, id=2358, 1759.57375pt x 989.6975
+<./figures///WK2/zdjecia/system_pomiarowy.jpg, id=2937, 1759.57375pt x 989.6975
 pt>
 File: ./figures///WK2/zdjecia/system_pomiarowy.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/system_pomiarowy.jpg>
@@ -2662,39 +2834,33 @@ Underfull \hbox (badness 2894) in paragraph at lines 233--233
 []\OT4/cmr/m/n/10 (a) |Sys-tem akwi-zy-cji da-nych: kom-pu-ter i
  []
 
-<./figures///WK2/zdjecia/czujnik_3_osie.jpg, id=2359, 2665.96pt x 1499.6025pt>
+<./figures///WK2/zdjecia/czujnik_3_osie.jpg, id=2938, 2665.96pt x 1499.6025pt>
 File: ./figures///WK2/zdjecia/czujnik_3_osie.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/czujnik_3_osie.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/czujnik_3_osie.jpg  used on in
 put line 234.
 (pdftex.def)             Requested size: 204.85802pt x 115.21118pt.
-<./figures///WK2/zdjecia/pojazd_na.jpg, id=2360, 2132.96875pt x 1199.48125pt>
+<./figures///WK2/zdjecia/pojazd_na.jpg, id=2939, 2132.96875pt x 1199.48125pt>
 File: ./figures///WK2/zdjecia/pojazd_na.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/pojazd_na.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/pojazd_na.jpg  used on input l
 ine 244.
 (pdftex.def)             Requested size: 204.85802pt x 115.19647pt.
-<./figures///WK2/zdjecia/eksperymentator.jpg, id=2361, 459.6372pt x 258.2448pt>
+<./figures///WK2/zdjecia/eksperymentator.jpg, id=2940, 459.6372pt x 258.2448pt>
 
 File: ./figures///WK2/zdjecia/eksperymentator.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/eksperymentator.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/eksperymentator.jpg  used on i
 nput line 245.
 (pdftex.def)             Requested size: 204.85802pt x 115.09785pt.
-
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 70 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[70 <./figures///WK2/zdjecia/system_pomiarowy.jpg> <./figures///WK2/zdjecia/czu
+[73 <./figures///WK2/zdjecia/system_pomiarowy.jpg> <./figures///WK2/zdjecia/czu
 jnik_3_osie.jpg> <./figures///WK2/zdjecia/pojazd_na.jpg> <./figures///WK2/zdjec
 ia/eksperymentator.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 262.
 
-<./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf, id=2365, 432.7158pt x 171.
+<./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf, id=2945, 432.7158pt x 171.
 48463pt>
 File: ./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf Graphic file (type pdf
 )
@@ -2707,7 +2873,7 @@ Overfull \hbox (5.9234pt too wide) in paragraph at lines 264--264
  [][] 
  []
 
-<./figures//WK2/ident/fig_stab_diagram_filtr.pdf, id=2366, 432.7158pt x 171.484
+<./figures//WK2/ident/fig_stab_diagram_filtr.pdf, id=2946, 432.7158pt x 171.484
 63pt>
 File: ./figures//WK2/ident/fig_stab_diagram_filtr.pdf Graphic file (type pdf)
 <use ./figures//WK2/ident/fig_stab_diagram_filtr.pdf>
@@ -2723,7 +2889,7 @@ Overfull \hbox (5.9234pt too wide) in paragraph at lines 265--267
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 271.
 
-<./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf, id=2367, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf, id=2947, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf Graphic file (typ
 e pdf)
@@ -2731,7 +2897,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pd
 f  used on input line 296.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pdf, id=2369, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pdf, id=2949, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pdf Graphic file (typ
 e pdf)
@@ -2739,7 +2905,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pd
 f  used on input line 296.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf, id=2371, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf, id=2951, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf Graphic fil
 e (type pdf)
@@ -2747,7 +2913,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57
 _20.pdf  used on input line 296.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pdf, id=2372, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pdf, id=2952, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pdf Graphic file (typ
 e pdf)
@@ -2755,7 +2921,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pd
 f  used on input line 302.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf, id=2374, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf, id=2954, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf Graphic file (typ
 e pdf)
@@ -2763,7 +2929,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pd
 f  used on input line 302.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57_54.pdf, id=2376, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57_54.pdf, id=2956, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57_54.pdf Graphic fil
 e (type pdf)
@@ -2771,7 +2937,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57
 _54.pdf  used on input line 302.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf, id=2377, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf, id=2957, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf Graphic file (typ
 e pdf)
@@ -2779,7 +2945,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pd
 f  used on input line 308.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pdf, id=2379, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pdf, id=2959, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pdf Graphic file (typ
 e pdf)
@@ -2787,7 +2953,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pd
 f  used on input line 308.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58_42.pdf, id=2381, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58_42.pdf, id=2961, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58_42.pdf Graphic fil
 e (type pdf)
@@ -2795,7 +2961,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58
 _42.pdf  used on input line 308.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pdf, id=2382, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pdf, id=2962, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pdf Graphic file (typ
 e pdf)
@@ -2803,7 +2969,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pd
 f  used on input line 314.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf, id=2384, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf, id=2964, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf Graphic file (typ
 e pdf)
@@ -2811,7 +2977,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pd
 f  used on input line 314.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_27_time_16_59_26.pdf, id=2386, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_27_time_16_59_26.pdf, id=2966, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_27_time_16_59_26.pdf Graphic fil
 e (type pdf)
@@ -2827,7 +2993,7 @@ Overfull \hbox (55.48067pt too wide) in paragraph at lines 290--317
 
 LaTeX Warning: Float too large for page by 5.33488pt on input line 319.
 
-<./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf, id=2387, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf, id=2967, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf Graphic file (typ
 e pdf)
@@ -2835,7 +3001,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pd
 f  used on input line 330.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pdf, id=2389, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pdf, id=2969, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pdf Graphic file (typ
 e pdf)
@@ -2843,7 +3009,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pd
 f  used on input line 330.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf, id=2391, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf, id=2971, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf Graphic fil
 e (type pdf)
@@ -2851,7 +3017,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00
 _05.pdf  used on input line 330.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pdf, id=2392, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pdf, id=2972, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pdf Graphic file (typ
 e pdf)
@@ -2859,7 +3025,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pd
 f  used on input line 337.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf, id=2394, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf, id=2974, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf Graphic file (typ
 e pdf)
@@ -2867,7 +3033,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pd
 f  used on input line 337.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00_46.pdf, id=2396, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00_46.pdf, id=2976, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00_46.pdf Graphic fil
 e (type pdf)
@@ -2875,7 +3041,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00
 _46.pdf  used on input line 337.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf, id=2397, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf, id=2977, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf Graphic file (typ
 e pdf)
@@ -2883,7 +3049,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pd
 f  used on input line 343.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pdf, id=2399, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pdf, id=2979, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pdf Graphic file (typ
 e pdf)
@@ -2891,7 +3057,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pd
 f  used on input line 343.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01_27.pdf, id=2401, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01_27.pdf, id=2981, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01_27.pdf Graphic fil
 e (type pdf)
@@ -2899,7 +3065,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01
 _27.pdf  used on input line 343.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pdf, id=2402, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pdf, id=2982, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pdf Graphic file (typ
 e pdf)
@@ -2907,7 +3073,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pd
 f  used on input line 349.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf, id=2404, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf, id=2984, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf Graphic file (typ
 e pdf)
@@ -2915,7 +3081,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pd
 f  used on input line 349.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf, id=2406, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf, id=2986, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf Graphic fil
 e (type pdf)
@@ -2931,7 +3097,7 @@ Overfull \hbox (55.48067pt too wide) in paragraph at lines 324--351
 
 LaTeX Warning: Float too large for page by 5.33488pt on input line 353.
 
-<./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf, id=2407, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf, id=2987, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf Graphic file (typ
 e pdf)
@@ -2939,7 +3105,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pd
 f  used on input line 364.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pdf, id=2409, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pdf, id=2989, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pdf Graphic file (typ
 e pdf)
@@ -2947,7 +3113,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pd
 f  used on input line 364.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf, id=2411, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf, id=2991, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf Graphic fil
 e (type pdf)
@@ -2955,7 +3121,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17
 _06.pdf  used on input line 364.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pdf, id=2412, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pdf, id=2992, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pdf Graphic file (typ
 e pdf)
@@ -2963,7 +3129,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pd
 f  used on input line 370.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf, id=2414, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf, id=2994, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf Graphic file (typ
 e pdf)
@@ -2971,7 +3137,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pd
 f  used on input line 370.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_75_time_17_18_33.pdf, id=2416, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_75_time_17_18_33.pdf, id=2996, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_75_time_17_18_33.pdf Graphic fil
 e (type pdf)
@@ -2987,24 +3153,30 @@ Overfull \hbox (55.48067pt too wide) in paragraph at lines 358--375
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 72 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+\OT4/cmr/m/n/12 74 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[72 <./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf> <./figures//WK2/ident/
-fig_stab_diagram_filtr.pdf
+[74] [75 <./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf> <./figures//WK2/i
+dent/fig_stab_diagram_filtr.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/ident/fig_stab_diagram_filtr.
 pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [73 <./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf> <./figures///w
-k2/ident/mods/fig_mod_11_time_20_09_01.pdf> <./figures///wk2/ident/mods/fig_mod
-_23_time_20_09_19.pdf> <./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf
-> <./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf> <./figures///wk2/id
-ent/mods/fig_mod_25_time_20_10_13.pdf> <./figures///wk2/ident/mods/fig_mod_27_t
-ime_20_10_31.pdf> <./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf> <./
-figures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf
+>]
+Overfull \hbox (54.74542pt too wide) has occurred while \output is active
+\OT4/cmr/m/n/12 76 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+ KOLEI METROPOLITALNEJ
+ []
+
+[76 <./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf> <./figures///wk2/
+ident/mods/fig_mod_11_time_20_09_01.pdf> <./figures///wk2/ident/mods/fig_mod_23
+_time_20_09_19.pdf> <./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf> <
+./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf> <./figures///wk2/ident
+/mods/fig_mod_25_time_20_10_13.pdf> <./figures///wk2/ident/mods/fig_mod_27_time
+_20_10_31.pdf> <./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf> <./fig
+ures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_11_
 time_16_57_20.pdf): PDF inclusion: multiple pdfs with page group included in a 
@@ -3024,19 +3196,13 @@ single page
 pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_27_
 time_16_59_26.pdf): PDF inclusion: multiple pdfs with page group included in a 
 single page
->]
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 74 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[74 <./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf> <./figures///wk2/
-ident/mods/fig_mod_33_time_20_11_12.pdf> <./figures///wk2/ident/mods/fig_mod_47
-_time_20_11_28.pdf> <./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf> <
-./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf> <./figures///wk2/ident
-/mods/fig_mod_57_time_20_12_20.pdf> <./figures///wk2/ident/mods/fig_mod_59_time
-_20_12_37.pdf> <./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf> <./fig
-ures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf
+>] [77 <./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf> <./figures///w
+k2/ident/mods/fig_mod_33_time_20_11_12.pdf> <./figures///wk2/ident/mods/fig_mod
+_47_time_20_11_28.pdf> <./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf
+> <./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf> <./figures///wk2/id
+ent/mods/fig_mod_57_time_20_12_20.pdf> <./figures///wk2/ident/mods/fig_mod_59_t
+ime_20_12_37.pdf> <./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf> <./
+figures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_33_
 time_17_00_05.pdf): PDF inclusion: multiple pdfs with page group included in a 
@@ -3057,7 +3223,7 @@ pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_59_
 time_17_02_08.pdf): PDF inclusion: multiple pdfs with page group included in a 
 single page
 >]
-<./figures//WK2/proste_300_decisive_freq.pdf, id=3297, 205.92622pt x 219.34402p
+<./figures//WK2/proste_300_decisive_freq.pdf, id=3876, 205.92622pt x 219.34402p
 t>
 File: ./figures//WK2/proste_300_decisive_freq.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_decisive_freq.pdf>
@@ -3073,26 +3239,26 @@ nput line 394.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//WK2/proste_300_3d_weig.pdf, id=3298, 339.6708pt x 196.74922pt>
+<./figures//WK2/proste_300_3d_weig.pdf, id=3877, 339.6708pt x 196.74922pt>
 File: ./figures//WK2/proste_300_3d_weig.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_3d_weig.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_3d_weig.pdf  used on input l
 ine 401.
 (pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
-<./figures//WK2/proste_300_0_3_3d_arch_weig.pdf, id=3299, 339.6708pt x 196.7492
+<./figures//WK2/proste_300_0_3_3d_arch_weig.pdf, id=3878, 339.6708pt x 196.7492
 2pt>
 File: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf  used o
 n input line 407.
 (pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
-<./figures//WK2/proste_300_3d_freq.pdf, id=3300, 337.78188pt x 196.74922pt>
+<./figures//WK2/proste_300_3d_freq.pdf, id=3879, 337.78188pt x 196.74922pt>
 File: ./figures//WK2/proste_300_3d_freq.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_3d_freq.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_3d_freq.pdf  used on input l
 ine 413.
 (pdftex.def)             Requested size: 426.79134pt x 248.61682pt.
-<./figures//WK2/proste_300_all.pdf, id=3301, 398.99599pt x 221.95659pt>
+<./figures//WK2/proste_300_all.pdf, id=3880, 398.99599pt x 221.95659pt>
 File: ./figures//WK2/proste_300_all.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_all.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_all.pdf  used on input line 
@@ -3111,12 +3277,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (5.47784pt too wide) has occurred while \output is active
-\OT4/cmr/m/sl/12 5.4.  KALIBRACJA MODELU NUMERYCZNEGO Z WYKORZYSTANIEM PSO \OT4
-/cmr/m/n/12 75
+Overfull \hbox (54.74542pt too wide) has occurred while \output is active
+\OT4/cmr/m/n/12 78 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+ KOLEI METROPOLITALNEJ
  []
 
-[75 <./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf> <./figures///wk2/
+[78 <./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf> <./figures///wk2/
 ident/mods/fig_mod_61_time_20_13_32.pdf> <./figures///wk2/ident/mods/fig_mod_75
 _time_20_13_51.pdf> <./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf> <
 ./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf
@@ -3129,37 +3295,31 @@ single page
 pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_75_
 time_17_18_33.pdf): PDF inclusion: multiple pdfs with page group included in a 
 single page
->]
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 76 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[76 <./figures//WK2/proste_300_decisive_freq.pdf> <./figures//WK2/proste_300_3d
-_weig.pdf
+>] [79 <./figures//WK2/proste_300_decisive_freq.pdf> <./figures//WK2/proste_300
+_3d_weig.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_weig.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->] [77 <./figures//WK2/proste_300_0_3_3d_arch_weig.pdf> <./figures//WK2/proste_
-300_3d_freq.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_freq.pdf): PDF 
-inclusion: multiple pdfs with page group included in a single page
 >]
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 78 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+\OT4/cmr/m/n/12 80 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[78 <./figures//WK2/proste_300_all.pdf>]
+[80 <./figures//WK2/proste_300_0_3_3d_arch_weig.pdf> <./figures//WK2/proste_300
+_3d_freq.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_freq.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>] [81 <./figures//WK2/proste_300_all.pdf>]
 Rozdzia\l  6.
-) [79
+) [82
 
 ]
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
 33.
 
-("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/polski\ot4cmtt.fd"
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 Overfull \hbox (5.55869pt too wide) in paragraph at lines 34--34
@@ -3167,7 +3327,7 @@ Overfull \hbox (5.55869pt too wide) in paragraph at lines 34--34
 0The % 20Modal % 20Assurance %
  []
 
-[80
+[83
 
 
 
@@ -3183,20 +3343,20 @@ Overfull \hbox (17.09633pt too wide) in paragraph at lines 34--34
 lement-by-element Ritz-gradient
  []
 
-[81]
+[84]
 Overfull \hbox (32.23328pt too wide) in paragraph at lines 34--34
 [][]\OT4/cmr/m/n/12 Juang, Jer-Nan (1994). \OT4/cmr/m/it/12 Ap-plied sys-tem id
 en-ti-fi-ca-tion\OT4/cmr/m/n/12 . Prentice-Hall, Inc. \OT4/cmr/m/sc/12 isbn\OT4
 /cmr/m/n/12 : 013079211X. 
  []
 
-[82] [83]
+[85] [86]
 Overfull \hbox (1.4319pt too wide) in paragraph at lines 34--34
 [][]\OT4/cmr/m/n/12 Salamak, Ma-rek (2003). ``Do-±wiad-czalne me-tody okre-±la-
 nia po-ziomu t™u-mie-nia drga´
  []
 
-[84] [85] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
+[87] [88] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
 (chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
 
 LaTeX Warning: There were undefined references.
@@ -3211,57 +3371,56 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36537 strings out of 479584
- 883624 string characters out of 2862472
- 1654165 words of memory out of 3000000
- 52935 multiletter control sequences out of 15000+200000
+ 36686 strings out of 479618
+ 890932 string characters out of 2865026
+ 1654132 words of memory out of 3000000
+ 53042 multiletter control sequences out of 15000+200000
  430238 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,24n,107p,2208b,1771s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-s
-uper-ts1.enc}{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl
-/pltt.enc}{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/pl
-sc.enc}{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.
-enc}{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc
-}{C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plms.enc}{C
-:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plme.enc}{C:/U
-sers/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plit.enc}<C:/User
-s/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plbsy10
-.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plbx
-12.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/pl
-bx7.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/p
-lbx8.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/
-plcsc10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-pl/plex10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/pl/plmi10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/pl/plmi12.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/pl/plmi5.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/pl/plmi6.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/pl/plmi7.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/pl/plmi8.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/pl/plmib10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/pl/plr10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/pl/plr12.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/pl/plr17.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/pl/plr5.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/pl/plr6.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/pl/plr7.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/pl/plr8.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/pl/plr9.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/pl/plsl12.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/pl/plss8.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/pl/plsy10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/pl/plsy6.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/pl/plsy7.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/pl/plsy8.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/pl/plti12.pfb><C:/Users/KBP/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/pl/pltt12.pfb><C:/Users/KBP/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/KBP/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on whole_thesis.pdf (85 pages, 30159275 bytes).
+{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
+er-ts1.enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plt
+t.enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plsc.enc
+}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:/
+Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plrm.enc}{C:/Users
+/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plms.enc}{C:/Users/prze
+m/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plme.enc}{C:/Users/przem/App
+Data/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plit.enc}<C:/Users/przem/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/przem/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbsy10.pfb><C:/Users/przem
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Users/przem
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx7.pfb><C:/Users/przem/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx8.pfb><C:/Users/przem/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plcsc10.pfb><C:/Users/przem/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plex10.pfb><C:/Users/przem/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi10.pfb><C:/Users/przem/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi12.pfb><C:/Users/przem/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi5.pfb><C:/Users/przem/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi6.pfb><C:/Users/przem/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi7.pfb><C:/Users/przem/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi8.pfb><C:/Users/przem/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/pl/plmib10.pfb><C:/Users/przem/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/Users/przem/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Users/przem/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/pl/plr17.pfb><C:/Users/przem/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/pl/plr5.pfb><C:/Users/przem/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/pl/plr6.pfb><C:/Users/przem/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/pl/plr7.pfb><C:/Users/przem/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/pl/plr8.pfb><C:/Users/przem/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/pl/plr9.pfb><C:/Users/przem/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/pl/plsl12.pfb><C:/Users/przem/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/pl/plss8.pfb><C:/Users/przem/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/przem/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/pl/plsy6.pfb><C:/Users/przem/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/pl/plsy7.pfb><C:/Users/przem/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/pl/plsy8.pfb><C:/Users/przem/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/pl/plti12.pfb><C:/Users/przem/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/pl/pltt12.pfb><C:/Users/przem/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/przem/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on whole_thesis.pdf (88 pages, 41899231 bytes).
 PDF statistics:
- 3718 PDF objects out of 4296 (max. 8388607)
+ 4297 PDF objects out of 5155 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 773 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 932 words of extra memory for PDF output out of 10000 (max. 10000000)
 

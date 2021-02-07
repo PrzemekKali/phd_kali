@@ -741,13 +741,15 @@ Należy pamiętać, że kryterium MAC nie wskazuje czy rozwiązanie jest poprawn
 
 Ze względu na ograniczenia kryterium MAC, od momentu jego powstania powstał szereg pokrewnych wskaźników. Są to między innymi: Coordinate Modal Assurance Criterion (COMAC) \parencite{Ewins2000}, Enhanced Coordinate Modal Assurance Criterion (ECOMAC) \parencite{Hunt1992} czy Inverse Modal Assurance Criterion (IMAC) \parencite{MITCHELL1998}. Każde z kryteriów zostało zmodyfikowane w celu wyeliminowania konkretnego ograniczenia oryginalnej wersji. Zestawienie i opis wielu z nich przedstawiono miedzy innymi w pracach \parencite{Allemang2003,Rainieri2014,Szafranski2013,Salamak2003} 
 
-Poza diagramem stabilizacyjnym, w niniejszej pracy kryterium MAC zostało również użyte przy doborze lokalizacji czujników w trakcie pomiarów na konstrukcji rzeczywistej. Jest to kolejne z popularnych zastosowań współczynnika MAC \parencite{Allemang2003}. Polega na takim doborze punktów pomiarowych, aby zidentyfikowane w tych punktach postaci drgań były od siebie maksymalnie różne. Opis przyjętego rozwiązania i wyniki obliczeń przedstawiono w wynikach badań w rozdziale (!!!).
+Poza diagramem stabilizacyjnym, w niniejszej pracy kryterium MAC zostało również użyte przy doborze lokalizacji czujników w trakcie pomiarów na konstrukcji rzeczywistej. Jest to kolejne z popularnych zastosowań współczynnika MAC \parencite{Allemang2003}. Polega na takim doborze punktów pomiarowych, aby zidentyfikowane w tych punktach postaci drgań były od siebie maksymalnie różne. Opis przyjętego rozwiązania i wyniki obliczeń przedstawiono w wynikach badań w rozdziale \ref{sect: identyfikacja_modalna_wk2}.
 
 
 
 
 \subsection{Testy numeryczne metody NEXT-ERA}
-Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przypadku aplikacji służącej celom naukowym, gdzie zakłada się pewien poziom wiedzy i świadomości użytkownika zdecydowano, że testom poddane zostanie jedynie jądro programu - algorytm NExT-ERA. W tym celu założono wykonanie dwóch testów: numerycznego i laboratoryjnego. Test numeryczny ma opierać się na wykonaniu modelu obliczeniowego w oprogramowaniu MES, a następnie obciążeniu go losowo (w przybliżeniu szumem białym) i wykonaniu analizy dynamicznej. Test laboratoryjny ma polegać na pomiarze i analizie drgań środowiskowych rzeczywistego obiektu badawczego. Przedmiotem badań była konstrukcja o schemacie statycznym bliskim belce swobodnie podpartej. Model numeryczny wykonano w programie MES bazujac na inwentaryzacji wymiarów obiektu laboratoryjnego (przedstawiony w punkcie \ref{sect: next_era_lab_test}). Test numeryczny wykonano na modelu ramy przestrzennej o zewnętrznym schemacie statycznym bliskim obiektowi laboratoryjnemu. Założono, że głównym aspektem porównawczym z badaniami laboratoryjnymi mają być mody giętne pionowe. Z tego powodu znacznie uproszczono względem rzeczywistości strefy podporowe. Model wykonano w środowisku MES SOFiSTiK z użyciem jednowymiarowych elementów belkowych. Wizualizację oraz schemat statyczny pokazano na rysunku \ref{fig: test_beam_wis_model}.
+Każda aplikacja komputerowa przed użyciem powinna być poddana testom. W przypadku aplikacji służącej celom naukowym, gdzie zakłada się pewien poziom wiedzy i świadomości użytkownika zdecydowano, że testom poddane zostanie jedynie jądro programu - algorytm NExT-ERA. W tym celu założono wykonanie dwóch testów: numerycznego i laboratoryjnego. Test numeryczny ma opierać się na wykonaniu modelu obliczeniowego w oprogramowaniu MES, a następnie obciążeniu go losowo (w przybliżeniu szumem białym) i wykonaniu analizy dynamicznej. Test laboratoryjny ma polegać na pomiarze i analizie drgań środowiskowych rzeczywistego obiektu badawczego. Celem testu nie jest uzyskanie idealnej zgodności pomiędzy wynikami z badania numerycznego i laboratoryjnego, a jedynie sprawdzenie działania programu. Wyniki uzyskane z testu numerycznego są pozbawione wpływu wielu niedokładności, takich jak szumów, nieliniowych warunków brzegowych, nieosiowo ustawionych czujników czy wzajemnego wpływu składowych ortogonalnych na mierzone wartości. Dlatego traktowane są głównie jako test algorytmu. Mogą również służyć jako punkt odniesienia do wyników badań laboratoryjnych. Z kolei badania laboratoryjne pozwolą sprawdzić czy program i system pomiarowy są odporne na rzeczywiście występujące obciążenia procesu identyfikacji.
+
+Przedmiotem badań była konstrukcja o schemacie statycznym bliskim belce swobodnie podpartej. Głównym elementem układu jest kształtownik stalowy o przekroju ceowym C40 i o długości 1.5m. Obiekt został opisany szerzej w punkcie \ref{sect: next_era_lab_test}).  Model numeryczny wykonano w programie MES bazujac na inwentaryzacji wymiarów obiektu laboratoryjnego. Założono, że głównym aspektem porównawczym z badaniami laboratoryjnymi mają być mody giętne pionowe. Z tego powodu znacznie uproszczono względem rzeczywistości strefy podporowe. Nie wykonano żadnej kalibracji modelu, aby odpowiadał lepiej strukturze rzeczywistej. Do budowy wykorzystano środowisku MES SOFiSTiK. Dla odwzorowania całego układu użyto jednowymiarowych elementów belkowych. Wizualizację oraz schemat statyczny pokazano na rysunku \ref{fig: test_beam_wis_model}.
 \begin{figure}[h]
 	\centering
 	\subfloat[Wizualizacja]{\includegraphics[width=0.5\linewidth]{/test_blue/sof_wis/wis_small002.png}}%
@@ -768,7 +770,7 @@ Przed przystąpieniem do analizy wygenerowano 5000 losowych przypadków obciąż
 \end{itemize}
 Rozwiązano problem własny dynamiki przedmiotowego modelu i otrzymano rezultaty jak na rysunku \ref{fig: modal_mods_blue_beam}.
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\subfloat[Mod 1, $f_1=19.70 \text{Hz}$]{\label{fig: test_blue_sof_mod1}%
 		\includegraphics[width=0.33\linewidth]{/test_blue/sof_wis/image_small001.png}}%
@@ -795,13 +797,13 @@ Rozwiązano problem własny dynamiki przedmiotowego modelu i otrzymano rezultaty
 	\label{fig: modal_mods_blue_beam}
 \end{figure}
 
-Odpowiedź konstrukcji na wymuszenie losowe wyznaczono metodą time-step Newmarka-Wilsona. Zdecydowano o sprawdzeniu modów w zakresie do około 250Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 1/2500 s$. Zgodnie z kryterium Nyquista taki krok pozwala identyfikować drgania teoretycznie do częstotliwości 1250 Hz. Niemniej jednak, sygnał wyjściowy powinien zostać nadpróbkowany znacznie bardziej niżeli dwukrotnie. Aby zapewnić dokładność rezultatu, odpowiedź z rozwiązania numerycznego powinna być wyznaczona z próbkowaniem ok 10-15 razy większym niż częstotliwość najwyższego, interesującego modu \parencite{Zotowski2017c}. Większość modów odczytanych z analizy modalnej mieści się w zamierzonym zakresie do 250 Hz. Kilka modów powyżej 250 Hz zostanie również uwzględnione w analizie dla pokazania zmniejszenia dokładności z uwagi na zbyt rzadkie próbkowanie. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Tłumienie konstrukcji przyjęto jako masowo-sztywnościowe według metody Rayleigha (\ref{eq: rayleigh_damping}). Współczynniki metody wyznaczono zakładając tłumienie $\text{LDT}=3\%$ dla częstotliwości 20 Hz i 160 Hz. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT sygnału złożonego z wartości obciążenia czterech węzłów w funkcji czasu. Widma częstotliwościowe przedstawiono na rysunku \ref{fig: fft_load_input_blue_beam}. Całkowity czas analizy przyjęto równy 25s ($25*2500=62500$ kroków czasowych). Widmo częstotliwościowe nie ujawnia żadnej dominującej częstotliwości i można uznać je za równe w całym zakresie.
+Odpowiedź konstrukcji na wymuszenie losowe wyznaczono metodą time-step Newmarka-Wilsona. Zdecydowano o sprawdzeniu modów w zakresie do około 250Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 1/2500 s$. Zgodnie z kryterium Nyquista taki krok pozwala identyfikować drgania teoretycznie do częstotliwości 1250 Hz. Niemniej jednak, sygnał wyjściowy powinien zostać nadpróbkowany znacznie bardziej niżeli dwukrotnie. Aby zapewnić dokładność rezultatu, odpowiedź z rozwiązania numerycznego powinna być wyznaczona z próbkowaniem ok 10-15 razy większym niż częstotliwość najwyższego, interesującego modu \parencite{Zotowski2017c}. Większość modów odczytanych z analizy modalnej mieści się w zamierzonym zakresie do 250 Hz. Kilka modów powyżej 250 Hz zostanie również uwzględnione w analizie dla pokazania zmniejszenia dokładności z uwagi na zbyt rzadkie próbkowanie. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Tłumienie konstrukcji przyjęto jako masowo-sztywnościowe według metody Rayleigha (\ref{eq: rayleigh_damping}). Współczynniki metody wyznaczono zakładając tłumienie $\text{LDT}=3\%$ dla częstotliwości 20 Hz i 160 Hz. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT sygnału złożonego z wartości obciążenia czterech węzłów w funkcji czasu. Widma częstotliwościowe przedstawiono na rysunku \ref{fig: fft_load_input_blue_beam}. Całkowity czas analizy przyjęto równy 25s ($25\cdot2500=62500$ kroków czasowych). Widmo częstotliwościowe nie ujawnia żadnej dominującej częstotliwości i można uznać je za równe w całym zakresie.
 \begin{figure}[h]
 	\centering
 	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue/input_load/input_load_1.pdf}}%
 	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue/input_load/input_load_2.pdf}}\\
-	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue/input_load/input_load_3.pdf}}%
-	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue/input_load/input_load_4.pdf}}%
+	%\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue/input_load/input_load_3.pdf}}%
+	%\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue/input_load/input_load_4.pdf}}%
 	\captionsetup{justification=centering}
 	\caption{Transformaty Fouriera funkcji wymuszenia przykładowych węzłów w modelu testowym}
 	\label{fig: fft_load_input_blue_beam}
@@ -813,7 +815,6 @@ Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach 
 	\centering
 	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pdf}}\\
 	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf},\label{fig: stab_diags_blue_beam_b}}%
-	
 	\captionsetup{justification=centering}
 	\caption{Diagram stabilizacyjny metody NExT-ERA testowego modelu numerycznego: (a) diagram niefiltrowany, (b) diagram filtrowany}
 	\label{fig: stab_diags_blue_beam}
@@ -823,10 +824,10 @@ Wprowadzono wyznaczone parametry do programu. Uzyskano odpowiedzi impulsowe dla 
 
 \begin{figure}[H]
 	\centering
-	\subfloat[Węzeł 7, kierunek Y]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf}}%
-	\subfloat[Węzeł 7, kierunek Z]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf}}\\
-	\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf}}%
-	\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf}}%
+	\subfloat[Węzeł 7, kierunek Y]{\includegraphics[width=0.5 \linewidth]{/test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf}}%
+	\subfloat[Węzeł 7, kierunek Z]{\includegraphics[width=0.5 \linewidth]{/test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf}}\\
+	\subfloat[Węzeł 11, kierunek Y]{\includegraphics[width=0.5 \linewidth]{/test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf}}%
+	\subfloat[Węzeł 11, kierunek Z]{\includegraphics[width=0.5 \linewidth]{/test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf}}%
 	\captionsetup{justification=centering}
 	\caption{Przykłady otrzymanych funkcji cross-korelacji w dziedzinie częstotliwości i dziedzinie czasu}
 	\label{fig: cross_corr_blue_beam}
@@ -903,7 +904,25 @@ Funkcje posiadają wyraźnie gasnący, okresowy charakter. Na odpowiadających i
 
 
 \subsection{Testy eksperymentalne metody NEXT-ERA} \label{sect: next_era_lab_test}
-W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. !!!). Belka została przymocowana do podłoża aby uniemożliwić przemieszczenie się podpór i przesuwanie belki jako bryły sztywnej. System pomiarowy składał się z wzmacniacza pomiarowego PMX firmy HBM (Hottinger Baldwin Messtechnik GmbH, Darmstadt, Germany), kabli i niskoszumnych, piezorezystywnych czujników akcelerometrycznych firmy TE CONNECTIVITY. Do obsługi wzmacniacza i akwizycji danych użyto program HBM Catman Easy. Czujniki przymocowano magnetycznie do belki. Zastosowano dwa czujniki 3 osiowe, ale rejestrowano jedynie przyspieszenia pionowe i poprzeczne. Zakres pomiarowy akcelerometrów wynosi $\pm 2 \text{g}$, a gwarantowane szumy są określone jako mniejsze niż $25\mu \text{g RMS}$.
+W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. \ref{fig: blue_beam_lab_photo}). Belka została usytuowana na stabilnym podłożu. Aby ograniczyć możliwość przesuwu elementów podparcia w trakcie oddziaływania, punkty podparcia zostały dociążone ciężkimi stalowymi elementami. System pomiarowy składał się z wzmacniacza pomiarowego PMX firmy HBM (Hottinger Baldwin Messtechnik GmbH, Darmstadt, Germany), kabli i niskoszumnych, piezorezystywnych czujników akcelerometrycznych firmy TE CONNECTIVITY. Do obsługi wzmacniacza i akwizycji danych użyto program HBM Catman Easy. Czujniki przymocowano magnetycznie do belki. Zastosowano dwa czujniki 3-osiowe (traktowane jako 2-osiowe) i jeden 1-osiowy. Zakres pomiarowy akcelerometrów wynosi $\pm 2 \text{g}$, a gwarantowane szumy są określone jako mniejsze niż $25\mu \text{g RMS}$. Stanowisko pomiarowe zostało zaprezentowane na rysunku \ref{fig: blue_beam_lab_photo_a}, a szczegóły konstrukcyjne belki i jej podparcia na rysunku \ref{fig: blue_beam_lab_photo_b}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07487.jpg}
+	\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07477_1.jpg}
+	\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07502.jpg}
+	\captionsetup{justification=centering}
+	\caption{Szczegóły konstrukcyjne belki testowej}
+	\label{fig: blue_beam_lab_photo_b}
+\end{figure}
+\begin{figure}[h]
+\centering	
+	\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07486.jpg}
+	\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07500.jpg}
+	\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07475.jpg}
+	\captionsetup{justification=centering}
+	\caption{Elementy aparatury pomiarowej}
+	\label{fig: blue_beam_lab_photo_a}
+\end{figure}
 
 
 
@@ -928,33 +947,13 @@ Wyznaczono również stosunek poziomu sygnału do szumu posługując się wzorem
 gdzie $\sigma_s$ oznacza wartość RMS sygnału zmierzonego, a $\sigma_n$ jest wartością RMS szumu tła. Według zaleceń ANSI S2.47 wartość ta nie powinna być mniejsza niż 10 dB. \cite{Brincker2015} zalecają by w przypadku OMA stosunek sygnału do szumu nie był mniejszy niż 30-40 dB.
 
 \subsubsection{Przebieg badań}
-Przeprowadzono analizę sygnałów NExT-ERA podobnie jak miało to miejsce dla modelu numerycznego. Zastosowano dwa czujniki referencyjne. Jeden, mierzący pionowe i poprzeczne przyspieszenia w ciągu całych badań znajdował się w odległości 0.4L od podpory. Drugi, mierzący jedynie przyspieszenia poziome znajdował się w odległości 0.3L od podpory. Zwiększenie liczby czujników referencyjnych pozwala uniknąć sytuacji, gdzie jedyny czujnik referencyjny będzie znajdował się w węźle jakiegoś modu, co nie pozwoli go później zidentyfikować. W takiej sytuacji drugi czujnik może w innym wariancie identyfikacji posłużyć jako referencyjny, a wyniki z obu wariantów można spalić. Trzeci, ruchomy czujnik był przestawiany 10 razy tak, że ostatecznie zmierzono przyspieszenia w obu kierunkach w 11 punktach odpowiadających węzłom modelu numerycznego oraz punktom podporowym. Stanowisko pomiarowe zostało zaprezentowane na rysunku \ref{fig: blue_beam_lab_photo_a}, a szczegóły konstrukcyjne i podparcia na rysunku \ref{fig: blue_beam_lab_photo_b}. 
-\begin{figure}[h]
-	\centering
-		\begin{tabular}[c]{c}
-		\subfloat[Elementy aparatury pomiarowej]{\label{fig: blue_beam_lab_photo_a}%
-			\begin{tabular}[b]{c c c}
-			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07486.jpg}
-			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07500.jpg}
-			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07475.jpg}
-		\end{tabular}}\\
-			\subfloat[Szczegóły konstrukcyjne belki testowej]{\label{fig: blue_beam_lab_photo_b}%
-		\begin{tabular}[b]{c c c}
-			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07487.jpg}
-			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07477_1.jpg}
-			\includegraphics[width=0.3\textwidth]{/test_blue/lab_photo/DSC07502.jpg}
-	\end{tabular}}\\
+Przeprowadzono analizę sygnałów NExT-ERA podobnie jak miało to miejsce dla modelu numerycznego. Zastosowano dwa czujniki referencyjne. Jeden, mierzący pionowe i poprzeczne przyspieszenia w ciągu całych badań znajdował się w odległości 0.4L od podpory. Drugi, mierzący jedynie przyspieszenia poziome znajdował się w odległości 0.3L od podpory. Zwiększenie liczby czujników referencyjnych pozwala uniknąć sytuacji, gdzie jedyny czujnik referencyjny będzie znajdował się w węźle jakiegoś modu, co nie pozwoli go później zidentyfikować \parencite{Caicedo2011}. W takiej sytuacji drugi czujnik może w innym wariancie identyfikacji posłużyć jako referencyjny, a wyniki z obu wariantów należy scalić. Trzeci, ruchomy czujnik był przestawiany 10 razy tak, że ostatecznie zmierzono przyspieszenia na obu kierunkach w 11 punktach odpowiadających węzłom modelu numerycznego oraz punktom podporowym. . 
 
-	\end{tabular}
-	\captionsetup{justification=centering}
-	\caption{Szczegóły konstrukcyjne w obrębie połączenia łuku ze ściągiem}
-	\label{fig: blue_beam_lab_photo}
-\end{figure}
 
-Pomiary odbywały się w pomieszczeniu, w godzinach wieczornych. Z tego powodu amplitudy przyspieszeń wywołane oddziaływaniem otoczenia były znikome. Dla zastosowanego układu pomiarowego zmierzony w laboratorium szum charakteryzuje się wartością RMS $\sigma_n=0.00138$. Sygnał nie zmieniał swojej mocy niezależnie od tego czy czujnik był umieszczony na obiekcie czy na stabilnym podłożu. Z tego względu w badaniach zastosowano sztuczne wymuszenie. \cite{Brincker} w przypadku badań laboratoryjnych zalecają szuranie lub gładzenie obiektu. W badaniach szurano po strukturze zgniecionym papierem pakowym. Wiotka struktura elementu wymuszającego nie powinna wpłynąć na dodatkowe tłumienie drgań. RMS jednominutowego sygnału pomierzonego ze sztucznym wymuszeniem wyniósł $\sigma_n=0.0539$. Dla takich rezultatów obliczony wg formuły (\ref{eq: oma_dynamic_range}) stosunek sygnału do szumu jest równy $SN = 20\log{\frac{0.0539}{0.0014}}=31.84\text{dB}$. Wyznaczona wartość jest większa niż zalecana.
+Pomiary odbywały się w pomieszczeniu, w godzinach wieczornych. Z tego powodu amplitudy przyspieszeń wywołane oddziaływaniem otoczenia były znikome. Dla zastosowanego układu pomiarowego zmierzony w laboratorium szum charakteryzuje się wartością RMS $\sigma_n=0.00138\,  \text{m}/\text{s}^2$. Sygnał nie zmieniał swojej mocy niezależnie od tego czy czujnik był umieszczony na obiekcie czy na stabilnym podłożu. Z tego względu w badaniach zastosowano sztuczne wymuszenie. \cite{Brincker2015} w przypadku badań laboratoryjnych zalecają szuranie lub gładzenie obiektu. W badaniach szurano po strukturze zgniecionym papierem pakowym. Wiotka struktura elementu wymuszającego nie powinna wpłynąć na dodatkowe tłumienie drgań. RMS jednominutowego sygnału pomierzonego ze sztucznym wymuszeniem wyniósł $\sigma_n=0.0539\,  \text{m}/\text{s}^2$. Dla takich rezultatów obliczony wg formuły (\ref{eq: oma_dynamic_range}) stosunek sygnału do szumu jest równy $SN = 20\log{\frac{0.0539}{0.0014}}=31.84\,\text{dB}$. Wyznaczona wartość jest większa niż zalecana.
 
 \subsubsection{Rezultaty badań}
-Diagramy stabilizacyjny metody NExT-ERA pokazano na rysunku \ref{fig: stab_diags_lab_blue_beam}. Zidentyfikowano 4 stabilne mody. Zidentyfikowane częstotliwości i postaci drgań zamieszczono na rysunku (!!!). Rezultaty porównano również z obliczeniami numerycznymi w tabeli \ref{tab: blue_beam_comparison}. 
+Diagramy stabilizacyjny metody NExT-ERA pokazano na rysunku \ref{fig: stab_diags_lab_blue_beam}. Zidentyfikowano 4 stabilne mody. Zidentyfikowane częstotliwości i postaci drgań zamieszczono na rysunku \ref{fig: blue_beam_research_mods}. Rezultaty porównano również z obliczeniami numerycznymi w tabeli \ref{tab: blue_beam_comparison}. 
 \begin{figure}[h]
 	\centering
 	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag_lab/fig_stab_diagram_nonfiltr_time_17_49_58.pdf}}\\
@@ -997,7 +996,7 @@ Diagramy stabilizacyjny metody NExT-ERA pokazano na rysunku \ref{fig: stab_diags
 	\label{fig: blue_beam_research_mods}
 \end{figure}
 
-Analizując postaci drgań można zauważyć, że zidentyfikowano poprawnie 3 giętne pionowe postaci drgań. Pomimo bardzo dobrej zgodności ich tłumienie jest jednak znacząco większe niż zakładane LDT$=3\%$ w modelu numerycznym. Z uwagi na dużą wartość tłumienia dokonano prostej weryfikacji. Na rysunku \ref{fig: blue_beam_natural_vib} pokazano przyspieszenia pionowe środkowego punktu belki, drgającego swobodnie po wymuszeniu siłą impulsową. 
+Analizując rezultaty można zauważyć, że zidentyfikowano poprawnie 3 giętne pionowe postaci drgań. Pomimo bardzo dobrej zgodności częstotliwości i formy drgań ich tłumienie jest jednak znacząco większe niż zakładane LDT$=3\%$ w modelu numerycznym. Z uwagi na dużą wartość tłumienia dokonano prostej weryfikacji. Na rysunku \ref{fig: blue_beam_natural_vib} pokazano przyspieszenia pionowe środkowego punktu belki, drgającego swobodnie po wymuszeniu siłą impulsową. 
 Sygnał odfiltrowano do 25Hz uzyskując drgania w pierwszej postaci. Odczytano wartości kolejnych amplitud o numerach 1, 10 i 20. Dla obu przedziałów 1-10 i 10-20 wyznaczono logarytmiczny dekrement tłumienia: $\textrm{LDT}_{1-10} = \frac{1}{10-1} \ln{\frac{3.156}{1.378}}=0.092 \quad
 \textrm{LDT}_{10-20}=\frac{1}{20-10}\ln{\frac{1.378}{0.544}}=0.093$. Wyznaczone tłumienia są zbliżone do wartości wynikającej z analizy NExT-ERA.
 
@@ -1011,15 +1010,15 @@ Sygnał odfiltrowano do 25Hz uzyskując drgania w pierwszej postaci. Odczytano w
 \end{figure}
 
 
- Jedyna giętna postać poprzeczna nie odpowiada strukturalnie żadnej z wyznaczonych w analizach numerycznych. Mimo to sklasyfikowano ją jako mod 2 w tabeli \ref{tab: blue_beam_comparison}. Charakteryzuje się ona ruchem wszystkich punków pomiarowych, w jednym kierunku i o zbliżonej amplitudzie. Dotyczy to także punków nad miejscami podparcia. Mimo to mod został zidentyfikowany jako stabilny i charakteryzuje się bardzo wysokim tłumieniem (LDT$=0.44$). Istnieje kilka elementów, które mogły wpłynąć na brak poprawnej identyfikacji modów giętnych, poziomych belki. Głównym jest różniąca się struktura fragmentów podporowych. Podpora belki laboratoryjnej była złożona z połączenia śrubowego i nie była solidnie przymocowana do podłoża. W modelu numerycznym w tym miejscu ustalono sztywne więzy w układzie belki swobodnie podpartej. Postać i wysokie tłumienie moda nr 2 może świadczyć, że belka wahała się na boki w całości i nie udało się wymusić drgań poprzecznych o bardzo wysokich częstotliwościach.
+ Jedyna giętna postać poprzeczna nie odpowiada strukturalnie żadnej z wyznaczonych w analizach numerycznych. Mimo to sklasyfikowano ją jako mod 2 w tabeli \ref{tab: blue_beam_comparison}. Charakteryzuje się ona ruchem wszystkich punków pomiarowych, w jednym kierunku i o zbliżonej amplitudzie. Dotyczy to także punków nad miejscami podparcia. Mimo to mod został zidentyfikowany jako stabilny i charakteryzuje się bardzo wysokim tłumieniem (LDT$=0.44$). Istnieje kilka elementów, które mogły wpłynąć na brak spodziewanej identyfikacji poziomych modów giętnych belki. Głównym jest różniąca się struktura fragmentów podporowych. Podpora belki laboratoryjnej była złożona z połączenia śrubowego i nie była sztywno przymocowana do podłoża. W modelu numerycznym w tym miejscu ustalono sztywne więzy w układzie belki swobodnie podpartej. Postać i wysokie tłumienie moda nr 2 może świadczyć, że belka wahała się na boki w całości i nie udało się wymusić drgań poprzecznych o bardzo wysokich częstotliwościach.
 
 \section{Podsumowanie testów metody NExT-ERA}
-Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w tabeli \ref{tab: blue_beam_comparison}. Obserwując uzyskane z analizy modalnej postaci można zauważyć, że Mod 7 i Mod 10 mają charakter skrętny. Posługując się modelem belkowym i odczytując przyspieszenia węzłów na kierunku $Y$ i $Z$ nie ma możliwości zaobserwować tych postaci. Przeprowadzona identyfikacja potwierdza ten fakt, nie wskazując tych modów jako stabilnych rozwiązań. Z tego względu w tabeli zbiorczej zostały one oznaczone jako brakujące.
+Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w tabeli \ref{tab: blue_beam_comparison}. 
 
+Częstotliwości wynikające z analizy modalnej i zidentyfikowane z odpowiedzi modelu numerycznego charakteryzują się bardzo dobrą zgodnością. Dla niskich częstotliwości różnice nie są większe niż 1\%. Wraz ze wzrostem częstotliwości wzrastają również różnice do maksymalnie 8\%. Jest to prawdopodobnie spowodowane zbyt niską częstotliwością próbkowania (zbyt dużym krokiem czasowym) dla modów o wysokich częstotliwościach. W takim przypadku różnica nie wynika z błędów identyfikacji tylko z błędów w wyznaczeniu odpowiedzi dynamicznej konstrukcji. Obserwując postaci uzyskane z analizy modalnej można zauważyć, że Mod 7 i Mod 10 mają charakter skrętny. Posługując się modelem belkowym i odczytując przyspieszenia węzłów wyłącznie na kierunku $Y$ i $Z$ nie ma możliwości zaobserwować tych postaci. Przeprowadzona identyfikacja potwierdza ten fakt, nie wskazując tych modów jako stabilnych rozwiązań. Z tego względu w tabeli zbiorczej zostały one oznaczone myślnikiem jako brakujące. Zidentyfikowane tłumienia różnią się do maksymalnie do 23\% od zakładanych wartości wynikających z formuł teoretycznych. Uzyskanie dobrej zgodności zidentyfikowanego tłumienia jest z reguły bardziej problematyczne niż ma to miejsce w przypadku częstotliwości. W przedmiotowym przypadku większość tłumień zidentyfikowanych nie różni się o więcej niż 10\% od wartości teoretycznych.
 
-
-
-
+W badaniach laboratoryjnych zidentyfikowano 4 stabilne mody. Model numeryczny pomimo dobrego odwzorowania wymiarów geometrycznych konstrukcji nie był kalibrowany względem obiektu rzeczywistego. Niemniej, pomimo braku kalibracji modelu numerycznego, częstotliwości modów pionowych są bardzo bliskie wartościom z analizy modalnej. Maksymalna różnica wynosi 4\%. Tłumienia modów pionowych są zdecydowanie większe niż zakładane teoretycznie. Ich porównanie jest podane orientacyjnie i nie ma daje podstaw do wyciągnięcia wniosków na temat identyfikacji. Dla sprawdzenia efektu identyfikacji tłumienia w warunkach rzeczywistych porównano Logarytmiczny Dekrement Tłumienia odpowiedzi swobodnej układu ze zidentyfikowanym tłumieniem pierwszego modu (Rys. \ref{fig: blue_beam_natural_vib}). Stosunek obu wartości wynosi $\text{LDT}_{\text{ident}}/\text{LDT} = 0.097/0.093=1.04$. Zawarty w tabeli mod 2 nie ma odpowiednika w analizach teoretycznych co uzasadniono w punkcie \ref{sect: next_era_lab_test} i jego wystąpienie uznano za efekt niedoskonałego eksperymentu. Warto zaznaczyć, że mod 1 i mod 2 są bliskie pod względem częstotliwości przy zastosowanym spektrum całkowitym, a ich identyfikacja i rozróżnienie nie sprawiło problemu.
+Podsumowując, na podstawie przytoczonych testów uznano zaimplementowany algorytm jako skuteczny i przystąpiono do badań właściwych. Identyfikacja modalna rzeczywistego obiektu mostowego została opisana w punkcie \ref{sect: identyfikacja_modalna_wk2}.
 
 %\resizebox{\textwidth}{!}{%
 % Please add the following required packages to your document preamble:
@@ -1045,40 +1044,3 @@ Zidentyfikowane częstotliwości drgań własnych oraz tłumienia zestawiono w t
 		\textbf{Mod 10}       & 451.89                                                             & 0.0765                                                                 & -                 & -                 & -                & -                 & -                 & -                 & -                & -                 \\ \bottomrule
 	\end{tabular}}
 \end{table}
-
-
-Parametry metody NeXT-ERA: \parencite{caicedo_practical_2011}
-1)	Długość okna użytego przy transformacie Fouriera
-2)	Wybór kanału referencyjnego
-3)	Wielkość macierzy Hankela – alfa i beta
-4)	Liczba biegunów do identyfikacji
-5)	Długość i częstotliwość próbkowania sygnału wejściowego
-
-Wykres dwóch pierwszych momentów sygnału – średniej i odchylenie standardowe. Wskazówka do określenia stacjonarności – jeśli wartości są prawie stałe. \parencite{caicedo_practical_2011,bendat_random_2011}
-
-
-Wybór sygnałów: parametry częstotliwość próbkowania, noise-to-signal ratio i stacjonarność
-
-
-Blisko położone piki – zmniejszenie częstotliwości próbkowania \parencite{caicedo_practical_2011}
-
-
-Częstotliwość próbkowania – obniżenie – wartość ok 2 razy większa niż interesujące częstotliwości \parencite{caicedo_practical_2011}
-
-
-Liczba punktów funkcji kros korelacji jest równa liczbie punktów użytych w FFT, a częstotliwość próbkowania jest równa częstotliwości użytych sygnałów \parencite{caicedo_practical_2011}
-
-MAC kryterium doboru punktów pomiarowych dla testów dynamicznych 
-
-
-Metoda Welcha \parencite{welch_use_1967}
-
-
-Oś pionowa oznaczona jako $g^2$ \parencite{caicedo_practical_2011}
-
-Alfa i beta – numer column 4x liczba modów (2x liczba biegunów). Numer wierszy – numer punktów w cross spectral density? \parencite{caicedo_practical_2011}. Ostatecznie chodzi o to by uwzględnić tyle danych z CCF żeby nie ująć ani za dużo ani za mało.
-
-
-Algorytm filtrowanego diagramu stabilizacyjnego  \parencite{caicedo_practical_2011}
-
-Parametry alfa i beta \parencite{brownjohn_ambient_2010,caicedo_practical_2011,hollkamp_modal_2001,nayeri_study_2009,siringoringo_system_2008,szafranski_oddzialywania_2013}  przyjmować tak żeby alfa zawierała ok dwukrotność liczby biegunów (4x liczba modów) a parametr beta swoim zakresem obejmował odpowiednią liczbę sygnałów)

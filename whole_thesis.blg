@@ -1,28 +1,20 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'whole_thesis.blg'
-[147] biber-MSWIN64:340> INFO - === 
-[194] Biber.pm:415> INFO - Reading 'whole_thesis.bcf'
-[373] Biber.pm:952> INFO - Found 87 citekeys in bib section 0
-[402] Biber.pm:4340> INFO - Processing section 0
-[418] Biber.pm:4531> INFO - Looking for bibtex format file '2020_08_19_My_Collection.bib' for section 0
-[539] bibtex.pm:1689> INFO - LaTeX decoding ...
-[1692] bibtex.pm:1494> INFO - Found BibTeX data source '2020_08_19_My_Collection.bib'
-[1879] Utils.pm:395> WARN - legacy month field 'feb' in entry 'Fryba1999' is not an integer - this will probably not sort properly.
-[1925] Utils.pm:395> WARN - ISBN '0277-786X' in entry 'Giorcelli1994' is invalid - run biber with '--validate_datamodel' for details.
-[2054] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Kennedy1995' is not an integer - this will probably not sort properly.
-[2100] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Schutter2000' is not an integer - this will probably not sort properly.
-[2170] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Brownjohn2010' is not an integer - this will probably not sort properly.
-[2781] Utils.pm:395> WARN - I didn't find a database entry for 'caicedo_practical_2011' (section 0)
-[2782] Utils.pm:395> WARN - I didn't find a database entry for 'bendat_random_2011' (section 0)
-[2782] Utils.pm:395> WARN - I didn't find a database entry for 'welch_use_1967' (section 0)
-[2782] Utils.pm:395> WARN - I didn't find a database entry for 'brownjohn_ambient_2010' (section 0)
-[2782] Utils.pm:395> WARN - I didn't find a database entry for 'hollkamp_modal_2001' (section 0)
-[2782] Utils.pm:395> WARN - I didn't find a database entry for 'nayeri_study_2009' (section 0)
-[2782] Utils.pm:395> WARN - I didn't find a database entry for 'siringoringo_system_2008' (section 0)
-[2782] Utils.pm:395> WARN - I didn't find a database entry for 'szafranski_oddzialywania_2013' (section 0)
-[2932] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2932] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2932] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[3036] bbl.pm:654> INFO - Writing 'whole_thesis.bbl' with encoding 'UTF-8'
-[3096] bbl.pm:757> INFO - Output to whole_thesis.bbl
-[3102] Biber.pm:128> INFO - WARNINGS: 13
+[129] biber-MSWIN64:340> INFO - === 
+[176] Biber.pm:415> INFO - Reading 'whole_thesis.bcf'
+[328] Biber.pm:952> INFO - Found 81 citekeys in bib section 0
+[346] Biber.pm:4340> INFO - Processing section 0
+[360] Biber.pm:4531> INFO - Looking for bibtex format file '2020_08_19_My_Collection.bib' for section 0
+[479] bibtex.pm:1689> INFO - LaTeX decoding ...
+[1524] bibtex.pm:1494> INFO - Found BibTeX data source '2020_08_19_My_Collection.bib'
+[1713] Utils.pm:395> WARN - legacy month field 'feb' in entry 'Fryba1999' is not an integer - this will probably not sort properly.
+[1766] Utils.pm:395> WARN - ISBN '0277-786X' in entry 'Giorcelli1994' is invalid - run biber with '--validate_datamodel' for details.
+[1856] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Kennedy1995' is not an integer - this will probably not sort properly.
+[1881] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Schutter2000' is not an integer - this will probably not sort properly.
+[1921] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Brownjohn2010' is not an integer - this will probably not sort properly.
+[2116] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2116] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2117] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[2217] bbl.pm:654> INFO - Writing 'whole_thesis.bbl' with encoding 'UTF-8'
+[2274] bbl.pm:757> INFO - Output to whole_thesis.bbl
+[2279] Biber.pm:128> INFO - WARNINGS: 5

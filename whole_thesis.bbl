@@ -2778,6 +2778,78 @@
       \endverb
       \keyw{Koleje -- pojazdy szynowe -- dynamika -- modele ma,Mosty kolejowe}
     \endentry
+    \entry{Szymczak1995}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7ce334217aecc9d8e42a23a191b6a886}{%
+           family={Szymczak},
+           familyi={S\bibinitperiod},
+           given={Czes{ł}aw},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Gdańsk}%
+      }
+      \list{publisher}{1}{%
+        {Politechnika Gdańska}%
+      }
+      \strng{namehash}{7ce334217aecc9d8e42a23a191b6a886}
+      \strng{fullhash}{7ce334217aecc9d8e42a23a191b6a886}
+      \strng{bibnamehash}{7ce334217aecc9d8e42a23a191b6a886}
+      \strng{authorbibnamehash}{7ce334217aecc9d8e42a23a191b6a886}
+      \strng{authornamehash}{7ce334217aecc9d8e42a23a191b6a886}
+      \strng{authorfullhash}{7ce334217aecc9d8e42a23a191b6a886}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Elementy teorii projektowania}}
+      \field{year}{1995}
+      \field{pages}{231}
+      \range{pages}{1}
+    \endentry
+    \entry{Tesch2016}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=801873d0e091b8c97f8940c9ff053f08}{%
+           family={Tesch},
+           familyi={T\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Gdansk University of Technology Publishers}%
+      }
+      \strng{namehash}{801873d0e091b8c97f8940c9ff053f08}
+      \strng{fullhash}{801873d0e091b8c97f8940c9ff053f08}
+      \strng{bibnamehash}{801873d0e091b8c97f8940c9ff053f08}
+      \strng{authorbibnamehash}{801873d0e091b8c97f8940c9ff053f08}
+      \strng{authornamehash}{801873d0e091b8c97f8940c9ff053f08}
+      \strng{authorfullhash}{801873d0e091b8c97f8940c9ff053f08}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-83-7348-680-5}
+      \field{title}{{Continuous optimisation algorithms}}
+      \field{year}{2016}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop//2016_Tesch_Continuous optimisation algorithms.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/226/Tesch - Continuous optimisation algorithms.pdf http://www.pg.edu.pl/wydawnictwo/katalogordersshouldbesenttowydaw@pg.gda.pl
+      \endverb
+      \verb{url}
+      \verb http://files/226/Tesch%20-%20Continuous%20optimisation%20algorithms.pdf%20http://www.pg.edu.pl/wydawnictwo/katalogordersshouldbesenttowydaw@pg.gda.pl
+      \endverb
+    \endentry
     \entry{Udwadia1994}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=64a7c9b4287955e0ec03176053a6e1da}{%
@@ -2846,6 +2918,9 @@
       \field{labeltitlesource}{title}
       \field{title}{{Subspace Identification for Linear Systems: Theory, Implementation, Applications}}
       \field{year}{1996}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1996_Van Overschee, De Moor_Subspace Identification for Linear Systems Theory, Implementation, Applications.pdf:pdf
+      \endverb
       \keyw{Kalman filter,QRD,SISTA,SVD,numerical algebra,software development,state space methods,stochastic realization theory,stochastic systems,subspace system identification,system identification,time domain identification,time series analysis}
     \endentry
     \entry{Verboven2005}{article}{}
@@ -3277,14 +3352,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{bendat_random_2011}
-  \missing{brownjohn_ambient_2010}
-  \missing{caicedo_practical_2011}
-  \missing{hollkamp_modal_2001}
-  \missing{nayeri_study_2009}
-  \missing{siringoringo_system_2008}
-  \missing{szafranski_oddzialywania_2013}
-  \missing{welch_use_1967}
 \endrefsection
 \endinput
 

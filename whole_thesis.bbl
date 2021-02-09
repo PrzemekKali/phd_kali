@@ -1037,6 +1037,39 @@
       \field{pages}{676}
       \range{pages}{1}
     \endentry
+    \entry{Goldberg1995}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eac9168b2414a78a30ea634b88ed7995}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima Edward},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \list{publisher}{1}{%
+        {Wydawnictwa Naukowo-Techniczne}%
+      }
+      \strng{namehash}{eac9168b2414a78a30ea634b88ed7995}
+      \strng{fullhash}{eac9168b2414a78a30ea634b88ed7995}
+      \strng{bibnamehash}{eac9168b2414a78a30ea634b88ed7995}
+      \strng{authorbibnamehash}{eac9168b2414a78a30ea634b88ed7995}
+      \strng{authornamehash}{eac9168b2414a78a30ea634b88ed7995}
+      \strng{authorfullhash}{eac9168b2414a78a30ea634b88ed7995}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{8320418526}
+      \field{title}{{Algorytmy genetyczne i ich zastosowania}}
+      \field{year}{1995}
+      \field{pages}{408}
+      \range{pages}{1}
+    \endentry
     \entry{Golub2013}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8b856da92ad549d323acc679ecf7f474}{%

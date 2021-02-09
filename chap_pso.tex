@@ -1,6 +1,6 @@
 \chapter{Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}
 \section*{Wprowadzenie}
-Znalezienie najlepszej możliwej konfiguracji elementów konstrukcyjnych, zapewniającej poprawnie przeniesienie obciążeń statycznych, zapewniającej komfort dynamiczny i najlepiej możliwie taniej jest zadaniem, które na co dzień towarzyszy projektantom mostów. Takie zadanie może kojarzyć się intuicyjnie z pojęciem optymalizacji, czyli wyborem najlepszego z wielu rozwiązań, pozwalającego osiągnąć cel lub cele. \cite{Szymczak1995} określa następuje elementy, jakie powinno zawierać poprawnie sformułowane zadanie optymalizacji projektu
+Znalezienie najlepszej możliwej konfiguracji elementów konstrukcyjnych, zapewniającej poprawnie przeniesienie obciążeń statycznych, zapewniającej komfort dynamiczny i najlepiej możliwie taniej jest zadaniem, które na co dzień towarzyszy projektantom mostów. Takie zadanie może kojarzyć się intuicyjnie z pojęciem optymalizacji, czyli wyborem najlepszego z wielu rozwiązań, pozwalającego osiągnąć cel lub cele. \cite{Szymczak1995} określa następuje elementy, jakie powinno zawierać poprawnie sformułowane zadanie optymalizacji
 \begin{itemize}[noitemsep]
 	\item kryteria optymalizacji - miarę spełnienia danego celu,
 	\item parametry optymalizacji - parametry systemu, które są stałe lub niezależne od projektanta, 
@@ -18,33 +18,57 @@ W przypadku konstrukcji, parametry projektowe to założone wartości opisujące
 Z reguły wartości zmiennych projektowych muszą spełniać szereg obostrzeń. Wynikają one ponownie ze względów technologicznych, normowych lub innych uznanych za istotne przez projektanta. Z tego powodu, na zmienne projektowe $\vect{x}$ narzucone są ograniczenia. Wektor, który spełnia wszystkie ograniczenia nazywany jest dopuszczalnym. W analizie konstrukcji budowlanych ograniczeniami mogą być wymogi wytrzymałościowe, eksploatacyjne - zarówno statyczne jak i dynamiczne - czy też warunki stateczności. 
 
 Wszystkie powyższe elementy definiują problem optymalizacji. Każdy z nich może przyjmować różne postaci co będzie miało znaczący wpływ przede wszystkim na wybór metody rozwiązania problemu. \cite{Tesch2016} zaproponował następującą klasyfikację problemów optymalizacji zależnie od rodzajów elementów je definiujących:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Liczba funkcji celu
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 		\item pojedyncza funkcja celu,
 		\item wiele funkcji celu.
 	\end{itemize}
 	\item Liczba ekstremów lokalnych
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 		\item funkcja unimodalna - funkcja unimodalna jest ciągła i posiada jedno ekstremum w rozpatrywanym przedziale,
 		\item funkcja multimodalna - problem posiada więcej niż jedno ektremum lokalne w rozpatrywanym zakresie,
 	\end{itemize}
 	\item Liniowość funkcji celu
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 		\item problem programowania liniowego - funkcja celu i ograniczenia są liniowe,
 		\item problem programowania nieliniowego - funkcja celu lub ograniczenia nie są liniowe,
 	\end{itemize}
 	\item Rodzaj zmiennych projektowych
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 		\item ciągłe - zmienne projektowe są liczbami rzeczywistymi w zadanym przedziale,
 		\item dyskretne - zmienne projektowe są liczbami całkowitymi w zadanym przedziale,
 		\item mieszane - w problemie występują zarówno zmienne ciągłych jak i dyskretnych ,
 	\end{itemize}
 \end{itemize}
+
 Klasyfikacje zawarte w klasycznych pozycjach dotyczących optymalizacji podają również podział ze względu na to czy zmienne projektowe są liczbami czy funkcjami \parencite{Szymczak1995,Findeisen1980}.
 
-Dzięki informatyzacji i komputerom możliwe jest zastosowanie optymalizacji w procesach o dużej złożoności i trudności projektowanych obiektów. 
+Rodzaj problemu optymalizacji ogranicza wybór metody, którą można użyć do jego rozwiązania. W literaturze algorytmy najkrócej dzielone są ze względu na sposób przeszukiwania na: analityczne, enumeratywne oraz losowe \parencite{Goldberg1995}. W telegraficznym skrócie, pierwsze opierają się na stworzeniu i rozwiązaniu układu równań, powstałego przez przyrównanie gradientu funkcji celu do zera. Metody te wymagają obliczenia pochodnych funkcji i zwracają poprawny rezultat tylko kiedy w dziedzinie znajduje się jedno ekstremum. W realnych przypadkach są to trudne do spełnienia warunki i metody te mają raczej ograniczony zakres zastosowań. Metody enumeracyjne polegają na obliczaniu funkcji celu dla kolejnych rozwiązań dopuszczalnych. W literaturze przedmiotu inną spotykaną nazwą tej klasy metod jest "systematyczne przeszukiwanie". Pomimo naturalności metody i jej prostoty jest to najmniej efektywna klasa metod, co jest jej główną wadą. Podobnie 
+Odwołując się do wyżej przytoczonej klasyfikacji, wszystkie te algorytmy \cite{Tesch2016} podzielił według następujących kryteriów:
+\begin{itemize}[noitemsep]
+	\item Różniczkowalność funkcji celu
+	\begin{itemize}[noitemsep]
+		\item Wymagające pochodnej - algorytmy tej kategorii wymagają istnienia dwukrotnej pochodnej funkcji celu.
+		\item Niewymagające pochodnej - algorytmy tej klasy nie wymagają ciągłości funkcji celu oraz jej pochodnej.
+	\end{itemize}
+	\item Liczba jednocześnie rozważanych rozwiązań
+	\begin{itemize}[noitemsep]
+		\item Jednopunktowe - w jednej chwili rozważane jest jedno rozwiązanie. W kolejnych krokach algorytmu jest ono modyfikowane w celu uzyskania lepszego rozwiązania.
+		\item Wielopunktowe - jednocześnie odbywa się analiza wielu rozwiązań, które mają wpływ na wynik końcowy.
+	\end{itemize}
+	\item Mechanizmy losowości
+	\begin{itemize}[noitemsep]
+		\item Deterministyczne - rozwiązania są wyznaczane jedynie na podstawie danych wejściowych i wyznaczonych parametrów.
+		\item Stochastyczne - zmienne projektowe są wybierane z uwzględnieniem czynnika losowego.
+		\item Hybrydowe - algorytm zawiera oba mechanizmy wyboru kolejnego rozwiązania.
+	\end{itemize}
+\end{itemize}
+
+
+Dzięki informatyzacji i komputerom możliwe jest zastosowanie optymalizacji w procesach o dużej złożoności i trudności projektowanych obiektów. Wpływ poszczególnych rozwiązań konstrukcyjnych obiektu na jego odpowiedź dynamiczną zalicza się do tego typu zagadnień. Wybór metody, która została wykorzystana dokonano przez analizę rozpatrywanego zadania. Z uwagi na brak funkcyjnego opisu odpowiedzi dynamicznej modelu numerycznego zaniechano użycia metod analitycznych, wymagających obliczania pochodnych. Metody klasyczne odrzucono również przez ograniczenie do znalezienia jednego ekstremum w przestrzeni co w przypadku nieznanej jakościowo  wyznaczenia jednego ekstremu, posiadają  Kolejnym kryterium była uniwersalność algorytmu, ponieważ zaplanowano użycie go w dwóch zupełnie innych problemach: kalibracji modelu i optymalizacji konstrukcji z punktu widzenia zachowania dynamicznego. Ostatnim kryterium była udokumentowana w literaturze skuteczność metody, w tym wykorzystanie jej w przypadkach analizy konstrukcji. Powyższe warunki spełnia rodzina niewymagających pochodnej metod wielopunktowych.
 \section{Meta-heurystyczne metody optymalizacji}
+
 \section{Particle Swarm optimization}
 \subsection{Opis metody}
 \subsection{Zastosowania}

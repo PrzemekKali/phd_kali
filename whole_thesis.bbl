@@ -948,6 +948,69 @@
       \field{title}{{Teoria i metody obliczeniowe optymalizacji}}
       \field{year}{1980}
     \endentry
+    \entry{FisterJr.2013}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ecccedfc3025ddb7483a2f48af106676}{%
+           family={{Fister Jr.}},
+           familyi={F\bibinitperiod},
+           given={Iztok},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db6d14b1f463d2bfcc0546fb90152af8}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Xin\bibnamedelima She},
+           giveni={X\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01e1a89f4669cc0d34976b845ced7531}{%
+           family={Fister},
+           familyi={F\bibinitperiod},
+           given={Iztok},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005586675f3c25efe6dd3fc293aecd59}{%
+           family={Brest},
+           familyi={B\bibinitperiod},
+           given={Janez},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c9481064e4c56bdfeb934079a688f41}{%
+           family={Fister},
+           familyi={F\bibinitperiod},
+           given={Dušan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9b49e2bd7e76c29c2eeb43b423fe0d9}
+      \strng{fullhash}{d259a553d16901acd638de7780ee75b2}
+      \strng{bibnamehash}{c9b49e2bd7e76c29c2eeb43b423fe0d9}
+      \strng{authorbibnamehash}{c9b49e2bd7e76c29c2eeb43b423fe0d9}
+      \strng{authornamehash}{c9b49e2bd7e76c29c2eeb43b423fe0d9}
+      \strng{authorfullhash}{d259a553d16901acd638de7780ee75b2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Swarm-intelligence-based and bio-inspired algorithms form a hot topic in the developments of new algorithms inspired by nature. These nature-inspired metaheuristic algorithms can be based on swarm intelligence, biological systems, physical and chemical systems. Therefore, these algorithms can be called swarm-intelligence-based, bio-inspired, physics- and chemistry-based, depending on the sources of inspiration. Though not all of them are efficient, a few algorithms have proved to be very efficient and thus have become popular tools for solving real-world problems. Some of the algorithms have been insufficiently studied. The purpose of this review is to present a relatively comprehensive list of all the algorithms in the literature, so as to inspire further research.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{00135852}
+      \field{journaltitle}{Elektrotehniski Vestnik/Electrotechnical Review}
+      \field{number}{3}
+      \field{title}{{A brief review of nature-inspired algorithms for optimization}}
+      \field{volume}{80}
+      \field{year}{2013}
+      \field{pages}{116\bibrangedash 122}
+      \range{pages}{7}
+      \verb{eprint}
+      \verb 1307.4186
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2013_Fister Jr. et al._A brief review of nature-inspired algorithms for optimization.pdf:pdf
+      \endverb
+      \keyw{Bio-inspired algorithms,Optimization,Physics/chemistry algorithms,Swarm intelligence}
+    \endentry
     \entry{Fryba1999}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=401a4d46c3044b62c46cc63e60cf0002}{%
@@ -2574,6 +2637,69 @@
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2014_Rainieri, Fabbrocino_Operational Modal Analysis of Civil Engineering Structures An Introduction and Guide for Applications.pdf:pdf
       \endverb
+    \endentry
+    \entry{Rashedi2009}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7e42faddf817964df7f6b022c36b85c6}{%
+           family={Rashedi},
+           familyi={R\bibinitperiod},
+           given={Esmat},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b3864946d7719c6db41624574f903a7}{%
+           family={Nezamabadi-pour},
+           familyi={N\bibinithyphendelim p\bibinitperiod},
+           given={Hossein},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4d749a87fe9f1b5cd55baa1b4c72156}{%
+           family={Saryazdi},
+           familyi={S\bibinitperiod},
+           given={Saeid},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Inc.}%
+      }
+      \strng{namehash}{1474dae4936fcb4ef0c43723180b82c7}
+      \strng{fullhash}{1474dae4936fcb4ef0c43723180b82c7}
+      \strng{bibnamehash}{1474dae4936fcb4ef0c43723180b82c7}
+      \strng{authorbibnamehash}{1474dae4936fcb4ef0c43723180b82c7}
+      \strng{authornamehash}{1474dae4936fcb4ef0c43723180b82c7}
+      \strng{authorfullhash}{1474dae4936fcb4ef0c43723180b82c7}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In recent years, various heuristic optimization methods have been developed. Many of these methods are inspired by swarm behaviors in nature. In this paper, a new optimization algorithm based on the law of gravity and mass interactions is introduced. In the proposed algorithm, the searcher agents are a collection of masses which interact with each other based on the Newtonian gravity and the laws of motion. The proposed method has been compared with some well-known heuristic search methods. The obtained results conﬁrm the high performance of the proposed method in solving various nonlinear functions. Ó 2009 Elsevier Inc. All rights reserved.}
+      \field{issn}{00200255}
+      \field{journaltitle}{Information Sciences}
+      \field{month}{5}
+      \field{number}{13}
+      \field{title}{{GSA: A Gravitational Search Algorithm}}
+      \field{volume}{179}
+      \field{year}{2009}
+      \field{pages}{2232\bibrangedash 2248}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.ins.2009.03.004
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2009_Rashedi, Nezamabadi-pour, Saryazdi_GSA A Gravitational Search Algorithm.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.ins.2009.03.004 https://linkinghub.elsevier.com/retrieve/pii/S0020025509001200 http://files/405/Rashedi i in. - 2009 - GSA A Gravitational Search Algorithm.pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.ins.2009.03.004%20https://linkinghub.elsevier.com/retrieve/pii/S0020025509001200%20http://files/405/Rashedi%20i%20in.%20-%202009%20-%20GSA%20A%20Gravitational%20Search%20Algorithm.pdf
+      \endverb
+      \keyw{Gravitational Search Algorithm,Heuristic search algorithms,Law of gravity,Optimization}
     \endentry
     \entry{Reynders2014}{article}{}
       \name{author}{3}{}{%

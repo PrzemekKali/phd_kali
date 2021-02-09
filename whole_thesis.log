@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  8 FEB 2021 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  9 FEB 2021 12:01
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -2339,18 +2339,18 @@ LaTeX Warning: No positions in optional float specifier.
 
  (chap_pso.tex
 Rozdzia\l  4.
-) [61
+[61
 
 
 
 
-]
+])
 Overfull \hbox (124.50589pt too wide) has occurred while \output is active
 \OT4/cmr/m/n/12 62 \OT4/cmr/m/sl/12 ROZDZIAä 4.  OPTYMALIZACJA METODÅ ROJU CZÅS
 TEK - PARTICLE SWARM OPTIMIZATON
  []
 
-[62]
+[62] [63]
 \openout2 = `wk2_research.aux'.
 
  (wk2_research.tex
@@ -2360,7 +2360,7 @@ Rozdzia\l  5.
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/widok_z_boku_croped.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<./figures///WK2/rysunki/widok_z_boku_croped.pdf, id=2004, 455.18065pt x 137.19
+<./figures///WK2/rysunki/widok_z_boku_croped.pdf, id=2007, 455.18065pt x 137.19
 234pt>
 File: ./figures///WK2/rysunki/widok_z_boku_croped.pdf Graphic file (type pdf)
 <use ./figures///WK2/rysunki/widok_z_boku_croped.pdf>
@@ -2377,7 +2377,7 @@ Overfull \hbox (28.38818pt too wide) in paragraph at lines 14--16
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_dzwigara_cr
 oped.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf, id=2005, 455.18065pt x 4
+<./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf, id=2008, 455.18065pt x 4
 26.27235pt>
 File: ./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf Graphic file (type p
 df)
@@ -2395,7 +2395,7 @@ Overfull \hbox (23.49855pt too wide) in paragraph at lines 23--25
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_poprzeczny_
 croped.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
-<./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf, id=2006, 373.39522pt x
+<./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf, id=2009, 373.39522pt x
  220.42351pt>
 File: ./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf Graphic file (type
  pdf)
@@ -2409,13 +2409,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[63
+[64
 
 
 
 
  <./figures///WK2/rysunki/widok_z_boku_croped.pdf>]
-<./figures///WK2/zdjecia/widok_front2.jpg, id=2016, 1373.13pt x 1029.8475pt>
+<./figures///WK2/zdjecia/widok_front2.jpg, id=2019, 1373.13pt x 1029.8475pt>
 File: ./figures///WK2/zdjecia/widok_front2.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/widok_front2.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/widok_front2.jpg  used on inpu
@@ -2425,13 +2425,13 @@ t line 40.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/zdjecia/wezglowie.jpg, id=2017, 1715.40875pt x 1207.51125pt>
+<./figures///WK2/zdjecia/wezglowie.jpg, id=2020, 1715.40875pt x 1207.51125pt>
 File: ./figures///WK2/zdjecia/wezglowie.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/wezglowie.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/wezglowie.jpg  used on input l
 ine 47.
 (pdftex.def)             Requested size: 199.66287pt x 140.55446pt.
-<./figures///WK2/zdjecia/detal_wezglowie_dol.jpg, id=2018, 1373.13pt x 1029.847
+<./figures///WK2/zdjecia/detal_wezglowie_dol.jpg, id=2021, 1373.13pt x 1029.847
 5pt>
 File: ./figures///WK2/zdjecia/detal_wezglowie_dol.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/detal_wezglowie_dol.jpg>
@@ -2441,7 +2441,7 @@ on input line 49.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/zdjecia/zakotwienie_wieszak.jpg, id=2019, 1373.13pt x 1029.847
+<./figures///WK2/zdjecia/zakotwienie_wieszak.jpg, id=2022, 1373.13pt x 1029.847
 5pt>
 File: ./figures///WK2/zdjecia/zakotwienie_wieszak.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/zakotwienie_wieszak.jpg>
@@ -2454,25 +2454,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 1325) has occurred while \output is active []
 
+ [65 <./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 64 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+\OT4/cmr/m/n/12 66 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[64 <./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65 <./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf> <./figures///WK2/
-zdjecia/widok_front2.jpg>]
-<./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg, id=2757, 2192.94281pt x 1455.93
+[66 <./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf> <./figures///WK2/z
+djecia/widok_front2.jpg>]
+<./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg, id=2760, 2192.94281pt x 1455.93
 938pt>
 File: ./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg>
 Package pdftex.def Info: ./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg  used on
  input line 73.
 (pdftex.def)             Requested size: 213.39566pt x 141.67026pt.
-<./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg, id=2758, 2306.6175pt x 1656.187
+<./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg, id=2761, 2306.6175pt x 1656.187
 5pt>
 File: ./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg>
@@ -2483,7 +2483,7 @@ Package pdftex.def Info: ./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg, id=2759, 1810.51407pt x 921
+<./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg, id=2762, 1810.51407pt x 921
 .4425pt>
 File: ./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg Graphic file (type jpg)
 
@@ -2494,81 +2494,81 @@ d on input line 82.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/model/mod_origin/f1f.jpg, id=2760, 1134.48843pt x 1227.83719pt
+<./figures///WK2/model/mod_origin/f1f.jpg, id=2763, 1134.48843pt x 1227.83719pt
 >
 File: ./figures///WK2/model/mod_origin/f1f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f1f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f1f.jpg  used on inpu
 t line 96.
 (pdftex.def)             Requested size: 77.91626pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f1s.jpg, id=2761, 2160.57187pt x 526.21594pt>
+<./figures///WK2/model/mod_origin/f1s.jpg, id=2764, 2160.57187pt x 526.21594pt>
 
 File: ./figures///WK2/model/mod_origin/f1s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f1s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f1s.jpg  used on inpu
 t line 96.
 (pdftex.def)             Requested size: 298.75262pt x 72.7624pt.
-<./figures///WK2/model/mod_origin/f2f.jpg, id=2762, 1301.61281pt x 1184.17406pt
+<./figures///WK2/model/mod_origin/f2f.jpg, id=2765, 1301.61281pt x 1184.17406pt
 >
 File: ./figures///WK2/model/mod_origin/f2f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f2f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f2f.jpg  used on inpu
 t line 101.
 (pdftex.def)             Requested size: 92.69122pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f2s.jpg, id=2763, 1992.69469pt x 476.53032pt>
+<./figures///WK2/model/mod_origin/f2s.jpg, id=2766, 1992.69469pt x 476.53032pt>
 
 File: ./figures///WK2/model/mod_origin/f2s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f2s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f2s.jpg  used on inpu
 t line 101.
 (pdftex.def)             Requested size: 298.75262pt x 71.4401pt.
-<./figures///WK2/model/mod_origin/f3f.jpg, id=2764, 1011.78pt x 1291.82625pt>
+<./figures///WK2/model/mod_origin/f3f.jpg, id=2767, 1011.78pt x 1291.82625pt>
 File: ./figures///WK2/model/mod_origin/f3f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f3f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f3f.jpg  used on inpu
 t line 106.
 (pdftex.def)             Requested size: 66.0459pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f3s.jpg, id=2765, 2177.13374pt x 566.86781pt>
+<./figures///WK2/model/mod_origin/f3s.jpg, id=2768, 2177.13374pt x 566.86781pt>
 
 File: ./figures///WK2/model/mod_origin/f3s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f3s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f3s.jpg  used on inpu
 t line 106.
 (pdftex.def)             Requested size: 298.75262pt x 77.7867pt.
-<./figures///WK2/model/mod_origin/f4f.jpg, id=2766, 1185.67969pt x 1266.23062pt
+<./figures///WK2/model/mod_origin/f4f.jpg, id=2769, 1185.67969pt x 1266.23062pt
 >
 File: ./figures///WK2/model/mod_origin/f4f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f4f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f4f.jpg  used on inpu
 t line 111.
 (pdftex.def)             Requested size: 78.95345pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f4s.jpg, id=2767, 2165.84157pt x 523.9575pt>
+<./figures///WK2/model/mod_origin/f4s.jpg, id=2770, 2165.84157pt x 523.9575pt>
 File: ./figures///WK2/model/mod_origin/f4s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f4s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f4s.jpg  used on inpu
 t line 111.
 (pdftex.def)             Requested size: 298.75262pt x 72.27423pt.
-<./figures///WK2/model/mod_origin/f5f.jpg, id=2768, 977.90344pt x 1090.0725pt>
+<./figures///WK2/model/mod_origin/f5f.jpg, id=2771, 977.90344pt x 1090.0725pt>
 File: ./figures///WK2/model/mod_origin/f5f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f5f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f5f.jpg  used on inpu
 t line 116.
 (pdftex.def)             Requested size: 75.65244pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f5s.jpg, id=2769, 2007.75093pt x 413.29407pt>
+<./figures///WK2/model/mod_origin/f5s.jpg, id=2772, 2007.75093pt x 413.29407pt>
 
 File: ./figures///WK2/model/mod_origin/f5s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f5s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f5s.jpg  used on inpu
 t line 116.
 (pdftex.def)             Requested size: 298.75262pt x 61.49323pt.
-<./figures///WK2/model/mod_origin/f6f.jpg, id=2770, 776.14969pt x 1004.25188pt>
+<./figures///WK2/model/mod_origin/f6f.jpg, id=2773, 776.14969pt x 1004.25188pt>
 
 File: ./figures///WK2/model/mod_origin/f6f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f6f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f6f.jpg  used on inpu
 t line 121.
 (pdftex.def)             Requested size: 65.17244pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f6s.jpg, id=2771, 2001.72844pt x 505.89pt>
+<./figures///WK2/model/mod_origin/f6s.jpg, id=2774, 2001.72844pt x 505.89pt>
 File: ./figures///WK2/model/mod_origin/f6s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f6s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f6s.jpg  used on inpu
@@ -2577,63 +2577,57 @@ t line 121.
 
 LaTeX Warning: Float too large for page by 24.30034pt on input line 125.
 
-
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 66 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[66 <./figures///WK2/zdjecia/wezglowie.jpg> <./figures///WK2/zdjecia/detal_wezg
+[67 <./figures///WK2/zdjecia/wezglowie.jpg> <./figures///WK2/zdjecia/detal_wezg
 lowie_dol.jpg> <./figures///WK2/zdjecia/zakotwienie_wieszak.jpg>]
-<./figures///WK2/model/mod_origin/f7f.jpg, id=2775, 964.35281pt x 1242.89343pt>
+<./figures///WK2/model/mod_origin/f7f.jpg, id=2779, 964.35281pt x 1242.89343pt>
 
 File: ./figures///WK2/model/mod_origin/f7f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f7f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f7f.jpg  used on inpu
 t line 134.
 (pdftex.def)             Requested size: 65.42209pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f7s.jpg, id=2776, 2185.41469pt x 534.49687pt>
+<./figures///WK2/model/mod_origin/f7s.jpg, id=2780, 2185.41469pt x 534.49687pt>
 
 File: ./figures///WK2/model/mod_origin/f7s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f7s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f7s.jpg  used on inpu
 t line 134.
 (pdftex.def)             Requested size: 298.75262pt x 73.05925pt.
-<./figures///WK2/model/mod_origin/f8f.jpg, id=2777, 760.34062pt x 1151.80313pt>
+<./figures///WK2/model/mod_origin/f8f.jpg, id=2781, 760.34062pt x 1151.80313pt>
 
 File: ./figures///WK2/model/mod_origin/f8f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f8f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f8f.jpg  used on inpu
 t line 139.
 (pdftex.def)             Requested size: 55.66566pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f8s.jpg, id=2778, 2167.34718pt x 654.19406pt>
+<./figures///WK2/model/mod_origin/f8s.jpg, id=2782, 2167.34718pt x 654.19406pt>
 
 File: ./figures///WK2/model/mod_origin/f8s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f8s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f8s.jpg  used on inpu
 t line 139.
 (pdftex.def)             Requested size: 298.75262pt x 90.16907pt.
-<./figures///WK2/model/mod_origin/f9f.jpg, id=2779, 810.77907pt x 832.61063pt>
+<./figures///WK2/model/mod_origin/f9f.jpg, id=2783, 810.77907pt x 832.61063pt>
 File: ./figures///WK2/model/mod_origin/f9f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f9f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f9f.jpg  used on inpu
 t line 144.
 (pdftex.def)             Requested size: 82.10948pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f9s.jpg, id=2780, 2171.86406pt x 494.59781pt>
+<./figures///WK2/model/mod_origin/f9s.jpg, id=2784, 2171.86406pt x 494.59781pt>
 
 File: ./figures///WK2/model/mod_origin/f9s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f9s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f9s.jpg  used on inpu
 t line 144.
 (pdftex.def)             Requested size: 298.75262pt x 68.02815pt.
-<./figures///WK2/model/mod_origin/f10f.jpg, id=2781, 1117.92656pt x 1301.61281p
+<./figures///WK2/model/mod_origin/f10f.jpg, id=2785, 1117.92656pt x 1301.61281p
 t>
 File: ./figures///WK2/model/mod_origin/f10f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f10f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f10f.jpg  used on inp
 ut line 149.
 (pdftex.def)             Requested size: 72.42896pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f10s.jpg, id=2782, 1997.96437pt x 457.71pt>
+<./figures///WK2/model/mod_origin/f10s.jpg, id=2786, 1997.96437pt x 457.71pt>
 File: ./figures///WK2/model/mod_origin/f10s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f10s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f10s.jpg  used on inp
@@ -2642,30 +2636,36 @@ ut line 149.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67 <./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg> <./figures///WK2/model/SCI
-AG_PAR_v01_vis_2.jpg> <./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg>]
+
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
 \OT4/cmr/m/n/12 68 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[68 <./figures///WK2/model/mod_origin/f1f.jpg> <./figures///WK2/model/mod_origi
+[68 <./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg> <./figures///WK2/model/SCIA
+G_PAR_v01_vis_2.jpg> <./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg>]
+[69 <./figures///WK2/model/mod_origin/f1f.jpg> <./figures///WK2/model/mod_origi
 n/f1s.jpg> <./figures///WK2/model/mod_origin/f2f.jpg> <./figures///WK2/model/mo
 d_origin/f2s.jpg> <./figures///WK2/model/mod_origin/f3f.jpg> <./figures///WK2/m
 odel/mod_origin/f3s.jpg> <./figures///WK2/model/mod_origin/f4f.jpg> <./figures/
 //WK2/model/mod_origin/f4s.jpg> <./figures///WK2/model/mod_origin/f5f.jpg> <./f
 igures///WK2/model/mod_origin/f5s.jpg> <./figures///WK2/model/mod_origin/f6f.jp
-g> <./figures///WK2/model/mod_origin/f6s.jpg>] [69 <./figures///WK2/model/mod_o
-rigin/f7f.jpg> <./figures///WK2/model/mod_origin/f7s.jpg> <./figures///WK2/mode
-l/mod_origin/f8f.jpg> <./figures///WK2/model/mod_origin/f8s.jpg> <./figures///W
-K2/model/mod_origin/f9f.jpg> <./figures///WK2/model/mod_origin/f9s.jpg> <./figu
-res///WK2/model/mod_origin/f10f.jpg> <./figures///WK2/model/mod_origin/f10s.jpg
->]
+g> <./figures///WK2/model/mod_origin/f6s.jpg>]
+Overfull \hbox (54.74542pt too wide) has occurred while \output is active
+\OT4/cmr/m/n/12 70 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+ KOLEI METROPOLITALNEJ
+ []
+
+[70 <./figures///WK2/model/mod_origin/f7f.jpg> <./figures///WK2/model/mod_origi
+n/f7s.jpg> <./figures///WK2/model/mod_origin/f8f.jpg> <./figures///WK2/model/mo
+d_origin/f8s.jpg> <./figures///WK2/model/mod_origin/f9f.jpg> <./figures///WK2/m
+odel/mod_origin/f9s.jpg> <./figures///WK2/model/mod_origin/f10f.jpg> <./figures
+///WK2/model/mod_origin/f10s.jpg>]
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/punkty_pomiarowe_aut
 omac_croped.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf, id=2793, 429.2838
+<./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf, id=2796, 429.2838
 pt x 170.70235pt>
 File: ./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf Graphic file 
 (type pdf)
@@ -2678,20 +2678,14 @@ Overfull \hbox (2.49141pt too wide) in paragraph at lines 179--181
  [][] 
  []
 
-
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 70 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[70]
-<./figures///WK2/automac/max_mac.pdf, id=2797, 216.78133pt x 211.38443pt>
+[71]
+<./figures///WK2/automac/max_mac.pdf, id=2800, 216.78133pt x 211.38443pt>
 File: ./figures///WK2/automac/max_mac.pdf Graphic file (type pdf)
 <use ./figures///WK2/automac/max_mac.pdf>
 Package pdftex.def Info: ./figures///WK2/automac/max_mac.pdf  used on input lin
 e 189.
 (pdftex.def)             Requested size: 216.78079pt x 211.3839pt.
-<./figures///WK2/automac/rms.pdf, id=2798, 221.03139pt x 211.38443pt>
+<./figures///WK2/automac/rms.pdf, id=2801, 221.03139pt x 211.38443pt>
 File: ./figures///WK2/automac/rms.pdf Graphic file (type pdf)
 <use ./figures///WK2/automac/rms.pdf>
 Package pdftex.def Info: ./figures///WK2/automac/rms.pdf  used on input line 19
@@ -2702,12 +2696,18 @@ Overfull \hbox (11.0203pt too wide) in paragraph at lines 189--192
  [][][] 
  []
 
-[71 <./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf>]
+
+Overfull \hbox (54.74542pt too wide) has occurred while \output is active
+\OT4/cmr/m/n/12 72 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+ KOLEI METROPOLITALNEJ
+ []
+
+[72 <./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/punkty_pomiarowe_pun
 kty_pomiarowe_croped.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf, id=2816,
+<./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf, id=2819,
  429.2838pt x 187.42029pt>
 File: ./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf Grap
 hic file (type pdf)
@@ -2723,7 +2723,7 @@ Overfull \hbox (2.49141pt too wide) in paragraph at lines 202--204
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//WK2/automac/correlogram_0.pdf, id=2817, 371.16034pt x 211.38443pt>
+<./figures//WK2/automac/correlogram_0.pdf, id=2820, 371.16034pt x 211.38443pt>
 File: ./figures//WK2/automac/correlogram_0.pdf Graphic file (type pdf)
 <use ./figures//WK2/automac/correlogram_0.pdf>
 Package pdftex.def Info: ./figures//WK2/automac/correlogram_0.pdf  used on inpu
@@ -2732,26 +2732,26 @@ t line 214.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 72 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[72 <./figures///WK2/automac/max_mac.pdf> <./figures///WK2/automac/rms.pdf
+ [73 <./figures///WK2/automac/max_mac.pdf> <./figures///WK2/automac/rms.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/automac/rms.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73 <./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf> <./
-figures//WK2/automac/correlogram_0.pdf>]
 
-LaTeX Warning: Reference `RYSUNEK POMIAR DRGAN' on page 74 undefined on input l
+Overfull \hbox (54.74542pt too wide) has occurred while \output is active
+\OT4/cmr/m/n/12 74 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+ KOLEI METROPOLITALNEJ
+ []
+
+[74 <./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf> <./f
+igures//WK2/automac/correlogram_0.pdf>]
+
+LaTeX Warning: Reference `RYSUNEK POMIAR DRGAN' on page 75 undefined on input l
 ine 229.
 
-<./figures///WK2/zdjecia/system_pomiarowy.jpg, id=2872, 1759.57375pt x 989.6975
+<./figures///WK2/zdjecia/system_pomiarowy.jpg, id=2875, 1759.57375pt x 989.6975
 pt>
 File: ./figures///WK2/zdjecia/system_pomiarowy.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/system_pomiarowy.jpg>
@@ -2763,39 +2763,33 @@ Underfull \hbox (badness 2894) in paragraph at lines 233--233
 []\OT4/cmr/m/n/10 (a) |Sys-tem akwi-zy-cji da-nych: kom-pu-ter i
  []
 
-<./figures///WK2/zdjecia/czujnik_3_osie.jpg, id=2873, 2665.96pt x 1499.6025pt>
+<./figures///WK2/zdjecia/czujnik_3_osie.jpg, id=2876, 2665.96pt x 1499.6025pt>
 File: ./figures///WK2/zdjecia/czujnik_3_osie.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/czujnik_3_osie.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/czujnik_3_osie.jpg  used on in
 put line 234.
 (pdftex.def)             Requested size: 204.85802pt x 115.21118pt.
-<./figures///WK2/zdjecia/pojazd_na.jpg, id=2874, 2132.96875pt x 1199.48125pt>
+<./figures///WK2/zdjecia/pojazd_na.jpg, id=2877, 2132.96875pt x 1199.48125pt>
 File: ./figures///WK2/zdjecia/pojazd_na.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/pojazd_na.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/pojazd_na.jpg  used on input l
 ine 244.
 (pdftex.def)             Requested size: 204.85802pt x 115.19647pt.
-<./figures///WK2/zdjecia/eksperymentator.jpg, id=2875, 459.6372pt x 258.2448pt>
+<./figures///WK2/zdjecia/eksperymentator.jpg, id=2878, 459.6372pt x 258.2448pt>
 
 File: ./figures///WK2/zdjecia/eksperymentator.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/eksperymentator.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/eksperymentator.jpg  used on i
 nput line 245.
 (pdftex.def)             Requested size: 204.85802pt x 115.09785pt.
-
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 74 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[74 <./figures///WK2/zdjecia/system_pomiarowy.jpg> <./figures///WK2/zdjecia/czu
+[75 <./figures///WK2/zdjecia/system_pomiarowy.jpg> <./figures///WK2/zdjecia/czu
 jnik_3_osie.jpg> <./figures///WK2/zdjecia/pojazd_na.jpg> <./figures///WK2/zdjec
 ia/eksperymentator.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 262.
 
-<./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf, id=2879, 432.7158pt x 171.
+<./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf, id=2882, 432.7158pt x 171.
 48463pt>
 File: ./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf Graphic file (type pdf
 )
@@ -2808,7 +2802,7 @@ Overfull \hbox (5.9234pt too wide) in paragraph at lines 264--264
  [][] 
  []
 
-<./figures//WK2/ident/fig_stab_diagram_filtr.pdf, id=2880, 432.7158pt x 171.484
+<./figures//WK2/ident/fig_stab_diagram_filtr.pdf, id=2883, 432.7158pt x 171.484
 63pt>
 File: ./figures//WK2/ident/fig_stab_diagram_filtr.pdf Graphic file (type pdf)
 <use ./figures//WK2/ident/fig_stab_diagram_filtr.pdf>
@@ -2824,7 +2818,7 @@ Overfull \hbox (5.9234pt too wide) in paragraph at lines 265--267
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 271.
 
-<./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf, id=2881, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf, id=2884, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf Graphic file (typ
 e pdf)
@@ -2832,7 +2826,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pd
 f  used on input line 296.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pdf, id=2883, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pdf, id=2886, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pdf Graphic file (typ
 e pdf)
@@ -2840,7 +2834,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pd
 f  used on input line 296.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf, id=2885, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf, id=2888, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf Graphic fil
 e (type pdf)
@@ -2848,7 +2842,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57
 _20.pdf  used on input line 296.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pdf, id=2886, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pdf, id=2889, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pdf Graphic file (typ
 e pdf)
@@ -2856,7 +2850,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pd
 f  used on input line 302.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf, id=2888, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf, id=2891, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf Graphic file (typ
 e pdf)
@@ -2864,7 +2858,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pd
 f  used on input line 302.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57_54.pdf, id=2890, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57_54.pdf, id=2893, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57_54.pdf Graphic fil
 e (type pdf)
@@ -2872,7 +2866,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57
 _54.pdf  used on input line 302.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf, id=2891, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf, id=2894, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf Graphic file (typ
 e pdf)
@@ -2880,7 +2874,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pd
 f  used on input line 308.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pdf, id=2893, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pdf, id=2896, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pdf Graphic file (typ
 e pdf)
@@ -2888,7 +2882,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pd
 f  used on input line 308.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58_42.pdf, id=2895, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58_42.pdf, id=2898, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58_42.pdf Graphic fil
 e (type pdf)
@@ -2896,7 +2890,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58
 _42.pdf  used on input line 308.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pdf, id=2896, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pdf, id=2899, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pdf Graphic file (typ
 e pdf)
@@ -2904,7 +2898,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pd
 f  used on input line 314.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf, id=2898, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf, id=2901, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf Graphic file (typ
 e pdf)
@@ -2912,7 +2906,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pd
 f  used on input line 314.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_27_time_16_59_26.pdf, id=2900, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_27_time_16_59_26.pdf, id=2903, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_27_time_16_59_26.pdf Graphic fil
 e (type pdf)
@@ -2928,7 +2922,7 @@ Overfull \hbox (55.48067pt too wide) in paragraph at lines 290--317
 
 LaTeX Warning: Float too large for page by 5.33488pt on input line 319.
 
-<./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf, id=2901, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf, id=2904, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf Graphic file (typ
 e pdf)
@@ -2936,7 +2930,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pd
 f  used on input line 330.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pdf, id=2903, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pdf, id=2906, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pdf Graphic file (typ
 e pdf)
@@ -2944,7 +2938,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pd
 f  used on input line 330.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf, id=2905, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf, id=2908, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf Graphic fil
 e (type pdf)
@@ -2952,7 +2946,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00
 _05.pdf  used on input line 330.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pdf, id=2906, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pdf, id=2909, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pdf Graphic file (typ
 e pdf)
@@ -2960,7 +2954,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pd
 f  used on input line 337.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf, id=2908, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf, id=2911, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf Graphic file (typ
 e pdf)
@@ -2968,7 +2962,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pd
 f  used on input line 337.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00_46.pdf, id=2910, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00_46.pdf, id=2913, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00_46.pdf Graphic fil
 e (type pdf)
@@ -2976,7 +2970,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00
 _46.pdf  used on input line 337.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf, id=2911, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf, id=2914, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf Graphic file (typ
 e pdf)
@@ -2984,7 +2978,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pd
 f  used on input line 343.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pdf, id=2913, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pdf, id=2916, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pdf Graphic file (typ
 e pdf)
@@ -2992,7 +2986,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pd
 f  used on input line 343.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01_27.pdf, id=2915, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01_27.pdf, id=2918, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01_27.pdf Graphic fil
 e (type pdf)
@@ -3000,7 +2994,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01
 _27.pdf  used on input line 343.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pdf, id=2916, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pdf, id=2919, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pdf Graphic file (typ
 e pdf)
@@ -3008,7 +3002,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pd
 f  used on input line 349.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf, id=2918, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf, id=2921, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf Graphic file (typ
 e pdf)
@@ -3016,7 +3010,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pd
 f  used on input line 349.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf, id=2920, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf, id=2923, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf Graphic fil
 e (type pdf)
@@ -3032,7 +3026,7 @@ Overfull \hbox (55.48067pt too wide) in paragraph at lines 324--351
 
 LaTeX Warning: Float too large for page by 5.33488pt on input line 353.
 
-<./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf, id=2921, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf, id=2924, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf Graphic file (typ
 e pdf)
@@ -3040,7 +3034,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pd
 f  used on input line 364.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pdf, id=2923, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pdf, id=2926, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pdf Graphic file (typ
 e pdf)
@@ -3048,7 +3042,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pd
 f  used on input line 364.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf, id=2925, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf, id=2928, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf Graphic fil
 e (type pdf)
@@ -3056,7 +3050,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17
 _06.pdf  used on input line 364.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pdf, id=2926, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pdf, id=2929, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pdf Graphic file (typ
 e pdf)
@@ -3064,7 +3058,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pd
 f  used on input line 370.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf, id=2928, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf, id=2931, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf Graphic file (typ
 e pdf)
@@ -3072,7 +3066,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pd
 f  used on input line 370.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_75_time_17_18_33.pdf, id=2930, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_75_time_17_18_33.pdf, id=2933, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_75_time_17_18_33.pdf Graphic fil
 e (type pdf)
@@ -3088,24 +3082,30 @@ Overfull \hbox (55.48067pt too wide) in paragraph at lines 358--375
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75]
+
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
 \OT4/cmr/m/n/12 76 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
  KOLEI METROPOLITALNEJ
  []
 
-[76 <./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf> <./figures//WK2/ident/
-fig_stab_diagram_filtr.pdf
+[76] [77 <./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf> <./figures//WK2/i
+dent/fig_stab_diagram_filtr.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/ident/fig_stab_diagram_filtr.
 pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [77 <./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf> <./figures///w
-k2/ident/mods/fig_mod_11_time_20_09_01.pdf> <./figures///wk2/ident/mods/fig_mod
-_23_time_20_09_19.pdf> <./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf
-> <./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf> <./figures///wk2/id
-ent/mods/fig_mod_25_time_20_10_13.pdf> <./figures///wk2/ident/mods/fig_mod_27_t
-ime_20_10_31.pdf> <./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf> <./
-figures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf
+>]
+Overfull \hbox (54.74542pt too wide) has occurred while \output is active
+\OT4/cmr/m/n/12 78 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+ KOLEI METROPOLITALNEJ
+ []
+
+[78 <./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf> <./figures///wk2/
+ident/mods/fig_mod_11_time_20_09_01.pdf> <./figures///wk2/ident/mods/fig_mod_23
+_time_20_09_19.pdf> <./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf> <
+./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf> <./figures///wk2/ident
+/mods/fig_mod_25_time_20_10_13.pdf> <./figures///wk2/ident/mods/fig_mod_27_time
+_20_10_31.pdf> <./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf> <./fig
+ures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_11_
 time_16_57_20.pdf): PDF inclusion: multiple pdfs with page group included in a 
@@ -3125,19 +3125,13 @@ single page
 pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_27_
 time_16_59_26.pdf): PDF inclusion: multiple pdfs with page group included in a 
 single page
->]
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 78 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[78 <./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf> <./figures///wk2/
-ident/mods/fig_mod_33_time_20_11_12.pdf> <./figures///wk2/ident/mods/fig_mod_47
-_time_20_11_28.pdf> <./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf> <
-./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf> <./figures///wk2/ident
-/mods/fig_mod_57_time_20_12_20.pdf> <./figures///wk2/ident/mods/fig_mod_59_time
-_20_12_37.pdf> <./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf> <./fig
-ures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf
+>] [79 <./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf> <./figures///w
+k2/ident/mods/fig_mod_33_time_20_11_12.pdf> <./figures///wk2/ident/mods/fig_mod
+_47_time_20_11_28.pdf> <./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf
+> <./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf> <./figures///wk2/id
+ent/mods/fig_mod_57_time_20_12_20.pdf> <./figures///wk2/ident/mods/fig_mod_59_t
+ime_20_12_37.pdf> <./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf> <./
+figures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_33_
 time_17_00_05.pdf): PDF inclusion: multiple pdfs with page group included in a 
@@ -3158,7 +3152,7 @@ pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_59_
 time_17_02_08.pdf): PDF inclusion: multiple pdfs with page group included in a 
 single page
 >]
-<./figures//WK2/proste_300_decisive_freq.pdf, id=3810, 205.92622pt x 219.34402p
+<./figures//WK2/proste_300_decisive_freq.pdf, id=3814, 205.92622pt x 219.34402p
 t>
 File: ./figures//WK2/proste_300_decisive_freq.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_decisive_freq.pdf>
@@ -3174,26 +3168,26 @@ nput line 394.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//WK2/proste_300_3d_weig.pdf, id=3811, 339.6708pt x 196.74922pt>
+<./figures//WK2/proste_300_3d_weig.pdf, id=3815, 339.6708pt x 196.74922pt>
 File: ./figures//WK2/proste_300_3d_weig.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_3d_weig.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_3d_weig.pdf  used on input l
 ine 401.
 (pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
-<./figures//WK2/proste_300_0_3_3d_arch_weig.pdf, id=3812, 339.6708pt x 196.7492
+<./figures//WK2/proste_300_0_3_3d_arch_weig.pdf, id=3816, 339.6708pt x 196.7492
 2pt>
 File: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf  used o
 n input line 407.
 (pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
-<./figures//WK2/proste_300_3d_freq.pdf, id=3813, 337.78188pt x 196.74922pt>
+<./figures//WK2/proste_300_3d_freq.pdf, id=3817, 337.78188pt x 196.74922pt>
 File: ./figures//WK2/proste_300_3d_freq.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_3d_freq.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_3d_freq.pdf  used on input l
 ine 413.
 (pdftex.def)             Requested size: 426.79134pt x 248.61682pt.
-<./figures//WK2/proste_300_all.pdf, id=3814, 398.99599pt x 221.95659pt>
+<./figures//WK2/proste_300_all.pdf, id=3818, 398.99599pt x 221.95659pt>
 File: ./figures//WK2/proste_300_all.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_all.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_all.pdf  used on input line 
@@ -3212,12 +3206,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (5.47784pt too wide) has occurred while \output is active
-\OT4/cmr/m/sl/12 5.4.  KALIBRACJA MODELU NUMERYCZNEGO Z WYKORZYSTANIEM PSO \OT4
-/cmr/m/n/12 79
+Overfull \hbox (54.74542pt too wide) has occurred while \output is active
+\OT4/cmr/m/n/12 80 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
+ KOLEI METROPOLITALNEJ
  []
 
-[79 <./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf> <./figures///wk2/
+[80 <./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf> <./figures///wk2/
 ident/mods/fig_mod_61_time_20_13_32.pdf> <./figures///wk2/ident/mods/fig_mod_75
 _time_20_13_51.pdf> <./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf> <
 ./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf
@@ -3230,21 +3224,10 @@ single page
 pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_75_
 time_17_18_33.pdf): PDF inclusion: multiple pdfs with page group included in a 
 single page
->]
-Overfull \hbox (54.74542pt too wide) has occurred while \output is active
-\OT4/cmr/m/n/12 80 \OT4/cmr/m/sl/12 ROZDZIAä 5.  WIADUKT WK2 W CIÅGU POMORSKIEJ
- KOLEI METROPOLITALNEJ
- []
-
-[80 <./figures//WK2/proste_300_decisive_freq.pdf> <./figures//WK2/proste_300_3d
-_weig.pdf
+>] [81 <./figures//WK2/proste_300_decisive_freq.pdf> <./figures//WK2/proste_300
+_3d_weig.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_weig.pdf): PDF 
-inclusion: multiple pdfs with page group included in a single page
->] [81 <./figures//WK2/proste_300_0_3_3d_arch_weig.pdf> <./figures//WK2/proste_
-300_3d_freq.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_freq.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
 >]
 Overfull \hbox (54.74542pt too wide) has occurred while \output is active
@@ -3252,9 +3235,14 @@ Overfull \hbox (54.74542pt too wide) has occurred while \output is active
  KOLEI METROPOLITALNEJ
  []
 
-[82 <./figures//WK2/proste_300_all.pdf>]
+[82 <./figures//WK2/proste_300_0_3_3d_arch_weig.pdf> <./figures//WK2/proste_300
+_3d_freq.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_freq.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>] [83 <./figures//WK2/proste_300_all.pdf>]
 Rozdzia\l  6.
-) [83
+) [84
 
 ]
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
@@ -3268,7 +3256,7 @@ Overfull \hbox (5.55869pt too wide) in paragraph at lines 34--34
 0The % 20Modal % 20Assurance %
  []
 
-[84
+[85
 
 
 
@@ -3284,20 +3272,20 @@ Overfull \hbox (17.09633pt too wide) in paragraph at lines 34--34
 lement-by-element Ritz-gradient
  []
 
-[85]
+[86]
 Overfull \hbox (32.23328pt too wide) in paragraph at lines 34--34
 [][]\OT4/cmr/m/n/12 Juang, Jer-Nan (1994). \OT4/cmr/m/it/12 Ap-plied sys-tem id
 en-ti-fi-ca-tion\OT4/cmr/m/n/12 . Prentice-Hall, Inc. \OT4/cmr/m/sc/12 isbn\OT4
 /cmr/m/n/12 : 013079211X. 
  []
 
-[86] [87]
+[87] [88]
 Overfull \hbox (1.4319pt too wide) in paragraph at lines 34--34
 [][]\OT4/cmr/m/n/12 Salamak, Ma-rek (2003). ``Do-±wiad-czalne me-tody okre-±la-
 nia po-ziomu t™u-mie-nia drga´
  []
 
-[88] [89] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
+[89] [90] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
 (chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
 
 LaTeX Warning: There were undefined references.
@@ -3307,10 +3295,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36682 strings out of 479584
- 891388 string characters out of 2862472
- 1654113 words of memory out of 3000000
- 53056 multiletter control sequences out of 15000+200000
+ 36683 strings out of 479584
+ 891400 string characters out of 2862472
+ 1654118 words of memory out of 3000000
+ 53057 multiletter control sequences out of 15000+200000
  430238 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,24n,107p,2208b,1771s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3355,9 +3343,9 @@ fonts/type1/public/pl/plsy10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.
 eX 2.9/fonts/type1/public/pl/pltt12.pfb><C:/Users/KBP/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/KBP/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on whole_thesis.pdf (89 pages, 41795379 bytes).
+Output written on whole_thesis.pdf (90 pages, 41798693 bytes).
 PDF statistics:
- 4231 PDF objects out of 4296 (max. 8388607)
+ 4234 PDF objects out of 4296 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  922 words of extra memory for PDF output out of 10000 (max. 10000000)
 

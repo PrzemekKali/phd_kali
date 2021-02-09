@@ -7,14 +7,38 @@ Znalezienie najlepszej możliwej konfiguracji elementów konstrukcyjnych, zapewn
 	\item zmienne projektowe - parametrów systemu zależne od projektanta,
 	\item ograniczenia - elementy określające zakres dopuszczalnych rozwiązań. 
 \end{itemize}
-Kryterium optymalizacji powinno w sposób wymierny pozwolić na ocenę danego rozwiązania. Podstawowymi kryteriami stosowanymi w przypadku konstrukcji może być koszt jej wykonania, ilość materiału czy nakład pracy. Kryterium, które decyduje o wyborze najlepszego rozwiązania nazywane jest funkcją celu. Parametry i zmienne projektowe 
+Kryterium optymalizacji powinno w sposób wymierny pozwolić na ocenę danego rozwiązania. Podstawowymi kryteriami stosowanymi w przypadku konstrukcji może być koszt jej wykonania, ilość materiału czy nakład pracy. Kryterium, które decyduje o wyborze najlepszego rozwiązania nazywane jest funkcją celu. W przypadku wielu kryteriów, jednym z rozwiązań upraszających proces optymalizacji jest stworzenie jednej funkcji celu, łączącej wszystkie kryteria z zastosowaniem wag dla poszczególnych elementów. Odbywa się to zazwyczaj na zasadzie kombinacji liniowej:
+\begin{equation}
+	F=\sum_{i=1}^{n}w_i F_i
+\end{equation}
+gdzie $w_i$ to współczynnik określający wagę kryterium $F_i$. W pracy został zastosowane rozwiązanie optymalizacji wielokryterialnej. W takim przypadku optymalizacja polega na minimalizowaniu lub maksymalizowaniu jednocześnie kilku funkcji celu. Zagadnienie zostanie omówione teoretycznie w dalszej części pracy. 
 
+W przypadku konstrukcji, parametry projektowe to założone wartości opisujące ustrój, które nie ulegają zmianie w procesie optymalizacji.  Mogą być one narzucone przez względy technologiczne bądź normowe \parencite{Szymczak1995}, lub wynikać z innych założeń projektowych. Z kolei zmienne projektowe $x_i$, jak sama nazwa wskazuje, mogą się zmieniać w procesie optymalizacji i zależą od projektanta. Wybór konkretnych $m$ zmiennych projektowych tworzy rozwiązanie w postaci wektora $\vect{x}=[x_1,x_2,\dots,x_m]^T$, będącego punktem w przestrzeni $m$-wymiarowej.
 
-\cite{Tesch2016} zaproponował klasyfikację metod optymalizacji zależnie od następujących parametrów:
-\begin{itemize}[noitemsep]
-	\item asdas
+Z reguły wartości zmiennych projektowych muszą spełniać szereg obostrzeń. Wynikają one ponownie ze względów technologicznych, normowych lub innych uznanych za istotne przez projektanta. Z tego powodu, na zmienne projektowe $\vect{x}$ narzucone są ograniczenia. Wektor, który spełnia wszystkie ograniczenia nazywany jest dopuszczalnym. W analizie konstrukcji budowlanych ograniczeniami mogą być wymogi wytrzymałościowe, eksploatacyjne - zarówno statyczne jak i dynamiczne - czy też warunki stateczności. 
+
+\cite{Tesch2016} zaproponował klasyfikację problemu optymalizacji zależnie od następujących charakterystyk:
+\begin{itemize}
+	\item Liczba funkcji celu
 	\begin{itemize}
-		\item asdas
+		\item pojedyncza funkcja celu,
+		\item wiele funkcji celu.
+	\end{itemize}
+	\item Liczba ekstremów lokalnych
+	\begin{itemize}
+		\item funkcja unimodalna - funkcja unimodalna jest ciągła i posiada jedno ekstremum w rozpatrywanym przedziale,
+		\item funkcja multimodalna - problem posiada więcej niż jedno ektremum lokalne w rozpatrywanym zakresie,
+	\end{itemize}
+	\item Liniowość funkcji celu
+	\begin{itemize}
+		\item liniowa - funkcja celu oraz ograniczenia są liniowe,
+		\item nieliniowa - funkcja celu lub ograniczenia nie są liniowe,
+	\end{itemize}
+	\item Rodzaj zmiennych projektowych
+	\begin{itemize}
+		\item ciągłe - zmienne projektowe są liczbami rzeczywistymi w zadanym przedziale,
+		\item dyskretne - zmienne projektowe są liczbami całkowitymi w zadanym przedziale,
+		\item mieszane - w problemie występują zarówno zmienne ciągłych jak i dyskretnych ,
 	\end{itemize}
 \end{itemize}
 Dzięki informatyzacji i komputerom możliwe jest zastosowanie optymalizacji w procesach o dużej złożoności i trudności projektowanych obiektów. 

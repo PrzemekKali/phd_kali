@@ -17,7 +17,7 @@ W przypadku konstrukcji, parametry projektowe to założone wartości opisujące
 
 Z reguły wartości zmiennych projektowych muszą spełniać szereg obostrzeń. Wynikają one ponownie ze względów technologicznych, normowych lub innych uznanych za istotne przez projektanta. Z tego powodu, na zmienne projektowe $\vect{x}$ narzucone są ograniczenia. Wektor, który spełnia wszystkie ograniczenia nazywany jest dopuszczalnym. W analizie konstrukcji budowlanych ograniczeniami mogą być wymogi wytrzymałościowe, eksploatacyjne - zarówno statyczne jak i dynamiczne - czy też warunki stateczności. 
 
-\cite{Tesch2016} zaproponował klasyfikację problemu optymalizacji zależnie od następujących charakterystyk:
+Wszystkie powyższe elementy definiują problem optymalizacji. Każdy z nich może przyjmować różne postaci co będzie miało znaczący wpływ przede wszystkim na wybór metody rozwiązania problemu. \cite{Tesch2016} zaproponował następującą klasyfikację problemów optymalizacji zależnie od rodzajów elementów je definiujących:
 \begin{itemize}
 	\item Liczba funkcji celu
 	\begin{itemize}
@@ -31,8 +31,8 @@ Z reguły wartości zmiennych projektowych muszą spełniać szereg obostrzeń. 
 	\end{itemize}
 	\item Liniowość funkcji celu
 	\begin{itemize}
-		\item liniowa - funkcja celu oraz ograniczenia są liniowe,
-		\item nieliniowa - funkcja celu lub ograniczenia nie są liniowe,
+		\item problem programowania liniowego - funkcja celu i ograniczenia są liniowe,
+		\item problem programowania nieliniowego - funkcja celu lub ograniczenia nie są liniowe,
 	\end{itemize}
 	\item Rodzaj zmiennych projektowych
 	\begin{itemize}
@@ -41,6 +41,8 @@ Z reguły wartości zmiennych projektowych muszą spełniać szereg obostrzeń. 
 		\item mieszane - w problemie występują zarówno zmienne ciągłych jak i dyskretnych ,
 	\end{itemize}
 \end{itemize}
+Klasyfikacje zawarte w klasycznych pozycjach dotyczących optymalizacji podają również podział ze względu na to czy zmienne projektowe są liczbami czy funkcjami \parencite{Szymczak1995,Findeisen1980}.
+
 Dzięki informatyzacji i komputerom możliwe jest zastosowanie optymalizacji w procesach o dużej złożoności i trudności projektowanych obiektów. 
 \section{Meta-heurystyczne metody optymalizacji}
 \section{Particle Swarm optimization}

@@ -905,6 +905,49 @@
       \field{pages}{537\bibrangedash 550}
       \range{pages}{14}
     \endentry
+    \entry{Findeisen1980}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bf96b029a679f6944bcff0a5324db0e4}{%
+           family={Findeisen},
+           familyi={F\bibinitperiod},
+           given={W{ł}adys{ł}aw},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dccc6a6eec7cbd37ff8d3a87551e637c}{%
+           family={Szymanowski},
+           familyi={S\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b24485a133a1752d33250bfc21b7cab}{%
+           family={Wierzbicki},
+           familyi={W\bibinitperiod},
+           given={Andrzej},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \list{publisher}{1}{%
+        {Państwowe Wydawnictwo Naukowe}%
+      }
+      \strng{namehash}{8453a2f9b39a19ee0de22e257d5eaacd}
+      \strng{fullhash}{8453a2f9b39a19ee0de22e257d5eaacd}
+      \strng{bibnamehash}{8453a2f9b39a19ee0de22e257d5eaacd}
+      \strng{authorbibnamehash}{8453a2f9b39a19ee0de22e257d5eaacd}
+      \strng{authornamehash}{8453a2f9b39a19ee0de22e257d5eaacd}
+      \strng{authorfullhash}{8453a2f9b39a19ee0de22e257d5eaacd}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Wydanie dr}
+      \field{title}{{Teoria i metody obliczeniowe optymalizacji}}
+      \field{year}{1980}
+    \endentry
     \entry{Fryba1999}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=401a4d46c3044b62c46cc63e60cf0002}{%

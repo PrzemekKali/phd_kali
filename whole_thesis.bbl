@@ -1818,6 +1818,54 @@
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1995_Kennedy, Eberhart_Particle swarm optimization.pdf:pdf
       \endverb
     \endentry
+    \entry{Kennedy1995a}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=24fc7a255aa314e71ac724efd7ca5193}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=21da0cb6f60840b2b15a6264d64909d8}{%
+           family={Eberhart},
+           familyi={E\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{66c6dcfa4d8d0a108681f149b4837715}
+      \strng{fullhash}{66c6dcfa4d8d0a108681f149b4837715}
+      \strng{bibnamehash}{66c6dcfa4d8d0a108681f149b4837715}
+      \strng{authorbibnamehash}{66c6dcfa4d8d0a108681f149b4837715}
+      \strng{authornamehash}{66c6dcfa4d8d0a108681f149b4837715}
+      \strng{authorfullhash}{66c6dcfa4d8d0a108681f149b4837715}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A concept for the optimization of nonlinear functions using particle swarm methodology is introduced. The evolution of several paradigms is outlined, and an implementation of one of the paradigms is discussed. Benchmark testing of the paradigm is described, and applications, including nonlinear function optimization and neural network training, are proposed. The relationships between particle swarm optimization and both artificial life and genetic algorithms are described, 1 INTRODUCTION This paper introduces a method for optimization of continuous nonlinear functions. The method was discovered through simulation of a simplified social model; thus the social metaphor is discussed, though the algorithm stands without metaphorical support. This paper describes the particle swarm optimization concept in terms of its precursors, briefly reviewing the stages of its development from social simulation to optimizer. Discussed next are a few paradigms that implement the concept. Finally, the implementation of one paradigm is discussed in more detail, followed by results obtained from applications and tests upon which the paradigm has been shown to perform successfully.}
+      \field{isbn}{0780327683}
+      \field{issn}{1598-8619}
+      \field{journaltitle}{Proceedings of ICNN'95 - International Conference on Neural Networks}
+      \field{number}{1}
+      \field{title}{{47-Particle Swarm Optimization Proceedings., IEEE International Conference}}
+      \field{volume}{11}
+      \field{year}{1995}
+      \field{pages}{111\bibrangedash 117}
+      \range{pages}{7}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1995_Kennedy, Eberhart_47-Particle Swarm Optimization Proceedings., IEEE International Conference.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ci.nii.ac.jp/naid/10015518367
+      \endverb
+      \verb{url}
+      \verb http://ci.nii.ac.jp/naid/10015518367
+      \endverb
+      \keyw{android application,global optimization,particle swarm optimization,smartphone}
+    \endentry
     \entry{Lengvarsky2013}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=dcb82e336d476d6ea96c34eb956cc428}{%

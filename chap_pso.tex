@@ -72,20 +72,20 @@ Podsumowując i odwołując się do wyżej przytoczonej klasyfikacji problemów 
 \section{Określenie funkcji celu i wybór metody optymalizacji}
 Wpływ poszczególnych rozwiązań konstrukcyjnych obiektu na jego odpowiedź dynamiczną zalicza się do zagadnień złożonych. 
 Pierwszą funkcją celu postawionego problemu może być minimalizacja przyspieszeń pionowych pomostu w trakcie przejazdu. Jest to najbardziej najczęściej decydujący warunek eksploatacyjny mostu narzucony przez normę Europejską. Drugą pożądaną cechą może być poszukiwanie najtańszego obiektu (w uproszczeniu najmniejszej ilości materiału), przy spełnieniu wszystkich innych warunków wytrzymałościowych. Wybór metody optymalizacji, która została wykorzystana dokonano przez analizę rozpatrywanego zadania. Z uwagi na brak funkcyjnego opisu odpowiedzi dynamicznej modelu numerycznego zaniechano użycia metod analitycznych, wymagających obliczania pochodnych. Dodatkowo problem ma charakter globalny i nie wolno dopuścić do zakończenia poszukiwania w ekstremum lokalnym.  Odrzucono również metody losowe i systematycznego przeszukiwania z uwagi na długotrwałe wyznaczanie funkcji celu i bardzo nieefektywny algorytm. Kolejnym kryterium była uniwersalność algorytmu, ponieważ zaplanowano użycie go w dwóch zupełnie różnych problemach: kalibracji modelu i optymalizacji konstrukcji z punktu widzenia zachowania dynamicznego. Ostatnim kryterium była udokumentowana w literaturze skuteczność metody, w tym wykorzystanie jej w przypadkach analizy i oceny konstrukcji. Powyższe warunki spełniają metody metaheurystyczne. Spośród opisanych w literaturze wybrano metodę optymalizacji rojem cząstek.
-\section{Optymalizacja rojem cząstek}
+\section{Opis algorytmu}
 Optymalizacja rojem cząstek \teng{Particle Swarm Optimization (PSO)} jest metaheurystycznym, inspirowanym naturą algorytmem optymalizacji. W bazowej wersji powstał w roku 1995 \parencite{Kennedy1995a,Eberhart1995} i od tamtej pory ulegał wielu modyfikacjom, udoskonaleniom i rozszerzeniom. Metoda zakłada istnienie pewnej populacji - roju składającego się z $M$ cząstek. Każda cząstka o indeksie $i$ posiada trzy informacje $(\vect{x}_i,\vect{v}_i,\vect{p}_i)$. $\vect{x}_i$ i $\vect{p}_i$ są wektorami o długości $D$ oznaczającymi punkt w przeszukiwanej przestrzeni $\matr{X}$, gdzie $D$ jest liczbą zmiennych projektowych problemu. $\vect{x}_i$ oznacza aktualną pozycją cząstki w przestrzeni $\matr{X}$. Z kolei $\vect{p}_i$ określa najlepsze dotychczasowe położenie cząstki $i$ \teng{personal best (pbest)}. Jakość położenia określana jest przez wyznaczenie funkcji celu dla danej cząstki (np. zakładając minimalizację, mniejsza wartość funkcji celu jest lepsza od większej). Jeżeli funkcja celu dla nowego położenia cząstki jest lepsza niż zachowana w pamięci (pbest) to wektor $\vect{p}_i$ jest aktualizowany do nowej wartości. $\vect{v}_i$ jest również wektorem o długości $D$ i oznacza różnicę pomiędzy nowym położeniem w chwili $t+1$ i poprzedzającym w chwili $t$:
 \begin{equation}
 	\vect{x}_i^{t+1}=\vect{x}_i^t+\vect{v}_i^{t+1}
 \end{equation}
  Jako że wektor $\vect{v}_i$ decyduje o kolejnym położeniu cząstki nazywany jest również wektorem prędkości. Współrzędne wektora $\vect{v}_i$ z kroku $t$ uaktualniane są w kolejnej iteracji $t+1$ w następujący sposób:
-\begin{equation}
+\begin{equation} \label{eq: pso_velocity}
 	\vect{v}_{i}^{t+1}=\theta\vect{v}_i^t+\alpha\vect{u}_1^t\circ (\vect{n}_i^t-\vect{x}_i^t)+\beta\vect{u}_2^t\circ(\vect{p}_i^t-\vect{x}_i^t)
 \end{equation}
-gdzie wektory $u_1^t$ i $u_2^t$ zawierają zestawy losowych liczb o rozkładzie jednostajnym z zakresu [0,1], ustalonych w chwili czasowej $t$. Symbol $(\circ)$ oznacza iloczyn skalarny. Parametry $\alpha$, $\beta$ i $\theta$ w pierwotnej wersji algorytmu są stałymi. W zależności od zastosowanej topologii roju, $\vect{n}_i$ oznacza najlepsze rozwiązanie $\vect{p}_i$ spośród dostępnych sąsiadów. W popularnym wersji stosowana jest topologia gbest, w której $\vect{n}_i$ przyjmuje najlepszą wartość $\vect{p}_i$ spośród wszystkich cząstek.
-\subsection{Parametry algorytmu PSO}
+gdzie wektory $u_1^t$ i $u_2^t$ zawierają zestawy losowych liczb o rozkładzie jednostajnym z zakresu [0,1], ustalonych w chwili czasowej $t$. Symbol $(\circ)$ oznacza iloczyn skalarny. Parametry $\alpha$, $\beta$ i $\theta$ w pierwotnej wersji algorytmu są stałymi. W zależności od zastosowanej topologii roju, $\vect{n}_i$ oznacza najlepsze rozwiązanie $\vect{p}_i$ spośród dostępnych sąsiadów. W jednej z najpopularniejszych i najbardziej intuicyjnych wersji stosowana jest topologia gbest, w której $\vect{n}_i$ przyjmuje najlepszą wartość $\vect{p}_i$ spośród wszystkich cząstek.
+\subsubsection{Parametry algorytmu PSO}
 Każdy składnik prędkości spełnia określoną rolę. Pierwszy jest związany z bezwładnością i utrzymuje on bieżącą trajektorię cząstki. Parametr $\theta$ w ogólności zmniejsza prędkość, zapewniając lepszą zbieżność rozwiązania \parencite{Blackwell2019}. Jego wartość może być stała lub zmienna w trakcie analizy. Współczynniki $\alpha$ i $\beta$ odpowiadają za przyspieszenie na bazie odpowiednio własnych i społecznych doświadczeń. 
-\cite{Clerc2002} wyznaczyli wartości $\theta=0.7968$, $\alpha=1.4962$ i $\beta=1.4962$ jako optymalne z punktu widzenia działania algorytmu. Przyjęcie równości $\alpha=\beta$ oznacza, że na prędkość cząstki równy wpływ mają doświadczenia własne i sąsiadów. Do podobnych rezultatów doszli \cite{Shi1998}. \cite{Xu2007} podaje przykład zmiennego wariantu, gdzie $\theta$ zmniejsza swoją wartość liniowo od 0.9 do 0.4, a parametry $\alpha$ i $\beta$ są stałe i równe 2.0.
-\subsection{Topologie roju}
+\cite{Clerc2002} wyznaczyli wartości $\theta=0.7968$, $\alpha=1.4962$ i $\beta=1.4962$ jako optymalne z punktu widzenia działania algorytmu. Przyjęcie równości $\alpha=\beta$ oznacza, że na prędkość cząstki równy wpływ mają doświadczenia własne i sąsiadów. Do podobnych rezultatów doszli \cite{Shi1998}. \cite{Xu2007} podaje przykład zmiennego wariantu, gdzie $\theta$ zmniejsza swoją wartość liniowo od 0.9 do 0.4, a parametry $\alpha$ i $\beta$ są stałe i równe 2.0. \cite{Poli2007} obszernie opisali metody wyznaczania wartości parametrów algorytmu.
+\subsubsection{Topologie roju}
 Topologa roju odpowiada za zachowanie społeczne cząstek roju. Określa ona sąsiedztwo, z którym cząstka może się komunikować i wymieniać doświadczeniem. Topologie dzielą się na dwie główne grupy: globalne \teng{global best (gbest))} i lokalne \teng{local best (lbest)}. Schemat topologii można przedstawić za pomocą grafów, w których węzły oznaczają cząstki, a krawędzie możliwość komunikacji z inną cząstką. Trzy najczęściej występujące w literaturze przedmiotu topologie to:
 \begin{itemize}
 	\item topologia pierścieniowa (Rys. \ref{fig: pso_topologies1}),
@@ -94,17 +94,22 @@ Topologa roju odpowiada za zachowanie społeczne cząstek roju. Określa ona są
 \end{itemize}
 \begin{figure}[h]
 	\centering
-	\subfloat[]{\includegraphics[width=0.3\linewidth]{/PSO/topology/pierscien.pdf} \label{fig: pso_topologies1}}
-	\subfloat[]{\includegraphics[width=0.3\linewidth]{/PSO/topology/global.pdf} \label{fig: pso_topologies2}}
-	\subfloat[]{\includegraphics[width=0.3\linewidth]{/PSO/topology/neumann.pdf} \label{fig: pso_topologies3}}
+	\subfloat[Topologia pierścieniowa]{\includegraphics[width=0.3\linewidth]{/PSO/topology/pierscien.pdf} \label{fig: pso_topologies1}}
+	\subfloat[Topologia pełnego grafu]{\includegraphics[width=0.3\linewidth]{/PSO/topology/global.pdf} \label{fig: pso_topologies2}}
+	\subfloat[Topologia von Neumanna]{\includegraphics[width=0.3\linewidth]{/PSO/topology/neumann.pdf} \label{fig: pso_topologies3}}
 	\captionsetup{justification=centering}
-	\caption{}
+	\caption{Schematy wybranych topologi komunikacji pomiędzy cząstkami w metodzie optymalizacji rojem cząstek}
 	\label{fig: pso_topologies}
 \end{figure}
-Przyjęta topologia roju może mieć istotny wpływ na efektywność algorytmu. Topologie należące do rodziny gbest osiągają szybciej zbieżność, ale istnieje większe ryzyko na utknięcie w minimum lokalnym gdy funkcja celu nie jest unimodalna. Innymi słowy jest przynosi ona precyzyjniejsze rozwiązanie, ale mniej dokładnie przeszukuje obszar. Przy wykorzystaniu rodziny lbest efekt jest odwrotny. Ograniczona jest komunikacja jedynie do wąskiego grona sąsiadów przez co algorytm zbiega do rozwiązania wolniej, ale ma szansę przeszukać dokładniej wiekszy obszar.
+Przyjęta topologia roju ma istotny wpływ na zachowanie i efektywność algorytmu. Topologie należące do rodziny gbest osiągają szybciej zbieżność, ale istnieje większe ryzyko na utknięcie w minimum lokalnym gdy funkcja celu nie jest unimodalna. Innymi słowy przynosi ona precyzyjniejsze rozwiązanie, ale mniej dokładnie przeszukuje obszar. Przy wykorzystaniu rodziny lbest efekt jest odwrotny. Ograniczona jest komunikacja jedynie do wąskiego grona sąsiadów, przez co algorytm zbiega do rozwiązania wolniej. Zwiększa to szansę na dokładniejsze przeszukanie obszaru, ale zmniejsza precyzję ostatecznego wyniku. Topologie mogą być również podzielone na statyczne i dynamiczne. Pierwsze utrzymują swoją strukturę przez cały czas wykonywania algorytmu, drugie zmieniają swoje właściwości wraz z postępem obliczeń. Najczęściej topologiach dynamicznych populacja rozpoczyna od małej liczby sąsiadów żeby w trakcie wykonywania algorytmu ich liczba stopniowo wzrastała \parencite{Poli2007}. Warto podkreślić, że w klasycznej wersji algorytmu położenie cząstki w przestrzeni $\matr{X}$ nie ma wpływu na początkowy wybór sąsiedztwa zgodnie z założoną topologią.
 
-
-
-
+Jedyną topologią z rodziny gbest jest topologia pełnego grafu (Rys. \ref{fig: pso_topologies2}). Każda cząstka może przekazywać informację o najlepszym położeniu ze wszystkimi innymi. W tym wariancie wektor $\vect{n}_i$ w formule (\ref{eq: pso_velocity}) jest równy dla wszystkich cząstek i odpowiada najlepszemu dotychczasowemu położeniu całej populacji. Z kolei pierwszą i najprostszą topologią lbest jest topologia pierścieniowa (Rys. \ref{fig: pso_topologies1}). Komunikacja jest zapewnione jedynie pomiędzy najbliższymi sąsiadami: cząstka o indeksie $i$ wymienia informację o najlepszym położeniu jedynie z cząstkami o indeksach $i-1$ i $i+1$. Trzecia wymieniona topologia von Neumanna należy również do rodziny lbest, ale reprezentuje kompromis pomiędzy przypadkami skrajnymi: topologią pierścieniową i pełnego grafu (Rys. \ref{fig: pso_topologies3}). Pozwala ona na wymianę informacji z czterema sąsiadami.\parencite{Kennedy2002} wykonali szereg testów obliczeniowych dla zróżnicowanych problemów dla wielu topologii. W tym teście topologia von Neumanna otrzymała najwyższą sumaryczną notę i jest opisana jako uniwersalna. Obszerne porównanie topologii wraz z historycznym opisem i powstania oraz efektywnością zostało zawarte w pracy \parencite{Blackwell2019}.
 \subsection{Zastosowania}
+
+
+\section{Optymalizacja wielokryterialna}
+
+
 \subsection{Przykład teoretyczny}
+
+

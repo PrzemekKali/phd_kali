@@ -2055,6 +2055,47 @@
       \endverb
       \keyw{android application,global optimization,particle swarm optimization,smartphone}
     \endentry
+    \entry{Kennedy2002}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=24fc7a255aa314e71ac724efd7ca5193}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=af1f463d1015643bc23e14618bb29436}{%
+           family={Mendes},
+           familyi={M\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{dca2ee1b1c8eb8c22b55fda3820d53ba}
+      \strng{fullhash}{dca2ee1b1c8eb8c22b55fda3820d53ba}
+      \strng{bibnamehash}{dca2ee1b1c8eb8c22b55fda3820d53ba}
+      \strng{authorbibnamehash}{dca2ee1b1c8eb8c22b55fda3820d53ba}
+      \strng{authornamehash}{dca2ee1b1c8eb8c22b55fda3820d53ba}
+      \strng{authorfullhash}{dca2ee1b1c8eb8c22b55fda3820d53ba}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2002 Congress on Evolutionary Computation. CEC'02 (Cat. No. 02TH8600)}
+      \field{isbn}{0780372824}
+      \field{title}{{Population structure and particle swarm performance}}
+      \field{volume}{2}
+      \field{year}{2002}
+      \field{pages}{1671\bibrangedash 1676}
+      \range{pages}{6}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2002_Kennedy, Mendes_Population structure and particle swarm performance.pdf:pdf
+      \endverb
+    \endentry
     \entry{Lengvarsky2013}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=dcb82e336d476d6ea96c34eb956cc428}{%
@@ -2805,6 +2846,66 @@
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1991_Phan, Juang, Longman_On Markov parameters in system identification.pdf:pdf
       \endverb
+    \endentry
+    \entry{Poli2007}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1747e08170a0c426ada009eaa77aac9e}{%
+           family={Poli},
+           familyi={P\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=24fc7a255aa314e71ac724efd7ca5193}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=8f7df105c9e0f1f7b35a6511e23b7d0a}{%
+           family={Blackwell},
+           familyi={B\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7d93e086ff6ffd50cb813ee3efbe0e35}
+      \strng{fullhash}{7d93e086ff6ffd50cb813ee3efbe0e35}
+      \strng{bibnamehash}{7d93e086ff6ffd50cb813ee3efbe0e35}
+      \strng{authorbibnamehash}{7d93e086ff6ffd50cb813ee3efbe0e35}
+      \strng{authornamehash}{7d93e086ff6ffd50cb813ee3efbe0e35}
+      \strng{authorfullhash}{7d93e086ff6ffd50cb813ee3efbe0e35}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Particle swarm optimization (PSO) has undergone many changes since its introduction in 1995. As researchers have learned about the technique, they have derived new versions, developed new applications, and published theoretical studies of the effects of the various parameters and aspects of the algorithm. This paper comprises a snapshot of particle swarming from the authors' perspective, including variations in the algorithm, current and ongoing research, applications and open problems.}
+      \field{issn}{1935-3812, 1935-3820}
+      \field{journaltitle}{Swarm Intelligence}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{{Particle swarm optimization: An overview}}
+      \field{volume}{1}
+      \field{year}{2007}
+      \field{pages}{33\bibrangedash 57}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/s11721-007-0002-0
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2007_Poli, Kennedy, Blackwell_Particle swarm optimization An overview.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s11721-007-0002-0 http://files/512/Poli i in. - 2007 - Particle swarm optimization An overview.pdf http://files/514/Poli i in. - 2007 - Particle swarm optimization An overview.pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s11721-007-0002-0%20http://files/512/Poli%20i%20in.%20-%202007%20-%20Particle%20swarm%20optimization%20An%20overview.pdf%20http://files/514/Poli%20i%20in.%20-%202007%20-%20Particle%20swarm%20optimization%20An%20overview.pdf
+      \endverb
+      \keyw{computer science,firefly algorithm,machine learning,mathematical optimization,meta optimization,metaheuristic,multi swarm optimization,parallel metaheuristic,particle swarm optimization,stochastic diffusion search,test functions for optimization}
     \endentry
     \entry{Poprawa2018}{thesis}{}
       \name{author}{1}{}{%

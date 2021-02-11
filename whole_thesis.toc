@@ -121,36 +121,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Określenie funkcji celu i wybór metody optymalizacji}{64}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Optymalizacja rojem cząstek}{64}{}%
+\contentsline {section}{\numberline {4.3}Opis algorytmu}{64}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Parametry algorytmu PSO}{65}{}%
+\contentsline {subsubsection}{Parametry algorytmu PSO}{65}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Topologie roju}{65}{}%
+\contentsline {subsubsection}{Topologie roju}{65}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Zastosowania}{66}{}%
+\contentsline {section}{\numberline {4.4}Optymalizacja wielokryterialna}{67}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Przykład teoretyczny}{66}{}%
+\contentsline {subsection}{\numberline {4.4.1}Zastosowania}{67}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}{67}{}%
+\contentsline {subsection}{\numberline {4.4.2}Przykład teoretyczny}{67}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Charakterystyka obiektu}{67}{}%
+\contentsline {chapter}{\numberline {5}Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}{68}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Budowa modelu numerycznego}{70}{}%
+\contentsline {section}{\numberline {5.1}Charakterystyka obiektu}{68}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Identyfikacja modalna wiaduktu WK2}{73}{}%
+\contentsline {section}{\numberline {5.2}Budowa modelu numerycznego}{71}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Wybór punktów pomiarowych}{74}{}%
+\contentsline {section}{\numberline {5.3}Identyfikacja modalna wiaduktu WK2}{74}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Parametry akwizycji danych}{77}{}%
+\contentsline {subsubsection}{Wybór punktów pomiarowych}{75}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Przebieg badań}{78}{}%
+\contentsline {subsubsection}{Parametry akwizycji danych}{78}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Środki obciążeniowe}{78}{}%
+\contentsline {subsubsection}{Przebieg badań}{79}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Analiza i rezultaty badań}{79}{}%
+\contentsline {subsubsection}{Środki obciążeniowe}{79}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Kalibracja modelu numerycznego z wykorzystaniem PSO}{83}{}%
+\contentsline {subsubsection}{Analiza i rezultaty badań}{80}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Wielokryterialna optymalizacja modelu: opis + wyniki}{83}{}%
+\contentsline {section}{\numberline {5.4}Kalibracja modelu numerycznego z wykorzystaniem PSO}{84}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Podsumowanie i wnioski}{87}{}%
+\contentsline {section}{\numberline {5.5}Wielokryterialna optymalizacja modelu: opis + wyniki}{84}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Podsumowanie i wnioski}{88}{}%

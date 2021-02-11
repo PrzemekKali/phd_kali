@@ -3,9 +3,7 @@
 \documentclass[12pt,twoside]{report}
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
 \usepackage[polish]{babel}
-%\usepackage[latin2]{inputenc}
 \usepackage{polski}
-%\usepackage[T1]{fontenc}
 \usepackage{inputenc}[utf8]
 \usepackage[svgnames,table]{xcolor}
 
@@ -17,9 +15,13 @@
 \addbibresource{2020_08_19_My_Collection.bib}
 
 %NAGLOWEK I STOPKA
-\pagestyle{headings}
-
-
+%\pagestyle{headings}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[ro]{\slshape\nouppercase{\rightmark}}
+\fancyhead[le]{\slshape\nouppercase{\leftmark}}
+\fancyfoot[CE,CO]{\thepage}
 %OBRAZKI
 \usepackage{pgfplots}
 \usepackage{graphicx}
@@ -30,7 +32,7 @@
 \usepackage{float}
 %wzory
 \usepackage{amsmath,bm}
-%\usepackage{amsmath}
+
 %lista
 \usepackage{enumitem}
 

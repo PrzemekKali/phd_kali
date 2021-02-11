@@ -253,6 +253,50 @@
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2006_Bathe_Finite element procedures.pdf:pdf
       \endverb
     \endentry
+    \entry{Blackwell2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8f7df105c9e0f1f7b35a6511e23b7d0a}{%
+           family={Blackwell},
+           familyi={B\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=24fc7a255aa314e71ac724efd7ca5193}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{1115bf6d5e154520a8959979cd23322d}
+      \strng{fullhash}{1115bf6d5e154520a8959979cd23322d}
+      \strng{bibnamehash}{1115bf6d5e154520a8959979cd23322d}
+      \strng{authorbibnamehash}{1115bf6d5e154520a8959979cd23322d}
+      \strng{authornamehash}{1115bf6d5e154520a8959979cd23322d}
+      \strng{authorfullhash}{1115bf6d5e154520a8959979cd23322d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Particle swarm optimization (PSO) has two salient components: 1) a dynamical rule governing particle motion and 2) an interparticle communication topology. Recent practice has focused on the fully connected topology (Gbest) despite earlier indications on the superiority of local particle neighborhoods. This paper seeks to address the controversy with empirical trials with canonical PSO on a large benchmark of functions, categorized into 14 properties. This paper confirms the early lore that Gbest is the overall better algorithm for unimodal and separable problems and that a ring neighborhood of connectivity two (Lbest) is the preferred choice for multimodal, nonseparable and composition functions. Topologies of intermediate particle connectivity were also tested and the difference in global/local performance was found to be even more marked. A measure of significant improvement is introduced in order to distinguish major improvements from refinements. Lbest, according to the experiments on the 84 test functions and a bi-modal problem of adjustable severity, is found to have significant improvements later in the run, and to be more diverse at termination. A mobility study shows that Lbest is better able to jump between optimum basins. Indeed Gbest was unable to switch basins in the bi-modal trial. The implication is that Lbest's larger terminal diversity, its better ability to basin hop and its later significant improvement account for the performance enhancement. In several cases where Lbest was not the better algorithm, the trials show that Lbest was not stuck but would have continued to improve with an extended evaluation budget. Canonical PSO is a baseline algorithm and the ancestor of all contemporary PSO variants. These variants build on the basic structure of baseline PSO and the broad conclusions of this paper are expected to follow through. In particular, research that fails to consider local topologies risks underplaying the success of the promoted algorithm.}
+      \field{issn}{19410026}
+      \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
+      \field{number}{4}
+      \field{title}{{Impact of Communication Topology in Particle Swarm Optimization}}
+      \field{volume}{23}
+      \field{year}{2019}
+      \field{pages}{689\bibrangedash 702}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TEVC.2018.2880894
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2019_Blackwell, Kennedy_Impact of Communication Topology in Particle Swarm Optimization.pdf:pdf
+      \endverb
+      \keyw{Particle swarm optimization (PSO)}
+    \endentry
     \entry{Boashash2015}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8cbe2b7e7d3f077e746d29fe91afe676}{%
@@ -694,6 +738,48 @@
       \endverb
       \keyw{Earthquake engineering,Structural dynamics}
     \endentry
+    \entry{Clerc2002}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=643c0ab9c074872cdd74d540a87e303e}{%
+           family={Clerc},
+           familyi={C\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=24fc7a255aa314e71ac724efd7ca5193}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d7b5e03cf6e152a18394542370a8bbbc}
+      \strng{fullhash}{d7b5e03cf6e152a18394542370a8bbbc}
+      \strng{bibnamehash}{d7b5e03cf6e152a18394542370a8bbbc}
+      \strng{authorbibnamehash}{d7b5e03cf6e152a18394542370a8bbbc}
+      \strng{authornamehash}{d7b5e03cf6e152a18394542370a8bbbc}
+      \strng{authorfullhash}{d7b5e03cf6e152a18394542370a8bbbc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1089-778X}
+      \field{journaltitle}{IEEE transactions on Evolutionary Computation}
+      \field{number}{1}
+      \field{title}{{The particle swarm-explosion, stability, and convergence in a multidimensional complex space}}
+      \field{volume}{6}
+      \field{year}{2002}
+      \field{pages}{58\bibrangedash 73}
+      \range{pages}{16}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2002_Clerc, Kennedy_The particle swarm-explosion, stability, and convergence in a multidimensional complex space.pdf:pdf
+      \endverb
+    \endentry
     \entry{Clough1975}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=466a809b9d9fbc6119362ffb389b25be}{%
@@ -775,6 +861,109 @@
       \verb http://files/7/MD_PhD_06032008.pdf
       \endverb
       \keyw{Dynamika konstrukcji -- badania,Mosty -- drgania}
+    \endentry
+    \entry{Eberhart1995}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=2,uniquepart=given,hash=21da0cb6f60840b2b15a6264d64909d8}{%
+           family={Eberhart},
+           familyi={E\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=3c48c2b390e26f548e0165030fc81158}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2bab0950d34aae4433c5de15c9f0110}{%
+           family={{James Kennedy}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3ee4709df3fb0f767aa369f482555905}
+      \strng{fullhash}{3ee4709df3fb0f767aa369f482555905}
+      \strng{bibnamehash}{3ee4709df3fb0f767aa369f482555905}
+      \strng{authorbibnamehash}{3ee4709df3fb0f767aa369f482555905}
+      \strng{authornamehash}{3ee4709df3fb0f767aa369f482555905}
+      \strng{authorfullhash}{3ee4709df3fb0f767aa369f482555905}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The optimization of nonlinear functions using particle swarm methodology is described. Implementationsof two paradigms are discussed and compared, including a recently developed locally oriented paradigm. Benchmark testing of both paradigms is described, and applications, including neural network training and robot task learning, are proposed. Relationships between particle swarm optimization and both artificial life and evolutionary computation are reviewed.}
+      \field{booktitle}{MHS'95. Proceedings of the Sixth International Symposium on Micro Machine and Human Science}
+      \field{isbn}{978-0-7803-2676-7}
+      \field{issn}{08858993}
+      \field{month}{7}
+      \field{title}{{A new optimizer using particle swarm theory}}
+      \field{volume}{0-7803-267}
+      \field{year}{1995}
+      \field{pages}{39\bibrangedash 43}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/MHS.1995.494215
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop//1995_Eberhart, Kennedy, James Kennedy_A new optimizer using particle swarm theory.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://bytebucket.org/12er/pso/raw/b448ff0db375c1ac0c55855e9f19aced08b44ca6/doc/literature/Variants/topology/A new Optimizer using Particle Swarm Theory.pdf http://ieeexplore.ieee.org/document/494215/ http://files/508/Eberhart i Kennedy - 1995 - A new op
+      \endverb
+      \verb{url}
+      \verb https://bytebucket.org/12er/pso/raw/b448ff0db375c1ac0c55855e9f19aced08b44ca6/doc/literature/Variants/topology/A%20new%20Optimizer%20using%20Particle%20Swarm%20Theory.pdf%20http://ieeexplore.ieee.org/document/494215/%20http://files/508/Eberhart%20i%20Kennedy%20-%201995%20-%20A%20new%20op
+      \endverb
+      \keyw{artificial life,benchmark testing,evolutionary computation,neural network training,nonlinear function,particle swarm methodology,particle swarm optimization,robot task learning}
+    \endentry
+    \entry{Eberhart2001}{book}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=98ac4c1098613a375ef08a85d355cc76}{%
+           family={Eberhart},
+           familyi={E\bibinitperiod},
+           given={Russell\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=12d92c08cbd739cb423645113fab45fd}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Yuhui},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=24fc7a255aa314e71ac724efd7ca5193}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2a0bc7a5c14c3515fdddf1ef1be816d4}
+      \strng{fullhash}{2a0bc7a5c14c3515fdddf1ef1be816d4}
+      \strng{bibnamehash}{2a0bc7a5c14c3515fdddf1ef1be816d4}
+      \strng{authorbibnamehash}{2a0bc7a5c14c3515fdddf1ef1be816d4}
+      \strng{authornamehash}{2a0bc7a5c14c3515fdddf1ef1be816d4}
+      \strng{authorfullhash}{2a0bc7a5c14c3515fdddf1ef1be816d4}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0080518265}
+      \field{title}{{Swarm intelligence}}
+      \field{year}{2001}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2001_Eberhart, Shi, Kennedy_Swarm intelligence.pdf:pdf
+      \endverb
     \endentry
     \entry{Ewins2000}{book}{}
       \name{author}{1}{}{%
@@ -2964,12 +3153,12 @@
     \endentry
     \entry{Shi1987}{inproceedings}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=b021e844e28b9560f13df017fc1db48e}{%
+        {{un=1,uniquepart=given,hash=b021e844e28b9560f13df017fc1db48e}{%
            family={Shi},
            familyi={S\bibinitperiod},
            given={D},
            giveni={D\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=9cae2aaf86b5e3b7f810e6ea84b8ef7c}{%
            family={Stühler},
            familyi={S\bibinitperiod},
@@ -2994,6 +3183,46 @@
       \field{year}{1987}
       \field{pages}{1171\bibrangedash 1176}
       \range{pages}{6}
+    \endentry
+    \entry{Shi1998}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=12d92c08cbd739cb423645113fab45fd}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Yuhui},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=21da0cb6f60840b2b15a6264d64909d8}{%
+           family={Eberhart},
+           familyi={E\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{95007e6456950127144455bdf8110beb}
+      \strng{fullhash}{95007e6456950127144455bdf8110beb}
+      \strng{bibnamehash}{95007e6456950127144455bdf8110beb}
+      \strng{authorbibnamehash}{95007e6456950127144455bdf8110beb}
+      \strng{authornamehash}{95007e6456950127144455bdf8110beb}
+      \strng{authorfullhash}{95007e6456950127144455bdf8110beb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{1998 IEEE international conference on evolutionary computation proceedings. IEEE world congress on computational intelligence (Cat. No. 98TH8360)}
+      \field{isbn}{0780348699}
+      \field{title}{{A modified particle swarm optimizer}}
+      \field{year}{1998}
+      \field{pages}{69\bibrangedash 73}
+      \range{pages}{5}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1998_Shi, Eberhart_A modified particle swarm optimizer.pdf:pdf
+      \endverb
     \endentry
     \entry{Szafranski2013}{thesis}{}
       \name{author}{1}{}{%
@@ -3378,6 +3607,60 @@
       \field{year}{1983}
       \field{pages}{259\bibrangedash 265}
       \range{pages}{7}
+    \endentry
+    \entry{Xu2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d9daac33816d91e386ccaed618b7586c}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Shenheng},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f11fcfaee19143ed63f72cde7e0a069}{%
+           family={Rahmat-Samii},
+           familyi={R\bibinithyphendelim S\bibinitperiod},
+           given={Yahya},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6e6cc27af06697ee7725a872014c6a05}
+      \strng{fullhash}{6e6cc27af06697ee7725a872014c6a05}
+      \strng{bibnamehash}{6e6cc27af06697ee7725a872014c6a05}
+      \strng{authorbibnamehash}{6e6cc27af06697ee7725a872014c6a05}
+      \strng{authornamehash}{6e6cc27af06697ee7725a872014c6a05}
+      \strng{authorfullhash}{6e6cc27af06697ee7725a872014c6a05}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In order to enforce particles to search inside the solution space of interest during the optimization procedure, various boundary conditions are currently used in particle swarm optimization (PSO) algorithms. The performances, however, vary considerably with the dimensionality of the problem and the location of the global optimum in the solution space. In this paper, different boundary conditions are categorized into two groups, namely, restricted and unrestricted, according to whether the errant particles are relocated inside the allowable solution space or not. Moreover, efforts are made to explore different hybrid unrestricted boundary conditions by introducing the favorable characteristics of the reﬂecting and damping boundary conditions into the existing invisible boundary condition. The performances of the boundary conditions are tested based on both mathematical benchmark functions and a real-world electromagnetic problem: the optimization of a 2-D 16-element array antenna. Simulation results are examined from both the effectiveness and efﬁciency of the algorithm. Comparisons show that the unrestricted boundary conditions are more efﬁcient when the global optimum is inside the boundary of the solution space, and the damping boundary condition is more robust and consistent when the global optimum is close to the boundary.}
+      \field{issn}{0018-926X}
+      \field{journaltitle}{IEEE Transactions on Antennas and Propagation}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{{Boundary Conditions in Particle Swarm Optimization Revisited}}
+      \field{volume}{55}
+      \field{year}{2007}
+      \field{pages}{760\bibrangedash 765}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/TAP.2007.891562
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2007_Xu, Rahmat-Samii_Boundary Conditions in Particle Swarm Optimization Revisited.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/4120306/ http://files/541/Xu i Rahmat-Samii - 2007 - Boundary Conditions in Particle Swarm Optimization.pdf
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/4120306/%20http://files/541/Xu%20i%20Rahmat-Samii%20-%202007%20-%20Boundary%20Conditions%20in%20Particle%20Swarm%20Optimization.pdf
+      \endverb
+      \keyw{Array antenna,Evolutionary algorithm,Optimization methods,Particle swarm optimization (PSO)}
     \endentry
     \entry{Yamaguchi1997}{article}{}
       \name{author}{2}{}{%

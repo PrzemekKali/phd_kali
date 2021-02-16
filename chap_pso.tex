@@ -81,7 +81,7 @@ Optymalizacja rojem cząstek \teng{Particle Swarm Optimization (PSO)} jest metah
 \begin{equation} \label{eq: pso_velocity}
 	\vect{v}_{i}^{t+1}=\theta\vect{v}_i^t+\alpha\vect{u}_1^t\circ (\vect{n}_i^t-\vect{x}_i^t)+\beta\vect{u}_2^t\circ(\vect{p}_i^t-\vect{x}_i^t)
 \end{equation}
-gdzie wektory $u_1^t$ i $u_2^t$ zawierają zestawy losowych liczb o rozkładzie jednostajnym z zakresu [0,1], ustalonych w chwili czasowej $t$. Symbol $(\circ)$ oznacza iloczyn skalarny. Parametry $\alpha$, $\beta$ i $\theta$ w pierwotnej wersji algorytmu są stałymi. W zależności od zastosowanej topologii roju, $\vect{n}_i$ oznacza najlepsze rozwiązanie $\vect{p}_i$ spośród dostępnych sąsiadów. W jednej z najpopularniejszych i najbardziej intuicyjnych wersji stosowana jest topologia gbest, w której $\vect{n}_i$ przyjmuje najlepszą wartość $\vect{p}_i$ spośród wszystkich cząstek.
+gdzie wektory $\vect{u}_1^t$ i $\vect{u}_2^t$ zawierają zestawy losowych liczb o rozkładzie jednostajnym z zakresu [0,1], ustalonych w chwili czasowej $t$. Symbol $(\circ)$ oznacza iloczyn skalarny. Parametry $\alpha$, $\beta$ i $\theta$ w pierwotnej wersji algorytmu są stałymi. W zależności od zastosowanej topologii roju, $\vect{n}_i$ oznacza najlepsze rozwiązanie $\vect{p}_i$ spośród dostępnych sąsiadów. W jednej z najpopularniejszych i najbardziej intuicyjnych wersji stosowana jest topologia gbest, w której $\vect{n}_i$ przyjmuje najlepszą wartość $\vect{p}_i$ spośród wszystkich cząstek.
 \subsubsection{Parametry algorytmu PSO}
 Każdy składnik prędkości spełnia określoną rolę. Pierwszy jest związany z bezwładnością i utrzymuje on bieżącą trajektorię cząstki. Parametr $\theta$ w ogólności zmniejsza prędkość, zapewniając lepszą zbieżność rozwiązania \parencite{Blackwell2019}. Jego wartość może być stała lub zmienna w trakcie analizy. Współczynniki $\alpha$ i $\beta$ odpowiadają za przyspieszenie na bazie odpowiednio własnych i społecznych doświadczeń. 
 \cite{Clerc2002} wyznaczyli wartości $\theta=0.7968$, $\alpha=1.4962$ i $\beta=1.4962$ jako optymalne z punktu widzenia działania algorytmu. Przyjęcie równości $\alpha=\beta$ oznacza, że na prędkość cząstki równy wpływ mają doświadczenia własne i sąsiadów. Do podobnych rezultatów doszli \cite{Shi1998}. \cite{Xu2007} podaje przykład zmiennego wariantu, gdzie $\theta$ zmniejsza swoją wartość liniowo od 0.9 do 0.4, a parametry $\alpha$ i $\beta$ są stałe i równe 2.0. \cite{Poli2007} obszernie opisali metody wyznaczania wartości parametrów algorytmu.
@@ -141,7 +141,62 @@ Na rysunku pokazano efekt oddziaływania na cząstkę każdego z warunków brzeg
 	\caption{Rodzaje warunków brzegowych wpływające na zachowanie cząstki wychodzącej poza zakres rozwiązań dopuszczalnych}
 	\label{fig: pso_bounds_types}
 \end{figure}
+\subsubsection{Warunki zakończenia}
+Algorytm PSO z każdą kolejną iteracją aktualizuje położenie cząstek i pamięć roju. Warunek zakończenia przeszukiwania przestrzeni może odbyć się w różny sposób. Najprostszą metodą jest określenie maksymalnej liczby aktualizacji roju, po której poszukiwanie zostanie zakończone. W tym przypadku na wstępie wiadomym jest ile iteracji zostanie wykonanych i przy znajomości czasu potrzebnego na oszacowanie funkcji celu możliwe jest określenie długości całego procesu optymalizacji. Podstawową wadą tego kryterium jest, że nie odnosi się w żaden sposób do jakości rozwiązania w ciągu trwania obliczeń. \parencite{Zielinski2007} przedstawili zestaw innych kryteriów, które uwzględniają zachowanie roju w trakcie poszukiwań. Wyróżniono następujące kryteria mogące wpływać na warunek zakończenie algorytmu:
+\begin{itemize}[noitemsep]
+	\item kryterium postępu - optymalizacja jest zatrzymana kiedy w określonej liczbie kolejnych iteracji nie nastąpi znaczące polepszenie ekstremum globalnego,
+	\item kryterium ruchu - optymalizacja jest zatrzymywana kiedy położenie bieżącego ekstremum globalnego nie zmienia się istotnie w określonej liczbie kolejnych iteracji,
+	\item kryterium dystrybucji populacji - optymalizacja jest zatrzymywana kiedy cząstki zgrupują się w jednym miejscu. Dystrybucja może być mierzona m. in. przez odchylenie standardowe położenia populacji, maksymalny dystans między cząstkami lub rozmiar roju mierzony przez długość boków hiperprostokąta, w którym w całości się mieści.  
+	\item kryterium prędkości - optymalizacja jest zatrzymywana kiedy prędkość cząstek roju spadnie poniżej wartości minimalnej i nie wzrośnie przez określoną liczbę kolejnych iteracji. 
+\end{itemize}
+Wszystkie powyższe warunki mogą być łączone i użyte wedle potrzeb w zależności od specyfiki problemu optymalizacji. \cite{Banach2017} określił kryterium prędkości jako najbardziej uniwersalne, ponieważ nie dotyczy położenia cząstek roju i nie zależy od rozwiązywanego problemu optymalizacji. Uzasadnił, że nie wymaga ono znajomości wartości progowych najczęściej nieznanej funkcji celu oraz nie wymaga by wszystkie cząstki zbiegły w tym samym miejscu.
+
+Podsumowując, algorytm podstawowej wersji metody optymalizacji rojem cząstek (PSO) przedstawiono na rysunku \ref{fig: pso_single_algorith}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim= 0 100 0 0, clip, width=0.85\linewidth]{/PSO/algorithm/algorithm2.pdf} 
+	\captionsetup{justification=centering}
+	\caption{Podstawowy algorytm optymalizacji jednokryterialnej metodą roju cząstek PSO. Przypadek minimalizacji}
+	\label{fig: pso_single_algorith}
+\end{figure}
+
+
 \subsection{Przykład teoretyczny}
+W celu weryfikacji stosowanej metody przygotowano przykład teoretyczny. Zastosowano wariant minimalizacji funkcji celu za pomocą metody PSO. Zaimplementowano algorytm PSO w języku Python. Do testu wybrano funkcję multimodalną przedstawioną w pracy \parencite{Tesch2016} i daną wzorem:
+\begin{equation} \label{eq: pso_test_func}
+	f(x,y) = -5\sin{x}\sin{y}-5\sin{7x}\sin{7y}
+\end{equation}
+gdzie $x$, $y$ tworzą wektor zmiennych projektowych, a wartość funkcji $f(x,y)$ jest funkcją celu. Funkcję zwizualizowano w przestrzeni 3D na rysunku \ref{fig: pso_example_function}. Podobnie jak w pracy źródłowej przedział dopuszczalny dla każdej zmiennej projektowej to $[0,\pi]$. Wartość minimalna funkcji w tej dziedzinie jest znana i wynosi $f_{\text{min}}=-6$, dla punktu $(x,y)=(\frac{\pi}{2},\frac{\pi}{2})$.
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim= 0 0 0 10, clip]{/PSO/testfunct/fig_3dplot_19_09_18.pdf} 
+	\captionsetup{justification=centering}
+	\caption{Wizualizacja funkcji testowej w przestrzeni trójwymiarowej}
+	\label{fig: pso_example_function}
+\end{figure}
+
+
+Wygenerowano populację złożoną z 20 cząstek. Do generacji użyto wariant korzystający z sekwencji Haltona. Z uwagi na multimodalność funkcji celu zastosowano topologię z rodziny lbest - von Neumanna. Warunki brzegowe przyjęto typu niewidocznego. Parametry wektora prędkości (\ref{eq: pso_velocity}) ustawiono domyślnie równe: $\theta=0.7968$, $\alpha=1.4962$ oraz $\beta=1.4962$. Zatrzymanie algorytmu nastąpiło po wykonaniu założonej liczby aktualizacji całego roju równej 25. W konsekwencji całkowita liczba ewaluacji funkcji celu przez cząstki wynosi $25\cdot20=500$. Na rysunku \ref{fig: pso_convergence_plot} zaprezentowano diagram poprawy najlepszego rozwiązania znalezionego przez rój. Na rysunku \ref{fig: pso_test_func_all} pokazano 6 etapów z procesu poszukiwania przez rój minimum funkcji. Ostateczna znaleziona wartość minimum globalnego wynosi $f_{\text{min,25}}=-5.99$. Wartość ta została osiągnięta po około 400 ewaluacjach funkcji i jest bardzo bliska znanemu minimum globalnemu. Warto nadmienić, że po 215 ewaluacjach odnaleziona zostało rozwiązanie o funkcji celu wynoszącej $f=-5.98$. Wizualizacja położenia cząstek roju w kolejnych iteracjach pokazuje, że wraz z postępem algorytmu, cząstki z rozproszonego układu skupiają się konsekwentnie wokół lidera. Topologia von Neumanna spowalnia ten proces. Opóźnia to znalezienie precyzyjnego rozwiązania, ale obszar dopuszczalny jest przeszukany dokładniej. Na kolejnych grafikach widać, że pomimo znalezienia punktu bliskiego teoretycznego minimum globalnego (Rys. \ref{fig: pso_test_func_2}) wciąż pozostają cząstki, które eksplorują pozostały obszar. Na podstawie powyższego testu uznano, że zaimplementowany algorytm PSO działa poprawnie.
+\begin{figure}[h]
+	\centering
+	\includegraphics[]{/PSO/testfunct/fig_convergence11_30_59.pdf} 
+	\captionsetup{justification=centering}
+	\caption{Diagram postępu roju cząstek w poszukiwaniu minimum globalnego funkcji testowej}
+	\label{fig: pso_convergence_plot} 
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\subfloat[$f_{\text{min,0}}=-4.38$]{\includegraphics[trim=8 10 5 10, clip,width=0.33\linewidth]{/PSO/testfunct/fig_population_11_30_23.pdf} \label{fig: pso_test_func_1}}
+	\subfloat[$f_{\text{min,5}}=-5.34$]{\includegraphics[trim=8 10 5 10, clip,width=0.33\linewidth]{/PSO/testfunct/fig_04_00.pdf} \label{fig: pso_test_func_2}}
+	\subfloat[$f_{\text{min,10}}=-5.75$]{\includegraphics[trim=8 10 5 10, clip,width=0.33\linewidth]{/PSO/testfunct/fig_09_00.pdf} \label{fig: pso_test_func_3}}\\
+	\subfloat[$f_{\text{min,15}}=-5.98$]{\includegraphics[trim=8 10 5 10, clip,width=0.33\linewidth]{/PSO/testfunct/fig_14_00.pdf} \label{fig: pso_test_func_4}}
+	\subfloat[$f_{\text{min,20}}=-5.99$]{\includegraphics[trim=8 10 5 10, clip,width=0.33\linewidth]{/PSO/testfunct/fig_19_00.pdf} \label{fig: pso_test_func_5}}
+	\subfloat[$f_{\text{min,25}}=-5.99$]{\includegraphics[trim=8 10 5 10, clip,width=0.33\linewidth]{/PSO/testfunct/fig_24_00.pdf} \label{fig: pso_test_func_6}}
+	\captionsetup{justification=centering}
+	\caption{Etapy rozwiązania testowego problemu optymalizacji dwuwymiarowej za pomocą roju cząstek. Minimum globalne znalezione przez rój oznaczono przez $f_{\text{min},t}$, gdzie indeks $t$ oznacza liczbę pełnych aktualizacji położenia roju. Za pomocą izomapy pokazano wartość funkcji celu na płaszczyźnie}
+	\label{fig: pso_test_func_all}
+\end{figure}
 
 
 

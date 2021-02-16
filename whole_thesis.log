@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.12)  15 FEB 2021 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.12)  16 FEB 2021 17:25
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -2997,7 +2997,18 @@ Overfull \hbox (15.66649pt too wide) in paragraph at lines 136--141
  [][][][][] 
  []
 
-)
+
+Overfull \hbox (8.14998pt too wide) in paragraph at lines 149--150
+[]\OT4/cmr/m/n/12 kryterium dys-try-bu-cji po-pu-la-cji - opty-ma-li-za-cja jes
+t za-trzy-my-wana kiedy cz¡stki
+ []
+
+
+Overfull \hbox (6.02847pt too wide) in paragraph at lines 149--150
+\OT4/cmr/m/n/12 od-chy-le-nie stan-dar-dowe po-ªo-»e-nia po-pu-la-cji, mak-sy-m
+alny dy-stans mi¦-dzy cz¡st-
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3008,17 +3019,133 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [69 <./figures///PSO/bounds/absorb.pdf> <./figures///PSO/bounds/refl.pdf> <./fi
 gures///PSO/bounds/damp.pdf> <./figures///PSO/bounds/inv.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figures///PSO/algorithm/algorithm2.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures///PSO/algorithm/algorithm2.pdf, id=2146, 426.79138pt x 569.05505pt>
+File: ./figures///PSO/algorithm/algorithm2.pdf Graphic file (type pdf)
+<use ./figures///PSO/algorithm/algorithm2.pdf>
+Package pdftex.def Info: ./figures///PSO/algorithm/algorithm2.pdf  used on inpu
+t line 157.
+(pdftex.def)             Requested size: 362.77524pt x 398.38687pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[70 <./figures///PSO/algorithm/algorithm2.pdf>]
+<./figures///PSO/testfunct/fig_3dplot_19_09_18.pdf, id=2177, 279.06256pt x 233.
+54251pt>
+File: ./figures///PSO/testfunct/fig_3dplot_19_09_18.pdf Graphic file (type pdf)
+
+<use ./figures///PSO/testfunct/fig_3dplot_19_09_18.pdf>
+Package pdftex.def Info: ./figures///PSO/testfunct/fig_3dplot_19_09_18.pdf  use
+d on input line 172.
+(pdftex.def)             Requested size: 279.06187pt x 223.50444pt.
+<./figures///PSO/testfunct/fig_convergence11_30_59.pdf, id=2179, 320.664pt x 17
+2.79556pt>
+File: ./figures///PSO/testfunct/fig_convergence11_30_59.pdf Graphic file (type 
+pdf)
+<use ./figures///PSO/testfunct/fig_convergence11_30_59.pdf>
+Package pdftex.def Info: ./figures///PSO/testfunct/fig_convergence11_30_59.pdf 
+ used on input line 182.
+(pdftex.def)             Requested size: 320.66321pt x 172.79514pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[71 <./figures///PSO/testfunct/fig_3dplot_19_09_18.pdf>]
+<./figures///PSO/testfunct/fig_population_11_30_23.pdf, id=2199, 161.15909pt x 
+146.95703pt>
+File: ./figures///PSO/testfunct/fig_population_11_30_23.pdf Graphic file (type 
+pdf)
+<use ./figures///PSO/testfunct/fig_population_11_30_23.pdf>
+Package pdftex.def Info: ./figures///PSO/testfunct/fig_population_11_30_23.pdf 
+ used on input line 190.
+(pdftex.def)             Requested size: 140.84192pt x 120.65529pt.
+<./figures///PSO/testfunct/fig_04_00.pdf, id=2201, 160.98242pt x 146.78236pt>
+File: ./figures///PSO/testfunct/fig_04_00.pdf Graphic file (type pdf)
+<use ./figures///PSO/testfunct/fig_04_00.pdf>
+Package pdftex.def Info: ./figures///PSO/testfunct/fig_04_00.pdf  used on input
+ line 191.
+(pdftex.def)             Requested size: 140.84192pt x 120.64194pt.
+<./figures///PSO/testfunct/fig_09_00.pdf, id=2203, 160.98242pt x 146.78236pt>
+File: ./figures///PSO/testfunct/fig_09_00.pdf Graphic file (type pdf)
+<use ./figures///PSO/testfunct/fig_09_00.pdf>
+Package pdftex.def Info: ./figures///PSO/testfunct/fig_09_00.pdf  used on input
+ line 192.
+(pdftex.def)             Requested size: 140.84192pt x 120.64194pt.
+
+Overfull \hbox (7.4843pt too wide) in paragraph at lines 190--192
+ [][][][] 
+ []
+
+<./figures///PSO/testfunct/fig_14_00.pdf, id=2205, 160.98242pt x 146.78236pt>
+File: ./figures///PSO/testfunct/fig_14_00.pdf Graphic file (type pdf)
+<use ./figures///PSO/testfunct/fig_14_00.pdf>
+Package pdftex.def Info: ./figures///PSO/testfunct/fig_14_00.pdf  used on input
+ line 193.
+(pdftex.def)             Requested size: 140.84192pt x 120.64194pt.
+<./figures///PSO/testfunct/fig_19_00.pdf, id=2207, 160.98242pt x 146.78236pt>
+File: ./figures///PSO/testfunct/fig_19_00.pdf Graphic file (type pdf)
+<use ./figures///PSO/testfunct/fig_19_00.pdf>
+Package pdftex.def Info: ./figures///PSO/testfunct/fig_19_00.pdf  used on input
+ line 194.
+(pdftex.def)             Requested size: 140.84192pt x 120.64194pt.
+<./figures///PSO/testfunct/fig_24_00.pdf, id=2209, 160.98242pt x 146.78236pt>
+File: ./figures///PSO/testfunct/fig_24_00.pdf Graphic file (type pdf)
+<use ./figures///PSO/testfunct/fig_24_00.pdf>
+Package pdftex.def Info: ./figures///PSO/testfunct/fig_24_00.pdf  used on input
+ line 195.
+(pdftex.def)             Requested size: 140.84192pt x 120.64194pt.
+
+Overfull \hbox (7.4843pt too wide) in paragraph at lines 193--197
+ [][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[72 <./figures///PSO/testfunct/fig_convergence11_30_59.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[73 <./figures///PSO/testfunct/fig_population_11_30_23.pdf> <./figures///PSO/te
+stfunct/fig_04_00.pdf> <./figures///PSO/testfunct/fig_09_00.pdf> <./figures///P
+SO/testfunct/fig_14_00.pdf> <./figures///PSO/testfunct/fig_19_00.pdf> <./figure
+s///PSO/testfunct/fig_24_00.pdf>]
 \openout2 = `wk2_research.aux'.
 
-
-(wk2_research.tex
+ (wk2_research.tex
 Rozdzia\l  5.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/widok_z_boku_croped.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<./figures///WK2/rysunki/widok_z_boku_croped.pdf, id=2146, 455.18065pt x 137.19
+<./figures///WK2/rysunki/widok_z_boku_croped.pdf, id=2311, 455.18065pt x 137.19
 234pt>
 File: ./figures///WK2/rysunki/widok_z_boku_croped.pdf Graphic file (type pdf)
 <use ./figures///WK2/rysunki/widok_z_boku_croped.pdf>
@@ -3035,7 +3162,7 @@ Overfull \hbox (28.38818pt too wide) in paragraph at lines 14--16
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_dzwigara_cr
 oped.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf, id=2147, 455.18065pt x 4
+<./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf, id=2312, 455.18065pt x 4
 26.27235pt>
 File: ./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf Graphic file (type p
 df)
@@ -3053,7 +3180,7 @@ Overfull \hbox (23.49855pt too wide) in paragraph at lines 23--25
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_poprzeczny_
 croped.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
-<./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf, id=2148, 373.39522pt x
+<./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf, id=2313, 373.39522pt x
  220.42351pt>
 File: ./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf Graphic file (type
  pdf)
@@ -3067,13 +3194,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[70
+[74
 
 
 
 
  <./figures///WK2/rysunki/widok_z_boku_croped.pdf>]
-<./figures///WK2/zdjecia/widok_front2.jpg, id=2158, 1373.13pt x 1029.8475pt>
+<./figures///WK2/zdjecia/widok_front2.jpg, id=2323, 1373.13pt x 1029.8475pt>
 File: ./figures///WK2/zdjecia/widok_front2.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/widok_front2.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/widok_front2.jpg  used on inpu
@@ -3083,13 +3210,13 @@ t line 40.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/zdjecia/wezglowie.jpg, id=2159, 1715.40875pt x 1207.51125pt>
+<./figures///WK2/zdjecia/wezglowie.jpg, id=2324, 1715.40875pt x 1207.51125pt>
 File: ./figures///WK2/zdjecia/wezglowie.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/wezglowie.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/wezglowie.jpg  used on input l
 ine 47.
 (pdftex.def)             Requested size: 199.66287pt x 140.55446pt.
-<./figures///WK2/zdjecia/detal_wezglowie_dol.jpg, id=2160, 1373.13pt x 1029.847
+<./figures///WK2/zdjecia/detal_wezglowie_dol.jpg, id=2325, 1373.13pt x 1029.847
 5pt>
 File: ./figures///WK2/zdjecia/detal_wezglowie_dol.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/detal_wezglowie_dol.jpg>
@@ -3099,7 +3226,7 @@ on input line 49.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/zdjecia/zakotwienie_wieszak.jpg, id=2161, 1373.13pt x 1029.847
+<./figures///WK2/zdjecia/zakotwienie_wieszak.jpg, id=2326, 1373.13pt x 1029.847
 5pt>
 File: ./figures///WK2/zdjecia/zakotwienie_wieszak.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/zakotwienie_wieszak.jpg>
@@ -3121,7 +3248,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[71 <./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf>]
+[75 <./figures///WK2/rysunki/przekroj_dzwigara_croped.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3133,16 +3260,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[72 <./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf> <./figures///WK2/z
+[76 <./figures///WK2/rysunki/przekroj_poprzeczny_croped.pdf> <./figures///WK2/z
 djecia/widok_front2.jpg>]
-<./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg, id=2899, 2192.94281pt x 1455.93
+<./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg, id=3064, 2192.94281pt x 1455.93
 938pt>
 File: ./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg>
 Package pdftex.def Info: ./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg  used on
  input line 73.
 (pdftex.def)             Requested size: 213.39566pt x 141.67026pt.
-<./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg, id=2900, 2306.6175pt x 1656.187
+<./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg, id=3065, 2306.6175pt x 1656.187
 5pt>
 File: ./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg>
@@ -3153,7 +3280,7 @@ Package pdftex.def Info: ./figures///WK2/model/SCIAG_PAR_v01_vis_2.jpg  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg, id=2901, 1810.51407pt x 921
+<./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg, id=3066, 1810.51407pt x 921
 .4425pt>
 File: ./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg Graphic file (type jpg)
 
@@ -3164,81 +3291,81 @@ d on input line 82.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///WK2/model/mod_origin/f1f.jpg, id=2902, 1134.48843pt x 1227.83719pt
+<./figures///WK2/model/mod_origin/f1f.jpg, id=3067, 1134.48843pt x 1227.83719pt
 >
 File: ./figures///WK2/model/mod_origin/f1f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f1f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f1f.jpg  used on inpu
 t line 96.
 (pdftex.def)             Requested size: 77.91626pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f1s.jpg, id=2903, 2160.57187pt x 526.21594pt>
+<./figures///WK2/model/mod_origin/f1s.jpg, id=3068, 2160.57187pt x 526.21594pt>
 
 File: ./figures///WK2/model/mod_origin/f1s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f1s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f1s.jpg  used on inpu
 t line 96.
 (pdftex.def)             Requested size: 298.75262pt x 72.7624pt.
-<./figures///WK2/model/mod_origin/f2f.jpg, id=2904, 1301.61281pt x 1184.17406pt
+<./figures///WK2/model/mod_origin/f2f.jpg, id=3069, 1301.61281pt x 1184.17406pt
 >
 File: ./figures///WK2/model/mod_origin/f2f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f2f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f2f.jpg  used on inpu
 t line 101.
 (pdftex.def)             Requested size: 92.69122pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f2s.jpg, id=2905, 1992.69469pt x 476.53032pt>
+<./figures///WK2/model/mod_origin/f2s.jpg, id=3070, 1992.69469pt x 476.53032pt>
 
 File: ./figures///WK2/model/mod_origin/f2s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f2s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f2s.jpg  used on inpu
 t line 101.
 (pdftex.def)             Requested size: 298.75262pt x 71.4401pt.
-<./figures///WK2/model/mod_origin/f3f.jpg, id=2906, 1011.78pt x 1291.82625pt>
+<./figures///WK2/model/mod_origin/f3f.jpg, id=3071, 1011.78pt x 1291.82625pt>
 File: ./figures///WK2/model/mod_origin/f3f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f3f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f3f.jpg  used on inpu
 t line 106.
 (pdftex.def)             Requested size: 66.0459pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f3s.jpg, id=2907, 2177.13374pt x 566.86781pt>
+<./figures///WK2/model/mod_origin/f3s.jpg, id=3072, 2177.13374pt x 566.86781pt>
 
 File: ./figures///WK2/model/mod_origin/f3s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f3s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f3s.jpg  used on inpu
 t line 106.
 (pdftex.def)             Requested size: 298.75262pt x 77.7867pt.
-<./figures///WK2/model/mod_origin/f4f.jpg, id=2908, 1185.67969pt x 1266.23062pt
+<./figures///WK2/model/mod_origin/f4f.jpg, id=3073, 1185.67969pt x 1266.23062pt
 >
 File: ./figures///WK2/model/mod_origin/f4f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f4f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f4f.jpg  used on inpu
 t line 111.
 (pdftex.def)             Requested size: 78.95345pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f4s.jpg, id=2909, 2165.84157pt x 523.9575pt>
+<./figures///WK2/model/mod_origin/f4s.jpg, id=3074, 2165.84157pt x 523.9575pt>
 File: ./figures///WK2/model/mod_origin/f4s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f4s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f4s.jpg  used on inpu
 t line 111.
 (pdftex.def)             Requested size: 298.75262pt x 72.27423pt.
-<./figures///WK2/model/mod_origin/f5f.jpg, id=2910, 977.90344pt x 1090.0725pt>
+<./figures///WK2/model/mod_origin/f5f.jpg, id=3075, 977.90344pt x 1090.0725pt>
 File: ./figures///WK2/model/mod_origin/f5f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f5f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f5f.jpg  used on inpu
 t line 116.
 (pdftex.def)             Requested size: 75.65244pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f5s.jpg, id=2911, 2007.75093pt x 413.29407pt>
+<./figures///WK2/model/mod_origin/f5s.jpg, id=3076, 2007.75093pt x 413.29407pt>
 
 File: ./figures///WK2/model/mod_origin/f5s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f5s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f5s.jpg  used on inpu
 t line 116.
 (pdftex.def)             Requested size: 298.75262pt x 61.49323pt.
-<./figures///WK2/model/mod_origin/f6f.jpg, id=2912, 776.14969pt x 1004.25188pt>
+<./figures///WK2/model/mod_origin/f6f.jpg, id=3077, 776.14969pt x 1004.25188pt>
 
 File: ./figures///WK2/model/mod_origin/f6f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f6f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f6f.jpg  used on inpu
 t line 121.
 (pdftex.def)             Requested size: 65.17244pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f6s.jpg, id=2913, 2001.72844pt x 505.89pt>
+<./figures///WK2/model/mod_origin/f6s.jpg, id=3078, 2001.72844pt x 505.89pt>
 File: ./figures///WK2/model/mod_origin/f6s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f6s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f6s.jpg  used on inpu
@@ -3255,57 +3382,57 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[73 <./figures///WK2/zdjecia/wezglowie.jpg> <./figures///WK2/zdjecia/detal_wezg
+[77 <./figures///WK2/zdjecia/wezglowie.jpg> <./figures///WK2/zdjecia/detal_wezg
 lowie_dol.jpg> <./figures///WK2/zdjecia/zakotwienie_wieszak.jpg>]
-<./figures///WK2/model/mod_origin/f7f.jpg, id=2918, 964.35281pt x 1242.89343pt>
+<./figures///WK2/model/mod_origin/f7f.jpg, id=3082, 964.35281pt x 1242.89343pt>
 
 File: ./figures///WK2/model/mod_origin/f7f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f7f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f7f.jpg  used on inpu
 t line 134.
 (pdftex.def)             Requested size: 65.42209pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f7s.jpg, id=2919, 2185.41469pt x 534.49687pt>
+<./figures///WK2/model/mod_origin/f7s.jpg, id=3083, 2185.41469pt x 534.49687pt>
 
 File: ./figures///WK2/model/mod_origin/f7s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f7s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f7s.jpg  used on inpu
 t line 134.
 (pdftex.def)             Requested size: 298.75262pt x 73.05925pt.
-<./figures///WK2/model/mod_origin/f8f.jpg, id=2920, 760.34062pt x 1151.80313pt>
+<./figures///WK2/model/mod_origin/f8f.jpg, id=3084, 760.34062pt x 1151.80313pt>
 
 File: ./figures///WK2/model/mod_origin/f8f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f8f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f8f.jpg  used on inpu
 t line 139.
 (pdftex.def)             Requested size: 55.66566pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f8s.jpg, id=2921, 2167.34718pt x 654.19406pt>
+<./figures///WK2/model/mod_origin/f8s.jpg, id=3085, 2167.34718pt x 654.19406pt>
 
 File: ./figures///WK2/model/mod_origin/f8s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f8s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f8s.jpg  used on inpu
 t line 139.
 (pdftex.def)             Requested size: 298.75262pt x 90.16907pt.
-<./figures///WK2/model/mod_origin/f9f.jpg, id=2922, 810.77907pt x 832.61063pt>
+<./figures///WK2/model/mod_origin/f9f.jpg, id=3086, 810.77907pt x 832.61063pt>
 File: ./figures///WK2/model/mod_origin/f9f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f9f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f9f.jpg  used on inpu
 t line 144.
 (pdftex.def)             Requested size: 82.10948pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f9s.jpg, id=2923, 2171.86406pt x 494.59781pt>
+<./figures///WK2/model/mod_origin/f9s.jpg, id=3087, 2171.86406pt x 494.59781pt>
 
 File: ./figures///WK2/model/mod_origin/f9s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f9s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f9s.jpg  used on inpu
 t line 144.
 (pdftex.def)             Requested size: 298.75262pt x 68.02815pt.
-<./figures///WK2/model/mod_origin/f10f.jpg, id=2924, 1117.92656pt x 1301.61281p
+<./figures///WK2/model/mod_origin/f10f.jpg, id=3088, 1117.92656pt x 1301.61281p
 t>
 File: ./figures///WK2/model/mod_origin/f10f.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f10f.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f10f.jpg  used on inp
 ut line 149.
 (pdftex.def)             Requested size: 72.42896pt x 84.33054pt.
-<./figures///WK2/model/mod_origin/f10s.jpg, id=2925, 1997.96437pt x 457.71pt>
+<./figures///WK2/model/mod_origin/f10s.jpg, id=3089, 1997.96437pt x 457.71pt>
 File: ./figures///WK2/model/mod_origin/f10s.jpg Graphic file (type jpg)
 <use ./figures///WK2/model/mod_origin/f10s.jpg>
 Package pdftex.def Info: ./figures///WK2/model/mod_origin/f10s.jpg  used on inp
@@ -3323,7 +3450,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[74 <./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg> <./figures///WK2/model/SCIA
+[78 <./figures///WK2/model/SCIAG_PAR_v01_vis_1.jpg> <./figures///WK2/model/SCIA
 G_PAR_v01_vis_2.jpg> <./figures///WK2/model/SCIAG_PAR_v01_schemat_1.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3333,7 +3460,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[75 <./figures///WK2/model/mod_origin/f1f.jpg> <./figures///WK2/model/mod_origi
+[79 <./figures///WK2/model/mod_origin/f1f.jpg> <./figures///WK2/model/mod_origi
 n/f1s.jpg> <./figures///WK2/model/mod_origin/f2f.jpg> <./figures///WK2/model/mo
 d_origin/f2s.jpg> <./figures///WK2/model/mod_origin/f3f.jpg> <./figures///WK2/m
 odel/mod_origin/f3s.jpg> <./figures///WK2/model/mod_origin/f4f.jpg> <./figures/
@@ -3348,7 +3475,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[76 <./figures///WK2/model/mod_origin/f7f.jpg> <./figures///WK2/model/mod_origi
+[80 <./figures///WK2/model/mod_origin/f7f.jpg> <./figures///WK2/model/mod_origi
 n/f7s.jpg> <./figures///WK2/model/mod_origin/f8f.jpg> <./figures///WK2/model/mo
 d_origin/f8s.jpg> <./figures///WK2/model/mod_origin/f9f.jpg> <./figures///WK2/m
 odel/mod_origin/f9s.jpg> <./figures///WK2/model/mod_origin/f10f.jpg> <./figures
@@ -3357,7 +3484,7 @@ odel/mod_origin/f9s.jpg> <./figures///WK2/model/mod_origin/f10f.jpg> <./figures
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/punkty_pomiarowe_aut
 omac_croped.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf, id=2935, 429.2838
+<./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf, id=3100, 429.2838
 pt x 170.70235pt>
 File: ./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf Graphic file 
 (type pdf)
@@ -3378,14 +3505,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[77]
-<./figures///WK2/automac/max_mac.pdf, id=2939, 216.78133pt x 211.38443pt>
+[81]
+<./figures///WK2/automac/max_mac.pdf, id=3104, 216.78133pt x 211.38443pt>
 File: ./figures///WK2/automac/max_mac.pdf Graphic file (type pdf)
 <use ./figures///WK2/automac/max_mac.pdf>
 Package pdftex.def Info: ./figures///WK2/automac/max_mac.pdf  used on input lin
 e 189.
 (pdftex.def)             Requested size: 216.78079pt x 211.3839pt.
-<./figures///WK2/automac/rms.pdf, id=2940, 221.03139pt x 211.38443pt>
+<./figures///WK2/automac/rms.pdf, id=3105, 221.03139pt x 211.38443pt>
 File: ./figures///WK2/automac/rms.pdf Graphic file (type pdf)
 <use ./figures///WK2/automac/rms.pdf>
 Package pdftex.def Info: ./figures///WK2/automac/rms.pdf  used on input line 19
@@ -3404,12 +3531,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78 <./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf>]
+[82 <./figures///WK2/rysunki/punkty_pomiarowe_automac_croped.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/punkty_pomiarowe_pun
 kty_pomiarowe_croped.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf, id=2958,
+<./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf, id=3123,
  429.2838pt x 187.42029pt>
 File: ./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf Grap
 hic file (type pdf)
@@ -3425,7 +3552,7 @@ Overfull \hbox (2.49141pt too wide) in paragraph at lines 202--204
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//WK2/automac/correlogram_0.pdf, id=2959, 371.16034pt x 211.38443pt>
+<./figures//WK2/automac/correlogram_0.pdf, id=3124, 371.16034pt x 211.38443pt>
 File: ./figures//WK2/automac/correlogram_0.pdf Graphic file (type pdf)
 <use ./figures//WK2/automac/correlogram_0.pdf>
 Package pdftex.def Info: ./figures//WK2/automac/correlogram_0.pdf  used on inpu
@@ -3443,7 +3570,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[79 <./figures///WK2/automac/max_mac.pdf> <./figures///WK2/automac/rms.pdf
+[83 <./figures///WK2/automac/max_mac.pdf> <./figures///WK2/automac/rms.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/automac/rms.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
@@ -3459,13 +3586,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[80 <./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf> <./f
+[84 <./figures///WK2/rysunki/punkty_pomiarowe_punkty_pomiarowe_croped.pdf> <./f
 igures//WK2/automac/correlogram_0.pdf>]
 
-LaTeX Warning: Reference `RYSUNEK POMIAR DRGAN' on page 81 undefined on input l
+LaTeX Warning: Reference `RYSUNEK POMIAR DRGAN' on page 85 undefined on input l
 ine 229.
 
-<./figures///WK2/zdjecia/system_pomiarowy.jpg, id=3014, 1759.57375pt x 989.6975
+<./figures///WK2/zdjecia/system_pomiarowy.jpg, id=3178, 1759.57375pt x 989.6975
 pt>
 File: ./figures///WK2/zdjecia/system_pomiarowy.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/system_pomiarowy.jpg>
@@ -3477,19 +3604,19 @@ Underfull \hbox (badness 2894) in paragraph at lines 233--233
 []\OT4/cmr/m/n/10 (a) |Sys-tem akwi-zy-cji da-nych: kom-pu-ter i
  []
 
-<./figures///WK2/zdjecia/czujnik_3_osie.jpg, id=3015, 2665.96pt x 1499.6025pt>
+<./figures///WK2/zdjecia/czujnik_3_osie.jpg, id=3179, 2665.96pt x 1499.6025pt>
 File: ./figures///WK2/zdjecia/czujnik_3_osie.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/czujnik_3_osie.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/czujnik_3_osie.jpg  used on in
 put line 234.
 (pdftex.def)             Requested size: 204.85802pt x 115.21118pt.
-<./figures///WK2/zdjecia/pojazd_na.jpg, id=3016, 2132.96875pt x 1199.48125pt>
+<./figures///WK2/zdjecia/pojazd_na.jpg, id=3180, 2132.96875pt x 1199.48125pt>
 File: ./figures///WK2/zdjecia/pojazd_na.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/pojazd_na.jpg>
 Package pdftex.def Info: ./figures///WK2/zdjecia/pojazd_na.jpg  used on input l
 ine 244.
 (pdftex.def)             Requested size: 204.85802pt x 115.19647pt.
-<./figures///WK2/zdjecia/eksperymentator.jpg, id=3017, 459.6372pt x 258.2448pt>
+<./figures///WK2/zdjecia/eksperymentator.jpg, id=3181, 459.6372pt x 258.2448pt>
 
 File: ./figures///WK2/zdjecia/eksperymentator.jpg Graphic file (type jpg)
 <use ./figures///WK2/zdjecia/eksperymentator.jpg>
@@ -3504,14 +3631,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[81 <./figures///WK2/zdjecia/system_pomiarowy.jpg> <./figures///WK2/zdjecia/czu
+[85 <./figures///WK2/zdjecia/system_pomiarowy.jpg> <./figures///WK2/zdjecia/czu
 jnik_3_osie.jpg> <./figures///WK2/zdjecia/pojazd_na.jpg> <./figures///WK2/zdjec
 ia/eksperymentator.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 262.
 
-<./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf, id=3021, 432.7158pt x 171.
+<./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf, id=3186, 432.7158pt x 171.
 48463pt>
 File: ./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf Graphic file (type pdf
 )
@@ -3524,7 +3651,7 @@ Overfull \hbox (5.9234pt too wide) in paragraph at lines 264--264
  [][] 
  []
 
-<./figures//WK2/ident/fig_stab_diagram_filtr.pdf, id=3022, 432.7158pt x 171.484
+<./figures//WK2/ident/fig_stab_diagram_filtr.pdf, id=3187, 432.7158pt x 171.484
 63pt>
 File: ./figures//WK2/ident/fig_stab_diagram_filtr.pdf Graphic file (type pdf)
 <use ./figures//WK2/ident/fig_stab_diagram_filtr.pdf>
@@ -3540,7 +3667,7 @@ Overfull \hbox (5.9234pt too wide) in paragraph at lines 265--267
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 271.
 
-<./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf, id=3023, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf, id=3188, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf Graphic file (typ
 e pdf)
@@ -3548,7 +3675,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pd
 f  used on input line 296.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pdf, id=3025, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pdf, id=3190, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pdf Graphic file (typ
 e pdf)
@@ -3556,7 +3683,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_11_time_20_09_01.pd
 f  used on input line 296.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf, id=3027, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf, id=3192, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57_20.pdf Graphic fil
 e (type pdf)
@@ -3564,7 +3691,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_11_time_16_57
 _20.pdf  used on input line 296.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pdf, id=3028, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pdf, id=3193, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pdf Graphic file (typ
 e pdf)
@@ -3572,7 +3699,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_19.pd
 f  used on input line 302.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf, id=3030, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf, id=3195, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf Graphic file (typ
 e pdf)
@@ -3580,7 +3707,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pd
 f  used on input line 302.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57_54.pdf, id=3032, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57_54.pdf, id=3197, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57_54.pdf Graphic fil
 e (type pdf)
@@ -3588,7 +3715,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_23_time_16_57
 _54.pdf  used on input line 302.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf, id=3033, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf, id=3198, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf Graphic file (typ
 e pdf)
@@ -3596,7 +3723,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pd
 f  used on input line 308.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pdf, id=3035, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pdf, id=3200, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pdf Graphic file (typ
 e pdf)
@@ -3604,7 +3731,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_25_time_20_10_13.pd
 f  used on input line 308.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58_42.pdf, id=3037, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58_42.pdf, id=3202, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58_42.pdf Graphic fil
 e (type pdf)
@@ -3612,7 +3739,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_25_time_16_58
 _42.pdf  used on input line 308.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pdf, id=3038, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pdf, id=3203, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pdf Graphic file (typ
 e pdf)
@@ -3620,7 +3747,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_31.pd
 f  used on input line 314.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf, id=3040, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf, id=3205, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pdf Graphic file (typ
 e pdf)
@@ -3628,7 +3755,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_27_time_20_10_46.pd
 f  used on input line 314.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_27_time_16_59_26.pdf, id=3042, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_27_time_16_59_26.pdf, id=3207, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_27_time_16_59_26.pdf Graphic fil
 e (type pdf)
@@ -3644,7 +3771,7 @@ Overfull \hbox (55.48067pt too wide) in paragraph at lines 290--317
 
 LaTeX Warning: Float too large for page by 5.33488pt on input line 319.
 
-<./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf, id=3043, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf, id=3208, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf Graphic file (typ
 e pdf)
@@ -3652,7 +3779,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pd
 f  used on input line 330.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pdf, id=3045, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pdf, id=3210, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pdf Graphic file (typ
 e pdf)
@@ -3660,7 +3787,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_33_time_20_11_12.pd
 f  used on input line 330.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf, id=3047, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf, id=3212, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00_05.pdf Graphic fil
 e (type pdf)
@@ -3668,7 +3795,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_33_time_17_00
 _05.pdf  used on input line 330.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pdf, id=3048, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pdf, id=3213, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pdf Graphic file (typ
 e pdf)
@@ -3676,7 +3803,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_28.pd
 f  used on input line 337.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf, id=3050, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf, id=3215, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf Graphic file (typ
 e pdf)
@@ -3684,7 +3811,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pd
 f  used on input line 337.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00_46.pdf, id=3052, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00_46.pdf, id=3217, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00_46.pdf Graphic fil
 e (type pdf)
@@ -3692,7 +3819,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_47_time_17_00
 _46.pdf  used on input line 337.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf, id=3053, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf, id=3218, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf Graphic file (typ
 e pdf)
@@ -3700,7 +3827,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pd
 f  used on input line 343.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pdf, id=3055, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pdf, id=3220, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pdf Graphic file (typ
 e pdf)
@@ -3708,7 +3835,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_57_time_20_12_20.pd
 f  used on input line 343.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01_27.pdf, id=3057, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01_27.pdf, id=3222, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01_27.pdf Graphic fil
 e (type pdf)
@@ -3716,7 +3843,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_57_time_17_01
 _27.pdf  used on input line 343.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pdf, id=3058, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pdf, id=3223, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pdf Graphic file (typ
 e pdf)
@@ -3724,7 +3851,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_37.pd
 f  used on input line 349.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf, id=3060, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf, id=3225, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pdf Graphic file (typ
 e pdf)
@@ -3732,7 +3859,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_59_time_20_12_48.pd
 f  used on input line 349.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf, id=3062, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf, id=3227, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf Graphic fil
 e (type pdf)
@@ -3748,7 +3875,7 @@ Overfull \hbox (55.48067pt too wide) in paragraph at lines 324--351
 
 LaTeX Warning: Float too large for page by 5.33488pt on input line 353.
 
-<./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf, id=3063, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf, id=3228, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf Graphic file (typ
 e pdf)
@@ -3756,7 +3883,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pd
 f  used on input line 364.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pdf, id=3065, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pdf, id=3230, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pdf Graphic file (typ
 e pdf)
@@ -3764,7 +3891,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_61_time_20_13_32.pd
 f  used on input line 364.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf, id=3067, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf, id=3232, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf Graphic fil
 e (type pdf)
@@ -3772,7 +3899,7 @@ e (type pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17
 _06.pdf  used on input line 364.
 (pdftex.def)             Requested size: 132.36798pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pdf, id=3068, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pdf, id=3233, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pdf Graphic file (typ
 e pdf)
@@ -3780,7 +3907,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_75_time_20_13_51.pd
 f  used on input line 370.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf, id=3070, 190.86108pt 
+<./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf, id=3235, 190.86108pt 
 x 189.72298pt>
 File: ./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf Graphic file (typ
 e pdf)
@@ -3788,7 +3915,7 @@ e pdf)
 Package pdftex.def Info: ./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pd
 f  used on input line 370.
 (pdftex.def)             Requested size: 162.95201pt x 140.55446pt.
-<./figures///wk2/ident/mods/fig_polar_mod_75_time_17_18_33.pdf, id=3072, 205.60
+<./figures///wk2/ident/mods/fig_polar_mod_75_time_17_18_33.pdf, id=3237, 205.60
 022pt x 218.31453pt>
 File: ./figures///wk2/ident/mods/fig_polar_mod_75_time_17_18_33.pdf Graphic fil
 e (type pdf)
@@ -3813,7 +3940,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[82]
+[86]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3822,7 +3949,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[83 <./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf> <./figures//WK2/ident/
+[87 <./figures//WK2/ident/fig_stab_diagram_nonfiltr.pdf> <./figures//WK2/ident/
 fig_stab_diagram_filtr.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/ident/fig_stab_diagram_filtr.
@@ -3836,7 +3963,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[84 <./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf> <./figures///wk2/
+[88 <./figures///wk2/ident/mods/fig_mod_11_time_20_08_21.pdf> <./figures///wk2/
 ident/mods/fig_mod_11_time_20_09_01.pdf> <./figures///wk2/ident/mods/fig_mod_23
 _time_20_09_19.pdf> <./figures///wk2/ident/mods/fig_mod_23_time_20_09_26.pdf> <
 ./figures///wk2/ident/mods/fig_mod_25_time_20_09_56.pdf> <./figures///wk2/ident
@@ -3871,7 +3998,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[85 <./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf> <./figures///wk2/
+[89 <./figures///wk2/ident/mods/fig_mod_33_time_20_11_02.pdf> <./figures///wk2/
 ident/mods/fig_mod_33_time_20_11_12.pdf> <./figures///wk2/ident/mods/fig_mod_47
 _time_20_11_28.pdf> <./figures///wk2/ident/mods/fig_mod_47_time_20_11_53.pdf> <
 ./figures///wk2/ident/mods/fig_mod_57_time_20_12_12.pdf> <./figures///wk2/ident
@@ -3898,7 +4025,7 @@ pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_59_
 time_17_02_08.pdf): PDF inclusion: multiple pdfs with page group included in a 
 single page
 >]
-<./figures//WK2/proste_300_decisive_freq.pdf, id=3953, 205.92622pt x 219.34402p
+<./figures//WK2/proste_300_decisive_freq.pdf, id=4117, 205.92622pt x 219.34402p
 t>
 File: ./figures//WK2/proste_300_decisive_freq.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_decisive_freq.pdf>
@@ -3914,26 +4041,26 @@ nput line 394.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//WK2/proste_300_3d_weig.pdf, id=3954, 339.6708pt x 196.74922pt>
+<./figures//WK2/proste_300_3d_weig.pdf, id=4118, 339.6708pt x 196.74922pt>
 File: ./figures//WK2/proste_300_3d_weig.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_3d_weig.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_3d_weig.pdf  used on input l
 ine 401.
 (pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
-<./figures//WK2/proste_300_0_3_3d_arch_weig.pdf, id=3955, 339.6708pt x 196.7492
+<./figures//WK2/proste_300_0_3_3d_arch_weig.pdf, id=4119, 339.6708pt x 196.7492
 2pt>
 File: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf  used o
 n input line 407.
 (pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
-<./figures//WK2/proste_300_3d_freq.pdf, id=3956, 337.78188pt x 196.74922pt>
+<./figures//WK2/proste_300_3d_freq.pdf, id=4120, 337.78188pt x 196.74922pt>
 File: ./figures//WK2/proste_300_3d_freq.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_3d_freq.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_3d_freq.pdf  used on input l
 ine 413.
 (pdftex.def)             Requested size: 426.79134pt x 248.61682pt.
-<./figures//WK2/proste_300_all.pdf, id=3957, 398.99599pt x 221.95659pt>
+<./figures//WK2/proste_300_all.pdf, id=4121, 398.99599pt x 221.95659pt>
 File: ./figures//WK2/proste_300_all.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_all.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_all.pdf  used on input line 
@@ -3959,7 +4086,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[86 <./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf> <./figures///wk2/
+[90 <./figures///wk2/ident/mods/fig_mod_61_time_20_13_07.pdf> <./figures///wk2/
 ident/mods/fig_mod_61_time_20_13_32.pdf> <./figures///wk2/ident/mods/fig_mod_75
 _time_20_13_51.pdf> <./figures///wk2/ident/mods/fig_mod_75_time_20_14_02.pdf> <
 ./figures///wk2/ident/mods/fig_polar_mod_61_time_17_17_06.pdf
@@ -3981,7 +4108,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[87 <./figures//WK2/proste_300_decisive_freq.pdf> <./figures//WK2/proste_300_3d
+[91 <./figures//WK2/proste_300_decisive_freq.pdf> <./figures//WK2/proste_300_3d
 _weig.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_weig.pdf): PDF 
@@ -3995,7 +4122,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[88 <./figures//WK2/proste_300_0_3_3d_arch_weig.pdf> <./figures//WK2/proste_300
+[92 <./figures//WK2/proste_300_0_3_3d_arch_weig.pdf> <./figures//WK2/proste_300
 _3d_freq.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_freq.pdf): PDF 
@@ -4009,9 +4136,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[89 <./figures//WK2/proste_300_all.pdf>]
+[93 <./figures//WK2/proste_300_all.pdf>]
 Rozdzia\l  6.
-) [90
+) [94
 
 ]
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
@@ -4023,7 +4150,7 @@ File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <10.95> on input line 33.
 
-[91
+[95
 
 
 
@@ -4036,7 +4163,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[92]
+[96]
 Overfull \hbox (0.7371pt too wide) in paragraph at lines 34--34
 [][]\OT4/cmr/m/n/10.95 Juang, Jer-Nan (1994). \OT4/cmr/m/it/10.95 Ap-plied sys-
 tem iden-ti-fi-ca-tion\OT4/cmr/m/n/10.95 . Prentice-Hall, Inc. \OT4/cmr/m/sc/10
@@ -4051,7 +4178,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[93]
+[97]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4060,22 +4187,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[94]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[95]
+[98]
 Overfull \hbox (12.81938pt too wide) in paragraph at lines 34--34
 [][]\OT4/cmr/m/n/10.95 SHEN, F i in. (2003). ``USING THE CROSS-CORRELATION TECH
 -NI-QUE TO EXTRACT
  []
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[99]
 Overfull \hbox (2.37135pt too wide) in paragraph at lines 34--34
 [][]\OT4/cmr/m/n/10.95 Vold, Ha-rvard i in. (1982). ``A multi-input mo-dal es-t
 i-ma-tion al-go-ri-thm for mini-computers''.
@@ -4089,7 +4215,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[96]
+[100]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4098,7 +4224,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[97] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
+[101] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
 (chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
 
 LaTeX Warning: There were undefined references.
@@ -4108,10 +4234,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37101 strings out of 479582
- 901524 string characters out of 2862447
- 1659956 words of memory out of 3000000
- 53456 multiletter control sequences out of 15000+200000
+ 37184 strings out of 479582
+ 904738 string characters out of 2862447
+ 1660294 words of memory out of 3000000
+ 53528 multiletter control sequences out of 15000+200000
  434112 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,24n,107p,2208b,1772s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4127,42 +4253,44 @@ s/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pf
 b><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmr10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmr8.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/pl/plbsy10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/pl/plbx12.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/pl/plbx7.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/pl/plbx8.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/pl/plcsc10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/pl/plex10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/pl/plmi10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/pl/plmi12.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/pl/plmi5.pfb><C:/Users/KBP/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/pl/plmi6.pfb><C:/Users/KBP/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/pl/plmi7.pfb><C:/Users/KBP/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/pl/plmi8.pfb><C:/Users/KBP/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/pl/plmib10.pfb><C:/Users/KBP/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/KBP/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Users/KBP/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/pl/plr17.pfb><C:/Users/KBP/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/pl/plr5.pfb><C:/Users/KBP/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/pl/plr6.pfb><C:/Users/KBP/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/pl/plr7.pfb><C:/Users/KBP/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/pl/plr8.pfb><C:/Users/KBP/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/pl/plr9.pfb><C:/Users/KBP/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/KBP/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/pl/plss8.pfb><C:/Users/KBP/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/KBP/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/KBP/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy7.pfb><C:/Users/KBP/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb><C:/Users/KBP/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/pl/plti10.pfb><C:/Users/KBP/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plti12.pfb><C:/Users/KBP/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/pltt10.pfb><C:/Users/KBP/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/User
-s/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1095.pf
-b>
-Output written on whole_thesis.pdf (97 pages, 46020196 bytes).
+1/public/amsfonts/cm/cmsy8.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/pl/plbsy10.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/pl/plbx7.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/pl/plbx8.pfb><C:/Users/KBP/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/pl/plcsc10.pfb><C:/Users/KBP/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/pl/plex10.pfb><C:/Users/KBP/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/pl/plmi10.pfb><C:/Users/KBP/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/pl/plmi12.pfb><C:/Users/KBP/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/pl/plmi5.pfb><C:/Users/KBP/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/pl/plmi6.pfb><C:/Users/KBP/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/pl/plmi7.pfb><C:/Users/KBP/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/pl/plmi8.pfb><C:/Users/KBP/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/pl/plmib10.pfb><C:/Users/KBP/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/KBP/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Users/KBP/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr17.pfb><C:/Users/KBP/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr5.pfb><C:/Users/KBP/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr6.pfb><C:/Users/KBP/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr7.pfb><C:/Users/KBP/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr8.pfb><C:/Users/KBP/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr9.pfb><C:/Users/KBP/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/KBP/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plss8.pfb><C:/Users/KBP/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/KBP/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/KBP/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy7.pfb><C:/Users/KBP/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb><C:/Users/KBP/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plti10.pfb><C:/Users/KB
+P/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plti12.pfb><C:/Users/
+KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/pltt10.pfb><C:/User
+s/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0800.pf
+b><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/s
+frm1200.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+cm-super/sfti1095.pfb>
+Output written on whole_thesis.pdf (101 pages, 46583036 bytes).
 PDF statistics:
- 4383 PDF objects out of 5155 (max. 8388607)
+ 4549 PDF objects out of 5155 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 977 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1070 words of extra memory for PDF output out of 10000 (max. 10000000)
 

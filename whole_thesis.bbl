@@ -89,12 +89,6 @@
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2003_Allemang_The Modal Assurance Criterion—Twenty Years of Use and Abuse(2).pdf:pdf
       \endverb
-      \verb{urlraw}
-      \verb http://files/129/Allemang - 2003 - The Modal Assurance Criterion—Twenty Years of Use .pdf
-      \endverb
-      \verb{url}
-      \verb http://files/129/Allemang%20-%202003%20-%20The%20Modal%20Assurance%20Criterion%E2%80%94Twenty%20Years%20of%20Use%20.pdf
-      \endverb
       \keyw{Modal analysis,Vibration (Mechanics)}
     \endentry
     \entry{Bachmann2012}{book}{}
@@ -214,13 +208,44 @@
       \field{year}{2012}
       \field{pages}{248}
       \range{pages}{1}
-      \verb{urlraw}
-      \verb https://books.google.pl/books?id=pth5BgAAQBAJ
+      \keyw{Science / Mechanics / Dynamics,Technology & Engineering / Construction / General,Technology & Engineering / Construction / Heating,Technology & Engineering / Engineering (General),Technology & Engineering / General,Technology & Engineering / Manufacturing,Technology & Engineering / Mechanical}
+    \endentry
+    \entry{Banach2017}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3418b623c81949b67fa768d004d206e}{%
+           family={Banach},
+           familyi={B\bibinitperiod},
+           given={Mateusz},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Instytut Podstawowych Problemów Techniki Polskiej Akademii Nauk w Warszawie}%
+      }
+      \list{language}{1}{%
+        {pl}%
+      }
+      \strng{namehash}{d3418b623c81949b67fa768d004d206e}
+      \strng{fullhash}{d3418b623c81949b67fa768d004d206e}
+      \strng{bibnamehash}{d3418b623c81949b67fa768d004d206e}
+      \strng{authorbibnamehash}{d3418b623c81949b67fa768d004d206e}
+      \strng{authornamehash}{d3418b623c81949b67fa768d004d206e}
+      \strng{authorfullhash}{d3418b623c81949b67fa768d004d206e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Metody obliczeniowe jedno- i wielokryterialnej optymalizacji rojem czastek. Zastosowanie w bioinformatyce.}}
+      \field{type}{phdthesis}
+      \field{year}{2017}
+      \field{pages}{310}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2017_Banach_Metody obliczeniowe jedno- i wielokryterialnej optymalizacji rojem czastek. Zastosowanie w bioinformatyce.pdf:pdf
       \endverb
-      \verb{url}
-      \verb https://books.google.pl/books?id=pth5BgAAQBAJ
-      \endverb
-      \keyw{Science / Mechanics / Dynamics,Technology & Engineering / Construction / General,Technology & Engineering / Construction / Heating,,Technology & Engineering / Engineering (General),Technology & Engineering / General,Technology & Engineering / Manufacturing,Technology & Engineering / Mechanical}
+      \keyw{Informatyka}
     \endentry
     \entry{Bathe2006}{book}{}
       \name{author}{1}{}{%
@@ -567,12 +592,6 @@
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2010_Brownjohn et al._Ambient vibration re-testing and operational modal analysis of the Humber Bridge.pdf:pdf
       \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1016/j.engstruct.2010.02.034 https://linkinghub.elsevier.com/retrieve/pii/S0141029610000878 http://files/1054/Brownjohn et al. - 2010 - Ambient vibration re-testing and operational modal.pdf http://files/685/Brownjohn i in. - 2010 - A
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1016/j.engstruct.2010.02.034%20https://linkinghub.elsevier.com/retrieve/pii/S0141029610000878%20http://files/1054/Brownjohn%20et%20al.%20-%202010%20-%20Ambient%20vibration%20re-testing%20and%20operational%20modal.pdf%20http://files/685/Brownjohn%20i%20in.%20-%202010%20-%20A
-      \endverb
       \keyw{Operational modal analysis,Structural identification,Suspension bridge,operational modal analysis,structural identification,suspension bridge}
     \endentry
     \entry{Caicedo2011}{article}{}
@@ -610,12 +629,6 @@
       \endverb
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2011_Caicedo_Practical guidelines for the natural excitation technique (NExT) and the eigensystem realization algorithm (ERA) for modal.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://files/95/Caicedo - 2011 - Practical Guidelines for the Natural Excitation Te.pdf
-      \endverb
-      \verb{url}
-      \verb http://files/95/Caicedo%20-%202011%20-%20Practical%20Guidelines%20for%20the%20Natural%20Excitation%20Te.pdf
       \endverb
       \keyw{Civil and Environmental Engineering,Eigensystem,Engineering,Environmental Engineering,Experimental Techniques,Structural Engineering,algorithms,ambient variations,modal identification,natural excitation techniques,practical guidelines}
     \endentry
@@ -932,12 +945,6 @@
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2008_Dudek_Identyfikacja parametr{\'{o}}w dynamicznych konstrukcji mostowych na bazie drga{\'{n}} wywo{\l}anych obcia{\.{z}}eniem {\'{s}}rodowiskowym rozprawa dok.pdf:pdf
       \endverb
-      \verb{urlraw}
-      \verb http://files/7/MD_PhD_06032008.pdf
-      \endverb
-      \verb{url}
-      \verb http://files/7/MD_PhD_06032008.pdf
-      \endverb
       \keyw{Dynamika konstrukcji -- badania,Mosty -- drgania}
     \endentry
     \entry{Eberhart1995}{inproceedings}{}
@@ -991,12 +998,6 @@
       \endverb
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop//1995_Eberhart, Kennedy, James Kennedy_A new optimizer using particle swarm theory.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://bytebucket.org/12er/pso/raw/b448ff0db375c1ac0c55855e9f19aced08b44ca6/doc/literature/Variants/topology/A new Optimizer using Particle Swarm Theory.pdf http://ieeexplore.ieee.org/document/494215/ http://files/508/Eberhart i Kennedy - 1995 - A new op
-      \endverb
-      \verb{url}
-      \verb https://bytebucket.org/12er/pso/raw/b448ff0db375c1ac0c55855e9f19aced08b44ca6/doc/literature/Variants/topology/A%20new%20Optimizer%20using%20Particle%20Swarm%20Theory.pdf%20http://ieeexplore.ieee.org/document/494215/%20http://files/508/Eberhart%20i%20Kennedy%20-%201995%20-%20A%20new%20op
       \endverb
       \keyw{artificial life,benchmark testing,evolutionary computation,neural network training,nonlinear function,particle swarm methodology,particle swarm optimization,robot task learning}
     \endentry
@@ -1669,7 +1670,7 @@
       \field{pages}{112\bibrangedash 117}
       \range{pages}{6}
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2005_Huang, Mohan_A hybrid boundary condition for robust particle swarm optimization.pdf:pdf;:C\:/Users/KBP/Documents/Mendeley Desktop/2005_Huang, Mohan_A hybrid boundary condition for robust particle swarm optimization(2).pdf:pdf
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2005_Huang, Mohan_A hybrid boundary condition for robust particle swarm optimization(2).pdf:pdf
       \endverb
     \endentry
     \entry{Hughes1987}{book}{}
@@ -2389,12 +2390,6 @@
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2011_Li, Hu, Li_Noise issues of modal identification using eigensystem realization algorithm.pdf:pdf
       \endverb
-      \verb{urlraw}
-      \verb http://files/157/Li i in. - 2011 - Noise issues of modal identification using eigensy.pdf
-      \endverb
-      \verb{url}
-      \verb http://files/157/Li%20i%20in.%20-%202011%20-%20Noise%20issues%20of%20modal%20identification%20using%20eigensy.pdf
-      \endverb
       \keyw{ERA,Modal parameters,Model identification,Model order,noise}
     \endentry
     \entry{Liang2006}{article}{}
@@ -2648,12 +2643,6 @@
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2009_Nayeri et al._Study of time-domain techniques for modal parameter identification of a long suspension bridge with dense sensor arra.pdf:pdf
       \endverb
-      \verb{urlraw}
-      \verb http://files/148/Nayeri i in. - 2009 - Study of time-domain techniques for modal paramete.pdf
-      \endverb
-      \verb{url}
-      \verb http://files/148/Nayeri%20i%20in.%20-%202009%20-%20Study%20of%20time-domain%20techniques%20for%20modal%20paramete.pdf
-      \endverb
       \keyw{Bridges,Eigenvalues,Excitation,Monitoring,Parameters,Structural reliability,suspension}
     \endentry
     \entry{Newmark1959}{article}{}
@@ -2864,12 +2853,6 @@
       \field{year}{1992}
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1992_Pappa, Elliott, Schenk_A consistent-mode indicator for the Eigensystem Realization Algorithm.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://files/97/Pappa i in. - 1992 - A consistent-mode indicator for the Eigensystem Re.pdf
-      \endverb
-      \verb{url}
-      \verb http://files/97/Pappa%20i%20in.%20-%201992%20-%20A%20consistent-mode%20indicator%20for%20the%20Eigensystem%20Re.pdf
       \endverb
       \keyw{Eigenvalues.,Structural dynamics -- Testing.}
     \endentry
@@ -3815,12 +3798,6 @@
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop//2016_Tesch_Continuous optimisation algorithms.pdf:pdf
       \endverb
-      \verb{urlraw}
-      \verb http://files/226/Tesch - Continuous optimisation algorithms.pdf http://www.pg.edu.pl/wydawnictwo/katalogordersshouldbesenttowydaw@pg.gda.pl
-      \endverb
-      \verb{url}
-      \verb http://files/226/Tesch%20-%20Continuous%20optimisation%20algorithms.pdf%20http://www.pg.edu.pl/wydawnictwo/katalogordersshouldbesenttowydaw@pg.gda.pl
-      \endverb
     \endentry
     \entry{Udwadia1994}{article}{}
       \name{author}{1}{}{%
@@ -4303,6 +4280,43 @@
       \range{pages}{8}
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2004_Zhang, Brincker, Andersen_An overview of major developments and issues in modal identification.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Zielinski2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c2ab56b917e0d9c650e058e2debae82d}{%
+           family={Zielinski},
+           familyi={Z\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=963d2bdcda3f795a52202e6a82c508b7}{%
+           family={Laur},
+           familyi={L\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a2a7af31c110b15fd175c72b08ec1e5f}
+      \strng{fullhash}{a2a7af31c110b15fd175c72b08ec1e5f}
+      \strng{bibnamehash}{a2a7af31c110b15fd175c72b08ec1e5f}
+      \strng{authorbibnamehash}{a2a7af31c110b15fd175c72b08ec1e5f}
+      \strng{authornamehash}{a2a7af31c110b15fd175c72b08ec1e5f}
+      \strng{authorfullhash}{a2a7af31c110b15fd175c72b08ec1e5f}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1854-3871}
+      \field{journaltitle}{Informatica}
+      \field{number}{1}
+      \field{title}{{Stopping criteria for a constrained single-objective particle swarm optimization algorithm}}
+      \field{volume}{31}
+      \field{year}{2007}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2007_Zielinski, Laur_Stopping criteria for a constrained single-objective particle swarm optimization algorithm.pdf:pdf
       \endverb
     \endentry
     \entry{Zielinski2002}{book}{}

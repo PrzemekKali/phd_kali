@@ -915,6 +915,59 @@
       \endverb
       \keyw{Structural dynamics}
     \endentry
+    \entry{CoelloCoello2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8d3bdba9bcf6dc47228eb24cac942f27}{%
+           family={{Coello Coello}},
+           familyi={C\bibinitperiod},
+           given={Carlos\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c8c72af32c0ae7f23b28cde78981f5e}{%
+           family={Reyes-Sierra},
+           familyi={R\bibinithyphendelim S\bibinitperiod},
+           given={Margarita},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4ed98a94cf961ffe1ea955f27ca8314e}
+      \strng{fullhash}{4ed98a94cf961ffe1ea955f27ca8314e}
+      \strng{bibnamehash}{4ed98a94cf961ffe1ea955f27ca8314e}
+      \strng{authorbibnamehash}{4ed98a94cf961ffe1ea955f27ca8314e}
+      \strng{authornamehash}{4ed98a94cf961ffe1ea955f27ca8314e}
+      \strng{authorfullhash}{4ed98a94cf961ffe1ea955f27ca8314e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The success of the Particle Swarm Optimization (PSO) algorithm as a single-objective optimizer (mainly when dealing with continuous search spaces) has motivated researchers to extend the use of this bio-inspired technique to other areas. One of them is multi-objective optimization. Despite the fact that the ﬁrst proposal of a Multi-Objective Particle Swarm Optimizer (MOPSO) is over six years old, a considerable number of other algorithms have been proposed since then. This paper presents a comprehensive review of the various MOPSOs reported in the specialized literature. As part of this review, we include a classiﬁcation of the approaches, and we identify the main features of each proposal. In the last part of the paper, we list some of the topics within this ﬁeld that we consider as promising areas of future research.}
+      \field{issn}{09741259}
+      \field{journaltitle}{International Journal of Computational Intelligence Research}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{{Multi-Objective Particle Swarm Optimizers: A Survey of the State-of-the-Art}}
+      \field{volume}{2}
+      \field{year}{2006}
+      \field{pages}{287\bibrangedash 308}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.5019/j.ijcir.2006.68
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2006_Coello Coello, Reyes-Sierra_Multi-Objective Particle Swarm Optimizers A Survey of the State-of-the-Art.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.ijcir.com/publishedPapers.php?showDetails=Y&idArticle=68&volume=1&number=1&volume_id=2&number_id=4 http://files/702/Coello Coello i Reyes-Sierra - 2006 - Multi-Objective Particle Swarm Optimizers A Surve.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ijcir.com/publishedPapers.php?showDetails=Y&idArticle=68&volume=1&number=1&volume_id=2&number_id=4%20http://files/702/Coello%20Coello%20i%20Reyes-Sierra%20-%202006%20-%20Multi-Objective%20Particle%20Swarm%20Optimizers%20A%20Surve.pdf
+      \endverb
+    \endentry
     \entry{Dudek2008}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=92067a757a974d8a9f3739bbee220f53}{%

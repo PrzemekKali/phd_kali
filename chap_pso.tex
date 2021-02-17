@@ -11,7 +11,7 @@ Kryterium optymalizacji powinno w sposób wymierny pozwolić na ocenę danego ro
 \begin{equation}
 	F=\sum_{i=1}^{n}w_i F_i
 \end{equation}
-gdzie $w_i$ to współczynnik określający wagę kryterium $F_i$. W pracy został zastosowane rozwiązanie optymalizacji wielokryterialnej. W takim przypadku optymalizacja polega na minimalizowaniu lub maksymalizowaniu jednocześnie kilku funkcji celu. Zagadnienie zostanie omówione teoretycznie w dalszej części pracy. 
+gdzie $w_i$ to współczynnik określający wagę kryterium $F_i$. W pracy został zastosowane rozwiązanie optymalizacji wielokryterialnej. W takim przypadku optymalizacja polega na minimalizowaniu lub maksymalizowaniu jednocześnie kilku funkcji celu. Zagadnienie zostanie omówione teoretycznie w punkcie \ref{sect: multiobjective_opt}. 
 
 W przypadku konstrukcji, parametry projektowe to założone wartości opisujące ustrój, które nie ulegają zmianie w procesie optymalizacji.  Mogą być one narzucone przez względy technologiczne bądź normowe \parencite{Szymczak1995}, lub wynikać z innych założeń projektowych. Z kolei zmienne projektowe $x_i$, jak sama nazwa wskazuje, mogą się zmieniać w procesie optymalizacji i zależą od projektanta. Wybór konkretnych $m$ zmiennych projektowych tworzy rozwiązanie w postaci wektora $\vect{x}=[x_1,x_2,\dots,x_m]^T$, będącego punktem w przestrzeni $m$-wymiarowej.
 
@@ -169,23 +169,23 @@ W celu weryfikacji stosowanej metody przygotowano przykład teoretyczny. Zastoso
 gdzie $x$, $y$ tworzą wektor zmiennych projektowych, a wartość funkcji $f(x,y)$ jest funkcją celu. Funkcję zwizualizowano w przestrzeni 3D na rysunku \ref{fig: pso_example_function}. Podobnie jak w pracy źródłowej przedział dopuszczalny dla każdej zmiennej projektowej to $[0,\pi]$. Wartość minimalna funkcji w tej dziedzinie jest znana i wynosi $f_{\text{min}}=-6$, dla punktu $(x,y)=(\frac{\pi}{2},\frac{\pi}{2})$.
 \begin{figure}[h]
 	\centering
-	\includegraphics[trim= 0 0 0 10, clip]{/PSO/testfunct/fig_3dplot_19_09_18.pdf} 
+	\includegraphics[trim= 0 0 0 10, clip,width=0.8\linewidth]{/PSO/testfunct/fig_3dplot_19_09_18.pdf} 
 	\captionsetup{justification=centering}
 	\caption{Wizualizacja funkcji testowej w przestrzeni trójwymiarowej}
 	\label{fig: pso_example_function}
 \end{figure}
 
 
-Wygenerowano populację złożoną z 20 cząstek. Do generacji użyto wariant korzystający z sekwencji Haltona. Z uwagi na multimodalność funkcji celu zastosowano topologię z rodziny lbest - von Neumanna. Warunki brzegowe przyjęto typu niewidocznego. Parametry wektora prędkości (\ref{eq: pso_velocity}) ustawiono domyślnie równe: $\theta=0.7968$, $\alpha=1.4962$ oraz $\beta=1.4962$. Zatrzymanie algorytmu nastąpiło po wykonaniu założonej liczby aktualizacji całego roju równej 25. W konsekwencji całkowita liczba ewaluacji funkcji celu przez cząstki wynosi $25\cdot20=500$. Na rysunku \ref{fig: pso_convergence_plot} zaprezentowano diagram poprawy najlepszego rozwiązania znalezionego przez rój. Na rysunku \ref{fig: pso_test_func_all} pokazano 6 etapów z procesu poszukiwania przez rój minimum funkcji. Ostateczna znaleziona wartość minimum globalnego wynosi $f_{\text{min,25}}=-5.99$. Wartość ta została osiągnięta po około 400 ewaluacjach funkcji i jest bardzo bliska znanemu minimum globalnemu. Warto nadmienić, że po 215 ewaluacjach odnaleziona zostało rozwiązanie o funkcji celu wynoszącej $f=-5.98$. Wizualizacja położenia cząstek roju w kolejnych iteracjach pokazuje, że wraz z postępem algorytmu, cząstki z rozproszonego układu skupiają się konsekwentnie wokół lidera. Topologia von Neumanna spowalnia ten proces. Opóźnia to znalezienie precyzyjnego rozwiązania, ale obszar dopuszczalny jest przeszukany dokładniej. Na kolejnych grafikach widać, że pomimo znalezienia punktu bliskiego teoretycznego minimum globalnego (Rys. \ref{fig: pso_test_func_2}) wciąż pozostają cząstki, które eksplorują pozostały obszar. Na podstawie powyższego testu uznano, że zaimplementowany algorytm PSO działa poprawnie.
+Wygenerowano populację złożoną z 20 cząstek. Do generacji użyto wariant korzystający z sekwencji Haltona. Z uwagi na multimodalność funkcji celu zastosowano topologię z rodziny lbest - von Neumanna. Warunki brzegowe przyjęto typu niewidocznego. Parametry wektora prędkości (\ref{eq: pso_velocity}) ustawiono domyślnie równe: $\theta=0.7968$, $\alpha=1.4962$ oraz $\beta=1.4962$. Zatrzymanie algorytmu nastąpiło po wykonaniu założonej liczby aktualizacji całego roju równej 25. W konsekwencji całkowita liczba ewaluacji funkcji celu przez cząstki wynosi $25\cdot20=500$. Na rysunku \ref{fig: pso_convergence_plot} zaprezentowano diagram poprawy najlepszego rozwiązania znalezionego przez rój. Na rysunku \ref{fig: pso_test_func_all} pokazano 6 etapów z procesu poszukiwania przez rój minimum funkcji. Ostateczna znaleziona wartość minimum globalnego wynosi $f_{\text{min,25}}=-5.99$. Wartość ta została osiągnięta po około 400 ewaluacjach funkcji i jest bardzo bliska znanemu minimum globalnemu. Warto nadmienić, że już po 215 ewaluacjach odnaleziona zostało rozwiązanie o funkcji celu wynoszącej $f=-5.98$. Wizualizacja położenia cząstek roju w kolejnych iteracjach pokazuje, że wraz z postępem algorytmu, cząstki z rozproszonego układu skupiają się konsekwentnie wokół lidera. Topologia von Neumanna spowalnia ten proces. Opóźnia to znalezienie precyzyjnego rozwiązania, ale obszar dopuszczalny jest przeszukany dokładniej. Na kolejnych grafikach widać, że pomimo znalezienia punktu bliskiego teoretycznego minimum globalnego (Rys. \ref{fig: pso_test_func_2}) wciąż pozostają cząstki, które eksplorują pozostały obszar. Na podstawie powyższego testu uznano, że zaimplementowany algorytm PSO działa poprawnie.
 \begin{figure}[h]
 	\centering
-	\includegraphics[]{/PSO/testfunct/fig_convergence11_30_59.pdf} 
+	\includegraphics[trim=0 5 0 5, clip,width=0.75\linewidth]{/PSO/testfunct/fig_convergence11_30_59.pdf} 
 	\captionsetup{justification=centering}
 	\caption{Diagram postępu roju cząstek w poszukiwaniu minimum globalnego funkcji testowej}
 	\label{fig: pso_convergence_plot} 
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[$f_{\text{min,0}}=-4.38$]{\includegraphics[trim=8 10 5 10, clip,width=0.33\linewidth]{/PSO/testfunct/fig_population_11_30_23.pdf} \label{fig: pso_test_func_1}}
 	\subfloat[$f_{\text{min,5}}=-5.34$]{\includegraphics[trim=8 10 5 10, clip,width=0.33\linewidth]{/PSO/testfunct/fig_04_00.pdf} \label{fig: pso_test_func_2}}
@@ -200,7 +200,47 @@ Wygenerowano populację złożoną z 20 cząstek. Do generacji użyto wariant ko
 
 
 
-\section{Optymalizacja wielokryterialna}
+\section{Optymalizacja wielokryterialna} \label{sect: multiobjective_opt}
+Jak wspomniano we wstępie rozdziału, rzeczywiste problemy inżynierskie rzadko sprowadzają się do jednego kryterium, którego optymalizacja dostarczy bezkompromisowo jedyne, idealne rozwiązanie. Najczęściej występuje kilka istotnych kryteriów stojących ze sobą w kontrze, które nie osiągają jednocześnie maksimum lub minimum dla tych samych wartości zmiennych projektowych. Jedna z metod radzenia sobie w takich przypadkach została już opisana i polega na liniowej kombinacji kryteriów, sprowadzając problem optymalizacji de facto do jednej funkcji celu. Wadą tego rozwiązania jest konieczność ustalenia skali ważności poszczególnych kryteriów jeszcze przed rozpoczęciem optymalizacji. Poza koniecznością ustalenia wag składników sumy, niekiedy trudno ustalić związki między zmiennymi projektowymi i sprowadzić wszystkie kryteria do jednego porównawczego, jakim jest na przykład koszt wykonania lub ilość materiału \parencite{Szymczak1995}. Inną metodą jest rozwiązanie problemu optymalizacji jako wielokryterialnego. Polega ona na jednoczesnej minimalizacji lub maksymalizacji więcej niż jednej funkcji celu. W konsekwencji zamiast pojedynczego optymalnego rozwiązania - jak to ma miejsce w przypadku optymalizacji jednokryterialnej - otrzymywany jest zestaw wielu rozwiązań. Jest to tak zwany zbiór Pareto, zawierający rozwiązania niezdominowane. Do wytłumaczenia powyższego zdania niezbędne jest przytoczenie kilku formalnych definicji \parencite{CoelloCoello2006}. 
+
+Rozpatrzmy problem minimalizacji zestawu $k$ funkcji celu $\vect{f}(\vect{x})$ zależnych od $D$-wymiarowego wektora zmiennych projektowych $\vect{x}$:
+\begin{equation}
+	\vect{f}(\vect{x})=[f_1(\vect{x}),f_2(\vect{x}),\dots,f_k(\vect{x})] \qquad f_i:\mathbb{R}^D\rightarrow \mathbb{R},\quad i=1,\dots,k
+\end{equation}
+Dodatkowo niech zbiór $\mathcal{N}$ jest zbiorem liczba naturalnych takich, że $\mathcal{N}=[1,\dots,D]$.
+\begin{definition}[Dominacja]
+Niech dwa wektory $\vect{x}_1, \vect{x}_2$ są zdefiniowane w przestrzeni $\mathbb{R}^D$. W przypadku minimalizacji, wektor $\vect{x}_1$ dominuje nad wektorem $\vect{x}_2$, jeżeli każdy element $x_{1,i}$ jest nie większy niż $x_{2,i}$ dla $i\in \mathcal{N}$ i istnieje taki element $x_{1,j}$, że $x_{1,j}$ jest mniejszy niż $x_{2,j}$ dla $j\in\mathcal{N}$. Dominację wektora $\vect{x}_1$ nad $\vect{x}_2$ oznacza się przez $\vect{x}_1\prec\vect{x}_2$.
+\begin{equation}
+	\bigforall_{i\in\mathcal{N}} x_{1,i}\le x_{2,i} \land \bigexists_{j\in\mathcal{N}} x_{1,j}<x_{2,j}
+\end{equation}
+\end{definition}
+
+
+Należy jednak nadmienić, że w kontekście optymalizacji wielokryterialnej, pojęcie dominacji dotyczy przestrzeni funkcji celu, a nie przestrzeni rozwiązań. Optymalny zbiór Pareto zawiera wszystkie rozwiązania $\vect{x}$ w przestrzeni $\mathbb{R}^D$, dla których nie istnieje inny punkt dominujący w przestrzeni funkcji celu $\mathbb{R}^k$.
+
+\begin{definition}[Zbiór Pareto]
+	Zbiór Pareto $\mathcal{PS}$ rozwiązania, jest zbiorem punktów $\vect{x}$, dla których wśród zestawu rozwiązań dopuszczalnych $\vect{\Omega}$ nie istnieje inny punkt dominujący ze względu na wartość funkcji $\vect{f}(\vect{x})$.
+	\begin{equation}
+		\mathcal{PS} = \bigg\{ 
+		\vect{x}_j \in \vect{\Omega}: 
+		\bigforall_{\vect{x}\in\vect{\Omega}} \bigg( 
+		\bigexists_{i\in\mathcal{N}} f_i(\vect{x})>f_i(\vect{x_j}) \vee
+		\bigforall_{i\in\mathcal{N}} f_i(\vect{x})\ge f_i(\vect{x_j})
+		\bigg) \bigg\}   
+	\end{equation}
+\end{definition}
+\begin{definition}[Front Pareto]
+	Front Pareto $\mathcal{PF}$ jest zbiorem punktów $\vect{f}(\vect{x})$ w przestrzeni funkcji celu, wyznaczonych dla punktów $\vect{x}$ należących do Zbioru Pareto $\mathcal{PS}$.
+	\begin{equation}
+		\mathcal{PF} = \big\{ \vect{f}(\vect{x}) \in \mathbb{R}^k: \vect{x}\in \mathcal{PS} \big\}  
+	\end{equation}
+\end{definition}
+
+
+
+
+
+
 
 
 \subsection{Przykład teoretyczny}

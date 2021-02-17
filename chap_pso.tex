@@ -208,7 +208,7 @@ Rozpatrzmy problem minimalizacji zestawu $k$ funkcji celu $\vect{f}(\vect{x})$ z
 	\vect{f}(\vect{x})=[f_1(\vect{x}),f_2(\vect{x}),\dots,f_k(\vect{x})] \qquad f_i:\mathbb{R}^D\rightarrow \mathbb{R},\quad i=1,\dots,k
 \end{equation}
 Dodatkowo niech zbiór $\mathcal{N}$ jest zbiorem liczba naturalnych takich, że $\mathcal{N}=[1,\dots,D]$.
-\begin{definition}[Dominacja]
+\begin{definition}[Dominacja Pareto]
 Niech dwa wektory $\vect{x}_1, \vect{x}_2$ są zdefiniowane w przestrzeni $\mathbb{R}^D$. W przypadku minimalizacji, wektor $\vect{x}_1$ dominuje nad wektorem $\vect{x}_2$, jeżeli każdy element $x_{1,i}$ jest nie większy niż $x_{2,i}$ dla $i\in \mathcal{N}$ i istnieje taki element $x_{1,j}$, że $x_{1,j}$ jest mniejszy niż $x_{2,j}$ dla $j\in\mathcal{N}$. Dominację wektora $\vect{x}_1$ nad $\vect{x}_2$ oznacza się przez $\vect{x}_1\prec\vect{x}_2$.
 \begin{equation}
 	\bigforall_{i\in\mathcal{N}} x_{1,i}\le x_{2,i} \land \bigexists_{j\in\mathcal{N}} x_{1,j}<x_{2,j}
@@ -235,6 +235,20 @@ Należy jednak nadmienić, że w kontekście optymalizacji wielokryterialnej, po
 		\mathcal{PF} = \big\{ \vect{f}(\vect{x}) \in \mathbb{R}^k: \vect{x}\in \mathcal{PS} \big\}  
 	\end{equation}
 \end{definition}
+
+Przyjmując powyższe definicje optymalizacja wielokryterialna sprowadza się więc do znalezienia wszystkich rozwiązań należących do Zbioru Pareto. W ogólności, rozwiązaniem problemów optymalizacji wielokryterialnej może być Front Pareto składający się z ogromnej lub nieskończonej liczby punktów. Algorytmy służące optymalizacji wielokryterialnej działają najczęściej iteracyjnie - jednym z przykładów będzie zastosowany w pracy zmodyfikowany algorytm PSO. Konsekwencją tego, w kolejnych iteracjach wyznaczane jest przybliżenie Frontu Pareto, reprezentowane przez skończony zestaw punktów niezdominowanych. W większości algorytm wyposażony jest w Archiwum, w którym przechowywane jest aktualne przybliżenie Frontu Pareto. Archiwum to ma najczęściej stałą, maksymalną objętość \parencite{Banach2017}. W trakcie działania algorytmu wyznaczane są wartości funkcji celu dla nowo wskazanych rozwiązań. Następnie algorytm sprawdza wzajemną dominację między elementami Archiwum i nowym rozwiązaniem. W przypadku lepszego przybliżenia Frontu Pareto przez nowy punkt, archiwum jest aktualizowane. Algorytm powinien gwarantować coraz lepszą jakość rozwiązania. W porównaniu do optymalizacji wielokryterialnej, określenie jakości rozwiązania optymalizacji wielokryterialnej jest znacznie bardziej złożone. \cite{Zitzler2000} podaje następujące cele jakie powinny być postawione w problemie optymalizacji wielokryterialnej:
+\begin{itemize}
+	\item 
+\end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\subfloat[Dominacja]{\includegraphics[]{/PSO/pareto/nondominated.pdf} \label{ss}}
+	\subfloat[Front Pareto]{\includegraphics[]{/PSO/pareto/pareto_front.pdf} \label{ss}}
+	\captionsetup{justification=centering}
+	\caption{Wizualizacja definicji dominacji i Frontu Pareto}
+	\label{ss}
+\end{figure}
 
 
 

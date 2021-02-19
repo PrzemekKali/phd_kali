@@ -169,7 +169,7 @@ W celu weryfikacji stosowanej metody przygotowano przykład teoretyczny. Zastoso
 gdzie $x$, $y$ tworzą wektor zmiennych projektowych, a wartość funkcji $f(x,y)$ jest funkcją celu. Funkcję zwizualizowano w przestrzeni 3D na rysunku \ref{fig: pso_example_function}. Podobnie jak w pracy źródłowej przedział dopuszczalny dla każdej zmiennej projektowej to $[0,\pi]$. Wartość minimalna funkcji w tej dziedzinie jest znana i wynosi $f_{\text{min}}=-6$, dla punktu $(x,y)=(\frac{\pi}{2},\frac{\pi}{2})$.
 \begin{figure}[h]
 	\centering
-	\includegraphics[trim= 0 0 0 10, clip,width=0.8\linewidth]{/PSO/testfunct/fig_3dplot_19_09_18.pdf} 
+	\includegraphics[trim= 0 0 0 20, clip,width=0.7\linewidth]{/PSO/testfunct/fig_3dplot_19_09_18.pdf} 
 	\captionsetup{justification=centering}
 	\caption{Wizualizacja funkcji testowej w przestrzeni trójwymiarowej}
 	\label{fig: pso_example_function}
@@ -201,7 +201,7 @@ Wygenerowano populację złożoną z 20 cząstek. Do generacji użyto wariant ko
 
 
 \section{Optymalizacja wielokryterialna} \label{sect: multiobjective_opt}
-Jak wspomniano we wstępie rozdziału, rzeczywiste problemy inżynierskie rzadko sprowadzają się do jednego kryterium, którego optymalizacja dostarczy bezkompromisowo jedyne, idealne rozwiązanie. Najczęściej występuje kilka istotnych kryteriów stojących ze sobą w kontrze, które nie osiągają jednocześnie maksimum lub minimum dla tych samych wartości zmiennych projektowych. Jedna z metod radzenia sobie w takich przypadkach została już opisana i polega na liniowej kombinacji kryteriów, sprowadzając problem optymalizacji de facto do jednej funkcji celu. Wadą tego rozwiązania jest konieczność ustalenia skali ważności poszczególnych kryteriów jeszcze przed rozpoczęciem optymalizacji. Poza koniecznością ustalenia wag składników sumy, niekiedy trudno ustalić związki między zmiennymi projektowymi i sprowadzić wszystkie kryteria do jednego porównawczego, jakim jest na przykład koszt wykonania lub ilość materiału \parencite{Szymczak1995}. Inną metodą jest rozwiązanie problemu optymalizacji jako wielokryterialnego. Polega ona na jednoczesnej minimalizacji lub maksymalizacji więcej niż jednej funkcji celu. W konsekwencji zamiast pojedynczego optymalnego rozwiązania - jak to ma miejsce w przypadku optymalizacji jednokryterialnej - otrzymywany jest zestaw wielu rozwiązań. Jest to tak zwany zbiór Pareto, zawierający rozwiązania niezdominowane. Do wytłumaczenia powyższego zdania niezbędne jest przytoczenie kilku formalnych definicji \parencite{CoelloCoello2006}. 
+Jak wspomniano we wstępie rozdziału, rzeczywiste problemy inżynierskie rzadko sprowadzają się do jednego kryterium, którego optymalizacja dostarczy bezkompromisowo jedyne, idealne rozwiązanie. Najczęściej występuje kilka istotnych kryteriów stojących ze sobą w kontrze, które nie osiągają jednocześnie maksimum lub minimum dla tych samych wartości zmiennych projektowych. Jedna z metod radzenia sobie w takich przypadkach została już opisana i polega na liniowej kombinacji kryteriów, sprowadzając problem optymalizacji de facto do jednej funkcji celu. Wadą tego rozwiązania jest konieczność ustalenia skali ważności poszczególnych kryteriów jeszcze przed rozpoczęciem optymalizacji. Poza koniecznością ustalenia wag składników sumy, niekiedy trudno ustalić związki między zmiennymi projektowymi i kryteriami, a następnie sprowadzić wszystkie kryteria do jednego porównawczego, jakim jest na przykład koszt wykonania lub ilość materiału \parencite{Szymczak1995}. Inną metodą jest rozwiązanie problemu optymalizacji jako wielokryterialnego. Polega ona na jednoczesnej minimalizacji lub maksymalizacji więcej niż jednej funkcji celu. W konsekwencji zamiast pojedynczego optymalnego rozwiązania - jak to ma miejsce w przypadku optymalizacji jednokryterialnej - otrzymywany jest zestaw wielu rozwiązań. Jest to tak zwany zbiór Pareto, zawierający rozwiązania niezdominowane. Do wytłumaczenia powyższego zdania niezbędne jest przytoczenie kilku formalnych definicji \parencite{CoelloCoello2006}. 
 
 Rozpatrzmy problem minimalizacji zestawu $k$ funkcji celu $\vect{f}(\vect{x})$ zależnych od $D$-wymiarowego wektora zmiennych projektowych $\vect{x}$:
 \begin{equation}
@@ -216,7 +216,7 @@ Niech dwa wektory $\vect{x}_1, \vect{x}_2$ są zdefiniowane w przestrzeni $\math
 \end{definition}
 
 
-Należy jednak nadmienić, że w kontekście optymalizacji wielokryterialnej, pojęcie dominacji dotyczy przestrzeni funkcji celu, a nie przestrzeni rozwiązań. Optymalny zbiór Pareto zawiera wszystkie rozwiązania $\vect{x}$ w przestrzeni $\mathbb{R}^D$, dla których nie istnieje inny punkt dominujący w przestrzeni funkcji celu $\mathbb{R}^k$.
+Należy jednak nadmienić, że w kontekście optymalizacji wielokryterialnej, pojęcie dominacji dotyczy przestrzeni funkcji celu, a nie przestrzeni rozwiązań. Optymalny zbiór Pareto zawiera wszystkie rozwiązania $\vect{x}$ w przestrzeni $\mathbb{R}^D$, dla których nie istnieje inny punkt dominujący w przestrzeni funkcji celu $\mathbb{R}^k$. Graficzną prezentację dominacji w sensie Pareto i Frontu Pareto przedstawiono na rysunku \ref{fig: PSO_pareto_visualization} dla przestrzeni dwóch funkcji celu.
 
 \begin{definition}[Zbiór Pareto]
 	Zbiór Pareto $\mathcal{PS}$ rozwiązania, jest zbiorem punktów $\vect{x}$, dla których wśród zestawu rozwiązań dopuszczalnych $\vect{\Omega}$ nie istnieje inny punkt dominujący ze względu na wartość funkcji $\vect{f}(\vect{x})$.
@@ -235,20 +235,41 @@ Należy jednak nadmienić, że w kontekście optymalizacji wielokryterialnej, po
 		\mathcal{PF} = \big\{ \vect{f}(\vect{x}) \in \mathbb{R}^k: \vect{x}\in \mathcal{PS} \big\}  
 	\end{equation}
 \end{definition}
-
-Przyjmując powyższe definicje optymalizacja wielokryterialna sprowadza się więc do znalezienia wszystkich rozwiązań należących do Zbioru Pareto. W ogólności, rozwiązaniem problemów optymalizacji wielokryterialnej może być Front Pareto składający się z ogromnej lub nieskończonej liczby punktów. Algorytmy służące optymalizacji wielokryterialnej działają najczęściej iteracyjnie - jednym z przykładów będzie zastosowany w pracy zmodyfikowany algorytm PSO. Konsekwencją tego, w kolejnych iteracjach wyznaczane jest przybliżenie Frontu Pareto, reprezentowane przez skończony zestaw punktów niezdominowanych. W większości algorytm wyposażony jest w Archiwum, w którym przechowywane jest aktualne przybliżenie Frontu Pareto. Archiwum to ma najczęściej stałą, maksymalną objętość \parencite{Banach2017}. W trakcie działania algorytmu wyznaczane są wartości funkcji celu dla nowo wskazanych rozwiązań. Następnie algorytm sprawdza wzajemną dominację między elementami Archiwum i nowym rozwiązaniem. W przypadku lepszego przybliżenia Frontu Pareto przez nowy punkt, archiwum jest aktualizowane. Algorytm powinien gwarantować coraz lepszą jakość rozwiązania. W porównaniu do optymalizacji wielokryterialnej, określenie jakości rozwiązania optymalizacji wielokryterialnej jest znacznie bardziej złożone. \cite{Zitzler2000} podaje następujące cele jakie powinny być postawione w problemie optymalizacji wielokryterialnej:
-\begin{itemize}
-	\item 
-\end{itemize}
-
 \begin{figure}[h]
 	\centering
-	\subfloat[Dominacja]{\includegraphics[]{/PSO/pareto/nondominated.pdf} \label{ss}}
-	\subfloat[Front Pareto]{\includegraphics[]{/PSO/pareto/pareto_front.pdf} \label{ss}}
+	\subfloat[Dominacja]{\includegraphics[]{/PSO/pareto/nondominated.pdf} \label{fig: PSO_pareto_visualizationa}} \qquad
+	\subfloat[Front Pareto]{\includegraphics[]{/PSO/pareto/pareto_front.pdf} \label{fig: PSO_pareto_visualizationb}}
 	\captionsetup{justification=centering}
 	\caption{Wizualizacja definicji dominacji i Frontu Pareto}
-	\label{ss}
+	\label{fig: PSO_pareto_visualization}
 \end{figure}
+
+Przyjmując powyższe definicje optymalizacja wielokryterialna sprowadza się więc do znalezienia wszystkich rozwiązań należących do Zbioru Pareto. W ogólności, rozwiązaniem problemów optymalizacji wielokryterialnej może być Front Pareto składający się z ogromnej lub nieskończonej liczby punktów. Algorytmy służące optymalizacji wielokryterialnej działają najczęściej iteracyjnie - jednym z przykładów będzie zastosowany w pracy zmodyfikowany algorytm PSO. Konsekwencją tego, w kolejnych iteracjach wyznaczane jest jedynie przybliżenie Frontu Pareto, reprezentowane przez skończony zestaw punktów niezdominowanych. Większość algorytmów wyposażonych jest w Archiwum, w którym przechowywane jest aktualne przybliżenie Frontu Pareto. Archiwum to ma najczęściej stałą, maksymalną objętość \parencite{Banach2017}. W trakcie działania algorytmu wyznaczane są wartości funkcji celu dla nowo wskazanych rozwiązań. Za wskazywanie kandydatów odpowiedzialny jest osobny mechanizm na przykład oparty na PSO. Następnie algorytm sprawdza wzajemną dominację między elementami Archiwum i nowym rozwiązaniem. W przypadku lepszego przybliżenia Frontu Pareto przez nowy punkt, archiwum jest aktualizowane. Jeśli zachodzi taka sytuacja, rozwiązania zdominowane przez nowy wynik są odrzucane, a nowy rezultat jest dodawany do Archiwum. Algorytm powinien gwarantować coraz lepszą jakość rozwiązania. W porównaniu do optymalizacji jednokryterialnej, określenie jakości rozwiązania optymalizacji wielokryterialnej jest znacznie bardziej złożone. \cite{Zitzler2000} podają następujące cele jakie powinny być postawione w problemie optymalizacji wielokryterialnej:
+\begin{itemize}[noitemsep]
+	\item odległość pomiędzy wyznaczonym rozwiązaniem przybliżonym, a rzeczywistym Frontem Pareto powinna być jak najmniejsza,
+	\item dystrybucja wyznaczonych punktów Frontu Pareto powinna być odpowiednia - najczęściej równomierna,
+	\item liczba wyznaczonych punktów Frontu Pareto powinna być jak największa.
+\end{itemize}
+
+\cite{Banach2017} wskazuje, że warto by algorytm optymalizacji zwracał również uwagę na dobre rozmieszczenie rozwiązań w Zbiorze Pareto, a nie jedynie Froncie Pareto. Wynika to z tego, że wartość funkcji celu może być identyczna dla bardzo oddalonych od siebie rozwiązań w przestrzeni rozwiązań. Taka sytuacja możliwa jest w przypadku okresowych funkcji celu.
+
+W pracy zawarto jedynie podstawowe informacje dotyczące jednego z podejść rozwiązywania problemów optymalizacji wielokryterialnej. Szerszy przegląd i porównanie metod dostępne jest w literaturze przedmiotu: \parencite{Zitzler2000,Elbeltagi2005,Abido2006,Coello2007,Lalwani2013,Zaman2019}.
+
+\section{Optymalizacja wielokryterialna rojem cząstek}
+Algorytm służący optymalizacji wielokryterialnej rojem cząstek \teng{Multi-Objective Particle Swarm Optimization (MOPSO)} jest modyfikacją oryginalnego algorytmu PSO. Pierwsza publikacja przedstawiająca ten zamysł ukazała się w 1999 roku \parencite{Moore1999}. Następnie nastąpił gwałtowny przyrost prac wprowadzających nowe strategie wyboru liderów, topologie, systemy sprawdzania jakości rozwiązania lub modyfikujące istniejące elementy algorytmu. Szczegółowe podsumowanie prac nad wielokryterialną wersją algorytmu PSO do 2006 przedstawił \parencite{CoelloCoello2006}. 
+Z punktu widzenia algorytmu PSO, występują dwa dodatkowe aspekty, które są wyzwaniem w przypadku wersji optymalizacji wielokryterialnej \parencite{Pulido2005OnTU}:
+\begin{itemize}
+	\item wybór i aktualizacja lidera roju spośród wielu kandydatów,
+	\item wskazanie nowych rozwiązań aby zachować dobrą dystrybucję Frontu Pareto.
+\end{itemize}
+Wybór lidera roju nie jest rzeczą oczywistą w kontekście algorytmu PSO i musi ulec modyfikacji. Wynika to z większej od jedności liczby równie dobrych rozwiązań optymalizacji. Podstawowym i najprostszym podejściem przy doborze lidera roju jest wybór spośród wszystkich niezdominowanych rozwiązań. Jednakże zupełnie losowy wybór lidera z zestawu niezdominowanych rozwiązań może prowadzić do utraty odpowiedniej dystrybucji rozwiązań, która jest jednym z celów dobrego algorytmu optymalizacji wielokryterialnej. Istnieje wiele podejść pozwalających na ocenę jakości rozwiązania i w konsekwencji jego wyboru jako lidera. Popularnym jest ocena zagęszczenia rozwiązań niezdominowanych w przestrzeni funkcji celu. Aby zachować równomierność Frontu Pareto predestynowane do pozycji lidera są cząstki, występujące w małym zagęszczeniu. Wśród najpopularniejszych metod, zaproponowano pomiar tego zagęszczenia wprost przez ocenę odległości między sąsiednimi cząstkami \parencite{Deb2002} i przez bardziej złożone funkcje rdzenia \parencite{Deb1989}. Inne rozwiązania zostały zebrane i szerzej opisane w pracy \parencite{CoelloCoello2006}.
+
+We ogólnym opisie podstaw optymalizacji wielokryterialnej opisano zbiór przechowywanych rozwiązań niezdominowanych jako Archiwum. Ma ono za cel przechować niezdominowane rozwiązania w trakcie całego procesu optymalizacji i ostatecznie może służyć jako rezultat końcowy. Oczywistym rozwiązaniem jest przechowywanie wszystkich otrzymanych wyników niezdominowanych, aktualizując je w trakcie przebiegu algorytmu. Aktualizacja musi zapewnić uwzględnienie nowych niezdominowanych rozwiązań w archiwum i usunięcie tych, które zostały zdominowane przez nowe cząstki. Jednakże przechowywanie wszystkich wyników wiąże się z dużą złożonością obliczeniową aktualizacji. Aktualizacja musi być wykonywana po każdym przesunięciu wszystkich cząstek roku, a jej koszt rośnie kwadratowo wraz ze wzrostem liczebności roju i liniowo z liczebnością zmiennych decyzyjnych. Jak zasugerowano wcześniej, z tego względu archiwum najczęściej jest ograniczane do stałej, maksymalnej objętości \parencite{Coello2007}. Przykładowe metody pozwalające na selekcję odrzucanych z archiwum elementów zostały opisane w \parencite{Zitzler1999,Knowles2000}.
+
+Wybór nowych kandydatów 
+
+
+
 
 
 

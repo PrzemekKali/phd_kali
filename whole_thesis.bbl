@@ -19,6 +19,42 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Abido2006}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bb4e16e0bb3ea74a4bcf8a39bf2c8c65}{%
+           family={Abido},
+           familyi={A\bibinitperiod},
+           given={Mohammad\bibnamedelima Ali},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{bb4e16e0bb3ea74a4bcf8a39bf2c8c65}
+      \strng{fullhash}{bb4e16e0bb3ea74a4bcf8a39bf2c8c65}
+      \strng{bibnamehash}{bb4e16e0bb3ea74a4bcf8a39bf2c8c65}
+      \strng{authorbibnamehash}{bb4e16e0bb3ea74a4bcf8a39bf2c8c65}
+      \strng{authornamehash}{bb4e16e0bb3ea74a4bcf8a39bf2c8c65}
+      \strng{authorfullhash}{bb4e16e0bb3ea74a4bcf8a39bf2c8c65}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1089-778X}
+      \field{journaltitle}{IEEE transactions on evolutionary computation}
+      \field{number}{3}
+      \field{title}{{Multiobjective evolutionary algorithms for electric power dispatch problem}}
+      \field{volume}{10}
+      \field{year}{2006}
+      \field{pages}{315\bibrangedash 329}
+      \range{pages}{15}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2006_Abido_Multiobjective evolutionary algorithms for electric power dispatch problem.pdf:pdf
+      \endverb
+    \endentry
     \entry{Allemang1982}{inproceedings}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=0069bd29d651072e1ef48a2e4ae3ba8f}{%
@@ -915,6 +951,55 @@
       \endverb
       \keyw{Structural dynamics}
     \endentry
+    \entry{Coello2007}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9a55e52323b155a1682dcb95cc31d31a}{%
+           family={Coello},
+           familyi={C\bibinitperiod},
+           given={Carlos\bibnamedelimb A\bibnamedelima Coello},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7e276680742fad98e9358b94be29919}{%
+           family={Lamont},
+           familyi={L\bibinitperiod},
+           given={Gary\bibnamedelima B},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65c93b584810bc9f55e781ab786f0230}{%
+           family={{Van Veldhuizen}},
+           familyi={V\bibinitperiod},
+           given={David\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Boston, MA}%
+      }
+      \strng{namehash}{27081182d0b88181767fff62464561aa}
+      \strng{fullhash}{27081182d0b88181767fff62464561aa}
+      \strng{bibnamehash}{27081182d0b88181767fff62464561aa}
+      \strng{authorbibnamehash}{27081182d0b88181767fff62464561aa}
+      \strng{authornamehash}{27081182d0b88181767fff62464561aa}
+      \strng{authorfullhash}{27081182d0b88181767fff62464561aa}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second Edi}
+      \field{isbn}{978-0-387-36797-2}
+      \field{title}{{Evolutionary algorithms for solving multi-objective problems}}
+      \field{year}{2007}
+      \field{pages}{800}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-0-387-36797-2
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2007_Coello, Lamont, Van Veldhuizen_Evolutionary algorithms for solving multi-objective problems.pdf:pdf
+      \endverb
+    \endentry
     \entry{CoelloCoello2006}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8d3bdba9bcf6dc47228eb24cac942f27}{%
@@ -966,6 +1051,93 @@
       \endverb
       \verb{url}
       \verb http://www.ijcir.com/publishedPapers.php?showDetails=Y&idArticle=68&volume=1&number=1&volume_id=2&number_id=4%20http://files/702/Coello%20Coello%20i%20Reyes-Sierra%20-%202006%20-%20Multi-Objective%20Particle%20Swarm%20Optimizers%20A%20Surve.pdf
+      \endverb
+    \endentry
+    \entry{Deb1989}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b11d1da0cc2920eef235d484e6b858ef}{%
+           family={Deb},
+           familyi={D\bibinitperiod},
+           given={Kalyanmoy},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=f4dae5bf19584b96b5db33b402a449d8}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{00459292b1cf4e74b29180b26b0aaade}
+      \strng{fullhash}{00459292b1cf4e74b29180b26b0aaade}
+      \strng{bibnamehash}{00459292b1cf4e74b29180b26b0aaade}
+      \strng{authorbibnamehash}{00459292b1cf4e74b29180b26b0aaade}
+      \strng{authornamehash}{00459292b1cf4e74b29180b26b0aaade}
+      \strng{authorfullhash}{00459292b1cf4e74b29180b26b0aaade}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the third international conference on Genetic algorithms}
+      \field{title}{{An investigation of niche and species formation in genetic function optimization}}
+      \field{year}{1989}
+      \field{pages}{42\bibrangedash 50}
+      \range{pages}{9}
+    \endentry
+    \entry{Deb2002}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=b11d1da0cc2920eef235d484e6b858ef}{%
+           family={Deb},
+           familyi={D\bibinitperiod},
+           given={Kalyanmoy},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fbc80a7299653739376ff004f77fab1}{%
+           family={Pratap},
+           familyi={P\bibinitperiod},
+           given={Amrit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e180088c2d397bb169dfb45679eba22}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={Sameer},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae53e964ba943c196ae94a80e4f5bb0c}{%
+           family={Meyarivan},
+           familyi={M\bibinitperiod},
+           given={TAMT},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3481be523a8dbbb1e35d02ebc67f5ca8}
+      \strng{fullhash}{510b69f6bba51f5fee6a3043c25b301b}
+      \strng{bibnamehash}{3481be523a8dbbb1e35d02ebc67f5ca8}
+      \strng{authorbibnamehash}{3481be523a8dbbb1e35d02ebc67f5ca8}
+      \strng{authornamehash}{3481be523a8dbbb1e35d02ebc67f5ca8}
+      \strng{authorfullhash}{510b69f6bba51f5fee6a3043c25b301b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1089-778X}
+      \field{journaltitle}{IEEE transactions on evolutionary computation}
+      \field{number}{2}
+      \field{title}{{A fast and elitist multiobjective genetic algorithm: NSGA-II}}
+      \field{volume}{6}
+      \field{year}{2002}
+      \field{pages}{182\bibrangedash 197}
+      \range{pages}{16}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2002_Deb et al._A fast and elitist multiobjective genetic algorithm NSGA-II.pdf:pdf
       \endverb
     \endentry
     \entry{Dudek2008}{thesis}{}
@@ -1137,6 +1309,60 @@
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2001_Eberhart, Shi, Kennedy_Swarm intelligence.pdf:pdf
       \endverb
+    \endentry
+    \entry{Elbeltagi2005}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=56dba556e9092d1c5a0a9568eb56af71}{%
+           family={Elbeltagi},
+           familyi={E\bibinitperiod},
+           given={Emad},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=974053da6e9789a272c9325a9c95cdbe}{%
+           family={Hegazy},
+           familyi={H\bibinitperiod},
+           given={Tarek},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c7aefa892db1bca8c2558bc5c31c297}{%
+           family={Grierson},
+           familyi={G\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9a76fec64bf0df5146cc1e3d4e15e6f5}
+      \strng{fullhash}{9a76fec64bf0df5146cc1e3d4e15e6f5}
+      \strng{bibnamehash}{9a76fec64bf0df5146cc1e3d4e15e6f5}
+      \strng{authorbibnamehash}{9a76fec64bf0df5146cc1e3d4e15e6f5}
+      \strng{authornamehash}{9a76fec64bf0df5146cc1e3d4e15e6f5}
+      \strng{authorfullhash}{9a76fec64bf0df5146cc1e3d4e15e6f5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Evolutionary algorithms (EAs) are stochastic search methods that mimic the natural biological evolution and/or the social behavior of species. Such algorithms have been developed to arrive at near-optimum solutions to large-scale optimization problems, for which traditional mathematical techniques may fail. This paper compares the formulation and results of ﬁve recent evolutionary-based algorithms: genetic algorithms, memetic algorithms, particle swarm, ant-colony systems, and shufﬂed frog leaping. A brief description of each algorithm is presented along with a pseudocode to facilitate the implementation and use of such algorithms by researchers and practitioners. Benchmark comparisons among the algorithms are presented for both continuous and discrete optimization problems, in terms of processing time, convergence speed, and quality of the results. Based on this comparative analysis, the performance of EAs is discussed along with some guidelines for determining the best operators for each algorithm. The study presents sophisticated ideas in a simpliﬁed form that should be beneﬁcial to both practitioners and researchers involved in solving optimization problems.}
+      \field{issn}{14740346}
+      \field{journaltitle}{Advanced Engineering Informatics}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{{Comparison among five evolutionary-based optimization algorithms}}
+      \field{volume}{19}
+      \field{year}{2005}
+      \field{pages}{43\bibrangedash 53}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.aei.2005.01.004
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2005_Elbeltagi, Hegazy, Grierson_Comparison among five evolutionary-based optimization algorithms.pdf:pdf
+      \endverb
+      \keyw{Ant colony,Evolutionary algorithms,Genetic algorithms,Memetic algorithms,Optimization,Particle swarm,Shuffled frog leaping}
     \endentry
     \entry{Ewins2000}{book}{}
       \name{author}{1}{}{%
@@ -1464,12 +1690,12 @@
     \endentry
     \entry{Goldberg1995}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=eac9168b2414a78a30ea634b88ed7995}{%
+        {{un=2,uniquepart=given,hash=eac9168b2414a78a30ea634b88ed7995}{%
            family={Goldberg},
            familyi={G\bibinitperiod},
            given={David\bibnamedelima Edward},
            giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \list{location}{1}{%
         {Warszawa}%
@@ -2358,6 +2584,102 @@
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2002_Kennedy, Mendes_Population structure and particle swarm performance.pdf:pdf
       \endverb
     \endentry
+    \entry{Knowles2000}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f560f36ea9b12478c07eb4ad51d39fd2}{%
+           family={Knowles},
+           familyi={K\bibinitperiod},
+           given={Joshua\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9269c770a29e8f63d56b8bfba1069c4}{%
+           family={Corne},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelima W},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{fd84e6a96b0140c04b942048c93982bf}
+      \strng{fullhash}{fd84e6a96b0140c04b942048c93982bf}
+      \strng{bibnamehash}{fd84e6a96b0140c04b942048c93982bf}
+      \strng{authorbibnamehash}{fd84e6a96b0140c04b942048c93982bf}
+      \strng{authornamehash}{fd84e6a96b0140c04b942048c93982bf}
+      \strng{authorfullhash}{fd84e6a96b0140c04b942048c93982bf}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1063-6560}
+      \field{journaltitle}{Evolutionary computation}
+      \field{number}{2}
+      \field{title}{{Approximating the nondominated front using the Pareto archived evolution strategy}}
+      \field{volume}{8}
+      \field{year}{2000}
+      \field{pages}{149\bibrangedash 172}
+      \range{pages}{24}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2000_Knowles, Corne_Approximating the nondominated front using the Pareto archived evolution strategy.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Lalwani2013}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a6135d177d40acafa784cf30741c205a}{%
+           family={Lalwani},
+           familyi={L\bibinitperiod},
+           given={Soniya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b23eb91388ad176b51d9313dd94a466}{%
+           family={Singhal},
+           familyi={S\bibinitperiod},
+           given={Sorabh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5dbaee2bd1f68bfb2185d56f91e4b038}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Rajesh},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8aa3c0426517df02bb6d7f8d87922bd6}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Nilama},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Isfahan}%
+      }
+      \strng{namehash}{850b10f947802b61d51c80d9b3115c87}
+      \strng{fullhash}{801bee30a7289d5c3c22528d1686e7ee}
+      \strng{bibnamehash}{850b10f947802b61d51c80d9b3115c87}
+      \strng{authorbibnamehash}{850b10f947802b61d51c80d9b3115c87}
+      \strng{authornamehash}{850b10f947802b61d51c80d9b3115c87}
+      \strng{authorfullhash}{801bee30a7289d5c3c22528d1686e7ee}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2251-8657}
+      \field{journaltitle}{Transactions on Combinatorics}
+      \field{number}{1}
+      \field{title}{{A comprehensive survey: Applications of multi-objective particle swarm optimization (MOPSO) algorithm}}
+      \field{volume}{2}
+      \field{year}{2013}
+      \field{pages}{39\bibrangedash 101}
+      \range{pages}{63}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2013_Lalwani et al._A comprehensive survey Applications of multi-objective particle swarm optimization (MOPSO) algorithm.pdf:pdf
+      \endverb
+    \endentry
     \entry{Lengvarsky2013}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=dcb82e336d476d6ea96c34eb956cc428}{%
@@ -2623,6 +2945,42 @@
       \field{year}{1998}
       \field{pages}{64\bibrangedash 69}
       \range{pages}{6}
+    \endentry
+    \entry{Moore1999}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6ea56cf4c03e1c298419fb7ce0dcc9d2}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Jacqueline},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c5e236ea512fa823d7cb2221e7043b9}{%
+           family={Chapman},
+           familyi={C\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Department of Computec Science}%
+        {Software Engineering, Anburn University}%
+      }
+      \strng{namehash}{9dbd7d7c1fd6a57571274e835c7c8000}
+      \strng{fullhash}{9dbd7d7c1fd6a57571274e835c7c8000}
+      \strng{bibnamehash}{9dbd7d7c1fd6a57571274e835c7c8000}
+      \strng{authorbibnamehash}{9dbd7d7c1fd6a57571274e835c7c8000}
+      \strng{authornamehash}{9dbd7d7c1fd6a57571274e835c7c8000}
+      \strng{authorfullhash}{9dbd7d7c1fd6a57571274e835c7c8000}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Technical report}
+      \field{title}{{Application of particle swarm to multiobjective optimization}}
+      \field{type}{techreport}
+      \field{year}{1999}
     \endentry
     \entry{Nayeri2009}{article}{}
       \name{author}{7}{}{%
@@ -3280,6 +3638,34 @@
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2018_Poprawa_Operacyjna analiza modalna w badaniach kratowych most{\'{o}}w kolejowych pod pr{\'{o}}bnym obcia{\.{z}}eniem dynamicznym.pdf:pdf
       \endverb
     \endentry
+    \entry{Pulido2005OnTU}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7386608565cd0d165375fe3631a05730}{%
+           family={Pulido},
+           familyi={P\bibinitperiod},
+           given={G\bibnamedelima T},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {National Polytechnic Institute, Mexico City}%
+      }
+      \strng{namehash}{7386608565cd0d165375fe3631a05730}
+      \strng{fullhash}{7386608565cd0d165375fe3631a05730}
+      \strng{bibnamehash}{7386608565cd0d165375fe3631a05730}
+      \strng{authorbibnamehash}{7386608565cd0d165375fe3631a05730}
+      \strng{authornamehash}{7386608565cd0d165375fe3631a05730}
+      \strng{authorfullhash}{7386608565cd0d165375fe3631a05730}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{On the use of self-adaptation and elitism for multiobjetive particle swarm optimization}}
+      \field{type}{PhD Disertation}
+      \field{year}{2005}
+    \endentry
     \entry{Rainieri2014}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=29bb803ee2aee4a58a9af5add112f7df}{%
@@ -3530,12 +3916,6 @@
       \verb{file}
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2003_Salamak_Do{\'{s}}wiadczalne metody okre{\'{s}}lania poziomu t{\l}umienia drga{\'{n}} w k{\l}adkach dla pieszych.pdf:pdf
       \endverb
-      \verb{urlraw}
-      \verb http://files/105/Salamak - 2003 - Do{\'{s}}wiadczalne metody okre{\'{s}}lania poziomu t{\l}umienia .pdf http://han.bg.pg.edu.pl/han/ebsco/sea
-      \endverb
-      \verb{url}
-      \verb http://files/105/Salamak%20-%202003%20-%20Do%7B%5C'%7Bs%7D%7Dwiadczalne%20metody%20okre%7B%5C'%7Bs%7D%7Dlania%20poziomu%20t%7B%5Cl%7Dumienia%20.pdf%20http://han.bg.pg.edu.pl/han/ebsco/sea
-      \endverb
       \keyw{drgania,dynamika mostów,konstrukcje inżynierskie,konstrukcje mostowe,k{ł}adki dla pieszych,mosty dla pieszych,t{ł}umienie drgań}
     \endentry
     \entry{Saliby2002}{inproceedings}{}
@@ -3580,23 +3960,29 @@
       \endverb
     \endentry
     \entry{Schutter2000}{article}{}
-      \name{author}{1}{}{%
+      \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=3fc61f1c60423ec529e037233d4095ad}{%
            family={Schutter},
            familyi={S\bibinitperiod},
            given={B.De},
            giveni={B\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=3aa279196551f6d4f6429776156250b6}{%
+           family={{De Schutter}},
+           familyi={D\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{3fc61f1c60423ec529e037233d4095ad}
-      \strng{fullhash}{3fc61f1c60423ec529e037233d4095ad}
-      \strng{bibnamehash}{3fc61f1c60423ec529e037233d4095ad}
-      \strng{authorbibnamehash}{3fc61f1c60423ec529e037233d4095ad}
-      \strng{authornamehash}{3fc61f1c60423ec529e037233d4095ad}
-      \strng{authorfullhash}{3fc61f1c60423ec529e037233d4095ad}
+      \strng{namehash}{af0b304f1c8093ae71a4726f3cb2de3e}
+      \strng{fullhash}{af0b304f1c8093ae71a4726f3cb2de3e}
+      \strng{bibnamehash}{af0b304f1c8093ae71a4726f3cb2de3e}
+      \strng{authorbibnamehash}{af0b304f1c8093ae71a4726f3cb2de3e}
+      \strng{authornamehash}{af0b304f1c8093ae71a4726f3cb2de3e}
+      \strng{authorfullhash}{af0b304f1c8093ae71a4726f3cb2de3e}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -3617,14 +4003,9 @@
       \verb 10.1016/S0377-0427(00)00341-1
       \endverb
       \verb{file}
-      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2000_Schutter_Minimal state-space realization in linear system theory an overview.pdf:pdf
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2000_Schutter, De Schutter_Minimal state-space realization in linear system theory an overview.pdf:pdf
       \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0377042700003411 http://files/102/Schutter - 2000 - Minimal state-space realization in linear system t.pdf
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0377042700003411%20http://files/102/Schutter%20-%202000%20-%20Minimal%20state-space%20realization%20in%20linear%20system%20t.pdf
-      \endverb
+      \keyw{,linear system theory,minimal realization,state-space models}
     \endentry
     \entry{SHEN2003}{article}{}
       \name{author}{4}{}{%
@@ -4226,6 +4607,76 @@
       \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1997_Yamaguchi, Ito_Mode-dependence of structural damping in cable-stayed bridges.pdf:pdf
       \endverb
     \endentry
+    \entry{Zaman2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3ef022ae135a0e174d80d5e8288c68ef}{%
+           family={Zaman},
+           familyi={Z\bibinitperiod},
+           given={Forhad},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1f9a5862d71acec3a36bb0c0ac37279}{%
+           family={Elsayed},
+           familyi={E\bibinitperiod},
+           given={Saber\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4880c0bea8339376d1743439d308ecfe}{%
+           family={Sarker},
+           familyi={S\bibinitperiod},
+           given={Ruhul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=806b4cfe256c04e85a7bc6f30e97418e}{%
+           family={Essam},
+           familyi={E\bibinitperiod},
+           given={Daryl},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d3bdba9bcf6dc47228eb24cac942f27}{%
+           family={{Coello Coello}},
+           familyi={C\bibinitperiod},
+           given={Carlos\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3c4a06dfba41f62184d0c938adaf44ca}
+      \strng{fullhash}{94aae6c03ff0c08b36cde48e31f5fd37}
+      \strng{bibnamehash}{3c4a06dfba41f62184d0c938adaf44ca}
+      \strng{authorbibnamehash}{3c4a06dfba41f62184d0c938adaf44ca}
+      \strng{authornamehash}{3c4a06dfba41f62184d0c938adaf44ca}
+      \strng{authorfullhash}{94aae6c03ff0c08b36cde48e31f5fd37}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many real-world decision problems consider more than one objective. These objectives usually con ict with each other. In the problem environments, many data and parameters are usually uncertain at the time of planning. So multiobjective optimization combined with uncertainty is a challenging research topic. To deal with the basic search process in such problems, in this paper, a new approach has been proposed that combines multiple population based algorithms under a single algorithm structure. To deal with the uncertainty, a dynamic scenario-based approach is developed and integrated with the search process, in which the number of scenarios is dynamically set during the solution process. This is a new way of solving multi-objective optimization problems under uncertainty. To judge the performance of the proposed approach, we have solved a set of standard test problems without uncertainty and a number of practical problems with uncertainty. The practical problems are the well-known dynamic economic and emission dispatch problems, with di erent combinations of energy sources. The experimental studies demonstrated that the proposed approach performs better than other well-known algorithms compared in this paper.}
+      \field{issn}{00200255}
+      \field{journaltitle}{Information Sciences}
+      \field{month}{9}
+      \field{title}{{Multi-method based algorithm for multi-objective problems under uncertainty}}
+      \field{volume}{481}
+      \field{year}{2019}
+      \field{pages}{81\bibrangedash 109}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1016/j.ins.2018.12.072
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2019_Zaman et al._Multi-method based algorithm for multi-objective problems under uncertainty.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0020025518310272 http://files/716/Zaman i in. - 2019 - Multi-method based algorithm for multi-objective p.pdf
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0020025518310272%20http://files/716/Zaman%20i%20in.%20-%202019%20-%20Multi-method%20based%20algorithm%20for%20multi-objective%20p.pdf
+      \endverb
+    \endentry
     \entry{Zhang2017}{article}{}
       \name{author}{6}{}{%
         {{un=1,uniquepart=given,hash=2f4cc163c8766d4437008ea260208de8}{%
@@ -4400,6 +4851,96 @@
       \field{title}{{Od teorii do cyfrowego przetwarzania sygna{ł}ów}}
       \field{year}{2002}
       \keyw{Filtry cyfrowe (elektryczność) -- projektowanie i,Przetwarzanie sygna{ł}ów -- modele matematyczne,Przetwarzanie sygna{ł}ów -- techniki cyfrowe,Przetwarzanie sygna{ł}ów cyfrowe,Sygna{ł}y -- teoria,Teoria sygna{ł}ów (telekomunikacja)}
+    \endentry
+    \entry{Zitzler2000}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=69e40d953c66ad25defd15441930b1f3}{%
+           family={Zitzler},
+           familyi={Z\bibinitperiod},
+           given={Eckart},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b11d1da0cc2920eef235d484e6b858ef}{%
+           family={Deb},
+           familyi={D\bibinitperiod},
+           given={Kalyanmoy},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=443849b4c8bfc03386052ff0243f508c}{%
+           family={Thiele},
+           familyi={T\bibinitperiod},
+           given={Lothar},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{0a8d3b75d662316cad7f3b024d7610f5}
+      \strng{fullhash}{0a8d3b75d662316cad7f3b024d7610f5}
+      \strng{bibnamehash}{0a8d3b75d662316cad7f3b024d7610f5}
+      \strng{authorbibnamehash}{0a8d3b75d662316cad7f3b024d7610f5}
+      \strng{authornamehash}{0a8d3b75d662316cad7f3b024d7610f5}
+      \strng{authorfullhash}{0a8d3b75d662316cad7f3b024d7610f5}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1063-6560}
+      \field{journaltitle}{Evolutionary computation}
+      \field{number}{2}
+      \field{title}{{Comparison of multiobjective evolutionary algorithms: Empirical results}}
+      \field{volume}{8}
+      \field{year}{2000}
+      \field{pages}{173\bibrangedash 195}
+      \range{pages}{23}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/2000_Zitzler, Deb, Thiele_Comparison of multiobjective evolutionary algorithms Empirical results.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Zitzler1999}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=69e40d953c66ad25defd15441930b1f3}{%
+           family={Zitzler},
+           familyi={Z\bibinitperiod},
+           given={Eckart},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=443849b4c8bfc03386052ff0243f508c}{%
+           family={Thiele},
+           familyi={T\bibinitperiod},
+           given={Lothar},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e94333fff8d48a109f60b9b8f74c9151}
+      \strng{fullhash}{e94333fff8d48a109f60b9b8f74c9151}
+      \strng{bibnamehash}{e94333fff8d48a109f60b9b8f74c9151}
+      \strng{authorbibnamehash}{e94333fff8d48a109f60b9b8f74c9151}
+      \strng{authornamehash}{e94333fff8d48a109f60b9b8f74c9151}
+      \strng{authorfullhash}{e94333fff8d48a109f60b9b8f74c9151}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1089-778X}
+      \field{journaltitle}{IEEE transactions on Evolutionary Computation}
+      \field{number}{4}
+      \field{title}{{Multiobjective evolutionary algorithms: a comparative case study and the strength Pareto approach}}
+      \field{volume}{3}
+      \field{year}{1999}
+      \field{pages}{257\bibrangedash 271}
+      \range{pages}{15}
+      \verb{file}
+      \verb :C\:/Users/KBP/Documents/Mendeley Desktop/1999_Zitzler, Thiele_Multiobjective evolutionary algorithms a comparative case study and the strength Pareto approach.pdf:pdf
+      \endverb
     \endentry
     \entry{Zotowski2017c}{article}{}
       \name{author}{3}{}{%

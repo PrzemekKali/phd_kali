@@ -1,25 +1,27 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'whole_thesis.blg'
-[205] biber-MSWIN64:340> INFO - === 
-[289] Biber.pm:415> INFO - Reading 'whole_thesis.bcf'
-[458] Biber.pm:952> INFO - Found 105 citekeys in bib section 0
-[481] Biber.pm:4340> INFO - Processing section 0
-[507] Biber.pm:4531> INFO - Looking for bibtex format file '2020_08_19_My_Collection.bib' for section 0
-[618] bibtex.pm:1689> INFO - LaTeX decoding ...
-[1659] bibtex.pm:1494> INFO - Found BibTeX data source '2020_08_19_My_Collection.bib'
-[1896] Utils.pm:395> WARN - legacy month field 'feb' in entry 'Fryba1999' is not an integer - this will probably not sort properly.
-[1936] Utils.pm:395> WARN - ISBN '0277-786X' in entry 'Giorcelli1994' is invalid - run biber with '--validate_datamodel' for details.
-[2018] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Kennedy1995' is not an integer - this will probably not sort properly.
-[2042] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Schutter2000' is not an integer - this will probably not sort properly.
-[2078] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Brownjohn2010' is not an integer - this will probably not sort properly.
-[2123] Utils.pm:395> WARN - legacy month field 'may' in entry 'Rashedi2009' is not an integer - this will probably not sort properly.
-[2137] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Eberhart1995' is not an integer - this will probably not sort properly.
-[2152] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Xu2007' is not an integer - this will probably not sort properly.
-[2157] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Poli2007' is not an integer - this will probably not sort properly.
-[2210] Utils.pm:395> WARN - legacy month field 'sep' in entry 'CoelloCoello2006' is not an integer - this will probably not sort properly.
-[2416] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2416] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2416] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[2574] bbl.pm:654> INFO - Writing 'whole_thesis.bbl' with encoding 'UTF-8'
-[2651] bbl.pm:757> INFO - Output to whole_thesis.bbl
-[2656] Biber.pm:128> INFO - WARNINGS: 10
+[133] biber-MSWIN64:340> INFO - === 
+[181] Biber.pm:415> INFO - Reading 'whole_thesis.bcf'
+[368] Biber.pm:952> INFO - Found 117 citekeys in bib section 0
+[388] Biber.pm:4340> INFO - Processing section 0
+[402] Biber.pm:4531> INFO - Looking for bibtex format file '2020_08_19_My_Collection.bib' for section 0
+[503] bibtex.pm:1689> INFO - LaTeX decoding ...
+[1561] bibtex.pm:1494> INFO - Found BibTeX data source '2020_08_19_My_Collection.bib'
+[1741] Utils.pm:395> WARN - legacy month field 'feb' in entry 'Fryba1999' is not an integer - this will probably not sort properly.
+[1781] Utils.pm:395> WARN - ISBN '0277-786X' in entry 'Giorcelli1994' is invalid - run biber with '--validate_datamodel' for details.
+[1865] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Kennedy1995' is not an integer - this will probably not sort properly.
+[1891] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Schutter2000' is not an integer - this will probably not sort properly.
+[1928] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Brownjohn2010' is not an integer - this will probably not sort properly.
+[1974] Utils.pm:395> WARN - legacy month field 'may' in entry 'Rashedi2009' is not an integer - this will probably not sort properly.
+[1988] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Eberhart1995' is not an integer - this will probably not sort properly.
+[2002] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Xu2007' is not an integer - this will probably not sort properly.
+[2007] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Poli2007' is not an integer - this will probably not sort properly.
+[2062] Utils.pm:395> WARN - legacy month field 'sep' in entry 'CoelloCoello2006' is not an integer - this will probably not sort properly.
+[2072] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Elbeltagi2005' is not an integer - this will probably not sort properly.
+[2092] Utils.pm:395> WARN - legacy month field 'sep' in entry 'Zaman2019' is not an integer - this will probably not sort properly.
+[2342] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2342] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2342] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[2490] bbl.pm:654> INFO - Writing 'whole_thesis.bbl' with encoding 'UTF-8'
+[2575] bbl.pm:757> INFO - Output to whole_thesis.bbl
+[2580] Biber.pm:128> INFO - WARNINGS: 12

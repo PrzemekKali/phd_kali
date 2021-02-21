@@ -159,7 +159,7 @@ Podsumowując, algorytm podstawowej wersji metody optymalizacji rojem cząstek (
 \end{figure}
 
 
-\subsection{Przykład teoretyczny}
+\subsection{Przykład teoretyczny} \label{sect: pso_single_teor_exampl}
 W celu weryfikacji stosowanej metody przygotowano przykład teoretyczny. Zastosowano wariant minimalizacji funkcji celu za pomocą metody PSO. Zaimplementowano algorytm PSO w języku Python. Do testu wybrano funkcję multimodalną przedstawioną w pracy \parencite{Tesch2016} i daną wzorem:
 \begin{equation} \label{eq: pso_test_func}
 	f(x,y) = -5\sin{x}\sin{y}-5\sin{7x}\sin{7y}
@@ -267,12 +267,52 @@ We ogólnym opisie podstaw optymalizacji wielokryterialnej nazwano zbiór przech
 Wyborem nowych kandydatów w MOPSO zajmuje się oczywiście algorytm PSO. Jego potwierdzoną właściwością jest szybka zbieżność do optimum globalnego, co z reguły jest pożądaną cechą. Jednakże w przypadku optymalizacji wielokryterialnej niebezpieczne może być przedwczesne utknięcie roju w minimum lokalnym. Z tego względu stosowane są dodatkowe mechanizmy zwiększające dywersyfikację cząstek w przestrzeni. Pierwszy z nich został już wspomniany i polega na odpowiednim doborze liderów. Drugi jest oparty na określeniu cech algorytmu PSO, takich jak parametry prędkości oraz topologia roju, sprzyjających dywersyfikacji frontu Pareto i opóźnieniu zbiegania roju. Trzecia metoda oparta jest na zewnętrznej ingerencji w lot cząstki. Mechanizm ten nazywany jest turbulencją \parencite{Fieldsend} i jest pewnego rodzaju odzwierciedleniem mutacji w algorytmach genetycznych. W ramach turbulencji do wzoru (\ref{eq: pso_velocity}) dodawany jest składnik zupełnie losowy, niezależny od wcześniejszej trajektorii lotu cząstki. Takie działanie potrafi wyrwać zastały w minimum lokalny rój. Jeśli cząstka ulegająca turbulencji znajdzie w nowym położeniu lepsze rozwiązanie to zachęci resztę roju do podążania za nią. Dodatkowo, cały proces przeszukiwania przestrzeni z reguły odbywa się szybciej \parencite{Stacey2003}.
 
 \subsection{Przykład teoretyczny}
-Podobnie jak w przypadku wersji jednokryterialnej optymalizacji, wykonano przykład teoretyczny sprawdzający działanie zaimplementowanego algorytmu MOPSO. Jako wzorzec zaczerpnięto rozwiązanie problemu optymalizacji z pracy \parencite{Zavala2014}. Przedmiotem optymalizacji jest kratownica, składająca się z czterech prętów i obciążona jak na rysunku \ref{}. Kratownica jest opisana na siatce kwadratowej o boku $L$. Problem optymalizacji opisany jest przez dwie funkcje celu: $f_1(\vect{x})$ - objętość materiału zastosowanego do budowy kratownicy i $f_2(\vect{x})$ - przemieszczenie węzła $A$ kratownicy pod obciążeniem zewnętrznym. Obie funkcje celu są minimalizowane. Wektor zmiennych projektowych stanowią pola przekrojów poszczególnych prętów $\vect{x}=[x_1,x_2,x_3,x_4]$. Parametry systemu stanowią: długość $L=200\,\text{cm}$, wartość obciążenia zewnętrznego $F=10\,\text{kN}$, moduł sprężystości materiału $E=2\cdot10^5\,\frac{\text{kN}}{\text{cm}^2}$ oraz maksymalne naprężenia dopuszczalne $\sigma=10\,\frac{\text{kN}}{\text{cm}^2}$.
+Podobnie jak w przypadku wersji jednokryterialnej optymalizacji, wykonano przykład teoretyczny sprawdzający działanie zaimplementowanego algorytmu MOPSO. Jako wzorzec zaczerpnięto rozwiązanie problemu optymalizacji z pracy \parencite{Zavala2014}. Przedmiotem optymalizacji jest kratownica, składająca się z czterech prętów i obciążona jak na rysunku \ref{fig: pso_multi_testtruss}. Kratownica jest opisana na siatce kwadratowej o boku $L$. Problem optymalizacji opisany jest przez dwie funkcje celu: $f_1(\vect{x})$ - objętość materiału zastosowanego do budowy kratownicy i $f_2(\vect{x})$ - przemieszczenie węzła $A$ kratownicy pod obciążeniem zewnętrznym. Obie funkcje celu są minimalizowane. Wektor zmiennych projektowych stanowią pola przekrojów poszczególnych prętów $\vect{x}=[x_1,x_2,x_3,x_4]$. Parametry systemu stanowią: długość $L=200\,\text{cm}$, wartość obciążenia zewnętrznego $F=10\,\text{kN}$, moduł sprężystości materiału $E=2\cdot10^5\,\frac{\text{kN}}{\text{cm}^2}$ oraz maksymalne naprężenia dopuszczalne $\sigma=10\,\frac{\text{kN}}{\text{cm}^2}$.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.60\linewidth]{/PSO/testkrata/truss_scheme.pdf} 
+	\captionsetup{justification=centering}
+	\caption{}
+	\label{fig: pso_multi_testtruss} 
+\end{figure}
+
 Wartość funkcji celu $f_1$ została obliczona wprost przez iloczyn pól przekrojów i długości prętów:
 \begin{equation}
 	f_1(\vect{x}) = L\cdot(2x_1+\sqrt{2}x_2+\sqrt{2}x_3+x_4)
 \end{equation}
-Aby uzależnić przemieszczenie węzła $A$ od zmiennych projektowych posłużono się zasadą prac wirtualnych. Wyznaczono rozkład sił wewnętrznych od obciążenia zewnętrznego i obciążenia wirtualnego w miejscu badania przemieszczeń (Rys. \ref{}). Następnie wyznaczono wartość przemieszczeń zgodnie z wzorem \ref{}.
+Aby uzależnić przemieszczenie węzła $A$ od zmiennych projektowych posłużono się zasadą prac wirtualnych. Wyznaczono rozkład sił wewnętrznych od obciążenia zewnętrznego i obciążenia wirtualnego w miejscu badania przemieszczeń (Rys. \ref{fig: pso_testtruss_results}). Następnie wyznaczono wartość przemieszczeń zgodnie z wzorem (\ref{eq: pso_test_truss_norma_forces}).
+\begin{figure}[h]
+	\centering
+	\subfloat[]{\includegraphics[width=0.5\linewidth]{/PSO/testkrata/truss_scheme_zew.pdf} \label{fig: pso_testtruss_zew}}
+	\subfloat[]{\includegraphics[width=0.5\linewidth]{/PSO/testkrata/truss_scheme_wew.pdf} \label{fig: pso_testtruss_wirt}}
+	\captionsetup{justification=centering}
+	\caption{Wartości sił normalnych w prętach kratownicy: (a) od obciążeń zewnętrznych, (b) od obciążenia wirtualnego}
+	\label{fig: pso_testtruss_results}
+\end{figure}
+\begin{equation} \label{eq: pso_test_truss_norma_forces}
+\begin{split}
+	f_2(\vect{x}) =\delta= \sum_{n=1}^{4} \frac{N_i\bar{N}_i}{EA_i}L_i &=\frac{1}{E}\bigg(\frac{2FL}{x_1}+ \frac{4\sqrt{2}FL}{2x_2}- \frac{4\sqrt{2}FL}{2x_3}+\frac{2FL}{x_4}\bigg) \\
+	&=\frac{2FL}{E}\bigg(\frac{1}{x_1}+\frac{\sqrt{2}}{x_2}-\frac{\sqrt{2}}{x_3}+\frac{1}{x_4}\bigg)
+\end{split}
+\end{equation}
+Autorzy przykładu zaproponowali ograniczenie przestrzeni rozwiązań dopuszczalnych przez podanie dopuszczalnych maksymalnych i minimalnych naprężeń w prętach. Po przekształceniach ograniczenia dla zmiennych projektowych podano następujące:
+\begin{equation}
+	\begin{split}
+	\frac{F}{\sigma} \le x_1,x_4 \le \frac{3F}{\sigma}\\
+	\frac{\sqrt{2}F}{\sigma} \le x_2,x_3 \le \frac{3F}{\sigma}
+	\end{split}
+\end{equation}
+Algorytm MOPSO oprogramowano w języku Python. Zastosowano wersję opisaną w punkcie \ref{}. Parametry prędkości PSO zostały przyjęte tak samo jak w punkcie \ref{sect: pso_single_teor_exampl}. Metodą z użyciem sekwencji Haltona wygenerowano populację 70 cząstek i wykonano 40 iteracji aktualizacji całej populacji. Z uwagi na niewymagające obliczeniowo funkcje celu nie założono maksymalnej objętości zewnętrznego archiwum i zawyżono potrzebną liczbę wszystkich iteracji. Dodatkowo wszystkie wyliczone rozwiązania zapisano w bazie rozwiązań \teng{knowlagebase}. Wprowadzono modyfikację wyboru lidera roju, pozwalającą poprawić równomierność rozmieszczenia rozwiązań niezdominowanych. Mechanizm wzorowany był na pomiarze odległości pomiędzy cząstkami niezdominowanymi w przestrzeni wartości \parencite{Deb2002} i składał się z następujących kroków:
+\begin{enumerate}
+	\item Posortowanie rozwiązań przechowywanych w archiwum według jednej z funkcji celu.
+	\item Normalizacja osi. Wyznaczenie różnicy pomiędzy największą, a najmniejszą wartością dla każdej funkcji celu oddzielnie. Następnie obliczenie ilorazu wartości danej funkcji celu przez odpowiadającą jej wyznaczoną w kroku 1. różnicę.
+	\item Wyznaczenie odległości w przestrzeni funkcji celu pomiędzy sąsiednimi, znormalizowanymi, posortowanymi według funkcji celu cząstkami.
+	\item Losowy wybór pomiędzy cząstkami cechującymi się największą wzajemną odległością.
+\end{enumerate}
+Normalizacja osi została dodana, ponieważ funkcje celu cechowały się innym rzędem wartości. Objętość materiału wyznaczana była w tysiącach, a przemieszczenie w dziesiątych częściach. Mimo zupełnie innego znaczenia powyższych liczb (inne jednostki), kiedy rozpatruje się odległości pomiędzy punktami wzdłuż Frontu Pareto, wartości dużo większe dominują nad mniejszymi. Przy stosowaniu mechanizmów opartych na pomiarze zagęszczenia i odległości zalecane jest takie zmodyfikowanie funkcji celu by wyznaczone wartości wszystkich funkcji celu były tego samego rzędu.
+
+
+
 
 
 

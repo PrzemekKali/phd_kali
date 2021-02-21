@@ -267,6 +267,14 @@ We ogólnym opisie podstaw optymalizacji wielokryterialnej nazwano zbiór przech
 Wyborem nowych kandydatów w MOPSO zajmuje się oczywiście algorytm PSO. Jego potwierdzoną właściwością jest szybka zbieżność do optimum globalnego, co z reguły jest pożądaną cechą. Jednakże w przypadku optymalizacji wielokryterialnej niebezpieczne może być przedwczesne utknięcie roju w minimum lokalnym. Z tego względu stosowane są dodatkowe mechanizmy zwiększające dywersyfikację cząstek w przestrzeni. Pierwszy z nich został już wspomniany i polega na odpowiednim doborze liderów. Drugi jest oparty na określeniu cech algorytmu PSO, takich jak parametry prędkości oraz topologia roju, sprzyjających dywersyfikacji frontu Pareto i opóźnieniu zbiegania roju. Trzecia metoda oparta jest na zewnętrznej ingerencji w lot cząstki. Mechanizm ten nazywany jest turbulencją \parencite{Fieldsend} i jest pewnego rodzaju odzwierciedleniem mutacji w algorytmach genetycznych. W ramach turbulencji do wzoru (\ref{eq: pso_velocity}) dodawany jest składnik zupełnie losowy, niezależny od wcześniejszej trajektorii lotu cząstki. Takie działanie potrafi wyrwać zastały w minimum lokalny rój. Jeśli cząstka ulegająca turbulencji znajdzie w nowym położeniu lepsze rozwiązanie to zachęci resztę roju do podążania za nią. Dodatkowo, cały proces przeszukiwania przestrzeni z reguły odbywa się szybciej \parencite{Stacey2003}.
 
 \subsection{Przykład teoretyczny}
-Podobnie jak w przypadku wersji jednokryterialnej, wykonano przykład teoretyczny zaimplementowanego algorytmu MOPOSO. 
+Podobnie jak w przypadku wersji jednokryterialnej optymalizacji, wykonano przykład teoretyczny sprawdzający działanie zaimplementowanego algorytmu MOPSO. Jako wzorzec zaczerpnięto rozwiązanie problemu optymalizacji z pracy \parencite{Zavala2014}. Przedmiotem optymalizacji jest kratownica, składająca się z czterech prętów i obciążona jak na rysunku \ref{}. Kratownica jest opisana na siatce kwadratowej o boku $L$. Problem optymalizacji opisany jest przez dwie funkcje celu: $f_1(\vect{x})$ - objętość materiału zastosowanego do budowy kratownicy i $f_2(\vect{x})$ - przemieszczenie węzła $A$ kratownicy pod obciążeniem zewnętrznym. Obie funkcje celu są minimalizowane. Wektor zmiennych projektowych stanowią pola przekrojów poszczególnych prętów $\vect{x}=[x_1,x_2,x_3,x_4]$. Parametry systemu stanowią: długość $L=200\,\text{cm}$, wartość obciążenia zewnętrznego $F=10\,\text{kN}$, moduł sprężystości materiału $E=2\cdot10^5\,\frac{\text{kN}}{\text{cm}^2}$ oraz maksymalne naprężenia dopuszczalne $\sigma=10\,\frac{\text{kN}}{\text{cm}^2}$.
+Wartość funkcji celu $f_1$ została obliczona wprost przez iloczyn pól przekrojów i długości prętów:
+\begin{equation}
+	f_1(\vect{x}) = L\cdot(2x_1+\sqrt{2}x_2+\sqrt{2}x_3+x_4)
+\end{equation}
+Aby uzależnić przemieszczenie węzła $A$ od zmiennych projektowych posłużono się zasadą prac wirtualnych. Wyznaczono rozkład sił wewnętrznych od obciążenia zewnętrznego i obciążenia wirtualnego w miejscu badania przemieszczeń (Rys. \ref{}). Następnie wyznaczono wartość przemieszczeń zgodnie z wzorem \ref{}.
+
+
+
 
 \section{Optymalizacja wspomagana uczeniem maszynowym}

@@ -15,10 +15,10 @@ gdzie $w_i$ to współczynnik określający wagę kryterium $F_i$. W pracy zosta
 
 W przypadku konstrukcji, parametry projektowe to założone wartości opisujące ustrój, które nie ulegają zmianie w procesie optymalizacji.  Mogą być one narzucone przez względy technologiczne bądź normowe \parencite{Szymczak1995}, lub wynikać z innych założeń projektowych. Z kolei zmienne projektowe $x_i$, jak sama nazwa wskazuje, mogą się zmieniać w procesie optymalizacji i zależą od projektanta. Wybór konkretnych $m$ zmiennych projektowych tworzy rozwiązanie w postaci wektora $\vect{x}=[x_1,x_2,\dots,x_m]^T$, będącego punktem w przestrzeni $m$-wymiarowej.
 
-Z reguły wartości zmiennych projektowych muszą spełniać szereg obostrzeń. Wynikają one ponownie ze względów technologicznych, normowych lub innych uznanych za istotne przez projektanta. Z tego powodu, na zmienne projektowe $\vect{x}$ narzucone są ograniczenia. Wektor, który spełnia wszystkie ograniczenia nazywany jest dopuszczalnym. W analizie konstrukcji budowlanych ograniczeniami mogą być wymogi wytrzymałościowe, eksploatacyjne - zarówno statyczne jak i dynamiczne - czy też warunki stateczności. \textbf{DODAĆ OPIS MATEMATYCZNY OGRANICZEŃ}
+Z reguły wartości zmiennych projektowych muszą spełniać szereg obostrzeń. Wynikają one ponownie ze względów technologicznych, normowych lub innych uznanych za istotne przez projektanta. Z tego powodu, na zmienne projektowe $\vect{x}$ narzucone są ograniczenia. Wektor, który spełnia wszystkie ograniczenia nazywany jest dopuszczalnym. W analizie konstrukcji budowlanych ograniczeniami mogą być wymogi wytrzymałościowe, eksploatacyjne - zarówno statyczne jak i dynamiczne - czy też warunki stateczności.
 
 
-\section{Klasyfikacja problemów i metod optymalizacji}
+\section{Klasyfikacja problemów i metod\\optymalizacji}
 Wszystkie powyższe elementy definiują problem optymalizacji. Każdy z nich może przyjmować różne postaci co będzie miało znaczący wpływ przede wszystkim na wybór metody rozwiązania problemu. \cite{Tesch2016} zaproponował następującą klasyfikację problemów optymalizacji zależnie od elementów charakterystycznych je definiujących:
 \begin{itemize}[noitemsep]
 	\item Liczba funkcji celu
@@ -29,7 +29,7 @@ Wszystkie powyższe elementy definiują problem optymalizacji. Każdy z nich mo�
 	\item Liczba ekstremów lokalnych
 	\begin{itemize}[noitemsep]
 		\item funkcja unimodalna - funkcja jest ciągła i posiada jedno ekstremum w rozpatrywanym przedziale,
-		\item funkcja multimodalna - problem posiada więcej niż jedno ektremum lokalne w rozpatrywanym zakresie,
+		\item funkcja multimodalna - problem posiada więcej niż jedno ekstremum lokalne w rozpatrywanym zakresie,
 	\end{itemize}
 	\item Liniowość funkcji celu
 	\begin{itemize}[noitemsep]
@@ -254,17 +254,27 @@ Przyjmując powyższe definicje optymalizacja wielokryterialna sprowadza się wi
 Zwięzłe podsumowanie prac z zakresu wykorzystania optymalizacji wielokryterialnej metodami metaheurystycznymi w problemach strukturalnych przedstawili \parencite{Zavala2014}. W niniejszej pracy zawarto jedynie podstawowe informacje dotyczące jednego z podejść rozwiązywania problemów optymalizacji wielokryterialnej. Szerszy przegląd i porównanie metod dostępne jest w literaturze przedmiotu: \parencite{Miettinen1999,Zitzler2000,Elbeltagi2005,Abido2006,Coello2007,Lalwani2013,Zaman2019}. 
 
 \section{Optymalizacja wielokryterialna rojem cząstek}
-Algorytm służący optymalizacji wielokryterialnej rojem cząstek \teng{Multi-Objective Particle Swarm Optimization (MOPSO)} jest modyfikacją oryginalnego algorytmu PSO. Pierwsza publikacja przedstawiająca ten zamysł ukazała się w 1999 roku \parencite{Moore1999}. Następnie nastąpił gwałtowny przyrost prac wprowadzających nowe strategie wyboru liderów, topologie, systemy sprawdzania jakości rozwiązania lub modyfikujące istniejące elementy algorytmu. Szczegółowe podsumowanie prac nad wielokryterialną wersją algorytmu PSO do 2006 przedstawił \parencite{CoelloCoello2006}.
+Algorytm służący optymalizacji wielokryterialnej rojem cząstek \teng{Multi-Objective Particle Swarm Optimization (MOPSO)} jest modyfikacją oryginalnego algorytmu PSO. Pierwsza publikacja przedstawiająca ten zamysł ukazała się w 1999 roku \parencite{Moore1999}. Następnie nastąpił gwałtowny przyrost prac wprowadzających nowe strategie wyboru liderów, topologie, systemy sprawdzania jakości rozwiązania lub modyfikujące istniejące elementy algorytmu. Szczegółowe podsumowanie prac nad wielokryterialną wersją algorytmu PSO do 2006 przedstawił \parencite{CoelloCoello2006}. Wedle najlepszej wiedzy autora \cite{Lalwani2013} prezentują najnowszy przegląd literatury dotyczący wielokryterialnej optymalizacji PSO. Przedstawili również szereg rzeczywistych problemów, które zostały rozwiązanie za pomocą metody MOPSO.
 Z punktu widzenia algorytmu PSO, występują dwa dodatkowe aspekty, które są wyzwaniem w przypadku wersji optymalizacji wielokryterialnej \parencite{Pulido2005OnTU}:
 \begin{itemize}
 	\item wybór i aktualizacja lidera roju spośród wielu kandydatów,
 	\item wskazanie nowych rozwiązań aby zachować dobrą dystrybucję Frontu Pareto.
 \end{itemize}
-Wybór lidera roju nie jest rzeczą oczywistą w kontekście algorytmu PSO i musi ulec modyfikacji. Wynika to z większej od jedności liczby równie dobrych rozwiązań optymalizacji. Podstawowym i najprostszym podejściem przy doborze lidera roju jest wybór spośród wszystkich niezdominowanych rozwiązań. Jednakże zupełnie losowy wybór lidera z zestawu niezdominowanych rozwiązań może prowadzić do utraty odpowiedniej dystrybucji rozwiązań, która jest jednym z celów dobrego algorytmu optymalizacji wielokryterialnej. Istnieje wiele podejść pozwalających na ocenę jakości rozwiązania i w konsekwencji jego wyboru jako lidera. Popularnym jest ocena zagęszczenia rozwiązań niezdominowanych w przestrzeni funkcji celu. Aby zachować równomierność Frontu Pareto predestynowane do pozycji lidera są cząstki, występujące w małym zagęszczeniu. Wśród najpopularniejszych metod, zaproponowano pomiar tego zagęszczenia wprost przez ocenę odległości między sąsiednimi cząstkami \parencite{Deb2002} i przez bardziej złożone funkcje rdzenia \parencite{Deb1989}. Inne rozwiązania zostały zebrane i szerzej opisane w pracy \parencite{CoelloCoello2006}.
+Wybór lidera roju nie jest rzeczą oczywistą w kontekście algorytmu PSO i proces ten musi ulec modyfikacji. Wynika to z większej od jedności liczby równie dobrych rozwiązań optymalizacji. Podstawowym i najprostszym podejściem przy doborze lidera roju jest wybór spośród wszystkich niezdominowanych rozwiązań. Jednakże zupełnie losowy wybór lidera z zestawu niezdominowanych rozwiązań może prowadzić do utraty odpowiedniej dystrybucji rozwiązań, która jest jednym z celów dobrego algorytmu optymalizacji wielokryterialnej. Istnieje wiele podejść pozwalających na ocenę jakości rozwiązania i w konsekwencji jego wyboru jako lidera. Popularnym jest ocena zagęszczenia rozwiązań niezdominowanych w przestrzeni funkcji celu. Aby zachować równomierność Frontu Pareto predestynowane do pozycji lidera są cząstki, występujące w małym zagęszczeniu. Wśród najpopularniejszych metod, zaproponowano pomiar tego zagęszczenia wprost przez ocenę odległości między sąsiednimi cząstkami \parencite{Deb2002} i przez bardziej złożone funkcje rdzenia \parencite{Deb1989}. Inne rozwiązania zostały zebrane i szerzej opisane w pracy \parencite{CoelloCoello2006}. Warto również zwrócić uwagę na wybór najlepszego położenia w pamięci cząstki. W odróżnieniu do algorytmu jednokryterialnego, nowy wynik może być nie tylko "lepszy" i "gorszy", ale również "nieokreślony". Kiedy nowe położenie cząstki jest dominujące w sensie Pareto względem dotychczas zapamiętanego, następuje aktualizacja pamięci. Kiedy dominacja ukierunkowana jest w drugą stronę, aktualizacja nie następuje. W trzecim przypadku, kiedy żadne z rozwiązań nie dominuje drugiego, \cite{CoelloCoello2002} zaproponowali by wybrać losowo jedno z dwóch rozwiązań.
 
 We ogólnym opisie podstaw optymalizacji wielokryterialnej nazwano zbiór przechowywanych rozwiązań niezdominowanych jako Archiwum. Ma ono za cel przechować niezdominowane rozwiązania w trakcie całego procesu optymalizacji i ostatecznie może służyć jako rezultat końcowy. Oczywistym rozwiązaniem jest przechowywanie wszystkich otrzymanych wyników niezdominowanych, aktualizując je w trakcie przebiegu algorytmu. Aktualizacja musi zapewnić uwzględnienie nowych niezdominowanych rozwiązań w archiwum i usunięcie tych, które zostały zdominowane przez nowe cząstki. Jednakże przechowywanie wszystkich wyników wiąże się z dużą złożonością obliczeniową aktualizacji. Aktualizacja musi być wykonywana po każdym przesunięciu wszystkich cząstek roju, a jej koszt rośnie kwadratowo wraz ze wzrostem liczebności roju i liniowo z liczebnością zmiennych decyzyjnych. Jak zasugerowano wcześniej, z tego względu archiwum najczęściej jest ograniczane do stałej, maksymalnej objętości \parencite{Coello2007}. Przykładowe metody pozwalające na selekcję odrzucanych z archiwum elementów zostały opisane w \parencite{Zitzler1999,Knowles2000}. Istnieją również  inne, mniej popularne metody utrzymania i rozwoju dobrze rozłożonych rozwiązań niezdominowanych. Niemniej wśród wszystkich najbardziej popularne jest stosowanie zewnętrznego archiwum. Opis pozostałych wykracza poza zakres tej pracy.
 
 Wyborem nowych kandydatów w MOPSO zajmuje się oczywiście algorytm PSO. Jego potwierdzoną właściwością jest szybka zbieżność do optimum globalnego, co z reguły jest pożądaną cechą. Jednakże w przypadku optymalizacji wielokryterialnej niebezpieczne może być przedwczesne utknięcie roju w minimum lokalnym. Z tego względu stosowane są dodatkowe mechanizmy zwiększające dywersyfikację cząstek w przestrzeni. Pierwszy z nich został już wspomniany i polega na odpowiednim doborze liderów. Drugi jest oparty na określeniu cech algorytmu PSO, takich jak parametry prędkości oraz topologia roju, sprzyjających dywersyfikacji frontu Pareto i opóźnieniu zbiegania roju. Trzecia metoda oparta jest na zewnętrznej ingerencji w lot cząstki. Mechanizm ten nazywany jest turbulencją \parencite{Fieldsend} i jest pewnego rodzaju odzwierciedleniem mutacji w algorytmach genetycznych. W ramach turbulencji do wzoru (\ref{eq: pso_velocity}) dodawany jest składnik zupełnie losowy, niezależny od wcześniejszej trajektorii lotu cząstki. Takie działanie potrafi wyrwać zastały w minimum lokalny rój. Jeśli cząstka ulegająca turbulencji znajdzie w nowym położeniu lepsze rozwiązanie to zachęci resztę roju do podążania za nią. Dodatkowo, cały proces przeszukiwania przestrzeni z reguły odbywa się szybciej \parencite{Stacey2003}.
+\subsection{Algorytm MOPSO}
+Na rysunku \ref{fig: pso_multi_algorithm} pokazano algorytm MOPSO stworzony na podstawie pracy \parencite{CoelloCoello2002}. Jest to jedna z pierwszych prac, gdzie autorzy dokonali próby dostosowania algorytmu PSO do rozwiązania problemów wielokryterialnych. Jednakże rozważając kolejne prace powstające na temat algorytmu MOPSO, przedstawiony algorytm jest najpopularniejszą bazą do niezliczonych modyfikacji. Można więc wnioskować, że struktura algorytmu nie straciła na aktualności co świadczy o jej uniwersalności.
+\begin{figure}[H]
+	\centering
+	\includegraphics[trim= 0 20 0 0, clip,height=0.750\textheight]{/PSO/algorithm_multi/algoritm_multi.pdf} 
+	\captionsetup{justification=centering}
+	\caption{Bazowy algorytm wielokryterialnej optymalizacji rojem cząstek (MOPSO)}
+	\label{fig: pso_multi_algorithm}
+\end{figure}
+
 
 \subsection{Przykład teoretyczny}
 Podobnie jak w przypadku wersji jednokryterialnej optymalizacji, wykonano przykład teoretyczny sprawdzający działanie zaimplementowanego algorytmu MOPSO. Jako wzorzec zaczerpnięto rozwiązanie problemu optymalizacji z pracy \parencite{Zavala2014}. Przedmiotem optymalizacji jest kratownica, składająca się z czterech prętów i obciążona jak na rysunku \ref{fig: pso_multi_testtruss}. Kratownica jest opisana na siatce kwadratowej o boku $L$. Problem optymalizacji opisany jest przez dwie funkcje celu: $f_1(\vect{x})$ - objętość materiału zastosowanego do budowy kratownicy i $f_2(\vect{x})$ - przemieszczenie węzła $A$ kratownicy pod obciążeniem zewnętrznym. Obie funkcje celu są minimalizowane. Wektor zmiennych projektowych stanowią pola przekrojów poszczególnych prętów $\vect{x}=[x_1,x_2,x_3,x_4]$. Parametry systemu stanowią: długość $L=200\,\text{cm}$, wartość obciążenia zewnętrznego $F=10\,\text{kN}$, moduł sprężystości materiału $E=2\cdot10^5\,\frac{\text{kN}}{\text{cm}^2}$ oraz maksymalne naprężenia dopuszczalne $\sigma=10\,\frac{\text{kN}}{\text{cm}^2}$.
@@ -303,31 +313,31 @@ Autorzy przykładu zaproponowali ograniczenie przestrzeni rozwiązań dopuszczal
 	\end{split}
 \end{equation}
 Algorytm MOPSO oprogramowano w języku Python. Zastosowano wersję opisaną w punkcie \ref{}. Parametry prędkości PSO zostały przyjęte tak samo jak w punkcie \ref{sect: pso_single_teor_exampl}. Metodą z użyciem sekwencji Haltona wygenerowano populację 70 cząstek i wykonano 40 iteracji aktualizacji całej populacji. Z uwagi na niewymagające obliczeniowo funkcje celu nie założono maksymalnej objętości zewnętrznego archiwum i zawyżono potrzebną liczbę wszystkich iteracji. Dodatkowo wszystkie wyliczone rozwiązania zapisano w bazie rozwiązań \teng{knowlagebase}. Wprowadzono modyfikację wyboru lidera roju, pozwalającą poprawić równomierność rozmieszczenia rozwiązań niezdominowanych. Mechanizm wzorowany był na pomiarze odległości pomiędzy cząstkami niezdominowanymi w przestrzeni wartości \parencite{Deb2002} i składał się z następujących kroków:
-\begin{enumerate}
+\begin{enumerate}[noitemsep]
 	\item Posortowanie rozwiązań przechowywanych w archiwum według jednej z funkcji celu.
 	\item Normalizacja osi. Wyznaczenie różnicy pomiędzy największą, a najmniejszą wartością dla każdej funkcji celu oddzielnie. Następnie obliczenie ilorazu wartości danej funkcji celu przez odpowiadającą jej wyznaczoną w kroku 1. różnicę.
 	\item Wyznaczenie odległości w przestrzeni funkcji celu pomiędzy sąsiednimi, znormalizowanymi, posortowanymi według funkcji celu cząstkami.
 	\item Losowy wybór pomiędzy cząstkami cechującymi się największą wzajemną odległością.
 \end{enumerate}
 Normalizacja osi została dodana, ponieważ funkcje celu cechowały się innym rzędem wartości. Objętość materiału wyznaczana była w tysiącach, a przemieszczenie w dziesiątych częściach. Mimo zupełnie innego znaczenia powyższych liczb (inne jednostki), kiedy rozpatruje się odległości pomiędzy punktami wzdłuż Frontu Pareto, wartości dużo większe dominują nad mniejszymi. Przy stosowaniu mechanizmów opartych na pomiarze zagęszczenia i odległości zalecane jest takie zmodyfikowanie funkcji celu by wyznaczone wartości wszystkich funkcji celu były tego samego rzędu.
-Na rysunku 
+Na rysunku \ref{fig: pso_testkrata_all} zaprezentowano wizualizację przebiegu procesu optymalizacji MOPSO. Każdy z wykresów prezentuje stan rozwiązania po podanej pełnej iteracji $t$ zmiany położenia cząstek. Kolorem czarnym oznaczono aktualne położenie roju. Kolor czerwony pokazuje dotychczas znalezione rozwiązania niezdominowane - przybliżenie Frontu Pareto. Niebieskim punktem zaznaczono aktualnie obowiązującego lidera roju. Dodatkowo kolorem zielonym oznaczono historię wszystkich dotychczasowych rozwiązanych (knowlagebase). Rezultaty testu są zgodne z rozwiązaniem podanym w \parencite{Zavala2014}. Można również stwierdzić, że Front Pareto został odwzorowany równomiernie oraz dokładnie.
 
 \begin{figure}[p]
 	\centering
-	\subfloat[]{\includegraphics[trim=00 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_02_98_2021-02-21_14_05_40.pdf}}
-	\subfloat[]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_03_98_2021-02-21_14_05_46.pdf}}
-	\subfloat[]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_04_98_2021-02-21_14_05_54.pdf}}\\
-	\subfloat[]{\includegraphics[trim=00 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_05_98_2021-02-21_14_06_02.pdf}}
-	\subfloat[]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_06_98_2021-02-21_14_06_11.pdf}}
-	\subfloat[]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_07_98_2021-02-21_14_06_18.pdf}}\\
-	\subfloat[]{\includegraphics[trim=00 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_08_98_2021-02-21_14_06_26.pdf}}
-	\subfloat[]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_09_98_2021-02-21_14_06_34.pdf}}
-	\subfloat[]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_10_98_2021-02-21_14_06_44.pdf}}\\
-	\subfloat[]{\includegraphics[trim=00 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_20_98_2021-02-21_14_07_59.pdf}}
-	\subfloat[]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_30_98_2021-02-21_14_09_12.pdf}}
-	\subfloat[]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_41_98_2021-02-21_14_10_39.pdf}}\\
+	\subfloat[$t=2$]{\includegraphics[trim=00 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_02_98_2021-02-21_14_05_40.pdf}}
+	\subfloat[$t=3$]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_03_98_2021-02-21_14_05_46.pdf}}
+	\subfloat[$t=4$]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_04_98_2021-02-21_14_05_54.pdf}}\\
+	\subfloat[$t=5$]{\includegraphics[trim=00 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_05_98_2021-02-21_14_06_02.pdf}}
+	\subfloat[$t=6$]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_06_98_2021-02-21_14_06_11.pdf}}
+	\subfloat[$t=7$]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_07_98_2021-02-21_14_06_18.pdf}}\\
+	\subfloat[$t=8$]{\includegraphics[trim=00 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_08_98_2021-02-21_14_06_26.pdf}}
+	\subfloat[$t=9$]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_09_98_2021-02-21_14_06_34.pdf}}
+	\subfloat[$t=10$]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_10_98_2021-02-21_14_06_44.pdf}}\\
+	\subfloat[$t=20$]{\includegraphics[trim=00 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_20_98_2021-02-21_14_07_59.pdf}}
+	\subfloat[$t=30$]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_30_98_2021-02-21_14_09_12.pdf}}
+	\subfloat[$t=40$]{\includegraphics[trim=18 5 0 5, clip,height=0.2\textheight]{/PSO/testkrata/results/fig_41_98_2021-02-21_14_10_39.pdf}}\\
 	\captionsetup{justification=centering}
-	\caption{}
+	\caption{Etapy rozwiązania testowego problemu optymalizacji wielokryterialnej metodą roju cząstek}
 	\label{fig: pso_testkrata_all}
 \end{figure}
 

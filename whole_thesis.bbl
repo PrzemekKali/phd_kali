@@ -1042,6 +1042,56 @@
       \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Coello, Lamont, Van Veldhuizen - 2007 - Evolutionary algorithms for solving multi-objective problems.pdf:pdf
       \endverb
     \endentry
+    \entry{CoelloCoello2002}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8d3bdba9bcf6dc47228eb24cac942f27}{%
+           family={{Coello Coello}},
+           familyi={C\bibinitperiod},
+           given={Carlos\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1be0d24e0a58a36ed634dc78c8412506}{%
+           family={Lechuga},
+           familyi={L\bibinitperiod},
+           given={Maximino\bibnamedelima Salazar},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5816b005b8f86420270524e2c90ccd15}
+      \strng{fullhash}{5816b005b8f86420270524e2c90ccd15}
+      \strng{bibnamehash}{5816b005b8f86420270524e2c90ccd15}
+      \strng{authorbibnamehash}{5816b005b8f86420270524e2c90ccd15}
+      \strng{authornamehash}{5816b005b8f86420270524e2c90ccd15}
+      \strng{authorfullhash}{5816b005b8f86420270524e2c90ccd15}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper introduces a proposal to extend the heuristic called “particle swarm optimization” (PSO) to deal with multiobjective optimization problems. Our approach uses the concept of Pareto dominance to determine the flight direction of a particle and it maintains previously found nondominated vectors in a global repository that is later used by other particles to guide their own flight. The approach is validated using several standard test functions from the specialized literature. Our results indicate that our approach is highly competitive with current evolutionary multiobjective optimization techniques.}
+      \field{booktitle}{2002 World Congress on Computational Intelligence - WCCI'02}
+      \field{isbn}{978-0-7803-7282-5}
+      \field{month}{9}
+      \field{title}{{MOPSO: a proposal for multiple objective particle swarm optimization}}
+      \field{volume}{2}
+      \field{year}{2002}
+      \field{pages}{1051\bibrangedash 1056}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CEC.2002.1004388
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/przem/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Coello Coello, Lechuga - 2002 - MOPSO a proposal for multiple objective particle swarm optimization.pdf:pdf
+      \endverb
+      \keyw{Acceleration,Birds,Ear,Evolutionary computation,Genetic algorithms,MOPSO,Multidimensional systems,Pareto dominance,Particle swarm optimization,Proposals,Sorting,Testing,evolutionary computation,evolutionary techniques,flight direction,heuristic,heuristic programming,multiobjective optimization,operations research,optimisation,particle swarm optimization}
+    \endentry
     \entry{CoelloCoello2006}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8d3bdba9bcf6dc47228eb24cac942f27}{%

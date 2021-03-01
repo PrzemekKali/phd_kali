@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.12)  23 FEB 2021 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.12)  1 MAR 2021 19:45
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -4390,59 +4390,6 @@ pdfTeX warning: pdflatex.exe (file ./figures///wk2/ident/mods/fig_polar_mod_59_
 time_17_02_08.pdf): PDF inclusion: multiple pdfs with page group included in a 
 single page
 >]
-<./figures//WK2/proste_300_decisive_freq.pdf, id=4412, 205.92622pt x 219.34402p
-t>
-File: ./figures//WK2/proste_300_decisive_freq.pdf Graphic file (type pdf)
-<use ./figures//WK2/proste_300_decisive_freq.pdf>
-Package pdftex.def Info: ./figures//WK2/proste_300_decisive_freq.pdf  used on i
-nput line 397.
-(pdftex.def)             Requested size: 205.92572pt x 219.34348pt.
-File: ./figures//WK2/proste_300_decisive_freq.pdf Graphic file (type pdf)
-<use ./figures//WK2/proste_300_decisive_freq.pdf>
-Package pdftex.def Info: ./figures//WK2/proste_300_decisive_freq.pdf  used on i
-nput line 398.
-(pdftex.def)             Requested size: 205.92572pt x 219.34348pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./figures//WK2/proste_300_3d_weig.pdf, id=4413, 339.6708pt x 196.74922pt>
-File: ./figures//WK2/proste_300_3d_weig.pdf Graphic file (type pdf)
-<use ./figures//WK2/proste_300_3d_weig.pdf>
-Package pdftex.def Info: ./figures//WK2/proste_300_3d_weig.pdf  used on input l
-ine 405.
-(pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
-<./figures//WK2/proste_300_0_3_3d_arch_weig.pdf, id=4414, 339.6708pt x 196.7492
-2pt>
-File: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf Graphic file (type pdf)
-<use ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf>
-Package pdftex.def Info: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf  used o
-n input line 411.
-(pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
-<./figures//WK2/proste_300_3d_freq.pdf, id=4415, 337.78188pt x 196.74922pt>
-File: ./figures//WK2/proste_300_3d_freq.pdf Graphic file (type pdf)
-<use ./figures//WK2/proste_300_3d_freq.pdf>
-Package pdftex.def Info: ./figures//WK2/proste_300_3d_freq.pdf  used on input l
-ine 417.
-(pdftex.def)             Requested size: 426.79134pt x 248.61682pt.
-<./figures//WK2/proste_300_all.pdf, id=4416, 398.99599pt x 221.95659pt>
-File: ./figures//WK2/proste_300_all.pdf Graphic file (type pdf)
-<use ./figures//WK2/proste_300_all.pdf>
-Package pdftex.def Info: ./figures//WK2/proste_300_all.pdf  used on input line 
-423.
-(pdftex.def)             Requested size: 426.79134pt x 237.43362pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4466,6 +4413,21 @@ time_17_18_33.pdf): PDF inclusion: multiple pdfs with page group included in a
 single page
 >]
 
+LaTeX Warning: Reference `!!!' on page 100 undefined on input line 423.
+
+<./figures//WK2/proste_300_decisive_freq.pdf, id=4600, 205.92622pt x 219.34402p
+t>
+File: ./figures//WK2/proste_300_decisive_freq.pdf Graphic file (type pdf)
+<use ./figures//WK2/proste_300_decisive_freq.pdf>
+Package pdftex.def Info: ./figures//WK2/proste_300_decisive_freq.pdf  used on i
+nput line 440.
+(pdftex.def)             Requested size: 205.92572pt x 219.34348pt.
+File: ./figures//WK2/proste_300_decisive_freq.pdf Graphic file (type pdf)
+<use ./figures//WK2/proste_300_decisive_freq.pdf>
+Package pdftex.def Info: ./figures//WK2/proste_300_decisive_freq.pdf  used on i
+nput line 441.
+(pdftex.def)             Requested size: 205.92572pt x 219.34348pt.
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4473,11 +4435,67 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[100 <./figures//WK2/proste_300_decisive_freq.pdf> <./figures//WK2/proste_300_3
-d_weig.pdf
+[100]
+<./figures//WK2/proste_300_3d_weig.pdf, id=4604, 339.6708pt x 196.74922pt>
+File: ./figures//WK2/proste_300_3d_weig.pdf Graphic file (type pdf)
+<use ./figures//WK2/proste_300_3d_weig.pdf>
+Package pdftex.def Info: ./figures//WK2/proste_300_3d_weig.pdf  used on input l
+ine 448.
+(pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
+<./figures//WK2/proste_300_0_3_3d_arch_weig.pdf, id=4605, 339.6708pt x 196.7492
+2pt>
+File: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf Graphic file (type pdf)
+<use ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf>
+Package pdftex.def Info: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf  used o
+n input line 454.
+(pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
+<./figures//WK2/proste_300_3d_freq.pdf, id=4606, 337.78188pt x 196.74922pt>
+File: ./figures//WK2/proste_300_3d_freq.pdf Graphic file (type pdf)
+<use ./figures//WK2/proste_300_3d_freq.pdf>
+Package pdftex.def Info: ./figures//WK2/proste_300_3d_freq.pdf  used on input l
+ine 460.
+(pdftex.def)             Requested size: 426.79134pt x 248.61682pt.
+<./figures//WK2/proste_300_all.pdf, id=4607, 398.99599pt x 221.95659pt>
+File: ./figures//WK2/proste_300_all.pdf Graphic file (type pdf)
+<use ./figures//WK2/proste_300_all.pdf>
+Package pdftex.def Info: ./figures//WK2/proste_300_all.pdf  used on input line 
+466.
+(pdftex.def)             Requested size: 426.79134pt x 237.43362pt.
 
-pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_weig.pdf): PDF 
-inclusion: multiple pdfs with page group included in a single page
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[101 <./figures//WK2/proste_300_decisive_freq.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[102 <./figures//WK2/proste_300_3d_weig.pdf> <./figures//WK2/proste_300_0_3_3d_
+arch_weig.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_0_3_3d_arch_weig.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4487,23 +4505,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[101 <./figures//WK2/proste_300_0_3_3d_arch_weig.pdf> <./figures//WK2/proste_30
-0_3d_freq.pdf
+[103 <./figures//WK2/proste_300_3d_freq.pdf> <./figures//WK2/proste_300_all.pdf
 
-pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_freq.pdf): PDF 
-inclusion: multiple pdfs with page group included in a single page
+
+pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_all.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
 >]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[102 <./figures//WK2/proste_300_all.pdf>]
 Rozdzia\l  6.
-) [103
+) [104
 
 ]
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -4514,7 +4523,7 @@ LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line
 ("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/polski\ot4cmtt.fd"
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-[104
+[105
 
 
 
@@ -4527,7 +4536,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[105]
+[106]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4536,7 +4545,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[106]
+[107]
 Overfull \hbox (0.7371pt too wide) in paragraph at lines 34--34
 [][]\OT4/cmr/m/n/10.95 Juang, Jer-Nan (1994). \OT4/cmr/m/it/10.95 Ap-plied sys-
 tem iden-ti-fi-ca-tion\OT4/cmr/m/n/10.95 . Prentice-Hall, Inc. \OT4/cmr/m/sc/10
@@ -4551,7 +4560,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[107]
+[108]
 Overfull \hbox (1.5509pt too wide) in paragraph at lines 34--34
 \OT4/cmr/m/n/10.95 using the Pa-reto ar-chi-ved evo-lu-tion stra-tegy''. W: \OT
 4/cmr/m/it/10.95 Evo-lu-tio-nary com-pu-ta-tion \OT4/cmr/m/n/10.95 8.2, s. 149{
@@ -4566,7 +4575,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[108]
+[109]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4575,7 +4584,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[109]
+[110]
 Overfull \hbox (12.81938pt too wide) in paragraph at lines 34--34
 [][]\OT4/cmr/m/n/10.95 SHEN, F i in. (2003). ``USING THE CROSS-CORRELATION TECH
 -NI-QUE TO EXTRACT
@@ -4595,7 +4604,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[110]
+[111]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4604,7 +4613,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[111] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
+[112] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
 (chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
 
 LaTeX Warning: There were undefined references.
@@ -4614,10 +4623,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37817 strings out of 479582
- 922286 string characters out of 2862447
- 1664913 words of memory out of 3000000
- 54108 multiletter control sequences out of 15000+200000
+ 37819 strings out of 479582
+ 922327 string characters out of 2862447
+ 1664924 words of memory out of 3000000
+ 54110 multiletter control sequences out of 15000+200000
  458048 words of font info for 182 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,24n,107p,3216b,1773s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4671,9 +4680,9 @@ blic/cm-super/sfrm0600.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/cm-super/sfrm0800.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/KBP/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on whole_thesis.pdf (111 pages, 52415140 bytes).
+Output written on whole_thesis.pdf (112 pages, 52418495 bytes).
 PDF statistics:
- 4853 PDF objects out of 5155 (max. 8388607)
+ 4856 PDF objects out of 5155 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1244 words of extra memory for PDF output out of 10000 (max. 10000000)
 

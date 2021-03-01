@@ -170,7 +170,7 @@ Zarządca obiektu zezwolił na prowadzenie badań pod ruchem w towarzystwie sygn
 	\item określenie parametrów akwizycji danych (częstotliwość próbkowania, długość pomiarów, liczba powtórzeń serii pomiarowych itd.)
 \end{itemize}
 
-\subsubsection{Wybór punktów pomiarowych}
+\subsubsection{Wybór punktów pomiarowych} \label{sect:choose_measuremanet_locations}
 Dostępny system pomiarowy składał się z dwóch akcelerometrów 3-osiowych i z dwóch czujników 1-osiowych.  Mając do dyspozycji ograniczoną liczbę jednocześnie mierzonych punktów należało przeprowadzić symulację najlepszego rozmieszczenia punktów pomiarowych na obiekcie. Przykłady metod pozwalających na optymalne rozmieszczenie punktów pomiarowych w analizach dynamicznych zaprezentowano w literaturze i najczęściej opierają się one na wyznaczeniu reprezentatywnego wskaźnika, dzięki któremu da się porównać różne ustawienia. Między innymi \cite{Kammer1991,Papadopoulos1998} zaproponowali użycie Modalnej Energii Kinetycznej \teng{Modal Kinetic Energy}, \cite{Udwadia1994} macierzy informacyjnej Fishera \teng{Fisher Information Matrix}, a \cite{Penny1994,Allemang2003} macierzy MAC dla zestawu modów. \cite{Zhang2017} przedstawili zwięzłe zestawienie powyższych metod i zaproponowali opcję optymalizującą lokalizację punktów pomiarowych przy wielu ustawieniach pomiarowych, zarówno dla punktów pomiarowych jak i punktów referencyjnych. Autorzy zwracają również uwagę, że przy wielu punktach pomiaru ścisła ocena wszystkich możliwych ustawień jest wymagająca obliczeniowo bądź niemożliwa. Z tego względu stosowane są algorytmy heurystyczne bądź meta-heurystyczne. 
 
 W niniejszej pracy zastosowano metodę wykorzystującą kryterium MAC \parencite{Penny1994}. Podobne postępowanie przedstawił w swojej pracy \cite{Poprawa2018}. Polega ono na wyznaczeniu teoretycznych postaci drgań własnych z dostępnego modelu MES. Dla zbioru wszystkich możliwych położeń czujników odczytywane są przemieszczenia znormalizowane danej postaci drgań. Ze zbioru możliwych położeń wybierane są punkty, gdzie umieszczone mają zostać czujniki. Posiłkując się opisem postaci drgań w wybranych punktach tworzona jest macierz MAC. Każdą postać porównuje się ze wszystkimi innymi i z samą sobą. W ten sposób na przekątnej macierzy pojawiają się wartości równe 1 co oznacza oczywiste, idealne dopasowanie według kryterium MAC dla równych wektorów. Poza przekątną, wartości MAC mieszczą się w przedziale 0 - 1. Celem analizy jest dobór punktów pomiarowych tak by poza przekątną wartości były możliwie małe. Przy małym dopasowaniu, postaci będą miały szanse być zidentyfikowane jednoznacznie przy mocno ograniczonej liczbie punktów pomiarowych i bliskim położeniu modów w dziedzinie częstotliwości. Dla każdego rozwiązania należy wyznaczyć wskaźnik, który pozwala ocenić zbiór punktów względem innych. \cite{Penny1994} zaproponowali w jednym z wariantów maksymalną wartość MAC wśród elementów poza przekątną macierzy oraz średnią kwadratową (RMS)\footnote{Średnią kwadratową wyznaczono zgodnie z definicją z równania: $x_{\text{RMS}}=\sqrt{\frac{x_1^2+x_2^2+x_3^2+\dots+x_n^2}{n}}$} ze wszystkich elementów powyżej przekątnej macierzy MAC. Im niższa wartość maksymalna i im niższa średnia kwadratowa tym lepiej.
@@ -182,7 +182,7 @@ W niniejszej pracy zastosowano metodę wykorzystującą kryterium MAC \parencite
 	\label{fig: wk2_automac_points_all}
 \end{figure}
 
-Z uwagi na ograniczony czas dostępu do obiektu ustalono, że całość badań musi być zrealizowana w 3 ustawieniach dostępnych czujników. W przypadku wiaduktu, akcelerometry 3-osiowe potraktowano jako 2-osiowe. Odrzucono pomiar wzdłuż osi podłużnej obiektu jako nieistotny. W tej sytuacji jeden czujnik 2-osiowy posłużył jako punkt referencyjny mierzący drgania pionowe i poprzeczne. Pozostałe 4 punkty pomiarowe mogły być zmieniane w poszczególnych ustawieniach. Ostatecznie przy trzech ustawieniach możliwy był pomiar w 14 punktach pomiarowych $(6+4+4)$ w tym 10 na kierunku pionowym $Z$ i 4 na kierunku poprzecznym $Y$. Kolejnym koniecznym przy doborze siatki pomiarowej ograniczeniem było to, że dostęp do konstrukcji był możliwy jedynie z pomostu. Z uwagi na występowanie modów związanych głównie z bocznym ruchem łuków (rys. \ref{fig: model_wk2_origin_mods}) narzucono, że 4 punkty pomiarowe $2Y \text{i} 2Z$ zostaną zamocowane bezpośrednio na łuku. Uwzględniając powyższe założenia pozostało do dyspozycji 8 punktów pomiarowych $Z$ i 2 punkty pomiarowe $Y$. Punkty $Y$ są związane z $Z$ w ramach obudowy czujnika 2-osiowego, zaniechano więc doboru lokalizacji z uwagi na punkty $Y$ i skupiono się tylko na kierunku $Z$. Na rysunku \ref{fig: wk2_automac_points_all} kolorem czerwonym zaznaczono zbiór wszystkich dozwolonych do wyboru punktów. Kolorem niebieskim zaznaczono punkty zarezerwowane dla czujników mocowanych do łuku. Punków czerwonych jest 26 i należy z nich wybrać 8. Wykonano kombinację bez powtórzeń i uzyskano 1562275 zestawów lokalizacji czujników. Dla każdego zestawu wyznaczono macierz MAC uwzględniając 10 pierwszych modów z modelu MES, a następnie RMS i maksymalny element każdej macierzy. Zestawy posortowano względem każdego parametru i wyniki przedstawiono graficznie na rysunku \ref{fig: wk2_automac_charts}. 
+Z uwagi na ograniczony czas dostępu do obiektu ustalono, że całość badań musi być zrealizowana w 3 ustawieniach dostępnych czujników. W przypadku wiaduktu, akcelerometry 3-osiowe potraktowano jako 2-osiowe. Odrzucono pomiar wzdłuż osi podłużnej obiektu jako nieistotny. W tej sytuacji jeden czujnik 2-osiowy posłużył jako punkt referencyjny mierzący drgania pionowe i poprzeczne. Pozostałe 4 punkty pomiarowe mogły być zmieniane w poszczególnych ustawieniach. Ostatecznie przy trzech ustawieniach możliwy był pomiar w 14 punktach pomiarowych $(6+4+4)$ w tym 10 na kierunku pionowym $Z$ i 4 na kierunku poprzecznym $Y$. Kolejnym koniecznym przy doborze siatki pomiarowej ograniczeniem było to, że dostęp do konstrukcji był możliwy jedynie z pomostu. Z uwagi na występowanie modów związanych głównie z bocznym ruchem łuków (rys. \ref{fig: model_wk2_origin_mods}) narzucono, że 4 punkty pomiarowe $2Y$ i $2Z$ zostaną zamocowane bezpośrednio na łuku. Uwzględniając powyższe założenia pozostało do dyspozycji 8 punktów pomiarowych $Z$ i 2 punkty pomiarowe $Y$. Punkty $Y$ są związane z $Z$ w ramach obudowy czujnika 2-osiowego, zaniechano więc doboru lokalizacji z uwagi na punkty $Y$ i skupiono się tylko na kierunku $Z$. Na rysunku \ref{fig: wk2_automac_points_all} kolorem czerwonym zaznaczono zbiór wszystkich dozwolonych do wyboru punktów. Kolorem niebieskim zaznaczono punkty zarezerwowane dla czujników mocowanych do łuku. Punków czerwonych jest 26 i należy z nich wybrać 8. Wykonano kombinację bez powtórzeń i uzyskano 1562275 zestawów lokalizacji czujników. Dla każdego zestawu wyznaczono macierz MAC uwzględniając 10 pierwszych modów z modelu MES, a następnie RMS i maksymalny element każdej macierzy. Zestawy posortowano względem każdego parametru i wyniki przedstawiono graficznie na rysunku \ref{fig: wk2_automac_charts}. 
 \begin{figure}[t]
 	\centering
 	\captionsetup{justification=centering}
@@ -376,16 +376,59 @@ Zarejestrowane sygnały poddano analizie OMA metodą NExT-ERA. W procesie iterac
 	\label{fig: wk2_research_mods3}
 \end{figure}
 
-
-
-
-
-
-
-
-
 \section{Kalibracja modelu numerycznego z wykorzystaniem PSO}
-Stworzony model numeryczny powstał na podstawie założeń projektowych. Wykonana identyfikacja parametrów dynamicznych i przeprowadzone badania odbiorcze pod próbnym obciążeniem dostarczyły szereg informacji o obiekcie rzeczywistym. Do modyfikacji parametrów modelu zastosowano wielokryterialną optymalizację za pomocą algorytmu MOPSO \ref{!!!}. 
+Stworzony model numeryczny powstał na podstawie założeń projektowych. Wykonana identyfikacja parametrów dynamicznych i przeprowadzone badania odbiorcze pod próbnym obciążeniem dostarczyły szereg informacji o obiekcie rzeczywistym. Dzięki dostarczonym danym możliwe jest przeprowadzenie kalibracji, która sprawi że model będzie wierniej odzwierciedlał rzeczywistą konstrukcję. Podsumowując wyznaczone i zdobyte wyniki, kalibracja opierać będzie się na następujących danych wyjściowych:
+\begin{itemize}
+	\item przemieszczenia statyczne konstrukcji pod próbnym obciążeniem: 2 ustawienia po 6 punktów pomiarowych umiejscowionyc na ściągach dźwigarów łukowych,
+	\item zidentyfikowane parametry modalne konstrukcji: 10 pierwszych częstotliwości i postaci drgań własnych oraz odpowiadające im tłumienia modalne. Postaci drgań opisane zostały za pomocą 14 współrzędnych modalnych (p. \ref{sect:choose_measuremanet_locations})
+\end{itemize}
+Zestaw danych zmierzonych w ramach obciążeń statycznych pozwoli skalibrować głównie sztywność poszczególnych elementów konstrukcji. Z kolei parametry modalne, jako wartości odnoszące się do zachowania dynamicznego, związane są ze sztywnością konstrukcji, jak i masą konstrukcyjną i niekonstrukcyjną.
+Obiekty łukowe, podobnie jak kratownicowe są relatywnie złożonymi obiektami. Na ich charakterystykę dynamiczną wpływa wiele czynników, które mniej lub bardziej potrafią wpłynąć na jego parametry. Różni to je od statycznie nieskomplikowanych obiektów belkowych czy płytowych oraz od dużych obiektów wiszących i podwieszonych gdzie rozwiązania i szczegóły konstrukcyjne nie wpływają aż tak istotnie na globalne zachowanie dynamiczne konstrukcji. Dla łukowego obiektu WK2 wyodrębniono 22 zmienne, które będą podlegać modyfikacji w trakcie kalibracji. Podzielono je na trzy rodzaje: sztywności elementów konstrukcyjnych, sztywności warunków brzegowych oraz masy konstrukcyjne i niekonstrukcyjne. Poniżej zestawiono symbole zmiennych wraz z ich opisem:
+\begin{itemize}
+	\item Sztywności elementów konstrukcyjnych:
+	\begin{itemize}
+		\item S1 - łuku,
+		\item S2 - ściągu,
+		\item S3 - poprzecznic,
+		\item S4 - żeber płyty ortotropowej,
+		\item S5 - blachy płyty ortotropowej,
+		\item S6 - stężeń górnych,
+		\item S7 - wieszaków,
+		\item S8 - elementów stanowiących usztywniających wezgłowie łuku,  
+	\end{itemize}
+	\item Sztywność warunków brzegowych:
+	\begin{itemize}
+		\item S21 - Oś 2, podpora 1, kierunek $x$,
+		\item S22 - Oś 1, podpora 1, kierunek $y$,
+		\item S23 - Oś 1, podpora 2, kierunek $x$,
+		\item S24 - Oś 2, podpora 2, kierunek $x$,
+		\item S25 - Oś 1, podpora 1, kierunek $x$,
+		\item S26 - Oś 2, podpora 1, kierunek $y$,
+		\item S27 - Oś 1, podpora 2, kierunek $y$,
+		\item S28 - Oś 2, podpora 2, kierunek $y$,
+	\end{itemize}
+	\item Masa elementów konstrukcyjnych i niekonstrukcyjnych:
+	\begin{itemize}
+		\item M1 - łuku,
+		\item M2 - ściągu,
+		\item M3 - tłucznia - część 1,
+		\item M4 - tłucznia - część 2,
+		\item M5 - pomostu roboczego,
+		\item M6 - stężeń górnych.
+	\end{itemize}
+\end{itemize}
+\textbf{DODAĆ RYSUNEK ŁOŻYSKOWANIA Z PUNKTAMI S21-S28}
+
+
+Do modyfikacji parametrów modelu zastosowano wielokryterialną optymalizację za pomocą algorytmu MOPSO \ref{!!!}. 
+
+
+
+
+
+
+
+
 
 
 

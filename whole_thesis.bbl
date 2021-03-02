@@ -5916,6 +5916,63 @@
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/1999{\_}Zitzler, Thiele{\_}Multiobjective evolutionary algorithms a comparative case study and the strength Pareto approach.pdf:pdf
       \endverb
     \endentry
+    \entry{Zotowski2017c}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=01bd77a4b512c2327f67ec4ea5e6350c}{%
+           family={Zoltowski},
+           familyi={Z\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a3807f0b3b21a0699f4577e7d459c3a}{%
+           family={Binczyk},
+           familyi={B\bibinitperiod},
+           given={Mikolaj\bibnamedelima Miko{ł}aj},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41fa4f90f5269a645ebdef8712425470}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemys{ł}aw},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{2}{%
+        {Chair of Conceptual}%
+        {Structural Design, Fachgebiet Entwerfen und Konstruieren – Massivbau, Technische Universität Berlin}%
+      }
+      \strng{namehash}{907bcf24dc2def3c2def248b9e9a9f04}
+      \strng{fullhash}{907bcf24dc2def3c2def248b9e9a9f04}
+      \strng{bibnamehash}{907bcf24dc2def3c2def248b9e9a9f04}
+      \strng{authorbibnamehash}{907bcf24dc2def3c2def248b9e9a9f04}
+      \strng{authornamehash}{907bcf24dc2def3c2def248b9e9a9f04}
+      \strng{authorfullhash}{907bcf24dc2def3c2def248b9e9a9f04}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A good FEM modeling is a key element in engineering part of design of lively footbridge. The paper presents selected problems related to the modeling of the dynamic construction of footbridges.}
+      \field{isbn}{978-3-9818968-0-0}
+      \field{issn}{3981896807}
+      \field{journaltitle}{Footbridge 2017 Berlin}
+      \field{month}{3}
+      \field{number}{September 2017}
+      \field{title}{{Footbridges. Dynamic Design–Selected Problems}}
+      \field{year}{2017}
+      \field{pages}{7\bibrangedash 9}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.24904/footbridge2017.09357
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop//2017{\_}Zoltowski, Binczyk, Kalitowski{\_}Footbridges. Dynamic Design–Selected Problems.pdf:pdf
+      \endverb
+    \endentry
     \entry{Zuluaga2016}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=856d12d450b1191035c737a6ee215215}{%
@@ -6040,49 +6097,6 @@
       \endverb
       \verb{url}
       \verb http://files/744/Zuluaga%20i%20in.%20-%20Active%20Learning%20for%20Multi-Objective%20Optimization.pdf
-      \endverb
-    \endentry
-    \entry{Zotowski2017c}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
-           family={Żó{ł}towski},
-           familyi={Ż\bibinitperiod},
-           given={Krzysztof},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e04fefba95be94cf71b2dcad052b4cb9}{%
-           family={Binczyk},
-           familyi={B\bibinitperiod},
-           given={Miko{ł}aj},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=41fa4f90f5269a645ebdef8712425470}{%
-           family={Kalitowski},
-           familyi={K\bibinitperiod},
-           given={Przemys{ł}aw},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8c22fcba042cdad80625cfee98cf2242}
-      \strng{fullhash}{8c22fcba042cdad80625cfee98cf2242}
-      \strng{bibnamehash}{8c22fcba042cdad80625cfee98cf2242}
-      \strng{authorbibnamehash}{8c22fcba042cdad80625cfee98cf2242}
-      \strng{authornamehash}{8c22fcba042cdad80625cfee98cf2242}
-      \strng{authorfullhash}{8c22fcba042cdad80625cfee98cf2242}
-      \field{sortinit}{Ż}
-      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{3981896807}
-      \field{title}{{Footbridges. Dynamic Design–Selected Problems}}
-      \field{year}{2017}
-      \verb{urlraw}
-      \verb http://files/639/footbridges-dynamic-design-selected-problems,142027-1.html
-      \endverb
-      \verb{url}
-      \verb http://files/639/footbridges-dynamic-design-selected-problems,142027-1.html
       \endverb
     \endentry
   \enddatalist

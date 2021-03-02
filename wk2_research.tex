@@ -383,7 +383,7 @@ Stworzony model numeryczny powstał na podstawie założeń projektowych. Wykona
 	\item zidentyfikowane parametry modalne konstrukcji: 10 pierwszych częstotliwości i postaci drgań własnych oraz odpowiadające im tłumienia modalne. Postaci drgań opisane zostały za pomocą 14 współrzędnych modalnych (p. \ref{sect:choose_measuremanet_locations})
 \end{itemize}
 Zestaw danych zmierzonych w ramach obciążeń statycznych pozwoli skalibrować głównie sztywność poszczególnych elementów konstrukcji. Z kolei parametry modalne, jako wartości odnoszące się do zachowania dynamicznego, związane są ze sztywnością konstrukcji, jak i masą konstrukcyjną i niekonstrukcyjną.
-Obiekty łukowe, podobnie jak kratownicowe są relatywnie złożonymi obiektami. Na ich charakterystykę dynamiczną wpływa wiele czynników, które mniej lub bardziej potrafią wpłynąć na jego parametry. Różni to je od statycznie nieskomplikowanych obiektów belkowych czy płytowych oraz od dużych obiektów wiszących i podwieszonych gdzie rozwiązania i szczegóły konstrukcyjne nie wpływają aż tak istotnie na globalne zachowanie dynamiczne konstrukcji. Dla łukowego obiektu WK2 wyodrębniono 22 zmienne, które będą podlegać modyfikacji w trakcie kalibracji. Podzielono je na trzy rodzaje: sztywności elementów konstrukcyjnych, sztywności warunków brzegowych oraz masy konstrukcyjne i niekonstrukcyjne. Poniżej zestawiono symbole zmiennych wraz z ich opisem:
+Obiekty łukowe, podobnie jak kratownicowe są relatywnie złożonymi obiektami. Na ich charakterystykę dynamiczną wpływa wiele czynników, które mniej lub bardziej potrafią wpłynąć na jego parametry. Różni to je od statycznie nieskomplikowanych obiektów belkowych czy płytowych oraz od dużych obiektów wiszących i podwieszonych gdzie rozwiązania i szczegóły konstrukcyjne nie wpływają aż tak istotnie na globalne zachowanie dynamiczne konstrukcji. Dla łukowego wiaduktu WK2 wyodrębniono 22 czynniki, które będą podlegać modyfikacji w trakcie kalibracji. Podzielono je na trzy rodzaje: sztywności elementów konstrukcyjnych, sztywności warunków brzegowych oraz masy konstrukcyjne i niekonstrukcyjne. Poniżej zestawiono symbole zmiennych wraz z ich opisem:
 \begin{itemize}
 	\item Sztywności elementów konstrukcyjnych:
 	\begin{itemize}
@@ -396,32 +396,52 @@ Obiekty łukowe, podobnie jak kratownicowe są relatywnie złożonymi obiektami.
 		\item S7 - wieszaków,
 		\item S8 - elementów stanowiących usztywniających wezgłowie łuku,  
 	\end{itemize}
-	\item Sztywność warunków brzegowych:
+	\item Sztywność warunków brzegowych (Rys. \ref{fig:boudary_conditions_stiff_bearings}):
 	\begin{itemize}
-		\item S21 - Oś 2, podpora 1, kierunek $x$,
-		\item S22 - Oś 1, podpora 1, kierunek $y$,
-		\item S23 - Oś 1, podpora 2, kierunek $x$,
-		\item S24 - Oś 2, podpora 2, kierunek $x$,
-		\item S25 - Oś 1, podpora 1, kierunek $x$,
-		\item S26 - Oś 2, podpora 1, kierunek $y$,
-		\item S27 - Oś 1, podpora 2, kierunek $y$,
-		\item S28 - Oś 2, podpora 2, kierunek $y$,
+		\item S21 - Oś 2, podpora 1, kierunek X,
+		\item S22 - Oś 1, podpora 1, kierunek Y,
+		\item S23 - Oś 1, podpora 2, kierunek X,
+		\item S24 - Oś 2, podpora 2, kierunek X,
+		\item S25 - Oś 1, podpora 1, kierunek X,
+		\item S26 - Oś 2, podpora 1, kierunek Y,
+		\item S27 - Oś 1, podpora 2, kierunek Y,
+		\item S28 - Oś 2, podpora 2, kierunek Y,
 	\end{itemize}
 	\item Masa elementów konstrukcyjnych i niekonstrukcyjnych:
 	\begin{itemize}
 		\item M1 - łuku,
 		\item M2 - ściągu,
-		\item M3 - tłucznia - część 1,
-		\item M4 - tłucznia - część 2,
+		\item M3 - tłucznia - część wzdłuż osi toru,
+		\item M4 - tłucznia - część równomiernie rozłożona,
 		\item M5 - pomostu roboczego,
 		\item M6 - stężeń górnych.
 	\end{itemize}
 \end{itemize}
-\textbf{DODAĆ RYSUNEK ŁOŻYSKOWANIA Z PUNKTAMI S21-S28}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{WK2/rysunki/lozyska_sprezyny_kalibracja.pdf}
+	\captionsetup{justification=centering}
+	\caption{Schemat łożyskowania i rozmieszczenia podpór sprężystych, modyfikowanych w procesie kalibracji}
+	\label{fig:boudary_conditions_stiff_bearings}
+\end{figure}
+Niektóre z wymienionych elementów intuicyjnie nie wpływają znacząca na globalne charakterystyki modalne konstrukcji. Dotyczy to między innymi sztywności elementów pomostu czy warunków brzegowych w przypadku zastosowania łożysk mostowych. Zostały one jednak uwzględnione w niniejszej pracy jako zmienne, żeby mieć pełną kontrolę nad modyfikacjami modelu oraz żeby uwidocznić zalety zastosowanej metody kalibracji.
 
-Do modyfikacji parametrów modelu zastosowano wielokryterialną optymalizację za pomocą algorytmu MOPSO \ref{!!!}. 
+Kalibrację modelu postanowiono potraktować jako problem optymalizacji. Problem zdefiniowano klasycznie przez wybór funkcji celu, parametrów i zmiennych projektowych oraz ograniczeń. Funkcję celu naturalnie jest miara dopasowania modelu do konstrukcji rzeczywistej pod względem charakterystyk dynamicznych. Parametry projektowe definiują model numeryczny poddawany kalibracji i zostały przyjęte na podstawie dokumentacji powykonawczej. Zmienne projektowe stanowią wymienione wyżej 22 parametry: sztywności elementów konstrukcji, warunków brzegowych i masy znajdujące się na obiekcie. Ograniczenia dla zmiennych projektowych stanowią wartości graniczne podyktowane doświadczeniem i zdrowym rozsądkiem. Niedopuszczalne i niemiarodajne byłoby przykładowo umożliwienie zmian sztywności wszystkich elementów stalowych o $\pm$50\%. Przykładowe niepewności dla różnych elementów modelu numerycznego przedstawiono w tabeli \ref{table:uncertainitesModel}. Jako metodę optymalizacji przyjęto metodę roju cząstek PSO. 
 
+Funkcja celu w zdefiniowanym problemie w założeniu miała być miarą dopasowania. W literaturze do kalibracji naczęściej stosowane są jednokryterialne algorytmy, w których miara dopasowania musi być wyrażona jedną liczbą. Wynikowa wartość jest więc najczęściej liniową kombinacją wag i kryteriów dopasowania. Chcąc uniknąć narzucania skali ważności na poszczególne kryteria, optymalizację wykonano w wariancie wielokryterialnym. Zbiorem funkcji celu, z których każda jest minimalizowana i opisuje dopasowanie modelu do obiektu jest wektor $\vect{F}=[f_{freq},f_{disp},f_{MAC}]$. Na wartość funkcji $f_{freq}$ wpływ ma $N$ pierwszych częstotliwości drgań własnych modelu $f_i^n$ i zidentyfikowanych na konstrukcji rzeczywistej $f_i^r$. Wyznaczana jest ona następująco:
+\begin{equation}
+f_{freq}=\sum_{i=1}^{N} (f_i^n - f_i^r)^2
+\end{equation}
+Funkcja celu $f_{disp}$ związana jest z przemieszczeniami uzyskiwanymi pod działaniem obciążenia statycznego. W rozważanym przypadku wykorzystano pomiar wykonany w trakcie próbnego obciążenia. Dla dwóch ustawień, po sześć punktów pomiarowych w każdym, porównano przemieszczenia pionowe zmierzone na konstrukcji rzeczywistej $d_i^r$ do wyznaczone w modelu numerycznym $d_i^n$. Wartość funkcji celu związanej z przemieszczeniami konstrukcji sformułowano jako:
+\begin{equation}
+	f_{disp}=\sum_{i=1}^{12} |d_i^n - d_i^r|
+\end{equation}
+Ostatnia funkcja celu jest miarą dopasowania pierwszych $N$ postaci drgań własnych zidentyfikowanych na konstrukcji $\phi_i^r$ oraz wyznaczonych w modelu $\phi_i^n$. Do liczbowego porównania postaci użyto kryterium MAC. Wartość funkcji $f_{MAC}$ opisano następującym równaniem:
+\begin{equation}
+	f_{MAC}=\sum_{i=1}^{N} (1-\text{MAC}(\vect{\phi}_i^n, \vect{\phi}_i^r))^2
+\end{equation}
+gdzie $\text{MAC}(\cdot)$ oznacza kryterium MAC dwóch wektorów. Zasadniczo kryterium MAC dwóch wektorów powinno być maksymalizowane. Dla idealnego dopasowania wektorów równe jest jedności, a dla zupełnego braku dopasowania - zeru. Znając wartość maksymalną kryterium MA0C i stosując odejmowanie przemianowano naturalnie maksymalizowaną funkcję celu na minimalizowaną. Dzięki temu wszystkie funkcje celu będą podlegać minimalizacji co uprasza interpretację wyników oraz zmniejsza złożoność algorytmu obliczeniowego.
 
 
 

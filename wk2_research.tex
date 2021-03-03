@@ -487,7 +487,7 @@ Zmienne projektowe w procesie kalibracji przedstawiono w punkcie \ref{sect:wk2_c
 \subsection{Algorytm kalibracji}
 Zaproponowane rozwiązanie kalibracji opiera się na podziale całego procesu na dwa obszary obliczeń. Pierwszy związany jest z wykorzystaniem komercyjnego oprogramowania MES SOFiSTiK. Drugi to autorskie oprogramowanie umożliwiające optymalizację rojem cząstek. Oba obszary były połączone i zarządzane przez algorytm zapisany w języku Python.
 
-\subsection{SOFiSTiK}
+\subsubsection{SOFiSTiK}
 Przed przystąpieniem do optymalizacji, model numeryczny przęsła (Fig. \ref{fig: model_wk2_visualization}) przystosowano do kalibracji. Bazę danych zawierającą model MES powielono, aby stanowiła kopię zapasową w trakcie obliczeń. Do prowadzenia obliczeń wykorzystano program do preprocessingu tekstowego TEDDY i zapisano w nim wymagane w procesie kalibracji analizy i modyfikacje modelu. Uruchomienie instrukcji z pliku tekstowego wywoływało następujące obliczenia wykonywane przez moduł ASE \parencite{AG2018}:
 \begin{itemize}
 	\item analizę statyczną pod obciążeniem dwóch ustawień próbnego obciążenia,
@@ -496,16 +496,23 @@ Przed przystąpieniem do optymalizacji, model numeryczny przęsła (Fig. \ref{fi
 \end{itemize}
 W każdej z analiz zastosowane zostały mnożniki zmiennych projektowych. Uruchomienie następowało w odpowiednim momencie z poziomu programu optymalizacyjnego.
 
-\subsection{Oprogramowanie autorskie}
+\subsubsection{Oprogramowanie autorskie}
 Jedną z cech algorytmów metaheurystycznych jest to, że są bardzo uniwersalne. Przystosowanie zapisanego w języku programowania algorytmu do danego problemu optymalizacji zazwyczaj nie wymaga wielu modyfikacji. W kalibracji modelu wykorzystano algorytm optymalizacji wielokryterialnej rojem cząstek MOPSO (\ref{sect:MOPSO_algorithm}). Współczynniki sterujące prędkością roju przyjęto jak w domyślnej wersji algorytmu: $\theta=0.7968$, $\alpha=1.4962$ oraz $\beta=1.4962$. Populację stanowił zbiór 20 cząstek, wygenerowanych w przestrzeni rozwiązań za pomocą sekwencji Haltona. Zastosowano topologię GBEST zapewniającą pełną wymianę informacji między cząstkami na temat najlepszego rozwiązania. Wybór najlepszego rozwiązania odbywał się przez losowanie spośród wszystkich cząstek budujących aktualnie Front Pareto i znajdujących się w archiwum zewnętrznego. Dodatkowo wszystkie wyznaczone rezultaty ulegały archiwizacji w bazie wiedzy \teng{knowledge base}. Dzięki temu możliwe było przerwanie obliczeń i rozpoczęcie od stanu zarchiwizowanego. Ma to istotne znaczenie w problemach o kosztownych czasowo obliczeniach funkcji celu. Nie zastosowano żadnego dodatkowego automatycznego mechanizmu zapewniającego dobrą dystrybucję rozwiązań Frontu Pareto. Zamiast tego wprowadzono możliwość kontroli algorytmu przez użytkownika. Zagwarantowano w trakcie prowadzenia obliczeń możliwość wstrzymania algorytmu, tymczasowego zwężenia lub poszerzenia przestrzeni rozwiązań dopuszczalnych oraz zdefiniowanie przestrzeni funkcji celu, z której musi być wybrany lider roju. Półautomatyczny system wymaga zaangażowania użytkownika, ale również zapewnia możliwość zagęszczenia wybranych fragmentów Frontu Pareto w trakcie trwania procesu optymalizacji.
 
-Do wyznaczania funkcji celu dla danego rozwiązania $\vect{F}=[f_{freq},f_{disp},f_{MAC}]$ wymagana była komunikacja pomiędzy autorskim programem, a bazą danych modelu MES. W każdej iteracji optymalizacji potrzebne jest przekazanie do modelu MES zestawu mnożników będących aktualnie rozpatrywanym rozwiązaniem. Następnie po uruchomieniu i zakończeniu obliczeń przez program MES konieczne jest odczytanie częstotliwości drgań własnych, postaci drgań własnych w wybranych punktach i przemieszczeń konstrukcji pod obciążeniem próbnym. Do wczytywania "do modelu" i odczytywania "z modelu" potrzebnych informacji użyto interfejsu dostarczonego przez producenta SOFiSTiK AG \parencite{SOFISTIK2018}. Bazując na odczytanych danych i wprowadzonych wynikach identyfikacji modalnej i próbnego obciążenia program wyznaczał funkcje celu według formuł (\ref{eq:wk2_calib_f_freq}), (\ref{eq:wk2_calib_f_disp}) i (\ref{eq:wk2_calib_f_mass}). Wektor funkcji celu oraz przypisane mu rozwiązanie przekazywane były do algorytmu optymalizacyjnego i zarchiwizowane w bazie wiedzy.
+Do wyznaczania funkcji celu dla danego rozwiązania $\vect{F}=[f_{freq},f_{disp},f_{MAC}]$ wymagana była komunikacja pomiędzy autorskim programem, a bazą danych modelu MES. W każdej iteracji optymalizacji potrzebne jest przekazanie do modelu MES zestawu mnożników będących aktualnie rozpatrywanym rozwiązaniem. Następnie po uruchomieniu i zakończeniu obliczeń przez program MES konieczne jest odczytanie częstotliwości drgań własnych, postaci drgań własnych w wybranych punktach i przemieszczeń konstrukcji pod obciążeniem próbnym. Do wczytywania 'do modelu' i odczytywania 'z modelu' potrzebnych informacji użyto interfejsu dostarczonego przez producenta SOFiSTiK AG \parencite{SOFISTIK2018}. Bazując na odczytanych danych i wprowadzonych wynikach identyfikacji modalnej i próbnego obciążenia program wyznaczał funkcje celu według formuł (\ref{eq:wk2_calib_f_freq}), (\ref{eq:wk2_calib_f_disp}) i (\ref{eq:wk2_calib_f_mass}). Wektor funkcji celu oraz przypisane mu rozwiązanie przekazywane były do algorytmu optymalizacyjnego i zarchiwizowane w bazie wiedzy.
 
-Schemat blokowy kalibracji przedstawiono na rysunku \ref{}. 
+Schemat blokowy algorytmu kalibracji przedstawiono na rysunku \ref{fig:kalibracja_algoritm}. 
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=\textwidth]{WK2/kalibracja/algoritm_kalibracja.pdf}
+	\captionsetup{justification=centering}
+	\caption{Schemat blokowy algorytmu kalibracji modelu MES wiaduktu WK2}
+	\label{fig:kalibracja_algoritm}
+\end{figure}
 
 
-
-
+\subsection{Rezultaty kalibracji}
 
 
 

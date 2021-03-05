@@ -513,6 +513,7 @@ Schemat blokowy algorytmu kalibracji przedstawiono na rysunku \ref{fig:kalibracj
 
 
 \subsection{Rezultaty kalibracji}
+W trakcie kalibracji wyznaczono funkcję celu dla 57 551 położeń cząstek. Wszystkie wyniki zachowano w bazie wiedzy. Front Pareto po ostatniej iteracji złożony był z 802 cząstek. Na rysunku \ref{fig: calibration_pareto} pokazano Front Pareto w widoku przestrzennym i w rzutach na wszystkie płaszczyzny. Kolor cząstek oznacza sumę algebraiczną wszystkich funkcji celu $\vect{F}$. Innymi słowy oznacza on wartość funkcji $f_c$ celu jak dla optymalizacji jednokryterialnej $f_c = f_{freq}+f_{disp}+f_{MAC}$. Gdyby wykonać optymalizację jednokryterialną, przy osiągnięciu dokładnie tych samych położeń cząstek byłby to jedyny wynik i oznaczałby minimum globalne. Dzięki wykonaniu optymalizacji wielokryterialnej możliwy jest wybór innych wag dla poszczególnych kryteriów oraz ocena wybranego kompromisu wśród całego zbioru równorzędnych rozwiązań. Najmniejszą wartość $f_c=5.292$ obliczono dla punktu $f_{freq}=0.106$, $f_{disp}=1.557$ i $f_{MAC}=3.627$
 \begin{figure}[h]
 	\centering
 	\subfloat[]{\includegraphics[trim =3 5 5 10 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_AXO.pdf}}

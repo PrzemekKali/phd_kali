@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.12)  5 MAR 2021 19:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.12)  6 MAR 2021 21:59
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -4439,12 +4439,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [101 <./figures//WK2/rysunki/lozyska_sprezyny_kalibracja.pdf, page is rotated 2
 70 degrees>]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4474,57 +4468,6 @@ File: ./figures//WK2/kalibracja/algoritm_kalibracja.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures//WK2/kalibracja/algoritm_kalibracja.pdf  use
 d on input line 508.
 (pdftex.def)             Requested size: 426.79134pt x 569.06235pt.
-<./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf, id=4627, 219.48299pt x 16
-7.95549pt>
-File: ./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf Graphic file (type pd
-f)
-<use ./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf>
-Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf  u
-sed on input line 519.
-(pdftex.def)             Requested size: 204.85802pt x 148.13939pt.
-<./figures///WK2/kalibracja/fig_all_paricles_XY.pdf, id=4629, 219.48299pt x 167
-.95549pt>
-File: ./figures///WK2/kalibracja/fig_all_paricles_XY.pdf Graphic file (type pdf
-)
-<use ./figures///WK2/kalibracja/fig_all_paricles_XY.pdf>
-Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_XY.pdf  us
-ed on input line 520.
-(pdftex.def)             Requested size: 204.85802pt x 158.2525pt.
-<./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf, id=4631, 219.48299pt x 167
-.95549pt>
-File: ./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf Graphic file (type pdf
-)
-<use ./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf>
-Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf  us
-ed on input line 521.
-(pdftex.def)             Requested size: 204.85802pt x 143.16432pt.
-<./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf, id=4633, 219.48299pt x 167
-.95549pt>
-File: ./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf Graphic file (type pdf
-)
-<use ./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf>
-Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf  us
-ed on input line 522.
-(pdftex.def)             Requested size: 204.85802pt x 143.16432pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./figures//WK2/proste_300_decisive_freq.pdf, id=4635, 205.92622pt x 219.34402p
-t>
-File: ./figures//WK2/proste_300_decisive_freq.pdf Graphic file (type pdf)
-<use ./figures//WK2/proste_300_decisive_freq.pdf>
-Package pdftex.def Info: ./figures//WK2/proste_300_decisive_freq.pdf  used on i
-nput line 539.
-(pdftex.def)             Requested size: 205.92572pt x 219.34348pt.
-File: ./figures//WK2/proste_300_decisive_freq.pdf Graphic file (type pdf)
-<use ./figures//WK2/proste_300_decisive_freq.pdf>
-Package pdftex.def Info: ./figures//WK2/proste_300_decisive_freq.pdf  used on i
-nput line 540.
-(pdftex.def)             Requested size: 205.92572pt x 219.34348pt.
-
-Underfull \vbox (badness 5681) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4543,33 +4486,129 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [105 <./figures//WK2/kalibracja/algoritm_kalibracja.pdf>]
+<./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf, id=4674, 219.48299pt x 16
+7.95549pt>
+File: ./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf Graphic file (type pd
+f)
+<use ./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf  u
+sed on input line 520.
+(pdftex.def)             Requested size: 204.85802pt x 148.13939pt.
+<./figures///WK2/kalibracja/fig_all_paricles_XY.pdf, id=4676, 219.48299pt x 167
+.95549pt>
+File: ./figures///WK2/kalibracja/fig_all_paricles_XY.pdf Graphic file (type pdf
+)
+<use ./figures///WK2/kalibracja/fig_all_paricles_XY.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_XY.pdf  us
+ed on input line 521.
+(pdftex.def)             Requested size: 204.85802pt x 153.2231pt.
+<./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf, id=4678, 219.48299pt x 167
+.95549pt>
+File: ./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf Graphic file (type pdf
+)
+<use ./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf  us
+ed on input line 522.
+(pdftex.def)             Requested size: 204.85802pt x 143.16432pt.
+<./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf, id=4680, 219.48299pt x 167
+.95549pt>
+File: ./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf Graphic file (type pdf
+)
+<use ./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf  us
+ed on input line 523.
+(pdftex.def)             Requested size: 204.85802pt x 143.16432pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 531.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[106 <./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf> <./figures///WK2/kal
+ibracja/fig_all_paricles_XY.pdf> <./figures///WK2/kalibracja/fig_all_paricles_Y
+Z.pdf> <./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf>]
+<./figures///WK2/kalibracja/fig_all_paricles_AXO_selected.pdf, id=4743, 187.551
+7pt x 167.95549pt>
+File: ./figures///WK2/kalibracja/fig_all_paricles_AXO_selected.pdf Graphic file
+ (type pdf)
+<use ./figures///WK2/kalibracja/fig_all_paricles_AXO_selected.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_AXO_select
+ed.pdf  used on input line 553.
+(pdftex.def)             Requested size: 204.85802pt x 174.48186pt.
+<./figures///WK2/kalibracja/fig_all_paricles_XY_selected.pdf, id=4745, 187.5517
+pt x 167.95549pt>
+File: ./figures///WK2/kalibracja/fig_all_paricles_XY_selected.pdf Graphic file 
+(type pdf)
+<use ./figures///WK2/kalibracja/fig_all_paricles_XY_selected.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_XY_selecte
+d.pdf  used on input line 554.
+(pdftex.def)             Requested size: 204.85802pt x 181.59534pt.
+<./figures///WK2/kalibracja/fig_all_paricles_YZ_selected.pdf, id=4747, 187.5517
+pt x 167.95549pt>
+File: ./figures///WK2/kalibracja/fig_all_paricles_YZ_selected.pdf Graphic file 
+(type pdf)
+<use ./figures///WK2/kalibracja/fig_all_paricles_YZ_selected.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_YZ_selecte
+d.pdf  used on input line 555.
+(pdftex.def)             Requested size: 204.85802pt x 169.67398pt.
+<./figures///WK2/kalibracja/fig_all_paricles_XZ_selected.pdf, id=4749, 187.5517
+pt x 167.95549pt>
+File: ./figures///WK2/kalibracja/fig_all_paricles_XZ_selected.pdf Graphic file 
+(type pdf)
+<use ./figures///WK2/kalibracja/fig_all_paricles_XZ_selected.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_XZ_selecte
+d.pdf  used on input line 556.
+(pdftex.def)             Requested size: 204.85802pt x 169.67398pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//WK2/proste_300_3d_weig.pdf, id=4683, 339.6708pt x 196.74922pt>
+<./figures//WK2/proste_300_decisive_freq.pdf, id=4751, 205.92622pt x 219.34402p
+t>
+File: ./figures//WK2/proste_300_decisive_freq.pdf Graphic file (type pdf)
+<use ./figures//WK2/proste_300_decisive_freq.pdf>
+Package pdftex.def Info: ./figures//WK2/proste_300_decisive_freq.pdf  used on i
+nput line 575.
+(pdftex.def)             Requested size: 205.92572pt x 219.34348pt.
+File: ./figures//WK2/proste_300_decisive_freq.pdf Graphic file (type pdf)
+<use ./figures//WK2/proste_300_decisive_freq.pdf>
+Package pdftex.def Info: ./figures//WK2/proste_300_decisive_freq.pdf  used on i
+nput line 576.
+(pdftex.def)             Requested size: 205.92572pt x 219.34348pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures//WK2/proste_300_3d_weig.pdf, id=4752, 339.6708pt x 196.74922pt>
 File: ./figures//WK2/proste_300_3d_weig.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_3d_weig.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_3d_weig.pdf  used on input l
-ine 547.
+ine 583.
 (pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
-<./figures//WK2/proste_300_0_3_3d_arch_weig.pdf, id=4684, 339.6708pt x 196.7492
+<./figures//WK2/proste_300_0_3_3d_arch_weig.pdf, id=4753, 339.6708pt x 196.7492
 2pt>
 File: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_0_3_3d_arch_weig.pdf  used o
-n input line 553.
+n input line 589.
 (pdftex.def)             Requested size: 426.79134pt x 247.22083pt.
-<./figures//WK2/proste_300_3d_freq.pdf, id=4685, 337.78188pt x 196.74922pt>
+<./figures//WK2/proste_300_3d_freq.pdf, id=4754, 337.78188pt x 196.74922pt>
 File: ./figures//WK2/proste_300_3d_freq.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_3d_freq.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_3d_freq.pdf  used on input l
-ine 559.
+ine 595.
 (pdftex.def)             Requested size: 426.79134pt x 248.61682pt.
-<./figures//WK2/proste_300_all.pdf, id=4686, 398.99599pt x 221.95659pt>
+<./figures//WK2/proste_300_all.pdf, id=4755, 398.99599pt x 221.95659pt>
 File: ./figures//WK2/proste_300_all.pdf Graphic file (type pdf)
 <use ./figures//WK2/proste_300_all.pdf>
 Package pdftex.def Info: ./figures//WK2/proste_300_all.pdf  used on input line 
-565.
+601.
 (pdftex.def)             Requested size: 426.79134pt x 237.43362pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -4591,9 +4630,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[106 <./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf> <./figures///WK2/kal
-ibracja/fig_all_paricles_XY.pdf> <./figures///WK2/kalibracja/fig_all_paricles_Y
-Z.pdf> <./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf>]
+[107]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4602,7 +4639,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[107 <./figures//WK2/proste_300_decisive_freq.pdf> <./figures//WK2/proste_300_3
+[108 <./figures///WK2/kalibracja/fig_all_paricles_AXO_selected.pdf> <./figures/
+//WK2/kalibracja/fig_all_paricles_XY_selected.pdf> <./figures///WK2/kalibracja/
+fig_all_paricles_YZ_selected.pdf> <./figures///WK2/kalibracja/fig_all_paricles_
+XZ_selected.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[109 <./figures//WK2/proste_300_decisive_freq.pdf> <./figures//WK2/proste_300_3
 d_weig.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_weig.pdf): PDF 
@@ -4616,7 +4665,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[108 <./figures//WK2/proste_300_0_3_3d_arch_weig.pdf> <./figures//WK2/proste_30
+[110 <./figures//WK2/proste_300_0_3_3d_arch_weig.pdf> <./figures//WK2/proste_30
 0_3d_freq.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/proste_300_3d_freq.pdf): PDF 
@@ -4630,9 +4679,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[109 <./figures//WK2/proste_300_all.pdf>]
+[111 <./figures//WK2/proste_300_all.pdf>]
 Rozdzia\l  6.
-) [110
+) [112
 
 ]
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -4643,7 +4692,7 @@ LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line
 ("C:\Users\KBP\AppData\Local\Programs\MiKTeX 2.9\tex/latex/polski\ot4cmtt.fd"
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-[111
+[113
 
 
 
@@ -4656,7 +4705,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[112]
+[114]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4665,7 +4714,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[113]
+[115]
 Overfull \hbox (0.7371pt too wide) in paragraph at lines 34--34
 [][]\OT4/cmr/m/n/10.95 Juang, Jer-Nan (1994). \OT4/cmr/m/it/10.95 Ap-plied sys-
 tem iden-ti-fi-ca-tion\OT4/cmr/m/n/10.95 . Prentice-Hall, Inc. \OT4/cmr/m/sc/10
@@ -4680,40 +4729,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[114]
+[116]
 Overfull \hbox (1.5509pt too wide) in paragraph at lines 34--34
 \OT4/cmr/m/n/10.95 using the Pa-reto ar-chi-ved evo-lu-tion stra-tegy''. W: \OT
 4/cmr/m/it/10.95 Evo-lu-tio-nary com-pu-ta-tion \OT4/cmr/m/n/10.95 8.2, s. 149{
 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[115]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[116]
-Overfull \hbox (12.81938pt too wide) in paragraph at lines 34--34
-[][]\OT4/cmr/m/n/10.95 SHEN, F i in. (2003). ``USING THE CROSS-CORRELATION TECH
--NI-QUE TO EXTRACT
- []
-
-
-Overfull \hbox (2.37135pt too wide) in paragraph at lines 34--34
-[][]\OT4/cmr/m/n/10.95 Vold, Ha-rvard i in. (1982). ``A multi-input mo-dal es-t
-i-ma-tion al-go-ri-thm for mini-computers''.
  []
 
 
@@ -4733,7 +4753,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[118] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
+[118]
+Overfull \hbox (12.81938pt too wide) in paragraph at lines 34--34
+[][]\OT4/cmr/m/n/10.95 SHEN, F i in. (2003). ``USING THE CROSS-CORRELATION TECH
+-NI-QUE TO EXTRACT
+ []
+
+
+Overfull \hbox (2.37135pt too wide) in paragraph at lines 34--34
+[][]\OT4/cmr/m/n/10.95 Vold, Ha-rvard i in. (1982). ``A multi-input mo-dal es-t
+i-ma-tion al-go-ri-thm for mini-computers''.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[119]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[120] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
 (chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
 
 LaTeX Warning: There were undefined references.
@@ -4743,10 +4792,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37877 strings out of 479582
- 924820 string characters out of 2862447
- 1665150 words of memory out of 3000000
- 54159 multiletter control sequences out of 15000+200000
+ 37912 strings out of 479582
+ 926615 string characters out of 2862447
+ 1665282 words of memory out of 3000000
+ 54190 multiletter control sequences out of 15000+200000
  458048 words of font info for 182 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,24n,107p,3216b,1773s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4801,9 +4850,9 @@ s/type1/public/cm-super/sfrm0600.pfb><C:/Users/KBP/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/KBP/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/KBP/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on whole_thesis.pdf (118 pages, 54398108 bytes).
+Output written on whole_thesis.pdf (120 pages, 54897822 bytes).
 PDF statistics:
- 4997 PDF objects out of 5155 (max. 8388607)
+ 5055 PDF objects out of 5155 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1298 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

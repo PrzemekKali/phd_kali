@@ -62,7 +62,7 @@ Na obiekcie po wybudowaniu przeprowadzono badania odbiorcze. Próbne obciążeni
 W ramach badań dynamicznych mierzono przyspieszenia konstrukcji po wymuszeniu obciążeniem impulsowym. Impuls generowano przez upadek jednej osi koparki dwudrogowej i zeskoków drezyny z progu. Na postawie przebiegów drgań swobodnych zidentyfikowano częstotliwości drgań własnych przęsła i towarzyszące im tłumienia. Do identyfikacji użyto algorytmu ERA. Zidentyfikowane częstotliwości drgań i tłumienia przęsła posłużą do porównania z wynikami badań przeprowadzonymi w ramach tej pracy.
 
 
-\section{Budowa modelu numerycznego}
+\section{Budowa modelu numerycznego} \label{sect:wk2_basic_num_model}
 
 Na potrzeby analiz numerycznych zbudowano model MES w środowisku SOFiSTiK (rys. \ref{fig: model_wk2_visualization}) Model przestrzenny składa się kilku rodzajów elementów skończonych. Z jednowymiarowych elementów belkowych wykonano łuki, stężenia, belki ściągu, wzmocnienia wezgłowii i żebra pomostu ortotropowego. Z elementów kratowych stworzono wieszaki. Blachę pomostu wykonano z czterowęzłowych elementów powłokowych. Połączenia pomiędzy końcami wieszaków i osiami łuku oraz ściągu zrealizowano przez połączenia kinematyczne translacji i rotacji węzłów. Podparcia pionowe w miejscach łożysk mostu zrealizowano za pomocą sztywnych więzów węzłów. Nie zablokowano przesuwów podłużnych i poprzecznych za pomocą blokady przemieszczeń. Zamiast tego na obu kierunkach zamocowano elastyczne elementy o bardzo dużej sztywności. Dostosowanie do istniejących warunków łożyskowania opisane zostało w dalszej części rozdziału. Usztywnienia wezgłowii zamodelowano za pomocą rusztu elementów belkowych o przekroju składającym się z dwóch blach odsuniętych od siebie na szerokość przekroju skrzynkowego łuku. Elementy strukturalne konstrukcji (takie jak ściągi, pomost, dźwigary łukowe, elementy podparcia itd.) podzielono w modelu na grupy pozwalające odnosić się do nich jako całości. Przekroje elementów belkowych przyjęto zgodnie z dostępną dokumentacją (!!!). Wymiary przekrojów zmiennych po długości zostały interpolowane liniowo. Widoczne na rysunku (\ref{fig: model_wk2_static_scheme}) dodatkowe połączenia kinematyczne są przygotowaniem dla możliwości podłączenia innych konfiguracji wieszaków.
 
@@ -73,7 +73,7 @@ Na potrzeby analiz numerycznych zbudowano model MES w środowisku SOFiSTiK (rys.
 	\subfloat[Widok A]{\includegraphics[width=0.5\linewidth]{/WK2/model/SCIAG_PAR_v01_vis_1.jpg}}%
 	\subfloat[Widok B]{\includegraphics[width=0.5\linewidth]{/WK2/model/SCIAG_PAR_v01_vis_2.jpg}}
 	\captionsetup{justification=centering}
-	\caption{PODMIENIC NA RZECZYWISTE WYMIARY KONSTRUKCJI!!!!! Wizualizacja przestrzennego modelu numerycznego wiaduktu WK2 Pomorskiej Kolei Metropolitalnej}
+	\caption{Wizualizacja przestrzennego modelu numerycznego wiaduktu WK2 Pomorskiej Kolei Metropolitalnej}
 	\label{fig: model_wk2_visualization}
 	
 \end{figure}
@@ -377,12 +377,12 @@ Zarejestrowane sygnały poddano analizie OMA metodą NExT-ERA. W procesie iterac
 \end{figure}
 
 \section{Kalibracja modelu numerycznego z wykorzystaniem PSO} \label{sect:wk2_calibration}
-Stworzony model numeryczny powstał na podstawie założeń projektowych. Wykonana identyfikacja parametrów dynamicznych i przeprowadzone badania odbiorcze pod próbnym obciążeniem dostarczyły szereg informacji o obiekcie rzeczywistym. Dzięki dostarczonym danym możliwe jest przeprowadzenie kalibracji, która sprawi że model będzie wierniej odzwierciedlał rzeczywistą konstrukcję. Podsumowując wyznaczone i zdobyte wyniki, kalibracja opierać będzie się na następujących danych wyjściowych:
+Stworzony model numeryczny powstał na podstawie założeń projektowych. Wykonana identyfikacja parametrów dynamicznych i przeprowadzone badania odbiorcze pod próbnym obciążeniem dostarczyły szereg informacji o obiekcie rzeczywistym. Dzięki dostarczonym danym możliwe jest przeprowadzenie kalibracji, która sprawi, że model będzie wierniej odzwierciedlał rzeczywistą konstrukcję. Podsumowując wyznaczone i zdobyte wyniki, kalibracja opierać będzie się na następujących danych wyjściowych:
 \begin{itemize}
 	\item przemieszczenia statyczne konstrukcji pod próbnym obciążeniem: 2 ustawienia po 6 punktów pomiarowych umiejscowionyc na ściągach dźwigarów łukowych,
 	\item zidentyfikowane parametry modalne konstrukcji: 10 pierwszych częstotliwości i postaci drgań własnych oraz odpowiadające im tłumienia modalne. Postaci drgań opisane zostały za pomocą 14 współrzędnych modalnych (p. \ref{sect:choose_measuremanet_locations})
 \end{itemize}
-Zestaw danych zmierzonych w ramach obciążeń statycznych pozwoli skalibrować głównie sztywność poszczególnych elementów konstrukcji. Z kolei parametry modalne, jako wartości odnoszące się do zachowania dynamicznego, związane są ze sztywnością konstrukcji, jak i masą konstrukcyjną i niekonstrukcyjną.
+Zestaw danych zmierzonych w ramach obciążeń statycznych pozwoli skalibrować głównie sztywność poszczególnych elementów konstrukcji. Z kolei charakterystyki modalne, jako wartości odnoszące się do zachowania dynamicznego, związane są ze sztywnością konstrukcji, jak i masą konstrukcyjną i niekonstrukcyjną.
 Obiekty łukowe, podobnie jak kratownicowe są relatywnie złożonymi obiektami. Na ich charakterystykę dynamiczną wpływa wiele czynników, które mniej lub bardziej potrafią wpłynąć na jego parametry. Różni to je od statycznie nieskomplikowanych obiektów belkowych czy płytowych oraz od dużych obiektów wiszących i podwieszonych gdzie rozwiązania i szczegóły konstrukcyjne nie wpływają aż tak istotnie na globalne zachowanie dynamiczne konstrukcji. Dla łukowego wiaduktu WK2 wyodrębniono 22 czynniki, które będą podlegać modyfikacji w trakcie kalibracji. Podzielono je na trzy rodzaje: sztywności elementów konstrukcyjnych, sztywności warunków brzegowych oraz masy konstrukcyjne i niekonstrukcyjne. Poniżej zestawiono symbole zmiennych wraz z ich opisem:
 \begin{itemize}
 	\item Sztywności elementów konstrukcyjnych:
@@ -430,7 +430,7 @@ Niektóre z wymienionych elementów intuicyjnie nie wpływają znacząca na glob
 Kalibrację modelu postanowiono potraktować jako problem optymalizacji. Problem zdefiniowano klasycznie przez wybór funkcji celu, parametrów i zmiennych projektowych oraz ograniczeń. Funkcją celu jest miara dopasowania modelu do konstrukcji rzeczywistej pod względem odpowiedzi statycznej i charakterystyk dynamicznych. Parametry projektowe definiują model numeryczny poddawany kalibracji i zostały przyjęte na podstawie dokumentacji powykonawczej. Zmienne projektowe stanowią wymienione wyżej 22 parametry: sztywności elementów konstrukcji, warunków brzegowych i masy znajdujące się na obiekcie.  Jako metodę optymalizacji przyjęto metodę roju cząstek PSO. 
 
 \subsection{Funkcja celu}
-Funkcja celu w zdefiniowanym problemie w założeniu miała być miarą dopasowania. W literaturze do kalibracji naczęściej stosowane są jednokryterialne algorytmy, w których miara dopasowania musi być wyrażona jedną liczbą. Wynikowa wartość jest więc najczęściej liniową kombinacją wag i kryteriów dopasowania. Chcąc uniknąć narzucania skali ważności na poszczególne kryteria, optymalizację wykonano w wariancie wielokryterialnym. Zbiorem funkcji celu, z których każda jest minimalizowana i opisuje dopasowanie modelu do obiektu jest wektor $\vect{F}=[f_{freq},f_{disp},f_{MAC}]$. Na wartość funkcji $f_{freq}$ wpływ ma $N$ pierwszych częstotliwości drgań własnych modelu $f_i^n$ i zidentyfikowanych na konstrukcji rzeczywistej $f_i^r$. Wyznaczana jest ona następująco:
+Funkcja celu w zdefiniowanym problemie w założeniu powinna być miarą dopasowania modelu do konstrukcji rzeczywistej. W literaturze do kalibracji najczęściej stosowane są jednokryterialne algorytmy, w których miara dopasowania wyrażona jest jedną wartością liczbową. Wynikowa wartość jest więc najczęściej liniową kombinacją kryteriów dopasowania. W idealnym przypadku gdzie wszystkie kryteria zbiegają do najlepszego rozwiązania jednocześnie byłoby to w zupełności wystarczające podejście. Jednakże w rzeczywistości kryteria obarczone są nieuchronnym błędem. Błędy te wynikają z samej definicji modelu (uproszczeń strukturalnych i materiałowych) oraz zawarte są w wynikach identyfikacji będących wynikiem eksperymentu. Aktualnie nie jest możliwe kontrolowanie wszystkich różnic między modelem, a rzeczywistością, ponieważ wymagałoby to ogromniej liczby zmiennych. W efekcie nie wszystkie kryteria dopasowania osiągają minimalna wartość dla jednego rozwiązania. Chcąc uniknąć narzucania skali ważności na poszczególne kryteria, optymalizację wykonano w wariancie wielokryterialnym. Zbiorem funkcji celu, z których każda jest minimalizowana i opisuje dopasowanie modelu do obiektu jest wektor $\vect{F}=[f_{freq},f_{disp},f_{MAC}]$. Na wartość funkcji $f_{freq}$ wpływ ma $N$ pierwszych częstotliwości drgań własnych modelu $f_i^n$ i zidentyfikowanych na konstrukcji rzeczywistej $f_i^r$. Wyznaczana jest ona następująco:
 \begin{equation} \label{eq:wk2_calib_f_freq}
 f_{freq}=\sum_{i=1}^{N} (f_i^n - f_i^r)^2
 \end{equation}
@@ -513,17 +513,53 @@ Schemat blokowy algorytmu kalibracji przedstawiono na rysunku \ref{fig:kalibracj
 
 
 \subsection{Rezultaty kalibracji}
-W trakcie kalibracji wyznaczono funkcję celu dla 57 551 położeń cząstek. Wszystkie wyniki zachowano w bazie wiedzy. Front Pareto po ostatniej iteracji złożony był z 802 cząstek. Na rysunku \ref{fig: calibration_pareto} pokazano Front Pareto w widoku przestrzennym i w rzutach na wszystkie płaszczyzny. Kolor cząstek oznacza sumę algebraiczną wszystkich funkcji celu $\vect{F}$. Innymi słowy oznacza on wartość funkcji $f_c$ celu jak dla optymalizacji jednokryterialnej $f_c = f_{freq}+f_{disp}+f_{MAC}$. Gdyby wykonać optymalizację jednokryterialną, przy osiągnięciu dokładnie tych samych położeń cząstek byłby to jedyny wynik i oznaczałby minimum globalne. Dzięki wykonaniu optymalizacji wielokryterialnej możliwy jest wybór innych wag dla poszczególnych kryteriów oraz ocena wybranego kompromisu wśród całego zbioru równorzędnych rozwiązań. Najmniejszą wartość $f_c=5.292$ obliczono dla punktu $f_{freq}=0.106$, $f_{disp}=1.557$ i $f_{MAC}=3.627$
+W trakcie kalibracji wyznaczono funkcję celu dla 57 551 położeń cząstek. Wszystkie wyniki zachowano w bazie wiedzy. Front Pareto po ostatniej iteracji złożony był z 802 cząstek. Na rysunku \ref{fig: calibration_pareto} pokazano Front Pareto w widoku przestrzennym i w rzutach na wszystkie płaszczyzny. Kolor cząstek oznacza sumę algebraiczną wszystkich funkcji celu $\vect{F}$. Innymi słowy oznacza on wartość funkcji $f_c$ jak dla optymalizacji jednokryterialnej $f_c = f_{freq}+f_{disp}+f_{MAC}$. Gdyby wykonać optymalizację jednokryterialną, przy osiągnięciu dokładnie tych samych położeń cząstek byłby to jedyny wynik i oznaczałby minimum globalne. Dzięki wykonaniu optymalizacji wielokryterialnej możliwy jest wybór różnych wag dla poszczególnych kryteriów oraz ocena wybranego kompromisu wśród całego zbioru równorzędnych rozwiązań.
+
 \begin{figure}[h]
 	\centering
-	\subfloat[]{\includegraphics[trim =3 5 5 10 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_AXO.pdf}}
-	\subfloat[]{\includegraphics[trim =10 5 5 5 ,clip ,width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XY.pdf}} \\
-	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_YZ.pdf}}
-	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XZ.pdf}}
+	\subfloat[]{\includegraphics[trim =3 5 5 10 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_AXO.pdf} \label{fig: calibration_paretoa}}
+	\subfloat[]{\includegraphics[trim =10 10 5 5 ,clip ,width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XY.pdf} \label{fig: calibration_paretob}} \\
+	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_YZ.pdf} \label{fig: calibration_paretoc}}
+	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XZ.pdf} \label{fig: calibration_paretod}}
 	\captionsetup{justification=centering}
-	\caption{}
+	\caption{Ostateczny Front Pareto procesu optymalizacji w problemie kalibracji modelu numerycznego wiaduktu WK2: (a) widok przestrzenny, (b) rzut na płaszczyznę $f_{freq}f_{disp}$, (c) rzut na płaszczyznę $f_{disp}f_{MAC}$, (d) rzut na płaszczyznę $f_{freq}f_{MAC}$. Kolor wyraża wartość sumy: $f_c = f_{freq}+f_{disp}+f_{MAC}$ }
 	\label{fig: calibration_pareto}
 \end{figure}
+
+W tabeli \ref{tab:minimal_values_calibration} pokazano otrzymane w optymalizacji minimalne wartości poszczególnych funkcji celu wraz z odpowiadającymi im wartościami pozostałych funkcji. Pogrubiona liczba oznacza decydującą o wyborze zestawu, minimalną wartość danej funkcji celu wśród wszystkich obliczonych wariantów. Aby posiadać punkt odniesienia wyznaczono również wartości wszystkich funkcji celu dla modelu bazowego opisanego w punkcie \ref{sect:wk2_basic_num_model} (Zestaw 0). Najmniejszą wartość sumy uzyskano równą $f_c=5.2916$ (Zestaw 4). W porównaniu do wartości zestawów 1-3 nie odbiega on znacząco dla wszystkich funkcji celu. Wybór jakiegokolwiek z pozostałych zestawów wiązałby się ze znacznym przyrostem któregoś z pozostałych kryteriów. Widoczne jest to również na rysunkach \ref{fig: calibration_paretoa}-\ref{fig: calibration_paretob}. Z tego powodu kompromisowe rozwiązanie wydaje się być słusznym wyborem. 
+
+\begin{table}[]
+	\caption{Zestawienie minimalnych i odpowiadających funkcji celu uzyskanych w optymalizacji wielokryterialnej problemu kalibracji}
+	\centering
+	\begin{tabular}{@{}ccccc@{}}
+		
+		\toprule
+		Zestaw & \textbf{$f_{freq}$} & \textbf{$f_{disp}$} & \textbf{$f_{MAC}$} & \textbf{$f_{c}$} \\ \midrule
+		0				& 0.4075			  & 2.5891				& 5.8437			 & 8.8403			\\ \midrule
+		1               & \textbf{0.0024}     & 2.3096              & 7.6514             & 9.9634           \\ \midrule
+		2               & 0.5881              & \textbf{1.0402}     & 7.7847             & 9.4130            \\ \midrule
+		3               & 0.4388              & 2.851               & \textbf{3.5479}    & 6.8377           \\ \midrule
+		4               & 0.1075              & 1.5567              & 3.6274             & \textbf{5.2916}  \\ \bottomrule
+	\end{tabular}
+	\label{tab:minimal_values_calibration}
+\end{table}
+
+Z drugiej strony, można także ocenić możliwość popełnienia błędu przy wyznaczaniu wartości porównawczych dla poszczególnych kryteriów. Identyfikacja częstotliwości drgań własnych zazwyczaj sprawia najmniejsze trudności i ryzyko wystąpienia błędu jest również najmniejsze. Z kolei w przedmiotowym przypadku występuje istotne ryzyko wystąpienia błędu w wyznaczonych postaciach drgań własnych. Spowodowane jest to stosunkowo niewielką liczbą punktów pomiarowych i brakiem punków w wyższych partiach dźwigarów łukowych. Z kolei wyznaczone w trakcie próbnych obciążeń przemieszczenia mogą być obciążone błędem zwłaszcza w punkach, które uległy uniesieniu dla niesymetrycznego obciążenia. Dodatkowo tor umiejscowiony na obiekcie jest ułożony w łuku poziomym, który może nie przystawać idealnie do osi projektowanej, użytej w modelu. Również ustawienie pojazdów w trakcie obciążenia oraz ich masa mogą nieznacznie różnić się od modelowanego obciążenia. Wszystko to wpływa na możliwość popełnienia błędu w wyznaczonych wartościach przemieszczeń. Biorąc pod uwagę możliwe wystąpienia błędów w każdym kryterium, nieustępliwe dążenie do minimalizacji jednego z nich bez uwzględniania pozostałych, może skutkować błędnymi rezultatami. Idealne dopasowanie do błędnych danych niesie za sobą błędne rezultaty.
+
+Z tego powodu skupiono się na wynikach pośrednich, pamiętając że każdy z nich znajduje się w Froncie Pareto. Przeanalizowana wybrane punkty pod względem rozwiązań w przestrzeni zmiennych projektowych. Wyboru rezultatów nie podjęto na podstawie funkcji $f_c$, ponieważ trudno odpowiednio ocenić wpływ poszczególnych funkcji celu na sumę. Na przykład nieznacząca zmiana w $f_{MAC}$, jest co do wartości równa bardzo znacznej zmianie $f_{freq}$. Analizując rozkład Frontu Pareto wybrano zakresy, które pozwalają na wybór akceptowalnych rezultatów. Ostatecznie przyjęto następujące przedziały: $f_{freq} \in (0,0.2)$, $f_{disp} \in (0,1.8)$ i $f_{MAC} \in (0,4.5)$. Na rysunku \ref{fig: calibration_selected} pokazano wybrane punkty. Zaznaczono je kolorem czerwonym. Zielonym prostopadłościanem zakreślono przestrzeń zawierającą wszystkie wybrane punkty. W zadanym zakresie znalazły się 22 punkty Frontu Pareto. Dla wybranych punktów odczytano wartości zmiennych projektowych z zestawu Pareto. Następnie wyznaczono średnie wartości oraz odchylenie standardowe dla zmiennych projektowych wybranych punków. 
+
+\begin{figure}[h]
+	\centering
+	\subfloat[]{\includegraphics[trim =3 5 5 10 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_AXO_selected.pdf} }
+	\subfloat[]{\includegraphics[trim =10 10 5 5 ,clip ,width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XY_selected.pdf} } \\
+	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_YZ_selected.pdf}}
+	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XZ_selected.pdf} }
+	\captionsetup{justification=centering}
+	\caption{Ostateczny Front Pareto procesu optymalizacji w problemie kalibracji modelu numerycznego wiaduktu WK2: (a) widok przestrzenny, (b) rzut na płaszczyznę $f_{freq}f_{disp}$, (c) rzut na płaszczyznę $f_{disp}f_{MAC}$, (d) rzut na płaszczyznę $f_{freq}f_{MAC}$.}
+	\label{fig: calibration_selected}
+\end{figure}
+
+
 
 
 

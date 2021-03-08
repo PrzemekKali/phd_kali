@@ -572,11 +572,21 @@ Celem pracy jest określenie wpływu poszczególnych elementów konstrukcyjnych 
 \end{itemize}
 Tak zdefiniowane funkcje pozwalają uzyskać zestaw najlepszych rozwiązań (Front Pareto), będący przybliżeniem funkcji najlepszego możliwego rozwiązania pod względem dynamiki konstrukcji, w zależności od kosztu wykonania konstrukcji. Jakość rozwiązania konstrukcyjnego pod względem dynamiki przęsła określono przez maksymalne przyspieszenie występujące w pomoście pod dynamicznym obciążeniem normowym. Aspekt ekonomiczny odzwierciedla masa zużytego materiału. Dzięki procesowi optymalizacji maksymalne przyspieszenia wyznaczone przy przejazdach dynamicznych będą posiadały najmniejsze możliwe wartości przy zastosowanej objętości materiału. Do zmiany głównych elementów konstrukcyjnych użyto trzy parametry:
 \begin{itemize}
-	\item wysokość przekroju poprzecznego dźwigara łukowego,
-	\item wysokość przekroju poprzecznego dźwigara ściągu,
-	\item średnica wieszaka.
+	\item wysokość przekroju poprzecznego dźwigara łukowego: $h_1$,
+	\item wysokość przekroju poprzecznego dźwigara ściągu $h_2$,
+	\item średnica wieszaka: $d_1$.
 \end{itemize}
-które stanowią zmienne projektowe problemu optymalizacji.
+które stanowią zmienne projektowe problemu optymalizacji. Zmienne zaznaczono na przekrojach poprzecznych przedstawionych na rysunku \ref{fig:wk2_opti_cs_elements}.
+\begin{figure}[h]
+	\centering
+	\subfloat[]{\includegraphics[]{/WK2/rysunki/przekroj_elementu_luk.pdf} }
+	\subfloat[]{\includegraphics[]{/WK2/rysunki/przekroj_elementu_sciag.pdf} }
+	\subfloat[]{\includegraphics[]{/WK2/rysunki/przekroj_elementu_wieszak.pdf} }
+	\captionsetup{justification=centering}
+	\caption{Przekroje poprzeczne elementów konstrukcji wiaduktu łukowego z zaznaczonymi zmiennymi projektowymi: (a) przekrój dźwigara łukowego, (b) przekrój ściągu, (c) przekrój wieszaka.}
+	\label{fig:wk2_opti_cs_elements}
+\end{figure}
+
 Poza wymienionymi zmiennymi projektowymi analizy przeprowadzono w kilku wariantach. Warianty zróżnicowano ze względu na dwa aspekty:
 \begin{itemize}
 	\item rozmieszczenie wieszaków: 
@@ -602,7 +612,7 @@ W procesie optymalizacji uwzględniono również ograniczenia i wymagania jakie 
 \end{itemize}
 
 \subsection{Założenia do optymalizacji}
-W procesie poczyniono szereg założeń związanych z wytrzymałością materiałów, normami i warunkami wykonalności. Na rysunku pokazano przekroje poprzeczne elementów konstrukcji przęsła z zaznaczonymi zmiennymi projektowymi. Zakresy możliwych wartości zmiennych przedstawiono w tabeli.
+W procesie poczyniono szereg założeń związanych z wytrzymałością materiałów, uwarunkowaniami normowymi i ogólnymi warunkami wykonalności. Na rysunku pokazano przekroje poprzeczne elementów konstrukcji przęsła z zaznaczonymi zmiennymi projektowymi. Zakresy możliwych wartości zmiennych przedstawiono w tabeli.
 
 
 

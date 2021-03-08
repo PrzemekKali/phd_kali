@@ -531,6 +531,7 @@ W trakcie kalibracji wyznaczono funkcję celu dla 57 551 położeń cząstek. Ws
 W tabeli \ref{tab:minimal_values_calibration} pokazano otrzymane w optymalizacji minimalne wartości poszczególnych funkcji celu wraz z odpowiadającymi im wartościami pozostałych funkcji. Pogrubiona liczba oznacza decydującą o wyborze zestawu, minimalną wartość danej funkcji celu wśród wszystkich obliczonych wariantów. Aby posiadać punkt odniesienia wyznaczono również wartości wszystkich funkcji celu dla modelu bazowego opisanego w punkcie \ref{sect:wk2_basic_num_model} (Zestaw 0). Najmniejszą wartość sumy uzyskano równą $f_c=5.2916$ (Zestaw 4). W porównaniu do wartości zestawów 1-3 nie odbiega on znacząco dla wszystkich funkcji celu. Wybór jakiegokolwiek z pozostałych zestawów wiązałby się ze znacznym przyrostem któregoś z pozostałych kryteriów. Widoczne jest to również na rysunkach \ref{fig: calibration_paretoa}-\ref{fig: calibration_paretob}. Z tego powodu kompromisowe rozwiązanie wydaje się być słusznym wyborem. 
 
 \begin{table}[]
+	\small
 	\caption{Zestawienie minimalnych i odpowiadających funkcji celu uzyskanych w optymalizacji wielokryterialnej problemu kalibracji}
 	\centering
 	\begin{tabular}{@{}ccccc@{}}
@@ -563,6 +564,54 @@ Z tego powodu skupiono się na wynikach pośrednich, pamiętając że każdy z n
 
 
 
+\section{Wpływ wymiarów elementów konstrukcyjnych na odpowiedź dynamiczną przęsła}
+Celem pracy jest określenie wpływu poszczególnych elementów konstrukcyjnych na zachowanie dynamiczne przęsła. Analizę przeprowadzono na przykładzie zidentyfikowanego dynamicznie wiaduktu łukowego WK2 w ciągu Pomorskiej Kolei Metropolitalnej. Przyjęto że zmianie mogą ulegać jedynie wymiary elementów konstrukcyjnych, a nie topologia całego ustroju. Dla przedmiotowego obiektu wyszczególniono 3 główne cechy, które wynikają z wymiarów elementów i wpływają na zachowanie struktury. Są to sztywność giętna dźwigara łukowego, sztywność giętna ściągu, a także sztywność podłużna wieszaków. Uwzględniając złożoność rzeczywistej konstrukcji połączoną z szeregiem wymagań stawianych przez zapisy normowe rozwiązanie analityczne problemu wydaje się być karkołomnym zadaniem. Postanowiono wyznaczyć wpływ poszczególnych elementów w procesie optymalizacji wielokryterialnej. Zdefiniowano dwie funkcje celu:
+\begin{itemize}
+	\item masę konstrukcji stalowej, w przybliżeniu tożsamą z kosztem wykonania konstrukcji,
+	\item maksymalne przyspieszenia pomostu pod normowym obciążeniem dynamicznym.
+\end{itemize}
+Tak zdefiniowane funkcje pozwalają uzyskać zestaw najlepszych rozwiązań (Front Pareto), będący przybliżeniem funkcji najlepszego możliwego rozwiązania pod względem dynamiki konstrukcji, w zależności od kosztu wykonania konstrukcji. Jakość rozwiązania konstrukcyjnego pod względem dynamiki przęsła określono przez maksymalne przyspieszenie występujące w pomoście pod dynamicznym obciążeniem normowym. Aspekt ekonomiczny odzwierciedla masa zużytego materiału. Dzięki procesowi optymalizacji maksymalne przyspieszenia wyznaczone przy przejazdach dynamicznych będą posiadały najmniejsze możliwe wartości przy zastosowanej objętości materiału. Do zmiany głównych elementów konstrukcyjnych użyto trzy parametry:
+\begin{itemize}
+	\item wysokość przekroju poprzecznego dźwigara łukowego,
+	\item wysokość przekroju poprzecznego dźwigara ściągu,
+	\item średnica wieszaka.
+\end{itemize}
+które stanowią zmienne projektowe problemu optymalizacji.
+Poza wymienionymi zmiennymi projektowymi analizy przeprowadzono w kilku wariantach. Warianty zróżnicowano ze względu na dwa aspekty:
+\begin{itemize}
+	\item rozmieszczenie wieszaków: 
+	\begin{itemize}
+		\item wieszaki proste,
+		\item wieszaki ukośne (system Nielsena), 
+		\item wieszaki w układzie siatki (Network),
+	\end{itemize}
+	\item maksymalna dozwolona prędkość taboru pasażerskiego:
+	\begin{itemize}
+		\item do 160 km/h, 
+		\item do 200 km/h,
+		\item do 300 km/h.
+	\end{itemize} 
+\end{itemize}
+
+Dla każdej kombinacji rozmieszczenia wieszaków i prędkości (9 wariantów) przeprowadzono oddzielną optymalizację. Istnieje ryzyko, że jeden z wariantów może dominować nad innymi pod względem odporności dynamicznej  i przysłoni interesujące rezultaty. W rzeczywistych konstrukcjach stosowane są wszystkie trzy warianty rozkładu wieszaków i istnieje zapotrzebowanie na różne maksymalne dozwolone prędkości taboru. Z tego względu informacja na temat wpływu elementów konstrukcyjnych dla każdego z wariantów jest pożądana i przeanalizowana oddzielnie.
+
+W procesie optymalizacji uwzględniono również ograniczenia i wymagania jakie musi spełnić rozwiązanie, aby zostało uznane jako poprawne. Bazując na obowiązujących przepisach są to przede wszystkim:
+\begin{itemize}
+	\item normowe ograniczenie maksymalnych naprężeń w dźwigarze łukowym, w ściągu i w wieszakach pod obciążeniem statycznym,
+	\item normowe ograniczenie maksymalnych ugięć statycznych przęsła.
+\end{itemize}
+
+\subsection{Założenia do optymalizacji}
+W procesie poczyniono szereg założeń związanych z obowiązującymi normami i warunkami wykonalności. Na rysunku pokazano przekroje poprzeczne elementów konstrukcji przęsła z zaznaczonymi zmiennymi projektowymi. Zakresy możliwych wartości zmiennych przedstawiono w tabeli.
+
+
+
+
+\subsection{Algorytm rozwiązania problemu}
+Optymalizację przeprowadzono ponownie za pomocą algorytmu MOPSO. Ze względu na uniwersalność algorytmów metaheurystycznych w wielu aspektach, algorytm ten jest zbliżony do zastosowanego w procesie kalibracji. Wyróżniono następujące główne kroki wykonywane dla każdego nowego położenia cząstki:
+\begin{enumerate}
+	\item Generacja modelu o wymiarach przekrojów zgodnych ze zmiennymi projektowymi.
+\end{enumerate}
 
 
 
@@ -570,7 +619,22 @@ Z tego powodu skupiono się na wynikach pośrednich, pamiętając że każdy z n
 
 
 
-\section{Wielokryterialna optymalizacja modelu: opis + wyniki}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \begin{figure}[h]
 	\centering

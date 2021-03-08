@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.20)  8 MAR 2021 22:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.20)  8 MAR 2021 22:48
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -1167,11 +1167,7 @@ File: l3backend-pdftex.def 2021-02-06 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count452
 \l__pdf_internal_box=\box72
 ) (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
-(chap_oma.aux) (chap_pso.aux) (wk2_research.aux
-
-LaTeX Warning: Label `fig: calibration_selected' multiply defined.
-
-))
+(chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
 \openout1 = `whole_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -4562,48 +4558,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 fig_all_paricles_YZ_selected.pdf> <./figures///WK2/kalibracja/fig_all_paricles_
 XZ_selected.pdf>]
 
-LaTeX Warning: Reference `fig:wk2_opti_cs_elements' on page 109 undefined on in
-put line 579.
-
-
-
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_elementu_lu
 k.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
 ed
-<./figures///WK2/rysunki/przekroj_elementu_luk.pdf, id=4802, 96.57982pt x 130.0
-87pt>
+<./figures///WK2/rysunki/przekroj_elementu_luk.pdf, id=4802, 90.03035pt x 132.2
+3102pt>
 File: ./figures///WK2/rysunki/przekroj_elementu_luk.pdf Graphic file (type pdf)
 
 <use ./figures///WK2/rysunki/przekroj_elementu_luk.pdf>
 Package pdftex.def Info: ./figures///WK2/rysunki/przekroj_elementu_luk.pdf  use
 d on input line 582.
-(pdftex.def)             Requested size: 96.57956pt x 130.08667pt.
+(pdftex.def)             Requested size: 90.03012pt x 132.23068pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_elementu_sc
 iag.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
 owed
-<./figures///WK2/rysunki/przekroj_elementu_sciag.pdf, id=4803, 95.7447pt x 201.
-51186pt>
+<./figures///WK2/rysunki/przekroj_elementu_sciag.pdf, id=4803, 91.26094pt x 190
+.43446pt>
 File: ./figures///WK2/rysunki/przekroj_elementu_sciag.pdf Graphic file (type pd
 f)
 <use ./figures///WK2/rysunki/przekroj_elementu_sciag.pdf>
 Package pdftex.def Info: ./figures///WK2/rysunki/przekroj_elementu_sciag.pdf  u
 sed on input line 583.
-(pdftex.def)             Requested size: 95.74446pt x 201.51135pt.
+(pdftex.def)             Requested size: 91.26071pt x 190.43399pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_elementu_wi
 eszak.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> a
 llowed
-<./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf, id=4804, 69.64218pt x 7
-2.92746pt>
+<./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf, id=4804, 67.52327pt x 8
+3.34839pt>
 File: ./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf Graphic file (type 
 pdf)
 <use ./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf>
 Package pdftex.def Info: ./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf 
  used on input line 584.
-(pdftex.def)             Requested size: 69.642pt x 72.92726pt.
+(pdftex.def)             Requested size: 67.52309pt x 83.34818pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.1167pt, for example:
@@ -4830,9 +4821,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
@@ -4840,7 +4828,7 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 Here is how much of TeX's memory you used:
  37929 strings out of 479616
  926681 string characters out of 2865001
- 1665090 words of memory out of 3000000
+ 1665064 words of memory out of 3000000
  54188 multiletter control sequences out of 15000+200000
  458048 words of font info for 182 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4896,7 +4884,7 @@ c/cm-super/sfrm0600.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/cm-super/sfrm0800.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/cm-super/sfrm1200.pfb><C:/Users/przem/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on whole_thesis.pdf (122 pages, 54924231 bytes).
+Output written on whole_thesis.pdf (122 pages, 54922468 bytes).
 PDF statistics:
  5087 PDF objects out of 5155 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

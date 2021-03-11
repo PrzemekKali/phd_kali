@@ -610,9 +610,37 @@ W procesie optymalizacji uwzględniono również ograniczenia i wymagania jakie 
 	\item normowe ograniczenie maksymalnych naprężeń w dźwigarze łukowym, w ściągu i w wieszakach pod obciążeniem statycznym,
 	\item normowe ograniczenie maksymalnych ugięć statycznych przęsła.
 \end{itemize}
+\subsection{Model uproszczony do analizy dynamicznej}
+Model numeryczny wiaduktu przedstawiony w punkcie \ref{sect:wk2_basic_num_model} jest przestrzennym modelem o relatywnie rozbudowanej strukturze. W przedstawionej wersji siatki elementów skończonych składa się z 5395 węzłów. Wykorzystanie rozbudowanych modeli MES w analizie dynamicznej jest wymagające czasowo. W przypadku optymalizacji analizy dynamiczne muszą być przeprowadzone wielokrotnie. Przy wykorzystaniu złożonego modelu numerycznego byłoby to niezwykle trudne lub wręcz niemożliwe zadanie \parencite{Zotowski2017c}. W takim przypadku należy zadać sobie pytanie czy jest możliwa redukcja modelu bez utraty pożądanych wyników i dokładności obliczeń. Z punktu widzenia dynamiki przęsła kolejowego, obciążonego głównie siłami pionowymi najistotniejszą rolę pełni sprawdzenie drgań pionowych. Model płaski jest w stanie odwzorować kluczowe pionowe postaci drgań własnych obiektu, a jednocześnie jest znacznie mniej rozbudowany. Z powyższych względów postanowiono zredukować skalibrowany model przestrzenny belkowo-powłokowy do modelu wyłącznie belkowego zdefiniowanego na płaszczyźnie. Obiekt WK2 jest niemal symetryczny konstrukcyjnie, ale posiada cechy, które teoretycznie nie pozwalają na uwzględnienie symetrii w redukcji modelu. Pierwszym powodem jest to, że oś toru usytuowana jest w łuku poziomym co sprawia, że obciążenie ruchome i obciążenie tłuczniem nie posiada osi symetrii zgodnej z osią obiektu. Drugim elementem są warunki brzegowe, ponieważ zgodnie z klasycznymi zasadami łożyskowania obiekt tego typu posiada jedno łożysko stałe. Drugi z czynników może być bez konsekwencji pominięty, ponieważ podparcie wzdłuż osi obiektu i w osi pionowej jest identyczne dla obu dźwigarów łukowych. Z kolei różnica w poprzecznych warunkach brzegowych nie ma istotnego znaczenia na globalną pracę przęsła w kierunku pionowym. Z kolei brak symetrii w osi toru nie byłby pomijalny jeśli analiza dotyczyłaby wyłącznie poszukiwania odpowiedzi obiektu WK2 w obecnej formie. Niemniej jednak celem pracy nie jest przetestowanie jednostkowego przypadku, a raczej całej klasy mostów. Z tego powodu uogólniono problem do znacznie cześciej spotykanych obiektów z prostą osią toru, umiejscowioną symetrycznie na obiekcie. Takie założenie wyeliminuje przeszkodę asymetrii obciążenia przy uproszczeniu modelu numerycznego. Pozwoli również odrzucić potencjalne nieporządne komplikacje w interpretacji wyników obliczeń, obarczonych nieokreślonym wpływem asymetrii rozkładu masy i obciążenia.
+Uproszczony model pokazano na rysunku
+\begin{figure}[h]
+	\centering
+	\subfloat[]{\includegraphics[ width=0.8\linewidth]{/WK2/model_upr/plaski_ogolny_wiz.jpg} } \\
+	\subfloat[]{\includegraphics[width=0.8\linewidth]{/WK2/model_upr/plaski_ogolny_static.jpg} }
+	\captionsetup{justification=centering}
+	\caption{Uproszczony model wiaduktu WK2: (a) wizualizacja modelu, (b) schemat statyczny modelu}
+	\label{fig:wk2_model_plaski}
+\end{figure}
 
 \subsection{Założenia do optymalizacji}
-W procesie poczyniono szereg założeń związanych z wytrzymałością materiałów, uwarunkowaniami normowymi i ogólnymi warunkami wykonalności. Zakresy możliwych wartości zmiennych (Rys. \ref{fig:wk2_opti_cs_elements}) przedstawiono w tabeli.
+W procesie poczyniono szereg założeń związanych z wytrzymałością materiałów, uwarunkowaniami normowymi i ogólnymi warunkami wykonalności. Zakresy możliwych wartości zmiennych projektowych (Rys. \ref{fig:wk2_opti_cs_elements}) przedstawiono w tabeli \ref{tab:wk2_project_variables_opti}. 
+
+\begin{table}[hb]
+	\caption{Zakresy zmiennych projektowych zastosowane w optymalizacji}
+	\centering
+	\footnotesize
+	\begin{tabular}{@{}lccc@{}}
+		\toprule
+		\textbf{Element}                                                                  & Łuk  & Ściąg  & Wieszak \\ \midrule
+		\textbf{Zmienna}                                                                  & $h_1$         & $h_2$           & $d_1$         \\ \midrule
+		\textbf{\begin{tabular}[c]{@{}l@{}}Zakres   dopuszczalny\\ {[}mm{]}\end{tabular}} & $150 - 2 500$ & $1 000 - 4 500$ & $10 - 200$       \\ \bottomrule
+	\end{tabular}
+	\label{tab:wk2_project_variables_opti}
+\end{table}
+
+W trakcie optymalizacji, dla każdego rozwiązania sprawdzone zostały warunki Stanu Granicznego Nośności wg PN-EN 1990 i PN-EN 1991-2. Do modelu wiaduktu przyłożono obciążenia stałe od ciężaru własnego konstrukcji i wyposażenia oraz ruchome w postaci Modelu Obciążenia 71. Współczynnik klasy obciążenia ustalono jako $\alpha=1.21$, a współczynnik przewyższenia dynamicznego (WPD) równy $\phi =  1.072$. Obliczając WPD przyjęto przypadek starannie utrzymywanego toru i długość teoretyczną dla obiektu łukowego jako $L_t=0.5L =35\,\text{m}$. W analizie statycznej i kombinacyjnej wyznaczono obwiednie obliczeniowych wartości sił normalnych i momentów zginających. Następnie dla poszczególnych elementów konstrukcyjnych (łuku, ściągu i wieszaków) obliczono maksymalne naprężenia zredukowane H-M-H. Konstrukcję wiaduktu WK2 wykonano ze stali S355, a wieszaki prętowe ze stali S460. Wyznaczono maksymalne wartości naprężeń obliczeniowych. Dla stali S355 przyjęto $\sigma_{355}^d=355/1.25=284\,\text{MPa}$, a dla stali S460 $\sigma_{460}^d=460/1.25=368\,\text{MPa}$.
+
+Sprawdzono również częściowo Stan Graniczny Użytkowania przez wyznaczenie maksymalnego przemieszczenia przęsła od obciążeń ruchomych o wartościach charakterystycznych. Wartość graniczną przyjęto zgodnie z zaleceniem jako $L/600=70000/600=116\,\text{mm}$.
 
 
 

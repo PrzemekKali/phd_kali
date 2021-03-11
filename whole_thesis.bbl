@@ -4130,6 +4130,25 @@
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2020{\_}Piotrowski, Napiorkowski, Piotrowska{\_}Population size in particle swarm optimization.pdf:pdf
       \endverb
     \endentry
+    \entry{PKNc}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=13b0af556352fc855a00d70a08de29a2}{%
+           family={PKN},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{13b0af556352fc855a00d70a08de29a2}
+      \strng{fullhash}{13b0af556352fc855a00d70a08de29a2}
+      \strng{bibnamehash}{13b0af556352fc855a00d70a08de29a2}
+      \strng{authorbibnamehash}{13b0af556352fc855a00d70a08de29a2}
+      \strng{authornamehash}{13b0af556352fc855a00d70a08de29a2}
+      \strng{authorfullhash}{13b0af556352fc855a00d70a08de29a2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{PN-EN 1990 Podstawy projektowani konstrukcji}}
+    \endentry
     \entry{Poli2007}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1747e08170a0c426ada009eaa77aac9e}{%
@@ -4890,30 +4909,6 @@
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/1998{\_}Shi, Eberhart{\_}A modified particle swarm optimizer.pdf:pdf
       \endverb
     \endentry
-    \entry{SOFISTIK2018}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=82691304c1c0d85994018d3bb316ee29}{%
-           family={SOFISTIK},
-           familyi={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {SOFiSTiK AG, Oberschleissheim, Germany.}%
-      }
-      \strng{namehash}{82691304c1c0d85994018d3bb316ee29}
-      \strng{fullhash}{82691304c1c0d85994018d3bb316ee29}
-      \strng{bibnamehash}{82691304c1c0d85994018d3bb316ee29}
-      \strng{authorbibnamehash}{82691304c1c0d85994018d3bb316ee29}
-      \strng{authornamehash}{82691304c1c0d85994018d3bb316ee29}
-      \strng{authorfullhash}{82691304c1c0d85994018d3bb316ee29}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{CDB Interfaces SOFiSTiK Interface for VBA, Visual Basic .NET, C{\#}, C++, Python, Fortran and CADiNP; CDB Interfaces Manual, Version 2018-15.1 Software Version SOFiSTiK 2018}}
-      \field{year}{2018}
-    \endentry
     \entry{AG2018}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fefce3f2a4d5d921f5a372595f9bd91a}{%
@@ -4929,13 +4924,41 @@
       \strng{authorbibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
       \strng{authornamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
       \strng{authorfullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{ASE General Static Analysis of Finite Element Structures; ASE Manual, Version 2018-8 Software Version SOFiSTiK 2018}}
+      \field{year}{2018}
+    \endentry
+    \entry{SOFISTIK2018}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fefce3f2a4d5d921f5a372595f9bd91a}{%
+           family={SOFiSTiK},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SOFiSTiK AG, Oberschleissheim, Germany.}%
+      }
+      \strng{namehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{fullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{bibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authorbibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authornamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authorfullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{CDB Interfaces SOFiSTiK Interface for VBA, Visual Basic .NET, C{\#}, C++, Python, Fortran and CADiNP; CDB Interfaces Manual, Version 2018-15.1 Software Version SOFiSTiK 2018}}
       \field{year}{2018}
     \endentry
     \entry{Stacey2003}{inproceedings}{}

@@ -631,11 +631,19 @@ Uproszczony model pokazano na rysunku \ref{fig:wk2_model_plaski}.
 
 
 
-Model przestrzenny sprowadzono do płaszczyzny przyjmując niezmieniony dźwigar łukowy i rozbudowany ściąg. Przekrój poprzeczny elementów belkowych budujących ściąg rozszerzono o połowę pomostu ortotropowego (Rys. \ref{fig:wk2_model_plaski_c}). Modyfikatory sztywności i ciężaru elementów modelu płaskiego oraz mas wyposażenia przyjęto jak w modelu przestrzennym po kalibracji. Postaci i częstotliwości drgań własnych pokazano na rysunku \ref{}. W tabeli \ref{tab:wk2_simp_comparison} porównano zidentyfikowane charakterystyki modalne konstrukcji rzeczywistej i odczytane z modelu. Porównano również ugięcia pod statycznym obciążeniem próbnym. Dla porównania częstotliwości zidentyfikowanych modów giętnych pionowych (1 i 3) zostały uśrednione. Podobnie ugięcia z próbnego obciążenia zostały uśrednione w poprzek wiaduktu.
+Model przestrzenny sprowadzono do płaszczyzny przyjmując niezmieniony dźwigar łukowy i rozbudowany ściąg. Przekrój poprzeczny elementów belkowych budujących ściąg rozszerzono o połowę pomostu ortotropowego (Rys. \ref{fig:wk2_model_plaski_c}). Modyfikatory sztywności i ciężaru elementów modelu płaskiego oraz mas wyposażenia przyjęto jak w modelu przestrzennym po kalibracji. Postaci i częstotliwości drgań własnych pokazano na rysunku \ref{fig:wk2_upr_mods}. W tabeli \ref{tab:wk2_simp_comparison} porównano zidentyfikowane charakterystyki modalne konstrukcji rzeczywistej i odczytane z modelu. Porównano również ugięcia pod statycznym obciążeniem próbnym. Dla porównania częstotliwości zidentyfikowanych modów giętnych pionowych (1 i 3) zostały uśrednione. Podobnie ugięcia z próbnego obciążenia zostały uśrednione w poprzek wiaduktu.
 Przedstawione w tabeli zgodności są zadowalające i model został użyty w dalszych analizach.
+\begin{figure}[h]
+	\centering
+	\subfloat[$f_1=2.49\,\text{Hz}$]{\includegraphics[width=0.8\textwidth]{/WK2/model_upr/plaski_ogolny_mod_1.jpg} }\\
+	\subfloat[$f_2=3.43\,\text{Hz}$]{\includegraphics[width=0.8\textwidth]{/WK2/model_upr/plaski_ogolny_mod_2.jpg} }\\
+	\subfloat[$f_3=5.54\,\text{Hz}$]{\includegraphics[width=0.8\textwidth]{/WK2/model_upr/plaski_ogolny_mod_3.jpg} }
+	\captionsetup{justification=centering}
+	\caption{Postaci drgań własnych uproszczonego modelu 2D: (a) mod 1, (b) mod 2, (c) mod 3}
+	\label{fig:wk2_upr_mods}
+\end{figure}
 
 \begin{table}[h]
-	
 	\centering
 	\caption{Porównanie częstotliwości drgań własnych i ugięć uproszczonego modelu 2D i konstrukcji rzeczywistej}
 	\footnotesize
@@ -649,6 +657,9 @@ Przedstawione w tabeli zgodności są zadowalające i model został użyty w dal
 	\end{tabular}
 	\label{tab:wk2_simp_comparison}
 \end{table}
+
+Model stworzono w trzech wariantach różniących się rozmieszczeniem wieszaków. Przyjęte układy podwieszenia pomostu do łuku pokazano na rysunku \ref{}.
+
 
 \subsection{Założenia do optymalizacji}
 W procesie poczyniono szereg założeń związanych z wytrzymałością materiałów, uwarunkowaniami normowymi i ogólnymi warunkami wykonalności. Zakresy możliwych wartości zmiennych projektowych (Rys. \ref{fig:wk2_opti_cs_elements}) przedstawiono w tabeli \ref{tab:wk2_project_variables_opti}. 
@@ -669,6 +680,9 @@ W procesie poczyniono szereg założeń związanych z wytrzymałością materia�
 W trakcie optymalizacji, dla każdego rozwiązania sprawdzone zostały warunki Stanu Granicznego Nośności wg PN-EN 1990 i PN-EN 1991-2. Do modelu wiaduktu przyłożono obciążenia stałe od ciężaru własnego konstrukcji i wyposażenia oraz ruchome w postaci Modelu Obciążenia 71. Współczynnik klasy obciążenia ustalono jako $\alpha=1.21$, a współczynnik przewyższenia dynamicznego (WPD) równy $\phi =  1.072$. Obliczając WPD przyjęto przypadek starannie utrzymywanego toru i długość teoretyczną dla obiektu łukowego jako $L_t=0.5L =35\,\text{m}$. W analizie statycznej i kombinacyjnej wyznaczono obwiednie obliczeniowych wartości sił normalnych i momentów zginających. Następnie dla poszczególnych elementów konstrukcyjnych (łuku, ściągu i wieszaków) obliczono maksymalne naprężenia zredukowane H-M-H. Konstrukcję wiaduktu WK2 wykonano ze stali S355, a wieszaki prętowe ze stali S460. Wyznaczono maksymalne wartości naprężeń obliczeniowych. Dla stali S355 przyjęto $\sigma_{355}^d=355/1.25=284\,\text{MPa}$, a dla stali S460 $\sigma_{460}^d=460/1.25=368\,\text{MPa}$.
 
 Sprawdzono również częściowo Stan Graniczny Użytkowania przez wyznaczenie maksymalnego przemieszczenia przęsła od obciążeń ruchomych o wartościach charakterystycznych. Wartość graniczną przyjęto zgodnie z zaleceniem jako $L/600=70000/600=116\,\text{mm}$.
+
+Analizę dynamiczną przeprowadzano w module DYNA środowiska MES SOFiSTiK. Wykorzystano metodę bezpośredniego całkowania równań ruchu. Zgodnie z zaleceniami (CYTOWANIE) należy uwzględnić odpowiedź dynamiczną w zakresie częstotliwości do 30Hz. Aby zapewnić poprawne odwzorowanie przyspieszeń i częstotliwości w zadanym zakresie przyjęto krok czasowy równy $\Delta t = 0.005\,s$ (200 Hz).
+Analizę dynamiczną przeprowadzono dla wszystkich modeli obciążeń koleją dużej prędkości HSLM-A wg PN-EN 1991. Prędkości pojazdów dobrano na podstawie 
 
 
 

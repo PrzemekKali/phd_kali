@@ -565,10 +565,10 @@ Z tego powodu skupiono się na wynikach pośrednich, pamiętając że każdy z n
 
 
 \section{Wpływ wymiarów elementów konstrukcyjnych na odpowiedź dynamiczną przęsła}
-Celem pracy jest określenie wpływu poszczególnych elementów konstrukcyjnych na zachowanie dynamiczne przęsła. Analizę przeprowadzono na przykładzie zidentyfikowanego dynamicznie wiaduktu łukowego WK2 w ciągu Pomorskiej Kolei Metropolitalnej. Przyjęto że zmianie mogą ulegać jedynie wymiary elementów konstrukcyjnych, a nie topologia całego ustroju. Dla przedmiotowego obiektu wyszczególniono 3 główne cechy, które wynikają z wymiarów elementów i wpływają na zachowanie struktury. Są to sztywność giętna dźwigara łukowego, sztywność giętna ściągu, a także sztywność podłużna wieszaków. Uwzględniając złożoność rzeczywistej konstrukcji połączoną z szeregiem wymagań stawianych przez zapisy normowe rozwiązanie analityczne problemu wydaje się być karkołomnym zadaniem. Postanowiono wyznaczyć wpływ poszczególnych elementów w procesie optymalizacji wielokryterialnej. Zdefiniowano dwie funkcje celu:
+Celem pracy jest określenie wpływu poszczególnych elementów konstrukcyjnych na zachowanie dynamiczne przęsła. Analizę przeprowadzono na przykładzie zidentyfikowanego dynamicznie wiaduktu łukowego WK2 w ciągu Pomorskiej Kolei Metropolitalnej. Przyjęto że zmianie mogą ulegać jedynie wymiary elementów konstrukcyjnych, a nie topologia całego ustroju. Dla przedmiotowego obiektu wyszczególniono 3 główne cechy, które wynikają z wymiarów elementów i wpływają na zachowanie struktury. Są to sztywność giętna dźwigara łukowego, sztywność giętna ściągu, a także sztywność podłużna wieszaków. Uwzględniając złożoność rzeczywistej konstrukcji połączoną z szeregiem wymagań stawianych przez zapisy normowe rozwiązanie analityczne problemu wydaje się być karkołomnym zadaniem. Postanowiono wyznaczyć wpływ poszczególnych elementów w procesie optymalizacji wielokryterialnej. Zdefiniowano dwie funkcje celu zestawione w wektor $\vect{F}$:
 \begin{itemize}
-	\item masę konstrukcji stalowej, w przybliżeniu tożsamą z kosztem wykonania konstrukcji,
-	\item maksymalne przyspieszenia pomostu pod normowym obciążeniem dynamicznym.
+	\item $f_s$ - masę konstrukcji stalowej, w przybliżeniu tożsamą z kosztem wykonania konstrukcji,
+	\item $f_a$ - maksymalne przyspieszenia pomostu pod normowym obciążeniem dynamicznym.
 \end{itemize}
 Tak zdefiniowane funkcje pozwalają uzyskać zestaw najlepszych rozwiązań (Front Pareto), będący przybliżeniem funkcji najlepszego możliwego rozwiązania pod względem dynamiki konstrukcji, w zależności od kosztu wykonania konstrukcji. Jakość rozwiązania konstrukcyjnego pod względem dynamiki przęsła określono przez maksymalne przyspieszenie występujące w pomoście pod dynamicznym obciążeniem normowym. Aspekt ekonomiczny odzwierciedla masa zużytego materiału. Dzięki procesowi optymalizacji maksymalne przyspieszenia wyznaczone przy przejazdach dynamicznych będą posiadały najmniejsze możliwe wartości przy zastosowanej objętości materiału. Do zmiany głównych elementów konstrukcyjnych użyto trzy parametry:
 \begin{itemize}
@@ -576,7 +576,7 @@ Tak zdefiniowane funkcje pozwalają uzyskać zestaw najlepszych rozwiązań (Fro
 	\item wysokość przekroju poprzecznego dźwigara ściągu $h_2$,
 	\item średnica wieszaka: $d_1$.
 \end{itemize}
-które stanowią zmienne projektowe problemu optymalizacji. Zmienne zaznaczono na przekrojach poprzecznych przedstawionych na rysunku \ref{fig:wk2_opti_cs_elements}.
+które stanowią zmienne projektowe problemu optymalizacji $\vect{X}$. Zmienne zaznaczono na przekrojach poprzecznych przedstawionych na rysunku \ref{fig:wk2_opti_cs_elements}.
 \begin{figure}[h]
 	\centering
 	\subfloat[]{\includegraphics[]{/WK2/rysunki/przekroj_elementu_luk.pdf} } \quad
@@ -605,13 +605,13 @@ Poza wymienionymi zmiennymi projektowymi analizy przeprowadzono w kilku warianta
 
 Dla każdej kombinacji rozmieszczenia wieszaków i prędkości (9 wariantów) przeprowadzono oddzielną optymalizację. Istnieje ryzyko, że jeden z wariantów może dominować nad innymi pod względem odporności dynamicznej  i przysłoni interesujące rezultaty. W rzeczywistych konstrukcjach stosowane są wszystkie trzy warianty rozkładu wieszaków i istnieje zapotrzebowanie na różne maksymalne dozwolone prędkości taboru. Z tego względu informacja na temat wpływu elementów konstrukcyjnych dla każdego z wariantów jest pożądana i przeanalizowana oddzielnie.
 
-W procesie optymalizacji uwzględniono również ograniczenia i wymagania jakie musi spełnić rozwiązanie, aby zostało uznane jako poprawne. Bazując na obowiązujących przepisach są to przede wszystkim:
+W procesie optymalizacji uwzględniono również ograniczenia i wymagania jakie musi spełnić rozwiązanie, aby zostało uznane jako poprawne. Sprawdzane wartości zestawiono w wektorze $\vect{C}$. Bazując na obowiązujących przepisach wyznaczono dla każdego przypadku:
 \begin{itemize}
-	\item normowe ograniczenie maksymalnych naprężeń w dźwigarze łukowym, w ściągu i w wieszakach pod obciążeniem statycznym,
-	\item normowe ograniczenie maksymalnych ugięć statycznych przęsła.
+	\item normowe, maksymalne, obliczeniowe naprężenia w dźwigarze łukowym $c_{sa}$, w ściągu $c_{sg}$ i w wieszakach $c_{sh}$ pod obciążeniem statycznym,
+	\item normowe maksymalnych ugięcia statyczne przęsła $c_{d}$.
 \end{itemize}
 \subsection{Model uproszczony do analizy dynamicznej}
-Model numeryczny wiaduktu przedstawiony w punkcie \ref{sect:wk2_basic_num_model} jest przestrzennym modelem o relatywnie rozbudowanej strukturze. W przedstawionej wersji siatki elementów skończonych składa się z 5395 węzłów. Wykorzystanie rozbudowanych modeli MES w analizie dynamicznej jest wymagające czasowo. W przypadku optymalizacji analizy dynamiczne muszą być przeprowadzone wielokrotnie. Przy wykorzystaniu złożonego modelu numerycznego byłoby to niezwykle trudne lub wręcz niemożliwe zadanie \parencite{Zotowski2017c}. W takim przypadku należy zadać sobie pytanie czy jest możliwa redukcja modelu bez utraty pożądanych wyników i dokładności obliczeń. Z punktu widzenia dynamiki przęsła kolejowego, obciążonego głównie siłami pionowymi najistotniejszą rolę pełni sprawdzenie drgań pionowych. Model płaski jest w stanie odwzorować kluczowe pionowe postaci drgań własnych obiektu, a jednocześnie jest znacznie mniej rozbudowany. Z powyższych względów postanowiono zredukować skalibrowany model przestrzenny belkowo-powłokowy do modelu wyłącznie belkowego zdefiniowanego na płaszczyźnie. Obiekt WK2 jest niemal symetryczny konstrukcyjnie, ale posiada cechy, które teoretycznie nie pozwalają na uwzględnienie symetrii w redukcji modelu. Pierwszym powodem jest to, że oś toru usytuowana jest w łuku poziomym co sprawia, że obciążenie ruchome i obciążenie tłuczniem nie posiada osi symetrii zgodnej z osią obiektu. Drugim elementem są warunki brzegowe, ponieważ zgodnie z klasycznymi zasadami łożyskowania obiekt tego typu posiada jedno łożysko stałe. Drugi z czynników może być bez konsekwencji pominięty, ponieważ podparcie wzdłuż osi obiektu i w osi pionowej jest identyczne dla obu dźwigarów łukowych. Z kolei różnica w poprzecznych warunkach brzegowych nie ma istotnego znaczenia na globalną pracę przęsła w kierunku pionowym. Z kolei brak symetrii w osi toru nie byłby pomijalny jeśli analiza dotyczyłaby wyłącznie poszukiwania odpowiedzi obiektu WK2 w obecnej formie. Niemniej jednak celem pracy nie jest przetestowanie jednostkowego przypadku, a raczej całej klasy mostów. Z tego powodu uogólniono problem do znacznie częściej spotykanych obiektów z prostą osią toru, umiejscowioną symetrycznie na obiekcie. Takie założenie eliminuje przeszkodę asymetrii obciążenia przy uproszczeniu modelu numerycznego. Pozwala również odrzucić potencjalne nieporządne komplikacje w interpretacji wyników obliczeń, obarczonych nieokreślonym wpływem asymetrii rozkładu masy i obciążenia.
+Model numeryczny wiaduktu przedstawiony w punkcie \ref{sect:wk2_basic_num_model} jest przestrzennym modelem o relatywnie rozbudowanej strukturze. W przedstawionej wersji siatki elementów skończonych składa się z 4602 węzłów, 3468 elementów belkowych, 3404 elementów powłokowych i 24 elementów kratowych. Wykorzystanie złożonych modeli MES w analizie dynamicznej jest wymagające czasowo. W przypadku optymalizacji analizy dynamiczne muszą być przeprowadzone wielokrotnie. Przy wykorzystaniu złożonego modelu numerycznego byłoby to niezwykle trudne lub wręcz niemożliwe zadanie \parencite{Zotowski2017c}. W takim przypadku należy zadać sobie pytanie czy jest możliwa redukcja modelu bez utraty potrzebnych rezultatów i obniżenia ich dokładności. Z punktu widzenia dynamiki przęsła kolejowego, obciążonego głównie siłami pionowymi najistotniejszą rolę pełni sprawdzenie drgań pionowych. Model płaski jest w stanie odwzorować kluczowe pionowe postaci drgań własnych obiektu, a jednocześnie jest znacznie mniej rozbudowany. Z powyższych względów postanowiono zredukować skalibrowany model przestrzenny belkowo-powłokowy do modelu wyłącznie belkowego zdefiniowanego na płaszczyźnie. Obiekt WK2 jest niemal symetryczny konstrukcyjnie, ale posiada cechy, które teoretycznie nie pozwalają na uwzględnienie symetrii w redukcji modelu. Pierwszym powodem jest to, że oś toru usytuowana jest w łuku poziomym co sprawia, że obciążenie ruchome i obciążenie tłuczniem nie posiada osi symetrii zgodnej z osią obiektu. Drugim elementem są warunki brzegowe, ponieważ zgodnie z klasycznymi zasadami łożyskowania obiekt tego typu posiada jedno łożysko stałe. Drugi z czynników może być bez konsekwencji pominięty, ponieważ podparcie wzdłuż osi obiektu i w osi pionowej jest identyczne dla obu dźwigarów łukowych. Różnica w poprzecznych warunkach brzegowych nie ma istotnego znaczenia na globalną pracę przęsła w kierunku pionowym. Kolejny z czynników - brak symetrii osi toru - nie byłby pomijalny jeśli analiza dotyczyłaby wyłącznie poszukiwania odpowiedzi obiektu WK2 w obecnej formie. Niemniej jednak celem pracy nie jest przetestowanie jednostkowego przypadku, a raczej całej klasy mostów. Z tego powodu uogólniono problem do znacznie częściej spotykanych obiektów z prostą osią toru, umiejscowioną symetrycznie na obiekcie. Takie założenie eliminuje przeszkodę asymetrii obciążenia przy uproszczeniu modelu numerycznego. Pozwala również odrzucić potencjalne nieporządne komplikacje w interpretacji wyników obliczeń, obarczonych nieokreślonym wpływem asymetrii rozkładu masy i obciążenia.
 Uproszczony model pokazano na rysunku \ref{fig:wk2_model_plaski}.
 
 
@@ -631,18 +631,8 @@ Uproszczony model pokazano na rysunku \ref{fig:wk2_model_plaski}.
 
 
 
-Model przestrzenny sprowadzono do płaszczyzny przyjmując niezmieniony dźwigar łukowy i rozbudowany ściąg. Przekrój poprzeczny elementów belkowych budujących ściąg rozszerzono o połowę pomostu ortotropowego (Rys. \ref{fig:wk2_model_plaski_c}). Modyfikatory sztywności i ciężaru elementów modelu płaskiego oraz mas wyposażenia przyjęto jak w modelu przestrzennym po kalibracji. Postaci i częstotliwości drgań własnych pokazano na rysunku \ref{fig:wk2_upr_mods}. W tabeli \ref{tab:wk2_simp_comparison} porównano zidentyfikowane charakterystyki modalne konstrukcji rzeczywistej i odczytane z modelu. Porównano również ugięcia pod statycznym obciążeniem próbnym. Dla porównania częstotliwości zidentyfikowanych modów giętnych pionowych (1 i 3) zostały uśrednione. Podobnie ugięcia z próbnego obciążenia zostały uśrednione w poprzek wiaduktu.
+Model przestrzenny sprowadzono do płaszczyzny przyjmując niezmieniony dźwigar łukowy i rozbudowany ściąg. Przekrój poprzeczny elementów belkowych budujących ściąg rozszerzono o połowę pomostu ortotropowego (Rys. \ref{fig:wk2_model_plaski_c}). Model numeryczny po uproszczeniu składał się z 334 węzłów, 286 elementów belkowych i liczby elementów kratowych zależnej od wariantu rozkładów wieszaków. W stosunku do modelu przestrzennego znacznie ograniczono wielkość zadania. Modyfikatory sztywności i ciężaru elementów modelu płaskiego oraz mas wyposażenia przyjęto jak w modelu przestrzennym po kalibracji. Postaci i częstotliwości drgań własnych pokazano na rysunku \ref{fig:wk2_upr_mods}. W tabeli \ref{tab:wk2_simp_comparison} porównano zidentyfikowane charakterystyki modalne konstrukcji rzeczywistej i odczytane z modelu uproszczonego. Porównano również ugięcia pod statycznym obciążeniem próbnym. Dla porównania, częstotliwości zidentyfikowanych bliskich sobie modów giętnych pionowych (1 i 3) zostały uśrednione. Podobnie ugięcia z próbnego obciążenia zostały uśrednione w poprzek wiaduktu.
 Przedstawione w tabeli zgodności są zadowalające i model został użyty w dalszych analizach.
-\begin{figure}[h]
-	\centering
-	\subfloat[$f_1=2.49\,\text{Hz}$]{\includegraphics[width=0.5\textwidth]{/WK2/model_upr/plaski_ogolny_mod_1.jpg} }
-	\subfloat[$f_2=3.43\,\text{Hz}$]{\includegraphics[width=0.5\textwidth]{/WK2/model_upr/plaski_ogolny_mod_2.jpg} }\\
-	\subfloat[$f_3=5.54\,\text{Hz}$]{\includegraphics[width=0.5\textwidth]{/WK2/model_upr/plaski_ogolny_mod_3.jpg} }
-	\captionsetup{justification=centering}
-	\caption{Postaci drgań własnych uproszczonego modelu 2D: (a) mod 1, (b) mod 2, (c) mod 3}
-	\label{fig:wk2_upr_mods}
-\end{figure}
-
 \begin{table}[h]
 	\centering
 	\caption{Porównanie częstotliwości drgań własnych i ugięć uproszczonego modelu 2D i konstrukcji rzeczywistej}
@@ -657,8 +647,19 @@ Przedstawione w tabeli zgodności są zadowalające i model został użyty w dal
 	\end{tabular}
 	\label{tab:wk2_simp_comparison}
 \end{table}
+\begin{figure}[h]
+	\centering
+	\subfloat[$f_1=2.49\,\text{Hz}$]{\includegraphics[width=0.5\textwidth]{/WK2/model_upr/plaski_ogolny_mod_1.jpg} }
+	\subfloat[$f_2=3.43\,\text{Hz}$]{\includegraphics[width=0.5\textwidth]{/WK2/model_upr/plaski_ogolny_mod_2.jpg} }\\
+	\subfloat[$f_3=5.54\,\text{Hz}$]{\includegraphics[width=0.5\textwidth]{/WK2/model_upr/plaski_ogolny_mod_3.jpg} }
+	\captionsetup{justification=centering}
+	\caption{Postaci drgań własnych uproszczonego modelu 2D: (a) mod 1, (b) mod 2, (c) mod 3}
+	\label{fig:wk2_upr_mods}
+\end{figure}
 
-Model stworzono w trzech wariantach różniących się rozmieszczeniem wieszaków. Przyjęte układy podwieszenia pomostu do łuku pokazano na rysunku \ref{}.
+
+
+Model uproszczony stworzono w trzech wariantach różniących się rozmieszczeniem wieszaków. Przyjęte układy podwieszenia pomostu do łuku pokazano na rysunku \ref{fig:wk2_upr_variants}. Zgodnie z wcześniej przytoczonymi założeniami przygotowano wariant z wieszakami prostymi, wariant z wieszakami ukośnymi (Nielsena) i wariant z przecinającymi się wieszakami ukośnymi (Network).
 \begin{figure}[h]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\textwidth]{/WK2/model_upr/plaski_ogolny_wariant_1.jpg} }
@@ -673,7 +674,7 @@ Model stworzono w trzech wariantach różniących się rozmieszczeniem wieszakó
 \subsection{Założenia do optymalizacji}
 W procesie poczyniono szereg założeń związanych z wytrzymałością materiałów, uwarunkowaniami normowymi i ogólnymi warunkami wykonalności. Zakresy możliwych wartości zmiennych projektowych (Rys. \ref{fig:wk2_opti_cs_elements}) przedstawiono w tabeli \ref{tab:wk2_project_variables_opti}. 
 
-\begin{table}[hb]
+\begin{table}[bt]
 	\caption{Zakresy zmiennych projektowych zastosowane w optymalizacji}
 	\centering
 	\footnotesize
@@ -685,21 +686,32 @@ W procesie poczyniono szereg założeń związanych z wytrzymałością materia�
 	\end{tabular}
 	\label{tab:wk2_project_variables_opti}
 \end{table}
-
-W trakcie optymalizacji, dla każdego rozwiązania sprawdzone zostały warunki Stanu Granicznego Nośności wg PN-EN 1990 i PN-EN 1991-2. Do modelu wiaduktu przyłożono obciążenia stałe od ciężaru własnego konstrukcji i wyposażenia oraz ruchome w postaci Modelu Obciążenia 71. Współczynnik klasy obciążenia ustalono jako $\alpha=1.21$, a współczynnik przewyższenia dynamicznego (WPD) równy $\phi =  1.072$. Obliczając WPD przyjęto przypadek starannie utrzymywanego toru i długość teoretyczną dla obiektu łukowego jako $L_t=0.5L =35\,\text{m}$. W analizie statycznej i kombinacyjnej wyznaczono obwiednie obliczeniowych wartości sił normalnych i momentów zginających. Następnie dla poszczególnych elementów konstrukcyjnych (łuku, ściągu i wieszaków) obliczono maksymalne naprężenia zredukowane H-M-H. Konstrukcję wiaduktu WK2 wykonano ze stali S355, a wieszaki prętowe ze stali S460. Wyznaczono maksymalne wartości naprężeń obliczeniowych. Dla stali S355 przyjęto $\sigma_{355}^d=355/1.25=284\,\text{MPa}$, a dla stali S460 $\sigma_{460}^d=460/1.25=368\,\text{MPa}$.
-
+\subsubsection{Stan Graniczny Nośności}
+W trakcie optymalizacji, dla każdego rozwiązania sprawdzone zostały warunki Stanu Granicznego Nośności wg PN-EN 1990 i PN-EN 1991-2. Do modelu wiaduktu przyłożono obciążenia stałe od ciężaru własnego konstrukcji i wyposażenia oraz ruchome w postaci Modelu Obciążenia 71. Współczynnik klasy obciążenia ustalono jako $\alpha=1.21$, a współczynnik przewyższenia dynamicznego (WPD) równy $\phi =  1.072$. Obliczając WPD przyjęto przypadek starannie utrzymywanego toru i długość miarodajną dla obiektu łukowego jako $L_\phi=0.5L_t =35\,\text{m}$. W analizie statycznej i kombinacyjnej wyznaczono obwiednie obliczeniowych wartości sił normalnych i momentów zginających. Następnie dla poszczególnych elementów konstrukcyjnych (łuku, ściągu i wieszaków) obliczono maksymalne naprężenia zredukowane H-M-H. Konstrukcję wiaduktu WK2 wykonano ze stali S355, a wieszaki prętowe ze stali S460. Wyznaczono maksymalne wartości naprężeń obliczeniowych. Dla stali S355 przyjęto $\sigma_{355}^d=355/1.25=284\,\text{MPa}$, a dla stali S460 $\sigma_{460}^d=460/1.25=368\,\text{MPa}$.
+\subsubsection{Stan Graniczny Użytkowania}
 Sprawdzono również częściowo Stan Graniczny Użytkowania przez wyznaczenie maksymalnego przemieszczenia przęsła od obciążeń ruchomych o wartościach charakterystycznych. Wartość graniczną przyjęto zgodnie z zaleceniem jako $L/600=70000/600=116\,\text{mm}$.
 
-Analizę dynamiczną przeprowadzano w module DYNA środowiska MES SOFiSTiK. Wykorzystano metodę bezpośredniego całkowania równań ruchu. Zgodnie z zaleceniami (CYTOWANIE) należy uwzględnić odpowiedź dynamiczną w zakresie częstotliwości do 30Hz. Aby zapewnić poprawne odwzorowanie przyspieszeń i częstotliwości w zadanym zakresie przyjęto krok czasowy równy $\Delta t = 0.005\,s$ (200 Hz).
-Analizę dynamiczną przeprowadzono dla wszystkich modeli obciążeń koleją dużej prędkości HSLM-A wg PN-EN 1991. Prędkości pojazdów dobrano na podstawie 
+\subsubsection{Analiza dynamiczna}
+Analizę dynamiczną przeprowadzano w module DYNA środowiska MES SOFiSTiK. Wykorzystano metodę bezpośredniego całkowania równań ruchu Newmarka. Zgodnie z zaleceniami (CYTOWANIE) należy uwzględnić odpowiedź dynamiczną w zakresie częstotliwości do 30Hz. Aby zapewnić poprawne odwzorowanie przyspieszeń i częstotliwości w zadanym zakresie przyjęto krok czasowy równy $\Delta t = 0.005\,s$ (próbkowanie 200 Hz).
+Analizę dynamiczną przeprowadzono dla wszystkich dziesięciu modeli obciążeń pociągami uniwersalnymi HSLM-A wg PN-EN 1991.
 
+Prędkości pociągów przyjmowano zgodnie z zaleceniem w zakresie od 40 km/h do maksymalnej prędkości obliczeniowej ($1.2\times\,$nominalna prędkość maksymalna). Nie przyjmowano stałego kroku uwzględnianych prędkości. Wybrano jedynie prędkości które mieszczą się w powyższym zakresie oraz są prędkościami rezonansowymi. Prędkości rezonansowe obliczano na podstawie wzoru \ref{}. Potrzebne częstotliwości drgań własnych odczytywano z modelu numerycznego po przeprowadzeniu analizy modalnej. Dla każdego pociągu HSLM-A wyznaczano prędkość na bazie typowego rozstawu osi $d$, odczytanych częstotliwości drgań własnych $\phi_i$ oraz przyjmując wartość $n = 1,2\dots 10$. Jeżeli prędkość rezonansowa dla danego pociągu mieściła się w wymaganym zakresie dodawano ją do obliczanego zestawu. 
 
+Tłumienie uwzględniono jako masowo-sztywnościowe. Współczynniki Rayleigha \ref{} wyznaczano za każdym razem tak, aby liczba tłumienia dla dwóch pierwszych modów była równa $\xi=0.006$. Wartość została przyjęta na podstawie przeprowadzonej identyfikacji realnego obiektu \ref{tab: wk2_ident_mods}. Wybrano wartość najniższą dla modów o dominującym, pionowym kierunku postaci drgań. Wymagane do obliczeń współczynników częstości drgań własnych każdorazowo wyznaczane były w analizie modalnej.
 
 
 \subsection{Algorytm rozwiązania problemu}
-Optymalizację przeprowadzono ponownie za pomocą algorytmu MOPSO. Ze względu na uniwersalność algorytmów metaheurystycznych w wielu aspektach, algorytm ten jest zbliżony do zastosowanego w procesie kalibracji. Wyróżniono następujące główne kroki wykonywane dla każdego nowego położenia cząstki:
+Optymalizację przeprowadzono ponownie za pomocą algorytmu MOPSO. Ze względu na uniwersalność algorytmów metaheurystycznych w wielu aspektach tok postępowania jest zbliżony do zastosowanego w procesie kalibracji. Wyróżniono następujące główne kroki wykonywane dla każdego nowego położenia cząstki:
 \begin{enumerate}
-	\item Generacja modelu o wymiarach przekrojów zgodnych ze zmiennymi projektowymi.
+	\item Generacja modelu uproszczonego o wymiarach przekrojów poprzecznych zgodnych ze zmiennymi projektowymi.
+	\item Wprowadzenie obciążeń stałych i ruchomych do obliczeń statycznych.
+	\item Analiza statyczna, kombinatoryka i obliczenia wytrzymałościowe od obliczeniowych wartości obciążeń statycznych.
+	\item Analiza modalna. Wyznaczenie pierwszych pięciu zestawów parametrów modalnych: częstotliwości i postaci drgań własnych.
+	\item Wyznaczenie prędkości rezonansowych i współczynników Rayleigha. Wczytanie danych do modelu.
+	\item Generacja obciążenia pociągiem HSLM-A. Analiza dynamiczna przejazdu pociągu po obiekcie. Odczytanie przebiegu przyspieszeń w czasie dla trzech punków zlokalizowanych na ściągu w $1/4L$, $1/2L$ i $3/4L$. Punkt wykonywany jest dla wszystkich dziesięciu pociągów HSLM-A i wyznaczonych prędkości rezonansowych.
+	\item Przetworzenie sygnałów przyspieszeń: filtrowanie w zakresie do 30 Hz i usunięcie wartości stałej. Wyznaczenie wartości maksymalnej przyspieszeń ze wszystkich przebiegów.
+	\item Odczytanie objętości konstrukcji stalowej na podstawie przekrojów poprzecznych łuku, ściągu i wieszaków.
+	\item Zestawienie wektora funkcji celu $\vect{F}=[f_s,f_a]$ oraz wektora ograniczeń $\vect{C}=[c_{sa}, c_{sg}, c_{sh}, c_d]$. Przekazanie wyznaczonych rezultatów do algorytmu optymalizacyjnego.
 \end{enumerate}
 
 

@@ -565,10 +565,10 @@ Z tego powodu skupiono się na wynikach pośrednich, pamiętając że każdy z n
 
 
 \section{Wpływ wymiarów elementów konstrukcyjnych na odpowiedź dynamiczną przęsła}
-Celem pracy jest określenie wpływu poszczególnych elementów konstrukcyjnych na zachowanie dynamiczne przęsła. Analizę przeprowadzono na przykładzie zidentyfikowanego dynamicznie wiaduktu łukowego WK2 w ciągu Pomorskiej Kolei Metropolitalnej. Przyjęto że zmianie mogą ulegać jedynie wymiary elementów konstrukcyjnych, a nie topologia całego ustroju. Dla przedmiotowego obiektu wyszczególniono 3 główne cechy, które wynikają z wymiarów elementów i wpływają na zachowanie struktury. Są to sztywność giętna dźwigara łukowego, sztywność giętna ściągu, a także sztywność podłużna wieszaków. Uwzględniając złożoność rzeczywistej konstrukcji połączoną z szeregiem wymagań stawianych przez zapisy normowe rozwiązanie analityczne problemu wydaje się być karkołomnym zadaniem. Postanowiono wyznaczyć wpływ poszczególnych elementów w procesie optymalizacji wielokryterialnej. Zdefiniowano dwie funkcje celu zestawione w wektor $\vect{F}$:
+Celem pracy jest określenie wpływu poszczególnych elementów konstrukcyjnych na zachowanie dynamiczne przęsła. Analizę przeprowadzono na przykładzie zidentyfikowanego dynamicznie wiaduktu łukowego WK2 w ciągu Pomorskiej Kolei Metropolitalnej. Przyjęto że zmianie mogą ulegać jedynie wymiary elementów konstrukcyjnych, a nie topologia całego ustroju. Dla przedmiotowego obiektu wyszczególniono 3 główne cechy, które wynikają z wymiarów elementów i wpływają na zachowanie struktury. Są to sztywność giętna dźwigara łukowego, sztywność giętna ściągu, a także sztywność podłużna wieszaków. Uwzględniając złożoność rzeczywistej konstrukcji połączoną z szeregiem wymagań stawianych przez zapisy normowe rozwiązanie analityczne problemu wydaje się być karkołomnym zadaniem. Postanowiono wyznaczyć wpływ poszczególnych elementów w procesie optymalizacji wielokryterialnej. Zdefiniowano dwie funkcje celu zestawione w wektor $\vect{F}=[f_s,f_a]$ gdzie:
 \begin{itemize}
-	\item $f_s$ - masę konstrukcji stalowej, w przybliżeniu tożsamą z kosztem wykonania konstrukcji,
-	\item $f_a$ - maksymalne przyspieszenia pomostu pod normowym obciążeniem dynamicznym.
+	\item $f_s$ - oznacza masę konstrukcji stalowej, w przybliżeniu tożsamą z kosztem wykonania konstrukcji,
+	\item $f_a$ - oznacza maksymalne przyspieszenia pomostu pod normowym obciążeniem dynamicznym.
 \end{itemize}
 Tak zdefiniowane funkcje pozwalają uzyskać zestaw najlepszych rozwiązań (Front Pareto), będący przybliżeniem funkcji najlepszego możliwego rozwiązania pod względem dynamiki konstrukcji, w zależności od kosztu wykonania konstrukcji. Jakość rozwiązania konstrukcyjnego pod względem dynamiki przęsła określono przez maksymalne przyspieszenie występujące w pomoście pod dynamicznym obciążeniem normowym. Aspekt ekonomiczny odzwierciedla masa zużytego materiału. Dzięki procesowi optymalizacji maksymalne przyspieszenia wyznaczone przy przejazdach dynamicznych będą posiadały najmniejsze możliwe wartości przy zastosowanej objętości materiału. Do zmiany głównych elementów konstrukcyjnych użyto trzy parametry:
 \begin{itemize}
@@ -576,7 +576,7 @@ Tak zdefiniowane funkcje pozwalają uzyskać zestaw najlepszych rozwiązań (Fro
 	\item wysokość przekroju poprzecznego dźwigara ściągu $h_2$,
 	\item średnica wieszaka: $d_1$.
 \end{itemize}
-które stanowią zmienne projektowe problemu optymalizacji $\vect{X}$. Zmienne zaznaczono na przekrojach poprzecznych przedstawionych na rysunku \ref{fig:wk2_opti_cs_elements}.
+które stanowią zmienne projektowe problemu optymalizacji $\vect{X}=[h_1,h_2,d_1]$. Zmienne zaznaczono na przekrojach poprzecznych przedstawionych na rysunku \ref{fig:wk2_opti_cs_elements}.
 \begin{figure}[h]
 	\centering
 	\subfloat[]{\includegraphics[]{/WK2/rysunki/przekroj_elementu_luk.pdf} } \quad
@@ -605,9 +605,9 @@ Poza wymienionymi zmiennymi projektowymi analizy przeprowadzono w kilku warianta
 
 Dla każdej kombinacji rozmieszczenia wieszaków i prędkości (9 wariantów) przeprowadzono oddzielną optymalizację. Istnieje ryzyko, że jeden z wariantów może dominować nad innymi pod względem odporności dynamicznej  i przysłoni interesujące rezultaty. W rzeczywistych konstrukcjach stosowane są wszystkie trzy warianty rozkładu wieszaków i istnieje zapotrzebowanie na różne maksymalne dozwolone prędkości taboru. Z tego względu informacja na temat wpływu elementów konstrukcyjnych dla każdego z wariantów jest pożądana i przeanalizowana oddzielnie.
 
-W procesie optymalizacji uwzględniono również ograniczenia i wymagania jakie musi spełnić rozwiązanie, aby zostało uznane jako poprawne. Sprawdzane wartości zestawiono w wektorze $\vect{C}$. Bazując na obowiązujących przepisach wyznaczono dla każdego przypadku:
+W procesie optymalizacji uwzględniono również ograniczenia i wymagania jakie musi spełnić rozwiązanie, aby zostało uznane jako poprawne. Wartości podlegające ograniczeniom zestawiono w wektorze $\vect{C}=[c_{sa},c_{sg},c_{sh},c_{d}$. Bazując na obowiązujących przepisach wyznaczono dla każdego przypadku:
 \begin{itemize}
-	\item normowe, maksymalne, obliczeniowe naprężenia w dźwigarze łukowym $c_{sa}$, w ściągu $c_{sg}$ i w wieszakach $c_{sh}$ pod obciążeniem statycznym,
+	\item maksymalne normowe naprężenia obliczeniowe w dźwigarze łukowym $c_{sa}$, w ściągu $c_{sg}$ i w wieszakach $c_{sh}$ pod obciążeniem statycznym,
 	\item normowe maksymalnych ugięcia statyczne przęsła $c_{d}$.
 \end{itemize}
 \subsection{Model uproszczony do analizy dynamicznej}
@@ -701,7 +701,7 @@ Tłumienie uwzględniono jako masowo-sztywnościowe. Współczynniki Rayleigha \
 
 
 \subsection{Algorytm rozwiązania problemu}
-Optymalizację przeprowadzono ponownie za pomocą algorytmu MOPSO. Ze względu na uniwersalność algorytmów metaheurystycznych w wielu aspektach tok postępowania jest zbliżony do zastosowanego w procesie kalibracji. Wyróżniono następujące główne kroki wykonywane dla każdego nowego położenia cząstki:
+Optymalizację przeprowadzono ponownie za pomocą dostosowanego algorytmu MOPSO. Ze względu na uniwersalność algorytmów metaheurystycznych, również w tym przypadku w wielu aspektach tok postępowania jest zbliżony do zastosowanego w procesie kalibracji. Wyróżniono następujące główne kroki wykonywane dla każdego nowego położenia cząstki:
 \begin{enumerate}
 	\item Generacja modelu uproszczonego o wymiarach przekrojów poprzecznych zgodnych ze zmiennymi projektowymi.
 	\item Wprowadzenie obciążeń stałych i ruchomych do obliczeń statycznych.
@@ -713,6 +713,15 @@ Optymalizację przeprowadzono ponownie za pomocą algorytmu MOPSO. Ze względu n
 	\item Odczytanie objętości konstrukcji stalowej na podstawie przekrojów poprzecznych łuku, ściągu i wieszaków.
 	\item Zestawienie wektora funkcji celu $\vect{F}=[f_s,f_a]$ oraz wektora ograniczeń $\vect{C}=[c_{sa}, c_{sg}, c_{sh}, c_d]$. Przekazanie wyznaczonych rezultatów do algorytmu optymalizacyjnego.
 \end{enumerate}
+
+Na rysunku \ref{fig:wk2_dynamic_algorithm} przedstawiono schemat blokowy algorytmu. Ikonami oznaczono w jakim środowisku wykonywane są dane kroki, oraz kierunek przepływu informacji lub współpracę obu środowisk.
+\begin{figure}[p]
+	\centering
+	\includegraphics[height=0.9\textheight]{/WK2/dynamic/algorithm_analiza_dynamiczna.pdf} 
+	\captionsetup{justification=centering}
+	\caption{Schemat blokowy algorytmu optymalizacji wielokryterialnej konstrukcji ze względu na jej zachowanie dynamiczne}
+	\label{fig:wk2_dynamic_algorithm}
+\end{figure}
 
 
 
@@ -744,7 +753,7 @@ Optymalizację przeprowadzono ponownie za pomocą algorytmu MOPSO. Ze względu n
 	\captionsetup{justification=centering}
 	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
 \end{figure}
-Treść dotyczącza tykresu zbiorczego 
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{WK2/proste_300_3d_weig.pdf}

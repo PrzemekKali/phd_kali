@@ -1,7 +1,7 @@
 \chapter{Dynamiczna analiza konstrukcji}
 
 \section{Wiadomości wstępne} \label{section: modalAnalysisIntro}
-Podstawowym celem pracy jest określenie zależności pomiędzy przyjętymi rozwiązaniami konstrukcyjnymi mostów kolejowych, a ich zachowaniem dynamicznym. Predykcja odpowiedzi, jak wspomniano wcześniej, możliwa jest dzięki rozwiązaniom numerycznym modeli MES poddanych odpowiednim obciążeniom. Na każdym etapie analiz trzeba zdawać sobie sprawę z niepewności, które mogą wystąpić przy konstruowaniu założeń. \cite{Brincker2015} zestawili różnego rodzaju parametry występujące w modelu i stopień niepewności, który im towarzyszy na etapie modelowania. Niepewności te przytoczono w tabeli \ref{table:uncertainitesModel}. Wyraźnie widać, że przyjęcie niektórych parametrów modelu w sposób bezkrytyczny może prowadzić do zupełnie nieodpowiednich rezultatów. Niektóre, związane np ze sztywnością szeroko rozumianych podpór czy połączeń śrubowych, mogą wypaczyć rezultaty i wprowadzić badacza w błąd na temat stanu i zachowania konstrukcji. Aby zbudować model, który będzie efektywnie odwzorowywał rzeczywiste zachowanie należy dołożyć wszelkich starań aby wyeliminować możliwe niepewności. Model taki może zostać poddany walidacji i kalibracji. Oba te pojęcia zostaną rozwinięte w następnych rozdziałach. Niemniej, aby model dostosować do rzeczywistych warunków należy mieć punkt odniesienia. W przypadku analizy statycznej takim odniesieniem mogą być pomiary statyczne ugięć, np. w trakcie próbnego obciążenia. W przypadku analizy dynamicznej, do porównania będą służyć charakterystyki modalne: częstotliwości i postaci drgań własnych oraz tłumienia. Parametry te można zaczerpnąć z literatury i doświadczenia na etapie projektowania. Na etapie badania rzeczywistej konstrukcji warto sięgnąć po narzędzie zwane identyfikacją modalną. Poniższy rozdział przytoczy podstawowe zagadanienia związane z analizą modalną, obliczeniami odpowiedzi dynamicznej i identyfikacją charakterystyk modalnych układu. Informacje te zostaną w dalszej części pracy zastosowane w obliczeniach numerycznych i optymalizacyjnych.
+Podstawowym celem pracy jest określenie zależności pomiędzy przyjętymi rozwiązaniami konstrukcyjnymi mostów kolejowych, a ich zachowaniem dynamicznym. Predykcja odpowiedzi, jak wspomniano wcześniej, możliwa jest dzięki rozwiązaniom numerycznym modeli MES poddanych odpowiednim obciążeniom. Na każdym etapie analiz trzeba zdawać sobie sprawę z niepewności, które mogą wystąpić przy konstruowaniu założeń. \cite{Brincker2015} zestawili różnego rodzaju parametry występujące w modelu i stopień niepewności, który im towarzyszy na etapie modelowania. Niepewności te przytoczono w tabeli \ref{table:uncertainitesModel}. Wyraźnie widać, że przyjęcie niektórych parametrów modelu w sposób bezkrytyczny może prowadzić do zupełnie nieodpowiednich rezultatów. Niektóre, związane np ze sztywnością szeroko rozumianych podpór czy połączeń śrubowych, mogą wypaczyć rezultaty i wprowadzić badacza w błąd na temat stanu i zachowania konstrukcji. Aby zbudować model, który będzie efektywnie odwzorowywał rzeczywiste zachowanie należy dołożyć wszelkich starań aby wyeliminować możliwe niepewności. Model taki może zostać poddany walidacji i kalibracji. Oba te pojęcia zostaną rozwinięte w następnych rozdziałach. Niemniej, aby model dostosować do rzeczywistych warunków należy mieć punkt odniesienia. W przypadku analizy statycznej takim odniesieniem mogą być pomiary statyczne ugięć, np. w trakcie próbnego obciążenia. W przypadku analizy dynamicznej, do porównania będą służyć charakterystyki modalne: częstotliwości i postaci drgań własnych oraz tłumienia. Parametry te można zaczerpnąć z literatury i doświadczenia na etapie projektowania. Na etapie badania rzeczywistej konstrukcji warto sięgnąć po narzędzie zwane identyfikacją modalną. Poniższy rozdział przytoczy podstawowe zagadnienia związane z analizą modalną, obliczeniami odpowiedzi dynamicznej i identyfikacją charakterystyk modalnych układu. Informacje te zostaną w dalszej części pracy zastosowane w obliczeniach numerycznych i optymalizacyjnych.
 
 
 
@@ -72,13 +72,13 @@ Najogólniej analizę modalną można podzielić na dwie główne gałęzie zale
 	\label{fig:theExpProc}
 \end{figure}
 
-Metody teoretyczne opierają się na rozwiązaniach analitycznych lub numerycznych (rys. \ref{fig:theExpProcA}). Badanie zachowania dynamicznego rozpoczyna się od definicji struktury, najczęściej za pomocą modelu dyskretnego opisanego macierzami $\mathbf{M}, \mathbf{C}', \mathbf{K}$ oznaczającymi odpowiednio macierz mas, tłumienia i sztywności. Macierz tłumienia, w przypadku metod teoretycznych, jest to niewyznaczalna analitycznie macierz bazująca na doświadczeniach i rezultatach badań, stąd została oznaczona apostrofem $\mathbf{C'}$. Za pomocą przekształceń matematycznych (skrótowo opisanych w dalszej części tekstu) tworzony jest model matematyczny we współrzędnych modalnych. Uzyskiwane są charakterystyki modalne układu $\mathbf{\Lambda} \,\mathrm{i}\, \mathbf{\Psi}$ odpowiednio częstości drgań własnych, postaci drgań własnych i dodatkowo parametry opisujące przyjęty model tłumienia. Po uzyskaniu modelu matematycznego opisanego współrzędnymi modalnymi możliwe jest wyznaczenie odpowiedzi konstrukcji w czasie przy jej znanym wymuszeniu. Powyższy opis przedstawia pełną procedurę teoretyczną zakończoną wyznaczeniem odpowiedzi układu. Jednakże, jak wspomniano wcześniej, analiza modalna oraz jej metody są zróżnicowane z punktu widzenia skomplikowania. Zazwyczaj wybór metody zależy od zapotrzebowania na rezultaty. Zwłaszcza w przypadkach obliczeń inżynierskich często poprzestaje się na wyznaczeniu charakterystyk modalnych, które są następnie oceniane z punktu widzenia zagrożenia nadmiernymi efektami dynamicznymi.
+Metody teoretyczne opierają się na rozwiązaniach analitycznych lub numerycznych (rys. \ref{fig:theExpProcA}). Badanie zachowania dynamicznego rozpoczyna się od definicji struktury, najczęściej za pomocą modelu dyskretnego opisanego macierzami $\mathbf{M}, \mathbf{C}', \mathbf{K}$ oznaczającymi odpowiednio macierz mas, tłumienia i sztywności. Macierz tłumienia, w przypadku metod teoretycznych, jest to niewyznaczalna analitycznie macierz bazująca na doświadczeniach i rezultatach badań, stąd została oznaczona apostrofem $\mathbf{C'}$. Za pomocą przekształceń matematycznych (skrótowo opisanych w dalszej części tekstu) tworzony jest model matematyczny we współrzędnych modalnych. Uzyskiwane są charakterystyki modalne układu $\mathbf{\Lambda} \,\mathrm{i}\, \mathbf{\Phi}$ odpowiednio częstości drgań własnych, postaci drgań własnych i dodatkowo parametry opisujące przyjęty model tłumienia. Po uzyskaniu modelu matematycznego opisanego współrzędnymi modalnymi możliwe jest wyznaczenie odpowiedzi konstrukcji w czasie przy jej znanym wymuszeniu. Powyższy opis przedstawia pełną procedurę teoretyczną zakończoną wyznaczeniem odpowiedzi układu. Jednakże, jak wspomniano wcześniej, analiza modalna oraz jej metody są zróżnicowane z punktu widzenia skomplikowania. Zazwyczaj wybór metody zależy od zapotrzebowania na rezultaty. Zwłaszcza w przypadkach obliczeń inżynierskich często poprzestaje się na wyznaczeniu charakterystyk modalnych, które są następnie oceniane z punktu widzenia zagrożenia nadmiernymi efektami dynamicznymi.
 Metody analityczne znajdują realne zastosowanie w przypadku obiektów, których opis ciągły nie jest złożony, a dyskretny ograniczony jedynie do niewielkiej liczby stopni swobody. Rzeczywiste konstrukcje są układami o nieskończonej liczbie stopni swobody. Niemniej, sprowadzenie ich do skończonej (choć zazwyczaj bardzo dużej) liczby stopni swobody pozwala otrzymać zadowalająco poprawne rezultaty. W przypadku dużej liczby stopni swobody najszerzej stosowane są metody przybliżone opierające się obliczeniach numerycznych, takie jak: metoda różnic skończonych (MRS) czy metoda elementów skończonych (MES). Teoretyczna analiza modalna ma wiele zalet. Pozwala uzyskać rezultaty relatywnie szybko i tanio. Wynika to z powszechności narzędzi do modelowania i obliczania konstrukcji. W obrębie modelowania realnych struktur współczesne oprogramowanie pozwala budować modele numeryczne praktycznie bez ograniczeń. Stosowane preprocesory graficzne pozwalają użytkownikowi na odwzorowanie nawet skomplikowanych kształtów geometrycznych. Rosnąca moc obliczeniowa komputerów przestaje być ograniczeniem, zwłaszcza przy obliczeniach statycznych modeli o znaczącej liczbie stopni swobody. Niepodważalną zaletą jest również dowolność sposobów obciążania i modyfikacji modelu numerycznego. Pomimo wielu niewątpliwych zalet, teoretyczna analiza modalna posiada ograniczenia, z których należy zdawać sobie sprawę. Przede wszystkim jakość rezultatów zależy wprost od jakości wprowadzonych przez użytkownika danych. (Potrzebne przykłady). W przypadku zagadnień dynamicznych kolejnym bardzo ważnym ograniczeniem jest brak analitycznej możliwości określenia tłumienia konstrukcji. Taką możliwość daje jedynie badanie doświadczalne na rzeczywistej konstrukcji. Metody analityczne i numeryczne są obszernie opisane w wielu publikacjach \parencite{Chmielewski1998,Chopra2012a,Rucka2014}. W dalszej części rozdziału zaprezentowano absolutne podstawy i założenia analitycznej analizy dynamicznej.
 
 
 %\cite{Brincker2015} wskazuje na następujące źródła błędów i szacowane poziomy niepewności rezultatów analizy w zależności od rodzaju popełnionego błędów w definicji modelu MES (tab):
 
-Doświadczalna analiza w odróżnieniu od wersji teoretycznej angażuje do identyfikacji warsztat badawczy. \cite{Ewins2000} definiuje ją jako zespół procesów związanych z badaniem elementów konstrukcji w celu uzyskania matematycznego opisu ich zachowania dynamicznego. Jest to definicja zbliżona do ogólniejszej podanej przez \cite{Zhang2004}, ale stawia szczególnie mocny akcent na aspekt badawczy. Jak przedstawiono na rysunku (rys. \ref{fig:theExpProcB}) ten typ analizy ma niejako odwrotny kierunek niż teoretyczna analiza modalna. W tym przypadku odpowiedź konstrukcji jest mierzona i na jej podstawie wyznaczane są wielkości opisujące model matematyczny: $\mathbf{\Lambda}$ i $\mathbf{\Psi}$. Następnie na dopiero ich podstawie możliwe jest przekształcenie na model matematyczny wyrażony we współrzędnych fizycznych: $\mathbf{M}, \mathbf{C}', \mathbf{K}$. 
+Doświadczalna analiza w odróżnieniu od wersji teoretycznej angażuje do identyfikacji warsztat badawczy. \cite{Ewins2000} definiuje ją jako zespół procesów związanych z badaniem elementów konstrukcji w celu uzyskania matematycznego opisu ich zachowania dynamicznego. Jest to definicja zbliżona do ogólniejszej podanej przez \cite{Zhang2004}, ale stawia szczególnie mocny akcent na aspekt badawczy. Jak przedstawiono na rysunku (rys. \ref{fig:theExpProcB}) ten typ analizy ma niejako odwrotny kierunek niż teoretyczna analiza modalna. W tym przypadku odpowiedź konstrukcji jest mierzona i na jej podstawie wyznaczane są wielkości opisujące model matematyczny: $\mathbf{\Lambda}$ i $\mathbf{\Phi}$. Następnie na dopiero ich podstawie możliwe jest przekształcenie na model matematyczny wyrażony we współrzędnych fizycznych: $\mathbf{M}, \mathbf{C}', \mathbf{K}$. 
 Doświadczalna analiza modalna dzieli się na dwie główne odnogi związane z zakresem rejestrowanych danych w trakcie wykonywania eksperymentu. Pierwsza z nich to Eksperymentalna Analiza Modalna (EMA) \teng{Experimental Modal Analysis} wymaga pomiaru sił wymuszających oraz odpowiedzi konstrukcji na to wymuszenie. Druga to Operacyjna Analiza Modalna (OMA) \teng{Operational Modal Analysis}, która estymuje parametry modalne wyłącznie na podstawie pomierzonych efektów nieznanego wymuszenia. Wymuszenie to jednak nie może być dowolne, a ograniczenia przedstawione zostaną w dalszej części pracy. 
 
 Kwestia pomiaru sił wymuszających wpływa na podstawowe różnice pomiędzy dwoma rodzinami metod: EMA i OMA. EMA najczęściej prowadzona jest w kontrolowanych warunkach i przez to pozwala dostarczyć bardziej szczegółowych i dokładniejszych informacji na temat zachowania dynamicznego konstrukcji. Jednakże w przypadku rzeczywistych konstrukcji inżynierskich (np. mosty) trudno jest stworzyć takie kontrolowane warunki. Obiekt musi zostać na czas pomiarów wyłączony z eksploatacji. Okazuje się to często niemożliwe z przyczyn proceduralnych, a na pewno kosztowne. Drugim zasadniczym ryzykiem jest potrzeba stworzenia takiego systemu wymuszenia, które wywoła mierzalną odpowiedź konstrukcji. W przypadku dużych konstrukcji inżynierskich może okazać się to trudne do zrealizowania ponieważ oddziaływania środowiskowe mogą wywoływać efekty oddziaływań porównywalne z kontrolowanym wymuszeniem. OMA praktycznie pozbywa się negatywnych skutków potrzeby kontroli wymuszenia. Badania prowadzone mogą być przy normalnej eksploatacji, a losowe oddziaływania środowiskowe zazwyczaj polepszają jakość wyników. Oczywiście odbywa się to kosztem dokładności rezultatów. Teoretyczne założenia metody są spełnione tylko w sposób przybliżony. Z tego względu serie pomiarowe zwykle muszą trwać znacznie dłużej, a interpretacja wyników wymaga większego doświadczenia.
@@ -115,20 +115,20 @@ Identyfikacja modalna modelu matematycznego polegająca na wyznaczeniu częstotl
 \subsubsection{Układ nietłumiony}
 Z reguły przyjmuje się, że rozwiązanie zagadnienia własnego wykorzystuje równanie drgań swobodnych nietłumionych (\ref{eq: mot_und_free}). Należy zaznaczyć, że drgania własne nie opisują procesu fizycznego, a są jedynie matematyczną idealizacją drgań układu. W przypadku nietłumionym, dla każdego z modów, układ oscyluje wokół położenia równowagi z częstotliwością drgań własnych, a wszystkie stopnie swobody drgają w tej samej fazie. Oznacza to, że każdy z punktów osiąga swoje ekstremalne położenie w tej samej chwili. Podobnie wszystkie punkty znajdują się w położeniu równowagi w tym samym czasie. Poniżej przedstawiono rozwiązanie dla nietłumionego układu $N$ dynamicznych stopni swobody.
 
-Założono rozwiązanie \ref{eq: mot_und_free} w postaci $\vect{x}(t)=\vect{\psi}e^{j\omega t}$ gdzie $\omega$ to częstość drgań własnych, $j=\sqrt{-1}$, a $\psi$ to niezerowy wektor postaci drgań własnych. Po podstawieniu rozwiązania i jego drugiej pochodnej ($\vect{\ddot{x}}(t)=-\vect{\psi} \omega^2 e^{j\omega t}$) do równia \ref{eq: mot_und_free} otrzymamy równanie \ref{eq: char_equation1}.
+Założono rozwiązanie \ref{eq: mot_und_free} w postaci $\vect{x}(t)=\vect{\phi}e^{j\omega t}$ gdzie $\omega$ to częstość drgań własnych, $j=\sqrt{-1}$, a $\phi$ to niezerowy wektor postaci drgań własnych. Po podstawieniu rozwiązania i jego drugiej pochodnej ($\vect{\ddot{x}}(t)=-\vect{\phi} \omega^2 e^{j\omega t}$) do równia \ref{eq: mot_und_free} otrzymamy równanie \ref{eq: char_equation1}.
 
 \begin{equation} \label{eq: char_equation1}
--\vect{M}\vect{\psi}\omega^2 e^{j\omega t} +\vect{K\psi}e^{j\omega t} = \vect{0}
+-\vect{M}\vect{\phi}\omega^2 e^{j\omega t} +\vect{K\phi}e^{j\omega t} = \vect{0}
 \end{equation}
 Dzieląc strony równania przez niezerową wartość $e^{j\omega t}$ otrzymujemy układ liniowych równań algebraicznych:
 \begin{equation} \label{eq: char_equation2}
--\vect{M}\omega^2 \vect{\psi} +\vect{K\psi} = \vect{0}
+-\vect{M}\omega^2 \vect{\phi} +\vect{K\phi} = \vect{0}
 \end{equation}
-w którym dwie niewiadome do ustalenia to: $\psi$ - niezerowy wektor postaci drgań własnych oraz $\omega$ - częstość drgań własnych. Równanie to można zapisać w formie \ref{eq: char_equation3} z indeksami określającymi poszczególne mody drgań własnych. Liczba par odpowiadających sobie częstości $\omega_i$ i postaci drgań własnych $\psi_i$ jest równa liczbie $N$ stopni swobody. 
+w którym dwie niewiadome do ustalenia to: $\phi$ - niezerowy wektor postaci drgań własnych oraz $\omega$ - częstość drgań własnych. Równanie to można zapisać w formie \ref{eq: char_equation3} z indeksami określającymi poszczególne mody drgań własnych. Liczba par odpowiadających sobie częstości $\omega_i$ i postaci drgań własnych $\phi_i$ jest równa liczbie $N$ stopni swobody. 
 \begin{equation} \label{eq: char_equation3}
-\omega^2_i \vect{M}\psi_i = \vect{K}\psi_i\qquad i=1,2,...,N
+\omega^2_i \vect{M}\phi_i = \vect{K}\phi_i\qquad i=1,2,...,N
 \end{equation}
-Z kolei równanie \ref{eq: char_equation4} to reprezentacja uogólnionego problemu własnego, w którym $\lambda_i$ to wartość własna, a $u_i$ to wektor własny. Z porównania wzorów \ref{eq: char_equation3} i \ref{eq: char_equation4} wyraźnie widać powiązanie $\lambda_i=\omega^2_i$. Wynika z tego, że rozwiązanie numeryczne uogólnionego problemu własnego pozwala wprost uzyskać częstości $(\lambda_i=\omega^2_i)$ i postaci drgań własnych $(\psi_i)$. 
+Z kolei równanie \ref{eq: char_equation4} to reprezentacja uogólnionego problemu własnego, w którym $\lambda_i$ to wartość własna, a $u_i$ to wektor własny. Z porównania wzorów \ref{eq: char_equation3} i \ref{eq: char_equation4} wyraźnie widać powiązanie $\lambda_i=\omega^2_i$. Wynika z tego, że rozwiązanie numeryczne uogólnionego problemu własnego pozwala wprost uzyskać częstości $(\lambda_i=\omega^2_i)$ i postaci drgań własnych $(\phi_i)$. 
 \begin{equation} \label{eq: char_equation4}
 \lambda_i \vect{A}u_i = \vect{B}u_i
 \end{equation}
@@ -136,14 +136,14 @@ Układ równań (\ref{eq: char_equation3}) ma nietrywialne rozwiązania tylko je
 \begin{equation} \label{eq: char_equation_det}
 \det[\vect{K}-\omega^2_i \vect{M}] = \vect{0}
 \end{equation}
-Formuła \ref{eq: char_equation_det} jest znana jako równanie charakterystyczne zagadnienia własnego. Jeśli rozwinąć wyznacznik, otrzymamy wielomian stopnia $N$ względem $\omega^2_i$. Pierwiastkami równania \ref{eq: char_equation_det} są częstości drgań własnych $\omega_i$. Znając częstości własne $\omega_i$ z równania \ref{eq: char_equation3} można obliczyć odpowiadające wektory własne $\psi_i$ z dokładnością do stałego czynnika. Taki wynik bywa nieprzystępny w ocenie więc wektory poddawane mogą być normalizacji. Do najczęściej stosowanych metod normalizacji należy taka modyfikacja wektora tak aby maksymalna wartość bezwzględna spośród wszystkich elementu była równa jedności. Innym przykładem może być normalizacja wektorów tak aby wartość elementu dla danego stopnia swobody, we wszystkich wektorach była równa jedności.
+Formuła \ref{eq: char_equation_det} jest znana jako równanie charakterystyczne zagadnienia własnego. Jeśli rozwinąć wyznacznik, otrzymamy wielomian stopnia $N$ względem $\omega^2_i$. Pierwiastkami równania \ref{eq: char_equation_det} są częstości drgań własnych $\omega_i$. Znając częstości własne $\omega_i$ z równania \ref{eq: char_equation3} można obliczyć odpowiadające wektory własne $\phi_i$ z dokładnością do stałego czynnika. Taki wynik bywa nieprzystępny w ocenie więc wektory poddawane mogą być normalizacji. Do najczęściej stosowanych metod normalizacji należy taka modyfikacja wektora tak aby maksymalna wartość bezwzględna spośród wszystkich elementu była równa jedności. Innym przykładem może być normalizacja wektorów tak aby wartość elementu dla danego stopnia swobody, we wszystkich wektorach była równa jedności.
 
 Jeżeli macierze $\vect{M}$ i $\vect{K}$ ($\vect{A}$ i $\vect{B}$ wg \ref{eq: char_equation2}) są symetryczne i dodatnio określone o wartościach rzeczywistych to wartości oraz wektory własne są również rzeczywiste. W przypadku konstrukcji budowlanych macierz $\vect{K}$ jest zawsze dodatnio określona ponieważ warunki brzegowe zapewniają brak ruchu ciała jako bryły sztywnej. Nie jest to oczywiste dla innych niż budowlane struktur, takich jak np. samolot w locie \parencite{Chopra2012a}.
 
 
 Postaci drgań własnych (wektory własne) odpowiadające różnym częstościom własnym spełniają warunki ortogonalności. W przypadku gdy $\omega_i \neq \omega_j$ prawdziwe są zależności \ref{eq: eigenvect_orto}. Ortogonalność wektorów własnych może być wykorzystana do weryfikacji obliczonych wektorów. 
 \begin{equation} \label{eq: eigenvect_orto}
-\vect{\psi}_i^{T}\vect{K\psi}_j = 0 \qquad \vect{\psi}_i^{T}\vect{M\psi}_j = 0
+\vect{\phi}_i^{T}\vect{K\phi}_j = 0 \qquad \vect{\phi}_i^{T}\vect{M\phi}_j = 0
 \end{equation}
 
 Obliczone z równania \ref{eq: char_equation_det} wartości oraz wektory własne możemy przedstawić w postaci dwóch specjalnych macierzy. $N$ obliczonych wartości własnych zestawionych w macierz diagnonalną tworzy tak zwaną macierz widmową (\ref{eq: mat_spect}). Z kolei $N$ wektorów własnych zestawionych kolumnowo nazywamy macierzą modalną (\ref{eq: mat_modal}).
@@ -161,12 +161,12 @@ Obliczone z równania \ref{eq: char_equation_det} wartości oraz wektory własne
 \end{equation}
 
 \begin{equation} \label{eq: mat_modal}
-	\vect{\Psi} = [\psi_{i,j}]= 
+	\vect{\phi} = [\phi_{i,j}]= 
 	\begin{bmatrix} 
-		\psi_{11} & \psi_{12} & \dots & \psi_{1N} \\ 
-		\psi_{12} & \psi_{22} & \dots & \psi_{2N} \\
+		\phi_{11} & \phi_{12} & \dots & \phi_{1N} \\ 
+		\phi_{12} & \phi_{22} & \dots & \phi_{2N} \\
 		\vdots    & \vdots    & \ddots & \vdots \\
-		\psi_{N1} & \psi_{N2} & \dots & \psi_{NN} 
+		\phi_{N1} & \phi_{N2} & \dots & \phi_{NN} 
 	
 	
 	\end{bmatrix}
@@ -198,22 +198,22 @@ Rozwiązanie tego równania jest uzależnione od postaci tłumienia: klasycznego
 \end{equation}
 Kiedy macierz $\vect{C}$ jest diagonalna to warunek (\ref{eq: class_damp}) jest spełniony. W takim przypadku wszystkie częstości drgań własnych są rzeczywiste i identyczne do tych wyznaczonych dla układu nietłumionego. W przypadku przeciwnym mamy do czynienia z tłumieniem nieklasycznym bądź nieproporcjonalnym \teng{nonclassical damping, nonproportional damping}. Dla tej sytuacji macierz $\vect{C}$ nie jest diagonalna, a wartości własne są zespolone. Szczegółowe informacje oraz metody rozwiązania przypadków dynamiki konstrukcji nieklasycznie tłumionych podano w \parencite{Caughey1961,Chopra2012a}. \cite{Inman1995} na przykładzie pokazali, że obliczanie struktur charakteryzujących się tłumieniem nieklasycznym za pomocą zagadnienia własnego bez uwzględnienia macierzy tłumienia możne prowadzić do błędnych rezultatów. Tak wyznaczone częstotliwości drgań będą różnić się od rzeczywistych, co może pociągnąć za sobą błędne wnioski odnośnie zakresu częstotliwości grożących rezonansem.
 \subsection{Transformacja do współrzędnych normalnych} \label{section: transform_normal}
-Rozważmy ponownie równanie ruchu układu MDOF (\ref{eq: mot_dam_free2}). Wiemy, że każdy wektor o długości $N$ może być przedstawiony jako kombinacja liniowa $N$ liniowo niezależnych wektorów. Przedstawmy zatem wektor przemieszczeń $\vect{x}$ jako kombinację wektorów własnych $\vect{\psi}$.
+Rozważmy ponownie równanie ruchu układu MDOF (\ref{eq: mot_dam_free2}). Wiemy, że każdy wektor o długości $N$ może być przedstawiony jako kombinacja liniowa $N$ liniowo niezależnych wektorów. Przedstawmy zatem wektor przemieszczeń $\vect{x}$ jako kombinację wektorów własnych $\vect{\phi}$.
 \begin{equation} \label{eq: normal_coord_komb}
-	\vect{x} = \sum_{r=1}^{N} \vect{\psi}_r q_r=\vect{\Psi q}
+	\vect{x} = \sum_{r=1}^{N} \vect{\phi}_r q_r=\vect{\phi q}
 \end{equation} 
-gdzie współczynniki $q_r$ nazywane są współrzędnymi normalnymi \teng{modal coordinates, normal coordinates} i $\vect{q}=<q_1\,\,q_2\,\, \dots\,\, q_N>^T$. Załóżmy, że zagadnienie własne zostało rozstrzygnięte i wyznaczyliśmy macierz modalną $\vect{\Psi}$ (\ref{eq: mat_modal}). Aby uzyskać wartości współczynników $q_n$ dla danego $\vect{x}$, przemnóżmy obie strony równania \ref{eq: normal_coord_komb} przez $\vect{\psi}_n^T\vect{M}$:
+gdzie współczynniki $q_r$ nazywane są współrzędnymi normalnymi \teng{modal coordinates, normal coordinates} i $\vect{q}=<q_1\,\,q_2\,\, \dots\,\, q_N>^T$. Załóżmy, że zagadnienie własne zostało rozstrzygnięte i wyznaczyliśmy macierz modalną $\vect{\phi}$ (\ref{eq: mat_modal}). Aby uzyskać wartości współczynników $q_n$ dla danego $\vect{x}$, przemnóżmy obie strony równania \ref{eq: normal_coord_komb} przez $\vect{\phi}_n^T\vect{M}$:
 \begin{equation} \label{eq: normal_coord_komb2}
-	\vect{\psi}_n^T\vect{M}\vect{x} = \sum_{r=1}^{N} (\vect{\psi}_n^T\vect{M}\vect{\psi}_r) q_r
+	\vect{\phi}_n^T\vect{M}\vect{x} = \sum_{r=1}^{N} (\vect{\phi}_n^T\vect{M}\vect{\phi}_r) q_r
 \end{equation} 
 
 Ortogonalność wektorów własnych (\ref{eq: eigenvect_orto}) sprawia, że wszystkie składniki powyższej sumy są równe 0 poza tymi, w których $r=n$. Pomińmy więc znak sumy i zapiszmy 
 \begin{equation} \label{eq: normal_coord_kom3}
-	\vect{\psi}_n^T\vect{M}\vect{x} = (\vect{\psi}_n^T\vect{M}\vect{\psi}_n) q_n
+	\vect{\phi}_n^T\vect{M}\vect{x} = (\vect{\phi}_n^T\vect{M}\vect{\phi}_n) q_n
 \end{equation} 
 
 \begin{equation} \label{eq: normal_coord_kom4}
-	q_n = \frac{\vect{\psi}_n^T\vect{M}\vect{x}}{\vect{\psi}_n^T\vect{M}\vect{\psi}_n} 
+	q_n = \frac{\vect{\phi}_n^T\vect{M}\vect{x}}{\vect{\phi}_n^T\vect{M}\vect{\phi}_n} 
 \end{equation} 
 Transformacja do współrzędnych normalnych jest istotnym elementem przewidywania odpowiedzi wymuszonych, liniowych układów MDOF z tłumieniem proporcjonalnym (p. \ref{section: mdof_response}).
 
@@ -223,7 +223,7 @@ Transformacja do współrzędnych normalnych jest istotnym elementem przewidywan
 %\end{equation}
 %Aby doprowadzić równanie \ref{eq: char_equation3} do postaci standardowego problemu własnego wymagane jest wyznaczenie macierzy odwrotnej $\vect{M}^{-1}$. W przypadku kiedy jest to możliwe (na przykład przy pomocy dekompozycji Choleskiego) należy pomnożyć lewostronnie strony równania przez $\vect{M}^{-1}$ co pozwala uzyskać postać (\ref{eq: eige_stan_2}). Ponownie widoczne jest podobieństwo pomiędzy równaniami i powiązanie $(\lambda_i=\omega^2_i)$. Sprowadzenie do standardowego problemu własnego bywa korzystne z punktu widzenia rozwiązania numerycznego. 
 %\begin{equation} \label{eq: eige_stan_2}
-%\vect{M}^{-1}\vect{K}\psi_i=\omega^2_i\psi_i
+%\vect{M}^{-1}\vect{K}\phi_i=\omega^2_i\phi_i
 %\end{equation}
 
 \subsection{Odpowiedź systemów dynamicznych o jednym stopniu swobody} \label{section: sdof_response}
@@ -294,20 +294,20 @@ Systemy o skończonej liczbie stopni swobody mogą charakteryzować się tłumie
 Rozpatrzmy układ MDOF, liniowy o tłumieniu proporcjonalnym dany równaniem \ref{eq: mot_und_num}. Wiemy, że wektor przemieszczeń $\vect{x}$ może być zapisany za pomocą współrzędnych normalnych (p. \ref{section: transform_normal}) co powtórzono dla wygody poniżej:
 
 \begin{equation} \label{eq: superposition_modal_1_przytocz}
-	\vect{x}(t) = \sum_{r=1}^{N} \vect{\psi}_r q_r(t)=\vect{\Psi q}(t)
+	\vect{x}(t) = \sum_{r=1}^{N} \vect{\phi}_r q_r(t)=\vect{\Phi q}(t)
 \end{equation} 
 
-Podstawmy \ref{eq: superposition_modal_1} do równania \ref{eq: mot_und_num}
+Podstawmy \ref{eq: superposition_modal_1_przytocz} do równania \ref{eq: mot_und_num}
 \begin{equation} \label{eq: superposition_modal_2_podstaw}
-	\sum_{r=1}^{N} \vect{M} \vect{\psi}_r \ddot{q}_r(t) +\sum_{r=1}^{N} \vect{C}\vect{\psi}_r \dot{q}_r(t) + \sum_{r=1}^{N} \vect{K}\vect{\psi}_r q_r(t) = \vect{F}(t)
+	\sum_{r=1}^{N} \vect{M} \vect{\phi}_r \ddot{q}_r(t) +\sum_{r=1}^{N} \vect{C}\vect{\phi}_r \dot{q}_r(t) + \sum_{r=1}^{N} \vect{K}\vect{\phi}_r q_r(t) = \vect{F}(t)
 \end{equation} 
-Następnie przemnóżmy z lewej strony każdy składnik przez $\vect{\psi}_n^T$ otrzymując:
+Następnie przemnóżmy z lewej strony każdy składnik przez $\vect{\phi}_n^T$ otrzymując:
 \begin{equation} \label{eq: superposition_modal_3_przemnoz}
-	\sum_{r=1}^{N} \vect{\psi}_n^T \vect{M} \vect{\psi}_r \ddot{q}_r(t) +\sum_{r=1}^{N} \vect{\psi}_n^T \vect{C}\vect{\psi}_r \dot{q}_r(t) + \sum_{r=1}^{N} \vect{\psi}_n^T \vect{K}\vect{\psi}_r q_r(t) = \vect{\psi}_n^T \vect{F}(t)
+	\sum_{r=1}^{N} \vect{\phi}_n^T \vect{M} \vect{\phi}_r \ddot{q}_r(t) +\sum_{r=1}^{N} \vect{\phi}_n^T \vect{C}\vect{\phi}_r \dot{q}_r(t) + \sum_{r=1}^{N} \vect{\phi}_n^T \vect{K}\vect{\phi}_r q_r(t) = \vect{\phi}_n^T \vect{F}(t)
 \end{equation} 
-Podobnie jak w punkcie \ref{section: transform_normal}, ortogonalność wektorów własnych $\vect{\psi}$ sprawia, że wszystkie składniki sum, w których $r\neq n$, zerują się. Możemy więc zapisać zredukowane równanie w postaci
+Podobnie jak w punkcie \ref{section: transform_normal}, ortogonalność wektorów własnych $\vect{\phi}$ sprawia, że wszystkie składniki sum, w których $r\neq n$, zerują się. Możemy więc zapisać zredukowane równanie w postaci
 \begin{equation} \label{eq: superposition_modal_4_orto}
-	 (\vect{\psi}_n^T \vect{M} \vect{\psi}_n )\ddot{q}_n(t) + (\vect{\psi}_n^T \vect{C}\vect{\psi}_n) \dot{q}_n(t) + (\vect{\psi}_n^T \vect{K}\vect{\psi}_n) q_n(t) = \vect{\psi}_n^T \vect{F}(t)
+	 (\vect{\phi}_n^T \vect{M} \vect{\phi}_n )\ddot{q}_n(t) + (\vect{\phi}_n^T \vect{C}\vect{\phi}_n) \dot{q}_n(t) + (\vect{\phi}_n^T \vect{K}\vect{\phi}_n) q_n(t) = \vect{\phi}_n^T \vect{F}(t)
 \end{equation} 
 Zauważmy, że iloczyny zawarte w nawiasach są skalarami. Uprośćmy więc zapis do następującej formy:
 \begin{equation} \label{eq: superposition_modal_5_uprosc}
@@ -315,15 +315,15 @@ Zauważmy, że iloczyny zawarte w nawiasach są skalarami. Uprośćmy więc zapi
 \end{equation} 
 gdzie:
 \begin{equation} \label{eq: superposition_modal_6_podstawki}
-	\mathcal{M}_n= \vect{\psi}_n^T \vect{M} \vect{\psi}_n \qquad 
-	\mathcal{C}_n= \vect{\psi}_n^T \vect{C} \vect{\psi}_n \qquad 
-	\mathcal{K}_n= \vect{\psi}_n^T \vect{K} \vect{\psi}_n \qquad
-	\mathcal{F}_n(t)= \vect{\psi}_n^T \vect{F}(t)
+	\mathcal{M}_n= \vect{\phi}_n^T \vect{M} \vect{\phi}_n \qquad 
+	\mathcal{C}_n= \vect{\phi}_n^T \vect{C} \vect{\phi}_n \qquad 
+	\mathcal{K}_n= \vect{\phi}_n^T \vect{K} \vect{\phi}_n \qquad
+	\mathcal{F}_n(t)= \vect{\phi}_n^T \vect{F}(t)
 \end{equation} 
-Okazuje się, że wszystkie powyższe przekształcenia doprowadzają do tego, że (\ref{eq: superposition_modal_5_uprosc}) jest równaniem o jednym stopniu swobody dla $n$-tej współrzędnej normalnej odpowiadającej $n$-tej postaci drgań. Z tego względu współczynniki $\mathcal{M}_n,\:\mathcal{C}_n,\:\mathcal{K}_n,\:\mathcal{F}_n(t)$ nazywane są odpowiednio uogólnioną masą, uogólnionym tłumieniem, uogólnioną sztywnością i uogólnioną siłą dla $n$-tej postaci własnej \teng{generalized mass, generalized damping, generalized stiffness, generalized force}. Równanie to możemy rozwiązać wszystkimi metodami dotyczącymi układów SDOF przedstawionymi w (p. \ref{section: sdof_response}). Warto też zwrócić uwagę, że wartości $\mathcal{M}_n,\:\mathcal{C}_n,\:\mathcal{K}_n,\:\mathcal{F}_n(t)$ są uzależnione jedynie od pojedynczej postaci drgań $\vect{\psi}_n$. Naturalnie więc, jeśli znamy tylko jeden mod $\vect{\psi}_n$, możemy wyznaczyć odpowiadający mu parametr $q_n$ bez znajomości pozostałych modów.
+Okazuje się, że wszystkie powyższe przekształcenia doprowadzają do tego, że (\ref{eq: superposition_modal_5_uprosc}) jest równaniem o jednym stopniu swobody dla $n$-tej współrzędnej normalnej odpowiadającej $n$-tej postaci drgań. Z tego względu współczynniki $\mathcal{M}_n,\:\mathcal{C}_n,\:\mathcal{K}_n,\:\mathcal{F}_n(t)$ nazywane są odpowiednio uogólnioną masą, uogólnionym tłumieniem, uogólnioną sztywnością i uogólnioną siłą dla $n$-tej postaci własnej \teng{generalized mass, generalized damping, generalized stiffness, generalized force}. Równanie to możemy rozwiązać wszystkimi metodami dotyczącymi układów SDOF przedstawionymi w (p. \ref{section: sdof_response}). Warto też zwrócić uwagę, że wartości $\mathcal{M}_n,\:\mathcal{C}_n,\:\mathcal{K}_n,\:\mathcal{F}_n(t)$ są uzależnione jedynie od pojedynczej postaci drgań $\vect{\phi}_n$. Naturalnie więc, jeśli znamy tylko jeden mod $\vect{\phi}_n$, możemy wyznaczyć odpowiadający mu parametr $q_n$ bez znajomości pozostałych modów.
 Jeśli współczynniki normalne $q_n$ zostały wyznaczone dla $N'$ wybranych (najczęściej kilku istotnych) modów, to wkład $n$-tego modu w całkowitą wartość przemieszczeń $\vect{x}(t)$ wyznaczyć można następująco
 \begin{equation} \label{eq: modal_sup_contr}
-	\vect{x}_n(t) = \vect{\psi}_n q_n(t)
+	\vect{x}_n(t) = \vect{\phi}_n q_n(t)
 \end{equation}
 a wykorzystując równania (\ref{eq: superposition_modal_1_przytocz}) i (\ref{eq: modal_sup_contr}) obliczyć przemieszczenie całkowite
 \begin{equation}
@@ -333,7 +333,7 @@ a wykorzystując równania (\ref{eq: superposition_modal_1_przytocz}) i (\ref{eq
 Sumowanie wkładu poszczególnych postaci drgań w przemieszczenie całkowite jest par excellence superpozycją. Stąd też nazwa: "metoda superpozycji modalnej". Należy wspomnieć o paru istotnych założeniach mogących wpłynąć na zastosowanie tej metody. Jak już wcześniej wspomniano, może być ona wykorzystana tylko w układach liniowych (ze względu na superpozycję) i tłumionych proporcjonalnie. W przypadku tłumienia nieproporcjalnego przekształcenie równania (\ref{eq: superposition_modal_3_przemnoz}) do (\ref{eq: superposition_modal_4_orto}) nie będzie prawdziwe. Warto również pamiętać, że wynikowe przemieszczenia $\vect{x}(t)$ są niezależne od normalizacji wektorów własnych, natomiast współrzędne normalne $q_n(t)$ są od niej ściśle zależne. 
 
 \subsubsection{Metoda całkowania bezpośredniego równań ruchu - Newmarka}
-Metoda Newmarka jest algorytmem opartym na koncepcji kroku czasowego i metodach numerycznych. Zgodnie z koncepcją kroku czasowego całkowity czas podzielony jest na serię kroków czasowych, zwykle o stałej wartości $\Delta t$. Polega on na dyskretyzacji siły wymuszającej i odpowiedzi układu poprzez określenie ich wyłącznie w wybranych chwilach czasowych. Rozpatrzmy ponownie równanie ruchu MDOF:
+Metoda Newmarka jest algorytmem opartym na koncepcji kroku czasowego i metodach numerycznych. Zgodnie z koncepcją kroku czasowego całkowity czas podzielony jest na serię kroków czasowych $\Delta t$. Konsekwencją tego jest dyskretyzacja siły wymuszającej i odpowiedzi układu poprzez określenie ich wyłącznie w wybranych chwilach czasowych. Rozpatrzmy ponownie równanie ruchu MDOF:
 \begin{equation}
 	\vect{M}\vect{\ddot{x}}+\vect{C}\vect{\dot{x}}+\vect{K}\vect{x} = \vect{F}(t)
 \end{equation} 
@@ -345,11 +345,11 @@ gdzie $t_N\leq t_k$. Krokiem czasowym nazywamy różnice pomiędzy kolejnymi zdy
 \begin{equation}
 	\Delta t_i = t_{i+1}-t_i
 \end{equation}
-Jest on zazwyczaj przyjmowany jako stały, ale nie jest to konieczne. Tak jak wymuszenie, odpowiedź również podlega dyskretyzacji w chwilach $t_i$, a więc równanie ruchu można zapisać w nowej formie
+Krok czasowy jest zazwyczaj przyjmowany jako stały, ale nie jest to konieczne. Tak jak wymuszenie, odpowiedź również podlega dyskretyzacji w chwilach $t_i$, a więc równanie ruchu można zapisać w nowej formie
 \begin{equation} \label{eq: motion_time_step}
 	\vect{M}\vect{\ddot{x}}_i+\vect{C}\vect{\dot{x}}_i+\vect{K}\vect{x}_i = \vect{F}_i
 \end{equation}
-Znając warunki początkowe $\vect{x}(0)$ i $\vect{\dot{x}}(0)$ algorytmy wykorzystywane w metodach numerycznych potrafią wyznaczyć rozwiązania równania w kolejnych krokach $i = 1,2\dots N-1,N$. 
+Znając warunki początkowe $\vect{x}(0)$ i $\vect{\dot{x}}(0)$ algorytmy wykorzystywane w metodach numerycznych potrafią wyznaczyć rozwiązania równania w kolejnych krokach $i = 1,2\dots N-1,N$. Należy zaznaczyć, że w metodzie "kroku czasowego" równanie ruchu nie jest spełnione w całej dziedzinie czasu, a jedynie w określonych krokiem $\Delta t$ chwilach czasowych $t_i$.
 
 Rodzina metod numerycznych opartych na koncepcji kroku czasowego została rozwinięta przez Nathana M. Newmarka \parencite{Newmark1959}. Wykorzystuje ona dwa podstawowe równania:
 \begin{subequations} \label{eq: newmark}
@@ -364,7 +364,7 @@ gdzie współczynniki $\beta$ i $\gamma$ definiują zmienność przyspieszeń w 
 \begin{itemize}[noitemsep]
 	\item przyspieszenie stałe - $\gamma = \frac{1}{2},\: \beta = \frac{1}{4}$
 	\item przyspieszenie zmienne liniowo - $\gamma = \frac{1}{2},\: \beta = \frac{1}{6}$
-\end{itemize}[noitemsep]
+\end{itemize}
 Metoda numeryczna do wyznaczenia trzech niewiadomych $\vect{\ddot{x}}_{i+1}$, $\vect{\dot{x}}_{i+1}$ i $\vect{x}_{i+1}$ wymaga układu trzech równań macierzowych. Zatem dwa zaproponowane równania \ref{eq: newmark_a} i \ref{eq: newmark_b}, połączone z równaniem równowagi (\ref{eq: motion_time_step}) zapewnionym na końcu kroku czasowego, pozwalają wyznaczyć przemieszczenia, prędkość i przyspieszenia w chwili $t_{i+1}$. Ze względu na występowanie w równaniach (\ref{eq: newmark}) składników w chwili czasowej $i+1$ po obu stronach równania, algorytm musi mieć charakter iteracyjny. Jednakże istnieją modyfikacje równań, które dla układów liniowych pozwalają rozwiązać układ w jednym kroku.
 
 \subsection{Mała dawka tłumienia}
@@ -415,7 +415,55 @@ Wpływ składowych macierzy tłumienia pochodzących od macierzy mas i macierzy 
 \end{figure}
 Z rysunku \ref{fig: rayleigh_chart} można wysnuć przydatne z praktycznego punktu widzenia wnioski. Założone tłumienie $\zeta$ jest spełnione jedynie dla dwóch użytych w formułach \ref{eq: raileigh_parameters} częstości $\omega_i$ i $\omega_j$. Składnik $c_1=a_1 k$ wzrasta liniowo wraz ze wzrostem częstości. Z kolei składnik $c_0 = a_0 m$ maleje nieliniowo wraz ze wzrostem częstości. Sumaryczna wartość obu składników z reguły gwarantuje dla wąskiego przedziału częstości $<\omega_i ,\omega_j>$ tłumienie zbliżone do zakładanego.
 \section{Dynamiczne obciążenie kolejowe}
-\subsection{Realne obciążenia - tabor}
+Ryzyko nadmiernych drgań mostów kolejowych jest rozpatrywane od samych początków budowy dróg szynowych w Angli na początku XIX w \parencite{Ladislav1996}. Historię tę zwięźle przedstawił w swojej pracy \cite{Szafranski2013}, opierając się na obszernych studiach literatury. Podsumowując doświadczenia naukowców i inżynierów, poza wyjątkowymi przypadkami wykolejeń i uderzeń pociągów w elementy konstrukcyjne, wywołanie niebezpiecznych amplitud drgań mostów związane jest głównie ze zjawiskiem rezonansu. Rezonans mechaniczny może wystąpić w przypadku kiedy pojawia się obciążenie cykliczne, którego częstotliwość oddziaływania pokrywa się z częstotliwością drgań własnych konstrukcji mostu. Kiedy obciążenie jest długotrwałe i w układzie nie ma tłumienia amplitudy drgań mogą teoretycznie rosnąć w nieskończoność. W rzeczywistych konstrukcjach, nie mam możliwości bezgranicznego wzrostu amplitud, z uwagi na tłumienie układu i skończony czas oddziaływania obciążeń ruchomych. Niemniej jednak konstrukcje mostowe charakteryzują się zazwyczaj małym tłumieniem, a obciążenia kolejowe mogą charakteryzować się stosunkowo długim czasem oddziaływania o stałej częstotliwości wymuszenia. W połączeniu z ciągłym rozwojem zarówno taboru kolejowego jak i dróg szynowych, problem wprowadzenia mostu kolejowego w drgania, nawet w normalnych warunkach eksploatacji, wymaga od inżynierów ciągłej pracy badawczej.
+\subsection{Obciążenie dynamiczne mostów kolejowych}
+W trakcie bogatej historii badań nad interakcją taboru kolejowego i konstrukcji mostów rozpoznano kilka oddziaływań charakteryzujących się cyklicznością i długim czasem działania, co spełnia znamiona ryzyka rezonansu \parencite{Fryba2001}. Warto zaznaczyć, że ryzyko to nie dotyczy jedynie oddziaływań pionowych, ale również poprzecznych do osi toru. Opisując kompleksowo zagadnienie, należy rozpocząć od historycznych oddziaływań, niewystępujących już z uwagi na rozwój techniki. Pierwszym z nich był efekt niedokładnego wyważenia kół osi napędowych lokomotywy parowej. Koło takie posiada przeciwwagę dla elementów połączenia z wiązarami, łączącymi koło z osią silnikową. W przypadku braku idealnego wyważenia, koło takie oddziałuje na szynę sinusoidalną siłą. Drugie historyczne oddziaływanie było związane z występowaniem połączeń szyn na obiekcie mostowym. Równo i blisko rozstawione koła przejeżdżające przez przerwę połączenia szyn wywoływano cykliczne uderzenie i w konsekwencji drgania całej konstrukcji. To oddziaływanie również nie występuje już w rzeczywistości, ponieważ obecne przepisy zabraniają łączenia szyn na obiektach mostowych. Poniżej wymieniono obecnie występujące oddziaływania grożące nadmiernymi drganiami mostów.
+ 
+Pierwszą przyczyną pośrednią są duże i wciąż rosnące prędkości eksploatacyjne pociągów. Przy równomiernym lub niemal równomiernym rozstawie osi i przy stałej prędkości przejazdu, siły przekazywane przez koła na szynę pojawiają się okresowo na obiekcie. Istnieje więc ryzyko, że przy rozstawie osi $d$ i przy prędkości taboru $c$ czas potrzebny na pojawienie się kolejnych osi na obiekcie $t$ będzie równy okresowi drgań $T_i$. Okres $T_i$ odpowiada częstotliwości drgań własnych konstrukcji $T_i=f_i$. Jednakże wzbudzenie może nastąpić również dla wielokrotności (lub ułamka) $k$ okresu drgań. W takim przypadku kolejne siły przykładane są do obiektu co $k$-te wychylenie konstrukcji z położenia równowagi. Prędkość związana z niekorzystną koincydencją $t=kT_i$ nazywana jest prędkością krytyczną \teng{critical speed}. Równaniem (\ref{eq:critical_speed_1}) opisano równość czasu $t$ i okresu $T_i$:
+\begin{equation} \label{eq:critical_speed_1}
+	t=\frac{d}{c}=\frac{k}{f_i}=T_i \quad\text{dla}\quad
+	\begin{matrix*}[l]
+		i=1,2,3\dots\ \\
+		k=1,2\dots,1/2,1/3,\dots
+	\end{matrix*}
+\end{equation}
+
+Na podstawie równania (\ref{eq:critical_speed_1}) wyznaczyć można prędkość krytyczną $c_{cr}$:
+\begin{equation} \label{eq:critical_speed_2}
+	c_{cr}=\frac{df_i}{k}\quad \text{dla}\quad
+		\begin{matrix*}[l]
+		i=1,2,3\dots\ \\
+		k=1,2\dots,1/2,1/3,\dots
+	\end{matrix*}
+\end{equation}
+%Częstotliwość pojawiania się kolejnych osi jest oczywiście związana z prędkością. Niemniej \cite{Fryba2001} podaje również drugą formułę na prędkość krytyczną, w której zakłada się dla małego tłumienia równość $\omega_j^2 = j^2 \omega^2$, gdzie $\omega_j$ oznacza częstość drgań własnych konstrukcji, a $\omega = \frac{\pi c}{l}$, gdzie $c$ jest prędkością przejazdu, a $l$ rozpiętością przęsła. Formuła na drugi rodzaj prędkości krytycznej jest następująca:
+%\begin{equation}
+%	c_{cr}=\frac{2lf_j}{j}\quad\text{dla}j=1,2,3\dots\ 
+%\end{equation}
+
+Drugim niebagatelnym czynnikiem wpływającym na drgania obiektu mostowego przy przejeździe taboru są nierównomierności jezdni \parencite{Ladislav1996}. Są one wynikiem odchyleń wewnętrznych krawędzi szyn od idealnej, projektowanej geometrii. Dla danego punktu wzdłuż osi toru rozróżnia się cztery typy nierównomierności:
+\begin{itemize}[noitemsep]
+	\item nierównomierność wysokościowa:
+	\begin{itemize}
+		\item średnia zmiana wysokości osi toru,
+		\item różnica wysokości toków szynowych,
+	\end{itemize}
+	\item nierównomierność poprzeczna:
+	\begin{itemize}
+		\item średnie przesunięcie poprzeczne osi toru,
+		\item zbliżenie/oddalenie się toków szynowych.
+	\end{itemize}
+\end{itemize}
+Nierównomierności wysokościowe wpływają głównie na pionowe drgania konstrukcji, a poprzeczne na poziome i skrętne. Każdy z typów może mieć charakter cykliczny lub losowy. 
+
+Nierównomierności cykliczne opisane mogą być za pomocą szeregów Fouriera \parencite{Ladislav1996}. Rozwiązanie to pozwala również na opisanie jako nierównomierności toru pokrewnych, rzeczywistych efektów takich jak efekt wypłaszczenia powierzchni tocznej obręczy kół \parencite{Zhou2020} czy efekt zmiany sztywności jezdni na poprzecznicach i podkładach w pomoście z jezdnią otwartą \parencite{Fryba1999}. Z drugiej strony, nierównomierności losowe najczęściej są efektem źle wykonanego lub źle utrzymywanego toru. Powyższe oddziaływania wywołują z reguły pionowe drgania. Z kolei poprzeczne wzbudzenia związane mogą być z podłużnymi lub poprzecznymi siłami. Pierwsze z nich wynikają głównie z przyspieszenia bądź hamowania taboru na moście. Drgania poprzeczne związane są głównie z bocznymi ruchami pojazdu. Mają one swoje źródło w nierównomiernościach poprzecznych toru, mechanizmie wężykowania \parencite{Babe2016} i występowaniu siły odśrodkowej. Na rysunku \ref{} przedstawiono schemat podsumowujące rzeczywiste oddziaływania \parencite{Ladislav1996}.
+
+
+
+
+
+
+
 \subsection{Modele obciążenia}
 \subsection{Przepisy normowe i wytyczne.}
 \section{Analiza dynamiczna w Metodzie Elementów Skończonych}

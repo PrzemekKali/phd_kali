@@ -414,9 +414,38 @@ Wpływ składowych macierzy tłumienia pochodzących od macierzy mas i macierzy 
 	\label{fig: rayleigh_chart}
 \end{figure}
 Z rysunku \ref{fig: rayleigh_chart} można wysnuć przydatne z praktycznego punktu widzenia wnioski. Założone tłumienie $\zeta$ jest spełnione jedynie dla dwóch użytych w formułach \ref{eq: raileigh_parameters} częstości $\omega_i$ i $\omega_j$. Składnik $c_1=a_1 k$ wzrasta liniowo wraz ze wzrostem częstości. Z kolei składnik $c_0 = a_0 m$ maleje nieliniowo wraz ze wzrostem częstości. Sumaryczna wartość obu składników z reguły gwarantuje dla wąskiego przedziału częstości $<\omega_i ,\omega_j>$ tłumienie zbliżone do zakładanego.
+
+
+
+
 \section{Dynamiczne obciążenie kolejowe}
 Ryzyko nadmiernych drgań mostów kolejowych jest rozpatrywane od samych początków budowy dróg szynowych w Angli na początku XIX w \parencite{Ladislav1996}. Historię tę zwięźle przedstawił w swojej pracy \cite{Szafranski2013}, opierając się na obszernych studiach literatury. Podsumowując doświadczenia naukowców i inżynierów, poza wyjątkowymi przypadkami wykolejeń i uderzeń pociągów w elementy konstrukcyjne, wywołanie niebezpiecznych amplitud drgań mostów związane jest głównie ze zjawiskiem rezonansu. Rezonans mechaniczny może wystąpić w przypadku kiedy pojawia się obciążenie cykliczne, którego częstotliwość oddziaływania pokrywa się z częstotliwością drgań własnych konstrukcji mostu. Kiedy obciążenie jest długotrwałe i w układzie nie ma tłumienia amplitudy drgań mogą teoretycznie rosnąć w nieskończoność. W rzeczywistych konstrukcjach, nie mam możliwości bezgranicznego wzrostu amplitud, z uwagi na tłumienie układu i skończony czas oddziaływania obciążeń ruchomych. Niemniej jednak konstrukcje mostowe charakteryzują się zazwyczaj małym tłumieniem, a obciążenia kolejowe mogą charakteryzować się stosunkowo długim czasem oddziaływania o stałej częstotliwości wymuszenia. W połączeniu z ciągłym rozwojem zarówno taboru kolejowego jak i dróg szynowych, problem wprowadzenia mostu kolejowego w drgania, nawet w normalnych warunkach eksploatacji, wymaga od inżynierów ciągłej pracy badawczej.
-\subsection{Obciążenie dynamiczne mostów kolejowych}
+
+\subsection{Efekty dynamiczne w mostach kolejowych}
+Obecnie rozważania dotyczące oddziaływań taboru na mostu kolejowe skupiają się przede wszystkim na obiektach projektowanych wzdłuż Linii Dużych Prędkości (LDP). Oczywiście od wielu lat w przypadku wszystkich mostów kolejowych należy sprawdzić dwa główne kryteria: wytrzymałości i odporności konstrukcji oraz bezpiecznego i komfortowego użytkowania. W ramach pierwszego sprawdzane są zwykle naprężenia i deformacje konstrukcji. ZMĘCZENIE? \parencite{Ladislav2008}
+
+
+Drugie kryterium jest znacznie bardziej złożone i restrykcyjne w przypadku mostów w ciągu LDP. Poza relatywnie prostym w zrozumieniu komfortem pasażera, wymaga ono sprawdzenia bezpieczeństwa nawierzchni kolejowej na moście. Zakłada się, że nawierzchnia jest bezpieczna jeśli jest stabilna i wskutek przejazdu nie nastąpi ryzyko zerwania kontaktu pomiędzy szyną i kołem \parencite{Ramondenc2008}. Przy regularnie utrzymywanym torze, utrata stabilności nawierzchni może nastąpić przede wszystkim w przypadku rozluźnienia podsypki wskutek ścierania się tłucznia. Pierwszy raz z tym problemem zetknięto się w trakcie utrzymania obiektów mostowych w ciągu trasy francuskiego TGV \parencite{Ramondenc1998}. Niestateczność podsypki może skutkować zmniejszeniem siły w styku koła i szyny, a w skrajnym wariancie wykolejeniem się pociągu. Kolejną klasę problemów mogących wpłynąć na zaburzenie styku koła z szyną są zmiany geometrii toru wywołane przejazdem taboru po obiekcie. Mogą one wynikać z ugięcia wspornika za osią podparcia mostu, z obrotu konstrukcji na łożysku w skutek ugięcia przęsła, ze skręcenia toru po długości obiektu czy ze zmiany krzywizny w planie \parencite{Niemierko}. Dodatkowo z uwagi na 
+
+Duża prędkość taboru, a w związku z tym wzmożone kryteria bezpieczeństwa i komfortu pasażerów wymagają sprawdzenia szeregu czynników.  Z uwagi na bezpieczeństwo ruchu już na etapie projektowania należy rozważyć następujące wartości \parencite{Niemierko}:
+\begin{itemize}[noitemsep]
+	\item przyspieszenia przęsła,
+	\item pionowych ugięcia pomostu,
+	\item reakcje (uniemożliwić odrywanie na łożyskach),
+	\item przemieszczenia wspornika przęsła poza osią podparcia,
+	\item kąty skręcenia przęsła,
+	\item kąty obrotu na łożyskach,
+	\item przemieszczenia wzdłuż osi podłużnej mostu,
+	\item ugięcie w poprzek mostu,
+	\item kąt obrotu przęsła w poziomie,
+	\item częstotliwości drgań własnych konstrukcji.
+\end{itemize}
+
+\subsection{Tabor realny i modele}
+\parencite{J.M.Goicolea-Ruigomez2008}
+
+
+\subsection{Oddziaływania dynamiczne taboru na mostach kolejowych}
 W trakcie bogatej historii badań nad interakcją taboru kolejowego i konstrukcji mostów rozpoznano kilka oddziaływań charakteryzujących się cyklicznością i długim czasem działania, co spełnia znamiona ryzyka rezonansu \parencite{Fryba2001}. Warto zaznaczyć, że ryzyko to nie dotyczy jedynie oddziaływań pionowych, ale również poprzecznych do osi toru. Opisując kompleksowo zagadnienie, należy rozpocząć od historycznych oddziaływań, niewystępujących już z uwagi na rozwój techniki. Pierwszym z nich był efekt niedokładnego wyważenia kół osi napędowych lokomotywy parowej. Koło takie posiada przeciwwagę dla elementów połączenia z wiązarami, łączącymi koło z osią silnikową. W przypadku braku idealnego wyważenia, koło takie oddziałuje na szynę sinusoidalną siłą. Drugie historyczne oddziaływanie było związane z występowaniem połączeń szyn na obiekcie mostowym. Równo i blisko rozstawione koła przejeżdżające przez przerwę połączenia szyn wywoływano cykliczne uderzenie i w konsekwencji drgania całej konstrukcji. To oddziaływanie również nie występuje już w rzeczywistości, ponieważ obecne przepisy zabraniają łączenia szyn na obiektach mostowych. Poniżej wymieniono obecnie występujące oddziaływania grożące nadmiernymi drganiami mostów.
  
 Pierwszą przyczyną pośrednią są duże i wciąż rosnące prędkości eksploatacyjne pociągów. Przy równomiernym lub niemal równomiernym rozstawie osi i przy stałej prędkości przejazdu, siły przekazywane przez koła na szynę pojawiają się okresowo na obiekcie. Istnieje więc ryzyko, że przy rozstawie osi $d$ i przy prędkości taboru $c$ czas potrzebny na pojawienie się kolejnych osi na obiekcie $t$ będzie równy okresowi drgań $T_i$. Okres $T_i$ odpowiada częstotliwości drgań własnych konstrukcji $T_i=f_i$. Jednakże wzbudzenie może nastąpić również dla wielokrotności (lub ułamka) $k$ okresu drgań. W takim przypadku kolejne siły przykładane są do obiektu co $k$-te wychylenie konstrukcji z położenia równowagi. Prędkość związana z niekorzystną koincydencją $t=kT_i$ nazywana jest prędkością krytyczną \teng{critical speed}. Równaniem (\ref{eq:critical_speed_1}) opisano równość czasu $t$ i okresu $T_i$:
@@ -436,10 +465,11 @@ Na podstawie równania (\ref{eq:critical_speed_1}) wyznaczyć można prędkość
 		k=1,2\dots,1/2,1/3,\dots
 	\end{matrix*}
 \end{equation}
-%Częstotliwość pojawiania się kolejnych osi jest oczywiście związana z prędkością. Niemniej \cite{Fryba2001} podaje również drugą formułę na prędkość krytyczną, w której zakłada się dla małego tłumienia równość $\omega_j^2 = j^2 \omega^2$, gdzie $\omega_j$ oznacza częstość drgań własnych konstrukcji, a $\omega = \frac{\pi c}{l}$, gdzie $c$ jest prędkością przejazdu, a $l$ rozpiętością przęsła. Formuła na drugi rodzaj prędkości krytycznej jest następująca:
-%\begin{equation}
-%	c_{cr}=\frac{2lf_j}{j}\quad\text{dla}j=1,2,3\dots\ 
-%\end{equation}
+Częstotliwość pojawiania się kolejnych osi jest oczywiście związana z prędkością $c$ i rozstawem osi $d$. \cite{Fryba2001} podaje również drugą formułę na prędkość krytyczną, której osiągnięcie grozi destabilizacją przęsła. Wzór na tę prędkość wyznaczony dla belki swobodnie podparty podano następujący:
+\begin{equation}
+	c_{cr}=\frac{2lf_j}{j}\quad\text{dla}j=1,2,3\dots\ 
+\end{equation}
+Jak podaje autor, prędkości powodujące destabilizację przęsła są aktualnie zbyt wysokie i nieosiągalne w praktyce, ale należy je rozważyć w kontekście rozwoju technologicznego transportu \parencite{Ladislav2008}.
 
 Drugim niebagatelnym czynnikiem wpływającym na drgania obiektu mostowego przy przejeździe taboru są nierównomierności jezdni \parencite{Ladislav1996}. Są one wynikiem odchyleń wewnętrznych krawędzi szyn od idealnej, projektowanej geometrii. Dla danego punktu wzdłuż osi toru rozróżnia się cztery typy nierównomierności:
 \begin{itemize}[noitemsep]
@@ -456,8 +486,17 @@ Drugim niebagatelnym czynnikiem wpływającym na drgania obiektu mostowego przy 
 \end{itemize}
 Nierównomierności wysokościowe wpływają głównie na pionowe drgania konstrukcji, a poprzeczne na poziome i skrętne. Każdy z typów może mieć charakter cykliczny lub losowy. 
 
-Nierównomierności cykliczne opisane mogą być za pomocą szeregów Fouriera \parencite{Ladislav1996}. Rozwiązanie to pozwala również na opisanie jako nierównomierności toru pokrewnych, rzeczywistych efektów takich jak efekt wypłaszczenia powierzchni tocznej obręczy kół \parencite{Zhou2020} czy efekt zmiany sztywności jezdni na poprzecznicach i podkładach w pomoście z jezdnią otwartą \parencite{Fryba1999}. Z drugiej strony, nierównomierności losowe najczęściej są efektem źle wykonanego lub źle utrzymywanego toru. Powyższe oddziaływania wywołują z reguły pionowe drgania. Z kolei poprzeczne wzbudzenia związane mogą być z podłużnymi lub poprzecznymi siłami. Pierwsze z nich wynikają głównie z przyspieszenia bądź hamowania taboru na moście. Drgania poprzeczne związane są głównie z bocznymi ruchami pojazdu. Mają one swoje źródło w nierównomiernościach poprzecznych toru, mechanizmie wężykowania \parencite{Babe2016} i występowaniu siły odśrodkowej. Na rysunku \ref{} przedstawiono schemat podsumowujące rzeczywiste oddziaływania \parencite{Ladislav1996}.
+Nierównomierności cykliczne opisane mogą być za pomocą szeregów Fouriera \parencite{Ladislav1996}. Rozwiązanie to pozwala również na opisanie jako nierównomierności toru pokrewnych, rzeczywistych efektów takich jak efekt wypłaszczenia powierzchni tocznej obręczy kół \parencite{Zhou2020} czy efekt zmiany sztywności jezdni na poprzecznicach i podkładach w pomoście z jezdnią otwartą \parencite{Fryba1999}. Z drugiej strony, nierównomierności losowe najczęściej są efektem źle wykonanego lub źle utrzymywanego toru. Powyższe oddziaływania wywołują z reguły pionowe drgania. Z kolei poprzeczne wzbudzenia związane mogą być z podłużnymi lub poprzecznymi siłami. Pierwsze z nich wynikają głównie z przyspieszenia bądź hamowania taboru na moście. Drgania poprzeczne związane są głównie z bocznymi ruchami pojazdu. Mają one swoje źródło w nierównomiernościach poprzecznych toru, mechanizmie wężykowania \parencite{Babe2016} i występowaniu siły odśrodkowej. Na rysunku \ref{fig:railway_dynamic_forces} przedstawiono schemat podsumowujące rzeczywiste oddziaływania.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{/dynamic_railway/railway_bridges_forces_croped.pdf} 
+	\captionsetup{justification=centering}
+	\caption{Zestawienie efektów dynamicznych działających na konstrukcję mostu w trakcie przejazdu taboru kolejowego (na podstawie \parencite{Ladislav1996})}
+	\label{fig:railway_dynamic_forces}
+\end{figure}
 
+
+Pierwsze z nich utożsamiane jest z normowym Stanem Granicznym Nośności, a drugie ze Stanem Granicznym Użytkowania \parencite{PolskiKomitetNormalizacyjny2004}. 
 
 
 

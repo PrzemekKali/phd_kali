@@ -321,6 +321,9 @@
       \field{year}{2012}
       \field{pages}{248}
       \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2012{\_}Bachmann et al.{\_}Vibration Problems in Structures Practical Guidelines.pdf:pdf
+      \endverb
       \keyw{Science / Mechanics / Dynamics,Technology {\&} Engineering / Construction / General,Technology {\&} Engineering / Construction / Heating,Technology {\&} Engineering / Engineering (General),Technology {\&} Engineering / General,Technology {\&} Engineering / Manufacturing,Technology {\&} Engineering / Mechanical}
     \endentry
     \entry{Banach2017}{thesis}{}
@@ -684,6 +687,9 @@
       \field{year}{2001}
       \field{pages}{441}
       \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2001{\_}Brincker, Zhang, Andersen{\_}Modal identification of output-only systems using frequency domain decomposition.pdf:pdf
+      \endverb
     \endentry
     \entry{Brownjohn2010}{article}{}
       \name{author}{4}{}{%
@@ -786,6 +792,64 @@
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2011{\_}Caicedo{\_}Practical guidelines for the natural excitation technique (NExT) and the eigensystem realization algorithm (ERA) for modal.pdf:pdf
       \endverb
       \keyw{Civil and Environmental Engineering,Eigensystem,Engineering,Environmental Engineering,Experimental Techniques,Structural Engineering,algorithms,ambient variations,modal identification,natural excitation techniques,practical guidelines}
+    \endentry
+    \entry{Calcada2008}{book}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5ec54e22526c5ba0b40eef9ce54e81f9}{%
+           family={Calçada},
+           familyi={C\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9a350ed11b4ef6a42e1a8eecbc1eba0}{%
+           family={Delgado},
+           familyi={D\bibinitperiod},
+           given={Raimundo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5942204c08ce6f021a6aad63ad7077a}{%
+           family={Matos},
+           familyi={M\bibinitperiod},
+           given={Antönio\bibnamedelima Campos},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           prefix={e},
+           prefixi={e\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=7b019f16fe2838e9b32e90886ab8d4a3}{%
+           family={Goicolea},
+           familyi={G\bibinitperiod},
+           given={Jose\bibnamedelima Maria},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1419ddb3c2824c90e4dbf5a42649ded}{%
+           family={Gabaldon},
+           familyi={G\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{ef0704365ce8684374573bbfe0c0f475}
+      \strng{fullhash}{27b199c1a118c8cc0048e40aca7beced}
+      \strng{bibnamehash}{ef0704365ce8684374573bbfe0c0f475}
+      \strng{authorbibnamehash}{ef0704365ce8684374573bbfe0c0f475}
+      \strng{authornamehash}{ef0704365ce8684374573bbfe0c0f475}
+      \strng{authorfullhash}{27b199c1a118c8cc0048e40aca7beced}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0203895398}
+      \field{title}{{Track-Bridge Interaction on High-Speed Railways: Selected and revised papers from the Workshop on Track-Bridge Interaction on High-Speed Railways, Porto, Portugal, 15-16 October, 2007}}
+      \field{year}{2008}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2008{\_}Cal{\c{c}}ada et al.{\_}Track-Bridge Interaction on High-Speed Railways Selected and revised papers from the Workshop on Track-Bridge Intera.pdf:pdf
+      \endverb
     \endentry
     \entry{Campigotto2013}{article}{}
       \name{author}{3}{}{%
@@ -1305,6 +1369,32 @@
       \endverb
       \verb{file}
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2006{\_}Coello Coello, Reyes-Sierra{\_}Multi-Objective Particle Swarm Optimizers A Survey of the State-of-the-Art.pdf:pdf
+      \endverb
+    \endentry
+    \entry{ERRI1998}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cc0b455039068998065e24b139249139}{%
+           family={{Comittee ERRI D214}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc0b455039068998065e24b139249139}
+      \strng{fullhash}{cc0b455039068998065e24b139249139}
+      \strng{bibnamehash}{cc0b455039068998065e24b139249139}
+      \strng{authorbibnamehash}{cc0b455039068998065e24b139249139}
+      \strng{authornamehash}{cc0b455039068998065e24b139249139}
+      \strng{authorfullhash}{cc0b455039068998065e24b139249139}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{European Rail Research institute}
+      \field{title}{{Design of Railway Bridges for Speed up to 350 km/h; Dynamic loading effects including resonance; Final report. Draft C.}}
+      \field{type}{techreport}
+      \field{year}{1998}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/1998{\_}Comittee ERRI D214{\_}Design of Railway Bridges for Speed up to 350 kmh Dynamic loading effects including resonance Final report. Draf.pdf:pdf
       \endverb
     \endentry
     \entry{Dan2015}{article}{}
@@ -2042,12 +2132,6 @@
       \verb{file}
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2001{\_}Fr{\'{y}}ba{\_}A rough assessment of railway bridges for high speed trains.pdf:pdf
       \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0141029600000572 http://files/905/Fr{\'{y}}ba - 2001 - A rough assessment of railway bridges for high spe.pdf
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0141029600000572%20http://files/905/Fr%7B%5C'%7By%7D%7Dba%20-%202001%20-%20A%20rough%20assessment%20of%20railway%20bridges%20for%20high%20spe.pdf
-      \endverb
     \endentry
     \entry{Fryba1999}{book}{}
       \name{author}{1}{}{%
@@ -2089,6 +2173,9 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1680/vosasuml.35393
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/1999{\_}Fr{\'{y}}ba{\_}Vibration of Solids and Structures under Moving Loads.pdf:pdf
       \endverb
       \keyw{dynamics of bridges,railway bridges,resonance vibration}
     \endentry
@@ -2192,6 +2279,117 @@
       \field{year}{1994}
       \field{pages}{676}
       \range{pages}{1}
+    \endentry
+    \entry{Goicolea2008a}{incollection}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=37f7567c9b381c0c62048c44c89c5915}{%
+           family={Goicolea},
+           familyi={G\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=dfdd172b758ff5e9c59268ca76c2cc69}{%
+           family={Gabaldón},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd35a098f0bdcdb796bc86b7a4762446}{%
+           family={Domínguez},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0c9d98b00225806126855f32c093c4a}{%
+           family={Navarro},
+           familyi={N\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press Taylor {\&} Francis/Balkema}%
+      }
+      \strng{namehash}{87836bc8eaecec93840d10c7b47a7f3e}
+      \strng{fullhash}{dd106255055f19791d4476834fe292c8}
+      \strng{bibnamehash}{87836bc8eaecec93840d10c7b47a7f3e}
+      \strng{authorbibnamehash}{87836bc8eaecec93840d10c7b47a7f3e}
+      \strng{authornamehash}{87836bc8eaecec93840d10c7b47a7f3e}
+      \strng{authorfullhash}{dd106255055f19791d4476834fe292c8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Bridges for High-Speed Railways}
+      \field{chapter}{4}
+      \field{title}{{Dynamic loads in new engineering codes for railway bridges in Europe and Spain}}
+      \field{year}{2008}
+      \field{pages}{16}
+      \range{pages}{1}
+    \endentry
+    \entry{Goicolea2008}{incollection}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=2fe6903201999f65e573eac4b2437471}{%
+           family={Goicolea},
+           familyi={G\bibinitperiod},
+           given={Jose\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8206fc0f876f633f2daff0e82407bbab}{%
+           family={Gabaldón},
+           familyi={G\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=d9a350ed11b4ef6a42e1a8eecbc1eba0}{%
+           family={Delgado},
+           familyi={D\bibinitperiod},
+           given={Raimundo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d672085a938d2ea6cd383cbe3fbf797d}{%
+           family={Calcada},
+           familyi={C\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7b019f16fe2838e9b32e90886ab8d4a3}{%
+           family={Goicolea},
+           familyi={G\bibinitperiod},
+           given={Jose\bibnamedelima Maria},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d1419ddb3c2824c90e4dbf5a42649ded}{%
+           family={Gabaldon},
+           familyi={G\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{09795e8615b4c681a34eb0d641c3e9fa}
+      \strng{fullhash}{09795e8615b4c681a34eb0d641c3e9fa}
+      \strng{bibnamehash}{09795e8615b4c681a34eb0d641c3e9fa}
+      \strng{authorbibnamehash}{09795e8615b4c681a34eb0d641c3e9fa}
+      \strng{authornamehash}{09795e8615b4c681a34eb0d641c3e9fa}
+      \strng{authorfullhash}{09795e8615b4c681a34eb0d641c3e9fa}
+      \strng{editorbibnamehash}{bc4efcd1df9f4d8dd7f0f35d86fc05a8}
+      \strng{editornamehash}{bc4efcd1df9f4d8dd7f0f35d86fc05a8}
+      \strng{editorfullhash}{6f856296454181825d4d82f4076372a1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Dynamics of High-Speed Railway Bridges}
+      \field{chapter}{2}
+      \field{title}{{Design issues related to dynamic effects for high speed railway bridges in Spain}}
+      \field{year}{2008}
+      \field{pages}{10}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2008{\_}Goicolea, Gabald{\'{o}}n{\_}Design issues related to dynamic effects for high speed railway bridges in Spain.pdf:pdf
+      \endverb
     \endentry
     \entry{Goldberg1995}{book}{}
       \name{author}{1}{}{%
@@ -2354,6 +2552,55 @@
       \range{pages}{40}
       \verb{file}
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2018{\_}Harrison, Engelbrecht, Ombuki-Berman{\_}Self-adaptive particle swarm optimization a review and analysis of convergence.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hartmann2007}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=db025feab56848c2f058729f9dba153f}{%
+           family={Hartmann},
+           familyi={H\bibinitperiod},
+           given={Friedel},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6c976cdf8051f6e12bf5fa31d36b9d4}{%
+           family={Katz},
+           familyi={K\bibinitperiod},
+           given={Casimir},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{e68a06e6eafcb56463ed13025a86624f}
+      \strng{fullhash}{e68a06e6eafcb56463ed13025a86624f}
+      \strng{bibnamehash}{e68a06e6eafcb56463ed13025a86624f}
+      \strng{authorbibnamehash}{e68a06e6eafcb56463ed13025a86624f}
+      \strng{authornamehash}{e68a06e6eafcb56463ed13025a86624f}
+      \strng{authorfullhash}{e68a06e6eafcb56463ed13025a86624f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Structural Analysis with Finite Elements, 2nd Edition provides a solid introduction to the foundation and the application of the finite element method in structural analysis. It offers new theoretical insight and practical advice on why finite element results are 'wrong,' why support reactions are relatively accurate, why stresses at midpoints are more reliable, why averaging the stresses sometimes may not help or why the equilibrium conditions are violated. This second edition contains additional sections on sensitivity analysis, on retrofitting structures, on the Generalized FEM (X-FEM) and on model adaptivity. An additional chapter treats the boundary element method, and related software is available at www.winfem.de.}
+      \field{edition}{2}
+      \field{isbn}{978-3-540-49698-4}
+      \field{month}{7}
+      \field{title}{{Structural Analysis with Finite Elements}}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://www.springer.com/gp/book/9783540496984 http://files/596/9783540496984.html
+      \endverb
+      \verb{url}
+      \verb https://www.springer.com/gp/book/9783540496984%20http://files/596/9783540496984.html
       \endverb
     \endentry
     \entry{Ho1966}{article}{}
@@ -2661,6 +2908,34 @@
       \verb{doi}
       \verb 10.23919/acc.1983.4788259
       \endverb
+    \endentry
+    \entry{Inglis1934}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ea4ac73273010de5c3058026b8b387ce}{%
+           family={Inglis},
+           familyi={I\bibinitperiod},
+           given={Charles\bibnamedelima Edward},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{ea4ac73273010de5c3058026b8b387ce}
+      \strng{fullhash}{ea4ac73273010de5c3058026b8b387ce}
+      \strng{bibnamehash}{ea4ac73273010de5c3058026b8b387ce}
+      \strng{authorbibnamehash}{ea4ac73273010de5c3058026b8b387ce}
+      \strng{authornamehash}{ea4ac73273010de5c3058026b8b387ce}
+      \strng{authorfullhash}{ea4ac73273010de5c3058026b8b387ce}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1107536529}
+      \field{title}{{A mathematical treatise on vibrations in railway bridges}}
+      \field{year}{1934}
     \endentry
     \entry{Inman1995}{inproceedings}{}
       \name{author}{2}{}{%
@@ -3024,6 +3299,9 @@
       \field{year}{1963}
       \field{pages}{152\bibrangedash 192}
       \range{pages}{41}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/1963{\_}Kalman{\_}Mathematical description of linear dynamical systems.pdf:pdf
+      \endverb
     \endentry
     \entry{Kammer1991}{article}{}
       \name{author}{1}{}{%
@@ -3278,6 +3556,37 @@
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2002{\_}Kennedy, Mendes{\_}Population structure and particle swarm performance.pdf:pdf
       \endverb
     \endentry
+    \entry{Kleiber1985}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f1b1691cf6797ec6fc6ab4aa91868de}{%
+           family={Kleiber},
+           familyi={K\bibinitperiod},
+           given={Micha{ł}},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Państwowe Wydawnictwo Naukowe}%
+      }
+      \strng{namehash}{3f1b1691cf6797ec6fc6ab4aa91868de}
+      \strng{fullhash}{3f1b1691cf6797ec6fc6ab4aa91868de}
+      \strng{bibnamehash}{3f1b1691cf6797ec6fc6ab4aa91868de}
+      \strng{authorbibnamehash}{3f1b1691cf6797ec6fc6ab4aa91868de}
+      \strng{authornamehash}{3f1b1691cf6797ec6fc6ab4aa91868de}
+      \strng{authorfullhash}{3f1b1691cf6797ec6fc6ab4aa91868de}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Accession Number: bg.000069576; Corporate Authors: Państwowe Wydawnictwo Naukowe (1951-1992)., Polska Akademia Nauk. Instytut Podstawowych Problemów Techniki. Instytucja sprawcza; Other Notes: Bibliogr. przy rozdz.; Publication Type: Book; Physical Description: 300 s. : il. ; 25 cm.; Language: Polish}
+      \field{isbn}{8301050519}
+      \field{series}{Biblioteka Mechaniki Stosowanej}
+      \field{title}{{Metoda elementów skończonych w nieliniowej mechanice kontinuum.}}
+      \field{year}{1985}
+      \keyw{Mechanika nieliniowa,Metoda elementów skończonych}
+    \endentry
     \entry{Knowles2000}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f560f36ea9b12478c07eb4ad51d39fd2}{%
@@ -3319,6 +3628,59 @@
       \verb{file}
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2000{\_}Knowles, Corne{\_}Approximating the nondominated front using the Pareto archived evolution strategy.pdf:pdf
       \endverb
+    \endentry
+    \entry{Kolousek1973}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c58d90b694bda27fcc6885badbff3709}{%
+           family={Kolousek},
+           familyi={K\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=b9ae4eea6d2aa552cf3bff71f812a286}{%
+           family={McLean},
+           familyi={M\bibinitperiod},
+           given={Reuben\bibnamedelima Fraser},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=a56b19af2270cba348558bf0ba32359b}{%
+           family={Fleming},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima Smith},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=57fb28cee9fbb096d1a4d437508e1d1b}{%
+           family={Hajsmanova},
+           familyi={H\bibinitperiod},
+           given={Doubravka},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Butterworths}%
+      }
+      \strng{namehash}{c58d90b694bda27fcc6885badbff3709}
+      \strng{fullhash}{c58d90b694bda27fcc6885badbff3709}
+      \strng{bibnamehash}{c58d90b694bda27fcc6885badbff3709}
+      \strng{authorbibnamehash}{c58d90b694bda27fcc6885badbff3709}
+      \strng{authornamehash}{c58d90b694bda27fcc6885badbff3709}
+      \strng{authorfullhash}{c58d90b694bda27fcc6885badbff3709}
+      \strng{editorbibnamehash}{24134ff8a83e322f073b79bc73cb6055}
+      \strng{editornamehash}{24134ff8a83e322f073b79bc73cb6055}
+      \strng{editorfullhash}{24134ff8a83e322f073b79bc73cb6055}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Three fold. leaves in pocket. Also published in Czech, Praha [Prague]: Publishing House of the Czechoslovak Academy of Sciences, 1973. Includes index. Bibliography: p. 573-576.}
+      \field{isbn}{0408701609}
+      \field{title}{{Dynamics in engineering structures}}
+      \field{year}{1973}
+      \keyw{Structural dynamics.}
     \endentry
     \entry{Ladislav1996}{book}{}
       \name{author}{1}{}{%
@@ -3402,6 +3764,71 @@
       \range{pages}{63}
       \verb{file}
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2013{\_}Lalwani et al.{\_}A comprehensive survey Applications of multi-objective particle swarm optimization (MOPSO) algorithm.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Langtangen2019}{incollection}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b1ba9610a18cb091d0a9602e75b8476f}{%
+           family={Langtangen},
+           familyi={L\bibinitperiod},
+           given={Hans\bibnamedelima Petter},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c098c845b5c93103aab7bcdeb7d8028}{%
+           family={Mardal},
+           familyi={M\bibinitperiod},
+           given={Kent-Andre},
+           giveni={K\bibinithyphendelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=b1ba9610a18cb091d0a9602e75b8476f}{%
+           family={Langtangen},
+           familyi={L\bibinitperiod},
+           given={Hans\bibnamedelima Petter},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7c098c845b5c93103aab7bcdeb7d8028}{%
+           family={Mardal},
+           familyi={M\bibinitperiod},
+           given={Kent-Andre},
+           giveni={K\bibinithyphendelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{fullhash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{bibnamehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{authorbibnamehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{authornamehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{authorfullhash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{editorbibnamehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{editornamehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{editorfullhash}{fe6c10c20668406d7bf06c2520190c8e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The finite element method is a rich and versatile approach to construct computational schemes to solve any partial differential equation on any domain in any dimension. The method may at first glance appear cumbersome and even unnatural as it relies on variational formulations and polynomial spaces.}
+      \field{booktitle}{Introduction to Numerical Methods for Variational Problems}
+      \field{isbn}{978-3-030-23788-2}
+      \field{title}{{Quick Overview of the Finite Element Method}}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2019{\_}Langtangen, Mardal{\_}Quick Overview of the Finite Element Method.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-030-23788-2{\_}1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-030-23788-2%7B%5C_%7D1
       \endverb
     \endentry
     \entry{Lengvarsky2013}{article}{}
@@ -4049,6 +4476,123 @@
       \field{title}{{An introduction to identification}}
       \field{year}{2009}
     \endentry
+    \entry{Oleszek2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=8cace70d5f8c53fbd0c51e148a0c99a8}{%
+           family={Oleszek},
+           familyi={O\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=1d3c5cf46b13bb2458e5b2fe993d16fb}{%
+           family={Radomski},
+           familyi={R\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ff01af31e77485985e78fce61f01daf0}
+      \strng{fullhash}{ff01af31e77485985e78fce61f01daf0}
+      \strng{bibnamehash}{ff01af31e77485985e78fce61f01daf0}
+      \strng{authorbibnamehash}{ff01af31e77485985e78fce61f01daf0}
+      \strng{authornamehash}{ff01af31e77485985e78fce61f01daf0}
+      \strng{authorfullhash}{ff01af31e77485985e78fce61f01daf0}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Modern regulations concerning railway bridges are based on the approach of structural dynamics, which is described in PN-EN standards. This paper presents the results of theoretical dynamic analysis of the HSLM-A train set loading on the structure of a pre-stressed concrete arch bridge - the first railway bridge of its type which was built in Poland (completed in 1959). The recommendations of PN-EN have been followed and modal analysis was carried out to define the sensitivity of the structure to chosen eigenforms. Additionally the paper presents a course of calculations and the conclusions obtained from the analysis of displacements, accelerations, and bending moments induced in the structure through a simulated passage of a high-speed train in the context of the requirements of PN-EN Standards. The conclusions from the current calculations can be used for dynamic analysis of bridges of similar structural solutions.}
+      \field{issn}{1230-2945}
+      \field{journaltitle}{Archives of Civil Engineering}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{{Dynamic Analysis of an Existing Arch Railway Bridge According to Eurocodes}}
+      \field{volume}{62}
+      \field{year}{2016}
+      \field{pages}{99\bibrangedash 118}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1515/ace-2015-0100
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2016{\_}Oleszek, Radomski{\_}Dynamic Analysis of an Existing Arch Railway Bridge According to Eurocodes.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://content.sciendo.com/view/journals/ace/62/4/article-p99.xml http://files/232/Oleszek i Radomski - 2016 - Dynamic Analysis of an Existing Arch Railway Bridg.pdf
+      \endverb
+      \verb{url}
+      \verb http://content.sciendo.com/view/journals/ace/62/4/article-p99.xml%20http://files/232/Oleszek%20i%20Radomski%20-%202016%20-%20Dynamic%20Analysis%20of%20an%20Existing%20Arch%20Railway%20Bridg.pdf
+      \endverb
+      \keyw{HSLM,dynamic factor,dynamic response,high-speed trains,numerical model,prestressed concrete}
+    \endentry
+    \entry{Oleszek2015a}{article}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=8cefc0b60fb1b517e77838a01f75b981}{%
+           family={Oleszek},
+           familyi={O\bibinitperiod},
+           given={Rados{ł}aw},
+           giveni={R\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{8cefc0b60fb1b517e77838a01f75b981}
+      \strng{fullhash}{8cefc0b60fb1b517e77838a01f75b981}
+      \strng{bibnamehash}{8cefc0b60fb1b517e77838a01f75b981}
+      \strng{authorbibnamehash}{8cefc0b60fb1b517e77838a01f75b981}
+      \strng{authornamehash}{8cefc0b60fb1b517e77838a01f75b981}
+      \strng{authorfullhash}{8cefc0b60fb1b517e77838a01f75b981}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theoretical Foundations of Civil Engineering Polish-Ukrainian Transactions}
+      \field{title}{{Analiza dynamiczna mostów kolejowych w świetle wspó{ł}czesnych przepisów}}
+      \field{volume}{23}
+      \field{year}{2015}
+      \field{pages}{135\bibrangedash 160}
+      \range{pages}{26}
+    \endentry
+    \entry{Oleszek2015b}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=8cefc0b60fb1b517e77838a01f75b981}{%
+           family={Oleszek},
+           familyi={O\bibinitperiod},
+           given={Rados{ł}aw},
+           giveni={R\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=a570850f56fc5db61ba5adae0260551f}{%
+           family={Radomski},
+           familyi={R\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{location}{1}{%
+        {Wroc{ł}aw}%
+      }
+      \strng{namehash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \strng{fullhash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \strng{bibnamehash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \strng{authorbibnamehash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \strng{authornamehash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \strng{authorfullhash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
+      \field{month}{11}
+      \field{title}{{Niektóre aspekty analizy dynamicznej mostu {ł}ukowego w świetle wymagań PN-EN}}
+      \field{year}{2015}
+    \endentry
     \entry{Papadopoulos1998}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f1ba1f2d4c76e7ceef7c4821c7d0181e}{%
@@ -4255,6 +4799,9 @@
       \field{title}{{System Identification and Damage Detection in Civil Engineering}}
       \field{type}{phdthesis}
       \field{year}{2000}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2000{\_}Peeters{\_}System Identification and Damage Detection in Civil Engineering.pdf:pdf
+      \endverb
     \endentry
     \entry{Peeters1999a}{article}{}
       \name{author}{2}{}{%
@@ -4552,6 +5099,7 @@
       \field{extraname}{1}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -4576,10 +5124,84 @@
       \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{labeldatesource}{nodate}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{PN-EN 1991-2 Eurokod 1: Oddzia{ł}ywania na konstrukcje Czȩść 2: Obcia̧żenia ruchome mostów}}
+      \field{year}{2004}
+    \endentry
+    \entry{PolskiKomitetNormalizacyjny}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ecf5cb5ed915d0d246c9e5257d54a2f0}{%
+           family={{Polski Komitet Normalizacyjny}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
+      \strng{fullhash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
+      \strng{bibnamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
+      \strng{authorbibnamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
+      \strng{authornamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
+      \strng{authorfullhash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
+      \field{extraname}{3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Rozporza̧dzenie Ministra Transportu i Gospodarki Morskiej z dnia 10 września 1998 r. w sprawie warunków technicznych, jakim powinny odpowiadać budowle kolejowe i ich usytuowanie. Dz.U. 1998 nr 151 poz. 987}}
+    \endentry
+    \entry{PolskieLinieKolejoweS.A.2005}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=774619f26e7a39c839435effb6012c99}{%
+           family={{Polskie Linie Kolejowe S.A.}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \strng{namehash}{774619f26e7a39c839435effb6012c99}
+      \strng{fullhash}{774619f26e7a39c839435effb6012c99}
+      \strng{bibnamehash}{774619f26e7a39c839435effb6012c99}
+      \strng{authorbibnamehash}{774619f26e7a39c839435effb6012c99}
+      \strng{authornamehash}{774619f26e7a39c839435effb6012c99}
+      \strng{authorfullhash}{774619f26e7a39c839435effb6012c99}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Warunki techniczne dla kolejowych obiektów inżynieryjnych Id-2}}
+      \field{year}{2005}
+    \endentry
+    \entry{PolskieLinieKolejoweS.A.2009}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=774619f26e7a39c839435effb6012c99}{%
+           family={{Polskie Linie Kolejowe S.A.}},
+           familyi={P\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=101dc763f9439314a0e77810e9e0ff15}{%
+           family={{Centrum Naukowo-Techniczne Kolejnictwa}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \strng{namehash}{e9d5c6403b63f97a19f93b737eedc57a}
+      \strng{fullhash}{e9d5c6403b63f97a19f93b737eedc57a}
+      \strng{bibnamehash}{e9d5c6403b63f97a19f93b737eedc57a}
+      \strng{authorbibnamehash}{e9d5c6403b63f97a19f93b737eedc57a}
+      \strng{authornamehash}{e9d5c6403b63f97a19f93b737eedc57a}
+      \strng{authorfullhash}{e9d5c6403b63f97a19f93b737eedc57a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{STANDARDY TECHNICZNE szczegó{ł}owe warunki techniczne dla modernizacji lub budowy linii kolejowych do prȩdkości Vmax ≤ 200 km/h (dla taboru konwencjonalnego) / 250 km/h (dla taboru z wychylnym pud{ł}em)}}
+      \field{year}{2009}
     \endentry
     \entry{Poprawa2018}{thesis}{}
       \name{author}{1}{}{%
@@ -4731,21 +5353,59 @@
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2014{\_}Rainieri, Fabbrocino{\_}Operational Modal Analysis of Civil Engineering Structures An Introduction and Guide for Applications.pdf:pdf
       \endverb
     \endentry
+    \entry{Rakowski2016}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=83a58549f346c5e4bc34fa9d97ccc324}{%
+           family={Rakowski},
+           familyi={R\bibinitperiod},
+           given={Gustaw},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f68096a8a548e76858b5791c78e77189}{%
+           family={Kacprzyk},
+           familyi={K\bibinitperiod},
+           given={Zbigniew},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oficyna Wydawnicza Politechniki Warszawskiej}%
+      }
+      \strng{namehash}{9188450a81d74de0c5a9e9f0034a3b5d}
+      \strng{fullhash}{9188450a81d74de0c5a9e9f0034a3b5d}
+      \strng{bibnamehash}{9188450a81d74de0c5a9e9f0034a3b5d}
+      \strng{authorbibnamehash}{9188450a81d74de0c5a9e9f0034a3b5d}
+      \strng{authornamehash}{9188450a81d74de0c5a9e9f0034a3b5d}
+      \strng{authorfullhash}{9188450a81d74de0c5a9e9f0034a3b5d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Accession Number: bg.000110086; Corporate Authors: Politechnika Warszawska. Oficyna Wydawnicza.; Other Notes: Na dok. rok wyd. 2016, data na s. red. cop 2015.; Bibliogr. s. 428-431.; Po zmianach ksia̧żka przyjȩ{ł}a formȩ monografii z zakresu metody elementów skończonych i stanowi kompendium wiedzy podstawowej niezbȩdnej w pracy inżyniera wykorzystuja̧cego MES w obliczeniach czy też studenta studiuja̧cego metodȩ elementów skończonych.; Publication Type: Book; Physical Description: 431 s. : il. ; 24 cm.; Language: Polish}
+      \field{edition}{Wyd. 3 pop}
+      \field{isbn}{9788378144717}
+      \field{title}{{Metoda elementów skończonych w mechanice konstrukcji.}}
+      \field{year}{2016}
+      \keyw{Metoda elementów skończonych -- informatyka,Teoria konstrukcji -- informatyka}
+    \endentry
     \entry{Ramondenc1998}{article}{}
       \name{author}{1}{}{%
-        {{un=2,uniquepart=given,hash=d36b53487c19c2c0a4556d83e5c69f58}{%
+        {{un=0,uniquepart=base,hash=1558b0815c3fc1e014029aa7de285dfa}{%
            family={Ramondenc},
            familyi={R\bibinitperiod},
-           given={Ph.},
+           given={Philippe},
            giveni={P\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
       }
-      \strng{namehash}{d36b53487c19c2c0a4556d83e5c69f58}
-      \strng{fullhash}{d36b53487c19c2c0a4556d83e5c69f58}
-      \strng{bibnamehash}{d36b53487c19c2c0a4556d83e5c69f58}
-      \strng{authorbibnamehash}{d36b53487c19c2c0a4556d83e5c69f58}
-      \strng{authornamehash}{d36b53487c19c2c0a4556d83e5c69f58}
-      \strng{authorfullhash}{d36b53487c19c2c0a4556d83e5c69f58}
+      \strng{namehash}{1558b0815c3fc1e014029aa7de285dfa}
+      \strng{fullhash}{1558b0815c3fc1e014029aa7de285dfa}
+      \strng{bibnamehash}{1558b0815c3fc1e014029aa7de285dfa}
+      \strng{authorbibnamehash}{1558b0815c3fc1e014029aa7de285dfa}
+      \strng{authornamehash}{1558b0815c3fc1e014029aa7de285dfa}
+      \strng{authorfullhash}{1558b0815c3fc1e014029aa7de285dfa}
+      \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -4769,12 +5429,12 @@
     \endentry
     \entry{Ramondenc2008}{incollection}{}
       \name{author}{1}{}{%
-        {{un=2,uniquepart=given,hash=1558b0815c3fc1e014029aa7de285dfa}{%
+        {{un=0,uniquepart=base,hash=1558b0815c3fc1e014029aa7de285dfa}{%
            family={Ramondenc},
            familyi={R\bibinitperiod},
            given={Philippe},
            giveni={P\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
       }
       \name{editor}{4}{}{%
         {{hash=d9a350ed11b4ef6a42e1a8eecbc1eba0}{%
@@ -4810,6 +5470,7 @@
       \strng{editorbibnamehash}{bc4efcd1df9f4d8dd7f0f35d86fc05a8}
       \strng{editornamehash}{bc4efcd1df9f4d8dd7f0f35d86fc05a8}
       \strng{editorfullhash}{6f856296454181825d4d82f4076372a1}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -5169,6 +5830,36 @@
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2002{\_}Saliby, Pacheco{\_}An empirical evaluation of sampling methods in risk analysis simulation quasi-Monte Carlo, descriptive sampling, an.pdf:pdf
       \endverb
     \endentry
+    \entry{Saller1921}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b153381469e097b399962eb83a67b7b}{%
+           family={Saller},
+           familyi={S\bibinitperiod},
+           given={Heinrich},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Kreidels Verlag}%
+      }
+      \strng{namehash}{7b153381469e097b399962eb83a67b7b}
+      \strng{fullhash}{7b153381469e097b399962eb83a67b7b}
+      \strng{bibnamehash}{7b153381469e097b399962eb83a67b7b}
+      \strng{authorbibnamehash}{7b153381469e097b399962eb83a67b7b}
+      \strng{authornamehash}{7b153381469e097b399962eb83a67b7b}
+      \strng{authorfullhash}{7b153381469e097b399962eb83a67b7b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Einfluss bewegter Last auf Eisenbahnoberbau und Brücken}}
+      \field{year}{1921}
+    \endentry
     \entry{Schutter2000}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=3fc61f1c60423ec529e037233d4095ad}{%
@@ -5482,6 +6173,38 @@
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2003{\_}Stacey, Jancic, Grundy{\_}Particle swarm optimization with mutation.pdf:pdf
       \endverb
     \endentry
+    \entry{Stokes1849}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2a3d9dd299fd5c522a9471a025a65e32}{%
+           family={Stokes},
+           familyi={S\bibinitperiod},
+           given={Sir\bibnamedelimb George\bibnamedelima Gabriel},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a3d9dd299fd5c522a9471a025a65e32}
+      \strng{fullhash}{2a3d9dd299fd5c522a9471a025a65e32}
+      \strng{bibnamehash}{2a3d9dd299fd5c522a9471a025a65e32}
+      \strng{authorbibnamehash}{2a3d9dd299fd5c522a9471a025a65e32}
+      \strng{authornamehash}{2a3d9dd299fd5c522a9471a025a65e32}
+      \strng{authorfullhash}{2a3d9dd299fd5c522a9471a025a65e32}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions of the Cambridge Philosophical Society}
+      \field{number}{5}
+      \field{title}{{Discussion of a differential equation relating to the breaking of railway bridges}}
+      \field{volume}{8}
+      \field{year}{1849}
+      \field{pages}{707\bibrangedash 735}
+      \range{pages}{29}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/1849{\_}Stokes{\_}Discussion of a differential equation relating to the breaking of railway bridges.pdf:pdf
+      \endverb
+    \endentry
     \entry{Szafranski2013}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cd67a8b12a8d088eddf172525fa7e462}{%
@@ -5500,6 +6223,7 @@
       \strng{authorbibnamehash}{cd67a8b12a8d088eddf172525fa7e462}
       \strng{authornamehash}{cd67a8b12a8d088eddf172525fa7e462}
       \strng{authorfullhash}{cd67a8b12a8d088eddf172525fa7e462}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -5514,6 +6238,101 @@
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2013{\_}Szafra{\'{n}}ski{\_}Odzia{\l}ywania taboru na mosty kolejowe przy zmiennych parametrach ruchu.pdf:pdf
       \endverb
       \keyw{Koleje -- pojazdy szynowe -- dynamika -- modele ma,Mosty kolejowe}
+    \endentry
+    \entry{Szafranski2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cd67a8b12a8d088eddf172525fa7e462}{%
+           family={Szafrański},
+           familyi={S\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{cd67a8b12a8d088eddf172525fa7e462}
+      \strng{fullhash}{cd67a8b12a8d088eddf172525fa7e462}
+      \strng{bibnamehash}{cd67a8b12a8d088eddf172525fa7e462}
+      \strng{authorbibnamehash}{cd67a8b12a8d088eddf172525fa7e462}
+      \strng{authornamehash}{cd67a8b12a8d088eddf172525fa7e462}
+      \strng{authorfullhash}{cd67a8b12a8d088eddf172525fa7e462}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper addresses the methodology of the bridge-vehicle dynamic model definition based on the free response measurements of an existing train and existing bridge spans. In the case of the railway vehicle, the methodology uses the impulse excitations of a single car by means of the wedge method. In the case of the bridge spans, free responses are collected after the passages of trains. The global modal parameters (frequencies and modal damping) of both structures are identified using two modal identification techniques, i.e., the eigensystem realization algorithm (ERA) and the peak picking method (PP). A simplified single-suspension model of the vehicle with 11 global dof's is proposed that can be useful in the bridge-vehicle interaction analysis. Two steel spans having non-ballasted tracks are the bridge structures. Field tests are conducted to identify the modal parameters and validate the numerical models. Finally, numerical simulations of the train passing over the bridges are compared with the in situ measurements performed under operating conditions.}
+      \field{issn}{10961216}
+      \field{journaltitle}{Mechanical Systems and Signal Processing}
+      \field{month}{1}
+      \field{title}{{A dynamic vehicle-bridge model based on the modal identification results of an existing EN57 train and bridge spans with non-ballasted tracks}}
+      \field{volume}{146}
+      \field{year}{2021}
+      \field{pages}{107039}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ymssp.2020.107039
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2021{\_}Szafra{\'{n}}ski{\_}A dynamic vehicle-bridge model based on the modal identification results of an existing EN57 train and bridge spans with.pdf:pdf
+      \endverb
+      \keyw{Bridge-vehicle interaction,FEM,Modal identification,Railway loads,Structural dynamics}
+    \endentry
+    \entry{Szczesniak2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1e183f00fa70d8d7ab35aaec6942edf7}{%
+           family={Szcześniak},
+           familyi={S\bibinitperiod},
+           given={Wac{ł}aw},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=189e0fdb9f65e344fcad9adbf4202a7b}{%
+           family={Ataman},
+           familyi={A\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {pl}%
+      }
+      \strng{namehash}{cc1b439ba70480fbdf7c96a52a831e5f}
+      \strng{fullhash}{cc1b439ba70480fbdf7c96a52a831e5f}
+      \strng{bibnamehash}{cc1b439ba70480fbdf7c96a52a831e5f}
+      \strng{authorbibnamehash}{cc1b439ba70480fbdf7c96a52a831e5f}
+      \strng{authornamehash}{cc1b439ba70480fbdf7c96a52a831e5f}
+      \strng{authorfullhash}{cc1b439ba70480fbdf7c96a52a831e5f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The article concerns the discussion of a pneumatic tail lift entirely powered by pneumatic devices powered with compressed air from the brake system of truck. The authors try to set up the drive parameters and the size of the engines. For this purpose, a computer simulation of the platform's motion was made on the basis of which the torques of pneumatic engines were determined and the times of falling and lifting.}
+      \field{issn}{2450-7725, 1509-5878}
+      \field{journaltitle}{AUTOBUSY – Technika, Eksploatacja, Systemy Transportowe}
+      \field{month}{2}
+      \field{number}{12}
+      \field{title}{{Survey of publications by Polish authors in the field of moving loads on engineering structures}}
+      \field{volume}{19}
+      \field{year}{2018}
+      \field{pages}{667\bibrangedash 674}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.24136/atest.2018.475
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2018{\_}Szcze{\'{s}}niak, Ataman{\_}Survey of publications by Polish authors in the field of moving loads on engineering structures.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://economic-research.pl/Journals/index.php/atest/article/view/1326 http://files/863/Szcze{\'{s}}niak i Ataman - 2018 - Survey of publications by Polish authors in the fi.pdf
+      \endverb
+      \verb{url}
+      \verb http://economic-research.pl/Journals/index.php/atest/article/view/1326%20http://files/863/Szcze%7B%5C'%7Bs%7D%7Dniak%20i%20Ataman%20-%202018%20-%20Survey%20of%20publications%20by%20Polish%20authors%20in%20the%20fi.pdf
+      \endverb
     \endentry
     \entry{Szymczak1995}{book}{}
       \name{author}{1}{}{%
@@ -5579,6 +6398,44 @@
       \field{year}{2016}
       \verb{file}
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop//2016{\_}Tesch{\_}Continuous optimisation algorithms.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Timoshenko1922}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f176b3819ffa4addacf4c5935859c839}{%
+           family={Timoshenko},
+           familyi={T\bibinitperiod},
+           given={S\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor {\&} Francis}%
+      }
+      \strng{namehash}{f176b3819ffa4addacf4c5935859c839}
+      \strng{fullhash}{f176b3819ffa4addacf4c5935859c839}
+      \strng{bibnamehash}{f176b3819ffa4addacf4c5935859c839}
+      \strng{authorbibnamehash}{f176b3819ffa4addacf4c5935859c839}
+      \strng{authornamehash}{f176b3819ffa4addacf4c5935859c839}
+      \strng{authorfullhash}{f176b3819ffa4addacf4c5935859c839}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{doi: 10.1080/14786442208633953}
+      \field{issn}{1941-5982}
+      \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
+      \field{month}{5}
+      \field{number}{257}
+      \field{title}{{On the forced vibrations of bridges}}
+      \field{volume}{43}
+      \field{year}{1922}
+      \field{pages}{1018\bibrangedash 1019}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1080/14786442208633953
       \endverb
     \endentry
     \entry{Tran-Ngoc2018}{article}{}
@@ -5911,6 +6768,41 @@
       \range{pages}{4}
       \verb{file}
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/1967{\_}Welch{\_}The use of fast Fourier transform for the estimation of power spectra a method based on time averaging over short, modified p.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Willis1849}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c0a7bb5f881fe84b2dcb5fff72090882}{%
+           family={Willis},
+           familyi={W\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{2}{%
+        {W. Clows}%
+        {Sons}%
+      }
+      \strng{namehash}{c0a7bb5f881fe84b2dcb5fff72090882}
+      \strng{fullhash}{c0a7bb5f881fe84b2dcb5fff72090882}
+      \strng{bibnamehash}{c0a7bb5f881fe84b2dcb5fff72090882}
+      \strng{authorbibnamehash}{c0a7bb5f881fe84b2dcb5fff72090882}
+      \strng{authornamehash}{c0a7bb5f881fe84b2dcb5fff72090882}
+      \strng{authorfullhash}{c0a7bb5f881fe84b2dcb5fff72090882}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Appendix to the Report of the Commissioners appointed to inquire into the Application of Iron to Railway Structures}
+      \field{title}{{An essay on the effects produced by causing weights to travel over elastic bars}}
+      \field{year}{1849}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/1849{\_}Willis{\_}An essay on the effects produced by causing weights to travel over elastic bars.pdf:pdf
       \endverb
     \endentry
     \entry{Wilson1997}{book}{}
@@ -6483,6 +7375,49 @@
       \field{title}{{Od teorii do cyfrowego przetwarzania sygna{ł}ów}}
       \field{year}{2002}
       \keyw{Filtry cyfrowe (elektryczność) -- projektowanie i,Przetwarzanie sygna{ł}ów -- modele matematyczne,Przetwarzanie sygna{ł}ów -- techniki cyfrowe,Przetwarzanie sygna{ł}ów cyfrowe,Sygna{ł}y -- teoria,Teoria sygna{ł}ów (telekomunikacja)}
+    \endentry
+    \entry{Zienkiewicz2005}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ac874defa885a23f929e468526341014}{%
+           family={Zienkiewicz},
+           familyi={Z\bibinitperiod},
+           given={Olek\bibnamedelima C},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29bab39046818894cc5af16e83f2f770}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Robert\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9918c1850bb3b72376d8b5ba1f96367}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Jian\bibnamedelima Z},
+           giveni={J\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Butterworth-Heinemann}%
+      }
+      \strng{namehash}{22618b8cb50b8c43ea20d67100cf29e5}
+      \strng{fullhash}{22618b8cb50b8c43ea20d67100cf29e5}
+      \strng{bibnamehash}{22618b8cb50b8c43ea20d67100cf29e5}
+      \strng{authorbibnamehash}{22618b8cb50b8c43ea20d67100cf29e5}
+      \strng{authornamehash}{22618b8cb50b8c43ea20d67100cf29e5}
+      \strng{authorfullhash}{22618b8cb50b8c43ea20d67100cf29e5}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-08-047277-X}
+      \field{title}{{The finite element method: its basis and fundamentals}}
+      \field{year}{2005}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2005{\_}Zienkiewicz, Taylor, Zhu{\_}The finite element method its basis and fundamentals.pdf:pdf
+      \endverb
     \endentry
     \entry{Zitzler2000}{article}{}
       \name{author}{3}{}{%

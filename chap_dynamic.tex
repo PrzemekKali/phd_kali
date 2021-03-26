@@ -513,7 +513,21 @@ Pierwsze rozwiązania analityczne drgań konstrukcji z obciążeniem ruchomym dl
 W przypadkach złożonych, gdzie metody analityczne nie mają zastosowania aktualnie najbardziej uniwersalną metodą przewidywania odpowiedzi dynamicznej jest wykorzystanie Metody Elementów Skończonych (MES). MES umożliwia dyskretyzację konstrukcji dzieląc ją na węzły i elementy skończone. Dzięki temu możliwe jest sformułowanie różniczkowego równania ruchu dla układu o wielu stopniach swobody (MDOF) danego wzorem (\ref{eq: mot_und_num}). Podstawowe metody rozwiązania równania ruchu MDOF opierają się na bezpośrednim całkowaniu numerycznym (metoda Newmarka) lub superpozycji modalnej. Obie metody opisano w punkcie \ref{section: mdof_response}. Metoda Elementów Skończonych pozwala na opis skomplikowanych struktur, zadanie różnorodnych obciążeń i wybór odpowiedniego rodzaju analizy. Możliwe jest rozwiązywanie zarówno układów liniowych jak i nieliniowych. Z uwagi na swoją skuteczność została zaimplementowana w wielu komercyjnych programach do analizy konstrukcji. Istnieje obszerny zbiór zagranicznych pozycji bibliograficznych opisujących fundamentalne sformułowania MES \parencite{Zienkiewicz2005,Hughes1987,Langtangen2019,Hartmann2007}, a także w języku polskim \parencite{Kleiber1985,Rakowski2016}. 
 
 \subsection{Przepisy normowe i wytyczne}
-Po omówieniu przyczyn, efektów i metod przewidywania drgań konstrukcji należy odnieść się do aktualnego stanu prawnego. Obecnie w Polsce obowiązuje szereg norm i zarządzeń opisujących elementy projektowania, dostosowywania i utrzymania obiektów kolejowych w ciągu Linii Dużych Prędkości \parencite{PolskieLinieKolejoweS.A.2005,PolskieLinieKolejoweS.A.2009,PolskiKomitetNormalizacyjny,PolskiKomitetNormalizacyjny2004,PKNj}. Szczegółowy opis zapisów dotyczących zachowania dynamicznego kolejowych zgodnie z przytoczonymi przepisami opisali w swoich pracach \cite{Oleszek2015a,Oleszek2015b,Oleszek2016}. Aktualnie obowiązujące Eurokody w części poświęconej dynamice mostów kolejowych opierają się wspólnych badaniach i doświadczeniach członków Europejskiego Instytutu Badawczego Kolejnictwa \teng{European Railway Research Institute (ERRI)} \parencite{ERRI1998,Muncke2008}. W normie PN-EN przyjęto strategię ograniczenia wymogu wykonywania pełnej analizy dynamicznej. Zastosowano szereg kryteriów, po których spełnieniu można pominąć analizę pełnej odpowiedzi dynamicznej, a efekty dynamiczne konstrukcji uwzględnia się jedynie za pomocą współczynnika dynamicznego. Algorytm zawieracjący ścieżkę oceny czy analiza dynamiczna jest potrzebna przytoczono na rysunku (rys. \ref{}) 
+Po omówieniu przyczyn, efektów i metod przewidywania drgań konstrukcji należy odnieść się do aktualnego stanu prawnego. Obecnie w Polsce obowiązuje szereg norm i zarządzeń opisujących elementy projektowania, dostosowywania i utrzymania obiektów kolejowych w ciągu Linii Dużych Prędkości \parencite{PolskieLinieKolejoweS.A.2005,PolskieLinieKolejoweS.A.2009,PolskiKomitetNormalizacyjny,PolskiKomitetNormalizacyjny2004,PKNj}. Szczegółowy opis zapisów dotyczących zachowania dynamicznego kolejowych zgodnie z przytoczonymi przepisami opisali w swoich pracach \cite{Oleszek2015a,Oleszek2015b,Oleszek2016}. Aktualnie obowiązujące Eurokody w części poświęconej dynamice mostów kolejowych opierają się wspólnych badaniach i doświadczeniach członków Europejskiego Instytutu Badawczego Kolejnictwa \teng{European Railway Research Institute (ERRI)} \parencite{ERRI1998,Muncke2008}. W normie PN-EN przyjęto strategię ograniczenia wymogu wykonywania pełnej analizy dynamicznej. Zastosowano szereg kryteriów, po których spełnieniu można pominąć analizę pełnej odpowiedzi dynamicznej, a efekty dynamiczne konstrukcji uwzględnia się jedynie za pomocą współczynnika dynamicznego. Algorytm zawierający ścieżkę oceny czy pełna analiza dynamiczna jest wymagana przytoczono na rysunku (rys. \ref{fig:ec_algorithm_dyna}). 
+\begin{figure}[p]
+	\centering
+	\includegraphics[]{/dynamic_railway/ec_algorithm_dyna.pdf} 
+	\captionsetup{justification=centering}
+	\caption{}
+	\label{fig:ec_algorithm_dyna}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[]{/dynamic_railway/ec_algorithm_dyna_boundary.pdf} 
+	\captionsetup{justification=centering}
+	\caption{}
+	\label{fig:ec_algorithm_dyna_boundary}
+\end{figure}
 
 
 \subsection{Kalibracja modeli numerycznych}

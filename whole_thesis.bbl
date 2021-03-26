@@ -4300,6 +4300,35 @@
       \field{type}{techreport}
       \field{year}{1999}
     \endentry
+    \entry{Muncke2008}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=20c4d601ef5fd6f65b54e2d93d881e03}{%
+           family={Muncke},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press Taylor {\&} Francis/Balkema}%
+      }
+      \strng{namehash}{20c4d601ef5fd6f65b54e2d93d881e03}
+      \strng{fullhash}{20c4d601ef5fd6f65b54e2d93d881e03}
+      \strng{bibnamehash}{20c4d601ef5fd6f65b54e2d93d881e03}
+      \strng{authorbibnamehash}{20c4d601ef5fd6f65b54e2d93d881e03}
+      \strng{authornamehash}{20c4d601ef5fd6f65b54e2d93d881e03}
+      \strng{authorfullhash}{20c4d601ef5fd6f65b54e2d93d881e03}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Bridges for High-Speed Railways}
+      \field{chapter}{2}
+      \field{title}{{The effects on the interoperability of the European Railway Traffic of European Standards}}
+      \field{year}{2008}
+    \endentry
     \entry{Nayeri2009}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=d8e5bc66f46039398f3d0738d812957c}{%

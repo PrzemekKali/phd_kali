@@ -1534,12 +1534,12 @@
     \endentry
     \entry{Dias2008}{article}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=3bed364b4749d54d357c741090bf72e9}{%
+        {{un=1,uniquepart=given,hash=3bed364b4749d54d357c741090bf72e9}{%
            family={Dias},
            familyi={D\bibinitperiod},
            given={Rui},
            giveni={R\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=2fe6903201999f65e573eac4b2437471}{%
            family={Goicolea},
            familyi={G\bibinitperiod},
@@ -1594,6 +1594,37 @@
       \endverb
       \verb{file}
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2008{\_}Dias et al.{\_}A study of the lateral dynamic behaviour of high speed railway viaducts and its effect on vehicle ride comfort and stab.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Dias2007}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=4241defc8cb51fdb3628c6398cda0c64}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={Rui\bibnamedelimb Filipe\bibnamedelimb da\bibnamedelima Silva},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Técnica de Lisboa}%
+      }
+      \strng{namehash}{4241defc8cb51fdb3628c6398cda0c64}
+      \strng{fullhash}{4241defc8cb51fdb3628c6398cda0c64}
+      \strng{bibnamehash}{4241defc8cb51fdb3628c6398cda0c64}
+      \strng{authorbibnamehash}{4241defc8cb51fdb3628c6398cda0c64}
+      \strng{authornamehash}{4241defc8cb51fdb3628c6398cda0c64}
+      \strng{authorfullhash}{4241defc8cb51fdb3628c6398cda0c64}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Dynamic Behaviour of High Speed Railway Bridges. Vehicles Lateral Dynamic Behaviour}}
+      \field{type}{phdthesis}
+      \field{year}{2007}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2007{\_}Dias{\_}Dynamic Behaviour of High Speed Railway Bridges. Vehicles Lateral Dynamic Behaviour.pdf:pdf
       \endverb
     \endentry
     \entry{Dudek2008}{thesis}{}
@@ -3023,6 +3054,39 @@
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/1995{\_}James, Carne, Lauffer{\_}The natural excitation technique (NExT) for modal parameter extraction from operating structures.pdf:pdf
       \endverb
     \endentry
+    \entry{James2003}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=aa5f31762e9d849c4e3e7acd9979f987}{%
+           family={James},
+           familyi={J\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{institution}{1}{%
+        {Royal Institute of Technology, Stockholm, Sweden}%
+      }
+      \strng{namehash}{aa5f31762e9d849c4e3e7acd9979f987}
+      \strng{fullhash}{aa5f31762e9d849c4e3e7acd9979f987}
+      \strng{bibnamehash}{aa5f31762e9d849c4e3e7acd9979f987}
+      \strng{authorbibnamehash}{aa5f31762e9d849c4e3e7acd9979f987}
+      \strng{authornamehash}{aa5f31762e9d849c4e3e7acd9979f987}
+      \strng{authorfullhash}{aa5f31762e9d849c4e3e7acd9979f987}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The work presented in this thesis studies the load and load effects of traffic loads on railway bridges. The increased knowledge of the traffic loads, simulated using field measurements of actual trains, are employed in a reliability analysis in an attempt at upgrading existing railway bridges. The study utilises data from a weigh-in-motion site which records, for each train, the train speed, the loads from each axle and the axle spacings. This data of actual train configurations and axle loads are portrayed as moving forces and then used in computer simulations of trains crossing two dimensional simply supported bridges at constant speed. Only single track short to medium span bridges are considered in the thesis. The studied load effect is the moment at mid-span. From the computer simulations the moment history at mid-span is obtained. The load effects are analysed by two methods, the first is the classical extreme value theory where the load effect is modelled by the family of distributions called the generalised extreme value distribution (GEV). The other method adopts the peaks-over-threshold method (POT) where the limiting family of distributions for the heights to peaks-over-threshold is the Generalised Pareto Distribution (GPD). The two models are generally found to be a good representation of the data. The load effects modelled by either the GEV or the GPD are then incorporated into a reliability analysis in order to study the possibility of raising allowable axle loads on existing Swedish railway bridges. The results of the reliability analysis show that they are sensitive to the estimation of the shape parameter of the GEV or the GPD. While the study is limited to the case of the ultimate limit state where the effects of fatigue are not accounted for, the findings show that for the studied cases an increase in allowable axle load to 25 tonnes would be acceptable even for bridges built to the standards of 1940 and designed to Load Model A of that standard. Even an increase to both 27.5 and 30 tonnes appears to be possible for certain cases. It is also observed that the short span bridges of approximately four metres are the most susceptible to a proposed increase in permissible axle load.}
+      \field{title}{{Analysis of Traffic Load Effects on Railway Bridges}}
+      \field{type}{phdthesis}
+      \field{year}{2003}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2003{\_}James{\_}Analysis of Traffic Load Effects on Railway Bridges.pdf:pdf
+      \endverb
+      \keyw{axle loads,bridge,dynamic amplification factor,ex- treme value theory,field data.,load effect,peaks-over-threshold,rail,reliability theory,traffic load}
+    \endentry
     \entry{James1993}{article}{}
       \name{author}{3}{}{%
         {{un=2,uniquepart=given,hash=56f21a7050312556bd984965241c1230}{%
@@ -3408,8 +3472,10 @@
       \strng{authorbibnamehash}{2c9b19d47902deb7b6f342d2dc3cf211}
       \strng{authornamehash}{2c9b19d47902deb7b6f342d2dc3cf211}
       \strng{authorfullhash}{2c9b19d47902deb7b6f342d2dc3cf211}
+      \field{extraname}{1}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -3423,6 +3489,39 @@
       \range{pages}{5}
       \verb{file}
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2011{\_}Kara{\'{s}}{\_}O metodzie Courbona.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Karas2011a}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2c9b19d47902deb7b6f342d2dc3cf211}{%
+           family={Karaś},
+           familyi={K\bibinitperiod},
+           given={S{Ł}AWOMIR},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2c9b19d47902deb7b6f342d2dc3cf211}
+      \strng{fullhash}{2c9b19d47902deb7b6f342d2dc3cf211}
+      \strng{bibnamehash}{2c9b19d47902deb7b6f342d2dc3cf211}
+      \strng{authorbibnamehash}{2c9b19d47902deb7b6f342d2dc3cf211}
+      \strng{authornamehash}{2c9b19d47902deb7b6f342d2dc3cf211}
+      \strng{authorfullhash}{2c9b19d47902deb7b6f342d2dc3cf211}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Drogownictwo}
+      \field{number}{4}
+      \field{title}{{Wspó{ł}czynniki dynamiczne obcia̧żeń kolejowych w PN-EN 1991-2}}
+      \field{year}{2011}
+      \field{pages}{135\bibrangedash 140}
+      \range{pages}{6}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2011{\_}Kara{\'{s}}{\_}Wsp{\'{o}}{\l}czynniki dynamiczne obci{\c{a}}{\.{z}}e{\'{n}} kolejowych w PN-EN 1991-2.pdf:pdf
       \endverb
     \endentry
     \entry{Kennedy1995}{inproceedings}{}
@@ -4505,68 +4604,14 @@
       \field{title}{{An introduction to identification}}
       \field{year}{2009}
     \endentry
-    \entry{Oleszek2016}{article}{}
-      \name{author}{2}{}{%
-        {{un=2,uniquepart=given,hash=8cace70d5f8c53fbd0c51e148a0c99a8}{%
-           family={Oleszek},
-           familyi={O\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=2}}%
-        {{un=2,uniquepart=given,hash=1d3c5cf46b13bb2458e5b2fe993d16fb}{%
-           family={Radomski},
-           familyi={R\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=2}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{ff01af31e77485985e78fce61f01daf0}
-      \strng{fullhash}{ff01af31e77485985e78fce61f01daf0}
-      \strng{bibnamehash}{ff01af31e77485985e78fce61f01daf0}
-      \strng{authorbibnamehash}{ff01af31e77485985e78fce61f01daf0}
-      \strng{authornamehash}{ff01af31e77485985e78fce61f01daf0}
-      \strng{authorfullhash}{ff01af31e77485985e78fce61f01daf0}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Modern regulations concerning railway bridges are based on the approach of structural dynamics, which is described in PN-EN standards. This paper presents the results of theoretical dynamic analysis of the HSLM-A train set loading on the structure of a pre-stressed concrete arch bridge - the first railway bridge of its type which was built in Poland (completed in 1959). The recommendations of PN-EN have been followed and modal analysis was carried out to define the sensitivity of the structure to chosen eigenforms. Additionally the paper presents a course of calculations and the conclusions obtained from the analysis of displacements, accelerations, and bending moments induced in the structure through a simulated passage of a high-speed train in the context of the requirements of PN-EN Standards. The conclusions from the current calculations can be used for dynamic analysis of bridges of similar structural solutions.}
-      \field{issn}{1230-2945}
-      \field{journaltitle}{Archives of Civil Engineering}
-      \field{month}{4}
-      \field{number}{4}
-      \field{title}{{Dynamic Analysis of an Existing Arch Railway Bridge According to Eurocodes}}
-      \field{volume}{62}
-      \field{year}{2016}
-      \field{pages}{99\bibrangedash 118}
-      \range{pages}{20}
-      \verb{doi}
-      \verb 10.1515/ace-2015-0100
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2016{\_}Oleszek, Radomski{\_}Dynamic Analysis of an Existing Arch Railway Bridge According to Eurocodes.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://content.sciendo.com/view/journals/ace/62/4/article-p99.xml http://files/232/Oleszek i Radomski - 2016 - Dynamic Analysis of an Existing Arch Railway Bridg.pdf
-      \endverb
-      \verb{url}
-      \verb http://content.sciendo.com/view/journals/ace/62/4/article-p99.xml%20http://files/232/Oleszek%20i%20Radomski%20-%202016%20-%20Dynamic%20Analysis%20of%20an%20Existing%20Arch%20Railway%20Bridg.pdf
-      \endverb
-      \keyw{HSLM,dynamic factor,dynamic response,high-speed trains,numerical model,prestressed concrete}
-    \endentry
-    \entry{Oleszek2015a}{article}{}
+    \entry{Oleszek2015}{article}{}
       \name{author}{1}{}{%
-        {{un=2,uniquepart=given,hash=8cefc0b60fb1b517e77838a01f75b981}{%
+        {{un=0,uniquepart=base,hash=8cefc0b60fb1b517e77838a01f75b981}{%
            family={Oleszek},
            familyi={O\bibinitperiod},
            given={Rados{ł}aw},
            giveni={R\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
       }
       \strng{namehash}{8cefc0b60fb1b517e77838a01f75b981}
       \strng{fullhash}{8cefc0b60fb1b517e77838a01f75b981}
@@ -4586,21 +4631,30 @@
       \field{year}{2015}
       \field{pages}{135\bibrangedash 160}
       \range{pages}{26}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2015{\_}Oleszek{\_}Analiza dynamiczna most{\'{o}}w kolejowych w {\'{s}}wietle wsp{\'{o}}{\l}czesnych przepis{\'{o}}w.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/187/Oleszek - 2015 - Analiza dynamiczna most{\'{o}}w kolejowych w {\'{s}}wietle wsp.pdf
+      \endverb
+      \verb{url}
+      \verb http://files/187/Oleszek%20-%202015%20-%20Analiza%20dynamiczna%20most%7B%5C'%7Bo%7D%7Dw%20kolejowych%20w%20%7B%5C'%7Bs%7D%7Dwietle%20wsp.pdf
+      \endverb
     \endentry
     \entry{Oleszek2015b}{inproceedings}{}
       \name{author}{2}{}{%
-        {{un=2,uniquepart=given,hash=8cefc0b60fb1b517e77838a01f75b981}{%
+        {{un=0,uniquepart=base,hash=8cefc0b60fb1b517e77838a01f75b981}{%
            family={Oleszek},
            familyi={O\bibinitperiod},
            given={Rados{ł}aw},
            giveni={R\bibinitperiod},
-           givenun=2}}%
-        {{un=2,uniquepart=given,hash=a570850f56fc5db61ba5adae0260551f}{%
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a570850f56fc5db61ba5adae0260551f}{%
            family={Radomski},
            familyi={R\bibinitperiod},
            given={Wojciech},
            giveni={W\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Wroc{ł}aw}%
@@ -4611,6 +4665,7 @@
       \strng{authorbibnamehash}{bf9bf2ad64c42d6754929dff99d8dce9}
       \strng{authornamehash}{bf9bf2ad64c42d6754929dff99d8dce9}
       \strng{authorfullhash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \field{extraname}{1}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -4621,6 +4676,61 @@
       \field{month}{11}
       \field{title}{{Niektóre aspekty analizy dynamicznej mostu {ł}ukowego w świetle wymagań PN-EN}}
       \field{year}{2015}
+    \endentry
+    \entry{Oleszek2016a}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8cefc0b60fb1b517e77838a01f75b981}{%
+           family={Oleszek},
+           familyi={O\bibinitperiod},
+           given={Rados{ł}aw},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a570850f56fc5db61ba5adae0260551f}{%
+           family={Radomski},
+           familyi={R\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \strng{fullhash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \strng{bibnamehash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \strng{authorbibnamehash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \strng{authornamehash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \strng{authorfullhash}{bf9bf2ad64c42d6754929dff99d8dce9}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Modern regulations concerning railway bridges are based on the approach of structural dynamics, which is described in PN-EN standards. This paper presents the results of theoretical dynamic analysis of the HSLM-A train set loading on the structure of a pre-stressed concrete arch bridge - the first railway bridge of its type which was built in Poland (completed in 1959). The recommendations of PN-EN have been followed and modal analysis was carried out to define the sensitivity of the structure to chosen eigenforms. Additionally the paper presents a course of calculations and the conclusions obtained from the analysis of displacements, accelerations, and bending moments induced in the structure through a simulated passage of a high-speed train in the context of the requirements of PN-EN Standards. The conclusions from the current calculations can be used for dynamic analysis of bridges of similar structural solutions.}
+      \field{issn}{1230-2945}
+      \field{journaltitle}{Archives of Civil Engineering}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{{Dynamic Analysis of an Existing Arch Railway Bridge According to Eurocodes}}
+      \field{volume}{LXII}
+      \field{year}{2016}
+      \field{pages}{99\bibrangedash 117}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1515/ace-2015-0100
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2016{\_}Oleszek, Radomski{\_}Dynamic Analysis of an Existing Arch Railway Bridge According to Eurocodes.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://content.sciendo.com/view/journals/ace/62/4/article-p99.xml http://files/232/Oleszek i Radomski - 2016 - Dynamic Analysis of an Existing Arch Railway Bridg.pdf
+      \endverb
+      \verb{url}
+      \verb http://content.sciendo.com/view/journals/ace/62/4/article-p99.xml%20http://files/232/Oleszek%20i%20Radomski%20-%202016%20-%20Dynamic%20Analysis%20of%20an%20Existing%20Arch%20Railway%20Bridg.pdf
+      \endverb
+      \keyw{HSLM,dynamic factor,dynamic response,high-speed trains,numerical model,prestressed concrete}
     \endentry
     \entry{Papadopoulos1998}{article}{}
       \name{author}{2}{}{%
@@ -6574,6 +6684,61 @@
       \verb{file}
       \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/1994{\_}Udwadia{\_}Methodology for optimum sensor locations for parameter identification in dynamic systems.pdf:pdf
       \endverb
+    \endentry
+    \entry{UnionInternationaleDesCheminsDeFer2006}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7fa8052341a5a8257dad817cad65510}{%
+           family={{Union Internationale Des Chemins De Fer}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7fa8052341a5a8257dad817cad65510}
+      \strng{fullhash}{e7fa8052341a5a8257dad817cad65510}
+      \strng{bibnamehash}{e7fa8052341a5a8257dad817cad65510}
+      \strng{authorbibnamehash}{e7fa8052341a5a8257dad817cad65510}
+      \strng{authornamehash}{e7fa8052341a5a8257dad817cad65510}
+      \strng{authorfullhash}{e7fa8052341a5a8257dad817cad65510}
+      \field{extraname}{1}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{August}
+      \field{title}{{UIC Leaflet 776-1. Loads to be considered in railway bridge design}}
+      \field{year}{2006}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2006{\_}Union Internationale Des Chemins De Fer{\_}UIC Leaflet 776-1. Loads to be considered in railway bridge design.pdf:pdf
+      \endverb
+    \endentry
+    \entry{UnionInternationaleDesCheminsDeFer2009}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7fa8052341a5a8257dad817cad65510}{%
+           family={{Union Internationale Des Chemins De Fer}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7fa8052341a5a8257dad817cad65510}
+      \strng{fullhash}{e7fa8052341a5a8257dad817cad65510}
+      \strng{bibnamehash}{e7fa8052341a5a8257dad817cad65510}
+      \strng{authorbibnamehash}{e7fa8052341a5a8257dad817cad65510}
+      \strng{authornamehash}{e7fa8052341a5a8257dad817cad65510}
+      \strng{authorfullhash}{e7fa8052341a5a8257dad817cad65510}
+      \field{extraname}{2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Design requirements for rail-bridges based on interaction phenomena between train, track and bridge}
+      \field{number}{June}
+      \field{title}{{UIC Leaflet 776-2. Design requirements for rail-bridges based on interaction phenomena between train, track and bridge}}
+      \field{type}{techreport}
+      \field{year}{2009}
+      \verb{file}
+      \verb :C$\backslash$:/Users/KBP/Documents/Mendeley Desktop/2009{\_}Union Internationale Des Chemins De Fer{\_}UIC Leaflet 776-2. Design requirements for rail-bridges based on interaction phenomena betw.pdf:pdf
+      \endverb
+      \keyw{CWR,Continuous welded rail,high-speed rail}
     \endentry
     \entry{VanOverschee1996}{misc}{}
       \name{author}{2}{}{%

@@ -448,7 +448,7 @@ Na podstawie równania (\ref{eq:critical_speed_1}) wyznaczyć można prędkość
 	\end{matrix*}
 \end{equation}
 Częstotliwość pojawiania się kolejnych osi jest oczywiście związana z prędkością $c$ i rozstawem osi $d$. \cite{Fryba2001} podaje również drugą formułę na prędkość krytyczną, której osiągnięcie grozi destabilizacją przęsła. Wzór na tę prędkość wyznaczony dla belki swobodnie podpartej podano następujący:
-\begin{equation}
+\begin{equation} \label{eq:criticla_speed}
 	c_{cr}=\frac{2lf_j}{j}\quad\text{dla}j=1,2,3\dots\ 
 \end{equation}
 Jak podaje autor, teoretyczne prędkości powodujące destabilizację przęsła są zbyt wysokie i aktualnie nieosiągalne w praktyce. Jednakże należy je rozważyć w kontekście rozwoju technologicznego transportu \parencite{Ladislav2008}.
@@ -527,15 +527,17 @@ W normie PN-EN 1991-2 wyraźnie określono w punkcie 6.4.5.1 (1), że współczy
 \end{itemize}
 \begin{figure}[p]
 	\centering
-	\includegraphics[]{/dynamic_railway/ec_algorithm_dyna.pdf} 
+	\includegraphics[width=\textwidth]{/dynamic_railway/ec_algorithm_dyna.pdf} 
 	\captionsetup{justification=centering}
 	\caption{Algorytm określający czy wymagana jest analiza dynamiczna wg \parencite{PKNj}}
 	\label{fig:ec_algorithm_dyna}
 \end{figure}
 
+Po ustaleniu wszystkich parametrów schemat decyzyjny wskazuje ewentualną konieczność wykonania analizy dynamicznej. Algorytm zależnie od ich wartości realizuje wiele scenariuszy. Można jednak wyodrębnić poszczególne sytuacje, które wynikają z algorytmu i mają potwierdzenie we wcześniej przytoczonych badaniach i opracowaniach. Poniżej krótko omówiono kluczowe aspekty mechanizmu decyzyjnego. 
+
 Schemat statyczny wpływa na przebieg procesu wyboru w dwóch miejscach. Po pierwsze konstrukcja może być ciągła lub swobodnie podparta. Po drugie, swobodnie podparte przęsło może różnić się stopniem skomplikowania układu. Roboczo w tej pracy rozróżniono je i nazwano jako konstrukcje 'proste' bądź 'złożone'. Konstrukcja określona jako 'prosta' to zgodnie z normą taka, której schematem statycznym jest \textit{belka swobodnie podparta zachowująca się tylko jak prosta belka podłużna lub prosta płyta z pomijalnymi efektami skosu na podporach niepodatnych}. W przeciwnym wypadku konstrukcja jest 'złożona'.
 
-Do wyznaczenia częstotliwości i postaci drgań własnych niezbędne jest wykonanie analizy modalnej (p. \ref{sect:modal_analysis}). Dla złożonych układów wykonywana jest ona zazwyczaj w programach MES. Dodatkowo, w niektórych sytuacjach proces decyzyjny opiera się na nomogramie (rys. \ref{fig:ec_algorithm_dyna_boundary}) oraz Załączniku F do normy PN-EN 1991-2. Nomogram pokazuje obszar stosowalności współczynników dynamicznych w zależności od częstotliwości pierwszej giętnej postaci drgań własnych w funkcji rozpiętości przęsła. Innymi słowy jeżeli pierwsza częstotliwość giętnych drgań własnych obiektu o konstrukcji 'prostej' i danej rozpiętości mieści się pomiędzy dolną, a górną granicą zakreskowanego obszaru, to współczynniki dynamiczne $\phi '$ i $\phi ''$ zdefiniowane przez normę są miarodajne i analiza dynamiczna nie jest wymagana. Granica górna nomogramu jest związana z nierównościami toru, a granica dolna z ujmuje dodatkowe oddziaływanie wynikające z samej dynamiki przejazdu. Z kolei zestawione w załączniku F kryteria wynikają z wcześniej przeprowadzonych kompleksowych analiz dynamicznych
+Do wyznaczenia częstotliwości i postaci drgań własnych niezbędne jest wykonanie analizy modalnej (p. \ref{sect:modal_analysis}). Dla złożonych układów wykonywana jest ona zazwyczaj w programach MES. Dodatkowo, w niektórych sytuacjach proces decyzyjny pozwala pominąć analizę dynamiczną opierając się na nomogramie (rys. \ref{fig:ec_algorithm_dyna_boundary}) oraz Załączniku F do normy PN-EN 1991-2. Nomogram pokazuje obszar stosowalności współczynników dynamicznych w zależności od częstotliwości pierwszej giętnej postaci drgań własnych w funkcji rozpiętości przęsła. Innymi słowy jeżeli pierwsza częstotliwość giętnych drgań własnych obiektu o konstrukcji 'prostej' i danej rozpiętości mieści się pomiędzy dolną, a górną granicą zakreskowanego obszaru, to współczynniki dynamiczne $\phi '$ i $\phi ''$ zdefiniowane przez normę są miarodajne i analiza dynamiczna nie jest wymagana. Granica górna nomogramu jest związana z nierównościami toru, a granica dolna ujmuje dodatkowe oddziaływanie wynikające z samej dynamiki przejazdu. W przypadku prędkości większych niż 200 km/h nomogram ma zastosowanie do obiektów krótkich ($L<=40$ m). Przy odpowiednim stosunku częstotliwości drgań skrętnych i giętnych ($n_T>1.2n_0$) możliwe jest pominięcie analizy dynamicznej z wykorzystaniem załącznika F do normy. W załączniku F zestawiono współczynniki graniczne $(v/n_0)_lim$, gdzie $v$ - maksymalna prędkość nominalna taboru. Współczynniki graniczne zostały zdefiniowane i zestawione w tablicach F.1 i F.2 normy. Wyznaczono je dla 'prostych' obiektów o zróżnicowanych - lecz nieograniczonych - rozpiętościach oraz dla różnych ułamków tłumienia i różnych zastępczych obciążeń równomiernie rozłożonych przypadających na metr bieżący mostu. Według algorytmu jeżeli dla obliczanego obiektu spełnione jest $(v/n_0)>(v/n_0)_lim$ to analiza dynamiczna nie jest wymagania, ponieważ efekt obciążenia będzie mniejszy niż przy obciążeniu statycznym LM 71 z odpowiednim współczynnikiem dynamicznym. Wartości graniczne zostały wyznaczone przy uwzględnieniu współczynników bezpieczeństwa dla kryteriów przyspieszenia, ugięcia i wytrzymałości, dla starannie utrzymanego toru i częstotliwości $n_0$ mniejszej niż górna granica nomogramu (rys. \ref{fig:ec_algorithm_dyna_boundary}. Do analiz użyto 7 pociągów rzeczywistych A-F również przedstawionych w załączniku F. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[]{/dynamic_railway/ec_algorithm_dyna_boundary.pdf} 
@@ -544,16 +546,20 @@ Do wyznaczenia częstotliwości i postaci drgań własnych niezbędne jest wykon
 	\label{fig:ec_algorithm_dyna_boundary}
 \end{figure}
 
-Po ustaleniu wszystkich parametrów schemat decyzyjny wskazuje ewentualną konieczność wykonania analizy dynamicznej. Algorytm zależnie od parametrów realizuje wiele scenariuszy. Można jednak wyodrębnić poszczególne sytuacje, które wynikają z algorytmu i mają potwierdzenie we wcześniej przytoczonych badaniach i opracowaniach. 
-Przy maksymalnej prędkości większej od 200 km/h pełna analiza dynamiczna jest gdy:
+Nomogram (rys. \ref{fig:ec_algorithm_dyna_boundary}) oraz tablice w załączniku F, powstały na bazie wielu lat badań i doświadczeń naukowców i inżynierów zajmujących się tematyką drgań mostów kolejowych \parencite{UnionInternationaleDesCheminsDeFer2009,ERRI1998}. Dzięki nim zidentyfikowano przypadki konstrukcji dla których nie ma obowiązku ponownego prowadzenia pełnej analizy dynamicznej. Mimo że dotyczy to jedynie prostych, powtarzalnych konstrukcji, to w typowych przypadkach pozwala zaoszczędzić projektantom mnóstwo czasu. Z drugiej strony, przy maksymalnej prędkości większej od 200 km/h analiza dynamiczna musi być wykonana jeśli:
 \begin{itemize}
 	\item konstrukcja jest 'złożona',
 	\item konstrukcja jest 'prosta', rozpiętość jest mała ($L < 40$ m), a częstotliwość drgań skrętnych jest bliska częstotliwości drgań giętnych ($n_T<1.2n_0$),
 	\item konstrukcja jest 'prosta, rozpiętość jest duża ($L < 40$ m), ale częstotliwość giętnych drgań własnych nie mieści się w wyznaczonych granicach (Rys. \ref{fig:ec_algorithm_dyna_boundary}) i częstotliwość drgań skrętnych jest bliska częstotliwości drgań giętnych ($n_T<1.2n_0$).
 \end{itemize}
-Nomogram (rys. \ref{fig:ec_algorithm_dyna_boundary}) oraz tablice w załączniku F, powstały na bazie wielu przeprowadzonych analiz wykonanych przez badaczy tematyki drgań mostów kolejowych \parencite{UnionInternationaleDesCheminsDeFer2009,ERRI1998}. Dzięki nim zidentyfikowano przypadki konstrukcji dla których nie ma obowiązku prowadzenia pełnej analizy dynamicznej. Mimo że dotyczy to prostych, powtarzalnych konstrukcji, to w typowych przypadkach pozwala zaoszczędzić projektantom mnóstwo czasu. 
+ 
+Jeżeli analiza dynamiczna jest wymagana norma nakazuje wyznaczenie przyspieszeń przęsła oraz współczynnika $\phi'_dyn$ zdefiniowanego równaniem (\ref{eq:phi_dyn}) \ref{KLASZTORNY} - jakie efekty ?. Do obliczeń należy zastosować obciążenia Pociągami Rzeczywistymi występującymi na linii oraz modele HSLM jeśli dla linii stosowane są międzyoperacyjne kryteria europejskie dużych prędkości.
+\begin{equation} \label{eq:phi_dyn}
+	\phi '_{dyn} = \text{max}(\frac{y_{dyn}}{y_{stat}})-1
+\end{equation}
+gdzie: $y_{dyn}$ oznacza maksymalną odpowiedź dynamiczną, a $y_{stat}$ odpowiadającą maksymalną odpowiedź statyczną od obciążenia Pociągiem Rzeczywistym lub modelem HSLM. Prędkości analizowanego przejazdu należy przyjmować od 40 km/h do maksymalnej prędkości obliczeniowej co 10 km/h. Maksymalną prędkość obliczeniową zaleca się przyjmować jako $1.2\times\,$maksymalna dopuszczalna prędkość pojazdu. W pobliżu prędkości rezonansowych (\ref{eq:criticla_speed}) należy zagęścić obliczenia. Według przepisów \parencite{PKNj,UnionInternationaleDesCheminsDeFer2009} przyspieszenia powinny być wyznaczone w zakresie częstotliwości sygnału do $f_{max}=30\,\text{Hz}$. Ma to swoje potwierdzenie w badaniach nad destabilizacją podsypki \parencite{Zacher2008}.
 
-
+Po wykonaniu analiz należy zweryfikować niebezpieczństwo wystąpienia nadmiernych drgań w konstrukcji. 
 
 
 

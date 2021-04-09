@@ -537,7 +537,7 @@ W normie PN-EN 1991-2 wyraźnie określono w punkcie 6.4.5.1(1), że współczyn
 
 Po ustaleniu wszystkich parametrów schemat decyzyjny wskazuje ewentualną konieczność wykonania analizy dynamicznej. Algorytm zależnie od ich wartości realizuje wiele scenariuszy. Można jednak wyodrębnić poszczególne sytuacje, które wynikają z algorytmu i mają potwierdzenie we wcześniej przytoczonych badaniach i opracowaniach. Poniżej krótko omówiono kluczowe aspekty mechanizmu decyzyjnego. 
 
-Schemat statyczny wpływa na przebieg procesu wyboru w dwóch miejscach. Po pierwsze konstrukcja może być ciągła lub swobodnie podparta. Po drugie, swobodnie podparte przęsło może różnić się stopniem skomplikowania układu. Roboczo w tej pracy rozróżniono je i nazwano jako konstrukcje 'proste' bądź 'złożone'. Konstrukcja określona jako 'prosta' to zgodnie z normą taka, której schematem statycznym jest \textit{belka swobodnie podparta zachowująca się tylko jak prosta belka podłużna lub prosta płyta z pomijalnymi efektami skosu na podporach niepodatnych}. W przeciwnym wypadku konstrukcja jest 'złożona'.
+Schemat statyczny wpływa na przebieg procesu wyboru w dwóch miejscach. Po pierwsze konstrukcja może być ciągła lub swobodnie podparta. Po drugie, swobodnie podparte przęsło może różnić się stopniem skomplikowania układu. Roboczo w tej pracy rozróżniono je i nazwano jako konstrukcje \enquote{proste} bądź \enquote{złożone}. Konstrukcja określona jako \enquote{prosta} to zgodnie z normą taka, której schematem statycznym jest \textit{belka swobodnie podparta zachowująca się tylko jak prosta belka podłużna lub prosta płyta z pomijalnymi efektami skosu na podporach niepodatnych}. W przeciwnym wypadku konstrukcja jest \enquote{złożona}.
 
 Do wyznaczenia częstotliwości i postaci drgań własnych niezbędne jest wykonanie analizy modalnej (p. \ref{sect:modal_analysis}). Dla złożonych układów wykonywana jest ona zazwyczaj w programach MES. Dodatkowo, w niektórych sytuacjach proces decyzyjny pozwala pominąć analizę dynamiczną opierając się na nomogramie (rys. \ref{fig:ec_algorithm_dyna_boundary}) oraz Załączniku F do normy PN-EN 1991-2. Nomogram pokazuje obszar stosowalności współczynników dynamicznych w zależności od częstotliwości pierwszej giętnej postaci drgań własnych w funkcji rozpiętości przęsła. Innymi słowy jeżeli pierwsza częstotliwość giętnych drgań własnych obiektu o konstrukcji 'prostej' i danej rozpiętości mieści się pomiędzy dolną, a górną granicą zakreskowanego obszaru, to współczynniki dynamiczne $\phi '$ i $\phi ''$ zdefiniowane przez normę są miarodajne i analiza dynamiczna nie jest wymagana. Granica górna nomogramu jest związana z nierównościami toru, a granica dolna ujmuje dodatkowe oddziaływanie wynikające z samej dynamiki przejazdu. W przypadku prędkości większych niż 200 km/h nomogram ma zastosowanie do obiektów krótkich ($L<=40$ m). Przy odpowiednim stosunku częstotliwości drgań skrętnych i giętnych ($n_T>1.2n_0$) możliwe jest pominięcie analizy dynamicznej z wykorzystaniem załącznika F do normy. W załączniku F zestawiono współczynniki graniczne $(v/n_0)_lim$, gdzie $v$ - maksymalna prędkość nominalna taboru. Współczynniki graniczne zostały zdefiniowane i zestawione w tablicach F.1 i F.2 normy. Wyznaczono je dla 'prostych' obiektów o zróżnicowanych - lecz nieograniczonych - rozpiętościach oraz dla różnych ułamków tłumienia i różnych zastępczych obciążeń równomiernie rozłożonych przypadających na metr bieżący mostu. Według algorytmu jeżeli dla obliczanego obiektu spełnione jest $(v/n_0)>(v/n_0)_lim$ to analiza dynamiczna nie jest wymagania, ponieważ efekt obciążenia będzie mniejszy niż przy obciążeniu statycznym LM 71 z odpowiednim współczynnikiem dynamicznym. Wartości graniczne zostały wyznaczone przy uwzględnieniu współczynników bezpieczeństwa dla kryteriów przyspieszenia, ugięcia i wytrzymałości, dla starannie utrzymanego toru i częstotliwości $n_0$ mniejszej niż górna granica nomogramu (rys. \ref{fig:ec_algorithm_dyna_boundary}. Do analiz użyto 7 pociągów rzeczywistych A-F również przedstawionych w załączniku F. 
 \begin{figure}[h]
@@ -550,16 +550,16 @@ Do wyznaczenia częstotliwości i postaci drgań własnych niezbędne jest wykon
 
 Nomogram (rys. \ref{fig:ec_algorithm_dyna_boundary}) oraz tablice w załączniku F, powstały na bazie wielu lat badań i doświadczeń naukowców i inżynierów zajmujących się tematyką drgań mostów kolejowych \parencite{UnionInternationaleDesCheminsDeFer2009,ERRI1998}. Dzięki nim zidentyfikowano przypadki konstrukcji dla których nie ma obowiązku ponownego prowadzenia pełnej analizy dynamicznej. Mimo że dotyczy to jedynie prostych, powtarzalnych konstrukcji, to w typowych przypadkach pozwala zaoszczędzić projektantom mnóstwo czasu. Z drugiej strony, przy maksymalnej prędkości większej od 200 km/h analiza dynamiczna musi być wykonana jeśli:
 \begin{itemize}
-	\item konstrukcja jest 'złożona',
-	\item konstrukcja jest 'prosta', rozpiętość jest mała ($L < 40$ m), a częstotliwość drgań skrętnych jest bliska częstotliwości drgań giętnych ($n_T<1.2n_0$),
-	\item konstrukcja jest 'prosta, rozpiętość jest duża ($L < 40$ m), ale częstotliwość giętnych drgań własnych nie mieści się w wyznaczonych granicach (Rys. \ref{fig:ec_algorithm_dyna_boundary}) i częstotliwość drgań skrętnych jest bliska częstotliwości drgań giętnych ($n_T<1.2n_0$).
+	\item konstrukcja jest \enquote{złożona},
+	\item konstrukcja jest \enquote{prosta}, rozpiętość jest mała ($L < 40$ m), a częstotliwość drgań skrętnych jest bliska częstotliwości drgań giętnych ($n_T<1.2n_0$),
+	\item konstrukcja jest \enquote{prosta}, rozpiętość jest duża ($L < 40$ m), ale częstotliwość giętnych drgań własnych nie mieści się w wyznaczonych granicach (Rys. \ref{fig:ec_algorithm_dyna_boundary}) i częstotliwość drgań skrętnych jest bliska częstotliwości drgań giętnych ($n_T<1.2n_0$).
 \end{itemize}
  
  
  
  
 \subsubsection{Obciążenia}
-W pracy poruszany jest temat optymalizacji struktury obiektów mostowych, który zdecydowanie częściej może być rozważany na etapie projektowania mostu niż w trakcie jego życia. Z tego względu w dalszej części pracy rozważone zostaną obciążenia służące projektowaniu, a nie sprawdzaniu istniejących konstrukcji. Według rozporządzenia \parencite{PolskiKomitetNormalizacyjny} do projektowania należy używać modeli obciążeń zawartych w omawianej już normie PN-EN 1991-2, a do sprawdzania nośności istniejących obiektów kolejowych modeli obciążeń eksploatacyjnych opisanych w normie PN-EN 15528 \parencite{PolskiKomitetNormalizacyjnya}. 
+W pracy poruszany jest temat optymalizacji struktury obiektów mostowych, który zdecydowanie częściej może być rozważany na etapie projektowania mostu niż w trakcie jego życia. Z tego względu w dalszej części pracy rozważone zostaną obciążenia służące projektowaniu, a nie sprawdzaniu istniejących konstrukcji. Według rozporządzenia \parencite{PolskiKomitetNormalizacyjny} do projektowania należy używać modeli obciążeń zawartych w omawianej już normie PN-EN 1991-2, a do sprawdzania nośności istniejących obiektów kolejowych modeli obciążeń eksploatacyjnych opisanych w normie PN-EN 15528 \parencite{PolskiKomitetNormalizacyjnya,uszczki2015}. 
 
 W normie PN-EN 1991-2 występuję kilka obciążeń kolejowych podzielonych na dwie grupy w zależności od przeznaczenia. Pierwszą grupę stanowią obciążenia do analiz statycznych. W jej skład wchodzą modele obciążenia: UIC 71, SW/0, SW/2 i pociąg bez ładunku. Model UIC 71 został opracowany już w 1971 roku \parencite{UnionInternationaleDesCheminsDeFer2006} i był stosowany w poprzedniej generacji Polskich Norm \parencite{PKNe}. Z tego względu jest dobrze znany środowisku projektowemu i zwykle nie występują problemy w jego zastosowaniu. Obciążenia statyczne nie stanowią głównego tematu niniejszej pracy i nie będą szerzej omawiane. Ich szczegółowy opis, pochodzenie oraz zasady użycia można znaleźć w normie PN-EN 1991-2 oraz pracach \parencite{James2003,UnionInternationaleDesCheminsDeFer2006}. Druga grupa zawiera modele obciążeń wykorzystywane w analizach dynamicznych lub zmęczeniowych. Zaliczają się do niej:
 \begin{itemize}
@@ -578,27 +578,113 @@ Pierwszą grupą obciążeń normowych używanych do analiz dynamicznych są Poc
 \end{itemize}
 \begin{figure}[h]
 	\centering
-	\subfloat[]{\includegraphics[]{/dynamic_railway/types_of_trains_articulated.pdf}} \\
+	\subfloat[]{\includegraphics[]{/dynamic_railway/types_of_trains_articulated.pdf}  \label{fig:train_types_EC_art} } \\
 	\subfloat[]{\includegraphics[]{/dynamic_railway/types_of_trains_conventional.pdf}} \\
 	\subfloat[]{\includegraphics[]{/dynamic_railway/types_of_trains_regular.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Typy pociągów rzeczywistych kursujących na Europejskich liniach dużych prędkości: (a) pociąg przegubowy; (b) pociąg typowy; (c) pociąg regularny. Oznaczenia: $d_{BA}$ - rozstaw osi w wózku, $D$ - odległość miedzy regularnie odległymi osiami lub długość wagonu, $D_{IC}$ - długość wagonu pośredniego, $e_c$ - odległość między sąsiednimi osiami dwóch pojedynczych zestawów pociągów \parencite{PKNj}.}
 	\label{fig:train_types_EC}
 \end{figure}
-Na liniach kolejowych o prędkości maksymalnej mniejszej niż 200 km/h zarządca w indywidualnej dokumentacji technicznej może być określić Pociągi Rzeczywiste, które należy uwzględnić w analizach. Modele obciążeń wraz z klasyfikacją linii kolejowych można znaleźć w normie PN-EN 15528:2015-12 \parencite{PolskiKomitetNormalizacyjnya}. \textbf{ZWERYFIKOWAĆ!}
+Na liniach kolejowych o prędkości maksymalnej mniejszej niż 200 km/h zarządca w indywidualnej dokumentacji technicznej może określić Pociągi Rzeczywiste, które należy uwzględnić w analizach. Modele obciążeń wraz z klasyfikacją linii kolejowych można znaleźć w normie PN-EN 15528:2015-12 \parencite{PolskiKomitetNormalizacyjnya}. \textbf{ZWERYFIKOWAĆ!}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[]{/dynamic_railway/hslm_a.pdf}
+\captionsetup{justification=centering}
+	\caption{Model pociagu HSLM-A według PN-EN 1991-2. Na podstawie \parencite{PKNj}}
+	\label{fig:train_hslm_a}
+\end{figure}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[]{/dynamic_railway/hslm_b.pdf}
+		\captionsetup{justification=centering}
+	\caption{Model pociagu HSLM-B według PN-EN 1991-2. Na podstawie \parencite{PKNj}}
+	\label{fig:train_hslm_b}
+\end{figure}
 
+\begin{table}[]
+	\caption{Parametry modelu HSLM-A wg \cite{PKNj}}
+	\centering
+	\footnotesize
+	\begin{tabular}{@{}ccccc@{}}
+		\toprule
+		HSLM & \begin{tabular}[c]{@{}c@{}}Liczba pośrednich\\ wagonów pasażerskich \\ $N$\end{tabular} & \begin{tabular}[c]{@{}c@{}}Długość wagonu\\ pasażerskiego \\ $D$ {[}m{]}\end{tabular} & \begin{tabular}[c]{@{}c@{}}Rozstaw osi\\ wózków \\ $d$ {[}m{]}\end{tabular} & \begin{tabular}[c]{@{}c@{}}Siła skupiona \\ $P$ {[}kN{]}\end{tabular} \\ \midrule
+		A1   & 18                                                                                      & 18                                                                                    & 2,0                                                                         & 170                                                                   \\ \midrule
+		A2   & 17                                                                                      & 19                                                                                    & 3,5                                                                         & 200                                                                   \\ \midrule
+		A3   & 16                                                                                      & 20                                                                                    & 2,0                                                                         & 180                                                                   \\ \midrule
+		A4   & 15                                                                                      & 21                                                                                    & 3,0                                                                         & 190                                                                   \\ \midrule
+		A5   & 14                                                                                      & 22                                                                                    & 2,0                                                                         & 170                                                                   \\ \midrule
+		A6   & 13                                                                                      & 23                                                                                    & 2,0                                                                         & 180                                                                   \\ \midrule
+		A7   & 13                                                                                      & 24                                                                                    & 2,0                                                                         & 190                                                                   \\ \midrule
+		A8   & 12                                                                                      & 25                                                                                    & 2,5                                                                         & 190                                                                   \\ \midrule
+		A9   & 11                                                                                      & 26                                                                                    & 2,0                                                                         & 210                                                                   \\ \midrule
+		A10  & 11                                                                                      & 27                                                                                    & 2,0                                                                         & 210                                                                   \\ \bottomrule
+	\end{tabular}
+	\label{tab:hslm_a_parameters}
+\end{table}
+
+Drugą grupę obciążeń stosowanych w analizach dynamicznych stanowią pociągi uniwersalne \teng{Universal Trains}. W jej skład wchodzą dwa modele HSLM-A i HSLM-B \teng{High Speed Load Model (HSLM)}. Są to teoretyczne modele, które powstały aby zagwarantować spełnienie warunków interoperacyjności kolei w państwach Unii Europejskiej. Odzwierciedlają szeroki zakres obciążeń od pociągów dużej prędkości aktualnie użytkowanych i potencjalnie występujących w przyszłości. Model HSLM-A został przedstawiony na rysunku \ref{fig:train_hslm_a} i występuje w 10 wariantach różniących się parametrami - oznaczonych od A1 do A10. Parametry dla modelu HSLM-A przedstawono w tabeli \ref{tab:hslm_a_parameters}. Model obciążenia stanowi potok sił, w wiekszości rozstawionych w regularny sposób jak dla osi kół pociagu. Schemat rozkładu sił odpowiada pociągowi o typie przegubowym (rys. \ref{fig:train_types_EC_art}). Całkowita długość pociągu w każdym z wariantów wynosi około 400 m i zależy od liczby wagonów $N$ i ich długości $D$. Obciążenie przypadające na oś oznaczono jako $P$, a jego wartość miesci się w zakresie od 170 kN do 210 kN. Rozstaw osi wózków $d$ również został zróżnicowany od 2 do 3.5 m. Dodatkowo na początku i na końcu modelu znajduje się nieregularny układ sił odwzorowujący lokomotywy. Model HSLM-B pokazano na rysunku \ref{fig:train_hslm_b}. Składa się z $N$ sił w regularnym rozstawie $d$. Parametry modelu $d$ i $N$ przyjmuje się w zależności od rozpiętości przęsła $L$ zgodnie z rysunkiem \ref{fig:train_hslm_b}. Model HSLM-B zgodnie z zaleceniem stosowany może być dla obiektów 'prostych' o rozpiętości poniżej 7 m. Dla pozostałych obiektów zalecane jest wyznaczenie odpowiedzi od obciążenia modelem HSLM-A dla wszystkich wariantów A1-A10.
 
 \subsubsection{Parametry analizy dynamicznej}
-Jeżeli analiza dynamiczna jest wymagana norma nakazuje wyznaczenie przyspieszeń przęsła oraz współczynnika $\phi'_{dyn}$ zdefiniowanego równaniem (\ref{eq:phi_dyn}) \ref{KLASZTORNY} - jakie efekty ?. Do obliczeń należy zastosować obciążenia Pociągami Rzeczywistymi występującymi na linii oraz modele HSLM jeśli dla linii stosowane są międzyoperacyjne kryteria europejskie dużych prędkości. Jeśli analiza dynamiczna jest wymagana, a prędkość liniowa jest mniejsza nż 200 km/h to do sprawdzenia efektów dynamicznych należy zastosować Pociągi Rzeczywiste oraz Pociągi Typowe.
-\begin{equation} \label{eq:phi_dyn}
-	\phi '_{dyn} = \text{max}\Big(\frac{y_{dyn}}{y_{stat}}\Big)-1
-\end{equation}
-gdzie: $y_{dyn}$ oznacza maksymalną odpowiedź dynamiczną, a $y_{stat}$ odpowiadającą maksymalną odpowiedź statyczną od obciążenia Pociągiem Rzeczywistym lub modelem HSLM. Prędkości analizowanego przejazdu należy przyjmować od 40 km/h do maksymalnej prędkości obliczeniowej co 10 km/h. Maksymalną prędkość obliczeniową zaleca się przyjmować jako $1.2\times\,$\textit{maksymalna dopuszczalna prędkość pojazdu}. W pobliżu prędkości rezonansowych (\ref{eq:criticla_speed}) należy zagęścić obliczenia. Według przepisów \parencite{PKNj,UnionInternationaleDesCheminsDeFer2009} przyspieszenia powinny być wyznaczone w zakresie częstotliwości sygnału do $f_{max}=\text{max}\{1.5n_0;n_3; 30\,\text{Hz}\}$, gdzie $n_0$ i $n_3$ oznaczają odpowiednio pierwszą i trzecią postać giętnych drgań elementu. W przypadku mostów zwykle decydujący jest warunek 30 Hz, ponieważ drgania o częstotliwości powyżej 20 Hz dotyczą zazwyczaj elementów drugorzędnych \parencite{Oleszek2015b}. Powyższy warunek ma również potwierdzenie w badaniach nad destabilizacją podsypki \parencite{Zacher2008}.
+
+Do analiz dynamicznych należy zastosować obciążenia Pociągami Rzeczywistymi występującymi na linii oraz modele HSLM jeśli dla linii stosowane są międzyoperacyjne kryteria europejskie dużych prędkości. Jeśli analiza dynamiczna jest wymagana, a prędkość liniowa jest mniejsza nż 200 km/h to do sprawdzenia efektów dynamicznych należy zastosować Pociągi Rzeczywiste A-F (załącznik F normy) oraz Pociągi Zmęczeniowe 1-12 (załącznik D normy).
+ 
+
+Prędkości analizowanego przejazdu należy przyjmować od 40 km/h do maksymalnej prędkości obliczeniowej co 10 km/h. Maksymalną prędkość obliczeniową zaleca się przyjmować jako $1.2\times\,$\textit{maksymalna dopuszczalna prędkość pojazdu}. W pobliżu prędkości rezonansowych (\ref{eq:criticla_speed}) należy zagęścić obliczenia. Według przepisów \parencite{PKNj,UnionInternationaleDesCheminsDeFer2009} przyspieszenia powinny być wyznaczone w zakresie częstotliwości sygnału do $f_{max}=\text{max}\{1.5n_0;n_3; 30\,\text{Hz}\}$, gdzie $n_0$ i $n_3$ oznaczają odpowiednio pierwszą i trzecią postać giętnych drgań elementu. W przypadku mostów zwykle decydujący jest warunek 30 Hz, ponieważ drgania o częstotliwości powyżej 20 Hz dotyczą zazwyczaj elementów drugorzędnych \parencite{Oleszek2015b}. Powyższy warunek ma również potwierdzenie w badaniach nad destabilizacją podsypki \parencite{Zacher2008}.
+
+MATERIAŁY
 
 \subsubsection{Kryteria oceny rozwiązania}
-Po wykonaniu analiz należy uwzględnić wpływ efektów dynamicznych w ocenie Stanów Granicznych. W sekcji 6.4.6.5 normy podano elementy, które należy sprawdzić w celu zapewnienia bezpieczeństwa ruchu. Ze względu na ryzyko destabilizacji podsypki wyznaczone maksymalne przyspieszenia pomostu należy porównać z wartościami dopuszczalnymi podanymi w Eurokodzie 0 załącznik A.2. Wartości te wynoszą odpowiednio $3.5\,\text{m/s}^2$ dla pomostu z nawierzchnią podsypkową oraz $5.0 \,\text{m/s}^2$ dla nawierzchni bezpodsypkowej. Wartości te wynikają wprost z wyników badań \parencite{Zacher2008} przy podzieleniu przez współczynniki bezpieczeństwa. Dla nawierzchni z podsypką zastosowano współczynnik 2.0 i uzyskano $a_{dop}=7/2.0=3.5\,\text{m/s}^2$, a dla bezpodsypkowej 1.4 co prowadzi do wyniku $a_{dop}=7/1.4=5.0\,\text{m/s}^2$. W konsekwencji uzyskano wartości maksymalne: $a_{dop}=7/2.0=3.5\,\text{m/s}^2$.
+Jeżeli analiza dynamiczna jest wymagana norma PN-EN 1991-2 nakazuje wyznaczenie przemieszczeń i przyspieszeń przęsła oraz współczynnika $\phi'_{dyn}$ zdefiniowanego równaniem:
+\begin{equation} \label{eq:phi_dyn}
+	\phi '_{dyn} = \text{max}\Big| \frac{y_{dyn}}{y_{stat}} \Big| -1
+\end{equation}
+gdzie: $y_{dyn}$ oznacza maksymalną odpowiedź dynamiczną, a $y_{stat}$ odpowiadającą maksymalną odpowiedź statyczną od obciążenia Pociągiem Rzeczywistym lub modelem HSLM. Norma nie precyzuje jakie efekty należy porównywać przy wyznaczeniu współczynnika, jednakże nie jest to bez znaczenia dla wyniku. Przykładowo \cite{Klasztorny2005} wskazuje, że dla mostów belkowych stalowych i zespolonych współczynniki dynamiczne wyznaczane na podstawie ugięć są o około 10\% niższe niż dla naprężeń. Wartości te należy uwzględnić w ocenie Stanów Granicznych. W rozdziale 6.4.6.5 normy podano elementy, które należy sprawdzić w celu zapewnienia bezpieczeństwa ruchu. 
+
+W celu sprawdzenia wytrzymałości elementów konstrukcji należy wybrać bardziej niekorzystny z przypadków obciążenia:
+\begin{itemize}
+	\item obciążenie statyczne modelem LM 71 powiększone przez odpowiedający mu współczynnik dynamiczny. Jeśli wymagane należy sprawdzić również obciążenie SW/0 ze współczynnikiem dynamicznym,
+	\item obciążenie Pociągiem Rzeczywistym (RT) lub HSLM, w obu przypadkach powiekszone przez współczynnik dynamiczny $\phi '_{dyn}$ dany wzorem (\ref{eq:phi_dyn}) i współczynnik $\phi''$ wynikający z nierównomierności toru, zdefiniowany w załączniku C do PN-EN 1991-2.
+\end{itemize}
+Podsumowując powyższe, należy wyznaczyć efekty obciążenia i wybrać bardziej niekorzystne zgodnie z poniższą formułą podaną w normie:
+\begin{equation} \label{eq:SGN_dyna}
+	\phi \times (LM\,71 \text{ \glqq +\grqq }\; SW/0)\quad \text{lub} \quad
+	(1+\phi '_{dyn}+0.5 \times \phi'') \times 
+	\begin{pmatrix}
+		HSLM \\
+		\text{lub} \\
+		RT
+	\end{pmatrix}
+\end{equation}
+
+Norma PN-EN 1991-2 zwraca szczególną uwagę na sprawdzenie bezpieczeństwa nawierzchni kolejowej. Należy ocenić następujące wielkości:
+\begin{itemize}
+	\item przyspieszenia pionowe pomostu,
+	\item skręcenie pomostu,
+	\item przemieszczenia pionowe pomostu,
+	\item przemieszczenia i przyspieszenia poziome pomostu.
+\end{itemize}
+Wszystkie kryteria opisano w PN-EN 1990 załącznik A2 w punkcie A2.4.4. Spośród powyższych decydujące jest zazwyczaj sprawdzenie przyspieszeń pionowych. Ze względu na ryzyko destabilizacji podsypki wyznaczone maksymalne pionowe przyspieszenia pomostu należy porównać z wartościami dopuszczalnymi podanymi w Eurokodzie 0 załącznik A.2. Wartości te wynoszą odpowiednio $3.5\,\text{m/s}^2$ dla pomostu z nawierzchnią podsypkową oraz $5.0 \,\text{m/s}^2$ dla nawierzchni bezpodsypkowej. Wartości te wynikają wprost z wyników badań \parencite{Zacher2008} przy uwzględnieniu współczynników bezpieczeństwa. Dla nawierzchni z podsypką zastosowano współczynnik 2.0 i uzyskano $a_{dop}=7/2.0=3.5\,\text{m/s}^2$, a dla bezpodsypkowej 1.4 co prowadzi do wyniku $a_{dop}=7/1.4=5.0\,\text{m/s}^2$.
+
+Trzecim kryterium, które należy sprawdzić dla obiektów kolejowych jest komfort pasażerów. W normie PN-EN 1990 przyjęto 3 klasy komfortu pasażerów: bardzo dobrą, dobrą i dostateczną. Przynależność do danej klasy komfortu zależy od maksymalnych wartości przyspieszeń działających na pasażera, a wiec mierzonych wewnątrz pojazdu. Wartości progowe przyspieszeń dla poszczególnych klas przytoczono w tablicy \ref{}. Naturalnie w celu wyznaczenia przyspieszczeń wewnątrz pojazdu w trakcie analiz dynamicznych należy posłużyć się modelem interakcji pomiędzy pojazdem, a mostem. Analiza dynamiczna w podstawowej formie jest zadaniem złożonym, a jej trudność jeszcze wzrasta przy włączeniu współracy pomostu i taboru. Z tego względu w normie znalazła się również uproszczona metoda oszacowania komfortu na podstawie pionowych przemieszczeń statycznych przęsła. Posiada ona jednak ograniczenia stosowania. Dotyczy ona jedynie przęseł o schemacie statycznym belki swobodnie podpartej lub belki ciągłej o niewielkiem zróżnicowaniu rozpiętości i sztywności oraz o rozpiętościach mniejszych niż 120 m. Na wykresie \ref{} przytoczono nomogram zawarty w normie. Przedstawiono na nim krzywe graniczne $L/\delta$ w funkcji prędkości przejazdu $V $ [km/h] i rozpiętości przęsła $L$ [m] dla przypadku ustawionych w ciągu 3 przęseł swobodnie podpartych. Symbol $\delta$ oznacz przemieszczenia pionowe przęsła pod obciązeniem statycznym LM 71, z uwzględnieniem współczynnika dynamicznego i dla współczynnika klasy obciążenia $\alpha =1$. Jeżeli wyznaczony wskaźnik $L/\delta$ mieści się poniżej odpowiedniej krzywej i powyżej wartości 600 to zagwarantowany jest bardzo dobry komfort pasażerów. W normie podano szereg modyfikacji wartości podanych na wykresie, pozwalających ocenić spełnienie pozostałych klas komfortu, przypadki z inną liczbą przęseł swobodnie podpartych i belek ciągłych.
+Dla przypadków niemieszczących się w obszarze stosowalności metody uproszczonej należy przeprowadzić szczegółową analizę dynamiczną. Norma wskazuje, że należy w niej uwzględnić:
+\begin{itemize}
+	\item szereg prędkości do wartości maksymalnej,
+	\item obciążenie charakterystyczne pociagów rzeczywistych,
+	\item dynamiczne współdziałanie mas między wagonami, a konstrukcją,
+	\item charakterystyki modalne zawieszenia wagonu,
+	\item liczbę wagonów wystarczającą do wywołania maksymalnych możliwych efektów,
+	\item efekt działania nierównomierności toru na współdziałanie pojazdu z mostem.
+\end{itemize}
+
+\begin{figure}[h]
+\centering
+\includegraphics[]{/dynamic_railway/simp_comfort_class.pdf}
+\captionsetup{justification=centering}
+\caption{PRZERYSOWAĆ NA SZYBKOŚCI}
+\label{fig:simpl_comfort_clas}
+\end{figure}
 
 
 

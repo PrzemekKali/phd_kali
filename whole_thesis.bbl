@@ -5237,12 +5237,35 @@
       \strng{authorbibnamehash}{13b0af556352fc855a00d70a08de29a2}
       \strng{authornamehash}{13b0af556352fc855a00d70a08de29a2}
       \strng{authorfullhash}{13b0af556352fc855a00d70a08de29a2}
+      \field{extraname}{1}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{1}
       \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{PN-85/S-10030 Obiekty mostowe. Obcia̧żenia.}}
+    \endentry
+    \entry{PKNc}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=13b0af556352fc855a00d70a08de29a2}{%
+           family={PKN},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{13b0af556352fc855a00d70a08de29a2}
+      \strng{fullhash}{13b0af556352fc855a00d70a08de29a2}
+      \strng{bibnamehash}{13b0af556352fc855a00d70a08de29a2}
+      \strng{authorbibnamehash}{13b0af556352fc855a00d70a08de29a2}
+      \strng{authornamehash}{13b0af556352fc855a00d70a08de29a2}
+      \strng{authorfullhash}{13b0af556352fc855a00d70a08de29a2}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{PN-EN 1990 Podstawy projektowani konstrukcji}}
     \endentry
     \entry{Poli2007}{article}{}
       \name{author}{3}{}{%

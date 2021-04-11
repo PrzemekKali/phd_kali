@@ -667,7 +667,7 @@ Norma PN-EN 1991-2 zwraca szczególną uwagę na sprawdzenie bezpieczeństwa naw
 \end{itemize}
 Wszystkie kryteria opisano w PN-EN 1990 załącznik A2 w punkcie A2.4.4. Spośród powyższych decydujące jest zazwyczaj sprawdzenie przyspieszeń pionowych. Ze względu na ryzyko destabilizacji podsypki wyznaczone maksymalne pionowe przyspieszenia pomostu należy porównać z wartościami dopuszczalnymi podanymi w Eurokodzie 0 załącznik A.2. Wartości te wynoszą odpowiednio $3.5\,\text{m/s}^2$ dla pomostu z nawierzchnią podsypkową oraz $5.0 \,\text{m/s}^2$ dla nawierzchni bezpodsypkowej. Wartości te wynikają wprost z wyników badań \parencite{Zacher2008} przy uwzględnieniu współczynników bezpieczeństwa. Dla nawierzchni z podsypką zastosowano współczynnik 2.0 i uzyskano $a_{dop}=7/2.0=3.5\,\text{m/s}^2$, a dla bezpodsypkowej 1.4 co prowadzi do wyniku $a_{dop}=7/1.4=5.0\,\text{m/s}^2$.
 
-Trzecim kryterium, które należy sprawdzić dla obiektów kolejowych jest komfort pasażerów. W normie PN-EN 1990 przyjęto 3 klasy komfortu pasażerów: bardzo dobrą, dobrą i dostateczną. Przynależność do danej klasy komfortu zależy od maksymalnych wartości przyspieszeń działających na pasażera, a wiec mierzonych wewnątrz pojazdu. Wartości progowe przyspieszeń dla poszczególnych klas przytoczono w tablicy \ref{}. Naturalnie w celu wyznaczenia przyspieszczeń wewnątrz pojazdu w trakcie analiz dynamicznych należy posłużyć się modelem interakcji pomiędzy pojazdem, a mostem. Analiza dynamiczna w podstawowej formie jest zadaniem złożonym, a jej trudność jeszcze wzrasta przy włączeniu współracy pomostu i taboru. Z tego względu w normie znalazła się również uproszczona metoda oszacowania komfortu na podstawie pionowych przemieszczeń statycznych przęsła. Posiada ona jednak ograniczenia stosowania. Dotyczy ona jedynie przęseł o schemacie statycznym belki swobodnie podpartej lub belki ciągłej o niewielkiem zróżnicowaniu rozpiętości i sztywności oraz o rozpiętościach mniejszych niż 120 m. Na wykresie \ref{} przytoczono nomogram zawarty w normie. Przedstawiono na nim krzywe graniczne $L/\delta$ w funkcji prędkości przejazdu $V $ [km/h] i rozpiętości przęsła $L$ [m] dla przypadku ustawionych w ciągu 3 przęseł swobodnie podpartych. Symbol $\delta$ oznacz przemieszczenia pionowe przęsła pod obciązeniem statycznym LM 71, z uwzględnieniem współczynnika dynamicznego i dla współczynnika klasy obciążenia $\alpha =1$. Jeżeli wyznaczony wskaźnik $L/\delta$ mieści się poniżej odpowiedniej krzywej i powyżej wartości 600 to zagwarantowany jest bardzo dobry komfort pasażerów. W normie podano szereg modyfikacji wartości podanych na wykresie, pozwalających ocenić spełnienie pozostałych klas komfortu, przypadki z inną liczbą przęseł swobodnie podpartych i belek ciągłych.
+Trzecim kryterium, które należy sprawdzić dla obiektów kolejowych jest komfort pasażerów. W normie PN-EN 1990 przyjęto 3 klasy komfortu pasażerów: bardzo dobrą, dobrą i dostateczną. Przynależność do danej klasy komfortu zależy od maksymalnych wartości przyspieszeń działających na pasażera, a wiec mierzonych wewnątrz pojazdu. Wartości progowe przyspieszeń dla poszczególnych klas przytoczono w tablicy \ref{tab:comfort_classes}. Naturalnie w celu wyznaczenia przyspieszeń wewnątrz pojazdu w trakcie analiz dynamicznych należy posłużyć się modelem interakcji pomiędzy pojazdem, a mostem. Analiza dynamiczna w podstawowej formie jest zadaniem złożonym, a jej trudność jeszcze wzrasta przy włączeniu współpracy pomostu i taboru. Z tego względu w normie znalazła się również uproszczona metoda oszacowania komfortu na podstawie pionowych przemieszczeń statycznych przęsła. Posiada ona jednak ograniczenia stosowania. Dotyczy ona jedynie przęseł o schemacie statycznym belki swobodnie podpartej lub belki ciągłej o niewielkim zróżnicowaniu rozpiętości i sztywności oraz o rozpiętościach mniejszych niż 120 m. Na wykresie \ref{fig:simpl_comfort_clas} przytoczono nomogram zawarty w normie. Przedstawiono na nim krzywe graniczne $L/\delta$ w funkcji prędkości przejazdu $V $ [km/h] i rozpiętości przęsła $L$ [m] dla przypadku ustawionych w ciągu 3 przęseł swobodnie podpartych. Symbol $\delta$ oznacz przemieszczenia pionowe przęsła pod obciążeniem statycznym LM 71, z uwzględnieniem współczynnika dynamicznego i dla współczynnika klasy obciążenia $\alpha =1$. Jeżeli wyznaczony wskaźnik $L/\delta$ mieści się poniżej odpowiedniej krzywej i powyżej wartości 600 to zagwarantowany jest bardzo dobry komfort pasażerów. W normie podano szereg modyfikacji wartości podanych na wykresie, pozwalających ocenić spełnienie pozostałych klas komfortu, przypadki z inną liczbą przęseł swobodnie podpartych i belek ciągłych.
 Dla przypadków niemieszczących się w obszarze stosowalności metody uproszczonej należy przeprowadzić szczegółową analizę dynamiczną. Norma wskazuje, że należy w niej uwzględnić:
 \begin{itemize}
 	\item szereg prędkości do wartości maksymalnej,
@@ -678,11 +678,24 @@ Dla przypadków niemieszczących się w obszarze stosowalności metody uproszczo
 	\item efekt działania nierównomierności toru na współdziałanie pojazdu z mostem.
 \end{itemize}
 
+\begin{table}[]
+	\caption{Zalecane klasy komfortu według \parencite{PKNc}}
+	\centering
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		\multicolumn{1}{c}{Poziom komfortu} & \begin{tabular}[c]{@{}c@{}}Przyspieszenia pionowe\\ $b_v \;\text{[m/s}^2\text{]}$\end{tabular} \\ \midrule
+		Bardzo dobry                        & 1.0                                                                                         \\
+		Dobry                               & 1.3                                                                                         \\
+		Dostateczny                         & 2.0                                                                                         \\ \bottomrule
+	\end{tabular}
+	\label{tab:comfort_classes}
+\end{table}
+
 \begin{figure}[h]
 \centering
 \includegraphics[]{/dynamic_railway/simp_comfort_class.pdf}
 \captionsetup{justification=centering}
-\caption{PRZERYSOWAĆ NA SZYBKOŚCI}
+\caption{Nomogram do oceny komfortu w pojeździe na podstawie ugięć dla układu w postaci ciągu trzech przęseł swobodnie podpartych przy bardzo dobrym poziomie komfortu}
 \label{fig:simpl_comfort_clas}
 \end{figure}
 

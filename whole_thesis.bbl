@@ -19,6 +19,27 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{PKNe}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bffcb951ea0acddce538e837d56db7f4}{%
+           family={PN-85/S-10030},
+           familyi={P\bibinithyphendelim 8\bibinithyphendelim 1\bibinitperiod}}}%
+      }
+      \strng{namehash}{bffcb951ea0acddce538e837d56db7f4}
+      \strng{fullhash}{bffcb951ea0acddce538e837d56db7f4}
+      \strng{bibnamehash}{bffcb951ea0acddce538e837d56db7f4}
+      \strng{authorbibnamehash}{bffcb951ea0acddce538e837d56db7f4}
+      \strng{authornamehash}{bffcb951ea0acddce538e837d56db7f4}
+      \strng{authorfullhash}{bffcb951ea0acddce538e837d56db7f4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Obiekty mostowe. Obcia̧żenia.}}
+      \field{year}{1985}
+    \endentry
     \entry{Abido2006}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=bb4e16e0bb3ea74a4bcf8a39bf2c8c65}{%
@@ -1850,6 +1871,123 @@
       \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Elbeltagi, Hegazy, Grierson - 2005 - Comparison among five evolutionary-based optimization algorithms.pdf:pdf
       \endverb
       \keyw{Ant colony,Evolutionary algorithms,Genetic algorithms,Memetic algorithms,Optimization,Particle swarm,Shuffled frog leaping}
+    \endentry
+    \entry{PolskiKomitetNormalizacyjnya}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3ea43c216b63a3d0a5349791ed6fad70}{%
+           family={{PN-EN 15528}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ea43c216b63a3d0a5349791ed6fad70}
+      \strng{fullhash}{3ea43c216b63a3d0a5349791ed6fad70}
+      \strng{bibnamehash}{3ea43c216b63a3d0a5349791ed6fad70}
+      \strng{authorbibnamehash}{3ea43c216b63a3d0a5349791ed6fad70}
+      \strng{authornamehash}{3ea43c216b63a3d0a5349791ed6fad70}
+      \strng{authorfullhash}{3ea43c216b63a3d0a5349791ed6fad70}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Kolejnictwo -- Klasyfikacja linii w odniesieniu do oddzia{ł}ywań pomiȩdzy obcia̧żeniami granicznymi pojazdów szynowych a infrastruktura̧}}
+      \field{year}{2015}
+      \verb{file}
+      \verb :C$\backslash$:/Action!/Screenshots/pn-en-15528-kolejnictwo.pdf:pdf
+      \endverb
+    \endentry
+    \entry{PolskiKomitetNormalizacyjny2004}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=455e4380410cf773d1a17a5dc9d12620}{%
+           family={{PN-EN 1990}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \strng{namehash}{455e4380410cf773d1a17a5dc9d12620}
+      \strng{fullhash}{455e4380410cf773d1a17a5dc9d12620}
+      \strng{bibnamehash}{455e4380410cf773d1a17a5dc9d12620}
+      \strng{authorbibnamehash}{455e4380410cf773d1a17a5dc9d12620}
+      \strng{authornamehash}{455e4380410cf773d1a17a5dc9d12620}
+      \strng{authorfullhash}{455e4380410cf773d1a17a5dc9d12620}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Eurokod - podstawy projektowania konstrukcji}}
+      \field{year}{2004}
+      \field{pages}{71}
+      \range{pages}{1}
+    \endentry
+    \entry{PKNc}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=455e4380410cf773d1a17a5dc9d12620}{%
+           family={{PN-EN 1990}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{455e4380410cf773d1a17a5dc9d12620}
+      \strng{fullhash}{455e4380410cf773d1a17a5dc9d12620}
+      \strng{bibnamehash}{455e4380410cf773d1a17a5dc9d12620}
+      \strng{authorbibnamehash}{455e4380410cf773d1a17a5dc9d12620}
+      \strng{authornamehash}{455e4380410cf773d1a17a5dc9d12620}
+      \strng{authorfullhash}{455e4380410cf773d1a17a5dc9d12620}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Podstawy projektowani konstrukcji}}
+      \field{year}{2004}
+    \endentry
+    \entry{PKNg}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aadfddedc2925fa1ed1c05d764cbfdfc}{%
+           family={{PN-EN 1991-1-1}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{aadfddedc2925fa1ed1c05d764cbfdfc}
+      \strng{fullhash}{aadfddedc2925fa1ed1c05d764cbfdfc}
+      \strng{bibnamehash}{aadfddedc2925fa1ed1c05d764cbfdfc}
+      \strng{authorbibnamehash}{aadfddedc2925fa1ed1c05d764cbfdfc}
+      \strng{authornamehash}{aadfddedc2925fa1ed1c05d764cbfdfc}
+      \strng{authorfullhash}{aadfddedc2925fa1ed1c05d764cbfdfc}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Eurokod 1: Oddzia{ł}ywania na konstrukcje Czȩść 1-1: Oddzia{ł}ywania ogólne}}
+      \field{year}{2004}
+    \endentry
+    \entry{PKNj}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2faed4961bee7139debcc6960284c4d4}{%
+           family={{PN-EN 1991-2}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2faed4961bee7139debcc6960284c4d4}
+      \strng{fullhash}{2faed4961bee7139debcc6960284c4d4}
+      \strng{bibnamehash}{2faed4961bee7139debcc6960284c4d4}
+      \strng{authorbibnamehash}{2faed4961bee7139debcc6960284c4d4}
+      \strng{authornamehash}{2faed4961bee7139debcc6960284c4d4}
+      \strng{authorfullhash}{2faed4961bee7139debcc6960284c4d4}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Eurokod 1: Oddzia{ł}ywania na konstrukcje Czȩść 2: Obcia̧żenia ruchome mostów}}
+      \field{year}{2007}
     \endentry
     \entry{Ewins2000}{book}{}
       \name{author}{1}{}{%
@@ -3756,6 +3894,40 @@
       \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Knowles, Corne - 2000 - Approximating the nondominated front using the Pareto archived evolution strategy.pdf:pdf
       \endverb
     \endentry
+    \entry{Kocanda1985}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=38a4305a7d4fffd4acf055e2b82cdc7c}{%
+           family={Kocańda},
+           familyi={K\bibinitperiod},
+           given={Stanis{ł}aw},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07fb96e9745d9ea44d826044db15ff5c}{%
+           family={Szala},
+           familyi={S\bibinitperiod},
+           given={Józef},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Państwowe Wydawnictwo Naukowe}%
+      }
+      \strng{namehash}{e4c14b90796d51b14e1bf9a911b45d71}
+      \strng{fullhash}{e4c14b90796d51b14e1bf9a911b45d71}
+      \strng{bibnamehash}{e4c14b90796d51b14e1bf9a911b45d71}
+      \strng{authorbibnamehash}{e4c14b90796d51b14e1bf9a911b45d71}
+      \strng{authornamehash}{e4c14b90796d51b14e1bf9a911b45d71}
+      \strng{authorfullhash}{e4c14b90796d51b14e1bf9a911b45d71}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{8301058897}
+      \field{title}{{Podstawy obliczeń zmȩczeniowych}}
+      \field{year}{1985}
+    \endentry
     \entry{Kolousek1973}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c58d90b694bda27fcc6885badbff3709}{%
@@ -4344,6 +4516,50 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Maia, Silva - 1997 - Theoretical and Experimental Modal Analysis.pdf:pdf
       \endverb
+    \endentry
+    \entry{Malm2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=37f61994c9b59944296e20ed7129262f}{%
+           family={Malm},
+           familyi={M\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4bee160adbae34d15d7393d90736d22}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b92a7b2194c90f18d0d506bdef68d306}
+      \strng{fullhash}{b92a7b2194c90f18d0d506bdef68d306}
+      \strng{bibnamehash}{b92a7b2194c90f18d0d506bdef68d306}
+      \strng{authorbibnamehash}{b92a7b2194c90f18d0d506bdef68d306}
+      \strng{authornamehash}{b92a7b2194c90f18d0d506bdef68d306}
+      \strng{authorfullhash}{b92a7b2194c90f18d0d506bdef68d306}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper deals with the dynamic effects on a tied arch railway bridge during train passages. The bridge is located in {Å}nge municipality in central Sweden. Large vibrations of the hangers were observed during train passages and field measurements have been performed to study the train induced vibrations of the hangers. According to the Palmgren-Miners linear damage rule, there is a great risk of fatigue in the threaded parts of the hangers. The low damping in the hangers has a large influence of the risk of fatigue failure. A 3D finite element model of the bridge has been developed where the dynamic vehicle-bridge interaction was modelled using contact surface formulation with a sprung mass train system. The measured data results are compared with the results from the FE model to give a better understanding of the dynamic behaviour of the bridge. {©} 2005 Elsevier Ltd. All rights reserved.}
+      \field{issn}{01410296}
+      \field{journaltitle}{Engineering Structures}
+      \field{number}{1}
+      \field{title}{{Field testing and simulation of dynamic properties of a tied arch railway bridge}}
+      \field{volume}{28}
+      \field{year}{2006}
+      \field{pages}{143\bibrangedash 152}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.engstruct.2005.07.011
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Malm, Andersson - 2006 - Field testing and simulation of dynamic properties of a tied arch railway bridge.pdf:pdf
+      \endverb
+      \keyw{Bridge,Dynamic,FEM,Fatigue,Field test,Vibration}
     \endentry
     \entry{Miettinen1999}{book}{}
       \name{author}{1}{}{%
@@ -5225,48 +5441,6 @@
       \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Piotrowski, Napiorkowski, Piotrowska - 2020 - Population size in particle swarm optimization.pdf:pdf
       \endverb
     \endentry
-    \entry{PKNe}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=13b0af556352fc855a00d70a08de29a2}{%
-           family={PKN},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{13b0af556352fc855a00d70a08de29a2}
-      \strng{fullhash}{13b0af556352fc855a00d70a08de29a2}
-      \strng{bibnamehash}{13b0af556352fc855a00d70a08de29a2}
-      \strng{authorbibnamehash}{13b0af556352fc855a00d70a08de29a2}
-      \strng{authornamehash}{13b0af556352fc855a00d70a08de29a2}
-      \strng{authorfullhash}{13b0af556352fc855a00d70a08de29a2}
-      \field{extraname}{1}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradate}{1}
-      \field{labeldatesource}{nodate}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{PN-85/S-10030 Obiekty mostowe. Obcia̧żenia.}}
-    \endentry
-    \entry{PKNc}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=13b0af556352fc855a00d70a08de29a2}{%
-           family={PKN},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{13b0af556352fc855a00d70a08de29a2}
-      \strng{fullhash}{13b0af556352fc855a00d70a08de29a2}
-      \strng{bibnamehash}{13b0af556352fc855a00d70a08de29a2}
-      \strng{authorbibnamehash}{13b0af556352fc855a00d70a08de29a2}
-      \strng{authornamehash}{13b0af556352fc855a00d70a08de29a2}
-      \strng{authorfullhash}{13b0af556352fc855a00d70a08de29a2}
-      \field{extraname}{2}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradate}{2}
-      \field{labeldatesource}{nodate}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{PN-EN 1990 Podstawy projektowani konstrukcji}}
-    \endentry
     \entry{Poli2007}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1747e08170a0c426ada009eaa77aac9e}{%
@@ -5320,99 +5494,6 @@
       \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Poli, Kennedy, Blackwell - 2007 - Particle swarm optimization An overview.pdf:pdf
       \endverb
       \keyw{computer science,firefly algorithm,machine learning,mathematical optimization,meta optimization,metaheuristic,multi swarm optimization,parallel metaheuristic,particle swarm optimization,stochastic diffusion search,test functions for optimization}
-    \endentry
-    \entry{PolskiKomitetNormalizacyjny2004}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ecf5cb5ed915d0d246c9e5257d54a2f0}{%
-           family={{Polski Komitet Normalizacyjny}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Warszawa}%
-      }
-      \strng{namehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{fullhash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{bibnamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authorbibnamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authornamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authorfullhash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \field{extraname}{1}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{PN-EN 1990 Eurokod - podstawy projektowania konstrukcji}}
-      \field{year}{2004}
-      \field{pages}{71}
-      \range{pages}{1}
-    \endentry
-    \entry{PKNj}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ecf5cb5ed915d0d246c9e5257d54a2f0}{%
-           family={{Polski Komitet Normalizacyjny}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{fullhash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{bibnamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authorbibnamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authornamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authorfullhash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \field{extraname}{2}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{PN-EN 1991-2 Eurokod 1: Oddzia{ł}ywania na konstrukcje Czȩść 2: Obcia̧żenia ruchome mostów}}
-      \field{year}{2004}
-    \endentry
-    \entry{PolskiKomitetNormalizacyjnya}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ecf5cb5ed915d0d246c9e5257d54a2f0}{%
-           family={{Polski Komitet Normalizacyjny}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{fullhash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{bibnamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authorbibnamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authornamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authorfullhash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \field{extraname}{3}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradate}{1}
-      \field{labeldatesource}{nodate}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{PN-EN 15528:2015-12 - Kolejnictwo -- Klasyfikacja linii w odniesieniu do oddzia{ł}ywań pomiȩdzy obcia̧żeniami granicznymi pojazdów szynowych a infrastruktura̧}}
-    \endentry
-    \entry{PolskiKomitetNormalizacyjny}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ecf5cb5ed915d0d246c9e5257d54a2f0}{%
-           family={{Polski Komitet Normalizacyjny}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{fullhash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{bibnamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authorbibnamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authornamehash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \strng{authorfullhash}{ecf5cb5ed915d0d246c9e5257d54a2f0}
-      \field{extraname}{4}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradate}{2}
-      \field{labeldatesource}{nodate}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Rozporza̧dzenie Ministra Transportu i Gospodarki Morskiej z dnia 10 września 1998 r. w sprawie warunków technicznych, jakim powinny odpowiadać budowle kolejowe i ich usytuowanie. Dz.U. 1998 nr 151 poz. 987}}
     \endentry
     \entry{PolskieLinieKolejoweS.A.2005}{misc}{}
       \name{author}{1}{}{%
@@ -5937,6 +6018,27 @@
       \field{title}{{MACEC 3.2: A Matlab toolbox for experimental and operational modal analysis}}
       \field{year}{2014}
     \endentry
+    \entry{PolskiKomitetNormalizacyjny}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=81a8b3f3cf803796e983c02f9d76629e}{%
+           family={RMTiGM},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{81a8b3f3cf803796e983c02f9d76629e}
+      \strng{fullhash}{81a8b3f3cf803796e983c02f9d76629e}
+      \strng{bibnamehash}{81a8b3f3cf803796e983c02f9d76629e}
+      \strng{authorbibnamehash}{81a8b3f3cf803796e983c02f9d76629e}
+      \strng{authornamehash}{81a8b3f3cf803796e983c02f9d76629e}
+      \strng{authorfullhash}{81a8b3f3cf803796e983c02f9d76629e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Rozporza̧dzenie Ministra Transportu i Gospodarki Morskiej z dnia 10 września 1998 r. w sprawie warunków technicznych, jakim powinny odpowiadać budowle kolejowe i ich usytuowanie. Dz.U. 1998 nr 151 poz. 987}}
+      \field{year}{1998}
+    \endentry
     \entry{Robinson2004}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bfea6df9ec0a2fa51b19fc604b710db9}{%
@@ -6118,6 +6220,37 @@
       \field{labeltitlesource}{title}
       \field{title}{{Einfluss bewegter Last auf Eisenbahnoberbau und Brücken}}
       \field{year}{1921}
+    \endentry
+    \entry{Schijve2001}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=29f753d383fa2bc04d672ea4321f35ee}{%
+           family={Schijve},
+           familyi={S\bibinitperiod},
+           given={Jaap},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science {\&} Business Media}%
+      }
+      \strng{namehash}{29f753d383fa2bc04d672ea4321f35ee}
+      \strng{fullhash}{29f753d383fa2bc04d672ea4321f35ee}
+      \strng{bibnamehash}{29f753d383fa2bc04d672ea4321f35ee}
+      \strng{authorbibnamehash}{29f753d383fa2bc04d672ea4321f35ee}
+      \strng{authornamehash}{29f753d383fa2bc04d672ea4321f35ee}
+      \strng{authorfullhash}{29f753d383fa2bc04d672ea4321f35ee}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0792370147}
+      \field{title}{{Fatigue of structures and materials}}
+      \field{year}{2001}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Schijve - 2001 - Fatigue of structures and materials.pdf:pdf
+      \endverb
     \endentry
     \entry{Schutter2000}{article}{}
       \name{author}{2}{}{%
@@ -6330,6 +6463,76 @@
       \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Shi, Eberhart - 1998 - A modified particle swarm optimizer.pdf:pdf
       \endverb
     \endentry
+    \entry{Siwowski2012}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b3031c75171eccc790b2661133bec70e}{%
+           family={Siwowski},
+           familyi={S\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b3031c75171eccc790b2661133bec70e}
+      \strng{fullhash}{b3031c75171eccc790b2661133bec70e}
+      \strng{bibnamehash}{b3031c75171eccc790b2661133bec70e}
+      \strng{authorbibnamehash}{b3031c75171eccc790b2661133bec70e}
+      \strng{authornamehash}{b3031c75171eccc790b2661133bec70e}
+      \strng{authorfullhash}{b3031c75171eccc790b2661133bec70e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Drogi i mosty}
+      \field{number}{1}
+      \field{title}{{Procedura oceny zmȩczenia pomostów metalowych w obiektach mostowych}}
+      \field{volume}{11}
+      \field{year}{2012}
+      \field{pages}{5\bibrangedash 31}
+      \range{pages}{27}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Downloads/68-126-1-PB.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Siwowski2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b3031c75171eccc790b2661133bec70e}{%
+           family={Siwowski},
+           familyi={S\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1a19ac4f22c9b3f154203c80889cdb7}{%
+           family={Kulpa},
+           familyi={K\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6696561a507e79d550c4f73b7ebd3815}
+      \strng{fullhash}{6696561a507e79d550c4f73b7ebd3815}
+      \strng{bibnamehash}{6696561a507e79d550c4f73b7ebd3815}
+      \strng{authorbibnamehash}{6696561a507e79d550c4f73b7ebd3815}
+      \strng{authornamehash}{6696561a507e79d550c4f73b7ebd3815}
+      \strng{authorfullhash}{6696561a507e79d550c4f73b7ebd3815}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2300-5130}
+      \field{journaltitle}{Czasopismo Inżynierii La̧dowej, Środowiska i Architektury}
+      \field{number}{61, nr 1}
+      \field{title}{{Ocena trwa{ł}ości zmȩczeniowej istnieja̧cego mostu stalowego wed{ł}ug eurokodów}}
+      \field{year}{2014}
+      \field{pages}{269\bibrangedash 285}
+      \range{pages}{17}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Downloads/98.pdf:pdf
+      \endverb
+    \endentry
     \entry{AG2018}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fefce3f2a4d5d921f5a372595f9bd91a}{%
@@ -6462,6 +6665,52 @@
       \range{pages}{29}
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stokes - 1849 - Discussion of a differential equation relating to the breaking of railway bridges.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Szafranski2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bef47d9aa92959946aefcda9a1f4e39b}{%
+           family={Szafranski},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb58d4d8cd89ad8e35b32a1cc0520ebb}{%
+           family={Galewski},
+           familyi={G\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=481161fd2fac85ff2dfb695a358a1657}{%
+           family={{Ł}apigrowski},
+           familyi={Ł\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{9dc26066f4682fffc899f08edd7ec661}
+      \strng{fullhash}{9dc26066f4682fffc899f08edd7ec661}
+      \strng{bibnamehash}{9dc26066f4682fffc899f08edd7ec661}
+      \strng{authorbibnamehash}{9dc26066f4682fffc899f08edd7ec661}
+      \strng{authornamehash}{9dc26066f4682fffc899f08edd7ec661}
+      \strng{authorfullhash}{9dc26066f4682fffc899f08edd7ec661}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Shell Structures: Theory and Applications Volume 4: Proceedings of the 11th International Conference" Shell Structures: Theory and Applications,(SSTA 2017), October 11-13, 2017, Gdansk, Poland}
+      \field{isbn}{135168048X}
+      \field{title}{{Stress analysis of the bridge hangers in terms of the fatigue verification}}
+      \field{year}{2017}
+      \field{pages}{473}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Downloads/SZAFRANSKI{\_}I{\_}INNI{\_}2017{\_}Stress{\_}anal{\_}of{\_}bridge{\_}hangers{\_}DRAFT{\_}VERSION.pdf:pdf
       \endverb
     \endentry
     \entry{Szafranski2013}{thesis}{}
@@ -6804,6 +7053,50 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Udwadia - 1994 - Methodology for optimum sensor locations for parameter identification in dynamic systems.pdf:pdf
       \endverb
+    \endentry
+    \entry{Ulker-Kaustell2012a}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3158aed6d9d835ba203afc8d02a7682a}{%
+           family={Ülker-Kaustell},
+           familyi={Ü\bibinithyphendelim K\bibinitperiod},
+           given={Mahir},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34169fbad47e3cb8e6e1fe48d80625e9}{%
+           family={Karoumi},
+           familyi={K\bibinitperiod},
+           given={Raid},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f877a8ee3ec2087b1526d5b37b8a27e2}
+      \strng{fullhash}{f877a8ee3ec2087b1526d5b37b8a27e2}
+      \strng{bibnamehash}{f877a8ee3ec2087b1526d5b37b8a27e2}
+      \strng{authorbibnamehash}{f877a8ee3ec2087b1526d5b37b8a27e2}
+      \strng{authornamehash}{f877a8ee3ec2087b1526d5b37b8a27e2}
+      \strng{authorfullhash}{f877a8ee3ec2087b1526d5b37b8a27e2}
+      \field{sortinit}{Ü}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Previous experimental work has identified variations in the natural frequency and the modal damping ratio of the first vertical bending mode of vibration of a simply supported, single span steel-concrete composite bridge. It was found that the natural frequency decreased and the modal damping ratio increased with increasing amplitudes of vibration. This paper illustrates the influence of these variations on the train-bridge resonance of this particular bridge by means of a non-linear single degree of freedom system, based on the previously mentioned experimental results. As one might expect, the results indicate that the influence of the increasing damping ratio leads to a considerable decrease in the resonant amplitude whilst the decreasing natural frequency decreases the critical train speed at which resonance occurs. Further studies along this line of research may help us reduce the uncertainties in dynamic assessments of existing bridges based on dynamic measurements and improve our understanding of the dynamic properties of railway bridges in general. {©} 2012 Elsevier Ltd.}
+      \field{issn}{01410296}
+      \field{journaltitle}{Engineering Structures}
+      \field{number}{January 2021}
+      \field{title}{{Influence of non-linear stiffness and damping on the train-bridge resonance of a simply supported railway bridge}}
+      \field{volume}{41}
+      \field{year}{2012}
+      \field{pages}{350\bibrangedash 355}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.engstruct.2012.03.060
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Downloads/Influenceofnon-linearstiffnessanddampingonthetrain-bridgeresonanceofasimplysupportedrailwaybridge.pdf:pdf
+      \endverb
+      \keyw{Dynamics,Non-linear stiffness and damping,Railway bridges,Train-bridge resonance}
     \endentry
     \entry{UnionInternationaleDesCheminsDeFer2006}{misc}{}
       \name{author}{1}{}{%

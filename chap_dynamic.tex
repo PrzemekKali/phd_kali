@@ -368,8 +368,10 @@ gdzie współczynniki $\beta$ i $\gamma$ definiują zmienność przyspieszeń w 
 Metoda numeryczna do wyznaczenia trzech niewiadomych $\vect{\ddot{x}}_{i+1}$, $\vect{\dot{x}}_{i+1}$ i $\vect{x}_{i+1}$ wymaga układu trzech równań macierzowych. Zatem dwa zaproponowane równania \ref{eq: newmark_a} i \ref{eq: newmark_b}, połączone z równaniem równowagi (\ref{eq: motion_time_step}) zapewnionym na końcu kroku czasowego, pozwalają wyznaczyć przemieszczenia, prędkość i przyspieszenia w chwili $t_{i+1}$. Ze względu na występowanie w równaniach (\ref{eq: newmark}) składników w chwili czasowej $i+1$ po obu stronach równania, algorytm musi mieć charakter iteracyjny. Jednakże istnieją modyfikacje równań, które dla układów liniowych pozwalają rozwiązać układ w jednym kroku.
 
 \subsection{Mała dawka tłumienia}
-Drgania układów rzeczywistych nierozerwalnie związane są tłumieniem.  Wśród polskich autorów obszerne rozważania na temat tłumienia drgań mostów przeprowadził \cite{Salamak2003}. Określa on tlumienie drgań jako rozproszenie energii mechanicznej drgającego układu. Tłumienie można podzielić ze względu na źródło na konstrukcyjne i zewnętrzne. W przypadku liniowych układów zazwyczaj przyjmuje się tłumienie klasyczne, proporcjonalne opisane jak w równaniu \ref{eq: mot_und_num}.
-Obecnie nie ma możliwości analitycznego wyznaczenia wartości tłumienia dla projektowanej konstrukcji. Istnieją opracowania poparte badaniami informujące o zalecanych wartościach tłumienia jakie należy przyjąć przy projektowaniu danej konstrukcji. Przykładowe wartości oraz wzory empiryczne można odnaleźć w pracach \parencite{Salamak2003, Fryba1999,Bachmann2012,Yamaguchi1997}.
+Drgania układów rzeczywistych nierozerwalnie związane są tłumieniem. Wśród polskich autorów obszerne rozważania na temat tłumienia drgań mostów przeprowadził \cite{Salamak2003}. Określa on tlumienie drgań jako w prosty sposób jako rozproszenie energii mechanicznej drgającego układu. Tłumienie można podzielić ze względu na źródło na konstrukcyjne i zewnętrzne. Pierwsze wynika między innymi z wewnętrznego tarcia wiskotycznego materiałów budowlanych w trakcie deformacji czy niejednorodności materiału i jego spękań. Tłumieniem zewnętrznym określa się wszystkie czynniki działające z zewnątrz na konstrukcję. Mogą być związane z tarciem niechybnie wystepującym na łożyskach, w tłuczniu i w połączeniach, z interackcją pomiędzy konstrukcją, a powietrzem, czy z wiskoelastycznych parametrów posadowienia.
+
+W przypadku liniowych układów zazwyczaj przyjmuje się tłumienie klasyczne, proporcjonalne opisane jak w równaniu \ref{eq: mot_und_num}, pomimo że wartość tłumienia jest zależna chociażby od amplitudy drgań \parencite{Ladislav1996}. Obecnie nie ma możliwości analitycznego wyznaczenia wartości tłumienia dla projektowanej konstrukcji. Istnieją opracowania poparte badaniami informujące o zalecanych wartościach tłumienia jakie należy przyjąć przy projektowaniu danej konstrukcji. Przykładowe wartości oraz wzory empiryczne można odnaleźć w pracach \parencite{Salamak2003, Fryba1999,Bachmann2012,Yamaguchi1997}. 
+
 W literaturze można odnaleźć kilka miar tłumienia. Pierwszą z nich jest liczba tłumienia \teng{damping ratio} nazywana również ułamkiem tłumienia lub tłumieniem względnym. Definiuje się ją jako stosunek współczynnika tłumienia wiskotycznego do tłumienia krytycznego. Dla jednego stopnia swobody (por. (\ref{eq: eq_mot_sdof})) liczę tłumienia można zapisać formułą (\ref{eq: damping_ratio_def}).
 \begin{equation} \label{eq: damping_ratio_def}
 	\zeta = \frac{c}{c_{kr}}=\frac{c}{2m\omega}
@@ -413,7 +415,8 @@ Wpływ składowych macierzy tłumienia pochodzących od macierzy mas i macierzy 
 	\caption{Wizualizacja wpływu masy i sztywności na macierz tłumienia według Rayleigh'a}
 	\label{fig: rayleigh_chart}
 \end{figure}
-Z rysunku \ref{fig: rayleigh_chart} można wysnuć przydatne z praktycznego punktu widzenia wnioski. Założone tłumienie $\zeta$ jest spełnione jedynie dla dwóch użytych w formułach \ref{eq: raileigh_parameters} częstości $\omega_i$ i $\omega_j$. Składnik $c_1=a_1 k$ wzrasta liniowo wraz ze wzrostem częstości. Z kolei składnik $c_0 = a_0 m$ maleje nieliniowo wraz ze wzrostem częstości. Sumaryczna wartość obu składników z reguły gwarantuje dla wąskiego przedziału częstości $<\omega_i ,\omega_j>$ tłumienie zbliżone do zakładanego.
+Z rysunku \ref{fig: rayleigh_chart} można wysnuć przydatne z praktycznego punktu widzenia wnioski. Założone tłumienie $\zeta$ jest spełnione jedynie dla dwóch użytych w formułach \ref{eq: raileigh_parameters} częstości $\omega_i$ i $\omega_j$. Składnik $c_1=a_1 k$ wzrasta liniowo wraz ze wzrostem częstości. Z kolei składnik $c_0 = a_0 m$ maleje nieliniowo wraz ze wzrostem częstości. Sumaryczna wartość obu składników dla przedziału częstości $<\omega_i ,\omega_j>$ jest mniejsza niż zakładana. Z kolei dla częstości spoza przedziału tłumienie jest większe niż zakładane. Jeżeli przedział inetersujących częstości jest dobrany prawidłowo, to takie podejście jest bezpieczne z punktu widzenia projektanta, ponieważ odpowiedź modelu konstrukcji jest zawyżona względem odpowiedzi rzeczywistej \parencite{Oleszek2015}.
+
 
 
 
@@ -542,14 +545,14 @@ Schemat statyczny wpływa na przebieg procesu wyboru w dwóch miejscach. Po pier
 Do wyznaczenia częstotliwości i postaci drgań własnych niezbędne jest wykonanie analizy modalnej (p. \ref{sect:modal_analysis}). Dla złożonych układów wykonywana jest ona zazwyczaj w programach MES. Dodatkowo, w niektórych sytuacjach proces decyzyjny pozwala pominąć analizę dynamiczną opierając się na nomogramie (rys. \ref{fig:ec_algorithm_dyna_boundary}) oraz Załączniku F do normy PN-EN 1991-2. Nomogram pokazuje obszar stosowalności współczynników dynamicznych w zależności od częstotliwości pierwszej giętnej postaci drgań własnych w funkcji rozpiętości przęsła. Innymi słowy jeżeli pierwsza częstotliwość giętnych drgań własnych obiektu o konstrukcji 'prostej' i danej rozpiętości mieści się pomiędzy dolną, a górną granicą zakreskowanego obszaru, to współczynniki dynamiczne $\phi '$ i $\phi ''$ zdefiniowane przez normę są miarodajne i analiza dynamiczna nie jest wymagana. Granica górna nomogramu jest związana z nierównościami toru, a granica dolna ujmuje dodatkowe oddziaływanie wynikające z samej dynamiki przejazdu. W przypadku prędkości większych niż 200 km/h nomogram ma zastosowanie do obiektów krótkich ($L<=40$ m). Przy odpowiednim stosunku częstotliwości drgań skrętnych i giętnych ($n_T>1.2n_0$) możliwe jest pominięcie analizy dynamicznej z wykorzystaniem załącznika F do normy. W załączniku F zestawiono współczynniki graniczne $(v/n_0)_lim$, gdzie $v$ - maksymalna prędkość nominalna taboru. Współczynniki graniczne zostały zdefiniowane i zestawione w tablicach F.1 i F.2 normy. Wyznaczono je dla 'prostych' obiektów o zróżnicowanych - lecz nieograniczonych - rozpiętościach oraz dla różnych ułamków tłumienia i różnych zastępczych obciążeń równomiernie rozłożonych przypadających na metr bieżący mostu. Według algorytmu jeżeli dla obliczanego obiektu spełnione jest $(v/n_0)>(v/n_0)_lim$ to analiza dynamiczna nie jest wymagania, ponieważ efekt obciążenia będzie mniejszy niż przy obciążeniu statycznym LM 71 z odpowiednim współczynnikiem dynamicznym. Wartości graniczne zostały wyznaczone przy uwzględnieniu współczynników bezpieczeństwa dla kryteriów przyspieszenia, ugięcia i wytrzymałości, dla starannie utrzymanego toru i częstotliwości $n_0$ mniejszej niż górna granica nomogramu (rys. \ref{fig:ec_algorithm_dyna_boundary}. Do analiz użyto 7 pociągów rzeczywistych A-F również przedstawionych w załączniku F. 
 \begin{figure}[h]
 	\centering
-	\includegraphics[]{/dynamic_railway/ec_algorithm_dyna_boundary.pdf} 
+	\includegraphics[width=\linewidth]{/dynamic_railway/ec_algorithm_dyna_boundary.pdf} 
 	\captionsetup{justification=centering}
-	\caption{}
+	\caption{Granice pierwszej częstotliwości drgań własnych mostu określone w normie \cite{PKNj}}
 	\label{fig:ec_algorithm_dyna_boundary}
 \end{figure}
 
 Nomogram (rys. \ref{fig:ec_algorithm_dyna_boundary}) oraz tablice w załączniku F, powstały na bazie wielu lat badań i doświadczeń naukowców i inżynierów zajmujących się tematyką drgań mostów kolejowych \parencite{UnionInternationaleDesCheminsDeFer2009,ERRI1998}. Dzięki nim zidentyfikowano przypadki konstrukcji dla których nie ma obowiązku ponownego prowadzenia pełnej analizy dynamicznej. Mimo że dotyczy to jedynie prostych, powtarzalnych konstrukcji, to w typowych przypadkach pozwala zaoszczędzić projektantom mnóstwo czasu. Z drugiej strony, przy maksymalnej prędkości większej od 200 km/h analiza dynamiczna musi być wykonana jeśli:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item konstrukcja jest \enquote{złożona},
 	\item konstrukcja jest \enquote{prosta}, rozpiętość jest mała ($L < 40$ m), a częstotliwość drgań skrętnych jest bliska częstotliwości drgań giętnych ($n_T<1.2n_0$),
 	\item konstrukcja jest \enquote{prosta}, rozpiętość jest duża ($L < 40$ m), ale częstotliwość giętnych drgań własnych nie mieści się w wyznaczonych granicach (Rys. \ref{fig:ec_algorithm_dyna_boundary}) i częstotliwość drgań skrętnych jest bliska częstotliwości drgań giętnych ($n_T<1.2n_0$).
@@ -559,11 +562,11 @@ Nomogram (rys. \ref{fig:ec_algorithm_dyna_boundary}) oraz tablice w załączniku
  
  
 \subsubsection{Obciążenia}
-W pracy poruszany jest temat optymalizacji struktury obiektów mostowych, który zdecydowanie częściej może być rozważany na etapie projektowania mostu niż w trakcie jego życia. Z tego względu w dalszej części pracy rozważone zostaną obciążenia służące projektowaniu, a nie sprawdzaniu istniejących konstrukcji. Według rozporządzenia \parencite{PolskiKomitetNormalizacyjny} do projektowania należy używać modeli obciążeń zawartych w omawianej już normie PN-EN 1991-2, a do sprawdzania nośności istniejących obiektów kolejowych modeli obciążeń eksploatacyjnych opisanych w normie PN-EN 15528 \parencite{PolskiKomitetNormalizacyjnya,uszczki2015}. 
+W pracy poruszany jest temat optymalizacji struktury obiektów mostowych, który zdecydowanie częściej może być rozważany na etapie projektowania mostu niż w trakcie jego życia. Z tego względu w dalszej części pracy rozważone zostaną obciążenia służące projektowaniu, a nie sprawdzaniu istniejących konstrukcji. Według rozporządzenia \parencite{PolskiKomitetNormalizacyjny} do projektowania należy używać modeli obciążeń zawartych w omawianej już normie PN-EN 1991-2, a do sprawdzania nośności istniejących obiektów kolejowych modeli obciążeń eksploatacyjnych opisanych w normie PN-EN 15528 \parencite{PolskiKomitetNormalizacyjnya,uszczki2015}. Norma \cite{PolskiKomitetNormalizacyjnya} zawiera instrukcje i przepisy pozwalające zaklasyfikować pojazdy i linie kolejowe do odpiewdnich klas.
 
 W normie PN-EN 1991-2 występuję kilka obciążeń kolejowych podzielonych na dwie grupy w zależności od przeznaczenia. Pierwszą grupę stanowią obciążenia do analiz statycznych. W jej skład wchodzą modele obciążenia: UIC 71, SW/0, SW/2 i pociąg bez ładunku. Model UIC 71 został opracowany już w 1971 roku \parencite{UnionInternationaleDesCheminsDeFer2006} i był stosowany w poprzedniej generacji Polskich Norm \parencite{PKNe}. Z tego względu jest dobrze znany środowisku projektowemu i zwykle nie występują problemy w jego zastosowaniu. Obciążenia statyczne nie stanowią głównego tematu niniejszej pracy i nie będą szerzej omawiane. Ich szczegółowy opis, pochodzenie oraz zasady użycia można znaleźć w normie PN-EN 1991-2 oraz pracach \parencite{James2003,UnionInternationaleDesCheminsDeFer2006}. Druga grupa zawiera modele obciążeń wykorzystywane w analizach dynamicznych lub zmęczeniowych. Zaliczają się do niej:
-\begin{itemize}
-	\item pociągi uniwersalne HSLM-A i HSLM-B (PN-EN 1991-2 p. 6.4.6.1.1),
+\begin{itemize}[noitemsep]
+	\item Pociągi Uniwersalne HSLM-A i HSLM-B (PN-EN 1991-2 p. 6.4.6.1.1),
 	\item Pociągi Rzeczywiste (PN-EN 1991-2 załącznik F)
 	\item Pociągi Zmęczeniowe\footnote{Odniesienie do Pociągów Zmęczeniowych w kontekście analizy dynamicznej znajduje się w punkcie 6.4.6.1.1(7) normy. Mówi on o zalecanych obciążeniach w przypadku kiedy analiza dynamiczna jest wymagana, a maksymalna prędkość jest mniejsza niż 200 km/h. W angielskiej wersji tekstu pojawia się zdanie "Train Types 1 to 12 given in annex D", które wyraźnie odnosi się do Pociągów Zmęczeniowych. W polskiej wersji zdanie to zostało przetłumaczone jako "Pociągi Typowe od 1 do 12 podane w załączniku D". Pojęcie Pociąg Typowy występuje również w załączniku D w odniesieniu do jednego z rodzajów Pociągów Rzeczywistych. Racjonalne wydaje się dosłowne stosowanie przepisu w jego angielskiej formie.} (PN-EN 1991-2 załącznik D). 
 \end{itemize}
@@ -585,13 +588,13 @@ Pierwszą grupą obciążeń normowych używanych do analiz dynamicznych są Poc
 	\caption{Typy pociągów rzeczywistych kursujących na Europejskich liniach dużych prędkości: (a) pociąg przegubowy; (b) pociąg typowy; (c) pociąg regularny. Oznaczenia: $d_{BA}$ - rozstaw osi w wózku, $D$ - odległość miedzy regularnie odległymi osiami lub długość wagonu, $D_{IC}$ - długość wagonu pośredniego, $e_c$ - odległość między sąsiednimi osiami dwóch pojedynczych zestawów pociągów \parencite{PKNj}.}
 	\label{fig:train_types_EC}
 \end{figure}
-Na liniach kolejowych o prędkości maksymalnej mniejszej niż 200 km/h zarządca w indywidualnej dokumentacji technicznej może określić Pociągi Rzeczywiste, które należy uwzględnić w analizach. Modele obciążeń wraz z klasyfikacją linii kolejowych można znaleźć w normie PN-EN 15528:2015-12 \parencite{PolskiKomitetNormalizacyjnya}. \textbf{ZWERYFIKOWAĆ!}
+Na liniach kolejowych o prędkości maksymalnej mniejszej niż 200 km/h zarządca w indywidualnej dokumentacji technicznej może określić Pociągi Rzeczywiste, które należy uwzględnić w analizach.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[]{/dynamic_railway/hslm_a.pdf}
 \captionsetup{justification=centering}
-	\caption{Model pociagu HSLM-A według PN-EN 1991-2. Na podstawie \parencite{PKNj}}
+	\caption{Model pociagu HSLM-A według PN-EN 1991-2. Na podstawie \cite{PKNj}}
 	\label{fig:train_hslm_a}
 \end{figure}
 
@@ -599,7 +602,7 @@ Na liniach kolejowych o prędkości maksymalnej mniejszej niż 200 km/h zarządc
 	\centering
 	\includegraphics[]{/dynamic_railway/hslm_b.pdf}
 		\captionsetup{justification=centering}
-	\caption{Model pociagu HSLM-B według PN-EN 1991-2. Na podstawie \parencite{PKNj}}
+	\caption{Model pociagu HSLM-B według PN-EN 1991-2. Na podstawie \cite{PKNj}}
 	\label{fig:train_hslm_b}
 \end{figure}
 
@@ -628,12 +631,47 @@ Drugą grupę obciążeń stosowanych w analizach dynamicznych stanowią pociąg
 
 \subsubsection{Parametry analizy dynamicznej}
 
-Do analiz dynamicznych należy zastosować obciążenia Pociągami Rzeczywistymi występującymi na linii oraz modele HSLM jeśli dla linii stosowane są międzyoperacyjne kryteria europejskie dużych prędkości. Jeśli analiza dynamiczna jest wymagana, a prędkość liniowa jest mniejsza nż 200 km/h to do sprawdzenia efektów dynamicznych należy zastosować Pociągi Rzeczywiste A-F (załącznik F normy) oraz Pociągi Zmęczeniowe 1-12 (załącznik D normy).
+Do analiz dynamicznych należy zastosować obciążenia Pociągami Rzeczywistymi występującymi na linii oraz modele HSLM jeśli dla linii stosowane są międzyoperacyjne kryteria europejskie dużych prędkości. Jeśli analiza dynamiczna jest wymagana, a prędkość liniowa jest mniejsza nż 200 km/h to do sprawdzenia efektów dynamicznych należy zastosować Pociągi Rzeczywiste A-F (załącznik F normy \cite{PKNj}) oraz Pociągi Zmęczeniowe 1-12 (załącznik D normy \cite{PKNj}).
  
 
 Prędkości analizowanego przejazdu należy przyjmować od 40 km/h do maksymalnej prędkości obliczeniowej co 10 km/h. Maksymalną prędkość obliczeniową zaleca się przyjmować jako $1.2\times\,$\textit{maksymalna dopuszczalna prędkość pojazdu}. W pobliżu prędkości rezonansowych (\ref{eq:criticla_speed}) należy zagęścić obliczenia. Według przepisów \parencite{PKNj,UnionInternationaleDesCheminsDeFer2009} przyspieszenia powinny być wyznaczone w zakresie częstotliwości sygnału do $f_{max}=\text{max}\{1.5n_0;n_3; 30\,\text{Hz}\}$, gdzie $n_0$ i $n_3$ oznaczają odpowiednio pierwszą i trzecią postać giętnych drgań elementu. W przypadku mostów zwykle decydujący jest warunek 30 Hz, ponieważ drgania o częstotliwości powyżej 20 Hz dotyczą zazwyczaj elementów drugorzędnych \parencite{Oleszek2015b}. Powyższy warunek ma również potwierdzenie w badaniach nad destabilizacją podsypki \parencite{Zacher2008}.
 
-MATERIAŁY
+\subsubsection{Parametry mostów}
+Na etapie projektowania istnieje szereg niepewności projektowanej konstrukcji. Dotyczą one przede wszystkim wymiarów elementów konstrukcji, ciężarów objętościowych materiału, modułu sprężystości materiału i tłumienia całej struktury. Wszystkie z tych czynników wpływają na masę, tłumienie i sztywność układu, co ma bezpośrednie przełożenie na częstotliwości drgań własnych i tłumienia modalne. W konsekwencji decyduje o możliwości wystąpienia rezonansu i amplitudach drgań. Najlepszą metodą parametrów przyjętych w analizach są wyniki eksperymentów na rzeczywistej konstrukcji. Naturalnie jest to możliwe jedynie w trakcie modernizacji, a nie projektowania. 
+
+Tolerancje wymiarów konstrukcji ograniczone są przez normy dotyczace danych materiałów (Eurokody od 2 do 4). Przy obliczeniach na etapie projektowania zalecane jest przyjmować wymiary nominalne.
+
+Eurokody \cite{PKNg, PKNj} podają zalecnia dotyczące przyjmowania parametrów materiałowych kiedy nie ma możliwości wyznaczenia ich rzeczywistych (zmierzonych) wartości. Według normy \cite{PKNj} w przypadku mostów kolejowych zalecane jest przyjmowanie masy konstrukcji i jej wyposażenia w dwóch wariantach. Dotyczy to głównie podsypki, która na kolejowych mostach stalowych stanowi bardzo istotną składową całkowitego ciężaru własnego. Ogólną regułą jest, że zwiększona masa powoduję obniżenie częstotliwości drgań własnych i zmniejszenie amplitud drgań. Stąd przy obliczeniu maksymalnych przyspieszeń należy przyjąć minimalną szacowaną wartość obciążenia. Z uwagi jednak na możliwość przeszacowania prędkości krytycznej (proporcjonalnej do częstotliwości drgań własnych) należy również sprawdzić przypadek górnego szacowania ciężaru własnego. Moduł spręzystości jest z reguły bardzo precyzyjnie określony w przypadku stali. Odwrotnie niż w przypadku masy zwiększona sztywność powoduje zwiększenie częstotliwości drgań własnych. Z tego względu w przypadku szacowania sztywności elementów betonowych, połączeń czy posadowienia zalecane jest by przyjmować dolne szacowanie.
+
+W dobie obliczeń za pomocą programów MES poprawne odwzorowanie sztywności oraz rozkładów masy (zwłaszcza w konstrukcjach stalowych) nie stanowi wiekszego problemu. Jednakże do analizy dynamicznej należy określić jeszcze parametry tłumienia modalnego układu. Na etapie projektowania określa się je w sposób przyblizony na podstawie norm lub wartości zidentyfikowanych przez badania na podobnych, rzeczywistych konstrukcjach \parencite{Ladislav1996}. W normie \cite{PKNj} podano wartości, które są dolną, a zatem bezpieczną granicą oszacowania. Zalecane wartosci przytoczono w tablicy \ref{tab:damping_code_eurocode}. 
+\begin{table}[]
+	\centering
+	\footnotesize
+	\caption{Zalecane wartości liczby tłumienia według normy \cite{PKNj}}
+	\begin{tabular}{@{}ccc@{}}
+		\toprule
+		\multirow{2}{*}{Rodzaj mostu}    & \multicolumn{2}{c}{Dolna granica ułamka tłumienia {[}\%{]}} \\ \cmidrule(l){2-3} 
+		& Rozpiętość $L<20$m         & Rozpiętość $L\ge 20$ m         \\ \midrule
+		Stalowy i zespolony              & 0.5+0.125(20-L)            & 0.5                            \\ \midrule
+		Betonowy sprężony                & 1.0+0.07(20-L)             & 1.0                            \\ \midrule
+		Dźwigary obetonowane i żelbetowe & 1.5+0.07(20-L)             & 1.5                            \\ \bottomrule
+	\end{tabular}
+	\label{tab:damping_code_eurocode}
+\end{table}
+Z reguly w obliczeniach stosowane jest tłumienie proporcjonalne charakteryzujące sie liniowym działaniem. Jest to również podejście bezpieczne, ponieważ uwzględnienie nieliniowego tłumienia skutkuje zmniejszeniem amplitud drgań \parencite{Ulker-Kaustell2012a,Oleszek2015}. Najczesciej spotykane normowe modele obciążenia wyrażone są za pomocą potoku sił, tworząc bezinercyjne schematy obciążenia. W konsekwencji przy tak wykonanej analizie nie uwzględnia się interakcji pomiędzy pojazdem, a konstrukcją. Z reguły uwzględnienie resorowania i tłumienia zawieszenia zmniejsza amplitudy odpowiedzi układu w rezonansie. Ma to jednak istotne znaczenie głównie dla krótkich przęsęł. W normie \cite{PKNj} efekt ten uwzględniono w sposób uproszoczony przez zastosowanie nadwyżki tłumienia, dla obiektów o rozpiętości mniejszej niż 30 m. Całkowite tłumienie $\xi_{total}$ po uwzględnieniu nadwyżki wyrażone jest wzorem \ref{eq:total_damp_ec}, a dodatek tłumienia $\Delta \xi$ określony w funkcji ropiętości przęsła $L$ zaproponowowano w postaci równania \ref{eq:additional_damp_ec}.
+\begin{equation} \label{eq:total_damp_ec}
+	\xi_{total}=\xi + \Delta \xi
+\end{equation}
+\begin{equation} \label{eq:additional_damp_ec}
+	\Delta \xi =\frac{0.0187L-0.00064L^2}{1-0.0441L-0.0044L^2+0.000255L^3}
+\end{equation}
+
+
+
+
+
+
+
 
 \subsubsection{Kryteria oceny rozwiązania}
 Jeżeli analiza dynamiczna jest wymagana norma PN-EN 1991-2 nakazuje wyznaczenie przemieszczeń i przyspieszeń przęsła oraz współczynnika $\phi'_{dyn}$ zdefiniowanego równaniem:
@@ -658,8 +696,11 @@ Podsumowując powyższe, należy wyznaczyć efekty obciążenia i wybrać bardzi
 	\end{pmatrix}
 \end{equation}
 
-Norma PN-EN 1991-2 zwraca szczególną uwagę na sprawdzenie bezpieczeństwa nawierzchni kolejowej. Należy ocenić następujące wielkości:
-\begin{itemize}
+Ważnym i obszernym zagadnieniem dotyczacych trwałości mostów kolejowych jest oszacowanie nośności zmęczeniowej. Norma nakazuje uwzględnienie przy badaniu wpływu zjawiska zmęczenie również efektów dynamicznych przez porównanie z rezultatem obciążenia LM 71 powiększonym o współczynnik dynamiczny. Zjawisko zmęczenia oraz metody jego uwzględniania w mostach opisano w literaturze przedmiotu \parencite{Kocanda1985,Schijve2001,Malm2006,Siwowski2012,Siwowski2014,Szafranski2017}.
+
+
+Norma PN-EN 1991-2 zwraca szczególną uwagę na sprawdzenie bezpieczeństwa nawierzchni kolejowej. W celu sprawdzenia wszystkich warunków bezpieczeństwa należy wyznaczyć i ocenić następujące wielkości:
+\begin{itemize}[noitemsep]
 	\item przyspieszenia pionowe pomostu,
 	\item skręcenie pomostu,
 	\item przemieszczenia pionowe pomostu,
@@ -669,7 +710,7 @@ Wszystkie kryteria opisano w PN-EN 1990 załącznik A2 w punkcie A2.4.4. Spośr�
 
 Trzecim kryterium, które należy sprawdzić dla obiektów kolejowych jest komfort pasażerów. W normie PN-EN 1990 przyjęto 3 klasy komfortu pasażerów: bardzo dobrą, dobrą i dostateczną. Przynależność do danej klasy komfortu zależy od maksymalnych wartości przyspieszeń działających na pasażera, a wiec mierzonych wewnątrz pojazdu. Wartości progowe przyspieszeń dla poszczególnych klas przytoczono w tablicy \ref{tab:comfort_classes}. Naturalnie w celu wyznaczenia przyspieszeń wewnątrz pojazdu w trakcie analiz dynamicznych należy posłużyć się modelem interakcji pomiędzy pojazdem, a mostem. Analiza dynamiczna w podstawowej formie jest zadaniem złożonym, a jej trudność jeszcze wzrasta przy włączeniu współpracy pomostu i taboru. Z tego względu w normie znalazła się również uproszczona metoda oszacowania komfortu na podstawie pionowych przemieszczeń statycznych przęsła. Posiada ona jednak ograniczenia stosowania. Dotyczy ona jedynie przęseł o schemacie statycznym belki swobodnie podpartej lub belki ciągłej o niewielkim zróżnicowaniu rozpiętości i sztywności oraz o rozpiętościach mniejszych niż 120 m. Na wykresie \ref{fig:simpl_comfort_clas} przytoczono nomogram zawarty w normie. Przedstawiono na nim krzywe graniczne $L/\delta$ w funkcji prędkości przejazdu $V $ [km/h] i rozpiętości przęsła $L$ [m] dla przypadku ustawionych w ciągu 3 przęseł swobodnie podpartych. Symbol $\delta$ oznacz przemieszczenia pionowe przęsła pod obciążeniem statycznym LM 71, z uwzględnieniem współczynnika dynamicznego i dla współczynnika klasy obciążenia $\alpha =1$. Jeżeli wyznaczony wskaźnik $L/\delta$ mieści się poniżej odpowiedniej krzywej i powyżej wartości 600 to zagwarantowany jest bardzo dobry komfort pasażerów. W normie podano szereg modyfikacji wartości podanych na wykresie, pozwalających ocenić spełnienie pozostałych klas komfortu, przypadki z inną liczbą przęseł swobodnie podpartych i belek ciągłych.
 Dla przypadków niemieszczących się w obszarze stosowalności metody uproszczonej należy przeprowadzić szczegółową analizę dynamiczną. Norma wskazuje, że należy w niej uwzględnić:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item szereg prędkości do wartości maksymalnej,
 	\item obciążenie charakterystyczne pociagów rzeczywistych,
 	\item dynamiczne współdziałanie mas między wagonami, a konstrukcją,
@@ -680,8 +721,9 @@ Dla przypadków niemieszczących się w obszarze stosowalności metody uproszczo
 
 \begin{table}[]
 	\caption{Zalecane klasy komfortu według \parencite{PKNc}}
+	\footnotesize
 	\centering
-	\begin{tabular}{@{}lc@{}}
+	\begin{tabular}{@{}cc@{}}
 		\toprule
 		\multicolumn{1}{c}{Poziom komfortu} & \begin{tabular}[c]{@{}c@{}}Przyspieszenia pionowe\\ $b_v \;\text{[m/s}^2\text{]}$\end{tabular} \\ \midrule
 		Bardzo dobry                        & 1.0                                                                                         \\
@@ -699,6 +741,7 @@ Dla przypadków niemieszczących się w obszarze stosowalności metody uproszczo
 \label{fig:simpl_comfort_clas}
 \end{figure}
 
+Obiekt kolejowy uznaje sią za poprawnie zaprojektowany jeśli spełnione są wszystkie Stany Graniczne Nośności i Użytkowania według PN-EN 1990 i PN-EN 1991-2, a w tym:  warunki nośności konstrukcji, trwałości zmęczeniowej, bezpieczeństwa nawierzchni kolejowej i wymagana klasa komfortu.
 
 
 \subsection{Kalibracja modeli numerycznych}

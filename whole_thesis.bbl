@@ -1392,32 +1392,6 @@
       \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Coello Coello, Reyes-Sierra - 2006 - Multi-Objective Particle Swarm Optimizers A Survey of the State-of-the-Art.pdf:pdf
       \endverb
     \endentry
-    \entry{ERRI1998}{report}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=cc0b455039068998065e24b139249139}{%
-           family={{Comittee ERRI D214}},
-           familyi={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{cc0b455039068998065e24b139249139}
-      \strng{fullhash}{cc0b455039068998065e24b139249139}
-      \strng{bibnamehash}{cc0b455039068998065e24b139249139}
-      \strng{authorbibnamehash}{cc0b455039068998065e24b139249139}
-      \strng{authornamehash}{cc0b455039068998065e24b139249139}
-      \strng{authorfullhash}{cc0b455039068998065e24b139249139}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{European Rail Research institute}
-      \field{title}{{Design of Railway Bridges for Speed up to 350 km/h; Dynamic loading effects including resonance; Final report. Draft C.}}
-      \field{type}{techreport}
-      \field{year}{1998}
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Comittee ERRI D214 - 1998 - Design of Railway Bridges for Speed up to 350 kmh Dynamic loading effects including resonance Final report..pdf:pdf
-      \endverb
-    \endentry
     \entry{Dan2015}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d2558bed4c455b5a8925e4f55c1ac0fc}{%
@@ -1989,6 +1963,54 @@
       \field{title}{{Eurokod 1: Oddzia{ł}ywania na konstrukcje Czȩść 2: Obcia̧żenia ruchome mostów}}
       \field{year}{2007}
     \endentry
+    \entry{ERRI1996}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96d70e4d39a19bbd0198a5739464bef4}{%
+           family={ERRI},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{96d70e4d39a19bbd0198a5739464bef4}
+      \strng{fullhash}{96d70e4d39a19bbd0198a5739464bef4}
+      \strng{bibnamehash}{96d70e4d39a19bbd0198a5739464bef4}
+      \strng{authorbibnamehash}{96d70e4d39a19bbd0198a5739464bef4}
+      \strng{authornamehash}{96d70e4d39a19bbd0198a5739464bef4}
+      \strng{authorfullhash}{96d70e4d39a19bbd0198a5739464bef4}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{D 181 - Lateral forces on railway bridges}}
+      \field{type}{techreport}
+      \field{year}{1996}
+    \endentry
+    \entry{ERRI1998}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c1d9477b74aa9f86d1250f153753120}{%
+           family={{ERRI D214}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c1d9477b74aa9f86d1250f153753120}
+      \strng{fullhash}{0c1d9477b74aa9f86d1250f153753120}
+      \strng{bibnamehash}{0c1d9477b74aa9f86d1250f153753120}
+      \strng{authorbibnamehash}{0c1d9477b74aa9f86d1250f153753120}
+      \strng{authornamehash}{0c1d9477b74aa9f86d1250f153753120}
+      \strng{authorfullhash}{0c1d9477b74aa9f86d1250f153753120}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{European Rail Research institute}
+      \field{title}{{Design of Railway Bridges for Speed up to 350 km/h; Dynamic loading effects including resonance; Final report. Draft C.}}
+      \field{type}{techreport}
+      \field{year}{1998}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Comittee ERRI D214 - 1998 - Design of Railway Bridges for Speed up to 350 kmh Dynamic loading effects including resonance Final report..pdf:pdf
+      \endverb
+    \endentry
     \entry{Ewins2000}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=98f1e3c0a3ab353eb4d0367c652a0710}{%
@@ -2449,6 +2471,78 @@
       \field{pages}{676}
       \range{pages}{1}
     \endentry
+    \entry{Goicolea2002}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{un=2,uniquepart=given,hash=37f7567c9b381c0c62048c44c89c5915}{%
+           family={Goicolea},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=dd35a098f0bdcdb796bc86b7a4762446}{%
+           family={Domínguez},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0c9d98b00225806126855f32c093c4a}{%
+           family={Navarro},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f75eb44804b9a7cc544a6fafac0e0d12}{%
+           family={Gabaldon},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34f3a8d88f1908c35fc379fab9273559}{%
+           family={Dominguez},
+           familyi={D\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0c9d98b00225806126855f32c093c4a}{%
+           family={Navarro},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f75eb44804b9a7cc544a6fafac0e0d12}{%
+           family={Gabaldon},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Madrid}%
+      }
+      \strng{namehash}{87836bc8eaecec93840d10c7b47a7f3e}
+      \strng{fullhash}{51debd8965bf7f6eb1e3891994c214c8}
+      \strng{bibnamehash}{87836bc8eaecec93840d10c7b47a7f3e}
+      \strng{authorbibnamehash}{87836bc8eaecec93840d10c7b47a7f3e}
+      \strng{authornamehash}{87836bc8eaecec93840d10c7b47a7f3e}
+      \strng{authorfullhash}{51debd8965bf7f6eb1e3891994c214c8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Article CITATIONS 11 READS 304 4 authors, including: Some of the authors of this publication are also working on these related projects: Study of short and long term behavior of the railway structures of ballasted and slab track View project Dynamic assessment of railway bridges; Safety and interoperability of existing, upgraded and new structures View project Abstract. Bridges and viaducts for high speed trains are subject to demanding dynamic loads, as to the classical effect of the moving (single) load the dynamic resonance appears for speeds above 220 km/h. The classical methods for evaluation of dynamic impact factors available in engineering, reflected in the codes of practise existing until recently, do not cover this possibility of resonance. The design of such structures requires dynamic calculations which are the object of this paper. In it we cover a general revision of available methods for calculation, as well as a description of the provisions in the new (draft) codes IAPF [13] and Eurocode 1 for actions on bridges [22]. Additionally, some recent research results obtained by our group are presented for high speed traffic loads on bridges. The object of these studies is diverse: sensitivity to integration time-step in modal analysis, simplified torsion analysis, evaluation of the bridge-vehicle interaction in isostatic bridges and a proposal of a simplified method for dynamic analysis of portal frames. All of these topics originate from issues in the application of the new regulations for high speed lines, and are oriented toward being of practical use to designers of railway bridges.}
+      \field{booktitle}{Railway Bridges Design, Construction and Maintenance}
+      \field{number}{June}
+      \field{title}{{New dynamic analysis methods for railway bridges in codes IAPF and Eurocode 1}}
+      \field{year}{2002}
+      \field{pages}{1\bibrangedash 43}
+      \range{pages}{43}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Goicolea et al. - 2002 - New dynamic analysis methods for railway bridges in codes IAPF and Eurocode 1.pdf:pdf
+      \endverb
+      \keyw{high speed railways,structural dynamics}
+    \endentry
     \entry{Goicolea2008a}{incollection}{}
       \name{author}{4}{}{%
         {{un=1,uniquepart=given,hash=37f7567c9b381c0c62048c44c89c5915}{%
@@ -2498,14 +2592,60 @@
       \field{pages}{16}
       \range{pages}{1}
     \endentry
+    \entry{Goicolea2003}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=4642c05bf1974f192ec43c17165d6806}{%
+           family={Goicolea},
+           familyi={G\bibinitperiod},
+           given={José\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=c3c917e9a77b5b89492af30ca43cf786}{%
+           family={Antolin},
+           familyi={A\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4e3ebd69501abfef9804589dcb338211}
+      \strng{fullhash}{4e3ebd69501abfef9804589dcb338211}
+      \strng{bibnamehash}{4e3ebd69501abfef9804589dcb338211}
+      \strng{authorbibnamehash}{4e3ebd69501abfef9804589dcb338211}
+      \strng{authornamehash}{4e3ebd69501abfef9804589dcb338211}
+      \strng{authorfullhash}{4e3ebd69501abfef9804589dcb338211}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study used a laboratory experiment with monetary incentives to test the impact of three personal factors (moral reasoning, value orientation and risk preference), and three situational factors (the presence/absence of audits, tax inequity, and peer reporting behavior), while controlling for the impact of other demographic characteristics, on tax compliance. Analysis of Covariance (ANCOVA) reveals that all the main effects analyzed are statistically significant and robustly influence tax compliance behavior. These results highlight the importance of obtaining a proper understanding of these factors for developing effective policies for increasing the level of compliance, and indicate that standard enforcement polices based on punishment alone should be supplemented by an information system that would acquaint tax payers with the compliance level of other tax payers; reinforce the concept of fairness of the tax system among tax payers; and develop programs that enhance and appeal to a taxpayer's moral conscience and reinforce social cohesion.}
+      \field{number}{1}
+      \field{title}{{Dynamic of High-speed Railway Bridges: review of Design Issues and New research for Lateral Dynamics}}
+      \field{year}{2003}
+      \field{pages}{6\bibrangedash 8}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.16309/j.cnki.issn.1007-1776.2003.03.004
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Goicolea, Antolin - 2003 - Dynamic of High-speed Railway Bridges review of Design Issues and New research for Lateral Dynamics.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/500/INVE{\_}MEM{\_}2012{\_}137124.pdf
+      \endverb
+      \verb{url}
+      \verb http://files/500/INVE%7B%5C_%7DMEM%7B%5C_%7D2012%7B%5C_%7D137124.pdf
+      \endverb
+    \endentry
     \entry{Goicolea2008}{incollection}{}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=2fe6903201999f65e573eac4b2437471}{%
+        {{un=2,uniquepart=given,hash=2fe6903201999f65e573eac4b2437471}{%
            family={Goicolea},
            familyi={G\bibinitperiod},
            given={Jose\bibnamedelima M.},
            giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=1}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=8206fc0f876f633f2daff0e82407bbab}{%
            family={Gabaldón},
            familyi={G\bibinitperiod},

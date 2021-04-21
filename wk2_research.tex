@@ -499,7 +499,7 @@ W każdej z analiz zastosowane zostały mnożniki zmiennych projektowych. Urucho
 \subsubsection{Optymalizacja}
 Jedną z cech algorytmów metaheurystycznych jest to, że są bardzo uniwersalne. Przystosowanie zapisanego w języku programowania algorytmu do danego problemu optymalizacji zazwyczaj nie wymaga wielu modyfikacji. W kalibracji modelu wykorzystano algorytm optymalizacji wielokryterialnej rojem cząstek MOPSO (\ref{sect:MOPSO_algorithm}). Współczynniki sterujące prędkością roju przyjęto jak w domyślnej wersji algorytmu: $\theta=0.7968$, $\alpha=1.4962$ oraz $\beta=1.4962$. Populację stanowił zbiór 20 cząstek, wygenerowanych w przestrzeni rozwiązań za pomocą sekwencji Haltona. Zastosowano topologię GBEST zapewniającą pełną wymianę informacji między cząstkami na temat najlepszego rozwiązania. Wybór najlepszego rozwiązania odbywał się przez losowanie spośród cząstek budujących aktualnie Front Pareto i znajdujących się w archiwum zewnętrznego. Dodatkowo wszystkie wyznaczone rezultaty ulegały archiwizacji w bazie wiedzy \teng{knowledge base}. Dzięki temu możliwe było przerwanie obliczeń i rozpoczęcie od stanu zarchiwizowanego. Ma to istotne znaczenie w problemach o kosztownych czasowo obliczeniach funkcji celu. 
 
-W celu zapewnienia dobrej dystrybucji rozwiązań Frontu Pareto zastosowano algorytm wyznaczania odległości pomiędzy cząstkami \parencite{Deb2002}. Dodatkowo wprowadzono możliwość kontroli algorytmu przez użytkownika. Zagwarantowano w trakcie prowadzenia obliczeń możliwość wstrzymania algorytmu, tymczasowego zwężenia lub poszerzenia przestrzeni rozwiązań dopuszczalnych oraz zdefiniowanie przestrzeni funkcji celu, z której musi być wybrany lider roju. Półautomatyczny system nie wymaga zaangażowania użytkownika, ale również pozostawia możliwość zagęszczenia wybranych fragmentów Frontu Pareto w trakcie trwania procesu optymalizacji.
+W celu zapewnienia dobrej dystrybucji rozwiązań Frontu Pareto zastosowano algorytm wyznaczania odległości pomiędzy cząstkami \parencite{Deb2002}. Dodatkowo wprowadzono możliwość kontroli algorytmu przez użytkownika. Zagwarantowano w trakcie prowadzenia obliczeń możliwość wstrzymania algorytmu, tymczasowego zwężenia lub poszerzenia przestrzeni rozwiązań dopuszczalnych oraz zdefiniowanie przestrzeni funkcji celu, z której musi być wybrany lider roju. Półautomatyczny system nie wymaga stałego zaangażowania użytkownika, a jednocześnie pozostawia możliwość zagęszczenia wybranych fragmentów Frontu Pareto w trakcie trwania procesu optymalizacji.
 
 Do wyznaczania funkcji celu dla danego rozwiązania $\vect{F}=[f_{freq},f_{disp},f_{MAC}]$ wymagana była komunikacja pomiędzy autorskim programem, a bazą danych modelu MES. W każdej iteracji optymalizacji potrzebne jest przekazanie do modelu MES zestawu mnożników będących aktualnie rozpatrywanym rozwiązaniem. Następnie po uruchomieniu i zakończeniu obliczeń przez program MES konieczne jest odczytanie częstotliwości drgań własnych, postaci drgań własnych w wybranych punktach i przemieszczeń konstrukcji pod obciążeniem próbnym. Do wczytywania 'do modelu' i odczytywania 'z modelu' potrzebnych informacji użyto interfejsu dostarczonego przez producenta SOFiSTiK AG \parencite{SOFISTIK2018}. Bazując na odczytanych danych i wprowadzonych wynikach identyfikacji modalnej i próbnego obciążenia program wyznaczał funkcje celu według formuł (\ref{eq:wk2_calib_f_freq}), (\ref{eq:wk2_calib_f_disp}) i (\ref{eq:wk2_calib_f_mass}). Wektor funkcji celu oraz przypisane mu rozwiązanie przekazywane były do algorytmu optymalizacyjnego i zarchiwizowane w bazie wiedzy.
 
@@ -672,7 +672,7 @@ Model uproszczony stworzono w trzech wariantach różniących się rozmieszczeni
 
 
 \subsection{Założenia do optymalizacji}
-W procesie poczyniono szereg założeń związanych z wytrzymałością materiałów, uwarunkowaniami normowymi i ogólnymi warunkami wykonalności. Zakresy możliwych wartości zmiennych projektowych (Rys. \ref{fig:wk2_opti_cs_elements}) przedstawiono w tabeli \ref{tab:wk2_project_variables_opti}. 
+W procesie poczyniono szereg założeń związanych z wytrzymałością materiałów, uwarunkowaniami normowymi i ogólnymi warunkami wykonalności. Zakresy możliwych wartości zmiennych projektowych określonych na rysunku \ref{fig:wk2_opti_cs_elements} przedstawiono w tabeli \ref{tab:wk2_project_variables_opti}. 
 
 \begin{table}[bt]
 	\caption{Zakresy zmiennych projektowych zastosowane w optymalizacji}
@@ -687,37 +687,36 @@ W procesie poczyniono szereg założeń związanych z wytrzymałością materia�
 	\label{tab:wk2_project_variables_opti}
 \end{table}
 \subsubsection{Stan Graniczny Nośności}
-W trakcie optymalizacji, dla każdego rozwiązania sprawdzone zostały warunki Stanu Granicznego Nośności wg PN-EN 1990 i PN-EN 1991-2. Do modelu wiaduktu przyłożono obciążenia stałe od ciężaru własnego konstrukcji i wyposażenia oraz ruchome w postaci Modelu Obciążenia 71. Współczynnik klasy obciążenia ustalono jako $\alpha=1.21$, a współczynnik przewyższenia dynamicznego (WPD) równy $\phi =  1.072$. Obliczając WPD przyjęto przypadek starannie utrzymywanego toru i długość miarodajną dla obiektu łukowego jako $L_\phi=0.5L_t =35\,\text{m}$. W analizie statycznej i kombinacyjnej wyznaczono obwiednie obliczeniowych wartości sił normalnych i momentów zginających. Następnie dla poszczególnych elementów konstrukcyjnych (łuku, ściągu i wieszaków) obliczono maksymalne naprężenia zredukowane H-M-H. Konstrukcję wiaduktu WK2 wykonano ze stali S355, a wieszaki prętowe ze stali S460. Wyznaczono maksymalne wartości naprężeń obliczeniowych. Dla stali S355 przyjęto $\sigma_{355}^d=355/1.25=284\,\text{MPa}$, a dla stali S460 $\sigma_{460}^d=460/1.25=368\,\text{MPa}$.
+W trakcie optymalizacji, dla każdego rozwiązania sprawdzone zostały warunki Stanu Granicznego Nośności wg PN-EN 1990 i PN-EN 1991-2. Do modelu wiaduktu przyłożono obciążenia stałe od ciężaru własnego konstrukcji i wyposażenia oraz ruchome w postaci Modelu Obciążenia 71. Współczynnik klasy obciążenia ustalono jako $\alpha=1.21$, a współczynnik przewyższenia dynamicznego (WPD) równy $\phi =  1.072$. Obliczając WPD przyjęto przypadek starannie utrzymywanego toru i długość miarodajną dla obiektu łukowego jako $L_\phi=0.5L_t =35\,\text{m}$. W analizie statycznej i kombinacyjnej wyznaczono obwiednie obliczeniowych wartości sił normalnych i momentów zginających. Następnie dla każdego elementu konstrukcyjnego (łuku, ściągu i wieszaków) obliczono maksymalne naprężenia zredukowane H-M-H. Konstrukcję wiaduktu WK2 wykonano ze stali S355, a wieszaki prętowe ze stali S460. Wyznaczono dopuszalne wartości naprężeń obliczeniowych. Dla stali S355 uzyskano wartość $\sigma_{355}^d=355/1.0=355\,\text{MPa}$, a dla stali S460 $\sigma_{460}^d=460/1.0=460\,\text{MPa}$.
 \subsubsection{Stan Graniczny Użytkowania}
-Sprawdzono również częściowo Stan Graniczny Użytkowania przez wyznaczenie maksymalnego przemieszczenia przęsła od obciążeń ruchomych o wartościach charakterystycznych. Wartość graniczną przyjęto zgodnie z zaleceniem jako $L/600=70000/600=116\,\text{mm}$.
+Każdy z rezultatów oceniono równiez w Stanie Granicznym Użytkowania przez wyznaczenie maksymalnego przemieszczenia przęsła od obciążeń ruchomych o wartościach charakterystycznych. Wartość graniczną przyjęto zgodnie z zaleceniem \cite{PolskiKomitetNormalizacyjny2004} jako $L/600=70000/600=116\,\text{mm}$. Spośród przedstawionych w punkcie \ref{sect: eurokod_kryteria_oceny} kryteriów bezpieczeństwa do oceny rozwiązań wybrano jedynie ugięcia przęsła. Często decydujace o poprawności rozwiązania przyspieszenia maksymalne pomostu są funkcją celu optymalizacji więc nie są ograniczano jej jedynie do poprawnych rozwiązań. Zaniechano również sprawdzenia skręcenia przęsła i obrotów na podporach. Nie rozpatrywano kryterium komfortu pasażerów z uwagi na brak uwzględnienia wpływu interakcji pomiędzy pojazdem, a konstrukcją.
 
 \subsubsection{Analiza dynamiczna}
-Analizę dynamiczną przeprowadzano w module DYNA środowiska MES SOFiSTiK. Wykorzystano metodę bezpośredniego całkowania równań ruchu Newmarka. Zgodnie z zaleceniami (CYTOWANIE) należy uwzględnić odpowiedź dynamiczną w zakresie częstotliwości do 30Hz. Aby zapewnić poprawne odwzorowanie przyspieszeń i częstotliwości w zadanym zakresie przyjęto krok czasowy równy $\Delta t = 0.005\,s$ (próbkowanie 200 Hz).
-Analizę dynamiczną przeprowadzono dla wszystkich dziesięciu modeli obciążeń pociągami uniwersalnymi HSLM-A wg PN-EN 1991.
+Analizę dynamiczną przeprowadzano w module DYNA środowiska MES SOFiSTiK. Wykorzystano metodę bezpośredniego całkowania równań ruchu Newmarka. Analizę przeprowazdono jako liniową. Zgodnie z zaleceniami \cite{PKNc} należy uwzględnić odpowiedź dynamiczną w zakresie częstotliwości do 30Hz. Aby zapewnić poprawne odwzorowanie przyspieszeń i częstotliwości w zadanym zakresie przyjęto krok czasowy równy $\Delta t = 0.005\,s$ (próbkowanie 200 Hz).
+Analizę dynamiczną przeprowadzono dla wszystkich dziesięciu modeli obciążeń pociągami uniwersalnymi HSLM-A wg PN-EN 1991-2 (p. \ref{sect: eurokod_obciazenia_dyn}). Prędkości pociągów przyjmowano zgodnie z zaleceniem w zakresie od 40 km/h do maksymalnej prędkości obliczeniowej ($1.2\times\,$nominalna prędkość maksymalna). Jednakże odstępując od zaleceń nie przyjmowano stałego przyrostu prędkości. Wybrano jedynie prędkości które mieszczą się w powyższym zakresie oraz są prędkościami krytycznymi wyznaczonymi dla pierwszych dwóch częstotliwości drgań własnych. Prędkości krytyczne obliczano na podstawie wzoru \ref{eq:criticla_speed}. Założono, że odpowiedź obiektu osiąga swoją maksymalną wartość dla prędkości krytycznej i przy zwiększeniu prędkości nie przekracza tej wartości \parencite{J.M.Goicolea-Ruigomez2008}. Potrzebne częstotliwości drgań własnych odczytywano z modelu numerycznego po przeprowadzeniu analizy modalnej. Dla każdego rodzaju pociągu HSLM-A indywidualnie wyznaczano prędkość na bazie typowego dla pociagu HSLM-A rozstawu osi $d$, odczytanych częstotliwości drgań własnych $\phi_i$ oraz przyjmując wartość $n = 1,2\dots 10$. Wybierano taką wartość dzielnika $n$, aby prędkość krytyczna związana z częstotliwością $\phi_i$ była jak najwyższa i mieściła się w dopuszczalnym zakresie. Dodatkowo dla każdego pociągu dodano maksymalną dozwoloną prędkość pociągu na linii. Podsumowując dla danego wariantu zmiennych projektowych analizę prowadzono dla 10 różnych pociagów HSLM-A, po 3 prędkości przejazdu (2 krytyczne i maksymalna). Sumarycznie daje to 30 przejazdów dynamicznych na wariant.
 
-Prędkości pociągów przyjmowano zgodnie z zaleceniem w zakresie od 40 km/h do maksymalnej prędkości obliczeniowej ($1.2\times\,$nominalna prędkość maksymalna). Nie przyjmowano stałego kroku uwzględnianych prędkości. Wybrano jedynie prędkości które mieszczą się w powyższym zakresie oraz są prędkościami krytycznymi. Prędkości krytyczne obliczano na podstawie wzoru \ref{}. Założono, że odpowiedź obiektu osiąga swoją maksymalną wartość dla prędkości krytycznej i przy zwiększeniu prędkości nie przekracza tej wartości \parencite{J.M.Goicolea-Ruigomez2008}. Potrzebne częstotliwości drgań własnych odczytywano z modelu numerycznego po przeprowadzeniu analizy modalnej. Dla każdego pociągu HSLM-A wyznaczano prędkość na bazie typowego rozstawu osi $d$, odczytanych częstotliwości drgań własnych $\phi_i$ oraz przyjmując wartość $n = 1,2\dots 10$. Jeżeli prędkość rezonansowa dla danego pociągu mieściła się w wymaganym zakresie dodawano ją do obliczanego zestawu. 
-
-Tłumienie uwzględniono jako masowo-sztywnościowe. Współczynniki Rayleigha \ref{} wyznaczano za każdym razem tak, aby liczba tłumienia dla dwóch pierwszych modów była równa $\xi=0.006$. Wartość została przyjęta na podstawie przeprowadzonej identyfikacji realnego obiektu \ref{tab: wk2_ident_mods}. Wybrano wartość najniższą dla modów o dominującym, pionowym kierunku postaci drgań. Wymagane do obliczeń współczynników częstości drgań własnych każdorazowo wyznaczane były w analizie modalnej.
+Tłumienie uwzględniono jako masowo-sztywnościowe. Współczynniki Rayleigha (\ref{eq: raileigh_parameters}) wyznaczano za każdym razem tak, aby liczba tłumienia dla dwóch pierwszych modów była równa $\xi=0.006$. Wartość została przyjęta na podstawie przeprowadzonej identyfikacji realnego obiektu (Tab. \ref{tab: wk2_ident_mods}) dla dwóch pierwszych giętnych, pionowych postaci drgań własnych. Wymagane częstości drgań własnych dla każdego nowego wariantu zmiennych projektowych wyznaczane były w analizie modalnej.
 
 
 \subsection{Algorytm rozwiązania problemu}
 Optymalizację przeprowadzono ponownie za pomocą dostosowanego algorytmu MOPSO. Ze względu na uniwersalność algorytmów metaheurystycznych, również w tym przypadku w wielu aspektach tok postępowania jest zbliżony do zastosowanego w procesie kalibracji. Wyróżniono następujące główne kroki wykonywane dla każdego nowego położenia cząstki:
 \begin{enumerate}
-	\item Generacja modelu uproszczonego o wymiarach przekrojów poprzecznych zgodnych ze zmiennymi projektowymi.
+	\item Generacja modelu uproszczonego (płaskiego) o wymiarach przekrojów poprzecznych zgodnych ze zmiennymi projektowymi.
 	\item Wprowadzenie obciążeń stałych i ruchomych do obliczeń statycznych.
-	\item Analiza statyczna, kombinatoryka i obliczenia wytrzymałościowe od obliczeniowych wartości obciążeń statycznych.
-	\item Analiza modalna. Wyznaczenie pierwszych pięciu zestawów parametrów modalnych: częstotliwości i postaci drgań własnych.
-	\item Wyznaczenie prędkości rezonansowych i współczynników Rayleigha. Wczytanie danych do modelu.
-	\item Generacja obciążenia pociągiem HSLM-A. Analiza dynamiczna przejazdu pociągu po obiekcie. Odczytanie przebiegu przyspieszeń w czasie dla trzech punków zlokalizowanych na ściągu w $1/4L$, $1/2L$ i $3/4L$. Punkt wykonywany jest dla wszystkich dziesięciu pociągów HSLM-A i wyznaczonych prędkości rezonansowych.
-	\item Przetworzenie sygnałów przyspieszeń: filtrowanie w zakresie do 30 Hz i usunięcie wartości stałej. Wyznaczenie wartości maksymalnej przyspieszeń ze wszystkich przebiegów.
+	\item Analiza statyczna, kombinatoryka i obliczenia wytrzymałościowe od obliczeniowych wartości obciążeń statycznych. Wyznaczenie maksymalnych naprężeń H-M-H dla każdego elementu konstrukcyjnego osobno. Wyznaczenie maksymalnych ugięć.
+	\item Ocena rozwiązania w SGN i SGU na podstawie obliczonych naprężeń i ugięć.
+	\item Analiza modalna. Wyznaczenie pierwszych trzech zestawów parametrów modalnych: częstotliwości i postaci drgań własnych.
+	\item Wyznaczenie prędkości rezonansowych i współczynników Rayleigha. Wczytanie danych do bazy danych modelu.
+	\item Generacja obciążenia pociągiem HSLM-A. Analiza dynamiczna przejazdu pociągu po obiekcie. Odczytanie przebiegu przyspieszeń w czasie dla trzech punków zlokalizowanych na dźwigarze-ściągu w $1/4L$, $1/2L$ i $3/4L$ od podpory. Punkt wykonywany jest dla wszystkich dziesięciu pociągów HSLM-A i wyznaczonych prędkości. Łącznie 30 analiz dynamicznych.
+	\item Przetworzenie sygnałów przyspieszeń: filtrowanie dolnoprzepustowe w zakresie do 30 Hz i usunięcie składowej stałej. Wyznaczenie wartości maksymalnej przyspieszeń ze wszystkich przebiegów dla wszystkich punktów.
 	\item Odczytanie objętości konstrukcji stalowej na podstawie przekrojów poprzecznych łuku, ściągu i wieszaków.
-	\item Zestawienie wektora funkcji celu $\vect{F}=[f_s,f_a]$ oraz wektora ograniczeń $\vect{C}=[c_{sa}, c_{sg}, c_{sh}, c_d]$. Przekazanie wyznaczonych rezultatów do algorytmu optymalizacyjnego.
+	\item Zestawienie wektora funkcji celu $\vect{F}=[f_s,f_a]$ oraz wektora ograniczeń $\vect{C}=[c_{sa}, c_{sg}, c_{sh}, c_d]$. Przekazanie wyznaczonych rezultatów do algorytmu optymalizacyjnego MOPSO.
 \end{enumerate}
 
-Na rysunku \ref{fig:wk2_dynamic_algorithm} przedstawiono schemat blokowy algorytmu. Ikonami oznaczono w jakim środowisku wykonywane są dane kroki, oraz kierunek przepływu informacji lub współpracę obu środowisk.
+Na rysunku \ref{fig:wk2_dynamic_algorithm} przedstawiono schemat blokowy algorytmu. Logami SOFiSTiK oraz Python oznaczono w jakim środowisku wykonywane są dane kroki oraz kierunek przepływu informacji lub współpracę obu środowisk.
 \begin{figure}[p]
 	\centering
-	\includegraphics[height=0.9\textheight]{/WK2/dynamic/algorithm_analiza_dynamiczna.pdf} 
+	\includegraphics[]{/WK2/dynamic/algorithm_analiza_dynamiczna.pdf} 
 	\captionsetup{justification=centering}
 	\caption{Schemat blokowy algorytmu optymalizacji wielokryterialnej konstrukcji ze względu na jej zachowanie dynamiczne}
 	\label{fig:wk2_dynamic_algorithm}
@@ -725,7 +724,17 @@ Na rysunku \ref{fig:wk2_dynamic_algorithm} przedstawiono schemat blokowy algoryt
 
 \section{Rezultaty optymalizacji}
 
-Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s,f_a]$, trzech wariantów rozkładu wieszaków i trzech prędkości maksymalnych. Poniżej zaprezentowano i omówiono wyniki dla każdego z wariantów.
+Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s,f_a]$, trzech wariantów rozkładu wieszaków i trzech dozwolonych prędkości maksymalnych pociagu na linii co daje łącznie 9 odrebnych procesów optymalizacji. Dla każdego z nich zaprezentowano wyniki w postaci graficznej o stałej, powtarzalnej strukturze. 
+
+Jako pierwszy zaprezentowany jest zbiór wszystkich rozwiązań w dziedzinie funkcji celu $\vect{F}$ dla danego wariantu wieszaków i prędkości maksymalnej (na przykład rys. \ref{fig:wk2_opti_proste_160_all}). Czerwonym kolorem zaznaczono uzyskane przybliżenie Frontu Pareto. Zielony kolor oznacza wszystkie dopuszczalne rozwiązania (OK), to znaczy takie dla których spełnione są ograniczenia SGN i SGU zebrane w wektorze $\vect{C}$. Dodatkowo wykres podzielono na trzy warianty a-c, wynikające z dodania ograniczenia również na minimalny stopień wytężenia łuku oraz ściągu. Każdy z wariantów wykresu wynika z innej wartości progowej wytężenia minimalnego: (a) 0.0, (b) 0.3 oraz (c) 0.5. Punkty niebieskie (NOK-H) niespełniają ograniczeń z góry, a pomarańczowe (NOK-L) niespełniają wymogu minimalnego wytężenia elementów konstrukcyjnych - z dołu. Czarną przerywaną liniową zaznaczono przyspieszenie $3.5\,\mathrm{m/s^2}$, czyli wartość dopuszczalną przyspieszeń pomostu wg \cite{PKNc}. Wyświetlanie wyników ograniczono do punków w obszarze maksymalnych przyspieszeń do  $15\,\mathrm{m/s^2}$ i masy konstrukcji do 200 t.
+
+Druga grafika określa wartości zmiennych projektowych zaprezentowanych w przestrzeni funkcji celu (na przykład rys. \ref{fig:wk2_opti_proste_160_variables}). W każdym wariancie grafiki a-c, za pomocą mapy kolorów określono wartość danej zmiennej: (a) wysokości ściągu, (b) - wysokości łuku i (c) średnicy wieszaka. Czarną przerywaną liniową ponownie zaznaczono przyspieszenie $3.5\,\mathrm{m/s^2}$. Wyświetlanie wyników ograniczono do punków w obszarze maksymalnych przyspieszeń do  $10\,\mathrm{m/s^2}$ i masy konstrukcji do 200 t.
+
+Kolejny rysunek (na przykład rys. \ref{fig:wk2_opti_proste_160_vars_all}) obrazuje zbiór wszystkich rozwiązań w przestrzeni zmiennych projektowych. Kolor punktu oznacza maksymalne przyspieszenia uzyskane w danym rozwiązaniu. Rysunek ma za zadanie pokazać tendencję zmiany jednej z funkcji celu w obszarze zmiennych projektowych.
+
+Czwarta wizualizacja pokazuje Zestaw Pareto czyli uzyskane przybliżenie Frontu Pareto w dziedzinie zmiennych projektowych (na przykład rys. \ref{fig:wk2_opti_proste_160_var_dom}). Kolorem punktu oznaczono maksymalne przyspieszenia. Rysunek pokazano w widoku aksonometrycznym (a) oraz trzech rzutach na poszczególne płaszczyzny. Punkty oznaczone trójkątem charakteryzują się maksymalnymi przyspieszeniami mniejszymi niż $3.5\,\mathrm{m/s^2}$. Czarna linia łączy punkty uszeregowane rosnąco według odpowiadającej wartości maksymalnych przyspieszeń.
+
+Poniżej zaprezentowano i omówiono wyniki dla każdego z wariantów.
 
 
 \subsection{Wieszaki Proste - prędkość maksymalna 160 km/h}
@@ -739,7 +748,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_proste_160_all}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/proste_160/proste_160_sciag.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_160/proste_160_luk.pdf}}
@@ -749,7 +758,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_proste_160_variables}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf}
 	\captionsetup{justification=centering}
@@ -757,7 +766,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_proste_160_vars_all}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/proste_160/proste_160_VAR_ISO.pdf}}
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/proste_160/proste_160_VAR_XY.pdf}}\\
@@ -769,7 +778,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 \end{figure}
 
 \subsection{Wieszaki Proste - prędkość maksymalna 200 km/h}
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/proste_200/proste_200_0.0.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_200/proste_200_0.3.pdf}}
@@ -779,7 +788,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_proste_200_all}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/proste_200/proste_200_sciag.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_200/proste_200_luk.pdf}}
@@ -789,7 +798,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_proste_200_variables}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/proste_200/proste_200_VAR_ISO_ALL.pdf}
 	\captionsetup{justification=centering}
@@ -797,7 +806,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_proste_200_vars_all}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/proste_200/proste_200_VAR_ISO.pdf}}
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/proste_200/proste_200_VAR_XY.pdf}}\\
@@ -812,7 +821,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 
 
 \subsection{Wieszaki Proste - prędkość maksymalna 300 km/h}
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/proste_300/proste_300_0.0.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_300/proste_300_0.3.pdf}}
@@ -822,7 +831,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_proste_300_all}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/proste_300/proste_300_sciag.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_300/proste_300_luk.pdf}}
@@ -831,7 +840,14 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 200 km/h}
 	\label{fig:wk2_opti_proste_300_variables}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[H]
+	\centering
+	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/proste_300/proste_300_VAR_ISO_ALL.pdf}
+	\captionsetup{justification=centering}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego }
+	\label{fig:wk2_opti_proste_300_vars_all}
+\end{figure}
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/proste_300/proste_300_VAR_ISO.pdf}}
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/proste_300/proste_300_VAR_XY.pdf}}\\
@@ -844,7 +860,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 
 
 \subsection{Wieszaki Ukośne - prędkość maksymalna 160 km/h}
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/niels_160/niels_160_0.0.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_160/niels_160_0.3.pdf}}
@@ -854,7 +870,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_niels_160_all}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/niels_160/niels_160_sciag.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/niels_160/niels_160_luk.pdf}}
@@ -863,7 +879,15 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami ukosnymi przy przejeździe z maksymalną prędkością 160 km/h}
 	\label{fig:wk2_opti_niels_160_variables}
 \end{figure}
-\begin{figure}[h]
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pdf}
+	\captionsetup{justification=centering}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego }
+	\label{fig:wk2_opti_niels_160_vars_all}
+\end{figure}
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/niels_160/niels_160_VAR_ISO.pdf}}
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/niels_160/niels_160_VAR_XY.pdf}}\\
@@ -878,7 +902,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 
 
 \subsection{Wieszaki Ukośne - prędkość maksymalna 200 km/h}
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/niels_200/niels_200_0.0.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_200/niels_200_0.3.pdf}}
@@ -888,7 +912,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_niels_200_all}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/niels_200/niels_200_sciag.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/niels_200/niels_200_luk.pdf}}
@@ -898,7 +922,15 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_niels_200_variables}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
+	\centering
+	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/niels_200/niels_200_VAR_ISO_ALL.pdf}
+	\captionsetup{justification=centering}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego }
+	\label{fig:wk2_opti_niels_200_vars_all}
+\end{figure}
+
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/niels_200/niels_200_VAR_ISO.pdf}}
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/niels_200/niels_200_VAR_XY.pdf}}\\
@@ -910,7 +942,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 \end{figure}
 
 \subsection{Wieszaki Ukośne - prędkość maksymalna 300 km/h}
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/niels_300/niels_300_0.0.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_300/niels_300_0.3.pdf}}
@@ -920,7 +952,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_niels_300_all}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/niels_300/niels_300_sciag.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/niels_300/niels_300_luk.pdf}}
@@ -929,7 +961,15 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami ukosnymi przy przejeździe z maksymalną prędkością 300 km/h}
 	\label{fig:wk2_opti_niels_300_variables}
 \end{figure}
-\begin{figure}[h]
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/niels_300/niels_300_VAR_ISO_ALL.pdf}
+	\captionsetup{justification=centering}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego }
+	\label{fig:wk2_opti_niels_300_vars_all}
+\end{figure}
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/niels_300/niels_300_VAR_ISO.pdf}}
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/niels_300/niels_300_VAR_XY.pdf}}\\
@@ -941,7 +981,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 \end{figure}
 
 \subsection{Wieszaki Network - prędkość maksymalna 160 km/h}
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/netw_160/netw_160_0.0.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_160/netw_160_0.3.pdf}}
@@ -951,7 +991,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_netw_160_all}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/netw_160/netw_160_sciag.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/netw_160/netw_160_luk.pdf}}
@@ -960,8 +1000,15 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami typu network przy przejeździe z maksymalną prędkością 160 km/h}
 	\label{fig:wk2_opti_netw_160_variables}
 \end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/netw_160/netw_160_VAR_ISO_ALL.pdf}
+	\captionsetup{justification=centering}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego }
+	\label{fig:wk2_opti_netw_160_vars_all}
+\end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/netw_160/netw_160_VAR_ISO.pdf}}
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/netw_160/netw_160_VAR_XY.pdf}}\\
@@ -974,7 +1021,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 
 
 \subsection{Wieszaki Network - prędkość maksymalna 200 km/h}
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/netw_200/netw_200_0.0.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_200/netw_200_0.3.pdf}}
@@ -984,7 +1031,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_netw_200_all}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/netw_200/netw_200_sciag.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/netw_200/netw_200_luk.pdf}}
@@ -994,7 +1041,15 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\label{fig:wk2_opti_netw_200_variables}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
+	\centering
+	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/netw_200/netw_200_VAR_ISO_ALL.pdf}
+	\captionsetup{justification=centering}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego }
+	\label{fig:wk2_opti_netw_200_vars_all}
+\end{figure}
+
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/netw_200/netw_200_VAR_ISO.pdf}}
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/netw_200/netw_200_VAR_XY.pdf}}\\
@@ -1007,7 +1062,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 
 \subsection{Wieszaki Network - prędkość maksymalna 300 km/h}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/netw_300/netw_300_0.0.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_300/netw_300_0.3.pdf}}
@@ -1016,7 +1071,7 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami typu network przy przejeździe z maksymalną prędkością 300 km/h}
 	\label{fig:wk2_opti_netw_300_all}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/netw_300/netw_300_sciag.pdf}}
 	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/netw_300/netw_300_luk.pdf}}
@@ -1025,8 +1080,15 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami typu network przy przejeździe z maksymalną prędkością 300 km/h}
 	\label{fig:wk2_opti_netw_300_variables}
 \end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/netw_300/netw_300_VAR_ISO_ALL.pdf}
+	\captionsetup{justification=centering}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego }
+	\label{fig:wk2_opti_netw_300_vars_all}
+\end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/netw_300/netw_300_VAR_ISO.pdf}}
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/netw_300/netw_300_VAR_XY.pdf}}\\
@@ -1048,39 +1110,6 @@ Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s
 
 
 
-
-\begin{figure}[h]
-	\centering
-	\subfloat[label 1]{\includegraphics{WK2/proste_300_decisive_freq.pdf}}%
-	\subfloat[label 2]{\includegraphics{WK2/proste_300_decisive_freq.pdf}}%
-	\captionsetup{justification=centering}
-	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
-\end{figure}
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{WK2/proste_300_3d_weig.pdf}
-	\captionsetup{justification=centering}
-	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{WK2/proste_300_0_3_3d_arch_weig.pdf}
-	\captionsetup{justification=centering}
-	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{WK2/proste_300_3d_freq.pdf}
-	\captionsetup{justification=centering}
-	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{WK2/proste_300_all.pdf}
-	\captionsetup{justification=centering}
-	\caption{Częstotliwość drgań własnych związana z decydującą prędkością krytyczną. Wieszaki proste, prędkość maksymalna 300km/h}
-\end{figure}
 
 
 

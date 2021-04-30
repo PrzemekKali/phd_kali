@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.15)  30 APR 2021 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.15)  30 APR 2021 17:22
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -6442,6 +6442,10 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
@@ -6515,7 +6519,7 @@ sers/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl120
 per/sfti1095.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/cm-super/sfti1200.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/cm-super/sftt1095.pfb>
-Output written on whole_thesis.pdf (164 pages, 90461982 bytes).
+Output written on whole_thesis.pdf (164 pages, 90462011 bytes).
 PDF statistics:
  7671 PDF objects out of 8907 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

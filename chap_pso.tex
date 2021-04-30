@@ -234,6 +234,17 @@ Należy jednak nadmienić, że w kontekście optymalizacji wielokryterialnej, po
 		\mathcal{PF} = \big\{ \vect{f}(\vect{x}) \in \mathbb{R}^k: \vect{x}\in \mathcal{PS} \big\}  
 	\end{equation}
 \end{definition}
+
+W literaturze znaleźć można również definicję $\epsilon$-dominacji w sensie Pareto. Polega ona na rozluźnieniu warunku klasycznej dominacji przez dodatnie tolerancji. Akceptowalne różnice zdefiniowane są w wektorze tolerancji $\vect{\epsilon}=[\epsilon_1,\epsilon_2,\dots,k]$, gdzie $\epsilon_i>0$ dla $i=1,2\dots,k$. 
+
+\begin{definition}[$\epsilon$-dominacja Pareto]
+	Niech dwa wektory $\vect{x}_1, \vect{x}_2$ są zdefiniowane w przestrzeni $\mathbb{R}^D$. W przypadku minimalizacji, wektor $\vect{x}_1$ $\epsilon$-dominuje nad wektorem $\vect{x}_2$, jeżeli każdy element $x_{1,i}$ pomniejszony o tolerancję $\epsilon_i$ jest nie większy niż $x_{2,i}$ dla $i\in \mathcal{N}$ i istnieje taki element $x_{1,j}$, że $x_{1,j}-\epsilon_j$ jest mniejszy niż $x_{2,j}$ dla $j\in\mathcal{N}$. $\epsilon$-dominację wektora $\vect{x}_1$ nad $\vect{x}_2$ oznacza się przez $\vect{x}_1\prec_\epsilon\vect{x}_2$.
+	\begin{equation}
+		\bigforall_{i\in\mathcal{N}} x_{1,i}-\epsilon_i\le x_{2,i} \land \bigexists_{j\in\mathcal{N}} x_{1,j}-\epsilon_j<x_{2,j}
+	\end{equation}
+\end{definition}
+
+
 \begin{figure}[h]
 	\centering
 	\subfloat[Dominacja]{\includegraphics[]{/PSO/pareto/nondominated.pdf} \label{fig: PSO_pareto_visualizationa}} \qquad

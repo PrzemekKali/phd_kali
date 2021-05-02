@@ -1,47 +1,47 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.15)  30 APR 2021 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.20)  2 MAY 2021 14:05
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18>
+L3 programming layer <2021-02-06> xparse <2020-03-03>
 \@input{preamble.aux}
 \openout2 = `preamble.aux'.
 
 (preamble.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count179
-\c@chapter=\count180
-\c@section=\count181
-\c@subsection=\count182
-\c@subsubsection=\count183
-\c@paragraph=\count184
-\c@subparagraph=\count185
-\c@figure=\count186
-\c@table=\count187
+\c@part=\count177
+\c@chapter=\count178
+\c@section=\count179
+\c@subsection=\count180
+\c@subsubsection=\count181
+\c@paragraph=\count182
+\c@subparagraph=\count183
+\c@figure=\count184
+\c@table=\count185
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-) (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count188
-\Gm@cntv=\count189
-\c@Gm@tempcnt=\count190
+\Gm@cnth=\count186
+\Gm@cntv=\count187
+\c@Gm@tempcnt=\count188
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -52,13 +52,12 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks16
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cf
-g))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\polski.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\polski.sty
 Package: polski 2017/05/04 v1.3.4 Polish language package
 
    Switching to Polish text encoding and Polish maths fonts.
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\ot4enc.def
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\ot4enc.def
 File: ot4enc.def 2020/08/10 v2.0s Standard LaTeX file
 Now handling font encoding OT4 ...
 ... no UTF-8 mapping file for font encoding OT4
@@ -66,7 +65,7 @@ Now handling font encoding OT4 ...
 LaTeX Font Info:    Trying to load font information for OT4+cmr on input line 3
 60.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmr.fd
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
@@ -101,38 +100,36 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 360.
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/03/24 3.56 The Babel package
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/01/26 3.53 The Babel package
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2021/03/24 3.56 Babel common definitions
-\babel@savecnt=\count191
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/01/26 3.53 Babel common definitions
+\babel@savecnt=\count189
 \U@D=\dimen147
 \l@babelnohyphens=\language79
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def
-)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count192
+\bbl@dirlevel=\count190
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/babel-polish\polish.
-ldf
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/babel-polish\polish.ldf
 Language: polish 2005/03/31 v1.2l Polish support from the babel system
 Package babel Info: Making " an active character on input line 83.
 \pl@left=\dimen148
@@ -140,55 +137,44 @@ Package babel Info: Making " an active character on input line 83.
 \pl@right=\dimen150
 \pl@temp=\dimen151
 ))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count193
+\etb@tempcnta=\count191
 )
-\csq@reset=\count194
-\csq@gtype=\count195
-\csq@glevel=\count196
-\csq@qlevel=\count197
-\csq@maxlvl=\count198
-\csq@tshold=\count199
+\csq@reset=\count192
+\csq@gtype=\count193
+\csq@glevel=\count194
+\csq@qlevel=\count195
+\csq@maxlvl=\count196
+\csq@tshold=\count197
 \csq@ltx@everypar=\toks19
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.de
-f
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cf
-g
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
-)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
-fg
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
-def
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.st
-y
+) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \col@sep=\dimen152
 \ar@mcellbox=\box47
@@ -201,7 +187,7 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \everycr=\toks21
 \minrowclearance=\skip51
 )
-\rownum=\count266
+\rownum=\count198
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -211,12 +197,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\svgnam.def
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\svgnam.def
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks22
 \symAMSa=\mathgroup4
@@ -230,91 +214,87 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
    defining Unicode char U+2264 (decimal 8804)
    defining Unicode char U+0327 (decimal 807)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
-mds.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarer
-r.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.
-sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkey
-s.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+)) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count267
+\lrq@indent=\count199
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count268
-\c@listtotal=\count269
-\c@listcount=\count270
-\c@liststart=\count271
-\c@liststop=\count272
-\c@citecount=\count273
-\c@citetotal=\count274
-\c@multicitecount=\count275
-\c@multicitetotal=\count276
-\c@instcount=\count277
-\c@maxnames=\count278
-\c@minnames=\count279
-\c@maxitems=\count280
-\c@minitems=\count281
-\c@citecounter=\count282
-\c@maxcitecounter=\count283
-\c@savedcitecounter=\count284
-\c@uniquelist=\count285
-\c@uniquename=\count286
-\c@refsection=\count287
-\c@refsegment=\count288
-\c@maxextratitle=\count289
-\c@maxextratitleyear=\count290
-\c@maxextraname=\count291
-\c@maxextradate=\count292
-\c@maxextraalpha=\count293
-\c@abbrvpenalty=\count294
-\c@highnamepenalty=\count295
-\c@lownamepenalty=\count296
-\c@maxparens=\count297
-\c@parenlevel=\count298
-\blx@tempcnta=\count299
-\blx@tempcntb=\count300
-\blx@tempcntc=\count301
-\blx@maxsection=\count302
-\blx@maxsegment@0=\count303
-\blx@notetype=\count304
-\blx@parenlevel@text=\count305
-\blx@parenlevel@foot=\count306
-\blx@sectionciteorder@0=\count307
-\blx@entrysetcounter=\count308
-\blx@biblioinstance=\count309
+\c@tabx@nest=\count266
+\c@listtotal=\count267
+\c@listcount=\count268
+\c@liststart=\count269
+\c@liststop=\count270
+\c@citecount=\count271
+\c@citetotal=\count272
+\c@multicitecount=\count273
+\c@multicitetotal=\count274
+\c@instcount=\count275
+\c@maxnames=\count276
+\c@minnames=\count277
+\c@maxitems=\count278
+\c@minitems=\count279
+\c@citecounter=\count280
+\c@maxcitecounter=\count281
+\c@savedcitecounter=\count282
+\c@uniquelist=\count283
+\c@uniquename=\count284
+\c@refsection=\count285
+\c@refsegment=\count286
+\c@maxextratitle=\count287
+\c@maxextratitleyear=\count288
+\c@maxextraname=\count289
+\c@maxextradate=\count290
+\c@maxextraalpha=\count291
+\c@abbrvpenalty=\count292
+\c@highnamepenalty=\count293
+\c@lownamepenalty=\count294
+\c@maxparens=\count295
+\c@parenlevel=\count296
+\blx@tempcnta=\count297
+\blx@tempcntb=\count298
+\blx@tempcntc=\count299
+\blx@maxsection=\count300
+\blx@maxsegment@0=\count301
+\blx@notetype=\count302
+\blx@parenlevel@text=\count303
+\blx@parenlevel@foot=\count304
+\blx@sectionciteorder@0=\count305
+\blx@entrysetcounter=\count306
+\blx@biblioinstance=\count307
 \labelnumberwidth=\skip52
 \labelalphawidth=\skip53
 \biblabelsep=\skip54
@@ -326,87 +306,87 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count310
-\c@maxcomprange=\count311
-\c@mincompwidth=\count312
+\c@mincomprange=\count308
+\c@maxcomprange=\count309
+\c@mincompwidth=\count310
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count313
-\c@savedafterword=\count314
-\c@annotator=\count315
-\c@savedannotator=\count316
-\c@author=\count317
-\c@savedauthor=\count318
-\c@bookauthor=\count319
-\c@savedbookauthor=\count320
-\c@commentator=\count321
-\c@savedcommentator=\count322
-\c@editor=\count323
-\c@savededitor=\count324
-\c@editora=\count325
-\c@savededitora=\count326
-\c@editorb=\count327
-\c@savededitorb=\count328
-\c@editorc=\count329
-\c@savededitorc=\count330
-\c@foreword=\count331
-\c@savedforeword=\count332
-\c@holder=\count333
-\c@savedholder=\count334
-\c@introduction=\count335
-\c@savedintroduction=\count336
-\c@namea=\count337
-\c@savednamea=\count338
-\c@nameb=\count339
-\c@savednameb=\count340
-\c@namec=\count341
-\c@savednamec=\count342
-\c@translator=\count343
-\c@savedtranslator=\count344
-\c@shortauthor=\count345
-\c@savedshortauthor=\count346
-\c@shorteditor=\count347
-\c@savedshorteditor=\count348
-\c@labelname=\count349
-\c@savedlabelname=\count350
-\c@institution=\count351
-\c@savedinstitution=\count352
-\c@lista=\count353
-\c@savedlista=\count354
-\c@listb=\count355
-\c@savedlistb=\count356
-\c@listc=\count357
-\c@savedlistc=\count358
-\c@listd=\count359
-\c@savedlistd=\count360
-\c@liste=\count361
-\c@savedliste=\count362
-\c@listf=\count363
-\c@savedlistf=\count364
-\c@location=\count365
-\c@savedlocation=\count366
-\c@organization=\count367
-\c@savedorganization=\count368
-\c@origlocation=\count369
-\c@savedoriglocation=\count370
-\c@origpublisher=\count371
-\c@savedorigpublisher=\count372
-\c@publisher=\count373
-\c@savedpublisher=\count374
-\c@language=\count375
-\c@savedlanguage=\count376
-\c@origlanguage=\count377
-\c@savedoriglanguage=\count378
-\c@pageref=\count379
-\c@savedpageref=\count380
+\c@afterword=\count311
+\c@savedafterword=\count312
+\c@annotator=\count313
+\c@savedannotator=\count314
+\c@author=\count315
+\c@savedauthor=\count316
+\c@bookauthor=\count317
+\c@savedbookauthor=\count318
+\c@commentator=\count319
+\c@savedcommentator=\count320
+\c@editor=\count321
+\c@savededitor=\count322
+\c@editora=\count323
+\c@savededitora=\count324
+\c@editorb=\count325
+\c@savededitorb=\count326
+\c@editorc=\count327
+\c@savededitorc=\count328
+\c@foreword=\count329
+\c@savedforeword=\count330
+\c@holder=\count331
+\c@savedholder=\count332
+\c@introduction=\count333
+\c@savedintroduction=\count334
+\c@namea=\count335
+\c@savednamea=\count336
+\c@nameb=\count337
+\c@savednameb=\count338
+\c@namec=\count339
+\c@savednamec=\count340
+\c@translator=\count341
+\c@savedtranslator=\count342
+\c@shortauthor=\count343
+\c@savedshortauthor=\count344
+\c@shorteditor=\count345
+\c@savedshorteditor=\count346
+\c@labelname=\count347
+\c@savedlabelname=\count348
+\c@institution=\count349
+\c@savedinstitution=\count350
+\c@lista=\count351
+\c@savedlista=\count352
+\c@listb=\count353
+\c@savedlistb=\count354
+\c@listc=\count355
+\c@savedlistc=\count356
+\c@listd=\count357
+\c@savedlistd=\count358
+\c@liste=\count359
+\c@savedliste=\count360
+\c@listf=\count361
+\c@savedlistf=\count362
+\c@location=\count363
+\c@savedlocation=\count364
+\c@organization=\count365
+\c@savedorganization=\count366
+\c@origlocation=\count367
+\c@savedoriglocation=\count368
+\c@origpublisher=\count369
+\c@savedorigpublisher=\count370
+\c@publisher=\count371
+\c@savedpublisher=\count372
+\c@language=\count373
+\c@savedlanguage=\count374
+\c@origlanguage=\count375
+\c@savedoriglanguage=\count376
+\c@pageref=\count377
+\c@savedpageref=\count378
 \shorthandwidth=\skip60
 \shortjournalwidth=\skip61
 \shortserieswidth=\skip62
@@ -424,50 +404,47 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.
-def
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.de
-f
+ (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count381
-\c@textcitetotal=\count382
-\c@textcitemaxnames=\count383
-\c@biburlbigbreakpenalty=\count384
-\c@biburlbreakpenalty=\count385
-\c@biburlnumpenalty=\count386
-\c@biburlucpenalty=\count387
-\c@biburllcpenalty=\count388
+\c@textcitecount=\count379
+\c@textcitetotal=\count380
+\c@textcitemaxnames=\count381
+\c@biburlbigbreakpenalty=\count382
+\c@biburlbreakpenalty=\count383
+\c@biburlnumpenalty=\count384
+\c@biburlucpenalty=\count385
+\c@biburllcpenalty=\count386
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count389
+\c@smartand=\count387
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authory
-ear.bbx
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear
+.bbx
 File: authoryear.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standar
-d.bbx
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count390
-\c@bbx:relatedtotal=\count391
+\c@bbx:relatedcount=\count388
+\c@bbx:relatedtotal=\count389
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authory
-ear.cbx
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear
+.cbx
 File: authoryear.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -480,11 +457,9 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cf
-g
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
-))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.st
+)) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.st
 y
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
@@ -497,25 +472,23 @@ rs
 \f@nch@O@erf=\skip80
 \f@nch@O@olf=\skip81
 \f@nch@O@orf=\skip82
-)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.st
-y
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-revision.tex)
+) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+ision.tex)
 Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
-s.cfg
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
@@ -523,47 +496,45 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 \Gin@req@height=\dimen154
 \Gin@req@width=\dimen155
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\ti
-kz.sty
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.s
-ty
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs
-.sty
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
-til-common.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
 \pgfutil@everybye=\toks23
 \pgfutil@tempdima=\dimen156
 \pgfutil@tempdimb=\dimen157
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
-til-common-lists.tex))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
-til-latex.def
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
 \pgfutil@abb=\box49
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfr
-cs.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.t
-ex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 ))
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfco
-re.sty
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfs
-ys.sty
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eys.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
 \pgfkeys@pathtoks=\toks24
 \pgfkeys@temptoks=\toks25
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eysfiltered.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+filtered.code.tex
 \pgfkeys@tmptoks=\toks26
 ))
 \pgf@x=\dimen158
@@ -578,84 +549,84 @@ eysfiltered.code.tex
 \pgf@yd=\dimen167
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count392
-\c@pgf@countb=\count393
-\c@pgf@countc=\count394
-\c@pgf@countd=\count395
+\c@pgf@counta=\count390
+\c@pgf@countb=\count391
+\c@pgf@countc=\count392
+\c@pgf@countd=\count393
 \t@pgf@toka=\toks27
 \t@pgf@tokb=\toks28
 \t@pgf@tokc=\toks29
-\pgf@sys@id@count=\count396
+\pgf@sys@id@count=\count394
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-f.cfg
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys-pdftex.def
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
 File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys-common-pdf.def
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsyssoftpath.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count397
-\pgfsyssoftpath@bigbuffer@items=\count398
+\pgfsyssoftpath@smallbuffer@items=\count395
+\pgfsyssoftpath@bigbuffer@items=\count396
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsysprotocol.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-core.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
-ode.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathca
-lc.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathut
-il.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpa
-rser.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
 \pgfmath@dimen=\dimen168
-\pgfmath@count=\count399
+\pgfmath@count=\count397
 \pgfmath@box=\box50
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
 \pgfmath@stack@operation=\toks32
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.basic.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.trigonometric.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.random.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.comparison.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.base.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.round.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.misc.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.integerarithmetics.code.tex)))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfl
-oat.code.tex
-\c@pgfmathroundto@lastzeros=\count400
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count398
 ))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.co
-de.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepoints.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@picminx=\dimen169
 \pgf@picmaxx=\dimen170
@@ -672,135 +643,134 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@zx=\dimen181
 \pgf@zy=\dimen182
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathconstruct.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@path@lastx=\dimen183
 \pgf@path@lasty=\dimen184
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathusage.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@shorten@end@additional=\dimen185
 \pgf@shorten@start@additional=\dimen186
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corescopes.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box51
 \pgf@hbox=\box52
 \pgf@layerbox@main=\box53
-\pgf@picture@serial@count=\count401
+\pgf@picture@serial@count=\count399
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coregraphicstate.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgflinewidth=\dimen187
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coretransformations.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@pt@x=\dimen188
 \pgf@pt@y=\dimen189
 \pgf@pt@temp=\dimen190
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corequick.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreobjects.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
 File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathprocessing.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corearrows.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfarrowsep=\dimen191
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreshade.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen192
-\pgf@sys@shading@range@num=\count402
-\pgf@shadingcount=\count403
+\pgf@sys@shading@range@num=\count400
+\pgf@shadingcount=\count401
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreimage.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreexternal.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfexternal@startupbox=\box54
 ))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corelayers.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
 File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coretransparency.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
 File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepatterns.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
 File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corerdf.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
 File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-uleshapes.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfnodeparttextbox=\box55
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-uleplot.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
-fcomp-version-0-65.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@nodesepstart=\dimen193
 \pgf@nodesepend=\dimen194
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
-fcomp-version-1-18.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor
-.sty
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkey
-s.sty
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eys.code.tex))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
-ode.tex))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgff
-or.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
-ode.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex)
 \pgffor@iter=\dimen195
 \pgffor@skip=\dimen196
 \pgffor@stack=\toks33
 \pgffor@toks=\toks34
 ))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz\tikz.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryplothandlers.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count404
+\pgf@plot@mark@count=\count402
 \pgfplotmarksize=\dimen197
 )
 \tikz@lastx=\dimen198
@@ -815,122 +785,122 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@figbox@bg=\box57
 \tikz@tempbox=\box58
 \tikz@tempbox@bg=\box59
-\tikztreelevel=\count405
-\tikznumberofchildren=\count406
-\tikznumberofcurrentchild=\count407
-\tikz@fig@count=\count408
+\tikztreelevel=\count403
+\tikznumberofchildren=\count404
+\tikznumberofcurrentchild=\count405
+\tikz@fig@count=\count406
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-ulematrix.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count409
-\pgfmatrixcurrentcolumn=\count410
-\pgf@matrix@numberofcolumns=\count411
+\pgfmatrixcurrentrow=\count407
+\pgfmatrixcurrentcolumn=\count408
+\pgf@matrix@numberofcolumns=\count409
 )
-\tikz@expandcount=\count412
+\tikz@expandcount=\count410
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarytopaths.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsc
-ore.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
+e.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
+.code.tex
 \t@pgfplots@toka=\toks35
 \t@pgfplots@tokb=\toks36
 \t@pgfplots@tokc=\toks37
 \pgfplots@tmpa=\dimen262
-\c@pgfplots@coordindex=\count413
-\c@pgfplots@scanlineindex=\count414
+\c@pgfplots@coordindex=\count411
+\c@pgfplots@scanlineindex=\count412
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfpl
-otssysgeneric.code.tex))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfp
-lotslibrary.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcom
-patib\pgfplotsoldpgfsupp_loader.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryfpu.code.tex))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotsutil.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
-ture\pgfplotsliststructure.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
-ture\pgfplotsliststructureext.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
-ture\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count415
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
+sysgeneric.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplot
+slibrary.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfpu.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructure.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructureext.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count413
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
-ture\pgfplotsmatrix.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\
-pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count416
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsmatrix.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
+plotstableshared.code.tex
+\c@pgfplotstable@counta=\count414
 \t@pgfplotstable@a=\toks38
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
-ture\pgfplotsdeque.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotsbinary.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotsbinary.data.code.tex))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotsutil.verb.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfl
-ibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count417
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsdeque.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.data.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.verb.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
+arypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count415
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfli
-brarypgfplots.surfshading.pgfsys-pdftex.def)))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotscolormap.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotscolor.code.tex))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotss
-tackedplots.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsp
-lothandlers.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsm
-eshplothandler.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsm
-eshplotimage.code.tex)))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-scaling.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsc
-oordprocessing.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-errorbars.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-markers.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotst
-icks.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-paths.code.tex)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarydecorations.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-uledecorations.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
+rypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolormap.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolor.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstac
+kedplots.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplot
+handlers.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plothandler.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plotimage.code.tex)))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sca
+ling.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoor
+dprocessing.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.err
+orbars.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mar
+kers.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstick
+s.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pat
+hs.code.tex)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen263
 \pgfdecoratedremainingdistance=\dimen264
 \pgfdecoratedinputsegmentcompleteddistance=\dimen265
 \pgfdecoratedinputsegmentremainingdistance=\dimen266
 \pgf@decorate@distancetomove=\dimen267
-\pgf@decorate@repeatstate=\count418
+\pgf@decorate@repeatstate=\count416
 \pgfdecorationsegmentamplitude=\dimen268
 \pgfdecorationsegmentlength=\dimen269
 )
 \tikz@lib@dec@box=\box60
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/deco
-rations\pgflibrarydecorations.pathmorphing.code.tex))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/deco
-rations\pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count419
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count417
 \pgfplots@xmin@reg=\dimen270
 \pgfplots@xmax@reg=\dimen271
 \pgfplots@ymin@reg=\dimen272
@@ -938,18 +908,18 @@ rations\pgflibrarydecorations.pathreplacing.code.tex))
 \pgfplots@zmin@reg=\dimen274
 \pgfplots@zmax@reg=\dimen275
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryplotmarks.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryplotmarks.code.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen276
 \captionmargin@=\dimen277
@@ -960,37 +930,31 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@hangindent=\dimen282
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count420
-\c@continuedfloat=\count421
+\c@caption@flags=\count418
+\c@continuedfloat=\count419
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.
-sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
-
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.te
-x
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.t
-ex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks39
 \XKV@tempa@toks=\toks40
 )
-\XKV@depth=\count422
+\XKV@depth=\count420
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.s
-ty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbo
-x.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+ty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box61
 )
@@ -1000,8 +964,7 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen286
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.
-def
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen287
@@ -1013,38 +976,34 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pdepth=\dimen293
 \adjbox@ptotalheight=\dimen294
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.
-sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count423
-)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.st
-y
+\c@checkoddpage=\count421
+) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box62
-\sift@deathcycles=\count424
+\sift@deathcycles=\count422
 \@vwid@loff=\dimen295
 \@vwid@roff=\dimen296
-))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+)) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count425
+\c@KVtest=\count423
 \sf@farskip=\skip83
 \sf@captopadj=\dimen297
 \sf@capskip=\skip84
 \sf@nearskip=\skip85
-\c@subfigure=\count426
-\c@subfigure@save=\count427
-\c@lofdepth=\count428
-\c@subtable=\count429
-\c@subtable@save=\count430
-\c@lotdepth=\count431
+\c@subfigure=\count424
+\c@subfigure@save=\count425
+\c@lofdepth=\count426
+\c@subtable=\count427
+\c@subtable@save=\count428
+\c@lotdepth=\count429
 \sf@top=\skip86
 \sf@bottom=\skip87
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count432
+\c@float@type=\count430
 \float@exts=\toks41
 \float@box=\box63
 \@float@everytoks=\toks42
@@ -1052,32 +1011,33 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \measurebox=\box65
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip88
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks43
 \ex@=\dimen298
-)) (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
-y
+))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen299
-) (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count433
+\inf@bad=\count431
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count434
-\leftroot@=\count435
+\uproot@=\count432
+\leftroot@=\count433
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count436
-\DOTSCASE@=\count437
+\classnum@=\count434
+\DOTSCASE@=\count435
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -1086,15 +1046,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen300
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count438
-\c@MaxMatrixCols=\count439
+\macc@depth=\count436
+\c@MaxMatrixCols=\count437
 \dotsspace@=\muskip21
-\c@parentequation=\count440
-\dspbrk@lvl=\count441
+\c@parentequation=\count438
+\dspbrk@lvl=\count439
 \tag@help=\toks44
-\row@=\count442
-\column@=\count443
-\maxfields@=\count444
+\row@=\count440
+\column@=\count441
+\maxfields@=\count442
 \andhelp@=\toks45
 \eqnshift@=\dimen301
 \alignsep@=\dimen302
@@ -1108,7 +1068,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks47
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\bm.sty
+)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\bm.sty
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -1117,32 +1078,29 @@ Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.
-sty
-Package: mathtools 2021/03/28 v1.26 mathematical typesetting tools
-
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count445
-\calc@Bcount=\count446
+\calc@Acount=\count443
+\calc@Bcount=\count444
 \calc@Adimen=\dimen307
 \calc@Bdimen=\dimen308
 \calc@Askip=\skip91
 \calc@Bskip=\skip92
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count447
+\calc@Ccount=\count445
 \calc@Cskip=\skip93
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.st
-y
-Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count448
+\g_MT_multlinerow_int=\count446
 \l_MT_multwidth_dim=\dimen309
 \origjot=\skip94
 \l_MT_shortvdotswithinadjustabove_dim=\dimen310
@@ -1153,21 +1111,16 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen315
 \xmathstrut@box=\box68
 \xmathstrut@dim=\dimen316
-)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.st
-y)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.st
-y
+) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty
+) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip95
 \enit@outerparindent=\dimen317
 \enit@toks=\toks48
 \enit@inbox=\box69
-\enit@count@id=\count449
-\enitdp@description=\count450
-)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.st
-y
+\enit@count@id=\count447
+\enitdp@description=\count448
+) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen318
 \lightrulewidth=\dimen319
@@ -1179,24 +1132,21 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen325
 \cmidrulekern=\dimen326
 \defaultaddspace=\dimen327
-\@cmidla=\count451
-\@cmidlb=\count452
+\@cmidla=\count449
+\@cmidlb=\count450
 \@aboverulesep=\dimen328
 \@belowrulesep=\dimen329
-\@thisruleclass=\count453
-\@lastruleclass=\count454
+\@thisruleclass=\count451
+\@lastruleclass=\count452
 \@thisrulewidth=\dimen330
-)
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.st
-y
+) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2021/02/05 v3.0 ragged2e Package
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/everysel\everysel.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/everysel\everysel.sty
 Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/everysel\everysel-20
-11-10-28.sty))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/everysel\everysel-2011-
+10-28.sty))
 \CenteringLeftskip=\skip96
 \RaggedLeftLeftskip=\skip97
 \RaggedRightLeftskip=\skip98
@@ -1212,47 +1162,47 @@ Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip108
 \JustifyingParindent=\skip109
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
 
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\longtabl
-e.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\longtable.s
+ty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip110
 \LTright=\skip111
 \LTpre=\skip112
 \LTpost=\skip113
-\LTchunksize=\count455
+\LTchunksize=\count453
 \LTcapwidth=\dimen331
 \LT@head=\box70
 \LT@firsthead=\box71
 \LT@foot=\box72
 \LT@lastfoot=\box73
-\LT@cols=\count456
-\LT@rows=\count457
-\c@LT@tables=\count458
-\c@LT@chunks=\count459
+\LT@cols=\count454
+\LT@rows=\count455
+\c@LT@tables=\count456
+\c@LT@chunks=\count457
 \LT@p@ftn=\toks49
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.st
-y
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
 \multirow@colwidth=\skip114
-\multirow@cntb=\count460
+\multirow@cntb=\count458
 \multirow@dima=\skip115
 \bigstrutjot=\dimen332
-) (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+)
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks50
 \thm@bodyfont=\toks51
@@ -1264,18 +1214,18 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip118
 \dth@everypar=\toks55
 )
-\c@definition=\count461
+\c@definition=\count459
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
-pdftex.def
-File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count462
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-02-06 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count460
 \l__pdf_internal_box=\box74
-) (whole_thesis.aux (dictionary.aux) (chap_luki.aux)
-(chap_dynamic.aux) (chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
+) (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
+(chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
 \openout1 = `whole_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1331,59 +1281,53 @@ LaTeX Font Info:    ... okay on input line 5.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
-.mkii
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count463
+\scratchcounter=\count461
 \scratchdimen=\dimen333
 \scratchbox=\box75
-\nofMPsegments=\count464
-\nofMParguments=\count465
+\nofMPsegments=\count462
+\nofMParguments=\count463
 \everyMPshowfont=\toks56
-\MPscratchCnt=\count466
+\MPscratchCnt=\count464
 \MPscratchDim=\dimen334
-\MPnumerator=\count467
-\makeMPintoPDFobject=\count468
+\MPnumerator=\count465
+\makeMPintoPDFobject=\count466
 \everyMPtoPDFconversion=\toks57
 )
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
-f-base.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
-s.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
+)
 Package biblatex Info: Trying to load language 'polish'...
 Package biblatex Info: ... file 'polish.lbx' found.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\polish.
-lbx
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\polish.lbx
 File: polish.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
-
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
+ (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-02-06 L3 programming layer (loader) 
 )
 Package biblatex Info: ... and expl3
-(biblatex)             2021-02-18 L3 programming layer (loader) 
+(biblatex)             2021-02-06 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-ex
-pl3.sty
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xp
-arse.sty
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xp
-arse-2020-10-01.sty
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xp
-arse-generic.tex)))
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e-generic.tex))
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
 \openout3 = `whole_thesis.bcf'.
@@ -1412,13 +1356,12 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
-
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.st
-y
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
- ABD: EverySelectfont initializing macros
+
+ABD: EverySelectfont initializing macros
 
 LaTeX Warning: Command \selectfont   has changed.
                Check if current package is valid.
@@ -1426,19 +1369,19 @@ LaTeX Warning: Command \selectfont   has changed.
 LaTeX Info: Redefining \selectfont on input line 5.
 LaTeX Font Info:    Trying to load font information for OML+plm on input line 6
 .
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\omlplm.fd
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 
 6.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\omsplsy.fd
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+plex on input line 
 6.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\omxplex.fd
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -1449,12 +1392,12 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <7> on input line 6.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
@@ -1464,7 +1407,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \providecommand \oddpage@label [2]{}
 
 
-{C:/Users/PRZKALIT/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+{C:/Users/przem/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 (whole_thesis.toc
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <12> on input line 8.
@@ -2339,8 +2282,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [63]
 LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 
 702.
-
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
+ (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 
@@ -5256,7 +5198,7 @@ File: ./figures//WK2/opti/proste_160/proste_160_0.0.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_160/proste_160_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_0.0.pdf  use
-d on input line 749.
+d on input line 752.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
 <./figures//WK2/opti/proste_160/proste_160_0.3.pdf, id=5219, 159.39952pt x 171.
 56396pt>
@@ -5264,7 +5206,7 @@ File: ./figures//WK2/opti/proste_160/proste_160_0.3.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_160/proste_160_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_0.3.pdf  use
-d on input line 750.
+d on input line 753.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 <./figures//WK2/opti/proste_160/proste_160_0.5.pdf, id=5221, 159.39952pt x 171.
 56396pt>
@@ -5272,7 +5214,7 @@ File: ./figures//WK2/opti/proste_160/proste_160_0.5.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_160/proste_160_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_0.5.pdf  use
-d on input line 751.
+d on input line 754.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 <./figures//WK2/opti/proste_160/proste_160_sciag.pdf, id=5223, 159.40253pt x 19
 3.47382pt>
@@ -5280,7 +5222,7 @@ File: ./figures//WK2/opti/proste_160/proste_160_sciag.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_160/proste_160_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_sciag.pdf  u
-sed on input line 759.
+sed on input line 762.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
 <./figures//WK2/opti/proste_160/proste_160_luk.pdf, id=5225, 161.5365pt x 193.4
 7382pt>
@@ -5288,7 +5230,7 @@ File: ./figures//WK2/opti/proste_160/proste_160_luk.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_160/proste_160_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_luk.pdf  use
-d on input line 760.
+d on input line 763.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
 <./figures//WK2/opti/proste_160/proste_160_wieszak.pdf, id=5227, 159.40253pt x 
 193.47382pt>
@@ -5296,10 +5238,10 @@ File: ./figures//WK2/opti/proste_160/proste_160_wieszak.pdf Graphic file (type
 pdf)
 <use ./figures//WK2/opti/proste_160/proste_160_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_wieszak.pdf 
- used on input line 761.
+ used on input line 764.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
 
-Underfull \vbox (badness 2538) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -5310,90 +5252,90 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[134 <./figures//WK2/opti/proste_160/proste_160_0.0.pdf> <./figures//WK2/opti/p
-roste_160/proste_160_0.3.pdf> <./figures//WK2/opti/proste_160/proste_160_0.5.pd
-f>]
-<./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf, id=5303, 285.25974p
+[134]
+<./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf, id=5232, 285.25974p
 t x 187.11807pt>
 File: ./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.
-pdf  used on input line 769.
+pdf  used on input line 772.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
-<./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf, id=5305, 231.65344pt x 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[135 <./figures//WK2/opti/proste_160/proste_160_0.0.pdf> <./figures//WK2/opti/p
+roste_160/proste_160_0.3.pdf> <./figures//WK2/opti/proste_160/proste_160_0.5.pd
+f> <./figures//WK2/opti/proste_160/proste_160_sciag.pdf> <./figures//WK2/opti/p
+roste_160/proste_160_luk.pdf> <./figures//WK2/opti/proste_160/proste_160_wiesza
+k.pdf>]
+<./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf, id=5377, 231.65344pt x 
 196.63965pt>
 File: ./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf 
- used on input line 777.
+ used on input line 780.
 (pdftex.def)             Requested size: 213.39566pt x 184.51534pt.
-<./figures//WK2/opti/proste_160/proste_160_VAR_XY.pdf, id=5307, 270.36911pt x 2
+<./figures//WK2/opti/proste_160/proste_160_VAR_XY.pdf, id=5379, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_160/proste_160_VAR_XY.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_160/proste_160_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_VAR_XY.pdf  
-used on input line 778.
+used on input line 781.
 (pdftex.def)             Requested size: 213.39566pt x 187.24602pt.
-<./figures//WK2/opti/proste_160/proste_160_VAR_YZ.pdf, id=5309, 270.36911pt x 2
+<./figures//WK2/opti/proste_160/proste_160_VAR_YZ.pdf, id=5381, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_160/proste_160_VAR_YZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_160/proste_160_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_VAR_YZ.pdf  
-used on input line 779.
+used on input line 782.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf, id=5311, 270.36911pt x 2
+<./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf, id=5383, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf  
-used on input line 780.
+used on input line 783.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[135 <./figures//WK2/opti/proste_160/proste_160_sciag.pdf> <./figures//WK2/opti
-/proste_160/proste_160_luk.pdf> <./figures//WK2/opti/proste_160/proste_160_wies
-zak.pdf> <./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf>]
-<./figures//WK2/opti/proste_200/proste_200_0.0.pdf, id=5402, 159.39952pt x 171.
+<./figures//WK2/opti/proste_200/proste_200_0.0.pdf, id=5385, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_200/proste_200_0.0.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_200/proste_200_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_0.0.pdf  use
-d on input line 789.
+d on input line 792.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
-<./figures//WK2/opti/proste_200/proste_200_0.3.pdf, id=5404, 159.39952pt x 171.
+<./figures//WK2/opti/proste_200/proste_200_0.3.pdf, id=5387, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_200/proste_200_0.3.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_200/proste_200_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_0.3.pdf  use
-d on input line 790.
+d on input line 793.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/proste_200/proste_200_0.5.pdf, id=5406, 159.39952pt x 171.
+<./figures//WK2/opti/proste_200/proste_200_0.5.pdf, id=5389, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_200/proste_200_0.5.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_200/proste_200_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_0.5.pdf  use
-d on input line 791.
+d on input line 794.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4913) has occurred while \output is active []
 
 
 
@@ -5404,16 +5346,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[136 <./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf> <./figures//WK2/op
-ti/proste_160/proste_160_VAR_XY.pdf> <./figures//WK2/opti/proste_160/proste_160
-_VAR_YZ.pdf> <./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf>]
+[136 <./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf> <./figures//WK
+2/opti/proste_160/proste_160_VAR_ISO.pdf> <./figures//WK2/opti/proste_160/prost
+e_160_VAR_XY.pdf> <./figures//WK2/opti/proste_160/proste_160_VAR_YZ.pdf> <./fig
+ures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf>]
 <./figures//WK2/opti/proste_200/proste_200_sciag.pdf, id=5479, 159.40253pt x 19
 3.47382pt>
 File: ./figures//WK2/opti/proste_200/proste_200_sciag.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_200/proste_200_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_sciag.pdf  u
-sed on input line 799.
+sed on input line 802.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
 <./figures//WK2/opti/proste_200/proste_200_luk.pdf, id=5481, 161.5365pt x 193.4
 7382pt>
@@ -5421,7 +5364,7 @@ File: ./figures//WK2/opti/proste_200/proste_200_luk.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_200/proste_200_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_luk.pdf  use
-d on input line 800.
+d on input line 803.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
 <./figures//WK2/opti/proste_200/proste_200_wieszak.pdf, id=5483, 159.40253pt x 
 193.47382pt>
@@ -5429,7 +5372,7 @@ File: ./figures//WK2/opti/proste_200/proste_200_wieszak.pdf Graphic file (type
 pdf)
 <use ./figures//WK2/opti/proste_200/proste_200_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_wieszak.pdf 
- used on input line 801.
+ used on input line 804.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
 <./figures//WK2/opti/proste_200/proste_200_VAR_ISO_ALL.pdf, id=5485, 285.25974p
 t x 187.11807pt>
@@ -5437,7 +5380,7 @@ File: ./figures//WK2/opti/proste_200/proste_200_VAR_ISO_ALL.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_200/proste_200_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_VAR_ISO_ALL.
-pdf  used on input line 809.
+pdf  used on input line 812.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5462,7 +5405,7 @@ File: ./figures//WK2/opti/proste_200/proste_200_VAR_ISO.pdf Graphic file (type
 pdf)
 <use ./figures//WK2/opti/proste_200/proste_200_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_VAR_ISO.pdf 
- used on input line 817.
+ used on input line 820.
 (pdftex.def)             Requested size: 213.39566pt x 184.51534pt.
 <./figures//WK2/opti/proste_200/proste_200_VAR_XY.pdf, id=5630, 270.36911pt x 2
 34.73296pt>
@@ -5470,7 +5413,7 @@ File: ./figures//WK2/opti/proste_200/proste_200_VAR_XY.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_200/proste_200_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_VAR_XY.pdf  
-used on input line 818.
+used on input line 821.
 (pdftex.def)             Requested size: 213.39566pt x 187.24602pt.
 <./figures//WK2/opti/proste_200/proste_200_VAR_YZ.pdf, id=5632, 270.36911pt x 2
 34.73296pt>
@@ -5478,7 +5421,7 @@ File: ./figures//WK2/opti/proste_200/proste_200_VAR_YZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_200/proste_200_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_VAR_YZ.pdf  
-used on input line 819.
+used on input line 822.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/proste_200/proste_200_VAR_XZ.pdf, id=5634, 270.36911pt x 2
 34.73296pt>
@@ -5486,7 +5429,7 @@ File: ./figures//WK2/opti/proste_200/proste_200_VAR_XZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_200/proste_200_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_VAR_XZ.pdf  
-used on input line 820.
+used on input line 823.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/proste_300/proste_300_0.0.pdf, id=5636, 159.39952pt x 171.
 56396pt>
@@ -5494,7 +5437,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_0.0.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_300/proste_300_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_0.0.pdf  use
-d on input line 832.
+d on input line 835.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
 <./figures//WK2/opti/proste_300/proste_300_0.3.pdf, id=5638, 159.39952pt x 171.
 56396pt>
@@ -5502,7 +5445,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_0.3.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_300/proste_300_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_0.3.pdf  use
-d on input line 833.
+d on input line 836.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 <./figures//WK2/opti/proste_300/proste_300_0.5.pdf, id=5640, 159.39952pt x 171.
 56396pt>
@@ -5510,7 +5453,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_0.5.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_300/proste_300_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_0.5.pdf  use
-d on input line 834.
+d on input line 837.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 
 Underfull \vbox (badness 4913) has occurred while \output is active []
@@ -5534,7 +5477,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_sciag.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_300/proste_300_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_sciag.pdf  u
-sed on input line 842.
+sed on input line 845.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
 <./figures//WK2/opti/proste_300/proste_300_luk.pdf, id=5732, 161.5365pt x 193.4
 7382pt>
@@ -5542,7 +5485,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_luk.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_300/proste_300_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_luk.pdf  use
-d on input line 843.
+d on input line 846.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
 <./figures//WK2/opti/proste_300/proste_300_wieszak.pdf, id=5734, 159.40253pt x 
 193.47382pt>
@@ -5550,7 +5493,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_wieszak.pdf Graphic file (type
 pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_wieszak.pdf 
- used on input line 844.
+ used on input line 847.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
 <./figures//WK2/opti/proste_300/proste_300_VAR_ISO_ALL.pdf, id=5736, 285.25974p
 t x 187.11807pt>
@@ -5558,7 +5501,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_VAR_ISO_ALL.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_VAR_ISO_ALL.
-pdf  used on input line 851.
+pdf  used on input line 854.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
 <./figures//WK2/opti/proste_300/proste_300_VAR_ISO.pdf, id=5738, 231.65344pt x 
 196.63965pt>
@@ -5566,7 +5509,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_VAR_ISO.pdf Graphic file (type
 pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_VAR_ISO.pdf 
- used on input line 858.
+ used on input line 861.
 (pdftex.def)             Requested size: 213.39566pt x 184.51534pt.
 <./figures//WK2/opti/proste_300/proste_300_VAR_XY.pdf, id=5740, 270.36911pt x 2
 34.73296pt>
@@ -5574,7 +5517,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_VAR_XY.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_300/proste_300_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_VAR_XY.pdf  
-used on input line 859.
+used on input line 862.
 (pdftex.def)             Requested size: 213.39566pt x 187.24602pt.
 <./figures//WK2/opti/proste_300/proste_300_VAR_YZ.pdf, id=5742, 270.36911pt x 2
 34.73296pt>
@@ -5582,7 +5525,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_VAR_YZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_300/proste_300_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_VAR_YZ.pdf  
-used on input line 860.
+used on input line 863.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/proste_300/proste_300_VAR_XZ.pdf, id=5744, 270.36911pt x 2
 34.73296pt>
@@ -5590,7 +5533,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_VAR_XZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_300/proste_300_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_VAR_XZ.pdf  
-used on input line 861.
+used on input line 864.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5614,21 +5557,21 @@ k.pdf>]
 File: ./figures//WK2/opti/niels_160/niels_160_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_0.0.pdf  used 
-on input line 871.
+on input line 874.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
 <./figures//WK2/opti/niels_160/niels_160_0.3.pdf, id=5890, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_160/niels_160_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_0.3.pdf  used 
-on input line 872.
+on input line 875.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 <./figures//WK2/opti/niels_160/niels_160_0.5.pdf, id=5892, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_160/niels_160_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_0.5.pdf  used 
-on input line 873.
+on input line 876.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 
 Underfull \vbox (badness 4913) has occurred while \output is active []
@@ -5652,14 +5595,14 @@ File: ./figures//WK2/opti/niels_160/niels_160_sciag.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_160/niels_160_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_sciag.pdf  use
-d on input line 881.
+d on input line 884.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
 <./figures//WK2/opti/niels_160/niels_160_luk.pdf, id=5984, 161.5365pt x 193.473
 82pt>
 File: ./figures//WK2/opti/niels_160/niels_160_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_luk.pdf  used 
-on input line 882.
+on input line 885.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
 <./figures//WK2/opti/niels_160/niels_160_wieszak.pdf, id=5986, 159.40253pt x 19
 3.47382pt>
@@ -5667,7 +5610,7 @@ File: ./figures//WK2/opti/niels_160/niels_160_wieszak.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_160/niels_160_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_wieszak.pdf  u
-sed on input line 883.
+sed on input line 886.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
 <./figures//WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pdf, id=5988, 285.25974pt 
 x 187.11807pt>
@@ -5675,7 +5618,7 @@ File: ./figures//WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pd
-f  used on input line 891.
+f  used on input line 894.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
 <./figures//WK2/opti/niels_160/niels_160_VAR_ISO.pdf, id=5990, 231.65344pt x 19
 6.63965pt>
@@ -5683,7 +5626,7 @@ File: ./figures//WK2/opti/niels_160/niels_160_VAR_ISO.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_160/niels_160_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_VAR_ISO.pdf  u
-sed on input line 898.
+sed on input line 901.
 (pdftex.def)             Requested size: 213.39566pt x 184.51534pt.
 <./figures//WK2/opti/niels_160/niels_160_VAR_XY.pdf, id=5992, 270.36911pt x 234
 .73296pt>
@@ -5691,7 +5634,7 @@ File: ./figures//WK2/opti/niels_160/niels_160_VAR_XY.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_160/niels_160_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_VAR_XY.pdf  us
-ed on input line 899.
+ed on input line 902.
 (pdftex.def)             Requested size: 213.39566pt x 187.24602pt.
 <./figures//WK2/opti/niels_160/niels_160_VAR_YZ.pdf, id=5994, 270.36911pt x 234
 .73296pt>
@@ -5699,7 +5642,7 @@ File: ./figures//WK2/opti/niels_160/niels_160_VAR_YZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_160/niels_160_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_VAR_YZ.pdf  us
-ed on input line 900.
+ed on input line 903.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/niels_160/niels_160_VAR_XZ.pdf, id=5996, 270.36911pt x 234
 .73296pt>
@@ -5707,7 +5650,7 @@ File: ./figures//WK2/opti/niels_160/niels_160_VAR_XZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_160/niels_160_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_VAR_XZ.pdf  us
-ed on input line 901.
+ed on input line 904.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5730,21 +5673,21 @@ figures//WK2/opti/niels_160/niels_160_sciag.pdf> <./figures//WK2/opti/niels_160
 File: ./figures//WK2/opti/niels_200/niels_200_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_0.0.pdf  used 
-on input line 913.
+on input line 916.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
 <./figures//WK2/opti/niels_200/niels_200_0.3.pdf, id=6141, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_200/niels_200_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_0.3.pdf  used 
-on input line 914.
+on input line 917.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 <./figures//WK2/opti/niels_200/niels_200_0.5.pdf, id=6143, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_200/niels_200_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_0.5.pdf  used 
-on input line 915.
+on input line 918.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 
 Underfull \vbox (badness 4913) has occurred while \output is active []
@@ -5768,14 +5711,14 @@ File: ./figures//WK2/opti/niels_200/niels_200_sciag.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_200/niels_200_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_sciag.pdf  use
-d on input line 923.
+d on input line 926.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
 <./figures//WK2/opti/niels_200/niels_200_luk.pdf, id=6235, 161.5365pt x 193.473
 82pt>
 File: ./figures//WK2/opti/niels_200/niels_200_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_luk.pdf  used 
-on input line 924.
+on input line 927.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
 <./figures//WK2/opti/niels_200/niels_200_wieszak.pdf, id=6237, 159.40253pt x 19
 3.47382pt>
@@ -5783,7 +5726,7 @@ File: ./figures//WK2/opti/niels_200/niels_200_wieszak.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_200/niels_200_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_wieszak.pdf  u
-sed on input line 925.
+sed on input line 928.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
 <./figures//WK2/opti/niels_200/niels_200_VAR_ISO_ALL.pdf, id=6239, 285.25974pt 
 x 187.11807pt>
@@ -5791,7 +5734,7 @@ File: ./figures//WK2/opti/niels_200/niels_200_VAR_ISO_ALL.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_VAR_ISO_ALL.pd
-f  used on input line 933.
+f  used on input line 936.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5815,7 +5758,7 @@ File: ./figures//WK2/opti/niels_200/niels_200_VAR_ISO.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_200/niels_200_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_VAR_ISO.pdf  u
-sed on input line 941.
+sed on input line 944.
 (pdftex.def)             Requested size: 213.39566pt x 184.51534pt.
 <./figures//WK2/opti/niels_200/niels_200_VAR_XY.pdf, id=6384, 270.36911pt x 234
 .73296pt>
@@ -5823,7 +5766,7 @@ File: ./figures//WK2/opti/niels_200/niels_200_VAR_XY.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_200/niels_200_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_VAR_XY.pdf  us
-ed on input line 942.
+ed on input line 945.
 (pdftex.def)             Requested size: 213.39566pt x 187.24602pt.
 <./figures//WK2/opti/niels_200/niels_200_VAR_YZ.pdf, id=6386, 270.36911pt x 234
 .73296pt>
@@ -5831,7 +5774,7 @@ File: ./figures//WK2/opti/niels_200/niels_200_VAR_YZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_200/niels_200_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_VAR_YZ.pdf  us
-ed on input line 943.
+ed on input line 946.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/niels_200/niels_200_VAR_XZ.pdf, id=6388, 270.36911pt x 234
 .73296pt>
@@ -5839,28 +5782,28 @@ File: ./figures//WK2/opti/niels_200/niels_200_VAR_XZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_200/niels_200_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_VAR_XZ.pdf  us
-ed on input line 944.
+ed on input line 947.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/niels_300/niels_300_0.0.pdf, id=6390, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_300/niels_300_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_0.0.pdf  used 
-on input line 953.
+on input line 956.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
 <./figures//WK2/opti/niels_300/niels_300_0.3.pdf, id=6392, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_300/niels_300_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_0.3.pdf  used 
-on input line 954.
+on input line 957.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 <./figures//WK2/opti/niels_300/niels_300_0.5.pdf, id=6394, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_300/niels_300_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_0.5.pdf  used 
-on input line 955.
+on input line 958.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 
 Underfull \vbox (badness 4913) has occurred while \output is active []
@@ -5884,14 +5827,14 @@ File: ./figures//WK2/opti/niels_300/niels_300_sciag.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_300/niels_300_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_sciag.pdf  use
-d on input line 963.
+d on input line 966.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
 <./figures//WK2/opti/niels_300/niels_300_luk.pdf, id=6486, 161.5365pt x 193.473
 82pt>
 File: ./figures//WK2/opti/niels_300/niels_300_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_luk.pdf  used 
-on input line 964.
+on input line 967.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
 <./figures//WK2/opti/niels_300/niels_300_wieszak.pdf, id=6488, 159.40253pt x 19
 3.47382pt>
@@ -5899,7 +5842,7 @@ File: ./figures//WK2/opti/niels_300/niels_300_wieszak.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_300/niels_300_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_wieszak.pdf  u
-sed on input line 965.
+sed on input line 968.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
 <./figures//WK2/opti/niels_300/niels_300_VAR_ISO_ALL.pdf, id=6490, 285.25974pt 
 x 187.11807pt>
@@ -5907,7 +5850,7 @@ File: ./figures//WK2/opti/niels_300/niels_300_VAR_ISO_ALL.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_VAR_ISO_ALL.pd
-f  used on input line 973.
+f  used on input line 976.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
 <./figures//WK2/opti/niels_300/niels_300_VAR_ISO.pdf, id=6492, 231.65344pt x 19
 6.63965pt>
@@ -5915,7 +5858,7 @@ File: ./figures//WK2/opti/niels_300/niels_300_VAR_ISO.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_300/niels_300_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_VAR_ISO.pdf  u
-sed on input line 980.
+sed on input line 983.
 (pdftex.def)             Requested size: 213.39566pt x 184.51534pt.
 <./figures//WK2/opti/niels_300/niels_300_VAR_XY.pdf, id=6494, 270.36911pt x 234
 .73296pt>
@@ -5923,7 +5866,7 @@ File: ./figures//WK2/opti/niels_300/niels_300_VAR_XY.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_300/niels_300_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_VAR_XY.pdf  us
-ed on input line 981.
+ed on input line 984.
 (pdftex.def)             Requested size: 213.39566pt x 187.24602pt.
 <./figures//WK2/opti/niels_300/niels_300_VAR_YZ.pdf, id=6496, 270.36911pt x 234
 .73296pt>
@@ -5931,7 +5874,7 @@ File: ./figures//WK2/opti/niels_300/niels_300_VAR_YZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_300/niels_300_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_VAR_YZ.pdf  us
-ed on input line 982.
+ed on input line 985.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/niels_300/niels_300_VAR_XZ.pdf, id=6498, 270.36911pt x 234
 .73296pt>
@@ -5939,7 +5882,7 @@ File: ./figures//WK2/opti/niels_300/niels_300_VAR_XZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_300/niels_300_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_VAR_XZ.pdf  us
-ed on input line 983.
+ed on input line 986.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5962,21 +5905,21 @@ figures//WK2/opti/niels_300/niels_300_sciag.pdf> <./figures//WK2/opti/niels_300
 File: ./figures//WK2/opti/netw_160/netw_160_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_0.0.pdf  used on
- input line 992.
+ input line 995.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
 <./figures//WK2/opti/netw_160/netw_160_0.3.pdf, id=6644, 159.39952pt x 171.5639
 6pt>
 File: ./figures//WK2/opti/netw_160/netw_160_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_0.3.pdf  used on
- input line 993.
+ input line 996.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 <./figures//WK2/opti/netw_160/netw_160_0.5.pdf, id=6646, 159.39952pt x 171.5639
 6pt>
 File: ./figures//WK2/opti/netw_160/netw_160_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_0.5.pdf  used on
- input line 994.
+ input line 997.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 
 Underfull \vbox (badness 4913) has occurred while \output is active []
@@ -5999,14 +5942,14 @@ VAR_XY.pdf> <./figures//WK2/opti/niels_300/niels_300_VAR_YZ.pdf> <./figures//WK
 File: ./figures//WK2/opti/netw_160/netw_160_sciag.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_sciag.pdf  used 
-on input line 1002.
+on input line 1005.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
 <./figures//WK2/opti/netw_160/netw_160_luk.pdf, id=6738, 161.5365pt x 193.47382
 pt>
 File: ./figures//WK2/opti/netw_160/netw_160_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_luk.pdf  used on
- input line 1003.
+ input line 1006.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
 <./figures//WK2/opti/netw_160/netw_160_wieszak.pdf, id=6740, 159.40253pt x 193.
 47382pt>
@@ -6014,7 +5957,7 @@ File: ./figures//WK2/opti/netw_160/netw_160_wieszak.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_160/netw_160_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_wieszak.pdf  use
-d on input line 1004.
+d on input line 1007.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
 <./figures//WK2/opti/netw_160/netw_160_VAR_ISO_ALL.pdf, id=6742, 285.25974pt x 
 187.11807pt>
@@ -6022,7 +5965,7 @@ File: ./figures//WK2/opti/netw_160/netw_160_VAR_ISO_ALL.pdf Graphic file (type
 pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_VAR_ISO_ALL.pdf 
- used on input line 1011.
+ used on input line 1014.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6046,49 +5989,49 @@ File: ./figures//WK2/opti/netw_160/netw_160_VAR_ISO.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_160/netw_160_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_VAR_ISO.pdf  use
-d on input line 1019.
+d on input line 1022.
 (pdftex.def)             Requested size: 213.39566pt x 184.51534pt.
 <./figures//WK2/opti/netw_160/netw_160_VAR_XY.pdf, id=6887, 270.36911pt x 234.7
 3296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_VAR_XY.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_VAR_XY.pdf  used
- on input line 1020.
+ on input line 1023.
 (pdftex.def)             Requested size: 213.39566pt x 187.24602pt.
 <./figures//WK2/opti/netw_160/netw_160_VAR_YZ.pdf, id=6889, 270.36911pt x 234.7
 3296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_VAR_YZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_VAR_YZ.pdf  used
- on input line 1021.
+ on input line 1024.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/netw_160/netw_160_VAR_XZ.pdf, id=6891, 270.36911pt x 234.7
 3296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_VAR_XZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_VAR_XZ.pdf  used
- on input line 1022.
+ on input line 1025.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/netw_200/netw_200_0.0.pdf, id=6893, 159.39952pt x 171.5639
 6pt>
 File: ./figures//WK2/opti/netw_200/netw_200_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_0.0.pdf  used on
- input line 1032.
+ input line 1035.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
 <./figures//WK2/opti/netw_200/netw_200_0.3.pdf, id=6895, 159.39952pt x 171.5639
 6pt>
 File: ./figures//WK2/opti/netw_200/netw_200_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_0.3.pdf  used on
- input line 1033.
+ input line 1036.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 <./figures//WK2/opti/netw_200/netw_200_0.5.pdf, id=6897, 159.39952pt x 171.5639
 6pt>
 File: ./figures//WK2/opti/netw_200/netw_200_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_0.5.pdf  used on
- input line 1034.
+ input line 1037.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 
 Underfull \vbox (badness 4913) has occurred while \output is active []
@@ -6111,14 +6054,14 @@ etw_160/netw_160_VAR_XZ.pdf>]
 File: ./figures//WK2/opti/netw_200/netw_200_sciag.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_sciag.pdf  used 
-on input line 1042.
+on input line 1045.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
 <./figures//WK2/opti/netw_200/netw_200_luk.pdf, id=6989, 161.5365pt x 193.47382
 pt>
 File: ./figures//WK2/opti/netw_200/netw_200_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_luk.pdf  used on
- input line 1043.
+ input line 1046.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
 <./figures//WK2/opti/netw_200/netw_200_wieszak.pdf, id=6991, 159.40253pt x 193.
 47382pt>
@@ -6126,7 +6069,7 @@ File: ./figures//WK2/opti/netw_200/netw_200_wieszak.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_200/netw_200_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_wieszak.pdf  use
-d on input line 1044.
+d on input line 1047.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
 <./figures//WK2/opti/netw_200/netw_200_VAR_ISO_ALL.pdf, id=6993, 285.25974pt x 
 187.11807pt>
@@ -6134,7 +6077,7 @@ File: ./figures//WK2/opti/netw_200/netw_200_VAR_ISO_ALL.pdf Graphic file (type
 pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_VAR_ISO_ALL.pdf 
- used on input line 1052.
+ used on input line 1055.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6158,63 +6101,63 @@ File: ./figures//WK2/opti/netw_200/netw_200_VAR_ISO.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_200/netw_200_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_VAR_ISO.pdf  use
-d on input line 1060.
+d on input line 1063.
 (pdftex.def)             Requested size: 213.39566pt x 184.51534pt.
 <./figures//WK2/opti/netw_200/netw_200_VAR_XY.pdf, id=7138, 270.36911pt x 234.7
 3296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_VAR_XY.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_VAR_XY.pdf  used
- on input line 1061.
+ on input line 1064.
 (pdftex.def)             Requested size: 213.39566pt x 187.24602pt.
 <./figures//WK2/opti/netw_200/netw_200_VAR_YZ.pdf, id=7140, 270.36911pt x 234.7
 3296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_VAR_YZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_VAR_YZ.pdf  used
- on input line 1062.
+ on input line 1065.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/netw_200/netw_200_VAR_XZ.pdf, id=7142, 270.36911pt x 234.7
 3296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_VAR_XZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_VAR_XZ.pdf  used
- on input line 1063.
+ on input line 1066.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/netw_300/netw_300_0.0.pdf, id=7144, 159.39952pt x 171.5639
 6pt>
 File: ./figures//WK2/opti/netw_300/netw_300_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_0.0.pdf  used on
- input line 1073.
+ input line 1076.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
 <./figures//WK2/opti/netw_300/netw_300_0.3.pdf, id=7146, 159.39952pt x 171.5639
 6pt>
 File: ./figures//WK2/opti/netw_300/netw_300_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_0.3.pdf  used on
- input line 1074.
+ input line 1077.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 <./figures//WK2/opti/netw_300/netw_300_0.5.pdf, id=7148, 159.39952pt x 171.5639
 6pt>
 File: ./figures//WK2/opti/netw_300/netw_300_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_0.5.pdf  used on
- input line 1075.
+ input line 1078.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
 <./figures//WK2/opti/netw_300/netw_300_sciag.pdf, id=7150, 159.40253pt x 193.47
 382pt>
 File: ./figures//WK2/opti/netw_300/netw_300_sciag.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_sciag.pdf  used 
-on input line 1082.
+on input line 1085.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
 <./figures//WK2/opti/netw_300/netw_300_luk.pdf, id=7152, 161.5365pt x 193.47382
 pt>
 File: ./figures//WK2/opti/netw_300/netw_300_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_luk.pdf  used on
- input line 1083.
+ input line 1086.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
 <./figures//WK2/opti/netw_300/netw_300_wieszak.pdf, id=7154, 159.40253pt x 193.
 47382pt>
@@ -6222,7 +6165,7 @@ File: ./figures//WK2/opti/netw_300/netw_300_wieszak.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_300/netw_300_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_wieszak.pdf  use
-d on input line 1084.
+d on input line 1087.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
 
 Underfull \vbox (badness 4913) has occurred while \output is active []
@@ -6246,7 +6189,7 @@ File: ./figures//WK2/opti/netw_300/netw_300_VAR_ISO_ALL.pdf Graphic file (type
 pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_VAR_ISO_ALL.pdf 
- used on input line 1091.
+ used on input line 1094.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6270,28 +6213,28 @@ File: ./figures//WK2/opti/netw_300/netw_300_VAR_ISO.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_300/netw_300_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_VAR_ISO.pdf  use
-d on input line 1099.
+d on input line 1102.
 (pdftex.def)             Requested size: 213.39566pt x 184.51534pt.
 <./figures//WK2/opti/netw_300/netw_300_VAR_XY.pdf, id=7390, 270.36911pt x 234.7
 3296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_VAR_XY.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_VAR_XY.pdf  used
- on input line 1100.
+ on input line 1103.
 (pdftex.def)             Requested size: 213.39566pt x 187.24602pt.
 <./figures//WK2/opti/netw_300/netw_300_VAR_YZ.pdf, id=7392, 270.36911pt x 234.7
 3296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_VAR_YZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_VAR_YZ.pdf  used
- on input line 1101.
+ on input line 1104.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 <./figures//WK2/opti/netw_300/netw_300_VAR_XZ.pdf, id=7394, 270.36911pt x 234.7
 3296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_VAR_XZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_VAR_XZ.pdf  used
- on input line 1102.
+ on input line 1105.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
 
 
@@ -6312,11 +6255,9 @@ Rozdzia\l  6.
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 3.
-
-(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+ (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-[154
+) [154
 
 
 
@@ -6442,84 +6383,78 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40349 strings out of 479321
- 995319 string characters out of 2855152
- 1795698 words of memory out of 12000000
- 56728 multiletter control sequences out of 15000+600000
- 469872 words of font info for 194 fonts, out of 8000000 for 9000
+ 40355 strings out of 479616
+ 994153 string characters out of 2865001
+ 1782524 words of memory out of 3000000
+ 56452 multiletter control sequences out of 15000+200000
+ 469872 words of font info for 194 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 109i,24n,107p,3216b,2085s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-
-super-ts1.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
-cm-super/cm-super-t1.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts
-/enc/dvips/pl/plmi.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/e
-nc/dvips/pl/plrm.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/enc
-/dvips/pl/plms.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/enc/d
-vips/pl/plsc.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
-ps/pl/plme.enc}<C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/PRZKALIT/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/PRZKALIT/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PR
-ZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
-C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sym
-bols/msbm10.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/pl/plbsy10.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/pl/plbx12.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/pl/plbx7.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/pl/plbx8.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/pl/plex10.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/pl/plmi10.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/pl/plmi12.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/pl/plmi5.pfb><C:/Users/PRZKALIT/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/pl/plmi6.pfb><C:/Users/PRZKALIT/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/pl/plmi7.pfb><C:/Users/PRZKALIT/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/pl/plmi8.pfb><C:/Users/PRZKALIT/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/pl/plmib10.pfb><C:/Users/PRZKALIT/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/Users/PRZKALIT/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Users/PRZKALIT/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/pl/plr5.pfb><C:/Users/PRZKALIT/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/pl/plr6.pfb><C:/Users/PRZKALIT/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/pl/plr7.pfb><C:/Users/PRZKALIT/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/pl/plr8.pfb><C:/Users/PRZKALIT/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/pl/plss8.pfb><C:/Users/PRZKALIT/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/PRZKALIT
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy6.pfb><C:/Users/PRZKAL
-IT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy7.pfb><C:/Users/PRZK
-ALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy8.pfb><C:/Users/PR
-ZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><
-C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfb
-x1095.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/c
-m-super/sfbx1200.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/cm-super/sfbx1440.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/PRZKALIT/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Users/PRZKALIT/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1095.pfb><C:/Users/PRZK
-ALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:
-/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0
-700.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-
-super/sfrm0800.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/cm-super/sfrm1000.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/PRZKALIT/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/PRZKALIT/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/PRZKAL
-IT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/U
-sers/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl120
-0.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-su
-per/sfti1095.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/cm-super/sfti1200.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/cm-super/sftt1095.pfb>
-Output written on whole_thesis.pdf (164 pages, 90462011 bytes).
+ 109i,24n,107p,3216b,2085s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
+er-ts1.enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-sup
+er/cm-super-t1.enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
+s/pl/plmi.enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/
+plrm.enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plms.
+enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plsc.enc}{
+C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plme.enc}<C:/Us
+ers/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pf
+b><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr5.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/przem/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/przem/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/pl/plbsy10.pfb><C:/Users/przem/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Users/przem/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/pl/plbx7.pfb><C:/Users/przem/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/pl/plbx8.pfb><C:/Users/przem/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/pl/plex10.pfb><C:/Users/przem/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/pl/plmi10.pfb><C:/Users/przem/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/pl/plmi12.pfb><C:/Users/przem/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/pl/plmi5.pfb><C:/Users/przem/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/pl/plmi6.pfb><C:/Users/przem/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/pl/plmi7.pfb><C:/Users/przem/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/pl/plmi8.pfb><C:/Users/przem/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/pl/plmib10.pfb><C:/Users/przem/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/Users/przem/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Users/przem/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/pl/plr5.pfb><C:/Users/przem/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/pl/plr6.pfb><C:/Users/przem/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/pl/plr7.pfb><C:/Users/przem/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/pl/plr8.pfb><C:/Users/przem/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/pl/plss8.pfb><C:/Users/przem/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/przem/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/pl/plsy6.pfb><C:/Users/przem/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/pl/plsy7.pfb><C:/Users/przem/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/pl/plsy8.pfb><C:/Users/przem/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/przem/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/przem/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/przem/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/pr
+zem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/
+Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2488.
+pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/s
+fcc1095.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm
+-super/sfrm0600.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/cm-super/sfrm0700.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/cm-super/sfrm0800.pfb><C:/Users/przem/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/przem/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/przem/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/przem/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/p
+rzem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:
+/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl1200
+.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/
+sfti1095.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/c
+m-super/sfti1200.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/cm-super/sftt1095.pfb>
+Output written on whole_thesis.pdf (164 pages, 90462314 bytes).
 PDF statistics:
  7671 PDF objects out of 8907 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

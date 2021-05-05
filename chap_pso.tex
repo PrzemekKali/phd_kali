@@ -235,7 +235,7 @@ Należy jednak nadmienić, że w kontekście optymalizacji wielokryterialnej, po
 	\end{equation}
 \end{definition}
 
-W literaturze znaleźć można również definicję $\epsilon$-dominacji w sensie Pareto \parencite{Zuluaga2016}. Polega ona na rozluźnieniu warunku klasycznej dominacji przez dodatnie tolerancji. Akceptowalne różnice zdefiniowane są w wektorze tolerancji $\vect{\epsilon}=[\epsilon_1,\epsilon_2,\dots,k]$, gdzie $\epsilon_i>0$ dla $i=1,2\dots,k$. 
+W literaturze znaleźć można również definicję $\epsilon$-dominacji w sensie Pareto \parencite{Zuluaga2016}. Polega ona na rozluźnieniu warunku klasycznej dominacji przez dodatnie tolerancji. Akceptowalne różnice zdefiniowane są w wektorze tolerancji $\vect{\epsilon}=[\epsilon_1,\epsilon_2,\dots,k]$, gdzie $\epsilon_i>0$ dla $i=1,2\dots,k$. Wizualizację graficzną Frontu Pareto z zastosowaniem $\epsilon$-dominacji przedstawiono na rysunku \ref{fig: PSO_eps_pareto_visualizationc}.
 
 \begin{definition}[$\epsilon$-dominacja Pareto]
 	Niech dwa wektory $\vect{x}_1, \vect{x}_2$ są zdefiniowane w przestrzeni $\mathbb{R}^D$. W przypadku minimalizacji, wektor $\vect{x}_1$ $\epsilon$-dominuje nad wektorem $\vect{x}_2$, jeżeli każdy element $x_{1,i}$ pomniejszony o tolerancję $\epsilon_i$ jest nie większy niż $x_{2,i}$ dla $i\in \mathcal{N}$ i istnieje taki element $x_{1,j}$, że $x_{1,j}-\epsilon_j$ jest mniejszy niż $x_{2,j}$ dla $j\in\mathcal{N}$. $\epsilon$-dominację wektora $\vect{x}_1$ nad $\vect{x}_2$ oznacza się przez $\vect{x}_1\prec_\epsilon\vect{x}_2$.
@@ -247,10 +247,11 @@ W literaturze znaleźć można również definicję $\epsilon$-dominacji w sensi
 
 \begin{figure}[h]
 	\centering
-	\subfloat[Dominacja]{\includegraphics[]{/PSO/pareto/nondominated.pdf} \label{fig: PSO_pareto_visualizationa}} \qquad
+	\subfloat[Dominacja]{\includegraphics[]{/PSO/pareto/nondominated.pdf} \label{fig: PSO_pareto_visualizationa}}
 	\subfloat[Front Pareto]{\includegraphics[]{/PSO/pareto/pareto_front.pdf} \label{fig: PSO_pareto_visualizationb}}
+	\subfloat[$\epsilon$-Front Pareto]{\includegraphics[]{/PSO/pareto/eps_pareto_front.pdf} \label{fig: PSO_eps_pareto_visualizationc}}
 	\captionsetup{justification=centering}
-	\caption{Wizualizacja definicji dominacji i Frontu Pareto}
+	\caption{Wizualizacja definicji dominacji, Frontu Pareto i Frontu Pareto z zastosowaniem $\epsilon$-dominacji}
 	\label{fig: PSO_pareto_visualization}
 \end{figure}
 

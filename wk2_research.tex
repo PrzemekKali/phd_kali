@@ -714,7 +714,7 @@ Optymalizację przeprowadzono ponownie za pomocą dostosowanego algorytmu MOPSO.
 \end{enumerate}
 
 Na rysunku \ref{fig:wk2_dynamic_algorithm} przedstawiono schemat blokowy algorytmu. Logami SOFiSTiK oraz Python oznaczono w jakim środowisku wykonywane są dane kroki oraz kierunek przepływu informacji lub współpracę obu środowisk.
-\begin{figure}[p]
+\begin{figure}[hbt!]
 	\centering
 	\includegraphics[]{/WK2/dynamic/algorithm_analiza_dynamiczna.pdf} 
 	\captionsetup{justification=centering}
@@ -745,26 +745,27 @@ Dla każdego wariantu optymalizacji oceniono wyniki i sformułowano następując
 
 Poniżej zaprezentowano i omówiono wyniki dla każdego z wariantów.
 
-
+\pagebreak[4]
 \subsection{Wieszaki Proste - prędkość maksymalna 160 km/h}
 
-Rezultaty dla wariantu modelu przęsła z wieszkami prostymi i z dopuszczalną prędkością maksymalną 160 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_proste_160_all} - \ref{fig:wk2_opti_proste_160_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5 \mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_proste_160_all}). Niemniej nie znaleziono rozwiązania, które gwarantowałoby spełnienie kryterium bezpieczeństwa przy minimalnym wykorzystaniu wytrzymałości materiału łuku i ściągu na poziomie większym niż 50\% (rys. \ref{fig:wk2_opti_proste_160_all_c}). Przy braku ograniczenia minimalnym wytężeniem przekroju zakres wartości przybliżenia Frontu Pareto wynosi dla mast $f_1 \in\,<107.32,168.12>$, a dla przyspieszeń $f_2 \in\,<0.97,9.29>$. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5 \mathrm{m/s^2}$ wynosi $f_1 = 116.57$ t.
+Rezultaty dla wariantu modelu przęsła z wieszkami prostymi i z dopuszczalną prędkością maksymalną 160 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_proste_160_all} - \ref{fig:wk2_opti_proste_160_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5 \mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_proste_160_all}). Niemniej nie znaleziono rozwiązania, które gwarantowałoby spełnienie kryterium bezpieczeństwa przy minimalnym wykorzystaniu wytrzymałości materiału łuku i ściągu na poziomie większym niż 50\% (rys. \ref{fig:wk2_opti_proste_160_all_c}). Przy braku ograniczenia minimalnym wytężeniem przekroju zakres wartości przybliżenia Frontu Pareto wynosi dla masy konstrukcji $f_1 \in\,<107.32,168.12>$, a dla przyspieszeń $f_2 \in\,<0.97,9.29>$. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5 \mathrm{m/s^2}$ wynosi $f_1 = 116.57$ t. Wynik ten uzyskano dla zestawu zmiennych projektowych: $h_1 = 151\;\mathrm{mm}$, $h_2 = 2386\;\mathrm{mm}$, i $d_1 = 47\;\mathrm{mm}$. Graficzna prezentacja rezultatów w przestrzenii funkcji celu pokazuje wyraźnie poziomo ukształtowane podzbiory wyników (rys. \ref{fig:wk2_opti_proste_160_variables}). Każdy z tych zbiorów chrakteryzuje się niemal stałą wartością przyspieszeń maksymalnych, malejących nieznacznie, w przybliżeniu liniowo wraz ze wzrostem masy.
 \begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/proste_160/proste_160_0.0.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_160/proste_160_0.3.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_160/proste_160_0.5.pdf}, \label{fig:wk2_opti_proste_160_all_c}}
+	\subfloat[$min_{eff}=0\%$ ]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/proste_160/proste_160_0.0.pdf}}
+	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_160/proste_160_0.3.pdf}}
+	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_160/proste_160_0.5.pdf}, \label{fig:wk2_opti_proste_160_all_c}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 160 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki proste, maksymalna prędkość 160 km/h}
 	\label{fig:wk2_opti_proste_160_all}
 \end{figure}
+
 Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projekowymi (rys. \ref{fig:wk2_opti_proste_160_variables}) wskazuje, że zmienność maksymalnych przyspieszeń jest związana głównie ze zmianą wysokością ściągu. Wysokość łuku wpływa głównie na przyrsot masy konstrukcji i w niewielkim stopniu na przyspieszenia. Średnica wieszaków wydaje się nie decydować o zmienności żadnej z funkcji celu w sposób istotny. Na taki charakter zależności wskazują również rysunek \ref{fig:wk2_opti_proste_160_vars_all} i wyznaczone miary korelacji (tab. \ref{tab: correlation_proste_160}). Na rysunku widać wyraźne, skokowe pomniejszenie maksymalnych przyspieszeń wraz ze wzrostem wysokości ściągu. Kwadrat współczynnika semikorelacji wkazuje na duży wpływ ściągu na zmienność maksymalnych przyspieszeń ($sr^2=46\%$) i praktycznie na brak wpływu zmiany wysokości łuku i średnicy wieszaków (odpowiednio $sr^2=0.3\%$ i $sr^2=1.3\%$). Potwierdza to również zestawienie maksymalnych przyspieszeń w funkcji zmiennych projektowych dla Frontu Pareto (rys. \ref{fig:wk2_opti_proste_160_var_2d}).
 
 \begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/proste_160/proste_160_sciag.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_160/proste_160_luk.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_160/proste_160_wieszak.pdf}}
+	\subfloat{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/proste_160/proste_160_sciag.pdf}}
+	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_160/proste_160_luk.pdf}}
+	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_160/proste_160_wieszak.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 160 km/h}
 	\label{fig:wk2_opti_proste_160_variables}
@@ -779,16 +780,16 @@ Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projekowymi (rys.
 \end{figure}
 \begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[trim=5 5 5 5, clip]{WK2/opti/proste_160/proste_160_var_sciag.pdf}}
-	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_160/proste_160_var_luk.pdf}}
-	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_160/proste_160_var_wieszak.pdf}}
+	\subfloat{\includegraphics[trim=5 5 5 5, clip]{WK2/opti/proste_160/proste_160_var_sciag.pdf}}
+	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_160/proste_160_var_luk.pdf}}
+	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_160/proste_160_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Zależność między zmiennymi projektowymi i maksymalnymi przyspieszeniami przęsła przybliżenia Frontu Pareto dla wariantu z wieszakami prostymi przy przejeździe z maksymalną prędkością 160 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności dla poszczególnych zmiennych projektowych: wieszaki proste, prędkość maksymalna 160 km/h}
 	\label{fig:wk2_opti_proste_160_var_2d}
 \end{figure}
 
 \begin{table}[hbt!]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla danych z optymalizacji wariantu z wieszakami prostymi i prędkością maksymalną 160 km/h}
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki proste, prędkość maksymalna 160 km/h}
 	\centering
 	\footnotesize
 	\begin{tabular}{@{}lcccc@{}}
@@ -808,10 +809,10 @@ Na rysunku \ref{fig:wk2_opti_proste_160_var_dom} zaprezentowano rozwiązania Fro
 
 \begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/proste_160/proste_160_VAR_ISO.pdf}}
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/proste_160/proste_160_VAR_XY.pdf}}\\
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_VAR_YZ.pdf}}
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_VAR_XZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_160/proste_160_VAR_ISO.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_VAR_XY.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_VAR_YZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_VAR_XZ.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 160 km/h}
 	\label{fig:wk2_opti_proste_160_var_dom}
@@ -821,64 +822,53 @@ Na rysunku \ref{fig:wk2_opti_proste_160_var_dom} zaprezentowano rozwiązania Fro
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+\pagebreak[4]
 \subsection{Wieszaki Proste - prędkość maksymalna 200 km/h}
 
-Rezultaty dla wariantu modelu przęsła z wieszkami prostymi i z dopuszczalną prędkością maksymalną 200 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_proste_200_all} - \ref{fig:wk2_opti_proste_200_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5 \mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_proste_200_all}). Niemniej nie znaleziono rozwiązania, które gwarantowałoby spełnienie kryterium bezpieczeństwa przy minimalnym wykorzystaniu wytrzymałości materiału łuku i ściągu na poziomie większym niż 50\% (rys. \ref{fig:wk2_opti_proste_200_allc}). Przy braku ograniczenia minimalnym wytężeniem przekroju zakres wartości przybliżenia Frontu Pareto wynosi dla masy $f_1 \in\,<107.29,168.58>$, a dla przyspieszeń $f_2 \in\,<1.32,9.34>$. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5 \mathrm{m/s^2}$ wynosi $f_1 = 121.4$ t.
+Rezultaty dla wariantu modelu przęsła z wieszkami prostymi i z dopuszczalną prędkością maksymalną 200 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_proste_200_all} - \ref{fig:wk2_opti_proste_200_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5 \mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_proste_200_all}). Niemniej nie znaleziono rozwiązania, które gwarantowałoby spełnienie kryterium bezpieczeństwa przy minimalnym wykorzystaniu wytrzymałości materiału łuku i ściągu na poziomie większym niż 50\% (rys. \ref{fig:wk2_opti_proste_200_allc}). Przy braku ograniczenia minimalnym wytężeniem przekroju, zakres wartości przybliżenia Frontu Pareto wynosi dla masy $f_1 \in\,<107.29,168.58>$, a dla przyspieszeń $f_2 \in\,<1.32,9.34>$. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5 \mathrm{m/s^2}$ wynosi $f_1 = 121.4$ t. Wynik ten uzyskano dla zestawu zmiennych projektowych: $h_1 = 152\;\mathrm{mm}$, $h_2 = 2898\;\mathrm{mm}$, i $d_1 = 55\;\mathrm{mm}$. Podobnie jak w wariancie 160 km/h widoczne są podzbiory wyników o zbliżonych wartościach przyspieszeń maksymalnych (rys. \ref{fig:wk2_opti_proste_200_variables}).
 
-\textit{Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projekowymi (rys. \ref{fig:wk2_opti_proste_160_variables}) wskazuje, że zmienność maksymalnych przyspieszeń jest związana głównie ze zmianą wysokością ściągu. Wysokość łuku wpływa głównie na przyrsot masy konstrukcji i w niewielkim stopniu na przyspieszenia. Średnica wieszaków wydaje się nie decydować o zmienności żadnej z funkcji celu w sposób istotny. Na taki charakter zależności wskazują również rysunek \ref{fig:wk2_opti_proste_160_vars_all} i wyznaczone miary korelacji (tab. \ref{tab: correlation_proste_160}). Na rysunku widać wyraźne, skokowe pomniejszenie maksymalnych przyspieszeń wraz ze wzrostem wysokości ściągu. Kwadrat współczynnika semikorelacji wkazuje na duży wpływ ściągu na zmienność maksymalnych przyspieszeń ($sr^2=46\%$) i praktycznie na brak wpływu zmiany wysokości łuku i średnicy wieszaków (odpowiednio $sr^2=0.3\%$ i $sr^2=1.3\%$). Potwierdza to również zestawienie maksymalnych przyspieszeń w funkcji zmiennych projektowych dla Frontu Pareto (rys. \ref{fig:wk2_opti_proste_160_var_2d}).Na rysunku \ref{fig:wk2_opti_proste_160_var_dom} zaprezentowano rozwiązania Frontu Pareto w dziedzinie zmiennych projektowych. Z zaprezentowanych rzutów na płaszczyzny osi można odczytać, że nie znaleziono rozwiązań charakteryzujących się maksymalnymi przyspieszeniami pomostu mniejszymi niż $3.5 \mathrm{m/s^2}$ dla ściągu o wysokości mniejszej niż 2385 mm. Dodatkowo można stwierdzić, że nie znaleziono żadnych dopuszczalnych rozwiązań optymalnych w sensie Pareto dla wysokości ściągu mniejszej niż 1295 mm i średnicy wieszaków mniejszej niż 44 mm. Zgodnie ze wcześniejszymi spostrzeżeniami to wysokość ściągu w głównej mierze wpływa na wartość przyspieszeń maksymalnych.}
-
-
-\begin{figure}[H]
+\begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/proste_200/proste_200_0.0.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_200/proste_200_0.3.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_200/proste_200_0.5.pdf}, \label{fig:wk2_opti_proste_200_allc}}
+	\subfloat[$min_{eff}=0\%$ ]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/proste_200/proste_200_0.0.pdf}}
+	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_200/proste_200_0.3.pdf}}
+	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_200/proste_200_0.5.pdf}, \label{fig:wk2_opti_proste_200_allc}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 200 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki proste, maksymalna prędkość 200 km/h}
 	\label{fig:wk2_opti_proste_200_all}
 \end{figure}
 
-\begin{figure}[H]
+Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projekowymi (rys. \ref{fig:wk2_opti_proste_200_variables}). Podobnie jak w przypadku prędkości 160 km/h wskazuje, że zmienność maksymalnych przyspieszeń jest związana głównie ze zmianą wysokością ściągu. Wysokość łuku wpływa głównie na przyrost masy konstrukcji i w niewielkim stopniu na przyspieszenia maksymalne. Średnica wieszaków wydaje się nie decydować o zmienności żadnej z funkcji celu w sposób istotny. Na taki charakter zależności wskazują również rysunek \ref{fig:wk2_opti_proste_200_vars_all} i wyznaczone miary korelacji (tab. \ref{tab: correlation_proste_200}). Na rysunku widać wyraźne, skokowe pomniejszenie maksymalnych przyspieszeń wraz ze wzrostem wysokości ściągu. Podobny rozkład do przypadku 200 km/h jest przesuniętu w kierunku wiekszych wysokości ściągu. Kwadrat współczynnika semikorelacji wkazuje na duży wpływ ściągu na zmienność maksymalnych przyspieszeń ($sr^2=46\%$) i brak związku zmiany wysokości łuku i średnicy wieszaków (odpowiednio $sr^2=4\%$ i $sr^2=1\%$). Potwierdza to również zestawienie maksymalnych przyspieszeń w funkcji zmiennych projektowych dla Frontu Pareto (rys. \ref{fig:wk2_opti_proste_200_var_2d}). 
+
+\begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/proste_200/proste_200_sciag.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_200/proste_200_luk.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_200/proste_200_wieszak.pdf}}
+	\subfloat{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/proste_200/proste_200_sciag.pdf}}
+	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_200/proste_200_luk.pdf}}
+	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_200/proste_200_wieszak.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 200 km/h}
 	\label{fig:wk2_opti_proste_200_variables}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[hbt!]
 	\centering
 	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/proste_200/proste_200_VAR_ISO_ALL.pdf}
 	\captionsetup{justification=centering}
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego }
 	\label{fig:wk2_opti_proste_200_vars_all}
 \end{figure}
-\begin{figure}[H]
+\begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[trim=5 5 5 5, clip]{WK2/opti/proste_200/proste_200_var_sciag.pdf}}
-	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_200/proste_200_var_luk.pdf}}
-	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_200/proste_200_var_wieszak.pdf}}
+	\subfloat{\includegraphics[trim=5 5 5 5, clip]{WK2/opti/proste_200/proste_200_var_sciag.pdf}}
+	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_200/proste_200_var_luk.pdf}}
+	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_200/proste_200_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Zależność między zmiennymi projektowymi i maksymalnymi przyspieszeniami przęsła przybliżenia Frontu Pareto dla wariantu z wieszakami prostymi przy przejeździe z maksymalną prędkością 200 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności dla poszczególnych zmiennych projektowych: wieszaki proste, prędkość maksymalna 200 km/h}
 	\label{fig:wk2_opti_proste_200_var_2d}
 \end{figure}
 
 
-\begin{table}[]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla danych z optymalizacji wariantu z wieszakami prostymi i prędkością maksymalną 200 km/h}
+\begin{table}[hbt!]
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki proste, prędkość maksymalna 200 km/h}
 	\centering
 	\footnotesize
 	\begin{tabular}{@{}lcccc@{}}
@@ -894,12 +884,15 @@ Rezultaty dla wariantu modelu przęsła z wieszkami prostymi i z dopuszczalną p
 	\label{tab: correlation_proste_200}
 \end{table}
 
-\begin{figure}[H]
+Na rysunku \ref{fig:wk2_opti_proste_200_var_dom} zaprezentowano rozwiązania Frontu Pareto w dziedzinie zmiennych projektowych. Z zaprezentowanych rzutów na płaszczyzny osi można odczytać, że nie znaleziono rozwiązań charakteryzujących się maksymalnymi przyspieszeniami pomostu mniejszymi niż $3.5 \mathrm{m/s^2}$ dla ściągu o wysokości mniejszej niż 2898 mm. Dodatkowo można stwierdzić, że nie znaleziono żadnych dopuszczalnych rozwiązań optymalnych w sensie Pareto dla wysokości ściągu mniejszej niż 1295 mm i średnicy wieszaków mniejszej niż 45 mm. Zgodnie ze wcześniejszymi spostrzeżeniami to wysokość ściągu w głównej mierze wpływa na wartość przyspieszeń maksymalnych. 
+
+
+\begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/proste_200/proste_200_VAR_ISO.pdf}}
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/proste_200/proste_200_VAR_XY.pdf}}\\
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_VAR_YZ.pdf}}
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_VAR_XZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_200/proste_200_VAR_ISO.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_VAR_XY.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_VAR_YZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_VAR_XZ.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 200 km/h}
 	\label{fig:wk2_opti_proste_200_var_dom}
@@ -911,140 +904,161 @@ Rezultaty dla wariantu modelu przęsła z wieszkami prostymi i z dopuszczalną p
 
 
 
-
+\pagebreak[4]
 \subsection{Wieszaki Proste - prędkość maksymalna 300 km/h}
-\begin{figure}[H]
+
+Rezultaty dla wariantu modelu przęsła z wieszkami prostymi i z dopuszczalną prędkością maksymalną 300 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_proste_300_all} - \ref{fig:wk2_opti_proste_300_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5 \mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_proste_300_all}). Niemniej nie znaleziono rozwiązania, które gwarantowałoby spełnienie kryterium bezpieczeństwa przy minimalnym wykorzystaniu wytrzymałości materiału łuku i ściągu na poziomie większym niż 50\% (rys. \ref{fig:wk2_opti_proste_300_allc}). Przy braku ograniczenia minimalnym wytężeniem przekroju, zakres wartości przybliżenia Frontu Pareto wynosi dla masy $f_1 \in\,<107.40,168.45>$, a dla przyspieszeń $f_2 \in\,<2.92,17.76>$. Maksymalne otrzymane przyspieszenia są niemal 2 razy większe niż w przypadku wyników uzyskanych dla pozostałych wariantów z wieszkami prostymi. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5\;\mathrm{m/s^2}$ wynosi $f_1 = 132.0$ t. Wynik ten uzyskano dla zestawu zmiennych projektowych: $h_1 = 150\;\mathrm{mm}$, $h_2 = 4184\;\mathrm{mm}$, i $d_1 = 47\;\mathrm{mm}$. Podobnie jak w wariantach 160 i 200 km/h widoczne są podzbiory wyników o zbliżonych wartościach przyspieszeń maksymalnych (rys. \ref{fig:wk2_opti_proste_300_variables}). 
+
+\begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/proste_300/proste_300_0.0.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_300/proste_300_0.3.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_300/proste_300_0.5.pdf}}
+	\subfloat[$min_{eff}=0\%$ ]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/proste_300/proste_300_0.0.pdf}}
+	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_300/proste_300_0.3.pdf}}
+	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_300/proste_300_0.5.pdf}, \label{fig:wk2_opti_proste_300_allc}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 300 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki proste, maksymalna prędkość 300 km/h}
 	\label{fig:wk2_opti_proste_300_all}
 \end{figure}
 
-\begin{figure}[H]
+Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projekowymi (rys. \ref{fig:wk2_opti_proste_300_variables}). Podobnie jak w przypadku prędkości 160 i 200 km/h wskazuje, że zmienność maksymalnych przyspieszeń jest związana głównie ze zmianą wysokością ściągu, chociaż relacja ta wydaje się być miejscami zaburzona. Wysokość łuku wpływa głównie na przyrost masy konstrukcji i w niewielkim stopniu na przyspieszenia maksymalne. Średnica wieszaków wydaje się nie decydować o zmienności żadnej z funkcji celu w sposób istotny. Na taki charakter zależności wskazują również rysunek \ref{fig:wk2_opti_proste_300_vars_all} i wyznaczone miary korelacji (tab. \ref{tab: correlation_proste_300}). Na rysunku widać wyraźne, skokowe pomniejszenie maksymalnych przyspieszeń wraz ze wzrostem wysokości ściągu. Kwadrat współczynnika semikorelacji wkazuje na duży wpływ ściągu na zmienność maksymalnych przyspieszeń ($sr^2=46\%$) i brak związku zmiany wysokości łuku i średnicy wieszaków (odpowiednio $sr^2\approx 0\%$ i $sr^2\approx 0\%$). Potwierdza to również zestawienie maksymalnych przyspieszeń w funkcji zmiennych projektowych dla Frontu Pareto (rys. \ref{fig:wk2_opti_proste_200_var_2d}). 
+
+\begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/proste_300/proste_300_sciag.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_300/proste_300_luk.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_300/proste_300_wieszak.pdf}}
+	\subfloat{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/proste_300/proste_300_sciag.pdf}}
+	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_300/proste_300_luk.pdf}}
+	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_300/proste_300_wieszak.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 200 km/h}
 	\label{fig:wk2_opti_proste_300_variables}
 \end{figure}
-\begin{figure}[H]
+\begin{figure}[hbt!]
 	\centering
-	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/proste_300/proste_300_VAR_ISO_ALL.pdf}
+	\includegraphics[trim=8 8 5 23, clip]{WK2/opti/proste_300/proste_300_VAR_ISO_ALL.pdf}
 	\captionsetup{justification=centering}
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego }
 	\label{fig:wk2_opti_proste_300_vars_all}
 \end{figure}
-\begin{figure}[H]
+
+\begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/proste_300/proste_300_VAR_ISO.pdf}}
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/proste_300/proste_300_VAR_XY.pdf}}\\
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_VAR_YZ.pdf}}
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_VAR_XZ.pdf}}
+	\subfloat{\includegraphics[trim=5 5 5 5, clip]{WK2/opti/proste_300/proste_300_var_sciag.pdf}}
+	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_300/proste_300_var_luk.pdf}}
+	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_300/proste_300_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 300 km/h}
-	\label{fig:wk2_opti_proste_300_var_dom}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\subfloat[]{\includegraphics[trim=5 5 5 5, clip]{WK2/opti/proste_300/proste_300_var_sciag.pdf}}
-	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_300/proste_300_var_luk.pdf}}
-	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_300/proste_300_var_wieszak.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Zależność między zmiennymi projektowymi i maksymalnymi przyspieszeniami przęsła przybliżenia Frontu Pareto dla wariantu z wieszakami prostymi przy przejeździe z maksymalną prędkością 300 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności dla poszczególnych zmiennych projektowych: wieszaki proste, prędkość maksymalna 300 km/h}
 	\label{fig:wk2_opti_proste_300_var_2d}
 \end{figure}
 
-\begin{table}[]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla danych z optymalizacji wariantu z wieszakami prostymi i prędkością maksymalną 300 km/h}
+\begin{table}[hbt!]
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki proste, prędkość maksymalna 300 km/h}
 	\centering
 	\footnotesize
 	\begin{tabular}{@{}lcccc@{}}
 		\toprule
 		& Symbol     & \begin{tabular}[c]{@{}c@{}}Ściąg\\ $h_2 \sim a_{max}$\end{tabular} & \begin{tabular}[c]{@{}c@{}}Łuk\\ $h_1 \sim a_{max}$\end{tabular} & \begin{tabular}[c]{@{}c@{}}Wieszaki\\ $d_1 \sim a_{max}$\end{tabular} \\ \midrule
-Kwadrat wsp. korelacji zerowej    & $r^2$      & $0.9159$  & $0.3240$   & $0.4319$  \\
-Wsp. korelacji stopnia zerowego   & $r$        & $-0.9570$  & $-0.5692$ & $-0.6572$ \\
-Kwadrat wsp. korelacji cząstkowej & $\rho r^2$ & $0.8496$  & $0.0000$  & $0.0000$       \\
-Wsp. korelacji cząstkowej         & $\rho r$   & $-0.9217$ & $0.0058$  & $-0.0043$ \\
-Kwadrat wsp. semikorelacji        & $sr^2$     & $0.4750$   & $0.0000$  & $0.0000$       \\
-Wsp. semikorelacji                & $sr$       & $-0.6892$ & $0.0017$  & $-0.0012$ \\ \bottomrule
+		Kwadrat wsp. korelacji zerowej    & $r^2$      & $0.9159$  & $0.3240$   & $0.4319$  \\
+		Wsp. korelacji stopnia zerowego   & $r$        & $-0.9570$  & $-0.5692$ & $-0.6572$ \\
+		Kwadrat wsp. korelacji cząstkowej & $\rho r^2$ & $0.8496$  & $0.0000$  & $0.0000$       \\
+		Wsp. korelacji cząstkowej         & $\rho r$   & $-0.9217$ & $0.0058$  & $-0.0043$ \\
+		Kwadrat wsp. semikorelacji        & $sr^2$     & $0.4750$   & $0.0000$  & $0.0000$       \\
+		Wsp. semikorelacji                & $sr$       & $-0.6892$ & $0.0017$  & $-0.0012$ \\ \bottomrule
 	\end{tabular}
 	\label{tab: correlation_proste_300}
 \end{table}
 
+Na rysunku \ref{fig:wk2_opti_proste_300_var_dom} zaprezentowano rozwiązania Frontu Pareto w dziedzinie zmiennych projektowych. Na podstawie przedstawionych rezultatów widać, że nie znaleziono rozwiązań o maksymalncyh przyspieszeniach pomostu mniejszych niż $3.5\;\mathrm{m/s^2}$ dla ściągu o wysokości mniejszej niż 4183 mm. Wynik ten jest bardzo bliski narzuconej górnej granicy wysokości ściągu w procesie optymalizacji. Dodatkowo można stwierdzić, że nie znaleziono żadnych dopuszczalnych rozwiązań optymalnych w sensie Pareto dla wysokości ściągu mniejszej niż 1302 mm i średnicy wieszaków mniejszej niż 44 mm. Podobnie jak przy pozostałych prędkościach to wysokość ściągu w głównej mierze wpływa na wartość przyspieszeń maksymalnych.
 
-
-
-
-\subsection{Wieszaki Ukośne - prędkość maksymalna 160 km/h}
-\begin{figure}[H]
+\begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/niels_160/niels_160_0.0.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_160/niels_160_0.3.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_160/niels_160_0.5.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_300/proste_300_VAR_ISO.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_VAR_XY.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_VAR_YZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_VAR_XZ.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami ukośnymi przy przejeździe z maksymalną prędkością 160 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 300 km/h}
+	\label{fig:wk2_opti_proste_300_var_dom}
+\end{figure}
+
+
+
+
+
+\pagebreak[4]
+\subsection{Wieszaki Ukośne - prędkość maksymalna 160 km/h}
+
+Rezultaty dla wariantu modelu przęsła z wieszkami ukośnymi i z dopuszczalną prędkością maksymalną 160 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_niels_160_all} - \ref{fig:wk2_opti_niels_160_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie w tym wariancie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5 \mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_niels_160_all}). Dla każdego z progów minimalnego wytężenia elementów konstrukcji znaleziono rozwiązania dopuszczalne. Przy braku ograniczenia minimalnym wytężeniem przekroju, zakres wartości przybliżenia Frontu Pareto wynosi dla masy $f_1 \in\,<106.0,193.3>$, a dla przyspieszeń $f_2 \in\,<0.978,3.62>$. Niemal wszystkie rozwiązania mieszczące się w froncie Pareto pozawalają na zachowanie kryterium bezpieczeństwa przyspieszeń pomostu. Co więcej, dotyczy to w zasadzie wszystkich dopuszczalnych rozwiązań. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5 \mathrm{m/s^2}$ wynosi $f_1 = 106.08$ t. Wynik ten uzyskano dla zestawu zmiennych projektowych: $h_1 = 150.5\;\mathrm{mm}$, $h_2 = 1000.0\;\mathrm{mm}$, i $d_1 = 48\;\mathrm{mm}$.
+
+\begin{figure}[hbt!]
+	\centering
+	\subfloat[$min_{eff}=0\%$ ]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/niels_160/niels_160_0.0.pdf}}
+	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_160/niels_160_0.3.pdf}}
+	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_160/niels_160_0.5.pdf}}
+	\captionsetup{justification=centering}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki ukośne, maksymalna prędkość 160 km/h}
 	\label{fig:wk2_opti_niels_160_all}
 \end{figure}
 
-\begin{figure}[H]
+Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projekowymi (rys. \ref{fig:wk2_opti_niels_160_variables}). Na podstawie map można stwierdzić że wysokość ściągu w zadanych granicach nie wpływa drastycznie na zmianę maksymalnych przyspieszeń. Przyrost wysokości łuku wpływa istotnie na zmianę masy konstrukcji i w niewielkim stopniu na przyspieszenia maksymalne. O zmienności zmienności przyspieszeń maksymalnych w obliczonym zakresie zdaje się decydować średnica wieszaków. Na taki charakter zależności wskazują również rysunek \ref{fig:wk2_opti_niels_160_vars_all} i wyznaczone miary korelacji (tab. \ref{tab: correlation_ukosne_160}). Na rysunku widać przyrost przyspieszeń wraz ze zmniejszenim średnicy wieszka dla bliskich minimalnym wysokościach łuku i ściągu. Kwadrat współczynnika semikorelacji wkazuje na znaczacy wpływ średnicy wieszka na zmienność maksymalnych przyspieszeń ($sr^2=31\%$) i brak związku zmiany wysokości ściągu i łuu (odpowiednio $sr^2 = 1.6\%$ i $sr^2=2.6 \%$). Potwierdza to również zestawienie maksymalnych przyspieszeń w funkcji zmiennych projektowych dla Frontu Pareto (rys. \ref{fig:wk2_opti_niels_160_var_2d}). W przedziale średnicy wieszaka od wartości minimalnej do ok 100 mm następuje wyraźny przyrost przyspieszeń wraz ze spadkiem średnicy wieszaka. Podobnej zależności nie sposób znaleźć dla pozostałych zmiennych. 
+
+
+
+
+\begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/niels_160/niels_160_sciag.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/niels_160/niels_160_luk.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/niels_160/niels_160_wieszak.pdf}}
+	\subfloat{\includegraphics[trim=8  5 5 5, clip]{WK2/opti/niels_160/niels_160_sciag.pdf}}
+	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/niels_160/niels_160_luk.pdf}}
+	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/niels_160/niels_160_wieszak.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami ukosnymi przy przejeździe z maksymalną prędkością 160 km/h}
 	\label{fig:wk2_opti_niels_160_variables}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[hbt!]
 	\centering
 	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pdf}
 	\captionsetup{justification=centering}
 	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego }
 	\label{fig:wk2_opti_niels_160_vars_all}
 \end{figure}
-\begin{figure}[H]
+
+\begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=5 0 5 5, clip]{WK2/opti/niels_160/niels_160_VAR_ISO.pdf}}
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 17 5 20, clip]{WK2/opti/niels_160/niels_160_VAR_XY.pdf}}\\
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_VAR_YZ.pdf}}
-	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_VAR_XZ.pdf}}
+	\subfloat{\includegraphics[trim=5 5 5 5, clip]{WK2/opti/niels_160/niels_160_var_sciag.pdf}}
+	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/niels_160/niels_160_var_luk.pdf}}
+	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/niels_160/niels_160_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 300 km/h}
-	\label{fig:wk2_opti_niels_160_var_dom}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\subfloat[]{\includegraphics[trim=5 5 5 5, clip]{WK2/opti/niels_160/niels_160_var_sciag.pdf}}
-	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/niels_160/niels_160_var_luk.pdf}}
-	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/niels_160/niels_160_var_wieszak.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Zależność między zmiennymi projektowymi i maksymalnymi przyspieszeniami przęsła przybliżenia Frontu Pareto dla wariantu z wieszakami ukośnymi przy przejeździe z maksymalną prędkością 160 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności dla poszczególnych zmiennych projektowych: wieszaki ukośne, prędkość maksymalna 160 km/h}
 	\label{fig:wk2_opti_niels_160_var_2d}
 \end{figure}
 
-\begin{table}[]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla danych z optymalizacji wariantu z wieszakami ukośnymi i prędkością maksymalną 160 km/h}
+\begin{table}[hbt!]
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki ukośne, prędkość maksymalna 160 km/h}
 	\centering
 	\footnotesize
 	\begin{tabular}{@{}lcccc@{}}
 		\toprule
 		& Symbol     & \begin{tabular}[c]{@{}c@{}}Ściąg\\ $h_2 \sim a_{max}$\end{tabular} & \begin{tabular}[c]{@{}c@{}}Łuk\\ $h_1 \sim a_{max}$\end{tabular} & \begin{tabular}[c]{@{}c@{}}Wieszaki\\ $d_1 \sim a_{max}$\end{tabular} \\ \midrule
-Kwadrat wsp. korelacji zerowej    & $r^2$      & $0.0690$   & $0.5095$  & $0.8089$  \\
-Wsp. korelacji stopnia zerowego   & $r$        & $-0.2627$ & $-0.7138$ & $-0.8994$ \\
-Kwadrat wsp. korelacji cząstkowej & $\rho r^2$ & $0.0986$  & $0.1485$  & $0.6730$   \\
-Wsp. korelacji cząstkowej         & $\rho r$   & $-0.3140$  & $-0.3853$ & $-0.8203$ \\
-Kwadrat wsp. semikorelacji        & $sr^2$     & $0.0163$  & $0.0259$  & $0.3059$  \\
-Wsp. semikorelacji                & $sr$       & $-0.1275$ & $-0.161$  & $-0.5531$ \\ \bottomrule
+		Kwadrat wsp. korelacji zerowej    & $r^2$      & $0.0690$   & $0.5095$  & $0.8089$  \\
+		Wsp. korelacji stopnia zerowego   & $r$        & $-0.2627$ & $-0.7138$ & $-0.8994$ \\
+		Kwadrat wsp. korelacji cząstkowej & $\rho r^2$ & $0.0986$  & $0.1485$  & $0.6730$   \\
+		Wsp. korelacji cząstkowej         & $\rho r$   & $-0.3140$  & $-0.3853$ & $-0.8203$ \\
+		Kwadrat wsp. semikorelacji        & $sr^2$     & $0.0163$  & $0.0259$  & $0.3059$  \\
+		Wsp. semikorelacji                & $sr$       & $-0.1275$ & $-0.161$  & $-0.5531$ \\ \bottomrule
 	\end{tabular}
 	\label{tab: correlation_ukosne_160}
 \end{table}
 
+Na rysunku \ref{fig:wk2_opti_niels_160_var_dom} zaprezentowano rozwiązania Frontu Pareto w dziedzinie zmiennych projektowych. Z zaprezentowanych rzutów na płaszczyzny osi można odczytać, że niezależnie od dobranych zmiennych projektowych niemal nie wystąpiły przypadki o przyspieszeniach maksymalnych większych niż 3.5 $\mathrm{m/s^2}$. Dodatkowo można stwierdzić, że przyjęcie średnicy wieszaka większej niż 125 mm niemal zawsze nie jest optymalne w sensie Pareto. Wysokość ściągu w większości rozwiązań optymalnych jest rozpatrywana jako bliska minimalnej, a algorytm optymalizacyjny wskazuje, że to zmienność wysokości łuku jest wydajniejsza w obniżaniu maksymalnych przyspieszeń pomostu. Należy jednak zaznaczyć że ta zmiana jest bardzo mała. 
+
+\begin{figure}[hbt!]
+	\centering
+	\subfloat{\fbox{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_160/niels_160_VAR_ISO.pdf}}}
+	      \subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_VAR_XY.pdf}}\\
+	\subfloat{\fbox{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_VAR_YZ.pdf}}}
+	   	  \subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_VAR_XZ.pdf}}
+	\captionsetup{justification=centering}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 300 km/h}
+	\label{fig:wk2_opti_niels_160_var_dom}
+\end{figure}
 
 
 
@@ -1053,14 +1067,16 @@ Wsp. semikorelacji                & $sr$       & $-0.1275$ & $-0.161$  & $-0.553
 
 
 
+
+\pagebreak[4]
 \subsection{Wieszaki Ukośne - prędkość maksymalna 200 km/h}
 \begin{figure}[H]
 	\centering
-	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/niels_200/niels_200_0.0.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_200/niels_200_0.3.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_200/niels_200_0.5.pdf}}
+	\subfloat[$min_{eff}=0\%$ ]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/niels_200/niels_200_0.0.pdf}}
+	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_200/niels_200_0.3.pdf}}
+	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_200/niels_200_0.5.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami ukośnymi przy przejeździe z maksymalną prędkością 200 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki ukośne, maksymalna prędkość 200 km/h}
 	\label{fig:wk2_opti_niels_200_all}
 \end{figure}
 
@@ -1098,11 +1114,11 @@ Wsp. semikorelacji                & $sr$       & $-0.1275$ & $-0.161$  & $-0.553
 	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/niels_200/niels_200_var_luk.pdf}}
 	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/niels_200/niels_200_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Zależność między zmiennymi projektowymi i maksymalnymi przyspieszeniami przęsła przybliżenia Frontu Pareto dla wariantu z wieszakami ukośnymi przy przejeździe z maksymalną prędkością 200 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności dla poszczególnych zmiennych projektowych: wieszaki ukośne, prędkość maksymalna 200 km/h}
 	\label{fig:wk2_opti_niels_200_var_2d}
 \end{figure}
 \begin{table}[]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla danych z optymalizacji wariantu z wieszakami ukośnymi i prędkością maksymalną 200 km/h}
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki ukośne, prędkość maksymalna 200 km/h}
 	\centering
 	\footnotesize
 	\begin{tabular}{@{}lcccc@{}}
@@ -1124,11 +1140,11 @@ Wsp. semikorelacji                & $sr$       & $0.0106$  & $0.0970$   & $-0.41
 \subsection{Wieszaki Ukośne - prędkość maksymalna 300 km/h}
 \begin{figure}[H]
 	\centering
-	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/niels_300/niels_300_0.0.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_300/niels_300_0.3.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_300/niels_300_0.5.pdf}}
+	\subfloat[$min_{eff}=0\%$ ]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/niels_300/niels_300_0.0.pdf}}
+	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_300/niels_300_0.3.pdf}}
+	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/niels_300/niels_300_0.5.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami ukośnymi przy przejeździe z maksymalną prędkością 300 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki ukośne, maksymalna prędkość 300 km/h}
 	\label{fig:wk2_opti_niels_300_all}
 \end{figure}
 
@@ -1165,11 +1181,11 @@ Wsp. semikorelacji                & $sr$       & $0.0106$  & $0.0970$   & $-0.41
 	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/niels_300/niels_300_var_luk.pdf}}
 	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/niels_300/niels_300_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Zależność między zmiennymi projektowymi i maksymalnymi przyspieszeniami przęsła przybliżenia Frontu Pareto dla wariantu z wieszakami ukośnymi przy przejeździe z maksymalną prędkością 300 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności dla poszczególnych zmiennych projektowych: wieszaki ukośne, prędkość maksymalna 300 km/h}
 	\label{fig:wk2_opti_niels_300_var_2d}
 \end{figure}
 \begin{table}[]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla danych z optymalizacji wariantu z wieszakami ukośnymi i prędkością maksymalną 300 km/h}
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki ukośne, prędkość maksymalna 300 km/h}
 	\centering
 	\footnotesize
 	\begin{tabular}{@{}lcccc@{}}
@@ -1192,11 +1208,11 @@ Wsp. semikorelacji                & $sr$       & $-0.6334$ & $-0.3417$ & $-0.360
 \subsection{Wieszaki Network - prędkość maksymalna 160 km/h}
 \begin{figure}[H]
 	\centering
-	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/netw_160/netw_160_0.0.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_160/netw_160_0.3.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_160/netw_160_0.5.pdf}}
+	\subfloat[$min_{eff}=0\%$ ]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/netw_160/netw_160_0.0.pdf}}
+	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_160/netw_160_0.3.pdf}}
+	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_160/netw_160_0.5.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami typu network przy przejeździe z maksymalną prędkością 160 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki Network, maksymalna prędkość 160 km/h}
 	\label{fig:wk2_opti_netw_160_all}
 \end{figure}
 
@@ -1233,11 +1249,11 @@ Wsp. semikorelacji                & $sr$       & $-0.6334$ & $-0.3417$ & $-0.360
 	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/netw_160/netw_160_var_luk.pdf}}
 	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/netw_160/netw_160_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Zależność między zmiennymi projektowymi i maksymalnymi przyspieszeniami przęsła przybliżenia Frontu Pareto dla wariantu z wieszakami Network przy przejeździe z maksymalną prędkością 160 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności dla poszczególnych zmiennych projektowych: wieszaki Network, prędkość maksymalna 160 km/h}
 	\label{fig:wk2_opti_netw_160_var_2d}
 \end{figure}
 \begin{table}[]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla danych z optymalizacji wariantu z wieszakami Network i prędkością maksymalną 160 km/h}
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki Network, prędkość maksymalna 160 km/h}
 	\centering
 	\footnotesize
 	\begin{tabular}{@{}lcccc@{}}
@@ -1259,11 +1275,11 @@ Wsp. semikorelacji                & $sr$       & $-0.0081$ & $-0.5413$ & $-0.334
 \subsection{Wieszaki Network - prędkość maksymalna 200 km/h}
 \begin{figure}[H]
 	\centering
-	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/netw_200/netw_200_0.0.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_200/netw_200_0.3.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_200/netw_200_0.5.pdf}}
+	\subfloat[$min_{eff}=0\%$ ]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/netw_200/netw_200_0.0.pdf}}
+	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_200/netw_200_0.3.pdf}}
+	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_200/netw_200_0.5.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami typu network przy przejeździe z maksymalną prędkością 200 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki Network, maksymalna prędkość 200 km/h}
 	\label{fig:wk2_opti_netw_200_all}
 \end{figure}
 
@@ -1301,11 +1317,11 @@ Wsp. semikorelacji                & $sr$       & $-0.0081$ & $-0.5413$ & $-0.334
 	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/netw_200/netw_200_var_luk.pdf}}
 	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/netw_200/netw_200_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Zależność między zmiennymi projektowymi i maksymalnymi przyspieszeniami przęsła przybliżenia Frontu Pareto dla wariantu z wieszakami Network przy przejeździe z maksymalną prędkością 200 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności dla poszczególnych zmiennych projektowych: wieszaki Network, prędkość maksymalna 200 km/h}
 	\label{fig:wk2_opti_netw_200_var_2d}
 \end{figure}
 \begin{table}[]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla danych z optymalizacji wariantu z wieszakami Network i prędkością maksymalną 200 km/h}
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki Network, prędkość maksymalna 200 km/h}
 	\centering
 	\footnotesize
 	\begin{tabular}{@{}lcccc@{}}
@@ -1328,11 +1344,11 @@ Wsp. semikorelacji                & $sr$       & $-0.2673$ & $-0.3318$ & $-0.295
 
 \begin{figure}[H]
 	\centering
-	\subfloat[]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/netw_300/netw_300_0.0.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_300/netw_300_0.3.pdf}}
-	\subfloat[]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_300/netw_300_0.5.pdf}}
+	\subfloat[$min_{eff}=0\%$ ]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/netw_300/netw_300_0.0.pdf}}
+	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_300/netw_300_0.3.pdf}}
+	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/netw_300/netw_300_0.5.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami typu network przy przejeździe z maksymalną prędkością 300 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki Network, maksymalna prędkość 300 km/h}
 	\label{fig:wk2_opti_netw_300_all}
 \end{figure}
 \begin{figure}[H]
@@ -1368,12 +1384,12 @@ Wsp. semikorelacji                & $sr$       & $-0.2673$ & $-0.3318$ & $-0.295
 	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/netw_300/netw_300_var_luk.pdf}}
 	\subfloat[]{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/netw_300/netw_300_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Zależność między zmiennymi projektowymi i maksymalnymi przyspieszeniami przęsła przybliżenia Frontu Pareto dla wariantu z wieszakami Network przy przejeździe z maksymalną prędkością 300 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności dla poszczególnych zmiennych projektowych: wieszaki Network, prędkość maksymalna 300 km/h}
 	\label{fig:wk2_opti_netw_300_var_2d}
 \end{figure}
 
 \begin{table}[]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla danych z optymalizacji wariantu z wieszakami Network i prędkością maksymalną 300 km/h}
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki Network, prędkość maksymalna 300 km/h}
 	\centering
 	\footnotesize
 	\begin{tabular}{@{}lcccc@{}}
@@ -1409,10 +1425,9 @@ Wsp. semikorelacji                & $sr$       & $-0.3384$ & $-0.651$  & $-0.290
 	\label{}
 \end{figure}
 
+\subsection{Podsumowanie rezultatów optymalizacji}
 
-
-
-
+Wyznaczone rezultaty nie są losowe tylko z algorytmu optymalizacji i nie gwarantują równomierności wszystkich rozwiązań
 
 
 

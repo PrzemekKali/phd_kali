@@ -714,7 +714,7 @@ Optymalizację przeprowadzono ponownie za pomocą dostosowanego algorytmu MOPSO.
 \end{enumerate}
 
 Na rysunku \ref{fig:wk2_dynamic_algorithm} przedstawiono schemat blokowy algorytmu. Logami SOFiSTiK oraz Python oznaczono w jakim środowisku wykonywane są dane kroki oraz kierunek przepływu informacji lub współpracę obu środowisk.
-\begin{figure}[hbt!]
+\begin{figure}[p]
 	\centering
 	\includegraphics[]{/WK2/dynamic/algorithm_analiza_dynamiczna.pdf} 
 	\captionsetup{justification=centering}
@@ -724,7 +724,7 @@ Na rysunku \ref{fig:wk2_dynamic_algorithm} przedstawiono schemat blokowy algoryt
 
 \section{Rezultaty optymalizacji}
 
-Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s,f_a]$, trzech wariantów rozkładu wieszaków i trzech dozwolonych prędkości maksymalnych pociagu na linii co daje łącznie 9 odrebnych procesów optymalizacji. Dla każdego z nich zaprezentowano wyniki w postaci graficznej o powtarzalnej strukturze. 
+Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s,f_a]$, trzech wariantów rozkładu wieszaków i trzech dozwolonych prędkości maksymalnych pociagu na linii co daje łącznie 9 odrebnych procesów optymalizacji. Należy podkreslić, że uzyskane wyniki dotyczą jedynie wskazanych zakresów zmiennych projektowych. Przyjęte zakresy ograniczeń uznano za szersze niż stosowane zwykle w projektowaniu i z tego względu uznano je za miarodajne w ocenie globalnej rozwiązania projektowego. Niezależnie od tego zbiór rezultatów nie jest zupełnie losowy tylko wynika z pracy algorytmu optymalizacji. Warianty zmiennych projektowych uznane za wyraźnie gorsze w obszarze funkcji celu są stanowczo mniej zagęszczone w obszarze zmiennych. Stąd statystyczne miary dotyczące całego zbioru rezultatów powinny być stosowane ostrożnie. Z tego względu większość z interpretacji ograniczono jedynie do wyznaczonego Frontu Pareto, a nie całego zbioru rozwiązań. Uwzględniając powyższe uwagi dla każdego z wariantów zaprezentowano wyniki o powtarzalnej strukturze. 
 
 Jako pierwszy zaprezentowany jest zbiór wszystkich rozwiązań w dziedzinie funkcji celu $\vect{F}$ dla danego wariantu wieszaków i prędkości maksymalnej (na przykład rys. \ref{fig:wk2_opti_proste_160_all}). Czerwonym kolorem zaznaczono uzyskane przybliżenie Frontu Pareto wyznaczonego dla ostatecznego zbioru rozwiązań z użyciem luźniejszego kryterium $\epsilon$-dominacji. Tolerancję dla poszczególnych funkcji celu przyjęto o wartościach [0.5 t, 0.1 $\mathrm{m/s^2}$]. Zielony kolor oznacza wszystkie dopuszczalne rozwiązania (OK), to znaczy takie dla których spełnione są ograniczenia SGN i SGU zebrane w wektorze $\vect{C}$. Dodatkowo wykres podzielono na trzy warianty a-c, wynikające z dodania ograniczenia również na minimalny stopień wytężenia łuku oraz ściągu. Każdy z wariantów wykresu wynika z innej wartości progowej wytężenia minimalnego: (a) 0.0, (b) 0.3 oraz (c) 0.5. Punkty niebieskie (NOK-H) niespełniają ograniczeń z góry, a pomarańczowe (NOK-L) niespełniają wymogu minimalnego wytężenia elementów konstrukcyjnych - z dołu. Czarną przerywaną liniową zaznaczono przyspieszenie $3.5\,\mathrm{m/s^2}$, czyli wartość dopuszczalną przyspieszeń pomostu wg \cite{PKNc}. Wyświetlanie wyników ograniczono do punków w obszarze maksymalnych przyspieszeń do  $15\,\mathrm{m/s^2}$ i masy konstrukcji do 200 t.
 
@@ -732,9 +732,12 @@ Druga grafika określa wartości zmiennych projektowych zaprezentowanych w przes
 
 Kolejny rysunek (na przykład rys. \ref{fig:wk2_opti_proste_160_vars_all}) obrazuje zbiór wszystkich rozwiązań w przestrzeni zmiennych projektowych. Kolor punktu oznacza maksymalne przyspieszenia uzyskane w danym rozwiązaniu. Symbolem trójkąta oznaczono rozwiązania charakteryzujące się maksymalnymi przyspieszeniami mniejszymi niż 3.5 $\mathrm{m/s^2}$. Rysunek ma za zadanie pokazać tendencję zmiany jednej z funkcji celu w obszarze zmiennych projektowych.
 
-Czwarta wizualizacja wyników pokazuje Zestaw Pareto czyli uzyskane przybliżenie Frontu Pareto w dziedzinie zmiennych projektowych (na przykład rys. \ref{fig:wk2_opti_proste_160_var_dom}). Kolorem punktu oznaczono maksymalne przyspieszenia. Rysunek pokazano w widoku aksonometrycznym (a) oraz trzech rzutach na poszczególne płaszczyzny (b-d). Punkty oznaczone trójkątem charakteryzują się maksymalnymi przyspieszeniami mniejszymi niż $3.5\,\mathrm{m/s^2}$.
 
-Piąty zestaw prezentuje zależność między wartością zmiennej projektowej rozwiązania, a uzyskanymi maksymalnymi wartościami przyspieszeń rozwiązań należących do Frontu Pareto. Dla prezentowanych zależności wyznaczono wartości funkcji korelacji \teng{correlation}, korelacji cząstkowej \teng{partial correlation} i korelacji semicząstkowej (częściowej) \teng{semipartial correlation} \parencite{Tabachnick}. Wyniki korelacji zestawiono w tabeli (na przykład tab. \ref{tab: correlation_proste_160}). Do wyznaczania współczynników użyto metody Pearsona. Oceniając wyznaczone miary jakości dopasowania należy zdawać sobie sprawę z niespełnienia wszystkich założeń wymaganych przy obliczaniu korelacji Pearsona\footnote{Według \cite{Warner2012} następujące założenia muszą być spełnione aby współczynnik korelacji Pearsona był miarodajny: 1) każda rejestracja wartości zmiennych i wyników nie powinna wpływać na zarejestrowaną wartość innych zmiennych i wyników, 2) zmierzone zmienne powinny być określone ilościowo i charakteryzować się rozkładem normalnym, 3) zmienne powinny być liniowo zależne, 4) zmienne powinny mieć wariancję jednorodną w całym zakresie zmienności}. Z tego względu jego wskazania zostały potraktowane jedynie jako wskazówka do poszukiwania zależności pomiędzy zmiennymi i należy je zawsze rozpoatrywać z wykresami zależności przyspieszeń od zmiennych \parencite{Vargha2013}. Przy spełnieniu wszystkich założeń współczynnik korelacji liniowej $r^2$ wskazuje natężenie współzależności zmiennych \parencite{Czaja2000}. Z kolei współczynnik częściowej korelacji $\rho r^2$, oraz współczynnik semikorelacji $sr^2$ wskazują natężenie współzależności dwóch zmiennych przy uwzględnieniu (wyeliminowaniu) wpływu pozostałych. Korelacja cząstkowa eliminuje wpływ pozostałych zmiennych niezależnych z rozpatrywanej zmiennej zależnej jak i niezależnej. Korelacja semicząstkowa eliminuje wpływ pozostałych zmiennych jedynie ze zmiennej niezależnej. Z tego powodu to semicząstkowa korelacja obrazuje indywidualny wkład poszczególnych zmiennych niezależnych na wariancję zmiennej zależnej. \cite{Tabachnick} wskazuje, że to korelacja semiczastkowa jest lepszą niż cząstkowa miarą istotności wpływu danej zmiennej niezależnej na zmienną zależną.
+Czwarty zestaw prezentuje zależność między wartością zmiennej projektowej rozwiązania, a uzyskanymi maksymalnymi wartościami przyspieszeń rozwiązań należących do Frontu Pareto. Dla prezentowanych zależności wyznaczono wartości funkcji korelacji zerowej \teng{correlation}, korelacji cząstkowej \teng{partial correlation} i korelacji semicząstkowej (częściowej) \teng{semipartial correlation} \parencite{Tabachnick}. Wyniki korelacji zestawiono w tabeli (na przykład tab. \ref{tab: correlation_proste_160}). Do wyznaczania współczynników użyto metody Pearsona. Oceniając wyznaczone miary jakości dopasowania należy zdawać sobie sprawę ze spełnienia jedynie części założeń wymaganych przy obliczaniu korelacji Pearsona
+\footnote{Według \cite{Warner2012} następujące założenia muszą być spełnione aby współczynnik korelacji Pearsona był miarodajny: 1) każda rejestracja wartości zmiennych i wyników nie powinna wpływać na zarejestrowaną wartość innych zmiennych i wyników, 2) zmierzone zmienne powinny być określone ilościowo i charakteryzować się rozkładem normalnym, 3) zmienne powinny być liniowo zależne, 4) zmienne powinny mieć wariancję jednorodną w całym zakresie zmienności}.
+Z tego względu jego wskazania zostały potraktowane jedynie jako wskazówka do poszukiwania zależności pomiędzy zmiennymi i należy je zawsze rozpatrywać w parze z wykresami zależności przyspieszeń od zmiennych \parencite{Vargha2013}. W idealnych warunkach współczynnik korelacji liniowej $r^2$ wskazuje natężenie współzależności dwóch zmiennych \parencite{Czaja2000}. Z kolei współczynnik częściowej korelacji $\rho r^2$, oraz współczynnik semikorelacji $sr^2$ wskazują natężenie współzależności dwóch zmiennych przy uwzględnieniu (wyeliminowaniu) wpływu pozostałych. Korelacja cząstkowa eliminuje wpływ pozostałych zmiennych niezależnych z rozpatrywanej zmiennej zależnej jak i niezależnej. Korelacja semicząstkowa eliminuje wpływ pozostałych zmiennych jedynie ze zmiennej niezależnej. Z tego powodu to semicząstkowa korelacja obrazuje indywidualny wkład poszczególnych zmiennych niezależnych na wariancję zmiennej zależnej. \cite{Tabachnick} wskazuje, że to korelacja semiczastkowa jest lepszą niż cząstkowa miarą istotności wpływu danej zmiennej niezależnej na zmienną zależną.
+
+Piąta wizualizacja wyników pokazuje Zestaw Pareto czyli uzyskane przybliżenie Frontu Pareto w dziedzinie zmiennych projektowych (na przykład rys. \ref{fig:wk2_opti_proste_160_var_dom}). Kolorem punktu oznaczono maksymalne przyspieszenia. Rysunek pokazano w widoku aksonometrycznym (a) oraz trzech rzutach na poszczególne płaszczyzny (b-d). Punkty oznaczone trójkątem charakteryzują się maksymalnymi przyspieszeniami mniejszymi niż $3.5\,\mathrm{m/s^2}$.
 
 Dla każdego wariantu optymalizacji oceniono wyniki i sformułowano następujące konkluzje dotyczące rozwiązania:
 \begin{itemize}
@@ -1466,6 +1469,36 @@ Z zaprezentowanych rzutów na płaszczyzny osi (rys. \ref{fig:wk2_opti_netw_200_
 
 \subsection{Podsumowanie rezultatów optymalizacji}
 
+Wykonane analizy optymalizacyjne obiektu łukowego pozwaliły na zauważenie pewnych prawidłowości pomiędzy wymiarami elementów konstrukcyjnych, a zachowaniem dynamicznym obiektu. Skondensowane rezultaty dla 3 wariantów rozmieszczenia wieszaków, dla trzech różnych prędkości maksymalnych przejazdu przedstawiono w tabeli \ref{tab:summary_optimization}. W tabeli zebrano kilka cech charakteryzujących uzyskane w danym wariancie wyniki. Po pierwsze wskazano jaki jest minimalny stopień wykorzystania wytrzymałości elementów $\rho_{min}$, dla rozwiązań optymalnych przy spełnionym warunku maksymalnych przyspieszeń pomostu $a_{max}<3.5\;\mathrm{m/s^2}$. Po drugie dla każdego z wariantów określono przedziały wymiarów elementów, dla których uzyskano wyniki optymalne przy spełnieniu warunku $a_{max}<3.5\;\mathrm{m/s^2}$. W niektórych przypadkach wymiar nie był ograniczony w rozpatrywanym zakresie i wskazanie było niemożliwe. Po trzecie na podstawie analizy wizualnej rezultatów i wskazówek miar korelacji zasugerowano element, którego zmiana najbardziej wpływa na spadek lub wzrost przyspieszeń maksymalnych. Miary korelacji traktowano wyłącznie jako wskazówki i nie przywiązywano do nich kluczowej wagi ze względu na brak spełnienia wszystkich założeń. Pomimo to w większości przypadków wskazywały one te same zalezności co obserwacja wizualna. 
+
+\begin{table}[H]
+	\caption{Zestawienie wniosków z optymalizacji kolejowego przęsła łukowego ze względu na zachowanie dynamiczne}
+	\footnotesize
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{@{}ccccccc@{}}
+			\toprule
+			\multirow{3}{*}[-5pt]{\begin{tabular}[c]{@{}c@{}}Układ\\ wieszaków\end{tabular}} &
+			\multirow{3}{*}[-5pt]{Prędkość} &
+			\multirow{3}{*}[-5pt]{\begin{tabular}[c]{@{}c@{}}Minimalny stopień \\ wykorzystania przekroju \\ $a_{max}<3.5\;[m/s^2]$\end{tabular}} &
+			\multicolumn{3}{c}{Wymiary elementów dla rozwiązań optymalnych} &
+			\multirow{3}{*}[-5pt]{\begin{tabular}[c]{@{}c@{}}Element \\ decydujący\end{tabular}} \\ \cmidrule(lr){4-6}
+			&     &                        & Łuk                  & Ściąg                & Wieszaki             &              \\ \cmidrule(lr){4-6}
+			&     &                        & $h_1\;\mathrm{[mm]}$ & $h_2\;\mathrm{[mm]}$ & $d_1\;\mathrm{[mm]}$ &              \\ \midrule 
+			Proste  & 160 & $30\%<\rho_{min}<50\%$ & -                    & $h_2>2385$           & $d_1>44$             & Ściąg        \\
+			Proste  & 200 & $30\%<\rho_{min}<50\%$ & -                    & $h_2>2898$           & $d_1>45$             & Ściąg        \\
+			Proste  & 300 & $30\%<\rho_{min}<50\%$ & -                    & $h_2>4183$           & $d_1>44$             & Ściąg        \\
+			Ukośne  & 160 & $50\%<\rho_{min}$      & -                    & $1000<h_2<1500$      & $44<d_1<125$         & Łuk/Wieszaki \\
+			Ukośne  & 200 & $50\%<\rho_{min}$      & -                    & -                    & $44<d_1<150$         & Łuk/Ściag    \\
+			Ukośne  & 300 & $30\%<\rho_{min}<50\%$ & $h_1>1000$           & $1000<h_2<2000$      & $75<d_1<125$         & Łuk          \\
+			Network & 160 & $50\%<\rho_{min}$      & -                    & $1000<h_2<2000$      & $44<d_1<73$          & Łuk          \\
+			Network & 200 & $50\%<\rho_{min}$      & -                    & -                    & $45<d_1<110$         & Łuk/Ściag    \\
+			Network & 300 & $30\%<\rho_{min}<50\%$ & $h_1>1500$           & $1000<h_2<2000$      & $44<d_1<75$          & Łuk          \\ \bottomrule
+	\end{tabular}}
+	\label{tab:summary_optimization}
+\end{table}
+
+
 \begin{figure}[H]
 	\centering
 	\subfloat[Proste, $v_{max} = 160$ km/h]{\includegraphics[width=0.33\linewidth,page=4]{WK2/opti/wyniki_35_wszystkie.pdf}}
@@ -1483,32 +1516,7 @@ Z zaprezentowanych rzutów na płaszczyzny osi (rys. \ref{fig:wk2_opti_netw_200_
 \end{figure}
 
 
-\begin{table}[H]
-	\caption{Zestawienie wniosków z optymalizacji kolejowego przęsła łukowego ze względu na zachowanie dynamiczne}
-	\footnotesize
-	\centering
-	\resizebox{\textwidth}{!}{%
-\begin{tabular}{@{}ccccccc@{}}
-	\toprule
-	\multirow{3}{*}[-5pt]{\begin{tabular}[c]{@{}c@{}}Układ\\ wieszaków\end{tabular}} &
-	\multirow{3}{*}[-5pt]{Prędkość} &
-	\multirow{3}{*}[-5pt]{\begin{tabular}[c]{@{}c@{}}Minimalny stopień \\ wykorzystania przekroju \\ $a_{max}<3.5\;[m/s^2]$\end{tabular}} &
-	\multicolumn{3}{c}{Wymiary elementów dla rozwiązań dopuszczalnych} &
-	\multirow{3}{*}[-5pt]{\begin{tabular}[c]{@{}c@{}}Element \\ decydujący\end{tabular}} \\ \cmidrule(lr){4-6}
-	&     &                        & Łuk                  & Ściąg                & Wieszaki             &              \\ \cmidrule(lr){4-6}
-	&     &                        & $h_1\;\mathrm{[mm]}$ & $h_2\;\mathrm{[mm]}$ & $d_1\;\mathrm{[mm]}$ &              \\ \midrule 
-	Proste  & 160 & $30\%<\rho_{min}<50\%$ & -                    & $h_2>2385$           & $d_1>44$             & Ściąg        \\
-	Proste  & 200 & $30\%<\rho_{min}<50\%$ & -                    & $h_2>2898$           & $d_1>45$             & Ściąg        \\
-	Proste  & 300 & $30\%<\rho_{min}<50\%$ & -                    & $h_2>4183$           & $d_1>44$             & Ściąg        \\
-	Ukośne  & 160 & $50\%<\rho_{min}$      & -                    & $1000<h_2<1500$      & $44<d_1<125$         & Łuk/Wieszaki \\
-	Ukośne  & 200 & $50\%<\rho_{min}$      & -                    & -                    & $44<d_1<150$         & Łuk/Ściag    \\
-	Ukośne  & 300 & $30\%<\rho_{min}<50\%$ & $h_1>1000$           & $1000<h_2<2000$      & $75<d_1<125$         & Łuk          \\
-	Network & 160 & $50\%<\rho_{min}$      & -                    & $1000<h_2<2000$      & $44<d_1<73$          & Łuk          \\
-	Network & 200 & $50\%<\rho_{min}$      & -                    & -                    & $45<d_1<110$         & Łuk/Ściag    \\
-	Network & 300 & $30\%<\rho_{min}<50\%$ & $h_1>1500$           & $1000<h_2<2000$      & $44<d_1<75$          & Łuk          \\ \bottomrule
-\end{tabular}}
-\label{tab:summary_optimization}
-\end{table}
+
 
 
 

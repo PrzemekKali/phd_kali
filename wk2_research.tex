@@ -735,7 +735,7 @@ Kolejny rysunek (na przykład rys. \ref{fig:wk2_opti_proste_160_vars_all}) obraz
 
 Czwarty zestaw prezentuje zależność między wartością zmiennej projektowej rozwiązania, a uzyskanymi maksymalnymi wartościami przyspieszeń rozwiązań należących do Frontu Pareto. Dla prezentowanych zależności wyznaczono wartości funkcji korelacji zerowej \teng{correlation}, korelacji cząstkowej \teng{partial correlation} i korelacji semicząstkowej (częściowej) \teng{semipartial correlation} \parencite{Tabachnick}. Wyniki korelacji zestawiono w tabeli (na przykład tab. \ref{tab: correlation_proste_160}). Do wyznaczania współczynników użyto metody Pearsona. Oceniając wyznaczone miary jakości dopasowania należy zdawać sobie sprawę ze spełnienia jedynie części założeń wymaganych przy obliczaniu korelacji Pearsona
 \footnote{Według \cite{Warner2012} następujące założenia muszą być spełnione aby współczynnik korelacji Pearsona był miarodajny: 1) każda rejestracja wartości zmiennych i wyników nie powinna wpływać na zarejestrowaną wartość innych zmiennych i wyników, 2) zmierzone zmienne powinny być określone ilościowo i charakteryzować się rozkładem normalnym, 3) zmienne powinny być liniowo zależne, 4) zmienne powinny mieć wariancję jednorodną w całym zakresie zmienności}.
-Z tego względu jego wskazania zostały potraktowane jedynie jako wskazówka do poszukiwania zależności pomiędzy zmiennymi i należy je zawsze rozpatrywać w parze z wykresami zależności przyspieszeń od zmiennych \parencite{Vargha2013}. W idealnych warunkach współczynnik korelacji liniowej $r^2$ wskazuje natężenie współzależności dwóch zmiennych \parencite{Czaja2000}. Z kolei współczynnik częściowej korelacji $\rho r^2$, oraz współczynnik semikorelacji $sr^2$ wskazują natężenie współzależności dwóch zmiennych przy uwzględnieniu (wyeliminowaniu) wpływu pozostałych. Korelacja cząstkowa eliminuje wpływ pozostałych zmiennych niezależnych z rozpatrywanej zmiennej zależnej jak i niezależnej. Korelacja semicząstkowa eliminuje wpływ pozostałych zmiennych jedynie ze zmiennej niezależnej. Z tego powodu to semicząstkowa korelacja obrazuje indywidualny wkład poszczególnych zmiennych niezależnych na wariancję zmiennej zależnej. \cite{Tabachnick} wskazuje, że to korelacja semiczastkowa jest lepszą niż cząstkowa miarą istotności wpływu danej zmiennej niezależnej na zmienną zależną.
+Z tego względu jego wskazania zostały potraktowane jedynie jako wskazówka do poszukiwania zależności pomiędzy zmiennymi i należy je zawsze rozpatrywać w parze z wykresami zależności maksymalnych przyspieszeń od zmiennych projektowych \parencite{Vargha2013}. W idealnych warunkach współczynnik korelacji liniowej $r^2$ wskazuje natężenie współzależności dwóch zmiennych \parencite{Czaja2000}. Z kolei współczynnik częściowej korelacji $\rho r^2$, oraz współczynnik semikorelacji $sr^2$ wskazują natężenie współzależności dwóch zmiennych przy uwzględnieniu (wyeliminowaniu) wpływu pozostałych. Korelacja cząstkowa eliminuje wpływ pozostałych zmiennych niezależnych z rozpatrywanej zmiennej zależnej jak i niezależnej. Korelacja semicząstkowa eliminuje wpływ pozostałych zmiennych jedynie ze zmiennej niezależnej. Z tego powodu to semicząstkowa korelacja obrazuje indywidualny wkład poszczególnych zmiennych niezależnych na wariancję zmiennej zależnej. \cite{Tabachnick} wskazuje, że to korelacja semiczastkowa jest lepszą niż cząstkowa miarą istotności wpływu danej zmiennej niezależnej na zmienną zależną.
 
 Piąta wizualizacja wyników pokazuje Zestaw Pareto czyli uzyskane przybliżenie Frontu Pareto w dziedzinie zmiennych projektowych (na przykład rys. \ref{fig:wk2_opti_proste_160_var_dom}). Kolorem punktu oznaczono maksymalne przyspieszenia. Rysunek pokazano w widoku aksonometrycznym (a) oraz trzech rzutach na poszczególne płaszczyzny (b-d). Punkty oznaczone trójkątem charakteryzują się maksymalnymi przyspieszeniami mniejszymi niż $3.5\,\mathrm{m/s^2}$.
 
@@ -1469,37 +1469,43 @@ Z zaprezentowanych rzutów na płaszczyzny osi (rys. \ref{fig:wk2_opti_netw_200_
 
 \subsection{Podsumowanie rezultatów optymalizacji}
 
-Wykonane analizy optymalizacyjne obiektu łukowego pozwaliły na zauważenie pewnych prawidłowości pomiędzy wymiarami elementów konstrukcyjnych, a zachowaniem dynamicznym obiektu. Skondensowane rezultaty dla 3 wariantów rozmieszczenia wieszaków, dla trzech różnych prędkości maksymalnych przejazdu przedstawiono w tabeli \ref{tab:summary_optimization}. W tabeli zebrano kilka cech charakteryzujących uzyskane w danym wariancie wyniki. Po pierwsze wskazano jaki jest minimalny stopień wykorzystania wytrzymałości elementów $\rho_{min}$, dla rozwiązań optymalnych przy spełnionym warunku maksymalnych przyspieszeń pomostu $a_{max}<3.5\;\mathrm{m/s^2}$. Po drugie dla każdego z wariantów określono przedziały wymiarów elementów, dla których uzyskano wyniki optymalne przy spełnieniu warunku $a_{max}<3.5\;\mathrm{m/s^2}$. W niektórych przypadkach wymiar nie był ograniczony w rozpatrywanym zakresie i wskazanie było niemożliwe. Po trzecie na podstawie analizy wizualnej rezultatów i wskazówek miar korelacji zasugerowano element, którego zmiana najbardziej wpływa na spadek lub wzrost przyspieszeń maksymalnych. Miary korelacji traktowano wyłącznie jako wskazówki i nie przywiązywano do nich kluczowej wagi ze względu na brak spełnienia wszystkich założeń. Pomimo to w większości przypadków wskazywały one te same zalezności co obserwacja wizualna. 
+Wykonane analizy optymalizacyjne kolejowego obiektu łukowego pozwaliły na zauważenie pewnych prawidłowości pomiędzy wymiarami elementów konstrukcyjnych, a zachowaniem dynamicznym obiektu. Skondensowane rezultaty dla 3 wariantów rozmieszczenia wieszaków oraz trzech różnych prędkości maksymalnych przejazdu przedstawiono w tabeli \ref{tab:summary_optimization}. W tabeli zebrano kilka cech charakteryzujących uzyskane w danym wariancie wyniki. Po pierwsze wskazano jaki jest największy możliwy minimalny stopień wykorzystania wytrzymałości elementów $\rho_{min}$. Wynik dotyczy jedynie rozwiązań optymalnych przy spełnionym warunku maksymalnych przyspieszeń pomostu $a_{max}<3.5\;\mathrm{m/s^2}$. Po drugie dla każdego z wariantów określono przedziały wymiarów elementów, dla których uzyskano wyniki optymalne przy spełnieniu warunku $a_{max}<3.5\;\mathrm{m/s^2}$. W niektórych przypadkach wymiar nie był ściśle ograniczony w rozpatrywanym zakresie i wskazanie było niemożliwe. Po trzecie na podstawie analizy wizualnej rezultatów i wskazówek miar korelacji zasugerowano element, którego zmiana najbardziej wpływa na spadek lub wzrost przyspieszeń maksymalnych. 
 
-\begin{table}[H]
+\begin{table}[hbt!]
 	\caption{Zestawienie wniosków z optymalizacji kolejowego przęsła łukowego ze względu na zachowanie dynamiczne}
 	\footnotesize
 	\centering
 	\resizebox{\textwidth}{!}{%
 		\begin{tabular}{@{}ccccccc@{}}
 			\toprule
-			\multirow{3}{*}[-5pt]{\begin{tabular}[c]{@{}c@{}}Układ\\ wieszaków\end{tabular}} &
-			\multirow{3}{*}[-5pt]{Prędkość} &
-			\multirow{3}{*}[-5pt]{\begin{tabular}[c]{@{}c@{}}Minimalny stopień \\ wykorzystania przekroju \\ $a_{max}<3.5\;[m/s^2]$\end{tabular}} &
-			\multicolumn{3}{c}{Wymiary elementów dla rozwiązań optymalnych} &
-			\multirow{3}{*}[-5pt]{\begin{tabular}[c]{@{}c@{}}Element \\ decydujący\end{tabular}} \\ \cmidrule(lr){4-6}
-			&     &                        & Łuk                  & Ściąg                & Wieszaki             &              \\ \cmidrule(lr){4-6}
-			&     &                        & $h_1\;\mathrm{[mm]}$ & $h_2\;\mathrm{[mm]}$ & $d_1\;\mathrm{[mm]}$ &              \\ \midrule 
-			Proste  & 160 & $30\%<\rho_{min}<50\%$ & -                    & $h_2>2385$           & $d_1>44$             & Ściąg        \\
-			Proste  & 200 & $30\%<\rho_{min}<50\%$ & -                    & $h_2>2898$           & $d_1>45$             & Ściąg        \\
-			Proste  & 300 & $30\%<\rho_{min}<50\%$ & -                    & $h_2>4183$           & $d_1>44$             & Ściąg        \\
-			Ukośne  & 160 & $50\%<\rho_{min}$      & -                    & $1000<h_2<1500$      & $44<d_1<125$         & Łuk/Wieszaki \\
-			Ukośne  & 200 & $50\%<\rho_{min}$      & -                    & -                    & $44<d_1<150$         & Łuk/Ściag    \\
-			Ukośne  & 300 & $30\%<\rho_{min}<50\%$ & $h_1>1000$           & $1000<h_2<2000$      & $75<d_1<125$         & Łuk          \\
-			Network & 160 & $50\%<\rho_{min}$      & -                    & $1000<h_2<2000$      & $44<d_1<73$          & Łuk          \\
-			Network & 200 & $50\%<\rho_{min}$      & -                    & -                    & $45<d_1<110$         & Łuk/Ściag    \\
-			Network & 300 & $30\%<\rho_{min}<50\%$ & $h_1>1500$           & $1000<h_2<2000$      & $44<d_1<75$          & Łuk          \\ \bottomrule
+			\multirow{3}{*}[-10pt]{\begin{tabular}[c]{@{}c@{}}Układ\\ wieszaków\end{tabular}} &
+			\multirow{2}{*}[-5pt]{Prędkość} &
+			\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Minimalny stopień \\ wykorzystania przekroju \\ $a_{max}<3.5\;\mathrm{[m/s^2]}$\end{tabular}} &
+			\multicolumn{3}{c}{Wymiary elementów dla rozwiązań dopuszczalnych} &
+			\multirow{3}{*}[-10pt]{\begin{tabular}[c]{@{}c@{}}Element \\ decydujący\end{tabular}} \\ [3pt] \cmidrule(lr){4-6}
+			&                      &                        & Łuk                  & Ściąg                & Wieszaki             &              \\ [3pt] \cmidrule(lr){2-6}
+			& $v\;\mathrm{[km/h]}$ & $\rho\;\mathrm{[\%]}$  & $h_1\;\mathrm{[mm]}$ & $h_2\;\mathrm{[mm]}$ & $d_1\;\mathrm{[mm]}$ &              \\ \midrule
+			Proste  & 160                  & $30\%<\rho_{min}<50\%$ & -                    & $h_2>2385$           & $d_1>44$             & Ściąg        \\
+			Proste  & 200                  & $30\%<\rho_{min}<50\%$ & -                    & $h_2>2898$           & $d_1>45$             & Ściąg        \\
+			Proste  & 300                  & $30\%<\rho_{min}<50\%$ & -                    & $h_2>4183$           & $d_1>44$             & Ściąg        \\
+			Ukośne  & 160                  & $50\%<\rho_{min}$      & -                    & $1000<h_2<1500$      & $44<d_1<125$         & Łuk/Wieszaki \\
+			Ukośne  & 200                  & $50\%<\rho_{min}$      & -                    & -                    & $44<d_1<150$         & Łuk/Ściag    \\
+			Ukośne  & 300                  & $30\%<\rho_{min}<50\%$ & $h_1>1000$           & $1000<h_2<2000$      & $75<d_1<125$         & Łuk          \\
+			Network & 160                  & $50\%<\rho_{min}$      & -                    & $1000<h_2<2000$      & $44<d_1<73$          & Łuk          \\
+			Network & 200                  & $50\%<\rho_{min}$      & -                    & -                    & $45<d_1<110$         & Łuk/Ściag    \\
+			Network & 300                  & $30\%<\rho_{min}<50\%$ & $h_1>1500$           & $1000<h_2<2000$      & $44<d_1<75$          & Łuk          \\ \bottomrule
 	\end{tabular}}
 	\label{tab:summary_optimization}
 \end{table}
 
+Na rysunku \ref{fig:comparison_proportion_opt} oraz w tabeli \ref{tab:summary_optimal_results} zestawiono elementy Frontu Pareto, będące najlepszym kompromisem pomiędzy masą konstrukcji i spełnieniem warunku przyspieszeń $a_{max}<3.5\;\mathrm{[m/s^2]}$. Innymi słowy podane rozwiązania charakteryzują się minimalną masą konstrukcji przy jednoczesnym spełnieniu warunku na maksymalne przyspieszenia pomostu. W tabeli podano parametry rozwiązania oraz wartości funkcji celu. Schematy wszystkich wariantów konstrukcji przedstawione na rysunku \ref{fig:comparison_proportion_opt} posiadają identyczną skalę i służą bezpośredniemu porównaniu proporcji elementów.
 
-\begin{figure}[H]
+
+
+
+
+
+\begin{figure}[hbt!]
 	\centering
 	\subfloat[Proste, $v_{max} = 160$ km/h]{\includegraphics[width=0.33\linewidth,page=4]{WK2/opti/wyniki_35_wszystkie.pdf}}
 	\subfloat[Proste, $v_{max} = 200$ km/h]{\includegraphics[width=0.33\linewidth,page=5]{WK2/opti/wyniki_35_wszystkie.pdf}}
@@ -1511,18 +1517,51 @@ Wykonane analizy optymalizacyjne obiektu łukowego pozwaliły na zauważenie pew
 	\subfloat[Network, $v_{max} = 200$ km/h]{\includegraphics[width=0.33\linewidth,page=2]{WK2/opti/wyniki_35_wszystkie.pdf}}
 	\subfloat[Network, $v_{max} = 300$ km/h]{\includegraphics[width=0.33\linewidth,page=3]{WK2/opti/wyniki_35_wszystkie.pdf}}
 	\captionsetup{justification=centering}
-	\caption{}
-	\label{}
+	\caption{Porównanie proporcji elementów konstrukcyjnych dla optymalnych rozwiązań poszczególnych wariantów o minimalnej masie i $a_{max}<3.5\;\mathrm{m/s^2}$}
+	\label{fig:comparison_proportion_opt}
 \end{figure}
 
 
 
+\begin{table}[hbt!]
+	\caption{Zestawienie rozwiązań o minimalnej masie i spełnionym warunku $a_{max}<3.5\;\mathrm{[m/s^2]}$ dla wszystkich wariantów}
+	\centering
+	\footnotesize
+	\begin{tabular}{@{}ccccccc@{}}
+		\toprule
+		\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Układ\\ wieszaków\end{tabular}} &
+		\begin{tabular}[c]{@{}c@{}}Prędkość \\ maksymalna\end{tabular} &
+		\begin{tabular}[c]{@{}c@{}}Masa konstrukcji {[}t{]}\\ (połowa obiektu)\end{tabular} &
+		\begin{tabular}[c]{@{}c@{}}Maksymalne\\ przyspieszenia\end{tabular} &
+		Łuk &
+		Ściąg &
+		Wieszaki \\ \cmidrule(l){2-7} 
+		& {[}km/h{]} & {[}t{]} & $\mathrm{[m/s^2]}$ & $h_1\;\mathrm{[mm]}$ & $h_2\;\mathrm{[mm]}$ & $d_1\;\mathrm{[mm]}$ \\ \midrule
+		Proste  & 160        & 116.6   & 3.48    & 151                  & 2385                 & 47                   \\
+		Proste  & 200        & 121.4   & 3.50    & 152                  & 2897                 & 54                   \\
+		Proste  & 300        & 132.0   & 3.48    & 150                  & 4183                 & 46                   \\
+		Ukośne  & 160        & 106.1   & 3.43    & 150                  & 1000                 & 48                   \\
+		Ukośne  & 200        & 108.5   & 3.46    & 152                  & 1007                 & 64                   \\
+		Ukośne  & 300        & 152.1   & 3.48    & 1266                 & 1115                 & 115                  \\
+		Network & 160        & 106.3   & 3.21    & 150                  & 1023                 & 46                   \\
+		Network & 200        & 106.2   & 3.12    & 150                  & 1021                 & 44                   \\
+		Network & 300        & 150.0   & 3.50    & 1513                 & 1041                 & 71                   \\ \bottomrule
+	\end{tabular}
+	\label{tab:summary_optimal_results}
+\end{table}
 
-
-
-Wyznaczone rezultaty nie są losowe tylko z algorytmu optymalizacji i nie gwarantują równomierności wszystkich rozwiązań
-
-
+Bazując na rezultatach przeprowadzonych analiz wyciągnięto następujące wnioski:
+\begin{enumerate}
+	\item Dla wszystkich rozpatrywanych wariantów mostów łukowych możliwe jest zaprojektowanie konstrukcji, dla której przyspieszenia maksymalne pomostu wywołane przejazdem modeli obciążenia dynamicznego wg \cite{PKNj} nie osiągają wartości większej niż $3.5\;\mathrm{m/s^2}$. Powyższe kryterium osiągnięte zostało przy spełnieniu stanów granicznych nośności i użytkowania wg \cite{PolskiKomitetNormalizacyjny2004} i \cite{PKNj}. W analizach nie uwzględniono sprawdzenia stateczności elementów ściskanych, zakładając odpowiednie zaprojektowanie stężeń poprzecznych. Nie uwzględniono również możliwości redukcji do zera sił rozciągających w wieszakach. Przyjęto, że ciężar własny obiektu i technologia naciągu nie pozwolą na wystąpienie takiej sytuacji.
+	\item W wariancie z wieszakami prostymi, niezależnie od maksymalnej prędkości przejazdu elementem decydującym jest dźwigar-ściąg łuku. Wraz ze wzrostem prędkości maksymalnej wymagana jest coraz większa sztywność (wysokość) tego elementu. W rozpatrywanym przykładzie gdzie ściąg posiada przekrój dwuteowy, dla maksymalnej prędkości 300 km/h wymaga wysokość ściągu wyniosła aż 4183 mm. Przy rozpiętość $L_t=70\;\mathrm{m}$ smukłość elementu wynosi $L_t/h=\frac{70 000}{4183}=16.7$. Jest to wartość charakterystyczna raczej dla kolejowych, belkowych dźwigarów swobodnie podpartych\footnote{
+		W publikacji \cite{Madaj2009} autorzy podają typowe granice smukłości dla obiektów belkowych, kolejowych do rozpiętości ok 60m jako przedział $8 \pm 15$}. 
+	W tym wariancie - dla wszystkich prędkości - łuk o przekroju skrzynkowym został przyjęty o minimalnej wysokości 150 mm. Podobna sytuacja jest w przypadku wieszaków, przyjętych o średnicy minimalnej gwarantującej spełnienie warunków nośności w analizie statycznej ok 50 mm. Masa połowy konstrukcji dla wskazanych wariantów waha się od 116.6 do 132.0 t w zależności od prędkości maksymalnej. Dla prędkości do 200 km/h wariant z wieszakami prostymi jest najcięższym rozwiązaniem konstrukcyjnym. W uproszczeniu oznacza to również najdroższe rozwiązanie. Przypadek prędkości maksymalnej 300 km/h w wariancie wieszaków prostych jest teoretycznie najlżejszy spośród wszystkich odpowiadających, a jego masa wynosi 132 t. Należy jednak zdawać sobie sprawę, że przy tak smukłym dźwigarze należałoby z pewnością dodać ciężar materiału użebrowania co mogłoby stanowić istotny wzrost masy. Dodatkowo dla wszystkich prędkości minimalne wytężenie elementów nie przekroczyło 50\%. Nasuwa się również pytanie czy przy zastosowaniu ściągu o bardzo dużej sztywności istnienie łuku o bardzo małym przekroju ma jakiekolwiek uzasadnienie. 
+	\item Warianty z wieszakami ukośnymi i Network mają odmienną charakterystykę niż wariant z wieszakami prostymi. W obu układam elementem decydująca okazała się sztywność łuku. Wpływ zmienności średnicy wieszaków i wysokości ściągu jest również zauważalny, niemniej w każdym wariantów to wysokość łuku odgrywa zdecydowanie decydujące znaczenie. Dla rozwiązań uzyskanych przy prędkości do 200 km/h wytężenie minimalne elementów wyniosło powyżej 50\% co świadczy o znacznie lepszym wykorzystaniu materiału niż w przypadku wieszaków prostych. Dla wszystkich prędkości wśród optymalnych rozwiązań wysokość ściągu nie przekroczyła 2000 mm. Jednocześnie wysokość łuku została dobrana jako minimalna 150 mm. Można również stwierdzić, że przy prędkościach zwiększonych do 300 km/h sztywność łuku musi być znacznie większa. W analizach uzyskano wysokość dla wieszaków ukośnych większą niż 1000 mm, a dla wieszaków Network większą niż 1500 mm.
+	\item Na podstawie rozkładu rozwiązań w dziedzinie funkcji celu masy i maksymalnych przyspieszeń (na przykład rys. \ref{fig:wk2_opti_proste_160_all}) można wnioskować o możliwości błędnego zaprojektowania konstrukcji z punktu widzenia dynamicznego. Załóżmy, że "idealnie" zaprojektowana konstrukcja to taka dla której Front Pareto przecina linię wyznaczającą poziom maksymalnych przyspieszeń $3.5\;\mathrm{m/s^2}$. Jeśli punkt przecięcia wyznacza minimalną masę, dla której możliwe jest poprawne zaprojektowanie konstrukcji to warto rozważyć jak bardzo nieudanie, z punktu widzenia dynamiki, można zaprojektować konstrukcję przy przyjętych zakresach zmiennych projektowych. Innymi słowy rozważono jak wysokie przyspieszenie maksymalne może wystąpić w przekroju pionowym przez rozwiązanie idealne. Dla wieszaków prostych przy wszystkich prędkościach uzyskano wartość ok. $3.5\;\mathrm{m/s^2}$. Dla wieszaków ukośnych są to dla prędkości 160, 200 i 300 km/h wartości odpowiednio: 3.6, 7,  8.5 $\mathrm{m/s^2}$, a dla wieszaków Network: 3.2, 3.12 i 7 $\mathrm{m/s^2}$.\footnote{
+		Przed oceną powyższych wyników należy przypomnieć, że ze względu na działanie algorytmu optymalizacji uzyskane rozkłady rozwiązań nie pokrywają równomiernie przestrzeni zmiennych projektowych. Z tego powodu dla któregoś z wariantu uzyskane wyniki mogą niedoszacowywać maksymalnych możliwych przyspieszeń przy danej masie konstrukcji. Niemniej liczba wyznaczonych próbek oraz regularność kształtów otrzymanych rozkładów pozwalają założyć, że ryzyko to jest względnie małe.}
+	Odczytane rezultaty pozwalają stwierdzić, że źle (z punktu widzenia dynamiki przęsła) ukształtowana konstrukcja może doprowadzić do bardzo dużych wartości przyspieszeń maksymalnych pomostu dla każdej z rozpatrywanych prędkości. Przęsło z wieszakami ukośnymi niezależnie od przyjętych wartości zmiennych projektowych zachowuje dobre właściwości dynamiczne przy prędkości do 160 km/h. Dla prędkości do 200 i 300 km/h sytuacja ulega zmianie i wartości przyjętych zmiennych wpływają drastycznie na wartość przyspieszeń maksymalnych. Najlepiej w tym aspekcie prezentuje się układ z wieszakami typu Network. Do prędkości 200 km/h nie udało się uzyskać przyspieszeń większych niż $3.5\;\mathrm{m/s^2}$ dla wszystkich rozwiązań spełniających warunki SGN i SGU z analizy statycznej. Dopiero zwiększenie prędkości do 300 km/h powoduje, że złe ukształtowanie konstrukcji może drastycznie pogorszyć właściwości dynamiczne przęsła.
+	
+\end{enumerate}
 
 \chapter{Podsumowanie i wnioski}
 Podsumowania wnioski

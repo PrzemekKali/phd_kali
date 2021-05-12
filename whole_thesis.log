@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.15)  11 MAY 2021 17:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.15)  12 MAY 2021 20:09
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -2277,6 +2277,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [58]
 
+LaTeX Warning: Reference `' on page 59 undefined on input line 611.
+
+
+LaTeX Warning: Reference `' on page 59 undefined on input line 611.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3738,6 +3744,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [97 <./figures///PSO/testkrata/truss_scheme.pdf> <./figures///PSO/testkrata/tru
 ss_scheme_zew.pdf> <./figures///PSO/testkrata/truss_scheme_wew.pdf>]
 
+LaTeX Warning: Reference `' on page 98 undefined on input line 328.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4945,6 +4954,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 533.
+
+
+LaTeX Warning: Reference `' on page 124 undefined on input line 550.
 
 
 Underfull \vbox (badness 4279) has occurred while \output is active []
@@ -6600,6 +6612,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [163 <./figures//WK2/opti/netw_300/netw_300_VAR_ISO.pdf> <./figures//WK2/opti/n
 etw_300/netw_300_VAR_XY.pdf> <./figures//WK2/opti/netw_300/netw_300_VAR_YZ.pdf>
  <./figures//WK2/opti/netw_300/netw_300_VAR_XZ.pdf>]
+Overfull \vbox (12.0pt too high) detected at line 1497
+ []
+
+
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
@@ -6608,7 +6624,7 @@ pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 4>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page4 us
-ed on input line 1504.
+ed on input line 1510.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
@@ -6619,7 +6635,7 @@ pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 5>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page5 us
-ed on input line 1505.
+ed on input line 1511.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
@@ -6630,7 +6646,7 @@ pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 6>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page6 us
-ed on input line 1506.
+ed on input line 1512.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
@@ -6641,7 +6657,7 @@ pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 7>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page7 us
-ed on input line 1507.
+ed on input line 1513.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
@@ -6652,7 +6668,7 @@ pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 8>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page8 us
-ed on input line 1508.
+ed on input line 1514.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
@@ -6663,7 +6679,7 @@ pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 9>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page9 us
-ed on input line 1509.
+ed on input line 1515.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
@@ -6674,7 +6690,7 @@ pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 1>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page1 us
-ed on input line 1510.
+ed on input line 1516.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
@@ -6685,7 +6701,7 @@ pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 2>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page2 us
-ed on input line 1511.
+ed on input line 1517.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
@@ -6696,8 +6712,13 @@ pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 3>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page3 us
-ed on input line 1512.
+ed on input line 1518.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
+
+Overfull \hbox (3.30052pt too wide) in paragraph at lines 1530--1551
+ [][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -6706,7 +6727,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[164 <./figures//WK2/opti/wyniki_35_wszystkie.pdf> <./figures//WK2/opti/wyniki_
+[164]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[165 <./figures//WK2/opti/wyniki_35_wszystkie.pdf> <./figures//WK2/opti/wyniki_
 35_wszystkie.pdf> <./figures//WK2/opti/wyniki_35_wszystkie.pdf> <./figures//WK2
 /opti/wyniki_35_wszystkie.pdf> <./figures//WK2/opti/wyniki_35_wszystkie.pdf> <.
 /figures//WK2/opti/wyniki_35_wszystkie.pdf> <./figures//WK2/opti/wyniki_35_wszy
@@ -6720,9 +6750,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[165]
+[166]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[167]
 Rozdzia\l  6.
-) [166
+) [168
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
@@ -6731,29 +6770,11 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[167
+[169
 
 
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[168]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[169]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -6772,6 +6793,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [171]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[172]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[173]
 Overfull \hbox (7.76472pt too wide) in paragraph at lines 34--34
 [][]\T1/cmr/m/n/10.95 Kolousek, Vla-di-mir (1973). \T1/cmr/m/it/10.95 Dy-na-mic
 s in en-gi-ne-ering struc-tu-res\T1/cmr/m/n/10.95 . Red. Reu-ben Fra-ser McLean
@@ -6792,34 +6831,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[172]
+[174]
 Overfull \hbox (24.73495pt too wide) in paragraph at lines 34--34
 [][]\T1/cmr/m/n/10.95 Norton, John P (2009). \T1/cmr/m/it/10.95 An in-tro-duc-t
 ion to iden-ti-fi-ca-tion\T1/cmr/m/n/10.95 . Co-urier Cor-po-ra-tion. \T1/cmr/m
 /sc/10.95 isbn\T1/cmr/m/n/10.95 : 0486469352. 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[173]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[174]
-Overfull \hbox (9.31927pt too wide) in paragraph at lines 34--34
-[][]\T1/cmr/m/n/10.95 SHEN, F i in. (2003).   USING THE CROSS-CORRELATION TECH
--NI-QUE TO EXTRACT
  []
 
 
@@ -6840,6 +6856,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [176]
+Overfull \hbox (9.31927pt too wide) in paragraph at lines 34--34
+[][]\T1/cmr/m/n/10.95 SHEN, F i in. (2003).   USING THE CROSS-CORRELATION TECH
+-NI-QUE TO EXTRACT
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -6857,7 +6878,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[178] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
+[178]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[179]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[180] (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
 (chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -6871,10 +6910,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40606 strings out of 479321
- 1007939 string characters out of 2855152
- 1805590 words of memory out of 12000000
- 56955 multiletter control sequences out of 15000+600000
+ 40614 strings out of 479321
+ 1008135 string characters out of 2855152
+ 1812464 words of memory out of 12000000
+ 56963 multiletter control sequences out of 15000+600000
  469872 words of font info for 194 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,24n,107p,3216b,2085s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6939,9 +6978,9 @@ sers/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl120
 per/sfti1095.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/cm-super/sfti1200.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/cm-super/sftt1095.pfb>
-Output written on whole_thesis.pdf (178 pages, 92823280 bytes).
+Output written on whole_thesis.pdf (180 pages, 92832796 bytes).
 PDF statistics:
- 8236 PDF objects out of 8907 (max. 8388607)
+ 8242 PDF objects out of 8907 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  2863 words of extra memory for PDF output out of 10000 (max. 10000000)
 

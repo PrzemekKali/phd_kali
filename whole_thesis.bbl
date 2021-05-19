@@ -1117,6 +1117,37 @@
       \endverb
       \keyw{Earthquake engineering,Structural dynamics}
     \endentry
+    \entry{Ciesla2013}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f851f9fb49f64a257414a78535fb71b5}{%
+           family={Cieśla},
+           familyi={C\bibinitperiod},
+           given={Juliusz},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f851f9fb49f64a257414a78535fb71b5}
+      \strng{fullhash}{f851f9fb49f64a257414a78535fb71b5}
+      \strng{bibnamehash}{f851f9fb49f64a257414a78535fb71b5}
+      \strng{authorbibnamehash}{f851f9fb49f64a257414a78535fb71b5}
+      \strng{authornamehash}{f851f9fb49f64a257414a78535fb71b5}
+      \strng{authorfullhash}{f851f9fb49f64a257414a78535fb71b5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Przegla̧d Budowlany}
+      \field{number}{29}
+      \field{title}{{Prefabrykowane belki mostowe z betonu sprȩżonego w Polsce – historia i stan obecny}}
+      \field{year}{2013}
+      \field{pages}{19\bibrangedash 25}
+      \range{pages}{7}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Cie{\'{s}}la - 2013 - Prefabrykowane belki mostowe z betonu spr{\c{e}}{\.{z}}onego w Polsce – historia i stan obecny.pdf:pdf
+      \endverb
+    \endentry
     \entry{Claus1998}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bc71544c17a7be3e181d38df03f51975}{%
@@ -2217,6 +2248,46 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Fieldsend, Singh - Unknown - A multi-objective algorithm based upon particle swarm optimisation, an efficient data structure and turbule.pdf:pdf
       \endverb
+    \endentry
+    \entry{Filipiuk2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1b80000fb7aca195732742130ff7c9fc}{%
+           family={Filipiuk},
+           familyi={F\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f855b00a42c82772daa45c0d91739ad5}{%
+           family={Stefanowski},
+           familyi={S\bibinitperiod},
+           given={Tadeusz},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a5bf47d498e96156758a58ba69d15df}{%
+           family={Basek},
+           familyi={B\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Wroc{ł}aw}%
+      }
+      \strng{namehash}{1862296742afdeba8ddbfa93b5c83e42}
+      \strng{fullhash}{1862296742afdeba8ddbfa93b5c83e42}
+      \strng{bibnamehash}{1862296742afdeba8ddbfa93b5c83e42}
+      \strng{authorbibnamehash}{1862296742afdeba8ddbfa93b5c83e42}
+      \strng{authornamehash}{1862296742afdeba8ddbfa93b5c83e42}
+      \strng{authorfullhash}{1862296742afdeba8ddbfa93b5c83e42}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
+      \field{title}{{Stalowy wiadukt {ł}ukowy w cia̧gu Pomorskiej Kolei Metropolitalnej}}
+      \field{year}{2015}
     \endentry
     \entry{Findeisen1980}{book}{}
       \name{author}{3}{}{%
@@ -3444,6 +3515,40 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/James, Carne, Lauffer - 1993 - The Natural Excitation Technique (NExT) for Modal Parameter Extraction From Operating Wind Turbines.pdf:pdf
       \endverb
+    \endentry
+    \entry{Janusz2009}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=70f2db8c007c2f777a33544bb4a88fef}{%
+           family={Janusz},
+           familyi={J\bibinitperiod},
+           given={Leszek},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d5b0a3fdb8710caea9509c9722ef65d}{%
+           family={Madaj},
+           familyi={M\bibinitperiod},
+           given={Arkadiusz},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wydawnictwo Komunikacji i {Ł}a̧czności}%
+      }
+      \strng{namehash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \strng{fullhash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \strng{bibnamehash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \strng{authorbibnamehash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \strng{authornamehash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \strng{authorfullhash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{8320617324}
+      \field{title}{{Obiekty inżynierskie z blach falistych: projektowanie i wykonawstwo}}
+      \field{year}{2009}
     \endentry
     \entry{Juang1988}{article}{}
       \name{author}{2}{}{%
@@ -7052,6 +7157,33 @@
       \verb http://economic-research.pl/Journals/index.php/atest/article/view/1326%20http://files/863/Szcze%7B%5C'%7Bs%7D%7Dniak%20i%20Ataman%20-%202018%20-%20Survey%20of%20publications%20by%20Polish%20authors%20in%20the%20fi.pdf
       \endverb
     \endentry
+    \entry{Szczygie1978}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a73802991bdf09a9097a910101c360bc}{%
+           family={Szczygie{ł}},
+           familyi={S\bibinitperiod},
+           given={Juliusz},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wydawn. Komunikacji i {Ł}a̧czności}%
+      }
+      \strng{namehash}{a73802991bdf09a9097a910101c360bc}
+      \strng{fullhash}{a73802991bdf09a9097a910101c360bc}
+      \strng{bibnamehash}{a73802991bdf09a9097a910101c360bc}
+      \strng{authorbibnamehash}{a73802991bdf09a9097a910101c360bc}
+      \strng{authornamehash}{a73802991bdf09a9097a910101c360bc}
+      \strng{authorfullhash}{a73802991bdf09a9097a910101c360bc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mosty z betonu zbrojonego i sprȩżonego}}
+      \field{year}{1978}
+    \endentry
     \entry{Szymczak1995}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7ce334217aecc9d8e42a23a191b6a886}{%
@@ -7194,6 +7326,32 @@
       \verb 10.1080/14786442208633953
       \endverb
     \endentry
+    \entry{Tomala2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7a2a6e048d37afdd6cc26525e77dc27}{%
+           family={Tomala},
+           familyi={T\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \strng{fullhash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \strng{bibnamehash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \strng{authorbibnamehash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \strng{authornamehash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \strng{authorfullhash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1896-7663}
+      \field{journaltitle}{Mosty}
+      \field{title}{{Wiadukt drogowy z blach falistych o najwiȩkszej na świecie rozpiȩtości}}
+      \field{year}{2019}
+    \endentry
     \entry{Tran-Ngoc2018}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=b6ef98c55f92c511d845d955a2bf1fe5}{%
@@ -7265,6 +7423,41 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Tran-Ngoc et al. - 2018 - Model updating for nam O bridge using particle swarm optimization algorithm and genetic algorithm.pdf:pdf
       \endverb
       \keyw{Genetic algorithm,Large-scale bridges,Model updating,Particle swarm optimization,Stiffness of truss joints}
+    \endentry
+    \entry{Tveit2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=66e95dcc8ecf6811c45df27e1b4acc33}{%
+           family={Tveit},
+           familyi={T\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{fullhash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{bibnamehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{authorbibnamehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{authornamehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{authorfullhash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The network arch is an economical bridge type that can look good and needs 35 to 50 {\%} less steel. Economical methods of erection using light steel skeletons can be found. The network arch is defined by having hangers that cross each other at least twice [1]. The arches are made of steel. When the distance between the arches is less than 20m, the author thinks that the tie should normally be made of concrete.}
+      \field{issn}{1757899X}
+      \field{journaltitle}{IOP Conference Series: Materials Science and Engineering}
+      \field{number}{5}
+      \field{title}{{How to Design Economical Network Arches}}
+      \field{volume}{471}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1088/1757-899X/471/5/052078
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Tveit - 2019 - How to Design Economical Network Arches.pdf:pdf
+      \endverb
     \endentry
     \entry{Udwadia1994}{article}{}
       \name{author}{1}{}{%

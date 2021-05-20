@@ -3,42 +3,99 @@
 
 \section{Układy statyczne (pomosty,wieszaki,łuki,ściągi)}
 
-W celu łatwiejszego odbioru dalszych rozważań na wstępie przedstawiono klasyfikację mostów łukowych. Tradycyjnie mosty łukowe wykonywane były jako pełne sklepienia, ze ściankami czołowymi i z wnęką wypełnioną piaskiem, żwirem lub słabym betonem. Ukształtowany w ten sposób ustrój mógł być wykonany z tradycyjnych materiałów takich jak na przykład kamień \parencite{Szczygie1978}. Obecnie tego typu obiekty wykonuje się niezmiernie rzadko. Służyły one do przekraczania raczej niewielkich rozpiętości (do ok. 40 m) i w dzisiejszych czasach zostały wyparte głównie przez strunobetonowe konstrukcje prefabrykowane \parencite{Ciesla2013} i obiekty gruntowo-powłokowe \parencite{Janusz2009,Tomala2019}. Obecnie mosty łukowe wykonuje się głównie w formie konstrukcji belkowo-płytowych. Ze względu na wzajemne usytuowanie pomostu i dźwigarów głównych można podzielić je następująco:
+W celu łatwiejszego odbioru dalszych rozważań na wstępie przedstawiono klasyfikację mostów łukowych. Tradycyjnie mosty łukowe wykonywane były jako pełne sklepienia, ze ściankami czołowymi i z wnęką wypełnioną piaskiem, żwirem lub słabym betonem. Ukształtowany w ten sposób ustrój mógł być wykonany z tradycyjnych materiałów takich jak na przykład kamień \parencite{Szczygie1978}. Obecnie tego typu obiekty wykonuje się niezmiernie rzadko. Służyły one do przekraczania raczej niewielkich rozpiętości (do ok. 40 m) i w dzisiejszych czasach zostały wyparte głównie przez strunobetonowe konstrukcje prefabrykowane \parencite{Ciesla2013} i obiekty gruntowo-powłokowe \parencite{Janusz2009,Tomala2019}. Podobną formę geometryczną, ze ścianami czołowymi działającymi jako elementy konstrukcyjne stanowią łuki tarczowe. Obecnie mosty łukowe wykonuje się głównie w formie konstrukcji belkowo-płytowych. 
+
+
+\subsubsection{Kształt i schemat statyczny konstrukcji}
+Z punktu widzenia schematu statycznego dźwigara łukowego wyróżnia się łuki bezprzegubowe (utwierdzone), dwuprzegubowe i trójprzegubowe. Wybór schematu statycznego miał niegdyś większe znaczenie ze względu na różny stopień złożoności obliczeniowej układów. Obecnie obliczanie układów statycznie niewyznaczalnych nie stanowi problemu dzięki obliczeniom z wykorzystaniem MES. Dzięki temu bez popełnienia błędu obliczeniowego można wyeliminować z wnętrza konstrukcji przeguby, które z punktu widzenia trwałości konstrukcji są elementami niepożądanymi. Z drugiej strony, jak wiadomo układy statycznie wyznaczalne są odporne na obciążenia drugorzędne i należy je stosować w przypadku zagrożenia na przykład przemieszczenia podpór. Niezależnie od zmian w podejściu do projektowania aktualną pozostaje reguła przytoczona przez \cite{Pszenicki1954}: \textquote{Zasadą jest, że obliczenie powinno odpowiadać konstrukcji (...).}. Stąd wybór schematu statycznego musi odpowiadać nie tylko teoretycznym założeniom, ale możliwościom ukształtowania warunków brzegowych w rzeczywistej konstrukcji. 
+
+Ze względu na wzajemne usytuowanie pomostu i dźwigarów łukowych można wyszczególnić następujące rodzaje konstrukcji:
 \begin{itemize}
-	\item pomost usytuowany w całości nad łukiem - z tzw. "jazdą górą",
-	\item pomost usytuowany w całości poniżej łuku - z tzw. "jazdą dołem",
-	\item pomost usytuowany pośrednio - z tzw. "jazdą pośrednią".
+	\item pomost usytuowany w całości nad łukiem - z jazdą górą (Rys. \ref{fig:bri_deck_loc_top}),
+	\item pomost usytuowany w całości poniżej łuku - z jazdą dołem (Rys. \ref{fig:bri_deck_loc_middle}),
+	\item pomost usytuowany pośrednio - z jazdą pośrednią (Rys. \ref{fig:bri_deck_loc_bott}).
 \end{itemize}
-Połączenie pomiędzy pomostem, a dźwigarem łukowym realizuje się za pomocą ścian lub słupków kiedy pomost znajduje się ponad dźwigarem. Kiedy pomost znajduje się poniżej stosowane są wieszaki. Tradycyjnie łączniki w obu wariantach są ukształtowane jako pionowe. W przypadku konstrukcji z jazdą górą odstępstwa od tej zasady zastosował między innymi Morandi (rys. ). W przypadku obiektów z jazdą gorą występują trzy główne schematy rozkładu wieszaków:
+
+\begin{figure}[hbt!]
+	\centering
+	\subfloat[most łukowy z jazdą górą]{\includegraphics[width=0.7\linewidth,page=4]{/mosty_wstep/mosty.pdf},\label{fig:bri_deck_loc_top}}  \\
+	\subfloat[most łukowy z jazdą pośrednią]{\includegraphics[width=0.7\linewidth,page=6]{/mosty_wstep/mosty.pdf},\label{fig:bri_deck_loc_middle}} \\
+	\subfloat[most łukowy z jazdą dołem]{\includegraphics[width=0.7\linewidth,page=5]{/mosty_wstep/mosty.pdf},\label{fig:bri_deck_loc_bott}}
+	\captionsetup{justification=centering}
+	\caption{Klasyfikacja mostów łukowych ze względu na wzajemne położenie pomostu i dźwigara}
+	\label{fig:bridges_types_deck_location}
+\end{figure}
+
+Mosty z jazdą górą budowane są kiedy pod obiektem jest na tyle dużo miejsca, że możliwe jest zastosowanie dużej wysokości konstrukcyjnej. Taka sytuacja ma miejsce na przykład w terenach górzystych. W przeciwnym przypadku gdy wymagana jest mała wysokość konstrukcyjna uzasadnione jest stosowanie obiektów o jeździe dołem lub pośredniej. 
+
+Obciążona konstrukcja łukowa z zasady generuje siły poziome na podłoże. Nazywa się je reakcjami rozporowymi lub po prostu rozporem. W przypadku obiektów z jazdą dołem lub jazdą pośrednią możliwe jest wyeliminowanie reakcji poziomych przez zastosowanie ściągu. Rolę ściągu może stanowić odrębny element konstrukcyjny jak również cały pomost. Wykorzystanie pomostu jest obecnie bardzo częstym rozwiązaniem. Dotyczy to zarówno pomostów stalowych jak i betonowych. W przypadku pomostów betonowych stosuje się sprężenie niwelujące efekt rozciągania pochodzącego od rozporu.
+
+Mosty łukowe wykonywane są obecnie z dwóch materiałów: stali i betonu (w tym betonu sprężonego). Zależnie od materiału dźwigar łukowy może posiadać różną strukturę. Najczęściej łuki występują w następujących formach \parencite{Cholewo1965}:
+\begin{itemize}
+	\item pełnościenny przekrój łuku (dźwigar stalowy),
+	\item łuk w postaci kratownicy (dźwigar stalowy),
+	\item pełny przekrój lub w postaci skrzynki (dźwigar betonowy).
+	\item zespolony przekrój ze stalowym płaszczem wypełnionym betonem \teng{CFST - Concrete Filled Steel Tubes}.
+\end{itemize}
+
+W przeważającej większości mosty łukowe projektowane są obecnie jako konstrukcje statycznie niewyznaczalne. Z tego względu mogą one różnić się mechanizmem pracy również w zależności od sztywności poszczególnych elementów konstrukcyjnych. Kiedy zarówno łuk jak i dźwigar pomostu odpowiadają za przeniesienie sił normalnych i momentów zginających mamy do czynienia z układem Lohse'a. Przypadek ten wystąpi kiedy łuk i ściąg posiadają znaczącą sztywność giętną. Odmienna sytuacja występuję w przypadku układu Langera, kiedy to wiotki dźwigar łukowy \textit{de facto} jedynie usztywnia dźwigar belkowy. W tej sytuacji łuk przenosi teoretycznie jedynie siły osiowe \parencite{Lin2017}. 
+
+Standardowe rozpiętości dla przęseł łukowych kształtują się w zakresie od 40 do około 400 w przypadku mostów betonowych i do 500 m w przypadku mostów stalowych \parencite{Madaj2009}. \cite{Czudek1997} przedstawił dla mostów stalowych statystykę uwzględniającą typowe rozpiętości w zależności od rodzaju przęsła łukowego. Dla tradycyjnych przęseł łukowych podał zakres od 40 do 300 m, dla łuków typu Langera od 40 do 150 m, dla łuków typu Lohse'a od 60 do 200 m, a dla łuków Nielsena i Network (Rys. \ref{fig:bridges_types_hangers}) od 110 do 200 m. Aktualnie na światowej liście mostów łukowych o największej rozpiętości pierwsze miejsce zajmuje chiński most \textit{Pingnan Third Bridge} \parencite{Contributors2021,Biliszczuk2015a}. Został on oddany do użytku 28 grudnia 2020 roku, a jego rozpiętość wynosi 575 m. Warto wspomnieć, że na liście obiektów o rozpiętości powyżej 300 m znajduje się obecnie 76 pozycji z czego zdecydowaną większość (47 pozycji) stanowią mosty chińskie, a drugą pozycję pod względem liczebności zajmują Stany Zjednoczone Ameryki z 9 obiektami. Pod względem wykorzystanych materiałów większość dźwigarów łukowych jest wykonana ze stali (44 pozycje). Pozostałe obiekty  zbudowane są z elementów CFST (19 pozycji) i betonu (13 pozycji). Najstarszy na liście obiekt \textit{Bayonne Bridge} został oddany do użytku w 1931 roku i wciąż zajmuje wysoką, szóstą pozycję na liście z rozpiętością 510 m. W Polsce rekordowe przęsło łukowe stanowi most im. gen. Elżbiety Zawackiej w Toruniu. Jest to most drogowy przez Wisłę, złożony z dwóch głównych przęseł łukowych o rozpiętości 270 m każde \parencite{Wachalski2015}. Obszerne omówienie historii mostów łukowych na ziemiach polskich przedstawił \cite{Biliszczuk2015}.
+ 
+\begin{figure}[bt!]
+	\centering
+	\captionsetup{justification=centering}
+	\subfloat[Pingnan Bridge\\(fot. Xinhua/Cao Yiming)]{\includegraphics[height = 3.5cm]{/mosty_wstep/photos/pingnan_third_bridge.jpeg}} \;
+	\subfloat[Bayonne Bridge\\(fot. Jim Henderson)]{\includegraphics[height = 3.5cm]{/mosty_wstep/photos/High_BB_from_Bayonne_jeh_croped.jpg}}\\
+	\subfloat[Most im. gen. Elżbiety Zawackiej\\(fot. Wikipedia User: Pko)]{\includegraphics[width = 13.7cm]{/mosty_wstep/photos/Torun_most_Zawackiej_croped.jpg}} \\
+
+	
+	\caption{Rekordowe mosty łukowe świata i Polski}
+	\label{fig:arch_bridges}
+\end{figure}
+
+
+
+
+
+\subsubsection{Połączenie pomostu i dźwigara łukowego}
+Połączenie pomiędzy pomostem, a dźwigarem łukowym realizuje się za pomocą ścian lub słupków kiedy pomost znajduje się ponad dźwigarem. Kiedy pomost należy podwiesić do dźwigara stosowane są wieszaki. Tradycyjnie łączniki w obu wariantach są ukształtowane jako pionowe. Liczba łączników przyjmowana jest zwykle jako parzysta, tak by klucz łuku znajdował się pośrodku odstępu między wieszakami \parencite{Szczygie1978}. W przypadku konstrukcji z jazdą górą odstępstwa od pionowego ukształtowania słupków zastosował między innymi Morandi (Rys. \ref{fig:bridges_morandi}). 
+
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[]{/mosty_wstep/photos/Morandi-works.jpg}
+	\captionsetup{justification=centering}
+	\caption{\textit{Paul Sauer Bridge} - most betonowy z jazdą gorą i słupkami ukośnymi. Projektant: Riccardo Morandi \parencite{Morandi1962}}
+	\label{fig:bridges_morandi}
+\end{figure}
+
+W przypadku obiektów z jazdą dołem występują trzy główne schematy rozkłady wieszaków:
 \begin{itemize}
 	\item wieszaki proste,
 	\item wieszaki ukośne,
 	\item wieszaki typu Network.
 \end{itemize}
+
 Wieszaki proste są tradycyjnym rozwiązaniem i nie wymagają szerszego omówienia. System wieszaków ukośnych został zaproponowany przez Octaviusa F. Nielsena w roku 1926. Przyczynkiem do opracowania tego rozwiązania było zjawisko wyłączania się niektórych wieszaków prostych przy obciążeniu ruchomym. W systemie Nielsena nie przewidziano przecinania się wieszaków. W roku 1955 Per Tveit w swojej pracy magisterskiej zaproponował rozwiązanie, w którym niektóre z wieszaków przecinają się przynajmniej dwukrotnie \parencite{Tveit2019}. System ten nazwano z języka angielskiego jako Network. \cite{Tveit2019} podaje zalety wynikające z zastosowania wieszaków typu Network. Poniżej przytoczono kilka najważniejszych:
 \begin{itemize}
 	\item zapewniają najmniejszą smukłość i lekkość konstrukcji spośród wszystkich wariantów konstrukcji łukowych,
 	\item znajdują zastosowanie zarówno w mostach drogowych jak i kolejowych,
-	\item większa sztywność globalna konstrukcji - mniejsze ugięcia i mniejsze obroty na podporach,
-	\item drastyczne zmniejszenie długości wyboczeniowej łuku w płaszczyźnie wieszaków.
+	\item większa sztywność globalna konstrukcji - mniejsze ugięcia i mniejsze obroty na podporach.
 \end{itemize}
 W ocenie 
 
 
 - typy wieszaków - sztywne przegubowe
-- typy dźwigarów
 
-Mosty łukowe wykonywane są obecnie z dwóch materiałów: stali i betonu (w tym betonu sprężonego). Zależnie od materiału dźwigar łukowy może posiadać różną strukturę. Najczęściej łuki występują w trzech formach \
-
-- zagrożenie drganiami wieszaków - Huta zawadzka, Zobel Zoltowski
+ zagrożenie drganiami wieszaków - Huta zawadzka, Zobel Zoltowski
 - mosty z pomostem usytuowanym powyżej łuku 
 Strzałki (Pszenicki Madaj)
 
 \begin{figure}[h]
 	\centering
-	\subfloat[wieszki proste]{\includegraphics[width=0.7\linewidth]{/mosty_wstep/mosty-proste.pdf}}  \\
-	\subfloat[wieszaki ukośne]{\includegraphics[width=0.7\linewidth]{/mosty_wstep/mosty-ukosne.pdf}} \\
-	\subfloat[wieszaki typu Network]{\includegraphics[width=0.7\linewidth]{/mosty_wstep/mosty-network.pdf}}
+	\subfloat[wieszki proste]{\includegraphics[width=0.7\linewidth,page=1]{/mosty_wstep/mosty.pdf}}  \\
+	\subfloat[wieszaki ukośne]{\includegraphics[width=0.7\linewidth,page=2]{/mosty_wstep/mosty.pdf}} \\
+	\subfloat[wieszaki typu Network]{\includegraphics[width=0.7\linewidth,page=3]{/mosty_wstep/mosty.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Układy statyczne mostów łukowych ze ściągiem różniących się układem wieszaków}
 	\label{fig:bridges_types_hangers}

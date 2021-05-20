@@ -23,8 +23,29 @@ Setup=
 OriginalSheetPath=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
 Has Plot Port=0
 Has3DDWF=0
+[DWF6Sheet:mosty-gora]
+DWG=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Layout=gora
+Setup=
+OriginalSheetPath=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:mosty-dol]
+DWG=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Layout=dol
+Setup=
+OriginalSheetPath=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:mosty-posrednia]
+DWG=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Layout=posrednia
+Setup=
+OriginalSheetPath=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Has Plot Port=0
+Has3DDWF=0
 [Target]
-Type=5
+Type=6
 DWF=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.pdf
 OUT=D:\dr\latex_text\phd_kali\figures\mosty_wstep\
 PWD=
@@ -32,7 +53,8 @@ PWD=
 MRU=1
 File0=D:\dr\latex_text\phd_kali\figures\mosty_wstep\
 [MRU Sheet List]
-MRU=0
+MRU=1
+File0=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dsd
 [PdfOptions]
 IncludeHyperlinks=TRUE
 CreateBookmarks=TRUE

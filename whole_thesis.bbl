@@ -415,6 +415,78 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bathe - 2006 - Finite element procedures.pdf:pdf
       \endverb
     \endentry
+    \entry{Biliszczuk2015}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=15c2cf8fa89415ae52ee7b81b4496076}{%
+           family={Biliszczuk},
+           familyi={B\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Wroc{ł}aw}%
+      }
+      \list{publisher}{1}{%
+        {Dolnośla̧skie Wydawnictwo Edukacyjne}%
+      }
+      \strng{namehash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \strng{fullhash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \strng{bibnamehash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \strng{authorbibnamehash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \strng{authornamehash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \strng{authorfullhash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mosty {ł}ukowe w Polsce. Historia, wspó{ł}czesność, przysz{ł}ość}}
+      \field{year}{2015}
+      \field{pages}{112}
+      \range{pages}{1}
+    \endentry
+    \entry{Biliszczuk2015a}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=15c2cf8fa89415ae52ee7b81b4496076}{%
+           family={Biliszczuk},
+           familyi={B\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2fec88112045eb81bef37a96c326ec4}{%
+           family={Teichgraeber},
+           familyi={T\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eaef46d32caf775b6e3fc8b9abb571e7}{%
+           family={Volotsiuga},
+           familyi={V\bibinitperiod},
+           given={Volodymyr},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Wroc{ł}aw}%
+      }
+      \strng{namehash}{279e3133ed485bd0fed0674d993e6578}
+      \strng{fullhash}{279e3133ed485bd0fed0674d993e6578}
+      \strng{bibnamehash}{279e3133ed485bd0fed0674d993e6578}
+      \strng{authorbibnamehash}{279e3133ed485bd0fed0674d993e6578}
+      \strng{authornamehash}{279e3133ed485bd0fed0674d993e6578}
+      \strng{authorfullhash}{279e3133ed485bd0fed0674d993e6578}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
+      \field{title}{{Najwiȩksze mosty {ł}ukowe świata}}
+      \field{year}{2015}
+    \endentry
     \entry{Blackwell2019}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8f7df105c9e0f1f7b35a6511e23b7d0a}{%
@@ -1076,6 +1148,44 @@
       \field{year}{1998}
       \keyw{Dynamika budowli,Dynamika konstrukcji -- podrȩczniki akademickie}
     \endentry
+    \entry{Cholewo1965}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8544c7ff9512bfe21460f230e2976da7}{%
+           family={Cholewo},
+           familyi={C\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac9cd2f11c514fbf11c1dc7d0d5756b8}{%
+           family={Sznurowski},
+           familyi={S\bibinitperiod},
+           given={Mieczys{ł}aw},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \list{publisher}{1}{%
+        {Wydawnictwo Komunikacji i {Ł}a̧czności}%
+      }
+      \strng{namehash}{af30cce24d5a4c1876768d340840ecc0}
+      \strng{fullhash}{af30cce24d5a4c1876768d340840ecc0}
+      \strng{bibnamehash}{af30cce24d5a4c1876768d340840ecc0}
+      \strng{authorbibnamehash}{af30cce24d5a4c1876768d340840ecc0}
+      \strng{authornamehash}{af30cce24d5a4c1876768d340840ecc0}
+      \strng{authorfullhash}{af30cce24d5a4c1876768d340840ecc0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mosty kolejowe i fundamentowanie}}
+      \field{year}{1965}
+      \field{pages}{711}
+      \range{pages}{1}
+    \endentry
     \entry{Chopra2012a}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ebb43022d4093fd1968e4e0bc4ec81b0}{%
@@ -1423,6 +1533,40 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Coello Coello, Reyes-Sierra - 2006 - Multi-Objective Particle Swarm Optimizers A Survey of the State-of-the-Art.pdf:pdf
       \endverb
     \endentry
+    \entry{Contributors2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c2897d4738d8fd643743ca427344b1f3}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{fullhash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{bibnamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{authorbibnamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{authornamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{authorfullhash}{c2897d4738d8fd643743ca427344b1f3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{List of longest arch bridge spans - Wikipedia}}
+      \field{urlday}{20}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/List{\_}of{\_}longest{\_}arch{\_}bridge{\_}spans{\#}cite{\_}note-80
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/List%7B%5C_%7Dof%7B%5C_%7Dlongest%7B%5C_%7Darch%7B%5C_%7Dbridge%7B%5C_%7Dspans%7B%5C#%7Dcite%7B%5C_%7Dnote-80
+      \endverb
+    \endentry
     \entry{Czaja2000}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=00663ddf4c1a797e89037db4d79b86f1}{%
@@ -1463,6 +1607,36 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Czaja, Preweda - 2000 - Analiza statystyczna zmiennej losowej wielowymiarowej w aspekcie korelacji i predykcji.pdf:pdf
       \endverb
       \keyw{analiza statystyczna,correlation,info:eu-repo/semantics/article,korelacja,prediction,predykcja,statistic analysis}
+    \endentry
+    \entry{Czudek1997}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ffb08fc7afdb8210eb72a2cbd76589da}{%
+           family={Czudek},
+           familyi={C\bibinitperiod},
+           given={Henryk},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \list{publisher}{1}{%
+        {Oficyna Wydawnicza Politechniki Warszawskiej}%
+      }
+      \strng{namehash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \strng{fullhash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \strng{bibnamehash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \strng{authorbibnamehash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \strng{authornamehash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \strng{authorfullhash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Podstawy mostownictwa metalowego}}
+      \field{year}{1997}
     \endentry
     \entry{Dan2015}{article}{}
       \name{author}{3}{}{%
@@ -4553,6 +4727,40 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Liang et al. - 2006 - Comprehensive learning particle swarm optimizer for global optimization of multimodal functions.pdf:pdf
       \endverb
     \endentry
+    \entry{Lin2017}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3692a0834aa4f676d5e7d198a1c23d12}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Weiwei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8331e019eb7680aef71062f912c6f36d}{%
+           family={Yoda},
+           familyi={Y\bibinitperiod},
+           given={Teruhiko},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Butterworth-Heinemann}%
+      }
+      \strng{namehash}{6602c4a019008fb55c9236662119534d}
+      \strng{fullhash}{6602c4a019008fb55c9236662119534d}
+      \strng{bibnamehash}{6602c4a019008fb55c9236662119534d}
+      \strng{authorbibnamehash}{6602c4a019008fb55c9236662119534d}
+      \strng{authornamehash}{6602c4a019008fb55c9236662119534d}
+      \strng{authorfullhash}{6602c4a019008fb55c9236662119534d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0128044330}
+      \field{title}{{Bridge engineering: classifications, design loading, and analysis methods}}
+      \field{year}{2017}
+    \endentry
     \entry{Lv2019}{article}{}
       \name{author}{5}{ul=2}{%
         {{un=0,uniquepart=base,hash=3e7bd5254cd327b5fe8ba2b3c0b95f4d}{%
@@ -4988,6 +5196,38 @@
       \field{title}{{Application of particle swarm to multiobjective optimization}}
       \field{type}{techreport}
       \field{year}{1999}
+    \endentry
+    \entry{Morandi1962}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30e12e8727828a890fb6e0c1e4d1e302}{%
+           family={Morandi},
+           familyi={M\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \strng{fullhash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \strng{bibnamehash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \strng{authorbibnamehash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \strng{authornamehash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \strng{authorfullhash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Society of Arts}
+      \field{number}{5066}
+      \field{title}{{ENGINEERING AND ARCHITECTURE}}
+      \field{volume}{110}
+      \field{year}{1962}
+      \field{pages}{75\bibrangedash 92}
+      \range{pages}{18}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Morandi - 1962 - ENGINEERING AND ARCHITECTURE.pdf:pdf
+      \endverb
     \endentry
     \entry{Muncke2008}{incollection}{}
       \name{author}{1}{}{%
@@ -5888,6 +6128,38 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Poprawa - 2018 - Operacyjna analiza modalna w badaniach kratowych most{\'{o}}w kolejowych pod pr{\'{o}}bnym obcia{\.{z}}eniem dynamicznym.pdf:pdf
       \endverb
+    \endentry
+    \entry{Pszenicki1954}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd20c479bc88797e773deff8d369c91e}{%
+           family={Pszenicki},
+           familyi={P\bibinitperiod},
+           given={Andrzej},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \list{publisher}{1}{%
+        {Wydawnictwa Komunikacyjne}%
+      }
+      \strng{namehash}{dd20c479bc88797e773deff8d369c91e}
+      \strng{fullhash}{dd20c479bc88797e773deff8d369c91e}
+      \strng{bibnamehash}{dd20c479bc88797e773deff8d369c91e}
+      \strng{authorbibnamehash}{dd20c479bc88797e773deff8d369c91e}
+      \strng{authornamehash}{dd20c479bc88797e773deff8d369c91e}
+      \strng{authorfullhash}{dd20c479bc88797e773deff8d369c91e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mosty stalowe nitowane}}
+      \field{year}{1954}
+      \field{pages}{459}
+      \range{pages}{1}
     \endentry
     \entry{Pulido2005OnTU}{thesis}{}
       \name{author}{1}{}{%
@@ -7787,6 +8059,36 @@
       \field{pages}{815\bibrangedash 821}
       \range{pages}{7}
     \endentry
+    \entry{Wachalski2015}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=848afda6ebb44546d2bb5acc88142812}{%
+           family={Wa̧chalski},
+           familyi={W\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Wroc{ł}aw}%
+      }
+      \strng{namehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{fullhash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{bibnamehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{authorbibnamehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{authornamehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{authorfullhash}{848afda6ebb44546d2bb5acc88142812}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
+      \field{title}{{Most przez Wis{ł}ȩ w Toruniu}}
+      \field{year}{2015}
+      \field{pages}{59\bibrangedash 72}
+      \range{pages}{14}
+    \endentry
     \entry{Warner2012}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f5867b8c2053f5c95ed8577f04264d64}{%
@@ -8210,7 +8512,7 @@
       \verb 10.1016/j.ins.2018.12.072
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop//Zaman et al. - 2019 - Multi-method based algorithm for multi-objective problems under uncertainty.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Zaman et al. - 2019 - Multi-method based algorithm for multi-objective problems under uncertainty.pdf:pdf
       \endverb
     \endentry
     \entry{Zavala2014}{article}{}

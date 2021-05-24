@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.15)  21 MAY 2021 19:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.15)  24 MAY 2021 14:30
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -1546,29 +1546,28 @@ File: ./figures///mosty_wstep/mosty.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures///mosty_wstep/mosty.pdf , page5 used on inpu
 t line 23.
 (pdftex.def)             Requested size: 298.75262pt x 70.67332pt.
-<./figures///mosty_wstep/photos/zelbet_lukowy_lalikach_wielkich_fot_kaz_flaga.j
-pg, id=33, 246.6816pt x 163.812pt>
-File: ./figures///mosty_wstep/photos/zelbet_lukowy_lalikach_wielkich_fot_kaz_fl
-aga.jpg Graphic file (type jpg)
-<use ./figures///mosty_wstep/photos/zelbet_lukowy_lalikach_wielkich_fot_kaz_fla
-ga.jpg>
-Package pdftex.def Info: ./figures///mosty_wstep/photos/zelbet_lukowy_lalikach_
-wielkich_fot_kaz_flaga.jpg  used on input line 32.
-(pdftex.def)             Requested size: 204.85802pt x 136.0414pt.
+<./figures///mosty_wstep/photos/keller-polska-pale-cfa-pkm-gdansk-8.jpg, id=33,
+ 1053.9375pt x 703.87968pt>
+File: ./figures///mosty_wstep/photos/keller-polska-pale-cfa-pkm-gdansk-8.jpg Gr
+aphic file (type jpg)
+<use ./figures///mosty_wstep/photos/keller-polska-pale-cfa-pkm-gdansk-8.jpg>
+Package pdftex.def Info: ./figures///mosty_wstep/photos/keller-polska-pale-cfa-
+pkm-gdansk-8.jpg  used on input line 33.
+(pdftex.def)             Requested size: 204.85802pt x 136.81026pt.
 <./figures///mosty_wstep/photos/Krakow_most_Pilsudskiego.jpg, id=34, 776.6616pt
  x 517.6941pt>
 File: ./figures///mosty_wstep/photos/Krakow_most_Pilsudskiego.jpg Graphic file 
 (type jpg)
 <use ./figures///mosty_wstep/photos/Krakow_most_Pilsudskiego.jpg>
 Package pdftex.def Info: ./figures///mosty_wstep/photos/Krakow_most_Pilsudskieg
-o.jpg  used on input line 33.
+o.jpg  used on input line 35.
 (pdftex.def)             Requested size: 204.85802pt x 136.54843pt.
 <./figures///mosty_wstep/photos/most_pulawy.jpg, id=35, 288.8391pt x 192.4791pt
 >
 File: ./figures///mosty_wstep/photos/most_pulawy.jpg Graphic file (type jpg)
 <use ./figures///mosty_wstep/photos/most_pulawy.jpg>
 Package pdftex.def Info: ./figures///mosty_wstep/photos/most_pulawy.jpg  used o
-n input line 34.
+n input line 37.
 (pdftex.def)             Requested size: 204.85802pt x 136.51718pt.
 <./figures///mosty_wstep/photos/Wolin_-_most_obwodowy_DK3_d_radoslaw_drozdzewsk
 i.jpg, id=36, 481.3182pt x 320.8788pt>
@@ -1577,7 +1576,7 @@ zewski.jpg Graphic file (type jpg)
 <use ./figures///mosty_wstep/photos/Wolin_-_most_obwodowy_DK3_d_radoslaw_drozdz
 ewski.jpg>
 Package pdftex.def Info: ./figures///mosty_wstep/photos/Wolin_-_most_obwodowy_D
-K3_d_radoslaw_drozdzewski.jpg  used on input line 35.
+K3_d_radoslaw_drozdzewski.jpg  used on input line 39.
 (pdftex.def)             Requested size: 204.85802pt x 136.56998pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1590,6 +1589,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7 <./figures///mosty_wstep/mosty.pdf> <./figures///mosty_wstep/mosty.pdf> <./f
 igures///mosty_wstep/mosty.pdf>]
 
+LaTeX Warning: Citation 'Abramski2019' on page 8 undefined on input line 58.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -1597,17 +1599,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8 <./figures///mosty_wstep/photos/zelbet_lukowy_lalikach_wielkich_fot_kaz_flag
-a.jpg> <./figures///mosty_wstep/photos/Krakow_most_Pilsudskiego.jpg> <./figures
-///mosty_wstep/photos/most_pulawy.jpg> <./figures///mosty_wstep/photos/Wolin_-_
-most_obwodowy_DK3_d_radoslaw_drozdzewski.jpg>]
+[8 <./figures///mosty_wstep/photos/keller-polska-pale-cfa-pkm-gdansk-8.jpg> <./
+figures///mosty_wstep/photos/Krakow_most_Pilsudskiego.jpg> <./figures///mosty_w
+step/photos/most_pulawy.jpg> <./figures///mosty_wstep/photos/Wolin_-_most_obwod
+owy_DK3_d_radoslaw_drozdzewski.jpg>]
 <./figures///mosty_wstep/photos/pingnan_third_bridge.jpeg, id=57, 889.47693pt x
  533.68616pt>
 File: ./figures///mosty_wstep/photos/pingnan_third_bridge.jpeg Graphic file (ty
 pe jpg)
 <use ./figures///mosty_wstep/photos/pingnan_third_bridge.jpeg>
 Package pdftex.def Info: ./figures///mosty_wstep/photos/pingnan_third_bridge.jp
-eg  used on input line 64.
+eg  used on input line 68.
 (pdftex.def)             Requested size: 165.97574pt x 99.58464pt.
 <./figures///mosty_wstep/photos/High_BB_from_Bayonne_jeh_croped.jpg, id=58, 566
 .115pt x 259.6902pt>
@@ -1615,7 +1617,7 @@ File: ./figures///mosty_wstep/photos/High_BB_from_Bayonne_jeh_croped.jpg Graphi
 c file (type jpg)
 <use ./figures///mosty_wstep/photos/High_BB_from_Bayonne_jeh_croped.jpg>
 Package pdftex.def Info: ./figures///mosty_wstep/photos/High_BB_from_Bayonne_je
-h_croped.jpg  used on input line 65.
+h_croped.jpg  used on input line 69.
 (pdftex.def)             Requested size: 217.0868pt x 99.58464pt.
 <./figures///mosty_wstep/photos/Torun_most_Zawackiej_croped.jpg, id=59, 1599.87
 712pt x 430.0065pt>
@@ -1623,14 +1625,14 @@ File: ./figures///mosty_wstep/photos/Torun_most_Zawackiej_croped.jpg Graphic fi
 le (type jpg)
 <use ./figures///mosty_wstep/photos/Torun_most_Zawackiej_croped.jpg>
 Package pdftex.def Info: ./figures///mosty_wstep/photos/Torun_most_Zawackiej_cr
-oped.jpg  used on input line 66.
+oped.jpg  used on input line 70.
 (pdftex.def)             Requested size: 389.80266pt x 104.76526pt.
 <./figures///mosty_wstep/photos/Morandi-works.jpg, id=60, 342.5598pt x 133.4954
 2pt>
 File: ./figures///mosty_wstep/photos/Morandi-works.jpg Graphic file (type jpg)
 <use ./figures///mosty_wstep/photos/Morandi-works.jpg>
 Package pdftex.def Info: ./figures///mosty_wstep/photos/Morandi-works.jpg  used
- on input line 82.
+ on input line 86.
 (pdftex.def)             Requested size: 342.55894pt x 133.49509pt.
 
 
@@ -1651,7 +1653,7 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 File: ./figures///mosty_wstep/mosty.pdf Graphic file (type pdf)
 <use ./figures///mosty_wstep/mosty.pdf, page 1>
 Package pdftex.def Info: ./figures///mosty_wstep/mosty.pdf , page1 used on inpu
-t line 112.
+t line 116.
 (pdftex.def)             Requested size: 298.75262pt x 70.67332pt.
 
 
@@ -1661,7 +1663,7 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 File: ./figures///mosty_wstep/mosty.pdf Graphic file (type pdf)
 <use ./figures///mosty_wstep/mosty.pdf, page 2>
 Package pdftex.def Info: ./figures///mosty_wstep/mosty.pdf , page2 used on inpu
-t line 113.
+t line 117.
 (pdftex.def)             Requested size: 298.75262pt x 70.67332pt.
 
 
@@ -1671,7 +1673,7 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 File: ./figures///mosty_wstep/mosty.pdf Graphic file (type pdf)
 <use ./figures///mosty_wstep/mosty.pdf, page 3>
 Package pdftex.def Info: ./figures///mosty_wstep/mosty.pdf , page3 used on inpu
-t line 114.
+t line 118.
 (pdftex.def)             Requested size: 298.75262pt x 70.67332pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1714,7 +1716,7 @@ File: ./figures///dynamic_railway/railway_bridges_forces_croped.pdf Graphic fil
 e (type pdf)
 <use ./figures///dynamic_railway/railway_bridges_forces_croped.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/railway_bridges_forces_cro
-ped.pdf  used on input line 168.
+ped.pdf  used on input line 172.
 (pdftex.def)             Requested size: 426.79134pt x 245.4951pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1735,7 +1737,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [14]
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 199.
+(Font)              <5> on input line 203.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1765,7 +1767,7 @@ File: ./figures///dynamic_railway/ec_algorithm_dyna.pdf Graphic file (type pdf)
 
 <use ./figures///dynamic_railway/ec_algorithm_dyna.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/ec_algorithm_dyna.pdf  use
-d on input line 228.
+d on input line 232.
 (pdftex.def)             Requested size: 426.79134pt x 595.71802pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1795,7 +1797,7 @@ File: ./figures///dynamic_railway/ec_algorithm_dyna_boundary.pdf Graphic file (
 type pdf)
 <use ./figures///dynamic_railway/ec_algorithm_dyna_boundary.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/ec_algorithm_dyna_boundary
-.pdf  used on input line 241.
+.pdf  used on input line 245.
 (pdftex.def)             Requested size: 426.79134pt x 262.96172pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1832,7 +1834,7 @@ File: ./figures///dynamic_railway/types_of_trains_articulated.pdf Graphic file
 (type pdf)
 <use ./figures///dynamic_railway/types_of_trains_articulated.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/types_of_trains_articulate
-d.pdf  used on input line 277.
+d.pdf  used on input line 281.
 (pdftex.def)             Requested size: 378.43309pt x 68.98454pt.
 
 
@@ -1845,7 +1847,7 @@ File: ./figures///dynamic_railway/types_of_trains_conventional.pdf Graphic file
  (type pdf)
 <use ./figures///dynamic_railway/types_of_trains_conventional.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/types_of_trains_convention
-al.pdf  used on input line 278.
+al.pdf  used on input line 282.
 (pdftex.def)             Requested size: 381.06119pt x 68.3281pt.
 
 
@@ -1858,10 +1860,10 @@ File: ./figures///dynamic_railway/types_of_trains_regular.pdf Graphic file (typ
 e pdf)
 <use ./figures///dynamic_railway/types_of_trains_regular.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/types_of_trains_regular.pd
-f  used on input line 279.
+f  used on input line 283.
 (pdftex.def)             Requested size: 358.06604pt x 65.04384pt.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10.95> on input line 281.
+(Font)              <10.95> on input line 285.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1873,7 +1875,7 @@ pdfTeX warning: pdflatex.exe (file ./figures///dynamic_railway/hslm_a.pdf): PDF
 File: ./figures///dynamic_railway/hslm_a.pdf Graphic file (type pdf)
 <use ./figures///dynamic_railway/hslm_a.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/hslm_a.pdf  used on input 
-line 288.
+line 292.
 (pdftex.def)             Requested size: 374.48787pt x 98.98755pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1886,14 +1888,14 @@ pdfTeX warning: pdflatex.exe (file ./figures///dynamic_railway/hslm_b.pdf): PDF
 File: ./figures///dynamic_railway/hslm_b.pdf Graphic file (type pdf)
 <use ./figures///dynamic_railway/hslm_b.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/hslm_b.pdf  used on input 
-line 296.
+line 300.
 (pdftex.def)             Requested size: 425.40353pt x 135.86124pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 302.
+               Default added (so using `tbp') on input line 306.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1927,7 +1929,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 b.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 340.
+               Default added (so using `tbp') on input line 344.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1958,7 +1960,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [26]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 415.
+               Default added (so using `tbp') on input line 419.
 
 
 
@@ -1971,13 +1973,13 @@ File: ./figures///dynamic_railway/simp_comfort_class.pdf Graphic file (type pdf
 )
 <use ./figures///dynamic_railway/simp_comfort_class.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/simp_comfort_class.pdf  us
-ed on input line 431.
+ed on input line 435.
 (pdftex.def)             Requested size: 420.96037pt x 240.02112pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (3.7124pt too wide) in paragraph at lines 437--438
+Overfull \hbox (3.7124pt too wide) in paragraph at lines 441--442
 []\T1/cmr/m/n/12 Obiekt ko-le-jowy uznaje si¡ za po-praw-nie za-pro-jek-to-wany
  je-±li speª-nione s¡ wszyst-
  []
@@ -7167,15 +7169,20 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                whole_thesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40814 strings out of 479321
- 1016841 string characters out of 2855152
- 1827857 words of memory out of 12000000
- 57142 multiletter control sequences out of 15000+600000
+ 40831 strings out of 479321
+ 1017230 string characters out of 2855152
+ 1829831 words of memory out of 12000000
+ 57159 multiletter control sequences out of 15000+600000
  469872 words of font info for 194 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,24n,107p,3216b,2086s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -7240,7 +7247,7 @@ sers/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl120
 per/sfti1095.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/cm-super/sfti1200.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/cm-super/sftt1095.pfb>
-Output written on whole_thesis.pdf (186 pages, 98186012 bytes).
+Output written on whole_thesis.pdf (186 pages, 98362713 bytes).
 PDF statistics:
  8464 PDF objects out of 8907 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

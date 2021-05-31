@@ -76,7 +76,7 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Abido - 2006 - Multiobjective evolutionary algorithms for electric power dispatch problem.pdf:pdf
       \endverb
     \endentry
-    \entry{Abramski2020}{inproceedings}{}
+    \entry{Abramski2019}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6c8e96d050aa2448696b585b670fd31e}{%
            family={Abramski},
@@ -86,7 +86,10 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Wroc{ł}aw, Poland}%
+        {Gdańsk}%
+      }
+      \list{publisher}{1}{%
+        {Politechnika Gdańska}%
       }
       \strng{namehash}{6c8e96d050aa2448696b585b670fd31e}
       \strng{fullhash}{6c8e96d050aa2448696b585b670fd31e}
@@ -100,10 +103,10 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{IABSE Symposium Wroc{ł}aw 2020. Synergy of Culture and Civil Engineering – History and Challenges.}
-      \field{month}{10}
-      \field{title}{{Concrete-filled FRP tubular members in marine and bridge structures}}
-      \field{year}{2020}
+      \field{title}{{Doraźna nośność s{ł}upów o przekroju ko{ł}owym z rur FRP wype{ł}nionych betonem Badania, teoria, obliczanie.}}
+      \field{year}{2019}
+      \field{pages}{154}
+      \range{pages}{1}
     \endentry
     \entry{Allemang1982}{inproceedings}{}
       \name{author}{2}{}{%

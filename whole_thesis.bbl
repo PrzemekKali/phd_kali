@@ -880,6 +880,31 @@
       \endverb
       \keyw{Operational modal analysis,Structural identification,Suspension bridge,operational modal analysis,structural identification,suspension bridge}
     \endentry
+    \entry{BundesanstaltfurWasserbauHg.2018}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=93fc4e0addf9ea20f7a7d914c7d16618}{%
+           family={{Bundesanstalt für Wasserbau (Hg.)}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \strng{fullhash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \strng{bibnamehash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \strng{authorbibnamehash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \strng{authornamehash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \strng{authorfullhash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Leitfaden zum Anhang NA . F Bemessung von Hängern an Stabbogenbrücken DIN EN 1993-2 / NA : 2014-10}}
+      \field{type}{techreport}
+      \field{year}{2018}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bundesanstalt f{\"{u}}r Wasserbau (Hg.) - 2018 - Leitfaden zum Anhang NA . F Bemessung von H{\"{a}}ngern an Stabbogenbr{\"{u}}cken DIN EN 1993-2 NA 2014.pdf:pdf
+      \endverb
+    \endentry
     \entry{Caicedo2011}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5695936b17324eaa43dd230ada313ec7}{%
@@ -2241,6 +2266,27 @@
       \field{title}{{Eurokod 1: Oddzia{ł}ywania na konstrukcje Czȩść 2: Obcia̧żenia ruchome mostów}}
       \field{year}{2007}
     \endentry
+    \entry{PN-EN-1993-1-112008}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ee08cc629d0e630a69a5406b31c12a65}{%
+           family={PN-EN-1993-1-11},
+           familyi={P\bibinithyphendelim E\bibinithyphendelim 1\bibinithyphendelim 1\bibinithyphendelim 1\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee08cc629d0e630a69a5406b31c12a65}
+      \strng{fullhash}{ee08cc629d0e630a69a5406b31c12a65}
+      \strng{bibnamehash}{ee08cc629d0e630a69a5406b31c12a65}
+      \strng{authorbibnamehash}{ee08cc629d0e630a69a5406b31c12a65}
+      \strng{authornamehash}{ee08cc629d0e630a69a5406b31c12a65}
+      \strng{authorfullhash}{ee08cc629d0e630a69a5406b31c12a65}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Eurokod 3: Projektowanie konstrukcji stalowych. Czȩść 1-11: Konstrukcje ciȩgnowe}}
+      \field{year}{2008}
+    \endentry
     \entry{ERRI1996}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=96d70e4d39a19bbd0198a5739464bef4}{%
@@ -3076,6 +3122,59 @@
       \field{year}{2013}
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Golub, Van Loan - 2013 - Matrix computations, 4th.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Gunther2000}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=bfaf25e05d41a52806f5bbb523a123d5}{%
+           family={Günther},
+           familyi={G\bibinitperiod},
+           given={Gerhard\bibnamedelima H},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02a3722d3837cee4023733191011b97b}{%
+           family={Sedlacek},
+           familyi={S\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe03112cf5f9504f3b825f2d1b09290a}{%
+           family={Hortmanns},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1102c6e194b525be8bf49f5f791bcff}{%
+           family={Schwarzkopf},
+           familyi={S\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84930344b98f2fb5ec15c71a49216085}{%
+           family={Bohmann},
+           familyi={B\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21229bd9f1b6116bfc3f6b26f284055f}
+      \strng{fullhash}{8409aed81b04573ac7daf94c0ed2d895}
+      \strng{bibnamehash}{21229bd9f1b6116bfc3f6b26f284055f}
+      \strng{authorbibnamehash}{21229bd9f1b6116bfc3f6b26f284055f}
+      \strng{authornamehash}{21229bd9f1b6116bfc3f6b26f284055f}
+      \strng{authorfullhash}{8409aed81b04573ac7daf94c0ed2d895}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Stahlbau}
+      \field{title}{{Dauerhafte Ausführung von Hängeranschlüssen an stählernen Bogenbrücken}}
+      \field{volume}{69}
+      \field{year}{2000}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/G{\"{u}}nther et al. - 2000 - Dauerhafte Ausf{\"{u}}hrung von H{\"{a}}ngeranschl{\"{u}}ssen an st{\"{a}}hlernen Bogenbr{\"{u}}cken.pdf:pdf
       \endverb
     \endentry
     \entry{Haftka2016}{article}{}
@@ -8968,6 +9067,40 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Zitzler, Thiele - 1999 - Multiobjective evolutionary algorithms a comparative case study and the strength Pareto approach.pdf:pdf
       \endverb
+    \endentry
+    \entry{Zobel2015}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=84c970bc85ba9507a27aad6cd4e6dfbf}{%
+           family={Zobel},
+           familyi={Z\bibinitperiod},
+           given={Henryk},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2a9957d640a6cc73bbe6075b7328972}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Wroc{ł}aw}%
+      }
+      \strng{namehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \strng{fullhash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \strng{bibnamehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \strng{authorbibnamehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \strng{authornamehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \strng{authorfullhash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
+      \field{title}{{Wieszaki mostów {ł}ukowych}}
+      \field{year}{2015}
     \endentry
     \entry{Zotowski2017c}{article}{}
       \name{author}{3}{}{%

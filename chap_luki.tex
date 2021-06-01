@@ -1,7 +1,8 @@
 \chapter{Kolejowe, łukowe przęsła mostowe}
-\section{Przegląd}
+\section{Wstęp}
 
-\section{Układy statyczne (pomosty,wieszaki,łuki,ściągi)}
+
+\section{Układ statyczny i konstrukcja mostów łukowych}
 
 W celu łatwiejszego odbioru dalszych rozważań na wstępie przedstawiono klasyfikację mostów łukowych. Tradycyjnie mosty łukowe wykonywane były jako pełne sklepienia, ze ściankami czołowymi i z wnęką wypełnioną piaskiem, żwirem lub słabym betonem. Ukształtowany w ten sposób ustrój mógł być wykonany z tradycyjnych materiałów takich jak na przykład kamień \parencite{Szczygie1978}. Obecnie tego typu obiekty wykonuje się niezmiernie rzadko. Służyły one do przekraczania raczej niewielkich rozpiętości (do ok. 40 m) i w dzisiejszych czasach zostały wyparte głównie przez strunobetonowe konstrukcje prefabrykowane \parencite{Ciesla2013} i obiekty gruntowo-powłokowe \parencite{Janusz2009,Tomala2019}. Podobną formę geometryczną, ze ścianami czołowymi działającymi jako elementy konstrukcyjne stanowią łuki tarczowe. Obecnie mosty łukowe wykonuje się głównie w formie konstrukcji belkowo-płytowych. 
 
@@ -10,7 +11,7 @@ W celu łatwiejszego odbioru dalszych rozważań na wstępie przedstawiono klasy
 Z punktu widzenia schematu statycznego dźwigara łukowego wyróżnia się łuki bezprzegubowe (utwierdzone), dwuprzegubowe i trójprzegubowe. Wybór schematu statycznego miał niegdyś większe znaczenie ze względu na różny stopień złożoności obliczeniowej układów. Obecnie obliczanie układów statycznie niewyznaczalnych nie stanowi problemu dzięki obliczeniom z wykorzystaniem MES. Dzięki temu bez popełnienia błędu obliczeniowego można wyeliminować z wnętrza konstrukcji przeguby, które z punktu widzenia trwałości konstrukcji są elementami niepożądanymi. Z drugiej strony, jak wiadomo układy statycznie wyznaczalne są odporne na obciążenia drugorzędne i należy je stosować w przypadku zagrożenia na przykład przemieszczenia podpór. Niezależnie od zmian w podejściu do projektowania aktualną pozostaje reguła przytoczona przez \cite{Pszenicki1954}: \textquote{Zasadą jest, że obliczenie powinno odpowiadać konstrukcji (...).}. Stąd wybór schematu statycznego musi odpowiadać nie tylko teoretycznym założeniom, ale możliwościom ukształtowania warunków brzegowych w rzeczywistej konstrukcji. 
 
 Ze względu na wzajemne usytuowanie pomostu i dźwigarów łukowych można wyszczególnić następujące rodzaje konstrukcji:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item pomost usytuowany w całości nad łukiem - z jazdą górą (Rys. \ref{fig:bri_deck_loc_top}, \ref{fig:arch_deck_bridges_a}),
 	\item pomost usytuowany w całości poniżej łuku - z jazdą dołem (Rys. \ref{fig:bri_deck_loc_middle}, \ref{fig:arch_deck_bridges_b}),
 	\item pomost usytuowany pośrednio - z jazdą pośrednią (Rys. \ref{fig:bri_deck_loc_bott}, \ref{fig:arch_deck_bridges_c}).
@@ -89,10 +90,10 @@ Połączenie pomiędzy pomostem, a dźwigarem łukowym realizuje się za pomocą
 	\label{fig:bridges_morandi}
 \end{figure}
 
-W przypadku obiektów z jazdą dołem występują trzy główne schematy rozkłady wieszaków:
+W przypadku obiektów z jazdą dołem występują trzy główne schematy rozkładu wieszaków:
 \begin{itemize}[noitemsep]
 	\item wieszaki proste (Rys. \ref{fig:bridges_types_hangers_a}),
-	\item wieszaki ukośne (Nielsena) (Rys. \ref{fig:bridges_types_hangers_b}),
+	\item wieszaki ukośne - Nielsena (Rys. \ref{fig:bridges_types_hangers_b}),
 	\item wieszaki typu Network (Rys. \ref{fig:bridges_types_hangers_c}).
 \end{itemize}
 
@@ -108,20 +109,36 @@ W przypadku obiektów z jazdą dołem występują trzy główne schematy rozkła
 
 Wieszaki proste są tradycyjnym rozwiązaniem. Względem pozostałych typów charakteryzują się przede wszystkich prostotą wykonania i znacznie mniejszą sztywnością globalną przęsła. System wieszaków ukośnych został zaproponowany przez Octaviusa F. Nielsena w roku 1926. Przyczynkiem do opracowania tego rozwiązania było zjawisko wyłączania się niektórych wieszaków prostych przy obciążeniu ruchomym. W systemie Nielsena nie przewidziano przecinania się wieszaków, a jedynie nachylenie ich pod kątem. Ewolucję tego rozwiązania zaproponował w roku 1955 Per Tveit w swojej pracy magisterskiej. W tym wariancie niektóre z wieszaków przecinają się przynajmniej dwukrotnie \parencite{Tveit2019}. W Polsce funkcjonuje angielska nazwa tego sytemu \textit{Network}. \cite{Tveit2019} podał największą zaletę korzystania z wieszaków typu Network: zapewniają najmniejszą smukłość i lekkość konstrukcji spośród wszystkich wariantów konstrukcji łukowych. Wynika to z większej - w porównaniu do innych systemów - sztywności globalnej konstrukcji, a w konsekwencji powstają mniejsze ugięcia w przęśle i mniejsze obroty na podporach.
 
-Obecnie stosowane są trzy rodzaje wieszaków:
+W warunkach idealnych podstawowym schematem pracy wieszaka jest osiowe rozciąganie. W rzeczywistości istnieją jednak również inne obciążenia działające na wieszaki, zaburzające stan osiowego rozciągania. Sa to przede wszystkim \parencite{Zobel2015}:
+\begin{itemize}[noitemsep]
+	\item obciążenie poprzeczne od ciężaru własnego (system Nielsena i Network),
+	\item obciążenie wiatrem,
+	\item wpływ imperfekcji montażowych,
+	\item nierownomierne ogrzanie,
+	\item obciążenie oblodzeniem,
+	\item wzbudzenia dynamiczne od drgań konstrukcji i zmian ciśnienia powietrza podczas przejazdu,
+	\item ryzyko wyboczenia przy ściskaniu.
+\end{itemize}
+
+Elementem strukturalnym, który predestynowany jest do pracy w stanie osiowego rozciągania jest cięgno. Pomimo, że schemat statyczny konstrukcji łukowej najczęściej zakłada przegubowe połączenie pomiędzy wieszakami i dźwigarem w rzeczywistości stosowane są rozwiązania mniej lub bardziej spełniające to założenie. Dwie skrajności stanowią wieszaki sztywno i przegubowo połączone z dźwigarem. 
+
+
+Sztywne połączenie może wystąpić dla wieszaków posiadających istotną sztywność giętną lub na tyle wiotkich, że sztywność giętna jest pomijalna. Pierwsze wykonywane są z profili pełnościennych stalowych lub z betonu sprężonego. W przeszłości takie rozwiązanie wykorzystywano, ponieważ niemożliwe lub nieracjonalne technologiczne było wykonanie wieszaków cięgnowych. Z taką sytuacją można spotkać się na przykład w łukowych mostach nitowanych (Rys. ) z pierwszej połowy XX w. Obecnie tego typu wieszaki wykorzystywane są kiedy konstrukcja wymaga usztywnienia poprzecznego łuku, na przykład w przypadku braku stężeń górnych. Należy pamiętać, że w takim przypadku obliczeniowo struktura odbiega w swojej pracy od schematu statycznego łuku i przybliża się do kratownicy Vierendeela. Sztywno połączone z konstrukcją mogą być również wieszaki prętowe o małej sztywności giętnej. Wykonywane są najczęściej jako spawane do blach węzłowych (Rys. \ref{}) Rozwiązanie to ma uzasadnienie przede wszystkim ekonomiczne - jest tańsze niż rozwiązania systemowe. Ze względu na złożony stan naprężeń w połączeniu należy zwrócić szczególną uwagę na zalecenia konstrukcyjne i technologiczne \parencite{Gunther2000,BundesanstaltfurWasserbauHg.2018,Szafranski2017}. 
+
+Drugą obszerną grupę rozwiązań stanowią cięgna połączone przegubowo z konstrukcją. Elementy połączone w ten sposób z reguły są wiotkie i traktowane jako cięgna. Obecnie stosowane są następujące typy wieszaków cięgnowych:
 \begin{itemize}[noitemsep]
 	\item pręty okrągłe (Rys. \ref{fig:bridges_hangers_cs_a}),
 	\item liny standardowe (Rys. \ref{fig:bridges_hangers_cs_b}) i zamknięte (Rys. \ref{fig:bridges_hangers_cs_c}),
-	\item wiązki drutów równoległych i splotów (Rys. \ref{fig:bridges_hangers_cs_d}, z indywidualnymi lub zbiorczymi zakotwieniami
+	\item wiązki drutów równoległych lub splotów (Rys. \ref{fig:bridges_hangers_cs_d}), z indywidualnymi lub zbiorczymi zakotwieniami
 \end{itemize}
 
-Typy połączeń:
-
-
- zagrożenie drganiami wieszaków - Huta zawadzka, Zobel Zoltowski
-- mosty z pomostem usytuowanym powyżej łuku 
-Strzałki (Pszenicki Madaj)
-
+Wieszaki cięgnowe połączone z konstrukcją przegubowo w większości wchodzą w skład prefabrykowanych systemów. Dzięki odpowiedniemu systemowi jakości wykonania i badaniom laboratoryjnym potwierdzonych aprobatami, w trakcie projektowania nie ma konieczności konstruowania i sprawdzania poszczególnych elementów połączenia przegubowego i mechanizmów regulacji. Cięgna dobiera się na podstawie katalogów w zależności od wymaganej nośności. Ma to istotne znaczenie zwłaszcza w kontekście wymogów normowych. W zakresie normy \parencite{PN-EN-1993-1-112008} dotyczącej projektowania konstrukcji cięgnowych mieszczą się wszystkie wymienione wyżej typy cięgien połączonych przegubowo. Norma przede wszystkim podaje zasady ustalania wymagań technicznych cięgien dla oceny bezpieczeństwa, użytkowalności trwałości. Podobnie jak w Eurokodzie 0 wyróżnia 3 stany graniczne, które muszą być spełnione przy projektowaniu:
+\begin{itemize}[noitemsep]
+	\item Stan Graniczny Nośności \teng{Ultimate Limit State} - porównanie siły osiowej z nośnością obliczeniową przy rozciąganiu,
+	\item Stan Graniczny Użytkowania \teng{Serviceability Limit State} - ograniczenie wartości naprężeń i odkształceń,
+	\item Stan Graniczny Zmęczenia \teng{Fatigue Limit State} - sprawdzenie zakresów zmienności naprężeń.
+\end{itemize}
+Dodatkowo w normie zapisano wymóg możliwości regulacji i wymiany cięgien. 
 
 
 \begin{figure}[h]
@@ -137,7 +154,9 @@ Strzałki (Pszenicki Madaj)
 
 
 
-\section{MES + KALIBRAJCA}
+\section{Obliczenia konstrukcji za pomocą Metody Elementów Skończonych}
+Metody analityczne wyznaczania wartości odpowiedzi czy stanu konstrukcji nie mają już wiodącego zastosowania przy rozwiązywaniu w rzeczywistych problemów inżynierskich. 
+\subsection{Kalibracja modeli MES}
 
 \section{Dynamiczne obciążenie kolejowe}
 Ryzyko nadmiernych drgań mostów kolejowych jest rozpatrywane od samych początków budowy dróg szynowych w Angli na początku XIX w \parencite{Ladislav1996}. Historię tę zwięźle przedstawił w swojej pracy \cite{Szafranski2013}, opierając się na obszernych studiach literatury. Podsumowując doświadczenia naukowców i inżynierów, poza wyjątkowymi przypadkami wykolejeń i uderzeń pociągów w elementy konstrukcyjne, wywołanie niebezpiecznych amplitud drgań mostów związane jest głównie ze zjawiskiem rezonansu. Rezonans mechaniczny może wystąpić w przypadku kiedy pojawia się obciążenie cykliczne, którego częstotliwość oddziaływania pokrywa się z częstotliwością drgań własnych konstrukcji mostu. Kiedy obciążenie jest długotrwałe i w układzie nie ma tłumienia amplitudy drgań mogą teoretycznie rosnąć w nieskończoność. W rzeczywistych konstrukcjach, nie mam możliwości bezgranicznego wzrostu amplitud, z uwagi na tłumienie układu i skończony czas oddziaływania obciążeń ruchomych. Niemniej jednak konstrukcje mostowe charakteryzują się zazwyczaj małym tłumieniem, a obciążenia kolejowe mogą charakteryzować się stosunkowo długim czasem oddziaływania o stałej częstotliwości wymuszenia. W połączeniu z ciągłym rozwojem zarówno taboru kolejowego jak i dróg szynowych, problem wprowadzenia mostu kolejowego w drgania ewoluuje i wymaga od inżynierów ciągłej pracy badawczej.

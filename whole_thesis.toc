@@ -15,222 +15,222 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Obliczenia konstrukcji za pomocą Metody Elementów Skończonych}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Kalibracja modeli MES}{12}{}%
+\contentsline {subsection}{\numberline {1.3.1}Kalibracja modeli MES}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Dynamiczne obciążenie kolejowe}{12}{}%
+\contentsline {section}{\numberline {1.4}Dynamiczne obciążenie kolejowe}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Oddziaływania dynamiczne taboru na mostach kolejowych}{13}{}%
+\contentsline {subsection}{\numberline {1.4.1}Oddziaływania dynamiczne taboru na mostach kolejowych}{14}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.2}Efekty dynamiczne w mostach kolejowych}{15}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.3}Przepisy normowe i wytyczne}{18}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algorytm wyboru zakresu analiz}{18}{}%
+\contentsline {subsubsection}{Algorytm wyboru zakresu analiz}{19}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Obciążenia}{21}{}%
+\contentsline {subsubsection}{Obciążenia}{22}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Parametry analizy dynamicznej}{25}{}%
+\contentsline {subsubsection}{Parametry analizy dynamicznej}{24}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Parametry mostów}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Kryteria oceny rozwiązania}{26}{}%
+\contentsline {subsubsection}{Kryteria oceny rozwiązania}{27}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Dynamiczna analiza konstrukcji}{30}{}%
+\contentsline {chapter}{\numberline {2}Dynamiczna analiza konstrukcji}{31}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Wiadomości wstępne}{30}{}%
+\contentsline {section}{\numberline {2.1}Wiadomości wstępne}{31}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Klasyfikacja metod analizy modalnej}{32}{}%
+\contentsline {section}{\numberline {2.2}Klasyfikacja metod analizy modalnej}{33}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Modele teoretyczne układów dynamicznych}{34}{}%
+\contentsline {section}{\numberline {2.3}Modele teoretyczne układów dynamicznych}{35}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Zagadnienie własne}{35}{}%
+\contentsline {subsection}{\numberline {2.3.1}Zagadnienie własne}{36}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Układ nietłumiony}{35}{}%
+\contentsline {subsubsection}{Układ nietłumiony}{36}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Układ tłumiony}{37}{}%
+\contentsline {subsubsection}{Układ tłumiony}{38}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Transformacja do współrzędnych normalnych}{38}{}%
+\contentsline {subsection}{\numberline {2.3.2}Transformacja do współrzędnych normalnych}{39}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Odpowiedź systemów dynamicznych o jednym stopniu swobody}{38}{}%
+\contentsline {subsection}{\numberline {2.3.3}Odpowiedź systemów dynamicznych o jednym stopniu swobody}{39}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Metoda klasyczna}{39}{}%
+\contentsline {subsubsection}{Metoda klasyczna}{40}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Całka Duhamela}{39}{}%
+\contentsline {subsubsection}{Całka Duhamela}{40}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Metoda przejścia do dziedziny częstotliwości}{39}{}%
+\contentsline {subsubsection}{Metoda przejścia do dziedziny częstotliwości}{40}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Metody numeryczne}{40}{}%
+\contentsline {subsubsection}{Metody numeryczne}{41}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Odpowiedź systemów dynamicznych o skończonej liczbie stopni swobody (MDOF)}{41}{}%
+\contentsline {subsection}{\numberline {2.3.4}Odpowiedź systemów dynamicznych o skończonej liczbie stopni swobody (MDOF)}{42}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Metoda superpozycji modalnej}{41}{}%
+\contentsline {subsubsection}{Metoda superpozycji modalnej}{42}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Metoda całkowania bezpośredniego równań ruchu - Newmarka}{43}{}%
+\contentsline {subsubsection}{Metoda całkowania bezpośredniego równań ruchu - Newmarka}{44}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}MES?}{44}{}%
+\contentsline {subsection}{\numberline {2.3.5}MES?}{45}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.6}Mała dawka tłumienia}{44}{}%
+\contentsline {subsection}{\numberline {2.3.6}Mała dawka tłumienia}{45}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Identyfikacja cech dynamicznych konstrukcji}{47}{}%
+\contentsline {chapter}{\numberline {3}Identyfikacja cech dynamicznych konstrukcji}{48}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Operacyjna analiza modalna (OMA)}{47}{}%
+\contentsline {section}{\numberline {3.1}Operacyjna analiza modalna (OMA)}{48}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Koncepcja OMA}{47}{}%
+\contentsline {subsection}{\numberline {3.1.1}Koncepcja OMA}{48}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Metody operacyjnej analizy modalnej}{48}{}%
+\contentsline {subsection}{\numberline {3.1.2}Metody operacyjnej analizy modalnej}{49}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Przykłady zastosowań (literatura i własne)}{51}{}%
+\contentsline {section}{\numberline {3.2}Przykłady zastosowań (literatura i własne)}{52}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Metoda NExT-ERA}{51}{}%
+\contentsline {section}{\numberline {3.3}Metoda NExT-ERA}{52}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Funkcje korelacji, a odpowiedź swobodna układu}{51}{}%
+\contentsline {subsection}{\numberline {3.3.1}Funkcje korelacji, a odpowiedź swobodna układu}{52}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Eigenystem Realization Algorithm}{58}{}%
+\contentsline {subsection}{\numberline {3.3.2}Eigenystem Realization Algorithm}{59}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Liniowy model dynamiczny w przestrzeni stanów}{58}{}%
+\contentsline {subsubsection}{Liniowy model dynamiczny w przestrzeni stanów}{59}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Odpowiedź impulsowa w przestrzeni stanów}{60}{}%
+\contentsline {subsubsection}{Odpowiedź impulsowa w przestrzeni stanów}{61}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sformułowanie macierzy Hankela}{61}{}%
+\contentsline {subsubsection}{Sformułowanie macierzy Hankela}{62}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Realizacja minimalna modelu w przestrzeni stanów}{62}{}%
+\contentsline {subsubsection}{Realizacja minimalna modelu w przestrzeni stanów}{63}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dekompozycja według wartości osobliwych (SVD)}{63}{}%
+\contentsline {subsubsection}{Dekompozycja według wartości osobliwych (SVD)}{64}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Identyfikacja parametrów modalnych}{65}{}%
+\contentsline {subsubsection}{Identyfikacja parametrów modalnych}{66}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Aplikacja do identyfikacji modalnej OMA}{66}{}%
+\contentsline {section}{\numberline {3.4}Aplikacja do identyfikacji modalnej OMA}{67}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Algorytm programu}{66}{}%
+\contentsline {subsection}{\numberline {3.4.1}Algorytm programu}{67}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Elementy oceny poprawności rozwiązania}{68}{}%
+\contentsline {subsection}{\numberline {3.4.2}Elementy oceny poprawności rozwiązania}{69}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Model Phase Colinearity (MPC)}{69}{}%
+\contentsline {subsubsection}{Model Phase Colinearity (MPC)}{70}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Modal Assurance Criterion (MAC)}{70}{}%
+\contentsline {subsubsection}{Modal Assurance Criterion (MAC)}{71}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Testy numeryczne metody NEXT-ERA}{71}{}%
+\contentsline {subsection}{\numberline {3.4.3}Testy numeryczne metody NEXT-ERA}{72}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Testy eksperymentalne metody NEXT-ERA}{75}{}%
+\contentsline {subsection}{\numberline {3.4.4}Testy eksperymentalne metody NEXT-ERA}{76}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Częstotliwość próbkowania}{78}{}%
+\contentsline {subsubsection}{Częstotliwość próbkowania}{79}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Długość pomiarów}{78}{}%
+\contentsline {subsubsection}{Długość pomiarów}{79}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Stosunek sygnału do szumu pomiarowego}{79}{}%
+\contentsline {subsubsection}{Stosunek sygnału do szumu pomiarowego}{80}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Przebieg badań}{79}{}%
+\contentsline {subsubsection}{Przebieg badań}{80}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Rezultaty badań}{80}{}%
+\contentsline {subsubsection}{Rezultaty badań}{81}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Podsumowanie testów metody NExT-ERA}{82}{}%
+\contentsline {section}{\numberline {3.5}Podsumowanie testów metody NExT-ERA}{83}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}{84}{}%
+\contentsline {chapter}{\numberline {4}Optymalizacja metodą roju cząstek - Particle Swarm Optimizaton}{85}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Klasyfikacja problemów i metod\\optymalizacji}{85}{}%
+\contentsline {section}{\numberline {4.1}Klasyfikacja problemów i metod\\optymalizacji}{86}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Określenie funkcji celu i wybór metody optymalizacji}{87}{}%
+\contentsline {section}{\numberline {4.2}Określenie funkcji celu i wybór metody optymalizacji}{88}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Particle Swarm Optimization}{87}{}%
+\contentsline {section}{\numberline {4.3}Particle Swarm Optimization}{88}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Parametry algorytmu PSO}{88}{}%
+\contentsline {subsubsection}{Parametry algorytmu PSO}{89}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Topologie roju}{88}{}%
+\contentsline {subsubsection}{Topologie roju}{89}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Generacja populacji}{90}{}%
+\contentsline {subsubsection}{Generacja populacji}{91}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Warunki brzegowe}{91}{}%
+\contentsline {subsubsection}{Warunki brzegowe}{92}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Warunki zakończenia}{92}{}%
+\contentsline {subsubsection}{Warunki zakończenia}{93}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Schemat blokowy algorytmu}{93}{}%
+\contentsline {subsubsection}{Schemat blokowy algorytmu}{94}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Zastosowania optymalizacji algorytmem PSO}{94}{}%
+\contentsline {section}{\numberline {4.4}Zastosowania optymalizacji algorytmem PSO}{95}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Przykład teoretyczny}{94}{}%
+\contentsline {subsection}{\numberline {4.4.1}Przykład teoretyczny}{95}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Optymalizacja wielokryterialna}{96}{}%
+\contentsline {section}{\numberline {4.5}Optymalizacja wielokryterialna}{97}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Optymalizacja wielokryterialna rojem cząstek}{99}{}%
+\contentsline {section}{\numberline {4.6}Optymalizacja wielokryterialna rojem cząstek}{100}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Schemat blokowy algorytmu MOPSO}{101}{}%
+\contentsline {subsubsection}{Schemat blokowy algorytmu MOPSO}{102}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.1}Przykład teoretyczny}{102}{}%
+\contentsline {subsection}{\numberline {4.6.1}Przykład teoretyczny}{103}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Optymalizacja wspomagana uczeniem maszynowym}{105}{}%
+\contentsline {section}{\numberline {4.7}Optymalizacja wspomagana uczeniem maszynowym}{106}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}{107}{}%
+\contentsline {chapter}{\numberline {5}Wiadukt WK2 w ciągu Pomorskiej Kolei Metropolitalnej}{108}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Charakterystyka obiektu}{107}{}%
+\contentsline {section}{\numberline {5.1}Charakterystyka obiektu}{108}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Budowa modelu numerycznego}{109}{}%
+\contentsline {section}{\numberline {5.2}Budowa modelu numerycznego}{110}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Identyfikacja modalna wiaduktu WK2}{113}{}%
+\contentsline {section}{\numberline {5.3}Identyfikacja modalna wiaduktu WK2}{114}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Wybór punktów pomiarowych}{114}{}%
+\contentsline {subsubsection}{Wybór punktów pomiarowych}{115}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Parametry akwizycji danych}{117}{}%
+\contentsline {subsubsection}{Parametry akwizycji danych}{118}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Przebieg badań}{118}{}%
+\contentsline {subsubsection}{Przebieg badań}{119}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Środki obciążeniowe}{118}{}%
+\contentsline {subsubsection}{Środki obciążeniowe}{119}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Analiza i rezultaty badań}{119}{}%
+\contentsline {subsubsection}{Analiza i rezultaty badań}{120}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Kalibracja modelu numerycznego z wykorzystaniem PSO}{123}{}%
+\contentsline {section}{\numberline {5.4}Kalibracja modelu numerycznego z wykorzystaniem PSO}{124}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Funkcja celu}{125}{}%
+\contentsline {subsection}{\numberline {5.4.1}Funkcja celu}{126}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Zmienne projektowe}{126}{}%
+\contentsline {subsection}{\numberline {5.4.2}Zmienne projektowe}{127}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Algorytm kalibracji}{126}{}%
+\contentsline {subsection}{\numberline {5.4.3}Algorytm kalibracji}{127}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Analizy statyczna i modalna}{127}{}%
+\contentsline {subsubsection}{Analizy statyczna i modalna}{128}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Optymalizacja}{127}{}%
+\contentsline {subsubsection}{Optymalizacja}{128}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}Rezultaty kalibracji}{128}{}%
+\contentsline {subsection}{\numberline {5.4.4}Rezultaty kalibracji}{129}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Wpływ wymiarów elementów konstrukcyjnych na odpowiedź dynamiczną przęsła}{132}{}%
+\contentsline {section}{\numberline {5.5}Wpływ wymiarów elementów konstrukcyjnych na odpowiedź dynamiczną przęsła}{133}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Model uproszczony do analizy dynamicznej}{134}{}%
+\contentsline {subsection}{\numberline {5.5.1}Model uproszczony do analizy dynamicznej}{135}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Założenia do optymalizacji}{136}{}%
+\contentsline {subsection}{\numberline {5.5.2}Założenia do optymalizacji}{137}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Stan Graniczny Nośności}{136}{}%
+\contentsline {subsubsection}{Stan Graniczny Nośności}{137}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Stan Graniczny Użytkowania}{137}{}%
+\contentsline {subsubsection}{Stan Graniczny Użytkowania}{138}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Analiza dynamiczna}{137}{}%
+\contentsline {subsubsection}{Analiza dynamiczna}{139}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.3}Algorytm rozwiązania problemu}{138}{}%
+\contentsline {subsection}{\numberline {5.5.3}Algorytm rozwiązania problemu}{139}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Rezultaty optymalizacji}{139}{}%
+\contentsline {section}{\numberline {5.6}Rezultaty optymalizacji}{140}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.1}Wieszaki Proste - prędkość maksymalna 160 km/h}{143}{}%
+\contentsline {subsection}{\numberline {5.6.1}Wieszaki Proste - prędkość maksymalna 160 km/h}{144}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.2}Wieszaki Proste - prędkość maksymalna 200 km/h}{146}{}%
+\contentsline {subsection}{\numberline {5.6.2}Wieszaki Proste - prędkość maksymalna 200 km/h}{147}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.3}Wieszaki Proste - prędkość maksymalna 300 km/h}{149}{}%
+\contentsline {subsection}{\numberline {5.6.3}Wieszaki Proste - prędkość maksymalna 300 km/h}{150}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.4}Wieszaki Ukośne - prędkość maksymalna 160 km/h}{152}{}%
+\contentsline {subsection}{\numberline {5.6.4}Wieszaki Ukośne - prędkość maksymalna 160 km/h}{153}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.5}Wieszaki Ukośne - prędkość maksymalna 200 km/h}{155}{}%
+\contentsline {subsection}{\numberline {5.6.5}Wieszaki Ukośne - prędkość maksymalna 200 km/h}{156}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.6}Wieszaki Ukośne - prędkość maksymalna 300 km/h}{158}{}%
+\contentsline {subsection}{\numberline {5.6.6}Wieszaki Ukośne - prędkość maksymalna 300 km/h}{159}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.7}Wieszaki Network - prędkość maksymalna 160 km/h}{161}{}%
+\contentsline {subsection}{\numberline {5.6.7}Wieszaki Network - prędkość maksymalna 160 km/h}{162}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.8}Wieszaki Network - prędkość maksymalna 200 km/h}{164}{}%
+\contentsline {subsection}{\numberline {5.6.8}Wieszaki Network - prędkość maksymalna 200 km/h}{165}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.9}Wieszaki Network - prędkość maksymalna 300 km/h}{167}{}%
+\contentsline {subsection}{\numberline {5.6.9}Wieszaki Network - prędkość maksymalna 300 km/h}{168}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.10}Podsumowanie rezultatów optymalizacji}{170}{}%
+\contentsline {subsection}{\numberline {5.6.10}Podsumowanie rezultatów optymalizacji}{171}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Ocena wykonalności wariantów}{171}{}%
+\contentsline {subsubsection}{Ocena wykonalności wariantów}{172}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Elementy decydujące o zachowaniu dynamicznym}{171}{}%
+\contentsline {subsubsection}{Elementy decydujące o zachowaniu dynamicznym}{172}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Rozrzut maksymalnych przyspieszeń dla rozwiązań o tej samej masie}{172}{}%
+\contentsline {subsubsection}{Rozrzut maksymalnych przyspieszeń dla rozwiązań o tej samej masie}{173}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Podsumowanie i wnioski}{175}{}%
+\contentsline {chapter}{\numberline {6}Podsumowanie i wnioski}{176}{}%

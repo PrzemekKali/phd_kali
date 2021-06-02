@@ -519,6 +519,59 @@
       \field{title}{{Najwiȩksze mosty {ł}ukowe świata}}
       \field{year}{2015}
     \endentry
+    \entry{Binczyk2020a}{article}{}
+      \name{author}{4}{}{%
+        {{un=2,uniquepart=given,hash=fa74f5a78318bb0d0fb7ba3d1acfb4e6}{%
+           family={Binczyk},
+           familyi={B\bibinitperiod},
+           given={Mikolaj},
+           giveni={M\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=759fb0fc3681efe8d4247fb5b5809021}{%
+           family={Szulwic},
+           familyi={S\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4576a90f86b30499db3dc08a67ac74a}{%
+           family={Tysiac},
+           familyi={T\bibinitperiod},
+           given={Pawel},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{2d7bfb11d9896c11ca4e9508ac4387bd}
+      \strng{fullhash}{2a0972c4d7b56b398ceb7ed2251d9a05}
+      \strng{bibnamehash}{2d7bfb11d9896c11ca4e9508ac4387bd}
+      \strng{authorbibnamehash}{2d7bfb11d9896c11ca4e9508ac4387bd}
+      \strng{authornamehash}{2d7bfb11d9896c11ca4e9508ac4387bd}
+      \strng{authorfullhash}{2a0972c4d7b56b398ceb7ed2251d9a05}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{6}
+      \field{title}{{Nondestructive testing of the miter gates using various measurement methods}}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{pages}{1749}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop//Binczyk et al. - 2020 - Nondestructive testing of the miter gates using various measurement methods.pdf:pdf
+      \endverb
+    \endentry
     \entry{Blackwell2019}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8f7df105c9e0f1f7b35a6511e23b7d0a}{%
@@ -1622,6 +1675,72 @@
       \endverb
       \verb{url}
       \verb https://en.wikipedia.org/wiki/List%7B%5C_%7Dof%7B%5C_%7Dlongest%7B%5C_%7Darch%7B%5C_%7Dbridge%7B%5C_%7Dspans%7B%5C#%7Dcite%7B%5C_%7Dnote-80
+      \endverb
+    \endentry
+    \entry{Cudny2017}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=4474759ceb866b897fd12f316a5495cb}{%
+           family={Cudny},
+           familyi={C\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b8c1769fe8d32f1af40fc8bb7cc7e3f}{%
+           family={Duszyńska},
+           familyi={D\bibinitperiod},
+           given={Angelika},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5a2924e96127ef2f4b75d211c5d03d1}{%
+           family={Gwizdala},
+           familyi={G\bibinitperiod},
+           given={Kazimierz},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb0f818cd6e7a4508bc36df39e1d8144}{%
+           family={Żóltowski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4f44df4282fd1c03bf395ecdb56835d5}
+      \strng{fullhash}{b10bbfc28a7d7e269c0cadf0ce1ad130}
+      \strng{bibnamehash}{4f44df4282fd1c03bf395ecdb56835d5}
+      \strng{authorbibnamehash}{4f44df4282fd1c03bf395ecdb56835d5}
+      \strng{authornamehash}{4f44df4282fd1c03bf395ecdb56835d5}
+      \strng{authorfullhash}{b10bbfc28a7d7e269c0cadf0ce1ad130}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{18974007}
+      \field{journaltitle}{Archives of Institute of Civil Engineering}
+      \field{number}{24}
+      \field{title}{{Przyczólki mostowe wspomagane konstrukcjami z gruntu zbrojonego}}
+      \field{volume}{24}
+      \field{year}{2017}
+      \field{pages}{59\bibrangedash 74}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.21008/j.1897-4007.2017.24.04
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Cudny et al. - 2017 - Przycz{\'{o}}lki mostowe wspomagane konstrukcjami z gruntu zbrojonego.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/622/Cudny i in. - 2017 - Przycz{\'{o}}lki mostowe wspomagane konstrukcjami z gru.pdf http://files/623/200.html
+      \endverb
+      \verb{url}
+      \verb http://files/622/Cudny%20i%20in.%20-%202017%20-%20Przycz%7B%5C'%7Bo%7D%7Dlki%20mostowe%20wspomagane%20konstrukcjami%20z%20gru.pdf%20http://files/623/200.html
       \endverb
     \endentry
     \entry{Czaja2000}{article}{}
@@ -9076,12 +9195,12 @@
            given={Henryk},
            giveni={H\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=f2a9957d640a6cc73bbe6075b7328972}{%
+        {{un=1,uniquepart=given,hash=f2a9957d640a6cc73bbe6075b7328972}{%
            family={Żó{ł}towski},
            familyi={Ż\bibinitperiod},
            given={Piotr},
            giveni={P\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{location}{1}{%
         {Wroc{ł}aw}%
@@ -9110,18 +9229,18 @@
            given={Krzysztof},
            giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=3a3807f0b3b21a0699f4577e7d459c3a}{%
+        {{un=1,uniquepart=given,hash=3a3807f0b3b21a0699f4577e7d459c3a}{%
            family={Binczyk},
            familyi={B\bibinitperiod},
            given={Mikolaj\bibnamedelima Miko{ł}aj},
            giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=41fa4f90f5269a645ebdef8712425470}{%
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=41fa4f90f5269a645ebdef8712425470}{%
            family={Kalitowski},
            familyi={K\bibinitperiod},
            given={Przemys{ł}aw},
            giveni={P\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \list{language}{1}{%
         {en}%
@@ -9283,6 +9402,257 @@
       \endverb
       \verb{url}
       \verb http://files/744/Zuluaga%20i%20in.%20-%20Active%20Learning%20for%20Multi-Objective%20Optimization.pdf
+      \endverb
+    \endentry
+    \entry{Zotowski2016d}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=fa74f5a78318bb0d0fb7ba3d1acfb4e6}{%
+           family={Binczyk},
+           familyi={B\bibinitperiod},
+           given={Mikolaj},
+           giveni={M\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \strng{fullhash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \strng{bibnamehash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \strng{authorbibnamehash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \strng{authornamehash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \strng{authorfullhash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materialy Budowlane}
+      \field{number}{1}
+      \field{title}{{Niekonwencjonalna metoda korekty si{ł}y w wieszaku drogowego wiaduktu lukowego}}
+      \field{year}{2016}
+      \field{pages}{66\bibrangedash 68}
+      \range{pages}{3}
+      \verb{urlraw}
+      \verb http://files/619/bwmeta1.element.html http://files/645/bwmeta1.element.html
+      \endverb
+      \verb{url}
+      \verb http://files/619/bwmeta1.element.html%20http://files/645/bwmeta1.element.html
+      \endverb
+    \endentry
+    \entry{Zotowski2018c}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=e04fefba95be94cf71b2dcad052b4cb9}{%
+           family={Binczyk},
+           familyi={B\bibinitperiod},
+           given={Miko{ł}aj},
+           giveni={M\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \strng{fullhash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \strng{bibnamehash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \strng{authorbibnamehash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \strng{authornamehash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \strng{authorfullhash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Estakada E1 w cia̧gu obwodnicy Wa{ł}cza. Konsekwencje przyjȩtej technologii sprȩżenia}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://files/624/estakada-e1-w-ciagu-obwodnicy-walcza-konsekwencje-przyjetej-technologii-sprezenia,147762-1.html
+      \endverb
+      \verb{url}
+      \verb http://files/624/estakada-e1-w-ciagu-obwodnicy-walcza-konsekwencje-przyjetej-technologii-sprezenia,147762-1.html
+      \endverb
+    \endentry
+    \entry{Zotowski2017h}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{fullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{bibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorbibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authornamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorfullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \field{extraname}{1}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materialy Budowlane}
+      \field{number}{4}
+      \field{title}{{Most zwodzony przez Martwa̧ Wis$\backslash$lȩ w Gdańsku-Sobieszewie–wybrane zagadnienia dynamiczne}}
+      \field{year}{2017}
+      \field{pages}{58\bibrangedash 60}
+      \range{pages}{3}
+      \verb{urlraw}
+      \verb http://files/637/bwmeta1.element.html
+      \endverb
+      \verb{url}
+      \verb http://files/637/bwmeta1.element.html
+      \endverb
+    \endentry
+    \entry{Zotowski2017a}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{fullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{bibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorbibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authornamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorfullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \field{extraname}{2}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Uszkodzona belka typu T wiaduktu drogowego. Ocena uszkodzeń i naprawa}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://files/621/uszkodzona-belka-typu-t-wiaduktu-drogowego-ocena-uszkodzen-i-naprawa,142263-1.html
+      \endverb
+      \verb{url}
+      \verb http://files/621/uszkodzona-belka-typu-t-wiaduktu-drogowego-ocena-uszkodzen-i-naprawa,142263-1.html
+      \endverb
+    \endentry
+    \entry{Zotowski2018a}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{fullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{bibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorbibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authornamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorfullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \field{extraname}{3}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Shell model of multiple-row moment I-section end-plate joint}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://files/641/shell-model-of-multiple-row-moment-i-section-end-plate-joint,142360-1.html
+      \endverb
+      \verb{url}
+      \verb http://files/641/shell-model-of-multiple-row-moment-i-section-end-plate-joint,142360-1.html
+      \endverb
+    \endentry
+    \entry{Zotowski2018d}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=9f23303d6015be118df99198c1ecbf95}{%
+           family={Żó$\backslash$ltowski},
+           familyi={Ż\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \strng{fullhash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \strng{bibnamehash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \strng{authorbibnamehash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \strng{authornamehash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \strng{authorfullhash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materialy Budowlane}
+      \field{number}{3}
+      \field{title}{{Estakada E2-kluczowy obiekt Obwodnicy Wa{ł}cza}}
+      \field{year}{2018}
+      \field{pages}{14\bibrangedash 16}
+      \range{pages}{3}
+      \verb{urlraw}
+      \verb http://files/638/estakada-e2-kluczowy-obiekt-obwodnicy-walcza,145497-1.html
+      \endverb
+      \verb{url}
+      \verb http://files/638/estakada-e2-kluczowy-obiekt-obwodnicy-walcza,145497-1.html
       \endverb
     \endentry
   \enddatalist

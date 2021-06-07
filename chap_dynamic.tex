@@ -239,22 +239,25 @@ Zastosowanie powyższych trzech metody wyznaczania odpowiedzi dynamicznej ograni
 
 Stworzono wiele metod i algorytmów numerycznych służących skutecznemu rozwiązaniu równań ruchu. Powstało również wiele pozycji traktujących o tym zagadnieniu (LITERATRA). Z tego względu przytoczono tylko podstawowe pojęcia i założenia dotyczące istoty rozwiązań numerycznych.
 
-Metody numeryczne w głównej mierze opierają się na mechanizmie kroku czasowego \teng{time-step} (p. \ref{section: mdof_response}). Zwykle nie jest to rozwiązanie ścisłe. Metody dostarczają jedynie przybliżonych rozwiązań, dlatego też muszą spełniać następujące kryteria:
+Do rozwiązywania równań ruchu najczęściej używane są metody numeryczne wykorzystujące bezpośrednie całkowanie względem czasu. Opierają się ona na konepcji kroku czasowego \teng{time-step} (p. \ref{section: mdof_response}). Popularność metod bezpośredniego całkowania wynika z ich uniwersalności. Należy jednak pamiętać, że nie jest to rozwiązanie ścisłe. Metody dostarczają jedynie przybliżonych rozwiązań w danych krokach czasowych, dlatego też muszą spełniać następujące kryteria:
 \begin{itemize}[noitemsep]
 	\item zbieżności \teng{convergence} - wraz ze zmniejszeniem kroku czasowego, rozwiązanie powinno zmierzać do rozwiązania dokładnego,
 	\item stabilności \teng{stability} - rozwiązanie powinno być stabilne pomimo występowania błędów zaokrągleń,
-	\item dokładności \teng{accuracy} - rozwiązanie powinno być dostatecznie bliskie rozwiązanie dokładnego.
+	\item dokładności \teng{accuracy} - rozwiązanie powinno być dostatecznie bliskie rozwiązania dokładnego.
 \end{itemize}
-Wśród metod numerycznych, które okazały się skuteczne w rozwiązaniach problemów możemy wyróżnić trzy główne:
+Wśród metod numerycznych, które okazały się skuteczne w rozwiązaniach problemów dynamicznych możemy wyróżnić następujące \parencite{Rakowski2016}:
 \begin{itemize}[noitemsep]
-\item metoda interpolacji funkcji wymuszającej,
-\item metoda różnic skończonych,
-\item metoda średniego lub liniowego przyspieszenia w przedziale różnicowym, oparte na metodzie Newmark'a.
+\item uogólniona metoda różnic skończonych,
+\item metoda SSPj (Zienkiewicz-Wood)
+\item metoda Newmarka,
+\item metoda Wilsona, 
+\item metoda Houbolta.
+ 
 \end{itemize}
-Pomimo, że powyższe metody są opisane dla układu SDOF, są łatwo uogólniane i praktycznie wykorzystywane do obliczania układów MDOF. Algorytm metody Newmark'a jest najpowszechniej używany w obliczeniach konstrukcji inżynierskich oraz został wykorzystany w niniejszej pracy. Stąd w następnym podrozdziale zawarto zwięzły opis jego działania.
+Pomimo, że powyższe metody są opisane dla układu SDOF, są łatwo uogólniane i praktycznie wykorzystywane do obliczania układów MDOF. Algorytm metody Newmark lub podobny do niego algorytm Wilsona są najpowszechniej używane w obliczeniach konstrukcji inżynierskich. Algorytm Newmarka został wykorzystany w niniejszej pracy, stąd w następnym podrozdziale zawarto zwięzły opis jego działania.
 
 
-\subsection{Odpowiedź systemów dynamicznych o skończonej liczbie stopni swobody (MDOF)} \label{section: mdof_response}
+\subsection{Wyznaczanie odpowiedzi systemów dynamicznych o skończonej liczbie stopni swobody (MDOF)} \label{section: mdof_response}
 
 Systemy o skończonej liczbie stopni swobody mogą charakteryzować się tłumieniem klasycznym (proporcjonalnym) bądź nieklasycznym (nieproporcjonalnym). Mogą być liniowe lub nieliniowe geometrycznie lub materiałowo. Czynniki te mają wpływ na wybór metody przewidywania odpowiedzi takiego układu. Macierzowe równanie ruchu dla układu o $N$ stopniach swobody możemy zapisać jako $N$ równań różniczkowych w formie (\ref{eq: mot_und_num})
 \begin{equation} \label{eq: mot_und_num}
@@ -343,7 +346,7 @@ gdzie współczynniki $\beta$ i $\gamma$ definiują zmienność przyspieszeń w 
 \end{itemize}
 Metoda numeryczna do wyznaczenia trzech niewiadomych $\vect{\ddot{x}}_{i+1}$, $\vect{\dot{x}}_{i+1}$ i $\vect{x}_{i+1}$ wymaga układu trzech równań macierzowych. Zatem dwa zaproponowane równania \ref{eq: newmark_a} i \ref{eq: newmark_b}, połączone z równaniem równowagi (\ref{eq: motion_time_step}) zapewnionym na końcu kroku czasowego, pozwalają wyznaczyć przemieszczenia, prędkość i przyspieszenia w chwili $t_{i+1}$. Ze względu na występowanie w równaniach (\ref{eq: newmark}) składników w chwili czasowej $i+1$ po obu stronach równania, algorytm musi mieć charakter iteracyjny. Jednakże istnieją modyfikacje równań, które dla układów liniowych pozwalają rozwiązać układ w jednym kroku. 
 
-
+Z KSIĄŻKI
 \section{Miary i modele tłumienia}
 Drgania układów rzeczywistych nierozerwalnie związane są tłumieniem. Wśród polskich autorów obszerne rozważania na temat tłumienia drgań mostów przeprowadził \cite{Salamak2003}. Określa on tlumienie drgań jako w prosty sposób jako rozproszenie energii mechanicznej drgającego układu. Tłumienie można podzielić ze względu na źródło na konstrukcyjne i zewnętrzne. Pierwsze wynika między innymi z wewnętrznego tarcia wiskotycznego materiałów budowlanych w trakcie deformacji czy niejednorodności materiału i jego spękań. Tłumieniem zewnętrznym określa się wszystkie czynniki działające z zewnątrz na konstrukcję. Mogą być związane z tarciem niechybnie wystepującym na łożyskach, w tłuczniu i w połączeniach, z interackcją pomiędzy konstrukcją, a powietrzem, czy z wiskoelastycznych parametrów posadowienia.
 

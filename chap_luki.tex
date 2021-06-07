@@ -1,11 +1,238 @@
 \chapter{Kolejowe, łukowe przęsła mostowe}
-\section{Przegląd}
-\section{Układy statyczne (pomosty,wieszaki,łuki,ściągi)}
+\section{Wstęp}
 
-\section{MES + KALIBRAJCA}
+
+\section{Układ statyczny i konstrukcja mostów łukowych}
+
+W celu łatwiejszego odbioru dalszych rozważań na wstępie przedstawiono klasyfikację mostów łukowych. Tradycyjnie mosty łukowe wykonywane były jako pełne sklepienia, ze ściankami czołowymi i z wnęką wypełnioną piaskiem, żwirem lub słabym betonem. Ukształtowany w ten sposób ustrój mógł być wykonany z tradycyjnych materiałów takich jak na przykład kamień \parencite{Szczygie1978}. Obecnie tego typu obiekty wykonuje się niezmiernie rzadko. Służyły one do przekraczania raczej niewielkich rozpiętości (do ok. 40 m) i w dzisiejszych czasach zostały wyparte głównie przez strunobetonowe konstrukcje prefabrykowane \parencite{Ciesla2013} i obiekty gruntowo-powłokowe \parencite{Janusz2009,Tomala2019}. Podobną formę geometryczną, ze ścianami czołowymi działającymi jako elementy konstrukcyjne stanowią łuki tarczowe. Obecnie mosty łukowe wykonuje się głównie w formie konstrukcji belkowo-płytowych. 
+
+
+\subsubsection{Kształt i schemat statyczny konstrukcji}
+Z punktu widzenia schematu statycznego dźwigara łukowego wyróżnia się łuki bezprzegubowe (utwierdzone), dwuprzegubowe i trójprzegubowe. Wybór schematu statycznego miał niegdyś większe znaczenie ze względu na różny stopień złożoności obliczeniowej układów. Obecnie obliczanie układów statycznie niewyznaczalnych nie stanowi problemu dzięki obliczeniom z wykorzystaniem MES. Dzięki temu bez popełnienia błędu obliczeniowego można wyeliminować z wnętrza konstrukcji przeguby, które z punktu widzenia trwałości konstrukcji są elementami niepożądanymi. Z drugiej strony, jak wiadomo układy statycznie wyznaczalne są odporne na obciążenia drugorzędne i należy je stosować w przypadku zagrożenia na przykład przemieszczenia podpór. Niezależnie od zmian w podejściu do projektowania aktualną pozostaje reguła przytoczona przez \cite{Pszenicki1954}: \textquote{Zasadą jest, że obliczenie powinno odpowiadać konstrukcji (...).}. Stąd wybór schematu statycznego musi odpowiadać nie tylko teoretycznym założeniom, ale możliwościom ukształtowania warunków brzegowych w rzeczywistej konstrukcji. 
+
+Ze względu na wzajemne usytuowanie pomostu i dźwigarów łukowych można wyszczególnić następujące rodzaje konstrukcji:
+\begin{itemize}[noitemsep]
+	\item pomost usytuowany w całości nad łukiem - z jazdą górą (Rys. \ref{fig:bri_deck_loc_top}, \ref{fig:arch_deck_bridges_a}),
+	\item pomost usytuowany w całości poniżej łuku - z jazdą dołem (Rys. \ref{fig:bri_deck_loc_middle}, \ref{fig:arch_deck_bridges_d}),
+	\item pomost usytuowany pośrednio - z jazdą pośrednią (Rys. \ref{fig:bri_deck_loc_bott}, \ref{fig:arch_deck_bridges_e}).
+\end{itemize}
+
+\begin{figure}[hbt!]
+	\centering
+	\subfloat[most łukowy z jazdą górą]{\includegraphics[width=0.7\linewidth,page=4]{/mosty_wstep/mosty.pdf},\label{fig:bri_deck_loc_top}}  \\
+	\subfloat[most łukowy z jazdą pośrednią]{\includegraphics[width=0.7\linewidth,page=6]{/mosty_wstep/mosty.pdf},\label{fig:bri_deck_loc_middle}} \\
+	\subfloat[most łukowy z jazdą dołem]{\includegraphics[width=0.7\linewidth,page=5]{/mosty_wstep/mosty.pdf},\label{fig:bri_deck_loc_bott}}
+	\captionsetup{justification=centering}
+	\caption{Klasyfikacja mostów łukowych ze względu na wzajemne położenie pomostu i dźwigara}
+	\label{fig:bridges_types_deck_location}
+\end{figure}
+
+%\begin{figure}[bt!]
+%	\centering
+%	\captionsetup{justification=centering}
+%	
+%	\subfloat[Wiadukt WK-11 w ciągu PKM Gdańsk (fot. materiały archiwalne firmy Keller)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/keller-polska-pale-cfa-pkm-gdansk-8.jpg} \label{fig:arch_deck_bridges_a}} \;
+%	%
+%	\subfloat[Most im. Marszałka Piłsudzkiego w Krakowie (fot. Jakub Hałun/wikipedia.org)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/Krakow_most_Pilsudskiego.jpg} \label{fig:arch_deck_bridges_b}} \\
+%	%
+%	\subfloat[Most im. Jana Pawła II w Puławach\\(fot. Kamil Lewandowski/Gmina Puławy)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/most_pulawy.jpg} \label{fig:arch_deck_bridges_c}} \;
+%	%
+%	\subfloat[Most na Dziwnie w ciągu obwodnicy Wolina\\(fot. Radosław Drożdżewski)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/Wolin_-_most_obwodowy_DK3_d_radoslaw_drozdzewski.jpg} \label{fig:arch_deck_bridges_d}}
+%	%
+%	\caption{Wybrane polskie mosty łukowe: (a) wiadukt z jazdą górą i dźwigarem żelbetowym, (b) most z jazdą dołem i dźwigarem kratowym, (c) most z jazdą pośrednią i dźwigarem stalowym, (d) most z jazdą dołem i dźwigarem stalowym}
+%	\label{fig:arch_deck_bridges}
+%\end{figure}
+
+%\begin{figure}[p]
+%	\centering
+%	\captionsetup{justification=centering}
+%	
+%	\subfloat[Wiadukt WK-11 w ciągu PKM Gdańsk (arch. własne)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/kolejowy_slowackiego_1.jpg} \label{fig:arch_deck_bridges_a}} \;
+%	%
+%	\subfloat[Wiaduk kolejowy nad ul. Hallera w Gdańsku (arch. własne)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/kolejowy_hallera.jpg} \label{fig:arch_deck_bridges_b}} \\
+%	%
+%	\subfloat[Wiaduk drogowy w ciągu al. Żołnierzy Wyklętych w Gdańsku (arch. własne)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/lukowy_kolo_GB.jpg} \label{fig:arch_deck_bridges_c}} \;
+%	%
+%	\subfloat[Most kolejowy przez Martwą Wisłę w Gdańsku (arch. własne)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/kolejowy_martwa_wisla.jpg} \label{fig:arch_deck_bridges_d}} \\
+%	%
+%	\subfloat[Kładka dla pieszych przez Obwodnicę Trójmiasta (arch. własne)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/kladka_obwodnica_1.jpg} \label{fig:arch_deck_bridges_e}} \;
+%	%
+%	\subfloat[Wiadukt drogowy w ciągu ul. Armii Krajowej w Bydgoszczy (arch. własne)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/wiadukt_bydgoszcz.jpg} \label{fig:arch_deck_bridges_f}} \\
+%	%
+%	\subfloat[Wiadukt w ciągu Obwodnicy Południowej - Gdańsk Południe (arch. własne)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/kolejowy_POG_1_1.jpg} \label{fig:arch_deck_bridges_g}} \;
+%	%
+%	\subfloat[Wiadukt WD0 nad Obwodnicą Wałcza w trakcie próbnego obciążenia (arch. własne)]{\includegraphics[width=0.48\linewidth]{/mosty_wstep/photos/probne_walcz_1.jpg} \label{fig:arch_deck_bridges_h}}
+%	%
+%	\caption{Wybrane polskie mosty łukowe: (a) wiadukt z jazdą górą i dźwigarem żelbetowym, (b) wiadukt z jadą górą i dźwigarem stalowym, (c) wiadukt z jazdą dołem i dźwigarem kratowym, (d) most z jazdą dołem i dźwigarem stalowym, (e) kładka dla pieszych z wieszakami typu Network, (f) wiadukt z wieszkami typu Network, (g) wiadukt z wieszkami Nielsena, (h) wiadukt z wieszkami Nielsena w trakcie próbnego obciążenia}
+%	\label{fig:arch_deck_bridges}
+%\end{figure}
+
+Mosty z jazdą górą budowane są kiedy pod obiektem jest na tyle dużo miejsca, że możliwe jest zastosowanie dużej wysokości konstrukcyjnej. Taka sytuacja ma miejsce na przykład w terenach górzystych. W przeciwnym przypadku gdy wymagana jest mała wysokość konstrukcyjna uzasadnione jest stosowanie obiektów o jeździe dołem lub pośredniej. 
+
+Obciążona konstrukcja łukowa z zasady generuje siły poziome na podłoże. Nazywa się je reakcjami rozporowymi lub po prostu rozporem. W przypadku obiektów z jazdą dołem lub jazdą pośrednią możliwe jest wyeliminowanie reakcji poziomych przez zastosowanie ściągu. Rolę ściągu może stanowić odrębny element konstrukcyjny jak również cały pomost. Wykorzystanie pomostu jest obecnie bardzo częstym rozwiązaniem. Dotyczy to zarówno pomostów stalowych jak i betonowych. W przypadku pomostów betonowych stosuje się sprężenie niwelujące efekt rozciągania pochodzącego od rozporu.
+
+Mosty łukowe wykonywane są obecnie z dwóch materiałów: stali i betonu (w tym betonu sprężonego). Zależnie od materiału dźwigar łukowy może posiadać różną strukturę. Najczęściej łuki występują w następujących formach \parencite{Cholewo1965}:
+\begin{itemize}
+	\item pełnościenny przekrój łuku (dźwigar stalowy) (Rys. \ref{fig:arch_deck_bridges_b}),
+	\item łuk w postaci kratownicy (dźwigar stalowy) (Rys. \ref{fig:arch_deck_bridges_c}),
+	\item pełny przekrój lub w postaci skrzynki (dźwigar betonowy) (Rys. \ref{fig:arch_deck_bridges_a}),
+	\item zespolony przekrój ze stalowym płaszczem wypełnionym betonem \teng{CFST - Concrete Filled Steel Tubes} \parencite{Abramski2019}.
+\end{itemize}
+
+W przeważającej większości mosty łukowe projektowane są obecnie jako konstrukcje statycznie niewyznaczalne. Z tego względu mogą one różnić się mechanizmem pracy również w zależności od sztywności poszczególnych elementów konstrukcyjnych. Kiedy zarówno łuk jak i dźwigar pomostu odpowiadają za przeniesienie sił normalnych i momentów zginających mamy do czynienia z układem Lohse'a. Przypadek ten wystąpi kiedy łuk i ściąg posiadają znaczącą sztywność giętną. Odmienna sytuacja występuję w przypadku układu Langera, kiedy to wiotki dźwigar łukowy \textit{de facto} jedynie usztywnia dźwigar belkowy. W tej sytuacji łuk przenosi teoretycznie jedynie siły osiowe \parencite{Lin2017}. 
+
+Standardowe rozpiętości dla przęseł łukowych kształtują się w zakresie od 40 do około 400 w przypadku mostów betonowych i do 500 m w przypadku mostów stalowych \parencite{Madaj2009}. \cite{Czudek1997} przedstawił dla mostów stalowych statystykę uwzględniającą typowe rozpiętości w zależności od rodzaju przęsła łukowego. Dla tradycyjnych przęseł łukowych podał zakres od 40 do 300 m, dla łuków typu Langera od 40 do 150 m, dla łuków typu Lohse'a od 60 do 200 m, a dla łuków Nielsena i Network (Rys. \ref{fig:bridges_types_hangers}) od 110 do 200 m. Aktualnie na światowej liście mostów łukowych o największej rozpiętości pierwsze miejsce zajmuje chiński most \textit{Pingnan Third Bridge} (Rys. \ref{fig:arch_bridges_a} \parencite{Contributors2021,Biliszczuk2015a}. Został on oddany do użytku 28 grudnia 2020 roku, a jego rozpiętość wynosi 575 m. Warto wspomnieć, że na liście obiektów o rozpiętości powyżej 300 m znajduje się obecnie 76 pozycji z czego zdecydowaną większość (47 pozycji) stanowią mosty chińskie, a drugą pozycję pod względem liczebności zajmują Stany Zjednoczone Ameryki z 9 obiektami. Pod względem wykorzystanych materiałów większość dźwigarów łukowych jest wykonana ze stali (44 pozycje). Pozostałe obiekty  zbudowane są z elementów CFST (19 pozycji) i betonu (13 pozycji). Najstarszy na liście obiekt \textit{Bayonne Bridge} został oddany do użytku w 1931 roku i wciąż zajmuje wysoką, szóstą pozycję na liście z rozpiętością 510 m (Rys. \ref{fig:arch_bridges_b}). W Polsce rekordowe przęsło łukowe stanowi most im. gen. Elżbiety Zawackiej w Toruniu (Rys. \ref{fig:arch_bridges_c}). Jest to most drogowy przez Wisłę, złożony z dwóch głównych przęseł łukowych o rozpiętości 270 m każde \parencite{Wachalski2015}. Obszerne omówienie historii mostów łukowych na ziemiach polskich przedstawił \cite{Biliszczuk2015}.
+ 
+\begin{figure}[bt!]
+	\centering
+	\captionsetup{justification=centering}
+	\subfloat[Pingnan Bridge\\(fot. Xinhua/Cao Yiming)]{\includegraphics[height = 3.5cm]{/mosty_wstep/photos/pingnan_third_bridge.jpeg} \label{fig:arch_bridges_a}}\;
+	\subfloat[Bayonne Bridge\\(fot. Jim Henderson)]{\includegraphics[height = 3.5cm]{/mosty_wstep/photos/High_BB_from_Bayonne_jeh_croped.jpg} \label{fig:arch_bridges_b}}\\
+	\subfloat[Most im. gen. Elżbiety Zawackiej\\(fot. Wikipedia User: Pko)]{\includegraphics[width = 13.7cm]{/mosty_wstep/photos/Torun_most_Zawackiej_croped.jpg} \label{fig:arch_bridges_c}} \\
+
+	
+	\caption{Rekordowe mosty łukowe świata i Polski}
+	\label{fig:arch_bridges}
+\end{figure}
+
+
+
+
+
+\subsubsection{Połączenie pomostu i dźwigara łukowego}
+Połączenie pomiędzy pomostem, a dźwigarem łukowym realizuje się za pomocą ścian lub słupków kiedy pomost znajduje się ponad dźwigarem. Kiedy pomost należy podwiesić do dźwigara stosowane są wieszaki. Tradycyjnie łączniki w obu wariantach są ukształtowane jako pionowe. Liczba łączników przyjmowana jest zwykle jako parzysta, tak by klucz łuku znajdował się pośrodku odstępu między wieszakami \parencite{Szczygie1978}. W przypadku konstrukcji z jazdą górą odstępstwa od pionowego ukształtowania słupków zastosował między innymi Morandi (Rys. \ref{fig:bridges_morandi}). 
+
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[]{/mosty_wstep/photos/Morandi-works.jpg}
+	\captionsetup{justification=centering}
+	\caption{\textit{Paul Sauer Bridge} - most betonowy z jazdą gorą i słupkami ukośnymi. Projektant: Riccardo Morandi \parencite{Morandi1962}}
+	\label{fig:bridges_morandi}
+\end{figure}
+
+W przypadku obiektów z jazdą dołem występują trzy główne schematy rozkładu wieszaków:
+\begin{itemize}[noitemsep]
+	\item wieszaki proste (Rys. \ref{fig:bridges_types_hangers_a}, \ref{fig:arch_deck_bridges_c}, \ref{fig:arch_deck_bridges_d}),
+	\item wieszaki ukośne - Nielsena (Rys. \ref{fig:bridges_types_hangers_b}, \ref{fig:arch_deck_bridges_g},  \ref{fig:arch_deck_bridges_h}),
+	\item wieszaki typu Network (Rys. \ref{fig:bridges_types_hangers_c}, \ref{fig:arch_deck_bridges_e}, \ref{fig:arch_deck_bridges_f}).
+\end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\subfloat[wieszki proste]{\includegraphics[width=0.7\linewidth,page=1]{/mosty_wstep/mosty.pdf} \label{fig:bridges_types_hangers_a}}  \\
+	\subfloat[wieszaki ukośne]{\includegraphics[width=0.7\linewidth,page=2]{/mosty_wstep/mosty.pdf} \label{fig:bridges_types_hangers_b}} \\
+	\subfloat[wieszaki typu Network]{\includegraphics[width=0.7\linewidth,page=3]{/mosty_wstep/mosty.pdf} \label{fig:bridges_types_hangers_c}}
+	\captionsetup{justification=centering}
+	\caption{Układy statyczne mostów łukowych ze ściągiem różniących się układem wieszaków}
+	\label{fig:bridges_types_hangers}
+\end{figure}
+
+Wieszaki proste są tradycyjnym rozwiązaniem. Względem pozostałych typów charakteryzują się przede wszystkich prostotą wykonania i znacznie mniejszą sztywnością globalną przęsła. System wieszaków ukośnych został zaproponowany przez Octaviusa F. Nielsena w roku 1926. Przyczynkiem do opracowania tego rozwiązania było zjawisko wyłączania się niektórych wieszaków prostych przy obciążeniu ruchomym. W systemie Nielsena nie przewidziano przecinania się wieszaków, a jedynie nachylenie ich pod kątem. Ewolucję tego rozwiązania zaproponował w roku 1955 Per Tveit w swojej pracy magisterskiej. W tym wariancie niektóre z wieszaków przecinają się przynajmniej dwukrotnie \parencite{Tveit2019}. W Polsce funkcjonuje angielska nazwa tego sytemu \textit{Network}. \cite{Tveit2019} podał największą zaletę korzystania z wieszaków typu Network: zapewniają najmniejszą smukłość i lekkość konstrukcji spośród wszystkich wariantów konstrukcji łukowych. Wynika to z większej - w porównaniu do innych systemów - sztywności globalnej konstrukcji, a w konsekwencji powstają mniejsze ugięcia w przęśle i mniejsze obroty na podporach.
+
+W warunkach idealnych podstawowym schematem pracy wieszaka jest osiowe rozciąganie. W rzeczywistości istnieją jednak również inne obciążenia działające na wieszaki, zaburzające stan osiowego rozciągania. Sa to przede wszystkim \parencite{Zobel2015}:
+\begin{itemize}[noitemsep]
+	\item obciążenie poprzeczne od ciężaru własnego (system Nielsena i Network),
+	\item obciążenie wiatrem,
+	\item wpływ imperfekcji montażowych,
+	\item nierownomierne ogrzanie,
+	\item obciążenie oblodzeniem,
+	\item wzbudzenia dynamiczne od drgań konstrukcji i zmian ciśnienia powietrza podczas przejazdu,
+	\item ryzyko wyboczenia przy ściskaniu.
+\end{itemize}
+
+Elementem strukturalnym, który predestynowany jest do pracy w stanie osiowego rozciągania jest cięgno. Pomimo, że schemat statyczny konstrukcji łukowej najczęściej zakłada przegubowe połączenie pomiędzy wieszakami i dźwigarem w rzeczywistości stosowane są rozwiązania mniej lub bardziej spełniające to założenie. Dwie skrajności stanowią wieszaki sztywno i przegubowo połączone z dźwigarem. 
+
+
+Sztywne połączenie może wystąpić dla wieszaków posiadających istotną sztywność giętną lub na tyle wiotkich, że sztywność giętna jest pomijalna. Pierwsze wykonywane są z profili pełnościennych stalowych lub z betonu sprężonego. W przeszłości takie rozwiązanie wykorzystywano, ponieważ niemożliwe lub nieracjonalne technologiczne było wykonanie wieszaków cięgnowych. Z taką sytuacją można spotkać się na przykład w łukowych mostach nitowanych (Rys. ) z pierwszej połowy XX w. Obecnie tego typu wieszaki wykorzystywane są kiedy konstrukcja wymaga usztywnienia poprzecznego łuku, na przykład w przypadku braku stężeń górnych. Należy pamiętać, że w takim przypadku obliczeniowo struktura odbiega w swojej pracy od schematu statycznego łuku i przybliża się do kratownicy Vierendeela. Sztywno połączone z konstrukcją mogą być również wieszaki prętowe o małej sztywności giętnej. Wykonywane są najczęściej jako spawane do blach węzłowych (Rys. \ref{}) Rozwiązanie to ma uzasadnienie przede wszystkim ekonomiczne - jest tańsze niż rozwiązania systemowe. Ze względu na złożony stan naprężeń w połączeniu należy zwrócić szczególną uwagę na zalecenia konstrukcyjne i technologiczne \parencite{Gunther2000,BundesanstaltfurWasserbauHg.2018,Szafranski2017}. 
+
+Drugą obszerną grupę rozwiązań stanowią cięgna połączone przegubowo z konstrukcją. Elementy połączone w ten sposób z reguły są wiotkie i traktowane jako cięgna. Obecnie stosowane są następujące typy wieszaków cięgnowych:
+\begin{itemize}[noitemsep]
+	\item pręty okrągłe (Rys. \ref{fig:bridges_hangers_cs_a}),
+	\item liny standardowe (Rys. \ref{fig:bridges_hangers_cs_b}) i zamknięte (Rys. \ref{fig:bridges_hangers_cs_c}),
+	\item wiązki drutów równoległych lub splotów (Rys. \ref{fig:bridges_hangers_cs_d}), z indywidualnymi lub zbiorczymi zakotwieniami
+\end{itemize}
+
+\begin{figure}[hbt!]
+	\centering
+	\captionsetup{justification=centering}
+	\subfloat[]{\includegraphics[height=3cm,page=1]{/mosty_wstep/wieszaki/przekroje_wieszaki.pdf} \label{fig:bridges_hangers_cs_a}} \quad
+	\subfloat[]{\includegraphics[height=3cm,page=2]{/mosty_wstep/wieszaki/przekroje_wieszaki.pdf} \label{fig:bridges_hangers_cs_b}} \quad
+	\subfloat[]{\includegraphics[height=3cm,page=3]{/mosty_wstep/wieszaki/przekroje_wieszaki.pdf} \label{fig:bridges_hangers_cs_c}} \quad
+	\subfloat[]{\includegraphics[height=3cm,page=4]{/mosty_wstep/wieszaki/przekroje_wieszaki.pdf} \label{fig:bridges_hangers_cs_d}}	
+	\caption{Przekroje poprzeczne stosowanych typów wieszaków: (a) pręty pełne, (b) lina standardowa, (c) lina o konstrukcji zamkniętej, (d) lina wielosplotowa}
+	\label{fig:bridges_hangers_cs}
+\end{figure}
+
+Wieszaki cięgnowe połączone z konstrukcją przegubowo w większości wchodzą w skład prefabrykowanych systemów. Dzięki odpowiedniemu systemowi jakości wykonania i badaniom laboratoryjnym potwierdzonych aprobatami, w trakcie projektowania nie ma konieczności konstruowania i sprawdzania poszczególnych elementów połączenia przegubowego i mechanizmów regulacji. Cięgna dobiera się na podstawie katalogów w zależności od wymaganej nośności. Ma to istotne znaczenie zwłaszcza w kontekście wymogów normowych. W zakresie normy \parencite{PN-EN-1993-1-112008} dotyczącej projektowania konstrukcji cięgnowych mieszczą się wszystkie wymienione wyżej typy cięgien połączonych przegubowo. Norma przede wszystkim podaje zasady ustalania wymagań technicznych cięgien dla oceny bezpieczeństwa, użytkowalności trwałości. Zgodnie z filozofią przedstawioną w Eurokodzie 0 wyróżnia 3 stany graniczne, które muszą być spełnione przy projektowaniu:
+\begin{itemize}[noitemsep]
+	\item Stan Graniczny Nośności \teng{Ultimate Limit State} - porównanie siły osiowej z nośnością obliczeniową przy rozciąganiu,
+	\item Stan Graniczny Użytkowania \teng{Serviceability Limit State} - ograniczenie wartości naprężeń i odkształceń,
+	\item Stan Graniczny Zmęczenia \teng{Fatigue Limit State} - sprawdzenie zakresów zmienności naprężeń.
+\end{itemize}
+Dodatkowo w normie zapisano wymóg możliwości regulacji i wymiany cięgien. 
+
+
+
+
+\section{Obliczenia konstrukcji za pomocą Metody Elementów Skończonych}
+Metody analityczne wyznaczania wartości odpowiedzi czy stanu konstrukcji nie mają już wiodącego zastosowania przy rozwiązywaniu rzeczywistych problemów inżynierskich. Model matematyczny oparty na równaniach różniczkowych może być rozwiązany w postaci zamkniętej jedynie w przypadku relatywnie prostych przypadków. Wiele z rzeczywistych rzeczywistych układów charakteryzuje się skomplikowanym kształtem, niejednorodnym materiałem, bądź złożonymi warunkami brzegowymi i nie istnieją dla nich ścisłe rozwiązania. Akceptując brak ścisłych rozwiązań opracowano metody przybliżone, oparte na procesie dyskretyzacji. \cite{Rakowski2016} definiują dyskretyzacją jako proces, w którym przekształca się opis pola wyrażony za pomocą nieskończenie wielu parametrów, w opis wyrażony przez skończona liczbę wartości zlokalizowanych w skończonej liczbie punktów (węzłów). Zmienność pola pomiędzy węzłami definiują funkcje kształtu. Istnieją dwie wiodące metody budowy modelu dyskretnego: Metoda Różnic Skończonych (MRS) i Metoda Elementów Skończonych (MES), oraz mniej popularne Metoda Całkowania Numerycznego (MCN) i Metoda Elementów Brzegowych (MEB). W analizie konstrukcji MES jest metodą znacznie bardziej popularną, stosowaną w większości programów komercyjnych. W poniższej pracy przy wyznaczaniu stanu konstrukcji posłużono się komercyjnym środowiskiem MES SOFiSTiK. Literatura przedmiotu dotycząca MES jest bardzo rozbudowana. Do podstawowych pozycji opisujących rozwój należą \parencite{Kleiber1985,Hughes1987,Zienkiewicz2005,Rakowski2016}. Ze względu na obszerność tematu zaniechano przytoczenia podstaw i definicji metody,a skupiono się jedynie na jej zastosowaniu i elementach rozwijających niektóre jej aspekty. Stosowalność MES w analizie konstrukcji została wielokrotnie potwierdzona w literaturze. Autor pracy również wielokrotnie wykorzystywał MES przy rozwiązywaniu rzeczywistych problemów inżynierskich. W następujących pracach opisane niektóre z nich, w których autor brał czynny udział wykorzystując metody numerycznych analizy konstrukcji \parencite{Zotowski2016d,Zotowski2017a,Cudny2017,Zotowski2017h,Zotowski2018a,Zoto wski2018d,Zotowski2018c,Binczyk2020a}.
+
+Pomimo długiej historii rozwoju i wielokrotnie potwierdzonej stosowalności MES w analizie konstrukcji zawsze trzeba pamiętać, że MES jest metodą numeryczną i ma charakter przybliżony. Wynika to z uproszczenia nieskończonego pola w procesie dyskretyzacji  i zastosowania funkcji interpolacyjnych. Niedoskonałość metody jest jednym ze źródeł możliwych niedokładności ostatecznego modelu obliczeniowego. Drugie kluczowe przybliżenie wynika z niedoskonałości odwzorowania modelu względem konstrukcji i dotyczy jej kształtu, materiału czy warunków brzegowych. Zagadnienie to zostało szerzej omówione w punkcie \ref{sect:calibration_model}. Istnieją różne metody ograniczenia i kontroli każdego z tych dwóch grup źródeł błędów. W przypadku stosowania elementów dostosowanych\footnote{Elementy dostosowane to takie, których funkcje kształtu spełniają wszystkie z trzech kryteriów: kryterium zgodności, kryterium ruchu sztywnego i kryterium stałych odkształceń \parencite{Rakowski2016}}.
+błąd wynikający ze stosowania dyskretyzacji i funkcji interpolacyjnych można zmniejszać przez zagęszczenie siatki węzłów (h-convergence) lub poprzez zwiększenie rzędu funkcji interpolacyjnych (p-convergence) \parencite{Zienkiewicz2005}. W poniższej pracy przyjęto pierwszą z nich jako metodę badania zbieżności rozwiązania.
+
+\subsection{Kalibracja modeli MES} \label{sect:calibration_model}
+Pomimo coraz bardziej intuicyjnych i prostych w użyciu implementacji MES w oprogramowaniu komercyjnym wciąż wymagane jest od użytkownika doświadczenie i krytyczna ocena wykonywanych obliczeń. Oczywistym jest, że projektant lub badacz chciałby aby stworzony model jak najwierniej odwzorował zachowanie konstrukcji w jego obszarze zainteresowań. Istnieje jednak szereg czynników wpływających na brak zgodności pomiędzy modelem, a konstrukcją. Poza z zasady przybliżonym charakterem obliczeń numerycznych MES, istnieją błędy powstające w procesie modelowania. Można je podzielić na dwie grupy \parencite{Mottershead1993,Mottershead2011}:
+\begin{itemize}
+	\item błędy przy tworzeniu modelu i idealizacja rzeczywistej konstrukcji przez uproszczone modele mechaniczne,
+	\item błędy w przyjęciu parametrów konstrukcji.
+\end{itemize}
+
+W przypadku analizy konstrukcji pierwsza grupa obejmuje błędy popełnione w trakcie wykonania takie jak: przyjęcie błędnego kształtu, niewłaściwych wartości obciążeń zewnętrznych, braku połączenia między elementami modelu. Z drugiej strony uwzględnia również błędy założeń teoretycznych takie jak: usztywnienie elastycznych połączeń, brak uwzględnienia wpływu pracy konstrukcji w innych kierunkach niż pionowy czy też przyjęcie liniowego modelu w przypadku silnej nieliniowości zachowania się konstrukcji. 
+
+Druga grupa błędów związana z oszacowania parametrów modelu. Błędy w oszacowaniu rzeczywistych parametrów konstrukcji zaimplementowanych w modelu mogą skutkować bardzo dużymi różnicami między odpowiedzią konstrukcji rzeczywistej i przewidywaniami modelu. \cite{Brincker2015} zestawili możliwe niepewności w oszacowaniu parametrów modeli numerycznych i modalnych co przedstawiono w tabeli \ref{table:uncertainitesModel}). Jak widać niektórych z nich mogą wynosić od kilku do kilkudziesięciu procent. W przypadku warunków brzegowych na połączeniu z gruntem trudno wręcz postawić górną granice niepewności. 
+
+Redukcja wpływu błędów grupy pierwszej zasadniczo polega na identyfikacji i eliminacji danego błędu. Analizując konstrukcje mostowe stosowane są zabiegi służące wykryciu nieprawidłowości takie jak badanie symetrii/antysymetrii odpowiedzi w przypadku symetrii/antysymetrii układu i obciążenia, przeprowadzenie analizy modalnej w celu wykrycia niepowiązanych elementów, a także sprawdzenie zgodności sumy reakcji z wartością przyłożonego obciążenia. 
+
+Niepewności zawarte w drugiej grupie są naturalne, a zadaniem twórcy modelu jest po prostu jak najwierniejsze ich przyjęcie. Poprawę wartości parametrów można uzyskać na przykład na podstawie wykonanych badań wbudowanego materiału. Inna metoda polega na jak najlepszym dopasowaniu wybranych wartości odpowiedzi układu rzeczywistego do odpowiadających wartości odpowiedzi modelu. Zestaw procesów prowadzących do tego dopasowania nazywa się kalibracją modelu numerycznego. 
+
+Metody kalibracji opierają się głównie na modyfikacji parametrów modelu \teng{model updating}. \cite{Batou2019} podzielił metody kalibracji na bezpośrednie - modyfikujące macierz sztywności lub mas - i pośrednie - modyfikujące parametry geometryczne, materiałowe i warunki brzegowe. Za zmianę parametrów mogą odpowiadać algorytmy o różnym stopniu skomplikowania. Najbardziej podstawowym jest modyfikacja parametrów metodą prób i błędów. Wyboru zmianianych parametrów dokonuje inżynier na podstawie doświadczenia. Jest ona skuteczna w przypadku układów niewielu parametrach i dużym doświadczeniu inżyniera. Kiedy liczba parametrów jest duża, po pierwsze ich liczba jest ograniczana na podstawie analizy wrażliwości \parencite{Friswell2001,Mottershead2011,Petersen2017,Batou2019}. Po drugie kiedy ich liczba wciąż pozostaje znacząca wykorzystywane są metody podziału na mniejsze podproblemy \parencite{Weng2020,Yu2016} bądź stosowane są metody optymalizacji globalnej takie jak metoda przeszukiwania czy też algorytmy metaheurystyczne: algorytm genetyczny czy optymalizacja rojem cząstek \parencite{Boulkaibet2015,Tran-Ngoc2018,Dan2015,Qin2018}. W pracy do kalibracji wykorzystano ostatnią z przedstawionych metod. Informacje na jej temat przedstawiono w rozdziale \ref{sect:PSO_chapter}.
+
+Warto zwrócić uwagę, że kalibracja modelu za pomocą zmiany parametrów, przy jednoczesnym występowaniu błędów z grupy pierwszej, może prowadzić do doboru wartości parametrów o zupełnie nierealnych wielkościach. Stąd przed przystąpieniem do kalibracji modelu należy najpierw w miarę możliwości wyeliminować wszystkie błędy związane z tworzeniem modelu i jego idealizacją.
+
+Kalibracja modelu jest wykorzystywana w wielu rzeczywistych zastosowaniach. Podstawowym celem jest maksymalne dopasowanie modelu do konstrukcji rzeczywistej w trakcie badań naukowych \parencite{Li2020,Brownjohn2001,Zhang2019,Petersen2017}. Proces ten zwany walidacją sprawia, że model numeryczny lepiej odzwierciedla rzeczywistość, a uzyskane z niego rezultaty zyskują na wiarygodności. Kalibracja służy również do oceny stanu konstrukcji i jej zmian, często w połączeniu z systemem monitoringu \parencite{Brownjohn2000,Brownjohn2003,Zoltowski2020}.
+
+\begin{table}[hbt!]
+	
+	\centering
+	\caption{Niepewności najistotniejszych parametrów modeli numerycznych i modalnych na podstawie \cite{Brincker2015}}
+	\rowcolors{1}{}{gray!10}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{p{0.7\linewidth} | c}
+			\toprule 
+			Własność fizyczna   & Poziom niepewności [\%] \\
+			\midrule
+			Moduł sprężystości i gęstość masy dla stali i innych metali  &    1--5    \\
+			Moduł sprężystości i gęstość masy dla betonu, drewna i zbrojonych włóknami materiałów & 5--20\\
+			Warunki brzegowe z podłożem &    10-nieskończoność     \\
+			Połączenia śrubowe & 10-nieskończoność\\
+			Połączenia spawane & 2-10\\
+			Masa całkowita & 1-5 \\
+			Określana częstotliwość drgań własnych & 0.1-0.05\\
+			Pomierzona odpowiedź & 0.2-2\\
+			Określane postaci drgań własnych & 2-5\\ 
+			Określane tłumienie & 5-20\\
+			Współczynnik skalujący postaci drgań własnych & 5-30\\
+			\bottomrule
+	\end{tabular}}
+	\label{table:uncertainitesModel}
+\end{table}
+
+
+
+
 
 \section{Dynamiczne obciążenie kolejowe}
-Ryzyko nadmiernych drgań mostów kolejowych jest rozpatrywane od samych początków budowy dróg szynowych w Angli na początku XIX w \parencite{Ladislav1996}. Historię tę zwięźle przedstawił w swojej pracy \cite{Szafranski2013}, opierając się na obszernych studiach literatury. Podsumowując doświadczenia naukowców i inżynierów, poza wyjątkowymi przypadkami wykolejeń i uderzeń pociągów w elementy konstrukcyjne, wywołanie niebezpiecznych amplitud drgań mostów związane jest głównie ze zjawiskiem rezonansu. Rezonans mechaniczny może wystąpić w przypadku kiedy pojawia się obciążenie cykliczne, którego częstotliwość oddziaływania pokrywa się z częstotliwością drgań własnych konstrukcji mostu. Kiedy obciążenie jest długotrwałe i w układzie nie ma tłumienia amplitudy drgań mogą teoretycznie rosnąć w nieskończoność. W rzeczywistych konstrukcjach, nie mam możliwości bezgranicznego wzrostu amplitud, z uwagi na tłumienie układu i skończony czas oddziaływania obciążeń ruchomych. Niemniej jednak konstrukcje mostowe charakteryzują się zazwyczaj małym tłumieniem, a obciążenia kolejowe mogą charakteryzować się stosunkowo długim czasem oddziaływania o stałej częstotliwości wymuszenia. W połączeniu z ciągłym rozwojem zarówno taboru kolejowego jak i dróg szynowych, problem wprowadzenia mostu kolejowego w drgania ewoluuje i wymaga od inżynierów ciągłej pracy badawczej.
+Ryzyko nadmiernych drgań mostów kolejowych jest rozpatrywane od samych początków budowy dróg szynowych w Anglii na początku XIX w \parencite{Ladislav1996}. Historię tę zwięźle przedstawił w swojej pracy \cite{Szafranski2013}, opierając się na obszernych studiach literatury. Podsumowując doświadczenia naukowców i inżynierów, poza wyjątkowymi przypadkami wykolejeń i uderzeń pociągów w elementy konstrukcyjne, wywołanie niebezpiecznych amplitud drgań mostów związane jest głównie ze zjawiskiem rezonansu. Rezonans mechaniczny może wystąpić w przypadku kiedy pojawia się obciążenie cykliczne, którego częstotliwość oddziaływania pokrywa się z częstotliwością drgań własnych konstrukcji mostu. Kiedy obciążenie jest długotrwałe i w układzie nie ma tłumienia amplitudy drgań mogą teoretycznie rosnąć w nieskończoność. W rzeczywistych konstrukcjach, nie mam możliwości bezgranicznego wzrostu amplitud, z uwagi na tłumienie układu i skończony czas oddziaływania obciążeń ruchomych. Niemniej jednak konstrukcje mostowe charakteryzują się zazwyczaj małym tłumieniem, a obciążenia kolejowe mogą charakteryzować się stosunkowo długim czasem oddziaływania o stałej częstotliwości wymuszenia. W połączeniu z ciągłym rozwojem zarówno taboru kolejowego jak i dróg szynowych, problem wprowadzenia mostu kolejowego w drgania ewoluuje i wymaga od inżynierów ciągłej pracy badawczej.
 
 
 \subsection{Oddziaływania dynamiczne taboru na mostach kolejowych}

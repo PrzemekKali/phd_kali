@@ -1,0 +1,89 @@
+[DWF6Version]
+Ver=1
+[DWF6MinorVersion]
+MinorVer=1
+[DWF6Sheet:mosty-proste]
+DWG=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Layout=proste
+Setup=
+OriginalSheetPath=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:mosty-ukosne]
+DWG=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Layout=ukosne
+Setup=
+OriginalSheetPath=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:mosty-network]
+DWG=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Layout=network
+Setup=
+OriginalSheetPath=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:mosty-gora]
+DWG=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Layout=gora
+Setup=
+OriginalSheetPath=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:mosty-dol]
+DWG=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Layout=dol
+Setup=
+OriginalSheetPath=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:mosty-posrednia]
+DWG=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Layout=posrednia
+Setup=
+OriginalSheetPath=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dwg
+Has Plot Port=0
+Has3DDWF=0
+[Target]
+Type=6
+DWF=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.pdf
+OUT=D:\dr\latex_text\phd_kali\figures\mosty_wstep\
+PWD=
+[MRU Local]
+MRU=1
+File0=D:\dr\latex_text\phd_kali\figures\mosty_wstep\
+[MRU Sheet List]
+MRU=1
+File0=D:\dr\latex_text\phd_kali\figures\mosty_wstep\mosty.dsd
+[PdfOptions]
+IncludeHyperlinks=TRUE
+CreateBookmarks=TRUE
+CaptureFontsInDrawing=TRUE
+ConvertTextToGeometry=FALSE
+VectorResolution=600
+RasterResolution=400
+[AutoCAD Block Data]
+IncludeBlockInfo=0
+BlockTmplFilePath=
+[SheetSet Properties]
+IsSheetSet=FALSE
+IsHomogeneous=FALSE
+SheetSet Name=
+NoOfCopies=1
+PlotStampOn=FALSE
+ViewFile=FALSE
+JobID=0
+SelectionSetName=
+AcadProfile=<<Unnamed Profile>>
+CategoryName=
+LogFilePath=
+IncludeLayer=TRUE
+LineMerge=FALSE
+CurrentPrecision=
+PromptForDwfName=TRUE
+PwdProtectPublishedDWF=FALSE
+PromptForPwd=FALSE
+RepublishingMarkups=FALSE
+PublishSheetSetMetadata=FALSE
+PublishSheetMetadata=FALSE
+3DDWFOptions=0 1

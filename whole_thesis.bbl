@@ -76,6 +76,38 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Abido - 2006 - Multiobjective evolutionary algorithms for electric power dispatch problem.pdf:pdf
       \endverb
     \endentry
+    \entry{Abramski2019}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c8e96d050aa2448696b585b670fd31e}{%
+           family={Abramski},
+           familyi={A\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Gdańsk}%
+      }
+      \list{publisher}{1}{%
+        {Politechnika Gdańska}%
+      }
+      \strng{namehash}{6c8e96d050aa2448696b585b670fd31e}
+      \strng{fullhash}{6c8e96d050aa2448696b585b670fd31e}
+      \strng{bibnamehash}{6c8e96d050aa2448696b585b670fd31e}
+      \strng{authorbibnamehash}{6c8e96d050aa2448696b585b670fd31e}
+      \strng{authornamehash}{6c8e96d050aa2448696b585b670fd31e}
+      \strng{authorfullhash}{6c8e96d050aa2448696b585b670fd31e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Doraźna nośność s{ł}upów o przekroju ko{ł}owym z rur FRP wype{ł}nionych betonem Badania, teoria, obliczanie.}}
+      \field{year}{2019}
+      \field{pages}{154}
+      \range{pages}{1}
+    \endentry
     \entry{Allemang1982}{inproceedings}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=0069bd29d651072e1ef48a2e4ae3ba8f}{%
@@ -415,6 +447,177 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bathe - 2006 - Finite element procedures.pdf:pdf
       \endverb
     \endentry
+    \entry{Batou2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e3e36407e251b67c169a229ea312b348}{%
+           family={Batou},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier LTD}%
+      }
+      \strng{namehash}{e3e36407e251b67c169a229ea312b348}
+      \strng{fullhash}{e3e36407e251b67c169a229ea312b348}
+      \strng{bibnamehash}{e3e36407e251b67c169a229ea312b348}
+      \strng{authorbibnamehash}{e3e36407e251b67c169a229ea312b348}
+      \strng{authornamehash}{e3e36407e251b67c169a229ea312b348}
+      \strng{authorfullhash}{e3e36407e251b67c169a229ea312b348}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper is interested in model updating problems which consists in identifying optimal values of model parameters by comparing the model outputs with the experimental outputs. Such a problem generally yields a challenging multivariate inverse problem to be solved in high dimension. The high-dimensionality requires the use of a global optimization algorithm in order the explore efficiently the parameters space. In this paper we propose an alternative algorithm which allows each model parameters to be identified separately and sequentially by solving separated univariate inverse problems. For each parameter, a devoted inverse problem is introduced by identifying an output which is sensitive to this parameter only, the sensitivity being quantified using Sobol indices. The proposed method is illustrated through a three-storey structure for which experimental measurements are collected.}
+      \field{issn}{10961216}
+      \field{journaltitle}{Mechanical Systems and Signal Processing}
+      \field{title}{{A sensitivity-based one-parameter-at-a-time model updating method}}
+      \field{volume}{122}
+      \field{year}{2019}
+      \field{pages}{247\bibrangedash 255}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.ymssp.2018.12.025
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Batou - 2019 - A sensitivity-based one-parameter-at-a-time model updating method.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.ymssp.2018.12.025
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.ymssp.2018.12.025
+      \endverb
+      \keyw{Inverse problems,Model updating,Sensitivity indices,Sobol indices}
+    \endentry
+    \entry{Biliszczuk2015}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=15c2cf8fa89415ae52ee7b81b4496076}{%
+           family={Biliszczuk},
+           familyi={B\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Wroc{ł}aw}%
+      }
+      \list{publisher}{1}{%
+        {Dolnośla̧skie Wydawnictwo Edukacyjne}%
+      }
+      \strng{namehash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \strng{fullhash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \strng{bibnamehash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \strng{authorbibnamehash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \strng{authornamehash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \strng{authorfullhash}{15c2cf8fa89415ae52ee7b81b4496076}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mosty {ł}ukowe w Polsce. Historia, wspó{ł}czesność, przysz{ł}ość}}
+      \field{year}{2015}
+      \field{pages}{112}
+      \range{pages}{1}
+    \endentry
+    \entry{Biliszczuk2015a}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=15c2cf8fa89415ae52ee7b81b4496076}{%
+           family={Biliszczuk},
+           familyi={B\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2fec88112045eb81bef37a96c326ec4}{%
+           family={Teichgraeber},
+           familyi={T\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eaef46d32caf775b6e3fc8b9abb571e7}{%
+           family={Volotsiuga},
+           familyi={V\bibinitperiod},
+           given={Volodymyr},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Wroc{ł}aw}%
+      }
+      \strng{namehash}{279e3133ed485bd0fed0674d993e6578}
+      \strng{fullhash}{279e3133ed485bd0fed0674d993e6578}
+      \strng{bibnamehash}{279e3133ed485bd0fed0674d993e6578}
+      \strng{authorbibnamehash}{279e3133ed485bd0fed0674d993e6578}
+      \strng{authornamehash}{279e3133ed485bd0fed0674d993e6578}
+      \strng{authorfullhash}{279e3133ed485bd0fed0674d993e6578}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
+      \field{title}{{Najwiȩksze mosty {ł}ukowe świata}}
+      \field{year}{2015}
+    \endentry
+    \entry{Binczyk2020a}{article}{}
+      \name{author}{4}{}{%
+        {{un=2,uniquepart=given,hash=fa74f5a78318bb0d0fb7ba3d1acfb4e6}{%
+           family={Binczyk},
+           familyi={B\bibinitperiod},
+           given={Mikolaj},
+           giveni={M\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=759fb0fc3681efe8d4247fb5b5809021}{%
+           family={Szulwic},
+           familyi={S\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4576a90f86b30499db3dc08a67ac74a}{%
+           family={Tysiac},
+           familyi={T\bibinitperiod},
+           given={Pawel},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{2d7bfb11d9896c11ca4e9508ac4387bd}
+      \strng{fullhash}{2a0972c4d7b56b398ceb7ed2251d9a05}
+      \strng{bibnamehash}{2d7bfb11d9896c11ca4e9508ac4387bd}
+      \strng{authorbibnamehash}{2d7bfb11d9896c11ca4e9508ac4387bd}
+      \strng{authornamehash}{2d7bfb11d9896c11ca4e9508ac4387bd}
+      \strng{authorfullhash}{2a0972c4d7b56b398ceb7ed2251d9a05}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{6}
+      \field{title}{{Nondestructive testing of the miter gates using various measurement methods}}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{pages}{1749}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop//Binczyk et al. - 2020 - Nondestructive testing of the miter gates using various measurement methods.pdf:pdf
+      \endverb
+    \endentry
     \entry{Blackwell2019}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8f7df105c9e0f1f7b35a6511e23b7d0a}{%
@@ -532,6 +735,72 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop//Boashash - 2015 - Time-frequency signal analysis and processing a comprehensive reference.pdf:pdf
       \endverb
     \endentry
+    \entry{Boulkaibet2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=740a68ccf275376b599841dc67858f14}{%
+           family={Boulkaibet},
+           familyi={B\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3d89a980a0df6dbcc0fc1a5f278bec5}{%
+           family={Mthembu},
+           familyi={M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e34a33e60d734dbdffe370ccaec5a77f}{%
+           family={{De Lima Neto}},
+           familyi={D\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2a53ed8d6a3a8ff9d5fec84ad1b5dc4}{%
+           family={Marwala},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5d8e0b7c6941f40b0698bd5edc04a7cc}
+      \strng{fullhash}{fc1fac6025c90127037a6dd74c687ef1}
+      \strng{bibnamehash}{5d8e0b7c6941f40b0698bd5edc04a7cc}
+      \strng{authorbibnamehash}{5d8e0b7c6941f40b0698bd5edc04a7cc}
+      \strng{authornamehash}{5d8e0b7c6941f40b0698bd5edc04a7cc}
+      \strng{authorfullhash}{fc1fac6025c90127037a6dd74c687ef1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A customized version of Fish School Search (FSS) algorithm and the innovative volitive operator of FSS (which is incorporated into the regular particle swarm optimization (PSO) algorithm) are applied to the ﬁnite element model (FEM) updating problem. These algorithms are tested on the updating of two real structures namely; an unsymmetrical H-shaped beam and a GARTEUR SM-AG19 structure. The results thereof are compared with results of two other metaheuristic algorithms: Genetic Algorithm (GA) and Particle Swarm Optimization (PSO) on the same structures. The GA and PSO algorithms being the most popular metaheuristic algorithms used in the model updating area. It is observed that on average, the FSS and PSO algorithms produce more accurate results than the GA. In this paper we conﬁrm that the FSSb (i.e. a customised version of the FSS algorithm, with minor modiﬁcations) and the hybrid algorithm – the Volitive PSO (i.e. the volitive operator of FSS into PSO) – are also more effective in this optimization task, producing superior results when updating the underlining Finite Element Model of both structures.}
+      \field{issn}{10692509, 18758835}
+      \field{journaltitle}{Integrated Computer-Aided Engineering}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{{Finite element model updating using fish school search and volitive particle swarm optimization}}
+      \field{volume}{22}
+      \field{year}{2015}
+      \field{pages}{361\bibrangedash 376}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.3233/ICA-150495
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Boulkaibet et al. - 2015 - Finite element model updating using fish school search and volitive particle swarm optimization.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.medra.org/servlet/aliasResolver?alias=iospress{\&}doi=10.3233/ICA-150495 http://files/557/Boulkaibet i in. - 2015 - Finite element model updating using fish school se.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.medra.org/servlet/aliasResolver?alias=iospress%7B%5C&%7Ddoi=10.3233/ICA-150495%20http://files/557/Boulkaibet%20i%20in.%20-%202015%20-%20Finite%20element%20model%20updating%20using%20fish%20school%20se.pdf
+      \endverb
+      \keyw{Finite element model (FEM),Fish school search (FSS),Genetic algorithm (GA),Particle swarm optimization (PSO),Volitive PSO}
+    \endentry
     \entry{Brincker2001b}{inproceedings}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=df9b403f49896f79fad5822bff520a57}{%
@@ -635,12 +904,12 @@
            given={Rune},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=3aed92084155d1c9b4b8a70af7f7d618}{%
+        {{un=2,uniquepart=given,hash=3aed92084155d1c9b4b8a70af7f7d618}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Lingmi},
            giveni={L\bibinitperiod},
-           givenun=1}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=fcdbdde49c3947e9ff96400800a5894d}{%
            family={Andersen},
            familyi={A\bibinitperiod},
@@ -672,12 +941,12 @@
            given={Rune},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=3aed92084155d1c9b4b8a70af7f7d618}{%
+        {{un=2,uniquepart=given,hash=3aed92084155d1c9b4b8a70af7f7d618}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Lingmi},
            giveni={L\bibinitperiod},
-           givenun=1}}%
+           givenun=2}}%
         {{un=2,uniquepart=given,hash=2526b2c7392016b6b5268e754820fafe}{%
            family={Andersen},
            familyi={A\bibinitperiod},
@@ -712,14 +981,70 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Brincker, Zhang, Andersen - 2001 - Modal identification of output-only systems using frequency domain decomposition.pdf:pdf
       \endverb
     \endentry
+    \entry{Brownjohn2001}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=36fd741cb29152843195a0140876b208}{%
+           family={Brownjohn},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi M.W.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=77ad638d070f092bdc5348148e3bd0d0}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Pin\bibnamedelima Qi},
+           giveni={P\bibinitperiod\bibinitdelim Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f01771870e49830cc188ff9f5ea0175}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61a31907b440c2414a770161a7391533}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{39725e8f79f25ac31d8da945846f6c88}
+      \strng{fullhash}{065c787d130f816765aa6b596bfcd1e3}
+      \strng{bibnamehash}{39725e8f79f25ac31d8da945846f6c88}
+      \strng{authorbibnamehash}{39725e8f79f25ac31d8da945846f6c88}
+      \strng{authornamehash}{39725e8f79f25ac31d8da945846f6c88}
+      \strng{authorfullhash}{065c787d130f816765aa6b596bfcd1e3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Development of methodology for accurate and reliable condition assessment of civil structures has become increasingly important. In particular, the finite element (FE) model updating method has been successfully used for condition assessment of bridges. However, the success of applications of the method depends on the analytical conceptualization of complex bridge structures, a well-designed and controlled modal test and an integration of analytical and experimental arts. This paper describes the sensitivity-analysis-based FE model updating method and its application to structure condition assessment with particular reference to bridges, including specific considerations for FE modeling for updating and the model updating procedure for successful condition assessment. Finally, the accuracy analysis of damage assessment by model updating was investigated through a case study. {©} 2001 Elsevier Science B.V. All rights reserved.}
+      \field{issn}{0168874X}
+      \field{journaltitle}{Finite Elements in Analysis and Design}
+      \field{number}{10}
+      \field{title}{{Civil structure condition assessment by FE model updating: Methodology and case studies}}
+      \field{volume}{37}
+      \field{year}{2001}
+      \field{pages}{761\bibrangedash 775}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/S0168-874X(00)00071-8
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Brownjohn et al. - 2001 - Civil structure condition assessment by FE model updating Methodology and case studies.pdf:pdf
+      \endverb
+      \keyw{Civil structure,Condition assessment,Damage,Finite element model updating,Modal analysis,Sensitivity analysis}
+    \endentry
     \entry{Brownjohn2010}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1c938cc7d247164c352b72f238e1ae6a}{%
+        {{un=2,uniquepart=given,hash=1c938cc7d247164c352b72f238e1ae6a}{%
            family={Brownjohn},
            familyi={B\bibinitperiod},
            given={J.\bibnamedelimi M.W.\bibnamedelimi W},
            giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=d09aa6dbabc5319e4a65ba4d82e1bc38}{%
            family={Magalhaes},
            familyi={M\bibinitperiod},
@@ -775,6 +1100,150 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Brownjohn et al. - 2010 - Ambient vibration re-testing and operational modal analysis of the Humber Bridge.pdf:pdf
       \endverb
       \keyw{Operational modal analysis,Structural identification,Suspension bridge,operational modal analysis,structural identification,suspension bridge}
+    \endentry
+    \entry{Brownjohn2000}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=8825656e454bb83801b12237bec9dce5}{%
+           family={Brownjohn},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelimb M\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=90cfbaf879dd6bb3513a30fdc0b24035}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Pin-Qi},
+           giveni={P\bibinithyphendelim Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{005e3a3c55fdad9b51fd2c0737ee4530}
+      \strng{fullhash}{005e3a3c55fdad9b51fd2c0737ee4530}
+      \strng{bibnamehash}{005e3a3c55fdad9b51fd2c0737ee4530}
+      \strng{authorbibnamehash}{005e3a3c55fdad9b51fd2c0737ee4530}
+      \strng{authornamehash}{005e3a3c55fdad9b51fd2c0737ee4530}
+      \strng{authorfullhash}{005e3a3c55fdad9b51fd2c0737ee4530}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bridges are indispensable components of the infrastructure of modern society, and their assessment via techniques of structural dynamics is assuming greater importance. This assessment concerns performance of the as-built structure compared to the design and can also extend to the assessment of structural deterioration or damage. Simple validation of numerical results by dynamic testing has met some success; however, feedback from testing into analysis is usually crude, and only recently have systematic techniques been developed that can be supplied to such structures. This paper investigates the application of sensitivity-based model updating technology to the dynamic assessment of the Safti Link Bridge, a curved cable-stayed bridge in Singapore. Based on the measured modal data from prototype testing, the simulated dynamic properties obtained via ﬁniteelement analysis have been signiﬁcantly improved by modiﬁcation of uncertain structural parameters such as Young's modulus of concrete and structural geometry.}
+      \field{issn}{0733-9445, 1943-541X}
+      \field{journaltitle}{Journal of Structural Engineering}
+      \field{month}{7}
+      \field{number}{2}
+      \field{title}{{Dynamic Assessment of Curved Cable-Stayed Bridge by Model Updating}}
+      \field{volume}{126}
+      \field{year}{2000}
+      \field{pages}{252\bibrangedash 260}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1061/(ASCE)0733-9445(2000)126:2(252)
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Brownjohn, Xia - 2000 - Dynamic Assessment of Curved Cable-Stayed Bridge by Model Updating.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ascelibrary.org/doi/10.1061/{\%}28ASCE{\%}290733-9445{\%}282000{\%}29126{\%}3A2{\%}28252{\%}29 http://files/469/Brownjohn i Xia - 2000 - Dynamic Assessment of Curved Cable-Stayed Bridge b.pdf
+      \endverb
+      \verb{url}
+      \verb http://ascelibrary.org/doi/10.1061/%7B%5C%%7D28ASCE%7B%5C%%7D290733-9445%7B%5C%%7D282000%7B%5C%%7D29126%7B%5C%%7D3A2%7B%5C%%7D28252%7B%5C%%7D29%20http://files/469/Brownjohn%20i%20Xia%20-%202000%20-%20Dynamic%20Assessment%20of%20Curved%20Cable-Stayed%20Bridge%20b.pdf
+      \endverb
+    \endentry
+    \entry{Brownjohn2003}{article}{}
+      \name{author}{4}{}{%
+        {{un=2,uniquepart=given,hash=823cbaba87c33dc92e96399916f44ac1}{%
+           family={Brownjohn},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelimb Mark\bibnamedelima William},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=45486d3dff0bfd7c6a5517b72360d138}{%
+           family={Moyo},
+           familyi={M\bibinitperiod},
+           given={Pilate},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8effbebc5427604d6daa355228ffe146}{%
+           family={Omenzetter},
+           familyi={O\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=147f0286ff2fe7c5ff09fc85f0e37c28}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7f9d84f1219be2cfc368b653022ee3f4}
+      \strng{fullhash}{e053079712786d0efb26120624819c7f}
+      \strng{bibnamehash}{7f9d84f1219be2cfc368b653022ee3f4}
+      \strng{authorbibnamehash}{7f9d84f1219be2cfc368b653022ee3f4}
+      \strng{authornamehash}{7f9d84f1219be2cfc368b653022ee3f4}
+      \strng{authorfullhash}{e053079712786d0efb26120624819c7f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Land Transport Authority of Singapore has a continuing program of highway bridge upgrading for refurbishing and strengthening bridges to allow for increasing vehicle trafﬁc and increasing axle loads. One subject of this program has been a short-span bridge taking a busy main road across a coastal inlet near a major port facility. Experiment-based structural assessments of the bridge were conducted before and after upgrading works including strengthening. Each assessment exercise comprised three separate components: ͑1͒ a strain and acceleration monitoring exercise lasting approximately one month; ͑2͒ a full-scale dynamic test carried out in a single day without closing the bridge; and ͑3͒ a ﬁnite-element model updating exercise to identify structural parameters and mechanisms. This paper presents the dynamic testing and the modal analysis used to identify the vibration properties and the quantiﬁcation of the effectiveness of the upgrading through the subsequent model updating. Before and after upgrade, similar sets of vibration modes were identiﬁed, resembling those of an orthotropic plate with relatively weak transverse bending stiffness. Conversion of bearings from nominal simple supports to nominal full ﬁxity was shown via model updating to be the principal cause of natural frequency increases of up to 50{\%}. The utility of the combined experimental and analytical process in direct identiﬁcation of structural properties has been proven, and the procedure can be applied to other structures and their capacity assessments.}
+      \field{issn}{1084-0702, 1943-5592}
+      \field{journaltitle}{Journal of Bridge Engineering}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{{Assessment of Highway Bridge Upgrading by Dynamic Testing and Finite-Element Model Updating}}
+      \field{volume}{8}
+      \field{year}{2003}
+      \field{pages}{162\bibrangedash 172}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1061/(ASCE)1084-0702(2003)8:3(162)
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Brownjohn et al. - 2003 - Assessment of Highway Bridge Upgrading by Dynamic Testing and Finite-Element Model Updating.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ascelibrary.org/doi/10.1061/{\%}28ASCE{\%}291084-0702{\%}282003{\%}298{\%}3A3{\%}28162{\%}29 http://files/443/Brownjohn i in. - 2003 - Assessment of Highway Bridge Upgrading by Dynamic .pdf
+      \endverb
+      \verb{url}
+      \verb http://ascelibrary.org/doi/10.1061/%7B%5C%%7D28ASCE%7B%5C%%7D291084-0702%7B%5C%%7D282003%7B%5C%%7D298%7B%5C%%7D3A3%7B%5C%%7D28162%7B%5C%%7D29%20http://files/443/Brownjohn%20i%20in.%20-%202003%20-%20Assessment%20of%20Highway%20Bridge%20Upgrading%20by%20Dynamic%20.pdf
+      \endverb
+      \keyw{Assessment,Bridges,Dynamic tests,Finite element method,Rehabilitation,Singapore,highway}
+    \endentry
+    \entry{BundesanstaltfurWasserbauHg.2018}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=93fc4e0addf9ea20f7a7d914c7d16618}{%
+           family={{Bundesanstalt für Wasserbau (Hg.)}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \strng{fullhash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \strng{bibnamehash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \strng{authorbibnamehash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \strng{authornamehash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \strng{authorfullhash}{93fc4e0addf9ea20f7a7d914c7d16618}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Leitfaden zum Anhang NA . F Bemessung von Hängern an Stabbogenbrücken DIN EN 1993-2 / NA : 2014-10}}
+      \field{type}{techreport}
+      \field{year}{2018}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bundesanstalt f{\"{u}}r Wasserbau (Hg.) - 2018 - Leitfaden zum Anhang NA . F Bemessung von H{\"{a}}ngern an Stabbogenbr{\"{u}}cken DIN EN 1993-2 NA 2014.pdf:pdf
+      \endverb
     \endentry
     \entry{Caicedo2011}{article}{}
       \name{author}{1}{}{%
@@ -1076,6 +1545,44 @@
       \field{year}{1998}
       \keyw{Dynamika budowli,Dynamika konstrukcji -- podrȩczniki akademickie}
     \endentry
+    \entry{Cholewo1965}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8544c7ff9512bfe21460f230e2976da7}{%
+           family={Cholewo},
+           familyi={C\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac9cd2f11c514fbf11c1dc7d0d5756b8}{%
+           family={Sznurowski},
+           familyi={S\bibinitperiod},
+           given={Mieczys{ł}aw},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \list{publisher}{1}{%
+        {Wydawnictwo Komunikacji i {Ł}a̧czności}%
+      }
+      \strng{namehash}{af30cce24d5a4c1876768d340840ecc0}
+      \strng{fullhash}{af30cce24d5a4c1876768d340840ecc0}
+      \strng{bibnamehash}{af30cce24d5a4c1876768d340840ecc0}
+      \strng{authorbibnamehash}{af30cce24d5a4c1876768d340840ecc0}
+      \strng{authornamehash}{af30cce24d5a4c1876768d340840ecc0}
+      \strng{authorfullhash}{af30cce24d5a4c1876768d340840ecc0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mosty kolejowe i fundamentowanie}}
+      \field{year}{1965}
+      \field{pages}{711}
+      \range{pages}{1}
+    \endentry
     \entry{Chopra2012a}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ebb43022d4093fd1968e4e0bc4ec81b0}{%
@@ -1116,6 +1623,37 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop//Chopra - 2012 - Dynamics of structures theory and applications to earthquake engineering.pdf:pdf
       \endverb
       \keyw{Earthquake engineering,Structural dynamics}
+    \endentry
+    \entry{Ciesla2013}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f851f9fb49f64a257414a78535fb71b5}{%
+           family={Cieśla},
+           familyi={C\bibinitperiod},
+           given={Juliusz},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f851f9fb49f64a257414a78535fb71b5}
+      \strng{fullhash}{f851f9fb49f64a257414a78535fb71b5}
+      \strng{bibnamehash}{f851f9fb49f64a257414a78535fb71b5}
+      \strng{authorbibnamehash}{f851f9fb49f64a257414a78535fb71b5}
+      \strng{authornamehash}{f851f9fb49f64a257414a78535fb71b5}
+      \strng{authorfullhash}{f851f9fb49f64a257414a78535fb71b5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Przegla̧d Budowlany}
+      \field{number}{29}
+      \field{title}{{Prefabrykowane belki mostowe z betonu sprȩżonego w Polsce – historia i stan obecny}}
+      \field{year}{2013}
+      \field{pages}{19\bibrangedash 25}
+      \range{pages}{7}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Cie{\'{s}}la - 2013 - Prefabrykowane belki mostowe z betonu spr{\c{e}}{\.{z}}onego w Polsce – historia i stan obecny.pdf:pdf
+      \endverb
     \endentry
     \entry{Claus1998}{article}{}
       \name{author}{2}{}{%
@@ -1392,6 +1930,106 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Coello Coello, Reyes-Sierra - 2006 - Multi-Objective Particle Swarm Optimizers A Survey of the State-of-the-Art.pdf:pdf
       \endverb
     \endentry
+    \entry{Contributors2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c2897d4738d8fd643743ca427344b1f3}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{fullhash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{bibnamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{authorbibnamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{authornamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{authorfullhash}{c2897d4738d8fd643743ca427344b1f3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{List of longest arch bridge spans - Wikipedia}}
+      \field{urlday}{20}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/List{\_}of{\_}longest{\_}arch{\_}bridge{\_}spans{\#}cite{\_}note-80
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/List%7B%5C_%7Dof%7B%5C_%7Dlongest%7B%5C_%7Darch%7B%5C_%7Dbridge%7B%5C_%7Dspans%7B%5C#%7Dcite%7B%5C_%7Dnote-80
+      \endverb
+    \endentry
+    \entry{Cudny2017}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=4474759ceb866b897fd12f316a5495cb}{%
+           family={Cudny},
+           familyi={C\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b8c1769fe8d32f1af40fc8bb7cc7e3f}{%
+           family={Duszyńska},
+           familyi={D\bibinitperiod},
+           given={Angelika},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5a2924e96127ef2f4b75d211c5d03d1}{%
+           family={Gwizdala},
+           familyi={G\bibinitperiod},
+           given={Kazimierz},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb0f818cd6e7a4508bc36df39e1d8144}{%
+           family={Żóltowski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4f44df4282fd1c03bf395ecdb56835d5}
+      \strng{fullhash}{b10bbfc28a7d7e269c0cadf0ce1ad130}
+      \strng{bibnamehash}{4f44df4282fd1c03bf395ecdb56835d5}
+      \strng{authorbibnamehash}{4f44df4282fd1c03bf395ecdb56835d5}
+      \strng{authornamehash}{4f44df4282fd1c03bf395ecdb56835d5}
+      \strng{authorfullhash}{b10bbfc28a7d7e269c0cadf0ce1ad130}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{18974007}
+      \field{journaltitle}{Archives of Institute of Civil Engineering}
+      \field{number}{24}
+      \field{title}{{Przyczólki mostowe wspomagane konstrukcjami z gruntu zbrojonego}}
+      \field{volume}{24}
+      \field{year}{2017}
+      \field{pages}{59\bibrangedash 74}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.21008/j.1897-4007.2017.24.04
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Cudny et al. - 2017 - Przycz{\'{o}}lki mostowe wspomagane konstrukcjami z gruntu zbrojonego.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/622/Cudny i in. - 2017 - Przycz{\'{o}}lki mostowe wspomagane konstrukcjami z gru.pdf http://files/623/200.html
+      \endverb
+      \verb{url}
+      \verb http://files/622/Cudny%20i%20in.%20-%202017%20-%20Przycz%7B%5C'%7Bo%7D%7Dlki%20mostowe%20wspomagane%20konstrukcjami%20z%20gru.pdf%20http://files/623/200.html
+      \endverb
+    \endentry
     \entry{Czaja2000}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=00663ddf4c1a797e89037db4d79b86f1}{%
@@ -1432,6 +2070,36 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Czaja, Preweda - 2000 - Analiza statystyczna zmiennej losowej wielowymiarowej w aspekcie korelacji i predykcji.pdf:pdf
       \endverb
       \keyw{analiza statystyczna,correlation,info:eu-repo/semantics/article,korelacja,prediction,predykcja,statistic analysis}
+    \endentry
+    \entry{Czudek1997}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ffb08fc7afdb8210eb72a2cbd76589da}{%
+           family={Czudek},
+           familyi={C\bibinitperiod},
+           given={Henryk},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \list{publisher}{1}{%
+        {Oficyna Wydawnicza Politechniki Warszawskiej}%
+      }
+      \strng{namehash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \strng{fullhash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \strng{bibnamehash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \strng{authorbibnamehash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \strng{authornamehash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \strng{authorfullhash}{ffb08fc7afdb8210eb72a2cbd76589da}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Podstawy mostownictwa metalowego}}
+      \field{year}{1997}
     \endentry
     \entry{Dan2015}{article}{}
       \name{author}{3}{}{%
@@ -2004,6 +2672,27 @@
       \field{title}{{Eurokod 1: Oddzia{ł}ywania na konstrukcje Czȩść 2: Obcia̧żenia ruchome mostów}}
       \field{year}{2007}
     \endentry
+    \entry{PN-EN-1993-1-112008}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ee08cc629d0e630a69a5406b31c12a65}{%
+           family={PN-EN-1993-1-11},
+           familyi={P\bibinithyphendelim E\bibinithyphendelim 1\bibinithyphendelim 1\bibinithyphendelim 1\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee08cc629d0e630a69a5406b31c12a65}
+      \strng{fullhash}{ee08cc629d0e630a69a5406b31c12a65}
+      \strng{bibnamehash}{ee08cc629d0e630a69a5406b31c12a65}
+      \strng{authorbibnamehash}{ee08cc629d0e630a69a5406b31c12a65}
+      \strng{authornamehash}{ee08cc629d0e630a69a5406b31c12a65}
+      \strng{authorfullhash}{ee08cc629d0e630a69a5406b31c12a65}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Eurokod 3: Projektowanie konstrukcji stalowych. Czȩść 1-11: Konstrukcje ciȩgnowe}}
+      \field{year}{2008}
+    \endentry
     \entry{ERRI1996}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=96d70e4d39a19bbd0198a5739464bef4}{%
@@ -2218,6 +2907,46 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Fieldsend, Singh - Unknown - A multi-objective algorithm based upon particle swarm optimisation, an efficient data structure and turbule.pdf:pdf
       \endverb
     \endentry
+    \entry{Filipiuk2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1b80000fb7aca195732742130ff7c9fc}{%
+           family={Filipiuk},
+           familyi={F\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f855b00a42c82772daa45c0d91739ad5}{%
+           family={Stefanowski},
+           familyi={S\bibinitperiod},
+           given={Tadeusz},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a5bf47d498e96156758a58ba69d15df}{%
+           family={Basek},
+           familyi={B\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Wroc{ł}aw}%
+      }
+      \strng{namehash}{1862296742afdeba8ddbfa93b5c83e42}
+      \strng{fullhash}{1862296742afdeba8ddbfa93b5c83e42}
+      \strng{bibnamehash}{1862296742afdeba8ddbfa93b5c83e42}
+      \strng{authorbibnamehash}{1862296742afdeba8ddbfa93b5c83e42}
+      \strng{authornamehash}{1862296742afdeba8ddbfa93b5c83e42}
+      \strng{authorfullhash}{1862296742afdeba8ddbfa93b5c83e42}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
+      \field{title}{{Stalowy wiadukt {ł}ukowy w cia̧gu Pomorskiej Kolei Metropolitalnej}}
+      \field{year}{2015}
+    \endentry
     \entry{Findeisen1980}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=bf96b029a679f6944bcff0a5324db0e4}{%
@@ -2323,6 +3052,60 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Fister Jr. et al. - 2013 - A brief review of nature-inspired algorithms for optimization.pdf:pdf
       \endverb
       \keyw{Bio-inspired algorithms,Optimization,Physics/chemistry algorithms,Swarm intelligence}
+    \endentry
+    \entry{Friswell2001}{article}{}
+      \name{author}{3}{}{%
+        {{un=2,uniquepart=given,hash=aa8bafdfea86c14aa312dada943e1fc2}{%
+           family={Friswell},
+           familyi={F\bibinitperiod},
+           given={M\bibnamedelima I},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=55284ecd42de4d2e1f8bfc50e08aa63c}{%
+           family={Mottershead},
+           familyi={M\bibinitperiod},
+           given={J\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=f64bcd2344ddd624fb687c483d826e8b}{%
+           family={Ahmadian},
+           familyi={A\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9e405049e246a71563fc1e93f521c548}
+      \strng{fullhash}{9e405049e246a71563fc1e93f521c548}
+      \strng{bibnamehash}{9e405049e246a71563fc1e93f521c548}
+      \strng{authorbibnamehash}{9e405049e246a71563fc1e93f521c548}
+      \strng{authornamehash}{9e405049e246a71563fc1e93f521c548}
+      \strng{authorfullhash}{9e405049e246a71563fc1e93f521c548}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Cited By :152 Export Date: 13 April 2021}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences}
+      \field{number}{1778}
+      \field{title}{{Finite-element model updating using experimental test data: Parametrization and regularization}}
+      \field{volume}{359}
+      \field{year}{2001}
+      \field{pages}{169\bibrangedash 186}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1098/rsta.2000.0719
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Friswell, Mottershead, Ahmadian - 2001 - Finite-element model updating using experimental test data Parametrization and regularization.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-0004774453{\&}doi=10.1098{\%}2Frsta.2000.0719{\&}partnerID=40{\&}md5=f11f0e38abb86540c4a9dd01f97d4cb1
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-0004774453%7B%5C&%7Ddoi=10.1098%7B%5C%%7D2Frsta.2000.0719%7B%5C&%7DpartnerID=40%7B%5C&%7Dmd5=f11f0e38abb86540c4a9dd01f97d4cb1
+      \endverb
     \endentry
     \entry{Fryba2001}{article}{}
       \name{author}{1}{}{%
@@ -2799,6 +3582,59 @@
       \field{year}{2013}
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Golub, Van Loan - 2013 - Matrix computations, 4th.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Gunther2000}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=bfaf25e05d41a52806f5bbb523a123d5}{%
+           family={Günther},
+           familyi={G\bibinitperiod},
+           given={Gerhard\bibnamedelima H},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02a3722d3837cee4023733191011b97b}{%
+           family={Sedlacek},
+           familyi={S\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe03112cf5f9504f3b825f2d1b09290a}{%
+           family={Hortmanns},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1102c6e194b525be8bf49f5f791bcff}{%
+           family={Schwarzkopf},
+           familyi={S\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84930344b98f2fb5ec15c71a49216085}{%
+           family={Bohmann},
+           familyi={B\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21229bd9f1b6116bfc3f6b26f284055f}
+      \strng{fullhash}{8409aed81b04573ac7daf94c0ed2d895}
+      \strng{bibnamehash}{21229bd9f1b6116bfc3f6b26f284055f}
+      \strng{authorbibnamehash}{21229bd9f1b6116bfc3f6b26f284055f}
+      \strng{authornamehash}{21229bd9f1b6116bfc3f6b26f284055f}
+      \strng{authorfullhash}{8409aed81b04573ac7daf94c0ed2d895}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Stahlbau}
+      \field{title}{{Dauerhafte Ausführung von Hängeranschlüssen an stählernen Bogenbrücken}}
+      \field{volume}{69}
+      \field{year}{2000}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/G{\"{u}}nther et al. - 2000 - Dauerhafte Ausf{\"{u}}hrung von H{\"{a}}ngeranschl{\"{u}}ssen an st{\"{a}}hlernen Bogenbr{\"{u}}cken.pdf:pdf
       \endverb
     \endentry
     \entry{Haftka2016}{article}{}
@@ -3444,6 +4280,40 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/James, Carne, Lauffer - 1993 - The Natural Excitation Technique (NExT) for Modal Parameter Extraction From Operating Wind Turbines.pdf:pdf
       \endverb
+    \endentry
+    \entry{Janusz2009}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=70f2db8c007c2f777a33544bb4a88fef}{%
+           family={Janusz},
+           familyi={J\bibinitperiod},
+           given={Leszek},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d5b0a3fdb8710caea9509c9722ef65d}{%
+           family={Madaj},
+           familyi={M\bibinitperiod},
+           given={Arkadiusz},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wydawnictwo Komunikacji i {Ł}a̧czności}%
+      }
+      \strng{namehash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \strng{fullhash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \strng{bibnamehash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \strng{authorbibnamehash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \strng{authornamehash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \strng{authorfullhash}{a5c8a40d0c961e78ef6871267b9df2ba}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{8320617324}
+      \field{title}{{Obiekty inżynierskie z blach falistych: projektowanie i wykonawstwo}}
+      \field{year}{2009}
     \endentry
     \entry{Juang1988}{article}{}
       \name{author}{2}{}{%
@@ -4394,6 +5264,80 @@
       \endverb
       \keyw{ERA,Modal parameters,Model identification,Model order,noise}
     \endentry
+    \entry{Li2020}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=78b9842234bdc2836eb3c609269b22a4}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yuwei},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=1a84168c0c17e71f97516a67f63eeb09}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Kuo},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4e074241d00dd9641dd5b58c851dcdc}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ec1970b5ade018d762c842cc68b4a3e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Bin\bibnamedelima Bo},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0d5a12b1f5bae45ea7780158b3b35c8}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ec1970b5ade018d762c842cc68b4a3e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Bin\bibnamedelima Bo},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{314fa71009653a759e05e49e9418f20b}
+      \strng{fullhash}{d7520f8a553af983e1ab7cd0a741d376}
+      \strng{bibnamehash}{314fa71009653a759e05e49e9418f20b}
+      \strng{authorbibnamehash}{314fa71009653a759e05e49e9418f20b}
+      \strng{authornamehash}{314fa71009653a759e05e49e9418f20b}
+      \strng{authorfullhash}{d7520f8a553af983e1ab7cd0a741d376}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In order to obtain a precise dynamic structural FE model for dynamic analysis, FE model updating is usually used to correct uncertainty parameters for an initial FE model using incomplete measured data. Despite numerous studies concerning FE model updating, the computational cost is still a challenging issue for the repeated eigenvalue structures. Firstly, an improved modal assurance criterion is proposed to evaluate the similarity of mode shapes for the repeated eigenvalue structures in this paper. And then, a novel ROM-based FE model updating framework consisting of an off-line phase and an on-line phase is proposed. In the off-line phase, a reduced-order basis is constructed by extracting primary components of a snapshot matrix using a proper orthogonal decomposition technique. The snapshot matrix represents a collection of static displacement vectors of the FE model under radial nodal loads, which are determined by incomplete measured mode shapes. In the on-line phase, FE model updating is performed via a reduced-order model with much cheaper computational cost. Finally, a numerical example and an experimental example demonstrate the accuracy and efﬁciency of the proposed framework. The results indicate that the proposed ROM-based FE model updating framework is more efﬁcient and stable than the FOM-based FE model updating framework.}
+      \field{issn}{08883270}
+      \field{journaltitle}{Mechanical Systems and Signal Processing}
+      \field{month}{4}
+      \field{title}{{Finite element model updating for repeated eigenvalue structures via the reduced-order model using incomplete measured modes}}
+      \field{volume}{142}
+      \field{year}{2020}
+      \field{pages}{106748}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ymssp.2020.106748
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Li et al. - 2020 - Finite element model updating for repeated eigenvalue structures via the reduced-order model using incomplete measure.pdf:pdf
+      \endverb
+      \keyw{FE model updating,Incomplete measured modes,Reduced-order models,Repeated eigenvalue structures}
+    \endentry
     \entry{Liang2006}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=b35562cf05398670ceb7e4f88b6b0ec4}{%
@@ -4447,6 +5391,40 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Liang et al. - 2006 - Comprehensive learning particle swarm optimizer for global optimization of multimodal functions.pdf:pdf
       \endverb
+    \endentry
+    \entry{Lin2017}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3692a0834aa4f676d5e7d198a1c23d12}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Weiwei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8331e019eb7680aef71062f912c6f36d}{%
+           family={Yoda},
+           familyi={Y\bibinitperiod},
+           given={Teruhiko},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Butterworth-Heinemann}%
+      }
+      \strng{namehash}{6602c4a019008fb55c9236662119534d}
+      \strng{fullhash}{6602c4a019008fb55c9236662119534d}
+      \strng{bibnamehash}{6602c4a019008fb55c9236662119534d}
+      \strng{authorbibnamehash}{6602c4a019008fb55c9236662119534d}
+      \strng{authornamehash}{6602c4a019008fb55c9236662119534d}
+      \strng{authorfullhash}{6602c4a019008fb55c9236662119534d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0128044330}
+      \field{title}{{Bridge engineering: classifications, design loading, and analysis methods}}
+      \field{year}{2017}
     \endentry
     \entry{Lv2019}{article}{}
       \name{author}{5}{ul=2}{%
@@ -4883,6 +5861,145 @@
       \field{title}{{Application of particle swarm to multiobjective optimization}}
       \field{type}{techreport}
       \field{year}{1999}
+    \endentry
+    \entry{Morandi1962}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30e12e8727828a890fb6e0c1e4d1e302}{%
+           family={Morandi},
+           familyi={M\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \strng{fullhash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \strng{bibnamehash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \strng{authorbibnamehash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \strng{authornamehash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \strng{authorfullhash}{30e12e8727828a890fb6e0c1e4d1e302}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Society of Arts}
+      \field{number}{5066}
+      \field{title}{{ENGINEERING AND ARCHITECTURE}}
+      \field{volume}{110}
+      \field{year}{1962}
+      \field{pages}{75\bibrangedash 92}
+      \range{pages}{18}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Morandi - 1962 - ENGINEERING AND ARCHITECTURE.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Mottershead1993}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=55284ecd42de4d2e1f8bfc50e08aa63c}{%
+           family={Mottershead},
+           familyi={M\bibinitperiod},
+           given={J\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=aa8bafdfea86c14aa312dada943e1fc2}{%
+           family={Friswell},
+           familyi={F\bibinitperiod},
+           given={M\bibnamedelima I},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{f0586ce903476588535b24314db4a8d2}
+      \strng{fullhash}{f0586ce903476588535b24314db4a8d2}
+      \strng{bibnamehash}{f0586ce903476588535b24314db4a8d2}
+      \strng{authorbibnamehash}{f0586ce903476588535b24314db4a8d2}
+      \strng{authornamehash}{f0586ce903476588535b24314db4a8d2}
+      \strng{authorfullhash}{f0586ce903476588535b24314db4a8d2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Cited By :1421 Export Date: 13 April 2021}
+      \field{journaltitle}{Journal of Sound and Vibration}
+      \field{number}{2}
+      \field{title}{{Model updating in structural dynamics: A survey}}
+      \field{volume}{167}
+      \field{year}{1993}
+      \field{pages}{347\bibrangedash 375}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1006/jsvi.1993.1340
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Mottershead, Friswell - 1993 - Model updating in structural dynamics A survey.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-0027683685{\&}doi=10.1006{\%}2Fjsvi.1993.1340{\&}partnerID=40{\&}md5=75a8cd1f9c17a8bbb04c7a93e6424de0
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-0027683685%7B%5C&%7Ddoi=10.1006%7B%5C%%7D2Fjsvi.1993.1340%7B%5C&%7DpartnerID=40%7B%5C&%7Dmd5=75a8cd1f9c17a8bbb04c7a93e6424de0
+      \endverb
+    \endentry
+    \entry{Mottershead2011}{article}{}
+      \name{author}{3}{}{%
+        {{un=2,uniquepart=given,hash=68392525b6cb3f404199108e07342f19}{%
+           family={Mottershead},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=597986c03a0b7ef8237d05edbf59bf76}{%
+           family={Link},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=00f73f73dbfbda34c5511740b2c7dc9f}{%
+           family={Friswell},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7061f59066272e8da265b430caf6cfda}
+      \strng{fullhash}{7061f59066272e8da265b430caf6cfda}
+      \strng{bibnamehash}{7061f59066272e8da265b430caf6cfda}
+      \strng{authorbibnamehash}{7061f59066272e8da265b430caf6cfda}
+      \strng{authornamehash}{7061f59066272e8da265b430caf6cfda}
+      \strng{authorfullhash}{7061f59066272e8da265b430caf6cfda}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The sensitivity method is probably the most successful of the many approaches to the problem of updating finite element models of engineering structures based on vibration test data. It has been applied successfully to large-scale industrial problems and proprietary codes are available based on the techniques explained in simple terms in this article. A basic introduction to the most important procedures of computational model updating is provided, including tutorial examples to reinforce the reader's understanding and a large scale model updating example of a helicopter airframe. {©} 2010 Elsevier Ltd. All rights reserved.}
+      \field{issn}{10961216}
+      \field{journaltitle}{Mechanical Systems and Signal Processing}
+      \field{number}{7}
+      \field{title}{{The sensitivity method in finite element model updating: A tutorial}}
+      \field{volume}{25}
+      \field{year}{2011}
+      \field{pages}{2275\bibrangedash 2296}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/j.ymssp.2010.10.012
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Mottershead, Link, Friswell - 2011 - The sensitivity method in finite element model updating A tutorial.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.ymssp.2010.10.012
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.ymssp.2010.10.012
+      \endverb
+      \keyw{Model Updating,Sensitivity Method}
     \endentry
     \entry{Muncke2008}{incollection}{}
       \name{author}{1}{}{%
@@ -5515,12 +6632,12 @@
            given={J\bibnamedelima E\bibnamedelima T},
            giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=aa8bafdfea86c14aa312dada943e1fc2}{%
+        {{un=2,uniquepart=given,hash=aa8bafdfea86c14aa312dada943e1fc2}{%
            family={Friswell},
            familyi={F\bibinitperiod},
            given={M\bibnamedelima I},
            giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=bfd64e10e85cfb81ec533520f0a8a0ae}{%
            family={Garvey},
            familyi={G\bibinitperiod},
@@ -5556,6 +6673,58 @@
       \verb{url}
       \verb http://files/166/Penny%20i%20in.%20-%201994%20-%20Automatic%20choice%20of%20measurement%20locations%20for%20dyna.pdf%20http://files/167/3.html
       \endverb
+    \endentry
+    \entry{Petersen2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=80cfc704b5c88c4749e7c6c5ce0e77b9}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0267f8b7c35103c3ddca84976cfe464}{%
+           family={{Ø}iseth},
+           familyi={Ø\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{9c32f12c166a7429168aef28dbcb6c34}
+      \strng{fullhash}{9c32f12c166a7429168aef28dbcb6c34}
+      \strng{bibnamehash}{9c32f12c166a7429168aef28dbcb6c34}
+      \strng{authorbibnamehash}{9c32f12c166a7429168aef28dbcb6c34}
+      \strng{authornamehash}{9c32f12c166a7429168aef28dbcb6c34}
+      \strng{authorfullhash}{9c32f12c166a7429168aef28dbcb6c34}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Numerical models of large civil engineering structures are prone to errors and uncertain system parameters, which inevitably affect the ability of such models to accurately predict dynamic behavior. Finite element (FE) model updating can be used to calibrate the numerical models towards the observed behavior. In this paper, a case study of the sensitivity method in FE model updating is presented. The methodology is applied to the Bergs{ø}ysund Bridge, which is a long-span floating pontoon bridge in Norway. A system identification is performed based on acceleration data and thirty vibration modes are identified. The FE model is calibrated by reducing the difference between the identified and numerical natural frequencies and mode shapes of the bridge. The model uncertainties are parametrized with a total of 27 parameters. We demonstrate how an analytical sensitivity matrix can be constructed for floating structures, where the system mass and damping matrices are functions of frequency due to fluid-structure interaction. After updating, the mean error in natural frequencies is decreased from 3.23{\%} to 2.34{\%}, and the average MAC number is increased from 0.87 to 0.94. Although the largest errors are significantly reduced, the updated parameters are believed to be affected by noise from the system identification. Challenges related to the presence of very closely spaced vibration modes are also shown, in which matching the identified modes to the modeled modes becomes difficult. This study indicates that models of large bridges can be significantly improved, but many practical issues still exist.}
+      \field{issn}{18737323}
+      \field{journaltitle}{Engineering Structures}
+      \field{title}{{Sensitivity-based finite element model updating of a pontoon bridge}}
+      \field{volume}{150}
+      \field{year}{2017}
+      \field{pages}{573\bibrangedash 584}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.engstruct.2017.07.025
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Petersen, {\O}iseth - 2017 - Sensitivity-based finite element model updating of a pontoon bridge.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.engstruct.2017.07.025
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.engstruct.2017.07.025
+      \endverb
+      \keyw{Finite element model updating,Floating bridge,Sensitivity method}
     \endentry
     \entry{Phan1991}{report}{}
       \name{author}{3}{}{%
@@ -5783,6 +6952,38 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Poprawa - 2018 - Operacyjna analiza modalna w badaniach kratowych most{\'{o}}w kolejowych pod pr{\'{o}}bnym obcia{\.{z}}eniem dynamicznym.pdf:pdf
       \endverb
+    \endentry
+    \entry{Pszenicki1954}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd20c479bc88797e773deff8d369c91e}{%
+           family={Pszenicki},
+           familyi={P\bibinitperiod},
+           given={Andrzej},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \list{publisher}{1}{%
+        {Wydawnictwa Komunikacyjne}%
+      }
+      \strng{namehash}{dd20c479bc88797e773deff8d369c91e}
+      \strng{fullhash}{dd20c479bc88797e773deff8d369c91e}
+      \strng{bibnamehash}{dd20c479bc88797e773deff8d369c91e}
+      \strng{authorbibnamehash}{dd20c479bc88797e773deff8d369c91e}
+      \strng{authornamehash}{dd20c479bc88797e773deff8d369c91e}
+      \strng{authorfullhash}{dd20c479bc88797e773deff8d369c91e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mosty stalowe nitowane}}
+      \field{year}{1954}
+      \field{pages}{459}
+      \range{pages}{1}
     \endentry
     \entry{Pulido2005OnTU}{thesis}{}
       \name{author}{1}{}{%
@@ -7052,6 +8253,33 @@
       \verb http://economic-research.pl/Journals/index.php/atest/article/view/1326%20http://files/863/Szcze%7B%5C'%7Bs%7D%7Dniak%20i%20Ataman%20-%202018%20-%20Survey%20of%20publications%20by%20Polish%20authors%20in%20the%20fi.pdf
       \endverb
     \endentry
+    \entry{Szczygie1978}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a73802991bdf09a9097a910101c360bc}{%
+           family={Szczygie{ł}},
+           familyi={S\bibinitperiod},
+           given={Juliusz},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wydawn. Komunikacji i {Ł}a̧czności}%
+      }
+      \strng{namehash}{a73802991bdf09a9097a910101c360bc}
+      \strng{fullhash}{a73802991bdf09a9097a910101c360bc}
+      \strng{bibnamehash}{a73802991bdf09a9097a910101c360bc}
+      \strng{authorbibnamehash}{a73802991bdf09a9097a910101c360bc}
+      \strng{authornamehash}{a73802991bdf09a9097a910101c360bc}
+      \strng{authorfullhash}{a73802991bdf09a9097a910101c360bc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mosty z betonu zbrojonego i sprȩżonego}}
+      \field{year}{1978}
+    \endentry
     \entry{Szymczak1995}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7ce334217aecc9d8e42a23a191b6a886}{%
@@ -7194,6 +8422,32 @@
       \verb 10.1080/14786442208633953
       \endverb
     \endentry
+    \entry{Tomala2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7a2a6e048d37afdd6cc26525e77dc27}{%
+           family={Tomala},
+           familyi={T\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \strng{fullhash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \strng{bibnamehash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \strng{authorbibnamehash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \strng{authornamehash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \strng{authorfullhash}{b7a2a6e048d37afdd6cc26525e77dc27}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1896-7663}
+      \field{journaltitle}{Mosty}
+      \field{title}{{Wiadukt drogowy z blach falistych o najwiȩkszej na świecie rozpiȩtości}}
+      \field{year}{2019}
+    \endentry
     \entry{Tran-Ngoc2018}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=b6ef98c55f92c511d845d955a2bf1fe5}{%
@@ -7265,6 +8519,41 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Tran-Ngoc et al. - 2018 - Model updating for nam O bridge using particle swarm optimization algorithm and genetic algorithm.pdf:pdf
       \endverb
       \keyw{Genetic algorithm,Large-scale bridges,Model updating,Particle swarm optimization,Stiffness of truss joints}
+    \endentry
+    \entry{Tveit2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=66e95dcc8ecf6811c45df27e1b4acc33}{%
+           family={Tveit},
+           familyi={T\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{fullhash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{bibnamehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{authorbibnamehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{authornamehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{authorfullhash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The network arch is an economical bridge type that can look good and needs 35 to 50 {\%} less steel. Economical methods of erection using light steel skeletons can be found. The network arch is defined by having hangers that cross each other at least twice [1]. The arches are made of steel. When the distance between the arches is less than 20m, the author thinks that the tie should normally be made of concrete.}
+      \field{issn}{1757899X}
+      \field{journaltitle}{IOP Conference Series: Materials Science and Engineering}
+      \field{number}{5}
+      \field{title}{{How to Design Economical Network Arches}}
+      \field{volume}{471}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1088/1757-899X/471/5/052078
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Tveit - 2019 - How to Design Economical Network Arches.pdf:pdf
+      \endverb
     \endentry
     \entry{Udwadia1994}{article}{}
       \name{author}{1}{}{%
@@ -7594,6 +8883,36 @@
       \field{pages}{815\bibrangedash 821}
       \range{pages}{7}
     \endentry
+    \entry{Wachalski2015}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=848afda6ebb44546d2bb5acc88142812}{%
+           family={Wa̧chalski},
+           familyi={W\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Wroc{ł}aw}%
+      }
+      \strng{namehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{fullhash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{bibnamehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{authorbibnamehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{authornamehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{authorfullhash}{848afda6ebb44546d2bb5acc88142812}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
+      \field{title}{{Most przez Wis{ł}ȩ w Toruniu}}
+      \field{year}{2015}
+      \field{pages}{59\bibrangedash 72}
+      \range{pages}{14}
+    \endentry
     \entry{Warner2012}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f5867b8c2053f5c95ed8577f04264d64}{%
@@ -7702,6 +9021,72 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Welch - 1967 - The use of fast Fourier transform for the estimation of power spectra a method based on time averaging over short, modifi.pdf:pdf
       \endverb
+    \endentry
+    \entry{Weng2020}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9092e2a33a6a1c189727837b5168546b}{%
+           family={Weng},
+           familyi={W\bibinitperiod},
+           given={Shun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39e026ab325dae0ae8520a7dacd98229}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Hongping},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61a31907b440c2414a770161a7391533}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7363e1807876db10b9d6c344e8fc008}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jiajing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3f0dc1c62dc20c0b7e8dfa59c4e17c8}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8d4f0dd84836541e9381a1b90606c3d0}
+      \strng{fullhash}{03bb64c889f536a74a993ec0f153bff0}
+      \strng{bibnamehash}{8d4f0dd84836541e9381a1b90606c3d0}
+      \strng{authorbibnamehash}{8d4f0dd84836541e9381a1b90606c3d0}
+      \strng{authornamehash}{8d4f0dd84836541e9381a1b90606c3d0}
+      \strng{authorfullhash}{03bb64c889f536a74a993ec0f153bff0}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Substructuring methods possess many merits in model updating and damage identification of large-scale structures. With substructuring methods, a global structure is divided into a number of independent substructures. Only the substructures are repeatedly analyzed and the re-analysis of the global structure is thereby avoided. This article reviews widely used dynamic substructuring methods for model updating and damage identification of large-scale structures. These methods can be categorized into forward and inverse substructuring approaches. The former is a conventional process that assembles the vibration properties of each substructure to obtain the vibration properties of the global structure. The latter, on the contrary, disassembles the vibration properties of the global structure into those of the substructures. In each category, both frequency and time domain methods have been developed and will be reviewed.}
+      \field{issn}{1369-4332, 2048-4011}
+      \field{journaltitle}{Advances in Structural Engineering}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{A review on dynamic substructuring methods for model updating and damage detection of large-scale structures}}
+      \field{volume}{23}
+      \field{year}{2020}
+      \field{pages}{584\bibrangedash 600}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1177/1369433219872429
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Weng et al. - 2020 - A review on dynamic substructuring methods for model updating and damage detection of large-scale structures.pdf:pdf
+      \endverb
+      \keyw{damage detection,large-scale structures,model updating,substructuring method,vibration method}
     \endentry
     \entry{Willis1849}{incollection}{}
       \name{author}{1}{}{%
@@ -7892,6 +9277,69 @@
       \range{pages}{12}
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Yamaguchi, Ito - 1997 - Mode-dependence of structural damping in cable-stayed bridges.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Yu2016}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=973a66269a90ae7e5afd8063a9691895}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Jie\bibnamedelima Xin},
+           giveni={J\bibinitperiod\bibinitdelim X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61a31907b440c2414a770161a7391533}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a5c69e514f00961901616047782d0d6}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdf1d3a01d32daeb49300edc6b630690}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiao\bibnamedelima Qing},
+           giveni={X\bibinitperiod\bibinitdelim Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0af16396143ecd31f04d9c478ce7cc96}
+      \strng{fullhash}{d521c75169c58e94e21b42d36e35fe30}
+      \strng{bibnamehash}{0af16396143ecd31f04d9c478ce7cc96}
+      \strng{authorbibnamehash}{0af16396143ecd31f04d9c478ce7cc96}
+      \strng{authornamehash}{0af16396143ecd31f04d9c478ce7cc96}
+      \strng{authorfullhash}{d521c75169c58e94e21b42d36e35fe30}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Component mode synthesis (CMS) method is developed and applied to the element-by-element model updating of large-scale structures in this study. Several lowest frequencies and mode shapes of the global structure are obtained with the free interface CMS method by employing the several lowest frequencies and mode shapes of each substructure individually. In this process, the removal of higher modes is compensated by the residual modes. The eigensensitivity of the global structure is then assembled from the eigensensitivities of each substructure to the updating element parameters. Subsequently, the global model is updated using the sensitivity-based optimization technique. The application of the present method to an 11-floor frame structure and to a large-scale structure demonstrates its accuracy and efficiency. The computational time required by the substructuring method to calculate the eigensensitivity matrices is significantly reduced, as compared with that consumed by the conventional global-based approach. Selection of the number of master modes is also proposed.}
+      \field{issn}{10958568}
+      \field{journaltitle}{Journal of Sound and Vibration}
+      \field{title}{{Element-by-element model updating of large-scale structures based on component mode synthesis method}}
+      \field{volume}{362}
+      \field{year}{2016}
+      \field{pages}{72\bibrangedash 84}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.jsv.2015.10.019
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Yu et al. - 2016 - Element-by-element model updating of large-scale structures based on component mode synthesis method.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jsv.2015.10.019
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jsv.2015.10.019
       \endverb
     \endentry
     \entry{Zacher2008}{incollection}{}
@@ -8146,12 +9594,12 @@
     \endentry
     \entry{Zhang2004}{article}{}
       \name{author}{3}{}{%
-        {{un=1,uniquepart=given,hash=3aed92084155d1c9b4b8a70af7f7d618}{%
+        {{un=2,uniquepart=given,hash=3aed92084155d1c9b4b8a70af7f7d618}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Lingmi},
            giveni={L\bibinitperiod},
-           givenun=1}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=df9b403f49896f79fad5822bff520a57}{%
            family={Brincker},
            familyi={B\bibinitperiod},
@@ -8188,6 +9636,53 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Zhang, Brincker, Andersen - 2004 - An overview of major developments and issues in modal identification.pdf:pdf
       \endverb
+    \endentry
+    \entry{Zhang2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=8d2d0761db1c77b16230643afdcfb13e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod},
+           givenun=2}}%
+        {{un=1,uniquepart=given,hash=c917610131eb2f97f3bc92fa1d29d66c}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={JingYu\bibnamedelima Yu},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{cd69d50f2f8ac8409aaa6fe97e49a7af}
+      \strng{fullhash}{cd69d50f2f8ac8409aaa6fe97e49a7af}
+      \strng{bibnamehash}{cd69d50f2f8ac8409aaa6fe97e49a7af}
+      \strng{authorbibnamehash}{cd69d50f2f8ac8409aaa6fe97e49a7af}
+      \strng{authornamehash}{cd69d50f2f8ac8409aaa6fe97e49a7af}
+      \strng{authorfullhash}{cd69d50f2f8ac8409aaa6fe97e49a7af}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Practical simulation technology is of great importance in the design and research of the maglev system. This paper presents a practical vehicle/guideway model based on an in situ vibration test and model updating method. In this model, the guideway is established by the Finite Element method and then updated by the measurement, and the vehicle is simulated as a 10-degree-of-freedom model, which consists of a car-body and eight magnets. The vehicle interacts with the guideway by the magnetic interactive forces, which are tuned by the current feedback controller. The vehicle/guideway interaction problem is solved by the proposed incremental iteration procedure. Two case studies including the Shanghai High-speed Maglev Commercial Operational Line and the High-speed Maglev Test Line at Tongji University were presented for the validation of the proposed model. Finally, the effects of random surface irregularity and distributed magnetic forces were investigated here, and the frequency response of the guideway was analyzed in detail. The results indicate that the proposed model can provide a practical response prediction and analysis because the dynamic characteristics of the guideway and the excitation frequency of the maglev train are reasonably considered in this model.}
+      \field{issn}{0141-0296}
+      \field{journaltitle}{Engineering Structures}
+      \field{number}{December 2017}
+      \field{title}{{Dynamic interaction analysis of the high-speed maglev vehicle/guideway system based on a field measurement and model updating method}}
+      \field{volume}{180}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.engstruct.2018.11.031
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Zhang, Huang - 2019 - Dynamic interaction analysis of the high-speed maglev vehicleguideway system based on a field measurement and mode.pdf:pdf
+      \endverb
+      \keyw{Experimental validation,Field measurement,Finite element method,Frequency response,Maglev guideways,Maglev transport,Maglev vehicle/guideway coupled dynamics,Model updating}
     \endentry
     \entry{Zhou2020}{article}{}
       \name{author}{4}{}{%
@@ -8442,26 +9937,104 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Zitzler, Thiele - 1999 - Multiobjective evolutionary algorithms a comparative case study and the strength Pareto approach.pdf:pdf
       \endverb
     \endentry
+    \entry{Zobel2015}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=84c970bc85ba9507a27aad6cd4e6dfbf}{%
+           family={Zobel},
+           familyi={Z\bibinitperiod},
+           given={Henryk},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=f2a9957d640a6cc73bbe6075b7328972}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Wroc{ł}aw}%
+      }
+      \strng{namehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \strng{fullhash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \strng{bibnamehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \strng{authorbibnamehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \strng{authornamehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \strng{authorfullhash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
+      \field{title}{{Wieszaki mostów {ł}ukowych}}
+      \field{year}{2015}
+    \endentry
+    \entry{Zoltowski2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=477c220c23a5ada2e4de53e542a0afbb}{%
+           family={Zoltowski},
+           familyi={Z\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=bdd8889b18887d70a86a660ac315a500}{%
+           family={Drawc},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{52c36ba175a0fcda1c1151b115144d70}
+      \strng{fullhash}{52c36ba175a0fcda1c1151b115144d70}
+      \strng{bibnamehash}{52c36ba175a0fcda1c1151b115144d70}
+      \strng{authorbibnamehash}{52c36ba175a0fcda1c1151b115144d70}
+      \strng{authornamehash}{52c36ba175a0fcda1c1151b115144d70}
+      \strng{authorfullhash}{52c36ba175a0fcda1c1151b115144d70}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The paper presents a concept and realization of monitoring system for the Silesian Stadium in Chorzow. The idea of the system lies in fusion of structure monitoring with a calibrated numerical FEM model [1]. The inverse problem is solved. On the base of measured selected displacements, the numerical FEM model of the structure combined with iterative method, develops the current snow load distribution. Knowing the load, we can calculate the forces and stresses in each element of the structure and thanks to this we can determine the safety thresholds and asses the owner. Test results and conclusions are presented.}
+      \field{issn}{23003103}
+      \field{journaltitle}{Archives of Civil Engineering}
+      \field{number}{2}
+      \field{title}{{Inverse analysis as a key element of safety assessment under the snow load for the large suspension roofs structure}}
+      \field{volume}{66}
+      \field{year}{2020}
+      \field{pages}{369\bibrangedash 383}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.24425/ace.2020.131815
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Zoltowski, Drawc - Unknown - INVERSE ANALYSIS AS A KEY ELEMENT OF SAFETY ASSESSMENT UNDER THE SNOW LOAD FOR THE LARGE SUSPENSION ROOFS S.pdf:pdf
+      \endverb
+      \keyw{FEM model,Inverse problem,Safety of the structure,Snow load,Structural health monitoring}
+    \endentry
     \entry{Zotowski2017c}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=01bd77a4b512c2327f67ec4ea5e6350c}{%
+        {{un=2,uniquepart=given,hash=01bd77a4b512c2327f67ec4ea5e6350c}{%
            family={Zoltowski},
            familyi={Z\bibinitperiod},
            given={Krzysztof},
            giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3a3807f0b3b21a0699f4577e7d459c3a}{%
+           givenun=2}}%
+        {{un=1,uniquepart=given,hash=3a3807f0b3b21a0699f4577e7d459c3a}{%
            family={Binczyk},
            familyi={B\bibinitperiod},
            given={Mikolaj\bibnamedelima Miko{ł}aj},
            giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=41fa4f90f5269a645ebdef8712425470}{%
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=41fa4f90f5269a645ebdef8712425470}{%
            family={Kalitowski},
            familyi={K\bibinitperiod},
            given={Przemys{ł}aw},
            giveni={P\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \list{language}{1}{%
         {en}%
@@ -8625,8 +10198,214 @@
       \verb http://files/744/Zuluaga%20i%20in.%20-%20Active%20Learning%20for%20Multi-Objective%20Optimization.pdf
       \endverb
     \endentry
+    \entry{Zotowski2016d}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=fa74f5a78318bb0d0fb7ba3d1acfb4e6}{%
+           family={Binczyk},
+           familyi={B\bibinitperiod},
+           given={Mikolaj},
+           giveni={M\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \strng{fullhash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \strng{bibnamehash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \strng{authorbibnamehash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \strng{authornamehash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \strng{authorfullhash}{05c47803eb0bdefec2ac9fe5046cb072}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materialy Budowlane}
+      \field{number}{1}
+      \field{title}{{Niekonwencjonalna metoda korekty si{ł}y w wieszaku drogowego wiaduktu lukowego}}
+      \field{year}{2016}
+      \field{pages}{66\bibrangedash 68}
+      \range{pages}{3}
+      \verb{urlraw}
+      \verb http://files/619/bwmeta1.element.html http://files/645/bwmeta1.element.html
+      \endverb
+      \verb{url}
+      \verb http://files/619/bwmeta1.element.html%20http://files/645/bwmeta1.element.html
+      \endverb
+    \endentry
+    \entry{Zotowski2018c}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=e04fefba95be94cf71b2dcad052b4cb9}{%
+           family={Binczyk},
+           familyi={B\bibinitperiod},
+           given={Miko{ł}aj},
+           giveni={M\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \strng{fullhash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \strng{bibnamehash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \strng{authorbibnamehash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \strng{authornamehash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \strng{authorfullhash}{d805dbf007f8c287b91513c2d02dcc3d}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Estakada E1 w cia̧gu obwodnicy Wa{ł}cza. Konsekwencje przyjȩtej technologii sprȩżenia}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://files/624/estakada-e1-w-ciagu-obwodnicy-walcza-konsekwencje-przyjetej-technologii-sprezenia,147762-1.html
+      \endverb
+      \verb{url}
+      \verb http://files/624/estakada-e1-w-ciagu-obwodnicy-walcza-konsekwencje-przyjetej-technologii-sprezenia,147762-1.html
+      \endverb
+    \endentry
+    \entry{Zotowski2017h}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{fullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{bibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorbibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authornamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorfullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \field{extraname}{1}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materialy Budowlane}
+      \field{number}{4}
+      \field{title}{{Most zwodzony przez Martwa̧ Wis$\backslash$lȩ w Gdańsku-Sobieszewie–wybrane zagadnienia dynamiczne}}
+      \field{year}{2017}
+      \field{pages}{58\bibrangedash 60}
+      \range{pages}{3}
+      \verb{urlraw}
+      \verb http://files/637/bwmeta1.element.html
+      \endverb
+      \verb{url}
+      \verb http://files/637/bwmeta1.element.html
+      \endverb
+    \endentry
+    \entry{Zotowski2017a}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{fullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{bibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorbibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authornamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorfullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \field{extraname}{2}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Uszkodzona belka typu T wiaduktu drogowego. Ocena uszkodzeń i naprawa}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://files/621/uszkodzona-belka-typu-t-wiaduktu-drogowego-ocena-uszkodzen-i-naprawa,142263-1.html
+      \endverb
+      \verb{url}
+      \verb http://files/621/uszkodzona-belka-typu-t-wiaduktu-drogowego-ocena-uszkodzen-i-naprawa,142263-1.html
+      \endverb
+    \endentry
+    \entry{Zotowski2018a}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{fullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{bibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorbibnamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authornamehash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \strng{authorfullhash}{61ccc6389b7ddacbabe55b182f8afdc1}
+      \field{extraname}{3}
+      \field{sortinit}{Ż}
+      \field{sortinithash}{e8feee526060f7a484a6388c13c5056c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Shell model of multiple-row moment I-section end-plate joint}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://files/641/shell-model-of-multiple-row-moment-i-section-end-plate-joint,142360-1.html
+      \endverb
+      \verb{url}
+      \verb http://files/641/shell-model-of-multiple-row-moment-i-section-end-plate-joint,142360-1.html
+      \endverb
+    \endentry
   \enddatalist
   \missing{J.M.Goicolea-Ruigomez2008}
+  \missing{Zoto wski2018d}
 \endrefsection
 \endinput
 

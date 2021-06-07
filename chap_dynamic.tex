@@ -344,7 +344,10 @@ gdzie współczynniki $\beta$ i $\gamma$ definiują zmienność przyspieszeń w 
 	\item przyspieszenie stałe - $\gamma = \frac{1}{2},\: \beta = \frac{1}{4}$
 	\item przyspieszenie zmienne liniowo - $\gamma = \frac{1}{2},\: \beta = \frac{1}{6}$
 \end{itemize}
-Metoda numeryczna do wyznaczenia trzech niewiadomych $\vect{\ddot{x}}_{i+1}$, $\vect{\dot{x}}_{i+1}$ i $\vect{x}_{i+1}$ wymaga układu trzech równań macierzowych. Zatem dwa zaproponowane równania \ref{eq: newmark_a} i \ref{eq: newmark_b}, połączone z równaniem równowagi (\ref{eq: motion_time_step}) zapewnionym na końcu kroku czasowego, pozwalają wyznaczyć przemieszczenia, prędkość i przyspieszenia w chwili $t_{i+1}$. Ze względu na występowanie w równaniach (\ref{eq: newmark}) składników w chwili czasowej $i+1$ po obu stronach równania, algorytm musi mieć charakter iteracyjny. Jednakże istnieją modyfikacje równań, które dla układów liniowych pozwalają rozwiązać układ w jednym kroku. 
+
+Dla wartości parametrów $\gamma\ge 0.5$ i $\beta\ge0.25(\gamma+0.25)^2$ metoda Newmarka jest bezwarunkowo stabilna. Parametr $\gamma$ odpowiada za występowanie tłumienia numerycznego, a parametr $\beta$ za stabilność metody \parencite{Bajer2012}. Wartość parametru $\gamma=0.5$ nie wprowadza żadnego tłumienia numerycznego. Przyjęcie parametru $\beta=0$ powoduje uproszczenie równań do metody różnic centralnych.
+
+Metoda numeryczna do wyznaczenia trzech niewiadomych $\vect{\ddot{x}}_{i+1}$, $\vect{\dot{x}}_{i+1}$ i $\vect{x}_{i+1}$ wymaga układu trzech równań macierzowych. Zatem dwa zaproponowane równania \ref{eq: newmark_a} i \ref{eq: newmark_b}, połączone z równaniem równowagi (\ref{eq: motion_time_step}) zapewnionym na końcu kroku czasowego, pozwalają wyznaczyć przemieszczenia, prędkość i przyspieszenia w chwili $t_{i+1}$. Ze względu na występowanie w równaniach (\ref{eq: newmark}) składników w chwili czasowej $i+1$ po obu stronach równania (metoda implicite), algorytm musi mieć charakter iteracyjny. Jednakże jak wspomniano przyjęcie parametru $\beta=0$ modyfikacje równania w sposób, który dla układów liniowych pozwala rozwiązać układ w jednym kroku (algorytm explicite). 
 
 Z KSIĄŻKI
 \section{Miary i modele tłumienia}

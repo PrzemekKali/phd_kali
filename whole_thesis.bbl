@@ -379,6 +379,64 @@
       \endverb
       \keyw{Science / Mechanics / Dynamics,Technology {\&} Engineering / Construction / General,Technology {\&} Engineering / Construction / Heating,Technology {\&} Engineering / Engineering (General),Technology {\&} Engineering / General,Technology {\&} Engineering / Manufacturing,Technology {\&} Engineering / Mechanical}
     \endentry
+    \entry{Bajer2012}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4ae35e3d04d61df0097b6b30d9c9c3ae}{%
+           family={Bajer},
+           familyi={B\bibinitperiod},
+           given={Czes{ł}aw\bibnamedelima I.},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80ecfd1ff7f757c0041f85b13bb83c7e}{%
+           family={Dyniewicz},
+           familyi={D\bibinitperiod},
+           given={Bartomiej\bibnamedelima Bart{ł}omiej},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{b7010ae193fa948cb639641c96cd0993}
+      \strng{fullhash}{b7010ae193fa948cb639641c96cd0993}
+      \strng{bibnamehash}{b7010ae193fa948cb639641c96cd0993}
+      \strng{authorbibnamehash}{b7010ae193fa948cb639641c96cd0993}
+      \strng{authornamehash}{b7010ae193fa948cb639641c96cd0993}
+      \strng{authorfullhash}{b7010ae193fa948cb639641c96cd0993}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Lecture Notes in Applied and Computational Mechanics CN - MLCM 2016/40492 (T)}
+      \field{isbn}{978-3-642-29547-8}
+      \field{issn}{16137736}
+      \field{title}{{Numerical Analysis of Vibrations of Structures under Moving Inertial Load}}
+      \field{volume}{65 LNAC}
+      \field{year}{2012}
+      \field{pages}{294}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/978-3-642-29548-5
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bajer, Dyniewicz - 2012 - Numerical Analysis of Vibrations of Structures under Moving Inertial Load.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/876/Bajer i Dyniewicz - 2012 - Numerical Analysis of Vibrations of Structures und.pdf
+      \endverb
+      \verb{url}
+      \verb http://files/876/Bajer%20i%20Dyniewicz%20-%202012%20-%20Numerical%20Analysis%20of%20Vibrations%20of%20Structures%20und.pdf
+      \endverb
+      \keyw{Live loads}
+    \endentry
     \entry{Banach2017}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d3418b623c81949b67fa768d004d206e}{%

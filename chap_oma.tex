@@ -26,8 +26,6 @@ Operacyjna Analiza Modalna jest obwarowana pewnymi założeniami. Są one rozwin
 \end{itemize}
 
 
-WARUNKI DOTYCZĄCE WYMUZENIA? \cite{Rainieri2014}
-
 \subsection{Metody operacyjnej analizy modalnej}
 
 Metody identyfikacji modalnej dzielą się na dwa główne rodzaje związane z dziedziną w której działa algorytm:
@@ -69,12 +67,12 @@ Z kolei najpopularniejsze algorytmy w dziedzinie częstotliwości to:
 
 
 
-Wszystkie z powyższych algorytmów są bardzo dobrze opisane i udokumentowane w literaturze. Trudno orzec, który z nich jest obiektywnie najlepszy. Wiele zależy od doświadczenia i wiedzy autora oraz specyfiki zadania. Jak powiedział Sam Ibrahim: "Jeśli nie występują blisko położone mody i szum - wszystko zadziała" \teng{"If there are no closely spaced modes and no noise - everything works"}. Wybór metody może więc zależeć od preferencji, umiejętności programowania czy dostępnych narzędzi. W literaturze można napotkać wiele indywidualnych aplikacji algorytów (CYTOWANIE). Istnieją również komercyjne programy, które pozwala na identyfikację modalną. Do najpopularniejszych należą ARTeMIS - SVS \parencite{Extractor1999} i MACEC - dodatek do programu MATLAB \parencite{Reynders2014}.
+Wszystkie z powyższych algorytmów są bardzo dobrze opisane i udokumentowane w literaturze. Trudno orzec, który z nich jest obiektywnie najlepszy. Wiele zależy od doświadczenia i wiedzy autora oraz specyfiki zadania. Jak powiedział Sam Ibrahim: "Jeśli nie występują blisko położone mody i szumy - wszystko zadziała" \teng{"If there are no closely spaced modes and no noise - everything works"}. Wybór metody może więc zależeć od preferencji, umiejętności programowania czy dostępnych narzędzi. W literaturze można napotkać wiele indywidualnych aplikacji algorytów (CYTOWANIE). Istnieją również komercyjne programy, które pozwala na identyfikację modalną. Do najpopularniejszych należą ARTeMIS - SVS \parencite{Extractor1999} i MACEC - dodatek do programu MATLAB \parencite{Reynders2014}.
 
-Do identyfikacji parametrów modalnych konstrukcji, które są częścią tej pracy autor zdecydował o zastosowaniu algorytmu NExT-ERA. Wynika to z doświadczenia zespołu mostów Politechniki Gdańskiej przy stosowaniu tej metody oraz z dostępnej szerokiej literatury pokazującej skuteczne zastosowanie tej metody w przypadku badania mostów. W kolejnym rozdziale omówiono szczegóły metody oraz implementację jej algorytmu w autorskiej aplikacji napisanej w języku python.
+Do identyfikacji parametrów modalnych konstrukcji, które są częścią tej pracy autor zdecydował o zastosowaniu algorytmu NExT-ERA. Wynika to z doświadczenia zespołu mostów Politechniki Gdańskiej przy stosowaniu tej metody oraz z dostępnej szerokiej literatury pokazującej skuteczne zastosowanie tej metody w przypadku badania mostów. W kolejnym rozdziale omówiono szczegóły metody oraz implementację jej algorytmu w autorskiej aplikacji napisanej w języku Python.
 
-\section{!!! Przykłady zastosowań (literatura i własne)}
-
+\section{Przykłady zastosowań Operacyjnej Analizy Modalnej}
+Operacyjna analiza modalna została zastosowana w wielu przykładach testowych i przy rozwiązaniu rzeczywistych problemów inżynierskich. Identyfikacja OMA najczęściej służy jako element detekcji zmian i uszkodzeń konstrukcji lub jako punkt odniesienia przy kalibracji modeli numerycznych. Ze względu na swoje właściwości używana jest przy badaniu dużych budowli i konstrukcji, których sztuczne wymuszenie byłoby problematyczne. W literaturze można znaleźć wiele przykładów identyfikacji modalnej rzeczywistych mostów \parencite{L.Hermans1999,Siringoringo2008,Degrauwe2008,Liu2009,Bayraktar2009,Brownjohn2010,Dohler2011,Magalhaes2012,Benedettini2015,Brownjohn2017,Brownjohn2018,Poprawa2018,Barbieri2019,Qin2019,Favarelli2021}, turbin wiatrowych \parencite{Carne2010,Sarrafi2018}, budynków \parencite{Zhu2018,Xie2021}, statków powietrznych \parencite{SHEN2003,Moncayo2010} czy budowli wieżowych \parencite{Cabboi2017,Szafranski2020}. 
 
 \section{Metoda NExT-ERA}
 Metoda NExT-ERA jest jedną z metod operacyjnej analizy modalnej. Składnik NExT pochodzi od słów \textbf{N}atural \textbf{Ex}citation \textbf{T}echnique. NExT jest właściwie klasą metodą OMA. Zawiera w sobie algorytmy początkowo stworzone do eksperymentalnej analizy modalnej wejście-wyjście \teng{input-output} (np. ERA, LSCE, ITD), a które następnie rozszerzone zostały do analizy problemu jedynie na podstawie sygnałów odpowiedzi konstrukcji \teng{output-only}. Taką możliwość ujawniło odkrycie faktu, że funkcje korelacji odpowiedzi konstrukcji, wywołanej losowymi wymuszeniami mogą być wyrażone jako suma zanikających sinusoid. Potwierdzono również, że funkcje korelacji zawierają informację na temat parametrów modalnych struktury. Zauważono więc, że można zastąpić tradycyjnie używane funkcje odpowiedzi impulsowej (IRF), funkcjami korelacji losowych drgań konstrukcji pod wymuszeniem środowiskowym. W ten sposób tradycyjne metody EMA zostały skutecznie zaadaptowane do OMA \parencite{Rainieri2014}. W dalszej części rozdziału zostaną przedstawione najważniejsze zagadniania dotyczące identyfikacje metodą NExT-ERA. 
@@ -721,7 +719,7 @@ Do ilościowego określenia stopnia przestrzennej spójności modu \cite{Pappa19
 \begin{equation} \label{eq:mpc_ratio}
 	\mathrm{MPC}_{i}=\left[2\cdot\left(\frac{\lambda_{1}}{\lambda_{1}+\lambda_{2}}-0.5\right)\right]^{2}
 \end{equation}
-gdzie $\mathrm{sgn}(\cdot)$ oznacza funkcję zwracającą znak liczby. Wskaźnik MPC jest bezwymiarowy i przyjmuje wartości z zakresu od 0 (dla modów z zupełnie nieskorelowanymi kątami fazowymi) do 1 (dla modów jednofazowych). Przykłady zastosowania tego wskaźnika zaprezentowano w pracach (!!!).
+gdzie $\mathrm{sgn}(\cdot)$ oznacza funkcję zwracającą znak liczby. Wskaźnik MPC jest bezwymiarowy i przyjmuje wartości z zakresu od 0 (dla modów z zupełnie nieskorelowanymi kątami fazowymi) do 1 (dla modów jednofazowych).
 \subsubsection{Modal Assurance Criterion (MAC)}
 
 Kryterium MAC (Modal Assurance Criterion) pozwala ocenić miarę dopasowania (stopień liniowości) dwóch wektorów modalnych \parencite{Allemang1982}. Jest to podstawowe i najbardziej popularne kryterium służące porównaniu wektorów modalnych \cite{Rainieri2014}. Jego wartość waha się od 0 (dla braku dopasowania) do 1 (dla idealnego dopasowania). Definicja wskaźnika dana jest wzorem \ref{eq: MAC_definition}.

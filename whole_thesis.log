@@ -1,47 +1,47 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.7)  7 JUN 2021 22:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.28)  8 JUN 2021 08:58
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01>
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-05-11>
 \@input{preamble.aux}
 \openout2 = `preamble.aux'.
 
 (preamble.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2021/02/12 v1.4n Standard LaTeX document class
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@chapter=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
+\c@part=\count179
+\c@chapter=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\c@figure=\count186
+\c@table=\count187
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
+y
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+\KV@toks@=\toks15
+) (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count191
-\Gm@cntv=\count192
-\c@Gm@tempcnt=\count193
+\Gm@cnth=\count188
+\Gm@cntv=\count189
+\c@Gm@tempcnt=\count190
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -50,22 +50,23 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutheight=\dimen144
 \Gm@layouthoffset=\dimen145
 \Gm@layoutvoffset=\dimen146
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks16
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\polski.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cf
+g))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\polski.sty
 Package: polski 2017/05/04 v1.3.4 Polish language package
 
    Switching to Polish text encoding and Polish maths fonts.
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\ot4enc.def
-File: ot4enc.def 2021/04/29 v2.0v Standard LaTeX file
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\ot4enc.def
+File: ot4enc.def 2020/08/10 v2.0s Standard LaTeX file
 Now handling font encoding OT4 ...
 ... no UTF-8 mapping file for font encoding OT4
 )
 LaTeX Font Info:    Trying to load font information for OT4+cmr on input line 3
 60.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmr.fd
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
@@ -100,36 +101,38 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 360.
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/06/02 3.60 The Babel package
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/05/16 3.59 The Babel package
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2021/06/02 3.60 Babel common definitions
-\babel@savecnt=\count194
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/05/16 3.59 Babel common definitions
+\babel@savecnt=\count191
 \U@D=\dimen147
 \l@unhyphenated=\language79
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def
+)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count195
+\bbl@dirlevel=\count192
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/babel-polish\polish.ldf
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/babel-polish\polish.
+ldf
 Language: polish 2005/03/31 v1.2l Polish support from the babel system
 Package babel Info: Making " an active character on input line 83.
 \pl@left=\dimen148
@@ -137,57 +140,68 @@ Package babel Info: Making " an active character on input line 83.
 \pl@right=\dimen150
 \pl@temp=\dimen151
 ))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.st
+y
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.st
+y
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
+\etb@tempcnta=\count193
 )
-\csq@reset=\count197
-\csq@gtype=\count198
-\csq@glevel=\count199
-\csq@qlevel=\count266
-\csq@maxlvl=\count267
-\csq@tshold=\count268
-\csq@ltx@everypar=\toks20
+\csq@reset=\count194
+\csq@gtype=\count195
+\csq@glevel=\count196
+\csq@qlevel=\count197
+\csq@maxlvl=\count198
+\csq@tshold=\count199
+\csq@ltx@everypar=\toks19
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.de
+f
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cf
+g
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
-) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
+fg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
+def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.st
+y
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.st
+y
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \col@sep=\dimen152
-\ar@mcellbox=\box50
+\ar@mcellbox=\box47
 \extrarowheight=\dimen153
-\NC@list=\toks21
+\NC@list=\toks20
 \extratabsurround=\skip49
 \backup@length=\skip50
-\ar@cellbox=\box51
+\ar@cellbox=\box48
 )
-\everycr=\toks22
+\everycr=\toks21
 \minrowclearance=\skip51
 )
-\rownum=\count269
+\rownum=\count266
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -198,12 +212,13 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\svgnam.def
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\svgnam.def
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.st
+y
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks23
+\@emptytoks=\toks22
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -215,87 +230,91 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
    defining Unicode char U+2264 (decimal 8804)
    defining Unicode char U+0327 (decimal 807)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.st
+y
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
+mds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarer
+r.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
+y
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.
+sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
-ty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkey
+s.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count270
+\lrq@indent=\count267
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count271
-\c@listtotal=\count272
-\c@listcount=\count273
-\c@liststart=\count274
-\c@liststop=\count275
-\c@citecount=\count276
-\c@citetotal=\count277
-\c@multicitecount=\count278
-\c@multicitetotal=\count279
-\c@instcount=\count280
-\c@maxnames=\count281
-\c@minnames=\count282
-\c@maxitems=\count283
-\c@minitems=\count284
-\c@citecounter=\count285
-\c@maxcitecounter=\count286
-\c@savedcitecounter=\count287
-\c@uniquelist=\count288
-\c@uniquename=\count289
-\c@refsection=\count290
-\c@refsegment=\count291
-\c@maxextratitle=\count292
-\c@maxextratitleyear=\count293
-\c@maxextraname=\count294
-\c@maxextradate=\count295
-\c@maxextraalpha=\count296
-\c@abbrvpenalty=\count297
-\c@highnamepenalty=\count298
-\c@lownamepenalty=\count299
-\c@maxparens=\count300
-\c@parenlevel=\count301
-\blx@tempcnta=\count302
-\blx@tempcntb=\count303
-\blx@tempcntc=\count304
-\blx@maxsection=\count305
-\blx@maxsegment@0=\count306
-\blx@notetype=\count307
-\blx@parenlevel@text=\count308
-\blx@parenlevel@foot=\count309
-\blx@sectionciteorder@0=\count310
-\blx@entrysetcounter=\count311
-\blx@biblioinstance=\count312
+\c@tabx@nest=\count268
+\c@listtotal=\count269
+\c@listcount=\count270
+\c@liststart=\count271
+\c@liststop=\count272
+\c@citecount=\count273
+\c@citetotal=\count274
+\c@multicitecount=\count275
+\c@multicitetotal=\count276
+\c@instcount=\count277
+\c@maxnames=\count278
+\c@minnames=\count279
+\c@maxitems=\count280
+\c@minitems=\count281
+\c@citecounter=\count282
+\c@maxcitecounter=\count283
+\c@savedcitecounter=\count284
+\c@uniquelist=\count285
+\c@uniquename=\count286
+\c@refsection=\count287
+\c@refsegment=\count288
+\c@maxextratitle=\count289
+\c@maxextratitleyear=\count290
+\c@maxextraname=\count291
+\c@maxextradate=\count292
+\c@maxextraalpha=\count293
+\c@abbrvpenalty=\count294
+\c@highnamepenalty=\count295
+\c@lownamepenalty=\count296
+\c@maxparens=\count297
+\c@parenlevel=\count298
+\blx@tempcnta=\count299
+\blx@tempcntb=\count300
+\blx@tempcntc=\count301
+\blx@maxsection=\count302
+\blx@maxsegment@0=\count303
+\blx@notetype=\count304
+\blx@parenlevel@text=\count305
+\blx@parenlevel@foot=\count306
+\blx@sectionciteorder@0=\count307
+\blx@entrysetcounter=\count308
+\blx@biblioinstance=\count309
 \labelnumberwidth=\skip52
 \labelalphawidth=\skip53
 \biblabelsep=\skip54
@@ -307,87 +326,87 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count313
-\c@maxcomprange=\count314
-\c@mincompwidth=\count315
+\c@mincomprange=\count310
+\c@maxcomprange=\count311
+\c@mincompwidth=\count312
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count316
-\c@savedafterword=\count317
-\c@annotator=\count318
-\c@savedannotator=\count319
-\c@author=\count320
-\c@savedauthor=\count321
-\c@bookauthor=\count322
-\c@savedbookauthor=\count323
-\c@commentator=\count324
-\c@savedcommentator=\count325
-\c@editor=\count326
-\c@savededitor=\count327
-\c@editora=\count328
-\c@savededitora=\count329
-\c@editorb=\count330
-\c@savededitorb=\count331
-\c@editorc=\count332
-\c@savededitorc=\count333
-\c@foreword=\count334
-\c@savedforeword=\count335
-\c@holder=\count336
-\c@savedholder=\count337
-\c@introduction=\count338
-\c@savedintroduction=\count339
-\c@namea=\count340
-\c@savednamea=\count341
-\c@nameb=\count342
-\c@savednameb=\count343
-\c@namec=\count344
-\c@savednamec=\count345
-\c@translator=\count346
-\c@savedtranslator=\count347
-\c@shortauthor=\count348
-\c@savedshortauthor=\count349
-\c@shorteditor=\count350
-\c@savedshorteditor=\count351
-\c@labelname=\count352
-\c@savedlabelname=\count353
-\c@institution=\count354
-\c@savedinstitution=\count355
-\c@lista=\count356
-\c@savedlista=\count357
-\c@listb=\count358
-\c@savedlistb=\count359
-\c@listc=\count360
-\c@savedlistc=\count361
-\c@listd=\count362
-\c@savedlistd=\count363
-\c@liste=\count364
-\c@savedliste=\count365
-\c@listf=\count366
-\c@savedlistf=\count367
-\c@location=\count368
-\c@savedlocation=\count369
-\c@organization=\count370
-\c@savedorganization=\count371
-\c@origlocation=\count372
-\c@savedoriglocation=\count373
-\c@origpublisher=\count374
-\c@savedorigpublisher=\count375
-\c@publisher=\count376
-\c@savedpublisher=\count377
-\c@language=\count378
-\c@savedlanguage=\count379
-\c@origlanguage=\count380
-\c@savedoriglanguage=\count381
-\c@pageref=\count382
-\c@savedpageref=\count383
+\c@afterword=\count313
+\c@savedafterword=\count314
+\c@annotator=\count315
+\c@savedannotator=\count316
+\c@author=\count317
+\c@savedauthor=\count318
+\c@bookauthor=\count319
+\c@savedbookauthor=\count320
+\c@commentator=\count321
+\c@savedcommentator=\count322
+\c@editor=\count323
+\c@savededitor=\count324
+\c@editora=\count325
+\c@savededitora=\count326
+\c@editorb=\count327
+\c@savededitorb=\count328
+\c@editorc=\count329
+\c@savededitorc=\count330
+\c@foreword=\count331
+\c@savedforeword=\count332
+\c@holder=\count333
+\c@savedholder=\count334
+\c@introduction=\count335
+\c@savedintroduction=\count336
+\c@namea=\count337
+\c@savednamea=\count338
+\c@nameb=\count339
+\c@savednameb=\count340
+\c@namec=\count341
+\c@savednamec=\count342
+\c@translator=\count343
+\c@savedtranslator=\count344
+\c@shortauthor=\count345
+\c@savedshortauthor=\count346
+\c@shorteditor=\count347
+\c@savedshorteditor=\count348
+\c@labelname=\count349
+\c@savedlabelname=\count350
+\c@institution=\count351
+\c@savedinstitution=\count352
+\c@lista=\count353
+\c@savedlista=\count354
+\c@listb=\count355
+\c@savedlistb=\count356
+\c@listc=\count357
+\c@savedlistc=\count358
+\c@listd=\count359
+\c@savedlistd=\count360
+\c@liste=\count361
+\c@savedliste=\count362
+\c@listf=\count363
+\c@savedlistf=\count364
+\c@location=\count365
+\c@savedlocation=\count366
+\c@organization=\count367
+\c@savedorganization=\count368
+\c@origlocation=\count369
+\c@savedoriglocation=\count370
+\c@origpublisher=\count371
+\c@savedorigpublisher=\count372
+\c@publisher=\count373
+\c@savedpublisher=\count374
+\c@language=\count375
+\c@savedlanguage=\count376
+\c@origlanguage=\count377
+\c@savedoriglanguage=\count378
+\c@pageref=\count379
+\c@savedpageref=\count380
 \shorthandwidth=\skip60
 \shortjournalwidth=\skip61
 \shortserieswidth=\skip62
@@ -405,47 +424,50 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.
+def
 File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.de
+f
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count384
-\c@textcitetotal=\count385
-\c@textcitemaxnames=\count386
-\c@biburlbigbreakpenalty=\count387
-\c@biburlbreakpenalty=\count388
-\c@biburlnumpenalty=\count389
-\c@biburlucpenalty=\count390
-\c@biburllcpenalty=\count391
+\c@textcitecount=\count381
+\c@textcitetotal=\count382
+\c@textcitemaxnames=\count383
+\c@biburlbigbreakpenalty=\count384
+\c@biburlbreakpenalty=\count385
+\c@biburlnumpenalty=\count386
+\c@biburlucpenalty=\count387
+\c@biburllcpenalty=\count388
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count392
+\c@smartand=\count389
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear
-.bbx
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authory
+ear.bbx
 File: authoryear.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
-bx
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standar
+d.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count393
-\c@bbx:relatedtotal=\count394
+\c@bbx:relatedcount=\count390
+\c@bbx:relatedtotal=\count391
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear
-.cbx
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authory
+ear.cbx
 File: authoryear.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -458,9 +480,11 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cf
+g
 File: biblatex.cfg 
-)) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.st
+))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.st
 y
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
@@ -473,70 +497,74 @@ rs
 \f@nch@O@erf=\skip80
 \f@nch@O@olf=\skip81
 \f@nch@O@orf=\skip82
-) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
-
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
-ision.tex)
+)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.st
+y
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+y
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
+y
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
+s.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
 \Gin@req@height=\dimen154
 \Gin@req@width=\dimen155
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
-sty
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
-y
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common.tex
-\pgfutil@everybye=\toks24
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\ti
+kz.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.s
+ty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs
+.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
+til-common.tex
+\pgfutil@everybye=\toks23
 \pgfutil@tempdima=\dimen156
 \pgfutil@tempdimb=\dimen157
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common-lists.tex))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--latex.def
-\pgfutil@abb=\box52
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
+til-common-lists.tex))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
+til-latex.def
+\pgfutil@abb=\box49
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
-code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfr
+cs.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.t
+ex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
 Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
-sty
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
-sty
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfco
+re.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfs
+ys.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
+eys.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-filtered.code.tex
-\pgfkeys@tmptoks=\toks27
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
+eysfiltered.code.tex
+\pgfkeys@tmptoks=\toks26
 ))
 \pgf@x=\dimen158
 \pgf@y=\dimen159
@@ -550,84 +578,84 @@ filtered.code.tex
 \pgf@yd=\dimen167
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count395
-\c@pgf@countb=\count396
-\c@pgf@countc=\count397
-\c@pgf@countd=\count398
-\t@pgf@toka=\toks28
-\t@pgf@tokb=\toks29
-\t@pgf@tokc=\toks30
-\pgf@sys@id@count=\count399
+\c@pgf@counta=\count392
+\c@pgf@countb=\count393
+\c@pgf@countc=\count394
+\c@pgf@countd=\count395
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+\pgf@sys@id@count=\count396
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
-fg
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+f.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys-pdftex.def
 File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-common-pdf.def
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-ssoftpath.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count400
-\pgfsyssoftpath@bigbuffer@items=\count401
+\pgfsyssoftpath@smallbuffer@items=\count397
+\pgfsyssoftpath@bigbuffer@items=\count398
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-sprotocol.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-e.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+core.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
-code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
-code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
-r.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
+ode.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathca
+lc.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathut
+il.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpa
+rser.code.tex
 \pgfmath@dimen=\dimen168
-\pgfmath@count=\count402
-\pgfmath@box=\box53
-\pgfmath@toks=\toks31
-\pgfmath@stack@operand=\toks32
-\pgfmath@stack@operation=\toks33
+\pgfmath@count=\count399
+\pgfmath@box=\box50
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.basic.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.trigonometric.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.random.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.comparison.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.base.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.round.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.misc.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.integerarithmetics.code.tex)))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
-.code.tex
-\c@pgfmathroundto@lastzeros=\count403
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.basic.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.trigonometric.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.random.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.comparison.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.base.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.round.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.misc.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.integerarithmetics.code.tex)))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfl
+oat.code.tex
+\c@pgfmathroundto@lastzeros=\count400
 ))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
-tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epoints.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.co
+de.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen169
 \pgf@picmaxx=\dimen170
@@ -644,134 +672,135 @@ File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@zx=\dimen181
 \pgf@zy=\dimen182
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathconstruct.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen183
 \pgf@path@lasty=\dimen184
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathusage.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen185
 \pgf@shorten@start@additional=\dimen186
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-escopes.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box54
-\pgf@hbox=\box55
-\pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count404
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count401
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-egraphicstate.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen187
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransformations.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coretransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen188
 \pgf@pt@y=\dimen189
 \pgf@pt@temp=\dimen190
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-equick.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eobjects.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreobjects.code.tex
 File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathprocessing.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-earrows.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen191
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eshade.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen192
-\pgf@sys@shading@range@num=\count405
-\pgf@shadingcount=\count406
+\pgf@sys@shading@range@num=\count402
+\pgf@shadingcount=\count403
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eimage.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eexternal.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box57
+\pgfexternal@startupbox=\box54
 ))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-elayers.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransparency.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coretransparency.code.tex
 File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epatterns.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepatterns.code.tex
 File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-erdf.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corerdf.code.tex
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-shapes.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+uleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box58
+\pgfnodeparttextbox=\box55
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-plot.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+uleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-0-65.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
+fcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen193
 \pgf@nodesepend=\dimen194
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-1-18.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
+fcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
-y
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
-ty
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
-code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor
+.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkey
+s.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
+eys.code.tex))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
+ode.tex))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgff
+or.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
+ode.tex)
 \pgffor@iter=\dimen195
 \pgffor@skip=\dimen196
-\pgffor@stack=\toks34
-\pgffor@toks=\toks35
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
 ))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z\tikz.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz\tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryplothandlers.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count407
+\pgf@plot@mark@count=\count404
 \pgfplotmarksize=\dimen197
 )
 \tikz@lastx=\dimen198
@@ -782,128 +811,128 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen259
 \tikzleveldistance=\dimen260
 \tikzsiblingdistance=\dimen261
-\tikz@figbox=\box59
-\tikz@figbox@bg=\box60
-\tikz@tempbox=\box61
-\tikz@tempbox@bg=\box62
-\tikztreelevel=\count408
-\tikznumberofchildren=\count409
-\tikznumberofcurrentchild=\count410
-\tikz@fig@count=\count411
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count405
+\tikznumberofchildren=\count406
+\tikznumberofcurrentchild=\count407
+\tikz@fig@count=\count408
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-matrix.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+ulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count412
-\pgfmatrixcurrentcolumn=\count413
-\pgf@matrix@numberofcolumns=\count414
+\pgfmatrixcurrentrow=\count409
+\pgfmatrixcurrentcolumn=\count410
+\pgf@matrix@numberofcolumns=\count411
 )
-\tikz@expandcount=\count415
+\tikz@expandcount=\count412
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarytopaths.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
-e.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
-.code.tex
-\t@pgfplots@toka=\toks36
-\t@pgfplots@tokb=\toks37
-\t@pgfplots@tokc=\toks38
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsc
+ore.code.tex
+\t@pgfplots@toka=\toks35
+\t@pgfplots@tokb=\toks36
+\t@pgfplots@tokc=\toks37
 \pgfplots@tmpa=\dimen262
-\c@pgfplots@coordindex=\count416
-\c@pgfplots@scanlineindex=\count417
+\c@pgfplots@coordindex=\count413
+\c@pgfplots@scanlineindex=\count414
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
-sysgeneric.code.tex))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplot
-slibrary.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
-ib\pgfplotsoldpgfsupp_loader.code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryfpu.code.tex))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sutil.code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsliststructure.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsliststructureext.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count418
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfpl
+otssysgeneric.code.tex))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfp
+lotslibrary.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcom
+patib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryfpu.code.tex))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotsutil.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
+ture\pgfplotsliststructure.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
+ture\pgfplotsliststructureext.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
+ture\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count415
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsmatrix.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
-plotstableshared.code.tex
-\c@pgfplotstable@counta=\count419
-\t@pgfplotstable@a=\toks39
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
+ture\pgfplotsmatrix.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\
+pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count416
+\t@pgfplotstable@a=\toks38
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsdeque.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sbinary.code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sbinary.data.code.tex))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sutil.verb.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
-arypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count420
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
+ture\pgfplotsdeque.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotsbinary.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotsbinary.data.code.tex))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotsutil.verb.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfl
+ibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count417
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
-rypgfplots.surfshading.pgfsys-pdftex.def)))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-scolormap.code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-scolor.code.tex))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstac
-kedplots.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplot
-handlers.code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
-plothandler.code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
-plotimage.code.tex)))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sca
-ling.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoor
-dprocessing.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.err
-orbars.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mar
-kers.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstick
-s.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pat
-hs.code.tex)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-decorations.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfli
+brarypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotscolormap.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotscolor.code.tex))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotss
+tackedplots.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsp
+lothandlers.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsm
+eshplothandler.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsm
+eshplotimage.code.tex)))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+scaling.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsc
+oordprocessing.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+errorbars.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+markers.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotst
+icks.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+paths.code.tex)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+uledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen263
 \pgfdecoratedremainingdistance=\dimen264
 \pgfdecoratedinputsegmentcompleteddistance=\dimen265
 \pgfdecoratedinputsegmentremainingdistance=\dimen266
 \pgf@decorate@distancetomove=\dimen267
-\pgf@decorate@repeatstate=\count421
+\pgf@decorate@repeatstate=\count418
 \pgfdecorationsegmentamplitude=\dimen268
 \pgfdecorationsegmentlength=\dimen269
 )
-\tikz@lib@dec@box=\box63
+\tikz@lib@dec@box=\box60
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
-ions\pgflibrarydecorations.pathmorphing.code.tex))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
-ions\pgflibrarydecorations.pathreplacing.code.tex))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
-rarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count422
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/deco
+rations\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/deco
+rations\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikz
+librarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count419
 \pgfplots@xmin@reg=\dimen270
 \pgfplots@xmax@reg=\dimen271
 \pgfplots@ymin@reg=\dimen272
@@ -911,18 +940,18 @@ rarypgfplots.contourlua.code.tex)
 \pgfplots@zmin@reg=\dimen274
 \pgfplots@zmax@reg=\dimen275
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryplotmarks.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryplotmarks.code.tex
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen276
 \captionmargin@=\dimen277
@@ -933,33 +962,39 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@hangindent=\dimen282
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count423
-\c@continuedfloat=\count424
+\c@caption@flags=\count420
+\c@continuedfloat=\count421
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.
+sty
 Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks40
-\XKV@tempa@toks=\toks41
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.te
+x
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.t
+ex
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
 )
-\XKV@depth=\count425
+\XKV@depth=\count422
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.st
+y
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.s
+ty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
-ty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbo
+x.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box64
+\collectedbox=\box61
 )
 \tc@llx=\dimen283
 \tc@lly=\dimen284
@@ -967,7 +1002,8 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen286
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.
+def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen287
@@ -979,132 +1015,136 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pdepth=\dimen293
 \adjbox@ptotalheight=\dimen294
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.
+sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count426
-) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+\c@checkoddpage=\count423
+)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.st
+y
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box65
-\sift@deathcycles=\count427
+\@vwid@box=\box62
+\sift@deathcycles=\count424
 \@vwid@loff=\dimen295
 \@vwid@roff=\dimen296
-)) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+))
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count428
+\c@KVtest=\count425
 \sf@farskip=\skip83
 \sf@captopadj=\dimen297
 \sf@capskip=\skip84
 \sf@nearskip=\skip85
-\c@subfigure=\count429
-\c@subfigure@save=\count430
-\c@lofdepth=\count431
-\c@subtable=\count432
-\c@subtable@save=\count433
-\c@lotdepth=\count434
+\c@subfigure=\count426
+\c@subfigure@save=\count427
+\c@lofdepth=\count428
+\c@subtable=\count429
+\c@subtable@save=\count430
+\c@lotdepth=\count431
 \sf@top=\skip86
 \sf@bottom=\skip87
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count435
-\float@exts=\toks42
-\float@box=\box66
-\@float@everytoks=\toks43
-\@floatcapt=\box67
+\c@float@type=\count432
+\float@exts=\toks41
+\float@box=\box63
+\@float@everytoks=\toks42
+\@floatcapt=\box64
 )
-\measurebox=\box68
+\measurebox=\box65
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip88
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks44
+\@emptytoks=\toks43
 \ex@=\dimen298
-))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
+y
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen299
-)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count436
+\inf@bad=\count433
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count437
-\leftroot@=\count438
+\uproot@=\count434
+\leftroot@=\count435
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count439
-\DOTSCASE@=\count440
+\classnum@=\count436
+\DOTSCASE@=\count437
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box69
-\strutbox@=\box70
+\Mathstrutbox@=\box66
+\strutbox@=\box67
 \big@size=\dimen300
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count441
-\c@MaxMatrixCols=\count442
+\macc@depth=\count438
+\c@MaxMatrixCols=\count439
 \dotsspace@=\muskip21
-\c@parentequation=\count443
-\dspbrk@lvl=\count444
-\tag@help=\toks45
-\row@=\count445
-\column@=\count446
-\maxfields@=\count447
-\andhelp@=\toks46
+\c@parentequation=\count440
+\dspbrk@lvl=\count441
+\tag@help=\toks44
+\row@=\count442
+\column@=\count443
+\maxfields@=\count444
+\andhelp@=\toks45
 \eqnshift@=\dimen301
 \alignsep@=\dimen302
 \tagshift@=\dimen303
 \tagwidth@=\dimen304
 \totwidth@=\dimen305
 \lineht@=\dimen306
-\@envbody=\toks47
+\@envbody=\toks46
 \multlinegap=\skip89
 \multlinetaggap=\skip90
-\mathdisplay@stack=\toks48
+\mathdisplay@stack=\toks47
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
-Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+) (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
 \symboldsymbols=\mathgroup8
 \symboldlargesymbols=\mathgroup9
-Package bm Info: No bold for \U/msa/m/n, using \pmb.
-Package bm Info: No bold for \U/msb/m/n, using \pmb.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.
+sty
 Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count448
-\calc@Bcount=\count449
+\calc@Acount=\count445
+\calc@Bcount=\count446
 \calc@Adimen=\dimen307
 \calc@Bdimen=\dimen308
 \calc@Askip=\skip91
 \calc@Bskip=\skip92
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count450
+\calc@Ccount=\count447
 \calc@Cskip=\skip93
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.st
+y
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count451
+\g_MT_multlinerow_int=\count448
 \l_MT_multwidth_dim=\dimen309
 \origjot=\skip94
 \l_MT_shortvdotswithinadjustabove_dim=\dimen310
@@ -1113,18 +1153,23 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_intertext_sep=\dimen313
 \l_MT_above_shortintertext_sep=\dimen314
 \l_MT_below_shortintertext_sep=\dimen315
-\xmathstrut@box=\box71
+\xmathstrut@box=\box68
 \xmathstrut@dim=\dimen316
-) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty
-) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.st
+y)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.st
+y
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip95
 \enit@outerparindent=\dimen317
-\enit@toks=\toks49
-\enit@inbox=\box72
-\enit@count@id=\count452
-\enitdp@description=\count453
-) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+\enit@toks=\toks48
+\enit@inbox=\box69
+\enit@count@id=\count449
+\enitdp@description=\count450
+)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.st
+y
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen318
 \lightrulewidth=\dimen319
@@ -1136,15 +1181,24 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen325
 \cmidrulekern=\dimen326
 \defaultaddspace=\dimen327
-\@cmidla=\count454
-\@cmidlb=\count455
+\@cmidla=\count451
+\@cmidlb=\count452
 \@aboverulesep=\dimen328
 \@belowrulesep=\dimen329
-\@thisruleclass=\count456
-\@lastruleclass=\count457
+\@thisruleclass=\count453
+\@lastruleclass=\count454
 \@thisrulewidth=\dimen330
-) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.st
+y
 Package: ragged2e 2021/02/05 v3.0 ragged2e Package
+
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/everysel\everysel.st
+y
+Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
+
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/everysel\everysel-20
+11-10-28.sty))
 \CenteringLeftskip=\skip96
 \RaggedLeftLeftskip=\skip97
 \RaggedRightLeftskip=\skip98
@@ -1159,70 +1213,71 @@ Package: ragged2e 2021/02/05 v3.0 ragged2e Package
 \RaggedLeftParindent=\skip107
 \RaggedRightParindent=\skip108
 \JustifyingParindent=\skip109
-) (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
 
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
-Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\longtabl
+e.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip110
 \LTright=\skip111
 \LTpre=\skip112
 \LTpost=\skip113
-\LTchunksize=\count458
+\LTchunksize=\count455
 \LTcapwidth=\dimen331
-\LT@head=\box73
-\LT@firsthead=\box74
-\LT@foot=\box75
-\LT@lastfoot=\box76
-\LT@gbox=\box77
-\LT@cols=\count459
-\LT@rows=\count460
-\c@LT@tables=\count461
-\c@LT@chunks=\count462
-\LT@p@ftn=\toks50
+\LT@head=\box70
+\LT@firsthead=\box71
+\LT@foot=\box72
+\LT@lastfoot=\box73
+\LT@cols=\count456
+\LT@rows=\count457
+\c@LT@tables=\count458
+\c@LT@chunks=\count459
+\LT@p@ftn=\toks49
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.st
+y
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip114
-\multirow@cntb=\count463
+\multirow@cntb=\count460
 \multirow@dima=\skip115
 \bigstrutjot=\dimen332
-)
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+) (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks51
-\thm@bodyfont=\toks52
-\thm@headfont=\toks53
-\thm@notefont=\toks54
-\thm@headpunct=\toks55
+\thm@style=\toks50
+\thm@bodyfont=\toks51
+\thm@headfont=\toks52
+\thm@notefont=\toks53
+\thm@headpunct=\toks54
 \thm@preskip=\skip116
 \thm@postskip=\skip117
 \thm@headsep=\skip118
-\dth@everypar=\toks56
+\dth@everypar=\toks55
 )
-\c@definition=\count464
+\c@definition=\count461
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
+pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count465
-\l__pdf_internal_box=\box78
-) (whole_thesis.aux (dictionary.aux) (chap_luki.aux) (chap_dynamic.aux)
-(chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
+\l__color_backend_stack_int=\count462
+\l__pdf_internal_box=\box74
+) (whole_thesis.aux (dictionary.aux) (chap_luki.aux)
+(chap_dynamic.aux) (chap_oma.aux) (chap_pso.aux) (wk2_research.aux))
 \openout1 = `whole_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1278,55 +1333,59 @@ LaTeX Font Info:    ... okay on input line 5.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
+.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count466
+\scratchcounter=\count463
 \scratchdimen=\dimen333
-\scratchbox=\box79
-\nofMPsegments=\count467
-\nofMParguments=\count468
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count469
+\scratchbox=\box75
+\nofMPsegments=\count464
+\nofMParguments=\count465
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count466
 \MPscratchDim=\dimen334
-\MPnumerator=\count470
-\makeMPintoPDFobject=\count471
-\everyMPtoPDFconversion=\toks58
+\MPnumerator=\count467
+\makeMPintoPDFobject=\count468
+\everyMPtoPDFconversion=\toks57
 )
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
+f-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
+s.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package biblatex Info: Trying to load language 'polish'...
 Package biblatex Info: ... file 'polish.lbx' found.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\polish.lbx
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\polish.
+lbx
 File: polish.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
- (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-06-01 L3 programming layer (loader) 
+
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-05-11 L3 programming layer (loader) 
 )
 Package biblatex Info: ... and expl3
-(biblatex)             2021-06-01 L3 programming layer (loader) 
+(biblatex)             2021-05-11 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
-.sty
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e.sty
-Package: xparse 2021-06-01 L3 Experimental document command parser
-)
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-ex
+pl3.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xp
+arse.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xp
+arse-2020-10-01.sty
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xp
+arse-generic.tex)))
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
 \openout3 = `whole_thesis.bcf'.
@@ -1362,26 +1421,33 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.st
+y
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
+ ABD: EverySelectfont initializing macros
+
+LaTeX Warning: Command \selectfont   has changed.
+               Check if current package is valid.
+
+LaTeX Info: Redefining \selectfont on input line 5.
 LaTeX Font Info:    Trying to load font information for OML+plm on input line 6
 .
-
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\omlplm.fd
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 
 6.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\omsplsy.fd
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+plex on input line 
 6.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\omxplex.fd
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -1392,12 +1458,12 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <7> on input line 6.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
-(C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
@@ -1407,7 +1473,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \providecommand \oddpage@label [2]{}
 
 
-{C:/Users/przem/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+{C:/Users/PRZKALIT/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 (whole_thesis.toc
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <12> on input line 8.
@@ -1805,7 +1871,7 @@ File: ./figures///dynamic_railway/railway_bridges_forces_croped.pdf Graphic fil
 e (type pdf)
 <use ./figures///dynamic_railway/railway_bridges_forces_croped.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/railway_bridges_forces_cro
-ped.pdf  used on input line 280.
+ped.pdf  used on input line 282.
 (pdftex.def)             Requested size: 426.79134pt x 245.4951pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1865,7 +1931,7 @@ File: ./figures///dynamic_railway/ec_algorithm_dyna.pdf Graphic file (type pdf)
 
 <use ./figures///dynamic_railway/ec_algorithm_dyna.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/ec_algorithm_dyna.pdf  use
-d on input line 340.
+d on input line 342.
 (pdftex.def)             Requested size: 426.79134pt x 595.71802pt.
 
 
@@ -1878,7 +1944,7 @@ File: ./figures///dynamic_railway/ec_algorithm_dyna_boundary.pdf Graphic file (
 type pdf)
 <use ./figures///dynamic_railway/ec_algorithm_dyna_boundary.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/ec_algorithm_dyna_boundary
-.pdf  used on input line 353.
+.pdf  used on input line 355.
 (pdftex.def)             Requested size: 426.79134pt x 262.96172pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1926,7 +1992,7 @@ File: ./figures///dynamic_railway/types_of_trains_articulated.pdf Graphic file
 (type pdf)
 <use ./figures///dynamic_railway/types_of_trains_articulated.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/types_of_trains_articulate
-d.pdf  used on input line 389.
+d.pdf  used on input line 391.
 (pdftex.def)             Requested size: 378.43309pt x 68.98454pt.
 
 
@@ -1939,7 +2005,7 @@ File: ./figures///dynamic_railway/types_of_trains_conventional.pdf Graphic file
  (type pdf)
 <use ./figures///dynamic_railway/types_of_trains_conventional.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/types_of_trains_convention
-al.pdf  used on input line 390.
+al.pdf  used on input line 392.
 (pdftex.def)             Requested size: 381.06119pt x 68.3281pt.
 
 
@@ -1952,10 +2018,10 @@ File: ./figures///dynamic_railway/types_of_trains_regular.pdf Graphic file (typ
 e pdf)
 <use ./figures///dynamic_railway/types_of_trains_regular.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/types_of_trains_regular.pd
-f  used on input line 391.
+f  used on input line 393.
 (pdftex.def)             Requested size: 358.06604pt x 65.04384pt.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10.95> on input line 393.
+(Font)              <10.95> on input line 395.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures///dynamic_railway/hslm_a.pdf): PDF
@@ -1964,7 +2030,7 @@ pdfTeX warning: pdflatex.exe (file ./figures///dynamic_railway/hslm_a.pdf): PDF
 File: ./figures///dynamic_railway/hslm_a.pdf Graphic file (type pdf)
 <use ./figures///dynamic_railway/hslm_a.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/hslm_a.pdf  used on input 
-line 400.
+line 402.
 (pdftex.def)             Requested size: 374.48787pt x 98.98755pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1984,11 +2050,11 @@ pdfTeX warning: pdflatex.exe (file ./figures///dynamic_railway/hslm_b.pdf): PDF
 File: ./figures///dynamic_railway/hslm_b.pdf Graphic file (type pdf)
 <use ./figures///dynamic_railway/hslm_b.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/hslm_b.pdf  used on input 
-line 408.
+line 410.
 (pdftex.def)             Requested size: 425.40353pt x 135.86124pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 414.
+               Default added (so using `tbp') on input line 416.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2011,7 +2077,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [28]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 452.
+               Default added (so using `tbp') on input line 454.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2042,7 +2108,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [31]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 527.
+               Default added (so using `tbp') on input line 529.
 
 
 
@@ -2055,10 +2121,10 @@ File: ./figures///dynamic_railway/simp_comfort_class.pdf Graphic file (type pdf
 )
 <use ./figures///dynamic_railway/simp_comfort_class.pdf>
 Package pdftex.def Info: ./figures///dynamic_railway/simp_comfort_class.pdf  us
-ed on input line 543.
+ed on input line 545.
 (pdftex.def)             Requested size: 420.96037pt x 240.02112pt.
 
-Overfull \hbox (3.7124pt too wide) in paragraph at lines 549--550
+Overfull \hbox (3.7124pt too wide) in paragraph at lines 551--552
 []\T1/cmr/m/n/12 Obiekt ko-le-jowy uznaje si¡ za po-praw-nie za-pro-jek-to-wany
  je-±li speª-nione s¡ wszyst-
  []
@@ -2272,7 +2338,7 @@ F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: ./figures///rayleigh/rayleigh_chart.pdf Graphic file (type pdf)
 <use ./figures///rayleigh/rayleigh_chart.pdf>
 Package pdftex.def Info: ./figures///rayleigh/rayleigh_chart.pdf  used on input
- line 396.
+ line 395.
 (pdftex.def)             Requested size: 241.84785pt x 170.71608pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2576,7 +2642,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [72]
 LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 
 702.
- (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
+
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 
@@ -7089,9 +7156,11 @@ Rozdzia\l  6.
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 3.
- (C:\Users\przem\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+
+(C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [179
+)
+[179
 
 
 
@@ -7244,84 +7313,82 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42079 strings out of 478864
- 1072523 string characters out of 2848661
- 1895928 words of memory out of 3000000
- 58869 multiletter control sequences out of 15000+600000
+ 42034 strings out of 479163
+ 1073512 string characters out of 2852567
+ 1891656 words of memory out of 12000000
+ 58511 multiletter control sequences out of 15000+600000
  469872 words of font info for 194 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,24n,102p,3216b,2112s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
-er-ts1.enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-sup
-er/cm-super-t1.enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
-s/pl/plmi.enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/
-plrm.enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plms.
-enc}{C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plsc.enc}{
-C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plme.enc}<C:/Us
-ers/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pf
-b><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr5.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr6.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/przem/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/przem/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/pl/plbsy10.pfb><C:/Users/przem/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Users/przem/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/pl/plbx7.pfb><C:/Users/przem/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/pl/plbx8.pfb><C:/Users/przem/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/pl/plex10.pfb><C:/Users/przem/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/pl/plmi10.pfb><C:/Users/przem/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/pl/plmi12.pfb><C:/Users/przem/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/pl/plmi5.pfb><C:/Users/przem/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/pl/plmi6.pfb><C:/Users/przem/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/pl/plmi7.pfb><C:/Users/przem/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/pl/plmi8.pfb><C:/Users/przem/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/pl/plmib10.pfb><C:/Users/przem/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/Users/przem/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Users/przem/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/pl/plr5.pfb><C:/Users/przem/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/pl/plr6.pfb><C:/Users/przem/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/pl/plr7.pfb><C:/Users/przem/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/pl/plr8.pfb><C:/Users/przem/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/pl/plss8.pfb><C:/Users/przem/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/przem/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/pl/plsy6.pfb><C:/Users/przem/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/pl/plsy7.pfb><C:/Users/przem/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/pl/plsy8.pfb><C:/Users/przem/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/przem/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/przem/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/przem/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/pr
-zem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/
-Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2488.
-pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/s
-fcc1095.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm
--super/sfrm0600.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/cm-super/sfrm0700.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/cm-super/sfrm0800.pfb><C:/Users/przem/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/przem/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/przem/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/przem/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/p
-rzem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:
-/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl1200
-.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/
-sfti1095.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/public/c
-m-super/sfti1200.pfb><C:/Users/przem/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/cm-super/sftt1095.pfb>
-Output written on whole_thesis.pdf (192 pages, 113610555 bytes).
+ 106i,24n,99p,3216b,2086s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-
+super-ts1.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
+cm-super/cm-super-t1.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts
+/enc/dvips/pl/plmi.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/e
+nc/dvips/pl/plrm.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/enc
+/dvips/pl/plms.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/enc/d
+vips/pl/plsc.enc}{C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
+ps/pl/plme.enc}<C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmmi6.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/PRZKALIT/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/PRZKALIT/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PR
+ZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/pl/plbsy10.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/pl/plbx12.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/pl/plbx7.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/pl/plbx8.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/pl/plex10.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/pl/plmi10.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/pl/plmi12.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/pl/plmi5.pfb><C:/Users/PRZKALIT/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/pl/plmi6.pfb><C:/Users/PRZKALIT/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/pl/plmi7.pfb><C:/Users/PRZKALIT/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/pl/plmi8.pfb><C:/Users/PRZKALIT/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/pl/plmib10.pfb><C:/Users/PRZKALIT/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/Users/PRZKALIT/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Users/PRZKALIT/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/pl/plr5.pfb><C:/Users/PRZKALIT/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/pl/plr6.pfb><C:/Users/PRZKALIT/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/pl/plr7.pfb><C:/Users/PRZKALIT/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/pl/plr8.pfb><C:/Users/PRZKALIT/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/pl/plss8.pfb><C:/Users/PRZKALIT/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/PRZKALIT
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy6.pfb><C:/Users/PRZKAL
+IT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy7.pfb><C:/Users/PRZK
+ALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy8.pfb><C:/Users/PR
+ZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><
+C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfb
+x1095.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/c
+m-super/sfbx1200.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/cm-super/sfbx1440.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/PRZKALIT/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Users/PRZKALIT/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1095.pfb><C:/Users/PRZK
+ALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:
+/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0
+700.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-
+super/sfrm0800.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/cm-super/sfrm1000.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/PRZKALIT/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/PRZKALIT/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/PRZKAL
+IT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/U
+sers/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl120
+0.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-su
+per/sfti1095.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/cm-super/sfti1200.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/cm-super/sftt1095.pfb>
+Output written on whole_thesis.pdf (192 pages, 113571707 bytes).
 PDF statistics:
- 8935 PDF objects out of 10688 (max. 8388607)
+ 8891 PDF objects out of 8907 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  3072 words of extra memory for PDF output out of 10000 (max. 10000000)
 

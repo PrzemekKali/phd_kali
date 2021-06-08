@@ -191,21 +191,11 @@ W przypadku analizy konstrukcji pierwsza grupa obejmuje błędy popełnione w tr
 
 Druga grupa błędów związana z oszacowania parametrów modelu. Błędy w oszacowaniu rzeczywistych parametrów konstrukcji zaimplementowanych w modelu mogą skutkować bardzo dużymi różnicami między odpowiedzią konstrukcji rzeczywistej i przewidywaniami modelu. \cite{Brincker2015} zestawili możliwe niepewności w oszacowaniu parametrów modeli numerycznych i modalnych co przedstawiono w tabeli \ref{table:uncertainitesModel}). Jak widać niektórych z nich mogą wynosić od kilku do kilkudziesięciu procent. W przypadku warunków brzegowych na połączeniu z gruntem trudno wręcz postawić górną granice niepewności. 
 
-Redukcja wpływu błędów grupy pierwszej zasadniczo polega na identyfikacji i eliminacji danego błędu. Analizując konstrukcje mostowe stosowane są zabiegi służące wykryciu nieprawidłowości takie jak badanie symetrii/antysymetrii odpowiedzi w przypadku symetrii/antysymetrii układu i obciążenia, przeprowadzenie analizy modalnej w celu wykrycia niepowiązanych elementów, a także sprawdzenie zgodności sumy reakcji z wartością przyłożonego obciążenia. 
-
-Niepewności zawarte w drugiej grupie są naturalne, a zadaniem twórcy modelu jest po prostu jak najwierniejsze ich przyjęcie. Poprawę wartości parametrów można uzyskać na przykład na podstawie wykonanych badań wbudowanego materiału. Inna metoda polega na jak najlepszym dopasowaniu wybranych wartości odpowiedzi układu rzeczywistego do odpowiadających wartości odpowiedzi modelu. Zestaw procesów prowadzących do tego dopasowania nazywa się kalibracją modelu numerycznego. 
-
-Metody kalibracji opierają się głównie na modyfikacji parametrów modelu \teng{model updating}. \cite{Batou2019} podzielił metody kalibracji na bezpośrednie - modyfikujące macierz sztywności lub mas - i pośrednie - modyfikujące parametry geometryczne, materiałowe i warunki brzegowe. Za zmianę parametrów mogą odpowiadać algorytmy o różnym stopniu skomplikowania. Najbardziej podstawowym jest modyfikacja parametrów metodą prób i błędów. Wyboru zmianianych parametrów dokonuje inżynier na podstawie doświadczenia. Jest ona skuteczna w przypadku układów niewielu parametrach i dużym doświadczeniu inżyniera. Kiedy liczba parametrów jest duża, po pierwsze ich liczba jest ograniczana na podstawie analizy wrażliwości \parencite{Friswell2001,Mottershead2011,Petersen2017,Batou2019}. Po drugie kiedy ich liczba wciąż pozostaje znacząca wykorzystywane są metody podziału na mniejsze podproblemy \parencite{Weng2020,Yu2016} bądź stosowane są metody optymalizacji globalnej takie jak metoda przeszukiwania czy też algorytmy metaheurystyczne: algorytm genetyczny czy optymalizacja rojem cząstek \parencite{Boulkaibet2015,Tran-Ngoc2018,Dan2015,Qin2018}. W pracy do kalibracji wykorzystano ostatnią z przedstawionych metod. Informacje na jej temat przedstawiono w rozdziale \ref{sect:PSO_chapter}.
-
-Warto zwrócić uwagę, że kalibracja modelu za pomocą zmiany parametrów, przy jednoczesnym występowaniu błędów z grupy pierwszej, może prowadzić do doboru wartości parametrów o zupełnie nierealnych wielkościach. Stąd przed przystąpieniem do kalibracji modelu należy najpierw w miarę możliwości wyeliminować wszystkie błędy związane z tworzeniem modelu i jego idealizacją.
-
-Kalibracja modelu jest wykorzystywana w wielu rzeczywistych zastosowaniach. Podstawowym celem jest maksymalne dopasowanie modelu do konstrukcji rzeczywistej w trakcie badań naukowych \parencite{Li2020,Brownjohn2001,Zhang2019,Petersen2017}. Proces ten zwany walidacją sprawia, że model numeryczny lepiej odzwierciedla rzeczywistość, a uzyskane z niego rezultaty zyskują na wiarygodności. Kalibracja służy również do oceny stanu konstrukcji i jej zmian, często w połączeniu z systemem monitoringu \parencite{Brownjohn2000,Brownjohn2003,Zoltowski2020}.
-
 \begin{table}[hbt!]
 	
 	\centering
 	\caption{Niepewności najistotniejszych parametrów modeli numerycznych i modalnych na podstawie \cite{Brincker2015}}
-	\rowcolors{1}{}{gray!10}
+	%\rowcolors{1}{}{gray!10}
 	\resizebox{\textwidth}{!}{%
 		\begin{tabular}{p{0.7\linewidth} | c}
 			\toprule 
@@ -226,6 +216,18 @@ Kalibracja modelu jest wykorzystywana w wielu rzeczywistych zastosowaniach. Pods
 	\end{tabular}}
 	\label{table:uncertainitesModel}
 \end{table}
+
+Redukcja wpływu błędów grupy pierwszej zasadniczo polega na identyfikacji i eliminacji danego błędu. Analizując konstrukcje mostowe stosowane są zabiegi służące wykryciu nieprawidłowości takie jak badanie symetrii/antysymetrii odpowiedzi w przypadku symetrii/antysymetrii układu i obciążenia, przeprowadzenie analizy modalnej w celu wykrycia niepowiązanych elementów, a także sprawdzenie zgodności sumy reakcji z wartością przyłożonego obciążenia. 
+
+Niepewności zawarte w drugiej grupie są naturalne, a zadaniem twórcy modelu jest po prostu jak najwierniejsze ich przyjęcie. Poprawę wartości parametrów można uzyskać na przykład na podstawie wykonanych badań wbudowanego materiału. Inna metoda polega na jak najlepszym dopasowaniu wybranych wartości odpowiedzi układu rzeczywistego do odpowiadających wartości odpowiedzi modelu. Zestaw procesów prowadzących do tego dopasowania nazywa się kalibracją modelu numerycznego. 
+
+Metody kalibracji opierają się głównie na modyfikacji parametrów modelu \teng{model updating}. \cite{Batou2019} podzielił metody kalibracji na bezpośrednie - modyfikujące macierz sztywności lub mas - i pośrednie - modyfikujące parametry geometryczne, materiałowe i warunki brzegowe. Za zmianę parametrów mogą odpowiadać algorytmy o różnym stopniu skomplikowania. Najbardziej podstawowym jest modyfikacja parametrów metodą prób i błędów. Wyboru zmianianych parametrów dokonuje inżynier na podstawie doświadczenia. Jest ona skuteczna w przypadku układów niewielu parametrach i dużym doświadczeniu inżyniera. Kiedy liczba parametrów jest duża, po pierwsze ich liczba jest ograniczana na podstawie analizy wrażliwości \parencite{Friswell2001,Mottershead2011,Petersen2017,Batou2019}. Po drugie kiedy ich liczba wciąż pozostaje znacząca wykorzystywane są metody podziału na mniejsze podproblemy \parencite{Weng2020,Yu2016} bądź stosowane są metody optymalizacji globalnej takie jak metoda przeszukiwania czy też algorytmy metaheurystyczne: algorytm genetyczny czy optymalizacja rojem cząstek \parencite{Boulkaibet2015,Tran-Ngoc2018,Dan2015,Qin2018}. W pracy do kalibracji wykorzystano ostatnią z przedstawionych metod. Informacje na jej temat przedstawiono w rozdziale \ref{sect:PSO_chapter}.
+
+Warto zwrócić uwagę, że kalibracja modelu za pomocą zmiany parametrów, przy jednoczesnym występowaniu błędów z grupy pierwszej, może prowadzić do doboru wartości parametrów o zupełnie nierealnych wielkościach. Stąd przed przystąpieniem do kalibracji modelu należy najpierw w miarę możliwości wyeliminować wszystkie błędy związane z tworzeniem modelu i jego idealizacją.
+
+Kalibracja modelu jest wykorzystywana w wielu rzeczywistych zastosowaniach. Podstawowym celem jest maksymalne dopasowanie modelu do konstrukcji rzeczywistej w trakcie badań naukowych \parencite{Li2020,Brownjohn2001,Zhang2019,Petersen2017}. Proces ten zwany walidacją sprawia, że model numeryczny lepiej odzwierciedla rzeczywistość, a uzyskane z niego rezultaty zyskują na wiarygodności. Kalibracja służy również do oceny stanu konstrukcji i jej zmian, często w połączeniu z systemem monitoringu \parencite{Brownjohn2000,Brownjohn2003,Zoltowski2020}.
+
+
 
 
 

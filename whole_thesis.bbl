@@ -4522,6 +4522,46 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Juang, Pappa - 1985 - An eigensystem realization algorithm for modal parameter identification and model reduction.pdf:pdf
       \endverb
     \endentry
+    \entry{Kacprzyk1983}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=bebae0635d1328610d786cb815c60686}{%
+           family={Kacprzyk},
+           familyi={K\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=6c961d9538e3f30f75c86a0b2f87f1ca}{%
+           family={Lewinski},
+           familyi={L\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{473b909069cebaaf40eddc123df4e8c7}
+      \strng{fullhash}{473b909069cebaaf40eddc123df4e8c7}
+      \strng{bibnamehash}{473b909069cebaaf40eddc123df4e8c7}
+      \strng{authorbibnamehash}{473b909069cebaaf40eddc123df4e8c7}
+      \strng{authornamehash}{473b909069cebaaf40eddc123df4e8c7}
+      \strng{authorfullhash}{473b909069cebaaf40eddc123df4e8c7}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper deals with numerical methods of integrating the differential equations of vibration (in matrix form) of a physical system with a finite number of degrees of freedom. A comparison is made between the finite difference method, Newmark's method and the space-time finite element method. The methods compared are reduced to a unified form, revealing far-reaching similarities between the methods of calculating displacement and velocity. Analogies are found between the recurrence formulas relating the displacement and velocity vectors in different methods. It is proved that these analogies allow for a comparative analysis of the convergence of the three methods and confine it to an analysis of the approximation of the initial conditions and the external loads. Thirteen methods of approximation of the initial conditions are discussed. A new formulation of the space-time finite element is given. The comparative analysis of the convergence is limited to the free oscillations of a system with a single degree of freedom.}
+      \field{issn}{00359408}
+      \field{journaltitle}{Rozprawy Inzynierskie}
+      \field{number}{2}
+      \field{title}{{Comparison of Some Numerical Integration Methods for the Equations of Motion of Systems With a Finite Number of Degrees of Freedom.}}
+      \field{volume}{31}
+      \field{year}{1983}
+      \field{pages}{213\bibrangedash 240}
+      \range{pages}{28}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Kacprzyk - 1983 - Comparison of some numerical integration methods for the equations of motion of systems with a finite number of degree.pdf:pdf
+      \endverb
+    \endentry
     \entry{Kaczorek2016}{book}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=ff997c00109960b0eacc61e02642e733}{%
@@ -7173,12 +7213,12 @@
            given={Gustaw},
            giveni={G\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=f68096a8a548e76858b5791c78e77189}{%
+        {{un=2,uniquepart=given,hash=f68096a8a548e76858b5791c78e77189}{%
            family={Kacprzyk},
            familyi={K\bibinitperiod},
            given={Zbigniew},
            giveni={Z\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \list{publisher}{1}{%
         {Oficyna Wydawnicza Politechniki Warszawskiej}%
@@ -10069,7 +10109,7 @@
       \verb 10.24425/ace.2020.131815
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Zoltowski, Drawc - Unknown - INVERSE ANALYSIS AS A KEY ELEMENT OF SAFETY ASSESSMENT UNDER THE SNOW LOAD FOR THE LARGE SUSPENSION ROOFS S.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Zoltowski, Drawc - 2020 - Inverse analysis as a key element of safety assessment under the snow load for the large suspension roofs stru.pdf:pdf
       \endverb
       \keyw{FEM model,Inverse problem,Safety of the structure,Snow load,Structural health monitoring}
     \endentry

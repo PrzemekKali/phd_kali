@@ -21,7 +21,7 @@
 
 %BIBLIOGRAFIA
 %\usepackage[backend=biber,style=authoryear,url=false]{biblatex}
-\usepackage[backend=biber,style=numeric-comp,sorting=none,url=false]{biblatex}
+\usepackage[backend=biber,style=numeric-comp,sorting=none,url=true]{biblatex}
 \addbibresource{2020_08_19_My_Collection.bib}
 \AtBeginBibliography{\small}
 
@@ -33,6 +33,7 @@
 \fancyhead[ro]{\slshape\nouppercase{\rightmark}}
 \fancyhead[le]{\slshape\nouppercase{\leftmark}}
 \fancyfoot[CE,CO]{\thepage}
+
 %OBRAZKI
 \usepackage{pgfplots}
 \usepackage{graphicx}
@@ -87,5 +88,10 @@
 
 \theoremstyle{break}
 \newtheorem{definition}{Definicja}[]
+
+
+%linki w pracy
+\usepackage[hidelinks]{hyperref}
+
 
 %end of preamble

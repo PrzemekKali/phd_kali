@@ -1,6 +1,6 @@
 
 \chapter*{Wprowadzenie}
-%\addcontentsline{toc}{chapter}{Wprowdzenie}  
+\addcontentsline{toc}{chapter}{Wprowdzenie}  
 \markboth{Wprowadzenie}{Wprowadzenie}
 
 Linie kolejowe dużych prędkości wciąż są aktualnym elementem procesu rozwoju transportu zarówno w Polsce jak i na świecie. Według UIC w ciągu ostatnich 10 lat globalna liczba pasażerokilometrów z wykorzystaniem kolei dużych prędkości powiększyła się z ok 250 mld pkm/rok do ponad 1000 mld pkm/rok. Prawdą jest, że zdecydowana większość przyrostu wynika z gwałtownego wzrostu inwestycji w KDP w Chinach. Europejskie kraje rozpoczęły eksploatację KDP w latach 80' XX w. W pracy \parencite{Towpik2010} opisano rozwój oraz zalety Kolei Dużych Prędkości. W Polsce z uwagi na warunki polityczne i gospodarcze skonkretyzowane plany budowy LDP zostały przyjęte dopiero w 2008 roku w dokumencie \parencite{UchwaaNr276}. W kolejnej dekadzie postawiono na modernizację istniejących linii kolejowych, w tym na dostosowaniu linii nr 4 (CMK) i linii nr 9 do prędkości 200 km/h. 
@@ -46,3 +46,21 @@ W szczególności wykonane na drodze do głównego rezultatu działania miały n
 Możliwe jest znalezienie optymalnego finansowo i dynamicznie rozwiązania konstrukcji mostu łukowego w ciągu linii kolejowych dużych prędkości. Rezultaty optymalizacji mogą pozwolić określić zalecenia doboru parametrów konstrukcji łukowej zapewniające minimalny koszt oraz dostateczną odporność dynamiczną na liniach dużych prędkości.
 
 \section*{Struktura pracy}
+Praca składa się z wprowadzenia, pięciu rozdziałów, podsumowania oraz zestawienia bibliograficznego. 
+
+W \textit{Rozdziale 1} przedstawiono wszystkie główne aspekty dotyczące charakterystyki i modelowania mostów łukowych oraz występujących na nich obciążeń dynamicznych. Przedstawiono charakterystykę i klasyfikację mostów łukowych ze szczególnym uwzględnieniem różnic w elementach konstrukcyjnych. W skróconej formie przedstawiono Metodę Elementów Skończonych oraz sposoby kalibracji modelu numerycznego. Na koniec omówiono oddziaływania dynamiczne występujące na mostach kolejowych oraz obowiązujące normatywy w zakresie projektowania tychże mostów. Do każdej z części zaprezentowano obszerny przegląd literatury przedmiotu.
+
+\textit{Rozdział 2} zawiera zbiór podstawowych informacji na temat dynamicznej analizy konstrukcji. W klasyczny sposób rozpoczęto od omówienia ruchu drgającego najprostszego układu - jednego stopnia swobody. Przedstawiono również wielokrotnie użytą w pracy metodę wyznaczania częstotliwości i postaci drgań własnych. Przedstawiono w uporządkowany sposób metody wyznaczania odpowiedzi układu drgającego, zarówno o jednym jak i wielu stopniach swobody. Opisano także miary i modele opisujące efekty tłumienia drgań konstrukcji. Zwrócono uwagę na elementy istotne z punktu widzenia dalszych prac: identyfikacji modalnej konstrukcji i analizy dynamicznej.
+
+Rozdział 3 stanowi opis jednej z rodzin metod identyfikacji modalnej - Operacyjnej Analizy Modalnej. Początkowo przedstawiono koncepcję oraz przytoczono podział i klasyfikację istniejących algorytmów OMA. Zawarto również przegląd literatury mówiącej o zastosowaniach OMA w praktyce inżynierskiej. Do identyfikacji wybranego obiektu badawczego wykorzystano metodę NExT-ERA. Dokonano jej obszernego opisu syntetycznego oraz omówiono właściwości metody. Następnie przedstawiono opis stworzonej aplikacji komputerowej do identyfikacji modalnej bazującej na algorytmie NExT-ERA. Zaprezentowano metody obróbki i łączenia sygnałów, dobór parametrów metody i sposoby oceny poprawności rozwiązania. Wykonano test numeryczny oraz laboratoryjny samej metody jak i stworzonej aplikacji komputerowej.
+
+Rozdział 4 zawiera przedstawienie zagadnienia optymalizacji. Wstępnie omówiono i sklasyfikowano metody optymalizacji w kontekście projektowania konstrukcji. Do dalszych analiz wybrano metodę poszukiwania minimum globalnego algorytmem metaheurystycznym Particle Swarm Optimization (PSO). Opisano metodę oraz dobrane parametry sterujące algorytmem: wielkość roju, warunki brzegowe i topologię roju. Przedstawiono zastosowania algorytmu przy rozwiązywaniu problemów inżynierskich występujące w literaturze. Wykonano przykład teoretyczny metody z jedną funkcją celu. Następnie opisano uogólnienie metody jednokryterialnej do wielokryterialnej z zastosowaniem operatora dominacji w sensie Pareto. Dla wariantu o kilku funkcjach celu również wykonano przykład testowy.
+
+Rozdział 5 jest syntezą wszystkich wcześniej wykonanych prac. Zaprezentowano w nim kompleksową analizę mającą na celu optymalizację konstrukcji istniejącego wiaduktu WK-2 w ciągu Pomorskiej Kolei Metropolitalnej w Gdańsku. Analiza składała się z trzech głównych etapów. Pierwszym była identyfikacja modalna konstrukcji metodą OMA w celu określenia rzeczywistych parametrów modalnych. Następnie przedstawiono procedurę kalibracji modelu numerycznego z zastosowaniem wyników identyfikacji modalnej i badań pod próbnym obciążeniem. Kolejno opisano przeprowadzoną na przygotowanym modelu numerycznym wariantową optymalizację wielokryterialną algorytmem PSO. Przedstawiono rezultaty i wyciągnięto wnioski.
+
+Na końcu rozprawy znajduje się Podsumowanie. Ujęto w nim główne wnioski wynikające z przeprowadzonych prac oraz określono kierunki dalszej pracy nad wykorzystaniem zagadnienia optymalizacji w analizie konstrukcji mostowych.
+
+
+
+
+

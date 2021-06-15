@@ -23,7 +23,7 @@ Z reguły wartości zmiennych projektowych muszą spełniać szereg obostrzeń. 
 
 \section{Klasyfikacja problemów i metod\\optymalizacji}
 Wszystkie powyższe elementy definiują problem optymalizacji. Każdy z nich może przyjmować różne postaci co będzie miało znaczący wpływ przede wszystkim na wybór metody rozwiązania problemu. \cite{Tesch2016} zaproponował następującą klasyfikację problemów optymalizacji zależnie od elementów charakterystycznych je definiujących:
-\begin{itemize}[noitemsep]
+\begin{itemize}
 	\item Liczba funkcji celu
 	\begin{itemize}[noitemsep]
 		\item pojedyncza funkcja celu,
@@ -51,7 +51,7 @@ Klasyfikacje zawarte w klasycznych pozycjach dotyczących optymalizacji podają 
 
 Rodzaj problemu optymalizacji ogranicza wybór metody, którą można użyć do jego rozwiązania. W literaturze algorytmy tradycyjne dzielone są ze względu na sposób przeszukiwania na: analityczne, enumeratywne oraz losowe \parencite{Goldberg1995}. W skrócie, pierwsze opierają się na stworzeniu i rozwiązaniu układu równań, powstałego przez przyrównanie gradientu funkcji celu do zera. Metody te wymagają obliczenia pochodnych funkcji i mają charakter lokalny, szukając optymalnego rozwiązania wokół punktu, a nie w całym dopuszczalnym obszarze. W realnych przypadkach są to trudne do zaakceptowania warunki i metody te mają raczej ograniczony zakres zastosowań. Metody enumeracyjne polegają na obliczaniu funkcji celu dla kolejnych rozwiązań dopuszczalnych. W literaturze przedmiotu inną spotykaną nazwą tej metody jest "systematyczne przeszukiwanie". Pomimo naturalności metody i jej prostoty jest to najmniej efektywna klasa metod, co jest jej główną wadą. Działanie metod losowych jest podobne do systematycznego przeszukiwania, z tą różnicą że kolejne rozwiązania są dobierane w sposób losowy, a nie uporządkowany. Metody losowe w ogólności nie pozwalają efektywniej uzyskać optymalnego rozwiązania niż enumeratywne. Przedstawione konwencjonalne metody są albo wysoce wyspecjalizowne i swoim zastosowaniem obejmują wąskie spektrum problemów, albo są mało efektywne w szerokim zakresie zastosowań. Znając ograniczenia metod tradycyjnych, poszukiwano innych, które dzięki wykorzystaniu maszyn cyfrowych mogą stać się jednocześnie znacznie bardziej efektywne niż metody enumeratywne oraz jednocześnie pozwalają na rozwiązanie znacznie bardziej różnorodnych zadań niż metody analityczne. W odpowiedzi powstały algorytmy, które doboru coraz lepszego rozwiązania dokonują wykorzystując zwykle randomizację, ale nie są w zupełności losowe. Są to tak zwane algorytmy heurystyczne i w rozwiniętej wersji metaheurystyczne \parencite{Blum2003}. Cechują się one konkretną strategią, która przewodzi przeszukiwaniu przestrzeni w poszukiwaniu rozwiązania optymalnego. Powinny być uniwersalne i nie nakierowane jedynie na konkretny typ problemu. Wykorzystują one doświadczenie powstałe na bazie przeprowadzonych prób i uczą się na ich podstawie szukając coraz lepszego wyniku. Ponadto, większość algorytmów metaheurystycznych ma charakter globalny i nie ogranicza się do funkcji unimodalnych. Niemniej jednak, pomimo niewątpliwych zalet, należy pamiętać że algorytmy metaheurystyczne są z natury przybliżone. W związku z tym nie gwarantują, że optymalny wynik zostanie w ogóle odnaleziony. Najbardziej popularne algorytmy metaheurystyczne są inspirowane zachowaniami zaobserwowanymi w naturze \parencite{FisterJr.2013}. Główne mechanizmy ich działania mogą być zaczerpnięte z praw fizyki (np. Algorytm Przeszukiwania Grawitacyjnego \parencite{Rashedi2009}), biologii (np. Algorytmy Genetyczne \parencite{Goldberg1995}) czy inteligencji stadnej (np. Optymizacja Rojem Cząstek \parencite{Kennedy1995,Eberhart2001}).
 Podsumowując i odwołując się do wyżej przytoczonej klasyfikacji problemów optymalizacji, algorytmy ich rozwiązania \cite{Tesch2016} podzielił według następujących kryteriów:
-\begin{itemize}[noitemsep]
+\begin{itemize}
 	\item Różniczkowalność funkcji celu
 	\begin{itemize}[noitemsep]
 		\item Wymagające pochodnej - algorytmy tej kategorii wymagają istnienia dwukrotnej pochodnej funkcji celu.
@@ -179,7 +179,7 @@ gdzie $x$, $y$ tworzą wektor zmiennych projektowych, a wartość funkcji $f(x,y
 \end{figure}
 
 Wygenerowano populację złożoną z 20 cząstek. Do generacji użyto wariant korzystający z sekwencji Haltona. Z uwagi na multimodalność funkcji celu zastosowano topologię z rodziny lbest - von Neumanna. Warunki brzegowe przyjęto typu niewidocznego. Parametry wektora prędkości (\ref{eq: pso_velocity}) ustawiono domyślnie równe: $\theta=0.7968$, $\alpha=1.4962$ oraz $\beta=1.4962$. Zatrzymanie algorytmu nastąpiło po wykonaniu założonej liczby aktualizacji całego roju równej 25. W konsekwencji całkowita liczba ewaluacji funkcji celu przez cząstki wynosi $25\cdot20=500$. Na rysunku \ref{fig: pso_convergence_plot} zaprezentowano diagram poprawy najlepszego rozwiązania znalezionego przez rój. Na rysunku \ref{fig: pso_test_func_all} pokazano 6 etapów z procesu poszukiwania przez rój minimum funkcji. Ostateczna znaleziona wartość minimum globalnego wynosi $f_{\text{min,25}}=-5.99$. Wartość ta została osiągnięta po około 400 ewaluacjach funkcji i jest bardzo bliska znanemu minimum globalnemu. Warto nadmienić, że już po 215 ewaluacjach odnaleziona zostało rozwiązanie o funkcji celu wynoszącej $f=-5.98$. Wizualizacja położenia cząstek roju w kolejnych iteracjach pokazuje, że wraz z postępem algorytmu, cząstki z rozproszonego układu skupiają się konsekwentnie wokół lidera. Topologia von Neumanna spowalnia ten proces. Opóźnia to znalezienie precyzyjnego rozwiązania, ale obszar dopuszczalny jest przeszukany dokładniej. Na kolejnych grafikach widać, że pomimo znalezienia punktu bliskiego teoretycznego minimum globalnego (Rys. \ref{fig: pso_test_func_2}) wciąż pozostają cząstki, które eksplorują pozostały obszar. Na podstawie powyższego testu uznano, że zaimplementowany algorytm PSO działa poprawnie.
-\begin{figure}[h]
+\begin{figure}[hbt!]
 	\centering
 	\includegraphics[trim=0 5 0 5, clip,width=0.65\linewidth]{/PSO/testfunct/fig_convergence11_30_59.pdf} 
 	\captionsetup{justification=centering}
@@ -187,7 +187,7 @@ Wygenerowano populację złożoną z 20 cząstek. Do generacji użyto wariant ko
 	\label{fig: pso_convergence_plot} 
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[hbt!]
 	\centering
 	\subfloat[$f_{\text{min,0}}=-4.38$]{\includegraphics[trim=8 10 5 10, clip,width=0.33\linewidth]{/PSO/testfunct/fig_population_11_30_23.pdf} \label{fig: pso_test_func_1}}
 	\subfloat[$f_{\text{min,5}}=-5.34$]{\includegraphics[trim=8 10 5 10, clip,width=0.33\linewidth]{/PSO/testfunct/fig_04_00.pdf} \label{fig: pso_test_func_2}}

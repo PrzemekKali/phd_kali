@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.28)  15 JUN 2021 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.28)  15 JUN 2021 18:39
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -2361,11 +2361,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [30]
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 529.
-
-
-
 pdfTeX warning: pdflatex.exe (file ./figures///dynamic_railway/simp_comfort_cla
 ss.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
@@ -2378,15 +2373,11 @@ Package pdftex.def Info: ./figures///dynamic_railway/simp_comfort_class.pdf  us
 ed on input line 545.
 (pdftex.def)             Requested size: 420.96037pt x 240.02112pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (3.7124pt too wide) in paragraph at lines 551--552
-[]\T1/cmr/m/n/12 Obiekt ko-le-jowy uznaje si¡ za po-praw-nie za-pro-jek-to-wany
+Overfull \hbox (3.0598pt too wide) in paragraph at lines 551--552
+[]\T1/cmr/m/n/12 Obiekt ko-le-jowy uznaje si¦ za po-praw-nie za-pro-jek-to-wany
  je-±li speª-nione s¡ wszyst-
  []
 
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2395,7 +2386,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31]
+[31])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2932,9 +2923,6 @@ n input line 758.
 (pdftex.def)             Requested size: 213.39566pt x 78.29478pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2943,70 +2931,70 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [73]
-<./figures///test_blue/sof_wis/image_small001.png, id=2466, 3898.06313pt x 2116
+<./figures///test_blue/sof_wis/image_small001.png, id=2465, 3898.06313pt x 2116
 .15594pt>
 File: ./figures///test_blue/sof_wis/image_small001.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small001.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small001.png  used
  on input line 778.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small003.png, id=2467, 3898.06313pt x 2116
+<./figures///test_blue/sof_wis/image_small003.png, id=2466, 3898.06313pt x 2116
 .15594pt>
 File: ./figures///test_blue/sof_wis/image_small003.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small003.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small003.png  used
  on input line 780.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small004.png, id=2468, 3898.06313pt x 2116
+<./figures///test_blue/sof_wis/image_small004.png, id=2467, 3898.06313pt x 2116
 .15594pt>
 File: ./figures///test_blue/sof_wis/image_small004.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small004.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small004.png  used
  on input line 782.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small005.png, id=2469, 3898.06313pt x 2116
+<./figures///test_blue/sof_wis/image_small005.png, id=2468, 3898.06313pt x 2116
 .15594pt>
 File: ./figures///test_blue/sof_wis/image_small005.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small005.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small005.png  used
  on input line 784.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small006.png, id=2470, 3898.06313pt x 2116
+<./figures///test_blue/sof_wis/image_small006.png, id=2469, 3898.06313pt x 2116
 .15594pt>
 File: ./figures///test_blue/sof_wis/image_small006.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small006.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small006.png  used
  on input line 786.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small007.png, id=2471, 3898.06313pt x 2116
+<./figures///test_blue/sof_wis/image_small007.png, id=2470, 3898.06313pt x 2116
 .15594pt>
 File: ./figures///test_blue/sof_wis/image_small007.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small007.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small007.png  used
  on input line 788.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small008.png, id=2472, 3898.06313pt x 2116
+<./figures///test_blue/sof_wis/image_small008.png, id=2471, 3898.06313pt x 2116
 .15594pt>
 File: ./figures///test_blue/sof_wis/image_small008.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small008.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small008.png  used
  on input line 790.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small009.png, id=2473, 3898.06313pt x 2116
+<./figures///test_blue/sof_wis/image_small009.png, id=2472, 3898.06313pt x 2116
 .15594pt>
 File: ./figures///test_blue/sof_wis/image_small009.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small009.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small009.png  used
  on input line 792.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small010.png, id=2474, 3898.06313pt x 2116
+<./figures///test_blue/sof_wis/image_small010.png, id=2473, 3898.06313pt x 2116
 .15594pt>
 File: ./figures///test_blue/sof_wis/image_small010.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small010.png>
 Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small010.png  used
  on input line 794.
 (pdftex.def)             Requested size: 140.84192pt x 76.43018pt.
-<./figures///test_blue/sof_wis/image_small011.png, id=2475, 3898.06313pt x 2116
+<./figures///test_blue/sof_wis/image_small011.png, id=2474, 3898.06313pt x 2116
 .15594pt>
 File: ./figures///test_blue/sof_wis/image_small011.png Graphic file (type png)
 <use ./figures///test_blue/sof_wis/image_small011.png>
@@ -3017,7 +3005,7 @@ Package pdftex.def Info: ./figures///test_blue/sof_wis/image_small011.png  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures///test_blue/input_load/input_load_1.pdf, id=2482, 222.07143pt x 159.
+<./figures///test_blue/input_load/input_load_1.pdf, id=2481, 222.07143pt x 159.
 31656pt>
 File: ./figures///test_blue/input_load/input_load_1.pdf Graphic file (type pdf)
 
@@ -3025,7 +3013,7 @@ File: ./figures///test_blue/input_load/input_load_1.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures///test_blue/input_load/input_load_1.pdf  use
 d on input line 805.
 (pdftex.def)             Requested size: 222.07088pt x 159.31616pt.
-<./figures///test_blue/input_load/input_load_2.pdf, id=2483, 222.07143pt x 159.
+<./figures///test_blue/input_load/input_load_2.pdf, id=2482, 222.07143pt x 159.
 31656pt>
 File: ./figures///test_blue/input_load/input_load_2.pdf Graphic file (type pdf)
 
@@ -3052,7 +3040,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [74 <./figures///test_blue/sof_wis/wis_small002.png (PNG copy)> <./figures///te
 st_blue/sof_wis/wis_small001.png (PNG copy)>]
 <./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pdf, i
-d=2498, 428.889pt x 169.18018pt>
+d=2496, 428.889pt x 169.18018pt>
 File: ./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.p
 df Graphic file (type pdf)
 <use ./figures///test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pd
@@ -3061,7 +3049,7 @@ Package pdftex.def Info: ./figures///test_blue/stab_diag/fig_stab_diagram_nonfi
 ltr_time_20_20_50.pdf  used on input line 818.
 (pdftex.def)             Requested size: 426.79134pt x 168.35625pt.
 <./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf, id=2
-499, 428.889pt x 169.18018pt>
+497, 428.889pt x 169.18018pt>
 File: ./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf 
 Graphic file (type pdf)
 <use ./figures///test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf>
@@ -3073,7 +3061,7 @@ Overfull \hbox (3.26308pt too wide) in paragraph at lines 819--821
  [][] 
  []
 
-<./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf, id=2501, 225.75708pt
+<./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf, id=2499, 225.75708pt
  x 214.08707pt>
 File: ./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf Graphic file (ty
 pe pdf)
@@ -3081,7 +3069,7 @@ pe pdf)
 Package pdftex.def Info: ./figures///test_blue/ccf/fig_CCF_CSD_00003_20_04_28.p
 df  used on input line 829.
 (pdftex.def)             Requested size: 213.39566pt x 202.36887pt.
-<./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf, id=2502, 225.75708pt
+<./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf, id=2500, 225.75708pt
  x 214.5426pt>
 File: ./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf Graphic file (ty
 pe pdf)
@@ -3089,7 +3077,7 @@ pe pdf)
 Package pdftex.def Info: ./figures///test_blue/ccf/fig_CCF_CSD_00004_20_05_38.p
 df  used on input line 830.
 (pdftex.def)             Requested size: 213.39566pt x 202.79947pt.
-<./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf, id=2503, 225.75708pt
+<./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf, id=2501, 225.75708pt
  x 213.88905pt>
 File: ./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf Graphic file (ty
 pe pdf)
@@ -3097,7 +3085,7 @@ pe pdf)
 Package pdftex.def Info: ./figures///test_blue/ccf/fig_CCF_CSD_00007_20_08_26.p
 df  used on input line 831.
 (pdftex.def)             Requested size: 213.39566pt x 202.18169pt.
-<./figures///test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf, id=2504, 229.58388pt
+<./figures///test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf, id=2502, 229.58388pt
  x 211.93095pt>
 File: ./figures///test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf Graphic file (ty
 pe pdf)
@@ -3832,10 +3820,6 @@ j¡ ist-nie-nia dwu-
  []
 
 
-Underfull \vbox (badness 1902) has occurred while \output is active []
-
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4108,10 +4092,6 @@ Overfull \hbox (7.48155pt too wide) in paragraph at lines 195--199
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4156,18 +4136,10 @@ LaTeX Font Info:    External font `plex10' loaded for size
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <8.39996> on input line 216.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[99]
 
 pdfTeX warning: pdflatex.exe (file ./figures///PSO/pareto/nondominated.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures///PSO/pareto/nondominated.pdf, id=4749, 128.03745pt x 113.811pt>
+<./figures///PSO/pareto/nondominated.pdf, id=4736, 128.03745pt x 113.811pt>
 File: ./figures///PSO/pareto/nondominated.pdf Graphic file (type pdf)
 <use ./figures///PSO/pareto/nondominated.pdf>
 Package pdftex.def Info: ./figures///PSO/pareto/nondominated.pdf  used on input
@@ -4177,7 +4149,7 @@ Package pdftex.def Info: ./figures///PSO/pareto/nondominated.pdf  used on input
 
 pdfTeX warning: pdflatex.exe (file ./figures///PSO/pareto/pareto_front.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures///PSO/pareto/pareto_front.pdf, id=4750, 128.03745pt x 113.811pt>
+<./figures///PSO/pareto/pareto_front.pdf, id=4737, 128.03745pt x 113.811pt>
 File: ./figures///PSO/pareto/pareto_front.pdf Graphic file (type pdf)
 <use ./figures///PSO/pareto/pareto_front.pdf>
 Package pdftex.def Info: ./figures///PSO/pareto/pareto_front.pdf  used on input
@@ -4187,13 +4159,34 @@ Package pdftex.def Info: ./figures///PSO/pareto/pareto_front.pdf  used on input
 
 pdfTeX warning: pdflatex.exe (file ./figures///PSO/pareto/eps_pareto_front.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures///PSO/pareto/eps_pareto_front.pdf, id=4751, 128.03745pt x 113.811pt>
+<./figures///PSO/pareto/eps_pareto_front.pdf, id=4738, 128.03745pt x 113.811pt>
 
 File: ./figures///PSO/pareto/eps_pareto_front.pdf Graphic file (type pdf)
 <use ./figures///PSO/pareto/eps_pareto_front.pdf>
 Package pdftex.def Info: ./figures///PSO/pareto/eps_pareto_front.pdf  used on i
 nput line 255.
 (pdftex.def)             Requested size: 128.03711pt x 113.81071pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[99]
+Overfull \hbox (2.0003pt too wide) in paragraph at lines 273--276
+\T1/cmr/m/n/12 Algorytm sªu-»¡cy opty-ma-li-za-cji wie-lo-kry-te-rial-nej ro-je
+m cz¡-stek (\T1/cmr/m/it/12 eng. Multi-Objective
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4204,11 +4197,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [100 <./figures///PSO/pareto/nondominated.pdf> <./figures///PSO/pareto/pareto_f
 ront.pdf> <./figures///PSO/pareto/eps_pareto_front.pdf>]
-Overfull \hbox (2.0003pt too wide) in paragraph at lines 273--276
-\T1/cmr/m/n/12 Algorytm sªu-»¡cy opty-ma-li-za-cji wie-lo-kry-te-rial-nej ro-je
-m cz¡-stek (\T1/cmr/m/it/12 eng. Multi-Objective
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4222,7 +4210,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./figures///PSO/algorithm_multi/algoritm_mul
 ti.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<./figures///PSO/algorithm_multi/algoritm_multi.pdf, id=4849, 426.79138pt x 569
+<./figures///PSO/algorithm_multi/algoritm_multi.pdf, id=4850, 426.79138pt x 569
 .05505pt>
 File: ./figures///PSO/algorithm_multi/algoritm_multi.pdf Graphic file (type pdf
 )
@@ -4230,6 +4218,10 @@ File: ./figures///PSO/algorithm_multi/algoritm_multi.pdf Graphic file (type pdf
 Package pdftex.def Info: ./figures///PSO/algorithm_multi/algoritm_multi.pdf  us
 ed on input line 288.
 (pdftex.def)             Requested size: 409.79973pt x 527.08731pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -7733,7 +7725,7 @@ sers/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl120
 per/sfti1095.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/cm-super/sfti1200.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/cm-super/sftt1095.pfb>
-Output written on whole_thesis.pdf (203 pages, 114322683 bytes).
+Output written on whole_thesis.pdf (203 pages, 114322795 bytes).
 PDF statistics:
  11748 PDF objects out of 12825 (max. 8388607)
  1233 named destinations out of 1440 (max. 500000)

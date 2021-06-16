@@ -19,32 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{Towpik2010}{article}{}
+    \entry{UIC2021}{misc}{}
       \name{author}{1}{}{%
-        {{hash=8cc202d46004fe6b76ce0fe7db8a45c3}{%
-           family={Towpik},
-           familyi={T\bibinitperiod},
-           given={Kazimierz},
-           giveni={K\bibinitperiod}}}%
+        {{hash=93a8ca56f93ad545d9ac9fca98bd4d7f}{%
+           family={UIC},
+           familyi={U\bibinitperiod}}}%
       }
-      \strng{namehash}{8cc202d46004fe6b76ce0fe7db8a45c3}
-      \strng{fullhash}{8cc202d46004fe6b76ce0fe7db8a45c3}
-      \strng{bibnamehash}{8cc202d46004fe6b76ce0fe7db8a45c3}
-      \strng{authorbibnamehash}{8cc202d46004fe6b76ce0fe7db8a45c3}
-      \strng{authornamehash}{8cc202d46004fe6b76ce0fe7db8a45c3}
-      \strng{authorfullhash}{8cc202d46004fe6b76ce0fe7db8a45c3}
+      \strng{namehash}{93a8ca56f93ad545d9ac9fca98bd4d7f}
+      \strng{fullhash}{93a8ca56f93ad545d9ac9fca98bd4d7f}
+      \strng{bibnamehash}{93a8ca56f93ad545d9ac9fca98bd4d7f}
+      \strng{authorbibnamehash}{93a8ca56f93ad545d9ac9fca98bd4d7f}
+      \strng{authornamehash}{93a8ca56f93ad545d9ac9fca98bd4d7f}
+      \strng{authorfullhash}{93a8ca56f93ad545d9ac9fca98bd4d7f}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{W artykule opisano rozwój linii dużych prȩdkości (LDP) na świecie, ze szczególnym uwzglȩdnieniem infrastruktury tych linii. Scharakteryzowano wymagania dotycza̧ce inter- operacyjności i kompatybilności LDP, doboru elementów nawierzchni klasycznych i niekon- wencjonalnych eksploatowanych na tych liniach, oddzia{ł}ywań pojazdów na nawierzchniȩ oraz środowisko naturalne. Omówiono również parametry uk{ł}adu geometrycznego oraz wymagania dotycza̧ce jakości po{ł}ożenia torów na liniach dużych prȩdkości. Przedstawiono program budowy LDP w Polsce.}
-      \field{journaltitle}{Problemy Kolejnictwa}
-      \field{title}{{Linie kolejowe dużych prȩdkości}}
-      \field{year}{2010}
-      \field{pages}{28\bibrangedash 70}
-      \range{pages}{43}
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Towpik - 2010 - Linie kolejowe du{\.{z}}ych pr{\c{e}}dko{\'{s}}ci.pdf:pdf
+      \field{title}{{High speed traffic in the world}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://uic.org/IMG/pdf/20210201{\_}high{\_}speed{\_}passenger{\_}km.pdf
+      \endverb
+      \verb{url}
+      \verb https://uic.org/IMG/pdf/20210201%7B%5C_%7Dhigh%7B%5C_%7Dspeed%7B%5C_%7Dpassenger%7B%5C_%7Dkm.pdf
       \endverb
     \endentry
     \entry{UchwaaNr276}{misc}{}
@@ -66,6 +68,34 @@
       \field{title}{{w sprawie przyjȩcia strategii ponadregionalnej Program budowy i uruchomienia przewozów kolejami dużych prȩdkości w Polsce}}
       \field{year}{2008}
     \endentry
+    \entry{Towpik2010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8cc202d46004fe6b76ce0fe7db8a45c3}{%
+           family={Towpik},
+           familyi={T\bibinitperiod},
+           given={Kazimierz},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8cc202d46004fe6b76ce0fe7db8a45c3}
+      \strng{fullhash}{8cc202d46004fe6b76ce0fe7db8a45c3}
+      \strng{bibnamehash}{8cc202d46004fe6b76ce0fe7db8a45c3}
+      \strng{authorbibnamehash}{8cc202d46004fe6b76ce0fe7db8a45c3}
+      \strng{authornamehash}{8cc202d46004fe6b76ce0fe7db8a45c3}
+      \strng{authorfullhash}{8cc202d46004fe6b76ce0fe7db8a45c3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{W artykule opisano rozwój linii dużych prȩdkości (LDP) na świecie, ze szczególnym uwzglȩdnieniem infrastruktury tych linii. Scharakteryzowano wymagania dotycza̧ce inter- operacyjności i kompatybilności LDP, doboru elementów nawierzchni klasycznych i niekon- wencjonalnych eksploatowanych na tych liniach, oddzia{ł}ywań pojazdów na nawierzchniȩ oraz środowisko naturalne. Omówiono również parametry uk{ł}adu geometrycznego oraz wymagania dotycza̧ce jakości po{ł}ożenia torów na liniach dużych prȩdkości. Przedstawiono program budowy LDP w Polsce.}
+      \field{journaltitle}{Problemy Kolejnictwa}
+      \field{title}{{Linie kolejowe dużych prȩdkości}}
+      \field{year}{2010}
+      \field{pages}{28\bibrangedash 70}
+      \range{pages}{43}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Towpik - 2010 - Linie kolejowe du{\.{z}}ych pr{\c{e}}dko{\'{s}}ci.pdf:pdf
+      \endverb
+    \endentry
     \entry{UIC2015}{misc}{}
       \name{author}{1}{}{%
         {{hash=93a8ca56f93ad545d9ac9fca98bd4d7f}{%
@@ -78,19 +108,23 @@
       \strng{authorbibnamehash}{93a8ca56f93ad545d9ac9fca98bd4d7f}
       \strng{authornamehash}{93a8ca56f93ad545d9ac9fca98bd4d7f}
       \strng{authorfullhash}{93a8ca56f93ad545d9ac9fca98bd4d7f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{High-speed database {\&} maps}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
       \field{year}{2015}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://uic.org/passenger/highspeed/article/high-speed-database-maps
       \endverb
       \verb{url}
       \verb https://uic.org/passenger/highspeed/article/high-speed-database-maps
       \endverb
-      \warn{\item Entry 'UIC2015' (2020_08_19_My_Collection.bib): Invalid format '10-05-2021' of date field 'urldate' - ignoring}
     \endentry
     \entry{Raczynski2010}{article}{}
       \name{author}{3}{}{%
@@ -116,8 +150,8 @@
       \strng{authorbibnamehash}{707d7e621902fff975473fbacbf56a49}
       \strng{authornamehash}{707d7e621902fff975473fbacbf56a49}
       \strng{authorfullhash}{707d7e621902fff975473fbacbf56a49}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Technika Transportu Szynowego}
@@ -142,8 +176,8 @@
       \strng{authorbibnamehash}{b5401e6aff7fefa49f1f8579c109ae65}
       \strng{authornamehash}{b5401e6aff7fefa49f1f8579c109ae65}
       \strng{authorfullhash}{b5401e6aff7fefa49f1f8579c109ae65}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{w sprawie przyjȩcia Koncepcji pryzgotowania i realizacji inwestycji Port Solidarności - Centralny Port Komunikacyjny dla Rzeczypospolitej Polskiej}}
@@ -166,8 +200,8 @@
       \strng{authorbibnamehash}{e71ae0955cdb849551699461be8896ed}
       \strng{authornamehash}{e71ae0955cdb849551699461be8896ed}
       \strng{authorfullhash}{e71ae0955cdb849551699461be8896ed}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Inzynier Budownictwa}
@@ -205,8 +239,8 @@
       \strng{authornamehash}{dcd01898cde5810f7a0d0ade936ea4f7}
       \strng{authorfullhash}{dcd01898cde5810f7a0d0ade936ea4f7}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1896-7663}
@@ -237,8 +271,8 @@
       \strng{authornamehash}{dcd01898cde5810f7a0d0ade936ea4f7}
       \strng{authorfullhash}{dcd01898cde5810f7a0d0ade936ea4f7}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1896-7663}
@@ -263,8 +297,8 @@
       \strng{authorbibnamehash}{fd063e5d6864107639217fc11e02fb01}
       \strng{authornamehash}{fd063e5d6864107639217fc11e02fb01}
       \strng{authorfullhash}{fd063e5d6864107639217fc11e02fb01}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Drogownictwo}
@@ -273,6 +307,73 @@
       \field{year}{1994}
       \field{pages}{238\bibrangedash 243}
       \range{pages}{6}
+    \endentry
+    \entry{Larssen2011}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=16640eec764460007fbac7d169324d01}{%
+           family={Larssen},
+           familyi={L\bibinitperiod},
+           given={Rolf\bibnamedelima Magne},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cf550197f6a6e2098af9694b3f0fcae1}{%
+           family={Jakobsen},
+           familyi={J\bibinitperiod},
+           given={S\bibnamedelima E},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London, United Kingdom}%
+      }
+      \list{publisher}{2}{%
+        {International Association for Bridge}%
+        {Structural Engineering (IABSE) / IASS}%
+      }
+      \strng{namehash}{a933b2e7b6fda26b25f94b62b535e5e4}
+      \strng{fullhash}{a933b2e7b6fda26b25f94b62b535e5e4}
+      \strng{bibnamehash}{a933b2e7b6fda26b25f94b62b535e5e4}
+      \strng{authorbibnamehash}{a933b2e7b6fda26b25f94b62b535e5e4}
+      \strng{authornamehash}{a933b2e7b6fda26b25f94b62b535e5e4}
+      \strng{authorfullhash}{a933b2e7b6fda26b25f94b62b535e5e4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{35th Annual Symposium of IABSE / 52nd Annual Symposium of IASS / 6th International Conference on Space Structures: Taller, Longer, Lighter - Meeting growing demand with limited resources}
+      \field{title}{{Brandangersundet bridge – a slender and light network arch}}
+      \field{year}{2011}
+      \field{pages}{334}
+      \range{pages}{1}
+    \endentry
+    \entry{Tveit2014}{report}{}
+      \name{author}{1}{}{%
+        {{hash=66e95dcc8ecf6811c45df27e1b4acc33}{%
+           family={Tveit},
+           familyi={T\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{fullhash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{bibnamehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{authorbibnamehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{authornamehash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \strng{authorfullhash}{66e95dcc8ecf6811c45df27e1b4acc33}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Publication contains advice on how to design network arches.}
+      \field{isbn}{9780415475358}
+      \field{number}{March}
+      \field{title}{{The Network Arch. Bits of Manuscript in March 2014 after Lectures in 50+ Countries}}
+      \field{type}{techreport}
+      \field{year}{2014}
+      \field{pages}{142}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Tveit - 2014 - The Network Arch. Bits of Manuscript in March 2014 after Lectures in 50 Countries.pdf:pdf
+      \endverb
     \endentry
     \entry{PKNf}{misc}{}
       \name{author}{1}{}{%
@@ -481,8 +582,8 @@
       \strng{authorbibnamehash}{6c8e96d050aa2448696b585b670fd31e}
       \strng{authornamehash}{6c8e96d050aa2448696b585b670fd31e}
       \strng{authorfullhash}{6c8e96d050aa2448696b585b670fd31e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Doraźna nośność s{ł}upów o przekroju ko{ł}owym z rur FRP wype{ł}nionych betonem Badania, teoria, obliczanie.}}
@@ -512,8 +613,8 @@
       \strng{authorbibnamehash}{6602c4a019008fb55c9236662119534d}
       \strng{authornamehash}{6602c4a019008fb55c9236662119534d}
       \strng{authorfullhash}{6602c4a019008fb55c9236662119534d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{0128044330}
@@ -542,8 +643,8 @@
       \strng{authorbibnamehash}{d6bf0638ae14deb63fa52e5bb71ed8e1}
       \strng{authornamehash}{d6bf0638ae14deb63fa52e5bb71ed8e1}
       \strng{authorfullhash}{d6bf0638ae14deb63fa52e5bb71ed8e1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Podstawy projektowania budowli mostowych}}
@@ -569,8 +670,8 @@
       \strng{authorbibnamehash}{ffb08fc7afdb8210eb72a2cbd76589da}
       \strng{authornamehash}{ffb08fc7afdb8210eb72a2cbd76589da}
       \strng{authorfullhash}{ffb08fc7afdb8210eb72a2cbd76589da}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Podstawy mostownictwa metalowego}}
@@ -741,8 +842,9 @@
       \strng{authorbibnamehash}{66e95dcc8ecf6811c45df27e1b4acc33}
       \strng{authornamehash}{66e95dcc8ecf6811c45df27e1b4acc33}
       \strng{authorfullhash}{66e95dcc8ecf6811c45df27e1b4acc33}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The network arch is an economical bridge type that can look good and needs 35 to 50 {\%} less steel. Economical methods of erection using light steel skeletons can be found. The network arch is defined by having hangers that cross each other at least twice [1]. The arches are made of steel. When the distance between the arches is less than 20m, the author thinks that the tie should normally be made of concrete.}
@@ -781,8 +883,8 @@
       \strng{authorbibnamehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
       \strng{authornamehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
       \strng{authorfullhash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
@@ -823,8 +925,8 @@
       \strng{authorbibnamehash}{21229bd9f1b6116bfc3f6b26f284055f}
       \strng{authornamehash}{21229bd9f1b6116bfc3f6b26f284055f}
       \strng{authorfullhash}{8409aed81b04573ac7daf94c0ed2d895}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Stahlbau}
@@ -847,8 +949,8 @@
       \strng{authorbibnamehash}{93fc4e0addf9ea20f7a7d914c7d16618}
       \strng{authornamehash}{93fc4e0addf9ea20f7a7d914c7d16618}
       \strng{authorfullhash}{93fc4e0addf9ea20f7a7d914c7d16618}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Leitfaden zum Anhang NA . F Bemessung von Hängern an Stabbogenbrücken DIN EN 1993-2 / NA : 2014-10}}
@@ -885,8 +987,8 @@
       \strng{authorbibnamehash}{9dc26066f4682fffc899f08edd7ec661}
       \strng{authornamehash}{9dc26066f4682fffc899f08edd7ec661}
       \strng{authorfullhash}{9dc26066f4682fffc899f08edd7ec661}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Shell Structures: Theory and Applications Volume 4: Proceedings of the 11th International Conference" Shell Structures: Theory and Applications,(SSTA 2017), October 11-13, 2017, Gdansk, Poland}
@@ -950,6 +1052,29 @@
       \field{title}{{Metoda elementów skończonych w mechanice konstrukcji.}}
       \field{year}{2016}
       \keyw{Metoda elementów skończonych -- informatyka,Teoria konstrukcji -- informatyka}
+    \endentry
+    \entry{SOFISTIK2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fefce3f2a4d5d921f5a372595f9bd91a}{%
+           family={SOFiSTiK},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SOFiSTiK AG, Oberschleissheim, Germany.}%
+      }
+      \strng{namehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{fullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{bibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authorbibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authornamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authorfullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{CDB Interfaces SOFiSTiK Interface for VBA, Visual Basic .NET, C{\#}, C++, Python, Fortran and CADiNP; CDB Interfaces Manual, Version 2018-15.1 Software Version SOFiSTiK 2018}}
+      \field{year}{2018}
     \endentry
     \entry{Kleiber1985}{book}{}
       \name{author}{1}{}{%
@@ -1251,6 +1376,47 @@
       \verb http://files/641/shell-model-of-multiple-row-moment-i-section-end-plate-joint,142360-1.html
       \endverb
     \endentry
+    \entry{Zotowski2018d}{article}{}
+      \name{author}{3}{}{%
+        {{hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d6fe4dcabe09fccf9e21b2df2fac4870}{%
+           family={Kalitowski},
+           familyi={K\bibinitperiod},
+           given={Przemyslaw},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9f23303d6015be118df99198c1ecbf95}{%
+           family={Żó$\backslash$ltowski},
+           familyi={Ż\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \strng{fullhash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \strng{bibnamehash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \strng{authorbibnamehash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \strng{authornamehash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \strng{authorfullhash}{76fc80be261a16bd63b4a7548d1d23c9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materialy Budowlane}
+      \field{number}{3}
+      \field{title}{{Estakada E2-kluczowy obiekt Obwodnicy Wa{ł}cza}}
+      \field{year}{2018}
+      \field{pages}{14\bibrangedash 16}
+      \range{pages}{3}
+      \verb{urlraw}
+      \verb http://files/638/estakada-e2-kluczowy-obiekt-obwodnicy-walcza,145497-1.html
+      \endverb
+      \verb{url}
+      \verb http://files/638/estakada-e2-kluczowy-obiekt-obwodnicy-walcza,145497-1.html
+      \endverb
+    \endentry
     \entry{Zotowski2018c}{article}{}
       \name{author}{3}{}{%
         {{hash=49b3c1ec3f30c16d82de7324d243cf83}{%
@@ -1355,8 +1521,8 @@
       \strng{authorbibnamehash}{f0586ce903476588535b24314db4a8d2}
       \strng{authornamehash}{f0586ce903476588535b24314db4a8d2}
       \strng{authorfullhash}{f0586ce903476588535b24314db4a8d2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{Cited By :1421 Export Date: 13 April 2021}
@@ -1407,8 +1573,8 @@
       \strng{authorbibnamehash}{7061f59066272e8da265b430caf6cfda}
       \strng{authornamehash}{7061f59066272e8da265b430caf6cfda}
       \strng{authorfullhash}{7061f59066272e8da265b430caf6cfda}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The sensitivity method is probably the most successful of the many approaches to the problem of updating finite element models of engineering structures based on vibration test data. It has been applied successfully to large-scale industrial problems and proprietary codes are available based on the techniques explained in simple terms in this article. A basic introduction to the most important procedures of computational model updating is provided, including tutorial examples to reinforce the reader's understanding and a large scale model updating example of a helicopter airframe. {©} 2010 Elsevier Ltd. All rights reserved.}
@@ -1462,8 +1628,8 @@
       \strng{authorbibnamehash}{1fc8d7345633303cc11cd155f87ecb9e}
       \strng{authornamehash}{1fc8d7345633303cc11cd155f87ecb9e}
       \strng{authorfullhash}{1fc8d7345633303cc11cd155f87ecb9e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Comprehensively covers the basic principles and practice of Operational Modal Analysis (OMA). Covers all important aspects that are needed to understand why OMA is a practical tool for modal testing Covers advanced topics, including closely spaced modes, mode shape scaling, mode shape expansion and estimation of stress and strain in operational responses Discusses practical applications of Operational Modal Analysis Includes examples supported by MATLAB{®} applications Accompanied by a website hosting a MATLAB{®} toolbox for Operational Modal Analysis}
@@ -1481,6 +1647,41 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Brincker, Ventura - 2015 - Introduction to Operational Modal Analysis.pdf:pdf
       \endverb
       \keyw{Modal analysis,SCIENCE / Mechanics / General,Structural analysis (Engineering)}
+    \endentry
+    \entry{Szafranski2013a}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=cd67a8b12a8d088eddf172525fa7e462}{%
+           family={Szafrański},
+           familyi={S\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod}}}%
+        {{hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Warszawa-Jachranka}%
+      }
+      \strng{namehash}{8608be298a09f8422b12711e9ab93a75}
+      \strng{fullhash}{8608be298a09f8422b12711e9ab93a75}
+      \strng{bibnamehash}{8608be298a09f8422b12711e9ab93a75}
+      \strng{authorbibnamehash}{8608be298a09f8422b12711e9ab93a75}
+      \strng{authornamehash}{8608be298a09f8422b12711e9ab93a75}
+      \strng{authorfullhash}{8608be298a09f8422b12711e9ab93a75}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Seminarium: MOSTY KOLEJOWE}
+      \field{title}{{Modelowanie konstrukcji mostów pod k a̧ tem dynamicznym}}
+      \field{year}{2013}
+      \field{pages}{19}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Szafra{\'{n}}ski, {\.{Z}}{\'{o}}{\l}towski - 2013 - Modelowanie konstrukcji most{\'{o}}w pod k {\c{a}} tem dynamicznym.pdf:pdf
+      \endverb
     \endentry
     \entry{Batou2019}{article}{}
       \name{author}{1}{}{%
@@ -1994,8 +2195,8 @@
       \strng{authorbibnamehash}{314fa71009653a759e05e49e9418f20b}
       \strng{authornamehash}{314fa71009653a759e05e49e9418f20b}
       \strng{authorfullhash}{d7520f8a553af983e1ab7cd0a741d376}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In order to obtain a precise dynamic structural FE model for dynamic analysis, FE model updating is usually used to correct uncertainty parameters for an initial FE model using incomplete measured data. Despite numerous studies concerning FE model updating, the computational cost is still a challenging issue for the repeated eigenvalue structures. Firstly, an improved modal assurance criterion is proposed to evaluate the similarity of mode shapes for the repeated eigenvalue structures in this paper. And then, a novel ROM-based FE model updating framework consisting of an off-line phase and an on-line phase is proposed. In the off-line phase, a reduced-order basis is constructed by extracting primary components of a snapshot matrix using a proper orthogonal decomposition technique. The snapshot matrix represents a collection of static displacement vectors of the FE model under radial nodal loads, which are determined by incomplete measured mode shapes. In the on-line phase, FE model updating is performed via a reduced-order model with much cheaper computational cost. Finally, a numerical example and an experimental example demonstrate the accuracy and efﬁciency of the proposed framework. The results indicate that the proposed ROM-based FE model updating framework is more efﬁcient and stable than the FOM-based FE model updating framework.}
@@ -2045,8 +2246,8 @@
       \strng{authornamehash}{39725e8f79f25ac31d8da945846f6c88}
       \strng{authorfullhash}{065c787d130f816765aa6b596bfcd1e3}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Development of methodology for accurate and reliable condition assessment of civil structures has become increasingly important. In particular, the finite element (FE) model updating method has been successfully used for condition assessment of bridges. However, the success of applications of the method depends on the analytical conceptualization of complex bridge structures, a well-designed and controlled modal test and an integration of analytical and experimental arts. This paper describes the sensitivity-analysis-based FE model updating method and its application to structure condition assessment with particular reference to bridges, including specific considerations for FE modeling for updating and the model updating procedure for successful condition assessment. Finally, the accuracy analysis of damage assessment by model updating was investigated through a case study. {©} 2001 Elsevier Science B.V. All rights reserved.}
@@ -2088,8 +2289,8 @@
       \strng{authorbibnamehash}{cd69d50f2f8ac8409aaa6fe97e49a7af}
       \strng{authornamehash}{cd69d50f2f8ac8409aaa6fe97e49a7af}
       \strng{authorfullhash}{cd69d50f2f8ac8409aaa6fe97e49a7af}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Practical simulation technology is of great importance in the design and research of the maglev system. This paper presents a practical vehicle/guideway model based on an in situ vibration test and model updating method. In this model, the guideway is established by the Finite Element method and then updated by the measurement, and the vehicle is simulated as a 10-degree-of-freedom model, which consists of a car-body and eight magnets. The vehicle interacts with the guideway by the magnetic interactive forces, which are tuned by the current feedback controller. The vehicle/guideway interaction problem is solved by the proposed incremental iteration procedure. Two case studies including the Shanghai High-speed Maglev Commercial Operational Line and the High-speed Maglev Test Line at Tongji University were presented for the validation of the proposed model. Finally, the effects of random surface irregularity and distributed magnetic forces were investigated here, and the frequency response of the guideway was analyzed in detail. The results indicate that the proposed model can provide a practical response prediction and analysis because the dynamic characteristics of the guideway and the excitation frequency of the maglev train are reasonably considered in this model.}
@@ -2131,8 +2332,8 @@
       \strng{authorbibnamehash}{005e3a3c55fdad9b51fd2c0737ee4530}
       \strng{authornamehash}{005e3a3c55fdad9b51fd2c0737ee4530}
       \strng{authorfullhash}{005e3a3c55fdad9b51fd2c0737ee4530}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Bridges are indispensable components of the infrastructure of modern society, and their assessment via techniques of structural dynamics is assuming greater importance. This assessment concerns performance of the as-built structure compared to the design and can also extend to the assessment of structural deterioration or damage. Simple validation of numerical results by dynamic testing has met some success; however, feedback from testing into analysis is usually crude, and only recently have systematic techniques been developed that can be supplied to such structures. This paper investigates the application of sensitivity-based model updating technology to the dynamic assessment of the Safti Link Bridge, a curved cable-stayed bridge in Singapore. Based on the measured modal data from prototype testing, the simulated dynamic properties obtained via ﬁniteelement analysis have been signiﬁcantly improved by modiﬁcation of uncertain structural parameters such as Young's modulus of concrete and structural geometry.}
@@ -2191,8 +2392,8 @@
       \strng{authornamehash}{7f9d84f1219be2cfc368b653022ee3f4}
       \strng{authorfullhash}{e053079712786d0efb26120624819c7f}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Land Transport Authority of Singapore has a continuing program of highway bridge upgrading for refurbishing and strengthening bridges to allow for increasing vehicle trafﬁc and increasing axle loads. One subject of this program has been a short-span bridge taking a busy main road across a coastal inlet near a major port facility. Experiment-based structural assessments of the bridge were conducted before and after upgrading works including strengthening. Each assessment exercise comprised three separate components: ͑1͒ a strain and acceleration monitoring exercise lasting approximately one month; ͑2͒ a full-scale dynamic test carried out in a single day without closing the bridge; and ͑3͒ a ﬁnite-element model updating exercise to identify structural parameters and mechanisms. This paper presents the dynamic testing and the modal analysis used to identify the vibration properties and the quantiﬁcation of the effectiveness of the upgrading through the subsequent model updating. Before and after upgrade, similar sets of vibration modes were identiﬁed, resembling those of an orthotropic plate with relatively weak transverse bending stiffness. Conversion of bearings from nominal simple supports to nominal full ﬁxity was shown via model updating to be the principal cause of natural frequency increases of up to 50{\%}. The utility of the combined experimental and analytical process in direct identiﬁcation of structural properties has been proven, and the procedure can be applied to other structures and their capacity assessments.}
@@ -2238,8 +2439,8 @@
       \strng{authorbibnamehash}{52c36ba175a0fcda1c1151b115144d70}
       \strng{authornamehash}{52c36ba175a0fcda1c1151b115144d70}
       \strng{authorfullhash}{52c36ba175a0fcda1c1151b115144d70}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The paper presents a concept and realization of monitoring system for the Silesian Stadium in Chorzow. The idea of the system lies in fusion of structure monitoring with a calibrated numerical FEM model [1]. The inverse problem is solved. On the base of measured selected displacements, the numerical FEM model of the structure combined with iterative method, develops the current snow load distribution. Knowing the load, we can calculate the forces and stresses in each element of the structure and thanks to this we can determine the safety thresholds and asses the owner. Test results and conclusions are presented.}
@@ -2276,8 +2477,8 @@
       \strng{authorbibnamehash}{264560d37f9dc4fd2032ba610492b3e3}
       \strng{authornamehash}{264560d37f9dc4fd2032ba610492b3e3}
       \strng{authorfullhash}{264560d37f9dc4fd2032ba610492b3e3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Dynamics of Railway Bridges}}
@@ -2304,8 +2505,8 @@
       \strng{authornamehash}{cd67a8b12a8d088eddf172525fa7e462}
       \strng{authorfullhash}{cd67a8b12a8d088eddf172525fa7e462}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{From Duplicate 2 (Oddzia{ł}ywania taboru na mosty kolejowe przy zmiennych parametrach ruchu - Szafrański, Marek Ryszard; Żó{ł}towski, Krzysztof; Bień, Jan; Wilde, Krzysztof) Accession Number: bg.000097703; Corporate Authors: Politechnika Gdańska. Wydzia{ł} Inżynierii La̧dowej i Środowiska.; Other Notes: Niepublikowana praca doktorska.; Promotor: Krzysztof Żó{ł}towski.; Recenzent: Jan Bień, Krzysztof Wilde.; Praca doktorska. Politechnika Gdańska. Wydzia{ł} Inżynierii La̧dowej i Środowiska, 2014.; Bibliogr. s. I-XI.; Dostȩpne również w wersji elektronicznej.; Streszcz. ang.; Publication Type: Book; Physical Description: [196] s. pag. varia, [3] k. tabl. z{ł}oż. : il. ; 30 cm.; Language: Polish}
@@ -2335,8 +2536,8 @@
       \strng{authornamehash}{ee5a7fbffef01e248f0c0fe96bebd62d}
       \strng{authorfullhash}{ee5a7fbffef01e248f0c0fe96bebd62d}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Resonance vibrations have been observed on railway bridges subjected to high speed trains. An elementary theoretical model of a bridge was investigated using the integral transformation method which provides an estimation of the amplitudes of the free vibration In addition, the analysis gives the critical speeds at which the resonance vibration may occur. They are caused by two reasons: repeated action of axle loads and high speed itself. While the ﬁrst cause of critical speeds has been reached on today's high speed lines the second one not yet. The maximum amplitudes of resonance vibration appear at the moment when the last axle leaves the bridge and, therefore, their values were calculated for the deﬂection, bending moment and acceleration of the bridge deck. Simple expressions similar to dynamic impact factor were given to these values which enable to assess the railway bridges for high speed trains. Comparison of the theory with the experiments is satisfactory. {©} 2001 Elsevier Science Ltd. All rights reserved.}
@@ -2532,8 +2733,8 @@
       \strng{authorbibnamehash}{ebb9c7d8d73af0dd0c95daf1fbdcb16d}
       \strng{authornamehash}{ebb9c7d8d73af0dd0c95daf1fbdcb16d}
       \strng{authorfullhash}{e99613fb66e1787e0729e416062b9364}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Wheel flats have become a major problem affecting the long-term service of railway systems. Wheels with flats create intermittent impact loads to trains and rails. This not only accelerates the deterioration of vehicle and track components but also leads to abnormal wheel-rail contact conditions. An effective method for detecting wheel conditions is urgently needed to ensure the operation of the railway and provide guidance for the repair of wheels. However, most previous researches have used qualitative detection methods, and hence have been unable to achieve accurate positioning of the wheel flats. In addition, the theoretical basis for the layout scheme for wheel flat detection sensors is lacking, making it impossible to meet the needs of field applications. In this study, we simulated the spatial distribution characteristics of rail strain, under different wheel flat conditions, and based on this, a layout scheme of multisensor arrays was proposed which more effectively captured the responses of the wheel flats. A wheel flat recognition and precise positioning method based on multisensor fusion was designed. The algorithm was validated through the combination of experimental and simulation methods. The result shows that the algorithm can ideally detect and locate the wheel flats under complex conditions.}
@@ -2572,8 +2773,8 @@
       \strng{authornamehash}{401a4d46c3044b62c46cc63e60cf0002}
       \strng{authorfullhash}{401a4d46c3044b62c46cc63e60cf0002}
       \field{extraname}{3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Resonance vibrations have been observed on railway bridges subjected to high speed trains. An elementary theoretical model of a bridge was investigated using the integral transformation method which provides an estimation of the amplitudes of the free vibration In addition, the analysis gives the critical speeds at which the resonance vibration may occur. They are caused by two reasons: repeated action of axle loads and high speed itself. While the first cause of critical speeds has been reached on today's high speed lines the second one not yet. The maximum amplitudes of resonance vibration appear at the moment when the last axle leaves the bridge and, therefore, their values were calculated for the deflection, bending moment and acceleration of the bridge deck. Simple expressions similar to dynamic impact factor were given to these values which enable to assess the railway bridges for high speed trains. Comparison of the theory with the experiments is satisfactory. ?? 2001 Elsevier Science Ltd.}
@@ -2613,8 +2814,8 @@
       \strng{authorbibnamehash}{0051c3f779dec4a5912797da0b39a2ee}
       \strng{authornamehash}{0051c3f779dec4a5912797da0b39a2ee}
       \strng{authorfullhash}{0051c3f779dec4a5912797da0b39a2ee}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1232-3829}
@@ -2784,8 +2985,8 @@
       \strng{editorbibnamehash}{bc4efcd1df9f4d8dd7f0f35d86fc05a8}
       \strng{editornamehash}{bc4efcd1df9f4d8dd7f0f35d86fc05a8}
       \strng{editorfullhash}{6f856296454181825d4d82f4076372a1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Dynamics of High-Speed Railway Bridges}
@@ -2814,8 +3015,8 @@
       \strng{authorbibnamehash}{4e3ebd69501abfef9804589dcb338211}
       \strng{authornamehash}{4e3ebd69501abfef9804589dcb338211}
       \strng{authorfullhash}{4e3ebd69501abfef9804589dcb338211}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The dynamic effects of high-speed trains on viaducts are important issues for the design of the structures, as well as for the consideration of safe running conditions for the trains. In this work we start by reviewing the relevance of some basic design aspects. The significance of impact factor envelopes for moving loads is considered first. Resonance which may be achieved for high-speed trains requires dynamic analysis, for which some key aspects are discussed. The relevance of performing a longitudinal distribution of axle loads, the number of modes taken in analysis, and the consideration of vehicle-structure interaction are discussed with representative examples. The lateral dynamic effects of running trains on bridges is of importance for laterally compliant viaducts, such as some very tall structures erected in new high-speed lines. The relevance of this study is mainly for the safety of the traffic, considering both internal actions such as the hunting motion as well as external actions such as wind or earthquakes [1]. These studies require three-dimensional dynamic coupled vehicle-bridge models, and consideration of wheel to rail contact, a phenomenon which is complex and costly to model in detail. We describe here a fully nonlinear coupled model, described in absolute coordinates and incorporated into a commercial finite element framework [2]. The wheel-rail contact has been considered using a FastSim algorithm which provides a compromise between accuracy and computational cost, and captures the main nonlinear response of the contact interface. Two applications are presented, firstly to a vehicle subject to a strong wind gust traversing a bridge, showing the relevance of the nonlinear wheel-rail contact model as well as the dynamic interaction between bridge and vehicle. The second application is to a real HS viaduct with a long continuous deck and tall piers and high lateral compliance [3]. The results show the safety of the traffic as well as the importance of considering features such as track alignment irregularities.}
@@ -2850,8 +3051,8 @@
       \strng{authorbibnamehash}{4241defc8cb51fdb3628c6398cda0c64}
       \strng{authornamehash}{4241defc8cb51fdb3628c6398cda0c64}
       \strng{authorfullhash}{4241defc8cb51fdb3628c6398cda0c64}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Dynamic Behaviour of High Speed Railway Bridges. Vehicles Lateral Dynamic Behaviour}}
@@ -2894,8 +3095,8 @@
       \strng{authornamehash}{87836bc8eaecec93840d10c7b47a7f3e}
       \strng{authorfullhash}{dd106255055f19791d4476834fe292c8}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Bridges for High-Speed Railways}
@@ -2919,8 +3120,8 @@
       \strng{authorbibnamehash}{ae71cededf59a38960b60094b6a7b50d}
       \strng{authornamehash}{ae71cededf59a38960b60094b6a7b50d}
       \strng{authorfullhash}{ae71cededf59a38960b60094b6a7b50d}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Operacyjna analiza modalna w badaniach kratowych mostów kolejowych pod próbnym obciażeniem dynamicznym}}
@@ -2945,8 +3146,8 @@
       \strng{authornamehash}{2c9b19d47902deb7b6f342d2dc3cf211}
       \strng{authorfullhash}{2c9b19d47902deb7b6f342d2dc3cf211}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0012-6357}
@@ -3144,8 +3345,8 @@
       \strng{authorbibnamehash}{c0a7bb5f881fe84b2dcb5fff72090882}
       \strng{authornamehash}{c0a7bb5f881fe84b2dcb5fff72090882}
       \strng{authorfullhash}{c0a7bb5f881fe84b2dcb5fff72090882}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Appendix to the Report of the Commissioners appointed to inquire into the Application of Iron to Railway Structures}
@@ -3169,8 +3370,8 @@
       \strng{authorbibnamehash}{2a3d9dd299fd5c522a9471a025a65e32}
       \strng{authornamehash}{2a3d9dd299fd5c522a9471a025a65e32}
       \strng{authorfullhash}{2a3d9dd299fd5c522a9471a025a65e32}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Transactions of the Cambridge Philosophical Society}
@@ -3204,8 +3405,8 @@
       \strng{authorbibnamehash}{7b153381469e097b399962eb83a67b7b}
       \strng{authornamehash}{7b153381469e097b399962eb83a67b7b}
       \strng{authorfullhash}{7b153381469e097b399962eb83a67b7b}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Einfluss bewegter Last auf Eisenbahnoberbau und Brücken}}
@@ -3228,8 +3429,8 @@
       \strng{authorbibnamehash}{f176b3819ffa4addacf4c5935859c839}
       \strng{authornamehash}{f176b3819ffa4addacf4c5935859c839}
       \strng{authorfullhash}{f176b3819ffa4addacf4c5935859c839}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{doi: 10.1080/14786442208633953}
@@ -3263,8 +3464,8 @@
       \strng{authorbibnamehash}{ea4ac73273010de5c3058026b8b387ce}
       \strng{authornamehash}{ea4ac73273010de5c3058026b8b387ce}
       \strng{authorfullhash}{ea4ac73273010de5c3058026b8b387ce}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{1107536529}
@@ -3311,8 +3512,8 @@
       \strng{editorbibnamehash}{24134ff8a83e322f073b79bc73cb6055}
       \strng{editornamehash}{24134ff8a83e322f073b79bc73cb6055}
       \strng{editorfullhash}{24134ff8a83e322f073b79bc73cb6055}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{Three fold. leaves in pocket. Also published in Czech, Praha [Prague]: Publishing House of the Czechoslovak Academy of Sciences, 1973. Includes index. Bibliography: p. 573-576.}
@@ -3343,8 +3544,8 @@
       \strng{authorbibnamehash}{cc1b439ba70480fbdf7c96a52a831e5f}
       \strng{authornamehash}{cc1b439ba70480fbdf7c96a52a831e5f}
       \strng{authorfullhash}{cc1b439ba70480fbdf7c96a52a831e5f}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The article concerns the discussion of a pneumatic tail lift entirely powered by pneumatic devices powered with compressed air from the brake system of truck. The authors try to set up the drive parameters and the size of the engines. For this purpose, a computer simulation of the platform's motion was made on the basis of which the torques of pneumatic engines were determined and the times of falling and lifting.}
@@ -3382,8 +3583,8 @@
       \strng{authorbibnamehash}{0c1d9477b74aa9f86d1250f153753120}
       \strng{authornamehash}{0c1d9477b74aa9f86d1250f153753120}
       \strng{authorfullhash}{0c1d9477b74aa9f86d1250f153753120}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{European Rail Research institute}
@@ -3434,8 +3635,8 @@
       \strng{editorbibnamehash}{fe6c10c20668406d7bf06c2520190c8e}
       \strng{editornamehash}{fe6c10c20668406d7bf06c2520190c8e}
       \strng{editorfullhash}{fe6c10c20668406d7bf06c2520190c8e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The finite element method is a rich and versatile approach to construct computational schemes to solve any partial differential equation on any domain in any dimension. The method may at first glance appear cumbersome and even unnatural as it relies on variational formulations and polynomial spaces.}
@@ -3483,8 +3684,8 @@
       \strng{authorbibnamehash}{e68a06e6eafcb56463ed13025a86624f}
       \strng{authornamehash}{e68a06e6eafcb56463ed13025a86624f}
       \strng{authorfullhash}{e68a06e6eafcb56463ed13025a86624f}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Structural Analysis with Finite Elements, 2nd Edition provides a solid introduction to the foundation and the application of the finite element method in structural analysis. It offers new theoretical insight and practical advice on why finite element results are 'wrong,' why support reactions are relatively accurate, why stresses at midpoints are more reliable, why averaging the stresses sometimes may not help or why the equilibrium conditions are violated. This second edition contains additional sections on sensitivity analysis, on retrofitting structures, on the Generalized FEM (X-FEM) and on model adaptivity. An additional chapter treats the boundary element method, and related software is available at www.winfem.de.}
@@ -3777,8 +3978,8 @@
       \strng{authorbibnamehash}{aa5f31762e9d849c4e3e7acd9979f987}
       \strng{authornamehash}{aa5f31762e9d849c4e3e7acd9979f987}
       \strng{authorfullhash}{aa5f31762e9d849c4e3e7acd9979f987}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The work presented in this thesis studies the load and load effects of traffic loads on railway bridges. The increased knowledge of the traffic loads, simulated using field measurements of actual trains, are employed in a reliability analysis in an attempt at upgrading existing railway bridges. The study utilises data from a weigh-in-motion site which records, for each train, the train speed, the loads from each axle and the axle spacings. This data of actual train configurations and axle loads are portrayed as moving forces and then used in computer simulations of trains crossing two dimensional simply supported bridges at constant speed. Only single track short to medium span bridges are considered in the thesis. The studied load effect is the moment at mid-span. From the computer simulations the moment history at mid-span is obtained. The load effects are analysed by two methods, the first is the classical extreme value theory where the load effect is modelled by the family of distributions called the generalised extreme value distribution (GEV). The other method adopts the peaks-over-threshold method (POT) where the limiting family of distributions for the heights to peaks-over-threshold is the Generalised Pareto Distribution (GPD). The two models are generally found to be a good representation of the data. The load effects modelled by either the GEV or the GPD are then incorporated into a reliability analysis in order to study the possibility of raising allowable axle loads on existing Swedish railway bridges. The results of the reliability analysis show that they are sensitive to the estimation of the shape parameter of the GEV or the GPD. While the study is limited to the case of the ultimate limit state where the effects of fatigue are not accounted for, the findings show that for the studied cases an increase in allowable axle load to 25 tonnes would be acceptable even for bridges built to the standards of 1940 and designed to Load Model A of that standard. Even an increase to both 27.5 and 30 tonnes appears to be possible for certain cases. It is also observed that the short span bridges of approximately four metres are the most susceptible to a proposed increase in permissible axle load.}
@@ -3838,8 +4039,8 @@
       \strng{authornamehash}{87836bc8eaecec93840d10c7b47a7f3e}
       \strng{authorfullhash}{51debd8965bf7f6eb1e3891994c214c8}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Article CITATIONS 11 READS 304 4 authors, including: Some of the authors of this publication are also working on these related projects: Study of short and long term behavior of the railway structures of ballasted and slab track View project Dynamic assessment of railway bridges; Safety and interoperability of existing, upgraded and new structures View project Abstract. Bridges and viaducts for high speed trains are subject to demanding dynamic loads, as to the classical effect of the moving (single) load the dynamic resonance appears for speeds above 220 km/h. The classical methods for evaluation of dynamic impact factors available in engineering, reflected in the codes of practise existing until recently, do not cover this possibility of resonance. The design of such structures requires dynamic calculations which are the object of this paper. In it we cover a general revision of available methods for calculation, as well as a description of the provisions in the new (draft) codes IAPF [13] and Eurocode 1 for actions on bridges [22]. Additionally, some recent research results obtained by our group are presented for high speed traffic loads on bridges. The object of these studies is diverse: sensitivity to integration time-step in modal analysis, simplified torsion analysis, evaluation of the bridge-vehicle interaction in isostatic bridges and a proposal of a simplified method for dynamic analysis of portal frames. All of these topics originate from issues in the application of the new regulations for high speed lines, and are oriented toward being of practical use to designers of railway bridges.}
@@ -3869,8 +4070,8 @@
       \strng{authornamehash}{2c9b19d47902deb7b6f342d2dc3cf211}
       \strng{authorfullhash}{2c9b19d47902deb7b6f342d2dc3cf211}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Drogownictwo}
@@ -3945,8 +4146,8 @@
       \strng{authorbibnamehash}{bffcb951ea0acddce538e837d56db7f4}
       \strng{authornamehash}{bffcb951ea0acddce538e837d56db7f4}
       \strng{authorfullhash}{bffcb951ea0acddce538e837d56db7f4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Obiekty mostowe. Obcia̧żenia.}}
@@ -5223,6 +5424,7 @@
       \strng{authorbibnamehash}{ac1a884def3e3d1adcda11ad76049147}
       \strng{authornamehash}{ac1a884def3e3d1adcda11ad76049147}
       \strng{authorfullhash}{ac1a884def3e3d1adcda11ad76049147}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -7132,8 +7334,8 @@
       \strng{authorbibnamehash}{e82210292dc91328d84c64ae5b37c6a7}
       \strng{authornamehash}{e82210292dc91328d84c64ae5b37c6a7}
       \strng{authorfullhash}{e82210292dc91328d84c64ae5b37c6a7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{013079211X}
@@ -7160,8 +7362,8 @@
       \strng{authornamehash}{6f42759c6a32bc24e49e422466fd8b64}
       \strng{authorfullhash}{6f42759c6a32bc24e49e422466fd8b64}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The basic concept of the Eigensystem Realization Algorithm for modal parameter identification and model reduction is extended to minimize the distortion of the identified parameters caused by noise. The mathematical foundation for the properties of accuracy indicators, such as the singular values of the data matrix and modal amplitude coherence, is provided, based on knowledge of the noise characteristics. These indicators quantitatively discriminate noise from system information and are used to reduce the realized system model to a better approximation of the true model. Monte Carlo simulations are included to support the analytical studies. {©} 1985 American Institute of Aeronautics and Astronautics, Inc.}
@@ -7204,8 +7406,8 @@
       \strng{authorbibnamehash}{20a1c4d606a9b741d91af6cac73ce35c}
       \strng{authornamehash}{20a1c4d606a9b741d91af6cac73ce35c}
       \strng{authorfullhash}{20a1c4d606a9b741d91af6cac73ce35c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The eigensystem realization algorithm (ERA) is one of the most popular methods in civil engineering applications for estimating the modal parameters, including complex-valued modal frequencies and modal vectors, of dynamic systems. In dealing with noisy measurement data, the ERA partitions the realized model into principal (signal) and perturbational (noise) portions so that the noise portion can be disregarded. During the separation of signal and noise, a critical issue is the determination for the dimensions of the block Hankel matrix which is built from noisy measurement data. We show that the signal and noise matrices can be better separated when the number of blockrows and number of block-columns of the corresponding block Hankel matrix are chosen to be close to each other. We introduce the concept of using the Frobenius norm (L 2-norm) of the signal and noise matrices to quantify the signal to noise ratio in the global sense (involving multiple signals). We also propose a verification procedure to justify that the estimated modal parameters are noise insensitive and thus indeed associated with the true system. The procedure involves artificially injecting random noise into the measured signals (which are noisy signals) to create noisy-noisy signals, then comparing the identification results obtained respectively from the measured and noisynoisy signals. Using experimental data collected from a test plate, we demonstrate that if signal and noise portions have been properly separated while using the measured data, then the artificial noise would almost completely accumulate to the noise portion. Therefore, the modal estimation based on the signal portion only would remain the same by using either the measured or the noisy-noisy signals.}
@@ -7241,8 +7443,8 @@
       \strng{authorbibnamehash}{92067a757a974d8a9f3739bbee220f53}
       \strng{authornamehash}{92067a757a974d8a9f3739bbee220f53}
       \strng{authorfullhash}{92067a757a974d8a9f3739bbee220f53}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Identyfikacja parametrów dynamicznych konstrukcji mostowych na bazie drgań wywo{ł}anych obciażeniem środowiskowym : [rozprawa doktorska]}}
@@ -7285,8 +7487,8 @@
       \strng{authorbibnamehash}{2cd627ce26f3ab0be1ca702e87ecac1b}
       \strng{authornamehash}{2cd627ce26f3ab0be1ca702e87ecac1b}
       \strng{authorfullhash}{ac6c919c0000836ae7269c670989d25d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{8301185910}
@@ -7318,8 +7520,8 @@
       \strng{authorbibnamehash}{af0b304f1c8093ae71a4726f3cb2de3e}
       \strng{authornamehash}{af0b304f1c8093ae71a4726f3cb2de3e}
       \strng{authorfullhash}{af0b304f1c8093ae71a4726f3cb2de3e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We give a survey of the results in connection with the minimal state-space realization problem for linear time-invariant systems. We start with a brief historical overview and a short introduction to linear system theory. Next we present some of the basic algorithms for the reduction of nonminimal state-space realizations and for the minimal state-space realization of inÿnite or ÿnite sequences of Markov parameters of linear time-invariant systems. Finally, we discuss some extensions of this problem to other classes of systems and point out some related problems. c 2000 Elsevier Science B.V. All rights reserved.}
@@ -8828,40 +9030,37 @@
       \endverb
     \endentry
     \entry{Huang2005}{article}{}
-      \name{author}{2}{}{%
-        {{hash=6936c700060d8f13c6d016c5bcd567e3}{%
+      \name{author}{1}{}{%
+        {{hash=630165e9c9a416f76964a6b7321a04c5}{%
            family={Huang},
            familyi={H\bibinitperiod},
-           given={Tony},
-           giveni={T\bibinitperiod}}}%
-        {{hash=d8590c8fe9768fb091ab4595d7fddd38}{%
-           family={Mohan},
-           familyi={M\bibinitperiod},
-           given={Ananda\bibnamedelima Sanagavarapu},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+           given={Dongzhou},
+           giveni={D\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{4a259c0d64aa1443e41bbedccb49f442}
-      \strng{fullhash}{4a259c0d64aa1443e41bbedccb49f442}
-      \strng{bibnamehash}{4a259c0d64aa1443e41bbedccb49f442}
-      \strng{authorbibnamehash}{4a259c0d64aa1443e41bbedccb49f442}
-      \strng{authornamehash}{4a259c0d64aa1443e41bbedccb49f442}
-      \strng{authorfullhash}{4a259c0d64aa1443e41bbedccb49f442}
+      \strng{namehash}{630165e9c9a416f76964a6b7321a04c5}
+      \strng{fullhash}{630165e9c9a416f76964a6b7321a04c5}
+      \strng{bibnamehash}{630165e9c9a416f76964a6b7321a04c5}
+      \strng{authorbibnamehash}{630165e9c9a416f76964a6b7321a04c5}
+      \strng{authornamehash}{630165e9c9a416f76964a6b7321a04c5}
+      \strng{authorfullhash}{630165e9c9a416f76964a6b7321a04c5}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1536-1225}
-      \field{journaltitle}{IEEE antennas and wireless propagation letters}
-      \field{title}{{A hybrid boundary condition for robust particle swarm optimization}}
-      \field{volume}{4}
+      \field{issn}{1084-0702}
+      \field{journaltitle}{Journal of Bridge Engineering}
+      \field{number}{2}
+      \field{title}{{Dynamic and Impact Behavior of Half-Through Arch Bridges}}
+      \field{volume}{10}
       \field{year}{2005}
-      \field{pages}{112\bibrangedash 117}
-      \range{pages}{6}
+      \field{pages}{133\bibrangedash 141}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1061/(asce)1084-0702(2005)10:2(133)
+      \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop//Huang, Mohan - 2005 - A hybrid boundary condition for robust particle swarm optimization.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Huang - 2005 - Dynamic and Impact Behavior of Half-Through Arch Bridges.pdf:pdf
       \endverb
     \endentry
     \entry{Zielinski2007}{article}{}
@@ -10012,8 +10211,8 @@
       \strng{authorbibnamehash}{f0ccf4a09a3a6a91719405724e3ae5da}
       \strng{authornamehash}{f0ccf4a09a3a6a91719405724e3ae5da}
       \strng{authorfullhash}{f0ccf4a09a3a6a91719405724e3ae5da}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Adaptive computation and machine learning CN - QA274.4 .R37 2006}
@@ -10052,8 +10251,8 @@
       \strng{authorbibnamehash}{c386cff470072acbbf0b41a2e03d9690}
       \strng{authornamehash}{c386cff470072acbbf0b41a2e03d9690}
       \strng{authorfullhash}{c386cff470072acbbf0b41a2e03d9690}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The GPML toolbox provides a wide range of functionality for Gaussian process (GP) inference and prediction. GPs are speciﬁed by mean and covariance functions; we offer a library of simple mean and covariance functions and mechanisms to compose more complex ones. Several likelihood functions are supported including Gaussian and heavy-tailed for regression as well as others suitable for classiﬁcation. Finally, a range of inference methods is provided, including exact and variational inference, Expectation Propagation, and Laplace's method dealing with non-Gaussian likelihoods and FITC for dealing with large regression tasks.}
@@ -10125,8 +10324,8 @@
       \strng{authorbibnamehash}{da39fa30f36ca627d6e7f5af933c8d04}
       \strng{authornamehash}{da39fa30f36ca627d6e7f5af933c8d04}
       \strng{authorfullhash}{07298b406bcb547208b5e4dcb50f48df}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In many ﬁelds one encounters the challenge of identifying, out of a pool of possible designs, those that simultaneously optimize multiple objectives. This means that usually there is not one optimal design but an entire set of Pareto-optimal ones with optimal tradeoﬀs in the objectives. In many applications, evaluating one design is expensive; thus, an exhaustive search for the Pareto-optimal set is unfeasible. To address this challenge, we propose the Pareto Active Learning (PAL) algorithm which intelligently samples the design space to predict the Pareto-optimal set. Key features of PAL include (1) modeling the objectives as samples from a Gaussian process distribution to capture structure and accomodate noisy evaluation; (2) a method to carefully choose the next design to evaluate to maximize progress; and (3) the ability to control prediction accuracy and sampling cost. We provide theoretical bounds on PAL's sampling cost required to achieve a desired accuracy. Further, we show an experimental evaluation on three real-world data sets. The results show PAL's eﬀectiveness; in particular it improves signiﬁcantly over a state-of-the-art multi-objective optimization method, saving in many cases about 33$\backslash${\%} evaluations to achieve the same accuracy.}
@@ -10173,8 +10372,8 @@
       \strng{authorbibnamehash}{962629c16406bbaeb12e24cf42b74d54}
       \strng{authornamehash}{962629c16406bbaeb12e24cf42b74d54}
       \strng{authorfullhash}{962629c16406bbaeb12e24cf42b74d54}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2162-237X}
@@ -10219,8 +10418,8 @@
       \strng{authorbibnamehash}{18abeb9357789691681961fe1b9854b0}
       \strng{authornamehash}{18abeb9357789691681961fe1b9854b0}
       \strng{authorfullhash}{18abeb9357789691681961fe1b9854b0}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A multi-objective particle swarm algorithm based on the active learning (MOPSAL) approach is proposed that combines a Multi-Objective particle swarm optimization (MOPSO) with an Pareto Active Learning (PAL) approach. In MOPSAL, the candidate solution set is produced by a sampling method based on mutation operator and preselected by the PAL approach. Then, the best Pareto solution from the candidate solution set is used to guide the search of MOPSO. To validate the performance of MOPSAL, the proposed algorithm compares with the standard multi-objective particle swarm algorithm (MOPSO) and the improved non-dominated sorting genetic algorithm (NSGA-II) for five widely used benchmark problems. The results show the effectiveness of the proposed MOPSAL algorithm.}
@@ -10277,8 +10476,8 @@
       \strng{authorbibnamehash}{3ab98228d96200cb76936751e6c420d2}
       \strng{authornamehash}{3ab98228d96200cb76936751e6c420d2}
       \strng{authorfullhash}{aa0f907549160ea3cdf9b48ff371dbe7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{For multi-objective optimization problems, particle swarm optimization (PSO) algorithm generally needs a large number of fitness evaluations to obtain the Pareto optimal solutions. However, it will become substantially time-consuming when handling computationally expensive fitness functions. In order to save the computational cost, a surrogate-assisted PSO with Pareto active learning is proposed. In real physical space (the objective functions are computationally expensive), PSO is used as an optimizer, and its optimization results are used to construct the surrogate models. In virtual space, objective functions are replaced by the cheaper surrogate models, PSO is viewed as a sampler to produce the candidate solutions. To enhance the quality of candidate solutions, a hybrid mutation sampling method based on the simulated evolution is proposed, which combines the advantage of fast convergence of PSO and implements mutation to increase diversity. Furthermore, $\epsilon$-Pareto active learning ($\epsilon$-PAL) method is employed to pre-select candidate solutions to guide PSO in the real physical space. However, little work has considered the method of determining parameter $\epsilon$. Therefore, a greedy search method is presented to determine the value of $\epsilon$ where the number of active sampling is employed as the evaluation criteria of classification cost. Experimental studies involving application on a number of benchmark test problems and parameter determination for multi-input multi-output least squares support vector machines (MLSSVM) are given, in which the results demonstrate promising performance of the proposed algorithm compared with other representative multi-objective particle swarm optimization (MOPSO) algorithms.}
@@ -10592,35 +10791,12 @@
       \strng{authorbibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
       \strng{authornamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
       \strng{authorfullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{ASE General Static Analysis of Finite Element Structures; ASE Manual, Version 2018-8 Software Version SOFiSTiK 2018}}
-      \field{year}{2018}
-    \endentry
-    \entry{SOFISTIK2018}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=fefce3f2a4d5d921f5a372595f9bd91a}{%
-           family={SOFiSTiK},
-           familyi={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {SOFiSTiK AG, Oberschleissheim, Germany.}%
-      }
-      \strng{namehash}{fefce3f2a4d5d921f5a372595f9bd91a}
-      \strng{fullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
-      \strng{bibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
-      \strng{authorbibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
-      \strng{authornamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
-      \strng{authorfullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
       \field{extraname}{2}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{CDB Interfaces SOFiSTiK Interface for VBA, Visual Basic .NET, C{\#}, C++, Python, Fortran and CADiNP; CDB Interfaces Manual, Version 2018-15.1 Software Version SOFiSTiK 2018}}
+      \field{title}{{ASE General Static Analysis of Finite Element Structures; ASE Manual, Version 2018-8 Software Version SOFiSTiK 2018}}
       \field{year}{2018}
     \endentry
     \entry{Tabachnick}{book}{}
@@ -10766,7 +10942,6 @@
     \endentry
   \enddatalist
   \missing{J.M.Goicolea-Ruigomez2008}
-  \missing{Zoto wski2018d}
 \endrefsection
 \endinput
 

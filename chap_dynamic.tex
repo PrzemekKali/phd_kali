@@ -1,12 +1,11 @@
-\chapter{Dynamiczna analiza konstrukcji}
+\chapter{Teoretyczna analiza modalna}
 
-\textit{Streszczenie: W niniejszym rozdziale przytoczono podstawowe modele matematyczne opisujące ruch drgający. W klasycznym ujęciu wywód rozpoczęto od przytoczenia rozwiązań dla jednego stopnia swobody. Przedstawiono rozwiązanie dynamicznego problemu własnego - analizy modalnej. W dalszej części przytoczono metody wyznaczania odpowiedzi dynamicznej modelu o jednym i wielu stopniach swobody obliczanych w sposób analityczny oraz numeryczny. Na końcu rozdziału omówiono metodę uwzględniania tłumienia w obliczeniach.}
+\textit{Streszczenie: W niniejszym rozdziale przytoczono podstawowe modele matematyczne opisujące ruch drgający. W klasycznym ujęciu wywód rozpoczęto od opisu rozwiązań dla jednego stopnia swobody. Przedstawiono rozwiązanie dynamicznego problemu własnego - analizy modalnej. W dalszej części scharakteryzowano metody analityczne i numeryczne wyznaczania odpowiedzi dynamicznej modelu o jednym i wielu stopniach swobody. Na końcu rozdziału omówiono metodę uwzględniania tłumienia w analizie konstrukcji.}
+
 
 \section{Wiadomości wstępne} \label{section: modalAnalysisIntro}
-Podstawowym celem pracy jest określenie zależności pomiędzy przyjętymi rozwiązaniami konstrukcyjnymi mostów kolejowych, a ich zachowaniem dynamicznym. Predykcja odpowiedzi, jak wspomniano wcześniej, możliwa jest dzięki rozwiązaniom numerycznym modeli MES poddanych odpowiednim obciążeniom. Na każdym etapie analiz trzeba zdawać sobie sprawę z niepewności, które mogą wystąpić przy konstruowaniu założeń. \cite{Brincker2015} zestawili różnego rodzaju parametry występujące w modelu i stopień niepewności, który im towarzyszy na etapie modelowania. Niepewności te przytoczono w tabeli \ref{table:uncertainitesModel}. Wyraźnie widać, że przyjęcie niektórych parametrów modelu w sposób bezkrytyczny może prowadzić do zupełnie nieodpowiednich rezultatów. Niektóre, związane np ze sztywnością szeroko rozumianych podpór czy połączeń śrubowych, mogą wypaczyć rezultaty i wprowadzić badacza w błąd na temat stanu i zachowania konstrukcji. Aby zbudować model, który będzie efektywnie odwzorowywał rzeczywiste zachowanie należy dołożyć wszelkich starań aby wyeliminować możliwe niepewności. Model taki może zostać poddany walidacji i kalibracji. Oba te pojęcia zostaną rozwinięte w następnych rozdziałach. Niemniej, aby model dostosować do rzeczywistych warunków należy mieć punkt odniesienia. W przypadku analizy statycznej takim odniesieniem mogą być pomiary statyczne ugięć, np. w trakcie próbnego obciążenia. W przypadku analizy dynamicznej, do porównania będą służyć charakterystyki modalne: częstotliwości i postaci drgań własnych oraz tłumienia. Parametry te można zaczerpnąć z literatury i doświadczenia na etapie projektowania. Na etapie badania rzeczywistej konstrukcji warto sięgnąć po narzędzie zwane identyfikacją modalną. Poniższy rozdział przytoczy podstawowe zagadnienia związane z analizą modalną, obliczeniami odpowiedzi dynamicznej i identyfikacją charakterystyk modalnych układu. Informacje te zostaną w dalszej części pracy zastosowane w obliczeniach numerycznych i optymalizacyjnych.
 
-
-W odpowiedzi na zapotrzebowanie kontroli drgań, w sposób naturalny rozwinęła się dziedzina nauki zajmująca się opisem i modelowaniem zjawisk dynamicznych. Podstawowym narzędziem służącym identyfikacji parametrów modalnych i zachowania dynamicznego jest analiza modalna \teng{modal analysis}. Często Analiza modalna bywa określana jako identyfikacja modalna \teng{modal identification}. \parencite{Zhang2004} w pracy definiuje identyfikacje modalną jako gałąź szerszego pojęcia identyfikacji systemów, a jej celem jest budowa modelu matematycznego systemu dynamicznego poprzez pomiar i analizę zestawu danych wejściowych i wyjściowych. Z kolei \cite{Chmielewski1998} zwięźle precyzuje pojęcie modelu matematycznego dla zagadnień dynamiki budowli jako "równanie lub zbiór równań, które opisują ruch modelu obliczeniowego". \cite{Ewins2000} podaje trzy główne cele przeprowadzania analizy modalnej:
+W odpowiedzi na zapotrzebowanie przewidywania i kontroli drgań konstrukcji, w sposób naturalny rozwinęła się dziedzina nauki zajmująca się opisem i modelowaniem zjawisk dynamicznych. Podstawowym narzędziem służącym identyfikacji parametrów modalnych i zachowania dynamicznego jest analiza modalna \teng{modal analysis}. Pojęcie to niekiedy jest  Często analiza modalna bywa określana jako identyfikacja modalna \teng{modal identification}. W pracy \parencite{Zhang2004} autor definiuje identyfikacje modalną jako gałąź szerszego pojęcia identyfikacji systemów, a jej celem jest budowa modelu matematycznego systemu dynamicznego poprzez pomiar i analizę zestawu danych wejściowych i wyjściowych. Idąc dalej w pracy \cite{Chmielewski1998} autor zwięźle precyzuje pojęcie modelu matematycznego dla zagadnień dynamiki budowli jako "równanie lub zbiór równań, które opisują ruch modelu obliczeniowego". \cite{Ewins2000} podaje trzy główne cele przeprowadzania analizy modalnej:
 \begin{itemize}[noitemsep]
 	\item ocena źródła drgań i ich przebiegu,
 	\item weryfikacja modeli teoretycznych i przewidywanie zjawisk dynamicznych,
@@ -22,6 +21,8 @@ W poniższej pracy, tak jak w zdecydowanej większości innych opracowań, model
 \end{itemize}
 
 
+Podstawowym celem pracy jest określenie zależności pomiędzy przyjętymi rozwiązaniami konstrukcyjnymi łukowych mostów kolejowych, a ich zachowaniem dynamicznym. Predykcja odpowiedzi, jak wspomniano wcześniej, możliwa jest dzięki rozwiązaniom numerycznym modeli MES poddanych odpowiednim obciążeniom. Na każdym etapie analiz trzeba zdawać sobie sprawę z niepewności, które mogą wystąpić przy konstruowaniu założeń. \cite{Brincker2015} zestawili różnego rodzaju parametry występujące w modelu i stopień niepewności, który im towarzyszy na etapie modelowania. Niepewności te przytoczono w tabeli \ref{table:uncertainitesModel}. Wyraźnie widać, że przyjęcie niektórych parametrów modelu w sposób bezkrytyczny może prowadzić do zupełnie nieodpowiednich rezultatów. Niektóre, związane np ze sztywnością szeroko rozumianych podpór czy połączeń śrubowych, mogą wypaczyć rezultaty i wprowadzić badacza w błąd na temat stanu i zachowania konstrukcji. Aby zbudować model, który będzie efektywnie odwzorowywał rzeczywiste zachowanie należy dołożyć wszelkich starań aby wyeliminować możliwe niepewności. Model taki może zostać poddany walidacji i kalibracji. Oba te pojęcia zostaną rozwinięte w następnych rozdziałach. Niemniej, aby model dostosować do rzeczywistych warunków należy mieć punkt odniesienia. W przypadku analizy statycznej takim odniesieniem mogą być pomiary statyczne ugięć, np. w trakcie próbnego obciążenia. W przypadku analizy dynamicznej, do porównania będą służyć charakterystyki modalne: częstotliwości i postaci drgań własnych oraz tłumienia. Parametry te można zaczerpnąć z literatury i doświadczenia na etapie projektowania. Na etapie badania rzeczywistej konstrukcji warto sięgnąć po narzędzie zwane identyfikacją modalną. Poniższy rozdział przytoczy podstawowe zagadnienia związane z analizą modalną, obliczeniami odpowiedzi dynamicznej i identyfikacją charakterystyk modalnych układu. Informacje te zostaną w dalszej części pracy zastosowane w obliczeniach numerycznych i optymalizacyjnych.
+
 \section{Klasyfikacja metod analizy modalnej}
 
 Identyfikacja modalna jest zbiorem technik, które są rozwijane dynamicznie od lat 60' XX w. Gwałtowny przyrost zainteresowania tym tematem wywołał głównie rozwój technik cyfrowych \parencite{Ewins2000}. Do tej pory powstało wiele różnych technik, których krótką klasyfikację z podziałem na główne kryteria podano w tym podrozdziale.
@@ -33,10 +34,10 @@ Najogólniej analizę modalną można podzielić na dwie główne gałęzie zale
 \begin{figure}[h]
 	\centering
 	\subfloat[Procedura teoretyczna]{\includegraphics{/modal_analysis/schemat_theory_exper_a.pdf}
-	\label{fig:theExpProcA}
+		\label{fig:theExpProcA}
 	} \\
 	\subfloat[Procedura doświadczalna]{\includegraphics{/modal_analysis/schemat_theory_exper_b.pdf}
-	\label{fig:theExpProcB}}
+		\label{fig:theExpProcB}}
 	\captionsetup{justification=centering}
 	\caption{Porównanie procedur teoretycznej i doświadczalnej analizy modalnej}
 	\label{fig:theExpProc}
@@ -57,7 +58,7 @@ Obszerność zagadnień dotyczących analizy teoretycznej i identyfikacji modaln
 
 \section{Modele teoretyczne układów dynamicznych}
 \label{section: eigen}
-Metody teoretycznej analizy modalnej są obszernie opisane w literaturze przedmiotu (cytowania). Ze względu na złożoność rzeczywistych konstrukcji, w praktyce mają one zastosowanie głównie w formie rozwiązań numerycznych.  Według przedstawionej na rysunku \ref{fig:theExpProcA} procedury metody teoretycznej analizy modalnej służą głównie dwóm celom: identyfikacji charakterystyk modalnych (częstotliwości i postaci drgań własnych) i wyznaczaniu odpowiedzi układu. Dla zrozumienia zagadnienia, metody analityczne najczęściej przedstawione są dla najprostszego przypadku układu z jednym stopniem swobody. Układ ten z reguły łatwo daje się uogólnić do układu o wielu stopniach swobody. Macierzowe równanie drgań wymuszonych dla tłumionego układu o skończonej liczbie stopni swobody przedstawiono we wzorze \ref{eq: mot_dam}. 
+Metody teoretycznej analizy modalnej są obszernie opisane w literaturze przedmiotu (cytowania). Ze względu na złożoność rzeczywistych konstrukcji, w praktyce mają one zastosowanie głównie w formie modeli i rozwiązań numerycznych.  Według przedstawionej na rysunku \ref{fig:theExpProcA} procedury metody teoretycznej analizy modalnej służą głównie dwóm celom: identyfikacji charakterystyk modalnych (częstotliwości i postaci drgań własnych) i wyznaczaniu odpowiedzi układu. Dla zrozumienia zagadnienia, metody analityczne najczęściej przedstawione są dla najprostszego przypadku układu z jednym stopniem swobody. Układ ten z reguły łatwo daje się uogólnić do układu o wielu stopniach swobody. Macierzowe równanie drgań wymuszonych dla tłumionego układu o skończonej liczbie stopni swobody przedstawiono we wzorze \ref{eq: mot_dam}. 
 \begin{equation} \label{eq: mot_dam}
 \vect{M} \vect{\ddot{x}}(t) +\vect{C} \vect{\dot{x}}(t)+ \vect{Kx}(t) = \vect{F}(t)
 \end{equation}
@@ -193,7 +194,7 @@ Transformacja do współrzędnych normalnych jest istotnym elementem przewidywan
 %\begin{equation} \label{eq: eige_stan_2}
 %\vect{M}^{-1}\vect{K}\phi_i=\omega^2_i\phi_i
 %\end{equation}
-
+\section{Wyznaczenie odpowiedzi dynamicznej}
 \subsection{Odpowiedź systemów dynamicznych o jednym stopniu swobody} \label{section: sdof_response}
 
 Przegląd metod pozwalających wyznaczyć odpowiedź konstrukcji poddanej wymuszeniu wypada zacząć klasycznie od układu z jednym stopniem swobody. W przypadku liniowego układu SDOF obciążonego siłą zewnętrzną, równanie ruchu jest liniowym równaniem różniczkowym drugiego rzędu (\ref{eq: eq_mot_sdof}). Znając warunki początkowe $x(0)$ i $\dot{x}(0)$ możemy traktować zadanie jako w pełni sformułowane. Dla konstrukcji wstępnie nieobciążonej dynamicznie przemieszczenie i prędkość początkowe można przyjąć jako równe zeru.
@@ -249,7 +250,7 @@ Wśród metod numerycznych, które okazały się skuteczne w rozwiązaniach prob
 Pomimo, że powyższe metody są opisane dla układu SDOF, są łatwo uogólniane i praktycznie wykorzystywane do obliczania układów MDOF. Algorytm metody Newmark lub podobny do niego algorytm Wilsona są najpowszechniej używane w obliczeniach konstrukcji inżynierskich. Algorytm Newmarka został wykorzystany w niniejszej pracy, stąd w następnym podrozdziale zawarto zwięzły opis jego działania.
 
 
-\subsection{Wyznaczanie odpowiedzi systemów dynamicznych o skończonej liczbie stopni swobody (MDOF)} \label{section: mdof_response}
+\subsection{Odpowiedź systemów dynamicznych o skończonej liczbie stopni swobody (MDOF)} \label{section: mdof_response}
 
 Systemy o skończonej liczbie stopni swobody mogą charakteryzować się tłumieniem klasycznym (proporcjonalnym) bądź nieklasycznym (nieproporcjonalnym). Mogą być liniowe lub nieliniowe geometrycznie lub materiałowo. Czynniki te mają wpływ na wybór metody przewidywania odpowiedzi takiego układu. Macierzowe równanie ruchu dla układu o $N$ stopniach swobody możemy zapisać jako $N$ równań różniczkowych w formie (\ref{eq: mot_und_num})
 \begin{equation} \label{eq: mot_und_num}

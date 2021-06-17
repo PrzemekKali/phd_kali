@@ -1076,6 +1076,51 @@
       \field{title}{{CDB Interfaces SOFiSTiK Interface for VBA, Visual Basic .NET, C{\#}, C++, Python, Fortran and CADiNP; CDB Interfaces Manual, Version 2018-15.1 Software Version SOFiSTiK 2018}}
       \field{year}{2018}
     \endentry
+    \entry{Hartmann2007}{book}{}
+      \name{author}{2}{}{%
+        {{hash=db025feab56848c2f058729f9dba153f}{%
+           family={Hartmann},
+           familyi={H\bibinitperiod},
+           given={Friedel},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c6c976cdf8051f6e12bf5fa31d36b9d4}{%
+           family={Katz},
+           familyi={K\bibinitperiod},
+           given={Casimir},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{e68a06e6eafcb56463ed13025a86624f}
+      \strng{fullhash}{e68a06e6eafcb56463ed13025a86624f}
+      \strng{bibnamehash}{e68a06e6eafcb56463ed13025a86624f}
+      \strng{authorbibnamehash}{e68a06e6eafcb56463ed13025a86624f}
+      \strng{authornamehash}{e68a06e6eafcb56463ed13025a86624f}
+      \strng{authorfullhash}{e68a06e6eafcb56463ed13025a86624f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Structural Analysis with Finite Elements, 2nd Edition provides a solid introduction to the foundation and the application of the finite element method in structural analysis. It offers new theoretical insight and practical advice on why finite element results are 'wrong,' why support reactions are relatively accurate, why stresses at midpoints are more reliable, why averaging the stresses sometimes may not help or why the equilibrium conditions are violated. This second edition contains additional sections on sensitivity analysis, on retrofitting structures, on the Generalized FEM (X-FEM) and on model adaptivity. An additional chapter treats the boundary element method, and related software is available at www.winfem.de.}
+      \field{edition}{2}
+      \field{isbn}{978-3-540-49698-4}
+      \field{month}{7}
+      \field{title}{{Structural Analysis with Finite Elements}}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://www.springer.com/gp/book/9783540496984 http://files/596/9783540496984.html
+      \endverb
+      \verb{url}
+      \verb https://www.springer.com/gp/book/9783540496984%20http://files/596/9783540496984.html
+      \endverb
+    \endentry
     \entry{Kleiber1985}{book}{}
       \name{author}{1}{}{%
         {{hash=3f1b1691cf6797ec6fc6ab4aa91868de}{%
@@ -1170,6 +1215,67 @@
       \field{year}{2005}
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Zienkiewicz, Taylor, Zhu - 2005 - The finite element method its basis and fundamentals.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Langtangen2019}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=b1ba9610a18cb091d0a9602e75b8476f}{%
+           family={Langtangen},
+           familyi={L\bibinitperiod},
+           given={Hans\bibnamedelima Petter},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7c098c845b5c93103aab7bcdeb7d8028}{%
+           family={Mardal},
+           familyi={M\bibinitperiod},
+           given={Kent-Andre},
+           giveni={K\bibinithyphendelim A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=b1ba9610a18cb091d0a9602e75b8476f}{%
+           family={Langtangen},
+           familyi={L\bibinitperiod},
+           given={Hans\bibnamedelima Petter},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7c098c845b5c93103aab7bcdeb7d8028}{%
+           family={Mardal},
+           familyi={M\bibinitperiod},
+           given={Kent-Andre},
+           giveni={K\bibinithyphendelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{fullhash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{bibnamehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{authorbibnamehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{authornamehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{authorfullhash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{editorbibnamehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{editornamehash}{fe6c10c20668406d7bf06c2520190c8e}
+      \strng{editorfullhash}{fe6c10c20668406d7bf06c2520190c8e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The finite element method is a rich and versatile approach to construct computational schemes to solve any partial differential equation on any domain in any dimension. The method may at first glance appear cumbersome and even unnatural as it relies on variational formulations and polynomial spaces.}
+      \field{booktitle}{Introduction to Numerical Methods for Variational Problems}
+      \field{isbn}{978-3-030-23788-2}
+      \field{title}{{Quick Overview of the Finite Element Method}}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Langtangen, Mardal - 2019 - Quick Overview of the Finite Element Method.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-030-23788-2{\_}1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-030-23788-2%7B%5C_%7D1
       \endverb
     \endentry
     \entry{Zotowski2016d}{article}{}
@@ -2557,6 +2663,29 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Fr{\'{y}}ba - 2001 - A rough assessment of railway bridges for high speed trains.pdf:pdf
       \endverb
     \endentry
+    \entry{PKPPolskieLinieKolejoweS.A.2005}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ed44c6772b04541c39a610b9ed57d223}{%
+           family={{PKP Polskie Linie Kolejowe S. A.}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \strng{namehash}{ed44c6772b04541c39a610b9ed57d223}
+      \strng{fullhash}{ed44c6772b04541c39a610b9ed57d223}
+      \strng{bibnamehash}{ed44c6772b04541c39a610b9ed57d223}
+      \strng{authorbibnamehash}{ed44c6772b04541c39a610b9ed57d223}
+      \strng{authornamehash}{ed44c6772b04541c39a610b9ed57d223}
+      \strng{authorfullhash}{ed44c6772b04541c39a610b9ed57d223}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Warunki techniczne utrzymania nawierzchni na liniach kolejowych Id-1 (D-1)}}
+      \field{year}{2005}
+    \endentry
     \entry{Ladislav2008}{incollection}{}
       \name{author}{1}{}{%
         {{hash=401a4d46c3044b62c46cc63e60cf0002}{%
@@ -2684,8 +2813,8 @@
       \strng{authorbibnamehash}{d6a0872a04ca5ff81f5099ab76b001eb}
       \strng{authornamehash}{d6a0872a04ca5ff81f5099ab76b001eb}
       \strng{authorfullhash}{d6a0872a04ca5ff81f5099ab76b001eb}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The method of multibody systems including flexible bodies is applied to a railway bogie of the German high-speed train ICE. The flexible elements like the bogie frame are characterised by shape integrals which are evaluated prior to time integration to improve computational efficiency. The eigenbehavior of the railway bogie with a flexible bogie frame, rigid wheelsets and a rigid car body is analyzed in detail. An overview is given bow the equations describing the bogie dynamics are derived. The representation of track irregularities by power spectral density functions is discussed and compared with measurement data. The structural vibrations of the railway bogie are primarily excited by the tracks. These forced vibrations resulting in stress and fatigue of the bogie frame are investigated by simulations.}
@@ -2922,8 +3051,8 @@
       \strng{authornamehash}{1558b0815c3fc1e014029aa7de285dfa}
       \strng{authorfullhash}{1558b0815c3fc1e014029aa7de285dfa}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Neben den rein technischen Konsequenzen für den Entwurf hinsichtlich Bemessung und baulicher Durchbildung von Brücken für hohe Geschwindigkeiten ist die Frage interessant, ob der Ingenieur neuerdings gezwungen ist, das Entwerfen seiner Brücken besser zu beherrschen. Es wird die Notwendigkeit gezeigt, auf einfache und natürliche Formen zurückzugreifen. Die aktuellen Trends sind oft an Neuheiten orientiert, die zwar mit Hilfe der EDV umsetzbar sind, die Konstruktionen aber komplizieren.}
@@ -3274,8 +3403,8 @@
       \strng{authorbibnamehash}{ef0704365ce8684374573bbfe0c0f475}
       \strng{authornamehash}{ef0704365ce8684374573bbfe0c0f475}
       \strng{authorfullhash}{27b199c1a118c8cc0048e40aca7beced}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{0203895398}
@@ -3303,8 +3432,8 @@
       \strng{authornamehash}{cd67a8b12a8d088eddf172525fa7e462}
       \strng{authorfullhash}{cd67a8b12a8d088eddf172525fa7e462}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper addresses the methodology of the bridge-vehicle dynamic model definition based on the free response measurements of an existing train and existing bridge spans. In the case of the railway vehicle, the methodology uses the impulse excitations of a single car by means of the wedge method. In the case of the bridge spans, free responses are collected after the passages of trains. The global modal parameters (frequencies and modal damping) of both structures are identified using two modal identification techniques, i.e., the eigensystem realization algorithm (ERA) and the peak picking method (PP). A simplified single-suspension model of the vehicle with 11 global dof's is proposed that can be useful in the bridge-vehicle interaction analysis. Two steel spans having non-ballasted tracks are the bridge structures. Field tests are conducted to identify the modal parameters and validate the numerical models. Finally, numerical simulations of the train passing over the bridges are compared with the in situ measurements performed under operating conditions.}
@@ -3595,132 +3724,27 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/ERRI D214 - 1998 - Design of Railway Bridges for Speed up to 350 kmh Dynamic loading effects including resonance Final report. Draft C.pdf:pdf
       \endverb
     \endentry
-    \entry{Langtangen2019}{incollection}{}
-      \name{author}{2}{}{%
-        {{hash=b1ba9610a18cb091d0a9602e75b8476f}{%
-           family={Langtangen},
-           familyi={L\bibinitperiod},
-           given={Hans\bibnamedelima Petter},
-           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=7c098c845b5c93103aab7bcdeb7d8028}{%
-           family={Mardal},
-           familyi={M\bibinitperiod},
-           given={Kent-Andre},
-           giveni={K\bibinithyphendelim A\bibinitperiod}}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=b1ba9610a18cb091d0a9602e75b8476f}{%
-           family={Langtangen},
-           familyi={L\bibinitperiod},
-           given={Hans\bibnamedelima Petter},
-           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=7c098c845b5c93103aab7bcdeb7d8028}{%
-           family={Mardal},
-           familyi={M\bibinitperiod},
-           given={Kent-Andre},
-           giveni={K\bibinithyphendelim A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer International Publishing}%
-      }
-      \strng{namehash}{fe6c10c20668406d7bf06c2520190c8e}
-      \strng{fullhash}{fe6c10c20668406d7bf06c2520190c8e}
-      \strng{bibnamehash}{fe6c10c20668406d7bf06c2520190c8e}
-      \strng{authorbibnamehash}{fe6c10c20668406d7bf06c2520190c8e}
-      \strng{authornamehash}{fe6c10c20668406d7bf06c2520190c8e}
-      \strng{authorfullhash}{fe6c10c20668406d7bf06c2520190c8e}
-      \strng{editorbibnamehash}{fe6c10c20668406d7bf06c2520190c8e}
-      \strng{editornamehash}{fe6c10c20668406d7bf06c2520190c8e}
-      \strng{editorfullhash}{fe6c10c20668406d7bf06c2520190c8e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The finite element method is a rich and versatile approach to construct computational schemes to solve any partial differential equation on any domain in any dimension. The method may at first glance appear cumbersome and even unnatural as it relies on variational formulations and polynomial spaces.}
-      \field{booktitle}{Introduction to Numerical Methods for Variational Problems}
-      \field{isbn}{978-3-030-23788-2}
-      \field{title}{{Quick Overview of the Finite Element Method}}
-      \field{year}{2019}
-      \field{pages}{1\bibrangedash 6}
-      \range{pages}{6}
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Langtangen, Mardal - 2019 - Quick Overview of the Finite Element Method.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/978-3-030-23788-2{\_}1
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/978-3-030-23788-2%7B%5C_%7D1
-      \endverb
-    \endentry
-    \entry{Hartmann2007}{book}{}
-      \name{author}{2}{}{%
-        {{hash=db025feab56848c2f058729f9dba153f}{%
-           family={Hartmann},
-           familyi={H\bibinitperiod},
-           given={Friedel},
-           giveni={F\bibinitperiod}}}%
-        {{hash=c6c976cdf8051f6e12bf5fa31d36b9d4}{%
-           family={Katz},
-           familyi={K\bibinitperiod},
-           given={Casimir},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Berlin Heidelberg}%
-      }
-      \list{publisher}{1}{%
-        {Springer-Verlag}%
-      }
-      \strng{namehash}{e68a06e6eafcb56463ed13025a86624f}
-      \strng{fullhash}{e68a06e6eafcb56463ed13025a86624f}
-      \strng{bibnamehash}{e68a06e6eafcb56463ed13025a86624f}
-      \strng{authorbibnamehash}{e68a06e6eafcb56463ed13025a86624f}
-      \strng{authornamehash}{e68a06e6eafcb56463ed13025a86624f}
-      \strng{authorfullhash}{e68a06e6eafcb56463ed13025a86624f}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Structural Analysis with Finite Elements, 2nd Edition provides a solid introduction to the foundation and the application of the finite element method in structural analysis. It offers new theoretical insight and practical advice on why finite element results are 'wrong,' why support reactions are relatively accurate, why stresses at midpoints are more reliable, why averaging the stresses sometimes may not help or why the equilibrium conditions are violated. This second edition contains additional sections on sensitivity analysis, on retrofitting structures, on the Generalized FEM (X-FEM) and on model adaptivity. An additional chapter treats the boundary element method, and related software is available at www.winfem.de.}
-      \field{edition}{2}
-      \field{isbn}{978-3-540-49698-4}
-      \field{month}{7}
-      \field{title}{{Structural Analysis with Finite Elements}}
-      \field{year}{2007}
-      \verb{urlraw}
-      \verb https://www.springer.com/gp/book/9783540496984 http://files/596/9783540496984.html
-      \endverb
-      \verb{url}
-      \verb https://www.springer.com/gp/book/9783540496984%20http://files/596/9783540496984.html
-      \endverb
-    \endentry
     \entry{PolskieLinieKolejoweS.A.2005}{misc}{}
       \name{author}{1}{}{%
-        {{hash=774619f26e7a39c839435effb6012c99}{%
-           family={{Polskie Linie Kolejowe S.A.}},
+        {{hash=ed44c6772b04541c39a610b9ed57d223}{%
+           family={{PKP Polskie Linie Kolejowe S. A.}},
            familyi={P\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Warszawa}%
       }
-      \strng{namehash}{774619f26e7a39c839435effb6012c99}
-      \strng{fullhash}{774619f26e7a39c839435effb6012c99}
-      \strng{bibnamehash}{774619f26e7a39c839435effb6012c99}
-      \strng{authorbibnamehash}{774619f26e7a39c839435effb6012c99}
-      \strng{authornamehash}{774619f26e7a39c839435effb6012c99}
-      \strng{authorfullhash}{774619f26e7a39c839435effb6012c99}
+      \strng{namehash}{ed44c6772b04541c39a610b9ed57d223}
+      \strng{fullhash}{ed44c6772b04541c39a610b9ed57d223}
+      \strng{bibnamehash}{ed44c6772b04541c39a610b9ed57d223}
+      \strng{authorbibnamehash}{ed44c6772b04541c39a610b9ed57d223}
+      \strng{authornamehash}{ed44c6772b04541c39a610b9ed57d223}
+      \strng{authorfullhash}{ed44c6772b04541c39a610b9ed57d223}
+      \field{extraname}{2}
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Warunki techniczne dla kolejowych obiektów inżynieryjnych Id-2}}
+      \field{title}{{Warunki techniczne dla kolejowych obiektów inżynieryjnych Id-2 (D-2)}}
       \field{year}{2005}
     \endentry
     \entry{PolskieLinieKolejoweS.A.2009}{misc}{}
@@ -3978,8 +4002,8 @@
       \strng{authorbibnamehash}{aa5f31762e9d849c4e3e7acd9979f987}
       \strng{authornamehash}{aa5f31762e9d849c4e3e7acd9979f987}
       \strng{authorfullhash}{aa5f31762e9d849c4e3e7acd9979f987}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The work presented in this thesis studies the load and load effects of traffic loads on railway bridges. The increased knowledge of the traffic loads, simulated using field measurements of actual trains, are employed in a reliability analysis in an attempt at upgrading existing railway bridges. The study utilises data from a weigh-in-motion site which records, for each train, the train speed, the loads from each axle and the axle spacings. This data of actual train configurations and axle loads are portrayed as moving forces and then used in computer simulations of trains crossing two dimensional simply supported bridges at constant speed. Only single track short to medium span bridges are considered in the thesis. The studied load effect is the moment at mid-span. From the computer simulations the moment history at mid-span is obtained. The load effects are analysed by two methods, the first is the classical extreme value theory where the load effect is modelled by the family of distributions called the generalised extreme value distribution (GEV). The other method adopts the peaks-over-threshold method (POT) where the limiting family of distributions for the heights to peaks-over-threshold is the Generalised Pareto Distribution (GPD). The two models are generally found to be a good representation of the data. The load effects modelled by either the GEV or the GPD are then incorporated into a reliability analysis in order to study the possibility of raising allowable axle loads on existing Swedish railway bridges. The results of the reliability analysis show that they are sensitive to the estimation of the shape parameter of the GEV or the GPD. While the study is limited to the case of the ultimate limit state where the effects of fatigue are not accounted for, the findings show that for the studied cases an increase in allowable axle load to 25 tonnes would be acceptable even for bridges built to the standards of 1940 and designed to Load Model A of that standard. Even an increase to both 27.5 and 30 tonnes appears to be possible for certain cases. It is also observed that the short span bridges of approximately four metres are the most susceptible to a proposed increase in permissible axle load.}
@@ -7334,8 +7358,8 @@
       \strng{authorbibnamehash}{e82210292dc91328d84c64ae5b37c6a7}
       \strng{authornamehash}{e82210292dc91328d84c64ae5b37c6a7}
       \strng{authorfullhash}{e82210292dc91328d84c64ae5b37c6a7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{013079211X}
@@ -10211,8 +10235,8 @@
       \strng{authorbibnamehash}{f0ccf4a09a3a6a91719405724e3ae5da}
       \strng{authornamehash}{f0ccf4a09a3a6a91719405724e3ae5da}
       \strng{authorfullhash}{f0ccf4a09a3a6a91719405724e3ae5da}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Adaptive computation and machine learning CN - QA274.4 .R37 2006}
@@ -10251,8 +10275,8 @@
       \strng{authorbibnamehash}{c386cff470072acbbf0b41a2e03d9690}
       \strng{authornamehash}{c386cff470072acbbf0b41a2e03d9690}
       \strng{authorfullhash}{c386cff470072acbbf0b41a2e03d9690}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The GPML toolbox provides a wide range of functionality for Gaussian process (GP) inference and prediction. GPs are speciﬁed by mean and covariance functions; we offer a library of simple mean and covariance functions and mechanisms to compose more complex ones. Several likelihood functions are supported including Gaussian and heavy-tailed for regression as well as others suitable for classiﬁcation. Finally, a range of inference methods is provided, including exact and variational inference, Expectation Propagation, and Laplace's method dealing with non-Gaussian likelihoods and FITC for dealing with large regression tasks.}

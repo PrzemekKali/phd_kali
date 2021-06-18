@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.28)  18 JUN 2021 19:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.28)  18 JUN 2021 19:50
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -2516,6 +2516,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [41]
 
+LaTeX Warning: Reference ` sect:railway_dynamic_effects' on page 42 undefined o
+n input line 202.
+
+
+Overfull \hbox (0.8978pt too wide) in paragraph at lines 202--203
+\T1/cmr/m/n/12 Wykorzystuj¡c przed-sta-wiony w roz-dziale opis ma-te-ma-tyczny 
+ru-chu drga-j¡-cego ukªa-
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2590,11 +2600,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: pdflatex.exe (file ./figures///rayleigh/rayleigh_chart.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures///rayleigh/rayleigh_chart.pdf, id=1954, 241.84845pt x 170.7165pt>
+<./figures///rayleigh/rayleigh_chart.pdf, id=1953, 241.84845pt x 170.7165pt>
 File: ./figures///rayleigh/rayleigh_chart.pdf Graphic file (type pdf)
 <use ./figures///rayleigh/rayleigh_chart.pdf>
 Package pdftex.def Info: ./figures///rayleigh/rayleigh_chart.pdf  used on input
- line 392.
+ line 396.
 (pdftex.def)             Requested size: 241.84785pt x 170.71608pt.
 )
 
@@ -7673,10 +7683,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48826 strings out of 479163
- 1182619 string characters out of 2852567
- 2077416 words of memory out of 12000000
- 63950 multiletter control sequences out of 15000+600000
+ 48828 strings out of 479163
+ 1182680 string characters out of 2852567
+ 2076489 words of memory out of 12000000
+ 63952 multiletter control sequences out of 15000+600000
  468398 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,24n,99p,3217b,2021s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -7742,7 +7752,7 @@ per/sfsl1200.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/cm-super/sfti1095.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/cm-super/sfti1200.pfb><C:/Users/PRZKALIT/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on whole_thesis.pdf (206 pages, 117687725 bytes).
+Output written on whole_thesis.pdf (206 pages, 117688101 bytes).
 PDF statistics:
  11782 PDF objects out of 12825 (max. 8388607)
  1244 named destinations out of 1440 (max. 500000)

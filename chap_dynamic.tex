@@ -199,9 +199,13 @@ Transformacja do współrzędnych normalnych zostanie wykorzystana przy przewidy
 %\vect{M}^{-1}\vect{K}\phi_i=\omega^2_i\phi_i
 %\end{equation}
 \section{Metody wyznaczania odpowiedzi dynamicznej konstrukcji} \label{sect:dynamic_response_methods}
+Wykorzystując przedstawiony w rozdziale opis matematyczny ruchu drgającego układów dyskretnych, poniżej zawarto metody przewidywania odpowiedzi tychże układów. W rozdziale dotyczącym efektów dynamicznych w mostach kolejowych (p. \ref{ sect:railway_dynamic_effects}) wspomniano o rozwoju metod wyznaczania odpowiedzi dynamicznej pod obciążeniem ruchomym. Poniżej przywołano charakterystykę niektórych z nich. Szczególną uwagę zwrócono na metodę Newmarka, która została zastosowana w pracy. Przegląd metod pozwalających wyznaczyć odpowiedź konstrukcji poddanej wymuszeniu wypada zacząć klasycznie od układu z jednym stopniem swobody. 
+
+
+
 \subsection{Odpowiedź systemów dynamicznych o jednym stopniu swobody} \label{section: sdof_response}
 
-Przegląd metod pozwalających wyznaczyć odpowiedź konstrukcji poddanej wymuszeniu wypada zacząć klasycznie od układu z jednym stopniem swobody. W przypadku liniowego układu SDOF obciążonego siłą zewnętrzną, równanie ruchu jest liniowym równaniem różniczkowym drugiego rzędu (\ref{eq: eq_mot_sdof}). Znając warunki początkowe $x(0)$ i $\dot{x}(0)$ możemy traktować zadanie jako w pełni sformułowane. Dla konstrukcji wstępnie nieobciążonej dynamicznie przemieszczenie i prędkość początkowe można przyjąć jako równe zeru.
+W przypadku liniowego układu SDOF obciążonego siłą zewnętrzną, równanie ruchu jest liniowym równaniem różniczkowym drugiego rzędu (\ref{eq: eq_mot_sdof}). Znając warunki początkowe $x(0)$ i $\dot{x}(0)$ możemy traktować zadanie jako w pełni sformułowane. Dla konstrukcji wstępnie nieobciążonej dynamicznie przemieszczenie i prędkość początkowe można przyjąć jako równe zeru.
 \begin{equation} \label{eq: eq_mot_sdof}
 	m\ddot{x}+c\dot{x}+k{x}=f(t)
 \end{equation}
@@ -254,7 +258,7 @@ Wśród metod numerycznych, które okazały się skuteczne w rozwiązaniach prob
 Pomimo, że powyższe metody są opisane dla układu SDOF, są łatwo uogólniane i praktycznie wykorzystywane do obliczania układów MDOF. Algorytm metody Newmark lub podobny do niego algorytm Wilsona są najpowszechniej używane w obliczeniach konstrukcji inżynierskich. Algorytm Newmarka został wykorzystany w niniejszej pracy, stąd w następnym podrozdziale zawarto zwięzły opis jego działania.
 
 
-\subsection{Odpowiedź systemów dynamicznych o skończonej liczbie stopni swobody (MDOF)} \label{section: mdof_response}
+\subsection{Odpowiedź systemów dynamicznych o skończonej liczbie stopni swobody} \label{section: mdof_response}
 
 Systemy o skończonej liczbie stopni swobody mogą charakteryzować się tłumieniem klasycznym (proporcjonalnym) bądź nieklasycznym (nieproporcjonalnym). Mogą być liniowe lub nieliniowe geometrycznie lub materiałowo. Czynniki te mają wpływ na wybór metody przewidywania odpowiedzi takiego układu. Macierzowe równanie ruchu dla układu o $N$ stopniach swobody możemy zapisać jako $N$ równań różniczkowych w formie (\ref{eq: mot_und_num})
 \begin{equation} \label{eq: mot_und_num}

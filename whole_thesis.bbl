@@ -4505,71 +4505,6 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Zhang, Brincker, Andersen - 2004 - An overview of major developments and issues in modal identification.pdf:pdf
       \endverb
     \endentry
-    \entry{Chmielewski1998}{book}{}
-      \name{author}{2}{}{%
-        {{hash=9771fe62a52cd865a5cc2bc42f289914}{%
-           family={Chmielewski},
-           familyi={C\bibinitperiod},
-           given={Tadeusz},
-           giveni={T\bibinitperiod}}}%
-        {{hash=540305531a851c0787004bb2b3b01887}{%
-           family={Zembaty},
-           familyi={Z\bibinitperiod},
-           given={Zbigniew},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {"Arkady"}%
-      }
-      \strng{namehash}{141151028124352192a5b6aa50053038}
-      \strng{fullhash}{141151028124352192a5b6aa50053038}
-      \strng{bibnamehash}{141151028124352192a5b6aa50053038}
-      \strng{authorbibnamehash}{141151028124352192a5b6aa50053038}
-      \strng{authornamehash}{141151028124352192a5b6aa50053038}
-      \strng{authorfullhash}{141151028124352192a5b6aa50053038}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{annotation}{Accession Number: bg.000040486; Corporate Authors: Wydawnictwo Arkady.; Other Notes: Wykaz piśmiennictwa s. [292-294].; Ksia̧żka może s{ł}użyć jako podrȩcznik dla studentów politechnik i dla projektantów oraz konstruktorów.; Publication Type: Book; Physical Description: 291, [3] s. : il. ; 25 cm.; Language: Polish}
-      \field{isbn}{83-213-4072-5}
-      \field{title}{{Podstawy dynamiki budowli.}}
-      \field{year}{1998}
-      \keyw{Dynamika budowli,Dynamika konstrukcji -- podrȩczniki akademickie}
-    \endentry
-    \entry{Ewins2000}{book}{}
-      \name{author}{1}{}{%
-        {{hash=98f1e3c0a3ab353eb4d0367c652a0710}{%
-           family={Ewins},
-           familyi={E\bibinitperiod},
-           given={David\bibnamedelima J.},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Baldock}%
-      }
-      \list{publisher}{1}{%
-        {RESEARCH STUDIES PRESS LTD.}%
-      }
-      \strng{namehash}{98f1e3c0a3ab353eb4d0367c652a0710}
-      \strng{fullhash}{98f1e3c0a3ab353eb4d0367c652a0710}
-      \strng{bibnamehash}{98f1e3c0a3ab353eb4d0367c652a0710}
-      \strng{authorbibnamehash}{98f1e3c0a3ab353eb4d0367c652a0710}
-      \strng{authornamehash}{98f1e3c0a3ab353eb4d0367c652a0710}
-      \strng{authorfullhash}{98f1e3c0a3ab353eb4d0367c652a0710}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{During the 1980s the technology of modal testing became very widely practised in all those engineering disciplines where vibration and other dynamic phenomena affect the behaviour and performance of structures and machines. The techniques involved in carrying out a modal test were developed to a high degree of sophistication while the applications to which the results of these tests could be put became more numerous and more powerful. At the same time as the advantages of modal testing were being enjoyed by an increasing audience, some of the drawbacks of inexpert use of the technology were being learned and recorded. These experiences reinforced the need for a thorough understanding of fundamentals upon which modal testing is based, and of the detailed workings of the various phases and processes which make up a successful test. In this book, all the steps involved in planning, executing, interpreting and applying the results from a modal test are described in straightforward terms. Efforts are made throughout to ensure that the reader understands the physics of the various stages as well as (if not before) the mathematics. This edition has brought the previous book up to date by including all the new and improved techniques which have emerged during the 15 years since the first edition was written. The more powerful applications are developed in more detail than previously and some new topics have been introduced, notable amongst which are the application of modal testing to rotating machinery and the use of the scanning laser vibrometer.}
-      \field{isbn}{0863802184}
-      \field{title}{{Modal testing: theory, practice and application}}
-      \field{year}{2000}
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Ewins - 2000 - Modal testing theory, practice and application.pdf:pdf
-      \endverb
-      \keyw{Mechanische Schwingung,Modalanalyse,Structural dynamics -- Mathematical models,Vibration -- Mathematical models,Vibrações (modelos matemáticos)}
-    \endentry
     \entry{Maia1997}{book}{}
       \name{author}{2}{}{%
         {{hash=704d49fd8d2a22f83874b9b0cf83c5f5}{%
@@ -4604,6 +4539,39 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Maia, Silva - 1997 - Theoretical and Experimental Modal Analysis.pdf:pdf
       \endverb
+    \endentry
+    \entry{Ewins2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=98f1e3c0a3ab353eb4d0367c652a0710}{%
+           family={Ewins},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Baldock}%
+      }
+      \list{publisher}{1}{%
+        {RESEARCH STUDIES PRESS LTD.}%
+      }
+      \strng{namehash}{98f1e3c0a3ab353eb4d0367c652a0710}
+      \strng{fullhash}{98f1e3c0a3ab353eb4d0367c652a0710}
+      \strng{bibnamehash}{98f1e3c0a3ab353eb4d0367c652a0710}
+      \strng{authorbibnamehash}{98f1e3c0a3ab353eb4d0367c652a0710}
+      \strng{authornamehash}{98f1e3c0a3ab353eb4d0367c652a0710}
+      \strng{authorfullhash}{98f1e3c0a3ab353eb4d0367c652a0710}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{During the 1980s the technology of modal testing became very widely practised in all those engineering disciplines where vibration and other dynamic phenomena affect the behaviour and performance of structures and machines. The techniques involved in carrying out a modal test were developed to a high degree of sophistication while the applications to which the results of these tests could be put became more numerous and more powerful. At the same time as the advantages of modal testing were being enjoyed by an increasing audience, some of the drawbacks of inexpert use of the technology were being learned and recorded. These experiences reinforced the need for a thorough understanding of fundamentals upon which modal testing is based, and of the detailed workings of the various phases and processes which make up a successful test. In this book, all the steps involved in planning, executing, interpreting and applying the results from a modal test are described in straightforward terms. Efforts are made throughout to ensure that the reader understands the physics of the various stages as well as (if not before) the mathematics. This edition has brought the previous book up to date by including all the new and improved techniques which have emerged during the 15 years since the first edition was written. The more powerful applications are developed in more detail than previously and some new topics have been introduced, notable amongst which are the application of modal testing to rotating machinery and the use of the scanning laser vibrometer.}
+      \field{isbn}{0863802184}
+      \field{title}{{Modal testing: theory, practice and application}}
+      \field{year}{2000}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Ewins - 2000 - Modal testing theory, practice and application.pdf:pdf
+      \endverb
+      \keyw{Mechanische Schwingung,Modalanalyse,Structural dynamics -- Mathematical models,Vibration -- Mathematical models,Vibrações (modelos matemáticos)}
     \endentry
     \entry{Rainieri2014}{book}{}
       \name{author}{2}{}{%
@@ -4675,6 +4643,38 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Lengvarsk{\'{y}}, Bocko - 2013 - Theoretical basis of modal analysis.pdf:pdf
       \endverb
+    \endentry
+    \entry{Chmielewski1998}{book}{}
+      \name{author}{2}{}{%
+        {{hash=9771fe62a52cd865a5cc2bc42f289914}{%
+           family={Chmielewski},
+           familyi={C\bibinitperiod},
+           given={Tadeusz},
+           giveni={T\bibinitperiod}}}%
+        {{hash=540305531a851c0787004bb2b3b01887}{%
+           family={Zembaty},
+           familyi={Z\bibinitperiod},
+           given={Zbigniew},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {"Arkady"}%
+      }
+      \strng{namehash}{141151028124352192a5b6aa50053038}
+      \strng{fullhash}{141151028124352192a5b6aa50053038}
+      \strng{bibnamehash}{141151028124352192a5b6aa50053038}
+      \strng{authorbibnamehash}{141151028124352192a5b6aa50053038}
+      \strng{authornamehash}{141151028124352192a5b6aa50053038}
+      \strng{authorfullhash}{141151028124352192a5b6aa50053038}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Accession Number: bg.000040486; Corporate Authors: Wydawnictwo Arkady.; Other Notes: Wykaz piśmiennictwa s. [292-294].; Ksia̧żka może s{ł}użyć jako podrȩcznik dla studentów politechnik i dla projektantów oraz konstruktorów.; Publication Type: Book; Physical Description: 291, [3] s. : il. ; 25 cm.; Language: Polish}
+      \field{isbn}{83-213-4072-5}
+      \field{title}{{Podstawy dynamiki budowli.}}
+      \field{year}{1998}
+      \keyw{Dynamika budowli,Dynamika konstrukcji -- podrȩczniki akademickie}
     \endentry
     \entry{Chopra2012a}{book}{}
       \name{author}{1}{}{%
@@ -5033,55 +5033,6 @@
       \endverb
       \keyw{Structural dynamics}
     \endentry
-    \entry{Humar1974}{article}{}
-      \name{author}{2}{}{%
-        {{hash=66d4a53ad1732f0848623e2aa79ad7a0}{%
-           family={Humar},
-           familyi={H\bibinitperiod},
-           given={J.\bibnamedelimi L.},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=f31531cd93cbc7c8301b4356d7564c33}{%
-           family={Wright},
-           familyi={W\bibinitperiod},
-           given={E.\bibnamedelimi W.},
-           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{7449e1fad0bd447f57514979178a031d}
-      \strng{fullhash}{7449e1fad0bd447f57514979178a031d}
-      \strng{bibnamehash}{7449e1fad0bd447f57514979178a031d}
-      \strng{authorbibnamehash}{7449e1fad0bd447f57514979178a031d}
-      \strng{authornamehash}{7449e1fad0bd447f57514979178a031d}
-      \strng{authorfullhash}{7449e1fad0bd447f57514979178a031d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A systematic method is presented for the derivation of single-point and multiple-point predictor-corrector formulas. It is shown that for problems in structural dynamics, it is not necessary to use an iterative scheme; a process of elimination is feasible and also gives considerable economy in computation time. It is further shown that the choice of an appropriate multi-point method for the numerical integration of the equations of motion of an elastic system can lead to a considerable saving in computation time and cost. One such multi-point method is presented, and its truncation error and stability are examined.}
-      \field{issn}{0315-1468, 1208-6029}
-      \field{journaltitle}{Canadian Journal of Civil Engineering}
-      \field{month}{4}
-      \field{number}{2}
-      \field{title}{{Numerical Methods in Structural Dynamics}}
-      \field{volume}{1}
-      \field{year}{1974}
-      \field{pages}{179\bibrangedash 193}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1139/l74-017
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Humar, Wright - 1974 - Numerical Methods in Structural Dynamics.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.nrcresearchpress.com/doi/10.1139/l74-017 http://files/242/Humar i Wright - 1974 - Numerical Methods in Structural Dynamics.pdf
-      \endverb
-      \verb{url}
-      \verb http://www.nrcresearchpress.com/doi/10.1139/l74-017%20http://files/242/Humar%20i%20Wright%20-%201974%20-%20Numerical%20Methods%20in%20Structural%20Dynamics.pdf
-      \endverb
-    \endentry
     \entry{Bajer2012}{book}{}
       \name{author}{2}{}{%
         {{hash=4ae35e3d04d61df0097b6b30d9c9c3ae}{%
@@ -5135,6 +5086,55 @@
       \verb http://files/876/Bajer%20i%20Dyniewicz%20-%202012%20-%20Numerical%20Analysis%20of%20Vibrations%20of%20Structures%20und.pdf
       \endverb
       \keyw{Live loads}
+    \endentry
+    \entry{Humar1974}{article}{}
+      \name{author}{2}{}{%
+        {{hash=66d4a53ad1732f0848623e2aa79ad7a0}{%
+           family={Humar},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f31531cd93cbc7c8301b4356d7564c33}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={E.\bibnamedelimi W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7449e1fad0bd447f57514979178a031d}
+      \strng{fullhash}{7449e1fad0bd447f57514979178a031d}
+      \strng{bibnamehash}{7449e1fad0bd447f57514979178a031d}
+      \strng{authorbibnamehash}{7449e1fad0bd447f57514979178a031d}
+      \strng{authornamehash}{7449e1fad0bd447f57514979178a031d}
+      \strng{authorfullhash}{7449e1fad0bd447f57514979178a031d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A systematic method is presented for the derivation of single-point and multiple-point predictor-corrector formulas. It is shown that for problems in structural dynamics, it is not necessary to use an iterative scheme; a process of elimination is feasible and also gives considerable economy in computation time. It is further shown that the choice of an appropriate multi-point method for the numerical integration of the equations of motion of an elastic system can lead to a considerable saving in computation time and cost. One such multi-point method is presented, and its truncation error and stability are examined.}
+      \field{issn}{0315-1468, 1208-6029}
+      \field{journaltitle}{Canadian Journal of Civil Engineering}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{{Numerical Methods in Structural Dynamics}}
+      \field{volume}{1}
+      \field{year}{1974}
+      \field{pages}{179\bibrangedash 193}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1139/l74-017
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Humar, Wright - 1974 - Numerical Methods in Structural Dynamics.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nrcresearchpress.com/doi/10.1139/l74-017 http://files/242/Humar i Wright - 1974 - Numerical Methods in Structural Dynamics.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.nrcresearchpress.com/doi/10.1139/l74-017%20http://files/242/Humar%20i%20Wright%20-%201974%20-%20Numerical%20Methods%20in%20Structural%20Dynamics.pdf
+      \endverb
     \endentry
     \entry{Newmark1959}{article}{}
       \name{author}{1}{}{%
@@ -7386,8 +7386,8 @@
       \strng{authornamehash}{6f42759c6a32bc24e49e422466fd8b64}
       \strng{authorfullhash}{6f42759c6a32bc24e49e422466fd8b64}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The basic concept of the Eigensystem Realization Algorithm for modal parameter identification and model reduction is extended to minimize the distortion of the identified parameters caused by noise. The mathematical foundation for the properties of accuracy indicators, such as the singular values of the data matrix and modal amplitude coherence, is provided, based on knowledge of the noise characteristics. These indicators quantitatively discriminate noise from system information and are used to reduce the realized system model to a better approximation of the true model. Monte Carlo simulations are included to support the analytical studies. {©} 1985 American Institute of Aeronautics and Astronautics, Inc.}
@@ -7430,8 +7430,8 @@
       \strng{authorbibnamehash}{20a1c4d606a9b741d91af6cac73ce35c}
       \strng{authornamehash}{20a1c4d606a9b741d91af6cac73ce35c}
       \strng{authorfullhash}{20a1c4d606a9b741d91af6cac73ce35c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The eigensystem realization algorithm (ERA) is one of the most popular methods in civil engineering applications for estimating the modal parameters, including complex-valued modal frequencies and modal vectors, of dynamic systems. In dealing with noisy measurement data, the ERA partitions the realized model into principal (signal) and perturbational (noise) portions so that the noise portion can be disregarded. During the separation of signal and noise, a critical issue is the determination for the dimensions of the block Hankel matrix which is built from noisy measurement data. We show that the signal and noise matrices can be better separated when the number of blockrows and number of block-columns of the corresponding block Hankel matrix are chosen to be close to each other. We introduce the concept of using the Frobenius norm (L 2-norm) of the signal and noise matrices to quantify the signal to noise ratio in the global sense (involving multiple signals). We also propose a verification procedure to justify that the estimated modal parameters are noise insensitive and thus indeed associated with the true system. The procedure involves artificially injecting random noise into the measured signals (which are noisy signals) to create noisy-noisy signals, then comparing the identification results obtained respectively from the measured and noisynoisy signals. Using experimental data collected from a test plate, we demonstrate that if signal and noise portions have been properly separated while using the measured data, then the artificial noise would almost completely accumulate to the noise portion. Therefore, the modal estimation based on the signal portion only would remain the same by using either the measured or the noisy-noisy signals.}
@@ -7467,8 +7467,8 @@
       \strng{authorbibnamehash}{92067a757a974d8a9f3739bbee220f53}
       \strng{authornamehash}{92067a757a974d8a9f3739bbee220f53}
       \strng{authorfullhash}{92067a757a974d8a9f3739bbee220f53}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Identyfikacja parametrów dynamicznych konstrukcji mostowych na bazie drgań wywo{ł}anych obciażeniem środowiskowym : [rozprawa doktorska]}}
@@ -7844,6 +7844,68 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Welch - 1967 - The use of fast Fourier transform for the estimation of power spectra a method based on time averaging over short, modifi.pdf:pdf
       \endverb
+    \endentry
+    \entry{Neu2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e1fc44483fdc2fc99efb5ed0d492ed24}{%
+           family={Neu},
+           familyi={N\bibinitperiod},
+           given={Eugen},
+           giveni={E\bibinitperiod}}}%
+        {{hash=968796d5f82db65271ece34a7e71356f}{%
+           family={Janser},
+           familyi={J\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=26d308fd140baee3ed911e00fcf96e79}{%
+           family={Khatibi},
+           familyi={K\bibinitperiod},
+           given={Akbar\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=235c6bc6a49e284f071bb9fe60114414}{%
+           family={Orifici},
+           familyi={O\bibinitperiod},
+           given={Adrian\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b63091fbfb818d7d6ffbb18351e5a382}
+      \strng{fullhash}{12cbe17e27bc4356cecafbcdf8f4b14d}
+      \strng{bibnamehash}{b63091fbfb818d7d6ffbb18351e5a382}
+      \strng{authorbibnamehash}{b63091fbfb818d7d6ffbb18351e5a382}
+      \strng{authornamehash}{b63091fbfb818d7d6ffbb18351e5a382}
+      \strng{authorfullhash}{12cbe17e27bc4356cecafbcdf8f4b14d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The interest for robust automatic modal parameter extraction techniques has increased significantly over the last years, together with the rising demand for continuous health monitoring of critical infrastructure like bridges, buildings and wind turbine blades. In this study a novel, multi-stage clustering approach for Automated Operational Modal Analysis (AOMA) is introduced. In contrast to existing approaches, the procedure works without any user-provided thresholds, is applicable within large system order ranges, can be used with very small sensor numbers and does not place any limitations on the damping ratio or the complexity of the system under investigation. The approach works with any parametric system identification algorithm that uses the system order n as sole parameter. Here a data-driven Stochastic Subspace Identification (SSI) method is used. Measurements from a wind tunnel investigation with a composite cantilever equipped with Fiber Bragg Grating Sensors (FBGSs) and piezoelectric sensors are used to assess the performance of the algorithm with a highly damped structure and low signal to noise ratio conditions. The proposed method was able to identify all physical system modes in the investigated frequency range from over 1000 individual datasets using FBGSs under challenging signal to noise ratio conditions and under better signal conditions but from only two sensors.}
+      \field{issn}{08883270}
+      \field{journaltitle}{Mechanical Systems and Signal Processing}
+      \field{month}{4}
+      \field{title}{{Fully Automated Operational Modal Analysis using multi-stage clustering}}
+      \field{volume}{84}
+      \field{year}{2017}
+      \field{pages}{308\bibrangedash 323}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.ymssp.2016.07.031
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Neu et al. - 2017 - Fully Automated Operational Modal Analysis using multi-stage clustering.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0888327016302552 http://files/1168/Neu et al. - 2017 - Fully Automated Operational Modal Analysis using m.pdf http://dx.doi.org/10.1016/j.ymssp.2016.07.031
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0888327016302552%20http://files/1168/Neu%20et%20al.%20-%202017%20-%20Fully%20Automated%20Operational%20Modal%20Analysis%20using%20m.pdf%20http://dx.doi.org/10.1016/j.ymssp.2016.07.031
+      \endverb
+      \keyw{Automatization,Clustering,Operational modal analysis,Stabilization diagram,Structural Health Monitoring}
     \endentry
     \entry{Pappa1992}{book}{}
       \name{author}{3}{}{%
@@ -10348,8 +10410,8 @@
       \strng{authorbibnamehash}{da39fa30f36ca627d6e7f5af933c8d04}
       \strng{authornamehash}{da39fa30f36ca627d6e7f5af933c8d04}
       \strng{authorfullhash}{07298b406bcb547208b5e4dcb50f48df}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In many ﬁelds one encounters the challenge of identifying, out of a pool of possible designs, those that simultaneously optimize multiple objectives. This means that usually there is not one optimal design but an entire set of Pareto-optimal ones with optimal tradeoﬀs in the objectives. In many applications, evaluating one design is expensive; thus, an exhaustive search for the Pareto-optimal set is unfeasible. To address this challenge, we propose the Pareto Active Learning (PAL) algorithm which intelligently samples the design space to predict the Pareto-optimal set. Key features of PAL include (1) modeling the objectives as samples from a Gaussian process distribution to capture structure and accomodate noisy evaluation; (2) a method to carefully choose the next design to evaluate to maximize progress; and (3) the ability to control prediction accuracy and sampling cost. We provide theoretical bounds on PAL's sampling cost required to achieve a desired accuracy. Further, we show an experimental evaluation on three real-world data sets. The results show PAL's eﬀectiveness; in particular it improves signiﬁcantly over a state-of-the-art multi-objective optimization method, saving in many cases about 33$\backslash${\%} evaluations to achieve the same accuracy.}

@@ -3,14 +3,14 @@
 \textit{Streszczenie: W niniejszym rozdziale przedstawiono ideę optymalizacji konstrukcji z wykorzystaniem metaheurystycznego algorytmu Particle Swarm Optimization (PSO). Na wstępie opisano optymalizację w kontekście konstrukcji budowlanych. W dalszej części przytoczono charakterystykę metody PSO w wersji jednokryterialnej. Opisano stworzoną aplikację komputerową do poszukiwania ekstremów metodą PSO i przeprowadzono test na teoretycznym przykładzie funkcji multimodalnej. Kolejno opisano rozwinięcie metody do wersji wielokryterialnej, a zaimplementowany algorytm ponownie poddano testom. Na końcu rozdziału przedstawiono rozwijane obecnie systemy optymalizacji wspomagane uczeniem maszynowym.}
 
 \section*{Wprowadzenie}
-Znalezienie najlepszej możliwej konfiguracji elementów konstrukcyjnych, zapewniającej poprawnie przeniesienie obciążeń statycznych, zapewniającej komfort dynamiczny i najlepiej możliwie taniej jest zadaniem, które na co dzień towarzyszy projektantom mostów. Takie zadanie może kojarzyć się intuicyjnie z pojęciem optymalizacji, czyli wyborem najlepszego z wielu rozwiązań, pozwalającego osiągnąć cel lub cele. \cite{Szymczak1995} określa następuje elementy, jakie powinno zawierać poprawnie sformułowane zadanie optymalizacji
-\begin{itemize}[noitemsep]
+Znalezienie najlepszej możliwej konfiguracji elementów konstrukcyjnych, zapewniającej poprawnie przeniesienie obciążeń statycznych, zapewniającej komfort dynamiczny i najlepiej możliwie taniej jest zadaniem, które na co dzień towarzyszy projektantom mostów. Takie zadanie może kojarzyć się intuicyjnie z pojęciem optymalizacji, czyli wyborem najlepszego z wielu rozwiązań, pozwalającego osiągnąć cel lub cele. Szymczak w pracy \cite{Szymczak1995} określa następuje elementy, jakie powinno zawierać poprawnie sformułowane zadanie optymalizacji
+\begin{itemize}
 	\item kryteria optymalizacji - miarę spełnienia danego celu,
 	\item parametry optymalizacji - parametry systemu, które są stałe lub niezależne od projektanta, 
 	\item zmienne projektowe - parametrów systemu zależne od projektanta,
 	\item ograniczenia - elementy określające zakres dopuszczalnych rozwiązań. 
 \end{itemize}
-Kryterium optymalizacji powinno w sposób wymierny pozwolić na ocenę danego rozwiązania. Podstawowymi kryteriami stosowanymi w przypadku konstrukcji może być koszt jej wykonania, ilość materiału czy nakład pracy. Kryterium, które decyduje o wyborze najlepszego rozwiązania nazywane jest funkcją celu. W przypadku wielu kryteriów, jednym z rozwiązań upraszających proces optymalizacji jest stworzenie jednej funkcji celu, łączącej wszystkie kryteria z zastosowaniem wag dla poszczególnych elementów. Odbywa się to zazwyczaj na zasadzie kombinacji liniowej:
+Kryterium optymalizacji powinno w sposób wymierny pozwolić na ocenę danego rozwiązania. Podstawowymi celami przyświecającymi projektantowi konstrukcji może być koszt jej wykonania, ilość zużytego materiału czy nakład pracy. Kryterium, które decyduje o wyborze najlepszego rozwiązania nazywane jest funkcją celu. W przypadku istnienia kilku istotnych funkcji celu, jednym z rozwiązań upraszających proces optymalizacji jest stworzenie jednej funkcji celu. Metoda polega na połączeniu wszystkich kryteriów z zastosowaniem wag dla poszczególnych elementów. Odbywa się to zazwyczaj na zasadzie kombinacji liniowej:
 \begin{equation}
 	F=\sum_{i=1}^{n}w_i F_i
 \end{equation}

@@ -10618,6 +10618,28 @@
       \field{title}{{Stalowy wiadukt {ł}ukowy w cia̧gu Pomorskiej Kolei Metropolitalnej}}
       \field{year}{2015}
     \endentry
+    \entry{TransprojektGdanski2014}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=827f6f37e119cc0d544b3bd076695dfa}{%
+           family={{Transprojekt Gdański}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Gdańsk}%
+      }
+      \strng{namehash}{827f6f37e119cc0d544b3bd076695dfa}
+      \strng{fullhash}{827f6f37e119cc0d544b3bd076695dfa}
+      \strng{bibnamehash}{827f6f37e119cc0d544b3bd076695dfa}
+      \strng{authorbibnamehash}{827f6f37e119cc0d544b3bd076695dfa}
+      \strng{authornamehash}{827f6f37e119cc0d544b3bd076695dfa}
+      \strng{authorfullhash}{827f6f37e119cc0d544b3bd076695dfa}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Projekt wykonawczy - Wiadukt kolejowy WK-2 - Pomorska Kolej Metropolitalna Etap I - rewitalizacja "Kolei Kokoszowskiej" Zadanie 2 - Budowa linii kolejowej na odc. od stacji Gdańsk-Wrzeszcz do Portu Lotniczego w Gdańsku}}
+      \field{year}{2014}
+    \endentry
     \entry{azinski2015}{report}{}
       \name{author}{5}{}{%
         {{hash=f838a05d3562c0dcc977c6eb01ccb29d}{%
@@ -10665,6 +10687,26 @@
       \field{title}{{Raport z próbnego obciażenia statycznego i dynamicznego Wiadukt Kolejowy WK-2 w ciagu projektownej linii PKM w Gdańsku}}
       \field{type}{techreport}
       \field{year}{2015}
+    \endentry
+    \entry{SOFiSTiK2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fefce3f2a4d5d921f5a372595f9bd91a}{%
+           family={SOFiSTiK},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{fullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{bibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authorbibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authornamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authorfullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SOFiMSHA Import and Export of Finite Elements SOFiMSHA Manual, Version 2018-15.1 Software Version SOFiSTiK 2018}}
+      \field{year}{2018}
     \endentry
     \entry{Kammer1991}{article}{}
       \name{author}{1}{}{%
@@ -10877,7 +10919,7 @@
       \strng{authorbibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
       \strng{authornamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
       \strng{authorfullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}

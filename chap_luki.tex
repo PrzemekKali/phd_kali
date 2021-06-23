@@ -204,23 +204,24 @@ Druga grupa błędów związana jest z niewłaściwym oszacowaniem parametrów m
 	\centering
 	\caption{Niepewności najistotniejszych parametrów modeli numerycznych i modalnych na podstawie \cite{Brincker2015}}
 	\footnotesize
+	\setlength\tabcolsep{0pt}
 	%\rowcolors{1}{}{gray!10}
 	%\resizebox{\textwidth}{!}{%
-		\begin{tabular}{@{}p{0.7\linewidth}  c @{}}
+		\begin{tabular}{@{}p{0.7\linewidth}  P{0.3\linewidth} @{}}
 			\toprule 
 			Własność fizyczna   & Poziom niepewności [\%] \\
 			\midrule
 			Moduł sprężystości i gęstość masy dla stali i innych metali  &    1--5    \\
 			Moduł sprężystości i gęstość masy dla betonu, drewna i materiałów zbrojonych włóknami & 5--20\\
-			Warunki brzegowe z podłożem &    10-nieskończoność     \\
-			Połączenia śrubowe & 10-nieskończoność\\
-			Połączenia spawane & 2-10\\
-			Masa całkowita & 1-5 \\
-			Określana częstotliwość drgań własnych & 0.1-0.05\\
-			Pomierzona odpowiedź & 0.2-2\\
-			Określane postaci drgań własnych & 2-5\\ 
-			Określane tłumienie & 5-20\\
-			Współczynnik skalujący postaci drgań własnych & 5-30\\
+			Warunki brzegowe w kontakcie z podłożem gruntowym &    10--nieskończoność     \\
+			Połączenia śrubowe & 10--nieskończoność\\
+			Połączenia spawane & 2--10\\
+			Masa całkowita & 1--5 \\
+			Określana częstotliwość drgań własnych & 0.1--0.05\\
+			Pomierzona odpowiedź & 0.2--2\\
+			Określane postaci drgań własnych & 2--5\\ 
+			Określane tłumienie & 5--20\\
+			Współczynnik skalujący postaci drgań własnych & 5--30\\
 			\bottomrule
 	\end{tabular}
 	\label{table:uncertainitesModel}
@@ -441,7 +442,8 @@ Na liniach kolejowych o prędkości maksymalnej mniejszej niż 200 km/h zarządc
 	\caption{Parametry modelu HSLM-A wg \cite{PKNj}}
 	\centering
 	\footnotesize
-	\begin{tabular}{@{}ccccc@{}}
+	\setlength\tabcolsep{0pt}
+	\begin{tabular}{@{} P{0.1\textwidth} *4{P{0.225\textwidth}} @{}}
 		\toprule
 		HSLM & \begin{tabular}[c]{@{}c@{}}Liczba pośrednich\\ wagonów pasażerskich \\ $N$\end{tabular} & \begin{tabular}[c]{@{}c@{}}Długość wagonu\\ pasażerskiego \\ $D$ {[}m{]}\end{tabular} & \begin{tabular}[c]{@{}c@{}}Rozstaw osi\\ wózków \\ $d$ {[}m{]}\end{tabular} & \begin{tabular}[c]{@{}c@{}}Siła skupiona \\ $P$ {[}kN{]}\end{tabular} \\ \midrule
 		A1   & 18                                                                                      & 18                                                                                    & 2,0                                                                         & 170                                                                   \\ \midrule
@@ -481,8 +483,9 @@ W dobie obliczeń za pomocą programów MES poprawne odwzorowanie sztywności or
 \begin{table}[hbt!]
 	\centering
 	\footnotesize
+	\setlength\tabcolsep{0pt}
 	\caption{Zalecane wartości liczby tłumienia według normy \cite{PKNj}}
-	\begin{tabular}{@{}ccc@{}}
+	\begin{tabular}{@{}p{0.4\textwidth} P{0.3\textwidth} P{0.3\textwidth} @{}}
 		\toprule
 		\multirow{2}{*}{Rodzaj mostu}    & \multicolumn{2}{c}{Dolna granica ułamka tłumienia {[}\%{]}} \\ \cmidrule(l){2-3} 
 		& Rozpiętość $L<20$m         & Rozpiętość $L\ge 20$ m         \\ \midrule

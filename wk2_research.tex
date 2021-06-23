@@ -298,14 +298,15 @@ Zarejestrowane sygnały poddano analizie OMA metodą NExT-ERA. Użyto autorskieg
 \begin{table}[hbt!]
 	\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2}
 	\label{tab: wk2_ident_mods}
-	\resizebox{\textwidth}{!}{%
-	\begin{tabular}{@{}lcccccccccc@{}}
+	\footnotesize
+	\setlength\tabcolsep{0pt}
+	\begin{tabular}{@{} p{0.25\linewidth} *{10}{P{0.075\linewidth}} @{}}
 	\toprule
-	\multicolumn{1}{c}{}              & \textbf{Mod 1} & \textbf{Mod 2} & \textbf{Mod 3} & \textbf{Mod 4} & \textbf{Mod 5} & \textbf{Mod 6} & \textbf{Mod 7} & \textbf{Mod 8} & \textbf{Mod 9} & \textbf{Mod 10} \\ \midrule
-	\textbf{Częstotliwość {[}Hz{]}}   & 1.468          & 2.481          & 2.551          & 2.769          & 3.435          & 4.853          & 5.809          & 5.874          & 6.132          & 7.483           \\
-	\textbf{Liczba tłumienia {[}-{]}} & 0.007          & 0.009          & 0.006          & 0.011          & 0.012          & 0.012          & 0.005          & 0.005          & 0.002          & 0.004           \\
+	\textbf{Mod}  & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} \\ \midrule
+	\textbf{Częstotliwość {[}Hz{]}}   & 1.468          & 2.481          & 2.551          & 2.769          & 3.435          & 4.853          & 5.809          & 5.874          & 6.132          & 7.483           \\ \midrule
+	\textbf{Liczba tłumienia {[}-{]}} & 0.007          & 0.009          & 0.006          & 0.011          & 0.012          & 0.012          & 0.005          & 0.005          & 0.002          & 0.004           \\ \midrule
 	\textbf{LDT {[}-{]}}              & 0.043          & 0.053          & 0.037          & 0.070          & 0.077          & 0.077          & 0.028          & 0.031          & 0.013          & 0.024           \\ \bottomrule
-\end{tabular}}
+\end{tabular}
 \end{table}
 
 
@@ -404,16 +405,17 @@ Zarejestrowane sygnały poddano analizie OMA metodą NExT-ERA. Użyto autorskieg
 \end{figure}
 
 \section{Kalibracja modelu numerycznego z wykorzystaniem PSO} \label{sect:wk2_calibration}
-Stworzony model numeryczny powstał na podstawie założeń projektowych. Wykonana identyfikacja parametrów dynamicznych i przeprowadzone badania odbiorcze pod próbnym obciążeniem dostarczyły szereg informacji o obiekcie rzeczywistym. Dzięki dostarczonym danym możliwe jest przeprowadzenie kalibracji, która sprawi, że model będzie wierniej odzwierciedlał rzeczywistą konstrukcję. Podsumowując wyznaczone i zdobyte wyniki, kalibracja opierać będzie się na następujących danych wyjściowych:
+Stworzony wstępny model numeryczny powstał z wykorzystaniem założeń projektowych. Wykonana identyfikacja parametrów dynamicznych i przeprowadzone badania odbiorcze pod próbnym obciążeniem dostarczyły szereg informacji o obiekcie w jego rzeczywistej formie. Dzięki dostarczonym danym możliwe jest przeprowadzenie kalibracji, która sprawi, że model będzie wierniej odzwierciedlał rzeczywistą konstrukcję. Kalibracja opierać będzie się na następujących danych wyjściowych:
 \begin{itemize}
-	\item przemieszczenia statyczne konstrukcji pod próbnym obciążeniem: 2 ustawienia po 6 punktów pomiarowych umiejscowionych na ściągach dźwigarów łukowych,
+	\item przemieszczenia statyczne konstrukcji pod próbnym obciążeniem: 2 ustawienia po 6 punktów pomiarowych umiejscowionych na dźwigarach-ściągach,
 	\item zidentyfikowane parametry modalne konstrukcji: 10 pierwszych częstotliwości i postaci drgań własnych oraz odpowiadające im tłumienia modalne. Postaci drgań opisane zostały za pomocą 14 współrzędnych modalnych (p. \ref{sect:choose_measuremanet_locations})
 \end{itemize}
-Zestaw danych zmierzonych w ramach obciążeń statycznych pozwoli skalibrować głównie sztywność poszczególnych elementów konstrukcji. Z kolei charakterystyki modalne, jako wartości odnoszące się do zachowania dynamicznego, związane są ze sztywnością konstrukcji, jak i masą konstrukcyjną i niekonstrukcyjną.
-Obiekty łukowe, podobnie jak kratownicowe są relatywnie złożonymi obiektami. Na ich charakterystykę dynamiczną wpływa wiele czynników, które mniej lub bardziej potrafią wpłynąć na jego parametry. Różni to je od statycznie nieskomplikowanych obiektów belkowych czy płytowych oraz od dużych obiektów wiszących i podwieszonych gdzie rozwiązania i szczegóły konstrukcyjne nie wpływają aż tak istotnie na globalne zachowanie dynamiczne konstrukcji. Dla łukowego wiaduktu WK2 wyodrębniono 22 czynniki, które będą podlegać modyfikacji w trakcie kalibracji. Podzielono je na trzy rodzaje: sztywności elementów konstrukcyjnych, sztywności warunków brzegowych oraz masy konstrukcyjne i niekonstrukcyjne. Poniżej zestawiono symbole zmiennych wraz z ich opisem:
+Przemieszczenia pozyskane z próbnych obciążeń statycznych pozwoli skalibrować głównie sztywność poszczególnych elementów konstrukcji. Z kolei parametry modalne, jako wartości odnoszące się do zachowania dynamicznego, związane są ze sztywnością konstrukcji oraz masą konstrukcyjną i niekonstrukcyjną.
+
+Obiekty łukowe, podobnie jak kratownicowe są relatywnie złożonymi obiektami. Na ich charakterystykę dynamiczną wpływa wiele czynników, które mniej lub bardziej potrafią wpłynąć na parametry modalne. Różni to je od statycznie nieskomplikowanych obiektów belkowych czy płytowych oraz od dużych obiektów wiszących i podwieszonych gdzie rozwiązania i szczegóły konstrukcyjne nie wpływają aż tak istotnie na globalne zachowanie dynamiczne konstrukcji. Dla łukowego wiaduktu WK2 wyodrębniono 22 czynniki, które będą podlegać modyfikacji w trakcie kalibracji. Podzielono je na trzy rodzaje: sztywności elementów konstrukcyjnych, sztywności warunków brzegowych oraz masy konstrukcyjne i niekonstrukcyjne. Poniżej zestawiono symbole zmiennych wraz z ich opisem:
 \begin{itemize}
 	\item Sztywności elementów konstrukcyjnych:
-	\begin{itemize}[noitemsep]
+	\begin{itemize}
 		\item S1 - łuku,
 		\item S2 - ściągu,
 		\item S3 - poprzecznic,
@@ -421,10 +423,10 @@ Obiekty łukowe, podobnie jak kratownicowe są relatywnie złożonymi obiektami.
 		\item S5 - blachy płyty ortotropowej,
 		\item S6 - stężeń górnych,
 		\item S7 - wieszaków,
-		\item S8 - elementów stanowiących usztywniających wezgłowie łuku,  
+		\item S8 - elementów stanowiących usztywniających wezgłowie łuku.
 	\end{itemize}
 	\item Sztywność warunków brzegowych (Rys. \ref{fig:boudary_conditions_stiff_bearings}):
-	\begin{itemize}[noitemsep]
+	\begin{itemize}
 		\item S21 - Oś 2, podpora A, kierunek X,
 		\item S22 - Oś 1, podpora A, kierunek Y,
 		\item S23 - Oś 1, podpora B, kierunek X,
@@ -432,10 +434,10 @@ Obiekty łukowe, podobnie jak kratownicowe są relatywnie złożonymi obiektami.
 		\item S25 - Oś 1, podpora A, kierunek X,
 		\item S26 - Oś 2, podpora A, kierunek Y,
 		\item S27 - Oś 1, podpora B, kierunek Y,
-		\item S28 - Oś 2, podpora B, kierunek Y,
+		\item S28 - Oś 2, podpora B, kierunek Y.
 	\end{itemize}
 	\item Masa elementów konstrukcyjnych i niekonstrukcyjnych:
-	\begin{itemize}[noitemsep]
+	\begin{itemize}
 		\item M1 - łuku,
 		\item M2 - ściągu,
 		\item M3 - tłucznia - część wzdłuż osi toru,
@@ -445,23 +447,23 @@ Obiekty łukowe, podobnie jak kratownicowe są relatywnie złożonymi obiektami.
 	\end{itemize}
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[hbt!]
 	\centering
 	\includegraphics[width=\textwidth]{WK2/rysunki/lozyska_sprezyny_kalibracja.pdf}
 	\captionsetup{justification=centering}
-	\caption{Schemat łożyskowania i rozmieszczenia podpór sprężystych, modyfikowanych w procesie kalibracji}
+	\caption{Projektowany schemat łożyskowania i rozmieszczenia podpór sprężystych, modyfikowanych w procesie kalibracji}
 	\label{fig:boudary_conditions_stiff_bearings}
 \end{figure}
-Niektóre z wymienionych elementów intuicyjnie nie wpływają znacząca na globalne charakterystyki modalne konstrukcji. Dotyczy to między innymi sztywności elementów pomostu czy warunków brzegowych w przypadku zastosowania łożysk mostowych. Zostały one jednak uwzględnione w niniejszej pracy jako zmienne, żeby mieć pełną kontrolę nad modyfikacjami modelu oraz żeby uwidocznić zalety zastosowanej metody kalibracji.
+Na bazie doświadczeń można stwierdzić, że liczba ujętych w rozważaniach zmiennych jest zbyt duża. Niektóre z wymienionych elementów intuicyjnie nie wpływają znacząco na globalne charakterystyki modalne konstrukcji. Dotyczy to między innymi sztywności elementów pomostu czy warunków brzegowych, w przypadku gdzie w rzeczywistości zastosowano precyzyjnie wykonane łożyska mostowe. W klasycznych metodach kalibracji analiza wrażliwości pozwoliłaby wykluczyć takie zmienne. Jednakże w niniejszej pracy pozostawiono zwiększoną liczbę zmiennych, żeby mieć pełną kontrolę nad modelem oraz uwidocznić zalety zastosowanej metody kalibracji.
 
-Kalibrację modelu postanowiono potraktować jako problem optymalizacji. Problem zdefiniowano klasycznie przez wybór funkcji celu, parametrów i zmiennych projektowych oraz ograniczeń. Funkcją celu jest miara dopasowania modelu do konstrukcji rzeczywistej pod względem odpowiedzi statycznej i charakterystyk dynamicznych. Parametry projektowe definiują model numeryczny poddawany kalibracji i zostały przyjęte na podstawie dokumentacji powykonawczej. Zmienne projektowe stanowią wymienione wyżej 22 parametry: sztywności elementów konstrukcji, warunków brzegowych i masy znajdujące się na obiekcie.  Jako metodę optymalizacji przyjęto metodę roju cząstek PSO. 
+Kalibrację modelu postanowiono potraktować jako problem optymalizacji. Problem zdefiniowano standardowo przez wybór funkcji celu, parametrów i zmiennych projektowych oraz ograniczeń. Funkcją celu jest miara dopasowania modelu do konstrukcji rzeczywistej pod względem odpowiedzi statycznej i charakterystyk dynamicznych. Parametry projektowe definiują model numeryczny poddawany kalibracji i zostały przyjęte na podstawie dokumentacji powykonawczej. Zmienne projektowe stanowią wymienione wyżej 22 parametry: sztywności elementów konstrukcji, warunków brzegowych i masy znajdujące się na obiekcie. Jako metodę optymalizacji globalnej przyjęto metodę roju cząstek PSO w wersji wielokryterialnej. 
 
 \subsection{Funkcja celu}
-Funkcja celu w zdefiniowanym problemie w założeniu powinna być miarą dopasowania modelu do konstrukcji rzeczywistej. W literaturze do kalibracji najczęściej stosowane są jednokryterialne algorytmy, w których miara dopasowania wyrażona jest jedną wartością liczbową. Wynikowa wartość jest więc najczęściej liniową kombinacją kryteriów dopasowania. W idealnym przypadku gdzie wszystkie kryteria zbiegają do najlepszego rozwiązania jednocześnie byłoby to w zupełności wystarczające podejście. Jednakże w rzeczywistości kryteria obarczone są nieuchronnym błędem. Błędy te wynikają z samej definicji modelu (uproszczeń strukturalnych i materiałowych) oraz zawarte są w wynikach identyfikacji będących wynikiem eksperymentu. Aktualnie nie jest możliwe kontrolowanie wszystkich różnic między modelem, a rzeczywistością, ponieważ wymagałoby to ogromniej liczby zmiennych. W efekcie nie wszystkie kryteria dopasowania osiągają minimalna wartość dla jednego rozwiązania. Chcąc uniknąć narzucania skali ważności na poszczególne kryteria, optymalizację wykonano w wariancie wielokryterialnym. Zbiorem funkcji celu, z których każda jest minimalizowana i opisuje dopasowanie modelu do obiektu jest wektor $\vect{F}=[f_{freq},f_{disp},f_{MAC}]$. Na wartość funkcji $f_{freq}$ wpływ ma $N$ pierwszych częstotliwości drgań własnych modelu $f_i^n$ i zidentyfikowanych na konstrukcji rzeczywistej $f_i^r$. Wyznaczana jest ona następująco:
+Funkcja celu w zdefiniowanym problemie w założeniu powinna być miarą dopasowania modelu do konstrukcji rzeczywistej. W literaturze do kalibracji najczęściej stosowane są jednokryterialne algorytmy, w których miara dopasowania wyrażona jest jedną wartością liczbową. Wynikowa wartość jest więc najczęściej liniową kombinacją kryteriów dopasowania. W idealnym przypadku gdzie wszystkie kryteria zbiegają do najlepszego rozwiązania jednocześnie byłoby to w zupełności wystarczające podejście. Jednakże w rzeczywistości każde kryterium obarczone jest niedokładnościami. Błędy te wynikają z uproszczonej formy modelu numerycznego oraz z błędów pomiaru i procesu identyfikacji. Obecnie nie jest możliwe potraktowanie każdego najmniejszego elementu modelu jako zmiennej, ponieważ wymagałoby to ogromniej liczby zmiennych. W efekcie nie wszystkie kryteria dopasowania osiągają minimalna wartość dla jednego rozwiązania. Chcąc uniknąć narzucania skali ważności (wag) na poszczególne funkcje celu, optymalizację wykonano w wariancie wielokryterialnym. Zbiorem funkcji celu, z których każda jest minimalizowana i opisuje dopasowanie modelu do obiektu jest wektor $\vect{F}=[f_{freq},f_{disp},f_{MAC}]$. Na wartość funkcji $f_{freq}$ wpływ ma $N$ pierwszych częstotliwości drgań własnych modelu $f_i^n$ i odpowiadających, zidentyfikowanych na konstrukcji rzeczywistej $f_i^r$. Wyznaczana jest ona następująco:
 \begin{equation} \label{eq:wk2_calib_f_freq}
 f_{freq}=\sum_{i=1}^{N} (f_i^n - f_i^r)^2
 \end{equation}
-Funkcja celu $f_{disp}$ związana jest z przemieszczeniami uzyskiwanymi pod działaniem obciążenia statycznego. W rozważanym przypadku wykorzystano pomiar wykonany w trakcie próbnego obciążenia. Dla dwóch ustawień, po sześć punktów pomiarowych w każdym, porównano przemieszczenia pionowe zmierzone na konstrukcji rzeczywistej $d_i^r$ z wyznaczonymi w modelu numerycznym $d_i^n$. Wartość funkcji celu związanej z przemieszczeniami konstrukcji sformułowano jako:
+Funkcja celu $f_{disp}$ związana jest z przemieszczeniami uzyskiwanymi pod działaniem obciążenia statycznego. W rozważanym przypadku wykorzystano pomiar wykonany w trakcie próbnego obciążenia. Dla dwóch ustawień, po sześć punktów pomiarowych w każdym, porównano przemieszczenia pionowe zmierzone na konstrukcji rzeczywistej $d_i^r$ z wyznaczonymi w modelu numerycznym $d_i^n$. Wartość funkcji celu związanej z przemieszczeniami konstrukcji sformułowano jako wartość bezwzględną sumy różnic:
 \begin{equation} \label{eq:wk2_calib_f_disp}
 	f_{disp}=\sum_{i=1}^{12} |d_i^n - d_i^r|
 \end{equation}
@@ -469,72 +471,83 @@ Ostatnia funkcja celu jest miarą dopasowania pierwszych $N$ postaci drgań wła
 \begin{equation} \label{eq:wk2_calib_f_mass}
 	f_{MAC}=\sum_{i=1}^{N} (1-\text{MAC}(\vect{\phi}_i^n, \vect{\phi}_i^r))^2
 \end{equation}
-gdzie $\text{MAC}(\cdot)$ oznacza kryterium MAC dwóch wektorów. Zasadniczo kryterium MAC dwóch wektorów powinno być maksymalizowane. Wszakże, dla idealnego dopasowania wektorów równe jest jedności, a dla zupełnego braku dopasowania - zeru. Jednakże, znając wartość maksymalną kryterium $\text{MAC}=1$ i stosując odejmowanie przemianowano naturalnie maksymalizowaną funkcję celu na minimalizowaną. Dzięki temu wszystkie funkcje celu będą podlegać minimalizacji - co nie jest wymagane - ale uprasza interpretację wyników oraz zmniejsza stopień komplikacji algorytmu obliczeniowego.
+gdzie $\text{MAC}(\cdot)$ oznacza kryterium MAC dwóch wektorów. Zasadniczo kryterium MAC dwóch wektorów powinno być maksymalizowane. Wszakże, dla idealnego dopasowania wektorów równe jest jedności, a dla zupełnego braku dopasowania - zeru. Jednakże, znając wartość maksymalną kryterium $\text{MAC}=1$ i stosując odejmowanie, przemianowano naturalnie maksymalizowaną funkcję celu na minimalizowaną. Dzięki temu wszystkie funkcje celu będą podlegać minimalizacji, co nie jest wymagane, ale uprasza interpretację wyników oraz zmniejsza stopień komplikacji algorytmu obliczeniowego.
 
 \subsection{Zmienne projektowe}
-Zmienne projektowe w procesie kalibracji przedstawiono w punkcie \ref{sect:wk2_calibration}. Ściślej mówiąc, po zbudowaniu modelu numerycznego nie ulegał on modyfikacjom strukturalnym w procesie optymalizacji. Wszystkie zmienne były sterowane za pomocą mnożników nakładanych na sztywności i masy zamodelowanych elementów już na etapie obliczeń. Bazowe sztywności elementów i masy wynikają z modelu i przyjęto je na podstawie dokumentacji projektowej. Z kolei sztywności podpór sprężystych początkowo ustawiono jako stosunkowo sztywne, o stałej sprężystości równej $k=1\text{E}6\text{kN/m}$. Ograniczenia dla zmiennych projektowych stanowią wartości skrajne, podyktowane doświadczeniem i zdrowym rozsądkiem Przykładowe niepewności dla różnych elementów modelu numerycznego przedstawiono w tabeli \ref{table:uncertainitesModel}. W tabelach \ref{tab:calibration_stiffness} - \ref{tab:calibration_mass} przedstawiono wszystkie zmienne projektowe (mnożniki) oraz ich zakresy dopuszczalne. Podejmując decyzję o możliwej odchyłce danej wartości wzięto pod uwagę typ elementu wykorzystanego w modelowaniu, ilość detali konstrukcyjnych pomijanych w modelu, możliwe niedokładności przy wykonaniu rzeczywistej konstrukcji oraz dokładność opisu elementu w dokumentacji projektowej. Przyjęte wartości skrajne można uznać za zawyżone, ale dzięki temu rozwiązania optymalne nie powinny być zlokalizowane blisko granicy zakresu dopuszczalnego. Zmniejsza to liczbę wymuszonych zmian położenia cząstek w trakcie optymalizacji.
+Zmienne projektowe w procesie kalibracji przedstawiono w punkcie \ref{sect:wk2_calibration}. Pomimo, że niektóre zmiene odnoszą się do sztywności elementów konstrukcyjnych i ich masy, po zbudowaniu modelu numerycznego nie ulegał on modyfikacjom strukturalnym w procesie optymalizacji. Wszystkie zmienne były sterowane za pomocą mnożników nakładanych na sztywności i masy zamodelowanych elementów. Bazowe sztywności elementów i masy wynikają z modelu i przyjęto je na podstawie dokumentacji projektowej. Z kolei sztywności podpór sprężystych początkowo ustawiono jako stosunkowo sztywne, o stałej sprężystości równej $k=1\text{E}6\text{kN/m}$. 
 
-\begin{table}[h]
+Ograniczenia dla zmiennych projektowych stanowią wartości skrajne, podyktowane doświadczeniem i zdrowym rozsądkiem. Przykładowe niepewności dla różnych elementów modelu numerycznego przedstawiono w tabeli \ref{table:uncertainitesModel}. W tabelach \ref{tab:calibration_stiffness} - \ref{tab:calibration_mass} przedstawiono wszystkie zmienne projektowe (mnożniki wartości bazowych) oraz ich zakresy dopuszczalne. Szacując wartość możliwej odchyłki zmiennej wzięto pod uwagę typ elementu wykorzystanego w modelowaniu, ilość detali konstrukcyjnych pomijanych w modelu, możliwe niedokładności przy wykonaniu rzeczywistej konstrukcji oraz dokładność opisu elementu w dokumentacji projektowej. Przyjęte wartości skrajne można uznać za zawyżone (lub zaniżone), ale dzięki temu rozwiązania optymalne nie powinny być zlokalizowane blisko granicy zakresu dopuszczalnego. Zmniejsza to liczbę wymuszonych zmian położenia cząstek w trakcie optymalizacji (p. \ref{sect:pso_def}).
+
+\begin{table}[hbt!]
 	\caption{Zakres dopuszczalnych zmian sztywności elementów konstrukcyjnych}
-	\resizebox{\textwidth}{!}{%
-	\begin{tabular}{@{}lcccccccc@{}}
-		\toprule
-		\textbf{Element}    & Łuk       & Ściąg     & Poprzecznica & Żebra   & Płyta     & Stężenia & Wieszak & Wezgłowie \\ \midrule
-		\textbf{Oznaczenie} & S1        & S2        & S3           & S4      & S5        & S6       & S7      & S8        \\ \midrule
-		\textbf{Zakres}     & $0.85-1.15$ & $0.85-1.15$ & $0.85-1.15$    & $0.80-1.2$ & $0.85-1.15$ & $0.7-1.3$  & $0.9-1.1$ & $1.0-6.0$       \\ \bottomrule
-	\end{tabular}}
 	\label{tab:calibration_stiffness}
+	\footnotesize
+	\setlength\tabcolsep{0pt}
+\begin{tabular}{@{}p{0.1\linewidth} p{0.05\linewidth} *8{P{0.10625\linewidth}}@{}}
+	\toprule
+	\multicolumn{2}{l}{\textbf{Element}}    & Łuk  & Ściąg & Poprzecz. & Żebra & Płyta & Stężenia & Wieszak & Wezgłowie \\ \midrule
+	\multicolumn{2}{l}{\textbf{Oznaczenie}} & S1   & S2    & S3           & S4    & S5    & S6       & S7      & S8        \\ \midrule
+	\multirow{2}{*}{\textbf{Zakres}}  & min & 0.85 & 0.85  & 0.85         & 0.8   & 0.85  & 0.7      & 0.9     & 1.0       \\ \cmidrule(){2-10} 
+	& max & 1.15 & 1.15  & 1.15         & 1.2   & 1.15  & 1.3      & 1.1     & 6         \\ \bottomrule
+\end{tabular}
 \end{table}
 
-\begin{table}[h]
+\begin{table}[hbt!]
+
 	\caption{Zakresy dopuszczalnych zmian sztywności warunków brzegowych}
-	\resizebox{\textwidth}{!}{%
-	\begin{tabular}{@{}lcccccccc@{}}
-		\toprule
-		\textbf{Podpora}    & 2AX                                          & 1AY                                          & 1BX                                          & 2BX                                          & 1AX                                          & 2AY                                          & 1BY                                          & 2BY                                          \\ \midrule
-		\textbf{Oznaczenie} & S21                                          & S22                                          & S23                                          & S24                                          & S25                                          & S26                                          & S27                                          & S28                                          \\ \midrule
-		\textbf{Zakres}     & $1\text{E}{-8}-1\text{E}3$ & $1\text{E}{-8}-1\text{E}3$ & $1\text{E}{-8}-1\text{E}3$ & $1\text{E}{-8}-1\text{E}3$ & $1\text{E}{-8}-1\text{E}3$ & $1\text{E}{-8}-1\text{E}3$ & $1\text{E}{-8}-1\text{E}3$ & $1\text{E}{-8}-1\text{E}3$ \\ \bottomrule
-	\end{tabular}}
+	\centering
 	\label{tab:calibration_supports}
+	\footnotesize
+	\setlength\tabcolsep{0pt}
+	\begin{tabular}{@{}p{0.1\linewidth} p{0.05\linewidth} *8{P{0.10625\linewidth}}@{}}
+		\toprule
+		\multicolumn{2}{l}{\textbf{Podpora}}    & 2AX               & 1AY               & 1BX               & 2BX               & 1AX               & 2AY               & 1BY               & 2BY               \\ \midrule
+		\multicolumn{2}{l}{\textbf{Oznaczenie}} & S21               & S22               & S23               & S24               & S25               & S26               & S27               & S28               \\ \midrule
+		\multirow{2}{*}{\textbf{Zakres}}  & min & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ \\ \cmidrule(){2-10} 
+		& max & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  \\ \bottomrule
+	\end{tabular}
 \end{table}
 
-\begin{table}[h]
-	
+
+
+\begin{table}[hbt!]
 	\caption{Zakresy dopuszczalnych zmian mass konstrukcyjnych i niekonstrukcyjnych}
-	\centering
-	\resizebox{0.7\textwidth}{!}{%
-	\begin{tabular}{@{}lcccccc@{}}
-		\toprule
-		\textbf{Element}    & Łuk     & Ściąg   & Tłuczeń 1 & Tłuczeń 2 & Pomost  & Stężenia \\ \midrule
-		\textbf{Oznaczenie} & M1      & M2      & M3        & M4        & M5      & M6       \\ \midrule
-		\textbf{Zakres}     & $0.9-1.1$ & $0.9-1.1$ & $0.5-0.8$   & $0.3-0.8$   & $0.7-1.3$ & $0.8-1.2$  \\ \bottomrule
-	\end{tabular}}
 	\label{tab:calibration_mass}
+	\footnotesize
+	\setlength\tabcolsep{0pt}
+\begin{tabular}{@{}p{0.1\linewidth} p{0.05\linewidth} *6{P{0.1417\linewidth}}@{}}
+	\toprule
+	\multicolumn{2}{l}{\textbf{Element}}    & Łuk & Ściąg & Tłuczeń 1 & Tłuczeń 2 & Pomost & Stężenia \\ \midrule 
+	\multicolumn{2}{l}{\textbf{Oznaczenie}} & M1  & M2    & M3        & M4        & M5     & M6       \\ \midrule
+	\multirow{2}{*}{\textbf{Zakres}}  & min & 0.9 & 0.9   & 0.5       & 0.3       & 0.7    & 0.8      \\ \cmidrule(){2-8} 
+	& max & 1.1 & 1.1   & 0.8       & 0.8       & 1.3    & 1.2      \\ \bottomrule
+\end{tabular}
 \end{table}
+
+
+
 \subsection{Algorytm kalibracji}
-Zaproponowane rozwiązanie kalibracji opiera się na podziale całego procesu na dwa obszary obliczeń. Pierwszy związany jest z wykorzystaniem komercyjnego oprogramowania MES SOFiSTiK. Drugi to autorskie oprogramowanie umożliwiające optymalizację rojem cząstek. Oba obszary były połączone i zarządzane przez algorytm zapisany w języku Python.
+Zaproponowane rozwiązanie kalibracji opiera się na podziale całego procesu na dwa obszary obliczeń. Pierwszy związany jest z wykorzystaniem komercyjnego oprogramowania MES SOFiSTiK, drugi to autorskie oprogramowanie umożliwiające optymalizację rojem cząstek. Oba obszary były połączone i zarządzane przez algorytm zapisany w języku Python.
 
 \subsubsection{Analizy statyczna i modalna}
-Przed przystąpieniem do optymalizacji, model numeryczny przęsła (Fig. \ref{fig: model_wk2_visualization}) przystosowano do kalibracji. Do obliczeń wykorzystano środowisko MES SOFiSTiK. Bazę danych zawierającą model MES powielono, aby stanowiła kopię zapasową w trakcie obliczeń. Do zdefiniowania obliczeń użyto program do preprocessingu tekstowego TEDDY i zapisano w nim wymagane w procesie kalibracji analizy i modyfikacje modelu. Uruchomienie instrukcji z pliku tekstowego wywoływało następujące obliczenia wykonywane przez moduł ASE \parencite{AG2018}:
+Przed przystąpieniem do optymalizacji, model numeryczny przęsła (Rys. \ref{fig: model_wk2_visualization}) przystosowano do kalibracji. Bazę danych zawierającą model MES powielono, aby stanowiła kopię zapasową w trakcie obliczeń. Do zdefiniowania obliczeń użyto program do preprocessingu tekstowego TEDDY i zapisano w nim wymagane w procesie kalibracji analizy i modyfikacje modelu. Uruchomienie instrukcji z pliku tekstowego wywoływało następujące obliczenia wykonywane przez moduł ASE \parencite{AG2018}:
 \begin{itemize}
 	\item analizę statyczną pod obciążeniem dwóch ustawień próbnego obciążenia,
-	\item analizę statyczną pod obciążeniem wszystkich dodatkowych, nieujętych w modelu detali konstrukcyjnych i wyposażenia obiektu,
-	\item analizę modalną wyznaczającą 10 pierwszych postaci drgań własnych, przy dodaniu mas od wszystkich obciążeń stałych nieujętych w ciężarze własnym modelu konstrukcji.
+	\item analizę statyczną pod obciążeniem od wszystkich dodatkowych, nieujętych w modelu detali konstrukcyjnych i wyposażenia obiektu,
+	\item teoretyczną analizę modalną wyznaczającą 10 pierwszych postaci drgań własnych, przy dodaniu mas od wszystkich obciążeń stałych nieujętych w ciężarze własnym modelu konstrukcji.
 \end{itemize}
-W każdej z analiz zastosowane zostały mnożniki zmiennych projektowych. Uruchomienie następowało w odpowiednim momencie z poziomu programu optymalizacyjnego.
+W każdej z analiz zastosowane zostały mnożniki sztywności i mas o wartościach zmiennych projektowych rozpatrywanego rozwiązania. Uruchomienie następowało w odpowiednim momencie z poziomu programu optymalizacyjnego.
 
 \subsubsection{Optymalizacja}
-Jedną z cech algorytmów metaheurystycznych jest to, że są bardzo uniwersalne. Przystosowanie zapisanego w języku programowania algorytmu do danego problemu optymalizacji zazwyczaj nie wymaga wielu modyfikacji. W kalibracji modelu wykorzystano algorytm optymalizacji wielokryterialnej rojem cząstek MOPSO (\ref{sect:MOPSO_algorithm}). Współczynniki sterujące prędkością roju przyjęto jak w domyślnej wersji algorytmu: $\theta=0.7968$, $\alpha=1.4962$ oraz $\beta=1.4962$. Populację stanowił zbiór 20 cząstek, wygenerowanych w przestrzeni rozwiązań za pomocą sekwencji Haltona. Zastosowano topologię GBEST zapewniającą pełną wymianę informacji między cząstkami na temat najlepszego rozwiązania. Wybór najlepszego rozwiązania odbywał się przez losowanie spośród cząstek budujących aktualnie Front Pareto i znajdujących się w archiwum zewnętrznego. Dodatkowo wszystkie wyznaczone rezultaty ulegały archiwizacji w bazie wiedzy \teng{knowledge base}. Dzięki temu możliwe było przerwanie obliczeń i rozpoczęcie od stanu zarchiwizowanego. Ma to istotne znaczenie w problemach o kosztownych czasowo obliczeniach funkcji celu. 
+Jedną z cech algorytmów metaheurystycznych jest to, że są bardzo uniwersalne. Przystosowanie zapisanego w języku programowania algorytmu do danego problemu optymalizacji zazwyczaj nie wymaga wielu modyfikacji. W kalibracji modelu wykorzystano algorytm optymalizacji wielokryterialnej rojem cząstek MOPSO (\ref{sect:MOPSO_algorithm}). Współczynniki sterujące prędkością roju przyjęto jak w domyślnej wersji algorytmu: $\theta=0.7968$, $\alpha=1.4962$ oraz $\beta=1.4962$. Populację stanowił zbiór 70 cząstek, wygenerowanych w przestrzeni rozwiązań za pomocą sekwencji Haltona. Zastosowano topologię GBEST zapewniającą pełną wymianę informacji między cząstkami o najlepszym rozwiązaniu. Dodatkowo wszystkie wyznaczone rezultaty ulegały archiwizacji w bazie wiedzy \teng{knowledge base}. Dzięki temu możliwe było przerwanie obliczeń i rozpoczęcie od stanu zarchiwizowanego. Ma to istotne znaczenie w problemach o kosztownych czasowo obliczeniach funkcji celu. 
 
-W celu zapewnienia dobrej dystrybucji rozwiązań Frontu Pareto zastosowano algorytm wyznaczania odległości pomiędzy cząstkami \parencite{Deb2002}. Dodatkowo wprowadzono możliwość kontroli algorytmu przez użytkownika. Zagwarantowano w trakcie prowadzenia obliczeń możliwość wstrzymania algorytmu, tymczasowego zwężenia lub poszerzenia przestrzeni rozwiązań dopuszczalnych oraz zdefiniowanie przestrzeni funkcji celu, z której musi być wybrany lider roju. Półautomatyczny system nie wymaga stałego zaangażowania użytkownika, a jednocześnie pozostawia możliwość zagęszczenia wybranych fragmentów Frontu Pareto w trakcie trwania procesu optymalizacji.
+W celu zapewnienia dobrej dystrybucji rozwiązań Frontu Pareto zastosowano algorytm wyznaczania odległości pomiędzy cząstkami \parencite{Deb2002}. Dodatkowo wprowadzono możliwość kontroli algorytmu przez użytkownika. Zagwarantowano w trakcie prowadzenia obliczeń możliwość wstrzymania algorytmu, tymczasowego zwężenia lub poszerzenia przestrzeni rozwiązań dopuszczalnych oraz zdefiniowanie przestrzeni funkcji celu, z której musi być wybrany lider roju. Półautomatyczny system nie wymaga stałego zaangażowania użytkownika, a jednocześnie pozostawia możliwość zagęszczenia wybranych obszarów Frontu Pareto w trakcie trwania procesu optymalizacji.
 
-Do wyznaczania funkcji celu dla danego rozwiązania $\vect{F}=[f_{freq},f_{disp},f_{MAC}]$ wymagana była komunikacja pomiędzy autorskim programem, a bazą danych modelu MES. W każdej iteracji optymalizacji potrzebne jest przekazanie do modelu MES zestawu mnożników będących aktualnie rozpatrywanym rozwiązaniem. Następnie po uruchomieniu i zakończeniu obliczeń przez program MES konieczne jest odczytanie częstotliwości drgań własnych, postaci drgań własnych w wybranych punktach i przemieszczeń konstrukcji pod obciążeniem próbnym. Do wczytywania 'do modelu' i odczytywania 'z modelu' potrzebnych informacji użyto interfejsu dostarczonego przez producenta SOFiSTiK AG \parencite{SOFISTIK2018}. Bazując na odczytanych danych i wprowadzonych wynikach identyfikacji modalnej i próbnego obciążenia program wyznaczał funkcje celu według formuł (\ref{eq:wk2_calib_f_freq}), (\ref{eq:wk2_calib_f_disp}) i (\ref{eq:wk2_calib_f_mass}). Wektor funkcji celu oraz przypisane mu rozwiązanie przekazywane były do algorytmu optymalizacyjnego i zarchiwizowane w bazie wiedzy.
-
-Schemat blokowy algorytmu kalibracji przedstawiono na rysunku \ref{fig:kalibracja_algoritm}. 
+Do wyznaczania funkcji celu dla danego rozwiązania $\vect{F}=[f_{freq},f_{disp},f_{MAC}]$ wymagana była komunikacja pomiędzy autorskim programem, a bazą danych modelu MES. W każdej iteracji optymalizacji potrzebne jest przekazanie do modelu MES zestawu mnożników będących aktualnie rozpatrywanym rozwiązaniem. Następnie po uruchomieniu i zakończeniu obliczeń przez program MES konieczne jest odczytanie częstotliwości drgań własnych, postaci drgań własnych w wybranych punktach i przemieszczeń konstrukcji pod obciążeniem próbnym. Do wczytywania 'do modelu' i odczytywania 'z modelu' potrzebnych informacji użyto interfejsu dostarczonego przez producenta SOFiSTiK AG \parencite{SOFISTIK2018}. Bazując na odczytanych danych i wprowadzonych wynikach identyfikacji modalnej i próbnego obciążenia program wyznaczał funkcje celu według formuł (\ref{eq:wk2_calib_f_freq}), (\ref{eq:wk2_calib_f_disp}) i (\ref{eq:wk2_calib_f_mass}). Wektor funkcji celu oraz przypisane mu rozwiązanie przekazywane były do algorytmu optymalizacyjnego i archiwizowane w bazie wiedzy. Schemat blokowy algorytmu kalibracji przedstawiono na rysunku \ref{fig:kalibracja_algoritm}. 
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=\textwidth]{WK2/kalibracja/algoritm_kalibracja.pdf}
+	\includegraphics[]{WK2/kalibracja/algoritm_kalibracja.pdf}
 	\captionsetup{justification=centering}
 	\caption{Schemat blokowy algorytmu kalibracji modelu MES wiaduktu WK2}
 	\label{fig:kalibracja_algoritm}
@@ -542,29 +555,31 @@ Schemat blokowy algorytmu kalibracji przedstawiono na rysunku \ref{fig:kalibracj
 
 
 \subsection{Rezultaty kalibracji}
-W trakcie kalibracji wyznaczono funkcję celu dla 57 551 położeń cząstek. Wszystkie wyniki zachowano w bazie wiedzy. Front Pareto po ostatniej iteracji złożony był z 802 cząstek. Na rysunku \ref{fig: calibration_pareto} pokazano Front Pareto w widoku przestrzennym i w rzutach na wszystkie płaszczyzny. Kolor cząstek oznacza sumę algebraiczną wszystkich funkcji celu $\vect{F}$. Innymi słowy oznacza on wartość funkcji $f_c$ jak dla optymalizacji jednokryterialnej $f_c = f_{freq}+f_{disp}+f_{MAC}$. Gdyby wykonać optymalizację jednokryterialną, przy osiągnięciu dokładnie tych samych położeń cząstek byłby to jedyny wynik i oznaczałby minimum globalne. Dzięki wykonaniu optymalizacji wielokryterialnej możliwy jest wybór różnych wag dla poszczególnych kryteriów oraz ocena wybranego kompromisu wśród całego zbioru równorzędnych rozwiązań.
+W trakcie kalibracji wyznaczono funkcję celu dla 57 551 położeń cząstek. Wszystkie wyniki zachowano w bazie wiedzy. Front Pareto po ostatniej iteracji złożony był z 802 cząstek. Na rysunku \ref{fig: calibration_pareto} pokazano Front Pareto w widoku przestrzennym i w rzutach na wszystkie płaszczyzny. Kolor cząstek oznacza sumę algebraiczną wszystkich funkcji celu $\vect{F}$. Innymi słowy oznacza on wartość funkcji $f_c$ jak dla optymalizacji jednokryterialnej $f_c = f_{freq}+f_{disp}+f_{MAC}$. Gdyby wykonać optymalizację jednokryterialną, przy osiągnięciu dokładnie tych samych położeń cząstek byłby to jedyny wynik i oznaczałby minimum globalne. Dzięki wykonaniu optymalizacji wielokryterialnej możliwy jest wybór różnych wag dla poszczególnych kryteriów oraz ocena wybranego kompromisu wśród całego zbioru rozwiązań optymalnych.
 
-\begin{figure}[h]
+\begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[trim =3 5 5 10 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_AXO.pdf} \label{fig: calibration_paretoa}}
-	\subfloat[]{\includegraphics[trim =10 10 5 5 ,clip ,width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XY.pdf} \label{fig: calibration_paretob}} \\
-	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_YZ.pdf} \label{fig: calibration_paretoc}}
-	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XZ.pdf} \label{fig: calibration_paretod}}
+	%width=0.48\linewidth
+	\subfloat[]{\includegraphics[trim =3 5 5 10 ,clip]{/WK2/kalibracja/fig_all_paricles_AXO.pdf} \label{fig: calibration_paretoa}}
+	\subfloat[]{\includegraphics[trim =20 10 5 10 ,clip]{/WK2/kalibracja/fig_all_paricles_XY.pdf} \label{fig: calibration_paretob}} \\
+	\subfloat[]{\includegraphics[trim =15 10 5 20 ,clip]{/WK2/kalibracja/fig_all_paricles_YZ.pdf} \label{fig: calibration_paretoc}}
+	\subfloat[]{\includegraphics[trim =20 10 5 20 ,clip]{/WK2/kalibracja/fig_all_paricles_XZ.pdf} \label{fig: calibration_paretod}}
 	\captionsetup{justification=centering}
 	\caption{Ostateczny Front Pareto procesu optymalizacji w problemie kalibracji modelu numerycznego wiaduktu WK2: (a) widok przestrzenny, (b) rzut na płaszczyznę $f_{freq}f_{disp}$, (c) rzut na płaszczyznę $f_{disp}f_{MAC}$, (d) rzut na płaszczyznę $f_{freq}f_{MAC}$. Kolor wyraża wartość sumy: $f_c = f_{freq}+f_{disp}+f_{MAC}$ }
 	\label{fig: calibration_pareto}
 \end{figure}
 
-W tabeli \ref{tab:minimal_values_calibration} pokazano otrzymane w optymalizacji minimalne wartości poszczególnych funkcji celu wraz z odpowiadającymi im wartościami pozostałych funkcji. Pogrubiona liczba oznacza decydującą o wyborze zestawu, minimalną wartość danej funkcji celu wśród wszystkich obliczonych wariantów. Aby posiadać punkt odniesienia wyznaczono również wartości wszystkich funkcji celu dla modelu bazowego opisanego w punkcie \ref{sect:wk2_basic_num_model} (Zestaw 0). Najmniejszą wartość sumy uzyskano równą $f_c=6.5440$ (Zestaw 4). Wartości w tabeli wyraźnie wskazują na kompromisowość tego rozwiązania. W porównaniu do wartości zestawów 1-3 wszystkie wartości każdej z funkcji celu mieszczą się bliżej wartości minimalnych, niż maksymalnych z wartości odpowiadających. Bazując jedynie na przedstawionych w tabeli punktach o minimalnych funkcjach celu (zestawy 1-3) wybór jakiegokolwiek z nich wiązałby się z akceptacją dużej wartości któregoś z pozostałych kryteriów. Widoczne jest to również na rysunkach \ref{fig: calibration_paretoa}-\ref{fig: calibration_paretob}. Z tego powodu, spośród przedstawionych w tabeli wyników kompromisowe rozwiązanie wydaje się być słusznym wyborem. 
+W tabeli \ref{tab:minimal_values_calibration} pokazano otrzymane w optymalizacji minimalne wartości poszczególnych funkcji celu wraz z odpowiadającymi im wartościami pozostałych funkcji. Pogrubiona liczba jest decydującą o wyborze danego zestawu wśród wszystkich obliczonych rozwiązań. Aby posiadać punkt odniesienia wyznaczono również wartości wszystkich funkcji celu dla modelu bazowego opisanego w punkcie \ref{sect:wk2_basic_num_model} (Zestaw 0). Najmniejszą wartość sumy uzyskano równą $f_c=6.5440$ dla zestawu 4. Wartości w tabeli wyraźnie wskazują na kompromisowość tego rozwiązania. W porównaniu do wartości zestawów 1-3, wszystkie wartości każdej z funkcji celu mieszczą się blisko wartości minimalnych. W odróżnieniu od zestawów minimalnych, żadna z funkcji nie jest nieakceptowalnie duża. Bazując jedynie na przedstawionych w tabeli punktach o minimalnych funkcjach celu (zestawy 1-3) wybór jakiegokolwiek z nich wiązałby się z akceptacją dużej wartości któregoś z pozostałych kryteriów. Widoczne jest to również na rysunkach \ref{fig: calibration_paretoa}-\ref{fig: calibration_paretod}. Z tego powodu, spośród przedstawionych w tabeli wyników kompromisowe rozwiązanie wydaje się być słusznym wyborem. 
 
-\begin{table}[]
-	\small
+\begin{table}[hbt!]
 	\caption{Zestawienie minimalnych i odpowiadających funkcji celu uzyskanych w optymalizacji wielokryterialnej problemu kalibracji}
 	\centering
-	\begin{tabular}{@{}ccccc@{}}
-		
+	%\begin{tabular}{@{}ccccc@{}}
+	\footnotesize
+	\setlength\tabcolsep{0pt}
+	\begin{tabular}{@{}P{0.2\linewidth} *4{P{0.2\linewidth}}@{}}	
 		\toprule
-		Zestaw & \textbf{$f_{freq}$} & \textbf{$f_{MAC}$} & \textbf{$f_{disp}$} & \textbf{$f_{c}$} \\ \midrule
+		\textbf{Zestaw} & \textbf{$f_{freq}$} & \textbf{$f_{MAC}$} & \textbf{$f_{disp}$} & \textbf{$f_{c}$} \\ \midrule
 		0 & 0.4075			& 2.5891		  & 5.8437		   & 8.8403			\\ \midrule
 		1 & \textbf{0.0088} & 4.4674          & 10.5679        & 15.0441           \\ \midrule
 		2 & 0.0758          & \textbf{1.3533} & 17.3502        & 18.7793       \\ \midrule
@@ -574,11 +589,11 @@ W tabeli \ref{tab:minimal_values_calibration} pokazano otrzymane w optymalizacji
 	\label{tab:minimal_values_calibration}
 \end{table}
 
-Opierając swój ostateczny wybór rozwiązania na podstawie wyłącznie wartości sumy funkcji celu należy zwrócić uwagę na ryzyka z tym związane. Wartości funkcji celu nie są znormalizowane oraz w ogólnością są trudno porównywalne, ponieważ wyrażone są w różnych jednostkach. Dodatkowo w przedmiotowym przypadku wszystkie funkcje celu opierają się na porównaniu rozwiązania teoretycznego z wynikiem rzeczywistego eksperymentu. Prawdopodobieństwo i skala błędnego określenia różnych parametrów w trakcie pomiarów jest również istotnie różna. Na przykład identyfikacja częstotliwości drgań własnych zazwyczaj sprawia najmniejsze trudności i ryzyko wystąpienia błędu jest relatywnie małe. Z kolei w przedmiotowym przypadku występuje duże ryzyko wystąpienia istotnych błędów w wyznaczonych postaciach drgań własnych. Spowodowane jest to stosunkowo niewielką liczbą punktów pomiarowych i brakiem punków w wyższych partiach dźwigarów łukowych. Oba te czynniki wpływają negatywnie na decydujące o jednej z funkcji celu kryterium MAC. Ostatnia z funkcji celu opiera się wynikach pomiaru przemieszczeń w trakcie próbnych obciążeń. Autorzy raportu \ref{} na bazie długoletniego doświadczenia w pomiarach obiektów kolejowych wspominają, że wyniki mogą być obciążone istotnym błędem w punkach, które uległy uniesieniu od niesymetrycznego obciążenia. Powyższe błędy wynikają z niedoskonałości eksperymentów. Z drugiej strony istnieje ryzyko popełnienia błędu w trakcie modelowania numerycznego. Dla tak skomplikowanej struktury przestrzennej jak konstrukcja łukowa występuje olbrzymia liczba parametrów wpływających na rezultaty analizy modalnej. W kalibracji uwzględniono 22 zmienne, obejmujące bardzo znaczące dla parametrów dynamicznych elementy, jak również intuicyjnie mało znaczące. Pomimo użycia relatywnie wielu zmiennych, wciąż nie uwzględniono szerokiego spektrum zmiennych mogących wpłynąć na sztywność i dynamikę obiektu. Dla elementów konstrukcyjnych są to między innymi sztywności połączeń, trudne do określenia odchyłki od wymiarów czy zmienność sztywności wskutek lokalnych wzmocnień. Jeszcze większe wątpliwości budzi rozkład masy i wymiarów elementów wyposażenia - zwłaszcza podsypki. Z punktu widzenia porównania ugięć, tor umiejscowiony na obiekcie w łuku poziomym może nie przystawać idealnie do osi projektowanej użytej w modelu. Również ustawienie pojazdów w trakcie obciążenia oraz ich masa mogą nieznacznie różnić się od modelowanego obciążenia. Biorąc pod uwagę możliwe wystąpienia błędów w każdym kryterium, nieustępliwe dążenie do minimalizacji jednego z nich bez uwzględniania pozostałych, może skutkować błędnymi rezultatami. Ostatecznie idealne dopasowanie do obarczonych błędem wartości prowadzi do błędnych rezultatów.
+Opierając swój ostateczny wybór rozwiązania na podstawie wyłącznie wartości sumy funkcji celu należy zwrócić uwagę na ryzyka z tym związane. Metoda ta odpowiada równej wartości wag dla każdej z funkcji celu. Wartości funkcji celu nie są znormalizowane oraz w ogólności są trudno porównywalne, ponieważ wyrażone są w różnych jednostkach. Dodatkowo w przedmiotowym przypadku wszystkie funkcje celu opierają się na porównaniu rozwiązania teoretycznego z wynikiem rzeczywistego eksperymentu. Prawdopodobieństwo i skala błędnego określenia różnych parametrów w trakcie badań i identyfikacji są również różne. Na przykład identyfikacja częstotliwości drgań własnych zazwyczaj sprawia najmniejsze trudności i ryzyko wystąpienia błędu jest relatywnie małe. Z kolei w przedmiotowym przypadku występuje duże ryzyko wystąpienia istotnych błędów w wyznaczonych postaciach drgań własnych. Spowodowane jest to stosunkowo niewielką liczbą punktów pomiarowych i brakiem punków w wyższych partiach dźwigarów łukowych. Oba te czynniki wpływają negatywnie na funkcję celu kryterium MAC. Ostatnie kryterium opiera się wynikach pomiaru przemieszczeń w trakcie próbnych obciążeń. Autorzy raportu \parencite{Salamak2014} na bazie długoletniego doświadczenia w pomiarach obiektów kolejowych wspominają, że wyniki mogą być obciążone istotnym błędem w punkach, które uległy uniesieniu od niesymetrycznego obciążenia. Wszystkie powyższe błędy wynikają z niedoskonałości eksperymentów i metod pomiarowych. Z drugiej strony istnieje ryzyko popełnienia błędu w trakcie modelowania numerycznego. Dla tak skomplikowanej struktury przestrzennej jak konstrukcja łukowa występuje olbrzymia liczba parametrów wpływających na rezultaty analizy modalnej. W kalibracji uwzględniono 22 zmienne, obejmujące bardzo znaczące dla parametrów dynamicznych elementy, jak również intuicyjnie mało znaczące. Pomimo użycia relatywnie wielu zmiennych, wciąż nie uwzględniono szerokiego spektrum zmiennych mogących wpłynąć na sztywność i dynamikę obiektu. Dla elementów konstrukcyjnych są to między innymi sztywności niektórych połączeń, trudne do określenia odchyłki od wymiarów czy zmienność sztywności wskutek lokalnych wzmocnień. Jeszcze większe wątpliwości budzi rozkład masy i wymiarów elementów wyposażenia - zwłaszcza podsypki. Tor jest umiejscowiony na obiekcie w łuku poziomym i może nie przystawać idealnie do osi projektowanej użytej w modelu. Również ustawienie pojazdów w trakcie obciążenia oraz ich masa mogą nieznacznie różnić się od modelowanego obciążenia. Biorąc pod uwagę możliwe wystąpienia błędów w każdym kryterium, nieustępliwe dążenie do minimalizacji jednego z nich bez uwzględniania pozostałych, może skutkować błędnymi rezultatami. Ostatecznie idealne dopasowanie do wyników obarczonych błędem prowadzi do błędnych wniosków.
 
-Z wyżej wymienionych powodów skupiono się na wynikach pośrednich odrzucając skrajne wartości występujące wśród rozwiązań Frontu Pareto. Przeanalizowano wybrane punkty pod względem rozwiązań w przestrzeni zmiennych projektowych. Analizując kształt Frontu Pareto wybrano punkty znajdujące się w jego , które pozwalają na wybór akceptowalnych rezultatów. Ostatecznie przyjęto następujące przedziały: $f_{freq} \in (0,0.2)$, $f_{disp} \in (0,1.8)$ i $f_{MAC} \in (0,4.5)$. Na rysunku \ref{fig: calibration_selected} pokazano wybrane punkty. Zaznaczono je kolorem czerwonym. Zielonym prostopadłościanem zakreślono przestrzeń zawierającą wszystkie wybrane punkty. W zadanym zakresie znalazły się 22 punkty Frontu Pareto. Dla wybranych punktów odczytano wartości zmiennych projektowych z zestawu Pareto. Następnie wyznaczono średnie wartości oraz odchylenie standardowe dla zmiennych projektowych wybranych punków. 
+Z wyżej wymienionych powodów skupiono się na wynikach pośrednich odrzucając skrajne wartości występujące wśród rozwiązań Frontu Pareto. Analizując kształt Frontu Pareto wybrano punkty, które wizualnie charakteryzują się najlepszym kompromisem. Ostatecznie przyjęto następujące przedziały: $f_{freq} \in (0,0.2)$, $f_{disp} \in (0,1.8)$ i $f_{MAC} \in (0,4.5)$. Na rysunku \ref{fig: calibration_selected} wybrane punkty zaznaczono kolorem czerwonym. Zieloną elipsoidą ograniczono zestaw prostopadłościanem zakreślono przestrzeń zawierającą wszystkie wybrane punkty. W zadanym zakresie znalazły się 22 punkty Frontu Pareto. Dla wybranych punktów odczytano wartości zmiennych projektowych z zestawu Pareto. Następnie wyznaczono średnie wartości oraz odchylenie standardowe dla zmiennych projektowych wybranych punków. 
 
-\begin{figure}[h]
+\begin{figure}[hbt!]
 	\centering
 	\subfloat[]{\includegraphics[trim =3 5 5 10 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_AXO_selected.pdf} }
 	\subfloat[]{\includegraphics[trim =10 10 5 5 ,clip ,width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XY_selected.pdf} } \\
@@ -674,6 +689,7 @@ Przedstawione w tabeli zgodności są zadowalające i model został użyty w dal
 	\end{tabular}
 	\label{tab:wk2_simp_comparison}
 \end{table}
+
 \begin{figure}[h]
 	\centering
 	\subfloat[$f_1=2.49\,\text{Hz}$]{\includegraphics[width=0.5\textwidth]{/WK2/model_upr/plaski_ogolny_mod_1.jpg} }

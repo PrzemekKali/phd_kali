@@ -487,8 +487,8 @@ Ograniczenia dla zmiennych projektowych stanowią wartości skrajne, podyktowane
 	\toprule
 	\multicolumn{2}{l}{\textbf{Element}}    & Łuk  & Ściąg & Poprzecz. & Żebra & Płyta & Stężenia & Wieszak & Wezgłowie \\ \midrule
 	\multicolumn{2}{l}{\textbf{Oznaczenie}} & S1   & S2    & S3           & S4    & S5    & S6       & S7      & S8        \\ \midrule
-	\multirow{2}{*}{\textbf{Zakres}}  & min & 0.85 & 0.85  & 0.85         & 0.8   & 0.85  & 0.7      & 0.9     & 1.0       \\ \cmidrule(){2-10} 
-	& max & 1.15 & 1.15  & 1.15         & 1.2   & 1.15  & 1.3      & 1.1     & 6         \\ \bottomrule
+	\multirow{2}{*}{\textbf{Zakres}}  & min & 0.80 & 0.85  & 0.70         & 0.7   & 0.9  & 0.7      & 0.9     & 1.0       \\ \cmidrule(){2-10} 
+	& max & 1.15 & 1.30  & 1.30         & 1.30   & 1.10  & 1.3      & 1.1     & 10         \\ \bottomrule
 \end{tabular}
 \end{table}
 
@@ -503,8 +503,8 @@ Ograniczenia dla zmiennych projektowych stanowią wartości skrajne, podyktowane
 		\toprule
 		\multicolumn{2}{l}{\textbf{Podpora}}    & 2AX               & 1AY               & 1BX               & 2BX               & 1AX               & 2AY               & 1BY               & 2BY               \\ \midrule
 		\multicolumn{2}{l}{\textbf{Oznaczenie}} & S21               & S22               & S23               & S24               & S25               & S26               & S27               & S28               \\ \midrule
-		\multirow{2}{*}{\textbf{Zakres}}  & min & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ & $1\mathrm{E}{-8}$ \\ \cmidrule(){2-10} 
-		& max & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  & $1\mathrm{E}{3}$  \\ \bottomrule
+		\multirow{2}{*}{\textbf{Zakres}}  & min & $1\mathrm{E}{-9}$ & $1\mathrm{E}{-9}$ & $1\mathrm{E}{-9}$ & $1\mathrm{E}{-9}$ & $1\mathrm{E}{-9}$ & $1\mathrm{E}{-9}$ & $1\mathrm{E}{-9}$ & $1\mathrm{E}{-9}$ \\ \cmidrule(){2-10} 
+		& max & $1\mathrm{E}{9}$  & $1\mathrm{E}{9}$  & $1\mathrm{E}{9}$  & $1\mathrm{E}{9}$  & $1\mathrm{E}{9}$  & $1\mathrm{E}{9}$  & $1\mathrm{E}{9}$  & $1\mathrm{E}{9}$  \\ \bottomrule
 	\end{tabular}
 \end{table}
 
@@ -519,8 +519,8 @@ Ograniczenia dla zmiennych projektowych stanowią wartości skrajne, podyktowane
 	\toprule
 	\multicolumn{2}{l}{\textbf{Element}}    & Łuk & Ściąg & Tłuczeń 1 & Tłuczeń 2 & Pomost & Stężenia \\ \midrule 
 	\multicolumn{2}{l}{\textbf{Oznaczenie}} & M1  & M2    & M3        & M4        & M5     & M6       \\ \midrule
-	\multirow{2}{*}{\textbf{Zakres}}  & min & 0.9 & 0.9   & 0.5       & 0.3       & 0.7    & 0.8      \\ \cmidrule(){2-8} 
-	& max & 1.1 & 1.1   & 0.8       & 0.8       & 1.3    & 1.2      \\ \bottomrule
+	\multirow{2}{*}{\textbf{Zakres}}  & min & 0.6 & 0.6   & 0.5       & 0.3       & 0.3    & 0.5      \\ \cmidrule(){2-8} 
+	& max & 1.2 & 1.2   & 0.9       & 0.9       & 1.2    & 3.0      \\ \bottomrule
 \end{tabular}
 \end{table}
 
@@ -555,7 +555,7 @@ Do wyznaczania funkcji celu dla danego rozwiązania $\vect{F}=[f_{freq},f_{disp}
 
 
 \subsection{Rezultaty kalibracji}
-W trakcie kalibracji wyznaczono funkcję celu dla 57 551 położeń cząstek. Wszystkie wyniki zachowano w bazie wiedzy. Front Pareto po ostatniej iteracji złożony był z 802 cząstek. Na rysunku \ref{fig: calibration_pareto} pokazano Front Pareto w widoku przestrzennym i w rzutach na wszystkie płaszczyzny. Kolor cząstek oznacza sumę algebraiczną wszystkich funkcji celu $\vect{F}$. Innymi słowy oznacza on wartość funkcji $f_c$ jak dla optymalizacji jednokryterialnej $f_c = f_{freq}+f_{disp}+f_{MAC}$. Gdyby wykonać optymalizację jednokryterialną, przy osiągnięciu dokładnie tych samych położeń cząstek byłby to jedyny wynik i oznaczałby minimum globalne. Dzięki wykonaniu optymalizacji wielokryterialnej możliwy jest wybór różnych wag dla poszczególnych kryteriów oraz ocena wybranego kompromisu wśród całego zbioru rozwiązań optymalnych.
+W trakcie kalibracji wyznaczono funkcję celu dla 97 867 położeń cząstek. Wszystkie wyniki zachowano w bazie wiedzy. Front Pareto po ostatniej iteracji złożony był z 8100 cząstek. Na rysunku \ref{fig: calibration_pareto} pokazano Front Pareto w widoku przestrzennym i w rzutach na wszystkie płaszczyzny. Kolor cząstek oznacza sumę algebraiczną wszystkich funkcji celu $\vect{F}$. Innymi słowy, oznacza on wartość funkcji $f_c$ jak dla optymalizacji jednokryterialnej o funkcji celu $f_c = f_{freq}+f_{disp}+f_{MAC}$. Gdyby wykonać optymalizację jednokryterialną, przy osiągnięciu dokładnie tych samych położeń cząstek byłby to jedyny wynik i oznaczałby minimum globalne. Dzięki wykonaniu optymalizacji wielokryterialnej możliwy jest wybór różnych wag dla poszczególnych kryteriów oraz ocena wybranego kompromisu wśród całego zbioru rozwiązań optymalnych.
 
 \begin{figure}[hbt!]
 	\centering
@@ -593,7 +593,7 @@ Opierając swój ostateczny wybór rozwiązania na podstawie wyłącznie wartoś
 
 Z wyżej wymienionych powodów skupiono się na wynikach pośrednich odrzucając skrajne wartości występujące wśród rozwiązań Frontu Pareto. Analizując kształt Frontu Pareto wybrano punkty, które wizualnie charakteryzują się najlepszym kompromisem. Ostatecznie przyjęto następujące przedziały: $f_{freq} \in (0,0.2)$, $f_{disp} \in (0,1.8)$ i $f_{MAC} \in (0,4.5)$. Na rysunku \ref{fig: calibration_selected} wybrane punkty zaznaczono kolorem czerwonym. Zieloną elipsoidą ograniczono zestaw prostopadłościanem zakreślono przestrzeń zawierającą wszystkie wybrane punkty. W zadanym zakresie znalazły się 22 punkty Frontu Pareto. Dla wybranych punktów odczytano wartości zmiennych projektowych z zestawu Pareto. Następnie wyznaczono średnie wartości oraz odchylenie standardowe dla zmiennych projektowych wybranych punków. 
 
-\begin{figure}[hbt!]
+\begin{figure}[H]
 	\centering
 	\subfloat[]{\includegraphics[trim =3 5 5 10 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_AXO_selected.pdf} }
 	\subfloat[]{\includegraphics[trim =10 10 5 5 ,clip ,width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XY_selected.pdf} } \\
@@ -602,6 +602,38 @@ Z wyżej wymienionych powodów skupiono się na wynikach pośrednich odrzucając
 	\captionsetup{justification=centering}
 	\caption{Ostateczny Front Pareto procesu optymalizacji w problemie kalibracji modelu numerycznego wiaduktu WK2: (a) widok przestrzenny, (b) rzut na płaszczyznę $f_{freq}f_{disp}$, (c) rzut na płaszczyznę $f_{disp}f_{MAC}$, (d) rzut na płaszczyznę $f_{freq}f_{MAC}$. Czerwone punkty zostały wybrane do analizy jako kompromisowe.}
 	\label{fig: calibration_selected}
+\end{figure}
+
+\begin{figure}[p]
+	\centering
+	%width=0.48\linewidth
+\subfloat[S1]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_1.pdf}  \label{fig: hist_cal_1}}
+\subfloat[S2]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_2.pdf}  \label{fig: hist_cal_2}}
+\subfloat[S3]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_3.pdf}  \label{fig: hist_cal_3}}
+\subfloat[S4]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_4.pdf}  \label{fig: hist_cal_4}} \\
+\subfloat[S5]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_5.pdf}  \label{fig: hist_cal_5}}
+\subfloat[S6]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_6.pdf}  \label{fig: hist_cal_6}}
+\subfloat[S7]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_7.pdf}  \label{fig: hist_cal_7}}
+\subfloat[S8]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_8.pdf}  \label{fig: hist_cal_8}} \\ 
+\subfloat[S21]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_9.pdf}  \label{fig: hist_cal_9}}
+\subfloat[S22]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_10.pdf}  \label{fig: hist_cal_10}}
+\subfloat[S23]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_11.pdf}  \label{fig: hist_cal_11}}
+\subfloat[S24]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_12.pdf}  \label{fig: hist_cal_12}} \\
+\subfloat[S25]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_13.pdf}  \label{fig: hist_cal_13}}
+\subfloat[S26]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_14.pdf}  \label{fig: hist_cal_14}}
+\subfloat[S27]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_15.pdf}  \label{fig: hist_cal_15}}
+\subfloat[S28]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_16.pdf}  \label{fig: hist_cal_16}} \\
+\subfloat[M1]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_17.pdf}  \label{fig: hist_cal_17}}
+\subfloat[M2]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_18.pdf}  \label{fig: hist_cal_18}}
+\subfloat[M3]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_19.pdf}  \label{fig: hist_cal_19}}
+\subfloat[M4]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_20.pdf}  \label{fig: hist_cal_20}} \\
+\subfloat[M5]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_21.pdf}  \label{fig: hist_cal_21}}
+\subfloat[M6]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_22.pdf}  \label{fig: hist_cal_22}}
+
+		
+	\captionsetup{justification=centering}
+	\caption{}
+	\label{fig: calibration_histogramy}
 \end{figure}
 
 

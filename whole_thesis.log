@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.28)  23 JUN 2021 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.28)  24 JUN 2021 16:10
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -5320,38 +5320,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [135 <./figures//WK2/kalibracja/algoritm_kalibracja.pdf>]
-<./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf, id=7606, 219.48299pt x 16
-7.95549pt>
+<./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf, id=7606, 227.11047pt x 16
+8.10905pt>
 File: ./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf Graphic file (type pd
 f)
 <use ./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf>
 Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_AXO.pdf  u
 sed on input line 563.
-(pdftex.def)             Requested size: 211.45244pt x 152.89882pt.
-<./figures///WK2/kalibracja/fig_all_paricles_XY.pdf, id=7608, 219.48299pt x 167
-.95549pt>
+(pdftex.def)             Requested size: 219.07991pt x 153.0524pt.
+<./figures///WK2/kalibracja/fig_all_paricles_XY.pdf, id=7608, 209.95439pt x 171
+.67337pt>
 File: ./figures///WK2/kalibracja/fig_all_paricles_XY.pdf Graphic file (type pdf
 )
 <use ./figures///WK2/kalibracja/fig_all_paricles_XY.pdf>
 Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_XY.pdf  us
 ed on input line 564.
-(pdftex.def)             Requested size: 194.38869pt x 147.88007pt.
-<./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf, id=7610, 219.48299pt x 167
-.95549pt>
+(pdftex.def)             Requested size: 184.86012pt x 151.59796pt.
+<./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf, id=7610, 209.95439pt x 168
+.09901pt>
 File: ./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf Graphic file (type pdf
 )
 <use ./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf>
 Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_YZ.pdf  us
 ed on input line 565.
-(pdftex.def)             Requested size: 199.40744pt x 137.84258pt.
-<./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf, id=7612, 219.48299pt x 167
-.95549pt>
+(pdftex.def)             Requested size: 189.87888pt x 137.9861pt.
+<./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf, id=7612, 209.95439pt x 168
+.09901pt>
 File: ./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf Graphic file (type pdf
 )
 <use ./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf>
 Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_XZ.pdf  us
 ed on input line 566.
-(pdftex.def)             Requested size: 194.38869pt x 137.84258pt.
+(pdftex.def)             Requested size: 184.86012pt x 137.9861pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5406,6 +5406,9 @@ Package pdftex.def Info: ./figures///WK2/kalibracja/fig_all_paricles_XZ_selecte
 d.pdf  used on input line 601.
 (pdftex.def)             Requested size: 204.85802pt x 169.67398pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -5415,54 +5418,185 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [138]
+<./figures///WK2/kalibracja/fig_hist_param_1.pdf, id=7705, 107.74454pt x 93.795
+43pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_1.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_1.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_1.pdf  used 
+on input line 610.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
+<./figures///WK2/kalibracja/fig_hist_param_2.pdf, id=7707, 107.74454pt x 93.795
+43pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_2.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_2.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_2.pdf  used 
+on input line 611.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
+<./figures///WK2/kalibracja/fig_hist_param_3.pdf, id=7709, 107.74454pt x 93.795
+43pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_3.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_3.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_3.pdf  used 
+on input line 612.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
+<./figures///WK2/kalibracja/fig_hist_param_4.pdf, id=7711, 107.74454pt x 93.795
+43pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_4.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_4.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_4.pdf  used 
+on input line 613.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
 
-pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_elementu_lu
-k.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
-ed
-<./figures///WK2/rysunki/przekroj_elementu_luk.pdf, id=7706, 90.03035pt x 132.2
-3102pt>
-File: ./figures///WK2/rysunki/przekroj_elementu_luk.pdf Graphic file (type pdf)
-
-<use ./figures///WK2/rysunki/przekroj_elementu_luk.pdf>
-Package pdftex.def Info: ./figures///WK2/rysunki/przekroj_elementu_luk.pdf  use
-d on input line 624.
-(pdftex.def)             Requested size: 90.03012pt x 132.23068pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_elementu_sc
-iag.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
-owed
-<./figures///WK2/rysunki/przekroj_elementu_sciag.pdf, id=7707, 91.26094pt x 190
-.43446pt>
-File: ./figures///WK2/rysunki/przekroj_elementu_sciag.pdf Graphic file (type pd
-f)
-<use ./figures///WK2/rysunki/przekroj_elementu_sciag.pdf>
-Package pdftex.def Info: ./figures///WK2/rysunki/przekroj_elementu_sciag.pdf  u
-sed on input line 625.
-(pdftex.def)             Requested size: 91.26071pt x 190.43399pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_elementu_wi
-eszak.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> a
-llowed
-<./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf, id=7708, 67.52327pt x 8
-3.34839pt>
-File: ./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf Graphic file (type 
-pdf)
-<use ./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf>
-Package pdftex.def Info: ./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf 
- used on input line 626.
-(pdftex.def)             Requested size: 67.52309pt x 83.34818pt.
-
-Overfull \hbox (2.77397pt too wide) in paragraph at lines 621--631
-\T1/cmr/m/n/12 które sta-no-wi¡ zmienne pro-jek-towe pro-blemu opty-ma-li-za-cj
-i $\OML/plm/b/it/12 X \OT4/cmr/m/n/12 = [\OML/plm/m/it/12 h[]; h[]; d[]\OT4/cmr
-/m/n/12 ]$\T1/cmr/m/n/12 . Zmienne
+Overfull \hbox (15.66283pt too wide) in paragraph at lines 610--613
+ [][][][][][][][] 
  []
 
+<./figures///WK2/kalibracja/fig_hist_param_5.pdf, id=7713, 107.74454pt x 93.795
+43pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_5.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_5.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_5.pdf  used 
+on input line 614.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
+<./figures///WK2/kalibracja/fig_hist_param_6.pdf, id=7715, 107.74454pt x 93.795
+43pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_6.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_6.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_6.pdf  used 
+on input line 615.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
+<./figures///WK2/kalibracja/fig_hist_param_7.pdf, id=7717, 107.74454pt x 93.795
+43pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_7.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_7.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_7.pdf  used 
+on input line 616.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
+<./figures///WK2/kalibracja/fig_hist_param_8.pdf, id=7719, 109.8775pt x 95.3402
+pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_8.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_8.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_8.pdf  used 
+on input line 617.
+(pdftex.def)             Requested size: 106.69783pt x 79.41269pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (15.66283pt too wide) in paragraph at lines 614--617
+ [][][][][][][][] 
+ []
 
+<./figures///WK2/kalibracja/fig_hist_param_9.pdf, id=7721, 107.74454pt x 93.795
+43pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_9.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_9.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_9.pdf  used 
+on input line 618.
+(pdftex.def)             Requested size: 106.69783pt x 80.4691pt.
+<./figures///WK2/kalibracja/fig_hist_param_10.pdf, id=7723, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_10.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_10.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_10.pdf  used
+ on input line 619.
+(pdftex.def)             Requested size: 106.69783pt x 80.4691pt.
+<./figures///WK2/kalibracja/fig_hist_param_11.pdf, id=7725, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_11.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_11.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_11.pdf  used
+ on input line 620.
+(pdftex.def)             Requested size: 106.69783pt x 80.4691pt.
+<./figures///WK2/kalibracja/fig_hist_param_12.pdf, id=7727, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_12.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_12.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_12.pdf  used
+ on input line 621.
+(pdftex.def)             Requested size: 106.69783pt x 80.4691pt.
+
+Overfull \hbox (15.66283pt too wide) in paragraph at lines 618--621
+ [][][][][][][][] 
+ []
+
+<./figures///WK2/kalibracja/fig_hist_param_13.pdf, id=7729, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_13.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_13.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_13.pdf  used
+ on input line 622.
+(pdftex.def)             Requested size: 106.69783pt x 80.4691pt.
+<./figures///WK2/kalibracja/fig_hist_param_14.pdf, id=7731, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_14.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_14.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_14.pdf  used
+ on input line 623.
+(pdftex.def)             Requested size: 106.69783pt x 80.4691pt.
+<./figures///WK2/kalibracja/fig_hist_param_15.pdf, id=7733, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_15.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_15.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_15.pdf  used
+ on input line 624.
+(pdftex.def)             Requested size: 106.69783pt x 80.4691pt.
+<./figures///WK2/kalibracja/fig_hist_param_16.pdf, id=7735, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_16.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_16.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_16.pdf  used
+ on input line 625.
+(pdftex.def)             Requested size: 106.69783pt x 80.4691pt.
+
+Overfull \hbox (15.66283pt too wide) in paragraph at lines 622--625
+ [][][][][][][][] 
+ []
+
+<./figures///WK2/kalibracja/fig_hist_param_17.pdf, id=7737, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_17.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_17.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_17.pdf  used
+ on input line 626.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
+<./figures///WK2/kalibracja/fig_hist_param_18.pdf, id=7739, 107.74454pt x 94.26
+518pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_18.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_18.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_18.pdf  used
+ on input line 627.
+(pdftex.def)             Requested size: 106.69783pt x 79.93024pt.
+<./figures///WK2/kalibracja/fig_hist_param_19.pdf, id=7741, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_19.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_19.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_19.pdf  used
+ on input line 628.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
+<./figures///WK2/kalibracja/fig_hist_param_20.pdf, id=7743, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_20.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_20.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_20.pdf  used
+ on input line 629.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
+
+Overfull \hbox (15.66283pt too wide) in paragraph at lines 626--629
+ [][][][][][][][] 
+ []
+
+<./figures///WK2/kalibracja/fig_hist_param_21.pdf, id=7745, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_21.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_21.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_21.pdf  used
+ on input line 630.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
+<./figures///WK2/kalibracja/fig_hist_param_22.pdf, id=7747, 107.74454pt x 93.79
+543pt>
+File: ./figures///WK2/kalibracja/fig_hist_param_22.pdf Graphic file (type pdf)
+<use ./figures///WK2/kalibracja/fig_hist_param_22.pdf>
+Package pdftex.def Info: ./figures///WK2/kalibracja/fig_hist_param_22.pdf  used
+ on input line 631.
+(pdftex.def)             Requested size: 106.69783pt x 79.4562pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -5483,72 +5617,66 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[140 <./figures///WK2/rysunki/przekroj_elementu_luk.pdf, page is rotated 270 de
-grees> <./figures///WK2/rysunki/przekroj_elementu_sciag.pdf, page is rotated 27
-0 degrees> <./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf, page is rota
-ted 270 degrees>]
-<./figures///WK2/model_upr/plaski_ogolny_wiz.jpg, id=7790, 429.0429pt x 102.623
-4pt>
-File: ./figures///WK2/model_upr/plaski_ogolny_wiz.jpg Graphic file (type jpg)
-<use ./figures///WK2/model_upr/plaski_ogolny_wiz.jpg>
-Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_wiz.jpg  used 
-on input line 663.
-(pdftex.def)             Requested size: 298.75262pt x 71.46005pt.
-<./figures///WK2/model_upr/plaski_ogolny_static.jpg, id=7791, 423.2613pt x 87.6
-876pt>
-File: ./figures///WK2/model_upr/plaski_ogolny_static.jpg Graphic file (type jpg
-)
-<use ./figures///WK2/model_upr/plaski_ogolny_static.jpg>
-Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_static.jpg  us
-ed on input line 664.
-(pdftex.def)             Requested size: 298.75262pt x 61.89334pt.
+[140 <./figures///WK2/kalibracja/fig_hist_param_1.pdf> <./figures///WK2/kalibra
+cja/fig_hist_param_2.pdf> <./figures///WK2/kalibracja/fig_hist_param_3.pdf> <./
+figures///WK2/kalibracja/fig_hist_param_4.pdf> <./figures///WK2/kalibracja/fig_
+hist_param_5.pdf> <./figures///WK2/kalibracja/fig_hist_param_6.pdf> <./figures/
+//WK2/kalibracja/fig_hist_param_7.pdf> <./figures///WK2/kalibracja/fig_hist_par
+am_8.pdf> <./figures///WK2/kalibracja/fig_hist_param_9.pdf> <./figures///WK2/ka
+libracja/fig_hist_param_10.pdf> <./figures///WK2/kalibracja/fig_hist_param_11.p
+df> <./figures///WK2/kalibracja/fig_hist_param_12.pdf> <./figures///WK2/kalibra
+cja/fig_hist_param_13.pdf> <./figures///WK2/kalibracja/fig_hist_param_14.pdf> <
+./figures///WK2/kalibracja/fig_hist_param_15.pdf> <./figures///WK2/kalibracja/f
+ig_hist_param_16.pdf> <./figures///WK2/kalibracja/fig_hist_param_17.pdf> <./fig
+ures///WK2/kalibracja/fig_hist_param_18.pdf> <./figures///WK2/kalibracja/fig_hi
+st_param_19.pdf> <./figures///WK2/kalibracja/fig_hist_param_20.pdf> <./figures/
+//WK2/kalibracja/fig_hist_param_21.pdf> <./figures///WK2/kalibracja/fig_hist_pa
+ram_22.pdf>]
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 663--665
-[][] 
+pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_elementu_lu
+k.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
+ed
+<./figures///WK2/rysunki/przekroj_elementu_luk.pdf, id=7939, 90.03035pt x 132.2
+3102pt>
+File: ./figures///WK2/rysunki/przekroj_elementu_luk.pdf Graphic file (type pdf)
+
+<use ./figures///WK2/rysunki/przekroj_elementu_luk.pdf>
+Package pdftex.def Info: ./figures///WK2/rysunki/przekroj_elementu_luk.pdf  use
+d on input line 656.
+(pdftex.def)             Requested size: 90.03012pt x 132.23068pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_elementu_sc
+iag.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
+owed
+<./figures///WK2/rysunki/przekroj_elementu_sciag.pdf, id=7940, 91.26094pt x 190
+.43446pt>
+File: ./figures///WK2/rysunki/przekroj_elementu_sciag.pdf Graphic file (type pd
+f)
+<use ./figures///WK2/rysunki/przekroj_elementu_sciag.pdf>
+Package pdftex.def Info: ./figures///WK2/rysunki/przekroj_elementu_sciag.pdf  u
+sed on input line 657.
+(pdftex.def)             Requested size: 91.26071pt x 190.43399pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figures///WK2/rysunki/przekroj_elementu_wi
+eszak.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> a
+llowed
+<./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf, id=7941, 67.52327pt x 8
+3.34839pt>
+File: ./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf Graphic file (type 
+pdf)
+<use ./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf>
+Package pdftex.def Info: ./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf 
+ used on input line 658.
+(pdftex.def)             Requested size: 67.52309pt x 83.34818pt.
+
+Overfull \hbox (2.77397pt too wide) in paragraph at lines 653--663
+\T1/cmr/m/n/12 które sta-no-wi¡ zmienne pro-jek-towe pro-blemu opty-ma-li-za-cj
+i $\OML/plm/b/it/12 X \OT4/cmr/m/n/12 = [\OML/plm/m/it/12 h[]; h[]; d[]\OT4/cmr
+/m/n/12 ]$\T1/cmr/m/n/12 . Zmienne
  []
 
-<./figures///WK2/model_upr/plaski_ogolny_crossect.jpg, id=7792, 142.3719pt x 36
-8.577pt>
-File: ./figures///WK2/model_upr/plaski_ogolny_crossect.jpg Graphic file (type j
-pg)
-<use ./figures///WK2/model_upr/plaski_ogolny_crossect.jpg>
-Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_crossect.jpg  
-used on input line 667.
-(pdftex.def)             Requested size: 64.01608pt x 165.72874pt.
-
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 667--668
-[][] 
- []
-
-<./figures///WK2/model_upr/plaski_ogolny_mod_1.jpg, id=7796, 434.1018pt x 120.2
-091pt>
-File: ./figures///WK2/model_upr/plaski_ogolny_mod_1.jpg Graphic file (type jpg)
-
-<use ./figures///WK2/model_upr/plaski_ogolny_mod_1.jpg>
-Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_mod_1.jpg  use
-d on input line 694.
-(pdftex.def)             Requested size: 213.39566pt x 59.09189pt.
-<./figures///WK2/model_upr/plaski_ogolny_mod_2.jpg, id=7797, 436.9926pt x 118.0
-41pt>
-File: ./figures///WK2/model_upr/plaski_ogolny_mod_2.jpg Graphic file (type jpg)
-
-<use ./figures///WK2/model_upr/plaski_ogolny_mod_2.jpg>
-Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_mod_2.jpg  use
-d on input line 695.
-(pdftex.def)             Requested size: 213.39566pt x 57.64246pt.
-
-Overfull \hbox (7.8314pt too wide) in paragraph at lines 694--695
- [][][][] 
- []
-
-<./figures///WK2/model_upr/plaski_ogolny_mod_3.jpg, id=7798, 455.301pt x 115.15
-02pt>
-File: ./figures///WK2/model_upr/plaski_ogolny_mod_3.jpg Graphic file (type jpg)
-
-<use ./figures///WK2/model_upr/plaski_ogolny_mod_3.jpg>
-Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_mod_3.jpg  use
-d on input line 696.
-(pdftex.def)             Requested size: 213.39566pt x 53.96948pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -5557,38 +5685,127 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[141 <./figures///WK2/model_upr/plaski_ogolny_wiz.jpg> <./figures///WK2/model_u
-pr/plaski_ogolny_static.jpg> <./figures///WK2/model_upr/plaski_ogolny_crossect.
-jpg>]
-<./figures///WK2/model_upr/plaski_ogolny_wariant_1.jpg, id=7809, 455.301pt x 11
+[141 <./figures///WK2/rysunki/przekroj_elementu_luk.pdf, page is rotated 270 de
+grees> <./figures///WK2/rysunki/przekroj_elementu_sciag.pdf, page is rotated 27
+0 degrees> <./figures///WK2/rysunki/przekroj_elementu_wieszak.pdf, page is rota
+ted 270 degrees>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
+
+[142]
+<./figures///WK2/model_upr/plaski_ogolny_wiz.jpg, id=7976, 429.0429pt x 102.623
+4pt>
+File: ./figures///WK2/model_upr/plaski_ogolny_wiz.jpg Graphic file (type jpg)
+<use ./figures///WK2/model_upr/plaski_ogolny_wiz.jpg>
+Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_wiz.jpg  used 
+on input line 695.
+(pdftex.def)             Requested size: 298.75262pt x 71.46005pt.
+<./figures///WK2/model_upr/plaski_ogolny_static.jpg, id=7977, 423.2613pt x 87.6
+876pt>
+File: ./figures///WK2/model_upr/plaski_ogolny_static.jpg Graphic file (type jpg
+)
+<use ./figures///WK2/model_upr/plaski_ogolny_static.jpg>
+Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_static.jpg  us
+ed on input line 696.
+(pdftex.def)             Requested size: 298.75262pt x 61.89334pt.
+
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 695--697
+[][] 
+ []
+
+<./figures///WK2/model_upr/plaski_ogolny_crossect.jpg, id=7978, 142.3719pt x 36
+8.577pt>
+File: ./figures///WK2/model_upr/plaski_ogolny_crossect.jpg Graphic file (type j
+pg)
+<use ./figures///WK2/model_upr/plaski_ogolny_crossect.jpg>
+Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_crossect.jpg  
+used on input line 699.
+(pdftex.def)             Requested size: 64.01608pt x 165.72874pt.
+
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 699--700
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures///WK2/model_upr/plaski_ogolny_mod_1.jpg, id=7982, 434.1018pt x 120.2
+091pt>
+File: ./figures///WK2/model_upr/plaski_ogolny_mod_1.jpg Graphic file (type jpg)
+
+<use ./figures///WK2/model_upr/plaski_ogolny_mod_1.jpg>
+Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_mod_1.jpg  use
+d on input line 727.
+(pdftex.def)             Requested size: 213.39566pt x 59.09189pt.
+<./figures///WK2/model_upr/plaski_ogolny_mod_2.jpg, id=7983, 436.9926pt x 118.0
+41pt>
+File: ./figures///WK2/model_upr/plaski_ogolny_mod_2.jpg Graphic file (type jpg)
+
+<use ./figures///WK2/model_upr/plaski_ogolny_mod_2.jpg>
+Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_mod_2.jpg  use
+d on input line 728.
+(pdftex.def)             Requested size: 213.39566pt x 57.64246pt.
+
+Overfull \hbox (7.8314pt too wide) in paragraph at lines 727--728
+ [][][][] 
+ []
+
+<./figures///WK2/model_upr/plaski_ogolny_mod_3.jpg, id=7984, 455.301pt x 115.15
+02pt>
+File: ./figures///WK2/model_upr/plaski_ogolny_mod_3.jpg Graphic file (type jpg)
+
+<use ./figures///WK2/model_upr/plaski_ogolny_mod_3.jpg>
+Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_mod_3.jpg  use
+d on input line 729.
+(pdftex.def)             Requested size: 213.39566pt x 53.96948pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures///WK2/model_upr/plaski_ogolny_wariant_1.jpg, id=7986, 455.301pt x 11
 1.0549pt>
 File: ./figures///WK2/model_upr/plaski_ogolny_wariant_1.jpg Graphic file (type 
 jpg)
 <use ./figures///WK2/model_upr/plaski_ogolny_wariant_1.jpg>
 Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_wariant_1.jpg 
- used on input line 707.
+ used on input line 740.
 (pdftex.def)             Requested size: 213.39566pt x 52.05006pt.
-<./figures///WK2/model_upr/plaski_ogolny_wariant_2.jpg, id=7810, 455.301pt x 11
+<./figures///WK2/model_upr/plaski_ogolny_wariant_2.jpg, id=7987, 455.301pt x 11
 4.9093pt>
 File: ./figures///WK2/model_upr/plaski_ogolny_wariant_2.jpg Graphic file (type 
 jpg)
 <use ./figures///WK2/model_upr/plaski_ogolny_wariant_2.jpg>
 Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_wariant_2.jpg 
- used on input line 708.
+ used on input line 741.
 (pdftex.def)             Requested size: 213.39566pt x 53.85658pt.
 
-Overfull \hbox (7.8314pt too wide) in paragraph at lines 707--708
+Overfull \hbox (7.8314pt too wide) in paragraph at lines 740--741
  [][][][] 
  []
 
-<./figures///WK2/model_upr/plaski_ogolny_wariant_3.jpg, id=7811, 455.301pt x 10
+<./figures///WK2/model_upr/plaski_ogolny_wariant_3.jpg, id=7988, 455.301pt x 10
 8.405pt>
 File: ./figures///WK2/model_upr/plaski_ogolny_wariant_3.jpg Graphic file (type 
 jpg)
 <use ./figures///WK2/model_upr/plaski_ogolny_wariant_3.jpg>
 Package pdftex.def Info: ./figures///WK2/model_upr/plaski_ogolny_wariant_3.jpg 
- used on input line 709.
+ used on input line 742.
 (pdftex.def)             Requested size: 213.39566pt x 50.80809pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
+
+[143 <./figures///WK2/model_upr/plaski_ogolny_wiz.jpg> <./figures///WK2/model_u
+pr/plaski_ogolny_static.jpg> <./figures///WK2/model_upr/plaski_ogolny_crossect.
+jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -5600,7 +5817,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[142 <./figures///WK2/model_upr/plaski_ogolny_mod_1.jpg> <./figures///WK2/model
+[144 <./figures///WK2/model_upr/plaski_ogolny_mod_1.jpg> <./figures///WK2/model
 _upr/plaski_ogolny_mod_2.jpg> <./figures///WK2/model_upr/plaski_ogolny_mod_3.jp
 g>]
 
@@ -5611,10 +5828,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[143 <./figures///WK2/model_upr/plaski_ogolny_wariant_1.jpg> <./figures///WK2/m
+[145 <./figures///WK2/model_upr/plaski_ogolny_wariant_1.jpg> <./figures///WK2/m
 odel_upr/plaski_ogolny_wariant_2.jpg> <./figures///WK2/model_upr/plaski_ogolny_
 wariant_3.jpg>]
-Overfull \hbox (20.53955pt too wide) in paragraph at lines 744--746
+Overfull \hbox (20.53955pt too wide) in paragraph at lines 777--779
 \T1/cmr/m/n/12 Optymalizacj¦ prze-pro-wa-dzono po-now-nie za po-moc¡ do-sto-so-
 wa-nego al-go-rytmu MOPSO.
  []
@@ -5627,18 +5844,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[144]
+[146]
 
 pdfTeX warning: pdflatex.exe (file ./figures///WK2/dynamic/algorithm_analiza_dy
 namiczna.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
-<./figures///WK2/dynamic/algorithm_analiza_dynamiczna.pdf, id=7846, 426.79138pt
+<./figures///WK2/dynamic/algorithm_analiza_dynamiczna.pdf, id=8036, 426.79138pt
  x 597.50786pt>
 File: ./figures///WK2/dynamic/algorithm_analiza_dynamiczna.pdf Graphic file (ty
 pe pdf)
 <use ./figures///WK2/dynamic/algorithm_analiza_dynamiczna.pdf>
 Package pdftex.def Info: ./figures///WK2/dynamic/algorithm_analiza_dynamiczna.p
-df  used on input line 761.
+df  used on input line 794.
 (pdftex.def)             Requested size: 426.79034pt x 597.5064pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5648,7 +5865,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[145]
+[147]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -5657,7 +5874,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[146 <./figures///WK2/dynamic/algorithm_analiza_dynamiczna.pdf>]
+[148 <./figures///WK2/dynamic/algorithm_analiza_dynamiczna.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -5666,7 +5883,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[147]
+[149]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5678,86 +5895,86 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[148]
-<./figures//WK2/opti/proste_160/proste_160_0.0.pdf, id=7940, 159.39952pt x 171.
+[150]
+<./figures//WK2/opti/proste_160/proste_160_0.0.pdf, id=8125, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_160/proste_160_0.0.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_160/proste_160_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_0.0.pdf  use
-d on input line 799.
+d on input line 832.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
-<./figures//WK2/opti/proste_160/proste_160_0.3.pdf, id=7942, 159.39952pt x 171.
+<./figures//WK2/opti/proste_160/proste_160_0.3.pdf, id=8127, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_160/proste_160_0.3.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_160/proste_160_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_0.3.pdf  use
-d on input line 800.
+d on input line 833.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/proste_160/proste_160_0.5.pdf, id=7944, 159.39952pt x 171.
+<./figures//WK2/opti/proste_160/proste_160_0.5.pdf, id=8129, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_160/proste_160_0.5.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_160/proste_160_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_0.5.pdf  use
-d on input line 801.
+d on input line 834.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/proste_160/proste_160_sciag.pdf, id=7950, 159.40253pt x 19
+<./figures//WK2/opti/proste_160/proste_160_sciag.pdf, id=8135, 159.40253pt x 19
 3.47382pt>
 File: ./figures//WK2/opti/proste_160/proste_160_sciag.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_160/proste_160_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_sciag.pdf  u
-sed on input line 811.
+sed on input line 844.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
-<./figures//WK2/opti/proste_160/proste_160_luk.pdf, id=7952, 161.5365pt x 193.4
+<./figures//WK2/opti/proste_160/proste_160_luk.pdf, id=8137, 161.5365pt x 193.4
 7382pt>
 File: ./figures//WK2/opti/proste_160/proste_160_luk.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_160/proste_160_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_luk.pdf  use
-d on input line 812.
+d on input line 845.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
-<./figures//WK2/opti/proste_160/proste_160_wieszak.pdf, id=7954, 159.40253pt x 
+<./figures//WK2/opti/proste_160/proste_160_wieszak.pdf, id=8139, 159.40253pt x 
 193.47382pt>
 File: ./figures//WK2/opti/proste_160/proste_160_wieszak.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/proste_160/proste_160_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_wieszak.pdf 
- used on input line 813.
+ used on input line 846.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
-<./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf, id=7956, 285.25974p
+<./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf, id=8141, 285.25974p
 t x 187.11807pt>
 File: ./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.
-pdf  used on input line 821.
+pdf  used on input line 854.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
-<./figures//WK2/opti/proste_160/proste_160_var_sciag.pdf, id=7958, 156.52077pt 
+<./figures//WK2/opti/proste_160/proste_160_var_sciag.pdf, id=8143, 156.52077pt 
 x 174.32928pt>
 File: ./figures//WK2/opti/proste_160/proste_160_var_sciag.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/proste_160/proste_160_var_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_var_sciag.pd
-f  used on input line 828.
+f  used on input line 861.
 (pdftex.def)             Requested size: 146.48288pt x 164.29137pt.
-<./figures//WK2/opti/proste_160/proste_160_var_luk.pdf, id=7960, 156.32503pt x 
+<./figures//WK2/opti/proste_160/proste_160_var_luk.pdf, id=8145, 156.32503pt x 
 174.32928pt>
 File: ./figures//WK2/opti/proste_160/proste_160_var_luk.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/proste_160/proste_160_var_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_var_luk.pdf 
- used on input line 829.
+ used on input line 862.
 (pdftex.def)             Requested size: 134.24216pt x 164.29137pt.
-<./figures//WK2/opti/proste_160/proste_160_var_wieszak.pdf, id=7962, 154.3878pt
+<./figures//WK2/opti/proste_160/proste_160_var_wieszak.pdf, id=8147, 154.3878pt
  x 175.24171pt>
 File: ./figures//WK2/opti/proste_160/proste_160_var_wieszak.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_160/proste_160_var_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_var_wieszak.
-pdf  used on input line 830.
+pdf  used on input line 863.
 (pdftex.def)             Requested size: 132.30492pt x 165.20378pt.
 
 
@@ -5768,7 +5985,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[149 <./figures//WK2/opti/proste_160/proste_160_0.0.pdf> <./figures//WK2/opti/p
+[151 <./figures//WK2/opti/proste_160/proste_160_0.0.pdf> <./figures//WK2/opti/p
 roste_160/proste_160_0.3.pdf> <./figures//WK2/opti/proste_160/proste_160_0.5.pd
 f>]
 
@@ -5779,43 +5996,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[150 <./figures//WK2/opti/proste_160/proste_160_sciag.pdf> <./figures//WK2/opti
+[152 <./figures//WK2/opti/proste_160/proste_160_sciag.pdf> <./figures//WK2/opti
 /proste_160/proste_160_luk.pdf> <./figures//WK2/opti/proste_160/proste_160_wies
 zak.pdf> <./figures//WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf> <./figures
 //WK2/opti/proste_160/proste_160_var_sciag.pdf> <./figures//WK2/opti/proste_160
 /proste_160_var_luk.pdf> <./figures//WK2/opti/proste_160/proste_160_var_wieszak
 .pdf>]
-<./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf, id=8182, 231.65344pt x 
+<./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf, id=8367, 231.65344pt x 
 196.63965pt>
 File: ./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf 
- used on input line 857.
+ used on input line 890.
 (pdftex.def)             Requested size: 213.39566pt x 181.61574pt.
-<./figures//WK2/opti/proste_160/proste_160_VAR_XY.pdf, id=8184, 270.36911pt x 2
+<./figures//WK2/opti/proste_160/proste_160_VAR_XY.pdf, id=8369, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_160/proste_160_VAR_XY.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_160/proste_160_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_VAR_XY.pdf  
-used on input line 858.
+used on input line 891.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/proste_160/proste_160_VAR_YZ.pdf, id=8186, 270.36911pt x 2
+<./figures//WK2/opti/proste_160/proste_160_VAR_YZ.pdf, id=8371, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_160/proste_160_VAR_YZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_160/proste_160_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_VAR_YZ.pdf  
-used on input line 859.
+used on input line 892.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
-<./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf, id=8188, 270.36911pt x 2
+<./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf, id=8373, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf  
-used on input line 860.
+used on input line 893.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
 
 Underfull \vbox (badness 5726) has occurred while \output is active []
@@ -5829,88 +6046,88 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[151 <./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf> <./figures//WK2/op
+[153 <./figures//WK2/opti/proste_160/proste_160_VAR_ISO.pdf> <./figures//WK2/op
 ti/proste_160/proste_160_VAR_XY.pdf> <./figures//WK2/opti/proste_160/proste_160
 _VAR_YZ.pdf> <./figures//WK2/opti/proste_160/proste_160_VAR_XZ.pdf>]
-<./figures//WK2/opti/proste_200/proste_200_0.0.pdf, id=8271, 159.39952pt x 171.
+<./figures//WK2/opti/proste_200/proste_200_0.0.pdf, id=8457, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_200/proste_200_0.0.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_200/proste_200_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_0.0.pdf  use
-d on input line 877.
+d on input line 910.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
-<./figures//WK2/opti/proste_200/proste_200_0.3.pdf, id=8273, 159.39952pt x 171.
+<./figures//WK2/opti/proste_200/proste_200_0.3.pdf, id=8459, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_200/proste_200_0.3.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_200/proste_200_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_0.3.pdf  use
-d on input line 878.
+d on input line 911.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/proste_200/proste_200_0.5.pdf, id=8275, 159.39952pt x 171.
+<./figures//WK2/opti/proste_200/proste_200_0.5.pdf, id=8461, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_200/proste_200_0.5.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_200/proste_200_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_0.5.pdf  use
-d on input line 879.
+d on input line 912.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/proste_200/proste_200_sciag.pdf, id=8281, 159.40253pt x 19
+<./figures//WK2/opti/proste_200/proste_200_sciag.pdf, id=8467, 159.40253pt x 19
 3.47382pt>
 File: ./figures//WK2/opti/proste_200/proste_200_sciag.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_200/proste_200_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_sciag.pdf  u
-sed on input line 889.
+sed on input line 922.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
-<./figures//WK2/opti/proste_200/proste_200_luk.pdf, id=8283, 161.5365pt x 193.4
+<./figures//WK2/opti/proste_200/proste_200_luk.pdf, id=8469, 161.5365pt x 193.4
 7382pt>
 File: ./figures//WK2/opti/proste_200/proste_200_luk.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_200/proste_200_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_luk.pdf  use
-d on input line 890.
+d on input line 923.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
-<./figures//WK2/opti/proste_200/proste_200_wieszak.pdf, id=8285, 159.40253pt x 
+<./figures//WK2/opti/proste_200/proste_200_wieszak.pdf, id=8471, 159.40253pt x 
 193.47382pt>
 File: ./figures//WK2/opti/proste_200/proste_200_wieszak.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/proste_200/proste_200_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_wieszak.pdf 
- used on input line 891.
+ used on input line 924.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
-<./figures//WK2/opti/proste_200/proste_200_VAR_ISO_ALL.pdf, id=8287, 285.25974p
+<./figures//WK2/opti/proste_200/proste_200_VAR_ISO_ALL.pdf, id=8473, 285.25974p
 t x 187.11807pt>
 File: ./figures//WK2/opti/proste_200/proste_200_VAR_ISO_ALL.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_200/proste_200_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_VAR_ISO_ALL.
-pdf  used on input line 899.
+pdf  used on input line 932.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
-<./figures//WK2/opti/proste_200/proste_200_var_sciag.pdf, id=8289, 156.52077pt 
+<./figures//WK2/opti/proste_200/proste_200_var_sciag.pdf, id=8475, 156.52077pt 
 x 174.32928pt>
 File: ./figures//WK2/opti/proste_200/proste_200_var_sciag.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/proste_200/proste_200_var_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_var_sciag.pd
-f  used on input line 906.
+f  used on input line 939.
 (pdftex.def)             Requested size: 146.48288pt x 164.29137pt.
-<./figures//WK2/opti/proste_200/proste_200_var_luk.pdf, id=8291, 153.00261pt x 
+<./figures//WK2/opti/proste_200/proste_200_var_luk.pdf, id=8477, 153.00261pt x 
 174.32928pt>
 File: ./figures//WK2/opti/proste_200/proste_200_var_luk.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/proste_200/proste_200_var_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_var_luk.pdf 
- used on input line 907.
+ used on input line 940.
 (pdftex.def)             Requested size: 130.91974pt x 164.29137pt.
-<./figures//WK2/opti/proste_200/proste_200_var_wieszak.pdf, id=8293, 154.3878pt
+<./figures//WK2/opti/proste_200/proste_200_var_wieszak.pdf, id=8479, 154.3878pt
  x 175.24171pt>
 File: ./figures//WK2/opti/proste_200/proste_200_var_wieszak.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_200/proste_200_var_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_var_wieszak.
-pdf  used on input line 908.
+pdf  used on input line 941.
 (pdftex.def)             Requested size: 132.30492pt x 165.20378pt.
 
 
@@ -5921,7 +6138,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[152 <./figures//WK2/opti/proste_200/proste_200_0.0.pdf> <./figures//WK2/opti/p
+[154 <./figures//WK2/opti/proste_200/proste_200_0.0.pdf> <./figures//WK2/opti/p
 roste_200/proste_200_0.3.pdf> <./figures//WK2/opti/proste_200/proste_200_0.5.pd
 f>]
 
@@ -5932,43 +6149,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[153 <./figures//WK2/opti/proste_200/proste_200_sciag.pdf> <./figures//WK2/opti
+[155 <./figures//WK2/opti/proste_200/proste_200_sciag.pdf> <./figures//WK2/opti
 /proste_200/proste_200_luk.pdf> <./figures//WK2/opti/proste_200/proste_200_wies
 zak.pdf> <./figures//WK2/opti/proste_200/proste_200_VAR_ISO_ALL.pdf> <./figures
 //WK2/opti/proste_200/proste_200_var_sciag.pdf> <./figures//WK2/opti/proste_200
 /proste_200_var_luk.pdf> <./figures//WK2/opti/proste_200/proste_200_var_wieszak
 .pdf>]
-<./figures//WK2/opti/proste_200/proste_200_VAR_ISO.pdf, id=8516, 231.65344pt x 
+<./figures//WK2/opti/proste_200/proste_200_VAR_ISO.pdf, id=8701, 231.65344pt x 
 196.63965pt>
 File: ./figures//WK2/opti/proste_200/proste_200_VAR_ISO.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/proste_200/proste_200_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_VAR_ISO.pdf 
- used on input line 937.
+ used on input line 970.
 (pdftex.def)             Requested size: 213.39566pt x 181.61574pt.
-<./figures//WK2/opti/proste_200/proste_200_VAR_XY.pdf, id=8518, 270.36911pt x 2
+<./figures//WK2/opti/proste_200/proste_200_VAR_XY.pdf, id=8703, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_200/proste_200_VAR_XY.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_200/proste_200_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_VAR_XY.pdf  
-used on input line 938.
+used on input line 971.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/proste_200/proste_200_VAR_YZ.pdf, id=8520, 270.36911pt x 2
+<./figures//WK2/opti/proste_200/proste_200_VAR_YZ.pdf, id=8705, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_200/proste_200_VAR_YZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_200/proste_200_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_VAR_YZ.pdf  
-used on input line 939.
+used on input line 972.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
-<./figures//WK2/opti/proste_200/proste_200_VAR_XZ.pdf, id=8522, 270.36911pt x 2
+<./figures//WK2/opti/proste_200/proste_200_VAR_XZ.pdf, id=8707, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_200/proste_200_VAR_XZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_200/proste_200_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_VAR_XZ.pdf  
-used on input line 940.
+used on input line 973.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
 
 Underfull \vbox (badness 5726) has occurred while \output is active []
@@ -5982,88 +6199,88 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[154 <./figures//WK2/opti/proste_200/proste_200_VAR_ISO.pdf> <./figures//WK2/op
+[156 <./figures//WK2/opti/proste_200/proste_200_VAR_ISO.pdf> <./figures//WK2/op
 ti/proste_200/proste_200_VAR_XY.pdf> <./figures//WK2/opti/proste_200/proste_200
 _VAR_YZ.pdf> <./figures//WK2/opti/proste_200/proste_200_VAR_XZ.pdf>]
-<./figures//WK2/opti/proste_300/proste_300_0.0.pdf, id=8605, 159.39952pt x 171.
+<./figures//WK2/opti/proste_300/proste_300_0.0.pdf, id=8790, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_300/proste_300_0.0.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_300/proste_300_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_0.0.pdf  use
-d on input line 959.
+d on input line 992.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
-<./figures//WK2/opti/proste_300/proste_300_0.3.pdf, id=8607, 159.39952pt x 171.
+<./figures//WK2/opti/proste_300/proste_300_0.3.pdf, id=8792, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_300/proste_300_0.3.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_300/proste_300_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_0.3.pdf  use
-d on input line 960.
+d on input line 993.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/proste_300/proste_300_0.5.pdf, id=8609, 159.39952pt x 171.
+<./figures//WK2/opti/proste_300/proste_300_0.5.pdf, id=8794, 159.39952pt x 171.
 56396pt>
 File: ./figures//WK2/opti/proste_300/proste_300_0.5.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_300/proste_300_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_0.5.pdf  use
-d on input line 961.
+d on input line 994.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/proste_300/proste_300_sciag.pdf, id=8615, 159.40253pt x 19
+<./figures//WK2/opti/proste_300/proste_300_sciag.pdf, id=8800, 159.40253pt x 19
 3.47382pt>
 File: ./figures//WK2/opti/proste_300/proste_300_sciag.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_300/proste_300_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_sciag.pdf  u
-sed on input line 971.
+sed on input line 1004.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
-<./figures//WK2/opti/proste_300/proste_300_luk.pdf, id=8617, 161.5365pt x 193.4
+<./figures//WK2/opti/proste_300/proste_300_luk.pdf, id=8802, 161.5365pt x 193.4
 7382pt>
 File: ./figures//WK2/opti/proste_300/proste_300_luk.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/proste_300/proste_300_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_luk.pdf  use
-d on input line 972.
+d on input line 1005.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
-<./figures//WK2/opti/proste_300/proste_300_wieszak.pdf, id=8619, 159.40253pt x 
+<./figures//WK2/opti/proste_300/proste_300_wieszak.pdf, id=8804, 159.40253pt x 
 193.47382pt>
 File: ./figures//WK2/opti/proste_300/proste_300_wieszak.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_wieszak.pdf 
- used on input line 973.
+ used on input line 1006.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
-<./figures//WK2/opti/proste_300/proste_300_VAR_ISO_ALL.pdf, id=8621, 285.25974p
+<./figures//WK2/opti/proste_300/proste_300_VAR_ISO_ALL.pdf, id=8806, 285.25974p
 t x 187.11807pt>
 File: ./figures//WK2/opti/proste_300/proste_300_VAR_ISO_ALL.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_VAR_ISO_ALL.
-pdf  used on input line 980.
+pdf  used on input line 1013.
 (pdftex.def)             Requested size: 272.21028pt x 156.00136pt.
-<./figures//WK2/opti/proste_300/proste_300_var_sciag.pdf, id=8623, 156.52077pt 
+<./figures//WK2/opti/proste_300/proste_300_var_sciag.pdf, id=8808, 156.52077pt 
 x 174.32928pt>
 File: ./figures//WK2/opti/proste_300/proste_300_var_sciag.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_var_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_var_sciag.pd
-f  used on input line 988.
+f  used on input line 1021.
 (pdftex.def)             Requested size: 146.48288pt x 164.29137pt.
-<./figures//WK2/opti/proste_300/proste_300_var_luk.pdf, id=8625, 153.00261pt x 
+<./figures//WK2/opti/proste_300/proste_300_var_luk.pdf, id=8810, 153.00261pt x 
 174.32928pt>
 File: ./figures//WK2/opti/proste_300/proste_300_var_luk.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_var_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_var_luk.pdf 
- used on input line 989.
+ used on input line 1022.
 (pdftex.def)             Requested size: 130.91974pt x 164.29137pt.
-<./figures//WK2/opti/proste_300/proste_300_var_wieszak.pdf, id=8627, 154.3878pt
+<./figures//WK2/opti/proste_300/proste_300_var_wieszak.pdf, id=8812, 154.3878pt
  x 175.24171pt>
 File: ./figures//WK2/opti/proste_300/proste_300_var_wieszak.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_var_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_var_wieszak.
-pdf  used on input line 990.
+pdf  used on input line 1023.
 (pdftex.def)             Requested size: 132.30492pt x 165.20378pt.
 
 
@@ -6074,7 +6291,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[155 <./figures//WK2/opti/proste_300/proste_300_0.0.pdf> <./figures//WK2/opti/p
+[157 <./figures//WK2/opti/proste_300/proste_300_0.0.pdf> <./figures//WK2/opti/p
 roste_300/proste_300_0.3.pdf> <./figures//WK2/opti/proste_300/proste_300_0.5.pd
 f>]
 
@@ -6085,43 +6302,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[156 <./figures//WK2/opti/proste_300/proste_300_sciag.pdf> <./figures//WK2/opti
+[158 <./figures//WK2/opti/proste_300/proste_300_sciag.pdf> <./figures//WK2/opti
 /proste_300/proste_300_luk.pdf> <./figures//WK2/opti/proste_300/proste_300_wies
 zak.pdf> <./figures//WK2/opti/proste_300/proste_300_VAR_ISO_ALL.pdf> <./figures
 //WK2/opti/proste_300/proste_300_var_sciag.pdf> <./figures//WK2/opti/proste_300
 /proste_300_var_luk.pdf> <./figures//WK2/opti/proste_300/proste_300_var_wieszak
 .pdf>]
-<./figures//WK2/opti/proste_300/proste_300_VAR_ISO.pdf, id=8849, 231.65344pt x 
+<./figures//WK2/opti/proste_300/proste_300_VAR_ISO.pdf, id=9034, 231.65344pt x 
 196.63965pt>
 File: ./figures//WK2/opti/proste_300/proste_300_VAR_ISO.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_VAR_ISO.pdf 
- used on input line 1017.
+ used on input line 1050.
 (pdftex.def)             Requested size: 213.39566pt x 181.61574pt.
-<./figures//WK2/opti/proste_300/proste_300_VAR_XY.pdf, id=8851, 270.36911pt x 2
+<./figures//WK2/opti/proste_300/proste_300_VAR_XY.pdf, id=9036, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_VAR_XY.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_300/proste_300_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_VAR_XY.pdf  
-used on input line 1018.
+used on input line 1051.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/proste_300/proste_300_VAR_YZ.pdf, id=8853, 270.36911pt x 2
+<./figures//WK2/opti/proste_300/proste_300_VAR_YZ.pdf, id=9038, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_VAR_YZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_300/proste_300_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_VAR_YZ.pdf  
-used on input line 1019.
+used on input line 1052.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
-<./figures//WK2/opti/proste_300/proste_300_VAR_XZ.pdf, id=8855, 270.36911pt x 2
+<./figures//WK2/opti/proste_300/proste_300_VAR_XZ.pdf, id=9040, 270.36911pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_VAR_XZ.pdf Graphic file (type p
 df)
 <use ./figures//WK2/opti/proste_300/proste_300_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_VAR_XZ.pdf  
-used on input line 1020.
+used on input line 1053.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
 
 
@@ -6132,84 +6349,84 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[157 <./figures//WK2/opti/proste_300/proste_300_VAR_ISO.pdf> <./figures//WK2/op
+[159 <./figures//WK2/opti/proste_300/proste_300_VAR_ISO.pdf> <./figures//WK2/op
 ti/proste_300/proste_300_VAR_XY.pdf> <./figures//WK2/opti/proste_300/proste_300
 _VAR_YZ.pdf> <./figures//WK2/opti/proste_300/proste_300_VAR_XZ.pdf>]
-<./figures//WK2/opti/niels_160/niels_160_0.0.pdf, id=8936, 159.39952pt x 171.56
+<./figures//WK2/opti/niels_160/niels_160_0.0.pdf, id=9122, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_160/niels_160_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_0.0.pdf  used 
-on input line 1037.
+on input line 1070.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
-<./figures//WK2/opti/niels_160/niels_160_0.3.pdf, id=8938, 159.39952pt x 171.56
+<./figures//WK2/opti/niels_160/niels_160_0.3.pdf, id=9124, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_160/niels_160_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_0.3.pdf  used 
-on input line 1038.
+on input line 1071.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/niels_160/niels_160_0.5.pdf, id=8940, 159.39952pt x 171.56
+<./figures//WK2/opti/niels_160/niels_160_0.5.pdf, id=9126, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_160/niels_160_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_0.5.pdf  used 
-on input line 1039.
+on input line 1072.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/niels_160/niels_160_sciag.pdf, id=8946, 159.40253pt x 193.
+<./figures//WK2/opti/niels_160/niels_160_sciag.pdf, id=9132, 159.40253pt x 193.
 47382pt>
 File: ./figures//WK2/opti/niels_160/niels_160_sciag.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_160/niels_160_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_sciag.pdf  use
-d on input line 1052.
+d on input line 1085.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
-<./figures//WK2/opti/niels_160/niels_160_luk.pdf, id=8948, 161.5365pt x 193.473
+<./figures//WK2/opti/niels_160/niels_160_luk.pdf, id=9134, 161.5365pt x 193.473
 82pt>
 File: ./figures//WK2/opti/niels_160/niels_160_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_luk.pdf  used 
-on input line 1053.
+on input line 1086.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
-<./figures//WK2/opti/niels_160/niels_160_wieszak.pdf, id=8950, 159.40253pt x 19
+<./figures//WK2/opti/niels_160/niels_160_wieszak.pdf, id=9136, 159.40253pt x 19
 3.47382pt>
 File: ./figures//WK2/opti/niels_160/niels_160_wieszak.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_160/niels_160_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_wieszak.pdf  u
-sed on input line 1054.
+sed on input line 1087.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
-<./figures//WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pdf, id=8952, 285.25974pt 
+<./figures//WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pdf, id=9138, 285.25974pt 
 x 187.11807pt>
 File: ./figures//WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pd
-f  used on input line 1062.
+f  used on input line 1095.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
-<./figures//WK2/opti/niels_160/niels_160_var_sciag.pdf, id=8954, 153.00261pt x 
+<./figures//WK2/opti/niels_160/niels_160_var_sciag.pdf, id=9140, 153.00261pt x 
 174.32928pt>
 File: ./figures//WK2/opti/niels_160/niels_160_var_sciag.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_var_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_var_sciag.pdf 
- used on input line 1070.
+ used on input line 1103.
 (pdftex.def)             Requested size: 142.96474pt x 164.29137pt.
-<./figures//WK2/opti/niels_160/niels_160_var_luk.pdf, id=8956, 153.00261pt x 17
+<./figures//WK2/opti/niels_160/niels_160_var_luk.pdf, id=9142, 153.00261pt x 17
 4.32928pt>
 File: ./figures//WK2/opti/niels_160/niels_160_var_luk.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_160/niels_160_var_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_var_luk.pdf  u
-sed on input line 1071.
+sed on input line 1104.
 (pdftex.def)             Requested size: 130.91974pt x 164.29137pt.
-<./figures//WK2/opti/niels_160/niels_160_var_wieszak.pdf, id=8958, 153.00261pt 
+<./figures//WK2/opti/niels_160/niels_160_var_wieszak.pdf, id=9144, 153.00261pt 
 x 175.24171pt>
 File: ./figures//WK2/opti/niels_160/niels_160_var_wieszak.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_160/niels_160_var_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_var_wieszak.pd
-f  used on input line 1072.
+f  used on input line 1105.
 (pdftex.def)             Requested size: 130.91974pt x 165.20378pt.
 
 
@@ -6220,7 +6437,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[158 <./figures//WK2/opti/niels_160/niels_160_0.0.pdf> <./figures//WK2/opti/nie
+[160 <./figures//WK2/opti/niels_160/niels_160_0.0.pdf> <./figures//WK2/opti/nie
 ls_160/niels_160_0.3.pdf> <./figures//WK2/opti/niels_160/niels_160_0.5.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6230,42 +6447,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[159 <./figures//WK2/opti/niels_160/niels_160_sciag.pdf> <./figures//WK2/opti/n
+[161 <./figures//WK2/opti/niels_160/niels_160_sciag.pdf> <./figures//WK2/opti/n
 iels_160/niels_160_luk.pdf> <./figures//WK2/opti/niels_160/niels_160_wieszak.pd
 f> <./figures//WK2/opti/niels_160/niels_160_VAR_ISO_ALL.pdf> <./figures//WK2/op
 ti/niels_160/niels_160_var_sciag.pdf> <./figures//WK2/opti/niels_160/niels_160_
 var_luk.pdf> <./figures//WK2/opti/niels_160/niels_160_var_wieszak.pdf>]
-<./figures//WK2/opti/niels_160/niels_160_VAR_ISO.pdf, id=9181, 231.65344pt x 19
+<./figures//WK2/opti/niels_160/niels_160_VAR_ISO.pdf, id=9366, 231.65344pt x 19
 6.63965pt>
 File: ./figures//WK2/opti/niels_160/niels_160_VAR_ISO.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_160/niels_160_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_VAR_ISO.pdf  u
-sed on input line 1099.
+sed on input line 1132.
 (pdftex.def)             Requested size: 213.39566pt x 181.61574pt.
-<./figures//WK2/opti/niels_160/niels_160_VAR_XY.pdf, id=9183, 270.36911pt x 234
+<./figures//WK2/opti/niels_160/niels_160_VAR_XY.pdf, id=9368, 270.36911pt x 234
 .73296pt>
 File: ./figures//WK2/opti/niels_160/niels_160_VAR_XY.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_160/niels_160_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_VAR_XY.pdf  us
-ed on input line 1100.
+ed on input line 1133.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/niels_160/niels_160_VAR_YZ.pdf, id=9185, 270.36911pt x 234
+<./figures//WK2/opti/niels_160/niels_160_VAR_YZ.pdf, id=9370, 270.36911pt x 234
 .73296pt>
 File: ./figures//WK2/opti/niels_160/niels_160_VAR_YZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_160/niels_160_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_VAR_YZ.pdf  us
-ed on input line 1101.
+ed on input line 1134.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
-<./figures//WK2/opti/niels_160/niels_160_VAR_XZ.pdf, id=9187, 270.36911pt x 234
+<./figures//WK2/opti/niels_160/niels_160_VAR_XZ.pdf, id=9372, 270.36911pt x 234
 .73296pt>
 File: ./figures//WK2/opti/niels_160/niels_160_VAR_XZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_160/niels_160_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_VAR_XZ.pdf  us
-ed on input line 1102.
+ed on input line 1135.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
 
 
@@ -6276,116 +6493,116 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[160 <./figures//WK2/opti/niels_160/niels_160_VAR_ISO.pdf> <./figures//WK2/opti
+[162 <./figures//WK2/opti/niels_160/niels_160_VAR_ISO.pdf> <./figures//WK2/opti
 /niels_160/niels_160_VAR_XY.pdf> <./figures//WK2/opti/niels_160/niels_160_VAR_Y
 Z.pdf> <./figures//WK2/opti/niels_160/niels_160_VAR_XZ.pdf>]
-<./figures//WK2/opti/niels_200/niels_200_0.0.pdf, id=9268, 159.39952pt x 171.56
+<./figures//WK2/opti/niels_200/niels_200_0.0.pdf, id=9453, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_200/niels_200_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_0.0.pdf  used 
-on input line 1124.
+on input line 1157.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
-<./figures//WK2/opti/niels_200/niels_200_0.3.pdf, id=9270, 159.39952pt x 171.56
+<./figures//WK2/opti/niels_200/niels_200_0.3.pdf, id=9455, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_200/niels_200_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_0.3.pdf  used 
-on input line 1125.
+on input line 1158.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/niels_200/niels_200_0.5.pdf, id=9272, 159.39952pt x 171.56
+<./figures//WK2/opti/niels_200/niels_200_0.5.pdf, id=9457, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_200/niels_200_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_0.5.pdf  used 
-on input line 1126.
+on input line 1159.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/niels_200/niels_200_sciag.pdf, id=9278, 159.40253pt x 193.
+<./figures//WK2/opti/niels_200/niels_200_sciag.pdf, id=9463, 159.40253pt x 193.
 47382pt>
 File: ./figures//WK2/opti/niels_200/niels_200_sciag.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_200/niels_200_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_sciag.pdf  use
-d on input line 1137.
+d on input line 1170.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
-<./figures//WK2/opti/niels_200/niels_200_luk.pdf, id=9280, 161.5365pt x 193.473
+<./figures//WK2/opti/niels_200/niels_200_luk.pdf, id=9465, 161.5365pt x 193.473
 82pt>
 File: ./figures//WK2/opti/niels_200/niels_200_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_luk.pdf  used 
-on input line 1138.
+on input line 1171.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
-<./figures//WK2/opti/niels_200/niels_200_wieszak.pdf, id=9282, 159.40253pt x 19
+<./figures//WK2/opti/niels_200/niels_200_wieszak.pdf, id=9467, 159.40253pt x 19
 3.47382pt>
 File: ./figures//WK2/opti/niels_200/niels_200_wieszak.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_200/niels_200_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_wieszak.pdf  u
-sed on input line 1139.
+sed on input line 1172.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
-<./figures//WK2/opti/niels_200/niels_200_VAR_ISO_ALL.pdf, id=9284, 285.25974pt 
+<./figures//WK2/opti/niels_200/niels_200_VAR_ISO_ALL.pdf, id=9469, 285.25974pt 
 x 187.11807pt>
 File: ./figures//WK2/opti/niels_200/niels_200_VAR_ISO_ALL.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_VAR_ISO_ALL.pd
-f  used on input line 1147.
+f  used on input line 1180.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
-<./figures//WK2/opti/niels_200/niels_200_var_sciag.pdf, id=9286, 156.52077pt x 
+<./figures//WK2/opti/niels_200/niels_200_var_sciag.pdf, id=9471, 156.52077pt x 
 174.32928pt>
 File: ./figures//WK2/opti/niels_200/niels_200_var_sciag.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_var_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_var_sciag.pdf 
- used on input line 1157.
+ used on input line 1190.
 (pdftex.def)             Requested size: 146.48288pt x 164.29137pt.
-<./figures//WK2/opti/niels_200/niels_200_var_luk.pdf, id=9288, 153.00261pt x 17
+<./figures//WK2/opti/niels_200/niels_200_var_luk.pdf, id=9473, 153.00261pt x 17
 4.32928pt>
 File: ./figures//WK2/opti/niels_200/niels_200_var_luk.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_200/niels_200_var_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_var_luk.pdf  u
-sed on input line 1158.
+sed on input line 1191.
 (pdftex.def)             Requested size: 130.91974pt x 164.29137pt.
-<./figures//WK2/opti/niels_200/niels_200_var_wieszak.pdf, id=9290, 154.3878pt x
+<./figures//WK2/opti/niels_200/niels_200_var_wieszak.pdf, id=9475, 154.3878pt x
  175.24171pt>
 File: ./figures//WK2/opti/niels_200/niels_200_var_wieszak.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_200/niels_200_var_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_var_wieszak.pd
-f  used on input line 1159.
+f  used on input line 1192.
 (pdftex.def)             Requested size: 132.30492pt x 165.20378pt.
-<./figures//WK2/opti/niels_200/niels_200_VAR_ISO.pdf, id=9292, 231.65344pt x 19
+<./figures//WK2/opti/niels_200/niels_200_VAR_ISO.pdf, id=9477, 231.65344pt x 19
 6.63965pt>
 File: ./figures//WK2/opti/niels_200/niels_200_VAR_ISO.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_200/niels_200_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_VAR_ISO.pdf  u
-sed on input line 1183.
+sed on input line 1216.
 (pdftex.def)             Requested size: 213.39566pt x 181.61574pt.
-<./figures//WK2/opti/niels_200/niels_200_VAR_XY.pdf, id=9294, 270.36911pt x 234
+<./figures//WK2/opti/niels_200/niels_200_VAR_XY.pdf, id=9479, 270.36911pt x 234
 .73296pt>
 File: ./figures//WK2/opti/niels_200/niels_200_VAR_XY.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_200/niels_200_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_VAR_XY.pdf  us
-ed on input line 1184.
+ed on input line 1217.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/niels_200/niels_200_VAR_YZ.pdf, id=9296, 270.36911pt x 234
+<./figures//WK2/opti/niels_200/niels_200_VAR_YZ.pdf, id=9481, 270.36911pt x 234
 .73296pt>
 File: ./figures//WK2/opti/niels_200/niels_200_VAR_YZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_200/niels_200_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_VAR_YZ.pdf  us
-ed on input line 1185.
+ed on input line 1218.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
-<./figures//WK2/opti/niels_200/niels_200_VAR_XZ.pdf, id=9298, 270.36911pt x 234
+<./figures//WK2/opti/niels_200/niels_200_VAR_XZ.pdf, id=9483, 270.36911pt x 234
 .73296pt>
 File: ./figures//WK2/opti/niels_200/niels_200_VAR_XZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_200/niels_200_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_VAR_XZ.pdf  us
-ed on input line 1186.
+ed on input line 1219.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
 
 
@@ -6396,7 +6613,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[161 <./figures//WK2/opti/niels_200/niels_200_0.0.pdf> <./figures//WK2/opti/nie
+[163 <./figures//WK2/opti/niels_200/niels_200_0.0.pdf> <./figures//WK2/opti/nie
 ls_200/niels_200_0.3.pdf> <./figures//WK2/opti/niels_200/niels_200_0.5.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6406,7 +6623,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[162 <./figures//WK2/opti/niels_200/niels_200_sciag.pdf> <./figures//WK2/opti/n
+[164 <./figures//WK2/opti/niels_200/niels_200_sciag.pdf> <./figures//WK2/opti/n
 iels_200/niels_200_luk.pdf> <./figures//WK2/opti/niels_200/niels_200_wieszak.pd
 f> <./figures//WK2/opti/niels_200/niels_200_VAR_ISO_ALL.pdf> <./figures//WK2/op
 ti/niels_200/niels_200_var_sciag.pdf> <./figures//WK2/opti/niels_200/niels_200_
@@ -6422,89 +6639,89 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[163 <./figures//WK2/opti/niels_200/niels_200_VAR_ISO.pdf> <./figures//WK2/opti
+[165 <./figures//WK2/opti/niels_200/niels_200_VAR_ISO.pdf> <./figures//WK2/opti
 /niels_200/niels_200_VAR_XY.pdf> <./figures//WK2/opti/niels_200/niels_200_VAR_Y
 Z.pdf> <./figures//WK2/opti/niels_200/niels_200_VAR_XZ.pdf>]
-<./figures//WK2/opti/niels_300/niels_300_0.0.pdf, id=9599, 159.39952pt x 171.56
+<./figures//WK2/opti/niels_300/niels_300_0.0.pdf, id=9785, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_300/niels_300_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_0.0.pdf  used 
-on input line 1210.
+on input line 1243.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
-<./figures//WK2/opti/niels_300/niels_300_0.3.pdf, id=9601, 159.39952pt x 171.56
+<./figures//WK2/opti/niels_300/niels_300_0.3.pdf, id=9787, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_300/niels_300_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_0.3.pdf  used 
-on input line 1211.
+on input line 1244.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/niels_300/niels_300_0.5.pdf, id=9603, 159.39952pt x 171.56
+<./figures//WK2/opti/niels_300/niels_300_0.5.pdf, id=9789, 159.39952pt x 171.56
 396pt>
 File: ./figures//WK2/opti/niels_300/niels_300_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_0.5.pdf  used 
-on input line 1212.
+on input line 1245.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/niels_300/niels_300_sciag.pdf, id=9609, 159.40253pt x 193.
+<./figures//WK2/opti/niels_300/niels_300_sciag.pdf, id=9795, 159.40253pt x 193.
 47382pt>
 File: ./figures//WK2/opti/niels_300/niels_300_sciag.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_300/niels_300_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_sciag.pdf  use
-d on input line 1222.
+d on input line 1255.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
-<./figures//WK2/opti/niels_300/niels_300_luk.pdf, id=9611, 161.5365pt x 193.473
+<./figures//WK2/opti/niels_300/niels_300_luk.pdf, id=9797, 161.5365pt x 193.473
 82pt>
 File: ./figures//WK2/opti/niels_300/niels_300_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_luk.pdf  used 
-on input line 1223.
+on input line 1256.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
-<./figures//WK2/opti/niels_300/niels_300_wieszak.pdf, id=9613, 159.40253pt x 19
+<./figures//WK2/opti/niels_300/niels_300_wieszak.pdf, id=9799, 159.40253pt x 19
 3.47382pt>
 File: ./figures//WK2/opti/niels_300/niels_300_wieszak.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_300/niels_300_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_wieszak.pdf  u
-sed on input line 1224.
+sed on input line 1257.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
-<./figures//WK2/opti/niels_300/niels_300_VAR_ISO_ALL.pdf, id=9615, 285.25974pt 
+<./figures//WK2/opti/niels_300/niels_300_VAR_ISO_ALL.pdf, id=9801, 285.25974pt 
 x 187.11807pt>
 File: ./figures//WK2/opti/niels_300/niels_300_VAR_ISO_ALL.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_VAR_ISO_ALL.pd
-f  used on input line 1232.
+f  used on input line 1265.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
-<./figures//WK2/opti/niels_300/niels_300_var_sciag.pdf, id=9617, 159.32423pt x 
+<./figures//WK2/opti/niels_300/niels_300_var_sciag.pdf, id=9803, 159.32423pt x 
 174.32928pt>
 File: ./figures//WK2/opti/niels_300/niels_300_var_sciag.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_var_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_var_sciag.pdf 
- used on input line 1239.
+ used on input line 1272.
 (pdftex.def)             Requested size: 149.28635pt x 164.29137pt.
-<./figures//WK2/opti/niels_300/niels_300_var_luk.pdf, id=9619, 153.00261pt x 17
+<./figures//WK2/opti/niels_300/niels_300_var_luk.pdf, id=9805, 153.00261pt x 17
 4.32928pt>
 File: ./figures//WK2/opti/niels_300/niels_300_var_luk.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_300/niels_300_var_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_var_luk.pdf  u
-sed on input line 1240.
+sed on input line 1273.
 (pdftex.def)             Requested size: 130.91974pt x 164.29137pt.
-<./figures//WK2/opti/niels_300/niels_300_var_wieszak.pdf, id=9621, 153.00261pt 
+<./figures//WK2/opti/niels_300/niels_300_var_wieszak.pdf, id=9807, 153.00261pt 
 x 175.24171pt>
 File: ./figures//WK2/opti/niels_300/niels_300_var_wieszak.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_var_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_var_wieszak.pd
-f  used on input line 1241.
+f  used on input line 1274.
 (pdftex.def)             Requested size: 130.91974pt x 165.20378pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1246.
+               Default added (so using `tbp') on input line 1279.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6514,7 +6731,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[164 <./figures//WK2/opti/niels_300/niels_300_0.0.pdf> <./figures//WK2/opti/nie
+[166 <./figures//WK2/opti/niels_300/niels_300_0.0.pdf> <./figures//WK2/opti/nie
 ls_300/niels_300_0.3.pdf> <./figures//WK2/opti/niels_300/niels_300_0.5.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6524,42 +6741,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[165 <./figures//WK2/opti/niels_300/niels_300_sciag.pdf> <./figures//WK2/opti/n
+[167 <./figures//WK2/opti/niels_300/niels_300_sciag.pdf> <./figures//WK2/opti/n
 iels_300/niels_300_luk.pdf> <./figures//WK2/opti/niels_300/niels_300_wieszak.pd
 f> <./figures//WK2/opti/niels_300/niels_300_VAR_ISO_ALL.pdf> <./figures//WK2/op
 ti/niels_300/niels_300_var_sciag.pdf> <./figures//WK2/opti/niels_300/niels_300_
 var_luk.pdf> <./figures//WK2/opti/niels_300/niels_300_var_wieszak.pdf>]
-<./figures//WK2/opti/niels_300/niels_300_VAR_ISO.pdf, id=9844, 231.65344pt x 19
-6.63965pt>
+<./figures//WK2/opti/niels_300/niels_300_VAR_ISO.pdf, id=10029, 231.65344pt x 1
+96.63965pt>
 File: ./figures//WK2/opti/niels_300/niels_300_VAR_ISO.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/niels_300/niels_300_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_VAR_ISO.pdf  u
-sed on input line 1268.
+sed on input line 1301.
 (pdftex.def)             Requested size: 213.39566pt x 181.61574pt.
-<./figures//WK2/opti/niels_300/niels_300_VAR_XY.pdf, id=9846, 270.36911pt x 234
-.73296pt>
+<./figures//WK2/opti/niels_300/niels_300_VAR_XY.pdf, id=10031, 270.36911pt x 23
+4.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_VAR_XY.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_300/niels_300_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_VAR_XY.pdf  us
-ed on input line 1269.
+ed on input line 1302.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/niels_300/niels_300_VAR_YZ.pdf, id=9848, 270.36911pt x 234
-.73296pt>
+<./figures//WK2/opti/niels_300/niels_300_VAR_YZ.pdf, id=10033, 270.36911pt x 23
+4.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_VAR_YZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_300/niels_300_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_VAR_YZ.pdf  us
-ed on input line 1270.
+ed on input line 1303.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
-<./figures//WK2/opti/niels_300/niels_300_VAR_XZ.pdf, id=9850, 270.36911pt x 234
-.73296pt>
+<./figures//WK2/opti/niels_300/niels_300_VAR_XZ.pdf, id=10035, 270.36911pt x 23
+4.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_VAR_XZ.pdf Graphic file (type pdf
 )
 <use ./figures//WK2/opti/niels_300/niels_300_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_VAR_XZ.pdf  us
-ed on input line 1271.
+ed on input line 1304.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
 
 
@@ -6570,59 +6787,59 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[166 <./figures//WK2/opti/niels_300/niels_300_VAR_ISO.pdf> <./figures//WK2/opti
+[168 <./figures//WK2/opti/niels_300/niels_300_VAR_ISO.pdf> <./figures//WK2/opti
 /niels_300/niels_300_VAR_XY.pdf> <./figures//WK2/opti/niels_300/niels_300_VAR_Y
 Z.pdf> <./figures//WK2/opti/niels_300/niels_300_VAR_XZ.pdf>]
-<./figures//WK2/opti/netw_160/netw_160_0.0.pdf, id=9931, 159.39952pt x 171.5639
-6pt>
+<./figures//WK2/opti/netw_160/netw_160_0.0.pdf, id=10116, 159.39952pt x 171.563
+96pt>
 File: ./figures//WK2/opti/netw_160/netw_160_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_0.0.pdf  used on
- input line 1288.
+ input line 1321.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
-<./figures//WK2/opti/netw_160/netw_160_0.3.pdf, id=9933, 159.39952pt x 171.5639
-6pt>
+<./figures//WK2/opti/netw_160/netw_160_0.3.pdf, id=10118, 159.39952pt x 171.563
+96pt>
 File: ./figures//WK2/opti/netw_160/netw_160_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_0.3.pdf  used on
- input line 1289.
+ input line 1322.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/netw_160/netw_160_0.5.pdf, id=9935, 159.39952pt x 171.5639
-6pt>
+<./figures//WK2/opti/netw_160/netw_160_0.5.pdf, id=10120, 159.39952pt x 171.563
+96pt>
 File: ./figures//WK2/opti/netw_160/netw_160_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_0.5.pdf  used on
- input line 1290.
+ input line 1323.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/netw_160/netw_160_sciag.pdf, id=9940, 159.40253pt x 193.47
-382pt>
+<./figures//WK2/opti/netw_160/netw_160_sciag.pdf, id=10125, 159.40253pt x 193.4
+7382pt>
 File: ./figures//WK2/opti/netw_160/netw_160_sciag.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_sciag.pdf  used 
-on input line 1300.
+on input line 1333.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
-<./figures//WK2/opti/netw_160/netw_160_luk.pdf, id=9942, 161.5365pt x 193.47382
-pt>
+<./figures//WK2/opti/netw_160/netw_160_luk.pdf, id=10127, 161.5365pt x 193.4738
+2pt>
 File: ./figures//WK2/opti/netw_160/netw_160_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_luk.pdf  used on
- input line 1301.
+ input line 1334.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
-<./figures//WK2/opti/netw_160/netw_160_wieszak.pdf, id=9944, 159.40253pt x 193.
-47382pt>
+<./figures//WK2/opti/netw_160/netw_160_wieszak.pdf, id=10129, 159.40253pt x 193
+.47382pt>
 File: ./figures//WK2/opti/netw_160/netw_160_wieszak.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_160/netw_160_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_wieszak.pdf  use
-d on input line 1302.
+d on input line 1335.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
-<./figures//WK2/opti/netw_160/netw_160_VAR_ISO_ALL.pdf, id=9946, 285.25974pt x 
-187.11807pt>
+<./figures//WK2/opti/netw_160/netw_160_VAR_ISO_ALL.pdf, id=10131, 285.25974pt x
+ 187.11807pt>
 File: ./figures//WK2/opti/netw_160/netw_160_VAR_ISO_ALL.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_VAR_ISO_ALL.pdf 
- used on input line 1309.
+ used on input line 1342.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6636,31 +6853,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[167 <./figures//WK2/opti/netw_160/netw_160_0.0.pdf> <./figures//WK2/opti/netw_
+[169 <./figures//WK2/opti/netw_160/netw_160_0.0.pdf> <./figures//WK2/opti/netw_
 160/netw_160_0.3.pdf> <./figures//WK2/opti/netw_160/netw_160_0.5.pdf>]
-<./figures//WK2/opti/netw_160/netw_160_var_sciag.pdf, id=10027, 153.00261pt x 1
+<./figures//WK2/opti/netw_160/netw_160_var_sciag.pdf, id=10212, 153.00261pt x 1
 74.32928pt>
 File: ./figures//WK2/opti/netw_160/netw_160_var_sciag.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/netw_160/netw_160_var_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_var_sciag.pdf  u
-sed on input line 1316.
+sed on input line 1349.
 (pdftex.def)             Requested size: 142.96474pt x 164.29137pt.
-<./figures//WK2/opti/netw_160/netw_160_var_luk.pdf, id=10029, 153.00261pt x 174
+<./figures//WK2/opti/netw_160/netw_160_var_luk.pdf, id=10214, 153.00261pt x 174
 .32928pt>
 File: ./figures//WK2/opti/netw_160/netw_160_var_luk.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_160/netw_160_var_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_var_luk.pdf  use
-d on input line 1317.
+d on input line 1350.
 (pdftex.def)             Requested size: 130.91974pt x 164.29137pt.
-<./figures//WK2/opti/netw_160/netw_160_var_wieszak.pdf, id=10031, 153.00261pt x
+<./figures//WK2/opti/netw_160/netw_160_var_wieszak.pdf, id=10216, 153.00261pt x
  175.24171pt>
 File: ./figures//WK2/opti/netw_160/netw_160_var_wieszak.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_var_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_var_wieszak.pdf 
- used on input line 1318.
+ used on input line 1351.
 (pdftex.def)             Requested size: 130.91974pt x 165.20378pt.
 
 
@@ -6671,39 +6888,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[168 <./figures//WK2/opti/netw_160/netw_160_sciag.pdf> <./figures//WK2/opti/net
+[170 <./figures//WK2/opti/netw_160/netw_160_sciag.pdf> <./figures//WK2/opti/net
 w_160/netw_160_luk.pdf> <./figures//WK2/opti/netw_160/netw_160_wieszak.pdf> <./
 figures//WK2/opti/netw_160/netw_160_VAR_ISO_ALL.pdf> <./figures//WK2/opti/netw_
 160/netw_160_var_sciag.pdf> <./figures//WK2/opti/netw_160/netw_160_var_luk.pdf>
  <./figures//WK2/opti/netw_160/netw_160_var_wieszak.pdf>]
-<./figures//WK2/opti/netw_160/netw_160_VAR_ISO.pdf, id=10174, 231.65344pt x 196
+<./figures//WK2/opti/netw_160/netw_160_VAR_ISO.pdf, id=10359, 231.65344pt x 196
 .63965pt>
 File: ./figures//WK2/opti/netw_160/netw_160_VAR_ISO.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_160/netw_160_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_VAR_ISO.pdf  use
-d on input line 1345.
+d on input line 1378.
 (pdftex.def)             Requested size: 213.39566pt x 181.61574pt.
-<./figures//WK2/opti/netw_160/netw_160_VAR_XY.pdf, id=10176, 270.36911pt x 234.
+<./figures//WK2/opti/netw_160/netw_160_VAR_XY.pdf, id=10361, 270.36911pt x 234.
 73296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_VAR_XY.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_VAR_XY.pdf  used
- on input line 1346.
+ on input line 1379.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/netw_160/netw_160_VAR_YZ.pdf, id=10178, 270.36911pt x 234.
+<./figures//WK2/opti/netw_160/netw_160_VAR_YZ.pdf, id=10363, 270.36911pt x 234.
 73296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_VAR_YZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_VAR_YZ.pdf  used
- on input line 1347.
+ on input line 1380.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
-<./figures//WK2/opti/netw_160/netw_160_VAR_XZ.pdf, id=10180, 270.36911pt x 234.
+<./figures//WK2/opti/netw_160/netw_160_VAR_XZ.pdf, id=10365, 270.36911pt x 234.
 73296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_VAR_XZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_VAR_XZ.pdf  used
- on input line 1348.
+ on input line 1381.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
 
 
@@ -6714,83 +6931,83 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[169 <./figures//WK2/opti/netw_160/netw_160_VAR_ISO.pdf> <./figures//WK2/opti/n
+[171 <./figures//WK2/opti/netw_160/netw_160_VAR_ISO.pdf> <./figures//WK2/opti/n
 etw_160/netw_160_VAR_XY.pdf> <./figures//WK2/opti/netw_160/netw_160_VAR_YZ.pdf>
  <./figures//WK2/opti/netw_160/netw_160_VAR_XZ.pdf>]
-<./figures//WK2/opti/netw_200/netw_200_0.0.pdf, id=10261, 159.39952pt x 171.563
+<./figures//WK2/opti/netw_200/netw_200_0.0.pdf, id=10447, 159.39952pt x 171.563
 96pt>
 File: ./figures//WK2/opti/netw_200/netw_200_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_0.0.pdf  used on
- input line 1365.
+ input line 1398.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
-<./figures//WK2/opti/netw_200/netw_200_0.3.pdf, id=10263, 159.39952pt x 171.563
+<./figures//WK2/opti/netw_200/netw_200_0.3.pdf, id=10449, 159.39952pt x 171.563
 96pt>
 File: ./figures//WK2/opti/netw_200/netw_200_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_0.3.pdf  used on
- input line 1366.
+ input line 1399.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/netw_200/netw_200_0.5.pdf, id=10265, 159.39952pt x 171.563
+<./figures//WK2/opti/netw_200/netw_200_0.5.pdf, id=10451, 159.39952pt x 171.563
 96pt>
 File: ./figures//WK2/opti/netw_200/netw_200_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_0.5.pdf  used on
- input line 1367.
+ input line 1400.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/netw_200/netw_200_sciag.pdf, id=10271, 159.40253pt x 193.4
+<./figures//WK2/opti/netw_200/netw_200_sciag.pdf, id=10457, 159.40253pt x 193.4
 7382pt>
 File: ./figures//WK2/opti/netw_200/netw_200_sciag.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_sciag.pdf  used 
-on input line 1377.
+on input line 1410.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
-<./figures//WK2/opti/netw_200/netw_200_luk.pdf, id=10273, 161.5365pt x 193.4738
+<./figures//WK2/opti/netw_200/netw_200_luk.pdf, id=10459, 161.5365pt x 193.4738
 2pt>
 File: ./figures//WK2/opti/netw_200/netw_200_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_luk.pdf  used on
- input line 1378.
+ input line 1411.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
-<./figures//WK2/opti/netw_200/netw_200_wieszak.pdf, id=10275, 159.40253pt x 193
+<./figures//WK2/opti/netw_200/netw_200_wieszak.pdf, id=10461, 159.40253pt x 193
 .47382pt>
 File: ./figures//WK2/opti/netw_200/netw_200_wieszak.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_200/netw_200_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_wieszak.pdf  use
-d on input line 1379.
+d on input line 1412.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
-<./figures//WK2/opti/netw_200/netw_200_VAR_ISO_ALL.pdf, id=10277, 285.25974pt x
+<./figures//WK2/opti/netw_200/netw_200_VAR_ISO_ALL.pdf, id=10463, 285.25974pt x
  187.11807pt>
 File: ./figures//WK2/opti/netw_200/netw_200_VAR_ISO_ALL.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_VAR_ISO_ALL.pdf 
- used on input line 1387.
+ used on input line 1420.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
-<./figures//WK2/opti/netw_200/netw_200_var_sciag.pdf, id=10279, 156.52077pt x 1
+<./figures//WK2/opti/netw_200/netw_200_var_sciag.pdf, id=10465, 156.52077pt x 1
 74.32928pt>
 File: ./figures//WK2/opti/netw_200/netw_200_var_sciag.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/netw_200/netw_200_var_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_var_sciag.pdf  u
-sed on input line 1394.
+sed on input line 1427.
 (pdftex.def)             Requested size: 146.48288pt x 164.29137pt.
-<./figures//WK2/opti/netw_200/netw_200_var_luk.pdf, id=10281, 153.00261pt x 174
+<./figures//WK2/opti/netw_200/netw_200_var_luk.pdf, id=10467, 153.00261pt x 174
 .32928pt>
 File: ./figures//WK2/opti/netw_200/netw_200_var_luk.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_200/netw_200_var_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_var_luk.pdf  use
-d on input line 1395.
+d on input line 1428.
 (pdftex.def)             Requested size: 130.91974pt x 164.29137pt.
-<./figures//WK2/opti/netw_200/netw_200_var_wieszak.pdf, id=10283, 153.00261pt x
+<./figures//WK2/opti/netw_200/netw_200_var_wieszak.pdf, id=10469, 153.00261pt x
  175.24171pt>
 File: ./figures//WK2/opti/netw_200/netw_200_var_wieszak.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_var_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_var_wieszak.pdf 
- used on input line 1396.
+ used on input line 1429.
 (pdftex.def)             Requested size: 130.91974pt x 165.20378pt.
 
 
@@ -6801,7 +7018,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[170 <./figures//WK2/opti/netw_200/netw_200_0.0.pdf> <./figures//WK2/opti/netw_
+[172 <./figures//WK2/opti/netw_200/netw_200_0.0.pdf> <./figures//WK2/opti/netw_
 200/netw_200_0.3.pdf> <./figures//WK2/opti/netw_200/netw_200_0.5.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6811,39 +7028,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[171 <./figures//WK2/opti/netw_200/netw_200_sciag.pdf> <./figures//WK2/opti/net
+[173 <./figures//WK2/opti/netw_200/netw_200_sciag.pdf> <./figures//WK2/opti/net
 w_200/netw_200_luk.pdf> <./figures//WK2/opti/netw_200/netw_200_wieszak.pdf> <./
 figures//WK2/opti/netw_200/netw_200_VAR_ISO_ALL.pdf> <./figures//WK2/opti/netw_
 200/netw_200_var_sciag.pdf> <./figures//WK2/opti/netw_200/netw_200_var_luk.pdf>
  <./figures//WK2/opti/netw_200/netw_200_var_wieszak.pdf>]
-<./figures//WK2/opti/netw_200/netw_200_VAR_ISO.pdf, id=10506, 231.65344pt x 196
+<./figures//WK2/opti/netw_200/netw_200_VAR_ISO.pdf, id=10691, 231.65344pt x 196
 .63965pt>
 File: ./figures//WK2/opti/netw_200/netw_200_VAR_ISO.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_200/netw_200_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_VAR_ISO.pdf  use
-d on input line 1421.
+d on input line 1454.
 (pdftex.def)             Requested size: 213.39566pt x 181.61574pt.
-<./figures//WK2/opti/netw_200/netw_200_VAR_XY.pdf, id=10508, 270.36911pt x 234.
+<./figures//WK2/opti/netw_200/netw_200_VAR_XY.pdf, id=10693, 270.36911pt x 234.
 73296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_VAR_XY.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_VAR_XY.pdf  used
- on input line 1422.
+ on input line 1455.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/netw_200/netw_200_VAR_YZ.pdf, id=10510, 270.36911pt x 234.
+<./figures//WK2/opti/netw_200/netw_200_VAR_YZ.pdf, id=10695, 270.36911pt x 234.
 73296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_VAR_YZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_VAR_YZ.pdf  used
- on input line 1423.
+ on input line 1456.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
-<./figures//WK2/opti/netw_200/netw_200_VAR_XZ.pdf, id=10512, 270.36911pt x 234.
+<./figures//WK2/opti/netw_200/netw_200_VAR_XZ.pdf, id=10697, 270.36911pt x 234.
 73296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_VAR_XZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_VAR_XZ.pdf  used
- on input line 1424.
+ on input line 1457.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
 
 
@@ -6854,83 +7071,83 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[172 <./figures//WK2/opti/netw_200/netw_200_VAR_ISO.pdf> <./figures//WK2/opti/n
+[174 <./figures//WK2/opti/netw_200/netw_200_VAR_ISO.pdf> <./figures//WK2/opti/n
 etw_200/netw_200_VAR_XY.pdf> <./figures//WK2/opti/netw_200/netw_200_VAR_YZ.pdf>
  <./figures//WK2/opti/netw_200/netw_200_VAR_XZ.pdf>]
-<./figures//WK2/opti/netw_300/netw_300_0.0.pdf, id=10593, 159.39952pt x 171.563
+<./figures//WK2/opti/netw_300/netw_300_0.0.pdf, id=10778, 159.39952pt x 171.563
 96pt>
 File: ./figures//WK2/opti/netw_300/netw_300_0.0.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_0.0.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_0.0.pdf  used on
- input line 1440.
+ input line 1473.
 (pdftex.def)             Requested size: 145.34663pt x 161.52605pt.
-<./figures//WK2/opti/netw_300/netw_300_0.3.pdf, id=10595, 159.39952pt x 171.563
+<./figures//WK2/opti/netw_300/netw_300_0.3.pdf, id=10780, 159.39952pt x 171.563
 96pt>
 File: ./figures//WK2/opti/netw_300/netw_300_0.3.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_0.3.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_0.3.pdf  used on
- input line 1441.
+ input line 1474.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/netw_300/netw_300_0.5.pdf, id=10597, 159.39952pt x 171.563
+<./figures//WK2/opti/netw_300/netw_300_0.5.pdf, id=10782, 159.39952pt x 171.563
 96pt>
 File: ./figures//WK2/opti/netw_300/netw_300_0.5.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_0.5.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_0.5.pdf  used on
- input line 1442.
+ input line 1475.
 (pdftex.def)             Requested size: 132.29788pt x 161.52605pt.
-<./figures//WK2/opti/netw_300/netw_300_sciag.pdf, id=10602, 159.40253pt x 193.4
+<./figures//WK2/opti/netw_300/netw_300_sciag.pdf, id=10787, 159.40253pt x 193.4
 7382pt>
 File: ./figures//WK2/opti/netw_300/netw_300_sciag.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_sciag.pdf  used 
-on input line 1452.
+on input line 1485.
 (pdftex.def)             Requested size: 146.35338pt x 183.43584pt.
-<./figures//WK2/opti/netw_300/netw_300_luk.pdf, id=10604, 161.5365pt x 193.4738
+<./figures//WK2/opti/netw_300/netw_300_luk.pdf, id=10789, 161.5365pt x 193.4738
 2pt>
 File: ./figures//WK2/opti/netw_300/netw_300_luk.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_luk.pdf  used on
- input line 1453.
+ input line 1486.
 (pdftex.def)             Requested size: 136.44234pt x 183.43584pt.
-<./figures//WK2/opti/netw_300/netw_300_wieszak.pdf, id=10606, 159.40253pt x 193
+<./figures//WK2/opti/netw_300/netw_300_wieszak.pdf, id=10791, 159.40253pt x 193
 .47382pt>
 File: ./figures//WK2/opti/netw_300/netw_300_wieszak.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_300/netw_300_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_wieszak.pdf  use
-d on input line 1454.
+d on input line 1487.
 (pdftex.def)             Requested size: 134.30838pt x 183.43584pt.
-<./figures//WK2/opti/netw_300/netw_300_VAR_ISO_ALL.pdf, id=10608, 285.25974pt x
+<./figures//WK2/opti/netw_300/netw_300_VAR_ISO_ALL.pdf, id=10793, 285.25974pt x
  187.11807pt>
 File: ./figures//WK2/opti/netw_300/netw_300_VAR_ISO_ALL.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_VAR_ISO_ALL.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_VAR_ISO_ALL.pdf 
- used on input line 1461.
+ used on input line 1494.
 (pdftex.def)             Requested size: 272.21028pt x 159.01262pt.
-<./figures//WK2/opti/netw_300/netw_300_var_sciag.pdf, id=10610, 156.52077pt x 1
+<./figures//WK2/opti/netw_300/netw_300_var_sciag.pdf, id=10795, 156.52077pt x 1
 74.32928pt>
 File: ./figures//WK2/opti/netw_300/netw_300_var_sciag.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/netw_300/netw_300_var_sciag.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_var_sciag.pdf  u
-sed on input line 1468.
+sed on input line 1501.
 (pdftex.def)             Requested size: 146.48288pt x 164.29137pt.
-<./figures//WK2/opti/netw_300/netw_300_var_luk.pdf, id=10612, 153.00261pt x 174
+<./figures//WK2/opti/netw_300/netw_300_var_luk.pdf, id=10797, 153.00261pt x 174
 .32928pt>
 File: ./figures//WK2/opti/netw_300/netw_300_var_luk.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_300/netw_300_var_luk.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_var_luk.pdf  use
-d on input line 1469.
+d on input line 1502.
 (pdftex.def)             Requested size: 130.91974pt x 164.29137pt.
-<./figures//WK2/opti/netw_300/netw_300_var_wieszak.pdf, id=10614, 153.00261pt x
+<./figures//WK2/opti/netw_300/netw_300_var_wieszak.pdf, id=10799, 153.00261pt x
  175.24171pt>
 File: ./figures//WK2/opti/netw_300/netw_300_var_wieszak.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_var_wieszak.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_var_wieszak.pdf 
- used on input line 1470.
+ used on input line 1503.
 (pdftex.def)             Requested size: 130.91974pt x 165.20378pt.
 
 
@@ -6941,7 +7158,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[173 <./figures//WK2/opti/netw_300/netw_300_0.0.pdf> <./figures//WK2/opti/netw_
+[175 <./figures//WK2/opti/netw_300/netw_300_0.0.pdf> <./figures//WK2/opti/netw_
 300/netw_300_0.3.pdf> <./figures//WK2/opti/netw_300/netw_300_0.5.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6951,39 +7168,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[174 <./figures//WK2/opti/netw_300/netw_300_sciag.pdf> <./figures//WK2/opti/net
+[176 <./figures//WK2/opti/netw_300/netw_300_sciag.pdf> <./figures//WK2/opti/net
 w_300/netw_300_luk.pdf> <./figures//WK2/opti/netw_300/netw_300_wieszak.pdf> <./
 figures//WK2/opti/netw_300/netw_300_VAR_ISO_ALL.pdf> <./figures//WK2/opti/netw_
 300/netw_300_var_sciag.pdf> <./figures//WK2/opti/netw_300/netw_300_var_luk.pdf>
  <./figures//WK2/opti/netw_300/netw_300_var_wieszak.pdf>]
-<./figures//WK2/opti/netw_300/netw_300_VAR_ISO.pdf, id=10836, 231.65344pt x 196
+<./figures//WK2/opti/netw_300/netw_300_VAR_ISO.pdf, id=11021, 231.65344pt x 196
 .63965pt>
 File: ./figures//WK2/opti/netw_300/netw_300_VAR_ISO.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/netw_300/netw_300_VAR_ISO.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_VAR_ISO.pdf  use
-d on input line 1497.
+d on input line 1530.
 (pdftex.def)             Requested size: 213.39566pt x 181.61574pt.
-<./figures//WK2/opti/netw_300/netw_300_VAR_XY.pdf, id=10838, 270.36911pt x 234.
+<./figures//WK2/opti/netw_300/netw_300_VAR_XY.pdf, id=11023, 270.36911pt x 234.
 73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_VAR_XY.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_VAR_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_VAR_XY.pdf  used
- on input line 1498.
+ on input line 1531.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/netw_300/netw_300_VAR_YZ.pdf, id=10840, 270.36911pt x 234.
+<./figures//WK2/opti/netw_300/netw_300_VAR_YZ.pdf, id=11025, 270.36911pt x 234.
 73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_VAR_YZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_VAR_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_VAR_YZ.pdf  used
- on input line 1499.
+ on input line 1532.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
-<./figures//WK2/opti/netw_300/netw_300_VAR_XZ.pdf, id=10842, 270.36911pt x 234.
+<./figures//WK2/opti/netw_300/netw_300_VAR_XZ.pdf, id=11027, 270.36911pt x 234.
 73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_VAR_XZ.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_VAR_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_VAR_XZ.pdf  used
- on input line 1500.
+ on input line 1533.
 (pdftex.def)             Requested size: 213.39566pt x 172.97823pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6997,113 +7214,113 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[175 <./figures//WK2/opti/netw_300/netw_300_VAR_ISO.pdf> <./figures//WK2/opti/n
+[177 <./figures//WK2/opti/netw_300/netw_300_VAR_ISO.pdf> <./figures//WK2/opti/n
 etw_300/netw_300_VAR_XY.pdf> <./figures//WK2/opti/netw_300/netw_300_VAR_YZ.pdf>
  <./figures//WK2/opti/netw_300/netw_300_VAR_XZ.pdf>]
-Overfull \vbox (12.0pt too high) detected at line 1539
+Overfull \vbox (12.0pt too high) detected at line 1572
  []
 
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=10924, page=4, 670.12057pt x 1
+<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=11110, page=4, 670.12057pt x 1
 43.0665pt>
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 4>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page4 us
-ed on input line 1552.
+ed on input line 1585.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=10925, page=5, 670.12057pt x 1
+<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=11111, page=5, 670.12057pt x 1
 43.0665pt>
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 5>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page5 us
-ed on input line 1553.
+ed on input line 1586.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=10926, page=6, 670.12057pt x 1
+<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=11112, page=6, 670.12057pt x 1
 43.0665pt>
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 6>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page6 us
-ed on input line 1554.
+ed on input line 1587.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=10927, page=7, 670.12057pt x 1
+<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=11113, page=7, 670.12057pt x 1
 43.0665pt>
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 7>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page7 us
-ed on input line 1555.
+ed on input line 1588.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=10928, page=8, 670.12057pt x 1
+<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=11114, page=8, 670.12057pt x 1
 43.0665pt>
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 8>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page8 us
-ed on input line 1556.
+ed on input line 1589.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=10929, page=9, 670.12057pt x 1
+<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=11115, page=9, 670.12057pt x 1
 43.0665pt>
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 9>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page9 us
-ed on input line 1557.
+ed on input line 1590.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=10930, page=1, 670.12057pt x 1
+<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=11116, page=1, 670.12057pt x 1
 43.0665pt>
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 1>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page1 us
-ed on input line 1558.
+ed on input line 1591.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=10931, page=2, 670.12057pt x 1
+<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=11117, page=2, 670.12057pt x 1
 43.0665pt>
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 2>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page2 us
-ed on input line 1559.
+ed on input line 1592.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//WK2/opti/wyniki_35_wszystkie.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=10932, page=3, 670.12057pt x 1
+<./figures//WK2/opti/wyniki_35_wszystkie.pdf, id=11118, page=3, 670.12057pt x 1
 43.0665pt>
 File: ./figures//WK2/opti/wyniki_35_wszystkie.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/wyniki_35_wszystkie.pdf, page 3>
 Package pdftex.def Info: ./figures//WK2/opti/wyniki_35_wszystkie.pdf , page3 us
-ed on input line 1560.
+ed on input line 1593.
 (pdftex.def)             Requested size: 140.84192pt x 30.06885pt.
 
-Overfull \hbox (3.30052pt too wide) in paragraph at lines 1572--1593
+Overfull \hbox (3.30052pt too wide) in paragraph at lines 1605--1626
  [][] 
  []
 
@@ -7115,7 +7332,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[176]
+[178]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -7124,7 +7341,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[177 <./figures//WK2/opti/wyniki_35_wszystkie.pdf> <./figures//WK2/opti/wyniki_
+[179 <./figures//WK2/opti/wyniki_35_wszystkie.pdf> <./figures//WK2/opti/wyniki_
 35_wszystkie.pdf> <./figures//WK2/opti/wyniki_35_wszystkie.pdf> <./figures//WK2
 /opti/wyniki_35_wszystkie.pdf> <./figures//WK2/opti/wyniki_35_wszystkie.pdf> <.
 /figures//WK2/opti/wyniki_35_wszystkie.pdf> <./figures//WK2/opti/wyniki_35_wszy
@@ -7138,75 +7355,75 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[178]
-<./figures//WK2/opti/proste_160/proste_160_diffs.pdf, id=11018, 159.61633pt x 1
+[180]
+<./figures//WK2/opti/proste_160/proste_160_diffs.pdf, id=11203, 159.61633pt x 1
 74.32928pt>
 File: ./figures//WK2/opti/proste_160/proste_160_diffs.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_160/proste_160_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_diffs.pdf  u
-sed on input line 1632.
+sed on input line 1665.
 (pdftex.def)             Requested size: 147.57092pt x 164.29137pt.
-<./figures//WK2/opti/proste_200/proste_200_diffs.pdf, id=11020, 159.61633pt x 1
+<./figures//WK2/opti/proste_200/proste_200_diffs.pdf, id=11205, 159.61633pt x 1
 74.32928pt>
 File: ./figures//WK2/opti/proste_200/proste_200_diffs.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_200/proste_200_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_diffs.pdf  u
-sed on input line 1633.
+sed on input line 1666.
 (pdftex.def)             Requested size: 134.52217pt x 164.29137pt.
-<./figures//WK2/opti/proste_300/proste_300_diffs.pdf, id=11022, 159.61633pt x 1
+<./figures//WK2/opti/proste_300/proste_300_diffs.pdf, id=11207, 159.61633pt x 1
 71.56396pt>
 File: ./figures//WK2/opti/proste_300/proste_300_diffs.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_300/proste_300_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_diffs.pdf  u
-sed on input line 1634.
+sed on input line 1667.
 (pdftex.def)             Requested size: 134.52217pt x 161.52605pt.
-<./figures//WK2/opti/niels_160/niels_160_diffs.pdf, id=11024, 159.61633pt x 174
+<./figures//WK2/opti/niels_160/niels_160_diffs.pdf, id=11209, 159.61633pt x 174
 .32928pt>
 File: ./figures//WK2/opti/niels_160/niels_160_diffs.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_160/niels_160_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_diffs.pdf  use
-d on input line 1635.
+d on input line 1668.
 (pdftex.def)             Requested size: 147.57092pt x 164.29137pt.
-<./figures//WK2/opti/niels_200/niels_200_diffs.pdf, id=11026, 159.61633pt x 174
+<./figures//WK2/opti/niels_200/niels_200_diffs.pdf, id=11211, 159.61633pt x 174
 .32928pt>
 File: ./figures//WK2/opti/niels_200/niels_200_diffs.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_200/niels_200_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_diffs.pdf  use
-d on input line 1636.
+d on input line 1669.
 (pdftex.def)             Requested size: 134.52217pt x 164.29137pt.
-<./figures//WK2/opti/niels_300/niels_300_diffs.pdf, id=11028, 159.61633pt x 174
+<./figures//WK2/opti/niels_300/niels_300_diffs.pdf, id=11213, 159.61633pt x 174
 .32928pt>
 File: ./figures//WK2/opti/niels_300/niels_300_diffs.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_300/niels_300_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_diffs.pdf  use
-d on input line 1637.
+d on input line 1670.
 (pdftex.def)             Requested size: 134.52217pt x 164.29137pt.
-<./figures//WK2/opti/netw_160/netw_160_diffs.pdf, id=11030, 159.61633pt x 174.3
+<./figures//WK2/opti/netw_160/netw_160_diffs.pdf, id=11215, 159.61633pt x 174.3
 2928pt>
 File: ./figures//WK2/opti/netw_160/netw_160_diffs.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_diffs.pdf  used 
-on input line 1638.
+on input line 1671.
 (pdftex.def)             Requested size: 147.57092pt x 164.29137pt.
-<./figures//WK2/opti/netw_200/netw_200_diffs.pdf, id=11032, 159.61633pt x 174.3
+<./figures//WK2/opti/netw_200/netw_200_diffs.pdf, id=11217, 159.61633pt x 174.3
 2928pt>
 File: ./figures//WK2/opti/netw_200/netw_200_diffs.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_diffs.pdf  used 
-on input line 1639.
+on input line 1672.
 (pdftex.def)             Requested size: 134.52217pt x 164.29137pt.
-<./figures//WK2/opti/netw_300/netw_300_diffs.pdf, id=11034, 159.61633pt x 174.3
+<./figures//WK2/opti/netw_300/netw_300_diffs.pdf, id=11219, 159.61633pt x 174.3
 2928pt>
 File: ./figures//WK2/opti/netw_300/netw_300_diffs.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_diffs.pdf  used 
-on input line 1640.
+on input line 1673.
 (pdftex.def)             Requested size: 134.52217pt x 164.29137pt.
 )
 
@@ -7217,7 +7434,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[179]
+[181]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -7226,7 +7443,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[180 <./figures//WK2/opti/proste_160/proste_160_diffs.pdf> <./figures//WK2/opti
+[182 <./figures//WK2/opti/proste_160/proste_160_diffs.pdf> <./figures//WK2/opti
 /proste_200/proste_200_diffs.pdf> <./figures//WK2/opti/proste_300/proste_300_di
 ffs.pdf> <./figures//WK2/opti/niels_160/niels_160_diffs.pdf> <./figures//WK2/op
 ti/niels_200/niels_200_diffs.pdf> <./figures//WK2/opti/niels_300/niels_300_diff
@@ -7235,7 +7452,7 @@ etw_200/netw_200_diffs.pdf> <./figures//WK2/opti/netw_300/netw_300_diffs.pdf>]
 \openout2 = `summary.aux'.
 
 
-(summary.tex) [181
+(summary.tex) [183
 
 
 
@@ -7247,35 +7464,11 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
 (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[182
+[184
 
 
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[183]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[184]
-Overfull \hbox (5.78947pt too wide) in paragraph at lines 90--90
-\T1/cmr/m/n/10.95 W: \T1/cmr/m/it/10.95 Me-cha-ni-cal Sys-tems and Si-gnal Pro-
-ces-sing \T1/cmr/m/n/10.95 122 (2019), s. 247255. \T1/cmr/m/sc/10.95 issn\T1/c
-mr/m/n/10.95 : 10961216.
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -7294,6 +7487,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [186]
+Overfull \hbox (5.78947pt too wide) in paragraph at lines 90--90
+\T1/cmr/m/n/10.95 W: \T1/cmr/m/it/10.95 Me-cha-ni-cal Sys-tems and Si-gnal Pro-
+ces-sing \T1/cmr/m/n/10.95 122 (2019), s. 247255. \T1/cmr/m/sc/10.95 issn\T1/c
+mr/m/n/10.95 : 10961216.
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -7303,6 +7502,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [187]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[188]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[189]
 Overfull \hbox (7.96434pt too wide) in paragraph at lines 90--90
 []\T1/cmr/m/n/10.95 Vladimir Ko-lo-usek. \T1/cmr/m/it/10.95 Dy-na-mics in en-gi
 -ne-ering struc-tu-res\T1/cmr/m/n/10.95 . Red. Reu-ben Fra-ser McLean,
@@ -7316,7 +7533,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[188]
+[190]
 Overfull \hbox (1.26895pt too wide) in paragraph at lines 90--90
 \T1/cmr/m/n/10.95 snych prze-pi-sów. W: \T1/cmr/m/it/10.95 The-ore-ti-cal Fo-u
 n-da-tions of Ci-vil En-gi-ne-ering Polish-Ukrainian
@@ -7336,7 +7553,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[189]
+[191]
 Overfull \hbox (22.78563pt too wide) in paragraph at lines 90--90
 \T1/cmr/m/it/10.95 szyb-ko-bie»-nymi\T1/cmr/m/n/10.95 . War-szawa: Wy-daw-nic-t
 wa Naukowo-Techniczne, 2005. \T1/cmr/m/sc/10.95 isbn\T1/cmr/m/n/10.95 : 8320431
@@ -7351,25 +7568,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[190]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[191]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [192]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[193]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[194]
 Overfull \hbox (0.53299pt too wide) in paragraph at lines 90--90
 \T1/cmtt/m/n/10.95 Brownjohn % 20et % 20al . %20 -[] %202018 % 20 -[] %20Bayesi
 an % 20operational % 20modal %
@@ -7383,7 +7600,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[193]
+[195]
 Overfull \hbox (6.49037pt too wide) in paragraph at lines 90--90
 []\T1/cmr/m/n/10.95 F SHEN i in.   USING THE CROSS-CORRELATION TECH-NI-QUE TO 
 EXTRACT
@@ -7397,7 +7614,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[194]
+[196]
 Overfull \hbox (28.78333pt too wide) in paragraph at lines 90--90
 []\T1/cmr/m/n/10.95 Jer-Nan Ju-ang. \T1/cmr/m/it/10.95 Ap-plied sys-tem iden-ti
 -fi-ca-tion\T1/cmr/m/n/10.95 . Prentice-Hall, Inc., 1994. \T1/cmr/m/sc/10.95 is
@@ -7412,7 +7629,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[195]
+[197]
 Overfull \hbox (34.48322pt too wide) in paragraph at lines 90--90
 \T1/cmtt/m/n/10.95 files / 1168 / Neu % 20et % 20al . %20 -[] %202017 % 20 -[] 
 %20Fully % 20Automated % 20Operational %
@@ -7426,7 +7643,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[196]
+[198]
 Overfull \hbox (3.19958pt too wide) in paragraph at lines 90--90
 \T1/cmr/m/n/10.95 rview and con-cep-tual com-pa-ri-son. W: \T1/cmr/m/it/10.95 
 ACM com-pu-ting su-rveys (CSUR) \T1/cmr/m/n/10.95 35.3 (2003),
@@ -7440,7 +7657,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[197]
+[199]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -7449,7 +7666,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[198]
+[200]
 Overfull \hbox (21.7137pt too wide) in paragraph at lines 90--90
 []\T1/cmr/m/n/10.95 Emad El-bel-tagi, Ta-rek He-gazy i Do-nald Grier-son.   Co
 m-pa-ri-son among five evolutionary-
@@ -7463,7 +7680,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[199]
+[201]
 Overfull \hbox (0.55896pt too wide) in paragraph at lines 90--90
 \T1/cmr/m/n/10.95 Atlanta, 2013, s. 12. \T1/cmr/m/sc/10.95 url\T1/cmr/m/n/10.95
  : []$\T1/cmtt/m/n/10.95 http : / / files / 744 / Zuluaga % 20i % 20in . %20 -[
@@ -7484,7 +7701,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[200]
+[202]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -7493,7 +7710,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[201] (whole_thesis.aux (dictionary.aux) (wprowadzenie.aux) (chap_luki.aux)
+[203] (whole_thesis.aux (dictionary.aux) (wprowadzenie.aux) (chap_luki.aux)
 (chap_dynamic.aux) (chap_oma.aux) (chap_pso.aux) (wk2_research.aux)
 (summary.aux))
 
@@ -7504,7 +7721,7 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `whole_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E3F7949AF1C1A96AD9F9669EB62B8A5D;17880.
+(rerunfilecheck)             Checksum: F2E5DE25AD98A5CE5D4FF6C7B79C9FFB;17880.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                whole_thesis
@@ -7515,10 +7732,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48934 strings out of 479163
- 1185280 string characters out of 2852567
- 2091627 words of memory out of 12000000
- 64039 multiletter control sequences out of 15000+600000
+ 49180 strings out of 479163
+ 1195584 string characters out of 2852567
+ 2095220 words of memory out of 12000000
+ 64238 multiletter control sequences out of 15000+600000
  467615 words of font info for 186 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,24n,99p,3205b,2984s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -7583,9 +7800,9 @@ sers/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl120
 per/sfti1095.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/cm-super/sfti1200.pfb><C:/Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/cm-super/sftt1095.pfb>
-Output written on whole_thesis.pdf (211 pages, 119271589 bytes).
+Output written on whole_thesis.pdf (213 pages, 123989078 bytes).
 PDF statistics:
- 11963 PDF objects out of 12825 (max. 8388607)
- 1255 named destinations out of 1440 (max. 500000)
- 3790 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 12153 PDF objects out of 12825 (max. 8388607)
+ 1280 named destinations out of 1440 (max. 500000)
+ 4032 words of extra memory for PDF output out of 10000 (max. 10000000)
 

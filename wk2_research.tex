@@ -555,15 +555,15 @@ Do wyznaczania funkcji celu dla danego rozwiązania $\vect{F}=[f_{freq},f_{disp}
 
 
 \subsection{Rezultaty kalibracji}
-W trakcie kalibracji wyznaczono funkcję celu dla 97 867 położeń cząstek. Wszystkie wyniki zachowano w bazie wiedzy. Front Pareto po ostatniej iteracji złożony był z 8100 cząstek. Na rysunku \ref{fig: calibration_pareto} pokazano Front Pareto w widoku przestrzennym i w rzutach na wszystkie płaszczyzny. Kolor cząstek oznacza sumę algebraiczną wszystkich funkcji celu $\vect{F}$. Innymi słowy, oznacza on wartość funkcji $f_c$ jak dla optymalizacji jednokryterialnej o funkcji celu $f_c = f_{freq}+f_{disp}+f_{MAC}$. Gdyby wykonać opty`malizację jednokryterialną, przy osiągnięciu dokładnie tych samych położeń cząstek byłby to jedyny wynik i oznaczałby minimum globalne. Dzięki wykonaniu optymalizacji wielokryterialnej możliwy jest wybór różnych wag dla poszczególnych kryteriów oraz ocena wybranego kompromisu wśród całego zbioru rozwiązań optymalnych.
+W trakcie kalibracji wyznaczono funkcję celu dla 97 867 położeń cząstek. Wszystkie wyniki zachowano w bazie wiedzy. Front Pareto po ostatniej iteracji złożony był z 8100 cząstek. Na rysunku \ref{fig: calibration_pareto} pokazano $\epsilon-$Pareto Front w widoku przestrzennym i w rzutach na wszystkie płaszczyzny. Kolor cząstek oznacza sumę algebraiczną wszystkich funkcji celu $\vect{F}$. Innymi słowy, oznacza on wartość funkcji $f_c$ jak dla optymalizacji jednokryterialnej o funkcji celu $f_c = f_{freq}+f_{disp}+f_{MAC}$. Gdyby wykonać opty`malizację jednokryterialną, przy osiągnięciu dokładnie tych samych położeń cząstek byłby to jedyny wynik i oznaczałby minimum globalne. Dzięki wykonaniu optymalizacji wielokryterialnej możliwy jest wybór różnych wag dla poszczególnych kryteriów oraz ocena wybranego kompromisu wśród całego zbioru rozwiązań optymalnych.
 
 \begin{figure}[hbt!]
 	\centering
 	%width=0.48\linewidth
-	\subfloat[]{\includegraphics[trim =3 5 5 10 ,clip]{/WK2/kalibracja/fig_all_paricles_AXO.pdf} \label{fig: calibration_paretoa}}
-	\subfloat[]{\includegraphics[trim =20 10 5 10 ,clip]{/WK2/kalibracja/fig_all_paricles_XY.pdf} \label{fig: calibration_paretob}} \\
-	\subfloat[]{\includegraphics[trim =15 10 5 20 ,clip]{/WK2/kalibracja/fig_all_paricles_YZ.pdf} \label{fig: calibration_paretoc}}
-	\subfloat[]{\includegraphics[trim =20 10 5 20 ,clip]{/WK2/kalibracja/fig_all_paricles_XZ.pdf} \label{fig: calibration_paretod}}
+	\subfloat[]{\includegraphics[trim =3 5 5 15 ,clip]{/WK2/kalibracja/fig_all_paricles_AXO.pdf} \label{fig: calibration_paretoa}}
+	\subfloat[]{\includegraphics[trim =20 15 5 5 ,clip]{/WK2/kalibracja/fig_all_paricles_XY.pdf} \label{fig: calibration_paretob}} \\
+	\subfloat[]{\includegraphics[trim =15 18 5 20 ,clip]{/WK2/kalibracja/fig_all_paricles_YZ.pdf} \label{fig: calibration_paretoc}}
+	\subfloat[]{\includegraphics[trim =20 18 5 20 ,clip]{/WK2/kalibracja/fig_all_paricles_XZ.pdf} \label{fig: calibration_paretod}}
 	\captionsetup{justification=centering}
 	\caption{Ostateczny Front Pareto procesu optymalizacji w problemie kalibracji modelu numerycznego wiaduktu WK2: (a) widok przestrzenny, (b) rzut na płaszczyznę $f_{freq}f_{disp}$, (c) rzut na płaszczyznę $f_{disp}f_{MAC}$, (d) rzut na płaszczyznę $f_{freq}f_{MAC}$. Kolor wyraża wartość sumy: $f_c = f_{freq}+f_{disp}+f_{MAC}$ }
 	\label{fig: calibration_pareto}
@@ -595,10 +595,10 @@ Z wyżej wymienionych powodów skupiono się na wynikach pośrednich odrzucając
 
 \begin{figure}[H]
 	\centering
-	\subfloat[]{\includegraphics[trim =3 5 5 10 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_AXO_selected.pdf} }
-	\subfloat[]{\includegraphics[trim =10 10 5 5 ,clip ,width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XY_selected.pdf} } \\
-	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_YZ_selected.pdf}}
-	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip, width=0.48\linewidth]{/WK2/kalibracja/fig_all_paricles_XZ_selected.pdf} }
+	\subfloat[]{\includegraphics[trim =3 5 5 10 ,clip]{/WK2/kalibracja/fig_all_paricles_AXO_selected.pdf} }
+	\subfloat[]{\includegraphics[trim =10 10 5 5 ,clip]{/WK2/kalibracja/fig_all_paricles_XY_selected.pdf} } \\
+	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip]{/WK2/kalibracja/fig_all_paricles_YZ_selected.pdf}}
+	\subfloat[]{\includegraphics[trim =10 5 5 20 ,clip]{/WK2/kalibracja/fig_all_paricles_XZ_selected.pdf} }
 	\captionsetup{justification=centering}
 	\caption{Ostateczny Front Pareto procesu optymalizacji w problemie kalibracji modelu numerycznego wiaduktu WK2: (a) widok przestrzenny, (b) rzut na płaszczyznę $f_{freq}f_{disp}$, (c) rzut na płaszczyznę $f_{disp}f_{MAC}$, (d) rzut na płaszczyznę $f_{freq}f_{MAC}$. Czerwone punkty zostały wybrane do analizy jako kompromisowe.}
 	\label{fig: calibration_selected}

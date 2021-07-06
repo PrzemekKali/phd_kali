@@ -511,7 +511,7 @@ Ograniczenia dla zmiennych projektowych stanowią wartości skrajne, podyktowane
 
 
 \begin{table}[hbt!]
-	\caption{Zakresy dopuszczalnych zmian mass konstrukcyjnych i niekonstrukcyjnych}
+	\caption{Zakresy dopuszczalnych zmian mas konstrukcyjnych i niekonstrukcyjnych}
 	\label{tab:calibration_mass}
 	\footnotesize
 	\setlength\tabcolsep{0pt}
@@ -606,51 +606,107 @@ Z wyżej wymienionych powodów skupiono się na wynikach pośrednich odrzucając
 	\label{fig: calibration_selected}
 \end{figure}
 
-Dla wybranych rozwiązań kompromisowych stworzono rozkłady zmiennych projektowych. Na rysunku \ref{fig: calibration_histogramy} przestawiono znormalizowane histogramy wskazujące udział zmiennej w danym wąskim przedziale wartości wśród wszystkich rozwiązań kompromisowych. Niebieskim kolorem oznaczono histogramy dotyczące sztywności, pomarańczowym podpór sprężystych, a zielonym mas. Wąskie rozkłady wskazują, że zmienna osiągała zbliżone wartości we wszystkich rozwiązaniach kompromisowych. Oznacza to również, że jej wpływ jest bardzo istotny na osiągnięcie akceptowalnych wartości funkcji celu i jego zmiana powoduje wykluczenie z zaakceptowanego zakresu. Z drugiej strony, szerokie rozkłady z dużym rozproszeniem wartości wskazują na mały wpływ danej zmiennej na rezultaty funkcji celu. 
+Dla wybranych rozwiązań kompromisowych stworzono rozkłady zmiennych projektowych. Na rysunku \ref{fig: calibration_histogramy} przestawiono znormalizowane histogramy wskazujące udział wartości zmiennej w danym wąskim przedziale wśród wszystkich rozwiązań kompromisowych. Niebieskim kolorem oznaczono histogramy dotyczące sztywności, pomarańczowym podpór sprężystych, a zielonym mas. Wąskie rozkłady wskazują, że zmienna osiągała zbliżone wartości we wszystkich rozwiązaniach kompromisowych. Oznacza to również, że jej wpływ jest bardzo istotny na osiągnięcie akceptowalnych wartości funkcji celu i jego znacząca zmiana powoduje wykluczenie z zaakceptowanego zakresu lub brak optymalności rozwiązania. Z drugiej strony, szerokie rozkłady z dużym rozproszeniem wartości wskazują na mały wpływ danej zmiennej na rezultaty funkcji celu. 
 
-Z przedstawionych rezultatów można odczytać, że zmiana sztywności łuku, ściągu, poprzecznic, stężeń i wezgłowi w zadanych zakresach jest niewielka. Jest to zgodne z doświadczeniem i zdrowym rozsądkiem. Są to główne elementy konstrukcyjne i ich znaczne modyfikacje wywołują istotne zmiany w pracy konstrukcji. Należy zwrócić uwagę, że według kalibracji wymodelowany łuk powinien być mniej sztywny o około 8\% niż to wymodelowano początkowo, a z kolei elementy pomostu: ściąg i poprzecznice sztywniejsze o około 10\%. Większość rozwiązań przewiduje stężenia o sztywności bliskiej zamodelowanej. Model wezgłowi opisanych jak w punkcie \ref{sect:wk2_basic_num_model} większość rozwiązań proponuje usztywnić nawet około 8 razy. 
+Z przedstawionych rezultatów można odczytać, że zróżnicowanie sztywności łuku, ściągu, poprzecznic, stężeń i wezgłowi w zadanych zakresach jest niewielkie. Jest to zgodne z doświadczeniem i zdrowym rozsądkiem. Są to główne elementy konstrukcyjne i ich znaczne modyfikacje wywołują istotne zmiany w pracy konstrukcji. Należy zwrócić uwagę, że według kalibracji wymodelowany łuk powinien być mniej sztywny o około 8\% niż to wymodelowano początkowo, a z kolei elementy pomostu - ściąg i poprzecznice - sztywniejsze o około 10\%. Większość optymalnych rozwiązań przewiduje stężenia o sztywności bliskiej zamodelowanej. Okazuje się, że model wezgłowia opisany w punkcie \ref{sect:wk2_basic_num_model} większość rozwiązań proponuje usztywnić nawet około 8 razy. 
 
-Podpory sprężyste na kierunkach podłużnych i poprzecznych wstępnie zostały przyjęte jako dość sztywne o stałej $k=1\mathrm{E}6\;\mathrm{kN/m}$ co odpowiada wartości 0 na histogramie. Przypomnijmy że wartość na osi poziomej histogramu odpowiada wykładnikowi mnożnika w postaci $10^x$. Wynika stąd, że wartości dodatnie zwiększają, a ujemne zmniejszają sztywność podpory względem wartości wstępnej. Wykładniki mnożników dla niektórych podpór zostały przyjęte wyłącznie jako dodatnie, co można utożsamiać z praktyczną blokadą przemieszczeń na danym kierunku. Dotyczy to głównie podpór 2AX, 1AY, 2BX i 2BY. Z kolei podpory 1BX oraz 1BY wyraźnie są osłabiane co prowadzi do zwolnienia więzów na danym kierunku. Podpory 1AX i 2AY nie uległy znaczącej zmianie w trakcie kalibracji. Porównanie uzyskanych rezultatów z projektowanym schematem łożyskowania pokazuje, że \ref{}.
+Podpory sprężyste na kierunkach podłużnych i poprzecznych wstępnie zostały przyjęte jako dość sztywne o stałej $k=1\mathrm{E}6\;\mathrm{kN/m}$ co odpowiada wartości 0 na histogramie. Przypomnijmy że wartość na osi poziomej histogramu podpór sprężystych odpowiada wykładnikowi mnożnika w postaci $10^{-x}$. Wynika stąd że wartości dodatnie zmniejszają, a ujemne zwiększają sztywność podpory względem wartości wstępnej. Wykładniki mnożników dla niektórych podpór zostały przyjęte wyłącznie jako dodatnie, co można utożsamiać ze zwolnieniem blokady przemieszczeń na danym kierunku. Dotyczy to głównie podpór 2AX, 1AY, 2BX i 2BY. Z kolei podpory 1BX, 1BY i 2AY wyraźnie są wzmacniane co prowadzi do zablokowania więzów na danym kierunku. Podpora 1AX nie uległa znaczącej zmianie w trakcie kalibracji. Porównano uzyskane rezultaty z projektowanym schematem łożyskowania (Rys. \ref{fig:boudary_conditions_stiff_bearings}). W punkcie 1A zaprojektowano łożysko stałe. Identyfikacja wskazuje, że możliwy jest jednak ruch na kierunku poprzecznym w tym punkcie (1AY), a w kierunku podłużnym ruch jest ograniczony (1AX). Sąsiednie łożysko 1B jest projektowo jednokierunkowo przesuwne, z zablokowanym kierunkiem podłużnym. W tym przypadku według identyfikacji ruch wzdłuż obiektu został zgodnie z projektem wyraźnie zablokowany (1BX). Z drugiej strony - wbrew założeniom projektowym - kierunek poprzeczny (1BY) zidentyfikowano również jako zablokowany. W punkcie 2A kierunek podłużny (2AX) jest według identyfikacji zwalniany, a kierunek poprzeczny (2AY) jest usztywniony. W punkcie 2B rozkłady dla obu kierunków (2BX i 2BY) wskazują na rozluźnienie więzów sprężystych. Podsumowując, rezultaty wskazują na zablokowanie przesuwów podłużnych mostu po stronie łożyska stałego, ale sugerują również, że funkcje łożyska stałego i jednokierunkowo przesuwnego są jakby zamienione. Być może niewielki ruch konstrukcji w kierunku poprzecznym powstały w trakcie identyfikacji realizował się w ramach luzów konstrukcji łożyska stałego, a łożysko przesuwne w skutek tarcia lub innych czynników zewnętrznych nie uległo przemieszczeniu. Łożyska po swobodnej stronie obiektu zostały w pełni zidentyfikowane poprawnie.
 
-Dodatkowe masy elementów łuku zostały przyjęte jako zbyt wysokie. Wyniki wyraźnie sugerują zmniejszenie nadwyżki masy do ok 80\% wartości bazowej. Masa dodatkowa usytuowana na ściągu jest niewielka i niezależnie od mnożnika nie wpływa istotnie na rezultaty. Tłuczeń w części równomiernie rozłożonej na całym pomoście powinien być przyjęty o wartości ok. 70\% wartości bazowej, a w części ułożonej wzdłuż osi toru ok 80\%. Dodatkowa masa konstrukcji pomostu, podobnie jak ściągu, nie ma wyraźnego, wąskiego zakresu wartości, ale powinna być przyjęta blisko wartości wstępnej. Masa dodatkowa stężeń według algorytmu kalibracji również powinna być przyjęta o wartości równej bazowej. 
-
-Wszystkie opisane wyniki zostały podsumowane i sformułowano zestaw zmiennych projektowych najczęściej pojawiającym się w rezultatach. Przyjęto mnożniki o wartościach zebranych w tabeli \ref{} dzięki czemu uzyskano zestaw funkcji celu równy: 
-
-
-
-\begin{figure}[hbt!]
+\begin{figure}[p]
 	\centering
 	%width=0.48\linewidth
-\subfloat[S1 - Łuk]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_1.pdf}  \label{fig: hist_cal_1}}
-\subfloat[S2 - Ściąg]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_2.pdf}  \label{fig: hist_cal_2}}
-\subfloat[S3 - Poprz.]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_3.pdf}  \label{fig: hist_cal_3}}
-\subfloat[S4 - Żebra]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_4.pdf}  \label{fig: hist_cal_4}} \\
-\subfloat[S5 - Płyta]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_5.pdf}  \label{fig: hist_cal_5}}
-\subfloat[S6 - Stężenia]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_6.pdf}  \label{fig: hist_cal_6}}
-\subfloat[S7 - Wieszak]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_7.pdf}  \label{fig: hist_cal_7}}
-\subfloat[S8 - Wezgłowie]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_8.pdf}  \label{fig: hist_cal_8}} \\ 
-\subfloat[S21 - 2AX]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_9.pdf}  \label{fig: hist_cal_9}}
-\subfloat[S22 - 1AY]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_10.pdf}  \label{fig: hist_cal_10}}
-\subfloat[S23 - 1BX]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_11.pdf}  \label{fig: hist_cal_11}}
-\subfloat[S24 - 2BX]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_12.pdf}  \label{fig: hist_cal_12}} \\
-\subfloat[S25 - 1AX]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_13.pdf}  \label{fig: hist_cal_13}}
-\subfloat[S26 - 2AY]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_14.pdf}  \label{fig: hist_cal_14}}
-\subfloat[S27 - 1BY]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_15.pdf}  \label{fig: hist_cal_15}}
-\subfloat[S28 - 2BY]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_16.pdf}  \label{fig: hist_cal_16}} \\
-\subfloat[M1 - Łuk]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_17.pdf}  \label{fig: hist_cal_17}}
-\subfloat[M2 - Ściąg]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_18.pdf}  \label{fig: hist_cal_18}}
-\subfloat[M3 - Tłuczeń 1]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_19.pdf}  \label{fig: hist_cal_19}}
-\subfloat[M4 - Tłuczeń 2]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_20.pdf}  \label{fig: hist_cal_20}} \\
-\subfloat[M5 - Pomost]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_21.pdf}  \label{fig: hist_cal_21}}
-\subfloat[M6 Stężenia]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_22.pdf}  \label{fig: hist_cal_22}}
-
-		
+	\subfloat[S1 - Łuk]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_1.pdf}  \label{fig: hist_cal_1}}
+	\subfloat[S2 - Ściąg]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_2.pdf}  \label{fig: hist_cal_2}}
+	\subfloat[S3 - Poprz.]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_3.pdf}  \label{fig: hist_cal_3}}
+	\subfloat[S4 - Żebra]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_4.pdf}  \label{fig: hist_cal_4}} \\
+	\subfloat[S5 - Płyta]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_5.pdf}  \label{fig: hist_cal_5}}
+	\subfloat[S6 - Stężenia]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_6.pdf}  \label{fig: hist_cal_6}}
+	\subfloat[S7 - Wieszak]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_7.pdf}  \label{fig: hist_cal_7}}
+	\subfloat[S8 - Wezgłowie]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_8.pdf}  \label{fig: hist_cal_8}} \\ 
+	\subfloat[S21 - 2AX]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_9.pdf}  \label{fig: hist_cal_9}}
+	\subfloat[S22 - 1AY]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_10.pdf}  \label{fig: hist_cal_10}}
+	\subfloat[S23 - 1BX]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_11.pdf}  \label{fig: hist_cal_11}}
+	\subfloat[S24 - 2BX]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_12.pdf}  \label{fig: hist_cal_12}} \\
+	\subfloat[S25 - 1AX]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_13.pdf}  \label{fig: hist_cal_13}}
+	\subfloat[S26 - 2AY]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_14.pdf}  \label{fig: hist_cal_14}}
+	\subfloat[S27 - 1BY]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_15.pdf}  \label{fig: hist_cal_15}}
+	\subfloat[S28 - 2BY]{\includegraphics[width=0.25\linewidth,trim= 2 7 0 7,clip]{/WK2/kalibracja/fig_hist_param_16.pdf}  \label{fig: hist_cal_16}} \\
+	\subfloat[M1 - Łuk]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_17.pdf}  \label{fig: hist_cal_17}}
+	\subfloat[M2 - Ściąg]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_18.pdf}  \label{fig: hist_cal_18}}
+	\subfloat[M3 - Tłuczeń 1]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_19.pdf}  \label{fig: hist_cal_19}}
+	\subfloat[M4 - Tłuczeń 2]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_20.pdf}  \label{fig: hist_cal_20}} \\
+	\subfloat[M5 - Pomost]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_21.pdf}  \label{fig: hist_cal_21}}
+	\subfloat[M6 Stężenia]{\includegraphics[ width=0.25\linewidth,trim= 2 8 0 7,clip]{/WK2/kalibracja/fig_hist_param_22.pdf}  \label{fig: hist_cal_22}}
+	
+	
 	\captionsetup{justification=centering}
 	\caption{Rozkład zmiennych projektowych dla 162 rozwiązań kompromisowych $\epsilon$-Frontu Pareto}
 	\label{fig: calibration_histogramy}
 \end{figure}
 
+Dodatkowe masy elementów łuku zostały przyjęte jako zbyt wysokie. Wyniki wyraźnie sugerują zmniejszenie nadwyżki masy do ok 80\% wartości bazowej. Masa dodatkowa usytuowana na ściągu jest niewielka i niezależnie od mnożnika nie wpływa istotnie na rezultaty. Tłuczeń w części równomiernie rozłożonej na całym pomoście powinien być przyjęty o wartości ok. 70\% wartości bazowej, a w części ułożonej wzdłuż osi toru ok 80\%. Dodatkowa masa konstrukcji pomostu, podobnie jak ściągu, nie ma wyraźnego, wąskiego zakresu wartości, ale powinna być przyjęta blisko wartości wstępnej. Masa dodatkowa stężeń według algorytmu kalibracji również powinna być przyjęta o wartości równej bazowej. 
 
+Spośród wszystkich rozwiązań kompromisowych wybrano jedno, którego wszystkie zmienne projektowe mieściły się w zawężonych, najliczniej reprezentowanych przedziałach zmiennych na histogramach. Przyjęte mnożniki zaprezentowano w Tabelach \ref{tab:calibration_stiffness_prov}-\ref{tab:calibration_mass_prov}, a funkcje celu dla wybranego rozwiązania w Tabeli \ref{tab:minimal_values_calibration_prov}.
+
+\begin{table}[hbt!]
+	\caption{Przyjęte mnożniki sztywności elementów konstrukcyjnych}
+	\label{tab:calibration_stiffness_prov}
+	\footnotesize
+	\setlength\tabcolsep{0pt}
+	\begin{tabular}{@{}p{0.15\linewidth} *8{P{0.10625\linewidth}}@{}}
+		\toprule
+		\textbf{Element}    & Łuk  & Ściąg & Poprzecz. & Żebra & Płyta & Stężenia & Wieszak & Wezgłowie \\ \midrule
+		\textbf{Oznaczenie} & S1   & S2    & S3           & S4    & S5    & S6       & S7      & S8        \\ \midrule
+		\textbf{Mnożnik}    & 0.93 & 1.17  & 1.10         & 0.99   & 1.02  & 0.99      & 1.08     & 8.81       \\ \bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[hbt!]
+	
+	\caption{Przyjęte mnożniki sztywności warunków brzegowych}
+	\centering
+	\label{tab:calibration_supports_prov}
+	\footnotesize
+	\setlength\tabcolsep{0pt}
+	\begin{tabular}{@{}p{0.15\linewidth} *8{P{0.10625\linewidth}}@{}}
+		\toprule
+		\textbf{Podpora}    & 2AX               & 1AY               & 1BX               & 2BX               & 1AX               & 2AY               & 1BY               & 2BY               \\ \midrule
+		\textbf{Oznaczenie} & S21               & S22               & S23               & S24               & S25               & S26               & S27               & S28               \\ \midrule
+		\textbf{Mnożnik}   & $1\mathrm{E}{-1.69}$ & $1\mathrm{E}{-5.63}$ & $1\mathrm{E}{5.02}$ & $1\mathrm{E}{-1.66}$ & $1\mathrm{E}{-0.46}$ & $1\mathrm{E}{1.96}$ & $1\mathrm{E}{3.71}$ & $1\mathrm{E}{-1.81}$ \\ \bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[hbt!]
+	\caption{Przyjęte mnożniki mas konstrukcyjnych i niekonstrukcyjnych}
+	\label{tab:calibration_mass_prov}
+	\footnotesize
+	\setlength\tabcolsep{0pt}
+	\begin{tabular}{@{}p{0.15\linewidth} *6{P{0.1417\linewidth}}@{}}
+		\toprule
+		\textbf{Element}    & Łuk & Ściąg & Tłuczeń 1 & Tłuczeń 2 & Pomost & Stężenia \\ \midrule 
+		\textbf{Oznaczenie} & M1  & M2    & M3        & M4        & M5     & M6       \\ \midrule
+		\textbf{Mnożnik}   & 0.81 & 0.96   & 0.68       & 0.76       & 0.80    & 1.02       \\ \bottomrule
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[hbt!]
+	\caption{Przyjęty zestaw funkcji celu uzyskanych w optymalizacji wielokryterialnej problemu kalibracji}
+	\centering
+	%\begin{tabular}{@{}ccccc@{}}
+	\footnotesize
+	\setlength\tabcolsep{0pt}
+	\begin{tabular}{@{}P{0.2\linewidth} *4{P{0.2\linewidth}}@{}}	
+		\toprule
+		\textbf{Zestaw} & \textbf{$f_{freq}$} & \textbf{$f_{MAC}$} & \textbf{$f_{disp}$} & \textbf{$f_{c}$} \\ \midrule
+		końcowy & 0.026			& 3.584		  & 5.771		   & 9.381		\\ \bottomrule
+	\end{tabular}
+	\label{tab:minimal_values_calibration_prov}
+\end{table}
+
+Zgodnie z przyjętymi założeniami dotyczącymi znaczenia i dokładności wyznaczania funkcji celu, przede wszystkim znacznie zredukowano wartość funkcji celu związanej z częstotliwościami drgań własnych $f_{freq}$. Pozostałe funkcje celu pozostają na zadowalającym poziomie (por. Tab. \ref{tab:minimal_values_calibration}). Ostateczne rozwiązanie zostało przyjęte w dalszej części związanej z obliczeniami dynamicznymi konstrukcji.
+
+\pagebreak[4]
 
 \section{Wpływ wymiarów elementów konstrukcyjnych na odpowiedź dynamiczną przęsła}
 Celem pracy jest określenie wpływu poszczególnych elementów konstrukcyjnych na zachowanie dynamiczne przęsła. Analizę przeprowadzono na przykładzie zidentyfikowanego dynamicznie wiaduktu łukowego WK2 w ciągu Pomorskiej Kolei Metropolitalnej. Przyjęto że zmianie mogą ulegać jedynie wymiary elementów konstrukcyjnych, a nie topologia całego ustroju. Dla przedmiotowego obiektu wyszczególniono 3 główne cechy, które wynikają z wymiarów elementów i wpływają na zachowanie struktury. Są to sztywność giętna dźwigara łukowego, sztywność giętna ściągu, a także sztywność podłużna wieszaków. Uwzględniając złożoność rzeczywistej konstrukcji połączoną z szeregiem wymagań stawianych przez zapisy normowe rozwiązanie analityczne problemu wydaje się być karkołomnym zadaniem. Postanowiono wyznaczyć wpływ poszczególnych elementów w procesie optymalizacji wielokryterialnej. Zdefiniowano dwie funkcje celu zestawione w wektor $\vect{F}=[f_s,f_a]$ gdzie:

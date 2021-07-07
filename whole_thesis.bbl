@@ -4234,6 +4234,12 @@
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/{\"{U}}lker-Kaustell, Karoumi - 2012 - Influence of non-linear stiffness and damping on the train-bridge resonance of a simply supported railw.pdf:pdf
       \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S014102961200185X http://files/196/{\"{U}}lker-Kaustell i Karoumi - 2012 - Influence of non-linear stiffness and damping on t.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S014102961200185X%20http://files/196/%7B%5C%22%7BU%7D%7Dlker-Kaustell%20i%20Karoumi%20-%202012%20-%20Influence%20of%20non-linear%20stiffness%20and%20damping%20on%20t.pdf
+      \endverb
       \keyw{Dynamics,Non-linear stiffness and damping,Railway bridges,Train-bridge resonance}
     \endentry
     \entry{Klasztorny2005}{book}{}
@@ -4633,6 +4639,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{There is given the theoretical background of the modal analysis in this paper. In the first part modal analysis, its theoretical and experimental procedure of vibration analysis is defined. In document one degree of freedom system and its behavior, equations and next modification as system of free vibration, harmonic excitation, structural damping is defined. Also, there is defined important property of the modal model - orthogonal property. In the next step is discussed multi degrees of freedom system, its properties, damping and solution.}
       \field{journaltitle}{American Journal of Mechanical Engineering}
       \field{number}{7}
       \field{title}{{Theoretical basis of modal analysis}}
@@ -4640,9 +4647,19 @@
       \field{year}{2013}
       \field{pages}{173\bibrangedash 179}
       \range{pages}{7}
+      \verb{doi}
+      \verb 10.12691/ajme-1-7-4
+      \endverb
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Lengvarsk{\'{y}}, Bocko - 2013 - Theoretical basis of modal analysis.pdf:pdf
       \endverb
+      \verb{urlraw}
+      \verb http://pubs.sciepub.com/ajme/1/7/4/index.html
+      \endverb
+      \verb{url}
+      \verb http://pubs.sciepub.com/ajme/1/7/4/index.html
+      \endverb
+      \keyw{1,10,12691,173-179,2013,7,ajme-1-7-4,american,analysis,and jozef bocko,cite this article,damping,deduce the modal model,doi,excitation,journal of mechanical engineering,modal analysis,no,orthogonal properties,pavol lengvarský,properties,theoretical basis of modal,this method is called,vibration}
     \endentry
     \entry{Chmielewski1998}{book}{}
       \name{author}{2}{}{%
@@ -10982,6 +10999,26 @@
       \verb{url}
       \verb http://rgdoi.net/10.13140/2.1.3914.2404%20http://files/222/Salamak%20i%20in.%20-%202014%20-%20Badania%20odbiorcze%20most%7B%5C'%7Bo%7D%7Dw%20kolejowych%20pod%20pr%7B%5C'%7Bo%7D%7Dbnym%20ob.pdf
       \endverb
+    \endentry
+    \entry{SOFiSTiK2018a}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fefce3f2a4d5d921f5a372595f9bd91a}{%
+           family={SOFiSTiK},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{fullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{bibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authorbibnamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authornamehash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \strng{authorfullhash}{fefce3f2a4d5d921f5a372595f9bd91a}
+      \field{extraname}{4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{DYNA Dynamic AnalysisDYNA Manual, Version 2018-15.1 Software Version SOFiSTiK 2018}}
+      \field{year}{2018}
     \endentry
     \entry{Tabachnick}{book}{}
       \name{author}{2}{}{%

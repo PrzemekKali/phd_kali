@@ -1657,6 +1657,7 @@ Wykonane analizy optymalizacyjne kolejowego obiektu łukowego pozwoliły na iden
 \begin{table}[hbt!]
 	\caption{Zestawienie wniosków z optymalizacji kolejowego przęsła łukowego ze względu na zachowanie dynamiczne}
 	\footnotesize
+
 	\centering
 	\setlength\tabcolsep{0pt}
 	%\resizebox{\textwidth}{!}{%
@@ -1737,7 +1738,7 @@ Na rysunku \ref{fig:comparison_proportion_opt} oraz w tabeli \ref{tab:summary_op
 		\toprule
 		\multirow{2}{*}[-3pt]{\begin{tabular}[c]{@{}c@{}}Układ\\ wieszaków\end{tabular}} &
 		\begin{tabular}[c]{@{}c@{}}Prędkość \\ maksymalna\end{tabular} &
-		\begin{tabular}[c]{@{}c@{}}Masa konstrukcji {[}t{]}\\ (połowa obiektu)\end{tabular} &
+		\begin{tabular}[c]{@{}c@{}}Masa konstrukcji\\ (połowa obiektu)\end{tabular} &
 		\begin{tabular}[c]{@{}c@{}}Maksymalne\\ przyspieszenia\end{tabular} &
 		Łuk &
 		Ściąg &
@@ -1775,11 +1776,11 @@ W tym wariancie, dla wszystkich prędkości, łuk o przekroju skrzynkowym zosta�
 Warianty z wieszakami ukośnymi i Network mają odmienną charakterystykę niż wariant z wieszakami prostymi. W obu układam elementem decydująca okazała się sztywność łuku. Wpływ zmienności średnicy wieszaków i wysokości ściągu jest również zauważalny, niemniej w każdym wariantów to wysokość łuku odgrywa zdecydowanie decydujące znaczenie. Dla rozwiązań uzyskanych przy prędkości do 200 km/h włącznie, wytężenie minimalne elementów wyniosło powyżej 50\% co świadczy o znacznie lepszym wykorzystaniu materiału niż w przypadku wieszaków prostych. Wśród optymalnych rozwiązań, dla wszystkich prędkości wysokość ściągu nie przekroczyła 2000 mm. Jednocześnie wysokość łuku została dobrana jako minimalna 150 mm. Można również stwierdzić, że przy prędkościach zwiększonych do 300 km/h sztywność łuku musi być znacznie większa. W analizach uzyskano wysokość dla wieszaków ukośnych większą niż 1000 mm, a dla wieszaków Network większą niż 1500 mm.
 
 \subsubsection{Rozrzut maksymalnych przyspieszeń dla rozwiązań o tej samej masie}
-Na podstawie rozkładu rozwiązań w dziedzinie funkcji celu masy i maksymalnych przyspieszeń (na przykład rys. \ref{fig:wk2_opti_proste_160_all}) można wnioskować o możliwości błędnego zaprojektowania konstrukcji z punktu widzenia dynamicznego. Załóżmy, że "idealnie" zaprojektowana konstrukcja to taka dla której Front Pareto przecina linię wyznaczającą poziom maksymalnych przyspieszeń $3.5\;\mathrm{m/s^2}$. Przyjmując, że punkt przecięcia wyznacza minimalną masę, dla której możliwe jest poprawne zaprojektowanie konstrukcji to warto rozważyć jak bardzo nieudanie, z punktu widzenia dynamiki, można zaprojektować konstrukcję przy przyjętych zakresach zmiennych projektowych. Innymi słowy rozważono jak wysokie przyspieszenie maksymalne może wystąpić w przekroju pionowym przez rozwiązanie idealne. W celu graficznej prezentacji zagadnienia zakres zmienności masy konstrukcji (od ok. 106 t do ok. 213 t) podzielono na 20 równych przedziałów. W każdym przedziale zidentyfikowano maksymalną i minimalną wartość maksymalnych przyspieszeń. Rezultaty przedstawiono na rysunku \ref{fig:comparison_diffs_opt}. Zielone słupki przedstawiają wartość minimalną, a czerwone wartość maksymalną. Poziomą przerywaną linią zaznaczono poziom przyspieszeń maksymalnych $3.5\;\mathrm{m/s^2}$. Pionową linią przerywaną zaznaczono minimalną masę, dla której zidentyfikowano przyspieszenia mniejsze niż $3.5\;\mathrm{m/s^2}$ - rozwiązanie "idealne".
+Na podstawie rozkładu wszystkich wyznaczonych rozwiązań w dziedzinie funkcji celu (na przykład rys. \ref{fig:wk2_opti_proste_160_all}) można wnioskować o możliwości błędnego zaprojektowania konstrukcji z punktu widzenia dynamicznego. Załóżmy, że perfekcyjnie i optymalnie zaprojektowana konstrukcja to taka dla której Front Pareto przecina linię wyznaczającą poziom maksymalnych przyspieszeń $3.5\;\mathrm{m/s^2}$. W takim wypadku punkt przecięcia wyznacza minimalną masę, dla której możliwe jest poprawne zaprojektowanie konstrukcji z punktu widzenia dynamicznego. Warto więc rozważyć jak bardzo nieudanie można zaprojektować konstrukcję dynamicznie, czyli jak odległe są ekstremalne uzyskane w optymalizacji wartości przyspieszeń maksymalnych przy danej masie konstrukcji. Przedstawiony eksperyment myślowy dotyczy zaproponowanych w pracy zakresów zmiennych projektowych i rozwiązań dla których spełnione są pozostałe warunki SGN i SGU. Zakres zmienności masy konstrukcji (od ok. 106 t do ok. 213 t) podzielono na 20 równych przedziałów. W każdym przedziale zidentyfikowano maksymalną i minimalną wartość maksymalnych przyspieszeń uzyskanych w optymalizacji. Rezultaty przedstawiono na rysunku \ref{fig:comparison_diffs_opt}. Zielone słupki przedstawiają wartość minimalną, a czerwone wartość maksymalną. Poziomą przerywaną linią zaznaczono przyspieszenia równe $3.5\;\mathrm{m/s^2}$. Pionową linią przerywaną zaznaczono minimalną masę, dla której zidentyfikowano przyspieszenia mniejsze niż $3.5\;\mathrm{m/s^2}$.
 	
-Dla każdego z wariantów wieszaków i prędkości odczytano wartość minimalną i maksymalną przyspieszeń odpowiadających masom przedstawionych w tabeli \ref{tab:summary_optimal_results}. W przypadku wieszaków prostych i prędkości kolejno 160, 200 i 300 km/h odczytano pary wartości minimalnych - maksymalnych przyspieszeń: 2.0 - 9.2, 2.4 - 9.4 i 3.2 - 15.6 $\mathrm{m/s^2}$. Dla wieszaków ukośnych są to pary: 2.1 - 3.6, 2.4 - 7.1,  3.0 - 8.1 $\mathrm{m/s^2}$, a dla wieszaków Network: 1.6 - 3.7, 2.8 - 4.2 i 3.0 - 6.9 $\mathrm{m/s^2}$.\footnote{ 
+Dodatkowo dla każdego z wariantów wieszaków i prędkości z wykresów na rysunku \ref{fig:comparison_diffs_opt} odczytano wartość minimalną i maksymalną przyspieszeń odpowiadających masom przedstawionych w tabeli \ref{tab:summary_optimal_results}. Są to skrajne wartości pasków przeciętych przez pionową linię przerywaną. Rezultaty przedstawiono w tabeli \ref{tab:optimization_dynamic_ranges}\footnote{ 
 		Przed oceną powyższych wyników należy przypomnieć, że ze względu na działanie algorytmu optymalizacji uzyskane rozkłady rozwiązań nie pokrywają równomiernie przestrzeni zmiennych projektowych. Z tego powodu dla któregoś z wariantu uzyskane wyniki mogą niedoszacowywać maksymalnych możliwych przyspieszeń przy danej masie konstrukcji. Niemniej liczba wyznaczonych próbek oraz regularność kształtów otrzymanych rozkładów pozwalają założyć, że ryzyko to jest względnie małe.}
-Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nieodpowiedni dobór wymiarów elementów może skutkować bardzo dużymi wartości przyspieszeń maksymalnych pomostu. W przypadku wieszaków prostych uwaga ta dotyczy wszystkich rozpatrywanych prędkości. Przęsło z wieszakami ukośnymi niezależnie od przyjętych wartości zmiennych projektowych zachowuje dobre właściwości dynamiczne przy prędkości do 160 km/h. Dla prędkości do 200 i 300 km/h sytuacja ulega zmianie i wartości przyjętych zmiennych wpływają drastycznie na wartość przyspieszeń maksymalnych. Najlepiej w tym aspekcie prezentuje się układ z wieszakami typu Network. Do prędkości 160 km/h nie udało się uzyskać przyspieszeń większych niż $3.5\;\mathrm{m/s^2}$ dla wszystkich rozwiązań spełniających warunki SGN i SGU z analizy statycznej. Zwiększenie zakresu prędkości do 200 km/h powoduje ryzyko wystąpienia większych przyspieszeń, ale znacznie mniejszych niż ma to miejsce w przypadku obiektów z wieszakami prostymi i ukośnymi. Dopiero zezwolenie przejazdu z prędkością do 300 km/h powoduje, że złe ukształtowanie konstrukcji może drastycznie pogorszyć właściwości dynamiczne przęsła.
+Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nieodpowiedni dobór wymiarów elementów i brak weryfikacji przez analizę odpowiedzi dynamicznej może skutkować bardzo dużymi wartości przyspieszeń maksymalnych pomostu. W przypadku wieszaków prostych uwaga ta dotyczy wszystkich rozpatrywanych prędkości. Przęsło z wieszakami ukośnymi niezależnie od przyjętych wartości zmiennych projektowych zachowuje dobre właściwości dynamiczne przy prędkości do 160 km/h. Dla prędkości do 200 i 300 km/h sytuacja ulega zmianie i wartości przyjętych zmiennych wpływają drastycznie na wartość przyspieszeń maksymalnych. Najlepiej w tym aspekcie prezentuje się układ z wieszakami typu Network. Do prędkości 160 km/h nie udało się uzyskać przyspieszeń większych niż $3.5\;\mathrm{m/s^2}$ dla wszystkich rozwiązań spełniających warunki SGN i SGU z analizy statycznej. Zwiększenie zakresu prędkości do 200 km/h powoduje ryzyko wystąpienia większych przyspieszeń, ale znacznie mniejszych niż ma to miejsce w przypadku obiektów z wieszakami prostymi i ukośnymi. Dopiero symulacja przejazdu z prędkością do 300 km/h pokazuje, że złe ukształtowanie konstrukcji może drastycznie pogorszyć właściwości dynamiczne przęsła.
 	
 
 	
@@ -1807,3 +1808,30 @@ Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nie
 	\caption{Porównanie proporcji elementów konstrukcyjnych dla optymalnych rozwiązań poszczególnych wariantów o minimalnej masie i $a_{max}<3.5\;\mathrm{m/s^2}$}
 	\label{fig:comparison_diffs_opt}
 \end{figure}
+
+\begin{table}[hbt!]
+	\caption{Zestawienie ekstremalnych przyspieszeń maksymalnych uzyskanych dla masy konstrukcji spełniającej wymóg normowy ograniczenia przyspieszeń pomostu}
+	\centering
+	\footnotesize
+	\setlength\tabcolsep{0pt}
+	\begin{tabular}{@{}p{0.15\linewidth} P{0.15\linewidth} P{0.3\linewidth} P{0.2\linewidth} P{0.2\linewidth}@{}}	
+		%\begin{tabular}{@{}ccccccc@{}}
+		\toprule
+		\multirow{3}{*}[-3pt]{\begin{tabular}[c]{@{}c@{}}Układ\\ wieszaków\end{tabular}} &
+		\multirow{2}{*}[-3pt]{\begin{tabular}[c]{@{}c@{}}Prędkość \\ maksymalna\end{tabular}} &
+		\multirow{2}{*}[-3pt]{\begin{tabular}[c]{@{}c@{}}Masa konstrukcji $\pm 5\;\mathrm{t}$\\ (połowa obiektu)\end{tabular}} &
+		\multicolumn{2}{c}{Przyspieszenia maksymalne}\\ \cmidrule(l){4-5} 
+		& & &  Dolna granica & Górna Granica \\ \cmidrule(l){2-5} 
+		& {[}km/h{]} & {[}t{]} & $\mathrm{[m/s^2]}$ & $\mathrm{[m/s^2]}$  \\ \midrule
+		Proste  & 160        & 116.6   & 2.0    & 9.2                   \\
+		Proste  & 200        & 121.4   & 2.4    & 9.4                   \\
+		Proste  & 300        & 132.0   & 3.2    & 15.6                   \\
+		Ukośne  & 160        & 106.1   & 2.1    & 3.6                   \\
+		Ukośne  & 200        & 108.5   & 2.4    & 7.1                   \\
+		Ukośne  & 300        & 152.1   & 3.0    & 8.1                  \\
+		Network & 160        & 106.3   & 1.6    & 3.7                   \\
+		Network & 200        & 106.2   & 2.8    & 4.2                   \\
+		Network & 300        & 150.0   & 3.0    & 6.9                  \\ \bottomrule
+	\end{tabular}
+	\label{tab:optimization_dynamic_ranges}
+\end{table}

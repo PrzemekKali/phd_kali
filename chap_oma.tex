@@ -56,7 +56,7 @@ W pracy \cite{Maia1997} autorzy opisali szczegółowo wiele z metod zarówno eks
 	\item Poly Reference (PR) \parencite{Norton2009,Vold1982},
 	\item Autoregressive Moving Average (ARMA) \parencite{Shi1987,Huang2000,Giorcelli1994},
 	\item Ibrahim Time Domain (ITD) \parencite{Ibrahim1983,Pappa1985a},
-	\item Eigensystem Realization Algorithm (ERA) \parencite{Juang1985,Pappa1985,Juang1988},
+	\item Eigensystem Realization Algorithm (ERA) \parencite{Juang1985,Pappa1985,Juang1986a},
 	\item Stochastic Subspace Identification (SSI). \parencite{VanOverschee1996,Peeters1999a,Peeters2000}. 
 \end{itemize}
 Z kolei najpopularniejsze algorytmy w dziedzinie częstotliwości to:
@@ -329,11 +329,11 @@ Podsumowując powyższy ciąg myślowy możliwa jest dekompozycja równania (\re
 
 gdzie oznaczenia przyjęto jak w równaniach (\ref{eq: IRFmimo}) i (\ref{eq: FRFmimo}), a $\vect{\gamma}_n$ oznacza wektor referencyjny związany z n-tym modem. Wektor ten zależny jest od wszystkich parametrów modalnych systemu oraz lokalizacji i macierzy korelacji wymuszeń \parencite{Rainieri2014, Peeters2000}. 
 
-Równanie (\ref{eq: decomposedRx}) pokazuje, że funkcje korelacji odpowiedzi mogą być wyrażone za pomocą sumy zespolonych funkcji eksponencjalnych. W pracy \cite{SHEN2003} autorzy wskazują na podobieństwo jego formy do równania (\ref{eq: IRFmimo}). Z kolei w kluczowej dla metody NExT pracy \cite{Kennedy1995}, rozwinięto to równanie do postaci ukazującej funkcję korelacji jako sumę zanikających sinusoid, o charakterystyce takiej samej jak w przypadku IRF. Podsumowując, funkcje korelacji mogą być użyte jako funkcje odpowiedzi impulsowej (IRF) w metodach TD identyfikacji parametrów modalnych.
+Równanie (\ref{eq: decomposedRx}) pokazuje, że funkcje korelacji odpowiedzi mogą być wyrażone za pomocą sumy zespolonych funkcji eksponencjalnych. W pracy \cite{SHEN2003} autorzy wskazują na podobieństwo jego formy do równania (\ref{eq: IRFmimo}). Z kolei w kluczowej dla metody NExT pracy \cite{James1995}, rozwinięto to równanie do postaci ukazującej funkcję korelacji jako sumę zanikających sinusoid, o charakterystyce takiej samej jak w przypadku IRF. Podsumowując, funkcje korelacji mogą być użyte jako funkcje odpowiedzi impulsowej (IRF) w metodach TD identyfikacji parametrów modalnych.
 
 
 \subsection{Eigenystem Realization Algorithm}
-Metoda ERA została opracowana w latach 80' XX w. przez naukowców z NASA Langley Research Center: Richarda Pappa i Jer-Nan Juang'a. Przedstawili oni koncept identyfikacji modalnej i redukcji modelu układu dynamicznego na podstawie danych pomiarowych. Nowością, którą wprowadzili autorzy było połączenie pojęć z teorii kontroli i algorytmu rozkładu względem wartości osobliwych. Fundamentalne prace opisujące metodę zostały opisane w \parencite{Pappa1985,Juang1985,Juang1988,Juang1994}. Algorytm ERA był wielokrotnie testowany, na przykład pod względem odporności na zaszumienie danych pomiarowych \parencite{Juang1986, Li2011}. Spośród polskich autorów, szczegółowy opis metody zawarli w swoich pracach \cite{Szafranski2013} i \cite{Dudek2008}.
+Metoda ERA została opracowana w latach 80' XX w. przez naukowców z NASA Langley Research Center: Richarda Pappa i Jer-Nan Juang'a. Przedstawili oni koncept identyfikacji modalnej i redukcji modelu układu dynamicznego na podstawie danych pomiarowych. Nowością, którą wprowadzili autorzy było połączenie pojęć z teorii kontroli i algorytmu rozkładu względem wartości osobliwych. Fundamentalna teoria metody została opisana w \parencite{Pappa1985,Juang1985,Juang1986a,Juang1994}. Algorytm ERA był wielokrotnie testowany, na przykład pod względem odporności na zaszumienie danych pomiarowych \parencite{Juang1986, Li2011}. Spośród polskich autorów, szczegółowy opis metody zawarli w swoich pracach \cite{Szafranski2013} i \cite{Dudek2008}.
 
 \subsubsection{Liniowy model dynamiczny w przestrzeni stanów}
 Model przestrzeni stanów\footnote{

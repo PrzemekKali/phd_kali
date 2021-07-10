@@ -15,9 +15,9 @@
 
 %\usepackage{layouts}
 \DeclareUnicodeCharacter{2208}{$\epsilon$}
-%\DeclareUnicodeCharacter{0229}{\c{e}}
+\DeclareUnicodeCharacter{0229}{\c{e}}
 \DeclareUnicodeCharacter{2264}{$\ge$}
-%\DeclareUnicodeCharacter{0327}{\c{a}}
+\DeclareUnicodeCharacter{0327}{\c{a}}
 %\DeclareUnicodeCharacter{0322}{!!!!!}
 
 %BIBLIOGRAFIA
@@ -32,11 +32,14 @@ giveninits=true,
 url=true
 ]{biblatex}
 \DeclareNameAlias{default}{family-given}
+
 \DeclareFieldFormat{url}{%
 	\mkbibacro{URL}\addcolon\space
 	\ifhyperref
 	{\href{#1}{\nolinkurl{\thefield{urlraw}}}}
-	{\expandafter\nolinkurl\expandafter{\romannumeral-`0\thefield{urlraw}}}}
+	{\expandafter\nolinkurl\expandafter{\romannumeral-`0\thefield{urlraw}}}
+}
+
 \AtEveryBibitem{
 	\ifthenelse{\ifentrytype{misc}}
 	{}    
@@ -45,6 +48,7 @@ url=true
 		\clearfield{month}%
 		\clearfield{day}%
 	}}
+
 %\AtEveryBibitem{%
 %	\clearlist{language}%
 %	\clearfield{month}%

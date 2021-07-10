@@ -22,7 +22,7 @@
 
 %BIBLIOGRAFIA
 %\usepackage[backend=biber,style=authoryear,url=false]{biblatex}
-
+\usepackage{ifthen}
 \usepackage[
 backend=biber,
 citestyle=numeric-comp,
@@ -32,8 +32,22 @@ giveninits=true,
 url=true
 ]{biblatex}
 \DeclareNameAlias{default}{family-given}
+\DeclareFieldFormat{url}{%
+	\mkbibacro{URL}\addcolon\space
+	\ifhyperref
+	{\href{#1}{\nolinkurl{\thefield{urlraw}}}}
+	{\expandafter\nolinkurl\expandafter{\romannumeral-`0\thefield{urlraw}}}}
+\AtEveryBibitem{
+	\ifthenelse{\ifentrytype{misc}}
+	{}    
+	{ 	\clearfield{url}%
+		\clearlist{language}%
+		\clearfield{month}%
+		\clearfield{day}%
+	}}
 %\AtEveryBibitem{%
-%	\clearfield{journaltitle}%
+%	\clearlist{language}%
+%	\clearfield{month}%
 %}
 
 %style=numeric-comp,

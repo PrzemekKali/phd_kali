@@ -209,19 +209,19 @@ Druga grupa błędów związana jest z niewłaściwym oszacowaniem parametrów m
 	%\resizebox{\textwidth}{!}{%
 		\begin{tabular}{@{}p{0.7\linewidth}  P{0.3\linewidth} @{}}
 			\toprule 
-			Własność fizyczna   & Poziom niepewności [\%] \\
+			Własność fizyczna  & Poziom niepewności [\%] \\
 			\midrule
-			Moduł sprężystości i gęstość masy dla stali i innych metali  &    1--5    \\
-			Moduł sprężystości i gęstość masy dla betonu, drewna i materiałów zbrojonych włóknami & 5--20\\
-			Warunki brzegowe w kontakcie z podłożem gruntowym &    10--nieskończoność     \\
-			Połączenia śrubowe & 10--nieskończoność\\
-			Połączenia spawane & 2--10\\
-			Masa całkowita & 1--5 \\
-			Określana częstotliwość drgań własnych & 0.1--0.05\\
-			Pomierzona odpowiedź & 0.2--2\\
-			Określane postaci drgań własnych & 2--5\\ 
-			Określane tłumienie & 5--20\\
-			Współczynnik skalujący postaci drgań własnych & 5--30\\
+			Moduł sprężystości i gęstość masy dla stali i innych metali  &    1--5  \\ %\midrule
+			Moduł sprężystości i gęstość masy dla betonu, drewna i materiałów zbrojonych włóknami & 5--20\\ %\midrule
+			Warunki brzegowe w kontakcie z podłożem gruntowym &    10--$\infty$     \\ %\midrule
+			Połączenia śrubowe & 10--$\infty$\\ %\midrule
+			Połączenia spawane & 2--10\\ %\midrule
+			Masa całkowita & 1--5 \\ %\midrule
+			Określana częstotliwość drgań własnych & 0.1--0.05\\ %\midrule
+			Pomierzona odpowiedź & 0.2--2\\ %\midrule
+			Określane postaci drgań własnych & 2--5\\  %\midrule
+			Określane tłumienie & 5--20\\ %\midrule
+			Współczynnik skalujący postaci drgań własnych & 5--30\\ 
 			\bottomrule
 	\end{tabular}
 	\label{table:uncertainitesModel}
@@ -446,15 +446,15 @@ Na liniach kolejowych o prędkości maksymalnej mniejszej niż 200 km/h zarządc
 	\begin{tabular}{@{} P{0.1\textwidth} *4{P{0.225\textwidth}} @{}}
 		\toprule
 		HSLM & \begin{tabular}[c]{@{}c@{}}Liczba pośrednich\\ wagonów pasażerskich \\ $N$\end{tabular} & \begin{tabular}[c]{@{}c@{}}Długość wagonu\\ pasażerskiego \\ $D$ {[}m{]}\end{tabular} & \begin{tabular}[c]{@{}c@{}}Rozstaw osi\\ wózków \\ $d$ {[}m{]}\end{tabular} & \begin{tabular}[c]{@{}c@{}}Siła skupiona \\ $P$ {[}kN{]}\end{tabular} \\ \midrule
-		A1   & 18                                                                                      & 18                                                                                    & 2,0                                                                         & 170                                                                   \\ \midrule
-		A2   & 17                                                                                      & 19                                                                                    & 3,5                                                                         & 200                                                                   \\ \midrule
-		A3   & 16                                                                                      & 20                                                                                    & 2,0                                                                         & 180                                                                   \\ \midrule
-		A4   & 15                                                                                      & 21                                                                                    & 3,0                                                                         & 190                                                                   \\ \midrule
-		A5   & 14                                                                                      & 22                                                                                    & 2,0                                                                         & 170                                                                   \\ \midrule
-		A6   & 13                                                                                      & 23                                                                                    & 2,0                                                                         & 180                                                                   \\ \midrule
-		A7   & 13                                                                                      & 24                                                                                    & 2,0                                                                         & 190                                                                   \\ \midrule
-		A8   & 12                                                                                      & 25                                                                                    & 2,5                                                                         & 190                                                                   \\ \midrule
-		A9   & 11                                                                                      & 26                                                                                    & 2,0                                                                         & 210                                                                   \\ \midrule
+		A1   & 18                                                                                      & 18                                                                                    & 2,0                                                                         & 170                                                                   \\ %\midrule
+		A2   & 17                                                                                      & 19                                                                                    & 3,5                                                                         & 200                                                                   \\ %\midrule
+		A3   & 16                                                                                      & 20                                                                                    & 2,0                                                                         & 180                                                                   \\ %\midrule
+		A4   & 15                                                                                      & 21                                                                                    & 3,0                                                                         & 190                                                                   \\ %\midrule
+		A5   & 14                                                                                      & 22                                                                                    & 2,0                                                                         & 170                                                                   \\ %\midrule
+		A6   & 13                                                                                      & 23                                                                                    & 2,0                                                                         & 180                                                                   \\ %\midrule
+		A7   & 13                                                                                      & 24                                                                                    & 2,0                                                                         & 190                                                                   \\ %\midrule
+		A8   & 12                                                                                      & 25                                                                                    & 2,5                                                                         & 190                                                                   \\ %\midrule
+		A9   & 11                                                                                      & 26                                                                                    & 2,0                                                                         & 210                                                                   \\ %\midrule
 		A10  & 11                                                                                      & 27                                                                                    & 2,0                                                                         & 210                                                                   \\ \bottomrule
 	\end{tabular}
 	\label{tab:hslm_a_parameters}
@@ -489,8 +489,8 @@ W dobie obliczeń za pomocą programów MES poprawne odwzorowanie sztywności or
 		\toprule
 		\multirow{2}{*}{Rodzaj mostu}    & \multicolumn{2}{c}{Dolna granica ułamka tłumienia {[}\%{]}} \\ \cmidrule(l){2-3} 
 		& Rozpiętość $L<20$m         & Rozpiętość $L\ge 20$ m         \\ \midrule
-		Stalowy i zespolony              & 0.5+0.125(20-L)            & 0.5                            \\ \midrule
-		Betonowy sprężony                & 1.0+0.07(20-L)             & 1.0                            \\ \midrule
+		Stalowy i zespolony              & 0.5+0.125(20-L)            & 0.5                            \\ %\midrule
+		Betonowy sprężony                & 1.0+0.07(20-L)             & 1.0                            \\ %\midrule
 		Dźwigary obetonowane i żelbetowe & 1.5+0.07(20-L)             & 1.5                            \\ \bottomrule
 	\end{tabular}
 	\label{tab:damping_code_eurocode}
@@ -553,8 +553,8 @@ Trzecim kryterium, które należy sprawdzić dla obiektów kolejowych jest komfo
 	\begin{tabular}{@{}cc@{}}
 		\toprule
 		\multicolumn{1}{c}{Poziom komfortu} & \begin{tabular}[c]{@{}c@{}}Przyspieszenia pionowe\\ $b_v \;\text{[m/s}^2\text{]}$\end{tabular} \\ \midrule
-		Bardzo dobry                        & 1.0                                                                                         \\ \midrule
-		Dobry                               & 1.3                                                                                         \\ \midrule
+		Bardzo dobry                        & 1.0                                                                                         \\ %\midrule
+		Dobry                               & 1.3                                                                                         \\ %\midrule
 		Dostateczny                         & 2.0                                                                                         \\  \bottomrule
 	\end{tabular}
 	\label{tab:comfort_classes}

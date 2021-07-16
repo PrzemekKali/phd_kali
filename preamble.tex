@@ -12,6 +12,10 @@
 
 \usepackage[svgnames,table]{xcolor}
 \usepackage{amsfonts}
+\usepackage{arial}    
+\newenvironment{myfont}{\fontfamily{ua1}\selectfont}{}
+\usepackage[normalem]{ulem}
+
 
 %\usepackage{layouts}
 \DeclareUnicodeCharacter{2208}{$\epsilon$}
@@ -68,6 +72,7 @@ url=true
 \fancyhead[ro]{\slshape\nouppercase{\rightmark}}
 \fancyhead[le]{\slshape\nouppercase{\leftmark}}
 \fancyfoot[CE,CO]{\thepage}
+
 
 %OBRAZKI
 \usepackage{pgfplots}

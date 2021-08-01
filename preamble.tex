@@ -1,7 +1,8 @@
 %preamble\vect{\psi}_i^{T}\vect{K\psi}_j = 0\vect{\psi}_i^{T}\vect{K\psi}_j = 0
 %https://www.overleaf.com/learn/latex/How_to_Write_a_Thesis_in_LaTeX_(Part_4):_Bibliographies_with_BibLaTeX
-\documentclass[12pt,twoside]{report}
-\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+%\documentclass[12pt,twoside]{report}
+\documentclass[12pt,twoside,openany]{book}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=10mm]{geometry}
 
 \usepackage{polski}
 \usepackage[utf8]{inputenc}
@@ -9,6 +10,10 @@
 \usepackage{lmodern}
 \usepackage[polish]{babel}
 \usepackage[autostyle]{csquotes} 
+
+%spis tresci
+%\usepackage{tocloft}
+%\setlength{\cftbeforetoctitleskip}{0pt}
 
 \usepackage[svgnames,table]{xcolor}
 \usepackage{amsfonts}
@@ -162,6 +167,13 @@ url=true
 \newcommand\myemptypage{
 	\null
 	\thispagestyle{empty}
+	\vspace{7cm}
+	
+	\begin{center}
+		\textit{PUSTA STRONA}
+	\end{center}
+
+	\vfill
 	%\addtocounter{page}{-1}
 	\newpage
 }

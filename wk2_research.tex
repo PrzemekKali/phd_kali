@@ -852,9 +852,34 @@ W trakcie optymalizacji, dla każdego rozwiązania sprawdzone zostały warunki S
 Każdy z rezultatów oceniono również w Stanie Granicznym Użytkowania przez wyznaczenie maksymalnego przemieszczenia przęsła od obciążeń ruchomych o wartościach charakterystycznych. Wartość graniczną przyjęto zgodnie z zaleceniem \cite{PKNc} jako $L/600=70000/600=116\;\text{mm}$. Spośród przedstawionych w punkcie \ref{sect: eurokod_kryteria_oceny} kryteriów bezpieczeństwa, do oceny rozwiązań wybrano jedynie ugięcia przęsła. Często decydujące o poprawności rozwiązania przyspieszenia maksymalne pomostu są funkcją celu optymalizacji więc nie są ograniczane aby uwidocznić zależności z wymiarami elementów konstrukcyjnych. Zaniechano również sprawdzenia skręcenia przęsła i obrotów na podporach. Nie rozpatrywano kryterium komfortu pasażerów z uwagi na brak uwzględnienia wpływu interakcji pomiędzy pojazdem, a konstrukcją.
 
 \subsubsection{Analiza dynamiczna}
-Analizę dynamiczną przeprowadzano w module DYNA środowiska MES SOFiSTiK \cite{SOFiSTiK2018a}. Wykorzystano metodę bezpośredniego całkowania równań ruchu Newmarka. Analizę przeprowadzono jako liniową. Zgodnie z zaleceniami normy \cite{PKNc} należy uwzględnić odpowiedź dynamiczną w zakresie częstotliwości do 30Hz. Aby zapewnić poprawne odwzorowanie przyspieszeń i częstotliwości w zadanym zakresie przyjęto krok czasowy równy $\Delta t = 0.005\;s$ co odpowiada częstotliwości próbkowania sygnału 200 Hz. Pomimo, że jest to wartość mniejsza niż 10 krotność 30 Hz, to w zadanym zakresie z pewnością zmieszczą się wszystkie istotne mody rozpatrywanego obiektu.
+Analizę dynamiczną przeprowadzano w module DYNA środowiska MES SOFiSTiK \cite{SOFiSTiK2018a}. Wykorzystano metodę bezpośredniego całkowania równań ruchu Newmarka. Analizę przeprowadzono jako liniową. Zgodnie z zaleceniami normy \cite{PKNc} należy uwzględnić odpowiedź dynamiczną w zakresie częstotliwości do 30 Hz. Aby zapewnić poprawne odwzorowanie przyspieszeń i częstotliwości w zadanym zakresie przyjęto krok czasowy równy $\Delta t = 0.005\;\text{s}$ co odpowiada częstotliwości próbkowania sygnału 200 Hz. Pomimo, że jest to wartość mniejsza niż 10 krotność 30 Hz, to w zadanym zakresie z pewnością zmieszczą się wszystkie istotne mody rozpatrywanego obiektu.
 
-Analizę dynamiczną przeprowadzono dla wszystkich dziesięciu modeli obciążeń pociągami uniwersalnymi HSLM-A wg PN-EN 1991-2 (p. \ref{sect: eurokod_obciazenia_dyn}). Prędkości pociągów przyjmowano zgodnie z zaleceniem w zakresie od 40 km/h do maksymalnej prędkości obliczeniowej ($1.2\times\,$nominalna prędkość maksymalna). Jednakże odstępując od zaleceń nie przyjmowano stałego przyrostu prędkości. Wybrano jedynie prędkości, które mieszczą się w powyższym zakresie oraz są prędkościami krytycznymi wyznaczonymi dla pierwszych dwóch częstotliwości drgań własnych. Prędkości krytyczne obliczano na podstawie wzoru \ref{eq:criticla_speed}. Założono, że odpowiedź obiektu osiąga swoją maksymalną wartość dla prędkości krytycznej i nawet przy zwiększeniu prędkości nie przekracza tej wartości \parencite{Goicolea2008}. Potrzebne trzy pierwsze częstotliwości drgań własnych odczytywano z modelu numerycznego po przeprowadzeniu analizy modalnej. Dla każdego rodzaju pociągu HSLM-A indywidualnie wyznaczano prędkość na bazie typowego dla pociągu HSLM-A rozstawu osi $d$, odczytanych częstotliwości drgań własnych $\phi_i$ oraz przyjmując wartość dzielnika z zakresu $n = 1,2\dots 10$. Wybierano taką wartość $n$, aby prędkość krytyczna związana z częstotliwością $\phi_i$ była jak najwyższa i mieściła się w dopuszczalnym zakresie. Dodatkowo w razie położenia prędkości rezonansowej tuż za maksymalną wartością prędkości, do analizy każdego pociągu dodano maksymalną dozwoloną prędkość pociągu na linii. Podsumowując, dla danego wariantu zmiennych projektowych analizę prowadzono dla 10 różnych pociągów HSLM-A, po około 3 prędkości przejazdu (zwykle 2 krytyczne i maksymalna). Sumarycznie daje to około 30 przejazdów dynamicznych na wariant.
+Analizę dynamiczną przeprowadzono dla wszystkich dziesięciu modeli obciążeń pociągami uniwersalnymi HSLM-A wg PN-EN 1991-2 (p. \ref{sect: eurokod_obciazenia_dyn}). Prędkości pociągów przyjmowano zgodnie z zaleceniem w zakresie od 40 km/h do założonej maksymalnej prędkości obliczeniowej. Jednakże odstępując od zaleceń nie przyjmowano stałego przyrostu prędkości. Wybrano jedynie prędkości, które mieszczą się w powyższym zakresie oraz są prędkościami krytycznymi wyznaczonymi dla pierwszych dwóch częstotliwości drgań własnych. Prędkości krytyczne obliczano na podstawie wzoru (\ref{eq:criticla_speed}). Założono, że odpowiedź obiektu osiąga swoją maksymalną wartość dla prędkości krytycznej i nawet przy zwiększeniu prędkości nie przekracza tej wartości \parencite{Goicolea2008}. Potrzebne dwie pierwsze częstotliwości drgań własnych odczytywano z modelu numerycznego po przeprowadzeniu analizy modalnej. Dla każdego rodzaju pociągu HSLM-A indywidualnie wyznaczano prędkość na bazie typowego dla pociągu HSLM-A rozstawu osi $d$, odczytanych częstotliwości drgań własnych $f_i$ oraz przyjmując wartość dzielnika z zakresu $n = 1,2\dots 10$. Wybierano taką wartość $n$, aby prędkość krytyczna związana z częstotliwością $f_i$ była jak najwyższa i mieściła się w dopuszczalnym zakresie prędkości. Dodatkowo w razie położenia prędkości rezonansowej tuż za maksymalną wartością prędkości, do analizy każdego pociągu dodano maksymalną dozwoloną prędkość pociągu na linii. Podsumowując, dla danego wariantu zmiennych projektowych analizę prowadzono dla 10 różnych pociągów HSLM-A, po 3 prędkości przejazdu (2 krytyczne i maksymalna). Sumarycznie daje to około 30 przejazdów dynamicznych na wariant, w których zawarty jest najbardziej niekorzystny wariant obciążenia. \higg{Dzięki temu założeniu uniknięto analizy dla wszystkich zalecanych prędkości od 40 km/h do prędkości maksymalnej z krokiem co 10 km/h. Aby udowodnić, że przyjęte uproszczenie pozwala uzyskać najbardziej niekorzystne rezultaty, przeprowadzono testową analizę dynamiczną. Dla każdego z trzech modeli różniących się geometrią i układem wieszaków wyznaczono maksymalne przyspieszenia od obciążenia modelami HSLM-A. Obliczenia wykonano w pełnym zalecanym w normie zakresie prędkości, z prędkością maksymalną równą 300 km/h. Do regularnego zbioru prędkości dodano również prędkości rezonansowe wyznaczone metodą opisaną powyżej. Rezultaty przedstawiono na rysunkach} \ref{fig:wk2_opti_proste_predkosci_test_all_proste}-\ref{fig:wk2_opti_proste_predkosci_test_all_network}. \higg{W każdej z analiz największe przyspieszenia uzyskano dla prędkości rezonansowych lub prędkości maksymalnych, które są nieznacznie mniejsze niż prędkości rezonansowe wykraczające poza zakres analizy. Na grafikach ujawniają się wyraźnie przekątne charakteryzujące się znacznie większymi przyspieszeniami niż dla sąsiednich prędkości. Pokrywają się one z prędkościami rezonansowymi. Diagonalny układ wzrostu przyspieszeń wynika z regularnego rozstawu grup osi w modelach HSLM-A. Wymiar charakterystyczny modeli HSLM-A oznaczony jako $D$ jest długością wagonu i zmienia się co 1 m. Powoduje to że dla danej częstotliwości drgań własnych prędkość rezonansowa nieznacznie, liniowo rośnie dla kolejnych modeli. Zarówno w analizach przedstawionych na rysunkach, jak i pozostałych nieudokumentowanych testach największe wartości przyspieszeń pomostu osiągano dla prędkości rezonansowych lub maksymalnych.}
+
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[trim=0 0 0 3, clip]{WK2/opti/predkosci_wszystkie/proste_wyniki_mapa.pdf}
+	\captionsetup{justification=centering}
+\caption{Maksymalne przyspieszenia dźwigara dla pełnego zakresu prędkości zalecanych w normie - przykładowy wariant modelu z wieszakami prostymi}
+\label{fig:wk2_opti_proste_predkosci_test_all_proste}
+\end{figure}
+	
+	
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[trim=0 0 0 3, clip]{WK2/opti/predkosci_wszystkie/nielsen_wyniki_mapa.pdf}
+	\captionsetup{justification=centering}
+\caption{Maksymalne przyspieszenia dźwigara dla pełnego zakresu prędkości zalecanych w normie - przykładowy wariant modelu z wieszakami ukośnymi}
+\label{fig:wk2_opti_proste_predkosci_test_all_nielsen}
+\end{figure}
+	
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[trim=0 0 0 3, clip]{WK2/opti/predkosci_wszystkie/network_wyniki_mapa.pdf}	
+	\captionsetup{justification=centering}
+	\caption{Maksymalne przyspieszenia dźwigara dla pełnego zakresu prędkości zalecanych w normie - przykładowy wariant modelu z wieszakami Network}
+	\label{fig:wk2_opti_proste_predkosci_test_all_network}
+\end{figure}
 
 Tłumienie uwzględniono jako masowo-sztywnościowe. Współczynniki Rayleigha (\ref{eq: raileigh_parameters}) wyznaczano za każdym razem tak, aby liczba tłumienia dla dwóch pierwszych modów była równa $\xi=0.006$. Wartość została przyjęta na podstawie przeprowadzonej identyfikacji realnego obiektu (Tab. \ref{tab: wk2_ident_mods}) dla dwóch pierwszych giętnych, pionowych postaci drgań własnych. Jak już wspomniano, wymagane częstotliwości drgań własnych dla każdego nowego wariantu zmiennych projektowych wyznaczane były w analizie modalnej.
 
@@ -1769,7 +1794,7 @@ Dla wszystkich rozpatrywanych wariantów mostów łukowych możliwe jest zaproje
 
 \subsubsection{Elementy decydujące o zachowaniu dynamicznym}
 W wariancie z wieszakami prostymi, niezależnie od maksymalnej prędkości przejazdu elementem decydującym jest dźwigar-ściąg łuku. Wraz ze wzrostem prędkości maksymalnej wymagana jest coraz większa sztywność (wysokość) tego elementu. W rozpatrywanym przykładzie gdzie ściąg posiada przekrój dwuteowy, dla maksymalnej prędkości 300 km/h wymagana wysokość ściągu wyniosła aż 4183 mm. Przy rozpiętość $L_t=70\;\mathrm{m}$ smukłość elementu wynosi $L_t/h=\frac{70 000}{4183}=16.7$. Jest to wartość charakterystyczna raczej dla kolejowych, belkowych dźwigarów swobodnie podpartych\footnote{
-		W publikacji \cite{Madaj2009} autorzy podają typowe granice smukłości dźwigara obiektów belkowych, kolejowych, do rozpiętości ok. 60 m jako przedział od $8 \div do 15$}. 
+		W publikacji \cite{Madaj2009} autorzy podają typowe granice smukłości dźwigara obiektów belkowych, kolejowych, do rozpiętości ok. 60 m jako przedział od $8 \div \text{do } 15$.}. 
 W tym wariancie, dla wszystkich prędkości, łuk o przekroju skrzynkowym został przyjęty o minimalnej wysokości 150 mm. Podobna sytuacja jest w przypadku wieszaków. Zostały przyjęte o średnicy równej ok. 50 mm, która to jest minimalną gwarantującą spełnienie warunków nośności w analizie statycznej. Masa połowy konstrukcji dla wskazanych wariantów waha się od 116.6 do 132.0 t w zależności od prędkości maksymalnej. Dla prędkości do 200 km/h wariant z wieszakami prostymi jest najcięższym rozwiązaniem konstrukcyjnym. W uproszczeniu oznacza to również najdroższe rozwiązanie. Przypadek prędkości maksymalnej 300 km/h w wariancie wieszaków prostych jest teoretycznie najlżejszy spośród wszystkich wariantów rozkładu wieszaków, a jego masa wynosi 132 t. Należy jednak zdawać sobie sprawę, że przy tak smukłym dźwigarze należałoby z pewnością dodać ciężar materiału użebrowania co mogłoby stanowić istotny wzrost masy. Dodatkowo dla wszystkich prędkości minimalne wytężenie elementów nie przekroczyło 50\%. Nasuwa się również pytanie czy przy zastosowaniu ściągu o bardzo dużej sztywności projektowanie łuku o bardzo małym przekroju ma jakiekolwiek uzasadnienie. 
 
 
@@ -1837,92 +1862,129 @@ Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nie
 \end{table}
 
 %RYSUNKI TESTOWE
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki proste 160 - sciag}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki proste 160 - łuk}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_160/proste_160_FREQ_WIESZAK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_WIESZAK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_WIESZAK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_WIESZAK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki proste 160 - wieszaki}
-\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki proste 160 - sciag}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki proste 160 - łuk}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_160/proste_160_FREQ_WIESZAK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_WIESZAK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_WIESZAK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_FREQ_WIESZAK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki proste 160 - wieszaki}
+%\end{figure}
+%
+%
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_200/proste_200_FREQ_SCIAG_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_SCIAG_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_SCIAG_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki proste 200 - sciag}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_200/proste_200_FREQ_LUK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_LUK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki proste 200 - łuk}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_200/proste_200_FREQ_WIESZAK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_WIESZAK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_WIESZAK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_WIESZAK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki proste 200 - wieszaki}
+%\end{figure}
 
 
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_200/proste_200_FREQ_SCIAG_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_SCIAG_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_SCIAG_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki proste 200 - sciag}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_200/proste_200_FREQ_LUK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_LUK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki proste 200 - łuk}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_200/proste_200_FREQ_WIESZAK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_WIESZAK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_WIESZAK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_FREQ_WIESZAK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki proste 200 - wieszaki}
-\end{figure}
-
-
 
 \begin{figure}[hbt!]
 	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki proste 300 - sciag}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_ISO.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf}}
 	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_YZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf}}
 	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Wieszaki proste 300 - łuk}
+	\caption{Wieszaki proste 300}
+	
 \end{figure}
+
 \begin{figure}[hbt!]
 	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_300/proste_300_FREQ_WIESZAK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_WIESZAK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_WIESZAK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_WIESZAK_XZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Wieszaki proste 300 - wieszaki}
+	\caption{Wieszaki nielsen 300}
+	
 \end{figure}
+
+
+\begin{figure}[hbt!]
+	\centering
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf}}
+	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf}}
+	\captionsetup{justification=centering}
+	\caption{Wieszaki network 300}
+	
+\end{figure}
+
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki proste 300 - łuk}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/proste_300/proste_300_FREQ_WIESZAK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_WIESZAK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_WIESZAK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_WIESZAK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki proste 300 - wieszaki}
+%\end{figure}
 
 
 
@@ -1940,92 +2002,92 @@ Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nie
 
 %NIELSEN
 
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_160/niels_160_FREQ_SCIAG_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_SCIAG_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_SCIAG_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki niels 160 - sciag}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_160/niels_160_FREQ_LUK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_LUK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki niels 160 - łuk}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_160/niels_160_FREQ_WIESZAK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_WIESZAK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_WIESZAK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_WIESZAK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki niels 160 - wieszaki}
-\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_160/niels_160_FREQ_SCIAG_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_SCIAG_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_SCIAG_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki niels 160 - sciag}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_160/niels_160_FREQ_LUK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_LUK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki niels 160 - łuk}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_160/niels_160_FREQ_WIESZAK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_WIESZAK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_WIESZAK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_160/niels_160_FREQ_WIESZAK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki niels 160 - wieszaki}
+%\end{figure}
+%
+%
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_200/niels_200_FREQ_SCIAG_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_SCIAG_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_SCIAG_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki niels 200 - sciag}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_200/niels_200_FREQ_LUK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_LUK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki niels 200 - łuk}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_200/niels_200_FREQ_WIESZAK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_WIESZAK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_WIESZAK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_WIESZAK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki niels 200 - wieszaki}
+%\end{figure}
 
 
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_200/niels_200_FREQ_SCIAG_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_SCIAG_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_SCIAG_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki niels 200 - sciag}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_200/niels_200_FREQ_LUK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_LUK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki niels 200 - łuk}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_200/niels_200_FREQ_WIESZAK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_WIESZAK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_WIESZAK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_200/niels_200_FREQ_WIESZAK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki niels 200 - wieszaki}
-\end{figure}
 
-
-
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki niels 300 - sciag}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki niels 300 - łuk}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_300/niels_300_FREQ_WIESZAK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_WIESZAK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_WIESZAK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_WIESZAK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki niels 300 - wieszaki}
-\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki niels 300 - sciag}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki niels 300 - łuk}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/niels_300/niels_300_FREQ_WIESZAK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_WIESZAK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_WIESZAK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_WIESZAK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki niels 300 - wieszaki}
+%\end{figure}
 
 
 
@@ -2037,92 +2099,92 @@ Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nie
 
 %NETWORK
 
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_160/netw_160_FREQ_SCIAG_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_SCIAG_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_SCIAG_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki netw 160 - sciag}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_160/netw_160_FREQ_LUK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_LUK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki netw 160 - łuk}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_160/netw_160_FREQ_WIESZAK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_WIESZAK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_WIESZAK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_WIESZAK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki netw 160 - wieszaki}
-\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_160/netw_160_FREQ_SCIAG_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_SCIAG_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_SCIAG_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki netw 160 - sciag}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_160/netw_160_FREQ_LUK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_LUK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki netw 160 - łuk}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_160/netw_160_FREQ_WIESZAK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_WIESZAK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_WIESZAK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_160/netw_160_FREQ_WIESZAK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki netw 160 - wieszaki}
+%\end{figure}
+%
+%
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki netw 200 - sciag}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki netw 200 - łuk}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_200/netw_200_FREQ_WIESZAK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_WIESZAK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_WIESZAK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_WIESZAK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki netw 200 - wieszaki}
+%\end{figure}
 
 
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki netw 200 - sciag}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki netw 200 - łuk}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_200/netw_200_FREQ_WIESZAK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_WIESZAK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_WIESZAK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_200/netw_200_FREQ_WIESZAK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki netw 200 - wieszaki}
-\end{figure}
 
-
-
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki netw 300 - sciag}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki netw 300 - łuk}
-\end{figure}
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_300/netw_300_FREQ_WIESZAK_ISO.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_WIESZAK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_WIESZAK_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_WIESZAK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki netw 300 - wieszaki}
-\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki netw 300 - sciag}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki netw 300 - łuk}
+%\end{figure}
+%\begin{figure}[hbt!]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=5   3 5  5, clip]{WK2/opti/netw_300/netw_300_FREQ_WIESZAK_ISO.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_WIESZAK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_WIESZAK_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_WIESZAK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki netw 300 - wieszaki}
+%\end{figure}
 
 
 

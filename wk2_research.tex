@@ -834,7 +834,7 @@ Model uproszczony stworzono w trzech wariantach różniących się rozmieszczeni
 \end{figure}
 
 
-\subsection{Założenia do optymalizacji}
+\subsection{Założenia do optymalizacji} \label{sect:optimization_assumptions}
 W procesie poczyniono szereg założeń związanych z wytrzymałością materiałów, uwarunkowaniami normowymi i ogólnymi warunkami wykonalności. Zakresy możliwych wartości zmiennych projektowych określonych na rysunku \ref{fig:wk2_opti_cs_elements} przedstawiono w tabeli \ref{tab:wk2_project_variables_opti}. 
 
 \begin{table}[hbt!]
@@ -1833,13 +1833,56 @@ W tym wariancie, dla wszystkich prędkości, łuk o przekroju skrzynkowym zosta�
 
 Warianty z wieszakami ukośnymi i Network mają odmienną charakterystykę niż wariant z wieszakami prostymi. W obu układam elementem decydująca okazała się sztywność łuku. Wpływ zmienności średnicy wieszaków i wysokości ściągu jest również zauważalny, niemniej w każdym wariantów to wysokość łuku odgrywa zdecydowanie decydujące znaczenie. Dla rozwiązań uzyskanych przy prędkości do 200 km/h włącznie, wytężenie minimalne elementów wyniosło powyżej 50\% co świadczy o znacznie lepszym wykorzystaniu materiału niż w przypadku wieszaków prostych. Wśród optymalnych rozwiązań, dla wszystkich prędkości wysokość ściągu nie przekroczyła 2000 mm. Jednocześnie wysokość łuku została dobrana jako minimalna 150 mm. Można również stwierdzić, że przy prędkościach zwiększonych do 300 km/h sztywność łuku musi być znacznie większa. W analizach uzyskano wysokość dla wieszaków ukośnych większą niż 1000 mm, a dla wieszaków Network większą niż 1500 mm.
 
+\higr{Nowy tekst}
+Otrzymane wyniki optymalizacji są wypadkową bardzo wielu nakładających się na siebie mechanizmów. Z uwzględnieniem poczynionych założeń pozwoliły na globalną ocenę wszystkich schematów i rozpoznanie ogólnych kierunków w jakich należy zmierzać aby uczynić konstrukcję łukową jak najbardziej odporną dynamiczne. Opierając się na otrzymanych rezultatach przeprowadzono kolejno kilka wybranych testów, mających na celu wyjaśnienie zarejestrowanych obserwacji.
+
+Zastosowanie wieszaków typu Network zamiast wieszaków prostych z reguły jest rozwiązaniem gwarantującym większą sztywność konstrukcji, zwłaszcza przy niesymetrycznych obciążeniach. Intuicyjnie wydaje się, że układ Network powinien gwarantować również większą odporność konstrukcji łukowej na wzbudzenia dynamiczne. Tymczasem rezultaty analiz optymalizacyjnych przy przejazdach z maksymalną prędkością równą 300 km/h pokazują, że minimalne masy dźwigarów łukowych dla których spełniony jest warunek maksymalnych przyspieszeń wynoszą dla wariantów z wieszakami prostymi i Network odpowiednio 132 t i 150 t. Można by przypuszczać, że zmiana jedynie typu wieszaków dla rozwiązania z wieszakami prostymi na wieszaki Network powinna przynieść jeszcze lepszą odporność dynamiczną. Na początku oceniono czy różnica między masą rozwiązań nie wynika bezpośrednio z różnej masy wieszaków.  W tabeli \ref{tab:summary_mass_comparison} zestawiono masy poszczególnych elementów konstrukcyjnych dla wszystkich \enquote{najlepszych} rozwiązań przy prędkości maksymalnej 300 km/h (\ref{tab:summary_optimal_results}). Można dostrzec, że różnica w masie całkowitej pomiędzy wariantami z wieszakami prostymi i Network, przy tej samej prędkości maksymalnej jest znacznie większa od masy samych wieszaków w każdym wariancie. Wynika stąd, że wariant z wieszakami prostymi po zmianie na wieszaki Network nie powinien spełnić warunków poprawności rozwiązania. W przeciwnym razie ujawniłby się jako rozwiązanie lepsze od wyznaczonych dla wariantu Network rozwiązań optymalnych. Dokonano eksperymentu i sprawdzono maksymalne przyspieszania dla \enquote{najlepszego} rozwiązania z wieszakami prostymi, jedynie zamieniając wieszaki na wariant Network. Maksymalne przyspieszenia pomostu wyniosły w tym przypadku ponad 4.00 $\text{m}/\text{s}^2$.
+
+\begin{table}[hbt!]
+	\caption{Porównanie mas elementów konstrukcyjnych dla \enquote{najlepszych} rozwiązań przy przejazdach z prędkością maksymalną 300 km/h}
+	\centering
+	\footnotesize
+	\setlength\tabcolsep{0pt}
+	\begin{tabular}{@{}p{0.155\linewidth} P{0.155\linewidth} P{0.23\linewidth} P{0.155\linewidth} P{0.155\linewidth} P{0.155\linewidth} @{}}	
+		%\begin{tabular}{@{}ccccccc@{}}
+			\toprule
+			\multirow{2}{*}[-3pt]{\begin{tabular}[c]{@{}c@{}}Układ\\ wieszaków\end{tabular}} &
+			\begin{tabular}[c]{@{}c@{}}Prędkość \\ maksymalna\end{tabular} &
+			\begin{tabular}[c]{@{}c@{}}Masa całkowita\\ (połowa obiektu)\end{tabular} &
+			\begin{tabular}[c]{@{}c@{}}Masa\\ łuku\end{tabular} &
+			\begin{tabular}[c]{@{}c@{}}Masa\\ ściągu\end{tabular}   &
+			\begin{tabular}[c]{@{}c@{}}Masa\\ wieszaków\end{tabular} \\ \cmidrule(l){2-6} 
+			& {[}km/h{]} & {[}t{]} & {[}t{]} & {[}t{]} & {[}t{]}   \\ \midrule
+			Proste  & 300     & 132.0       & 27.15 & 104.04 & 0.81             \\
+			Ukośne  & 300     & 152.1       & 59.72 & 77.07  & 15.33             \\
+			Network & 300     & 150.0       & 66.93 & 76.41  & 6.53             \\ \bottomrule
+		\end{tabular}
+		\label{tab:summary_mass_comparison}
+	\end{table}
+
+Poszukiwania przyczyn zaistniałego dysonansu przeniesiono do dziedziny częstotliwości drgań własnych układu. Dla "najlepszego" optymalnego zestawu wymiarów elementów konstrukcyjnych wariantu z wieszakami prostymi i przy prędkości maksymalnej 300 km/h (Tab. \ref{tab:summary_optimal_results}) przeprowadzono eksperyment polegający na zamianie wieszaków na system Network i uzmiennieniu sztywności wieszaków. Sztywność wieszaków ograniczona jest jedynie do sztywności podłużnej zdefiniowanej iloczynem modułu sprężystości i pola przekroju wieszaków ($EA$). Nie chcąc uwzględniać zmiany masy wieszaków w prowadzonej analizie przyjęto stałą średnicę wieszaków jak w "najlepszym" rozwiązaniu. Jako zmienną przyjęto moduł sprężystości materiału wieszaków. Dla każdego przypadku sztywności wieszaków wyznaczono przyspieszenia maksymalne zgodnie z algorytmem opisanym w punkcie \ref{sect:optimization_assumptions}. Obliczono również częstotliwości drgań własnych sześciu pierwszych częstotliwości drgań własnych układu. Wyniki zaprezentowano w zależności od ekwiwalentnej średnicy określającej pole przekroju kołowego tak, aby wartość sztywności $EA$ w danym punkcie pozostała niezmieniona, a jednocześnie odpowiadała modułowi sprężystości stali $E=210 \mathrm{GPa}$. \higr{WNIOSEK?}
+
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics{WK2/dyskusja/proste_netw_change_stiff.pdf}
+	\captionsetup{justification=centering}
+	\caption{}
+	\label{fig:proste_change_hangers}
+\end{figure}
+
+
+
+
 \subsubsection{Rozrzut maksymalnych przyspieszeń dla rozwiązań o tej samej masie}
 Na podstawie rozkładu wszystkich wyznaczonych rozwiązań w dziedzinie funkcji celu (na przykład rys. \ref{fig:wk2_opti_proste_160_all}) można wnioskować o możliwości błędnego zaprojektowania konstrukcji z punktu widzenia dynamicznego. Załóżmy, że perfekcyjnie i optymalnie zaprojektowana konstrukcja to taka dla której Front Pareto przecina linię wyznaczającą poziom maksymalnych przyspieszeń $3.5\;\mathrm{m/s^2}$. W takim wypadku punkt przecięcia wyznacza minimalną masę, dla której możliwe jest poprawne zaprojektowanie konstrukcji z punktu widzenia dynamicznego. Warto więc rozważyć jak bardzo nieudanie można zaprojektować konstrukcję dynamicznie, czyli jak odległe są ekstremalne uzyskane w optymalizacji wartości przyspieszeń maksymalnych przy danej masie konstrukcji. Przedstawiony eksperyment myślowy dotyczy zaproponowanych w pracy zakresów zmiennych projektowych i rozwiązań dla których spełnione są pozostałe warunki SGN i SGU. Zakres zmienności masy konstrukcji (od ok. 106 t do ok. 213 t) podzielono na 20 równych przedziałów. W każdym przedziale zidentyfikowano maksymalną i minimalną wartość maksymalnych przyspieszeń uzyskanych w optymalizacji. Rezultaty przedstawiono na rysunku \ref{fig:comparison_diffs_opt}. Zielone słupki przedstawiają wartość minimalną, a czerwone wartość maksymalną otrzymanych przyspieszeń w danym przedziale masy. Poziomą przerywaną linią zaznaczono przyspieszenia równe $3.5\;\mathrm{m/s^2}$. Pionową linią przerywaną zaznaczono minimalną masę, dla której zidentyfikowano przyspieszenia mniejsze niż $3.5\;\mathrm{m/s^2}$.
 	
 Dodatkowo dla każdego z wariantów wieszaków i prędkości, z wykresów na rysunku \ref{fig:comparison_diffs_opt} odczytano wartość minimalną i maksymalną przyspieszeń odpowiadających masom przedstawionych w tabeli \ref{tab:summary_optimal_results}. Są to skrajne wartości pasków przeciętych przez pionową linię przerywaną. Dziedzinę masy o rozpiętości ok. 100 t podzielono na 20 części stąd odczytany wynik ekstremalnych przyspieszeń dotyczy mas o wartości $\pm 5\;\mathrm{t}$. Rezultaty przedstawiono w tabeli \ref{tab:optimization_dynamic_ranges}\footnote{ 
 		Przed oceną powyższych wyników należy przypomnieć, że ze względu na działanie algorytmu optymalizacji uzyskane rozkłady rozwiązań nie pokrywają równomiernie przestrzeni zmiennych projektowych. Z tego powodu dla któregoś z wariantu uzyskane wyniki mogą niedoszacowywać maksymalnych możliwych przyspieszeń przy danej masie konstrukcji. Niemniej liczba wyznaczonych próbek oraz regularność kształtów otrzymanych rozkładów pozwalają założyć, że ryzyko to jest względnie małe.}
 Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nieodpowiedni dobór wymiarów elementów i brak weryfikacji przez analizę odpowiedzi dynamicznej może skutkować bardzo dużymi wartości przyspieszeń maksymalnych pomostu. W przypadku wieszaków prostych uwaga ta dotyczy wszystkich rozpatrywanych prędkości. Przęsło z wieszakami ukośnymi niezależnie od przyjętych wartości zmiennych projektowych zachowuje dobre właściwości dynamiczne przy prędkości do 160 km/h. Dla prędkości do 200 i 300 km/h sytuacja ulega zmianie i wartości przyjętych zmiennych wpływają drastycznie na wartość przyspieszeń maksymalnych. Najlepiej w tym aspekcie prezentuje się układ z wieszakami typu Network. Do prędkości 160 km/h nie udało się uzyskać przyspieszeń większych niż $3.5\;\mathrm{m/s^2}$ dla wszystkich rozwiązań spełniających warunki SGN i SGU z analizy statycznej. Zwiększenie zakresu prędkości do 200 km/h powoduje ryzyko wystąpienia większych przyspieszeń, ale znacznie mniejszych niż ma to miejsce w przypadku obiektów z wieszakami prostymi i ukośnymi. Dopiero symulacja przejazdu z prędkością do 300 km/h pokazuje, że złe ukształtowanie konstrukcji może drastycznie pogorszyć właściwości dynamiczne przęsła.
-	
+
+
+
+
 
 	
 \begin{figure}[p]

@@ -11543,62 +11543,6 @@
       \field{title}{{ASE General Static Analysis of Finite Element Structures ASE Manual, Version 2018-15.1 Software Version SOFiSTiK 2018}}
       \field{year}{2018}
     \endentry
-    \entry{Salamak2014}{article}{}
-      \name{author}{4}{}{%
-        {{hash=895374e0762d8f004e34eb80e36bb5ff}{%
-           family={Salamak},
-           familyi={S\bibinitperiod},
-           given={Marek},
-           giveni={M\bibinitperiod}}}%
-        {{hash=f838a05d3562c0dcc977c6eb01ccb29d}{%
-           family={{Ł}aziński},
-           familyi={Ł\bibinitperiod},
-           given={Piotr},
-           giveni={P\bibinitperiod}}}%
-        {{hash=bec66cfdeb890d82d8a428520321bad0}{%
-           family={Pradelok},
-           familyi={P\bibinitperiod},
-           given={Stefan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=f1885e667a3f5094a12db46adb0a7eb4}{%
-           family={Bȩtkowski},
-           familyi={B\bibinitperiod},
-           given={Piotr},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {pl}%
-      }
-      \strng{namehash}{45f61cf77d8d5cfa5ed9239c8a5abc9c}
-      \strng{fullhash}{74b196c8df220d8c6639e7e673d10385}
-      \strng{bibnamehash}{45f61cf77d8d5cfa5ed9239c8a5abc9c}
-      \strng{authorbibnamehash}{45f61cf77d8d5cfa5ed9239c8a5abc9c}
-      \strng{authornamehash}{45f61cf77d8d5cfa5ed9239c8a5abc9c}
-      \strng{authorfullhash}{74b196c8df220d8c6639e7e673d10385}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Projektowanie, budowa i utrzymanie infrastruktury w transporcie szynowym INFRASZYN 2014}
-      \field{month}{4}
-      \field{number}{April}
-      \field{title}{{Badania odbiorcze mostów kolejowych pod próbnym obcia̧żeniem dynamicznym – wymagania i praktyka}}
-      \field{year}{2014}
-      \field{pages}{218\bibrangedash 227}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.13140/2.1.3914.2404
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Salamak et al. - 2014 - Badania odbiorcze most{\'{o}}w kolejowych pod pr{\'{o}}bnym obci{\c{a}}{\.{z}}eniem dynamicznym-wymagania i praktyka.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://rgdoi.net/10.13140/2.1.3914.2404 http://files/222/Salamak i in. - 2014 - Badania odbiorcze most{\'{o}}w kolejowych pod pr{\'{o}}bnym ob.pdf
-      \endverb
-      \verb{url}
-      \verb http://rgdoi.net/10.13140/2.1.3914.2404%20http://files/222/Salamak%20i%20in.%20-%202014%20-%20Badania%20odbiorcze%20most%7B%5C'%7Bo%7D%7Dw%20kolejowych%20pod%20pr%7B%5C'%7Bo%7D%7Dbnym%20ob.pdf
-      \endverb
-    \endentry
     \entry{SOFiSTiK2018a}{misc}{}
       \name{author}{1}{}{%
         {{hash=fefce3f2a4d5d921f5a372595f9bd91a}{%

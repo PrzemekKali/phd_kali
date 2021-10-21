@@ -184,7 +184,7 @@
       \field{title}{{w sprawie przyjȩcia Koncepcji pryzgotowania i realizacji inwestycji Port Solidarności - Centralny Port Komunikacyjny dla Rzeczypospolitej Polskiej}}
       \field{year}{2017}
     \endentry
-    \entry{Niemierko}{article}{}
+    \entry{Niemierko2012}{article}{}
       \name{author}{1}{}{%
         {{hash=e71ae0955cdb849551699461be8896ed}{%
            family={Niemierko},
@@ -192,27 +192,20 @@
            given={Andrzej},
            giveni={A\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {pl}%
-      }
       \strng{namehash}{e71ae0955cdb849551699461be8896ed}
       \strng{fullhash}{e71ae0955cdb849551699461be8896ed}
       \strng{bibnamehash}{e71ae0955cdb849551699461be8896ed}
       \strng{authorbibnamehash}{e71ae0955cdb849551699461be8896ed}
       \strng{authornamehash}{e71ae0955cdb849551699461be8896ed}
       \strng{authorfullhash}{e71ae0955cdb849551699461be8896ed}
+      \field{extraname}{1}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Inzynier Budownictwa}
-      \field{title}{{Projektowanie mostów kolejowych na liniach dużej prȩdkości – cz . II}}
-      \field{year}{1990}
-      \field{pages}{92\bibrangedash 94}
-      \range{pages}{3}
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop//Niemierko - 1990 - Projektowanie most{\'{o}}w kolejowych na liniach du{\.{z}}ej pr{\c{e}}dko{\'{s}}ci – cz . II.pdf:pdf
-      \endverb
+      \field{journaltitle}{Inżynier Budownictwa}
+      \field{title}{{Projektowanie mostów kolejowych na liniach dużej prȩdkości - cz. I}}
+      \field{year}{2012}
     \endentry
     \entry{Kido_Cywiński_2019}{article}{}
       \name{author}{2}{}{%
@@ -3092,8 +3085,6 @@
       \field{labeltitlesource}{title}
       \field{title}{{Eurokod 0 − Podstawy projektowania konstrukcji}}
       \field{year}{2004}
-      \field{pages}{71}
-      \range{pages}{1}
     \endentry
     \entry{Ramondenc2008}{incollection}{}
       \name{author}{1}{}{%
@@ -3327,6 +3318,38 @@
       \field{year}{2007}
       \verb{file}
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Behaviour et al. - 2007 - Rui Filipe da Silva Dias Dissertation for the degree of Master of Science in Civil Engineering.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Niemierko}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e71ae0955cdb849551699461be8896ed}{%
+           family={Niemierko},
+           familyi={N\bibinitperiod},
+           given={Andrzej},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {pl}%
+      }
+      \strng{namehash}{e71ae0955cdb849551699461be8896ed}
+      \strng{fullhash}{e71ae0955cdb849551699461be8896ed}
+      \strng{bibnamehash}{e71ae0955cdb849551699461be8896ed}
+      \strng{authorbibnamehash}{e71ae0955cdb849551699461be8896ed}
+      \strng{authornamehash}{e71ae0955cdb849551699461be8896ed}
+      \strng{authorfullhash}{e71ae0955cdb849551699461be8896ed}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inzynier Budownictwa}
+      \field{title}{{Projektowanie mostów kolejowych na liniach dużej prȩdkości – cz . II}}
+      \field{volume}{96}
+      \field{year}{2012}
+      \field{pages}{92\bibrangedash 94}
+      \range{pages}{3}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Niemierko - 2012 - Projektowanie most{\'{o}}w kolejowych na liniach du{\.{z}}ej pr{\c{e}}dko{\'{s}}ci – cz . II.pdf:pdf
       \endverb
     \endentry
     \entry{Goicolea2008a}{incollection}{}
@@ -3928,9 +3951,7 @@
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{number}{29}
-      \field{title}{{Warunki techniczne dla kolejowych obiektów in ż ynieryjnych}}
-      \field{volume}{2}
+      \field{title}{{Warunki techniczne dla kolejowych obiektów inżynieryjnych}}
       \field{year}{2005}
     \endentry
     \entry{standardytechnicznetomIII}{report}{}
@@ -5767,7 +5788,6 @@
       \strng{authorbibnamehash}{ac1a884def3e3d1adcda11ad76049147}
       \strng{authornamehash}{ac1a884def3e3d1adcda11ad76049147}
       \strng{authorfullhash}{ac1a884def3e3d1adcda11ad76049147}
-      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -6736,7 +6756,7 @@
       \endverb
       \keyw{Operational modal analysis,Structural identification,Suspension bridge}
     \endentry
-    \entry{Dohler2011}{incollection}{}
+    \entry{Dohler2011}{inproceedings}{}
       \name{author}{6}{}{%
         {{hash=b7f9f97685c70b44b520358583041e8e}{%
            family={Döhler},
@@ -6783,19 +6803,19 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In Operational Modal Analysis (OMA) of large structures we often need to process sensor data from multiple nonsimultaneously recorded measurement setups. These setups share some sensors in common, the so-called reference sensors that are fixed for all the measurements, while the other sensors are moved from one setup to the next. To obtain the modal parameters of the investigated structure, it is necessary to process the data of all the measurement setups and normalize it as the unmeasured background excitation of each setup might be different. For this we compare three different approaches in this paper which differ in the order of the data merging, normalization and system identification step: The classical PoSER (identification-normalization-merging), the PoGER (merging-identification-normalization) and the PreGER (normalization-merging- identification). Special care was taken with the PreGER method and its efficiency has been tested with respect to the two other methods. The system identification is done with the SSI-cov/ref method. We apply these methods to the extraction of the modal parameters (natural frequencies, damping ratios and mode shapes) of the Luiz I arch bridge in Porto, Portugal, compare them and evaluate the different methods. {©}2010 Society for Experimental Mechanics Inc.}
-      \field{booktitle}{Conference Proceedings of the Society for Experimental Mechanics Series}
+      \field{booktitle}{Proceedings of the IMAC-XXVIII February 1–4, 2010, Jacksonville, Florida USA {©}2010 Society for Experimental Mechanics Inc.}
       \field{isbn}{9781441998248}
       \field{issn}{21915652}
       \field{title}{{Pre- and post-identification merging for multi-setup OMA with covariance-driven SSI}}
       \field{volume}{5}
-      \field{year}{2011}
+      \field{year}{2010}
       \field{pages}{57\bibrangedash 70}
       \range{pages}{14}
       \verb{doi}
       \verb 10.1007/978-1-4419-9825-5_7
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/D{\"{o}}hler et al. - 2011 - Pre-and post-identification merging for multi-setup OMA with covariance-driven SSI.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop//D{\"{o}}hler et al. - 2010 - Pre- and post-identification merging for multi-setup OMA with covariance-driven SSI.pdf:pdf;:C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/D{\"{o}}hler et al. - 2010 - Pre- and post-identification merging for multi-setup OMA with covariance-driven SSI.pdf:pdf
       \endverb
     \endentry
     \entry{Zwolski2011}{article}{}
@@ -8846,7 +8866,7 @@
       \endverb
       \keyw{Gravitational Search Algorithm,Heuristic search algorithms,Law of gravity,Optimization}
     \endentry
-    \entry{Kennedy1995}{inproceedings}{}
+    \entry{Clerc2010}{book}{}
       \name{author}{1}{}{%
         {{hash=643c0ab9c074872cdd74d540a87e303e}{%
            family={Clerc},
@@ -8854,11 +8874,8 @@
            given={Maurice},
            giveni={M\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \list{publisher}{1}{%
-        {IEEE}%
+        {Wiley-ISTE}%
       }
       \strng{namehash}{643c0ab9c074872cdd74d540a87e303e}
       \strng{fullhash}{643c0ab9c074872cdd74d540a87e303e}
@@ -8872,18 +8889,20 @@
       \field{labeltitlesource}{title}
       \field{abstract}{This is the first book devoted entirely to Particle Swarm Optimization (PSO), which is a non-specific algorithm, similar to evolutionary algorithms, such as taboo search and ant colonies. Since its original development in 1995, PSO has mainly been applied to continuous-discrete heterogeneous strongly non-linear numerical optimization and it is thus used almost everywhere in the world. Its convergence rate also makes it a preferred tool in dynamic optimization. {©} 2006 ISTE Ltd.}
       \field{booktitle}{Particle Swarm Optimization}
-      \field{isbn}{1905209045}
-      \field{month}{7}
+      \field{month}{1}
       \field{title}{{Particle Swarm Optimization}}
-      \field{volume}{4}
       \field{year}{2010}
-      \field{pages}{1942\bibrangedash 1948}
-      \range{pages}{7}
       \verb{doi}
       \verb 10.1002/9780470612163
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Kennedy, Eberhart - 1995 - Particle swarm optimization.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Clerc - 2010 - Particle Swarm Optimization(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/book/10.1002/9780470612163
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/book/10.1002/9780470612163
       \endverb
     \endentry
     \entry{Eberhart2001}{book}{}
@@ -8952,13 +8971,13 @@
       \field{issn}{1598-8619}
       \field{journaltitle}{Proceedings of ICNN'95 - International Conference on Neural Networks}
       \field{number}{1}
-      \field{title}{{47-Particle Swarm Optimization Proceedings., IEEE International Conference}}
+      \field{title}{{Particle Swarm Optimization}}
       \field{volume}{11}
       \field{year}{1995}
       \field{pages}{111\bibrangedash 117}
       \range{pages}{7}
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Kennedy, Eberhart - 1995 - 47-Particle Swarm Optimization Proceedings., IEEE International Conference.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Kennedy, Eberhart - 1995 - Particle Swarm Optimization(2).pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://ci.nii.ac.jp/naid/10015518367
@@ -9099,40 +9118,41 @@
       \keyw{Convergence,Evolutionary computation,Optimization,Particle swarm,Stability}
     \endentry
     \entry{Shi1998}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=9a52ffc19bcbfe7038addcd18dcc37c5}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Guangyou},
-           giveni={G\bibinitperiod}}}%
+      \name{author}{2}{}{%
+        {{hash=12d92c08cbd739cb423645113fab45fd}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Yuhui},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=21da0cb6f60840b2b15a6264d64909d8}{%
+           family={Eberhart},
+           familyi={E\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{9a52ffc19bcbfe7038addcd18dcc37c5}
-      \strng{fullhash}{9a52ffc19bcbfe7038addcd18dcc37c5}
-      \strng{bibnamehash}{9a52ffc19bcbfe7038addcd18dcc37c5}
-      \strng{authorbibnamehash}{9a52ffc19bcbfe7038addcd18dcc37c5}
-      \strng{authornamehash}{9a52ffc19bcbfe7038addcd18dcc37c5}
-      \strng{authorfullhash}{9a52ffc19bcbfe7038addcd18dcc37c5}
+      \strng{namehash}{95007e6456950127144455bdf8110beb}
+      \strng{fullhash}{95007e6456950127144455bdf8110beb}
+      \strng{bibnamehash}{95007e6456950127144455bdf8110beb}
+      \strng{authorbibnamehash}{95007e6456950127144455bdf8110beb}
+      \strng{authornamehash}{95007e6456950127144455bdf8110beb}
+      \strng{authorfullhash}{95007e6456950127144455bdf8110beb}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper presented a modified particle swarm optimizer algorithm (MPSO). The aggregation degree of the particle swarm was introduced. The particles' diversity was improved through periodically monitoring aggregation degree of the particle swarm. On the later development of the PSO algorithm, it has been taken strategy of the Gaussian mutation to the best particle's position, which enhanced the particles' capacity to jump out of local minima. Several typical benchmark functions with different dimensions have been used for testing. The simulation results show that the proposed method improves the convergence precision and speed of PSO algorithm effectively. {©} 2007 IEEE.}
-      \field{booktitle}{2007 8th International Conference on Electronic Measurement and Instruments, ICEMI}
+      \field{booktitle}{1998 IEEE International Conference on Evolutionary Computation Proceedings. IEEE World Congress on Computational Intelligence}
       \field{isbn}{1424411351}
       \field{title}{{A modified particle swarm optimizer algorithm}}
-      \field{year}{2007}
-      \field{pages}{2675\bibrangedash 2679}
-      \range{pages}{5}
+      \field{year}{1998}
       \verb{doi}
-      \verb 10.1109/ICEMI.2007.4350772
+      \verb 10.1109/ICEC.1998.699146
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Shi, Eberhart - 1998 - A modified particle swarm optimizer.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Shi, Eberhart - 1998 - A modified particle swarm optimizer algorithm.pdf:pdf
       \endverb
-      \keyw{Aggregation degree,Mutation,Optimization,Particle swarm}
     \endentry
     \entry{Xu2007}{article}{}
       \name{author}{2}{}{%
@@ -9311,7 +9331,7 @@
       \verb 10.1016/j.swevo.2020.100718
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Piotrowski, Napiorkowski, Piotrowska - 2020 - Population size in particle swarm optimization.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Piotrowski, Napiorkowski, Piotrowska - 2020 - Population size in Particle Swarm Optimization.pdf:pdf
       \endverb
       \keyw{Metaheuristics,Particle swarm optimization,Population size,Real-world problems,Swarm intelligence,Swarm size}
     \endentry
@@ -9616,38 +9636,47 @@
       \keyw{Antenna design,Genetic algorithm (GA),Horn antennas,Optimization,Particle swarm}
     \endentry
     \entry{Huang2005}{article}{}
-      \name{author}{1}{}{%
-        {{hash=630165e9c9a416f76964a6b7321a04c5}{%
+      \name{author}{2}{}{%
+        {{hash=6936c700060d8f13c6d016c5bcd567e3}{%
            family={Huang},
            familyi={H\bibinitperiod},
-           given={Dongzhou},
-           giveni={D\bibinitperiod}}}%
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d8590c8fe9768fb091ab4595d7fddd38}{%
+           family={Mohan},
+           familyi={M\bibinitperiod},
+           given={Ananda\bibnamedelima Sanagavarapu},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{630165e9c9a416f76964a6b7321a04c5}
-      \strng{fullhash}{630165e9c9a416f76964a6b7321a04c5}
-      \strng{bibnamehash}{630165e9c9a416f76964a6b7321a04c5}
-      \strng{authorbibnamehash}{630165e9c9a416f76964a6b7321a04c5}
-      \strng{authornamehash}{630165e9c9a416f76964a6b7321a04c5}
-      \strng{authorfullhash}{630165e9c9a416f76964a6b7321a04c5}
-      \field{extraname}{2}
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4a259c0d64aa1443e41bbedccb49f442}
+      \strng{fullhash}{4a259c0d64aa1443e41bbedccb49f442}
+      \strng{bibnamehash}{4a259c0d64aa1443e41bbedccb49f442}
+      \strng{authorbibnamehash}{4a259c0d64aa1443e41bbedccb49f442}
+      \strng{authornamehash}{4a259c0d64aa1443e41bbedccb49f442}
+      \strng{authorfullhash}{4a259c0d64aa1443e41bbedccb49f442}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1084-0702}
-      \field{journaltitle}{Journal of Bridge Engineering}
-      \field{number}{2}
-      \field{title}{{Dynamic and Impact Behavior of Half-Through Arch Bridges}}
-      \field{volume}{10}
+      \field{abstract}{The particle swarm optimization (PSO) technique is a powerful stochastic evolutionary algorithm that can be used to find the global optimum solution in a complex search space. However, it has been observed that there is a great variation in its performance due to the dimensionality of the problem and the location of the global optimum with respect to the boundaries of the search space. The present paper attempts to resolve this problem by proposing a simple hybrid "damping" boundary condition that combines the characteristics offered by the existing "absorbing" and "reflecting" boundaries. Simulation results on microwave image reconstruction have shown that with the proposed "damping" boundary condition, a much robust and consistent optimization performance can be obtained for PSO regardless of the dimensionality and location of the global optimum solution. {©} 2005 IEEE.}
+      \field{issn}{15361225}
+      \field{journaltitle}{IEEE Antennas and Wireless Propagation Letters}
+      \field{number}{1}
+      \field{title}{{A hybrid boundary condition for robust particle swarm optimization}}
+      \field{volume}{4}
       \field{year}{2005}
-      \field{pages}{133\bibrangedash 141}
-      \range{pages}{9}
+      \field{pages}{112\bibrangedash 117}
+      \range{pages}{6}
       \verb{doi}
-      \verb 10.1061/(asce)1084-0702(2005)10:2(133)
+      \verb 10.1109/LAWP.2005.846166
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Huang - 2005 - Dynamic and Impact Behavior of Half-Through Arch Bridges.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop//Huang, Mohan - 2005 - A hybrid boundary condition for robust particle swarm optimization.pdf:pdf
       \endverb
+      \keyw{Convergence of numerical methods,Evolutionary computation,Microwave image reconstruction,Optimization methods,Particle swarm}
     \endentry
     \entry{Zielinski2007}{article}{}
       \name{author}{2}{}{%
@@ -11729,6 +11758,7 @@
       \keyw{analiza statystyczna,correlation,info:eu-repo/semantics/article,korelacja,prediction,predykcja,statistic analysis}
     \endentry
   \enddatalist
+  \missing{Kennedy1995}
 \endrefsection
 \endinput
 

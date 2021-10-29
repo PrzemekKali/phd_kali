@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.29)  18 OCT 2021 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.29)  29 OCT 2021 20:46
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -5707,7 +5707,10 @@ Overfull \hbox (2.12949pt too wide) in paragraph at lines 1846--1861
  [][] 
  []
 
-[191]
+
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [191]
 <./figures//WK2/dyskusja/proste_netw_change_stiff.pdf, id=8891, 396.34375pt x 2
 18.147pt>
 File: ./figures//WK2/dyskusja/proste_netw_change_stiff.pdf Graphic file (type p
@@ -5716,300 +5719,316 @@ df)
 Package pdftex.def Info: ./figures//WK2/dyskusja/proste_netw_change_stiff.pdf  
 used on input line 1870.
 (pdftex.def)             Requested size: 426.79134pt x 229.93092pt.
+<./figures//WK2/dyskusja/proste_change_stiff_hangers.pdf, id=8893, 396.34375pt 
+x 218.147pt>
+File: ./figures//WK2/dyskusja/proste_change_stiff_hangers.pdf Graphic file (typ
+e pdf)
+<use ./figures//WK2/dyskusja/proste_change_stiff_hangers.pdf>
+Package pdftex.def Info: ./figures//WK2/dyskusja/proste_change_stiff_hangers.pd
+f  used on input line 1878.
+(pdftex.def)             Requested size: 426.79134pt x 229.93092pt.
+<./figures//WK2/dyskusja/network_change_stiff_hangers.pdf, id=8895, 400.60767pt
+ x 215.38165pt>
+File: ./figures//WK2/dyskusja/network_change_stiff_hangers.pdf Graphic file (ty
+pe pdf)
+<use ./figures//WK2/dyskusja/network_change_stiff_hangers.pdf>
+Package pdftex.def Info: ./figures//WK2/dyskusja/network_change_stiff_hangers.p
+df  used on input line 1886.
+(pdftex.def)             Requested size: 426.79134pt x 224.39091pt.
 
-Underfull \vbox (badness 2828) has occurred while \output is active []
-
- [192 <./figures//WK2/dyskusja/proste_netw_change_stiff.pdf>]
-<./figures//WK2/opti/proste_160/proste_160_diffs.pdf, id=8920, 159.61633pt x 17
+[192 <./figures//WK2/dyskusja/proste_netw_change_stiff.pdf>] [193 <./figures//W
+K2/dyskusja/proste_change_stiff_hangers.pdf> <./figures//WK2/dyskusja/network_c
+hange_stiff_hangers.pdf>]
+<./figures//WK2/opti/proste_160/proste_160_diffs.pdf, id=8972, 159.61633pt x 17
 4.32928pt>
 File: ./figures//WK2/opti/proste_160/proste_160_diffs.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_160/proste_160_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_160/proste_160_diffs.pdf  u
-sed on input line 1908.
+sed on input line 1924.
 (pdftex.def)             Requested size: 147.57092pt x 164.29137pt.
-<./figures//WK2/opti/proste_200/proste_200_diffs.pdf, id=8922, 159.61633pt x 17
+<./figures//WK2/opti/proste_200/proste_200_diffs.pdf, id=8974, 159.61633pt x 17
 4.32928pt>
 File: ./figures//WK2/opti/proste_200/proste_200_diffs.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_200/proste_200_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_200/proste_200_diffs.pdf  u
-sed on input line 1909.
+sed on input line 1925.
 (pdftex.def)             Requested size: 134.52217pt x 164.29137pt.
-<./figures//WK2/opti/proste_300/proste_300_diffs.pdf, id=8924, 159.61633pt x 17
+<./figures//WK2/opti/proste_300/proste_300_diffs.pdf, id=8976, 159.61633pt x 17
 1.56396pt>
 File: ./figures//WK2/opti/proste_300/proste_300_diffs.pdf Graphic file (type pd
 f)
 <use ./figures//WK2/opti/proste_300/proste_300_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_diffs.pdf  u
-sed on input line 1910.
+sed on input line 1926.
 (pdftex.def)             Requested size: 134.52217pt x 161.52605pt.
-<./figures//WK2/opti/niels_160/niels_160_diffs.pdf, id=8926, 159.61633pt x 174.
+<./figures//WK2/opti/niels_160/niels_160_diffs.pdf, id=8978, 159.61633pt x 174.
 32928pt>
 File: ./figures//WK2/opti/niels_160/niels_160_diffs.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_160/niels_160_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_diffs.pdf  use
-d on input line 1911.
+d on input line 1927.
 (pdftex.def)             Requested size: 147.57092pt x 164.29137pt.
-<./figures//WK2/opti/niels_200/niels_200_diffs.pdf, id=8928, 159.61633pt x 174.
+<./figures//WK2/opti/niels_200/niels_200_diffs.pdf, id=8980, 159.61633pt x 174.
 32928pt>
 File: ./figures//WK2/opti/niels_200/niels_200_diffs.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_200/niels_200_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_diffs.pdf  use
-d on input line 1912.
+d on input line 1928.
 (pdftex.def)             Requested size: 134.52217pt x 164.29137pt.
-<./figures//WK2/opti/niels_300/niels_300_diffs.pdf, id=8930, 159.61633pt x 174.
+<./figures//WK2/opti/niels_300/niels_300_diffs.pdf, id=8982, 159.61633pt x 174.
 32928pt>
 File: ./figures//WK2/opti/niels_300/niels_300_diffs.pdf Graphic file (type pdf)
 
 <use ./figures//WK2/opti/niels_300/niels_300_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_diffs.pdf  use
-d on input line 1913.
+d on input line 1929.
 (pdftex.def)             Requested size: 134.52217pt x 164.29137pt.
-<./figures//WK2/opti/netw_160/netw_160_diffs.pdf, id=8932, 159.61633pt x 174.32
+<./figures//WK2/opti/netw_160/netw_160_diffs.pdf, id=8984, 159.61633pt x 174.32
 928pt>
 File: ./figures//WK2/opti/netw_160/netw_160_diffs.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_160/netw_160_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_diffs.pdf  used 
-on input line 1914.
+on input line 1930.
 (pdftex.def)             Requested size: 147.57092pt x 164.29137pt.
-<./figures//WK2/opti/netw_200/netw_200_diffs.pdf, id=8934, 159.61633pt x 174.32
+<./figures//WK2/opti/netw_200/netw_200_diffs.pdf, id=8986, 159.61633pt x 174.32
 928pt>
 File: ./figures//WK2/opti/netw_200/netw_200_diffs.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_200/netw_200_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_diffs.pdf  used 
-on input line 1915.
+on input line 1931.
 (pdftex.def)             Requested size: 134.52217pt x 164.29137pt.
-<./figures//WK2/opti/netw_300/netw_300_diffs.pdf, id=8936, 159.61633pt x 174.32
+<./figures//WK2/opti/netw_300/netw_300_diffs.pdf, id=8988, 159.61633pt x 174.32
 928pt>
 File: ./figures//WK2/opti/netw_300/netw_300_diffs.pdf Graphic file (type pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_diffs.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_diffs.pdf  used 
-on input line 1916.
+on input line 1932.
 (pdftex.def)             Requested size: 134.52217pt x 164.29137pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf, id=8938, 273.43855p
+<./figures//WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf, id=8990, 273.43855p
 t x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_WEI_XY.
-pdf  used on input line 2011.
+pdf  used on input line 2027.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf, id=8940, 270.36911p
+<./figures//WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf, id=8992, 270.36911p
 t x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_ACC_XY.
-pdf  used on input line 2012.
+pdf  used on input line 2028.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf, id=8942, 277.7025
+<./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf, id=8994, 277.7025
 pt x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf Graphic file 
 (type pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_X
-Y.pdf  used on input line 2013.
+Y.pdf  used on input line 2029.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf, id=8944, 277.7025pt
+<./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf, id=8996, 277.7025pt
  x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XY.
-pdf  used on input line 2014.
+pdf  used on input line 2030.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_YZ.pdf, id=8946, 277.7025
+<./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_YZ.pdf, id=8998, 277.7025
 pt x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_YZ.pdf Graphic file 
 (type pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_Y
-Z.pdf  used on input line 2015.
+Z.pdf  used on input line 2031.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf, id=8948, 277.7025pt
+<./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf, id=9000, 277.7025pt
  x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.
-pdf  used on input line 2016.
+pdf  used on input line 2032.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf, id=8950, 277.7025
+<./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf, id=9002, 277.7025
 pt x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf Graphic file 
 (type pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_X
-Z.pdf  used on input line 2017.
+Z.pdf  used on input line 2033.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.pdf, id=8952, 277.7025pt
+<./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.pdf, id=9004, 277.7025pt
  x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.
-pdf  used on input line 2018.
+pdf  used on input line 2034.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
 
 
-LaTeX Warning: Float too large for page by 61.8034pt on input line 2022.
+LaTeX Warning: Float too large for page by 61.8034pt on input line 2038.
 
-<./figures//WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf, id=8954, 273.43855pt 
+<./figures//WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf, id=9006, 273.43855pt 
 x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pd
-f  used on input line 2026.
+f  used on input line 2042.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
-<./figures//WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf, id=8956, 270.36911pt 
+<./figures//WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf, id=9008, 270.36911pt 
 x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pd
-f  used on input line 2027.
+f  used on input line 2043.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf, id=8958, 277.7025pt
+<./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf, id=9010, 277.7025pt
  x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.
-pdf  used on input line 2028.
+pdf  used on input line 2044.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf, id=8960, 277.7025pt x
+<./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf, id=9012, 277.7025pt x
  234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pd
-f  used on input line 2029.
+f  used on input line 2045.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf, id=8962, 277.7025pt
+<./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf, id=9014, 277.7025pt
  x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.
-pdf  used on input line 2030.
+pdf  used on input line 2046.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
-<./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf, id=8964, 277.7025pt x
+<./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf, id=9016, 277.7025pt x
  234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pd
-f  used on input line 2031.
+f  used on input line 2047.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
-<./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf, id=8966, 277.7025pt
+<./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf, id=9018, 277.7025pt
  x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf Graphic file (t
 ype pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.
-pdf  used on input line 2032.
+pdf  used on input line 2048.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
-<./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf, id=8968, 277.7025pt x
+<./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf, id=9020, 277.7025pt x
  234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pd
-f  used on input line 2033.
+f  used on input line 2049.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
 
-LaTeX Warning: Float too large for page by 61.8034pt on input line 2037.
+LaTeX Warning: Float too large for page by 61.8034pt on input line 2053.
 
-<./figures//WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf, id=8970, 273.43855pt x 
+<./figures//WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf, id=9022, 273.43855pt x 
 234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf 
- used on input line 2042.
+ used on input line 2058.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
-<./figures//WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf, id=8972, 270.36911pt x 
+<./figures//WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf, id=9024, 270.36911pt x 
 234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf 
- used on input line 2043.
+ used on input line 2059.
 (pdftex.def)             Requested size: 213.39566pt x 184.39246pt.
-<./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf, id=8974, 277.7025pt x
+<./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf, id=9026, 277.7025pt x
  234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pd
-f  used on input line 2044.
+f  used on input line 2060.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf, id=8976, 277.7025pt x 2
+<./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf, id=9028, 277.7025pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf 
- used on input line 2045.
+ used on input line 2061.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf, id=8978, 277.7025pt x
+<./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf, id=9030, 277.7025pt x
  234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pd
-f  used on input line 2046.
+f  used on input line 2062.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
-<./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf, id=8980, 277.7025pt x 2
+<./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf, id=9032, 277.7025pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf 
- used on input line 2047.
+ used on input line 2063.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
-<./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf, id=8982, 277.7025pt x
+<./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf, id=9034, 277.7025pt x
  234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf Graphic file (typ
 e pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pd
-f  used on input line 2048.
+f  used on input line 2064.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
-<./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf, id=8984, 277.7025pt x 2
+<./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf, id=9036, 277.7025pt x 2
 34.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf Graphic file (type 
 pdf)
 <use ./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf>
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf 
- used on input line 2049.
+ used on input line 2065.
 (pdftex.def)             Requested size: 213.39566pt x 167.51347pt.
 
-LaTeX Warning: Float too large for page by 61.8034pt on input line 2053.
+LaTeX Warning: Float too large for page by 61.8034pt on input line 2069.
 
-) [193] [194 <./figures//WK2/opti/proste_160/proste_160_diffs.pdf> <./figures//
+) [194] [195 <./figures//WK2/opti/proste_160/proste_160_diffs.pdf> <./figures//
 WK2/opti/proste_200/proste_200_diffs.pdf> <./figures//WK2/opti/proste_300/prost
 e_300_diffs.pdf> <./figures//WK2/opti/niels_160/niels_160_diffs.pdf> <./figures
 //WK2/opti/niels_200/niels_200_diffs.pdf> <./figures//WK2/opti/niels_300/niels_
 300_diffs.pdf> <./figures//WK2/opti/netw_160/netw_160_diffs.pdf> <./figures//WK
 2/opti/netw_200/netw_200_diffs.pdf> <./figures//WK2/opti/netw_300/netw_300_diff
-s.pdf>] [195] [196 <./figures//WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf> 
+s.pdf>] [196] [197 <./figures//WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf> 
 <./figures//WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf> <./figures//WK2/opt
 i/proste_300/proste_300_FREQ_SCIAG_XY.pdf> <./figures//WK2/opti/proste_300/pros
 te_300_FREQ_LUK_XY.pdf> <./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_Y
 Z.pdf> <./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf> <./figures//
 WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf> <./figures//WK2/opti/proste_3
-00/proste_300_FREQ_LUK_XZ.pdf>] [197 <./figures//WK2/opti/niels_300/niels_300_F
+00/proste_300_FREQ_LUK_XZ.pdf>] [198 <./figures//WK2/opti/niels_300/niels_300_F
 REQ_WEI_XY.pdf> <./figures//WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf> <./fi
 gures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf> <./figures//WK2/opti/nie
 ls_300/niels_300_FREQ_LUK_XY.pdf> <./figures//WK2/opti/niels_300/niels_300_FREQ
 _SCIAG_YZ.pdf> <./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf> <./fig
 ures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf> <./figures//WK2/opti/niel
-s_300/niels_300_FREQ_LUK_XZ.pdf>] [198 <./figures//WK2/opti/netw_300/netw_300_F
+s_300/niels_300_FREQ_LUK_XZ.pdf>] [199 <./figures//WK2/opti/netw_300/netw_300_F
 REQ_WEI_XY.pdf> <./figures//WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf> <./figu
 res//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf> <./figures//WK2/opti/netw_30
 0/netw_300_FREQ_LUK_XY.pdf> <./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_Y
@@ -6018,7 +6037,7 @@ opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf> <./figures//WK2/opti/netw_300/netw_30
 0_FREQ_LUK_XZ.pdf>]
 \openout2 = `summary.aux'.
 
- (summary.tex [199
+ (summary.tex [200
 
 
 
@@ -6026,8 +6045,8 @@ opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf> <./figures//WK2/opti/netw_300/netw_30
 ]
 Underfull \vbox (badness 2961) has occurred while \output is active []
 
- [200]
-[201] [202]) [203]
+ [201]
+[202] [203]) [204]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
 4.
 
@@ -6039,12 +6058,12 @@ Underfull \hbox (badness 1490) in paragraph at lines 74--74
 ekszej na ±wie-cie
  []
 
-[204
+[205
 
 
 
-] [205] [206] [207] [208] [209] [210] [211] [212] [213] [214] [215]
-[216] [217] [218] [219] [220] [221] [222] [223] (whole_thesis.aux
+] [206] [207] [208] [209] [210] [211] [212] [213] [214] [215] [216]
+[217] [218] [219] [220] [221] [222] [223] [224] (whole_thesis.aux
 (title_page.aux) (statement.aux) (paper_description.aux) (dictionary.aux)
 (wprowadzenie.aux) (chap_luki.aux) (chap_dynamic.aux) (chap_oma.aux)
 (chap_pso.aux) (wk2_research.aux) (summary.aux))
@@ -6053,10 +6072,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43592 strings out of 478927
- 1132741 string characters out of 2851113
- 2133463 words of memory out of 12000000
- 60162 multiletter control sequences out of 15000+600000
+ 43610 strings out of 478927
+ 1133760 string characters out of 2851113
+ 2133489 words of memory out of 12000000
+ 60178 multiletter control sequences out of 15000+600000
  645122 words of font info for 188 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,24n,102p,5203b,1900s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6117,9 +6136,9 @@ ts/type1/public/cm-super/sfrm0700.pfb><C:/Users/PRZKALIT/AppData/Local/Programs
 al/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/PRZKALIT/AppData/
 Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/PRZKALIT/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on whole_thesis.pdf (235 pages, 148861397 bytes).
+Output written on whole_thesis.pdf (236 pages, 148908896 bytes).
 PDF statistics:
- 9864 PDF objects out of 10688 (max. 8388607)
+ 9915 PDF objects out of 10688 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 3841 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3863 words of extra memory for PDF output out of 10000 (max. 10000000)
 

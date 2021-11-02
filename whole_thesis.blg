@@ -1,61 +1,61 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'whole_thesis.blg'
-[100] biber-MSWIN64:340> INFO - === 
-[126] Biber.pm:415> INFO - Reading 'whole_thesis.bcf'
-[309] Biber.pm:952> INFO - Found 294 citekeys in bib section 0
-[326] Biber.pm:4340> INFO - Processing section 0
-[335] Biber.pm:4531> INFO - Looking for bibtex format file '2020_08_19_My_Collection.bib' for section 0
-[407] bibtex.pm:1689> INFO - LaTeX decoding ...
-[1468] bibtex.pm:1494> INFO - Found BibTeX data source '2020_08_19_My_Collection.bib'
-[1481] Utils.pm:395> WARN - Duplicate entry key: 'Huang2005' in file '2020_08_19_My_Collection.bib', skipping ...
-[1495] Utils.pm:395> WARN - Duplicate entry key: 'kzoltowski2016' in file '2020_08_19_My_Collection.bib', skipping ...
-[1511] Utils.pm:395> WARN - Possible typo (case mismatch) between datasource keys: 'SOFISTIK2018' and 'SOFiSTiK2018' in file '2020_08_19_My_Collection.bib'
-[1638] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Hartmann2007' is not an integer - this will probably not sort properly.
-[1663] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Zotowski2017h' is not an integer - this will probably not sort properly.
-[1700] Utils.pm:395> WARN - legacy month field 'mar' in entry 'Weng2020' is not an integer - this will probably not sort properly.
-[1714] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Tran-Ngoc2018' is not an integer - this will probably not sort properly.
-[1746] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Brownjohn2003' is not an integer - this will probably not sort properly.
-[1775] Utils.pm:395> WARN - legacy month field 'feb' in entry 'Fryba1999' is not an integer - this will probably not sort properly.
-[1786] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Ramondenc1998' is not an integer - this will probably not sort properly.
-[1823] Utils.pm:395> WARN - legacy month field 'jan' in entry 'Szafranski2021' is not an integer - this will probably not sort properly.
-[1830] Utils.pm:395> WARN - legacy month field 'may' in entry 'Timoshenko1922' is not an integer - this will probably not sort properly.
-[1841] Utils.pm:395> WARN - legacy month field 'feb' in entry 'Szczesniak2018' is not an integer - this will probably not sort properly.
-[1852] Utils.pm:395> WARN - legacy month field 'nov' in entry 'Oleszek2015b' is not an integer - this will probably not sort properly.
-[1855] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Oleszek2016a' is not an integer - this will probably not sort properly.
-[1938] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Humar1974' is not an integer - this will probably not sort properly.
-[1983] Utils.pm:395> WARN - legacy month field 'jan' in entry 'Juang1986a' is not an integer - this will probably not sort properly.
-[2008] Utils.pm:395> WARN - ISBN '9788781606000' in entry 'Peeters2005' is invalid - run biber with '--validate_datamodel' for details.
-[2051] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Benedettini2015' is not an integer - this will probably not sort properly.
-[2062] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Brownjohn2018' is not an integer - this will probably not sort properly.
-[2068] Utils.pm:395> WARN - legacy month field 'mar' in entry 'Qin2019' is not an integer - this will probably not sort properly.
-[2078] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Sarrafi2018' is not an integer - this will probably not sort properly.
-[2095] Utils.pm:395> WARN - legacy month field 'dec' in entry 'Cabboi2017' is not an integer - this will probably not sort properly.
-[2099] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Szafranski2020' is not an integer - this will probably not sort properly.
-[2103] Utils.pm:395> WARN - ISBN '1066-0763' in entry 'James1995' is invalid - run biber with '--validate_datamodel' for details.
-[2112] Utils.pm:395> WARN - ISBN '1066-0763' in entry 'James1993' is invalid - run biber with '--validate_datamodel' for details.
-[2123] Utils.pm:395> WARN - ISBN '83-88001-232-2' in entry 'Kaczorek2016' is invalid - run biber with '--validate_datamodel' for details.
-[2125] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Schutter2000' is not an integer - this will probably not sort properly.
-[2149] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Neu2017' is not an integer - this will probably not sort properly.
-[2185] Utils.pm:395> WARN - legacy month field 'may' in entry 'Rashedi2009' is not an integer - this will probably not sort properly.
-[2187] Utils.pm:395> WARN - legacy month field 'jan' in entry 'Clerc2010' is not an integer - this will probably not sort properly.
-[2196] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Eberhart1995' is not an integer - this will probably not sort properly.
-[2206] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Xu2007' is not an integer - this will probably not sort properly.
-[2210] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Poli2007' is not an integer - this will probably not sort properly.
-[2250] Utils.pm:395> WARN - legacy month field 'sep' in entry 'CoelloCoello2006' is not an integer - this will probably not sort properly.
-[2258] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Hughes2018' is not an integer - this will probably not sort properly.
-[2264] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Kang2012' is not an integer - this will probably not sort properly.
-[2279] Utils.pm:395> WARN - legacy month field 'sep' in entry 'Zavala2014' is not an integer - this will probably not sort properly.
-[2283] Utils.pm:395> WARN - legacy month field 'jan' in entry 'Miettinen1999' is not an integer - this will probably not sort properly.
-[2286] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Elbeltagi2005' is not an integer - this will probably not sort properly.
-[2296] Utils.pm:395> WARN - legacy month field 'sep' in entry 'Zaman2019' is not an integer - this will probably not sort properly.
-[2308] Utils.pm:395> WARN - ISBN '1-55860-006-3' in entry 'Deb1989' is invalid - run biber with '--validate_datamodel' for details.
-[2311] Utils.pm:395> WARN - legacy month field 'sep' in entry 'CoelloCoello2002' is not an integer - this will probably not sort properly.
-[2342] Utils.pm:395> WARN - legacy month field 'sep' in entry 'Lv2017' is not an integer - this will probably not sort properly.
-[2347] Utils.pm:395> WARN - legacy month field 'sep' in entry 'Lv2019' is not an integer - this will probably not sort properly.
-[2390] Utils.pm:395> WARN - I didn't find a database entry for 'Kennedy1995' (section 0)
-[2547] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2547] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2547] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pl-PL'
-[2689] bbl.pm:654> INFO - Writing 'whole_thesis.bbl' with encoding 'UTF-8'
-[2836] bbl.pm:757> INFO - Output to whole_thesis.bbl
-[2836] Biber.pm:128> INFO - WARNINGS: 46
+[127] biber-MSWIN64:340> INFO - === 
+[175] Biber.pm:415> INFO - Reading 'whole_thesis.bcf'
+[365] Biber.pm:952> INFO - Found 294 citekeys in bib section 0
+[380] Biber.pm:4340> INFO - Processing section 0
+[395] Biber.pm:4531> INFO - Looking for bibtex format file '2020_08_19_My_Collection.bib' for section 0
+[478] bibtex.pm:1689> INFO - LaTeX decoding ...
+[1545] bibtex.pm:1494> INFO - Found BibTeX data source '2020_08_19_My_Collection.bib'
+[1558] Utils.pm:395> WARN - Duplicate entry key: 'Huang2005' in file '2020_08_19_My_Collection.bib', skipping ...
+[1572] Utils.pm:395> WARN - Duplicate entry key: 'kzoltowski2016' in file '2020_08_19_My_Collection.bib', skipping ...
+[1588] Utils.pm:395> WARN - Possible typo (case mismatch) between datasource keys: 'SOFISTIK2018' and 'SOFiSTiK2018' in file '2020_08_19_My_Collection.bib'
+[1742] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Hartmann2007' is not an integer - this will probably not sort properly.
+[1768] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Zotowski2017h' is not an integer - this will probably not sort properly.
+[1804] Utils.pm:395> WARN - legacy month field 'mar' in entry 'Weng2020' is not an integer - this will probably not sort properly.
+[1817] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Tran-Ngoc2018' is not an integer - this will probably not sort properly.
+[1850] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Brownjohn2003' is not an integer - this will probably not sort properly.
+[1878] Utils.pm:395> WARN - legacy month field 'feb' in entry 'Fryba1999' is not an integer - this will probably not sort properly.
+[1890] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Ramondenc1998' is not an integer - this will probably not sort properly.
+[1925] Utils.pm:395> WARN - legacy month field 'jan' in entry 'Szafranski2021' is not an integer - this will probably not sort properly.
+[1932] Utils.pm:395> WARN - legacy month field 'may' in entry 'Timoshenko1922' is not an integer - this will probably not sort properly.
+[1943] Utils.pm:395> WARN - legacy month field 'feb' in entry 'Szczesniak2018' is not an integer - this will probably not sort properly.
+[1954] Utils.pm:395> WARN - legacy month field 'nov' in entry 'Oleszek2015b' is not an integer - this will probably not sort properly.
+[1957] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Oleszek2016a' is not an integer - this will probably not sort properly.
+[2039] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Humar1974' is not an integer - this will probably not sort properly.
+[2084] Utils.pm:395> WARN - legacy month field 'jan' in entry 'Juang1986a' is not an integer - this will probably not sort properly.
+[2110] Utils.pm:395> WARN - ISBN '9788781606000' in entry 'Peeters2005' is invalid - run biber with '--validate_datamodel' for details.
+[2152] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Benedettini2015' is not an integer - this will probably not sort properly.
+[2163] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Brownjohn2018' is not an integer - this will probably not sort properly.
+[2169] Utils.pm:395> WARN - legacy month field 'mar' in entry 'Qin2019' is not an integer - this will probably not sort properly.
+[2179] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Sarrafi2018' is not an integer - this will probably not sort properly.
+[2196] Utils.pm:395> WARN - legacy month field 'dec' in entry 'Cabboi2017' is not an integer - this will probably not sort properly.
+[2200] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Szafranski2020' is not an integer - this will probably not sort properly.
+[2204] Utils.pm:395> WARN - ISBN '1066-0763' in entry 'James1995' is invalid - run biber with '--validate_datamodel' for details.
+[2212] Utils.pm:395> WARN - ISBN '1066-0763' in entry 'James1993' is invalid - run biber with '--validate_datamodel' for details.
+[2223] Utils.pm:395> WARN - ISBN '83-88001-232-2' in entry 'Kaczorek2016' is invalid - run biber with '--validate_datamodel' for details.
+[2225] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Schutter2000' is not an integer - this will probably not sort properly.
+[2249] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Neu2017' is not an integer - this will probably not sort properly.
+[2285] Utils.pm:395> WARN - legacy month field 'may' in entry 'Rashedi2009' is not an integer - this will probably not sort properly.
+[2287] Utils.pm:395> WARN - legacy month field 'jan' in entry 'Clerc2010' is not an integer - this will probably not sort properly.
+[2295] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Eberhart1995' is not an integer - this will probably not sort properly.
+[2306] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Xu2007' is not an integer - this will probably not sort properly.
+[2309] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Poli2007' is not an integer - this will probably not sort properly.
+[2349] Utils.pm:395> WARN - legacy month field 'sep' in entry 'CoelloCoello2006' is not an integer - this will probably not sort properly.
+[2357] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Hughes2018' is not an integer - this will probably not sort properly.
+[2363] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Kang2012' is not an integer - this will probably not sort properly.
+[2378] Utils.pm:395> WARN - legacy month field 'sep' in entry 'Zavala2014' is not an integer - this will probably not sort properly.
+[2382] Utils.pm:395> WARN - legacy month field 'jan' in entry 'Miettinen1999' is not an integer - this will probably not sort properly.
+[2386] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Elbeltagi2005' is not an integer - this will probably not sort properly.
+[2396] Utils.pm:395> WARN - legacy month field 'sep' in entry 'Zaman2019' is not an integer - this will probably not sort properly.
+[2407] Utils.pm:395> WARN - ISBN '1-55860-006-3' in entry 'Deb1989' is invalid - run biber with '--validate_datamodel' for details.
+[2410] Utils.pm:395> WARN - legacy month field 'sep' in entry 'CoelloCoello2002' is not an integer - this will probably not sort properly.
+[2442] Utils.pm:395> WARN - legacy month field 'sep' in entry 'Lv2017' is not an integer - this will probably not sort properly.
+[2446] Utils.pm:395> WARN - legacy month field 'sep' in entry 'Lv2019' is not an integer - this will probably not sort properly.
+[2489] Utils.pm:395> WARN - I didn't find a database entry for 'Kennedy1995' (section 0)
+[2646] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2646] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2646] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pl-PL'
+[2804] bbl.pm:654> INFO - Writing 'whole_thesis.bbl' with encoding 'UTF-8'
+[2937] bbl.pm:757> INFO - Output to whole_thesis.bbl
+[2937] Biber.pm:128> INFO - WARNINGS: 46

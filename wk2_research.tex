@@ -1862,8 +1862,17 @@ Zastosowanie wieszaków typu Network zamiast wieszaków prostych z reguły jest 
 
 Wynika stąd, że wariant z wieszakami prostymi po zmianie na wieszaki Network nie powinien spełnić warunków poprawności rozwiązania. W przeciwnym razie ujawniłby się jako rozwiązanie lepsze (lżejsze) od wyznaczonych rozwiązań optymalnych dla wariantu Network. Dokonano eksperymentu i sprawdzono maksymalne przyspieszania dla \enquote{najlepszego} rozwiązania z wieszakami prostymi, zamieniając jedynie układ wieszaków na wariant Network. Maksymalne przyspieszenia pomostu wyniosły w tym przypadku ponad 4.00 $\text{m}/\text{s}^2$.
 
-Poszukiwania przyczyn zaistniałego dysonansu przeniesiono do dziedziny częstotliwości drgań własnych układu. Dla \enquote{najlepszego} optymalnego zestawu wymiarów elementów konstrukcyjnych wariantu z wieszakami prostymi i przy prędkości maksymalnej 300 km/h (Tab. \ref{tab:summary_optimal_results}) przeprowadzono eksperyment polegający na zamianie wieszaków na system Network i uzmiennieniu sztywności wieszaków. Sztywność ta ograniczona jest jedynie do sztywności podłużnej zdefiniowanej iloczynem modułu sprężystości i pola przekroju wieszaków ($EA$). Nie chcąc uwzględniać wpływu zmiany masy w prowadzonej analizie przyjęto stałą średnicę wieszaków jak w \enquote{najlepszym} rozwiązaniu dla wieszaków prostych ($d=46\;\mathrm{mm}$). Jako zmienną przyjęto moduł sprężystości materiału. Dla każdego przypadku sztywności wieszaków wyznaczono przyspieszenia maksymalne zgodnie z algorytmem opisanym w punkcie \ref{sect:optimization_assumptions}. Obliczono również sześć pierwszych częstotliwości drgań własnych układu. Wyniki zaprezentowano w zależności od ekwiwalentnej średnicy. Ekwiwalentna średnica określa pole przekroju kołowego tak, aby wartość sztywności $EA$ dla zmiennego modułu sprężystości odpowiadała modułowi sprężystości stali $E=210\; \mathrm{GPa}$. Rezultaty przedstawiono na rysunku \ref{fig:proste_na_network_change_hangers_stiff}. 
+Poszukiwania przyczyn zaistniałego dysonansu przeniesiono do dziedziny częstotliwości drgań własnych układu. Dla \enquote{najlepszego} optymalnego zestawu wymiarów elementów konstrukcyjnych wariantu z wieszakami prostymi i przy prędkości maksymalnej 300 km/h (Tab. \ref{tab:summary_optimal_results}) przeprowadzono eksperyment polegający na zamianie wieszaków na system Network i uzmiennieniu sztywności wieszaków (Rys. \ref{fig:proste_na_network_wiz}).
 
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{WK2/dyskusja/plaski_ogolny_network_najlepsze_proste.jpg}
+	\captionsetup{justification=centering}
+	\caption{Wizualizacja modelu z \enquote{najlepszym} rozwiązaniem dla wieszaków prostych po zmianie na wieszaki Network}
+	\label{fig:proste_na_network_wiz}
+\end{figure}
+
+Sztywność ta ograniczona jest jedynie do sztywności podłużnej zdefiniowanej iloczynem modułu sprężystości i pola przekroju wieszaków ($EA$). Nie chcąc uwzględniać wpływu zmiany masy w prowadzonej analizie przyjęto stałą średnicę wieszaków jak w \enquote{najlepszym} rozwiązaniu dla wieszaków prostych ($d=46\;\mathrm{mm}$). Jako zmienną przyjęto moduł sprężystości materiału. Dla każdego przypadku sztywności wieszaków wyznaczono przyspieszenia maksymalne zgodnie z algorytmem opisanym w punkcie \ref{sect:optimization_assumptions}. Obliczono również sześć pierwszych częstotliwości drgań własnych układu. Wyniki zaprezentowano w zależności od ekwiwalentnej średnicy. Ekwiwalentna średnica określa pole przekroju kołowego tak, aby wartość sztywności $EA$ dla zmiennego modułu sprężystości odpowiadała modułowi sprężystości stali $E=210\; \mathrm{GPa}$. Rezultaty przedstawiono na rysunku \ref{fig:proste_na_network_change_hangers_stiff}. Zaprezentowane wyniki wskazują, że dla rozwiązania z dominującym dźwigarem/ściągiem i o wiotkim łuku zmiana wieszaków z układu prostego na Network nie obniża maksymalnych przyspieszeń i dla żadnej średnicy ekwiwalentnej nie znaleziono rozwiązania dopuszczalnego. Najmniejsze wartości uzyskano dla zakresu średnicy ekwiwalentnej od 8 do 16 mm. Zauważyć można również, że po przekroczeniu tych wartości, w rozwiązaniu z dominującym ściągiem, im sztywniejsze jest połączenie pomiędzy łukiem, a ściągiem tym większe są maksymalne przyspieszenia. Przebieg zmienności maksymalnych przyspieszeń ma charakter raczej gładki, bez nagłych wzrostów przyspieszeń.
 
 \begin{figure}[hbt!]
 	\centering
@@ -1873,11 +1882,43 @@ Poszukiwania przyczyn zaistniałego dysonansu przeniesiono do dziedziny częstot
 	\label{fig:proste_na_network_change_hangers_stiff}
 \end{figure}
 
+
+Potwierdzono, że układ wieszaków ma istotne znaczenie na maksymalne przyspieszenia pomostu i co ważniejsze niekoniecznie relacja jest ta zgodna ze zdroworozsądkową sztywnością globalną układu. Analogiczną analizę przeprowadzono dla dwóch dodatkowych modeli o skrajnie różnych rozkładach wieszaków: \enquote{najlepszych} rozwiązań uzyskanych przy prędkości do 300 km/h i wieszaków prostych (Rys. \ref{fig:proste_najlepsze_wiz}) oraz Network (Rys. \ref{fig:network_najlepsze_wiz}). Wyniki przedstawiono na rysunkach odpowiednio \ref{fig:proste_change_hangers_stiff} i \ref{fig:network_change_hangers_stiff}. 
+
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{WK2/dyskusja/plaski_ogolny_proste_najlepsze_proste.jpg}
+	\captionsetup{justification=centering}
+	\caption{Wizualizacja modelu z \enquote{najlepszym} rozwiązaniem dla wieszaków prostych}
+	\label{fig:proste_najlepsze_wiz}
+\end{figure}
+
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{WK2/dyskusja/plaski_ogolny_network_najlepszy_network.jpg}
+	\captionsetup{justification=centering}
+	\caption{Wizualizacja modelu z \enquote{najlepszym} rozwiązaniem dla wieszaków Network}
+	\label{fig:network_najlepsze_wiz}
+\end{figure}
+
+W \enquote{najlepszym} rozwiązaniu z wieszakami prostymi widoczny jest wyraźny przyrost maksymalnych przyspieszeń dla średnicy ekwiwalentnej w zakresie od 8 do 32 mm. Jednakże przedstawiony rezultat w zakresie bardzo małych średnic ekwiwalentny należy traktować ostrożnie. Dla bardzo małych średnic wieszaków sztywność połączenia ściągu i łuku jest niewielka. Wpływa to na postaci drgań własnych w ten sposób, że jedna z pierwszych postaci drgań własnych struktury dotyczy wyłącznie łuku (Rys. \ref{fig:small_stiff_hangers_mode_shape}). Częstotliwości drgań własnych w stosowanym algorytmie wpływają na proponowane prędkości krytyczne. Jeżeli wśród pierwszych dwóch postaci znajduje się przynajmniej jedna niezwiązana z drganiami pomostu to proponowana prędkość krytyczna nie wywoła w pomoście dużych drgań. Widoczne niskie wartości maksymalnych przyspieszeń dla średnicy ekwiwalentnej poniżej 8 mm są efektem właśnie tego zjawiska. Potraktowano je jako nieprawdziwe i wykluczono z wnioskowania. Od średnicy ok 8 mm dwie pierwsze postaci drgań dotyczą całej struktury dźwigara. Podobny problem nie występuje w przypadku wieszaków Network, ponieważ ten układ wieszaków zapewnia współpracę pomiędzy łukiem i ściągiem w całym rozpatrywanym zakresie średnic.
+
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{WK2/dyskusja/plaski_ogolny_tylko_luk.jpg}
+	\captionsetup{justification=centering}
+	\caption{Postać drgań własnych dotycząca wyłącznie łuku w przypadku wieszaków o bardzo małej sztywności}
+	\label{fig:small_stiff_hangers_mode_shape}
+\end{figure}
+
+
+Oba przeanalizowane przypadki pokazują, że istnieje wyraźna wartość graniczna średnicy ekwiwalentnej wieszaków po której przekroczeniu najniższe częstotliwości drgań własnych stabilizują się. Rozpatrując podane przykładowe przypadki, można zauważyć że stabilizacja dwóch najniższych częstotliwości drgań wydaje się mieć bezpośredni wpływ na stabilizację maksymalnych przyspieszeń pomostu. Dla wariantu z wieszakami prostymi, krzywa maksymalnych przyspieszeń staje się niemal płaska od średnicy równej około 46 mm, a dla układu Network od około 70 mm. Układ Network wymaga wprowadzenia większych średnic wieszaków do układu, ponieważ łuk odgrywa znacznie większą rolę w przenoszeniu obciążeń i jest znacznie sztywniejszy niż w przypadku niskiego przekroju łuku w wariancie z wieszakami prostymi. Rozpatrywane przypadki zmiany sztywności układu i przez to częstotliwości drgań własnych są przypadkiem szczególnym i nie pozwalają na wyciągnięcie bardziej ogólnych wniosków. W dalszym kroku zdecydowano o przeanalizowaniu całych zestawów rozwiązań pochodzących z optymalizacji w przestrzeni częstotliwości i postaci drgań własnych.
+
 \begin{figure}[hbt!]
 	\centering
 	\includegraphics[width=\linewidth,trim=5 5 5 5 ,clip]{WK2/dyskusja/proste_change_stiff_hangers.pdf}
 	\captionsetup{justification=centering}
-	\caption{}
+	\caption{Częstotliwości drgań własnych i maksymalne przyspieszenia pomostu dla \enquote{najlepszego} rozwiązania z wieszakami prostymi po uzmiennieniu sztywności wieszaków}
 	\label{fig:proste_change_hangers_stiff}
 \end{figure}
 
@@ -1885,19 +1926,109 @@ Poszukiwania przyczyn zaistniałego dysonansu przeniesiono do dziedziny częstot
 	\centering
 	\includegraphics[width=\linewidth,trim=5 5 5 5 ,clip]{WK2/dyskusja/network_change_stiff_hangers.pdf}
 	\captionsetup{justification=centering}
-	\caption{}
+	\caption{Częstotliwości drgań własnych i maksymalne przyspieszenia pomostu dla \enquote{najlepszego} rozwiązania z wieszakami Network po uzmiennieniu sztywności wieszaków}
 	\label{fig:network_change_hangers_stiff}
 \end{figure}
 
+W dalszej części wartości funkcji celu oraz zmiennych projektowych z przeprowadzonych optymalizacji przedstawiono w zależności od pierwszych dwóch częstotliwości drgań własnych. Tym razem rozróżniono częstotliwości również pod względem postaci drgań własnych. Rozpatrywano dwie pierwsze postaci drgań własnych, z których jedna zawsze charakteryzuje się rozkładem przemieszczeń w formie jednej półfali sinusa, a druga w postaci dwóch półfal sinusa. Wyniki stworzono dla wszystkich przypadków optymalizacji, ale przedstawiono jedynie te dotyczące maksymalnej prędkości równej 300 km/h. W zależności od pierwszych dwóch częstotliwości i postaci drgań własnych przedstawiono całkowitą masę konstrukcji (połowa) oraz maksymalne przyspieszenia pomostu. Zmienne projektowe (wysokość ściągu i wysokość łuku) przedstawiono w rzutach na płaszczyzny układu współrzędnych o osiach oznaczających częstotliwości pierwszej i drugiej postaci drgań własnych oraz maksymalne przyspieszenia. Nie pokazano wyników dla zmiennej średnicy wieszaków ponieważ już wcześniej pokazano, że powyżej pewnej wartości progowej wielkość ta nieznacznie wpływa na ostateczny rezultat.
 
 
 
 
+\begin{figure}[p]
+	\centering
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf}}
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf}}
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.pdf}}
+	\captionsetup{justification=centering}
+	\caption{Wieszaki proste 300}
+	
+\end{figure}
+
+\begin{figure}[p]
+	\centering
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf}}
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf}}
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf}}
+	\captionsetup{justification=centering}
+	\caption{Wieszaki nielsen 300}
+	
+\end{figure}
 
 
+\begin{figure}[p]
+	\centering
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf}}
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf}}\\
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf}}
+	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf}}
+	\captionsetup{justification=centering}
+	\caption{Wieszaki network 300}
+	
+\end{figure}
+
+%\begin{figure}[p]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki proste 300}
+%	
+%\end{figure}
+%
+%\begin{figure}[p]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki nielsen 300}
+%	
+%\end{figure}
+%
+%
+%\begin{figure}[p]
+%	\centering
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf}}\\
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf}}
+%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf}}
+%	\captionsetup{justification=centering}
+%	\caption{Wieszaki network 300}
+%	
+%\end{figure}
 
 
-
+\clearpage
 \subsubsection{Rozrzut maksymalnych przyspieszeń dla rozwiązań o tej samej masie}
 Na podstawie rozkładu wszystkich wyznaczonych rozwiązań w dziedzinie funkcji celu (na przykład rys. \ref{fig:wk2_opti_proste_160_all}) można wnioskować o możliwości błędnego zaprojektowania konstrukcji z punktu widzenia dynamicznego. Załóżmy, że perfekcyjnie i optymalnie zaprojektowana konstrukcja to taka dla której Front Pareto przecina linię wyznaczającą poziom maksymalnych przyspieszeń $3.5\;\mathrm{m/s^2}$. W takim wypadku punkt przecięcia wyznacza minimalną masę, dla której możliwe jest poprawne zaprojektowanie konstrukcji z punktu widzenia dynamicznego. Warto więc rozważyć jak bardzo nieudanie można zaprojektować konstrukcję dynamicznie, czyli jak odległe są ekstremalne uzyskane w optymalizacji wartości przyspieszeń maksymalnych przy danej masie konstrukcji. Przedstawiony eksperyment myślowy dotyczy zaproponowanych w pracy zakresów zmiennych projektowych i rozwiązań dla których spełnione są pozostałe warunki SGN i SGU. Zakres zmienności masy konstrukcji (od ok. 106 t do ok. 213 t) podzielono na 20 równych przedziałów. W każdym przedziale zidentyfikowano maksymalną i minimalną wartość maksymalnych przyspieszeń uzyskanych w optymalizacji. Rezultaty przedstawiono na rysunku \ref{fig:comparison_diffs_opt}. Zielone słupki przedstawiają wartość minimalną, a czerwone wartość maksymalną otrzymanych przyspieszeń w danym przedziale masy. Poziomą przerywaną linią zaznaczono przyspieszenia równe $3.5\;\mathrm{m/s^2}$. Pionową linią przerywaną zaznaczono minimalną masę, dla której zidentyfikowano przyspieszenia mniejsze niż $3.5\;\mathrm{m/s^2}$.
 	
@@ -2022,51 +2153,7 @@ Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nie
 
 
 
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki proste 300}
-	
-\end{figure}
 
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki nielsen 300}
-	
-\end{figure}
-
-
-\begin{figure}[hbt!]
-	\centering
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf}}\\
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf}}
-	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
-	\caption{Wieszaki network 300}
-	
-\end{figure}
 
 %\begin{figure}[hbt!]
 %	\centering

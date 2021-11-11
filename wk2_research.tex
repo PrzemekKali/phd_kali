@@ -1708,7 +1708,7 @@ Z zaprezentowanego Zestawu Pareto (rys. \ref{fig:wk2_opti_netw_200_var_dom}) mo�
 
 \pagebreak[4]
 
-\subsection{Podsumowanie rezultatów optymalizacji}
+\section{Podsumowanie rezultatów optymalizacji}
 
 Wykonane analizy optymalizacyjne kolejowego obiektu łukowego pozwoliły na identyfikację pewnych prawidłowości pomiędzy wymiarami elementów konstrukcyjnych, a zachowaniem dynamicznym obiektu. Skondensowane rezultaty dla trzech wariantów rozmieszczenia wieszaków oraz trzech różnych prędkości maksymalnych przejazdu przedstawiono w tabeli \ref{tab:summary_optimization}. Zestawiono kilka cech charakteryzujących uzyskane w danym wariancie wyniki. Po pierwsze wskazano jaki jest największy możliwy minimalny stopień wykorzystania wytrzymałości elementów $\rho_{min}$. Wynik dotyczy jedynie rozwiązań optymalnych przy spełnionym warunku maksymalnych przyspieszeń pomostu $a_{max}<3.5\;\mathrm{m/s^2}$. Po drugie, dla każdego z wariantów określono przedziały wymiarów elementów, dla których uzyskano wyniki optymalne przy spełnieniu warunku $a_{max}<3.5\;\mathrm{m/s^2}$. W niektórych przypadkach wymiar nie był ściśle ograniczony w rozpatrywanym zakresie i wskazanie było niemożliwe. Po trzecie na podstawie analizy wizualnej rezultatów i wskazówek miar korelacji zasugerowano element, którego zmiana  wpływa najbardziej na spadek lub wzrost przyspieszeń maksymalnych pomostu. 
 
@@ -1833,7 +1833,8 @@ W tym wariancie, dla wszystkich prędkości, łuk o przekroju skrzynkowym zosta�
 
 Warianty z wieszakami ukośnymi i Network mają odmienną charakterystykę niż wariant z wieszakami prostymi. W obu układam elementem decydująca okazała się sztywność łuku. Wpływ zmienności średnicy wieszaków i wysokości ściągu jest również zauważalny, niemniej w każdym wariantów to wysokość łuku odgrywa zdecydowanie decydujące znaczenie. Dla rozwiązań uzyskanych przy prędkości do 200 km/h włącznie, wytężenie minimalne elementów wyniosło powyżej 50\% co świadczy o znacznie lepszym wykorzystaniu materiału niż w przypadku wieszaków prostych. Wśród optymalnych rozwiązań, dla wszystkich prędkości wysokość ściągu nie przekroczyła 2000 mm. Jednocześnie wysokość łuku została dobrana jako minimalna 150 mm. Można również stwierdzić, że przy prędkościach zwiększonych do 300 km/h sztywność łuku musi być znacznie większa. W analizach uzyskano wysokość dla wieszaków ukośnych większą niż 1000 mm, a dla wieszaków Network większą niż 1500 mm.
 
-\higr{Nowy tekst}
+
+\subsection{Poszukiwanie głównych czynników wpływających na odpowiedź dynamiczną}
 Otrzymane wyniki optymalizacji są wypadkową bardzo wielu nakładających się na siebie mechanizmów. Z uwzględnieniem poczynionych założeń pozwoliły na globalną ocenę wszystkich schematów i rozpoznanie ogólnych kierunków w jakich należy zmierzać aby uczynić konstrukcję łukową jak najbardziej odporną dynamiczne. Opierając się na otrzymanych rezultatach przeprowadzono kolejno kilka wybranych testów, mających na celu wyjaśnienie zarejestrowanych obserwacji.
 
 Zastosowanie wieszaków typu Network zamiast wieszaków prostych z reguły jest rozwiązaniem gwarantującym większą sztywność konstrukcji, zwłaszcza przy niesymetrycznych obciążeniach. Intuicyjnie wydaje się, że układ Network powinien gwarantować również większą odporność konstrukcji łukowej na wzbudzenia dynamiczne. Tymczasem rezultaty analiz optymalizacyjnych przy przejazdach z maksymalną prędkością równą 300 km/h pokazują, że minimalne masy dźwigarów łukowych dla których spełniony jest warunek maksymalnych przyspieszeń wynoszą dla wariantów z wieszakami prostymi 132 t, a dla wariantu Network 150 t. Można by się spodziewać, że zmiana jedynie typu wieszaków dla niezmiennych pozostałych elementów wariantu z wieszakami prostymi na wieszaki Network powinna przynieść jeszcze lepszą odporność dynamiczną. Na początku oceniono czy różnica między masą rozwiązań nie wynika bezpośrednio z różnej masy wieszaków.  W tabeli \ref{tab:summary_mass_comparison} zestawiono masy poszczególnych elementów konstrukcyjnych dla wszystkich \enquote{najlepszych} rozwiązań przy prędkości maksymalnej 300 km/h (Tab. \ref{tab:summary_optimal_results}). Można dostrzec, że różnica w masie całkowitej pomiędzy wariantami z wieszakami prostymi i Network, przy tej samej prędkości maksymalnej jest znacznie większa od różnicy mas samych wieszaków w wariantach Network i prostym. 
@@ -1901,18 +1902,6 @@ Potwierdzono, że układ wieszaków ma istotne znaczenie na maksymalne przyspies
 	\label{fig:network_najlepsze_wiz}
 \end{figure}
 
-W \enquote{najlepszym} rozwiązaniu z wieszakami prostymi widoczny jest wyraźny przyrost maksymalnych przyspieszeń dla średnicy ekwiwalentnej w zakresie od 8 do 32 mm. Jednakże przedstawiony rezultat w zakresie bardzo małych średnic ekwiwalentny należy traktować ostrożnie. Dla bardzo małych średnic wieszaków sztywność połączenia ściągu i łuku jest niewielka. Wpływa to na postaci drgań własnych w ten sposób, że jedna z pierwszych postaci drgań własnych struktury dotyczy wyłącznie łuku (Rys. \ref{fig:small_stiff_hangers_mode_shape}). Częstotliwości drgań własnych w stosowanym algorytmie wpływają na proponowane prędkości krytyczne. Jeżeli wśród pierwszych dwóch postaci znajduje się przynajmniej jedna niezwiązana z drganiami pomostu to proponowana prędkość krytyczna nie wywoła w pomoście dużych drgań. Widoczne niskie wartości maksymalnych przyspieszeń dla średnicy ekwiwalentnej poniżej 8 mm są efektem właśnie tego zjawiska. Potraktowano je jako nieprawdziwe i wykluczono z wnioskowania. Od średnicy ok 8 mm dwie pierwsze postaci drgań dotyczą całej struktury dźwigara. Podobny problem nie występuje w przypadku wieszaków Network, ponieważ ten układ wieszaków zapewnia współpracę pomiędzy łukiem i ściągiem w całym rozpatrywanym zakresie średnic.
-
-\begin{figure}[hbt!]
-	\centering
-	\includegraphics[width=0.7\linewidth]{WK2/dyskusja/plaski_ogolny_tylko_luk.jpg}
-	\captionsetup{justification=centering}
-	\caption{Postać drgań własnych dotycząca wyłącznie łuku w przypadku wieszaków o bardzo małej sztywności}
-	\label{fig:small_stiff_hangers_mode_shape}
-\end{figure}
-
-
-Oba przeanalizowane przypadki pokazują, że istnieje wyraźna wartość graniczna średnicy ekwiwalentnej wieszaków po której przekroczeniu najniższe częstotliwości drgań własnych stabilizują się. Rozpatrując podane przykładowe przypadki, można zauważyć że stabilizacja dwóch najniższych częstotliwości drgań wydaje się mieć bezpośredni wpływ na stabilizację maksymalnych przyspieszeń pomostu. Dla wariantu z wieszakami prostymi, krzywa maksymalnych przyspieszeń staje się niemal płaska od średnicy równej około 46 mm, a dla układu Network od około 70 mm. Układ Network wymaga wprowadzenia większych średnic wieszaków do układu, ponieważ łuk odgrywa znacznie większą rolę w przenoszeniu obciążeń i jest znacznie sztywniejszy niż w przypadku niskiego przekroju łuku w wariancie z wieszakami prostymi. Rozpatrywane przypadki zmiany sztywności układu i przez to częstotliwości drgań własnych są przypadkiem szczególnym i nie pozwalają na wyciągnięcie bardziej ogólnych wniosków. W dalszym kroku zdecydowano o przeanalizowaniu całych zestawów rozwiązań pochodzących z optymalizacji w przestrzeni częstotliwości i postaci drgań własnych.
 
 \begin{figure}[hbt!]
 	\centering
@@ -1930,10 +1919,79 @@ Oba przeanalizowane przypadki pokazują, że istnieje wyraźna wartość granicz
 	\label{fig:network_change_hangers_stiff}
 \end{figure}
 
-W dalszej części wartości funkcji celu oraz zmiennych projektowych z przeprowadzonych optymalizacji przedstawiono w zależności od pierwszych dwóch częstotliwości drgań własnych. Tym razem rozróżniono częstotliwości również pod względem postaci drgań własnych. Rozpatrywano dwie pierwsze postaci drgań własnych, z których jedna zawsze charakteryzuje się rozkładem przemieszczeń w formie jednej półfali sinusa, a druga w postaci dwóch półfal sinusa. Wyniki stworzono dla wszystkich przypadków optymalizacji, ale przedstawiono jedynie te dotyczące maksymalnej prędkości równej 300 km/h. W zależności od pierwszych dwóch częstotliwości i postaci drgań własnych przedstawiono całkowitą masę konstrukcji (połowa) oraz maksymalne przyspieszenia pomostu. Zmienne projektowe (wysokość ściągu i wysokość łuku) przedstawiono w rzutach na płaszczyzny układu współrzędnych o osiach oznaczających częstotliwości pierwszej i drugiej postaci drgań własnych oraz maksymalne przyspieszenia. Nie pokazano wyników dla zmiennej średnicy wieszaków ponieważ już wcześniej pokazano, że powyżej pewnej wartości progowej wielkość ta nieznacznie wpływa na ostateczny rezultat.
+W \enquote{najlepszym} rozwiązaniu z wieszakami prostymi widoczny jest wyraźny przyrost maksymalnych przyspieszeń dla średnicy ekwiwalentnej w zakresie od 8 do 32 mm. Jednakże przedstawiony rezultat w zakresie bardzo małych średnic ekwiwalentny należy traktować ostrożnie. Dla bardzo małych średnic wieszaków sztywność połączenia ściągu i łuku jest niewielka. Wpływa to na postaci drgań własnych w ten sposób, że jedna z pierwszych postaci drgań własnych struktury dotyczy wyłącznie łuku (Rys. \ref{fig:small_stiff_hangers_mode_shape}). Częstotliwości drgań własnych w stosowanym algorytmie wpływają na proponowane prędkości krytyczne. Jeżeli wśród pierwszych dwóch postaci znajduje się przynajmniej jedna niezwiązana z drganiami pomostu to proponowana prędkość krytyczna nie wywoła w pomoście dużych drgań. Widoczne niskie wartości maksymalnych przyspieszeń dla średnicy ekwiwalentnej poniżej 8 mm są efektem właśnie tego zjawiska. Potraktowano je jako nieprawdziwe i wykluczono z wnioskowania. Od średnicy ok 8 mm dwie pierwsze postaci drgań dotyczą całej struktury dźwigara. Podobny problem nie występuje w przypadku wieszaków Network, ponieważ ten układ wieszaków zapewnia współpracę pomiędzy łukiem i ściągiem w całym rozpatrywanym zakresie średnic.
+
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{WK2/dyskusja/plaski_ogolny_tylko_luk.jpg}
+	\captionsetup{justification=centering}
+	\caption{Postać drgań własnych dotycząca wyłącznie łuku w przypadku wieszaków o bardzo małej sztywności}
+	\label{fig:small_stiff_hangers_mode_shape}
+\end{figure}
+
+
+Oba przeanalizowane przypadki pokazują, że istnieje wyraźna wartość graniczna średnicy ekwiwalentnej wieszaków po której przekroczeniu najniższe częstotliwości drgań własnych stabilizują się. Rozpatrując podane przykładowe przypadki, można zauważyć że stabilizacja dwóch najniższych częstotliwości drgań wydaje się mieć związek ze stabilizacją maksymalnych przyspieszeń pomostu. Dla wariantu z wieszakami prostymi, krzywa maksymalnych przyspieszeń staje się niemal płaska od średnicy równej około 46 mm, a dla układu Network od około 70 mm. Układ Network wymaga wprowadzenia większych średnic wieszaków do układu, ponieważ łuk odgrywa znacznie większą rolę w przenoszeniu obciążeń i jest znacznie sztywniejszy niż w przypadku niskiego przekroju łuku w wariancie z wieszakami prostymi. Rozpatrywane przypadki zmiany sztywności układu i przez to częstotliwości drgań własnych są przypadkiem szczególnym i nie pozwalają na wyciągnięcie bardziej ogólnych wniosków. W kolejnym kroku zdecydowano o przeanalizowaniu całych zestawów rozwiązań pochodzących z optymalizacji w przestrzeni częstotliwości i postaci drgań własnych.
 
 
 
+\newpage
+\subsection{Rezultaty w dziedzinie pierwszych dwóch modów}
+
+%\subsubsection{Podział ze względu na postaci drgań własnych}
+
+W niniejszej części pracy wartości funkcji celu oraz zmiennych projektowych z przeprowadzonych optymalizacji przedstawiono w zależności od pierwszych dwóch częstotliwości drgań własnych. Jednak tym razem rozróżniono mody również ze względu na postaci drgań własnych. Rozpatrywano dwie pierwsze postaci drgań własnych, z których jedna zawsze charakteryzuje się rozkładem przemieszczeń w formie zbliżonej do jednej półfali sinusa, a druga do dwóch półfal sinusa. Identyfikację, który mod ma daną postać odbyła się przez zastosowanie kryterium MAC w zestawianiu z wzorcami o klarownych postaciach z jedną lub dwiema półfalami. Rezultaty porównania przedstawiono na rysunku \ref{fig:minimum_mac_values_shape_division}. Czarna linia reprezentuje funkcję liniową $y=x$ czyli równość częstotliwości dla obu postaci. Linia ta również wskazuje, który mod charakteryzuje się wyższą częstotliwością. Dla rozwiązań leżących powyżej czarnej linii postać o dwóch półfalach jest pierwszym modem, a dla rozwiązań poniżej linii pierwszym modem jest postać o jednej półfali.
+
+\begin{figure}[H]
+	\centering
+	\subfloat[wieszaki proste]{\includegraphics[width=0.5\textwidth,trim=40 20 5 25, clip]{WK2/opti/proste_160/proste_160_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[wieszaki ukośne]{\includegraphics[width=0.5\textwidth,trim=40 20 5 25, clip]{WK2/opti/niels_160/niels_160_FREQ_MIN_MAC_XY.pdf}} \\
+	\subfloat[wieszaki Network]{\includegraphics[width=0.5\textwidth,trim=40 20 5 25, clip]{WK2/opti/netw_160/netw_160_FREQ_MIN_MAC_XY.pdf}}
+	
+	\caption{Podział rozwiązań optymalizacji ze względu na dwie pierwsze postaci drgań własnych, z zaznaczeniem minimalnej wartości kryterium MAC}
+	\label{fig:minimum_mac_values_shape_division}
+\end{figure}
+
+Poprawność identyfikacji postaci drgań dla dwóch pierwszych częstotliwości drgań własnych uzyskanych rezultatów jest podstawą do dalszych analiz i poprawności wnioskowania. Na podstawie rezultatów pokazanych na rysunku \ref{fig:minimum_mac_values_shape_division} stwierdzono, że podział na postaci drgań w zdecydowanej większości został wykonany poprawnie. Kryterium MAC pomiędzy postaciami, a wzorcami jest dla większości rozwiązań większe niż 0.85. Jedynie rozwiązania w pobliżu przekątnej wyznaczającej równe częstotliwości dla obu postaci charakteryzują się kiepskim dopasowaniem do wzorca. Związane jest to ze zmianą kolejności pomiędzy modem z pojedynczą półfalą i dwiema półfalami. W obszarze bliskich sobie częstotliwości, postaci zbliżają się do siebie w swojej formie i odbiegają od wzorców. Położenie w dziedzinie częstotliwości i postaci drgań własnych tych rozwiązań jest w sposób mocno niepewne, ponieważ kryterium MAC jest mniejsze niż 0.8. Niemniej ze względu na to, że są one zlokalizowane w pobliżu przekątnej $y=x$ to ich położenie w przestrzeni przy błędnie przypisanych postaciach nie zmieniłoby się istotnie. 
+
+Mając pewność co do poprawności podziału na postaci drgań, na kolejnych rysunkach przedstawiono wartości funkcji celu oraz zmiennych projektowych z przeprowadzonych optymalizacji, w zależności od pierwszych dwóch częstotliwości drgań własnych.
+Wyniki stworzono dla wszystkich przypadków optymalizacji. W prezentacji graficznej uwzględniono następujące wyniki:
+\begin{itemize}
+	\item (a) masę konstrukcji,
+	\item (b) maksymalne przyspieszenia pomostu,
+	\item (c) wysokość ściągu,
+	\item (d) wysokość łuku,
+	\item (e) liczbę półfal postaci drgań własnych modu, dla którego wyznaczona prędkość krytyczna wywołała największe przyspieszenia pomostu. Dla danego rozwiązania ze wszystkich przejazdów obciążenia wybrano ten charakteryzujący się wywołaniem największych przyspieszeń. Dla powiązanej z daną prędkością przejazdu częstotliwości określono postać drgań i opisano ją za pomocą liczby półfal. Dla przypadków gdzie decydowała prędkość maksymalna, a nie prędkość krytyczna wyznaczona na podstawie częstotliwości drgań własnych przyjęto w rezultacie 0.
+\end{itemize}
+
+Nie pokazano wyników dla zmiennej średnicy wieszaków ponieważ - jak już wcześniej zauważono - powyżej pewnej wartości progowej wielkość ta nieznacznie wpływa na przyspieszenia pomostu. Zielonym, prostokątnym obrysem zaznaczono obszar zawierający wszystkie rozwiązania z przyspieszeniami maksymalnymi pomostu mniejszymi niż $3.5\;\mathrm{m/s^2}$. Czerwony trójkąt oznacza \enquote{najlepsze} rozwiązanie - minimalna masa konstrukcji i jednocześnie przyspieszenia spełniające warunek $3.5\;\mathrm{m/s^2}$ (Tablica \ref{tab:summary_optimal_results}).
+
+Na rysunkach przedstawiających decydującą postać drgań (e) zaznaczono czarnymi liniami przerywanymi pewne, charakterystyczne częstotliwości. Obliczono je przyrównując prędkość maksymalną przejazdu do prędkości rezonansowej modelu obciążenia HSLM-A1 o najmniejszym charakterystycznym rozstawie osi wózków $d=18\,\mathrm{m}$ i dzielniku $k=1$ według wzoru (\ref{eq:critical_speed_2}).
+
+\begin{figure}[p]
+	\centering
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_WEI_XY.pdf}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_ACC_XY.pdf}}\\
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_XY.pdf}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_XY.pdf}}\\
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_DEC_FREC_XY.pdf}}
+	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[predkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_VELOCITY_XY.pdf}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 160 km/h}
+	
+\end{figure}
+
+\begin{figure}[p]
+	\centering
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_WEI_XY.pdf}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_ACC_XY.pdf}}\\
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_SCIAG_XY.pdf}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_LUK_XY.pdf}}\\
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_DEC_FREC_XY.pdf}}
+	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[predkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_VELOCITY_XY.pdf}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 200 km/h}
+	
+\end{figure}
 
 \begin{figure}[p]
 	\centering
@@ -1942,12 +2000,38 @@ W dalszej części wartości funkcji celu oraz zmiennych projektowych z przeprow
 	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf}}
 	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf}}\\
 	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_DEC_FREC_XY.pdf}}
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_YZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.pdf}}
-	\captionsetup{justification=centering}
+	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[predkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_VELOCITY_XY.pdf}}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 300 km/h}
+	
+\end{figure}
+
+
+\begin{figure}[p]
+	\centering
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_WEI_XY.pdf}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_ACC_XY.pdf}}\\
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_SCIAG_XY.pdf}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_LUK_XY.pdf}}\\
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_DEC_FREC_XY.pdf}}
+	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[predkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_VELOCITY_XY.pdf}}
+	\captionsetup{justification=centering}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 160 km/h}
+	
+\end{figure}
+
+\begin{figure}[p]
+	\centering
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_WEI_XY.pdf}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_ACC_XY.pdf}}\\
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_SCIAG_XY.pdf}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_LUK_XY.pdf}}\\
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_DEC_FREC_XY.pdf}}
+	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[predkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_VELOCITY_XY.pdf}}
+	\captionsetup{justification=centering}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 200 km/h}
 	
 \end{figure}
 
@@ -1958,15 +2042,40 @@ W dalszej części wartości funkcji celu oraz zmiennych projektowych z przeprow
 	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf}}
 	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf}}\\
 	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_DEC_FREC_XY.pdf}}
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf}}
+	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[predkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_VELOCITY_XY.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 300 km/h}
 	
 \end{figure}
 
+\begin{figure}[p]
+	\centering
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_WEI_XY.pdf}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_ACC_XY.pdf}}\\
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_SCIAG_XY.pdf}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_LUK_XY.pdf}}\\
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_DEC_FREC_XY.pdf}}
+	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[predkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_VELOCITY_XY.pdf}}
+	\captionsetup{justification=centering}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 160 km/h}
+	
+\end{figure}
+
+\begin{figure}[p]
+	\centering
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_WEI_XY.pdf}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_ACC_XY.pdf}}\\
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_XY.pdf}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_XY.pdf}}\\
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_DEC_FREC_XY.pdf}}
+	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[predkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_VELOCITY_XY.pdf}}
+	\captionsetup{justification=centering}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 200 km/h}
+	
+\end{figure}
 
 \begin{figure}[p]
 	\centering
@@ -1975,60 +2084,30 @@ W dalszej części wartości funkcji celu oraz zmiennych projektowych z przeprow
 	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf}}
 	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf}}\\
 	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_DEC_FREC_XY.pdf}}
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\textwidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf}}
+	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[predkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_VELOCITY_XY.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 300 km/h}
 	
 \end{figure}
-
-%\begin{figure}[p]
-%	\centering
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_YZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_YZ.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XZ.pdf}}
-%	\captionsetup{justification=centering}
-%	\caption{Wieszaki proste 300}
-%	
-%\end{figure}
-%
-%\begin{figure}[p]
-%	\centering
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_YZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_YZ.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XZ.pdf}}
-%	\captionsetup{justification=centering}
-%	\caption{Wieszaki nielsen 300}
-%	
-%\end{figure}
-%
-%
-%\begin{figure}[p]
-%	\centering
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_YZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_YZ.pdf}}\\
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XZ.pdf}}
-%	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XZ.pdf}}
-%	\captionsetup{justification=centering}
-%	\caption{Wieszaki network 300}
-%	
-%\end{figure}
+\clearpage
+Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków:
+\begin{enumerate}
+	\item Innymi słowy dla częstotliwości większych niż zaznaczone, wyznaczone prędkości krytyczne dla modeli obciążenia HSLM-A i dzielnika $k=1$ będą większe niż prędkość maksymalna i muszą być zredukowane dzielnikiem $k>1$. W konsekwencji wymuszenie będzie zgodne z co $k$-tą postacią drgań własnych.
+	\item Dla wariantu z wieszakami prostymi występują wyraźne korelacje pomiędzy:
+	\begin{itemize}
+		\item częstotliwością drgań własnych o postaci z podwójną półfalą, a wysokością ściągu,
+		\item częstotliwością drgań własnych o postaci z pojedynczą półfalą, a wysokością łuku.
+	\end{itemize}
+	\item Dla wariantu z wieszakami prostymi istnieje wyraźny układ pionowych pasm, wyznaczonych przez częstotliwości graniczne drgań własnych z podwójną półfalą. Analizując położenie granic pasm zauważono, że minimalna częstotliwość drgań własnych o podwójnej półfali, dla której spełniony jest warunek przyspieszeń maksymalnych $3.5\;\mathrm{m/s^2}$ ma ściśle określone położenie. Odczytano wartość częstotliwości dla lewej krawędzi zielonego prostokąta granicznego dla wszystkich przypadków prędkości: 160 km/h - 2.387 Hz, 200 km/h - 2.979 Hz, 300 km/h - 4.457 km/h. Obliczono prędkości krytyczne dla rozstawu sił w modelu obciążenia HSLM-A równego minimalnej wartości 18 m i odczytanych częstotliwości. Otrzymano następujące minimalne prędkości krytyczne dla modeli pociągów HSLM-A:
+	\begin{itemize}
+		\item $c_{kr,160} = 2.387\;\mathrm{Hz} \cdot 18\;\mathrm{m} = 42.97\; \mathrm{m/s^2} = 154.7\; \mathrm{km/h} $
+		\item $c_{kr,200} = 2.979\;\mathrm{Hz} \cdot 18\;\mathrm{m} = 53.62\; \mathrm{m/s^2} = 193.0\; \mathrm{km/h} $
+		\item $c_{kr,300} = 4.457\;\mathrm{Hz} \cdot 18\;\mathrm{m} = 80.23\; \mathrm{m/s^2} = 288.8\; \mathrm{km/h} $
+	\end{itemize}
+	Powyższe wartości są w każdym przypadku nieznacznie niższe niż maksymalne rozważane prędkościom w danej analizie. Związek ten istnieje w przypadku wieszaków prostych tylko dla częstotliwości drgań własnych postaci o dwóch półfalach.
+	
+\end{enumerate}
 
 
 \clearpage

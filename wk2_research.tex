@@ -1953,8 +1953,8 @@ W niniejszej części pracy wartości funkcji celu oraz zmiennych projektowych z
 
 Poprawność identyfikacji postaci drgań dla dwóch pierwszych częstotliwości drgań własnych uzyskanych rezultatów jest podstawą do dalszych analiz i poprawności wnioskowania. Na podstawie rezultatów pokazanych na rysunku \ref{fig:minimum_mac_values_shape_division} stwierdzono, że podział na postaci drgań w zdecydowanej większości został wykonany poprawnie. Kryterium MAC pomiędzy postaciami, a wzorcami jest dla większości rozwiązań większe niż 0.85. Jedynie rozwiązania w pobliżu przekątnej wyznaczającej równe częstotliwości dla obu postaci charakteryzują się kiepskim dopasowaniem do wzorca. Związane jest to ze zmianą kolejności pomiędzy modem z pojedynczą półfalą i dwiema półfalami. W obszarze bliskich sobie częstotliwości, postaci zbliżają się do siebie w swojej formie i odbiegają od wzorców. Położenie w dziedzinie częstotliwości i postaci drgań własnych tych rozwiązań jest w sposób mocno niepewne, ponieważ kryterium MAC jest mniejsze niż 0.8. Niemniej ze względu na to, że są one zlokalizowane w pobliżu przekątnej $y=x$ to ich położenie w przestrzeni przy błędnie przypisanych postaciach nie zmieniłoby się istotnie. 
 
-Mając pewność co do poprawności podziału na postaci drgań, na kolejnych rysunkach przedstawiono wartości funkcji celu oraz zmiennych projektowych z przeprowadzonych optymalizacji, w zależności od pierwszych dwóch częstotliwości drgań własnych.
-Wyniki stworzono dla wszystkich przypadków optymalizacji. W prezentacji graficznej uwzględniono następujące wyniki:
+Mając wystarczającą dozę pewności co do poprawności podziału na postaci drgań, na kolejnych rysunkach przedstawiono wartości funkcji celu oraz zmiennych projektowych z przeprowadzonych optymalizacji.  w zależności od pierwszych dwóch częstotliwości drgań własnych.
+Wyniki opracowano dla wszystkich przypadków optymalizacji i wszystkich rozwiązań spełniających ograniczenia. W prezentacji graficznej uwzględniono następujące wyniki:
 \begin{itemize}
 	\item (a) masę konstrukcji,
 	\item (b) maksymalne przyspieszenia pomostu,
@@ -1967,20 +1967,35 @@ Nie pokazano wyników dla zmiennej średnicy wieszaków ponieważ - jak już wcz
 
 Na rysunkach przedstawiających decydującą postać drgań (e) zaznaczono czarnymi liniami przerywanymi pewne, charakterystyczne częstotliwości. Obliczono je przyrównując prędkość maksymalną przejazdu do prędkości rezonansowej modelu obciążenia HSLM-A1 o najmniejszym charakterystycznym rozstawie osi wózków $d=18\,\mathrm{m}$ i dzielniku $k=1$ według wzoru (\ref{eq:critical_speed_2}).
 
-\begin{figure}[p]
+\clearpage
+
+\begin{figure}[h]
 	\centering
 	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_WEI_XY.pdf}}
 	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_ACC_XY.pdf}}\\
 	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_XY.pdf}}
 	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_XY.pdf}}\\
-	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_DEC_FREC_XY.pdf}}
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_DEC_FREC_XY.pdf}} \hfill
 	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_MIN_MAC_XY.pdf}}
 	\subfloat[predkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_VELOCITY_XY.pdf}}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 160 km/h}
 	
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[h]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_HSLM_DEC_XY.pdf}}
+	\subfloat[dzielnik $k$ przy obliczaniu prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_VCR_DIV_XY.pdf}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 160 km/h. Kont.}
+	
+\end{figure}
+
+
+
+\clearpage
+
+
+\begin{figure}[h]
 	\centering
 	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_WEI_XY.pdf}}
 	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_ACC_XY.pdf}}\\
@@ -1993,7 +2008,18 @@ Na rysunkach przedstawiających decydującą postać drgań (e) zaznaczono czarn
 	
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[h]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_HSLM_DEC_XY.pdf}}
+	\subfloat[dzielnik $k$ przy obliczaniu prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_VCR_DIV_XY.pdf}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 200 km/h. Kont.}
+	
+\end{figure}
+
+
+
+
+\begin{figure}[h]
 	\centering
 	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf}}
 	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf}}\\
@@ -2006,8 +2032,16 @@ Na rysunkach przedstawiających decydującą postać drgań (e) zaznaczono czarn
 	
 \end{figure}
 
+\begin{figure}[h]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_HSLM_DEC_XY.pdf}}
+	\subfloat[dzielnik $k$ przy obliczaniu prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_VCR_DIV_XY.pdf}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 300 km/h. Kont.}
+	
+\end{figure}
 
-\begin{figure}[p]
+
+\begin{figure}[h]
 	\centering
 	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_WEI_XY.pdf}}
 	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_ACC_XY.pdf}}\\
@@ -2021,7 +2055,16 @@ Na rysunkach przedstawiających decydującą postać drgań (e) zaznaczono czarn
 	
 \end{figure}
 
-\begin{figure}[p]
+
+\begin{figure}[h]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_HSLM_DEC_XY.pdf}}
+	\subfloat[dzielnik $k$ przy obliczaniu prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_VCR_DIV_XY.pdf}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 160 km/h. Kont.}
+	
+\end{figure}
+
+\begin{figure}[h]
 	\centering
 	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_WEI_XY.pdf}}
 	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_ACC_XY.pdf}}\\
@@ -2035,7 +2078,15 @@ Na rysunkach przedstawiających decydującą postać drgań (e) zaznaczono czarn
 	
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[h]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_HSLM_DEC_XY.pdf}}
+	\subfloat[dzielnik $k$ przy obliczaniu prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_VCR_DIV_XY.pdf}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 200 km/h. Kont.}
+	
+\end{figure}
+
+\begin{figure}[h]
 	\centering
 	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf}}
 	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf}}\\
@@ -2049,7 +2100,15 @@ Na rysunkach przedstawiających decydującą postać drgań (e) zaznaczono czarn
 	
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[h]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_HSLM_DEC_XY.pdf}}
+	\subfloat[dzielnik $k$ przy obliczaniu prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_VCR_DIV_XY.pdf}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 300 km/h. Kont.}
+	
+\end{figure}
+
+\begin{figure}[h]
 	\centering
 	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_WEI_XY.pdf}}
 	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_ACC_XY.pdf}}\\
@@ -2063,7 +2122,15 @@ Na rysunkach przedstawiających decydującą postać drgań (e) zaznaczono czarn
 	
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[h]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_HSLM_DEC_XY.pdf}}
+	\subfloat[dzielnik $k$ przy obliczaniu prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_VCR_DIV_XY.pdf}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 160 km/h. Kont.}
+	
+\end{figure}
+
+\begin{figure}[h]
 	\centering
 	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_WEI_XY.pdf}}
 	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_ACC_XY.pdf}}\\
@@ -2077,7 +2144,15 @@ Na rysunkach przedstawiających decydującą postać drgań (e) zaznaczono czarn
 	
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[h]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_HSLM_DEC_XY.pdf}}
+	\subfloat[dzielnik $k$ przy obliczaniu prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_VCR_DIV_XY.pdf}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 200 km/h. Kont.}
+	
+\end{figure}
+
+\begin{figure}[h]
 	\centering
 	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf}}
 	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf}}\\
@@ -2090,6 +2165,16 @@ Na rysunkach przedstawiających decydującą postać drgań (e) zaznaczono czarn
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 300 km/h}
 	
 \end{figure}
+
+\begin{figure}[h]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_HSLM_DEC_XY.pdf}}
+	\subfloat[dzielnik $k$ przy obliczaniu prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_VCR_DIV_XY.pdf}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 300 km/h. Kont.}
+	
+\end{figure}
+
+
 \clearpage
 Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków:
 \begin{enumerate}

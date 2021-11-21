@@ -310,10 +310,10 @@ Zarejestrowane sygnały poddano analizie OMA metodą NExT-ERA. Użyto autorskieg
 \end{table}
 
 
+\clearpage
 
 
-
-\begin{figure}[p]
+\begin{figure}[H]
 	\centering
 	\begin{tabular}[c]{c}
 	\subfloat[Mod 1, $f_1=1.468\, \text{Hz}$]{\label{fig: wk2_research_mod01}%
@@ -342,12 +342,12 @@ Zarejestrowane sygnały poddano analizie OMA metodą NExT-ERA. Użyto autorskieg
 \end{tabular}}\\
 
 	\end{tabular}
-\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2}
+\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2. Od lewej: składowe Z wektora postaci drgań własnych (pionowe); składowe Y wektora postaci drgań własnych (poprzeczne); wszystkie składowe wektora postaci drgań własnych na płaszczyźnie zespolonej.}
 \label{fig: wk2_research_mods1}
 \end{figure}
 
 
-\begin{figure}[p]\ContinuedFloat
+\begin{figure}[H]\ContinuedFloat
 	\centering
 	\begin{tabular}[c]{c}
 	\subfloat[Mod 5, $f_5=3.435\, \text{Hz}$]{\label{fig: wk2_research_mod05}%
@@ -376,7 +376,7 @@ Zarejestrowane sygnały poddano analizie OMA metodą NExT-ERA. Użyto autorskieg
 		\includegraphics[height=0.18\textheight]{/wk2/ident/mods/fig_polar_mod_59_time_17_02_08.pdf}%
 \end{tabular}}\\
 	\end{tabular}
-\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2 kont.}
+\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2. Od lewej: składowe Z wektora postaci drgań własnych (pionowe); składowe Y wektora postaci drgań własnych (poprzeczne); wszystkie składowe wektora postaci drgań własnych na płaszczyźnie zespolonej. Kont.}
 \label{fig: wk2_research_mods2}
 \end{figure}
 
@@ -400,7 +400,7 @@ Zarejestrowane sygnały poddano analizie OMA metodą NExT-ERA. Użyto autorskieg
 
 
 	\end{tabular}
-	\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2 kont.}
+	\caption{Zidentyfikowane charakterystyki modalne wiaduktu WK2. Od lewej: składowe Z wektora postaci drgań własnych (pionowe); składowe Y wektora postaci drgań własnych (poprzeczne); wszystkie składowe wektora postaci drgań własnych na płaszczyźnie zespolonej. Kont.}
 	\label{fig: wk2_research_mods3}
 \end{figure}
 
@@ -865,7 +865,7 @@ Analizę dynamiczną przeprowadzono dla wszystkich dziesięciu modeli obciąże�
 
 \begin{figure}[hbt!]
 	\centering
-	\includegraphics[trim=0 0 0 3, clip]{WK2/opti/predkosci_wszystkie/proste_wyniki_mapa.pdf}
+	\includegraphics[width=0.91\linewidth,trim=0 0 0 3, clip]{WK2/opti/predkosci_wszystkie/proste_wyniki_mapa.pdf}
 	\captionsetup{justification=centering}
 \caption{Maksymalne przyspieszenia dźwigara dla pełnego zakresu prędkości zalecanych w normie - przykładowy wariant modelu z wieszakami prostymi}
 \label{fig:wk2_opti_proste_predkosci_test_all_proste}
@@ -874,7 +874,7 @@ Analizę dynamiczną przeprowadzono dla wszystkich dziesięciu modeli obciąże�
 	
 \begin{figure}[hbt!]
 	\centering
-	\includegraphics[trim=0 0 0 3, clip]{WK2/opti/predkosci_wszystkie/nielsen_wyniki_mapa.pdf}
+	\includegraphics[width=0.91\linewidth,trim=0 0 0 3, clip]{WK2/opti/predkosci_wszystkie/nielsen_wyniki_mapa.pdf}
 	\captionsetup{justification=centering}
 \caption{Maksymalne przyspieszenia dźwigara dla pełnego zakresu prędkości zalecanych w normie - przykładowy wariant modelu z wieszakami ukośnymi}
 \label{fig:wk2_opti_proste_predkosci_test_all_nielsen}
@@ -882,7 +882,7 @@ Analizę dynamiczną przeprowadzono dla wszystkich dziesięciu modeli obciąże�
 	
 \begin{figure}[hbt!]
 	\centering
-	\includegraphics[trim=0 0 0 3, clip]{WK2/opti/predkosci_wszystkie/network_wyniki_mapa.pdf}	
+	\includegraphics[width=0.91\linewidth,trim=0 0 0 3,  clip]{WK2/opti/predkosci_wszystkie/network_wyniki_mapa.pdf}	
 	\captionsetup{justification=centering}
 	\caption{Maksymalne przyspieszenia dźwigara dla pełnego zakresu prędkości zalecanych w normie - przykładowy wariant modelu z wieszakami Network}
 	\label{fig:wk2_opti_proste_predkosci_test_all_network}
@@ -914,7 +914,7 @@ Na rysunku \ref{fig:wk2_dynamic_algorithm} przedstawiono schemat blokowy algoryt
 	\caption{Schemat blokowy algorytmu optymalizacji wielokryterialnej konstrukcji ze względu na jej zachowanie dynamiczne}
 	\label{fig:wk2_dynamic_algorithm}
 \end{figure}
-
+\clearpage
 \section{Rezultaty optymalizacji}
 \subsection{Informacje wstępne}
 Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s,f_a]$, trzech wariantów rozkładu wieszaków i trzech dozwolonych prędkości maksymalnych pociągu na linii co daje łącznie 9 odrębnych procesów optymalizacji. Należy podkreślić, że uzyskane wyniki dotyczą jedynie wskazanych w tabeli \ref{tab:wk2_project_variables_opti} zakresów zmiennych projektowych i topologii wzorowanej na wiadukcie WK-2. Przyjęte zakresy ograniczeń uznano za szersze niż stosowane zwykle w projektowaniu i z tego względu uznano je za miarodajne w ocenie globalnej rozwiązania projektowego konstrukcji łukowych tej klasy. 
@@ -928,21 +928,23 @@ Jako pierwszy zaprezentowany jest zbiór wszystkich rozwiązań w dziedzinie fun
 	\subfloat[]{\includegraphics[trim=5 5 7 5, clip]{WK2/opti/proste_160/proste_160_0.3.pdf} \label{fig:EXAMPLE_picture_1_2_a}}
 	\subfloat[]{\includegraphics[trim=0  5 5 5, clip]{WK2/opti/proste_160/proste_160_sciag.pdf} \label{fig:EXAMPLE_picture_1_2_b}}
 	\captionsetup{justification=centering}
-	\caption{Przykładowe elementy wizualizacji rezultatów analizy optymalizacyjnej - część 1}
+	\caption{Przykładowe elementy wizualizacji rezultatów optymalizacji - cz. 1}
 	\label{fig:EXAMPLE_picture_1_2}
 \end{figure}
 
 Druga grafika pokazuje wartości zmiennych projektowych w dziedzinie funkcji celu (na przykład rys. \ref{fig:EXAMPLE_picture_1_2_b}). Do sporządzenia grafiki użyto jedynie punkty, które spełniają warunki ograniczeń od góry - \textit{NOK-H}. W każdym wariancie (a-c) za pomocą mapy kolorów określono wartość innej zmiennej: (a) wysokości ściągu, (b) wysokości łuku i (c) średnicy wieszaka. Czarną przerywaną liniową ponownie zaznaczono przyspieszenie $3.5\,\mathrm{m/s^2}$. Wyświetlanie wyników ograniczono do punków w obszarze maksymalnych przyspieszeń do $10\,\mathrm{m/s^2}$ i masy konstrukcji do 200 t.
 
-Kolejny rysunek (przykład na rys. \ref{fig:EXAMPLE_picture_3}) obrazuje zbiór wszystkich wyznaczonych rozwiązań w przestrzeni zmiennych projektowych. Kolor punktu oznacza maksymalne przyspieszenia pomostu uzyskane w danym rozwiązaniu. Symbolem trójkąta oznaczono rozwiązania charakteryzujące się maksymalnymi przyspieszeniami mniejszymi niż 3.5 $\mathrm{m/s^2}$. Rysunek ma za zadanie pokazać gradienty zmian funkcji celu związanej z przyspieszeniami w obszarze zmiennych projektowych.
-
 \begin{figure}[hbt!]
 	\centering
 	\includegraphics[trim=8 8 5 20, clip]{WK2/opti/proste_160/proste_160_VAR_ISO_ALL.pdf}
 	\captionsetup{justification=centering}
-	\caption{Przykładowe elementy wizualizacji rezultatów analizy optymalizacyjnej - część 2}
+	\caption{Przykładowe elementy wizualizacji rezultatów optymalizacji - cz. 2}
 	\label{fig:EXAMPLE_picture_3}
 \end{figure}
+
+Kolejny rysunek (przykład na rys. \ref{fig:EXAMPLE_picture_3}) obrazuje zbiór wszystkich wyznaczonych rozwiązań w przestrzeni zmiennych projektowych. Kolor punktu oznacza maksymalne przyspieszenia pomostu uzyskane w danym rozwiązaniu. Symbolem trójkąta oznaczono rozwiązania charakteryzujące się maksymalnymi przyspieszeniami mniejszymi niż 3.5 $\mathrm{m/s^2}$. Rysunek ma za zadanie pokazać gradienty zmian funkcji celu związanej z przyspieszeniami w obszarze zmiennych projektowych.
+
+
 
 Czwarty zestaw prezentuje zależność między wartością zmiennej projektowej rozwiązania, a uzyskanymi maksymalnymi wartościami przyspieszeń rozwiązań należących do Frontu Pareto (na przykład rys. \ref{fig:EXAMPLE_picture_4_5_a}). Dla prezentowanych zależności wyznaczono wartości funkcji korelacji zerowej \teng{correlation}, korelacji cząstkowej \teng{partial correlation} i korelacji semicząstkowej (częściowej) \teng{semipartial correlation} \parencite{Tabachnick}. Wyniki korelacji zestawiono w tabelach (na przykład tab. \ref{tab: correlation_proste_160}). Do wyznaczania współczynników użyto metody Pearsona. Oceniając wyznaczone miary jakości dopasowania należy zdawać sobie sprawę ze spełnienia jedynie części założeń wymaganych przy obliczaniu korelacji Pearsona
 \footnote{
@@ -953,7 +955,7 @@ Z tego względu jego wskazania zostały potraktowane jedynie jako wskazówka do 
     \subfloat[]{\includegraphics[trim=5 5 5 5, clip]{WK2/opti/proste_160/proste_160_var_sciag.pdf} \label{fig:EXAMPLE_picture_4_5_a}}
 	\subfloat[]{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_160/proste_160_VAR_XZ.pdf} \label{fig:EXAMPLE_picture_4_5_b}}
 	\captionsetup{justification=centering}
-	\caption{Przykładowe elementy wizualizacji rezultatów analizy optymalizacyjnej - część 3}
+	\caption{Przykładowe elementy wizualizacji rezultatów optymalizacji - cz. 3}
 	\label{fig:EXAMPLE_picture_4_5}
 \end{figure}
 
@@ -968,7 +970,9 @@ Dla każdego wariantu optymalizacji oceniono wyniki i sformułowano następując
 	\item zakresy zmiennych projektowych, pozwalających na optymalne i bezpieczne zaprojektowanie danego typu konstrukcji.
 \end{itemize} 
 
-W dalszej części rozdziału zaprezentowano i omówiono wyniki dla każdego z wariantów.
+W dalszej części rozdziału zaprezentowano i omówiono wyniki dla każdego z wariantów układu wieszaków i prędkości maksymalnych.
+
+
 \vfill
 \pagebreak[4]
 \subsection{Wieszaki Proste - prędkość maksymalna 160 km/h}
@@ -1847,14 +1851,14 @@ Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nie
 
 \begin{figure}[p]
 	\centering
-	\subfloat[Proste,\\ $v_{max} = 160$ km/h]{\includegraphics[trim= 07  5 05 05, clip]{WK2/opti/proste_160/proste_160_diffs.pdf}}
-	\subfloat[Proste,\\ $v_{max} = 200$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/proste_200/proste_200_diffs.pdf}}
+	\subfloat[Proste,\\ $v_{max} = 160$ km/h]{\includegraphics[trim= 07  5 05 05, clip]{WK2/opti/proste_160/proste_160_diffs.pdf}} \hfill
+	\subfloat[Proste,\\ $v_{max} = 200$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/proste_200/proste_200_diffs.pdf}} \hfill
 	\subfloat[Proste,\\ $v_{max} = 300$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/proste_300/proste_300_diffs.pdf}}\\
-	\subfloat[Ukośne,\\ $v_{max} = 160$ km/h]{\includegraphics[trim= 07  5 05 05, clip]{WK2/opti/niels_160/niels_160_diffs.pdf}}
-	\subfloat[Ukośne,\\ $v_{max} = 200$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/niels_200/niels_200_diffs.pdf}}
+	\subfloat[Ukośne,\\ $v_{max} = 160$ km/h]{\includegraphics[trim= 07  5 05 05, clip]{WK2/opti/niels_160/niels_160_diffs.pdf}} \hfill
+	\subfloat[Ukośne,\\ $v_{max} = 200$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/niels_200/niels_200_diffs.pdf}} \hfill
 	\subfloat[Ukośne,\\ $v_{max} = 300$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/niels_300/niels_300_diffs.pdf}}\\
-	\subfloat[Network,\\$v_{max} = 160$ km/h]{\includegraphics[trim= 07  5 05 05, clip]{WK2/opti/netw_160/netw_160_diffs.pdf}}
-	\subfloat[Network,\\$v_{max} = 200$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/netw_200/netw_200_diffs.pdf}}
+	\subfloat[Network,\\$v_{max} = 160$ km/h]{\includegraphics[trim= 07  5 05 05, clip]{WK2/opti/netw_160/netw_160_diffs.pdf}} \hfill
+	\subfloat[Network,\\$v_{max} = 200$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/netw_200/netw_200_diffs.pdf}} \hfill
 	\subfloat[Network,\\$v_{max} = 300$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/netw_300/netw_300_diffs.pdf}}
 	\captionsetup{justification=centering}
 	\caption{Ekstremalne otrzymane przyspieszenia maksymalne dla rozwiązań zgrupowanych w wąskich przedziałach masy konstrukcji}
@@ -2313,8 +2317,8 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_ACC_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_b}}\\
 	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_c}}
 	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_d}}\\
-	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_DEC_FREC_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_e}}
-	\subfloat[predkość decydująca]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_VELOCITY_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_f}} \hfill
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_DEC_FREC_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_e}} \hfill
+	\subfloat[predkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_VELOCITY_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_f}} 
 	\captionsetup{justification=centering}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 200 km/h}
 	\label{fig:opti_res_2_freqs_netw_200}

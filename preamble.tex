@@ -34,7 +34,8 @@
 \DeclareUnicodeCharacter{0327}{\k{a}} 
 %kiedy bibliografia jest gotowa:
 % - trzeba zmienic w pliku bib bo wstawia "aą". z \c{a} na \k{a}.
-% - podkreslniki z \{_} na _
+% - podkreslniki z {\_} na _
+% - # w adresie linku z {\#} dać #
 \DeclareUnicodeCharacter{2212}{–}
 \DeclareUnicodeCharacter{221A}{$\sqrt{\cdot}$}
 \DeclareUnicodeCharacter{FFFD}{\textbf{?}}
@@ -129,6 +130,7 @@ url=true
 \usepackage{multirow}
 \usepackage{array}
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{Z}[1]{>{\raggedright\arraybackslash}p{#1}}
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 \usepackage{tabularx}
 

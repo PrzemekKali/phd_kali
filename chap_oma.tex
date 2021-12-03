@@ -9,10 +9,10 @@ W rozdziale \ref{sect:modal_analysis_and_response} przedstawiono metody analizy 
 \section{Operacyjna analiza modalna (OMA)} \label{sect:OMA}
 \subsection{Koncepcja OMA}
 W ogólności doświadczalna analiza modalna to proces korelacji charakterystyk dynamicznych modelu matematycznego, z fizycznymi właściwościami systemu opisanego rezultatami pomiarów. Przypomnijmy, że w OMA do procesu estymacji parametrów modalnych używane są tylko pomiary odpowiedzi konstrukcji. Różni ją to od EMA, w której mierzone są zarówno wymuszenia jak i odpowiedź. 
-Fundamentem wszystkich metod OMA jest założenie, że badana struktura obciążona jest wymuszeniem o widmie zbliżonym do białego szumu. Oznacza to, że \higr{energia konstrukcji}\todo{energia kinetyczna konstrukcji?} jest rozłożona w szerokim paśmie częstotliwości, które zawiera wszystkie interesuje badacza mody. Z oczywistych względów idealne wymuszenie o charakterystyce białego szumu nie jest możliwe. Jednakże większość metod OMA radzi sobie z tym niepełnym dopasowaniem do założeń teoretycznych. Niezmiernie ważne jest jednak, żeby wszystkie interesujące mody były odpowiednio wzbudzone, to znaczy aby ich wkład był wychwycony przez przyrządy pomiarowe. Autorzy w pracy \cite{Brincker2015} tłumaczą koncepcję OMA za \todo{wytlumaczyc bardziej} pomocą fikcyjnego, kolorowego filtru obciążenia. \higr{Załóżmy, że obciążenie białym szumem to takie, dla którego widmo częstotliwościowe będzie równe w całym zakresie częstotliwości. Wykorzystując analogię do teorii sygnałów, kolorowy filtr obciążenia przepuszcza obciążenia w danym zakresie, a w pozostałym je blokuje.} Kolorowe obciążenie może więc być traktowane jako wynik obciążenia kolorowego filtru (odpowiadającego rzeczywistemu obciążeniu) przez idealnie biały szum. Udowodniono, że takie podejście nie zmienia fizycznych modów systemu. Należy jednak pamiętać, że metody OMA w tym przypadku dokonają identyfikacji modalnej zarówno struktury fizycznej, jak i filtra obciążenia. Koncepcję zaprezentowano na rysunku \ref{fig: color_filter_oma}. Najważniejszą konsekwencją tego założenia jest niebezpieczeństwo występowania wśród wyników identyfikacji nie tylko modów związanych z konstrukcją, ale też wynikających z warunków obciążenia. Należy pamiętać również, że pomierzone wartości obarczone są szumem pomiarowym. Pomimo że nie niesie on żadnej istotnej, fizycznej informacji, jest nieunikniony w trakcie rzeczywistych pomiarów. Podsumowując, wynik identyfikacji za pomocą OMA zawiera w sobie trzy składowe:
+Fundamentem wszystkich metod OMA jest założenie, że badana struktura obciążona jest wymuszeniem o widmie zbliżonym do białego szumu. Oznacza to, że dynamiczne siły wymuszające są rozłożone w szerokim paśmie częstotliwości, które zawiera wszystkie interesuje badacza mody. Z oczywistych względów idealne wymuszenie o charakterystyce białego szumu nie jest możliwe. Jednakże większość metod OMA radzi sobie z tym niepełnym dopasowaniem do założeń teoretycznych. Niezmiernie ważne jest jednak, żeby wszystkie interesujące mody były odpowiednio wzbudzone, to znaczy aby ich wkład był wychwycony przez przyrządy pomiarowe. Autorzy w pracy \cite{Brincker2015} tłumaczą koncepcję OMA za pomocą fikcyjnego, kolorowego filtru obciążenia. Załóżmy, że obciążenie białym szumem to takie, dla którego widmo będzie równomierne w całym zakresie częstotliwości. Wykorzystując analogię do teorii sygnałów, kolorowy filtr obciążenia przepuszcza obciążenia jedynie w danym zakresie częstotliwości, a w pozostałym je blokuje. Kolorowe obciążenie może więc być traktowane jako wynik obciążenia kolorowego filtru (odpowiadającego rzeczywistemu obciążeniu) przez idealnie biały szum. Udowodniono, że takie podejście nie zmienia fizycznych modów systemu. Należy jednak pamiętać, że metody OMA w tym przypadku dokonają identyfikacji modalnej zarówno struktury fizycznej, jak i filtra obciążenia. Koncepcję zaprezentowano na rysunku \ref{fig: color_filter_oma}. Najważniejszą konsekwencją tego założenia jest niebezpieczeństwo występowania wśród wyników identyfikacji nie tylko modów związanych z konstrukcją, ale też wynikających z warunków obciążenia. Należy pamiętać również, że pomierzone wartości obarczone są szumem pomiarowym. Pomimo że nie niesie on żadnej istotnej, fizycznej informacji, jest nieunikniony w trakcie rzeczywistych pomiarów. Podsumowując, wynik identyfikacji za pomocą OMA zawiera w sobie trzy składowe:
 \begin{itemize}
 	\item parametry modalne związane z drganiami własnymi konstrukcji,
-	\item myślowy filtr obciążenia, \higr{kolorujący} biały szum do rzeczywistego, nieznanego obciążenia,
+	\item myślowy filtr obciążenia, kolorujący fikcyjne obciążenie o białym szumie do nieznanego obciążenia rzeczywistego,
 	\item szum pomiarowy.
 \end{itemize} 
 W idealnych warunkach, kiedy filtr obciążenia ma biały kolor, a szum pomiarowy byłby zerowy, OMA zidentyfikuje wyłącznie mody konstrukcji.
@@ -43,11 +43,11 @@ Metody EMA w dziedzinie czasu wykorzystują do estymacji parametrów modalnych f
 
 Podobną analogię jak w metodach TDM można zauważyć dla metod w dziedzinie częstotliwości. W algorytmach EMA w dziedzinie częstotliwości bazą do identyfikacji są funkcje odpowiedzi częstotliwościowej \teng{frequency-response function (FRF)}. W OMA rolę tę pełnią funkcje gęstości widmowej \teng{spectral density functions}.
 
-Przed wyborem dziedziny w której badacz chce się poruszać, warto poznać elementy charakterystyczne dla grupy algorytmów TDM i FDM. Podstawową wadą metod TD jest to, że wszystkie mody, które występują w sygnale są ujęte w funkcjach korelacji. W konsekwencji wszystkie mody zawsze są rozważane w trakcie rozwiązania problemu. Z kolei ich zaletą, w porównaniu do metod FDM, jest większa odporność na wystąpienie błędów systematycznych w estymowanych parametrach modalnych. Niejako w kontrze do metod TDM, zaletą metod FDM jest to, że każdy z modów występuje w wąskim przedziale częstotliwości. Dzięki temu możliwe jest rozważanie tylko tych przedziałów częstotliwości, w których występują interesujące badacza mody. Z drugiej strony wadą metod FDM jest wykorzystywanie do identyfikacji funkcje gęstości widmowej, które są wyznaczane za pomocą różnych metod obciążonych błędami systematycznymi. Błędy te nieuchronnie przenoszą się na wynikowe parametry modalne, a określenie ich wpływu jest problematyczne. W pracy \cite{Maia1997} autorzy sugerują, że metody TDM są z reguły lepszym wyborem w przypadku dużego przedziału interesujących badacza częstotliwości, albo dużej liczby modów w tym zakresie. Natomiast metody FDM dostarczają lepszych wyników kiedy zakres częstotliwości jest niewielki, a liczba modów relatywnie mała. 
+Przed wyborem dziedziny w której badacz chce się poruszać, warto poznać elementy charakterystyczne dla grupy algorytmów TDM i FDM. Podstawową wadą metod TDM jest to, że wszystkie mody, które występują w sygnale są ujęte w funkcjach korelacji. W konsekwencji wszystkie mody zawsze są rozważane w trakcie rozwiązania problemu. Z kolei ich zaletą, w porównaniu do metod FDM, jest większa odporność na wystąpienie błędów systematycznych w estymowanych parametrach modalnych. Niejako w kontrze do metod TDM, zaletą metod FDM jest to, że każdy z modów występuje w wąskim przedziale częstotliwości. Dzięki temu możliwe jest rozważanie tylko tych przedziałów częstotliwości, w których występują interesujące badacza mody. Z drugiej strony wadą metod FDM jest wykorzystywanie do identyfikacji funkcje gęstości widmowej, które są wyznaczane za pomocą różnych metod obciążonych błędami systematycznymi. Błędy te nieuchronnie przenoszą się na wynikowe parametry modalne, a określenie ich wpływu jest problematyczne. W pracy \cite{Maia1997} autorzy sugerują, że metody TDM są z reguły lepszym wyborem w przypadku dużego przedziału interesujących badacza częstotliwości, albo dużej liczby modów w tym zakresie. Natomiast metody FDM dostarczają lepszych wyników kiedy zakres częstotliwości jest niewielki, a liczba modów relatywnie mała. 
 
 Drugie kryterium podziału algorytmów dotyczy liczby modów, które mogą być jednocześnie analizowane za pomocą danej metody. Podział jest zbliżony do tego dotyczącego teoretycznej analizy modalnej. Metoda może identyfikować albo jeden stopień swobody \teng{single degree-of-freedom} albo wiele stopni swobody \teng{multiple degree-of-freedom}.
 
-Metody TDM i FDM możemy podzielić również na bezpośrednie \teng{direct} i pośrednie \teng{indirect}. Różnica polega na sposobie wyznaczania \todo{powyzej wystarczy?}FRF. Metody bezpośrednie pozwalają wyznaczyć ją bezpośrednio z równania ruchu. Natomiast metody pośrednie estymują FRF na podstawie wcześniej zidentyfikowanego modelu modalnego.
+Metody TDM i FDM możemy podzielić również na bezpośrednie \teng{direct} i pośrednie \teng{indirect}. Różnica polega na sposobie wyznaczania FRF. Metody bezpośrednie pozwalają wyznaczyć ją bezpośrednio z równania ruchu. Natomiast metody pośrednie estymują FRF na podstawie wcześniej zidentyfikowanego modelu modalnego.
 
 Ostatnim ogólnie przyjętym kryterium podziału metod całej analizy modalnej jest liczba punktów poddanych wymuszeniu i mierzonych w trakcie serii pomiarowej. Koresponduje to z liczbą analizowanych jednocześnie przez metodę funkcji FRF. Kiedy mówimy o jednoczesnej analizie tylko jednej funkcji FRF mamy do czynienia z metodą jedno-wejście-jedno-wyjście (SISO) \teng{single-input-single-output}. Kiedy mierzymy wymuszenie w jednym punkcie, a odpowiedź badamy w kilku różnych punktach na konstrukcji, otrzymując kilka funkcji FRF, metodę klasyfikuje się jako jedno-wejście-wiele-wyjść (SIMO) \teng{single-input-multi-output}. W powyższej technice obowiązuje założenie, że parametry modalne uzyskane z każdej funkcji FRF będą takie same. Innymi słowy są to parametry globalne dla całej konstrukcji. Naturalnym rozwinięciem są metody które mogą analizować wszystkie dostępne funkcje FRF jednocześnie, uzyskane w skutek wymuszenia i pomiaru wielu różnych punktów. Metody te określane są jako wiele-wejść-wiele-wyjść (MIMO) \teng{multi-input-multi-output}.
 
@@ -69,7 +69,7 @@ Z kolei najpopularniejsze algorytmy w dziedzinie częstotliwości to:
 
 
 
-Wszystkie z powyższych algorytmów są bardzo dobrze opisane i udokumentowane w literaturze. Trudno orzec, który z nich jest obiektywnie najlepszy. Wiele zależy od doświadczenia i wiedzy autora oraz specyfiki zadania. Jak powiedział Sam Ibrahim: \enquote{Jeśli nie występują blisko położone mody i szumy - każdy z nich zadziała} \teng{\enquote{If there are no closely spaced modes and no noise - everything works}}. Wybór metody może więc zależeć od preferencji, umiejętności programowania czy dostępnych narzędzi. W literaturze można napotkać wiele indywidualnych aplikacji algorytów. Istnieją również komercyjne programy, które pozwalają na identyfikację modalną. Do najpopularniejszych należą ARTeMIS - SVS \parencite{Extractor1999} i MACEC - dodatek do programu MATLAB \parencite{Reynders2014}.
+Wszystkie z powyższych algorytmów są bardzo dobrze opisane i udokumentowane w literaturze. Trudno orzec, który z nich jest obiektywnie najlepszy. Wiele zależy od doświadczenia i wiedzy autora oraz specyfiki zadania. Jak powiedział Sam Ibrahim: \enquote{Jeśli nie występują blisko położone mody i szumy - każdy z nich zadziała} \teng{\enquote{If there are no closely spaced modes and no noise - everything works}}. Wybór metody może więc zależeć od preferencji, umiejętności programowania czy dostępnych narzędzi. W literaturze można napotkać wiele indywidualnych aplikacji algorytmów. Istnieją również komercyjne programy, które pozwalają na identyfikację modalną. Do najpopularniejszych należą ARTeMIS - SVS \parencite{Extractor1999} i MACEC - dodatek do programu MATLAB \parencite{Reynders2014}.
 
 \subsection{Przykłady zastosowań Operacyjnej Analizy Modalnej}
 Operacyjna analiza modalna została zastosowana w wielu przykładach testowych i przy rozwiązaniu rzeczywistych problemów inżynierskich. Identyfikacja OMA najczęściej docelowo służy jako element detekcji zmian i uszkodzeń konstrukcji lub jako punkt odniesienia przy kalibracji modeli numerycznych. Ze względu na swoje właściwości używana jest przy badaniu dużych budowli i konstrukcji, których sztuczne wymuszenie byłoby problematyczne. W literaturze można znaleźć wiele przykładów identyfikacji modalnej rzeczywistych mostów \parencite{L.Hermans1999,Siringoringo2008,Degrauwe2008,Liu2009,Bayraktar2009,Brownjohn2010,Dohler2011,Zwolski2011,Magalhaes2012,Benedettini2015,Brownjohn2017,Brownjohn2018,Poprawa2018,Barbieri2019,Qin2019,Favarelli2021}, turbin wiatrowych \parencite{Carne2010,Sarrafi2018}, budynków \parencite{Zhu2018,Xie2021}, statków powietrznych \parencite{SHEN2003,Moncayo2010} czy budowli wieżowych \parencite{Cabboi2017,Szafranski2020}. 
@@ -137,7 +137,7 @@ W praktyce na konstrukcji wykonywanych jest przynajmniej kilka pomiarów. Załó
 \begin{equation}
 	\vect{y}(t) = \{y_1(t),y_2(t),y_3(t), \hdots ,y_N(t)\}^T
 \end{equation}
-Wyniki autokorelacji i cross-korelacji pomiędzy wszystkimi zmierzonymi sygnałami można zagregować i zapisać macierzowo (\ref{eq: matCorelationDef}). Na przekątnej macierzy znajdują się funkcje autokorelacji, a poza przekątną cross-korelacji.
+Wyniki autokorelacji i cross-korelacji pomiędzy wszystkimi zmierzonymi sygnałami można zagregować i zapisać w macierzy (\ref{eq: matCorelationDef}). Na przekątnej macierzy znajdują się funkcje autokorelacji, a poza przekątną cross-korelacji.
 \begin{equation} \label{eq: matCorelationDef}
 	\matr{R}^T(\tau)=\mathrm{E}[\vect{y}(t)\vect{y}^T(t+\tau)]
 \end{equation}
@@ -339,7 +339,7 @@ gdzie oznaczenia przyjęto jak w równaniach (\ref{eq: IRFmimo}) i (\ref{eq: FRF
 Równanie (\ref{eq: decomposedRx}) pokazuje, że funkcje korelacji odpowiedzi mogą być wyrażone za pomocą sumy zespolonych funkcji eksponencjalnych. W pracy \cite{SHEN2003} autorzy wskazują na podobieństwo jego formy do równania (\ref{eq: IRFmimo}). Z kolei w kluczowej dla metody NExT pracy \cite{James1995}, rozwinięto to równanie do postaci ukazującej funkcję korelacji jako sumę zanikających sinusoid, o charakterystyce takiej samej jak w przypadku IRF. Podsumowując, funkcje korelacji mogą być użyte jako funkcje odpowiedzi impulsowej (IRF) w metodach TD identyfikacji parametrów modalnych.
 
 
-\subsection{Eigenystem Realization Algorithm}
+\subsection{Eigensystem Realization Algorithm}
 Metoda ERA została opracowana w latach 80' XX w. przez naukowców z NASA Langley Research Center: Richarda Pappa i Jer-Nan Juang'a. Przedstawili oni koncept identyfikacji modalnej i redukcji modelu układu dynamicznego na podstawie danych pomiarowych. Nowością, którą wprowadzili autorzy było połączenie pojęć z teorii kontroli i algorytmu rozkładu względem wartości osobliwych. Fundamentalna teoria metody została opisana w \parencite{Pappa1985,Juang1985,Juang1986a,Juang1994}. Algorytm ERA był wielokrotnie testowany, na przykład pod względem odporności na zaszumienie danych pomiarowych \parencite{Juang1986, Li2011}. Spośród polskich autorów, szczegółowy opis metody zawarli w swoich pracach \cite{Szafranski2013} i \cite{Dudek2008}.
 
 \subsubsection{Liniowy model dynamiczny w przestrzeni stanów}
@@ -396,7 +396,7 @@ Dzięki tak sformułowanym elementom zapiszmy równanie stanu \teng{state equati
 \begin{equation} \label{eq: stateEquation}
 	\vect{\dot{s}}(t)= \vect{A}_c\vect{s}(t)+\vect{B}_c\vect{u}(t)
 \end{equation}
-W równaniu (\ref{eq: stateEquation}) $\vect{s}(t)$ jest wektorem stanu (\ref{eq: stateVector}), czyli zestawem wielkości opisujących w sposób jednoznaczny stan modelowanego układu, a $\vect{u}(t)$ jest wektorem wejścia (sterowania) i opisuje sygnał wejściowy. Macierze $\vect{A}_c$ i $\vect{B}_c$, nazywane są odpowiednio macierzą stanu (systemu) \teng{state matrix} i macierzą wejścia \teng{input influecne matrix}. Są to macierze stałych współczynników, które odwzorowują modelowany układ dynamiczny i parametry elementów tworzących ten układ.
+W równaniu (\ref{eq: stateEquation}) $\vect{s}(t)$ jest wektorem stanu (\ref{eq: stateVector}), czyli zestawem wielkości opisujących w sposób jednoznaczny stan modelowanego układu, a $\vect{u}(t)$ jest wektorem wejścia (sterowania) i opisuje sygnał wejściowy. Macierze $\vect{A}_c$ i $\vect{B}_c$, nazywane są odpowiednio macierzą stanu (systemu) \teng{state matrix} i macierzą wejścia \teng{input influence matrix}. Są to macierze stałych współczynników, które odwzorowują modelowany układ dynamiczny i parametry elementów tworzących ten układ.
 
 Drugim równaniem pozwalającym na stworzenie modelu w przestrzeni stanów jest równanie obserwacji \teng{observation equation} lub inaczej równanie wyjścia. W ogólności ma ono postać:
 \begin{equation} \label{eq: observationEquationCont}
@@ -556,7 +556,7 @@ Wykorzystując opis macierzy Hankela za pomocą macierzy obserwacji i sterowania
 	\end{split}
 \end{equation}
 Zauważmy, że dwie kolejne macierze Hankela pozwalają na proste wyznaczenie macierzy systemu $\vect{A}$. 
-Jako metodę do oceny rzędu macierzy Hankela wykorzystano algorytm rozkładu według wartości osobliwych SVD \teng{Singular Value Decmoposition}. Dla macierzy $\vect{H}_0$ zapiszemy:
+Jako metodę do oceny rzędu macierzy Hankela wykorzystano algorytm rozkładu według wartości osobliwych SVD \teng{Singular Value Decomposition}. Dla macierzy $\vect{H}_0$ zapiszemy:
 \begin{equation} \label{eq: SVDHzero}
 	\vect{H}_0 = \vect{R}\vect{\Sigma} \vect{S}^T = \begin{bmatrix}
 		\vect{R}_1 & \vect{R}_2
@@ -628,7 +628,7 @@ Przybliżone macierze dla wybranego rzędu $n$ są wartościami estymowanymi w s
 
 \subsubsection{Identyfikacja parametrów modalnych}
 Rozwiązując zagadnienie własne dla macierzy $\vect{\hat{A}}$ otrzymamy zestaw niezależnych zespolonych wartości własnych $\lambda_i$ i wektorów własnych $\phi_i$. Zestawiając je podobnie jak macierz widmową $\vect{\Lambda}$ (\ref{eq: mat_spect}) i modalną $\vect{\Phi}$ (\ref{eq: mat_modal}) otrzymamy minimalną realizację ($\vect{\hat{A}}$, $\vect{\hat{B}}$, $\vect{\hat{C}}$) we współrzędnych modalnych ($\vect{\Lambda}$, $\vect{\Phi}^{-1}\vect{\hat{B}}$, $\vect{\hat{C}}\vect{\Phi}$). Poszczególne elementy realizacji we współrzędnych modalnych dostarczają różnych informacji na temat zidentyfikowanych charakterystyk modalnych. $\vect{\Lambda}$ zawiera informacje o tłumieniu i częstotliwościach drgań własnych układu. $\vect{\Phi}^{-1}\vect{\hat{B}}$ definiuje początkowe amplitudy modalne. Z kolei $\vect{\hat{C}}\vect{\Phi}$ zawiera w sobie postaci drgań własnych wyznaczone dla punktów pomiarowych \parencite{Li2011}.
-Przed wyznaczeniem częstości drgań własnych i tłumienia należy przetranformować macierz $\vect{\Lambda}$ z formy dyskretnej do formy ciągłej $\vect{\Lambda}_c$ \parencite{Szafranski2013}.
+Przed wyznaczeniem częstości drgań własnych i tłumienia należy przetransformować macierz $\vect{\Lambda}$ z formy dyskretnej do formy ciągłej $\vect{\Lambda}_c$ \parencite{Szafranski2013}.
 \begin{equation}
 	\vect{\Lambda}_c = \frac{1}{\Delta t} \text{ln}\vect{\Lambda}
 \end{equation} 
@@ -667,7 +667,7 @@ Aplikację napisano w języku Python 3.6 głównie z użyciem bibliotek NUMPY i 
 
 \subsection{Elementy programu}
 
-Wstępnie sygnały wyjściowe mogą być poddane standardowemu przetwarzaniu sygnału. Do zastosowanych metod należy filtrowanie, usuwanie składowej stałej i obniżenie próbkowania \teng{downsampling, resampling}. Filtrowanie może posłużyć do odrzucenia niechcianych składowych z sygnału i ograniczyć identyfikację jedynie do określonego obszaru. Odcięcie składowej stałej jest koniecznym elementem przygotowania sygnałów do identyfikacji. Bez tego zabiegu, tak jak w przypadku Transformaty Fouriera występuje istotny pik na zerowej odciętej, tak utrudniona może być identyfikacja modów o niskiej częstotliwości. Zmiana częstotliwości próbkowania jest bardzo przydatną funkcją. Podobnie do filtrowania zmniejsza zakres analizowanej dziedziny, ale w odróżnieniu do filtrowania zmniejsza również liczbę próbek sygnału. Należy pamiętać, że resampling nie jest tożsamy z pominięciem części próbek z sygnału. Wpływ obróbki sygnału na wyniki identyfikacji oraz zalecenia dotyczące przyjmowanych parametrów opisano w \cite{Caicedo2011} 
+Wstępnie sygnały wyjściowe mogą być poddane standardowemu przetwarzaniu sygnału. Do zastosowanych metod należy filtrowanie, usuwanie składowej stałej i obniżenie próbkowania \teng{downsampling, resampling}. Filtrowanie może posłużyć do odrzucenia niechcianych składowych z sygnału i ograniczyć identyfikację jedynie do określonego obszaru. Odcięcie składowej stałej jest koniecznym elementem przygotowania sygnałów do identyfikacji. Bez tego zabiegu, tak jak w przypadku Transformaty Fouriera występuje istotny pik na zerowej odciętej, tak utrudniona może być identyfikacja modów o niskiej częstotliwości. Zmiana częstotliwości próbkowania jest bardzo przydatną funkcją. Podobnie do filtrowania zmniejsza zakres analizowanej dziedziny, ale w odróżnieniu do filtrowania zmniejsza również liczbę próbek sygnału. Należy pamiętać, że resampling nie jest tożsamy z pominięciem części próbek z sygnału. Wpływ obróbki sygnału na wyniki identyfikacji oraz zalecenia dotyczące przyjmowanych parametrów opisano w \cite{Caicedo2011}.
 
 Pierwszym głównym etapem w algorytmie NExT-ERA jest wyznaczenie funkcji korelacji wprowadzonych sygnałów. Wyznaczanie funkcji korelacji metodą bezpośrednią jest wymagające obliczeniowo. Z tego powodu wykorzystuje się zależność pomiędzy gęstością widmową mocy (\ref{eq: spectralDensity}), a funkcją korelacji (\ref{eq: correlationInversSpectralDensity}). Wyznaczenie gęstości widmowej mocy jest możliwe za pomocą znacznie bardziej efektywnych algorytmów. Jednym z nich jest metoda Welch'a \parencite{Brincker2015,Welch1967}, którą zastosowano w programie. Umożliwiono również łączenie i uśrednianie wielu serii pomiarowych w jeden wynik identyfikacji. Wykorzystano do tego algorytm przedstawiony w \cite{Brownjohn2010}. W przypadku łączenia serii pomiarowych w jeden wynik, konieczne jest zastosowanie punktów referencyjnych. Punkty referencyjne są to punkty stałe w trakcie całych pomiarów, muszą występować w każdej serii pomiarowej i nie mogą znajdować się w węźle żadnej postaci drgań. Innymi słowy punkt referencyjny musi mieć niezerową wartość w każdym wektorze postaci drgań, którą należy zidentyfikować. W zastosowanym algorytmie istnieje możliwość wyboru po jednym punkcie referencyjnym dla każdego z kierunków drgań: X, Y, Z. Łączenie serii pomiarowych odbywa się w następujący sposób:
 \begin{itemize}
@@ -709,7 +709,7 @@ Diagram niefiltrowany obrazuje rozkład zidentyfikowanych modów w domenie częs
 \end{itemize}
 Wskaźniki MAC i MPC są istotną częścią algorytmu programu i służą ocenie poprawności wyników. Poniżej przytoczono ich definicje i podstawowe właściwości. 
 
-\subsubsection{Modal Phase Colinearity (MPC)}
+\subsubsection{Modal Phase Collinearity (MPC)}
 Wynikiem przeprowadzonej analizy modalnej są postaci i częstotliwości o wartościach zespolonych. Postaci zidentyfikowane na podstawie pomiarów wartości rzeczywistych powinny stanowić wektory o współrzędnych rzeczywistych. W przypadku modów normalnych wszystkie punkty konstrukcji drgają dokładnie w fazie lub w przeciw fazie względem siebie. Przeciwnie, kiedy postaci są wektorami zespolonymi, przemieszczenia osiągają wartości ekstremalne w różnych chwilach czasowych dla różnych stopni swobody. W pracach \cite{Ewins2000,Chopra2012a} podano przykładowe przyczyny powstania postaci o wektorach zespolonych. Są to między innymi efekt żyroskopowy, efekty aerodynamiczne, nieliniowość czy nieproporcjonalne tłumienie. Zidentyfikowane mody zwykle występują w postaci zespolonej. Wynika to z relatywnie niskiego wskaźnika sygnału do szumu \parencite{Rainieri2014}. Mimo to, \enquote{stopień zespolenia} jest zazwyczaj niewielki i w praktycznych zastosowaniach błąd wynikający z tej cechy może być zaniedbany. Tak czy inaczej ważne jest żeby rozróżnić, które mody są normalne, a które w dużej mierze zespolone. Jedną z najprostszych metod jest wykreślenie współrzędnych składników postaci w układzie biegunowym. Metoda została szerzej opisana w \parencite{Ewins2000}. Zasadą jest, że jeśli w konstrukcji występuje tłumienie proporcjonalne to składniki danej postaci układają się na linii prostej w zespolonym układzie współrzędnych \parencite{Rainieri2014}). W przeciwnym wypadku wizualizacja wektora zespolonego jest bardzo rozproszona.
 Do ilościowego określenia stopnia przestrzennej spójności modu autorzy \cite{Pappa1992} opracowali wskaźnik MPC (\textit{Modal Phase Collinearity}). Jest on dla $i$-tego moda określony wzorem \ref{eq:mpc_ratio}
 \begin{equation}
@@ -809,16 +809,25 @@ Rozwiązano problem własny dynamiki przedmiotowego modelu i otrzymano rezultaty
 \end{figure}
 
 Odpowiedź konstrukcji na wymuszenie losowe wyznaczono metodą time-step Newmarka-Wilsona. Zdecydowano o sprawdzeniu modów w zakresie do około 250Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 1/2500 s$. Zgodnie z kryterium Nyquista taki krok pozwala identyfikować drgania teoretycznie do częstotliwości 1250 Hz. Niemniej jednak, sygnał wyjściowy powinien zostać nadpróbkowany znacznie bardziej niżeli dwukrotnie. Aby zapewnić dokładność rezultatu, odpowiedź z rozwiązania numerycznego powinna być wyznaczona z próbkowaniem ok 10-15 razy większym niż częstotliwość najwyższego, interesującego modu \parencite{Rakowski2016,Bajer2012,Kacprzyk1983,,Zotowski2017c}. Większość modów odczytanych z analizy modalnej mieści się w zamierzonym zakresie do 250 Hz. Kilka modów powyżej 250 Hz zostanie również uwzględnione w analizie dla pokazania zmniejszenia dokładności obliczeń z uwagi na zbyt rzadkie próbkowanie. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Tłumienie konstrukcji przyjęto jako masowo-sztywnościowe według metody Rayleigha (\ref{eq: rayleigh_damping}). Współczynniki metody wyznaczono zakładając tłumienie $\text{LDT}=3\%$ dla częstotliwości 20 Hz i 160 Hz. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT sygnału złożonego z wartości obciążenia czterech węzłów w funkcji czasu. Widma częstotliwościowe obciążeń przedstawiono na rysunku \ref{fig: fft_load_input_blue_beam}. Całkowity czas analizy przyjęto równy 25s ($25\cdot2500=62500$ kroków czasowych). Widmo częstotliwościowe nie ujawnia żadnej dominującej częstotliwości i można uznać je za równe w całym zakresie.
-\begin{figure}[hbt!]
+\begin{figure}[b]
 	\centering
-	\subfloat[Węzeł 7, kierunek Y]{\includegraphics[width=0.48\textwidth]{/test_blue/input_load/input_load_1.pdf}}%
-	\subfloat[Węzeł 7, kierunek Z]{\includegraphics[width=0.48\textwidth]{/test_blue/input_load/input_load_2.pdf}}\\
+	\subfloat[Węzeł 7, kierunek Y]{\includegraphics[width=0.5\textwidth]{/test_blue/input_load/input_load_1.pdf}}%
+	\subfloat[Węzeł 7, kierunek Z]{\includegraphics[width=0.5\textwidth]{/test_blue/input_load/input_load_2.pdf}}\\
 	%\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue/input_load/input_load_3.pdf}}%
 	%\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue/input_load/input_load_4.pdf}}%
 	\captionsetup{justification=centering}
 	\caption{Transformaty Fouriera funkcji wymuszenia przykładowych węzłów w modelu testowym}
 	\label{fig: fft_load_input_blue_beam}
 \end{figure}
+
+
+
+
+
+Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach pośrednich, na kierunku pionowym i poprzecznym. Do autorskiego programu wprowadzono stworzone sygnały z informacją o lokalizacji punktów odczytu. Jako punkt referencyjny na kierunku $Y$ wybrano punkt odległy o 0.3L od podpory, a na kierunku pionowym $Z$ punkt odległy o 0.4L od podpory. O wyborze punktów referencyjnych decyduje warunek, że nie mogą one znajdować się w węzłach żadnej analizowanej postaci drgań. Doboru parametrów identyfikacji dokonano przy pomocy diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Na ostatecznym diagramie w wersji filtrowanej (Rys. \ref{fig: stab_diags_blue_beam_b}) wyraźnie widać 8 zidentyfikowanych, stabilnych modów. Odczytano minimalny rząd modelu zawierający wszystkie stabilne mody jako $n=20$. Diagram tworzony iteracyjnie pozwolił ostatecznie wyznaczyć parametry metody, które przynoszą pewne, stabilne rozwiązanie. Dobrane parametry użyto w celu wyznaczenia ostatecznego rozwiązania identyfikacji.
+
+\clearpage
+
 \begin{figure}[hbt!]
 	\centering
 	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pdf}}\\
@@ -827,11 +836,10 @@ Odpowiedź konstrukcji na wymuszenie losowe wyznaczono metodą time-step Newmark
 	\caption{Diagram stabilizacyjny metody NExT-ERA testowego modelu numerycznego: (a) diagram niefiltrowany, (b) diagram filtrowany}
 	\label{fig: stab_diags_blue_beam}
 \end{figure}
-Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach pośrednich, na kierunku pionowym i poprzecznym. Do autorskiego programu wprowadzono stworzone sygnały z informacją o lokalizacji punktów odczytu. Jako punkt referencyjny na kierunku $Y$ wybrano punkt odległy o 0.3L od podpory, a na kierunku pionowym $Z$ punkt odległy o 0.4L od podpory. O wyborze punktów referencyjnych decyduje warunek, że nie mogą one znajdować się w węzłach żadnej analizowanej postaci drgań. Doboru parametrów identyfikacji dokonano przy pomocy diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Na ostatecznym diagramie w wersji filtrowanej (Rys. \ref{fig: stab_diags_blue_beam_b}) wyraźnie widać 8 zidentyfikowanych, stabilnych modów. Odczytano minimalny rząd modelu zawierający wszystkie stabilne mody jako $n=20$. Diagram tworzony iteracyjnie pozwolił ostatecznie wyznaczyć parametry metody, które przynoszą pewne, stabilne rozwiązanie. Dobrane parametry użyto w celu wyznaczenia ostatecznego rozwiązania identyfikacji.
 
+Wprowadzono wyznaczone parametry do programu. Uzyskano odpowiedzi impulsowe dla każdego punktu, których przykłady wraz z odpowiadającą im transformatą Fouriera przedstawiono na rysunku \ref{fig: cross_corr_blue_beam}. Funkcje posiadają wyraźnie gasnący, okresowy charakter. Na odpowiadających im widmach zaznaczają się wyraźnie dominujące częstotliwości. Wyznaczone funkcje IRF zostały wprowadzone do metody ERA. Wyniki obliczono dla minimalnego rzędu modelu równego $n=20$ zgodnie ze wskazaniami diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Spośród wszystkich modów wybrano te, które na diagramie ujawniają się jako rzeczywiste i stabilne. Wyniki w formie postaci drgań własnych na kierunku pionowym $Z$ i poprzecznym $Y$ oraz dla obu kierunków w układzie biegunowym przedstawiono na rysunku \ref{fig: mods_blue_beam}. Wyniki ujęto również w tabeli podsumowującej testy numeryczne i eksperymentalne (Tab. \ref{tab: blue_beam_comparison}).
 
-
-Wprowadzono wyznaczone parametry do programu. Uzyskano odpowiedzi impulsowe dla każdego punktu, których przykłady wraz z odpowiadającą im transformatą Fouriera przedstawiono na rysunku \ref{fig: cross_corr_blue_beam}. 
+ 
 
 \begin{figure}[p]
 	\centering
@@ -844,31 +852,31 @@ Wprowadzono wyznaczone parametry do programu. Uzyskano odpowiedzi impulsowe dla 
 	\label{fig: cross_corr_blue_beam}
 \end{figure}
 
-Funkcje posiadają wyraźnie gasnący, okresowy charakter. Na odpowiadających im widmach zaznaczają się wyraźnie dominujące częstotliwości. Wyznaczone funkcje IRF zostały wprowadzone do metody ERA. Wyniki obliczono dla minimalnego rzędu modelu równego $n=20$ zgodnie ze wskazaniami diagramu stabilizacyjnego (Rys. \ref{fig: stab_diags_blue_beam}). Spośród wszystkich modów wybrano te, które na diagramie ujawniają się jako rzeczywiste i stabilne. Wyniki w formie postaci drgań własnych na kierunku pionowym $Z$ i poprzecznym $Y$ oraz dla obu kierunków w układzie biegunowym przedstawiono na rysunku \ref{fig: mods_blue_beam}. Wyniki ujęto również w tabeli podsumowującej testy numeryczne i eksperymentalne (Tab. \ref{tab: blue_beam_comparison}).
-\vfill
+
+
 \begin{figure}[p]
 	\centering
 	\begin{tabular}[c]{c}
-		\subfloat[Mod 1, $f_1=19.701 \text{Hz}$]{\label{fig: test_blue_mod1}%
+		\subfloat[Mod 1, $f_1=19.701\;\text{Hz}$]{\label{fig: test_blue_mod1}%
 			\begin{tabular}[b]{c c c}
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_0_time_22_08_38.pdf}%
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_0_time_22_08_55.pdf}%
 				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_0_time_22_07_54.pdf}%
 		\end{tabular}}\\
 		
-		\subfloat[Mod 2, $f_2=54.958 \text{Hz}$]{\label{fig: test_blue_mod2}%
+		\subfloat[Mod 2, $f_2=54.958\;\text{Hz}$]{\label{fig: test_blue_mod2}%
 			\begin{tabular}[b]{c c}
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_2_time_22_09_15.pdf}%
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_2_time_22_09_26.pdf}%
 				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_2_time_22_09_04.pdf}%
 		\end{tabular}}\\
-		\subfloat[Mod 3, $f_3=77.331 \text{Hz}$]{\label{fig: test_blue_mod3}%
+		\subfloat[Mod 3, $f_3=77.331 \;\text{Hz}$]{\label{fig: test_blue_mod3}%
 			\begin{tabular}[b]{c c}
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_4_time_22_09_56.pdf}%
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_4_time_22_10_36.pdf}%
 				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_4_time_22_09_47.pdf}%
 		\end{tabular}}\\
-		\subfloat[Mod 4, $f_4=157.995 \text{Hz}$]{\label{fig: test_blue_mod4}%
+		\subfloat[Mod 4, $f_4=157.995 \;\text{Hz}$]{\label{fig: test_blue_mod4}%
 			\begin{tabular}[b]{c c}
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_6_time_22_10_59.pdf}%
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_6_time_22_11_12.pdf}%
@@ -882,25 +890,25 @@ Funkcje posiadają wyraźnie gasnący, okresowy charakter. Na odpowiadających i
 \begin{figure}[p]\ContinuedFloat
 	\centering
 	\begin{tabular}[c]{c}
-		\subfloat[Mod 5, $f_5=197.881 \text{Hz}$]{\label{fig: test_blue_mod5}%
+		\subfloat[Mod 5, $f_5=197.881\; \text{Hz}$]{\label{fig: test_blue_mod5}%
 			\begin{tabular}[b]{c c c}
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_8_time_22_11_37.pdf}%
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_8_time_22_11_45.pdf}%
 				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_8_time_22_11_32.pdf}%
 		\end{tabular}}\\
-		\subfloat[Mod 6, $f_6=205.290 \text{Hz}$]{\label{fig: test_blue_mod6}%
+		\subfloat[Mod 6, $f_6=205.290\; \text{Hz}$]{\label{fig: test_blue_mod6}%
 			\begin{tabular}[b]{c c c}
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_10_time_22_12_47.pdf}%
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_10_time_22_12_15.pdf}%
 				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_10_time_22_14_19.pdf}%
 		\end{tabular}}\\
-		\subfloat[Mod 7, $f_7=310.834 \text{Hz}$]{\label{fig: test_blue_mod7}%
+		\subfloat[Mod 7, $f_7=310.834 \;\text{Hz}$]{\label{fig: test_blue_mod7}%
 			\begin{tabular}[b]{c c c}
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_16_time_22_21_41.pdf}%
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_16_time_22_22_09.pdf}%
 				\includegraphics[width=0.3\linewidth]{/test_blue/polar/fig_polar_mod_16_time_22_21_32.pdf}%
 		\end{tabular}}\\
-		\subfloat[Mod 8, $f_8=384.619 \text{Hz}$]{\label{fig: test_blue_mod8}%
+		\subfloat[Mod 8, $f_8=384.619 \;\text{Hz}$]{\label{fig: test_blue_mod8}%
 			\begin{tabular}[b]{c c c}
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_24_time_22_22_41.pdf}%
 				\includegraphics[width=0.35\linewidth,trim=0 0 0 15, clip]{/test_blue/blue_modes/fig_mod_24_time_22_22_48.pdf}%
@@ -914,7 +922,11 @@ Funkcje posiadają wyraźnie gasnący, okresowy charakter. Na odpowiadających i
 
 
 
-\pagebreak
+
+
+
+
+\clearpage
 \subsection{Testy eksperymentalne metody NEXT-ERA} \label{sect: next_era_lab_test}
 W warunkach laboratoryjnych wykonano pomiary na belce rzeczywistej (Rys. \ref{fig: blue_beam_lab_photo_a} i \ref{fig: blue_beam_lab_photo_b}). Belka została usytuowana na stabilnym podłożu. Punkty podparcia zostały dociążone ciężkimi stalowymi elementami, żeby ograniczyć możliwość przesuwu podparcia w trakcie oddziaływania. Niestety nie było możliwości sztywnego zamocowania belki do podłoża. System pomiarowy składał się z wzmacniacza pomiarowego PMX firmy HBM (Hottinger Baldwin Messtechnik GmbH, Darmstadt, Germany), okablowania i niskoszumnych, piezorezystywnych czujników akcelerometrycznych firmy TE CONNECTIVITY. Do obsługi wzmacniacza i akwizycji danych użyto program HBM Catman Easy. Czujniki przymocowano magnetycznie do belki. Zastosowano dwa czujniki 3-osiowe (traktowane jako 2-osiowe) i jeden 1-osiowy. Zakres pomiarowy akcelerometrów wynosi $\pm 2 \text{g}$, a gwarantowane szumy są określone w specyfikacji jako mniejsze niż $25 \mu \text{g RMS}$. Stanowisko pomiarowe zostało zaprezentowane na rysunku \ref{fig: blue_beam_lab_photo_a}, a szczegóły konstrukcyjne belki i jej podparcia na rysunku \ref{fig: blue_beam_lab_photo_b}.
 \begin{figure}[hbt!]

@@ -61,7 +61,7 @@ W dalszej części tego rozdziału opisano najważniejsze - według autora - poj
 
 \section{Teoretyczna analiza modalna}
 \label{section: eigen}
-Metody teoretycznej analizy modalnej rzeczywistych konstrukcji w praktyce mają zastosowanie głównie w formie rozwiązań numerycznych prowadzonych na modelach MES. Macierzowe równanie drgań wymuszonych dla tłumionego układu o skończonej liczbie stopni swobody przedstawiono równaniem (\ref{eq: mot_dam}). 
+Metody teoretycznej analizy modalnej rzeczywistych konstrukcji w praktyce mają zastosowanie głównie w formie rozwiązań numerycznych prowadzonych na modelach MES. Poniżej (\ref{eq: mot_dam}) przedstawiono macierzowe równanie równowagi sił w dynamice dla tłumionego układu o skończonej liczbie stopni swobody.
 \begin{equation} \label{eq: mot_dam}
 \vect{M} \vect{\ddot{x}}(t) +\vect{C} \vect{\dot{x}}(t)+ \vect{Kx}(t) = \vect{F}(t)
 \end{equation}
@@ -70,7 +70,7 @@ gdzie $\vect{M},\vect{C},\vect{K}$ to odpowiednio macierze mass, tłumienia i sz
 \vect{M} \vect{\ddot{x}}(t) +\vect{Kx}(t) = \vect{F}(t)
 \end{equation}
 
-Drgania swobodne są procesem fizycznym spowodowanym zaburzeniem stanu równowagi statycznej, przez zaistnienie niezerowych warunków początkowych. \todo{wprowadzenie efektów dynamicznych?} Macierzowe równanie ruchu drgań swobodnych, tłumionych opisane jest wzorem (\ref{eq: mot_dam_free}), a nietłumionych wzorem (\ref{eq: mot_und_free}). Równania te nie zawierają składnika sił wymuszających.
+Drgania swobodne są procesem fizycznym spowodowanym zaburzeniem stanu równowagi statycznej, przez zaistnienie niezerowych warunków początkowych. Macierzowe równanie ruchu drgań swobodnych, tłumionych opisane jest wzorem (\ref{eq: mot_dam_free}), a nietłumionych wzorem (\ref{eq: mot_und_free}). Równania te nie zawierają składnika sił wymuszających.
 \begin{equation} \label{eq: mot_dam_free}
 \vect{M} \vect{\ddot{x}}(t) +\vect{C} \vect{\dot{x}}(t)+ \vect{Kx}(t) = \vect{0}
 \end{equation}
@@ -119,7 +119,7 @@ Postaci drgań własnych (wektory własne) odpowiadające różnym częstościom
 \vect{\phi}_i^{T}\vect{K\phi}_j = 0 \qquad \vect{\phi}_i^{T}\vect{M\phi}_j = 0
 \end{equation}
 
-Obliczone z równania \ref{eq: char_equation_det} wartości oraz wektory własne możemy przedstawić w postaci dwóch specjalnych macierzy. $N$ obliczonych wartości własnych zestawionych w macierz diagnonalną tworzy tak zwaną macierz widmową (\ref{eq: mat_spect}). Z kolei $N$ wektorów własnych zestawionych kolumnowo nazywamy macierzą modalną (\ref{eq: mat_modal}).
+Obliczone z równania \ref{eq: char_equation_det} wartości oraz wektory własne możemy przedstawić w postaci dwóch specjalnych macierzy. $N$ obliczonych wartości własnych zestawionych w macierz diagonalną tworzy tak zwaną macierz widmową (\ref{eq: mat_spect}). Z kolei $N$ wektorów własnych zestawionych kolumnowo nazywamy macierzą modalną (\ref{eq: mat_modal}).
 
 \begin{equation}  \label{eq: mat_spect}
 \vect{\Omega}^2 =  
@@ -307,7 +307,7 @@ a wykorzystując równania (\ref{eq: superposition_modal_1_przytocz}) i (\ref{eq
 		\vect{x}(t) = \sum_{r=1}^{N'} \vect{x}_n(t)
 \end{equation}
 
-Sumowanie wkładu poszczególnych postaci drgań w przemieszczenie całkowite jest par excellence superpozycją. Stąd też nazwa: \enquote{metoda superpozycji modalnej}. Należy wspomnieć o paru istotnych założeniach mogących wpłynąć na wybór tej metody. Jak już wcześniej wspomniano, może być ona wykorzystana tylko w układach liniowych (ze względu na superpozycję) i tłumionych proporcjonalnie. W przypadku tłumienia nieproporcjalnego przekształcenie równania (\ref{eq: superposition_modal_3_przemnoz}) do (\ref{eq: superposition_modal_4_orto}) nie będzie prawdziwe. Warto również pamiętać, że wynikowe przemieszczenia $\vect{x}(t)$ są niezależne od normalizacji wektorów własnych, natomiast współrzędne normalne $q_n(t)$ są od niej ściśle zależne. 
+Sumowanie wkładu poszczególnych postaci drgań w przemieszczenie całkowite jest par excellence superpozycją. Stąd też nazwa: \enquote{metoda superpozycji modalnej}. Należy wspomnieć o paru istotnych założeniach mogących wpłynąć na wybór tej metody. Jak już wcześniej wspomniano, może być ona wykorzystana tylko w układach liniowych (ze względu na superpozycję) i tłumionych proporcjonalnie. W przypadku tłumienia nieproporcjonalnego przekształcenie równania (\ref{eq: superposition_modal_3_przemnoz}) do (\ref{eq: superposition_modal_4_orto}) nie będzie prawdziwe. Warto również pamiętać, że wynikowe przemieszczenia $\vect{x}(t)$ są niezależne od normalizacji wektorów własnych, natomiast współrzędne normalne $q_n(t)$ są od niej ściśle zależne. 
 
 \subsubsection{Metoda całkowania bezpośredniego równań ruchu - Newmarka}
 Metoda Newmarka jest algorytmem opartym na koncepcji kroku czasowego i metodach numerycznych. Zgodnie z koncepcją kroku czasowego całkowity czas podzielony jest na serię kroków czasowych $\Delta t$. Konsekwencją tego jest dyskretyzacja siły wymuszającej i odpowiedzi układu poprzez określenie ich wyłącznie w wybranych chwilach czasowych. Rozpatrzmy ponownie równanie ruchu (\ref{eq: mot_dam}):

@@ -44,10 +44,10 @@
       \field{year}{2020}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://uic.org/IMG/pdf/20200127_high_speed_passenger_km.pdf
+      \verb https://uic.org/IMG/pdf/20200127{\_}high{\_}speed{\_}passenger{\_}km.pdf
       \endverb
       \verb{url}
-      \verb https://uic.org/IMG/pdf/20200127_high_speed_passenger_km.pdf
+      \verb https://uic.org/IMG/pdf/20200127%7B%5C_%7Dhigh%7B%5C_%7Dspeed%7B%5C_%7Dpassenger%7B%5C_%7Dkm.pdf
       \endverb
     \endentry
     \entry{UchwaaNr276}{misc}{}
@@ -87,7 +87,7 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{W artykule opisano rozwój linii dużych prȩdkości (LDP) na świecie, ze szczególnym uwzglȩdnieniem infrastruktury tych linii. Scharakteryzowano wymagania dotyczące inter- operacyjności i kompatybilności LDP, doboru elementów nawierzchni klasycznych i niekon- wencjonalnych eksploatowanych na tych liniach, oddzia{ł}ywań pojazdów na nawierzchniȩ oraz środowisko naturalne. Omówiono również parametry uk{ł}adu geometrycznego oraz wymagania dotyczące jakości po{ł}ożenia torów na liniach dużych prȩdkości. Przedstawiono program budowy LDP w Polsce.}
+      \field{abstract}{W artykule opisano rozwój linii dużych prȩdkości (LDP) na świecie, ze szczególnym uwzglȩdnieniem infrastruktury tych linii. Scharakteryzowano wymagania dotycza̧ce inter- operacyjności i kompatybilności LDP, doboru elementów nawierzchni klasycznych i niekon- wencjonalnych eksploatowanych na tych liniach, oddzia{ł}ywań pojazdów na nawierzchniȩ oraz środowisko naturalne. Omówiono również parametry uk{ł}adu geometrycznego oraz wymagania dotycza̧ce jakości po{ł}ożenia torów na liniach dużych prȩdkości. Przedstawiono program budowy LDP w Polsce.}
       \field{journaltitle}{Problemy Kolejnictwa}
       \field{title}{{Linie kolejowe dużych prȩdkości}}
       \field{year}{2010}
@@ -397,7 +397,7 @@
            giveni={J\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Wydawn. Komunikacji i {Ł}ączności}%
+        {Wydawn. Komunikacji i {Ł}a̧czności}%
       }
       \strng{namehash}{a73802991bdf09a9097a910101c360bc}
       \strng{fullhash}{a73802991bdf09a9097a910101c360bc}
@@ -430,7 +430,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Przegląd Budowlany}
+      \field{journaltitle}{Przegla̧d Budowlany}
       \field{number}{29}
       \field{title}{{Prefabrykowane belki mostowe z betonu sprȩżonego w Polsce – historia i stan obecny}}
       \field{year}{2013}
@@ -454,7 +454,7 @@
            giveni={A\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Wydawnictwo Komunikacji i {Ł}ączności}%
+        {Wydawnictwo Komunikacji i {Ł}a̧czności}%
       }
       \strng{namehash}{a5c8a40d0c961e78ef6871267b9df2ba}
       \strng{fullhash}{a5c8a40d0c961e78ef6871267b9df2ba}
@@ -539,7 +539,7 @@
         {Warszawa}%
       }
       \list{publisher}{1}{%
-        {Wydawnictwo Komunikacji i {Ł}ączności}%
+        {Wydawnictwo Komunikacji i {Ł}a̧czności}%
       }
       \strng{namehash}{af30cce24d5a4c1876768d340840ecc0}
       \strng{fullhash}{af30cce24d5a4c1876768d340840ecc0}
@@ -629,7 +629,7 @@
            giveni={W\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Wydawnictwo Komunikacji i {Ł}ączności}%
+        {Wydawnictwo Komunikacji i {Ł}a̧czności}%
       }
       \strng{namehash}{af4321d5574a18d7741456a69f0b7602}
       \strng{fullhash}{af4321d5574a18d7741456a69f0b7602}
@@ -695,10 +695,10 @@
       \field{year}{2021}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/List_of_longest_arch_bridge_spans#cite_note-80
+      \verb https://en.wikipedia.org/wiki/List{\_}of{\_}longest{\_}arch{\_}bridge{\_}spans{\#}cite{\_}note-80
       \endverb
       \verb{url}
-      \verb https://en.wikipedia.org/wiki/List_of_longest_arch_bridge_spans#cite_note-80
+      \verb https://en.wikipedia.org/wiki/List%7B%5C_%7Dof%7B%5C_%7Dlongest%7B%5C_%7Darch%7B%5C_%7Dbridge%7B%5C_%7Dspans%7B%5C#%7Dcite%7B%5C_%7Dnote-80
       \endverb
     \endentry
     \entry{Biliszczuk2015a}{inproceedings}{}
@@ -738,8 +738,8 @@
     \endentry
     \entry{Wachalski2015}{inproceedings}{}
       \name{author}{1}{}{%
-        {{hash=95257da99a2bb52b5c4b3e2b9350cab3}{%
-           family={Wąchalski},
+        {{hash=848afda6ebb44546d2bb5acc88142812}{%
+           family={Wa̧chalski},
            familyi={W\bibinitperiod},
            given={Krzysztof},
            giveni={K\bibinitperiod}}}%
@@ -747,12 +747,12 @@
       \list{location}{1}{%
         {Wroc{ł}aw}%
       }
-      \strng{namehash}{95257da99a2bb52b5c4b3e2b9350cab3}
-      \strng{fullhash}{95257da99a2bb52b5c4b3e2b9350cab3}
-      \strng{bibnamehash}{95257da99a2bb52b5c4b3e2b9350cab3}
-      \strng{authorbibnamehash}{95257da99a2bb52b5c4b3e2b9350cab3}
-      \strng{authornamehash}{95257da99a2bb52b5c4b3e2b9350cab3}
-      \strng{authorfullhash}{95257da99a2bb52b5c4b3e2b9350cab3}
+      \strng{namehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{fullhash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{bibnamehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{authorbibnamehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{authornamehash}{848afda6ebb44546d2bb5acc88142812}
+      \strng{authorfullhash}{848afda6ebb44546d2bb5acc88142812}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -775,7 +775,7 @@
         {Wroc{ł}aw}%
       }
       \list{publisher}{1}{%
-        {Dolnośląskie Wydawnictwo Edukacyjne}%
+        {Dolnośla̧skie Wydawnictwo Edukacyjne}%
       }
       \strng{namehash}{15c2cf8fa89415ae52ee7b81b4496076}
       \strng{fullhash}{15c2cf8fa89415ae52ee7b81b4496076}
@@ -858,6 +858,47 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Tveit - 2019 - How to Design Economical Network Arches.pdf:pdf
       \endverb
     \endentry
+    \entry{Zotowski2005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=49b3c1ec3f30c16d82de7324d243cf83}{%
+           family={Żó{ł}towski},
+           familyi={Ż\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley {\&} Sons, Ltd}%
+      }
+      \strng{namehash}{49b3c1ec3f30c16d82de7324d243cf83}
+      \strng{fullhash}{49b3c1ec3f30c16d82de7324d243cf83}
+      \strng{bibnamehash}{49b3c1ec3f30c16d82de7324d243cf83}
+      \strng{authorbibnamehash}{49b3c1ec3f30c16d82de7324d243cf83}
+      \strng{authornamehash}{49b3c1ec3f30c16d82de7324d243cf83}
+      \strng{authorfullhash}{49b3c1ec3f30c16d82de7324d243cf83}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Die neue Umgehungsstra{ß}e des historischen Zentrums von Wolin (Polen) wurde im Dezember 2003 eröffnet. Wichtigster Teil der Umgehungsstra{ß}e ist die stählerne Bogenbrücke über den Flu{ß} Dziwna mit einer Hauptspannweite von 165 m. Im Aufsatz werden die Haupttragglieder, der Entwurf, die Montage und die Schlu{ß}folgerungen aus der Probebelastung beschrieben. Es hat sich gezeigt, da{ß} infolge eines exakten FE-Modell ein Entwurf hoher Genauigkeit entstanden ist, der die wahre Struktur des Brückentragwerks abbildet.}
+      \field{annotation}{https://doi.org/10.1002/stab.200590154}
+      \field{issn}{0038-9145}
+      \field{journaltitle}{Stahlbau}
+      \field{number}{9}
+      \field{title}{{Bogenbrücke über den Flu{ß} Dziwna in Wolin – Entwurf und Realisierung}}
+      \field{volume}{74}
+      \field{year}{2005}
+      \field{pages}{685\bibrangedash 690}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1002/stab.200590154
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/stab.200590154
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/stab.200590154
+      \endverb
+    \endentry
     \entry{Zobel2015}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=84c970bc85ba9507a27aad6cd4e6dfbf}{%
@@ -880,8 +921,8 @@
       \strng{authorbibnamehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
       \strng{authornamehash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
       \strng{authorfullhash}{cc4cd7d5d7d8f6a4b6f9193dbd61e1c8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
@@ -1056,7 +1097,7 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Accession Number: bg.000110086; Corporate Authors: Politechnika Warszawska. Oficyna Wydawnicza.; Other Notes: Na dok. rok wyd. 2016, data na s. red. cop 2015.; Bibliogr. s. 428-431.; Po zmianach książka przyjȩ{ł}a formȩ monografii z zakresu metody elementów skończonych i stanowi kompendium wiedzy podstawowej niezbȩdnej w pracy inżyniera wykorzystującego MES w obliczeniach czy też studenta studiującego metodȩ elementów skończonych.; Publication Type: Book; Physical Description: 431 s. : il. ; 24 cm.; Language: Polish}
+      \field{annotation}{Accession Number: bg.000110086; Corporate Authors: Politechnika Warszawska. Oficyna Wydawnicza.; Other Notes: Na dok. rok wyd. 2016, data na s. red. cop 2015.; Bibliogr. s. 428-431.; Po zmianach ksia̧żka przyjȩ{ł}a formȩ monografii z zakresu metody elementów skończonych i stanowi kompendium wiedzy podstawowej niezbȩdnej w pracy inżyniera wykorzystuja̧cego MES w obliczeniach czy też studenta studiuja̧cego metodȩ elementów skończonych.; Publication Type: Book; Physical Description: 431 s. : il. ; 24 cm.; Language: Polish}
       \field{edition}{Wyd. 3 pop}
       \field{isbn}{9788378144717}
       \field{title}{{Metoda elementów skończonych w mechanice konstrukcji.}}
@@ -1427,7 +1468,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{18974007}
-      \field{journaltitle}{Archiwum Instytutu Inżynierii Lądowej}
+      \field{journaltitle}{Archiwum Instytutu Inżynierii La̧dowej}
       \field{title}{{Przyczó{ł}ki mostowe wspomagane konstrukcjami z gruntu zbrojonego}}
       \field{volume}{24}
       \field{year}{2017}
@@ -1467,7 +1508,7 @@
       \field{issn}{0137-2971}
       \field{journaltitle}{Materia{ł}y Budowlane}
       \field{number}{4}
-      \field{title}{{Most zwodzony przez Martwą Wis{ł}ȩ w Gdańsku-Sobieszewie - wybrane zagadnienia dynamiczne}}
+      \field{title}{{Most zwodzony przez Martwa̧ Wis{ł}ȩ w Gdańsku-Sobieszewie - wybrane zagadnienia dynamiczne}}
       \field{volume}{1}
       \field{year}{2017}
       \field{pages}{60\bibrangedash 62}
@@ -1589,7 +1630,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Seminarium Naukowo-Techniczne Wroc{ł}awskie Dni Mostowe Mosty Hybrydowe 29-30.11.2018}
-      \field{title}{{Estakada E1 w ciągu obwodnicy Wa{ł}cza. Konsekwencje przyjȩtej technologii sprȩżenia}}
+      \field{title}{{Estakada E1 w cia̧gu obwodnicy Wa{ł}cza. Konsekwencje przyjȩtej technologii sprȩżenia}}
       \field{year}{2018}
       \field{pages}{287\bibrangedash 292}
       \range{pages}{6}
@@ -1767,8 +1808,8 @@
       \strng{authorbibnamehash}{1fc8d7345633303cc11cd155f87ecb9e}
       \strng{authornamehash}{1fc8d7345633303cc11cd155f87ecb9e}
       \strng{authorfullhash}{1fc8d7345633303cc11cd155f87ecb9e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Comprehensively covers the basic principles and practice of Operational Modal Analysis (OMA). Covers all important aspects that are needed to understand why OMA is a practical tool for modal testing Covers advanced topics, including closely spaced modes, mode shape scaling, mode shape expansion and estimation of stress and strain in operational responses Discusses practical applications of Operational Modal Analysis Includes examples supported by MATLAB{®} applications Accompanied by a website hosting a MATLAB{®} toolbox for Operational Modal Analysis.}
@@ -1814,12 +1855,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Seminarium: Mosty Kolejowe}
-      \field{title}{{Modelowanie konstrukcji mostów pod kątem dynamicznym}}
+      \field{title}{{Modelowanie konstrukcji mostów pod ka̧tem dynamicznym}}
       \field{year}{2013}
       \field{pages}{19}
       \range{pages}{1}
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Szafra{\'{n}}ski, {\.{Z}}{\'{o}}{\l}towski - 2013 - Modelowanie konstrukcji most{\'{o}}w pod k{\k{a}}tem dynamicznym.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Szafra{\'{n}}ski, {\.{Z}}{\'{o}}{\l}towski - 2013 - Modelowanie konstrukcji most{\'{o}}w pod k{\c{a}}tem dynamicznym.pdf:pdf
       \endverb
     \endentry
     \entry{Batou2019}{article}{}
@@ -2695,11 +2736,11 @@
       \strng{authornamehash}{cd67a8b12a8d088eddf172525fa7e462}
       \strng{authorfullhash}{cd67a8b12a8d088eddf172525fa7e462}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{From Duplicate 2 (Oddzia{ł}ywania taboru na mosty kolejowe przy zmiennych parametrach ruchu - Szafrański, Marek Ryszard; Żó{ł}towski, Krzysztof; Bień, Jan; Wilde, Krzysztof) Accession Number: bg.000097703; Corporate Authors: Politechnika Gdańska. Wydzia{ł} Inżynierii Lądowej i Środowiska.; Other Notes: Niepublikowana praca doktorska.; Promotor: Krzysztof Żó{ł}towski.; Recenzent: Jan Bień, Krzysztof Wilde.; Praca doktorska. Politechnika Gdańska. Wydzia{ł} Inżynierii Lądowej i Środowiska, 2014.; Bibliogr. s. I-XI.; Dostȩpne również w wersji elektronicznej.; Streszcz. ang.; Publication Type: Book; Physical Description: [196] s. pag. varia, [3] k. tabl. z{ł}oż. : il. ; 30 cm.; Language: Polish}
+      \field{annotation}{From Duplicate 2 (Oddzia{ł}ywania taboru na mosty kolejowe przy zmiennych parametrach ruchu - Szafrański, Marek Ryszard; Żó{ł}towski, Krzysztof; Bień, Jan; Wilde, Krzysztof) Accession Number: bg.000097703; Corporate Authors: Politechnika Gdańska. Wydzia{ł} Inżynierii La̧dowej i Środowiska.; Other Notes: Niepublikowana praca doktorska.; Promotor: Krzysztof Żó{ł}towski.; Recenzent: Jan Bień, Krzysztof Wilde.; Praca doktorska. Politechnika Gdańska. Wydzia{ł} Inżynierii La̧dowej i Środowiska, 2014.; Bibliogr. s. I-XI.; Dostȩpne również w wersji elektronicznej.; Streszcz. ang.; Publication Type: Book; Physical Description: [196] s. pag. varia, [3] k. tabl. z{ł}oż. : il. ; 30 cm.; Language: Polish}
       \field{title}{{Odzia{ł}ywania taboru na mosty kolejowe przy zmiennych parametrach ruchu}}
       \field{type}{phdthesis}
       \field{year}{2013}
@@ -3036,8 +3077,8 @@
       \strng{authorbibnamehash}{0051c3f779dec4a5912797da0b39a2ee}
       \strng{authornamehash}{0051c3f779dec4a5912797da0b39a2ee}
       \strng{authorfullhash}{0051c3f779dec4a5912797da0b39a2ee}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1232-3829}
@@ -3214,7 +3255,7 @@
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In EN 1991-2 and EN 1990 AnnexA2 are set out the rules and limits for a dynamic analysis of structures. In most cases it is sufficient to model the trains as moving axle forces at constant speed. The calculated stresses have to be checked against those derived from load model _.LM 71. In addition the bridge deck accelerations are limited to 0.35g for bridges with ballast track. In most cases this criteria appeared to be decisive. This leads to uneconomical designs especially if the limit is slightly exceeded. Measurements on bridges showed that stiffness and damping is underestimated in many cases. A test rig at the Federal Institute for Material Research and Testing (BAM) in Berlin was built to investigate the ballast stability at high accelerations. In addition a mechanical model of the test rig was built by DB Systemtechnik in order to simulate the ballast behaviour. From both laboratory tests and simulations a modified assessment criteria for bridge deck accelerations has been derived. The modified criteria ensure safety against ballast instability and will lead to more economical designs.}
+      \field{abstract}{In EN 1991-2 and EN 1990 AnnexA2 are set out the rules and limits for a dynamic analysis of structures. In most cases it is sufficient to model the trains as moving axle forces at constant speed. The calculated stresses have to be checked against those derived from load model {\_}.LM 71. In addition the bridge deck accelerations are limited to 0.35g for bridges with ballast track. In most cases this criteria appeared to be decisive. This leads to uneconomical designs especially if the limit is slightly exceeded. Measurements on bridges showed that stiffness and damping is underestimated in many cases. A test rig at the Federal Institute for Material Research and Testing (BAM) in Berlin was built to investigate the ballast stability at high accelerations. In addition a mechanical model of the test rig was built by DB Systemtechnik in order to simulate the ballast behaviour. From both laboratory tests and simulations a modified assessment criteria for bridge deck accelerations has been derived. The modified criteria ensure safety against ballast instability and will lead to more economical designs.}
       \field{booktitle}{Dynamics of High-Speed Railway Bridges}
       \field{chapter}{7}
       \field{isbn}{9780203895405}
@@ -3368,8 +3409,8 @@
       \strng{authorbibnamehash}{a4c09917954657cc4e47bf41f7e7fb81}
       \strng{authornamehash}{a4c09917954657cc4e47bf41f7e7fb81}
       \strng{authorfullhash}{a909027817bfbd7dd902f48eea489a46}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Bridges and viaducts for high speed trains are subject to demanding dynamic loads. In addition to the classical effect of the moving (single) load, much larger and potentially dangerous effects arise from dynamic resonance, for speeds above 220 km/h. The classical methods for evaluation of dynamic impact factors, reflected in the codes of practise existing until recently, do not cover this possibility of resonance. The design of such structures requires dynamic calculations which are the object of this paper. We discuss briefly available methods for dynamic analysis, as well as the new (draft) codes IAPF [9] and Eurocode 1 for actions on bridges [10]. One of the key aspects which is desirable for the new lines is their qualification for interoperability, so that all possible present and future European high speed trains may use them. The proposal for this is covered in [10, 9] through the new High Speed Load Model HSLM, whose background is discussed here. Finally, some results obtained by our group are presented for high speed traffic loads on bridges. These studies focus on the evaluation of the bridge-vehicle interaction in bridges and a discussion and proposal for dynamic uplift dynamic effects. These topics originate from issues in the application of the new regulations for high speed lines, and are oriented toward being of practical use to designers of railway bridges. 44 Bridges for High-Speed Railways}
@@ -3392,7 +3433,7 @@
            giveni={G\bibinitperiod}}}%
       }
       \list{institution}{1}{%
-        {Politechnika Śląska}%
+        {Politechnika Śla̧ska}%
       }
       \list{location}{1}{%
         {Gliwice}%
@@ -3434,12 +3475,12 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Drogownictwo}
       \field{number}{4}
-      \field{title}{{Wspó{ł}czynniki dynamiczne obciążeń kolejowych w PN-EN 1991-2}}
+      \field{title}{{Wspó{ł}czynniki dynamiczne obcia̧żeń kolejowych w PN-EN 1991-2}}
       \field{year}{2011}
       \field{pages}{135\bibrangedash 140}
       \range{pages}{6}
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Kara{\'{s}} - 2011 - Wsp{\'{o}}{\l}czynniki dynamiczne obci{\k{a}}{\.{z}}e{\'{n}} kolejowych w PN-EN 1991-2.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Kara{\'{s}} - 2011 - Wsp{\'{o}}{\l}czynniki dynamiczne obci{\c{a}}{\.{z}}e{\'{n}} kolejowych w PN-EN 1991-2.pdf:pdf
       \endverb
     \endentry
     \entry{Goicolea2008}{incollection}{}
@@ -3518,7 +3559,7 @@
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Eurokod 1 − Oddzia{ł}ywania na konstrukcje − Czȩść 2: Obciążenia ruchome mostów}}
+      \field{title}{{Eurokod 1 − Oddzia{ł}ywania na konstrukcje − Czȩść 2: Obcia̧żenia ruchome mostów}}
       \field{year}{2007}
       \keyw{eurokod,norma}
     \endentry
@@ -3866,7 +3907,7 @@
       \field{issn}{1509-5878}
       \field{journaltitle}{AUTOBUSY – Technika, Eksploatacja, Systemy Transportowe}
       \field{number}{12}
-      \field{title}{{Przegląd publikacji polskich autorów z zakresu obciążeń ruchomych na konstrukcjach inżynierskich}}
+      \field{title}{{Przegla̧d publikacji polskich autorów z zakresu obcia̧żeń ruchomych na konstrukcjach inżynierskich}}
       \field{volume}{19}
       \field{year}{2018}
       \field{pages}{667\bibrangedash 674}
@@ -3875,7 +3916,7 @@
       \verb 10.24136/atest.2018.475
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop//Szcze{\'{s}}niak, Ataman - 2018 - Przegl{\k{a}}d publikacji polskich autor{\'{o}}w z zakresu obci{\k{a}}{\.{z}}e{\'{n}} ruchomych na konstrukcjach in{\.{z}}ynierskich.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop//Szcze{\'{s}}niak, Ataman - 2018 - Przegl{\c{a}}d publikacji polskich autor{\'{o}}w z zakresu obci{\c{a}}{\.{z}}e{\'{n}} ruchomych na konstrukcjach in{\.{z}}ynierskich.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://economic-research.pl/Journals/index.php/atest/article/view/1326 http://files/863/Szcze{\'{s}}niak i Ataman - 2018 - Survey of publications by Polish authors in the fi.pdf
@@ -3896,8 +3937,8 @@
       \strng{authorbibnamehash}{0c1d9477b74aa9f86d1250f153753120}
       \strng{authornamehash}{0c1d9477b74aa9f86d1250f153753120}
       \strng{authorfullhash}{0c1d9477b74aa9f86d1250f153753120}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{European Rail Research institute}
@@ -3971,7 +4012,7 @@
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Rozporządzenie Ministra Transportu i Gospodarki Morskiej z dnia 10 września 1998 r. w sprawie warunków technicznych, jakim powinny odpowiadać budowle kolejowe i ich usytuowanie. Dz.U. 1998 nr 151 poz. 987}}
+      \field{title}{{Rozporza̧dzenie Ministra Transportu i Gospodarki Morskiej z dnia 10 września 1998 r. w sprawie warunków technicznych, jakim powinny odpowiadać budowle kolejowe i ich usytuowanie. Dz.U. 1998 nr 151 poz. 987}}
       \field{year}{1998}
     \endentry
     \entry{Oleszek2015}{article}{}
@@ -4266,10 +4307,10 @@
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Kolejnictwo -- Klasyfikacja linii w odniesieniu do oddzia{ł}ywań pomiȩdzy obciążeniami granicznymi pojazdów szynowych a infrastrukturą}}
+      \field{title}{{Kolejnictwo -- Klasyfikacja linii w odniesieniu do oddzia{ł}ywań pomiȩdzy obcia̧żeniami granicznymi pojazdów szynowych a infrastruktura̧}}
       \field{year}{2015}
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/PN-EN 15528 - 2015 - Kolejnictwo -- Klasyfikacja linii w odniesieniu do oddzia{\l}ywa{\'{n}} pomi{\c{e}}dzy obci{\k{a}}{\.{z}}eniami granicznymi pojazd{\'{o}}w szynowych.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/PN-EN 15528 - 2015 - Kolejnictwo -- Klasyfikacja linii w odniesieniu do oddzia{\l}ywa{\'{n}} pomi{\c{e}}dzy obci{\c{a}}{\.{z}}eniami granicznymi pojazd{\'{o}}w szynowych.pdf:pdf
       \endverb
     \endentry
     \entry{uszczki2015}{article}{}
@@ -4290,7 +4331,7 @@
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Przegląd Komunikacyjny}
+      \field{journaltitle}{Przegla̧d Komunikacyjny}
       \field{title}{{Różnice miȩdzy „starymi” a „nowymi” TSI Infrastruktura na przyk{ł}adzie wymagań stawianych obiektom inżynieryjnym}}
       \field{volume}{9}
       \field{year}{2015}
@@ -4316,7 +4357,7 @@
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Obiekty mostowe. Obciążenia.}}
+      \field{title}{{Obiekty mostowe. Obcia̧żenia.}}
       \field{year}{1985}
     \endentry
     \entry{PKNg}{misc}{}
@@ -4335,7 +4376,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Eurokod 1 − Oddzia{ł}ywania na konstrukcje − Czȩść 1-1: Oddzia{ł}ywania ogólne. Ciȩżar objȩtościowy, ciȩżar w{ł}asny, obciążenia użytkowe w budynkach}}
+      \field{title}{{Eurokod 1 − Oddzia{ł}ywania na konstrukcje − Czȩść 1-1: Oddzia{ł}ywania ogólne. Ciȩżar objȩtościowy, ciȩżar w{ł}asny, obcia̧żenia użytkowe w budynkach}}
       \field{year}{2004}
       \keyw{eurokod,norma}
     \endentry
@@ -4403,7 +4444,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{8320431174}
-      \field{title}{{Dynamika mostów belkowych obciążonych pociągami szybkobieżnymi}}
+      \field{title}{{Dynamika mostów belkowych obcia̧żonych pocia̧gami szybkobieżnymi}}
       \field{year}{2005}
     \endentry
     \entry{Kocanda1985}{book}{}
@@ -4565,17 +4606,17 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Zmȩczenie materia{ł}u to jeden z najczȩstszych powodów uszkodzeń istniejących mostów stalowych, zw{ł}aszcza nitowanych. W związku z tym procedura oceny trwa{ł}ości zmȩczeniowej jest jedną z najistotniejszych w kompleksowej ocenie no- śności i trwa{ł}ości istniejących mostów. Niezawodna ocena trwa{ł}ości zmȩczeniowej jest zazwyczaj decydująca przy szacowaniu pozosta{ł}ej (resztkowej) przydatności eksploatacyjnej mostu. W pracy przedstawiono g{ł}ówne fazy europejskiej procedu- ry oceny trwa{ł}ości zmȩczeniowej, która jest kompatybilna z nowymi normami eu- ropejskimi s{ł}użącymi do projektowania nowych konstrukcji stalowych – Euroko- dami 1 i 3. Procedura wykorzystuje metodȩ bezwarunkowej żywotności w kon- wencji naprȩżeń nominalnych. Analiza oparta na tej metodzie uwzglȩdnia wszyst- kie czynniki, które mogą mieć wp{ł}yw na niezawodność i bezpieczeństwo istnieją- cych mostów stalowych. Ponadto analizȩ podzielono na trzy poziomy oceny: wstȩpną, szczegó{ł}ową i ekspercką. Niepodważalną zaletą tej procedury jest fakt, że stanowi ona podstawȩ do tworzenia przysz{ł}ych norm europejskich w zakresie oce- ny nośności i prognozowania trwa{ł}ości mostów. W pracy przedstawiono także przyk{ł}ad zastosowania procedury w ocenie trwa{ł}ości zmȩczeniowej kratownico- wego mostu drogowego w jej poszczególnych fazach. Opierając siȩ na przedmio- towej europejskiej procedurze oceny zmȩczenia i obliczeniach MES, wyznaczono oraz przeanalizowano czynniki wp{ł}ywające na żywotność obiektu. Przedstawiony przyk{ł}ad może zostać {ł}atwo zastosowany w ocenie dowolnego mostu stalowego. S{ł}owa}
+      \field{abstract}{Zmȩczenie materia{ł}u to jeden z najczȩstszych powodów uszkodzeń istnieja̧cych mostów stalowych, zw{ł}aszcza nitowanych. W zwia̧zku z tym procedura oceny trwa{ł}ości zmȩczeniowej jest jedna̧ z najistotniejszych w kompleksowej ocenie no- śności i trwa{ł}ości istnieja̧cych mostów. Niezawodna ocena trwa{ł}ości zmȩczeniowej jest zazwyczaj decyduja̧ca przy szacowaniu pozosta{ł}ej (resztkowej) przydatności eksploatacyjnej mostu. W pracy przedstawiono g{ł}ówne fazy europejskiej procedu- ry oceny trwa{ł}ości zmȩczeniowej, która jest kompatybilna z nowymi normami eu- ropejskimi s{ł}uża̧cymi do projektowania nowych konstrukcji stalowych – Euroko- dami 1 i 3. Procedura wykorzystuje metodȩ bezwarunkowej żywotności w kon- wencji naprȩżeń nominalnych. Analiza oparta na tej metodzie uwzglȩdnia wszyst- kie czynniki, które moga̧ mieć wp{ł}yw na niezawodność i bezpieczeństwo istnieja̧- cych mostów stalowych. Ponadto analizȩ podzielono na trzy poziomy oceny: wstȩpna̧, szczegó{ł}owa̧ i ekspercka̧. Niepodważalna̧ zaleta̧ tej procedury jest fakt, że stanowi ona podstawȩ do tworzenia przysz{ł}ych norm europejskich w zakresie oce- ny nośności i prognozowania trwa{ł}ości mostów. W pracy przedstawiono także przyk{ł}ad zastosowania procedury w ocenie trwa{ł}ości zmȩczeniowej kratownico- wego mostu drogowego w jej poszczególnych fazach. Opieraja̧c siȩ na przedmio- towej europejskiej procedurze oceny zmȩczenia i obliczeniach MES, wyznaczono oraz przeanalizowano czynniki wp{ł}ywaja̧ce na żywotność obiektu. Przedstawiony przyk{ł}ad może zostać {ł}atwo zastosowany w ocenie dowolnego mostu stalowego. S{ł}owa}
       \field{issn}{2300-5130}
-      \field{journaltitle}{Czasopismo Inżynierii Lądowej, Środowiska i Architektury}
+      \field{journaltitle}{Czasopismo Inżynierii La̧dowej, Środowiska i Architektury}
       \field{number}{61, nr 1}
-      \field{title}{{Ocena trwa{ł}ości zmȩczeniowej istniejącego mostu stalowego wed{ł}ug eurokodów}}
+      \field{title}{{Ocena trwa{ł}ości zmȩczeniowej istnieja̧cego mostu stalowego wed{ł}ug eurokodów}}
       \field{volume}{z. 61, nr}
       \field{year}{2014}
       \field{pages}{269\bibrangedash 285}
       \range{pages}{17}
       \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Siwowski, Kulpa - 2014 - Ocena trwa{\l}o{\'{s}}ci zm{\c{e}}czeniowej istniej{\k{a}}cego mostu stalowego wed{\l}ug eurokod{\'{o}}w.pdf:pdf
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Siwowski, Kulpa - 2014 - Ocena trwa{\l}o{\'{s}}ci zm{\c{e}}czeniowej istniej{\c{a}}cego mostu stalowego wed{\l}ug eurokod{\'{o}}w.pdf:pdf
       \endverb
       \keyw{durability,fatigue,fatigue strength,kratownica,most stalowy,steel bridge,truss,trwa{ł}ość,wytrzyma{ł}ość zmȩczeniowa,zmȩczenie}
     \endentry
@@ -4818,7 +4859,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Accession Number: bg.000040486; Corporate Authors: Wydawnictwo Arkady.; Other Notes: Wykaz piśmiennictwa s. [292-294].; Książka może s{ł}użyć jako podrȩcznik dla studentów politechnik i dla projektantów oraz konstruktorów.; Publication Type: Book; Physical Description: 291, [3] s. : il. ; 25 cm.; Language: Polish}
+      \field{annotation}{Accession Number: bg.000040486; Corporate Authors: Wydawnictwo Arkady.; Other Notes: Wykaz piśmiennictwa s. [292-294].; Ksia̧żka może s{ł}użyć jako podrȩcznik dla studentów politechnik i dla projektantów oraz konstruktorów.; Publication Type: Book; Physical Description: 291, [3] s. : il. ; 25 cm.; Language: Polish}
       \field{isbn}{83-213-4072-5}
       \field{title}{{Podstawy dynamiki budowli.}}
       \field{year}{1998}
@@ -5412,7 +5453,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{From Duplicate 2 (Doświadczalne metody określania poziomu t{ł}umienia drgań w k{ł}adkach dla pieszych - Salamak, Marek) Accession Number: edsbas.3B29E20D; Contributors: Weseli, Jerzy. Promotor; Publication Type: Thesis; Language: Polish; Format: application/pdf; Publication Date: 20030101; Rights: w{ł}asność autora ; zasób dostȩpny wy{ł}ącznie z komputerów Biblioteki G{ł}ównej PŚl ; brak możliwości drukowania i edycji dokumentu; Imprint: Poland, Europe: [s.n.], 2003. Related Material: oai:delibra.bg.polsl.pl:publication:4703 Related Material: Wydzia{ł} Budownictwa. Politechnika Śląska}
+      \field{annotation}{From Duplicate 2 (Doświadczalne metody określania poziomu t{ł}umienia drgań w k{ł}adkach dla pieszych - Salamak, Marek) Accession Number: edsbas.3B29E20D; Contributors: Weseli, Jerzy. Promotor; Publication Type: Thesis; Language: Polish; Format: application/pdf; Publication Date: 20030101; Rights: w{ł}asność autora ; zasób dostȩpny wy{ł}a̧cznie z komputerów Biblioteki G{ł}ównej PŚl ; brak możliwości drukowania i edycji dokumentu; Imprint: Poland, Europe: [s.n.], 2003. Related Material: oai:delibra.bg.polsl.pl:publication:4703 Related Material: Wydzia{ł} Budownictwa. Politechnika Śla̧ska}
       \field{booktitle}{Rozprawa doktorska}
       \field{title}{{Doświadczalne metody określania poziomu t{ł}umienia drgań w k{ł}adkach dla pieszych}}
       \field{type}{phdthesis}
@@ -7841,8 +7882,8 @@
            familyi={D\bibinitperiod},
            given={Andrzej},
            giveni={A\bibinitperiod}}}%
-        {{hash=cf921549e8d1be310bb4f68e3bec2eba}{%
-           family={Dąbrowski},
+        {{hash=3e7912b438d59bbc0c49b9ea93f2a57c}{%
+           family={Da̧browski},
            familyi={D\bibinitperiod},
            given={W{ł}odzimierz},
            giveni={W\bibinitperiod}}}%
@@ -7856,11 +7897,11 @@
         {Wydawnictwo WNT}%
       }
       \strng{namehash}{2cd627ce26f3ab0be1ca702e87ecac1b}
-      \strng{fullhash}{f175907807bbc4e90972f228a2a36612}
+      \strng{fullhash}{ac6c919c0000836ae7269c670989d25d}
       \strng{bibnamehash}{2cd627ce26f3ab0be1ca702e87ecac1b}
       \strng{authorbibnamehash}{2cd627ce26f3ab0be1ca702e87ecac1b}
       \strng{authornamehash}{2cd627ce26f3ab0be1ca702e87ecac1b}
-      \strng{authorfullhash}{f175907807bbc4e90972f228a2a36612}
+      \strng{authorfullhash}{ac6c919c0000836ae7269c670989d25d}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -11171,7 +11212,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Wroc{ł}awskie Dni Mostowe Mosty {ł}ukowe - dzie{ł}a kultury. Projektowanie, budowa, utrzymanie}
-      \field{title}{{Stalowy wiadukt {ł}ukowy w ciągu Pomorskiej Kolei Metropolitalnej}}
+      \field{title}{{Stalowy wiadukt {ł}ukowy w cia̧gu Pomorskiej Kolei Metropolitalnej}}
       \field{year}{2015}
     \endentry
     \entry{TransprojektGdanski2014}{misc}{}
@@ -11664,7 +11705,7 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Przedstawiona analiza różnych wspó{ł}czynników korelacji ma na celu wskazanie, w jakich obszarach badań można stosować odpowiedni rodzaj wspó{ł}czynnika korelacji oraz jaka jest ich interpretacja analityczna i geometryczna. Z analizy tej można wnioskować, że dla zmiennych losowych kwantyfikowanych zawsze powinien być stosowany wspó{ł}czynnik korelacji Pearsona, gdyż jego wartość jest związana z parametrami rozk{ł}adu zmiennej losowej oraz posiada ścis{ł}ą interpretacjȩ geometryczną. Wartość tego wspó{ł}czynnika ustala poziom istotności dla wielkości prognozowanych z modelu liniowej regresji. Wspó{ł}czynniki korelacji Pearsona definiują również elementy macierzy korelacyjnej dla zmiennej losowej wielowymiarowej, która jest podstawą do wszelkich analiz statystycznych tych zmiennych. Na podstawie elementów macierzy korelacyjnej można obliczyć wspó{ł}czynnik korelacji wielorakiej, wspó{ł}czynniki korelacji cząstkowej oraz wspó{ł}czynniki regresji. Macierz korelacyjna może być również wykorzystana do analizy dok{ł}adności nowych statystyk (parametrów) opartych na rozpatrywanych zmiennych losowych, a to prowadzi do określenia macierzy kowariancji dla tych parametrów.}
+      \field{abstract}{Przedstawiona analiza różnych wspó{ł}czynników korelacji ma na celu wskazanie, w jakich obszarach badań można stosować odpowiedni rodzaj wspó{ł}czynnika korelacji oraz jaka jest ich interpretacja analityczna i geometryczna. Z analizy tej można wnioskować, że dla zmiennych losowych kwantyfikowanych zawsze powinien być stosowany wspó{ł}czynnik korelacji Pearsona, gdyż jego wartość jest zwia̧zana z parametrami rozk{ł}adu zmiennej losowej oraz posiada ścis{ł}a̧ interpretacjȩ geometryczna̧. Wartość tego wspó{ł}czynnika ustala poziom istotności dla wielkości prognozowanych z modelu liniowej regresji. Wspó{ł}czynniki korelacji Pearsona definiuja̧ również elementy macierzy korelacyjnej dla zmiennej losowej wielowymiarowej, która jest podstawa̧ do wszelkich analiz statystycznych tych zmiennych. Na podstawie elementów macierzy korelacyjnej można obliczyć wspó{ł}czynnik korelacji wielorakiej, wspó{ł}czynniki korelacji cza̧stkowej oraz wspó{ł}czynniki regresji. Macierz korelacyjna może być również wykorzystana do analizy dok{ł}adności nowych statystyk (parametrów) opartych na rozpatrywanych zmiennych losowych, a to prowadzi do określenia macierzy kowariancji dla tych parametrów.}
       \field{issn}{1234-6608}
       \field{journaltitle}{Geodezja / Akademia Górniczo-Hutnicza im. Stanis{ł}awa Staszica w Krakowie}
       \field{number}{11}

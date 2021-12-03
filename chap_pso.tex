@@ -21,7 +21,7 @@ W przypadku konstrukcji inżynierskiej, parametry projektowe to przyjęte warto�
 Z reguły wartości zmiennych projektowych muszą spełniać szereg obostrzeń. Wynikają one ponownie ze względów technologicznych, normowych lub innych uznanych za istotne przez projektanta wartości brzegowych. Z tego powodu, na zmienne projektowe $\vect{x}$ narzucone są ograniczenia. Wektor, który spełnia wszystkie ograniczenia nazywany jest dopuszczalnym. W analizie konstrukcji budowlanych ograniczeniami mogą być wymogi wytrzymałościowe, eksploatacyjne - zarówno statyczne jak i dynamiczne - czy też warunki stateczności.
 
 
-\section{Klasyfikacja problemów i metod optymalizacji}
+\section{\raggedright{Klasyfikacja problemów i metod optymalizacji}}
 Wszystkie powyższe składowe definiują problem optymalizacji. Każdy z nich może przyjmować różne postaci co będzie miało znaczący wpływ przede wszystkim na wybór metody rozwiązania problemu. Tesch w pracy \cite{Tesch2016} zaproponował następującą klasyfikację problemów optymalizacji zależnie od elementów charakterystycznych je definiujących:
 \begin{itemize}
 	\item Liczba funkcji celu
@@ -70,7 +70,7 @@ Podsumowując i odwołując się do wyżej przytoczonej klasyfikacji problemów 
 	\end{itemize}
 \end{itemize}
 
-\section{Określenie funkcji celu i wybór metody optymalizacji}
+\section{\raggedright{Określenie funkcji celu i wybór metody optymalizacji}}
 Wpływ poszczególnych rozwiązań konstrukcyjnych mostów łukowych na jego odpowiedź dynamiczną zalicza się do zagadnień złożonych. 
 Pierwszą funkcją celu postawionego problemu może być minimalizacja przyspieszeń pionowych pomostu w trakcie przejazdu. Jest to najczęściej decydujący warunek eksploatacyjny mostu z wymaganych przez normę Europejską \parencite{PKNc}. Drugą pożądaną cechą może być poszukiwanie najtańszego obiektu (w uproszczeniu najmniejszej ilości materiału), przy spełnieniu wszystkich warunków wytrzymałościowych. Wyboru metody optymalizacji użytej w pracy dokonano przez następującą analizę rozpatrywanego zadania. Z uwagi na brak funkcyjnego opisu odpowiedzi dynamicznej modelu numerycznego zaniechano użycia metod analitycznych, wymagających obliczania pochodnych. Dodatkowo problem ma charakter globalny i nie wolno dopuścić do zakończenia poszukiwania w ekstremum lokalnym.  Odrzucono również metody losowe i systematycznego przeszukiwania z uwagi na długotrwałe wyznaczanie funkcji celu i bardzo nieefektywny algorytm. Kolejnym kryterium była uniwersalność algorytmu, ponieważ zaplanowano użycie go w dwóch zupełnie różnych problemach: kalibracji modelu i optymalizacji konstrukcji z punktu widzenia zachowania dynamicznego. Ostatnim kryterium była udokumentowana w literaturze skuteczność metody, w tym wykorzystanie jej w przypadkach analizy i oceny konstrukcji. Powyższe warunki spełniają metody metaheurystyczne. Spośród opisanych w literaturze wybrano metodę optymalizacji rojem cząstek.
 \section{Particle Swarm Optimization} \label{sect:pso_def}
@@ -87,7 +87,7 @@ gdzie wektory $\vect{u}_1^t$ i $\vect{u}_2^t$ zawierają zestawy losowych liczb 
 Każdy składnik prędkości spełnia określoną rolę. Pierwszy jest związany z bezwładnością i utrzymuje on bieżącą trajektorię cząstki. Parametr $\theta$ w ogólności zmniejsza prędkość, zapewniając lepszą zbieżność rozwiązania \parencite{Blackwell2019}. Jego wartość może być stała lub zmienna w trakcie analizy. Współczynniki $\alpha$ i $\beta$ odpowiadają za przyspieszenie na bazie odpowiednio własnych i społecznych doświadczeń. 
 W pracy \cite{Clerc2002} autorzy wyznaczyli wartości $\theta=0.7968$, $\alpha=1.4962$ i $\beta=1.4962$ jako optymalne z punktu widzenia działania algorytmu. Przyjęcie równości $\alpha=\beta$ oznacza, że na prędkość cząstki równy wpływ mają doświadczenia własne i sąsiadów. Do podobnych rezultatów doszli autorzy pracy \cite{Shi1998}. Z kolei w \cite{Xu2007} podano przykład zmiennego wariantu, gdzie $\theta$ zmniejsza swoją wartość liniowo od 0.9 do 0.4, a parametry $\alpha$ i $\beta$ są stałe i równe 2.0. W \cite{Poli2007} obszernie opisano metody wyznaczania wartości parametrów algorytmu.
 \subsubsection{Topologie roju}
-Topologa roju odpowiada za zachowanie społeczne cząstek roju.  Określa ona sąsiedztwo, z którym cząstka może się komunikować i wymieniać doświadczeniem. Definiuje również liderów, za którymi podążać będą pozostałe cząstki. Topologie dzielą się na dwie główne grupy: globalne \teng{global best (gbest))} i lokalne \teng{local best (lbest)}. Schemat topologii można przedstawić za pomocą grafów, w których węzły oznaczają cząstki, a krawędzie możliwość komunikacji z inną cząstką. Trzy najczęściej występujące w literaturze przedmiotu topologie to:
+Topologa roju odpowiada za zachowanie społeczne cząstek roju.  Określa ona sąsiedztwo, z którym cząstka może się komunikować i wymieniać doświadczeniem. Definiuje również liderów, za którymi podążać będą pozostałe cząstki. Topologie dzielą się na dwie główne grupy: globalne \teng{global best (gbest))} i lokalne \teng{local best (lbest)}. Schemat topologii można przedstawić za pomocą grafów, w których węzły oznaczają cząstki, a krawędzie możliwość komunikacji z inną cząstką (Rys. \ref{fig: pso_topologies}). Trzy najczęściej występujące w literaturze przedmiotu topologie to:
 \begin{itemize}
 	\item topologia pierścieniowa (Rys. \ref{fig: pso_topologies1}),
 	\item topologia pełnego grafu (Rys. \ref{fig: pso_topologies2}),
@@ -111,10 +111,10 @@ Początkowa populacja roju jest rozmieszczana w $D$-wymiarowej przestrzeni rozwi
 
 \begin{figure}[hbt!]
 	\centering
-	\subfloat[]{\includegraphics[width=0.35\linewidth]{/PSO/population/fig_population_random1.pdf} \label{fig: pso_gen_rand_1}}
-	\subfloat[]{\includegraphics[width=0.35\linewidth]{/PSO/population/fig_population_random2.pdf} \label{fig: pso_gen_rand_2}}\\
-	\subfloat[]{\includegraphics[width=0.35\linewidth]{/PSO/population/fig_population_random3.pdf} \label{fig: pso_gen_rand_3}}
-	\subfloat[]{\includegraphics[width=0.35\linewidth]{/PSO/population/fig_population_halton.pdf}  \label{fig: pso_gen_halton}}
+	\subfloat[]{\includegraphics[width=0.45\linewidth]{/PSO/population/fig_population_random1.pdf} \label{fig: pso_gen_rand_1}}
+	\subfloat[]{\includegraphics[width=0.45\linewidth]{/PSO/population/fig_population_random2.pdf} \label{fig: pso_gen_rand_2}}\\
+	\subfloat[]{\includegraphics[width=0.45\linewidth]{/PSO/population/fig_population_random3.pdf} \label{fig: pso_gen_rand_3}}
+	\subfloat[]{\includegraphics[width=0.45\linewidth]{/PSO/population/fig_population_halton.pdf}  \label{fig: pso_gen_halton}}
 	\captionsetup{justification=centering}
 	\caption{Przykłady rozkładu wygenerowanych populacji cząstek: (a)-(c) generacja losowa, (d) generacja z wykorzystaniem sekwencji Haltona}
 	\label{fig: pso_gen_expl}
@@ -132,8 +132,8 @@ Aby zniwelować efekt ucieczki z obszaru dopuszczalnego zastosowana może być p
 	\item tłumiący - cząstka jest zatrzymywana na granicy, a znak składowej prędkości w danym wymiarze jest odwracany i pomniejszany przez losowy mnożnik z zakresu $(0,1)$,
 	\item niewidoczny - cząstka nie jest zatrzymywana na granicy, a wektor prędkości nie zmienia swojej definicji. Wartość funkcji celu nie jest wyznaczana.
 \end{itemize} 
-Na rysunku pokazano efekt oddziaływania na cząstkę każdego z warunków brzegowych w przestrzeni 2D o zmiennych projektowych d1 i d2. W pracy \parencite{Xu2007} zbadano dodatkowe warianty warunków opierające się powyższych założeniach, ale bez wymuszonej zmiany położenia cząstki, a jedynie modyfikując prędkość. Autorzy podanych prac zgodnie określają warunek tłumiący jako najbardziej uniwersalny, a warunek niewidoczny jako najwydajniejszy w większości problemów.
-\begin{figure}[hbt!]
+
+\begin{figure}[b]
 	\centering
 	\subfloat[Absorbujący]{\includegraphics[height=4cm, trim=25 5 0 5, clip]{/PSO/bounds/absorb.pdf} \label{fig: pso_bounds_abs}}
 	\subfloat[Odbijający]{\includegraphics[height=4cm, trim=20 5 0 5, clip]{/PSO/bounds/refl.pdf} \label{fig: pso_bounds_refl}}
@@ -143,6 +143,10 @@ Na rysunku pokazano efekt oddziaływania na cząstkę każdego z warunków brzeg
 	\caption{Rodzaje warunków brzegowych wpływające na zachowanie cząstki wychodzącej poza zakres rozwiązań dopuszczalnych}
 	\label{fig: pso_bounds_types}
 \end{figure}
+
+Na rysunku \ref{fig: pso_bounds_types} pokazano efekt oddziaływania na cząstkę każdego z warunków brzegowych w przestrzeni 2D o zmiennych projektowych d1 i d2. W pracy \parencite{Xu2007} zbadano dodatkowe warianty warunków opierające się powyższych założeniach, ale bez wymuszonej zmiany położenia cząstki, a jedynie modyfikując prędkość. Autorzy podanych prac zgodnie określają warunek tłumiący jako najbardziej uniwersalny, a warunek niewidoczny jako najwydajniejszy w większości problemów.
+
+
 \subsubsection{Warunki zakończenia}
 Algorytm PSO z każdą kolejną iteracją aktualizuje położenie cząstek i pamięć roju. Zakończenie przeszukiwania przestrzeni może być wymuszone na różne sposoby. Najprostszą metodą jest określenie maksymalnej liczby aktualizacji roju, po której poszukiwanie zostanie zakończone. W tym przypadku na wstępie wiadomym jest ile iteracji zostanie wykonanych i przy znajomości czasu potrzebnego na oszacowanie funkcji celu możliwe jest określenie długości całego procesu optymalizacji. Podstawową wadą tego kryterium jest, że nie odnosi się w żaden sposób do jakości rozwiązania w ciągu trwania obliczeń. W pracy \parencite{Zielinski2007} przedstawiono zestaw innych warunków zakończenia, które uwzględniają zachowanie roju w trakcie poszukiwań. Wyróżniono następujące kryteria wpływające na zakończenie algorytmu:
 \begin{itemize}
@@ -154,13 +158,15 @@ Algorytm PSO z każdą kolejną iteracją aktualizuje położenie cząstek i pam
 Wszystkie powyższe warunki mogą być łączone i użyte wedle potrzeb w zależności od specyfiki problemu optymalizacji. W pracy \cite{Banach2017} autor określił kryterium prędkości jako najbardziej uniwersalne, ponieważ nie dotyczy położenia cząstek roju i nie zależy od rozwiązywanego problemu optymalizacji. Uzasadnił, że nie wymaga ono znajomości wartości progowych najczęściej nieznanej funkcji celu oraz nie wymaga by wszystkie cząstki zbiegły w tym samym miejscu.
 \subsubsection{Schemat blokowy algorytmu}
 Podsumowując wszystkie omówione wyżej aspekty, algorytm podstawowej wersji metody optymalizacji rojem cząstek (PSO) przedstawiono na rysunku \ref{fig: pso_single_algorith}.
-\begin{figure}[hbt!]
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[trim= 0 100 0 0, clip, width=0.9\linewidth]{/PSO/algorithm/algorithm2.pdf} 
 	\captionsetup{justification=centering}
 	\caption{Podstawowy algorytm optymalizacji jednokryterialnej metodą roju cząstek PSO. Przypadek minimalizacji}
 	\label{fig: pso_single_algorith}
 \end{figure}
+
 
 \subsection{Zastosowania optymalizacji algorytmem PSO}
 W literaturze udokumentowano wiele zastosowań algorytmu PSO przy rozwiązywaniu rzeczywistych problemów optymalizacji. Dotyczą one różnych dziedzin nauki: inżynierii, informatyki i telekomunikacji, ekonomii czy medycyny. Przeglądowe prace podsumowujące prace związane z PSO \cite{Atyabi2011,CoelloCoello2006,Lalwani2013} wskazują ciągły wzrost liczby publikacji traktujących o wykorzystaniu algorytmów PSO. Nie sposób przytoczyć publikacje ze wszystkich wspomnianych dziedzin, dlatego wymieniono kilka dotyczących problemów inżynierii lądowej. W \cite{Hughes2018} zastosowano PSO w procesie kalibracji urządzenia kontrolującego odpowiedź dynamiczną mostu autostradowego. W pracach \cite{Seyedpoor2011,Kang2012,Wei2018} wykorzystano optymalizację rojem cząstek przy detekcji uszkodzeń konstrukcji. Ciekawe zastosowanie algorytmu przedstawiono w \cite{Tran-Ngoc2018,Qin2018}, gdzie zastosowano algorytm optymalizacji przy kalibracji modelu numerycznego mostów. Z kolei w \cite{Dan2015} użyto PSO do identyfikacji siły w wantach mostu podwieszonego, przy braku możliwości stosowania klasycznych rozwiązań z uwagi na dołączone tłumiki.
@@ -286,7 +292,15 @@ Wyborem nowych kandydatów w MOPSO zajmuje się oczywiście algorytm PSO. Jego p
 \subsubsection{Schemat blokowy algorytmu MOPSO} \label{sect:MOPSO_algorithm}
 Na rysunku \ref{fig: pso_multi_algorithm} pokazano algorytm MOPSO stworzony na podstawie pracy \parencite{CoelloCoello2002}. Jest to jedna z pierwszych prac, gdzie autorzy dokonali próby dostosowania algorytmu PSO do rozwiązania problemów wielokryterialnych. Na podstawie późniejszych publikacji traktujących o MOPSO, można stwierdzić że przedstawiony algorytm jest najpopularniejszą bazą do niezliczonych modyfikacji co świadczy o jej uniwersalności.
 
+\begin{figure}[p]
+	\centering
+	\includegraphics[trim= 50 20 20 0, clip,height=0.9\textheight]{/PSO/algorithm_multi/algoritm_multi.pdf}
+	\captionsetup{justification=centering}
+	\caption{Bazowy algorytm wielokryterialnej optymalizacji rojem cząstek (MOPSO)}
+	\label{fig: pso_multi_algorithm}
+\end{figure}
 
+\clearpage
 
 \subsection{Przykład teoretyczny}
 Podobnie jak w przypadku wersji jednokryterialnej optymalizacji, wykonano przykład teoretyczny sprawdzający działanie zaimplementowanego algorytmu MOPSO. Jako wzorzec zaczerpnięto rozwiązanie problemu optymalizacji z pracy \parencite{Zavala2014}. Przedmiotem optymalizacji jest kratownica, składająca się z czterech prętów i obciążona jak na rysunku \ref{fig: pso_multi_testtruss}. Kratownica jest opisana na siatce kwadratowej o boku $L$. Problem optymalizacji opisany jest przez dwie funkcje celu: $f_1(\vect{x})$ - objętość materiału zastosowanego do budowy kratownicy i $f_2(\vect{x})$ - przemieszczenie węzła $A$ kratownicy pod obciążeniem zewnętrznym. Obie funkcje celu są minimalizowane. Wektor zmiennych projektowych stanowią pola przekrojów poszczególnych prętów $\vect{x}=[x_1,x_2,x_3,x_4]$. Parametry systemu stanowią: długość $L=200\,\text{cm}$, wartość obciążenia zewnętrznego $F=10\,\text{kN}$, moduł sprężystości materiału $E=2\cdot10^5\,\frac{\text{kN}}{\text{cm}^2}$ oraz maksymalne naprężenia dopuszczalne $\sigma=10\,\frac{\text{kN}}{\text{cm}^2}$.
@@ -299,13 +313,7 @@ Podobnie jak w przypadku wersji jednokryterialnej optymalizacji, wykonano przyk�
 \end{figure}
 
 
-\begin{figure}[p]
-	\centering
-	\includegraphics[trim= 50 20 20 0, clip,height=0.9\textheight]{/PSO/algorithm_multi/algoritm_multi.pdf}
-	\captionsetup{justification=centering}
-	\caption{Bazowy algorytm wielokryterialnej optymalizacji rojem cząstek (MOPSO)}
-	\label{fig: pso_multi_algorithm}
-\end{figure}
+
 
 Wartość funkcji celu $f_1$ została obliczona wprost przez iloczyn pól przekrojów i długości prętów:
 \begin{equation}
@@ -313,6 +321,7 @@ Wartość funkcji celu $f_1$ została obliczona wprost przez iloczyn pól przekr
 \end{equation}
 
 Aby uzależnić przemieszczenie węzła $A$ od zmiennych projektowych posłużono się zasadą prac wirtualnych. Wyznaczono rozkład sił wewnętrznych od obciążenia zewnętrznego i od obciążenia wirtualnego w miejscu badanego przemieszczenia (Rys. \ref{fig: pso_testtruss_results}). Następnie wyznaczono wartość przemieszczeń zgodnie z wzorem (\ref{eq: pso_test_truss_norma_forces}).
+
 \begin{figure}[hbt!]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\linewidth]{/PSO/testkrata/truss_scheme_zew.pdf} \label{fig: pso_testtruss_zew}}
@@ -321,12 +330,15 @@ Aby uzależnić przemieszczenie węzła $A$ od zmiennych projektowych posłużon
 	\caption{Wartości sił normalnych w prętach kratownicy: (a) od obciążeń zewnętrznych, (b) od obciążenia wirtualnego}
 	\label{fig: pso_testtruss_results}
 \end{figure}
+
 \begin{equation} \label{eq: pso_test_truss_norma_forces}
 \begin{split}
 	f_2(\vect{x}) =\delta= \sum_{n=1}^{4} \frac{N_i\bar{N}_i}{EA_i}L_i &=\frac{1}{E}\bigg(\frac{2FL}{x_1}+ \frac{4\sqrt{2}FL}{2x_2}- \frac{4\sqrt{2}FL}{2x_3}+\frac{2FL}{x_4}\bigg) \\
 	&=\frac{2FL}{E}\bigg(\frac{1}{x_1}+\frac{\sqrt{2}}{x_2}-\frac{\sqrt{2}}{x_3}+\frac{1}{x_4}\bigg)
 \end{split}
 \end{equation}
+
+\pagebreak[4]
 Autorzy przykładu zaproponowali ograniczenie przestrzeni rozwiązań dopuszczalnych przez podanie dopuszczalnych maksymalnych i minimalnych naprężeń w prętach. Po przekształceniach ograniczenia dla zmiennych projektowych podano następujące:
 \begin{equation}
 	\begin{split}
@@ -366,9 +378,9 @@ Na rysunku \ref{fig: pso_testkrata_all} zaprezentowano wizualizację przebiegu p
 	\label{fig: pso_testkrata_all}
 \end{figure}
 
-\vfill
+%\vfill
 
-\pagebreak[4]
+%\pagebreak[4]
 \section{Optymalizacja wspomagana uczeniem maszynowym}
 Optymalizacja wielokryterialna korzystająca nawet z szybko zbiegających algorytmów wymaga najczęściej wielokrotnych ewaluacji funkcji celu. W przypadku rzeczywistych problemów inżynierskich wyznaczanie wartości funkcji celu często jest złożonym procesem, który wymaga długotrwałych symulacji numerycznych. Ostatecznie otrzymanie dobrej jakości Frontu Pareto może okazać się bardzo trudne, albo wręcz niemożliwe z uwagi na czas wymagany na rozwiązanie zadania. Generalnie stosowane są dwie ścieżki, które pozwalają poradzić sobie z tym problemem: zrównoleglenie obliczeń przez podział na podproblemy i zwiększenie efektywności algorytmu przez zatrudnienie surogatów \teng{surrogates} \parencite{Haftka2016}. Surogaci zdefiniowani są jako proste modele algebraiczne dopasowane do dotychczas wyznaczonych wartości funkcji i ograniczeń. Do przewidywania przybliżonego rozwiązania wykorzystywane są metody aproksymacji bazujące na Procesach Gaussowskich \teng{Gaussian Process (GP)} \parencite{Rasmussen2006,Rasmussen2010}. Opierają się one na zbudowaniu bazy rozwiązań, na podstawie której algorytm uczy się i jest w stanie przewidywać wyniki bez standardowej ewaluacji funkcji celu. Każda funkcja celu jest modelowana niezależnie, a algorytm dostarcza wartość funkcji oraz miarę niepewności tego rozwiązania dla nowych zmiennych projektowych. 
 W kontekście optymalizacji rojem cząstek, przewidywane rozwiązania mogą być ocenione jako prawdopodobnie należące do frontu Pareto i zostać zaproponowane jako kandydaci do wyznaczenia funkcji celu w kolejnych iteracjach. Przykłady takiego podejścia pokazują metody: Pareto Active Learning (PAL) \parencite{Zuluaga2013} i w wersji rozbudowanej $\epsilon$-Pareto Active Learning ($\epsilon$-PAL) \parencite{Zuluaga2016} oraz Active Learning of Pareto Front (ALP) \parencite{Campigotto2013}. W pracach \cite{Lv2017,Lv2019} zaproponowano algorytm optymalizacji wielokryterialnej oparty na PSO i technice $\epsilon$-PAL: Multi-Objective Particle Swarm Algorithm (MOPSAL). Takie podejście potrafi znacząco ograniczyć liczbę obliczeń funkcji celu i przyspieszyć optymalizację wymagających problemów nawet o 70\% \parencite{Zuluaga2016}.

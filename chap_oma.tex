@@ -811,8 +811,8 @@ Rozwiązano problem własny dynamiki przedmiotowego modelu i otrzymano rezultaty
 Odpowiedź konstrukcji na wymuszenie losowe wyznaczono metodą time-step Newmarka-Wilsona. Zdecydowano o sprawdzeniu modów w zakresie do około 250Hz. Z tego względu przyjęto krok całkowania jako $\Delta t = 1/2500 s$. Zgodnie z kryterium Nyquista taki krok pozwala identyfikować drgania teoretycznie do częstotliwości 1250 Hz. Niemniej jednak, sygnał wyjściowy powinien zostać nadpróbkowany znacznie bardziej niżeli dwukrotnie. Aby zapewnić dokładność rezultatu, odpowiedź z rozwiązania numerycznego powinna być wyznaczona z próbkowaniem ok 10-15 razy większym niż częstotliwość najwyższego, interesującego modu \parencite{Rakowski2016,Bajer2012,Kacprzyk1983,,Zotowski2017c}. Większość modów odczytanych z analizy modalnej mieści się w zamierzonym zakresie do 250 Hz. Kilka modów powyżej 250 Hz zostanie również uwzględnione w analizie dla pokazania zmniejszenia dokładności obliczeń z uwagi na zbyt rzadkie próbkowanie. W każdym kroku struktura była obciążana losowym przypadkiem obliczeniowym z bazy 5000 wcześniej wygenerowanych. Tłumienie konstrukcji przyjęto jako masowo-sztywnościowe według metody Rayleigha (\ref{eq: rayleigh_damping}). Współczynniki metody wyznaczono zakładając tłumienie $\text{LDT}=3\%$ dla częstotliwości 20 Hz i 160 Hz. Chcąc sprawdzić charakter obciążenia wykonano analizę FFT sygnału złożonego z wartości obciążenia czterech węzłów w funkcji czasu. Widma częstotliwościowe obciążeń przedstawiono na rysunku \ref{fig: fft_load_input_blue_beam}. Całkowity czas analizy przyjęto równy 25s ($25\cdot2500=62500$ kroków czasowych). Widmo częstotliwościowe nie ujawnia żadnej dominującej częstotliwości i można uznać je za równe w całym zakresie.
 \begin{figure}[b]
 	\centering
-	\subfloat[Węzeł 7, kierunek Y]{\includegraphics[width=0.5\textwidth]{/test_blue/input_load/input_load_1.pdf}}%
-	\subfloat[Węzeł 7, kierunek Z]{\includegraphics[width=0.5\textwidth]{/test_blue/input_load/input_load_2.pdf}}\\
+	\subfloat[Węzeł 7, kierunek Y]{\includegraphics[width=0.5\textwidth, trim= 5 5 5 0, clip ]{/test_blue/input_load/input_load_1.pdf}}%
+	\subfloat[Węzeł 7, kierunek Z]{\includegraphics[width=0.5\textwidth, trim= 5 5 5 0, clip ]{/test_blue/input_load/input_load_2.pdf}}\\
 	%\subfloat[Węzeł 11, kierunek Y]{\includegraphics{/test_blue/input_load/input_load_3.pdf}}%
 	%\subfloat[Węzeł 11, kierunek Z]{\includegraphics{/test_blue/input_load/input_load_4.pdf}}%
 	\captionsetup{justification=centering}
@@ -830,8 +830,8 @@ Dla obliczonego modelu odczytano przebieg przyspieszeń w dziewięciu węzłach 
 
 \begin{figure}[hbt!]
 	\centering
-	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pdf}}\\
-	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf},\label{fig: stab_diags_blue_beam_b}}%
+	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth, trim= 5 0 8 0, clip ]{/test_blue/stab_diag/fig_stab_diagram_nonfiltr_time_20_20_50.pdf}}\\
+	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth, trim= 5 0 8 0, clip]{/test_blue/stab_diag/fig_stab_diagram_filtr_time_20_20_54.pdf},\label{fig: stab_diags_blue_beam_b}}%
 	\captionsetup{justification=centering}
 	\caption{Diagram stabilizacyjny metody NExT-ERA testowego modelu numerycznego: (a) diagram niefiltrowany, (b) diagram filtrowany}
 	\label{fig: stab_diags_blue_beam}
@@ -843,10 +843,10 @@ Wprowadzono wyznaczone parametry do programu. Uzyskano odpowiedzi impulsowe dla 
 
 \begin{figure}[p]
 	\centering
-	\subfloat[Węzeł 7, kierunek Y]{\includegraphics[width=0.5 \linewidth]{/test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf}}%
-	\subfloat[Węzeł 7, kierunek Z]{\includegraphics[width=0.5 \linewidth]{/test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf}}\\
-	\subfloat[Węzeł 11, kierunek Y]{\includegraphics[width=0.5 \linewidth]{/test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf}}%
-	\subfloat[Węzeł 11, kierunek Z]{\includegraphics[width=0.5 \linewidth]{/test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf}}%
+	\subfloat[Węzeł 7, kierunek Y]{\includegraphics[height=0.29\textheight, trim= 7 0 2 0, clip]{/test_blue/ccf/fig_CCF_CSD_00003_20_04_28.pdf}}%
+	\subfloat[Węzeł 7, kierunek Z]{\includegraphics[height=0.29\textheight, trim= 2 0 5 0, clip]{/test_blue/ccf/fig_CCF_CSD_00004_20_05_38.pdf}}\\
+	\subfloat[Węzeł 11, kierunek Y]{\includegraphics[height=0.29\textheight, trim= 7 0 2 0, clip]{/test_blue/ccf/fig_CCF_CSD_00007_20_08_26.pdf}}%
+	\subfloat[Węzeł 11, kierunek Z]{\includegraphics[height=0.29\textheight, trim= 2 0 5 0, clip]{/test_blue/ccf/fig_CCF_CSD_00008_20_08_44.pdf}}%
 	\captionsetup{justification=centering}
 	\caption{Przykłady otrzymanych funkcji cross-korelacji w dziedzinie częstotliwości i dziedzinie czasu}
 	\label{fig: cross_corr_blue_beam}
@@ -979,8 +979,8 @@ Pomiary odbywały się w pomieszczeniu, w godzinach wieczornych. Z tego powodu a
 Diagramy stabilizacyjny metody NExT-ERA pokazano na rysunku \ref{fig: stab_diags_lab_blue_beam}. Zidentyfikowano 4 stabilne mody. Zidentyfikowane częstotliwości i postaci drgań zamieszczono na rysunku \ref{fig: blue_beam_research_mods}. Rezultaty porównano również z obliczeniami numerycznymi w tabeli \ref{tab: blue_beam_comparison}. 
 \begin{figure}[h]
 	\centering
-	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag_lab/fig_stab_diagram_nonfiltr_time_17_49_58.pdf}}\\
-	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth]{/test_blue/stab_diag_lab/fig_stab_diagram_filtr_time_17_49_52.pdf}}%
+	\subfloat[Diagram niefiltrowany]{\includegraphics[width=\linewidth, trim=6 0 6 0, clip ]{/test_blue/stab_diag_lab/fig_stab_diagram_nonfiltr_time_17_49_58.pdf}}\\
+	\subfloat[Diagram filtrowany]{\includegraphics[width=\linewidth, trim=6 0 6 0, clip]{/test_blue/stab_diag_lab/fig_stab_diagram_filtr_time_17_49_52.pdf}}%
 	\captionsetup{justification=centering}
 	\caption{Diagram stabilizacyjny metody NExT-ERA rzeczywistej belki testowej: (a) diagram niefiltrowany, (b) diagram filtrowany}
 	\label{fig: stab_diags_lab_blue_beam}

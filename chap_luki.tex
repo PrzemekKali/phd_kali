@@ -110,6 +110,7 @@ Kiedy pomost znajduje się ponad dźwigarem, połączenie pomiędzy pomostem, a 
 	\label{fig:bridges_morandi}
 \end{figure}
 
+\pagebreak[4]
 W przypadku obiektów z jazdą dołem występują trzy główne schematy rozkładu wieszaków:
 \begin{itemize}
 	\item wieszaki proste (Rys. \ref{fig:bridges_types_hangers_a}, \ref{fig:arch_deck_bridges_c}, \ref{fig:arch_deck_bridges_d}),
@@ -358,7 +359,7 @@ W normie PN-EN 1991-2 wyraźnie określono w punkcie 6.4.5.1(1), że współczyn
 \end{itemize}
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=\textwidth]{/dynamic_railway/ec_algorithm_dyna.pdf} 
+	\includegraphics[width=\textwidth, trim=2 0 1 0, clip]{/dynamic_railway/ec_algorithm_dyna.pdf}
 	\captionsetup{justification=centering}
 	\caption{Algorytm określający czy wymagana jest analiza dynamiczna wg \parencite{PKNj}}
 	\label{fig:ec_algorithm_dyna}
@@ -396,6 +397,8 @@ Powyżej wymieniono przypadki kiedy istnieje możliwość zaniechania prowadzeni
 W pracy poruszany jest temat optymalizacji struktury obiektów mostowych, który zdecydowanie częściej może być rozważany na etapie projektowania mostu aniżeli w trakcie jego życia. Z tego względu w dalszej części pracy rozważone zostaną obciążenia służące projektowaniu, a nie sprawdzaniu istniejących konstrukcji. Według rozporządzenia \parencite{PolskiKomitetNormalizacyjny} do projektowania należy używać modeli obciążeń zawartych w omawianej już normie PN-EN 1991-2, a do sprawdzania nośności istniejących obiektów kolejowych modeli obciążeń eksploatacyjnych opisanych w normie PN-EN 15528 \parencite{PolskiKomitetNormalizacyjnya,uszczki2015}. Norma \cite{PolskiKomitetNormalizacyjnya} zawiera instrukcje i przepisy pozwalające zaklasyfikować pojazdy i linie kolejowe do odpowiednich klas.
 
 W normie PN-EN 1991-2 występuje kilka obciążeń kolejowych podzielonych na dwie grupy w zależności od przeznaczenia. Pierwszą grupę stanowią obciążenia do analiz statycznych. W jej skład wchodzą modele obciążenia: UIC 71, SW/0, SW/2 i pociąg bez ładunku. Model UIC 71 został opracowany już w 1971 roku \parencite{UnionInternationaleDesCheminsDeFer2006} i był stosowany również w poprzedniej generacji Polskich Norm \parencite{PKNe}. Z tego względu jest dobrze znany środowisku projektowemu i zwykle nie występują problemy w jego zastosowaniu. Obciążenia statyczne nie stanowią głównego tematu niniejszej pracy i nie będą szerzej omawiane. Ich szczegółowy opis, pochodzenie oraz zasady użycia można znaleźć w normie PN-EN 1991-2 oraz pracach \parencite{James2003,UnionInternationaleDesCheminsDeFer2006}. Druga grupa zawiera modele obciążeń wykorzystywane w analizach dynamicznych lub zmęczeniowych. Zaliczają się do niej:
+
+\enlargethispage{-3\baselineskip}
 \begin{itemize}
 	\item Pociągi Rzeczywiste (PN-EN 1991-2 załącznik F)
 	\item Pociągi Uniwersalne HSLM-A i HSLM-B (PN-EN 1991-2 p. 6.4.6.1.1),
@@ -404,14 +407,12 @@ W normie PN-EN 1991-2 występuje kilka obciążeń kolejowych podzielonych na dw
 	(PN-EN 1991-2 załącznik D). 
 \end{itemize}
 
+
+
 Opis obciążeń dynamicznych należy rozpocząć od przywołania idei interoperacyjności. Zgodnie z dyrektywą Rady Unii Europejskiej 96/48/WE z 1996 roku opracowano Warunki Techniczne Interoperacyjności \teng{Technical Specifications of the Interoperability (TSI)} \parencite{Muncke2008}. Mają one w założeniu ujednolicić dotychczas zróżnicowane systemy kolejowe państw członkowskich Unii Europejskiej. Dzięki wdrożeniu idei ułatwione ma być podróżowanie pomiędzy krajami Unii, bez utrudnień związanych z zastosowaniem różnych rozwiązań technicznych. Zgodnie z Warunkami TSI wszystkie obiekty kolejowe powinny być zwymiarowane na obciążenie statyczne LM71 oraz pozwolić na Liniach Dużych Prędkości na ruch wszystkich, aktualnie występujących i mogących wystąpić w przyszłości Pociągów Dużych Prędkości.
 
-Pierwszą grupą obciążeń normowych używanych do analiz dynamicznych są modele odpowiadające pociągom rzeczywistym, tak zwane \enquote{Pociągi Rzeczywiste}. Pociągi Dużych Prędkości występujące na europejskich LDP mogą być podzielone na trzy typy taboru w zależności od wzajemnego usytuowania wózków i wagonów \parencite{Goicolea2008a}. Schematy modeli pociągów zawarto w normie PN-EN 1991-2 załącznik E i przytoczono na rysunku \ref{fig:train_types_EC}. Poszczególne typy można opisać następująco (w nawiasach podano przykłady rzeczywistego taboru):
-\begin{itemize} 
-	\item pociągi przegubowe - dwa wagony połączone są jednym wózkiem znajdującym się między nimi (THALYS, AVE i EUROSTAR),
-	\item pociągi typowe - każdy wagon posiada dwa własne wózki (ICE2, ETR500),
-	\item pociągi regularne - brak wózków, wagony są oparte na pojedynczych osiach znajdujących się na połączeniu wagonów (TALGO).
-\end{itemize}
+Pierwszą grupą obciążeń normowych używanych do analiz dynamicznych są modele odpowiadające pociągom rzeczywistym, tak zwane \enquote{Pociągi Rzeczywiste}. Pociągi Dużych Prędkości występujące na europejskich LDP mogą być podzielone na trzy typy taboru w zależności od wzajemnego usytuowania wózków i wagonów \parencite{Goicolea2008a}. Schematy modeli pociągów zawarto w normie PN-EN 1991-2 załącznik E i przytoczono na rysunku \ref{fig:train_types_EC}. 
+
 \begin{figure}[hbt!]
 	\centering
 	\subfloat[]{\includegraphics[]{/dynamic_railway/types_of_trains_articulated.pdf}  \label{fig:train_types_EC_art} } \\
@@ -421,7 +422,20 @@ Pierwszą grupą obciążeń normowych używanych do analiz dynamicznych są mod
 	\caption{Typy pociągów rzeczywistych kursujących na Europejskich LDP: (a) pociąg przegubowy; (b) pociąg typowy; (c) pociąg regularny. Oznaczenia: $d_{BA}$ - rozstaw osi w wózku, $D$ - odległość miedzy regularnie odległymi osiami lub długość wagonu, $D_{IC}$ - długość wagonu pośredniego, $e_c$ - odległość między sąsiednimi osiami dwóch pojedynczych zestawów pociągów \parencite{PKNj}.}
 	\label{fig:train_types_EC}
 \end{figure}
+Poszczególne typy można opisać następująco (w nawiasach podano przykłady rzeczywistego taboru):
+\begin{itemize} 
+	\item pociągi przegubowe - dwa wagony połączone są jednym wózkiem znajdującym się między nimi (THALYS, AVE i EUROSTAR),
+	\item pociągi typowe - każdy wagon posiada dwa własne wózki (ICE2, ETR500),
+	\item pociągi regularne - brak wózków, wagony są oparte na pojedynczych osiach znajdujących się na połączeniu wagonów (TALGO).
+\end{itemize}
+
 Na liniach kolejowych o prędkości maksymalnej mniejszej niż 200 km/h zarządca w indywidualnej dokumentacji technicznej może określić \enquote{Pociągi Rzeczywiste}, które należy uwzględnić w analizach.
+
+
+
+
+
+Drugą grupę obciążeń stosowanych w analizach dynamicznych stanowią pociągi uniwersalne \teng{Universal Trains}. W jej skład wchodzą dwa modele: HSLM-A i HSLM-B \teng{High Speed Load Model (HSLM)}. Są to modele teoretyczne, które powstały aby zagwarantować spełnienie warunków interoperacyjności kolei w państwach Unii Europejskiej. Odzwierciedlają szeroki zakres obciążeń wywołanych przez PDP obecnie użytkowane i potencjalnie występujące w przyszłości. Model obciążenia HSLM-A został przedstawiony na rysunku \ref{fig:train_hslm_a}, występuje w 10 wariantach oznaczonych od A1 do A10 i różniących się parametrami. Wartości zmiennych modelu HSLM-A przedstawiono w tabeli \ref{tab:hslm_a_parameters}. Schemat obciążenia stanowi potok sił, w większości rozstawionych w regularny sposób jak dla osi kół pociągu. Rozkład sił odpowiada pociągowi o typie przegubowym (rys. \ref{fig:train_types_EC_art}). Całkowita długość pociągu w każdym z wariantów wynosi około 400 m i zależy od liczby wagonów $N$ i ich długości $D$. Rozstaw wózków $D$ jest kluczowym parametrem z punktu widzenia wymuszenia dynamicznego. Jego wartość jest zróżnicowana od 18 m do 27 m. Obciążenie przypadające na oś oznaczono jako $P$, a jego wartość mieści się w zakresie od 170 kN do 210 kN. Rozstaw osi wózków $d$ również został zróżnicowany od 2 do 3.5 m. Dodatkowo na początku i na końcu modelu znajduje się nieregularny układ sił odwzorowujący lokomotywy. 
 
 \begin{figure}[hbt!]
 	\centering
@@ -431,13 +445,6 @@ Na liniach kolejowych o prędkości maksymalnej mniejszej niż 200 km/h zarządc
 	\label{fig:train_hslm_a}
 \end{figure}
 
-\begin{figure}[hbt!]
-	\centering
-	\includegraphics[]{/dynamic_railway/hslm_b.pdf}
-	\captionsetup{justification=centering}
-	\caption{Model pociągu HSLM-B według PN-EN 1991-2. Na podstawie \cite{PKNj}}
-	\label{fig:train_hslm_b}
-\end{figure}
 
 \begin{table}[hbt!]
 	\caption{Parametry modelu HSLM-A wg \cite{PKNj}}
@@ -461,11 +468,19 @@ Na liniach kolejowych o prędkości maksymalnej mniejszej niż 200 km/h zarządc
 	\label{tab:hslm_a_parameters}
 \end{table}
 
-Drugą grupę obciążeń stosowanych w analizach dynamicznych stanowią pociągi uniwersalne \teng{Universal Trains}. W jej skład wchodzą dwa modele: HSLM-A i HSLM-B \teng{High Speed Load Model (HSLM)}. Są to modele teoretyczne, które powstały aby zagwarantować spełnienie warunków interoperacyjności kolei w państwach Unii Europejskiej. Odzwierciedlają szeroki zakres obciążeń wywołanych przez PDP obecnie użytkowane i potencjalnie występujące w przyszłości. 
-
-Model obciążenia HSLM-A został przedstawiony na rysunku \ref{fig:train_hslm_a}, występuje w 10 wariantach oznaczonych od A1 do A10 i różniących się parametrami. Wartości zmiennych modelu HSLM-A przedstawiono w tabeli \ref{tab:hslm_a_parameters}. Schemat obciążenia stanowi potok sił, w większości rozstawionych w regularny sposób jak dla osi kół pociągu. Rozkład sił odpowiada pociągowi o typie przegubowym (rys. \ref{fig:train_types_EC_art}). Całkowita długość pociągu w każdym z wariantów wynosi około 400 m i zależy od liczby wagonów $N$ i ich długości $D$. Rozstaw wózków $D$ jest kluczowym parametrem z punktu widzenia wymuszenia dynamicznego. Jego wartość jest zróżnicowana od 18 m do 27 m. Obciążenie przypadające na oś oznaczono jako $P$, a jego wartość mieści się w zakresie od 170 kN do 210 kN. Rozstaw osi wózków $d$ również został zróżnicowany od 2 do 3.5 m. Dodatkowo na początku i na końcu modelu znajduje się nieregularny układ sił odwzorowujący lokomotywy. 
-
 Model HSLM-B pokazano na rysunku \ref{fig:train_hslm_b}. Składa się z $N$ sił w regularnym rozstawie $d$. Parametry modelu $d$ i $N$ przyjmuje się w zależności od rozpiętości przęsła $L$ zgodnie z nomogramem umieszczonym również na rysunku \ref{fig:train_hslm_b}. Zalecane jest by Model HSLM-B stosować dla obiektów 'prostych' o rozpiętości poniżej 7 m. Dla pozostałych konstrukcji zalecane jest wyznaczenie odpowiedzi od obciążenia modelem HSLM-A we wszystkich wariantach A1-A10.
+
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[]{/dynamic_railway/hslm_b.pdf}
+	\captionsetup{justification=centering}
+	\caption{Model pociągu HSLM-B według PN-EN 1991-2. Na podstawie \cite{PKNj}}
+	\label{fig:train_hslm_b}
+\end{figure}
+
+
+
+
 
 \subsubsection{Parametry obciążenia ruchomego}
 
@@ -481,6 +496,7 @@ Tolerancje wymiarów konstrukcji ograniczone są przez normy dotyczące danych m
 Eurokody \cite{PKNg, PKNj} podają zalecenia dotyczące przyjmowania parametrów materiałowych kiedy nie ma możliwości wyznaczenia ich rzeczywistych (zmierzonych lub zidentyfikowanych) wartości. Według normy \cite{PKNj} w przypadku mostów kolejowych zalecane jest przyjmowanie masy konstrukcji i jej wyposażenia w dwóch wariantach. Dotyczy to głównie podsypki, która na kolejowych mostach stalowych stanowi bardzo istotną składową całkowitego ciężaru własnego. Ogólną regułą jest, że zwiększona masa powoduję obniżenie częstotliwości drgań własnych i zmniejszenie amplitud drgań. Stąd przy obliczeniu maksymalnych przyspieszeń należy przyjąć minimalną szacowaną wartość obciążenia podsypką. Z uwagi jednak na możliwość przeszacowania prędkości krytycznej (proporcjonalnej do częstotliwości drgań własnych) należy również sprawdzić przypadek górnego szacowania ciężaru własnego. Moduł sprężystości materiałów jest z reguły bardzo precyzyjnie określony w przypadku stali. Odwrotnie niż w przypadku masy, zwiększona sztywność powoduje zwiększenie częstotliwości drgań własnych. Z tego względu w przypadku zakładania sztywności elementów betonowych, połączeń czy posadowienia zalecane jest by przyjmować dolne szacowanie.
 
 W dobie obliczeń za pomocą programów MES poprawne odwzorowanie sztywności oraz rozkładów masy (zwłaszcza w konstrukcjach stalowych) nie stanowi większego problemu. Jednakże do analizy dynamicznej należy określić jeszcze parametry tłumienia modalnego układu. Na etapie projektowania określa się je w sposób przybliżony na podstawie norm lub wartości zidentyfikowanych przez badania na podobnych, rzeczywistych konstrukcjach \parencite{Ladislav1996}. W normie \cite{PKNj} podano wartości, które są dolną, a zatem bezpieczną granicą oszacowania. Zalecane wartości przytoczono w tablicy \ref{tab:damping_code_eurocode}. 
+
 \begin{table}[hbt!]
 	\centering
 	\footnotesize
@@ -496,6 +512,7 @@ W dobie obliczeń za pomocą programów MES poprawne odwzorowanie sztywności or
 	\end{tabular}
 	\label{tab:damping_code_eurocode}
 \end{table}
+
 Z reguły w obliczeniach stosowane jest tłumienie proporcjonalne charakteryzujące się liniowym działaniem. Jest to również podejście bezpieczne, ponieważ uwzględnienie nieliniowego tłumienia skutkuje zmniejszeniem amplitud drgań \parencite{Ulker-Kaustell2012a,Oleszek2015}. 
 Najczęściej spotykane normowe modele obciążenia wyrażone są za pomocą potoku sił, tworząc bezinercyjne schematy obciążenia. W konsekwencji przy tak wykonanej analizie nie uwzględnia się interakcji pomiędzy pojazdem, a konstrukcją. Z reguły uwzględnienie resorowania i tłumienia zawieszenia również zmniejsza amplitudy odpowiedzi układu w rezonansie. Ma to jednak istotne znaczenie głównie dla krótkich przęseł. W normie \cite{PKNj} efekt ten uwzględniono w sposób uproszczony przez zastosowanie nadwyżki tłumienia, dla obiektów o rozpiętości mniejszej niż 30 m. Całkowite tłumienie $\xi_{total}$ po uwzględnieniu nadwyżki wyrażone jest wzorem \ref{eq:total_damp_ec}, a dodatek tłumienia $\Delta \xi$ określony w funkcji rozpiętości przęsła $L$ zaproponowano w postaci równania \ref{eq:additional_damp_ec}.
 \begin{equation} \label{eq:total_damp_ec}
@@ -550,8 +567,10 @@ Trzecim kryterium, które należy sprawdzić dla obiektów kolejowych jest komfo
 \begin{table}[hbt!]
 	\caption{Zalecane klasy komfortu według \parencite{PKNc}}
 	\footnotesize
+	\setlength\tabcolsep{0pt}
 	\centering
-	\begin{tabular}{@{}cc@{}}
+	\begin{tabular}{@{}P{0.5\textwidth} P{0.5\textwidth} @{}}
+	%\begin{tabular}{@{}cc@{}}
 		\toprule
 		\multicolumn{1}{c}{Poziom komfortu} & \begin{tabular}[c]{@{}c@{}}Przyspieszenia pionowe\\ $b_v \;\text{[m/s}^2\text{]}$\end{tabular} \\ \midrule
 		Bardzo dobry                        & 1.0                                                                                         \\ %\midrule
@@ -564,7 +583,7 @@ Naturalnie w celu wyznaczenia przyspieszeń wewnątrz pojazdu w trakcie analiz d
 
 \begin{figure}[hbt!]
 	\centering
-	\includegraphics[]{/dynamic_railway/simp_comfort_class.pdf}
+	\includegraphics[width=\textwidth, trim=4 0 4 0, clip]{/dynamic_railway/simp_comfort_class.pdf}
 	\captionsetup{justification=centering}
 	\caption{Nomogram do oceny komfortu w pojeździe na podstawie ugięć dla układu w postaci ciągu trzech przęseł swobodnie podpartych przy bardzo dobrym poziomie komfortu}
 	\label{fig:simpl_comfort_clas}

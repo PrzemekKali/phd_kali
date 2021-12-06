@@ -13,7 +13,6 @@
 \usepackage{lmodern}
 \usepackage[polish]{babel}
 \usepackage[autostyle]{csquotes}
- 
 
 %spis tresci
 %\usepackage{tocloft}
@@ -39,16 +38,19 @@
 \DeclareUnicodeCharacter{2212}{–}
 \DeclareUnicodeCharacter{221A}{$\sqrt{\cdot}$}
 \DeclareUnicodeCharacter{FFFD}{\textbf{?}}
+
 %BIBLIOGRAFIA
 %\usepackage[backend=biber,style=authoryear,url=false]{biblatex}
 \usepackage{ifthen}
+
 \usepackage[
 backend=biber,
 citestyle=numeric-comp,
-style=numeric,
+style=numeric-comp,
 sorting=none,
 giveninits=true,
-url=true
+url=true,
+sortcites=true
 ]{biblatex}
 \DeclareNameAlias{default}{family-given}
 

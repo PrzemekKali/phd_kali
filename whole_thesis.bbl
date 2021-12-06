@@ -4978,676 +4978,6 @@
       \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bien, Zwolski - 2007 - Dynamic tests in bridge monitoring - Systematics and applications.pdf:pdf
       \endverb
     \endentry
-    \entry{Golub2013}{book}{}
-      \name{author}{2}{}{%
-        {{hash=8b856da92ad549d323acc679ecf7f474}{%
-           family={Golub},
-           familyi={G\bibinitperiod},
-           given={Gene\bibnamedelima H.},
-           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=995bdd2b0481ec3adaa65f41e5c1c178}{%
-           family={Loan},
-           familyi={L\bibinitperiod},
-           given={Charles\bibnamedelimb F.\bibnamedelimi Van},
-           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Baltimore}%
-      }
-      \list{publisher}{1}{%
-        {Johns Hopkins}%
-      }
-      \strng{namehash}{9607677caf4976d66a0916df1c40fb87}
-      \strng{fullhash}{9607677caf4976d66a0916df1c40fb87}
-      \strng{bibnamehash}{9607677caf4976d66a0916df1c40fb87}
-      \strng{authorbibnamehash}{9607677caf4976d66a0916df1c40fb87}
-      \strng{authornamehash}{9607677caf4976d66a0916df1c40fb87}
-      \strng{authorfullhash}{9607677caf4976d66a0916df1c40fb87}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Livre surtout sur la solution d'équations linéaires et la détermination de valeurs et vecteurs propres de matrices. Peter.}
-      \field{booktitle}{Mathematics of Computation}
-      \field{issn}{00255718}
-      \field{title}{{Matrix Computations.}}
-      \field{year}{2013}
-      \field{pages}{1\bibrangedash 780}
-      \range{pages}{780}
-      \verb{doi}
-      \verb 10.2307/2008552
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Golub, Loan - 2013 - Matrix Computations.pdf:pdf
-      \endverb
-    \endentry
-    \entry{Bathe2006}{book}{}
-      \name{author}{1}{}{%
-        {{hash=3e7be86cceb8ca7637838d291658582b}{%
-           family={{Bathe K J.}},
-           familyi={B\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Prentice Hall}%
-      }
-      \strng{namehash}{3e7be86cceb8ca7637838d291658582b}
-      \strng{fullhash}{3e7be86cceb8ca7637838d291658582b}
-      \strng{bibnamehash}{3e7be86cceb8ca7637838d291658582b}
-      \strng{authorbibnamehash}{3e7be86cceb8ca7637838d291658582b}
-      \strng{authornamehash}{3e7be86cceb8ca7637838d291658582b}
-      \strng{authorfullhash}{3e7be86cceb8ca7637838d291658582b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{BASIC APPROACH: Comprehensive -- this text explores the "full range" of finite element methods used in engineering practice for actual applications in computer-aided design. It provides not only an introduction to finite element methods and the commonality in the various techniques, but explores state-of-the-art methods as well -- with a focus on what are deemed to become "classical techniques" -- procedures that will be "standard and authoritative" for finite element analysis for years to come. FEATURES: presents in sufficient depth and breadth elementary concepts AND advanced techniques in statics, dynamics, solids, fluids, linear and nonlinear analysis. emphasizes both the physical and mathematical characteristics of procedures. presents some important mathematical conditions on finite element procedures. contains an abundance of worked-out examples and various complete program listings. includes many exercises/projects that often require the use of a computer program.}
-      \field{edition}{Second}
-      \field{isbn}{0133014584}
-      \field{title}{{Finite Element Procedures}}
-      \field{year}{2006}
-      \field{pages}{1037}
-      \range{pages}{1}
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bathe K J. - 2006 - Finite Element Procedures.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://books.google.com/books?id=wKRRAAAAMAAJ{\&}pgis=1{\%}5Cnftp://ftp.demec.ufpr.br/disciplinas/EME748/Textos/Bathe, K.-J. - Finite Element Procedures - 1996 - Prentice-Hall - ISBN 0133014584 - 1052s.pdf
-      \endverb
-      \verb{url}
-      \verb http://books.google.com/books?id=wKRRAAAAMAAJ%7B%5C&%7Dpgis=1%7B%5C%%7D5Cnftp://ftp.demec.ufpr.br/disciplinas/EME748/Textos/Bathe,%20K.-J.%20-%20Finite%20Element%20Procedures%20-%201996%20-%20Prentice-Hall%20-%20ISBN%200133014584%20-%201052s.pdf
-      \endverb
-    \endentry
-    \entry{Wilson1983}{article}{}
-      \name{author}{2}{}{%
-        {{hash=1049d4a1478878c3cce8f5a95a85802e}{%
-           family={Wilson},
-           familyi={W\bibinitperiod},
-           given={Edward\bibnamedelima L.},
-           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=fd2ff63d468eeca54a3ed40025bb68ab}{%
-           family={Itoh},
-           familyi={I\bibinitperiod},
-           given={Tetsuji},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
-      \strng{fullhash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
-      \strng{bibnamehash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
-      \strng{authorbibnamehash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
-      \strng{authornamehash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
-      \strng{authorfullhash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A solution strategy is presented for the evaluation of frequencies and mode shapes for very large structural systems. The subspace iteration method is modified to calculate the eigenpairs in groups near different shift points. If the bandwidth is large and only a few vectors are required, the cost of factorization of the stiffness matrix will dominate and the standard subspace iteration method is effective. However, for the case where the bandwidth is of comparable size to the number of eigenvectors required, there is significant advantage to shifting and evaluating the eigenpairs in groups. It is demonstrated that a good approximation for the optimum number of iteration vectors is given by the square root of the bandwidth. Therefore, if 80 eigenpairs are required of a system with a bandwidth of 400, 20 iteration vectors would be used and the eigenpairs would be found in approximate groups of 10 near 8 shift points. In addition, for the solution of a special class of dynamic response problems, it has been shown that a direct superposition of Ritz vectors yields a more accurate solution than a superposition of the exact eigenvectors. Since this approach eliminates the need to solve for the exact eigenpairs the numerical algorithm, which automatically generates the series of orthogonal Ritz vectors, is presented as an alternative to the solution for the exert eigenpairs. The method does produce an approximate set of frequencies which are excited by a specified load pattern. {©} 1983.}
-      \field{issn}{00457949}
-      \field{journaltitle}{Computers and Structures}
-      \field{number}{1-4}
-      \field{title}{{An eigensolution strategy for large systems}}
-      \field{volume}{16}
-      \field{year}{1983}
-      \field{pages}{259\bibrangedash 265}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1016/0045-7949(83)90166-9
-      \endverb
-    \endentry
-    \entry{Wilson1997}{book}{}
-      \name{author}{1}{}{%
-        {{hash=1049d4a1478878c3cce8f5a95a85802e}{%
-           family={Wilson},
-           familyi={W\bibinitperiod},
-           given={Edward\bibnamedelima L.},
-           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Computers}%
-        {Structures Incorporated}%
-      }
-      \strng{namehash}{1049d4a1478878c3cce8f5a95a85802e}
-      \strng{fullhash}{1049d4a1478878c3cce8f5a95a85802e}
-      \strng{bibnamehash}{1049d4a1478878c3cce8f5a95a85802e}
-      \strng{authorbibnamehash}{1049d4a1478878c3cce8f5a95a85802e}
-      \strng{authornamehash}{1049d4a1478878c3cce8f5a95a85802e}
-      \strng{authorfullhash}{1049d4a1478878c3cce8f5a95a85802e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Static and Dynamic Analysis of Structures: A Physical Approach with Emphasis on Earthquake Engineering}}
-      \field{year}{2004}
-      \field{pages}{Ch.19}
-      \range{pages}{-1}
-    \endentry
-    \entry{Fialko2000}{article}{}
-      \name{author}{1}{}{%
-        {{hash=fc71dc222b6614b145fa52e8eac1c63c}{%
-           family={Fialko},
-           familyi={F\bibinitperiod},
-           given={Sergey},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{fc71dc222b6614b145fa52e8eac1c63c}
-      \strng{fullhash}{fc71dc222b6614b145fa52e8eac1c63c}
-      \strng{bibnamehash}{fc71dc222b6614b145fa52e8eac1c63c}
-      \strng{authorbibnamehash}{fc71dc222b6614b145fa52e8eac1c63c}
-      \strng{authornamehash}{fc71dc222b6614b145fa52e8eac1c63c}
-      \strng{authorfullhash}{fc71dc222b6614b145fa52e8eac1c63c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The article presents the high-performance Ritz-gradient method for the finite element (FE) dynamic response analysis. It is based on the generation of the orthogonal system of the basis vectors. The gradient approach with two-level aggregation preconditioning on the base of element-by-element technique is applied to minimize the Rayleigh quotient for the preparation of each basis vector. It ensures the evolution of the regular basis vector toward the lowest eigenmode without aggregating and decomposing the large-scale stiffness matrix. Such method often happens to be more effective for dynamic response analysis, when compared to the classical modal superposition method, especially for seismic response analysis of the large-scale sparse eigenproblems. The proposed method allows one to apply arbitrary types of finite elements due to aggregation approach, and ensures fast problem solution without considerable exigencies concerning the disk storage space required, which is due to the use of EBE technique. This solver is implemented in commercial programs Robot V6 and Robot97 (software firm RoboBAT) for the seismic analysis of large-scale sparse problems and it is particularly effective when the consistent mass matrix is used.}
-      \field{issn}{1232308X}
-      \field{journaltitle}{Computer Assisted Mechanics and Engineering Sciences}
-      \field{number}{4}
-      \field{title}{{High-performance aggregation element-by-element Ritz-gradient method for structure dynamic response analysis}}
-      \field{volume}{7}
-      \field{year}{2000}
-      \field{pages}{537\bibrangedash 550}
-      \range{pages}{14}
-    \endentry
-    \entry{Papadrakakis1993}{book}{}
-      \name{author}{1}{}{%
-        {{hash=e4c3867cfad17e2c4339f7e81aa72145}{%
-           family={Hermann},
-           familyi={H\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{e4c3867cfad17e2c4339f7e81aa72145}
-      \strng{fullhash}{e4c3867cfad17e2c4339f7e81aa72145}
-      \strng{bibnamehash}{e4c3867cfad17e2c4339f7e81aa72145}
-      \strng{authorbibnamehash}{e4c3867cfad17e2c4339f7e81aa72145}
-      \strng{authornamehash}{e4c3867cfad17e2c4339f7e81aa72145}
-      \strng{authorfullhash}{e4c3867cfad17e2c4339f7e81aa72145}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Computer Methods in Applied Mechanics and Engineering}
-      \field{issn}{00457825}
-      \field{number}{1-2}
-      \field{title}{{Solving large-scale problems in mechanics}}
-      \field{volume}{114}
-      \field{year}{1994}
-      \field{pages}{189\bibrangedash 190}
-      \range{pages}{2}
-      \verb{doi}
-      \verb 10.1016/0045-7825(94)90169-4
-      \endverb
-    \endentry
-    \entry{Caughey1961}{article}{}
-      \name{author}{2}{}{%
-        {{hash=5d4850302349f210960aa4716aa9d8cf}{%
-           family={Caughey},
-           familyi={C\bibinitperiod},
-           given={T.\bibnamedelimi K.},
-           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=6f59406f922f49bc39799b0f057187ae}{%
-           family={O'Kelly},
-           familyi={O\bibinitperiod},
-           given={M.\bibnamedelimi E.\bibnamedelimi J.},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{e1cc90a862c66283e80ab4cf620bab2c}
-      \strng{fullhash}{e1cc90a862c66283e80ab4cf620bab2c}
-      \strng{bibnamehash}{e1cc90a862c66283e80ab4cf620bab2c}
-      \strng{authorbibnamehash}{e1cc90a862c66283e80ab4cf620bab2c}
-      \strng{authornamehash}{e1cc90a862c66283e80ab4cf620bab2c}
-      \strng{authorfullhash}{e1cc90a862c66283e80ab4cf620bab2c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0001-4966}
-      \field{journaltitle}{Journal of Acoustical Society of America}
-      \field{number}{11}
-      \field{title}{{Effect of Damping on the Natural Frequencies of Linear Dynamic Systems}}
-      \field{volume}{33}
-      \field{year}{1961}
-      \field{pages}{1458\bibrangedash 1461}
-      \range{pages}{4}
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Caughey, O'Kelly - 1961 - Effect of Damping on the Natural Frequencies of Linear Dynamic Systems.pdf:pdf
-      \endverb
-    \endentry
-    \entry{Inman1995}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=26a229af3cb54093613e2fa7b30d3298}{%
-           family={Inman},
-           familyi={I\bibinitperiod},
-           given={Daniel\bibnamedelima J},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=f0c1d7f4deb2d6cd2c14a0e33f56c3d9}{%
-           family={Lallement},
-           familyi={L\bibinitperiod},
-           given={Gerard},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{58eff64bc6f391476caee8145c40c496}
-      \strng{fullhash}{58eff64bc6f391476caee8145c40c496}
-      \strng{bibnamehash}{58eff64bc6f391476caee8145c40c496}
-      \strng{authorbibnamehash}{58eff64bc6f391476caee8145c40c496}
-      \strng{authornamehash}{58eff64bc6f391476caee8145c40c496}
-      \strng{authorfullhash}{58eff64bc6f391476caee8145c40c496}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This tutorial examines the nature of natural frequencies and damping ratios for systems with nonproportional damping from first principles. Computational schemes are discussed for the numerical determination of complex eigenvalues. A common misunderstanding of the nature of the natural frequency of a nonproportionally damped system is discussed and illustrated through numerical simulations.}
-      \field{booktitle}{Proceedings of SPIE - The International Society for Optical Engineering}
-      \field{number}{January 1995}
-      \field{title}{{A Tutorial on Complex Eigenvalues}}
-      \field{year}{1995}
-      \field{pages}{7}
-      \range{pages}{1}
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Inman, Lallement - 1995 - A Tutorial on Complex Eigenvalues.pdf:pdf
-      \endverb
-    \endentry
-    \entry{Clough1975}{book}{}
-      \name{author}{1}{}{%
-        {{hash=5efecf3af40face505d7de8641966771}{%
-           family={Arros},
-           familyi={A\bibinitperiod},
-           given={Jorma\bibnamedelima K.},
-           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {McGraw-Hill}%
-      }
-      \strng{namehash}{5efecf3af40face505d7de8641966771}
-      \strng{fullhash}{5efecf3af40face505d7de8641966771}
-      \strng{bibnamehash}{5efecf3af40face505d7de8641966771}
-      \strng{authorbibnamehash}{5efecf3af40face505d7de8641966771}
-      \strng{authornamehash}{5efecf3af40face505d7de8641966771}
-      \strng{authorfullhash}{5efecf3af40face505d7de8641966771}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The essence of earthquake effects on structures is the dynamic nature of earthquake loading. This section provides an overview of the dynamics of structures, as a foundation for succeeding sections. Mechanics as a branch of physics is subdivided into statics and dynamics. Statics studies systems in static equilibrium, i.e., in a state where the system internal forces counterbalance external forces acting on the system.}
-      \field{annotation}{From Duplicate 1 (Dynamics of structures - Clough, Ray W; Penzien, Joseph) Includes index}
-      \field{booktitle}{Earthquake Engineering Handbook}
-      \field{isbn}{9781420042443}
-      \field{issn}{0315-1468}
-      \field{title}{{Dynamics of structures}}
-      \field{year}{2002}
-      \field{pages}{3--1--3\bibrangedash 40}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1139/l90-078
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Clough, Penzien - 1975 - Dynamics of structures.pdf:pdf
-      \endverb
-      \keyw{Structural dynamics}
-    \endentry
-    \entry{Bajer2012}{book}{}
-      \name{author}{2}{}{%
-        {{hash=4ae35e3d04d61df0097b6b30d9c9c3ae}{%
-           family={Bajer},
-           familyi={B\bibinitperiod},
-           given={Czes{ł}aw\bibnamedelima I.},
-           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=82165abe02171ddade482dc92316bf24}{%
-           family={Dyniewicz},
-           familyi={D\bibinitperiod},
-           given={Bartomiej},
-           giveni={B\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Heidelberg}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{dccf1fa0e2d217e65c59f88403855ff7}
-      \strng{fullhash}{dccf1fa0e2d217e65c59f88403855ff7}
-      \strng{bibnamehash}{dccf1fa0e2d217e65c59f88403855ff7}
-      \strng{authorbibnamehash}{dccf1fa0e2d217e65c59f88403855ff7}
-      \strng{authornamehash}{dccf1fa0e2d217e65c59f88403855ff7}
-      \strng{authorfullhash}{dccf1fa0e2d217e65c59f88403855ff7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Lecture Notes in Applied and Computational Mechanics}
-      \field{isbn}{9783642295478}
-      \field{issn}{16137736}
-      \field{title}{{Numerical analysis of vibrations of structures under moving inertial load}}
-      \field{volume}{65 LNAC}
-      \field{year}{2012}
-      \field{pages}{1\bibrangedash 294}
-      \range{pages}{294}
-      \verb{doi}
-      \verb 10.1007/978-3-642-29548-5
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bajer, Dyniewicz - 2012 - Numerical Analysis of Vibrations of Structures under Moving Inertial Load.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://files/876/Bajer i Dyniewicz - 2012 - Numerical Analysis of Vibrations of Structures und.pdf
-      \endverb
-      \verb{url}
-      \verb http://files/876/Bajer%20i%20Dyniewicz%20-%202012%20-%20Numerical%20Analysis%20of%20Vibrations%20of%20Structures%20und.pdf
-      \endverb
-      \keyw{Live loads}
-    \endentry
-    \entry{Humar1974}{article}{}
-      \name{author}{2}{}{%
-        {{hash=66d4a53ad1732f0848623e2aa79ad7a0}{%
-           family={Humar},
-           familyi={H\bibinitperiod},
-           given={J.\bibnamedelimi L.},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=f31531cd93cbc7c8301b4356d7564c33}{%
-           family={Wright},
-           familyi={W\bibinitperiod},
-           given={E.\bibnamedelimi W.},
-           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{7449e1fad0bd447f57514979178a031d}
-      \strng{fullhash}{7449e1fad0bd447f57514979178a031d}
-      \strng{bibnamehash}{7449e1fad0bd447f57514979178a031d}
-      \strng{authorbibnamehash}{7449e1fad0bd447f57514979178a031d}
-      \strng{authornamehash}{7449e1fad0bd447f57514979178a031d}
-      \strng{authorfullhash}{7449e1fad0bd447f57514979178a031d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A systematic method is presented for the derivation of single-point and multiple-point predictor-corrector formulas. It is shown that for problems in structural dynamics, it is not necessary to use an iterative scheme; a process of elimination is feasible and also gives considerable economy in computation time. It is further shown that the choice of an appropriate multi-point method for the numerical integration of the equations of motion of an elastic system can lead to a considerable saving in computation time and cost. One such multi-point method is presented, and its truncation error and stability are examined.}
-      \field{issn}{03151468}
-      \field{journaltitle}{Canadian Journal of Civil Engineering}
-      \field{number}{2}
-      \field{title}{{Numerical Methods in Structural Dynamics.}}
-      \field{volume}{1}
-      \field{year}{1974}
-      \field{pages}{179\bibrangedash 193}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1139/l74-017
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Humar, Wright - 1974 - Numerical Methods in Structural Dynamics.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.nrcresearchpress.com/doi/10.1139/l74-017 http://files/242/Humar i Wright - 1974 - Numerical Methods in Structural Dynamics.pdf
-      \endverb
-      \verb{url}
-      \verb http://www.nrcresearchpress.com/doi/10.1139/l74-017%20http://files/242/Humar%20i%20Wright%20-%201974%20-%20Numerical%20Methods%20in%20Structural%20Dynamics.pdf
-      \endverb
-    \endentry
-    \entry{Newmark1959}{article}{}
-      \name{author}{1}{}{%
-        {{hash=e684cea7463067aba1447124b8024837}{%
-           family={Newmark},
-           familyi={N\bibinitperiod},
-           given={Nathan\bibnamedelima M.},
-           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {ASCE}%
-      }
-      \strng{namehash}{e684cea7463067aba1447124b8024837}
-      \strng{fullhash}{e684cea7463067aba1447124b8024837}
-      \strng{bibnamehash}{e684cea7463067aba1447124b8024837}
-      \strng{authorbibnamehash}{e684cea7463067aba1447124b8024837}
-      \strng{authornamehash}{e684cea7463067aba1447124b8024837}
-      \strng{authorfullhash}{e684cea7463067aba1447124b8024837}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0066-0604}
-      \field{journaltitle}{Journal of the Engineering Mechanics Division}
-      \field{number}{2094}
-      \field{title}{{Method of Computation for Structural Dynamics.}}
-      \field{year}{1959}
-      \field{pages}{68\bibrangedash 94}
-      \range{pages}{27}
-      \verb{doi}
-      \verb 10.1061/taceat.0008448
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Newmark - 1959 - Method of Computation for Structural Dynamics.pdf:pdf
-      \endverb
-    \endentry
-    \entry{Salamak2003}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=895374e0762d8f004e34eb80e36bb5ff}{%
-           family={Salamak},
-           familyi={S\bibinitperiod},
-           given={Marek},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{895374e0762d8f004e34eb80e36bb5ff}
-      \strng{fullhash}{895374e0762d8f004e34eb80e36bb5ff}
-      \strng{bibnamehash}{895374e0762d8f004e34eb80e36bb5ff}
-      \strng{authorbibnamehash}{895374e0762d8f004e34eb80e36bb5ff}
-      \strng{authornamehash}{895374e0762d8f004e34eb80e36bb5ff}
-      \strng{authorfullhash}{895374e0762d8f004e34eb80e36bb5ff}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{annotation}{From Duplicate 2 (Doświadczalne metody określania poziomu t{ł}umienia drgań w k{ł}adkach dla pieszych - Salamak, Marek) Accession Number: edsbas.3B29E20D; Contributors: Weseli, Jerzy. Promotor; Publication Type: Thesis; Language: Polish; Format: application/pdf; Publication Date: 20030101; Rights: w{ł}asność autora ; zasób dostȩpny wy{ł}ącznie z komputerów Biblioteki G{ł}ównej PŚl ; brak możliwości drukowania i edycji dokumentu; Imprint: Poland, Europe: [s.n.], 2003. Related Material: oai:delibra.bg.polsl.pl:publication:4703 Related Material: Wydzia{ł} Budownictwa. Politechnika Śląska}
-      \field{booktitle}{Rozprawa doktorska}
-      \field{title}{{Doświadczalne metody określania poziomu t{ł}umienia drgań w k{ł}adkach dla pieszych}}
-      \field{type}{phdthesis}
-      \field{year}{2003}
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Salamak - 2003 - Do{\'{s}}wiadczalne metody okre{\'{s}}lania poziomu t{\l}umienia drga{\'{n}} w k{\l}adkach dla pieszych.pdf:pdf
-      \endverb
-      \keyw{badania,dynamika,k{ł}adka,t{ł}umienie}
-    \endentry
-    \entry{Salamak2007}{article}{}
-      \name{author}{1}{}{%
-        {{hash=940a6af799d57613719938139e048bc7}{%
-           family={Salamak},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{940a6af799d57613719938139e048bc7}
-      \strng{fullhash}{940a6af799d57613719938139e048bc7}
-      \strng{bibnamehash}{940a6af799d57613719938139e048bc7}
-      \strng{authorbibnamehash}{940a6af799d57613719938139e048bc7}
-      \strng{authornamehash}{940a6af799d57613719938139e048bc7}
-      \strng{authorfullhash}{940a6af799d57613719938139e048bc7}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Footbridges are characterised by relatively low mass and stiffness. Additionally, resonant reaction caused by pedestrians would make reliable determination of damping level a matter of great importance. In the case of such lightweight and pliant structures, the level of vibration occurring due to resonance phenomena would depend - firstly - on damping properties of those structures. Among the damping parameter identification methods practically used, logarithmic Decrement Technique (LDT) is the most common and the oldest method. However, would require isolation of time response with free decaying natural vibrations from a signal, which in many cases could be distorted by noise. In the case of perfect viscous damping, the exponential curve should ideally match the amplitude envelope. However, in actual structures, damping is non-linear. Therefore we would encounter the problem of determination of the time interval based on which logarithmic damping decrement should be established. Initial amplitude and the length of the interval would be important here, as well as the number of amplitudes taken into account. Identification method proposed here - FILDT (Fitting Index Lxjgarithmic Decrement Technique) - was based on the logarithmic decrement technique. The principal modification was determination of logarithmic damping decrement by fitting an exponential curve by means of the least squares method and by determination of so-called fitting index, which would enable unambiguous selection of logarithmic damping decrement value where damping is nonlinear. Moreover, sensitivity level is introduced, to enable elimination of values below given threshold value, expressed as percentage of the maximum value within analysed interval. This way, by adjustment of relevant sensitivity threshold, various numbers of amplitudes to be used for damping estimation may be isolated, within one time interval. Performed experiments have proven nonlinearity of damping. Logarithmic damping decrement depends on, among other things, initial amplitude, as well as on the number of amplitudes taken to make the estimation. If the number of amplitudes were too low, damping would be overestimated. Measurements taken on a low number of amplitudes should therefore be treated with caution. On the other hand, taking all amplitudes into account, particularly those of the lowest value, would result in large mean square error of the exponential curve fit. This means that damping was not linear and it would be difficult to interpret obtained results, as they would not fit assumed viscous model. Therefore, it would be advisable to work out a compromise by taking into account as many values of amplitude as possible, provided that the fitting error would be as low as possible. Such compromise could be achieved with proposed FILDT method.}
-      \field{issn}{12302945}
-      \field{journaltitle}{Archives of Civil Engineering}
-      \field{number}{3}
-      \field{title}{{Vibration damping identification maximizing adjustment to viscous model in civil structures}}
-      \field{volume}{53}
-      \field{year}{2007}
-      \field{pages}{497\bibrangedash 518}
-      \range{pages}{22}
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Salamak - 2007 - Vibration damping identification maximizing adjustment to viscous model in civil structures.pdf:pdf
-      \endverb
-      \keyw{Damping,Dynamics,Footbridges,Vibration}
-    \endentry
-    \entry{Bachmann2012}{book}{}
-      \name{author}{15}{}{%
-        {{hash=2c70fedf28ba64f78804e9cfbd0755da}{%
-           family={Bachmann},
-           familyi={B\bibinitperiod},
-           given={Hugo},
-           giveni={H\bibinitperiod}}}%
-        {{hash=ef40326e045d52bf5924e293287af5c0}{%
-           family={Ammann},
-           familyi={A\bibinitperiod},
-           given={Walter\bibnamedelima J.},
-           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=6623fd56cc5a6a1e93144005d9440697}{%
-           family={Deischl},
-           familyi={D\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod}}}%
-        {{hash=8f13a9cecf11baacdac72f650416b088}{%
-           family={Eisenmann},
-           familyi={E\bibinitperiod},
-           given={Josef},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d465680cedeaa7151ca7b4787a09ae82}{%
-           family={Floegl},
-           familyi={F\bibinitperiod},
-           given={Ingomar},
-           giveni={I\bibinitperiod}}}%
-        {{hash=56dee1412806030d994c4277858688ea}{%
-           family={Hirsch},
-           familyi={H\bibinitperiod},
-           given={Gerhard\bibnamedelima H.},
-           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=bc7591ff2421964047f1740a6ae02f94}{%
-           family={Klein},
-           familyi={K\bibinitperiod},
-           given={Günter\bibnamedelima K.},
-           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=0e30d8b5265aff998c41bf0f1573154f}{%
-           family={Lande},
-           familyi={L\bibinitperiod},
-           given={Göran\bibnamedelima J.},
-           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=0b0d1c437c95aec9eed941ce6ce70a69}{%
-           family={Mahrenholtz},
-           familyi={M\bibinitperiod},
-           given={Oskar},
-           giveni={O\bibinitperiod}}}%
-        {{hash=3ab909a2d7584514e68d27cdc2541c12}{%
-           family={Natke},
-           familyi={N\bibinitperiod},
-           given={Hans\bibnamedelima G.},
-           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=bb37db0ec1dd97e76ea512cf713fa587}{%
-           family={Nussbaumer},
-           familyi={N\bibinitperiod},
-           given={Hans},
-           giveni={H\bibinitperiod}}}%
-        {{hash=606706d59365defd970709cded626e31}{%
-           family={Pretlove},
-           familyi={P\bibinitperiod},
-           given={Anthony\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=3e0b27b24248f384661d51c57da7517f}{%
-           family={Rainer},
-           familyi={R\bibinitperiod},
-           given={Johann\bibnamedelima H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=6aae24c2803bc5caf24f99870fb6247f}{%
-           family={Saemann},
-           familyi={S\bibinitperiod},
-           given={Ernst-Ulrich},
-           giveni={E\bibinithyphendelim U\bibinitperiod}}}%
-        {{hash=7749ff211021c79cb48fc9c52e6e827c}{%
-           family={Steinbeisser},
-           familyi={S\bibinitperiod},
-           given={Lorenz},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{publisher}{1}{%
-        {Birkhäuser}%
-      }
-      \strng{namehash}{32d374d3e49ebce36a09325dc8100a52}
-      \strng{fullhash}{dd99f7cf0bd5820310866ef4e05960d8}
-      \strng{bibnamehash}{32d374d3e49ebce36a09325dc8100a52}
-      \strng{authorbibnamehash}{32d374d3e49ebce36a09325dc8100a52}
-      \strng{authornamehash}{32d374d3e49ebce36a09325dc8100a52}
-      \strng{authorfullhash}{dd99f7cf0bd5820310866ef4e05960d8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Large structures such as factories, gymnasia, concert halls, bridges, towers, masts and chimneys can be detrimentally affected by vibrations. These vibrations can cause either serviceability problems, severely hampering the user's comfort, or safety problems. The aim of this book is to provide structural and civil engineers working in construction and environmental engineering with practical guidelines for counteracting vibration problems. Dynamic actions are considered from the following sources of vibration: - human body motions, - rotating, oscillating and impacting machines, - wind flow, - road traffic, railway traffic and construction work. The main section of the book presents tools that aid in decision-making and in deriving simple solutions to cases of frequently occurring "normal" vibration problems. Complexer problems and more advanced solutions are also considered. In all cases these guidelines should enable the engineer to decide on appropriate solutions expeditiously. The appendices of the book contain fundamentals essential to the main chapters. 1 Vibrations induced by people -- 1.1 Pedestrian bridges -- 1.2 Floors with walking people -- 1.3 Floors for sport or dance activities -- 1.4 Floors with fixed seating and spectator galleries -- 1.5 High-diving platforms -- References to Chapter 1 -- 2 Machinery-induced vibrations -- 2.1 Machine foundations and supports -- 2.2 Bell towers -- 2.3 Structure-borne sound -- 2.4 Ground-transmitted vibrations -- References to Chapter 2 -- 3 Wind-induced vibrations -- 3.1 Buildings -- 3.2 Towers -- 3.3 Chimneys and Masts -- 3.4 Guyed Masts -- 3.5 Pylons -- 3.6 Suspension and Cable-Stayed Bridges -- 3.7 Cantilevered Roofs -- References to Chapter 3 -- 4 Vibrations induced by traffic and construction activity -- 4.1 Roads -- 4.2 Railways -- 4.3 Bridges -- 4.4 Construction Work -- References to Chapter 4 -- A Basic vibration theory and its application to beams and plates -- A.1 Free vibration -- A.2 Forced vibration -- A.3 Harmonic excitation -- A.4 Periodic excitation -- A.4.1 Fourier analysis of the forcing function -- A.4.2 How the Fourier decomposition works -- A.4.3 The Fourier Transform -- A.5 Tuning of a structure -- A.6 Impedance -- A.7 Vibration Isolation (Transmissibility) -- A.8 Continuous systems and their equivalent SDOF systems -- B Decibel Scales -- B.1 Sound pressure level -- B.2 Weighting of the sound pressure level -- C Damping -- C.1 Introduction -- C.2 Damping Quantities (Definitions, Interpretations) -- C.3 Measurement of damping properties of structures -- C.3.1 Decay curve method -- C.3.2 Bandwidth method -- C.3.3 Conclusions -- C.4 Damping mechanisms in reinforced concrete -- C.5 Overall damping of a structure -- C.5.1 Damping of the bare structure -- C.5.2 Damping by non-structural elements -- C.5.3 Damping by energy radiation to the soil -- C.5.4 Overall damping -- D Tuned vibration absorbers -- D.1 Definition -- D.2 Modelling and differential equations of motion -- D.3 Optimum tuning and optimum damping of the absorber -- D.4 Practical hints -- E Wave Propagation -- E.1 Introduction -- E.2 Wave types and propagation velocities -- E.3 Attenuation laws -- F Behaviour of concrete and steel under dynamic actions -- F.1 Introduction -- F.2 Behaviour of concrete -- F.2.1 Modulus of elasticity -- F.2.2 Compressive strength -- F.2.3 Ultimate strain in compression -- F.2.4 Tensile strength -- F.2.5 Ultimate strain in tension -- F.2.6 Bond between reinforcing steel and concrete -- F.3 Behaviour of reinforcing steel -- F.3.1 Modulus of Elasticity -- F.3.2 Strength in Tension -- F.3.3 Strain in tension -- G Dynamic forces from rhythmical human body motions -- G.1 Rhythmical human body motions -- G.2 Representative types of activity -- G.3 Normalised dynamic forces -- H Dynamic effects from wind -- H.1 Basic theory -- H.l.1 Wind speed and pressure -- H.l.2 Statistical characteristics -- a) Gust spectrum -- b) Aerodynamic admittance function -- c) Spectral density of the wind force -- H.1.3 Dynamic effects -- H.2 Vibrations in along-wind direction induced by gusts -- H.2.1 Spectral methods -- a) Mechanical amplification function -- b) Spectral density of the system response -- H.2.2 Static equivalent force method based on stochastic loading -- H.2.3 Static equivalent force method based on deterministic loading -- H.2.4 Remedial measures -- H.3 Vibrations in along-wind direction induced by buffeting -- H.4 Vibrations in across-wind direction induced by vortex-shedding -- H.4.1 Single structures -- H.4.2 Several structures one behind another -- H.4.3 Conical structures -- H.4.4 Vibrations of shells -- H.5 Vibrations in across-wind direction: Galloping -- H.6 Vibrations in across-wind direction: flutter -- H.7 Damping of high and slender RC structures subjected to wind -- I Human response to vibrations -- I.1 Introduction -- I.2 Codes of practice -- I.2.1 ISO 2631 -- I.2.2 DIN 4150/2 -- J Building response to vibrations -- J.1 General -- J.2 Examples of recommended limit values -- References to the Appendices -- List of Codes and Standards.}
-      \field{booktitle}{Vibration Problems in Structures}
-      \field{isbn}{978-3-0348-9231-5}
-      \field{title}{{Vibration Problems in Structures}}
-      \field{year}{1995}
-      \field{pages}{1\bibrangedash 248}
-      \range{pages}{248}
-      \verb{doi}
-      \verb 10.1007/978-3-0348-9231-5
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bachmann et al. - 1995 - Vibration Problems in Structures.pdf:pdf
-      \endverb
-      \keyw{Science / Mechanics / Dynamics,Technology {\&} Engineering / Construction / General,Technology {\&} Engineering / Construction / Heating,Technology {\&} Engineering / Engineering (General),Technology {\&} Engineering / General,Technology {\&} Engineering / Manufacturing,Technology {\&} Engineering / Mechanical}
-    \endentry
-    \entry{Yamaguchi1997}{article}{}
-      \name{author}{2}{}{%
-        {{hash=8b72c2fc0659c20078b22fb594e43e4c}{%
-           family={Yamaguchi},
-           familyi={Y\bibinitperiod},
-           given={Hiroki},
-           giveni={H\bibinitperiod}}}%
-        {{hash=43f81c67b0869ad1ae1625fb3da6375c}{%
-           family={Ito},
-           familyi={I\bibinitperiod},
-           given={Manabu},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{1350badf96f578c77d9510461640ee68}
-      \strng{fullhash}{1350badf96f578c77d9510461640ee68}
-      \strng{bibnamehash}{1350badf96f578c77d9510461640ee68}
-      \strng{authorbibnamehash}{1350badf96f578c77d9510461640ee68}
-      \strng{authornamehash}{1350badf96f578c77d9510461640ee68}
-      \strng{authorfullhash}{1350badf96f578c77d9510461640ee68}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The field measured data of damping, available in the literature on vibration studies of cable-stayed bridges in Japan, is examined in detail, in order to investigate the characteristics of modal damping. Mode dependency of structural damping is focused in the present investigations. An analytical method for the estimation of modal damping is also introduced and some analytical discussions on the mode dependency of damping are added based on the energy considerations. It is concluded through this study that the modal damping of cable-stayed bridges is highly dependent on the coupling characteristics of mode shapes, and that this could be caused by the modal strain energy distribution which is different for different modes.}
-      \field{issn}{01676105}
-      \field{journaltitle}{Journal of Wind Engineering and Industrial Aerodynamics}
-      \field{number}{1-3}
-      \field{title}{{Mode-dependence of structural damping in cable-stayed bridges}}
-      \field{volume}{72}
-      \field{year}{1997}
-      \field{pages}{289\bibrangedash 300}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1016/S0167-6105(97)00249-3
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Yamaguchi, Ito - 1997 - Mode-dependence of structural damping in cable-stayed bridges.pdf:pdf
-      \endverb
-      \keyw{Cable-stayed bridge,Energy-based evaluation,Structural damping,Wind resistant design}
-    \endentry
     \entry{Norton2009}{book}{}
       \name{author}{2}{}{%
         {{hash=97644c092329d9319a761bdd7828decb}{%
@@ -6430,6 +5760,676 @@
       \field{year}{2014}
       \field{pages}{149}
       \range{pages}{1}
+    \endentry
+    \entry{Golub2013}{book}{}
+      \name{author}{2}{}{%
+        {{hash=8b856da92ad549d323acc679ecf7f474}{%
+           family={Golub},
+           familyi={G\bibinitperiod},
+           given={Gene\bibnamedelima H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=995bdd2b0481ec3adaa65f41e5c1c178}{%
+           family={Loan},
+           familyi={L\bibinitperiod},
+           given={Charles\bibnamedelimb F.\bibnamedelimi Van},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Baltimore}%
+      }
+      \list{publisher}{1}{%
+        {Johns Hopkins}%
+      }
+      \strng{namehash}{9607677caf4976d66a0916df1c40fb87}
+      \strng{fullhash}{9607677caf4976d66a0916df1c40fb87}
+      \strng{bibnamehash}{9607677caf4976d66a0916df1c40fb87}
+      \strng{authorbibnamehash}{9607677caf4976d66a0916df1c40fb87}
+      \strng{authornamehash}{9607677caf4976d66a0916df1c40fb87}
+      \strng{authorfullhash}{9607677caf4976d66a0916df1c40fb87}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Livre surtout sur la solution d'équations linéaires et la détermination de valeurs et vecteurs propres de matrices. Peter.}
+      \field{booktitle}{Mathematics of Computation}
+      \field{issn}{00255718}
+      \field{title}{{Matrix Computations.}}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 780}
+      \range{pages}{780}
+      \verb{doi}
+      \verb 10.2307/2008552
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Golub, Loan - 2013 - Matrix Computations.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Bathe2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3e7be86cceb8ca7637838d291658582b}{%
+           family={{Bathe K J.}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{3e7be86cceb8ca7637838d291658582b}
+      \strng{fullhash}{3e7be86cceb8ca7637838d291658582b}
+      \strng{bibnamehash}{3e7be86cceb8ca7637838d291658582b}
+      \strng{authorbibnamehash}{3e7be86cceb8ca7637838d291658582b}
+      \strng{authornamehash}{3e7be86cceb8ca7637838d291658582b}
+      \strng{authorfullhash}{3e7be86cceb8ca7637838d291658582b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BASIC APPROACH: Comprehensive -- this text explores the "full range" of finite element methods used in engineering practice for actual applications in computer-aided design. It provides not only an introduction to finite element methods and the commonality in the various techniques, but explores state-of-the-art methods as well -- with a focus on what are deemed to become "classical techniques" -- procedures that will be "standard and authoritative" for finite element analysis for years to come. FEATURES: presents in sufficient depth and breadth elementary concepts AND advanced techniques in statics, dynamics, solids, fluids, linear and nonlinear analysis. emphasizes both the physical and mathematical characteristics of procedures. presents some important mathematical conditions on finite element procedures. contains an abundance of worked-out examples and various complete program listings. includes many exercises/projects that often require the use of a computer program.}
+      \field{edition}{Second}
+      \field{isbn}{0133014584}
+      \field{title}{{Finite Element Procedures}}
+      \field{year}{2006}
+      \field{pages}{1037}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bathe K J. - 2006 - Finite Element Procedures.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://books.google.com/books?id=wKRRAAAAMAAJ{\&}pgis=1{\%}5Cnftp://ftp.demec.ufpr.br/disciplinas/EME748/Textos/Bathe, K.-J. - Finite Element Procedures - 1996 - Prentice-Hall - ISBN 0133014584 - 1052s.pdf
+      \endverb
+      \verb{url}
+      \verb http://books.google.com/books?id=wKRRAAAAMAAJ%7B%5C&%7Dpgis=1%7B%5C%%7D5Cnftp://ftp.demec.ufpr.br/disciplinas/EME748/Textos/Bathe,%20K.-J.%20-%20Finite%20Element%20Procedures%20-%201996%20-%20Prentice-Hall%20-%20ISBN%200133014584%20-%201052s.pdf
+      \endverb
+    \endentry
+    \entry{Wilson1983}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1049d4a1478878c3cce8f5a95a85802e}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Edward\bibnamedelima L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=fd2ff63d468eeca54a3ed40025bb68ab}{%
+           family={Itoh},
+           familyi={I\bibinitperiod},
+           given={Tetsuji},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
+      \strng{fullhash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
+      \strng{bibnamehash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
+      \strng{authorbibnamehash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
+      \strng{authornamehash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
+      \strng{authorfullhash}{0ffb5b0caa6a0e6c692e2cb391ac2e4b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A solution strategy is presented for the evaluation of frequencies and mode shapes for very large structural systems. The subspace iteration method is modified to calculate the eigenpairs in groups near different shift points. If the bandwidth is large and only a few vectors are required, the cost of factorization of the stiffness matrix will dominate and the standard subspace iteration method is effective. However, for the case where the bandwidth is of comparable size to the number of eigenvectors required, there is significant advantage to shifting and evaluating the eigenpairs in groups. It is demonstrated that a good approximation for the optimum number of iteration vectors is given by the square root of the bandwidth. Therefore, if 80 eigenpairs are required of a system with a bandwidth of 400, 20 iteration vectors would be used and the eigenpairs would be found in approximate groups of 10 near 8 shift points. In addition, for the solution of a special class of dynamic response problems, it has been shown that a direct superposition of Ritz vectors yields a more accurate solution than a superposition of the exact eigenvectors. Since this approach eliminates the need to solve for the exact eigenpairs the numerical algorithm, which automatically generates the series of orthogonal Ritz vectors, is presented as an alternative to the solution for the exert eigenpairs. The method does produce an approximate set of frequencies which are excited by a specified load pattern. {©} 1983.}
+      \field{issn}{00457949}
+      \field{journaltitle}{Computers and Structures}
+      \field{number}{1-4}
+      \field{title}{{An eigensolution strategy for large systems}}
+      \field{volume}{16}
+      \field{year}{1983}
+      \field{pages}{259\bibrangedash 265}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/0045-7949(83)90166-9
+      \endverb
+    \endentry
+    \entry{Wilson1997}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1049d4a1478878c3cce8f5a95a85802e}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Edward\bibnamedelima L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Computers}%
+        {Structures Incorporated}%
+      }
+      \strng{namehash}{1049d4a1478878c3cce8f5a95a85802e}
+      \strng{fullhash}{1049d4a1478878c3cce8f5a95a85802e}
+      \strng{bibnamehash}{1049d4a1478878c3cce8f5a95a85802e}
+      \strng{authorbibnamehash}{1049d4a1478878c3cce8f5a95a85802e}
+      \strng{authornamehash}{1049d4a1478878c3cce8f5a95a85802e}
+      \strng{authorfullhash}{1049d4a1478878c3cce8f5a95a85802e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Static and Dynamic Analysis of Structures: A Physical Approach with Emphasis on Earthquake Engineering}}
+      \field{year}{2004}
+      \field{pages}{Ch.19}
+      \range{pages}{-1}
+    \endentry
+    \entry{Fialko2000}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fc71dc222b6614b145fa52e8eac1c63c}{%
+           family={Fialko},
+           familyi={F\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc71dc222b6614b145fa52e8eac1c63c}
+      \strng{fullhash}{fc71dc222b6614b145fa52e8eac1c63c}
+      \strng{bibnamehash}{fc71dc222b6614b145fa52e8eac1c63c}
+      \strng{authorbibnamehash}{fc71dc222b6614b145fa52e8eac1c63c}
+      \strng{authornamehash}{fc71dc222b6614b145fa52e8eac1c63c}
+      \strng{authorfullhash}{fc71dc222b6614b145fa52e8eac1c63c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The article presents the high-performance Ritz-gradient method for the finite element (FE) dynamic response analysis. It is based on the generation of the orthogonal system of the basis vectors. The gradient approach with two-level aggregation preconditioning on the base of element-by-element technique is applied to minimize the Rayleigh quotient for the preparation of each basis vector. It ensures the evolution of the regular basis vector toward the lowest eigenmode without aggregating and decomposing the large-scale stiffness matrix. Such method often happens to be more effective for dynamic response analysis, when compared to the classical modal superposition method, especially for seismic response analysis of the large-scale sparse eigenproblems. The proposed method allows one to apply arbitrary types of finite elements due to aggregation approach, and ensures fast problem solution without considerable exigencies concerning the disk storage space required, which is due to the use of EBE technique. This solver is implemented in commercial programs Robot V6 and Robot97 (software firm RoboBAT) for the seismic analysis of large-scale sparse problems and it is particularly effective when the consistent mass matrix is used.}
+      \field{issn}{1232308X}
+      \field{journaltitle}{Computer Assisted Mechanics and Engineering Sciences}
+      \field{number}{4}
+      \field{title}{{High-performance aggregation element-by-element Ritz-gradient method for structure dynamic response analysis}}
+      \field{volume}{7}
+      \field{year}{2000}
+      \field{pages}{537\bibrangedash 550}
+      \range{pages}{14}
+    \endentry
+    \entry{Papadrakakis1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e4c3867cfad17e2c4339f7e81aa72145}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{e4c3867cfad17e2c4339f7e81aa72145}
+      \strng{fullhash}{e4c3867cfad17e2c4339f7e81aa72145}
+      \strng{bibnamehash}{e4c3867cfad17e2c4339f7e81aa72145}
+      \strng{authorbibnamehash}{e4c3867cfad17e2c4339f7e81aa72145}
+      \strng{authornamehash}{e4c3867cfad17e2c4339f7e81aa72145}
+      \strng{authorfullhash}{e4c3867cfad17e2c4339f7e81aa72145}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Computer Methods in Applied Mechanics and Engineering}
+      \field{issn}{00457825}
+      \field{number}{1-2}
+      \field{title}{{Solving large-scale problems in mechanics}}
+      \field{volume}{114}
+      \field{year}{1994}
+      \field{pages}{189\bibrangedash 190}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1016/0045-7825(94)90169-4
+      \endverb
+    \endentry
+    \entry{Caughey1961}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5d4850302349f210960aa4716aa9d8cf}{%
+           family={Caughey},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi K.},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6f59406f922f49bc39799b0f057187ae}{%
+           family={O'Kelly},
+           familyi={O\bibinitperiod},
+           given={M.\bibnamedelimi E.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1cc90a862c66283e80ab4cf620bab2c}
+      \strng{fullhash}{e1cc90a862c66283e80ab4cf620bab2c}
+      \strng{bibnamehash}{e1cc90a862c66283e80ab4cf620bab2c}
+      \strng{authorbibnamehash}{e1cc90a862c66283e80ab4cf620bab2c}
+      \strng{authornamehash}{e1cc90a862c66283e80ab4cf620bab2c}
+      \strng{authorfullhash}{e1cc90a862c66283e80ab4cf620bab2c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-4966}
+      \field{journaltitle}{Journal of Acoustical Society of America}
+      \field{number}{11}
+      \field{title}{{Effect of Damping on the Natural Frequencies of Linear Dynamic Systems}}
+      \field{volume}{33}
+      \field{year}{1961}
+      \field{pages}{1458\bibrangedash 1461}
+      \range{pages}{4}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Caughey, O'Kelly - 1961 - Effect of Damping on the Natural Frequencies of Linear Dynamic Systems.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Inman1995}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=26a229af3cb54093613e2fa7b30d3298}{%
+           family={Inman},
+           familyi={I\bibinitperiod},
+           given={Daniel\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f0c1d7f4deb2d6cd2c14a0e33f56c3d9}{%
+           family={Lallement},
+           familyi={L\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{58eff64bc6f391476caee8145c40c496}
+      \strng{fullhash}{58eff64bc6f391476caee8145c40c496}
+      \strng{bibnamehash}{58eff64bc6f391476caee8145c40c496}
+      \strng{authorbibnamehash}{58eff64bc6f391476caee8145c40c496}
+      \strng{authornamehash}{58eff64bc6f391476caee8145c40c496}
+      \strng{authorfullhash}{58eff64bc6f391476caee8145c40c496}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This tutorial examines the nature of natural frequencies and damping ratios for systems with nonproportional damping from first principles. Computational schemes are discussed for the numerical determination of complex eigenvalues. A common misunderstanding of the nature of the natural frequency of a nonproportionally damped system is discussed and illustrated through numerical simulations.}
+      \field{booktitle}{Proceedings of SPIE - The International Society for Optical Engineering}
+      \field{number}{January 1995}
+      \field{title}{{A Tutorial on Complex Eigenvalues}}
+      \field{year}{1995}
+      \field{pages}{7}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Inman, Lallement - 1995 - A Tutorial on Complex Eigenvalues.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Clough1975}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5efecf3af40face505d7de8641966771}{%
+           family={Arros},
+           familyi={A\bibinitperiod},
+           given={Jorma\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{5efecf3af40face505d7de8641966771}
+      \strng{fullhash}{5efecf3af40face505d7de8641966771}
+      \strng{bibnamehash}{5efecf3af40face505d7de8641966771}
+      \strng{authorbibnamehash}{5efecf3af40face505d7de8641966771}
+      \strng{authornamehash}{5efecf3af40face505d7de8641966771}
+      \strng{authorfullhash}{5efecf3af40face505d7de8641966771}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The essence of earthquake effects on structures is the dynamic nature of earthquake loading. This section provides an overview of the dynamics of structures, as a foundation for succeeding sections. Mechanics as a branch of physics is subdivided into statics and dynamics. Statics studies systems in static equilibrium, i.e., in a state where the system internal forces counterbalance external forces acting on the system.}
+      \field{annotation}{From Duplicate 1 (Dynamics of structures - Clough, Ray W; Penzien, Joseph) Includes index}
+      \field{booktitle}{Earthquake Engineering Handbook}
+      \field{isbn}{9781420042443}
+      \field{issn}{0315-1468}
+      \field{title}{{Dynamics of structures}}
+      \field{year}{2002}
+      \field{pages}{3--1--3\bibrangedash 40}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1139/l90-078
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Clough, Penzien - 1975 - Dynamics of structures.pdf:pdf
+      \endverb
+      \keyw{Structural dynamics}
+    \endentry
+    \entry{Bajer2012}{book}{}
+      \name{author}{2}{}{%
+        {{hash=4ae35e3d04d61df0097b6b30d9c9c3ae}{%
+           family={Bajer},
+           familyi={B\bibinitperiod},
+           given={Czes{ł}aw\bibnamedelima I.},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=82165abe02171ddade482dc92316bf24}{%
+           family={Dyniewicz},
+           familyi={D\bibinitperiod},
+           given={Bartomiej},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{dccf1fa0e2d217e65c59f88403855ff7}
+      \strng{fullhash}{dccf1fa0e2d217e65c59f88403855ff7}
+      \strng{bibnamehash}{dccf1fa0e2d217e65c59f88403855ff7}
+      \strng{authorbibnamehash}{dccf1fa0e2d217e65c59f88403855ff7}
+      \strng{authornamehash}{dccf1fa0e2d217e65c59f88403855ff7}
+      \strng{authorfullhash}{dccf1fa0e2d217e65c59f88403855ff7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Lecture Notes in Applied and Computational Mechanics}
+      \field{isbn}{9783642295478}
+      \field{issn}{16137736}
+      \field{title}{{Numerical analysis of vibrations of structures under moving inertial load}}
+      \field{volume}{65 LNAC}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 294}
+      \range{pages}{294}
+      \verb{doi}
+      \verb 10.1007/978-3-642-29548-5
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bajer, Dyniewicz - 2012 - Numerical Analysis of Vibrations of Structures under Moving Inertial Load.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://files/876/Bajer i Dyniewicz - 2012 - Numerical Analysis of Vibrations of Structures und.pdf
+      \endverb
+      \verb{url}
+      \verb http://files/876/Bajer%20i%20Dyniewicz%20-%202012%20-%20Numerical%20Analysis%20of%20Vibrations%20of%20Structures%20und.pdf
+      \endverb
+      \keyw{Live loads}
+    \endentry
+    \entry{Humar1974}{article}{}
+      \name{author}{2}{}{%
+        {{hash=66d4a53ad1732f0848623e2aa79ad7a0}{%
+           family={Humar},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f31531cd93cbc7c8301b4356d7564c33}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={E.\bibnamedelimi W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7449e1fad0bd447f57514979178a031d}
+      \strng{fullhash}{7449e1fad0bd447f57514979178a031d}
+      \strng{bibnamehash}{7449e1fad0bd447f57514979178a031d}
+      \strng{authorbibnamehash}{7449e1fad0bd447f57514979178a031d}
+      \strng{authornamehash}{7449e1fad0bd447f57514979178a031d}
+      \strng{authorfullhash}{7449e1fad0bd447f57514979178a031d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A systematic method is presented for the derivation of single-point and multiple-point predictor-corrector formulas. It is shown that for problems in structural dynamics, it is not necessary to use an iterative scheme; a process of elimination is feasible and also gives considerable economy in computation time. It is further shown that the choice of an appropriate multi-point method for the numerical integration of the equations of motion of an elastic system can lead to a considerable saving in computation time and cost. One such multi-point method is presented, and its truncation error and stability are examined.}
+      \field{issn}{03151468}
+      \field{journaltitle}{Canadian Journal of Civil Engineering}
+      \field{number}{2}
+      \field{title}{{Numerical Methods in Structural Dynamics.}}
+      \field{volume}{1}
+      \field{year}{1974}
+      \field{pages}{179\bibrangedash 193}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1139/l74-017
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Humar, Wright - 1974 - Numerical Methods in Structural Dynamics.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nrcresearchpress.com/doi/10.1139/l74-017 http://files/242/Humar i Wright - 1974 - Numerical Methods in Structural Dynamics.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.nrcresearchpress.com/doi/10.1139/l74-017%20http://files/242/Humar%20i%20Wright%20-%201974%20-%20Numerical%20Methods%20in%20Structural%20Dynamics.pdf
+      \endverb
+    \endentry
+    \entry{Newmark1959}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e684cea7463067aba1447124b8024837}{%
+           family={Newmark},
+           familyi={N\bibinitperiod},
+           given={Nathan\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ASCE}%
+      }
+      \strng{namehash}{e684cea7463067aba1447124b8024837}
+      \strng{fullhash}{e684cea7463067aba1447124b8024837}
+      \strng{bibnamehash}{e684cea7463067aba1447124b8024837}
+      \strng{authorbibnamehash}{e684cea7463067aba1447124b8024837}
+      \strng{authornamehash}{e684cea7463067aba1447124b8024837}
+      \strng{authorfullhash}{e684cea7463067aba1447124b8024837}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0066-0604}
+      \field{journaltitle}{Journal of the Engineering Mechanics Division}
+      \field{number}{2094}
+      \field{title}{{Method of Computation for Structural Dynamics.}}
+      \field{year}{1959}
+      \field{pages}{68\bibrangedash 94}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1061/taceat.0008448
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Newmark - 1959 - Method of Computation for Structural Dynamics.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Salamak2003}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=895374e0762d8f004e34eb80e36bb5ff}{%
+           family={Salamak},
+           familyi={S\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{895374e0762d8f004e34eb80e36bb5ff}
+      \strng{fullhash}{895374e0762d8f004e34eb80e36bb5ff}
+      \strng{bibnamehash}{895374e0762d8f004e34eb80e36bb5ff}
+      \strng{authorbibnamehash}{895374e0762d8f004e34eb80e36bb5ff}
+      \strng{authornamehash}{895374e0762d8f004e34eb80e36bb5ff}
+      \strng{authorfullhash}{895374e0762d8f004e34eb80e36bb5ff}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{From Duplicate 2 (Doświadczalne metody określania poziomu t{ł}umienia drgań w k{ł}adkach dla pieszych - Salamak, Marek) Accession Number: edsbas.3B29E20D; Contributors: Weseli, Jerzy. Promotor; Publication Type: Thesis; Language: Polish; Format: application/pdf; Publication Date: 20030101; Rights: w{ł}asność autora ; zasób dostȩpny wy{ł}ącznie z komputerów Biblioteki G{ł}ównej PŚl ; brak możliwości drukowania i edycji dokumentu; Imprint: Poland, Europe: [s.n.], 2003. Related Material: oai:delibra.bg.polsl.pl:publication:4703 Related Material: Wydzia{ł} Budownictwa. Politechnika Śląska}
+      \field{booktitle}{Rozprawa doktorska}
+      \field{title}{{Doświadczalne metody określania poziomu t{ł}umienia drgań w k{ł}adkach dla pieszych}}
+      \field{type}{phdthesis}
+      \field{year}{2003}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Salamak - 2003 - Do{\'{s}}wiadczalne metody okre{\'{s}}lania poziomu t{\l}umienia drga{\'{n}} w k{\l}adkach dla pieszych.pdf:pdf
+      \endverb
+      \keyw{badania,dynamika,k{ł}adka,t{ł}umienie}
+    \endentry
+    \entry{Salamak2007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=940a6af799d57613719938139e048bc7}{%
+           family={Salamak},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{940a6af799d57613719938139e048bc7}
+      \strng{fullhash}{940a6af799d57613719938139e048bc7}
+      \strng{bibnamehash}{940a6af799d57613719938139e048bc7}
+      \strng{authorbibnamehash}{940a6af799d57613719938139e048bc7}
+      \strng{authornamehash}{940a6af799d57613719938139e048bc7}
+      \strng{authorfullhash}{940a6af799d57613719938139e048bc7}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Footbridges are characterised by relatively low mass and stiffness. Additionally, resonant reaction caused by pedestrians would make reliable determination of damping level a matter of great importance. In the case of such lightweight and pliant structures, the level of vibration occurring due to resonance phenomena would depend - firstly - on damping properties of those structures. Among the damping parameter identification methods practically used, logarithmic Decrement Technique (LDT) is the most common and the oldest method. However, would require isolation of time response with free decaying natural vibrations from a signal, which in many cases could be distorted by noise. In the case of perfect viscous damping, the exponential curve should ideally match the amplitude envelope. However, in actual structures, damping is non-linear. Therefore we would encounter the problem of determination of the time interval based on which logarithmic damping decrement should be established. Initial amplitude and the length of the interval would be important here, as well as the number of amplitudes taken into account. Identification method proposed here - FILDT (Fitting Index Lxjgarithmic Decrement Technique) - was based on the logarithmic decrement technique. The principal modification was determination of logarithmic damping decrement by fitting an exponential curve by means of the least squares method and by determination of so-called fitting index, which would enable unambiguous selection of logarithmic damping decrement value where damping is nonlinear. Moreover, sensitivity level is introduced, to enable elimination of values below given threshold value, expressed as percentage of the maximum value within analysed interval. This way, by adjustment of relevant sensitivity threshold, various numbers of amplitudes to be used for damping estimation may be isolated, within one time interval. Performed experiments have proven nonlinearity of damping. Logarithmic damping decrement depends on, among other things, initial amplitude, as well as on the number of amplitudes taken to make the estimation. If the number of amplitudes were too low, damping would be overestimated. Measurements taken on a low number of amplitudes should therefore be treated with caution. On the other hand, taking all amplitudes into account, particularly those of the lowest value, would result in large mean square error of the exponential curve fit. This means that damping was not linear and it would be difficult to interpret obtained results, as they would not fit assumed viscous model. Therefore, it would be advisable to work out a compromise by taking into account as many values of amplitude as possible, provided that the fitting error would be as low as possible. Such compromise could be achieved with proposed FILDT method.}
+      \field{issn}{12302945}
+      \field{journaltitle}{Archives of Civil Engineering}
+      \field{number}{3}
+      \field{title}{{Vibration damping identification maximizing adjustment to viscous model in civil structures}}
+      \field{volume}{53}
+      \field{year}{2007}
+      \field{pages}{497\bibrangedash 518}
+      \range{pages}{22}
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Salamak - 2007 - Vibration damping identification maximizing adjustment to viscous model in civil structures.pdf:pdf
+      \endverb
+      \keyw{Damping,Dynamics,Footbridges,Vibration}
+    \endentry
+    \entry{Bachmann2012}{book}{}
+      \name{author}{15}{}{%
+        {{hash=2c70fedf28ba64f78804e9cfbd0755da}{%
+           family={Bachmann},
+           familyi={B\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ef40326e045d52bf5924e293287af5c0}{%
+           family={Ammann},
+           familyi={A\bibinitperiod},
+           given={Walter\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6623fd56cc5a6a1e93144005d9440697}{%
+           family={Deischl},
+           familyi={D\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8f13a9cecf11baacdac72f650416b088}{%
+           family={Eisenmann},
+           familyi={E\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d465680cedeaa7151ca7b4787a09ae82}{%
+           family={Floegl},
+           familyi={F\bibinitperiod},
+           given={Ingomar},
+           giveni={I\bibinitperiod}}}%
+        {{hash=56dee1412806030d994c4277858688ea}{%
+           family={Hirsch},
+           familyi={H\bibinitperiod},
+           given={Gerhard\bibnamedelima H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=bc7591ff2421964047f1740a6ae02f94}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Günter\bibnamedelima K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=0e30d8b5265aff998c41bf0f1573154f}{%
+           family={Lande},
+           familyi={L\bibinitperiod},
+           given={Göran\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0b0d1c437c95aec9eed941ce6ce70a69}{%
+           family={Mahrenholtz},
+           familyi={M\bibinitperiod},
+           given={Oskar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=3ab909a2d7584514e68d27cdc2541c12}{%
+           family={Natke},
+           familyi={N\bibinitperiod},
+           given={Hans\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=bb37db0ec1dd97e76ea512cf713fa587}{%
+           family={Nussbaumer},
+           familyi={N\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+        {{hash=606706d59365defd970709cded626e31}{%
+           family={Pretlove},
+           familyi={P\bibinitperiod},
+           given={Anthony\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3e0b27b24248f384661d51c57da7517f}{%
+           family={Rainer},
+           familyi={R\bibinitperiod},
+           given={Johann\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=6aae24c2803bc5caf24f99870fb6247f}{%
+           family={Saemann},
+           familyi={S\bibinitperiod},
+           given={Ernst-Ulrich},
+           giveni={E\bibinithyphendelim U\bibinitperiod}}}%
+        {{hash=7749ff211021c79cb48fc9c52e6e827c}{%
+           family={Steinbeisser},
+           familyi={S\bibinitperiod},
+           given={Lorenz},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Birkhäuser}%
+      }
+      \strng{namehash}{32d374d3e49ebce36a09325dc8100a52}
+      \strng{fullhash}{dd99f7cf0bd5820310866ef4e05960d8}
+      \strng{bibnamehash}{32d374d3e49ebce36a09325dc8100a52}
+      \strng{authorbibnamehash}{32d374d3e49ebce36a09325dc8100a52}
+      \strng{authornamehash}{32d374d3e49ebce36a09325dc8100a52}
+      \strng{authorfullhash}{dd99f7cf0bd5820310866ef4e05960d8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Large structures such as factories, gymnasia, concert halls, bridges, towers, masts and chimneys can be detrimentally affected by vibrations. These vibrations can cause either serviceability problems, severely hampering the user's comfort, or safety problems. The aim of this book is to provide structural and civil engineers working in construction and environmental engineering with practical guidelines for counteracting vibration problems. Dynamic actions are considered from the following sources of vibration: - human body motions, - rotating, oscillating and impacting machines, - wind flow, - road traffic, railway traffic and construction work. The main section of the book presents tools that aid in decision-making and in deriving simple solutions to cases of frequently occurring "normal" vibration problems. Complexer problems and more advanced solutions are also considered. In all cases these guidelines should enable the engineer to decide on appropriate solutions expeditiously. The appendices of the book contain fundamentals essential to the main chapters. 1 Vibrations induced by people -- 1.1 Pedestrian bridges -- 1.2 Floors with walking people -- 1.3 Floors for sport or dance activities -- 1.4 Floors with fixed seating and spectator galleries -- 1.5 High-diving platforms -- References to Chapter 1 -- 2 Machinery-induced vibrations -- 2.1 Machine foundations and supports -- 2.2 Bell towers -- 2.3 Structure-borne sound -- 2.4 Ground-transmitted vibrations -- References to Chapter 2 -- 3 Wind-induced vibrations -- 3.1 Buildings -- 3.2 Towers -- 3.3 Chimneys and Masts -- 3.4 Guyed Masts -- 3.5 Pylons -- 3.6 Suspension and Cable-Stayed Bridges -- 3.7 Cantilevered Roofs -- References to Chapter 3 -- 4 Vibrations induced by traffic and construction activity -- 4.1 Roads -- 4.2 Railways -- 4.3 Bridges -- 4.4 Construction Work -- References to Chapter 4 -- A Basic vibration theory and its application to beams and plates -- A.1 Free vibration -- A.2 Forced vibration -- A.3 Harmonic excitation -- A.4 Periodic excitation -- A.4.1 Fourier analysis of the forcing function -- A.4.2 How the Fourier decomposition works -- A.4.3 The Fourier Transform -- A.5 Tuning of a structure -- A.6 Impedance -- A.7 Vibration Isolation (Transmissibility) -- A.8 Continuous systems and their equivalent SDOF systems -- B Decibel Scales -- B.1 Sound pressure level -- B.2 Weighting of the sound pressure level -- C Damping -- C.1 Introduction -- C.2 Damping Quantities (Definitions, Interpretations) -- C.3 Measurement of damping properties of structures -- C.3.1 Decay curve method -- C.3.2 Bandwidth method -- C.3.3 Conclusions -- C.4 Damping mechanisms in reinforced concrete -- C.5 Overall damping of a structure -- C.5.1 Damping of the bare structure -- C.5.2 Damping by non-structural elements -- C.5.3 Damping by energy radiation to the soil -- C.5.4 Overall damping -- D Tuned vibration absorbers -- D.1 Definition -- D.2 Modelling and differential equations of motion -- D.3 Optimum tuning and optimum damping of the absorber -- D.4 Practical hints -- E Wave Propagation -- E.1 Introduction -- E.2 Wave types and propagation velocities -- E.3 Attenuation laws -- F Behaviour of concrete and steel under dynamic actions -- F.1 Introduction -- F.2 Behaviour of concrete -- F.2.1 Modulus of elasticity -- F.2.2 Compressive strength -- F.2.3 Ultimate strain in compression -- F.2.4 Tensile strength -- F.2.5 Ultimate strain in tension -- F.2.6 Bond between reinforcing steel and concrete -- F.3 Behaviour of reinforcing steel -- F.3.1 Modulus of Elasticity -- F.3.2 Strength in Tension -- F.3.3 Strain in tension -- G Dynamic forces from rhythmical human body motions -- G.1 Rhythmical human body motions -- G.2 Representative types of activity -- G.3 Normalised dynamic forces -- H Dynamic effects from wind -- H.1 Basic theory -- H.l.1 Wind speed and pressure -- H.l.2 Statistical characteristics -- a) Gust spectrum -- b) Aerodynamic admittance function -- c) Spectral density of the wind force -- H.1.3 Dynamic effects -- H.2 Vibrations in along-wind direction induced by gusts -- H.2.1 Spectral methods -- a) Mechanical amplification function -- b) Spectral density of the system response -- H.2.2 Static equivalent force method based on stochastic loading -- H.2.3 Static equivalent force method based on deterministic loading -- H.2.4 Remedial measures -- H.3 Vibrations in along-wind direction induced by buffeting -- H.4 Vibrations in across-wind direction induced by vortex-shedding -- H.4.1 Single structures -- H.4.2 Several structures one behind another -- H.4.3 Conical structures -- H.4.4 Vibrations of shells -- H.5 Vibrations in across-wind direction: Galloping -- H.6 Vibrations in across-wind direction: flutter -- H.7 Damping of high and slender RC structures subjected to wind -- I Human response to vibrations -- I.1 Introduction -- I.2 Codes of practice -- I.2.1 ISO 2631 -- I.2.2 DIN 4150/2 -- J Building response to vibrations -- J.1 General -- J.2 Examples of recommended limit values -- References to the Appendices -- List of Codes and Standards.}
+      \field{booktitle}{Vibration Problems in Structures}
+      \field{isbn}{978-3-0348-9231-5}
+      \field{title}{{Vibration Problems in Structures}}
+      \field{year}{1995}
+      \field{pages}{1\bibrangedash 248}
+      \range{pages}{248}
+      \verb{doi}
+      \verb 10.1007/978-3-0348-9231-5
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Bachmann et al. - 1995 - Vibration Problems in Structures.pdf:pdf
+      \endverb
+      \keyw{Science / Mechanics / Dynamics,Technology {\&} Engineering / Construction / General,Technology {\&} Engineering / Construction / Heating,Technology {\&} Engineering / Engineering (General),Technology {\&} Engineering / General,Technology {\&} Engineering / Manufacturing,Technology {\&} Engineering / Mechanical}
+    \endentry
+    \entry{Yamaguchi1997}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8b72c2fc0659c20078b22fb594e43e4c}{%
+           family={Yamaguchi},
+           familyi={Y\bibinitperiod},
+           given={Hiroki},
+           giveni={H\bibinitperiod}}}%
+        {{hash=43f81c67b0869ad1ae1625fb3da6375c}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Manabu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{1350badf96f578c77d9510461640ee68}
+      \strng{fullhash}{1350badf96f578c77d9510461640ee68}
+      \strng{bibnamehash}{1350badf96f578c77d9510461640ee68}
+      \strng{authorbibnamehash}{1350badf96f578c77d9510461640ee68}
+      \strng{authornamehash}{1350badf96f578c77d9510461640ee68}
+      \strng{authorfullhash}{1350badf96f578c77d9510461640ee68}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The field measured data of damping, available in the literature on vibration studies of cable-stayed bridges in Japan, is examined in detail, in order to investigate the characteristics of modal damping. Mode dependency of structural damping is focused in the present investigations. An analytical method for the estimation of modal damping is also introduced and some analytical discussions on the mode dependency of damping are added based on the energy considerations. It is concluded through this study that the modal damping of cable-stayed bridges is highly dependent on the coupling characteristics of mode shapes, and that this could be caused by the modal strain energy distribution which is different for different modes.}
+      \field{issn}{01676105}
+      \field{journaltitle}{Journal of Wind Engineering and Industrial Aerodynamics}
+      \field{number}{1-3}
+      \field{title}{{Mode-dependence of structural damping in cable-stayed bridges}}
+      \field{volume}{72}
+      \field{year}{1997}
+      \field{pages}{289\bibrangedash 300}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/S0167-6105(97)00249-3
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/PRZKALIT/Documents/Mendeley Desktop/Yamaguchi, Ito - 1997 - Mode-dependence of structural damping in cable-stayed bridges.pdf:pdf
+      \endverb
+      \keyw{Cable-stayed bridge,Energy-based evaluation,Structural damping,Wind resistant design}
     \endentry
     \entry{L.Hermans1999}{article}{}
       \name{author}{2}{}{%

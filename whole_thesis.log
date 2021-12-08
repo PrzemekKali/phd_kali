@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.3)  8 DEC 2021 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.3)  9 DEC 2021 00:16
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -3256,42 +3256,46 @@ df)
 Package pdftex.def Info: ./figures///PSO/population/fig_population_halton.pdf  
 used on input line 118.
 (pdftex.def)             Requested size: 192.0548pt x 194.41272pt.
- [95] [96 <./figures///PSO/population/fig_population_random1.pdf> <./figures///
-PSO/population/fig_population_random2.pdf> <./figures///PSO/population/fig_popu
-lation_random3.pdf> <./figures///PSO/population/fig_population_halton.pdf>]
-<./figures///PSO/bounds/absorb.pdf, id=4567, 85.35829pt x 85.35829pt>
+ [95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96 <./figures///PSO/population/fig_population_random1.pdf> <./figures///PSO/p
+opulation/fig_population_random2.pdf> <./figures///PSO/population/fig_populatio
+n_random3.pdf> <./figures///PSO/population/fig_population_halton.pdf>]
+<./figures///PSO/bounds/absorb.pdf, id=4568, 85.35829pt x 85.35829pt>
 File: ./figures///PSO/bounds/absorb.pdf Graphic file (type pdf)
 <use ./figures///PSO/bounds/absorb.pdf>
 Package pdftex.def Info: ./figures///PSO/bounds/absorb.pdf  used on input line 
-139.
+141.
 (pdftex.def)             Requested size: 91.06041pt x 113.81102pt.
-<./figures///PSO/bounds/refl.pdf, id=4569, 85.35829pt x 85.35829pt>
+<./figures///PSO/bounds/refl.pdf, id=4570, 85.35829pt x 85.35829pt>
 File: ./figures///PSO/bounds/refl.pdf Graphic file (type pdf)
 <use ./figures///PSO/bounds/refl.pdf>
 Package pdftex.def Info: ./figures///PSO/bounds/refl.pdf  used on input line 14
-0.
+2.
 (pdftex.def)             Requested size: 98.64383pt x 113.81102pt.
-<./figures///PSO/bounds/damp.pdf, id=4571, 85.35829pt x 85.35829pt>
+<./figures///PSO/bounds/damp.pdf, id=4572, 85.35829pt x 85.35829pt>
 File: ./figures///PSO/bounds/damp.pdf Graphic file (type pdf)
 <use ./figures///PSO/bounds/damp.pdf>
 Package pdftex.def Info: ./figures///PSO/bounds/damp.pdf  used on input line 14
-1.
+3.
 (pdftex.def)             Requested size: 98.64383pt x 113.81102pt.
-<./figures///PSO/bounds/inv.pdf, id=4573, 85.35829pt x 85.35829pt>
+<./figures///PSO/bounds/inv.pdf, id=4574, 85.35829pt x 85.35829pt>
 File: ./figures///PSO/bounds/inv.pdf Graphic file (type pdf)
 <use ./figures///PSO/bounds/inv.pdf>
-Package pdftex.def Info: ./figures///PSO/bounds/inv.pdf  used on input line 142
+Package pdftex.def Info: ./figures///PSO/bounds/inv.pdf  used on input line 144
 .
 (pdftex.def)             Requested size: 121.39406pt x 113.81102pt.
- [97 <./figures///PSO/bounds/absorb.pdf> <./figures///PSO/bounds/refl.pdf> <./f
-igures///PSO/bounds/damp.pdf> <./figures///PSO/bounds/inv.pdf>]
-<./figures///PSO/algorithm/algorithm2.pdf, id=4644, 426.79138pt x 569.05505pt>
+ [97]
+<./figures///PSO/algorithm/algorithm2.pdf, id=4590, 426.79138pt x 569.05505pt>
 File: ./figures///PSO/algorithm/algorithm2.pdf Graphic file (type pdf)
 <use ./figures///PSO/algorithm/algorithm2.pdf>
 Package pdftex.def Info: ./figures///PSO/algorithm/algorithm2.pdf  used on inpu
 t line 165.
 (pdftex.def)             Requested size: 384.10959pt x 421.81508pt.
- [98] [99 <./figures///PSO/algorithm/algorithm2.pdf>]
+ [98 <./figures///PSO/bounds/absorb.pdf> <./figures///PSO/bounds/refl.pdf> <./f
+igures///PSO/bounds/damp.pdf> <./figures///PSO/bounds/inv.pdf>] [99 <./figures/
+//PSO/algorithm/algorithm2.pdf>]
 <./figures///PSO/testfunct/fig_3dplot_19_09_18.pdf, id=4702, 279.06256pt x 233.
 54251pt>
 File: ./figures///PSO/testfunct/fig_3dplot_19_09_18.pdf Graphic file (type pdf)
@@ -3357,14 +3361,11 @@ Overfull \hbox (7.48425pt too wide) in paragraph at lines 203--207
  [][][][] 
  []
 
-
-Underfull \vbox (badness 1348) has occurred while \output is active []
-
- [101 <./figures///PSO/testfunct/fig_convergence11_30_59.pdf> <./figures///PSO/
-testfunct/fig_population_11_30_23.pdf> <./figures///PSO/testfunct/fig_04_00.pdf
-> <./figures///PSO/testfunct/fig_09_00.pdf> <./figures///PSO/testfunct/fig_14_0
-0.pdf> <./figures///PSO/testfunct/fig_19_00.pdf> <./figures///PSO/testfunct/fig
-_24_00.pdf>]
+[101 <./figures///PSO/testfunct/fig_convergence11_30_59.pdf> <./figures///PSO/t
+estfunct/fig_population_11_30_23.pdf> <./figures///PSO/testfunct/fig_04_00.pdf>
+ <./figures///PSO/testfunct/fig_09_00.pdf> <./figures///PSO/testfunct/fig_14_00
+.pdf> <./figures///PSO/testfunct/fig_19_00.pdf> <./figures///PSO/testfunct/fig_
+24_00.pdf>]
 LaTeX Font Info:    Calculating math sizes for size <18> on input line 224.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <18> on input line 224.
@@ -3380,7 +3381,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <11.75989> on input line 224.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8.39996> on input line 224.
-[102]
+ [102]
 <./figures///PSO/pareto/nondominated.pdf, id=4859, 128.03745pt x 113.811pt>
 File: ./figures///PSO/pareto/nondominated.pdf Graphic file (type pdf)
 <use ./figures///PSO/pareto/nondominated.pdf>
@@ -6998,7 +6999,7 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 Here is how much of TeX's memory you used:
  52215 strings out of 478681
  1310079 string characters out of 2845113
- 2235987 words of memory out of 12000000
+ 2235985 words of memory out of 12000000
  67781 multiletter control sequences out of 15000+600000
  645122 words of font info for 188 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -7063,7 +7064,7 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users
 ers/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:
 /Users/PRZKALIT/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb
 >
-Output written on whole_thesis.pdf (249 pages, 167377542 bytes).
+Output written on whole_thesis.pdf (249 pages, 167378122 bytes).
 PDF statistics:
  13662 PDF objects out of 15390 (max. 8388607)
  1114 named destinations out of 1200 (max. 500000)

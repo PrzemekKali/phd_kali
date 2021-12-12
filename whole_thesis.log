@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.3)  11 DEC 2021 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.3)  12 DEC 2021 13:43
 entering extended mode
 **./whole_thesis.tex
 (whole_thesis.tex
@@ -2346,8 +2346,60 @@ Overfull \hbox (3.91661pt too wide) in paragraph at lines 45--47
  []
 
 [37 <./figures///modal_analysis/schemat_theory_exper_a.pdf> <./figures///modal_
-analysis/schemat_theory_exper_b.pdf>] [38] [39] [40] [41] [42] [43] [44]
-[45] [46]
+analysis/schemat_theory_exper_b.pdf>] [38] [39] [40] [41] [42] [43]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@centercr' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@rightskip' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@flushglue' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightskip' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@rightskip' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\finalhyphendemerits' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leftskip' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\parindent' on input line 241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 241.
+
+[44] [45] [46]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\<let>-command' on input line 299.
@@ -6324,13 +6376,6 @@ ti/proste_160/proste_160_FREQ_ACC_XY.pdf> <./figures//WK2/opti/proste_160/prost
 e_160_FREQ_SCIAG_XY.pdf> <./figures//WK2/opti/proste_160/proste_160_FREQ_LUK_XY
 .pdf> <./figures//WK2/opti/proste_160/proste_160_FREQ_DEC_FREC_XY.pdf> <./figur
 es//WK2/opti/proste_160/proste_160_FREQ_VELOCITY_XY.pdf>]
-Underfull \hbox (badness 1019) in paragraph at lines 2141--2142
-[]\T1/lmr/m/n/12 Po prze-kro-cze-niu gra-nicy $\OML/lmm/m/it/12 f[]$ \T1/lmr/m/
-n/12 dziel-nik $\OML/lmm/m/it/12 k$ \T1/lmr/m/n/12 dla wszyst-kich de-cy-du-j¡-
-cych
- []
-
-
 Underfull \hbox (badness 1014) in paragraph at lines 2141--2142
 \T1/lmr/m/n/12 prze-jaz-dów jest wi¦k-szy od 1 (rys. []5.92h[]). Przy-spie-sze-
 nia do-pusz-czalne
@@ -6419,7 +6464,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2165--2167
 2/opti/proste_200/proste_200_FREQ_ACC_XY.pdf> <./figures//WK2/opti/proste_200/p
 roste_200_FREQ_SCIAG_XY.pdf> <./figures//WK2/opti/proste_200/proste_200_FREQ_LU
 K_XY.pdf> <./figures//WK2/opti/proste_200/proste_200_FREQ_DEC_FREC_XY.pdf>]
-<./figures//WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf, id=11738, 273.43855
+<./figures//WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf, id=11739, 273.43855
 pt x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf Graphic file (t
 ype pdf)
@@ -6427,7 +6472,7 @@ ype pdf)
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_WEI_XY.
 pdf  used on input line 2185.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf, id=11740, 270.36911
+<./figures//WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf, id=11741, 270.36911
 pt x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf Graphic file (t
 ype pdf)
@@ -6440,7 +6485,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2185--2186
  [][][] 
  []
 
-<./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf, id=11742, 277.702
+<./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf, id=11743, 277.702
 5pt x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf Graphic file 
 (type pdf)
@@ -6448,7 +6493,7 @@ File: ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf Graphic file
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_SCIAG_X
 Y.pdf  used on input line 2187.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf, id=11744, 277.7025p
+<./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf, id=11745, 277.7025p
 t x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf Graphic file (t
 ype pdf)
@@ -6461,7 +6506,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2187--2188
  [][][] 
  []
 
-<./figures//WK2/opti/proste_300/proste_300_FREQ_DEC_FREC_XY.pdf, id=11746, 263.
+<./figures//WK2/opti/proste_300/proste_300_FREQ_DEC_FREC_XY.pdf, id=11747, 263.
 97118pt x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_DEC_FREC_XY.pdf Graphic fi
 le (type pdf)
@@ -6469,7 +6514,7 @@ le (type pdf)
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_DEC_FRE
 C_XY.pdf  used on input line 2189.
 (pdftex.def)             Requested size: 200.59244pt x 178.39192pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_VELOCITY_XY.pdf, id=11748, 273.
+<./figures//WK2/opti/proste_300/proste_300_FREQ_VELOCITY_XY.pdf, id=11749, 273.
 43855pt x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_VELOCITY_XY.pdf Graphic fi
 le (type pdf)
@@ -6479,7 +6524,7 @@ Y_XY.pdf  used on input line 2190.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
 [197 <./figures//WK2/opti/proste_200/proste_200_FREQ_HSLM_DEC_XY.pdf> <./figure
 s//WK2/opti/proste_200/proste_200_FREQ_VCR_DIV_XY.pdf>]
-<./figures//WK2/opti/proste_300/proste_300_FREQ_HSLM_DEC_XY.pdf, id=11789, 268.
+<./figures//WK2/opti/proste_300/proste_300_FREQ_HSLM_DEC_XY.pdf, id=11790, 268.
 23712pt x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_HSLM_DEC_XY.pdf Graphic fi
 le (type pdf)
@@ -6487,7 +6532,7 @@ le (type pdf)
 Package pdftex.def Info: ./figures//WK2/opti/proste_300/proste_300_FREQ_HSLM_DE
 C_XY.pdf  used on input line 2197.
 (pdftex.def)             Requested size: 213.39566pt x 186.14719pt.
-<./figures//WK2/opti/proste_300/proste_300_FREQ_VCR_DIV_XY.pdf, id=11791, 264.0
+<./figures//WK2/opti/proste_300/proste_300_FREQ_VCR_DIV_XY.pdf, id=11792, 264.0
 1738pt x 234.73296pt>
 File: ./figures//WK2/opti/proste_300/proste_300_FREQ_VCR_DIV_XY.pdf Graphic fil
 e (type pdf)
@@ -6505,7 +6550,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2197--2199
 roste_300_FREQ_SCIAG_XY.pdf> <./figures//WK2/opti/proste_300/proste_300_FREQ_LU
 K_XY.pdf> <./figures//WK2/opti/proste_300/proste_300_FREQ_DEC_FREC_XY.pdf> <./f
 igures//WK2/opti/proste_300/proste_300_FREQ_VELOCITY_XY.pdf>]
-<./figures//WK2/opti/niels_160/niels_160_FREQ_WEI_XY.pdf, id=11874, 273.43855pt
+<./figures//WK2/opti/niels_160/niels_160_FREQ_WEI_XY.pdf, id=11875, 273.43855pt
  x 234.73296pt>
 File: ./figures//WK2/opti/niels_160/niels_160_FREQ_WEI_XY.pdf Graphic file (typ
 e pdf)
@@ -6513,7 +6558,7 @@ e pdf)
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_FREQ_WEI_XY.pd
 f  used on input line 2218.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
-<./figures//WK2/opti/niels_160/niels_160_FREQ_ACC_XY.pdf, id=11876, 270.36911pt
+<./figures//WK2/opti/niels_160/niels_160_FREQ_ACC_XY.pdf, id=11877, 270.36911pt
  x 234.73296pt>
 File: ./figures//WK2/opti/niels_160/niels_160_FREQ_ACC_XY.pdf Graphic file (typ
 e pdf)
@@ -6526,7 +6571,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2218--2219
  [][][] 
  []
 
-<./figures//WK2/opti/niels_160/niels_160_FREQ_SCIAG_XY.pdf, id=11878, 277.7025p
+<./figures//WK2/opti/niels_160/niels_160_FREQ_SCIAG_XY.pdf, id=11879, 277.7025p
 t x 234.73296pt>
 File: ./figures//WK2/opti/niels_160/niels_160_FREQ_SCIAG_XY.pdf Graphic file (t
 ype pdf)
@@ -6534,7 +6579,7 @@ ype pdf)
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_FREQ_SCIAG_XY.
 pdf  used on input line 2220.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/niels_160/niels_160_FREQ_LUK_XY.pdf, id=11880, 277.7025pt 
+<./figures//WK2/opti/niels_160/niels_160_FREQ_LUK_XY.pdf, id=11881, 277.7025pt 
 x 234.73296pt>
 File: ./figures//WK2/opti/niels_160/niels_160_FREQ_LUK_XY.pdf Graphic file (typ
 e pdf)
@@ -6547,7 +6592,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2220--2221
  [][][] 
  []
 
-<./figures//WK2/opti/niels_160/niels_160_FREQ_DEC_FREC_XY.pdf, id=11882, 263.97
+<./figures//WK2/opti/niels_160/niels_160_FREQ_DEC_FREC_XY.pdf, id=11883, 263.97
 118pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_160/niels_160_FREQ_DEC_FREC_XY.pdf Graphic file
  (type pdf)
@@ -6555,7 +6600,7 @@ File: ./figures//WK2/opti/niels_160/niels_160_FREQ_DEC_FREC_XY.pdf Graphic file
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_FREQ_DEC_FREC_
 XY.pdf  used on input line 2222.
 (pdftex.def)             Requested size: 200.59244pt x 178.39192pt.
-<./figures//WK2/opti/niels_160/niels_160_FREQ_VELOCITY_XY.pdf, id=11884, 273.43
+<./figures//WK2/opti/niels_160/niels_160_FREQ_VELOCITY_XY.pdf, id=11885, 273.43
 855pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_160/niels_160_FREQ_VELOCITY_XY.pdf Graphic file
  (type pdf)
@@ -6565,7 +6610,7 @@ XY.pdf  used on input line 2224.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
 [199 <./figures//WK2/opti/proste_300/proste_300_FREQ_HSLM_DEC_XY.pdf> <./figure
 s//WK2/opti/proste_300/proste_300_FREQ_VCR_DIV_XY.pdf>]
-<./figures//WK2/opti/niels_160/niels_160_FREQ_HSLM_DEC_XY.pdf, id=11925, 268.23
+<./figures//WK2/opti/niels_160/niels_160_FREQ_HSLM_DEC_XY.pdf, id=11926, 268.23
 712pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_160/niels_160_FREQ_HSLM_DEC_XY.pdf Graphic file
  (type pdf)
@@ -6573,7 +6618,7 @@ File: ./figures//WK2/opti/niels_160/niels_160_FREQ_HSLM_DEC_XY.pdf Graphic file
 Package pdftex.def Info: ./figures//WK2/opti/niels_160/niels_160_FREQ_HSLM_DEC_
 XY.pdf  used on input line 2233.
 (pdftex.def)             Requested size: 213.39566pt x 186.14719pt.
-<./figures//WK2/opti/niels_160/niels_160_FREQ_VCR_DIV_XY.pdf, id=11927, 264.017
+<./figures//WK2/opti/niels_160/niels_160_FREQ_VCR_DIV_XY.pdf, id=11928, 264.017
 38pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_160/niels_160_FREQ_VCR_DIV_XY.pdf Graphic file 
 (type pdf)
@@ -6591,7 +6636,7 @@ opti/niels_160/niels_160_FREQ_ACC_XY.pdf> <./figures//WK2/opti/niels_160/niels_
 160_FREQ_SCIAG_XY.pdf> <./figures//WK2/opti/niels_160/niels_160_FREQ_LUK_XY.pdf
 > <./figures//WK2/opti/niels_160/niels_160_FREQ_DEC_FREC_XY.pdf> <./figures//WK
 2/opti/niels_160/niels_160_FREQ_VELOCITY_XY.pdf>]
-<./figures//WK2/opti/niels_200/niels_200_FREQ_WEI_XY.pdf, id=12014, 273.43855pt
+<./figures//WK2/opti/niels_200/niels_200_FREQ_WEI_XY.pdf, id=12017, 273.43855pt
  x 234.73296pt>
 File: ./figures//WK2/opti/niels_200/niels_200_FREQ_WEI_XY.pdf Graphic file (typ
 e pdf)
@@ -6599,7 +6644,7 @@ e pdf)
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_FREQ_WEI_XY.pd
 f  used on input line 2255.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
-<./figures//WK2/opti/niels_200/niels_200_FREQ_ACC_XY.pdf, id=12016, 270.36911pt
+<./figures//WK2/opti/niels_200/niels_200_FREQ_ACC_XY.pdf, id=12019, 270.36911pt
  x 234.73296pt>
 File: ./figures//WK2/opti/niels_200/niels_200_FREQ_ACC_XY.pdf Graphic file (typ
 e pdf)
@@ -6612,7 +6657,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2255--2256
  [][][] 
  []
 
-<./figures//WK2/opti/niels_200/niels_200_FREQ_SCIAG_XY.pdf, id=12018, 277.7025p
+<./figures//WK2/opti/niels_200/niels_200_FREQ_SCIAG_XY.pdf, id=12021, 277.7025p
 t x 234.73296pt>
 File: ./figures//WK2/opti/niels_200/niels_200_FREQ_SCIAG_XY.pdf Graphic file (t
 ype pdf)
@@ -6620,7 +6665,7 @@ ype pdf)
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_FREQ_SCIAG_XY.
 pdf  used on input line 2257.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/niels_200/niels_200_FREQ_LUK_XY.pdf, id=12020, 277.7025pt 
+<./figures//WK2/opti/niels_200/niels_200_FREQ_LUK_XY.pdf, id=12023, 277.7025pt 
 x 234.73296pt>
 File: ./figures//WK2/opti/niels_200/niels_200_FREQ_LUK_XY.pdf Graphic file (typ
 e pdf)
@@ -6633,7 +6678,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2257--2258
  [][][] 
  []
 
-<./figures//WK2/opti/niels_200/niels_200_FREQ_DEC_FREC_XY.pdf, id=12022, 263.97
+<./figures//WK2/opti/niels_200/niels_200_FREQ_DEC_FREC_XY.pdf, id=12025, 263.97
 118pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_200/niels_200_FREQ_DEC_FREC_XY.pdf Graphic file
  (type pdf)
@@ -6641,7 +6686,7 @@ File: ./figures//WK2/opti/niels_200/niels_200_FREQ_DEC_FREC_XY.pdf Graphic file
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_FREQ_DEC_FREC_
 XY.pdf  used on input line 2259.
 (pdftex.def)             Requested size: 200.59244pt x 178.39192pt.
-<./figures//WK2/opti/niels_200/niels_200_FREQ_VELOCITY_XY.pdf, id=12024, 273.43
+<./figures//WK2/opti/niels_200/niels_200_FREQ_VELOCITY_XY.pdf, id=12027, 273.43
 855pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_200/niels_200_FREQ_VELOCITY_XY.pdf Graphic file
  (type pdf)
@@ -6651,7 +6696,7 @@ XY.pdf  used on input line 2260.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
 [201 <./figures//WK2/opti/niels_160/niels_160_FREQ_HSLM_DEC_XY.pdf> <./figures/
 /WK2/opti/niels_160/niels_160_FREQ_VCR_DIV_XY.pdf>]
-<./figures//WK2/opti/niels_200/niels_200_FREQ_HSLM_DEC_XY.pdf, id=12066, 268.23
+<./figures//WK2/opti/niels_200/niels_200_FREQ_HSLM_DEC_XY.pdf, id=12069, 268.23
 712pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_200/niels_200_FREQ_HSLM_DEC_XY.pdf Graphic file
  (type pdf)
@@ -6659,7 +6704,7 @@ File: ./figures//WK2/opti/niels_200/niels_200_FREQ_HSLM_DEC_XY.pdf Graphic file
 Package pdftex.def Info: ./figures//WK2/opti/niels_200/niels_200_FREQ_HSLM_DEC_
 XY.pdf  used on input line 2268.
 (pdftex.def)             Requested size: 213.39566pt x 186.14719pt.
-<./figures//WK2/opti/niels_200/niels_200_FREQ_VCR_DIV_XY.pdf, id=12068, 264.017
+<./figures//WK2/opti/niels_200/niels_200_FREQ_VCR_DIV_XY.pdf, id=12071, 264.017
 38pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_200/niels_200_FREQ_VCR_DIV_XY.pdf Graphic file 
 (type pdf)
@@ -6677,7 +6722,7 @@ opti/niels_200/niels_200_FREQ_ACC_XY.pdf> <./figures//WK2/opti/niels_200/niels_
 200_FREQ_SCIAG_XY.pdf> <./figures//WK2/opti/niels_200/niels_200_FREQ_LUK_XY.pdf
 > <./figures//WK2/opti/niels_200/niels_200_FREQ_DEC_FREC_XY.pdf> <./figures//WK
 2/opti/niels_200/niels_200_FREQ_VELOCITY_XY.pdf>]
-<./figures//WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf, id=12152, 273.43855pt
+<./figures//WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf, id=12155, 273.43855pt
  x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf Graphic file (typ
 e pdf)
@@ -6685,7 +6730,7 @@ e pdf)
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pd
 f  used on input line 2291.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
-<./figures//WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf, id=12154, 270.36911pt
+<./figures//WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf, id=12157, 270.36911pt
  x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf Graphic file (typ
 e pdf)
@@ -6698,7 +6743,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2291--2292
  [][][] 
  []
 
-<./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf, id=12156, 277.7025p
+<./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf, id=12159, 277.7025p
 t x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf Graphic file (t
 ype pdf)
@@ -6706,7 +6751,7 @@ ype pdf)
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.
 pdf  used on input line 2293.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf, id=12158, 277.7025pt 
+<./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf, id=12161, 277.7025pt 
 x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf Graphic file (typ
 e pdf)
@@ -6719,7 +6764,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2293--2294
  [][][] 
  []
 
-<./figures//WK2/opti/niels_300/niels_300_FREQ_DEC_FREC_XY.pdf, id=12160, 263.97
+<./figures//WK2/opti/niels_300/niels_300_FREQ_DEC_FREC_XY.pdf, id=12163, 263.97
 118pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_DEC_FREC_XY.pdf Graphic file
  (type pdf)
@@ -6727,7 +6772,7 @@ File: ./figures//WK2/opti/niels_300/niels_300_FREQ_DEC_FREC_XY.pdf Graphic file
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_DEC_FREC_
 XY.pdf  used on input line 2295.
 (pdftex.def)             Requested size: 213.39566pt x 189.77838pt.
-<./figures//WK2/opti/niels_300/niels_300_FREQ_VELOCITY_XY.pdf, id=12162, 273.43
+<./figures//WK2/opti/niels_300/niels_300_FREQ_VELOCITY_XY.pdf, id=12165, 273.43
 855pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_VELOCITY_XY.pdf Graphic file
  (type pdf)
@@ -6750,7 +6795,7 @@ opti/niels_300/niels_300_FREQ_ACC_XY.pdf> <./figures//WK2/opti/niels_300/niels_
 300_FREQ_SCIAG_XY.pdf> <./figures//WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf
 > <./figures//WK2/opti/niels_300/niels_300_FREQ_DEC_FREC_XY.pdf> <./figures//WK
 2/opti/niels_300/niels_300_FREQ_VELOCITY_XY.pdf>]
-<./figures//WK2/opti/niels_300/niels_300_FREQ_HSLM_DEC_XY.pdf, id=12282, 268.23
+<./figures//WK2/opti/niels_300/niels_300_FREQ_HSLM_DEC_XY.pdf, id=12285, 268.23
 712pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_HSLM_DEC_XY.pdf Graphic file
  (type pdf)
@@ -6758,7 +6803,7 @@ File: ./figures//WK2/opti/niels_300/niels_300_FREQ_HSLM_DEC_XY.pdf Graphic file
 Package pdftex.def Info: ./figures//WK2/opti/niels_300/niels_300_FREQ_HSLM_DEC_
 XY.pdf  used on input line 2305.
 (pdftex.def)             Requested size: 213.39566pt x 186.14719pt.
-<./figures//WK2/opti/niels_300/niels_300_FREQ_VCR_DIV_XY.pdf, id=12284, 264.017
+<./figures//WK2/opti/niels_300/niels_300_FREQ_VCR_DIV_XY.pdf, id=12287, 264.017
 38pt x 234.73296pt>
 File: ./figures//WK2/opti/niels_300/niels_300_FREQ_VCR_DIV_XY.pdf Graphic file 
 (type pdf)
@@ -6771,7 +6816,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2305--2307
  [][][] 
  []
 
-<./figures//WK2/opti/netw_160/netw_160_FREQ_WEI_XY.pdf, id=12292, 273.43855pt x
+<./figures//WK2/opti/netw_160/netw_160_FREQ_WEI_XY.pdf, id=12296, 273.43855pt x
  234.73296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_FREQ_WEI_XY.pdf Graphic file (type 
 pdf)
@@ -6779,7 +6824,7 @@ pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_FREQ_WEI_XY.pdf 
  used on input line 2333.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
-<./figures//WK2/opti/netw_160/netw_160_FREQ_ACC_XY.pdf, id=12294, 270.36911pt x
+<./figures//WK2/opti/netw_160/netw_160_FREQ_ACC_XY.pdf, id=12298, 270.36911pt x
  234.73296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_FREQ_ACC_XY.pdf Graphic file (type 
 pdf)
@@ -6792,7 +6837,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2333--2334
  [][][] 
  []
 
-<./figures//WK2/opti/netw_160/netw_160_FREQ_SCIAG_XY.pdf, id=12296, 277.7025pt 
+<./figures//WK2/opti/netw_160/netw_160_FREQ_SCIAG_XY.pdf, id=12300, 277.7025pt 
 x 234.73296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_FREQ_SCIAG_XY.pdf Graphic file (typ
 e pdf)
@@ -6800,7 +6845,7 @@ e pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_FREQ_SCIAG_XY.pd
 f  used on input line 2335.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/netw_160/netw_160_FREQ_LUK_XY.pdf, id=12298, 277.7025pt x 
+<./figures//WK2/opti/netw_160/netw_160_FREQ_LUK_XY.pdf, id=12302, 277.7025pt x 
 234.73296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_FREQ_LUK_XY.pdf Graphic file (type 
 pdf)
@@ -6813,7 +6858,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2335--2336
  [][][] 
  []
 
-<./figures//WK2/opti/netw_160/netw_160_FREQ_DEC_FREC_XY.pdf, id=12300, 263.9711
+<./figures//WK2/opti/netw_160/netw_160_FREQ_DEC_FREC_XY.pdf, id=12304, 263.9711
 8pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_FREQ_DEC_FREC_XY.pdf Graphic file (
 type pdf)
@@ -6821,7 +6866,7 @@ type pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_FREQ_DEC_FREC_XY
 .pdf  used on input line 2337.
 (pdftex.def)             Requested size: 200.59244pt x 178.39192pt.
-<./figures//WK2/opti/netw_160/netw_160_FREQ_VELOCITY_XY.pdf, id=12302, 273.4385
+<./figures//WK2/opti/netw_160/netw_160_FREQ_VELOCITY_XY.pdf, id=12306, 273.4385
 5pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_FREQ_VELOCITY_XY.pdf Graphic file (
 type pdf)
@@ -6831,7 +6876,7 @@ Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_FREQ_VELOCITY_XY
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
 [205 <./figures//WK2/opti/niels_300/niels_300_FREQ_HSLM_DEC_XY.pdf> <./figures/
 /WK2/opti/niels_300/niels_300_FREQ_VCR_DIV_XY.pdf>]
-<./figures//WK2/opti/netw_160/netw_160_FREQ_HSLM_DEC_XY.pdf, id=12344, 268.2371
+<./figures//WK2/opti/netw_160/netw_160_FREQ_HSLM_DEC_XY.pdf, id=12348, 268.2371
 2pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_FREQ_HSLM_DEC_XY.pdf Graphic file (
 type pdf)
@@ -6839,7 +6884,7 @@ type pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_160/netw_160_FREQ_HSLM_DEC_XY
 .pdf  used on input line 2346.
 (pdftex.def)             Requested size: 213.39566pt x 186.14719pt.
-<./figures//WK2/opti/netw_160/netw_160_FREQ_VCR_DIV_XY.pdf, id=12346, 264.01738
+<./figures//WK2/opti/netw_160/netw_160_FREQ_VCR_DIV_XY.pdf, id=12350, 264.01738
 pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_160/netw_160_FREQ_VCR_DIV_XY.pdf Graphic file (t
 ype pdf)
@@ -6857,7 +6902,7 @@ ti/netw_160/netw_160_FREQ_ACC_XY.pdf> <./figures//WK2/opti/netw_160/netw_160_FR
 EQ_SCIAG_XY.pdf> <./figures//WK2/opti/netw_160/netw_160_FREQ_LUK_XY.pdf> <./fig
 ures//WK2/opti/netw_160/netw_160_FREQ_DEC_FREC_XY.pdf> <./figures//WK2/opti/net
 w_160/netw_160_FREQ_VELOCITY_XY.pdf>]
-<./figures//WK2/opti/netw_200/netw_200_FREQ_WEI_XY.pdf, id=12431, 273.43855pt x
+<./figures//WK2/opti/netw_200/netw_200_FREQ_WEI_XY.pdf, id=12436, 273.43855pt x
  234.73296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_FREQ_WEI_XY.pdf Graphic file (type 
 pdf)
@@ -6865,7 +6910,7 @@ pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_FREQ_WEI_XY.pdf 
  used on input line 2374.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
-<./figures//WK2/opti/netw_200/netw_200_FREQ_ACC_XY.pdf, id=12433, 270.36911pt x
+<./figures//WK2/opti/netw_200/netw_200_FREQ_ACC_XY.pdf, id=12438, 270.36911pt x
  234.73296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_FREQ_ACC_XY.pdf Graphic file (type 
 pdf)
@@ -6878,7 +6923,7 @@ Overfull \hbox (3.9166pt too wide) in paragraph at lines 2374--2375
  [][][] 
  []
 
-<./figures//WK2/opti/netw_200/netw_200_FREQ_SCIAG_XY.pdf, id=12435, 277.7025pt 
+<./figures//WK2/opti/netw_200/netw_200_FREQ_SCIAG_XY.pdf, id=12440, 277.7025pt 
 x 234.73296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_FREQ_SCIAG_XY.pdf Graphic file (typ
 e pdf)
@@ -6886,7 +6931,7 @@ e pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_FREQ_SCIAG_XY.pd
 f  used on input line 2376.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/netw_200/netw_200_FREQ_LUK_XY.pdf, id=12437, 277.7025pt x 
+<./figures//WK2/opti/netw_200/netw_200_FREQ_LUK_XY.pdf, id=12442, 277.7025pt x 
 234.73296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_FREQ_LUK_XY.pdf Graphic file (type 
 pdf)
@@ -6894,7 +6939,7 @@ pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_FREQ_LUK_XY.pdf 
  used on input line 2377.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/netw_200/netw_200_FREQ_DEC_FREC_XY.pdf, id=12439, 263.9711
+<./figures//WK2/opti/netw_200/netw_200_FREQ_DEC_FREC_XY.pdf, id=12444, 263.9711
 8pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_FREQ_DEC_FREC_XY.pdf Graphic file (
 type pdf)
@@ -6902,7 +6947,7 @@ type pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_FREQ_DEC_FREC_XY
 .pdf  used on input line 2378.
 (pdftex.def)             Requested size: 200.59244pt x 178.39192pt.
-<./figures//WK2/opti/netw_200/netw_200_FREQ_VELOCITY_XY.pdf, id=12441, 273.4385
+<./figures//WK2/opti/netw_200/netw_200_FREQ_VELOCITY_XY.pdf, id=12446, 273.4385
 5pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_FREQ_VELOCITY_XY.pdf Graphic file (
 type pdf)
@@ -6912,7 +6957,7 @@ Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_FREQ_VELOCITY_XY
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
 [207 <./figures//WK2/opti/netw_160/netw_160_FREQ_HSLM_DEC_XY.pdf> <./figures//W
 K2/opti/netw_160/netw_160_FREQ_VCR_DIV_XY.pdf>]
-<./figures//WK2/opti/netw_200/netw_200_FREQ_HSLM_DEC_XY.pdf, id=12484, 268.2371
+<./figures//WK2/opti/netw_200/netw_200_FREQ_HSLM_DEC_XY.pdf, id=12489, 268.2371
 2pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_FREQ_HSLM_DEC_XY.pdf Graphic file (
 type pdf)
@@ -6920,7 +6965,7 @@ type pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_200/netw_200_FREQ_HSLM_DEC_XY
 .pdf  used on input line 2387.
 (pdftex.def)             Requested size: 213.39566pt x 186.14719pt.
-<./figures//WK2/opti/netw_200/netw_200_FREQ_VCR_DIV_XY.pdf, id=12486, 264.01738
+<./figures//WK2/opti/netw_200/netw_200_FREQ_VCR_DIV_XY.pdf, id=12491, 264.01738
 pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_200/netw_200_FREQ_VCR_DIV_XY.pdf Graphic file (t
 ype pdf)
@@ -6933,7 +6978,7 @@ pti/netw_200/netw_200_FREQ_ACC_XY.pdf> <./figures//WK2/opti/netw_200/netw_200_F
 REQ_SCIAG_XY.pdf> <./figures//WK2/opti/netw_200/netw_200_FREQ_LUK_XY.pdf> <./fi
 gures//WK2/opti/netw_200/netw_200_FREQ_DEC_FREC_XY.pdf> <./figures//WK2/opti/ne
 tw_200/netw_200_FREQ_VELOCITY_XY.pdf>]
-<./figures//WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf, id=12571, 273.43855pt x
+<./figures//WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf, id=12575, 273.43855pt x
  234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf Graphic file (type 
 pdf)
@@ -6941,7 +6986,7 @@ pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf 
  used on input line 2410.
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
-<./figures//WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf, id=12573, 270.36911pt x
+<./figures//WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf, id=12577, 270.36911pt x
  234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf Graphic file (type 
 pdf)
@@ -6954,7 +6999,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2410--2411
  [][][] 
  []
 
-<./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf, id=12575, 277.7025pt 
+<./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf, id=12579, 277.7025pt 
 x 234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf Graphic file (typ
 e pdf)
@@ -6962,7 +7007,7 @@ e pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pd
 f  used on input line 2412.
 (pdftex.def)             Requested size: 213.39566pt x 178.5671pt.
-<./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf, id=12577, 277.7025pt x 
+<./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf, id=12581, 277.7025pt x 
 234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf Graphic file (type 
 pdf)
@@ -6975,7 +7020,7 @@ Overfull \hbox (7.8332pt too wide) in paragraph at lines 2412--2413
  [][][] 
  []
 
-<./figures//WK2/opti/netw_300/netw_300_FREQ_DEC_FREC_XY.pdf, id=12579, 263.9711
+<./figures//WK2/opti/netw_300/netw_300_FREQ_DEC_FREC_XY.pdf, id=12583, 263.9711
 8pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_DEC_FREC_XY.pdf Graphic file (
 type pdf)
@@ -6983,7 +7028,7 @@ type pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_DEC_FREC_XY
 .pdf  used on input line 2414.
 (pdftex.def)             Requested size: 200.59244pt x 178.39192pt.
-<./figures//WK2/opti/netw_300/netw_300_FREQ_VELOCITY_XY.pdf, id=12581, 273.4385
+<./figures//WK2/opti/netw_300/netw_300_FREQ_VELOCITY_XY.pdf, id=12585, 273.4385
 5pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_VELOCITY_XY.pdf Graphic file (
 type pdf)
@@ -6993,7 +7038,7 @@ Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_VELOCITY_XY
 (pdftex.def)             Requested size: 213.39566pt x 181.90436pt.
 [209 <./figures//WK2/opti/netw_200/netw_200_FREQ_HSLM_DEC_XY.pdf> <./figures//W
 K2/opti/netw_200/netw_200_FREQ_VCR_DIV_XY.pdf>]
-<./figures//WK2/opti/netw_300/netw_300_FREQ_HSLM_DEC_XY.pdf, id=12620, 268.2371
+<./figures//WK2/opti/netw_300/netw_300_FREQ_HSLM_DEC_XY.pdf, id=12624, 268.2371
 2pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_HSLM_DEC_XY.pdf Graphic file (
 type pdf)
@@ -7001,7 +7046,7 @@ type pdf)
 Package pdftex.def Info: ./figures//WK2/opti/netw_300/netw_300_FREQ_HSLM_DEC_XY
 .pdf  used on input line 2423.
 (pdftex.def)             Requested size: 213.39566pt x 186.14719pt.
-<./figures//WK2/opti/netw_300/netw_300_FREQ_VCR_DIV_XY.pdf, id=12622, 264.01738
+<./figures//WK2/opti/netw_300/netw_300_FREQ_VCR_DIV_XY.pdf, id=12626, 264.01738
 pt x 234.73296pt>
 File: ./figures//WK2/opti/netw_300/netw_300_FREQ_VCR_DIV_XY.pdf Graphic file (t
 ype pdf)
@@ -7030,7 +7075,7 @@ w_300/netw_300_FREQ_VELOCITY_XY.pdf>] [211 <./figures//WK2/opti/netw_300/netw_3
 
 
 ]
-Underfull \vbox (badness 2961) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [213]
 [214] [215] [216]) [217]
@@ -7050,7 +7095,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (wprowadzenie.aux) (chap_luki.aux) (chap_dynamic.aux) (chap_oma.aux)
 (chap_pso.aux) (wk2_research.aux) (summary.aux))
 Package rerunfilecheck Info: File `whole_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1AD4B34430BE44FD972795D561AC09AB;18867.
+(rerunfilecheck)             Checksum: 1CA6B865C0F83E24CE0144BC8ADF8177;18872.
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
@@ -7058,7 +7103,7 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 Here is how much of TeX's memory you used:
  52224 strings out of 478681
  1310170 string characters out of 2845113
- 2237226 words of memory out of 12000000
+ 2236488 words of memory out of 12000000
  67790 multiletter control sequences out of 15000+600000
  645122 words of font info for 188 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -7121,9 +7166,9 @@ l/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/PRZKALIT/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/PRZKALI
 T/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/PRZK
 ALIT/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on whole_thesis.pdf (249 pages, 158788063 bytes).
+Output written on whole_thesis.pdf (249 pages, 158789863 bytes).
 PDF statistics:
- 13528 PDF objects out of 15390 (max. 8388607)
+ 13532 PDF objects out of 15390 (max. 8388607)
  1114 named destinations out of 1200 (max. 500000)
  5170 words of extra memory for PDF output out of 10000 (max. 10000000)
 

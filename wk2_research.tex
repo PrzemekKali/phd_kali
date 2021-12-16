@@ -36,7 +36,7 @@ Obiekt badawczy stanowi kolejowy wiadukt łukowy zlokalizowany w Gdańsku w cią
  	\label{fig: wk2_cross_sect_deck}
  \end{figure}
  
- W zrealizowanym wariancie pomost został podwieszony do łuku za pomocą prostych, prętowych wieszaków o średnicy przekroju 100 mm. Po każdej ze stron zamontowano 12 wieszaków w rozstawie co 5 m. Wieszaki zostały połączone z dźwigarem i ściągiem sztywnym połączeniem spawanym. Rzeczywisty widok zrealizowanego przęsła pokazano na rysunku \ref{fig: wk2_foto_widok_front}, detale konstrukcyjne w obrębie strefy podporowej na rysunku \ref{fig:  wk2_foto_wezglowie}, a połączenie wieszaka ze ściągiem na rysunku \ref{fig: wk2_foto_wieszak}.
+ W zrealizowanym wariancie pomost został podwieszony do łuku za pomocą pionowych, prętowych wieszaków o średnicy przekroju 100 mm. Po każdej ze stron zamontowano 12 wieszaków w rozstawie co 5 m. Wieszaki zostały połączone z dźwigarem i ściągiem sztywnym połączeniem spawanym. Rzeczywisty widok zrealizowanego przęsła pokazano na rysunku \ref{fig: wk2_foto_widok_front}, detale konstrukcyjne w obrębie strefy podporowej na rysunku \ref{fig:  wk2_foto_wezglowie}, a połączenie wieszaka ze ściągiem na rysunku \ref{fig: wk2_foto_wieszak}.
 
 \begin{figure}[hbt!]
 	\centering
@@ -767,7 +767,7 @@ Poza wymienionymi zmiennymi projektowymi, analizy przeprowadzono w kilku wariant
 \begin{itemize}
 	\item rozmieszczenie wieszaków: 
 	\begin{itemize}
-		\item wieszaki proste,
+		\item wieszaki pionowe,
 		\item wieszaki ukośne (system Nielsena), 
 		\item wieszaki w układzie siatki (Network),
 	\end{itemize}
@@ -833,7 +833,7 @@ Przedstawione w tabeli zgodności są zadowalające i model został użyty w dal
 
 \begin{table}[hbt!]
 	\centering
-	\caption{Porównanie częstotliwości drgań własnych i ugięć uproszczonego modelu 2D z wieszakami prostymi i konstrukcji rzeczywistej}
+	\caption{Porównanie częstotliwości drgań własnych i ugięć uproszczonego modelu 2D z wieszakami pionowymi i konstrukcji rzeczywistej}
 	\footnotesize
 	\setlength\tabcolsep{0pt}
 	\begin{tabular}{@{}p{0.15\linewidth} *9{P{0.09444\linewidth}}@{}}
@@ -852,14 +852,14 @@ Przedstawione w tabeli zgodności są zadowalające i model został użyty w dal
 
 
 
-Model uproszczony stworzono w trzech wariantach różniących się rozmieszczeniem wieszaków. Przyjęte układy podwieszenia pomostu do łuku pokazano na rysunku \ref{fig:wk2_upr_variants}. Zgodnie z wcześniej przytoczonymi założeniami przygotowano wariant z wieszakami prostymi, wariant z wieszakami ukośnymi (Nielsena) i wariant z przecinającymi się wieszakami ukośnymi (Network).
+Model uproszczony stworzono w trzech wariantach różniących się rozmieszczeniem wieszaków. Przyjęte układy podwieszenia pomostu do łuku pokazano na rysunku \ref{fig:wk2_upr_variants}. Zgodnie z wcześniej przytoczonymi założeniami przygotowano wariant z wieszakami pionowymi, wariant z wieszakami ukośnymi (Nielsena) i wariant z przecinającymi się wieszakami ukośnymi (Network).
 \begin{figure}[hbt!]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\textwidth]{/WK2/model_upr/plaski_ogolny_wariant_1.jpg} }
 	\subfloat[]{\includegraphics[width=0.5\textwidth]{/WK2/model_upr/plaski_ogolny_wariant_2.jpg} }\\
 	\subfloat[]{\includegraphics[width=0.5\textwidth]{/WK2/model_upr/plaski_ogolny_wariant_3.jpg} }
 	\captionsetup{justification=centering}
-	\caption{Przyjęte warianty układu wieszaków: (a) proste, (b) Nielsena, (c) Network}
+	\caption{Przyjęte warianty układu wieszaków: (a) pionowe, (b) Nielsena, (c) Network}
 	\label{fig:wk2_upr_variants}
 \end{figure}
 
@@ -899,7 +899,7 @@ Pomimo że w pracy \parencite{Goicolea2008} znaleziono stwierdzenie potwierdzaj�
 	\centering
 	\includegraphics[width=0.91\linewidth,trim=0 0 0 3, clip]{WK2/opti/predkosci_wszystkie/proste_wyniki_mapa.pdf}
 	\captionsetup{justification=centering}
-\caption{Maksymalne przyspieszenia dźwigara dla pełnego zakresu prędkości zalecanych w normie - przykładowy wariant modelu z wieszakami prostymi}
+\caption{Maksymalne przyspieszenia dźwigara dla pełnego zakresu prędkości zalecanych w normie - przykładowy wariant modelu z wieszakami pionowymi}
 \label{fig:wk2_opti_proste_predkosci_test_all_proste}
 \end{figure}
 	
@@ -951,11 +951,11 @@ Na rysunku \ref{fig:wk2_dynamic_algorithm} przedstawiono schemat blokowy algoryt
 \clearpage
 \section{Rezultaty optymalizacji}
 \subsection{Informacje wstępne}
-Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s,f_a]$, trzech wariantów rozkładu wieszaków i trzech dozwolonych prędkości maksymalnych pociągu na linii co daje łącznie 9 odrębnych procesów optymalizacji. Należy podkreślić, że uzyskane wyniki dotyczą jedynie wskazanych w tabeli \ref{tab:wk2_project_variables_opti} zakresów zmiennych projektowych i topologii wzorowanej na wiadukcie WK-2. Przyjęte zakresy ograniczeń uznano za szersze niż stosowane zwykle w projektowaniu i z tego względu uznano je za miarodajne w ocenie globalnej rozwiązania projektowego konstrukcji łukowych tej klasy. 
+W podrozdziale zawarto informacje, które mają zorientować czytelnika w sposobie prezentacji złożonych wyników procesu optymalizacji. Optymalizację konstrukcji przeprowadzono dla dwóch funkcji celu $\vect{F}=[f_s,f_a]$, trzech wariantów rozkładu wieszaków i trzech dozwolonych prędkości maksymalnych pociągu na linii, co daje łącznie 9 odrębnych procesów optymalizacji. Należy podkreślić, że uzyskane wyniki dotyczą jedynie wskazanych w tabeli \ref{tab:wk2_project_variables_opti} zakresów zmiennych projektowych i topologii wzorowanej na wiadukcie WK-2. Przyjęte zakresy ograniczeń uznano za szersze niż stosowane zwykle w projektowaniu i z tego względu uznano je za miarodajne w ocenie globalnej rozwiązania projektowego konstrukcji łukowych tej klasy. 
 
-W analizie rezultatów posłużono się miarami statystycznymi. Należy zaznaczyć, że zbiór rezultatów nie jest zupełnie losowy tylko wynika z pracy algorytmu optymalizacji. Warianty zmiennych projektowych uznane za wyraźnie gorsze w obszarze funkcji celu są stanowczo mniej zagęszczone w obszarze zmiennych. Stąd statystyczne miary dotyczące całego zbioru rezultatów powinny być stosowane ostrożnie. Z tego względu większość z wniosków oparto na analizie wyznaczonego Frontu Pareto, a nie całego zbioru rozwiązań. Uwzględniając powyższe uwagi, dla każdego z wariantów zaprezentowano wyniki o powtarzalnej, opisanej poniżej strukturze.
+W analizie rezultatów posłużono się miarami statystycznymi. Należy zaznaczyć, że zbiór rezultatów nie jest zupełnie losowy tylko wynika z pracy algorytmu optymalizacji. Warianty zmiennych projektowych uznane za wyraźnie gorsze w obszarze funkcji celu są stanowczo mniej zagęszczone w obszarze zmiennych. Stąd statystyczne miary dotyczące całego zbioru rezultatów powinny być stosowane ostrożnie. Z tego względu większość z wniosków oparto na analizie wyznaczonego Frontu Pareto, a nie całego zbioru rozwiązań. Uwzględniając powyższe uwagi, dla każdego z wariantów zaprezentowano wyniki o powtarzalnej, opisanej poniżej strukturze. 
 
-Jako pierwszy zaprezentowany jest zbiór wszystkich rozwiązań w dziedzinie funkcji celu $\vect{F}$, dla danego wariantu wieszaków i prędkości maksymalnej (przykład na rys. \ref{fig:EXAMPLE_picture_1_2_a}). Czerwonym kolorem zaznaczono uzyskane przybliżenie Frontu Pareto wyznaczonego dla ostatecznego zbioru rozwiązań z użyciem luźniejszego kryterium $\epsilon$-dominacji. Tolerancję dla poszczególnych funkcji celu przyjęto o wartościach [0.5 t, 0.1 $\mathrm{m/s^2}$]. Zielonym kolorem oraz skrótem \textit{OK} oznaczono wszystkie dopuszczalne rozwiązania, to znaczy takie dla których spełnione są ograniczenia SGN i SGU zebrane w wektorze $\vect{C}$.  Wykres podzielono na trzy warianty a-c, wynikające z dodania opcjonalnego ograniczenia również na minimalny stopień wytężenia łuku oraz ściągu. Maksymalne odczytane naprężenia w elemencie zostały porównane z dolnym progiem wytężenia $min_{eff}$. Zastosowano następujące progi wytężenia minimalnego: (a) $min_{eff}=0.0$, (b) $min_{eff}=0.3$ oraz (c) $min_{eff}=0.5$. Punkty niebieskie oznaczone skrótem \textit{NOK-H} nie spełniają ograniczeń z góry, a pomarańczowe oznaczone jako \textit{NOK-L} nie spełniają wymogu minimalnego wytężenia elementów konstrukcyjnych z dołu. Czarną przerywaną liniową zaznaczono poziom przyspieszeń $3.5\,\mathrm{m/s^2}$, czyli wartość dopuszczalną przyspieszeń pomostu wg \cite{PKNc}. Wyświetlanie wyników ograniczono do punków w obszarze maksymalnych przyspieszeń do  $15\,\mathrm{m/s^2}$ i masy konstrukcji od 100 do 200 t.
+Jako pierwszy zaprezentowany jest zbiór wszystkich rozwiązań w dziedzinie funkcji celu $\vect{F}$, dla danego wariantu wieszaków i prędkości maksymalnej (przykład na rys. \ref{fig:EXAMPLE_picture_1_2_a}). Czerwonym kolorem zaznaczono uzyskane przybliżenie Frontu Pareto wyznaczonego dla ostatecznego zbioru rozwiązań z użyciem luźniejszego kryterium $\epsilon$-dominacji. Tolerancję dla poszczególnych funkcji celu przyjęto o wartościach [0.5 t, 0.1 $\mathrm{m/s^2}$]. Zielonym kolorem oraz skrótem \textit{OK} oznaczono wszystkie dopuszczalne rozwiązania, to znaczy takie dla których spełnione są ograniczenia SGN i SGU zebrane w wektorze $\vect{C}$ (bez uwzględnienia dynamiki).  Wykres podzielono na trzy warianty a-c, wynikające z dodania opcjonalnego ograniczenia również na minimalny stopień wytężenia łuku oraz ściągu. Oznacza to, że maksymalne odczytane naprężenia w elemencie zostały porównane ze zdefiniowanym dolnym progiem wytężenia $min_{eff}$, będącego mnożnikiem normowych naprężeń SGN. Zastosowano następujące mnożniki wytężenia minimalnego: (a) $min_{eff}=0.0$, (b) $min_{eff}=0.3$ oraz (c) $min_{eff}=0.5$. Punkty niebieskie oznaczone skrótem \textit{NOK-H} nie spełniają ograniczeń z góry, a pomarańczowe oznaczone jako \textit{NOK-L} nie spełniają wymogu minimalnego wytężenia elementów konstrukcyjnych z dołu. Czarną przerywaną liniową zaznaczono poziom przyspieszeń $3.5\,\mathrm{m/s^2}$, czyli wartość dopuszczalną przyspieszeń pomostu wg \cite{PKNc}. Wyświetlanie wyników ograniczono do punków w obszarze maksymalnych przyspieszeń do  $15\,\mathrm{m/s^2}$ i masy konstrukcji od 100 do 200 t.
 
 \begin{figure}[hbt!]
 	\centering
@@ -966,7 +966,7 @@ Jako pierwszy zaprezentowany jest zbiór wszystkich rozwiązań w dziedzinie fun
 	\label{fig:EXAMPLE_picture_1_2}
 \end{figure}
 
-Druga grafika pokazuje wartości zmiennych projektowych w dziedzinie funkcji celu (na przykład rys. \ref{fig:EXAMPLE_picture_1_2_b}). Do sporządzenia grafiki użyto jedynie punkty, które spełniają warunki ograniczeń od góry - \textit{NOK-H}. W każdym wariancie (a-c) za pomocą mapy kolorów określono wartość innej zmiennej: (a) wysokości ściągu, (b) wysokości łuku i (c) średnicy wieszaka. Czarną przerywaną linią ponownie zaznaczono przyspieszenie $3.5\,\mathrm{m/s^2}$. Wyświetlanie wyników ograniczono do punków w obszarze maksymalnych przyspieszeń do $10\,\mathrm{m/s^2}$ i masy konstrukcji od 100 do 200 t.
+Druga grafika pokazuje wartości zmiennych projektowych $\vect{X}$ w dziedzinie tych samych funkcji celu (na przykład rys. \ref{fig:EXAMPLE_picture_1_2_b}). Do sporządzenia rysunku użyto jedynie punkty, które spełniają warunki ograniczeń od góry - \textit{NOK-H}. W każdym wariancie (a-c) za pomocą mapy kolorów określono wartość innej zmiennej: (a) wysokości ściągu, (b) wysokości łuku i (c) średnicy wieszaka (na rys. \ref{fig:EXAMPLE_picture_1_2_b} pokazano jedynie przykład dla wariantu (b)). Czarną przerywaną linią zaznaczono przyspieszenie $3.5\,\mathrm{m/s^2}$. Wyświetlanie wyników ograniczono do punków w obszarze maksymalnych przyspieszeń do $10\,\mathrm{m/s^2}$ i masy konstrukcji od 100 do 200 t.
 
 \begin{figure}[hbt!]
 	\centering
@@ -976,13 +976,13 @@ Druga grafika pokazuje wartości zmiennych projektowych w dziedzinie funkcji cel
 	\label{fig:EXAMPLE_picture_3}
 \end{figure}
 
-Kolejny rysunek (przykład na rys. \ref{fig:EXAMPLE_picture_3}) obrazuje zbiór wszystkich wyznaczonych rozwiązań w przestrzeni zmiennych projektowych. Kolor punktu oznacza maksymalne przyspieszenia pomostu uzyskane w danym rozwiązaniu. Symbolem trójkąta oznaczono rozwiązania charakteryzujące się maksymalnymi przyspieszeniami mniejszymi niż 3.5 $\mathrm{m/s^2}$. Rysunek ma za zadanie pokazać gradienty zmian funkcji celu związanej z przyspieszeniami w obszarze zmiennych projektowych.
+Kolejny przykład rysunek (rys. \ref{fig:EXAMPLE_picture_3}) obrazuje zbiór wszystkich wyznaczonych rozwiązań w przestrzeni zmiennych projektowych. Kolor punktu oznacza maksymalne przyspieszenia pomostu uzyskane w danym rozwiązaniu. Symbolem trójkąta oznaczono rozwiązania charakteryzujące się maksymalnymi przyspieszeniami mniejszymi niż 3.5 $\mathrm{m/s^2}$. Rysunek ma za zadanie pokazać gradienty zmian funkcji celu związanej z przyspieszeniami w obszarze zmiennych projektowych.
 
 
 
-Czwarty zestaw prezentuje zależność między wartościami jednej zmiennej projektowej, a uzyskanymi maksymalnymi wartościami przyspieszeń dla rozwiązań należących do Frontu Pareto (na przykład rys. \ref{fig:EXAMPLE_picture_4_5_a}). Dla prezentowanych zależności wyznaczono wartości funkcji korelacji zerowej \teng{correlation}, korelacji cząstkowej \teng{partial correlation} i korelacji semicząstkowej (częściowej) \teng{semipartial correlation} \parencite{Tabachnick}. Wyniki korelacji zestawiono w tabelach (na przykład tab. \ref{tab: correlation_proste_160}). Do wyznaczania współczynników użyto metody Pearsona. Oceniając wyznaczone miary jakości dopasowania należy zdawać sobie sprawę ze spełnienia jedynie części założeń wymaganych przy obliczaniu korelacji Pearsona\footnote{
+Czwarty zestaw prezentuje zależność między wartościami jednej zmiennej projektowej, a uzyskanymi maksymalnymi wartościami przyspieszeń dla rozwiązań należących do Frontu Pareto (na przykład rys. \ref{fig:EXAMPLE_picture_4_5_a}). Dla przedstawionych zależności wyznaczono wartości funkcji korelacji zerowej \teng{correlation}, korelacji cząstkowej \teng{partial correlation} i korelacji semicząstkowej (częściowej) \teng{semipartial correlation} \parencite{Tabachnick}. Wyniki korelacji zestawiono w tabelach (na przykład tab. \ref{tab: correlation_proste_160}). Do wyznaczania współczynników użyto metody Pearsona. Oceniając wyznaczone miary jakości dopasowania należy zdawać sobie sprawę ze spełnienia jedynie części założeń wymaganych przy obliczaniu korelacji Pearsona\footnote{
 	Według \cite{Warner2012} następujące założenia muszą być spełnione, aby współczynnik korelacji Pearsona był miarodajny: 1) każda rejestracja wartości zmiennych i wyników nie powinna wpływać na zarejestrowaną wartość innych zmiennych i wyników, 2) zmierzone zmienne powinny być określone ilościowo i charakteryzować się rozkładem normalnym, 3) zmienne powinny być liniowo zależne, 4) zmienne powinny mieć wariancję jednorodną w całym zakresie zmienności.}.
-Z tego względu jego wskazania zostały potraktowane jedynie jako wskazówka do poszukiwania korelacji pomiędzy zmiennymi i należy je zawsze rozpatrywać w parze z przedstawionymi wykresami zależności maksymalnych przyspieszeń od zmiennych projektowych \parencite{Vargha2013}. Każdy z wyznaczonych współczynników dostarcza innej informacji. W idealnych warunkach współczynnik korelacji liniowej $r^2$ wskazuje natężenie współzależności dwóch zmiennych \parencite{Czaja2000}. Z kolei współczynnik częściowej korelacji $\rho r^2$ oraz współczynnik semikorelacji $sr^2$ wskazują natężenie współzależności dwóch zmiennych przy uwzględnieniu (wyeliminowaniu) wpływu pozostałych. Korelacja cząstkowa eliminuje wpływ pozostałych zmiennych niezależnych z rozpatrywanej zmiennej zależnej jak i niezależnej. Korelacja semicząstkowa eliminuje wpływ pozostałych zmiennych jedynie ze zmiennej niezależnej. Z tego powodu to semicząstkowa korelacja obrazuje indywidualny wkład poszczególnych zmiennych niezależnych na wariancję zmiennej zależnej. Autorka pracy \cite{Tabachnick} wskazuje, że korelacja semicząstkowa jest lepszą niż cząstkowa miarą istotności wpływu danej zmiennej niezależnej na zmienną zależną.
+Z tego względu jego wskazania zostały potraktowane jedynie jako wskazówka do poszukiwania korelacji pomiędzy zmiennymi i należy je zawsze rozpatrywać w parze z przedstawionymi wykresami zależności maksymalnych przyspieszeń od zmiennych projektowych \parencite{Vargha2013}. Każdy z wyznaczonych współczynników dostarcza innej informacji. W idealnych warunkach współczynnik korelacji liniowej $r^2$ wskazuje poziom współzależności dwóch zmiennych \parencite{Czaja2000}. Z kolei współczynnik częściowej korelacji $\rho r^2$ oraz współczynnik semikorelacji $sr^2$ wskazują poziom współzależności dwóch zmiennych przy uwzględnieniu (wyeliminowaniu) wpływu pozostałych. Korelacja cząstkowa w ocenie eliminuje wpływ pozostałych zmiennych niezależnych z rozpatrywanej zmiennej zależnej jak i niezależnej. Korelacja semicząstkowa eliminuje w ocenie wpływ pozostałych zmiennych jedynie ze zmiennej niezależnej. Z tego powodu to korelacja semicząstkowa obrazuje indywidualny wkład poszczególnych zmiennych niezależnych na wariancję zmiennej zależnej. Autorka pracy \cite{Tabachnick} wskazuje, że korelacja semicząstkowa jest lepszą niż cząstkowa miarą istotności wpływu danej zmiennej niezależnej na zmienną zależną.
 \begin{figure}[hbt!]
 	\centering
     \subfloat[]{\includegraphics[trim=5 5 5 5, clip]{WK2/opti/proste_160/proste_160_var_sciag.pdf} \label{fig:EXAMPLE_picture_4_5_a}}
@@ -994,30 +994,30 @@ Z tego względu jego wskazania zostały potraktowane jedynie jako wskazówka do 
 
 
 
-Piąty element wizualizacji wyników pokazuje Zestaw Pareto czyli uzyskane przybliżenie Frontu Pareto w dziedzinie zmiennych projektowych (na przykład rys. \ref{fig:EXAMPLE_picture_4_5_b}). Kolorem punktu oznaczono maksymalne przyspieszenia. Rysunek pokazano w widoku aksonometrycznym (a) oraz trzech rzutach na poszczególne płaszczyzny (b-d). Punkty oznaczone trójkątem charakteryzują się maksymalnymi przyspieszeniami mniejszymi niż $3.5\,\mathrm{m/s^2}$.
+Piąty element wizualizacji wyników pokazuje Zestaw Pareto, czyli uzyskane przybliżenie Frontu Pareto w dziedzinie zmiennych projektowych (na przykład rys. \ref{fig:EXAMPLE_picture_4_5_b}). Kolorem punktu oznaczono maksymalne przyspieszenia. W pracy wyniki pokazano w widoku aksonometrycznym (a) oraz trzech rzutach na poszczególne płaszczyzny (b-d) (na przykładowym rys. \ref{fig:EXAMPLE_picture_4_5_b} pokazano jedynie rzut na jedną z płaszczyzn). Punkty oznaczone trójkątem charakteryzują się maksymalnymi przyspieszeniami mniejszymi niż $3.5\,\mathrm{m/s^2}$.
 
-Dla każdego wariantu optymalizacji oceniono wyniki i sformułowano następujące konkluzje dotyczące rozwiązania:
+Dla każdego wariantu optymalizacji oceniono wyniki i sformułowano następujące wnioski dotyczące:
 \begin{itemize}
-	\item możliwość wykonania układu w danym wariancie wieszaków i przy danej prędkości maksymalnej oraz przy spełnieniu kryterium bezpieczeństwa - przyspieszeniach pomostu mniejszych niż $3.5\,\mathrm{m/s^2}$,
-	\item stopień wpływu poszczególnych zmiennych projektowych na maksymalne przyspieszenia obiektu,
-	\item zakresy zmiennych projektowych, pozwalających na optymalne i bezpieczne zaprojektowanie danego typu konstrukcji.
+	\item możliwości wykonania układu w danym wariancie wieszaków i przy danej prędkości maksymalnej oraz przy spełnieniu kryterium bezpieczeństwa - przyspieszeniach pomostu mniejszych niż $3.5\,\mathrm{m/s^2}$,
+	\item stopnia wpływu poszczególnych zmiennych projektowych na maksymalne przyspieszenia obiektu,
+	\item zakresu zmiennych projektowych, pozwalających na optymalne i bezpieczne zaprojektowanie danego typu konstrukcji.
 \end{itemize} 
 
-W dalszej części rozdziału zaprezentowano i omówiono wyniki dla każdego z wariantów układu wieszaków i prędkości maksymalnych.
+W dalszej części rozdziału szczegółowo zaprezentowano i omówiono wyniki dla każdego z wariantów układu wieszaków i prędkości maksymalnych.
 
 
 \vfill
 \pagebreak[4]
-\subsection{Wieszaki Proste - prędkość maksymalna 160 km/h}
+\subsection{Wieszaki Pionowe - prędkość maksymalna 160 km/h}
 
-Rezultaty dla wariantu modelu przęsła z wieszakami prostymi i z dopuszczalną prędkością maksymalną 160 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_proste_160_all} - \ref{fig:wk2_opti_proste_160_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5\;\mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_proste_160_all}). Niemniej nie znaleziono rozwiązania, które gwarantowałoby spełnienie kryterium bezpieczeństwa przy minimalnym wykorzystaniu wytrzymałości materiału łuku i ściągu na poziomie większym niż 50\% (rys. \ref{fig:wk2_opti_proste_160_all_c}). Przy braku ograniczenia minimalnego wytężenia przekroju zakres wartości przybliżenia Frontu Pareto wynosi dla masy konstrukcji $f_1 \ge \,107.32$, a dla przyspieszeń $f_2 \in\,<0.97,9.29>$. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5\;\mathrm{m/s^2}$ wynosi $f_1 = 116.57$ t. Wynik ten uzyskano dla zestawu zmiennych projektowych: $h_1 = 151\;\mathrm{mm}$, $h_2 = 2386\;\mathrm{mm}$, i $d_1 = 47\;\mathrm{mm}$. Graficzna prezentacja rezultatów w przestrzeni funkcji celu pokazuje wyraźnie podzbiory wyników występujące na pewnych poziomach przyspieszeń (rys. \ref{fig:wk2_opti_proste_160_variables}). Każdy z tych zbiorów charakteryzuje się niemal stałą wartością przyspieszeń maksymalnych, malejących nieznacznie - w przybliżeniu liniowo - wraz ze wzrostem masy.
+Rezultaty dla wariantu modelu przęsła z wieszakami pionowymi i z dopuszczalną prędkością maksymalną 160 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_proste_160_all} - \ref{fig:wk2_opti_proste_160_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5\;\mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_proste_160_all}). Niemniej nie znaleziono rozwiązania, które gwarantowałoby spełnienie kryterium bezpieczeństwa przy minimalnym wykorzystaniu wytrzymałości materiału łuku i ściągu na poziomie większym niż 50\% (rys. \ref{fig:wk2_opti_proste_160_all_c}). Przy braku ograniczenia minimalnego wytężenia przekroju zakres wartości przybliżenia Frontu Pareto wynosi dla masy konstrukcji $f_1 \ge \,107.32$, a dla przyspieszeń $f_2 \in\,<0.97,9.29>$. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5\;\mathrm{m/s^2}$ wynosi $f_1 = 116.57$ t. Wynik ten uzyskano dla zestawu zmiennych projektowych: $h_1 = 151\;\mathrm{mm}$, $h_2 = 2386\;\mathrm{mm}$, i $d_1 = 47\;\mathrm{mm}$. Graficzna prezentacja rezultatów w przestrzeni funkcji celu pokazuje wyraźnie podzbiory wyników występujące na pewnych poziomach przyspieszeń (rys. \ref{fig:wk2_opti_proste_160_variables}). Każdy z tych zbiorów charakteryzuje się niemal stałą wartością przyspieszeń maksymalnych, malejących nieznacznie - w przybliżeniu liniowo - wraz ze wzrostem masy.
 \begin{figure}[hbt!]
 	\centering
 	\subfloat[$min_{eff}=0\%$ ]{\includegraphics[trim=7  5 7 5, clip]{WK2/opti/proste_160/proste_160_0.0.pdf}}
 	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_160/proste_160_0.3.pdf}}
 	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_160/proste_160_0.5.pdf}, \label{fig:wk2_opti_proste_160_all_c}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki proste, maksymalna prędkość 160 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki pionowe, maksymalna prędkość 160 km/h}
 	\label{fig:wk2_opti_proste_160_all}
 \end{figure}
 
@@ -1031,7 +1031,7 @@ Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projektowymi (rys
 	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_160/proste_160_luk.pdf}}
 	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_160/proste_160_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 160 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami pionowymi przy przejeździe z maksymalną prędkością 160 km/h}
 	\label{fig:wk2_opti_proste_160_variables}
 \end{figure}
 
@@ -1048,12 +1048,12 @@ Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projektowymi (rys
 	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_160/proste_160_var_luk.pdf}}
 	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_160/proste_160_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu w zależności od zmiennych projektowych: wieszaki proste, prędkość maksymalna 160 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności od zmiennych projektowych: wieszaki pionowe, prędkość maksymalna 160 km/h}
 	\label{fig:wk2_opti_proste_160_var_2d}
 \end{figure}
 
 \begin{table}[hbt!]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki proste, prędkość maksymalna 160 km/h}
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki pionowe, prędkość maksymalna 160 km/h}
 	\centering
 	\footnotesize
 	\setlength\tabcolsep{0pt}
@@ -1089,9 +1089,9 @@ Na rysunku \ref{fig:wk2_opti_proste_160_var_dom} zaprezentowano rozwiązania Fro
 
 
 \pagebreak[4]
-\subsection{Wieszaki Proste - prędkość maksymalna 200 km/h}
+\subsection{Wieszaki Pionowe - prędkość maksymalna 200 km/h}
 
-Rezultaty dla wariantu modelu przęsła z wieszakami prostymi i z dopuszczalną prędkością maksymalną 200 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_proste_200_all} - \ref{fig:wk2_opti_proste_200_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5\,\mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_proste_200_all}). Niemniej nie znaleziono rozwiązania, które gwarantowałoby spełnienie kryterium bezpieczeństwa przy progu minimalnego wykorzystania wytrzymałości materiału łuku i ściągu na poziomie większym niż 50\% (rys. \ref{fig:wk2_opti_proste_200_allc}). Przy braku ograniczenia minimalnego wytężenia przekroju, zakres wartości przybliżenia Frontu Pareto wynosi dla masy $f_1 \ge 107.29$, a dla przyspieszeń $f_2 \in\,<1.32,9.34>$. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5\,\mathrm{m/s^2}$ wynosi $f_1 = 121.4$ t. Wynik ten uzyskano dla zestawu zmiennych projektowych: $h_1 = 152\;\mathrm{mm}$, $h_2 = 2898\;\mathrm{mm}$, i $d_1 = 55\;\mathrm{mm}$. Podobnie jak w wariancie 160 km/h widoczne są podzbiory wyników o zbliżonych wartościach przyspieszeń maksymalnych (rys. \ref{fig:wk2_opti_proste_200_variables}).
+Rezultaty dla wariantu modelu przęsła z wieszakami pionowymi i z dopuszczalną prędkością maksymalną 200 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_proste_200_all} - \ref{fig:wk2_opti_proste_200_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5\,\mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_proste_200_all}). Niemniej nie znaleziono rozwiązania, które gwarantowałoby spełnienie kryterium bezpieczeństwa przy progu minimalnego wykorzystania wytrzymałości materiału łuku i ściągu na poziomie większym niż 50\% (rys. \ref{fig:wk2_opti_proste_200_allc}). Przy braku ograniczenia minimalnego wytężenia przekroju, zakres wartości przybliżenia Frontu Pareto wynosi dla masy $f_1 \ge 107.29$, a dla przyspieszeń $f_2 \in\,<1.32,9.34>$. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5\,\mathrm{m/s^2}$ wynosi $f_1 = 121.4$ t. Wynik ten uzyskano dla zestawu zmiennych projektowych: $h_1 = 152\;\mathrm{mm}$, $h_2 = 2898\;\mathrm{mm}$, i $d_1 = 55\;\mathrm{mm}$. Podobnie jak w wariancie 160 km/h widoczne są podzbiory wyników o zbliżonych wartościach przyspieszeń maksymalnych (rys. \ref{fig:wk2_opti_proste_200_variables}).
 
 \begin{figure}[hbt!]
 	\centering
@@ -1099,7 +1099,7 @@ Rezultaty dla wariantu modelu przęsła z wieszakami prostymi i z dopuszczalną 
 	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_200/proste_200_0.3.pdf}}
 	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_200/proste_200_0.5.pdf}, \label{fig:wk2_opti_proste_200_allc}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki proste, maksymalna prędkość 200 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki pionowe, maksymalna prędkość 200 km/h}
 	\label{fig:wk2_opti_proste_200_all}
 \end{figure}
 
@@ -1111,7 +1111,7 @@ Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projektowym (rys.
 	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_200/proste_200_luk.pdf}}
 	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_200/proste_200_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 200 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami pionowymi przy przejeździe z maksymalną prędkością 200 km/h}
 	\label{fig:wk2_opti_proste_200_variables}
 \end{figure}
 
@@ -1128,13 +1128,13 @@ Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projektowym (rys.
 	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_200/proste_200_var_luk.pdf}}
 	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_200/proste_200_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu w zależności od zmiennych projektowych: wieszaki proste, prędkość maksymalna 200 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności od zmiennych projektowych: wieszaki pionowe, prędkość maksymalna 200 km/h}
 	\label{fig:wk2_opti_proste_200_var_2d}
 \end{figure}
 
 
 \begin{table}[hbt!]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki proste, prędkość maksymalna 200 km/h}
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki pionowe, prędkość maksymalna 200 km/h}
 	\centering
 	\footnotesize
 	\setlength\tabcolsep{0pt}
@@ -1161,7 +1161,7 @@ Na rysunku \ref{fig:wk2_opti_proste_200_var_dom} zaprezentowano rozwiązania Fro
 	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_VAR_YZ.pdf}}
 	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_200/proste_200_VAR_XZ.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu przęsła mostu łukowego dla Zestawu Pareto: wieszaki proste, maksymalna prędkość 200 km/h}
+	\caption{Maksymalne przyspieszenia pomostu przęsła mostu łukowego dla Zestawu Pareto: wieszaki pionowe, maksymalna prędkość 200 km/h}
 	\label{fig:wk2_opti_proste_200_var_dom}
 \end{figure}
 
@@ -1172,9 +1172,9 @@ Na rysunku \ref{fig:wk2_opti_proste_200_var_dom} zaprezentowano rozwiązania Fro
 
 
 \pagebreak[4]
-\subsection{Wieszaki Proste - prędkość maksymalna 300 km/h}
+\subsection{Wieszaki Pionowe - prędkość maksymalna 300 km/h}
 
-Rezultaty dla wariantu modelu przęsła z wieszakami prostymi i z dopuszczalną prędkością maksymalną 300 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_proste_300_all} - \ref{fig:wk2_opti_proste_300_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5\,\mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_proste_300_all}). Niemniej, nie znaleziono rozwiązania, które gwarantowałoby spełnienie kryterium bezpieczeństwa przy minimalnym wykorzystaniu wytrzymałości materiału łuku i ściągu na poziomie większym niż 50\% (rys. \ref{fig:wk2_opti_proste_300_allc}). Przy braku ograniczenia minimalnego wytężenia przekroju, zakres wartości przybliżenia Frontu Pareto wynosi dla masy $f_1 \ge 107.40$, a dla przyspieszeń $f_2 \in\,<2.92,17.76>$. Maksymalne otrzymane przyspieszenia są niemal 2 razy większe niż w przypadku wyników uzyskanych dla pozostałych wariantów z wieszakami prostymi. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5\;\mathrm{m/s^2}$ wynosi $f_1 = 132.0$ t. Wynik ten uzyskano dla zestawu zmiennych projektowych: $h_1 = 150\;\mathrm{mm}$, $h_2 = 4184\;\mathrm{mm}$, i $d_1 = 47\;\mathrm{mm}$. Podobnie jak w wariantach 160 i 200 km/h widoczne są podzbiory wyników o zbliżonych wartościach przyspieszeń maksymalnych (rys. \ref{fig:wk2_opti_proste_300_all}). 
+Rezultaty dla wariantu modelu przęsła z wieszakami pionowymi i z dopuszczalną prędkością maksymalną 300 km/h zostały przedstawione na rysunkach \ref{fig:wk2_opti_proste_300_all} - \ref{fig:wk2_opti_proste_300_var_dom}. Wyznaczony Front Pareto wskazuje, że możliwe jest zaprojektowanie konstrukcji spełniającej kryterium bezpieczeństwa pomostu $a_{max}\le 3.5\,\mathrm{m/s^2}$ (rys. \ref{fig:wk2_opti_proste_300_all}). Niemniej, nie znaleziono rozwiązania, które gwarantowałoby spełnienie kryterium bezpieczeństwa przy minimalnym wykorzystaniu wytrzymałości materiału łuku i ściągu na poziomie większym niż 50\% (rys. \ref{fig:wk2_opti_proste_300_allc}). Przy braku ograniczenia minimalnego wytężenia przekroju, zakres wartości przybliżenia Frontu Pareto wynosi dla masy $f_1 \ge 107.40$, a dla przyspieszeń $f_2 \in\,<2.92,17.76>$. Maksymalne otrzymane przyspieszenia są niemal 2 razy większe niż w przypadku wyników uzyskanych dla pozostałych wariantów z wieszakami pionowymi. Minimalna masa konstrukcji, przy której maksymalne przyspieszenia pomostu są mniejsze niż $3.5\;\mathrm{m/s^2}$ wynosi $f_1 = 132.0$ t. Wynik ten uzyskano dla zestawu zmiennych projektowych: $h_1 = 150\;\mathrm{mm}$, $h_2 = 4184\;\mathrm{mm}$, i $d_1 = 47\;\mathrm{mm}$. Podobnie jak w wariantach 160 i 200 km/h widoczne są podzbiory wyników o zbliżonych wartościach przyspieszeń maksymalnych (rys. \ref{fig:wk2_opti_proste_300_all}). 
 
 \begin{figure}[hbt!]
 	\centering
@@ -1182,7 +1182,7 @@ Rezultaty dla wariantu modelu przęsła z wieszakami prostymi i z dopuszczalną 
 	\subfloat[$min_{eff}=30\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_300/proste_300_0.3.pdf}}
 	\subfloat[$min_{eff}=50\%$]{\includegraphics[trim=20 5 7 5, clip]{WK2/opti/proste_300/proste_300_0.5.pdf}, \label{fig:wk2_opti_proste_300_allc}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki proste, maksymalna prędkość 300 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego: wieszaki pionowe, maksymalna prędkość 300 km/h}
 	\label{fig:wk2_opti_proste_300_all}
 \end{figure}
 
@@ -1194,7 +1194,7 @@ Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projektowymi poka
 	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_300/proste_300_luk.pdf}}
 	\subfloat{\includegraphics[trim=20 5 5 5, clip]{WK2/opti/proste_300/proste_300_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami prostymi przy przejeździe z maksymalną prędkością 300 km/h}
+	\caption{Maksymalne przyspieszenia pomostu i masa przęsła mostu łukowego z wieszakami pionowymi przy przejeździe z maksymalną prędkością 300 km/h}
 	\label{fig:wk2_opti_proste_300_variables}
 \end{figure}
 \begin{figure}[hbt!]
@@ -1211,12 +1211,12 @@ Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projektowymi poka
 	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_300/proste_300_var_luk.pdf}}
 	\subfloat{\includegraphics[trim=17 5 5 5, clip]{WK2/opti/proste_300/proste_300_var_wieszak.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu w zależności od zmiennych projektowych: wieszaki proste, prędkość maksymalna 300 km/h}
+	\caption{Maksymalne przyspieszenia pomostu w zależności od zmiennych projektowych: wieszaki pionowe, prędkość maksymalna 300 km/h}
 	\label{fig:wk2_opti_proste_300_var_2d}
 \end{figure}
 
 \begin{table}[hbt!]
-	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki proste, prędkość maksymalna 300 km/h}
+	\caption{Miary korelacji zmiennych projektowych i maksymalnych przyspieszeń przęsła dla Zestawu Pareto: wieszaki pionowe, prędkość maksymalna 300 km/h}
 	\centering
 	\footnotesize
 		\setlength\tabcolsep{0pt}
@@ -1243,7 +1243,7 @@ Na rysunku \ref{fig:wk2_opti_proste_300_var_dom} zaprezentowano rozwiązania Fro
 	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_VAR_YZ.pdf}}
 	\subfloat{\includegraphics[width=0.5\linewidth,trim=40 26 5 26, clip]{WK2/opti/proste_300/proste_300_VAR_XZ.pdf}}
 	\captionsetup{justification=centering}
-	\caption{Maksymalne przyspieszenia pomostu przęsła mostu łukowego dla Zestawu Pareto: wieszaki proste, maksymalna prędkość 300 km/h}
+	\caption{Maksymalne przyspieszenia pomostu przęsła mostu łukowego dla Zestawu Pareto: wieszaki pionowe, maksymalna prędkość 300 km/h}
 	\label{fig:wk2_opti_proste_300_var_dom}
 \end{figure}
 
@@ -1731,7 +1731,7 @@ Zestawienie rozkładu funkcji celu z poszczególnymi zmiennymi projektowymi poka
 		Kwadrat wsp. korelacji cząstkowej & $\rho r^2$ & $0.4742$  & $0.7695$  & $0.3985$  \\
 		Współczynnik korelacji cząstkowej         & $\rho r$   & $-0.6886$ & $-0.8772$ & $-0.6313$ \\
 		Kwadrat wsp. semikorelacji        & $sr^2$     & $0.1145$  & $0.4238$  & $0.0841$  \\
-		Współczynnik semikorelacji                & $sr$       & $-0.3384$ & $-0.651$  & $-0.2900$   \\ \bottomrule
+		Współczynnik semikorelacji                & $sr$       & $-0.3384$ & $-0.6510$  & $-0.2900$   \\ \bottomrule
 	\end{tabular}
 	\label{tab: correlation_network_300}
 \end{table}
@@ -1776,9 +1776,9 @@ Wykonane analizy optymalizacyjne kolejowego obiektu łukowego pozwoliły na iden
 			\multirow{3}{*}[-5pt]{\begin{tabular}[c]{@{}c@{}}Element \\ decydujący\end{tabular}} \\  \cmidrule(lr){4-6}
 			&                      &                        & Łuk                  & Ściąg                & Wieszaki             &              \\  \cmidrule(lr){2-6}
 			& $v\;\mathrm{[km/h]}$ & $\rho_{min}\;\mathrm{[\%]}$  & $h_1\;\mathrm{[m]}$ & $h_2\;\mathrm{[m]}$ & $d_1\;\mathrm{[mm]}$ &              \\ \midrule
-			Proste  & 160                  & $30\%<\rho_{min}$ & -                    & $h_2>2.4$           & $d_1>44$             & Ściąg        \\
-			Proste  & 200                  & $30\%<\rho_{min}$ & -                    & $h_2>2.9$           & $d_1>45$             & Ściąg        \\
-			Proste  & 300                  & $30\%<\rho_{min}$ & -                    & $h_2>4.2$           & $d_1>44$             & Ściąg        \\
+			Pionowe  & 160                  & $30\%<\rho_{min}$ & -                    & $h_2>2.4$           & $d_1>44$             & Ściąg        \\
+			Pionowe  & 200                  & $30\%<\rho_{min}$ & -                    & $h_2>2.9$           & $d_1>45$             & Ściąg        \\
+			Pionowe  & 300                  & $30\%<\rho_{min}$ & -                    & $h_2>4.2$           & $d_1>44$             & Ściąg        \\
 			Ukośne  & 160                  & $50\%<\rho_{min}$      & -                    & $1.0<h_2<1.5$      & $44<d_1<125$         & Łuk/Wieszaki \\
 			Ukośne  & 200                  & $50\%<\rho_{min}$      & -                    & -                    & $44<d_1<150$         & Łuk/Ściąg    \\
 			Ukośne  & 300                  & $30\%<\rho_{min}$ & $h_1>1.0$           & $1.0<h_2<2.0$      & $75<d_1<125$         & Łuk          \\
@@ -1817,9 +1817,9 @@ Na rysunku \ref{fig:comparison_proportion_opt} oraz w tabeli \ref{tab:summary_op
 
 \begin{figure}[hbt!]
 	\centering
-	\subfloat[Proste, $v_{max} = 160$ km/h]{\includegraphics[width=0.33\linewidth,page=4]{WK2/opti/wyniki_35_wszystkie.pdf}}
-	\subfloat[Proste, $v_{max} = 200$ km/h]{\includegraphics[width=0.33\linewidth,page=5]{WK2/opti/wyniki_35_wszystkie.pdf}}
-	\subfloat[Proste, $v_{max} = 300$ km/h]{\includegraphics[width=0.33\linewidth,page=6]{WK2/opti/wyniki_35_wszystkie.pdf}}\\
+	\subfloat[Pionowe, $v_{max} = 160$ km/h]{\includegraphics[width=0.33\linewidth,page=4]{WK2/opti/wyniki_35_wszystkie.pdf}}
+	\subfloat[Pionowe, $v_{max} = 200$ km/h]{\includegraphics[width=0.33\linewidth,page=5]{WK2/opti/wyniki_35_wszystkie.pdf}}
+	\subfloat[Pionowe, $v_{max} = 300$ km/h]{\includegraphics[width=0.33\linewidth,page=6]{WK2/opti/wyniki_35_wszystkie.pdf}}\\
 	\subfloat[Ukośne, $v_{max} = 160$ km/h]{\includegraphics[width=0.33\linewidth,page=7]{WK2/opti/wyniki_35_wszystkie.pdf}}
 	\subfloat[Ukośne, $v_{max} = 200$ km/h]{\includegraphics[width=0.33\linewidth,page=8]{WK2/opti/wyniki_35_wszystkie.pdf}}
 	\subfloat[Ukośne, $v_{max} = 300$ km/h]{\includegraphics[width=0.33\linewidth,page=9]{WK2/opti/wyniki_35_wszystkie.pdf}}\\
@@ -1849,9 +1849,9 @@ Na rysunku \ref{fig:comparison_proportion_opt} oraz w tabeli \ref{tab:summary_op
 		Ściąg &
 		Wieszaki \\ \cmidrule(l){2-7} 
 		& {[}km/h{]} & {[}t{]} & $\mathrm{[m/s^2]}$ & $h_1\;\mathrm{[mm]}$ & $h_2\;\mathrm{[mm]}$ & $d_1\;\mathrm{[mm]}$ \\ \midrule
-		Proste  & 160        & 116.6   & 3.48    & 151                  & 2385                 & 47                   \\
-		Proste  & 200        & 121.4   & 3.50    & 152                  & 2897                 & 54                   \\
-		Proste  & 300        & 132.0   & 3.48    & 150                  & 4183                 & 46                   \\
+		Pionowe  & 160        & 116.6   & 3.48    & 151                  & 2385                 & 47                   \\
+		Pionowe  & 200        & 121.4   & 3.50    & 152                  & 2897                 & 54                   \\
+		Pionowe  & 300        & 132.0   & 3.48    & 150                  & 4183                 & 46                   \\
 		Ukośne  & 160        & 106.1   & 3.43    & 150                  & 1000                 & 48                   \\
 		Ukośne  & 200        & 108.5   & 3.46    & 152                  & 1007                 & 64                   \\
 		Ukośne  & 300        & 152.1   & 3.48    & 1266                 & 1115                 & 115                  \\
@@ -1873,19 +1873,19 @@ Bazując na rezultatach przeprowadzonych analiz poddano ocenie następujące asp
 Dla wszystkich rozpatrywanych wariantów mostów łukowych możliwe jest zaprojektowanie konstrukcji, dla której przyspieszenia maksymalne pomostu wywołane przejazdem modeli obciążenia dynamicznego wg \cite{PKNj} nie osiągają wartości większej niż $3.5\;\mathrm{m/s^2}$. Powyższe kryterium osiągnięte zostało przy spełnieniu stanów granicznych nośności i użytkowania wg \cite{PKNc} i \cite{PKNj}. W analizach nie uwzględniono sprawdzenia stateczności elementów ściskanych, zakładając odpowiednio zaprojektowane stężenia poprzeczne. Nie uwzględniono również możliwości redukcji do zera sił rozciągających w wieszakach. Przyjęto, że ciężar własny obiektu i technologia naciągu nie pozwolą na wystąpienie takiej sytuacji.
 
 \subsubsection{Elementy charakterystyczne rozwiązań optymalnych}
-W wariancie z wieszakami prostymi, niezależnie od maksymalnej prędkości przejazdu, elementem decydującym jest dźwigar-ściąg łuku. Wraz ze wzrostem prędkości maksymalnej wymagana jest coraz większa sztywność giętna (wysokość) tego elementu. W rozpatrywanym przykładzie gdzie ściąg posiada przekrój dwuteowy, dla maksymalnej prędkości 300 km/h wymagana wysokość ściągu wyniosła aż 4183 mm. Przy rozpiętość $L_t=70\;\mathrm{m}$ smukłość elementu wynosi $L_t/h=\frac{70 000}{4183}=16.7$. Jest to wartość charakterystyczna raczej dla kolejowych, belkowych dźwigarów swobodnie podpartych\footnote{
+W wariancie z wieszakami pionowymi, niezależnie od maksymalnej prędkości przejazdu, elementem decydującym jest dźwigar-ściąg łuku. Wraz ze wzrostem prędkości maksymalnej wymagana jest coraz większa sztywność giętna (wysokość) tego elementu. W rozpatrywanym przykładzie gdzie ściąg posiada przekrój dwuteowy, dla maksymalnej prędkości 300 km/h wymagana wysokość ściągu wyniosła aż 4183 mm. Przy rozpiętość $L_t=70\;\mathrm{m}$ smukłość elementu wynosi $L_t/h=\frac{70 000}{4183}=16.7$. Jest to wartość charakterystyczna raczej dla kolejowych, belkowych dźwigarów swobodnie podpartych\footnote{
 		W publikacji \cite{Madaj2009} autorzy podają typowe granice smukłości dźwigara obiektów belkowych, kolejowych, do rozpiętości ok. 60 m jako przedział od $8 \div \text{do } 15$.}. 
-W tym wariancie, dla wszystkich prędkości, łuk o przekroju skrzynkowym został przyjęty o minimalnej wysokości środnika 150 mm. Podobna sytuacja jest w przypadku wieszaków. Zostały one przyjęte o średnicy równej ok. 50 mm, która to jest minimalną gwarantującą spełnienie warunków nośności w analizie statycznej. Masa połowy konstrukcji dla wskazanych wariantów waha się od 116.6 do 132.0 t w zależności od prędkości maksymalnej. Dla prędkości do 200 km/h wariant z wieszakami prostymi jest najcięższym rozwiązaniem konstrukcyjnym. W uproszczeniu oznacza to również najdroższe rozwiązanie. Przypadek prędkości maksymalnej 300 km/h w wariancie wieszaków prostych jest teoretycznie najlżejszy spośród wszystkich wariantów rozkładu wieszaków, a jego masa wynosi 132 t. Należy jednak zdawać sobie sprawę, że przy tak smukłym dźwigarze należałoby z pewnością dodać ciężar materiału użebrowania co mogłoby wywołać istotny wzrost masy. Dodatkowo dla wszystkich prędkości maksymalne wytężenie elementów nie przekroczyło 50\%. Nasuwa się również pytanie czy przy zastosowaniu ściągu o bardzo dużej sztywności projektowanie łuku o bardzo małym przekroju ma jakiekolwiek uzasadnienie. 
+W tym wariancie, dla wszystkich prędkości, łuk o przekroju skrzynkowym został przyjęty o minimalnej wysokości środnika 150 mm. Podobna sytuacja jest w przypadku wieszaków. Zostały one przyjęte o średnicy równej ok. 50 mm, która to jest minimalną gwarantującą spełnienie warunków nośności w analizie statycznej. Masa połowy konstrukcji dla wskazanych wariantów waha się od 116.6 do 132.0 t w zależności od prędkości maksymalnej. Dla prędkości do 200 km/h wariant z wieszakami pionowymi jest najcięższym rozwiązaniem konstrukcyjnym. W uproszczeniu oznacza to również najdroższe rozwiązanie. Przypadek prędkości maksymalnej 300 km/h w wariancie wieszaków pionowych jest teoretycznie najlżejszy spośród wszystkich wariantów rozkładu wieszaków, a jego masa wynosi 132 t. Należy jednak zdawać sobie sprawę, że przy tak smukłym dźwigarze należałoby z pewnością dodać ciężar materiału użebrowania co mogłoby wywołać istotny wzrost masy. Dodatkowo dla wszystkich prędkości maksymalne wytężenie elementów nie przekroczyło 50\%. Nasuwa się również pytanie czy przy zastosowaniu ściągu o bardzo dużej sztywności projektowanie łuku o bardzo małym przekroju ma jakiekolwiek uzasadnienie. 
 
 
-Warianty z wieszakami ukośnymi i Network mają odmienną charakterystykę niż wariant z wieszakami prostymi. W obu układach elementem decydującym okazała się sztywność łuku. Wpływ zmienności średnicy wieszaków i wysokości ściągu jest również zauważalny, ale znacznie mniejszy od łuku. Dla rozwiązań uzyskanych przy prędkości do 200 km/h włącznie, wytężenie maksymalne elementów wyniosło powyżej 50\%, co świadczy o znacznie lepszym wykorzystaniu materiału niż w przypadku wieszaków prostych. Jednocześnie wysokość łuku została dobrana jako minimalna 150 mm. Wśród optymalnych rozwiązań, dla wszystkich prędkości wysokość ściągu nie przekroczyła 2000 mm. Można również stwierdzić, że przy prędkościach zwiększonych do 300 km/h sztywność łuku musi być znacznie większa. W analizach uzyskano wysokość łuku dla wieszaków ukośnych większą niż 1000 mm, a dla wieszaków Network większą niż 1500 mm.
+Warianty z wieszakami ukośnymi i Network mają odmienną charakterystykę niż wariant z wieszakami pionowymi. W obu układach elementem decydującym okazała się sztywność łuku. Wpływ zmienności średnicy wieszaków i wysokości ściągu jest również zauważalny, ale znacznie mniejszy od łuku. Dla rozwiązań uzyskanych przy prędkości do 200 km/h włącznie, wytężenie maksymalne elementów wyniosło powyżej 50\%, co świadczy o znacznie lepszym wykorzystaniu materiału niż w przypadku wieszaków pionowych. Jednocześnie wysokość łuku została dobrana jako minimalna 150 mm. Wśród optymalnych rozwiązań, dla wszystkich prędkości wysokość ściągu nie przekroczyła 2000 mm. Można również stwierdzić, że przy prędkościach zwiększonych do 300 km/h sztywność łuku musi być znacznie większa. W analizach uzyskano wysokość łuku dla wieszaków ukośnych większą niż 1000 mm, a dla wieszaków Network większą niż 1500 mm.
 
 \subsubsection{Rozrzut maksymalnych przyspieszeń dla rozwiązań o tej samej masie}
 Na podstawie rozkładu wszystkich wyznaczonych rozwiązań w dziedzinie funkcji celu (na przykład rys. \ref{fig:wk2_opti_proste_160_all}) można wnioskować o możliwej skali błędnego zaprojektowania konstrukcji z punktu widzenia dynamicznego. Załóżmy, że perfekcyjnie i optymalnie zaprojektowana konstrukcja to taka dla której Front Pareto przecina linię wyznaczającą poziom maksymalnych przyspieszeń $3.5\;\mathrm{m/s^2}$. W takim wypadku punkt przecięcia wyznacza minimalną masę, dla której możliwe jest poprawne zaprojektowanie konstrukcji z punktu widzenia dynamicznego. Warto więc rozważyć jak bardzo nieudanie można zaprojektować konstrukcję dynamicznie, czyli jak odległe są ekstremalne uzyskane w optymalizacji wartości przyspieszeń maksymalnych przy danej masie konstrukcji. Przedstawiony eksperyment myślowy dotyczy zaproponowanych w pracy zakresów zmiennych projektowych i rozwiązań, dla których spełnione są pozostałe warunki SGN i SGU. Zakres zmienności masy konstrukcji (od ok. 106 t do ok. 213 t) podzielono na 20 równych przedziałów. W każdym przedziale zidentyfikowano maksymalną i minimalną wartość maksymalnych przyspieszeń pomostu uzyskanych w optymalizacji. Rezultaty przedstawiono na rysunku \ref{fig:comparison_diffs_opt}. Zielone słupki przedstawiają wartość minimalną, a czerwone wartość maksymalną otrzymanych przyspieszeń maksymalnych pomostu w danym przedziale masy. Poziomą przerywaną linią zaznaczono przyspieszenia równe $3.5\;\mathrm{m/s^2}$. Pionową linią przerywaną zaznaczono minimalną masę, dla której zidentyfikowano przyspieszenia mniejsze niż $3.5\;\mathrm{m/s^2}$.
 
 Dodatkowo dla każdego z wariantów wieszaków i prędkości odczytano z wykresów na rysunku \ref{fig:comparison_diffs_opt} wartość minimalną i maksymalną przyspieszeń odpowiadających masom przedstawionym w tabeli \ref{tab:summary_optimal_results}. Są to skrajne wartości pasków przeciętych przez pionową linię przerywaną. Dziedzinę masy o rozpiętości ok. 100 t podzielono na 20 części stąd odczytany wynik ekstremalnych przyspieszeń dotyczy mas o wartości $\pm 5\;\mathrm{t}$. Rezultaty przedstawiono w tabeli \ref{tab:optimization_dynamic_ranges}\footnote{ 
 	Przed oceną powyższych wyników należy przypomnieć, że ze względu na działanie algorytmu optymalizacji uzyskane rozkłady rozwiązań nie pokrywają równomiernie przestrzeni zmiennych projektowych. Z tego powodu dla któregoś z wariantów uzyskane wyniki mogą niedoszacowywać maksymalnych możliwych przyspieszeń przy danej masie konstrukcji. Niemniej liczba wyznaczonych próbek oraz regularność kształtów otrzymanych rozkładów pozwalają założyć, że ryzyko to jest względnie małe.}.
-Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nieodpowiedni dobór wymiarów elementów i brak weryfikacji przez analizę odpowiedzi dynamicznej może skutkować bardzo dużymi wartości przyspieszeń maksymalnych pomostu. W przypadku wieszaków prostych uwaga ta dotyczy wszystkich rozpatrywanych prędkości. Przęsło z wieszakami ukośnymi niezależnie od przyjętych wartości zmiennych projektowych zachowuje dobre właściwości dynamiczne przy prędkości do 160 km/h. Dla prędkości do 200 i 300 km/h sytuacja ulega zmianie i wartości przyjętych zmiennych wpływają drastycznie na wartość przyspieszeń maksymalnych. Najlepiej w tym aspekcie prezentuje się układ z wieszakami typu Network. Do prędkości 160 km/h nie udało się uzyskać przyspieszeń większych niż $3.5\;\mathrm{m/s^2}$, dla wszystkich rozwiązań spełniających warunki SGN i SGU z analizy statycznej. Zwiększenie zakresu prędkości do 200 km/h powoduje ryzyko wystąpienia większych przyspieszeń, ale znacznie mniejszych niż ma to miejsce w przypadku obiektów z wieszakami prostymi i ukośnymi. Dopiero symulacja przejazdu z prędkością do 300 km/h pokazuje, że złe ukształtowanie konstrukcji może drastycznie pogorszyć właściwości dynamiczne przęsła.
+Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nieodpowiedni dobór wymiarów elementów i brak weryfikacji przez analizę odpowiedzi dynamicznej może skutkować bardzo dużymi wartości przyspieszeń maksymalnych pomostu. W przypadku wieszaków pionowych uwaga ta dotyczy wszystkich rozpatrywanych prędkości. Przęsło z wieszakami ukośnymi niezależnie od przyjętych wartości zmiennych projektowych zachowuje dobre właściwości dynamiczne przy prędkości do 160 km/h. Dla prędkości do 200 i 300 km/h sytuacja ulega zmianie i wartości przyjętych zmiennych wpływają drastycznie na wartość przyspieszeń maksymalnych. Najlepiej w tym aspekcie prezentuje się układ z wieszakami typu Network. Do prędkości 160 km/h nie udało się uzyskać przyspieszeń większych niż $3.5\;\mathrm{m/s^2}$, dla wszystkich rozwiązań spełniających warunki SGN i SGU z analizy statycznej. Zwiększenie zakresu prędkości do 200 km/h powoduje ryzyko wystąpienia większych przyspieszeń, ale znacznie mniejszych niż ma to miejsce w przypadku obiektów z wieszakami pionowymi i ukośnymi. Dopiero symulacja przejazdu z prędkością do 300 km/h pokazuje, że złe ukształtowanie konstrukcji może drastycznie pogorszyć właściwości dynamiczne przęsła.
 
 
 
@@ -1894,9 +1894,9 @@ Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nie
 
 \begin{figure}[p]
 	\centering
-	\subfloat[wieszaki proste,\\ $v_{max} = 160$ km/h]{\includegraphics[trim= 07  5 05 05, clip]{WK2/opti/proste_160/proste_160_diffs.pdf}} \hfill
-	\subfloat[wieszaki proste,\\ $v_{max} = 200$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/proste_200/proste_200_diffs.pdf}} \hfill
-	\subfloat[wieszaki proste,\\ $v_{max} = 300$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/proste_300/proste_300_diffs.pdf}}\\
+	\subfloat[wieszaki pionowe,\\ $v_{max} = 160$ km/h]{\includegraphics[trim= 07  5 05 05, clip]{WK2/opti/proste_160/proste_160_diffs.pdf}} \hfill
+	\subfloat[wieszaki pionowe,\\ $v_{max} = 200$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/proste_200/proste_200_diffs.pdf}} \hfill
+	\subfloat[wieszaki pionowe,\\ $v_{max} = 300$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/proste_300/proste_300_diffs.pdf}}\\
 	\subfloat[wieszaki ukośne,\\ $v_{max} = 160$ km/h]{\includegraphics[trim= 07  5 05 05, clip]{WK2/opti/niels_160/niels_160_diffs.pdf}} \hfill
 	\subfloat[wieszaki ukośne,\\ $v_{max} = 200$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/niels_200/niels_200_diffs.pdf}} \hfill
 	\subfloat[wieszaki ukośne,\\ $v_{max} = 300$ km/h]{\includegraphics[trim= 20  5 05 05, clip]{WK2/opti/niels_300/niels_300_diffs.pdf}}\\
@@ -1922,9 +1922,9 @@ Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nie
 		\multicolumn{2}{c}{Przyspieszenia maksymalne}\\ \cmidrule(l){4-5} 
 		& & &  Dolna granica & Górna Granica \\ \cmidrule(l){2-5} 
 		& {[}km/h{]} & {[}t{]} & $\mathrm{[m/s^2]}$ & $\mathrm{[m/s^2]}$  \\ \midrule
-		Proste  & 160        & 116.6   & 2.0    & 9.2                   \\
-		Proste  & 200        & 121.4   & 2.4    & 9.4                   \\
-		Proste  & 300        & 132.0   & 3.2    & 15.6                   \\
+		Pionowe  & 160        & 116.6   & 2.0    & 9.2                   \\
+		Pionowe  & 200        & 121.4   & 2.4    & 9.4                   \\
+		Pionowe  & 300        & 132.0   & 3.2    & 15.6                   \\
 		Ukośne  & 160        & 106.1   & 2.1    & 3.6                   \\
 		Ukośne  & 200        & 108.5   & 2.4    & 7.1                   \\
 		Ukośne  & 300        & 152.1   & 3.0    & 8.1                  \\
@@ -1935,10 +1935,10 @@ Odczytane rezultaty pozwalają stwierdzić, że przy danej masie konstrukcji nie
 	\label{tab:optimization_dynamic_ranges}
 \end{table}
 
-\subsection{Poszukiwanie głównych czynników wpływających na odpowiedź dynamiczną}
+\subsection{Poszukiwanie głównych czynników wpływających na odpowiedź dynamiczną przęsła}
 Otrzymane wyniki optymalizacji są wypadkową bardzo wielu nakładających się na siebie mechanizmów. Z uwzględnieniem poczynionych założeń pozwoliły na globalną ocenę rozpatrywanych schematów statycznych i rozpoznanie ogólnych kierunków w jakich należy zmierzać, aby uczynić konstrukcję łukową jak najbardziej odporną dynamiczne. Opierając się na otrzymanych rezultatach przeprowadzono dalsze testy, mające na celu wyjaśnienie zarejestrowanych obserwacji.
 
-Zastosowanie wieszaków typu Network zamiast wieszaków prostych z reguły jest rozwiązaniem gwarantującym większą sztywność konstrukcji, zwłaszcza przy niesymetrycznych obciążeniach. Intuicyjnie wydaje się, że układ Network powinien gwarantować również większą odporność konstrukcji łukowej na wzbudzenia dynamiczne. Tymczasem rezultaty analiz optymalizacyjnych przy przejazdach z maksymalną prędkością równą 300 km/h pokazują, że minimalne masy dźwigarów łukowych, dla których spełniony jest warunek maksymalnych przyspieszeń, wynoszą dla wariantów z wieszakami prostymi 132 t, a dla wariantu Network 150 t. Można by się spodziewać, że zmiana jedynie typu wieszaków dla niezmiennych pozostałych elementów wariantu z wieszakami prostymi na wieszaki Network powinna przynieść jeszcze lepszą odporność dynamiczną. Na początku oceniono czy różnica między masą rozwiązań nie wynika bezpośrednio z różnej masy wieszaków.  W tabeli \ref{tab:summary_mass_comparison} zestawiono masy poszczególnych elementów konstrukcyjnych dla wszystkich \enquote{najlepszych} rozwiązań przy prędkości maksymalnej 300 km/h. \enquote{Najlepszymi} rozwiązaniami nazywane będą te, które posiadają najmniejszą masę i jednocześnie spełniają warunek na przyspieszenia maksymalne pomostu (tab. \ref{tab:summary_optimal_results}). Można dostrzec, że różnica w masie całkowitej pomiędzy wariantami z wieszakami prostymi i Network, przy tej samej prędkości maksymalnej, jest znacznie większa od różnicy mas samych wieszaków w układzie prostym i Network. 
+Zastosowanie wieszaków typu Network zamiast wieszaków pionowych z reguły jest rozwiązaniem gwarantującym większą sztywność konstrukcji, zwłaszcza przy niesymetrycznych obciążeniach. Intuicyjnie wydaje się, że układ Network powinien gwarantować również większą odporność konstrukcji łukowej na wzbudzenia dynamiczne. Tymczasem rezultaty analiz optymalizacyjnych przy przejazdach z maksymalną prędkością równą 300 km/h pokazują, że minimalne masy dźwigarów łukowych, dla których spełniony jest warunek maksymalnych przyspieszeń, wynoszą dla wariantów z wieszakami pionowymi 132 t, a dla wariantu Network 150 t. Można by się spodziewać, że zmiana jedynie typu wieszaków dla niezmiennych pozostałych elementów wariantu z wieszakami pionowymi na wieszaki Network powinna przynieść jeszcze lepszą odporność dynamiczną. Na początku oceniono czy różnica między masą rozwiązań nie wynika bezpośrednio z różnej masy wieszaków.  W tabeli \ref{tab:summary_mass_comparison} zestawiono masy poszczególnych elementów konstrukcyjnych dla wszystkich \enquote{najlepszych} rozwiązań przy prędkości maksymalnej 300 km/h. \enquote{Najlepszymi} rozwiązaniami nazywane będą te, które posiadają najmniejszą masę i jednocześnie spełniają warunek na przyspieszenia maksymalne pomostu (tab. \ref{tab:summary_optimal_results}). Można dostrzec, że różnica w całkowitej masie pomiędzy wariantami z wieszakami pionowymi i Network, przy tej samej prędkości maksymalnej, jest znacznie większa od różnicy mas samych wieszaków. Różnice w masie wieszaków wynikają z całkowitej długości wieszaków oraz ich średnicy.
 
 \begin{table}[hbt!]
 	\caption{Porównanie mas elementów konstrukcyjnych dla \enquote{najlepszych} rozwiązań przy przejazdach z prędkością maksymalną 300 km/h}
@@ -1955,45 +1955,44 @@ Zastosowanie wieszaków typu Network zamiast wieszaków prostych z reguły jest 
 			\begin{tabular}[c]{@{}c@{}}Masa\\ ściągu\end{tabular}   &
 			\begin{tabular}[c]{@{}c@{}}Masa\\ wieszaków\end{tabular} \\ \cmidrule(l){2-6} 
 			& {[}km/h{]} & {[}t{]} & {[}t{]} & {[}t{]} & {[}t{]}   \\ \midrule
-			Proste  & 300     & 132.0       & 27.15 & 104.04 & 0.81             \\
+			Pionowe  & 300     & 132.0       & 27.15 & 104.04 & 0.81             \\
 			Ukośne  & 300     & 152.1       & 59.72 & 77.07  & 15.33             \\
 			Network & 300     & 150.0       & 66.93 & 76.41  & 6.53             \\ \bottomrule
 		\end{tabular}
 		\label{tab:summary_mass_comparison}
 	\end{table}
-Wynika stąd, że wariant \enquote{najlepszy} z wieszakami prostymi po zmianie jedynie na wieszaki Network nie powinien spełnić warunków poprawności rozwiązania. W przeciwnym razie ujawniłby się jako rozwiązanie lepsze (lżejsze) od wyznaczonych rozwiązań optymalnych dla wariantu Network. Dokonano eksperymentu i sprawdzono maksymalne przyspieszania dla \enquote{najlepszego} rozwiązania z wieszakami prostymi, zamieniając jedynie układ wieszaków na wariant Network. Maksymalne przyspieszenia pomostu wyniosły w tym przypadku ponad 4.00 $\text{m}/\text{s}^2$.
+Wynika stąd, że wariant \enquote{najlepszy} z wieszakami pionowymi po zmianie jedynie na wieszaki Network nie powinien spełnić warunków poprawności rozwiązania. W przeciwnym razie ujawniłby się jako rozwiązanie lepsze (lżejsze) od wyznaczonych rozwiązań optymalnych dla wariantu Network. Dokonano eksperymentu i sprawdzono maksymalne przyspieszania dla \enquote{najlepszego} rozwiązania z wieszakami pionowymi, zamieniając jedynie układ wieszaków na wariant Network. Maksymalne przyspieszenia pomostu wyniosły w tym przypadku ponad 4.00 $\text{m}/\text{s}^2$.
 
-Poszukiwania przyczyn zaistniałego dysonansu rozpoczęto od analizy częstotliwości drgań własnych układu. Dla układu opisanego powyżej (\enquote{najlepszego} wariantu z wieszakami prostymi, prędkością maksymalną 300 km/h (tab. \ref{tab:summary_optimal_results}) i ze zmienionymi wieszakami na układ Network (rys. \ref{fig:proste_na_network_wiz})) przeprowadzono analizę polegająca na uzmiennieniu sztywności wieszaków.
+Poszukiwania przyczyn zaistniałego dysonansu rozpoczęto od analizy częstotliwości drgań własnych układu. Dla układu opisanego powyżej (\enquote{najlepszego} wariantu z wieszakami pionowymi, prędkością maksymalną 300 km/h (tab. \ref{tab:summary_optimal_results}) i ze zmienionymi wieszakami na układ Network (rys. \ref{fig:proste_na_network_wiz})) przeprowadzono analizę polegająca na uzmiennieniu sztywności wieszaków.
 
 \begin{figure}[hbt!]
 	\centering
 	\includegraphics[width=0.7\linewidth]{WK2/dyskusja/plaski_ogolny_network_najlepsze_proste.jpg}
 	\captionsetup{justification=centering}
-	\caption{Wizualizacja modelu z \enquote{najlepszym} rozwiązaniem dla wieszaków prostych po zmianie na wieszaki Network}
+	\caption{Wizualizacja modelu z \enquote{najlepszym} rozwiązaniem dla wieszaków pionowych po zmianie na wieszaki Network}
 	\label{fig:proste_na_network_wiz}
 \end{figure}
-Sztywność ta ograniczona jest jedynie do sztywności podłużnej zdefiniowanej iloczynem modułu sprężystości i pola przekroju wieszaków ($EA$). Nie chcąc uwzględniać wpływu zmiany masy, w prowadzonej analizie przyjęto stałą średnicę wieszaków jak w \enquote{najlepszym} rozwiązaniu dla wieszaków prostych ($d=46\;\mathrm{mm}$). Jako zmienną przyjęto moduł sprężystości materiału. Dla każdego przypadku sztywności wieszaków wyznaczono przyspieszenia maksymalne zgodnie z algorytmem opisanym w punkcie \ref{sect:optimization_assumptions}. Obliczono również sześć pierwszych częstotliwości drgań własnych układu. Wyniki zaprezentowano w zależności od ekwiwalentnej średnicy. Ekwiwalentna średnica określa pole przekroju kołowego, tak aby wartość sztywności $EA$ dla zmiennego modułu sprężystości odpowiadała zawsze modułowi sprężystości stali $E=210\; \mathrm{GPa}$. Rezultaty przedstawiono na rysunku \ref{fig:proste_na_network_change_hangers_stiff}. 
+Sztywność ta ograniczona jest jedynie do sztywności podłużnej zdefiniowanej iloczynem modułu sprężystości i pola przekroju wieszaków ($EA$). Nie chcąc uwzględniać wpływu zmiany masy, w prowadzonej analizie przyjęto stałą średnicę wieszaków jak w \enquote{najlepszym} rozwiązaniu dla wieszaków pionowych ($d=46\;\mathrm{mm}$). Jako zmienną przyjęto moduł sprężystości materiału. Dla każdego przypadku sztywności wieszaków wyznaczono przyspieszenia maksymalne zgodnie z algorytmem opisanym w punkcie \ref{sect:optimization_assumptions}. Obliczono również sześć pierwszych częstotliwości drgań własnych układu. Wyniki zaprezentowano w zależności od ekwiwalentnej średnicy, definiującej zmienność $EA$ pręta przy $E=210\; \mathrm{GPa}$. 
+%Ekwiwalentna średnica określa pole przekroju kołowego, tak aby wartość sztywności $EA$ dla zmiennego modułu sprężystości odpowiadała zawsze modułowi sprężystości stali $E=210\; \mathrm{GPa}$. 
+Rezultaty przedstawiono na rysunku \ref{fig:proste_na_network_change_hangers_stiff}. 
 
 \begin{figure}[hbt!]
 	\centering
 	\includegraphics[width=0.95\linewidth,trim=5 5 5 5 ,clip]{WK2/dyskusja/proste_netw_change_stiff.pdf}
 	\captionsetup{justification=centering}
-	\caption{Częstotliwości drgań własnych i maksymalne przyspieszenia pomostu dla \enquote{najlepszego} rozwiązania z wieszakami prostymi po zmianie na wariant Network i po uzmiennieniu sztywności wieszaków}
+	\caption{Częstotliwości drgań własnych i maksymalne przyspieszenia pomostu dla \enquote{najlepszego} rozwiązania z wieszakami pionowymi po zmianie na wariant Network i po uzmiennieniu sztywności wieszaków}
 	\label{fig:proste_na_network_change_hangers_stiff}
 \end{figure}
 
-Zaprezentowane wyniki wskazują, że dla rozwiązania z dominującym dźwigarem/ściągiem i o wiotkim łuku zmiana wieszaków z układu prostego na Network nie obniża maksymalnych przyspieszeń. Co więcej, dla żadnej średnicy ekwiwalentnej nie znaleziono rozwiązania dopuszczalnego z punktu widzenia przyspieszeń pomostu. Najmniejsze wartości przyspieszeń uzyskano dla zakresu średnicy ekwiwalentnej od 8 do 16 mm. Zauważyć można również, że po przekroczeniu tych wartości im sztywniejsze jest połączenie pomiędzy łukiem, a ściągiem, tym większe są maksymalne przyspieszenia. Przebieg zmienności maksymalnych przyspieszeń ma charakter raczej gładki, bez nagłych wahań wartości.
+Zaprezentowane wyniki wskazują, że dla rozwiązania z dominującym dźwigarem-ściągiem i o wiotkim łuku zmiana wieszaków z układu pionowego na Network nie obniża maksymalnych przyspieszeń. Co więcej, dla żadnej średnicy ekwiwalentnej nie znaleziono rozwiązania dopuszczalnego z punktu widzenia przyspieszeń pomostu. Najmniejsze wartości przyspieszeń uzyskano dla zakresu średnicy ekwiwalentnej od 8 do 16 mm. Zauważyć można również, że po przekroczeniu tych wartości im sztywniejsze jest połączenie pomiędzy łukiem, a ściągiem, tym większe są maksymalne przyspieszenia. Przebieg zmienności maksymalnych przyspieszeń ma charakter raczej gładki, bez nagłych wahań wartości. Potwierdzono, że układ wieszaków ma istotny wpływ na maksymalne przyspieszenia pomostu i co ważniejsze, niekoniecznie ta relacja jest zgodna z oceną statycznej, globalnej sztywności układu. 
 
-
-
-
-Potwierdzono, że układ wieszaków ma istotne znaczenie na maksymalne przyspieszenia pomostu i co ważniejsze, niekoniecznie relacja jest ta zgodna ze zdroworozsądkową sztywnością globalną układu. Analogiczną analizę przeprowadzono dla dwóch dodatkowych modeli o skrajnie różnych rozkładach wieszaków: \enquote{najlepszych} rozwiązań uzyskanych przy prędkości do 300 km/h o wieszakach prostych (rys. \ref{fig:proste_najlepsze_wiz}) oraz Network (rys. \ref{fig:network_najlepsze_wiz}). Wyniki przedstawiono na rysunkach odpowiednio \ref{fig:proste_change_hangers_stiff} i \ref{fig:network_change_hangers_stiff}. 
+Analogiczną analizę przeprowadzono dla dwóch dodatkowych modeli o skrajnie różnych rozkładach wieszaków: \enquote{najlepszych} rozwiązań uzyskanych przy prędkości do 300 km/h o wieszakach pionowych (rys. \ref{fig:proste_najlepsze_wiz}) oraz Network (rys. \ref{fig:network_najlepsze_wiz}). Wyniki przedstawiono na rysunkach odpowiednio \ref{fig:proste_change_hangers_stiff} i \ref{fig:network_change_hangers_stiff}. 
 
 \begin{figure}[hbt!]
 	\centering
 	\includegraphics[width=0.6\linewidth]{WK2/dyskusja/plaski_ogolny_proste_najlepsze_proste.jpg}
 	\captionsetup{justification=centering}
-	\caption{Wizualizacja modelu z \enquote{najlepszym} rozwiązaniem dla wieszaków prostych}
+	\caption{Wizualizacja modelu z \enquote{najlepszym} rozwiązaniem dla wieszaków pionowych}
 	\label{fig:proste_najlepsze_wiz}
 \end{figure}
 
@@ -2010,7 +2009,7 @@ Potwierdzono, że układ wieszaków ma istotne znaczenie na maksymalne przyspies
 	\centering
 	\includegraphics[width=0.95\linewidth,trim=5 5 5 5 ,clip]{WK2/dyskusja/proste_change_stiff_hangers.pdf}
 	\captionsetup{justification=centering}
-	\caption{Częstotliwości drgań własnych i maksymalne przyspieszenia pomostu dla \enquote{najlepszego} rozwiązania z wieszakami prostymi po uzmiennieniu sztywności wieszaków}
+	\caption{Częstotliwości drgań własnych i maksymalne przyspieszenia pomostu dla \enquote{najlepszego} rozwiązania z wieszakami pionowymi po uzmiennieniu sztywności wieszaków}
 	\label{fig:proste_change_hangers_stiff}
 \end{figure}
 
@@ -2022,7 +2021,7 @@ Potwierdzono, że układ wieszaków ma istotne znaczenie na maksymalne przyspies
 	\label{fig:network_change_hangers_stiff}
 \end{figure}
 
-W \enquote{najlepszym} rozwiązaniu z wieszakami prostymi widoczny jest wyraźny przyrost maksymalnych przyspieszeń dla średnicy ekwiwalentnej w zakresie od 8 do 32 mm. Jednakże przedstawiony rezultat w zakresie bardzo małych średnic ekwiwalentnych należy traktować ostrożnie. Dla bardzo małych średnic wieszaków sztywność połączenia ściągu i łuku jest niewielka. Wpływa to na postaci drgań własnych w ten sposób, że jedna z pierwszych postaci drgań własnych struktury dotyczy wyłącznie łuku (rys. \ref{fig:small_stiff_hangers_mode_shape}). Częstotliwości drgań własnych w stosowanym algorytmie wpływają bezpośrednio na proponowane prędkości krytyczne. Jeżeli wśród pierwszych dwóch postaci znajduje się przynajmniej jedna niezwiązana z częstotliwością drgań własnych pomostu, to proponowana prędkość krytyczna nie wywoła jego drgań rezonansowych. Niskie wartości maksymalnych przyspieszeń dla średnicy ekwiwalentnej poniżej 8 mm są efektem właśnie tego zjawiska i uznano je jako niemiarodajne. Od średnicy ok. 8 mm dwie pierwsze postaci drgań dotyczą całej struktury dźwigara. Podobny problem nie występuje w przypadku wieszaków Network, ponieważ ten układ wieszaków zapewnia współpracę pomiędzy łukiem i ściągiem w całym rozpatrywanym zakresie średnic.
+W \enquote{najlepszym} rozwiązaniu z wieszakami pionowymi widoczny jest wyraźny przyrost maksymalnych przyspieszeń dla średnicy ekwiwalentnej w zakresie od 8 do 32 mm. Jednakże przedstawiony rezultat w zakresie bardzo małych średnic ekwiwalentnych należy traktować ostrożnie. Dla bardzo małych średnic wieszaków sztywność połączenia ściągu i łuku jest niewielka i drgania obu elementów stają się rozłączne. Wpływa to na postaci drgań własnych w ten sposób, że jedna z pierwszych postaci drgań własnych struktury dotyczy wyłącznie łuku (rys. \ref{fig:small_stiff_hangers_mode_shape}). Częstotliwości drgań własnych w stosowanym algorytmie wpływają bezpośrednio na proponowane prędkości krytyczne. Jeżeli wśród pierwszych dwóch postaci znajduje się przynajmniej jedna niezwiązana z częstotliwością drgań własnych pomostu, to proponowana prędkość krytyczna nie wywoła jego drgań rezonansowych. Niskie wartości maksymalnych przyspieszeń dla średnicy ekwiwalentnej poniżej 8 mm są efektem właśnie tego zjawiska i uznano je jako niemiarodajne. Od średnicy ok. 8 mm dwie pierwsze postaci drgań dotyczą całej struktury dźwigara. Podobny problem nie występuje w przypadku wieszaków Network, ponieważ ten układ zapewnia lepszą współpracę pomiędzy łukiem i ściągiem w całym rozpatrywanym zakresie średnic.
 
 \begin{figure}[hbt!]
 	\centering
@@ -2033,17 +2032,17 @@ W \enquote{najlepszym} rozwiązaniu z wieszakami prostymi widoczny jest wyraźny
 \end{figure}
 
 
-Oba przeanalizowane przypadki pokazują, że istnieje wyraźna wartość graniczna średnicy ekwiwalentnej wieszaków po której przekroczeniu najniższe częstotliwości drgań własnych stabilizują się. Rozpatrując przykładowe przypadki można zauważyć, że stabilizacja dwóch najniższych częstotliwości drgań własnych wydaje się mieć związek ze stabilizacją maksymalnych przyspieszeń pomostu. Dla wariantu z wieszakami prostymi krzywa maksymalnych przyspieszeń staje się niemal płaska od średnicy ekwiwalentnej równej około 46 mm, a dla układu Network od około 70 mm. Układ Network wymaga wprowadzenia większych średnic wieszaków, ponieważ łuk odgrywa znacznie większą rolę w przenoszeniu obciążeń i jest znacznie sztywniejszy niż w przypadku niskiego przekroju łuku w wariancie z wieszakami prostymi. Rozpatrywane przykłady zmiany sztywności układu i przez to częstotliwości drgań własnych są przypadkiem szczególnym i nie pozwalają na wyciągnięcie ogólnych wniosków. W kolejnym kroku zdecydowano o przeanalizowaniu całych zestawów rozwiązań pochodzących z optymalizacji, ale tym razem w przestrzeni częstotliwości drgań własnych.
+Oba przeanalizowane przypadki pokazują, że istnieje wyraźna wartość graniczna średnicy ekwiwalentnej wieszaków po której przekroczeniu najniższe częstotliwości drgań własnych stabilizują się. Rozpatrując przykładowe przypadki można zauważyć, że stabilizacja dwóch najniższych częstotliwości drgań własnych wydaje się mieć związek ze stabilizacją maksymalnych przyspieszeń pomostu. Dla wariantu z wieszakami pionowymi krzywa maksymalnych przyspieszeń staje się niemal płaska od średnicy ekwiwalentnej równej około 46 mm, a dla układu Network od około 70 mm. Układ Network wymaga wprowadzenia większych średnic wieszaków, ponieważ łuk odgrywa znacznie większą rolę w przenoszeniu obciążeń i jest znacznie sztywniejszy niż w przypadku niskiego przekroju łuku w wariancie z wieszakami pionowymi. Rozpatrywane przykłady zmiany sztywności układu i przez to częstotliwości drgań własnych są przypadkami szczególnymi i nie pozwalają na wyciągnięcie ogólnych wniosków. W kolejnym kroku zdecydowano o przeanalizowaniu całych zestawów rozwiązań pochodzących z optymalizacji, ale tym razem w przestrzeni częstotliwości drgań własnych.
 
 \section{Rezultaty w dziedzinie częstotliwości}
 
 %\subsubsection{Podział ze względu na postaci drgań własnych}
 
-Na podstawie zauważonej współzależności stabilizacji przyspieszeń maksymalnych i pierwszych częstotliwości drgań własnych układu, w niniejszej części pracy wartości funkcji celu oraz zmiennych projektowych przedstawiono w zależności od pierwszych dwóch częstotliwości i postaci drgań własnych. Rozpatrywano dwa pierwsze mody, z których jeden zawsze charakteryzuje się rozkładem przemieszczeń w formie zbliżonej do jednej półfali sinusa, a druga do dwóch półfal sinusa. Do identyfikacji i rozróżnienia postaci użyto kryterium MAC. Dwie pierwsze postaci drgań (kilkadziesiąt punktów dla łuku i ściągu) odczytano z modeli wszystkich rozwiązań i porównano z wzorcami o klarownych postaciach, z jedną lub dwiema półfalami. Rezultaty przedstawiono na rysunku \ref{fig:minimum_mac_values_shape_division}.
+Na podstawie zauważonej współzależności stabilizacji przyspieszeń maksymalnych i pierwszych częstotliwości drgań własnych układu, w niniejszej części pracy wartości funkcji celu oraz zmiennych projektowych przedstawiono w zależności od pierwszych dwóch częstotliwości i postaci drgań własnych. Rozpatrywano dwa pierwsze mody, z których jeden zawsze charakteryzuje się rozkładem przemieszczeń w formie zbliżonej do jednej półfali sinusa, a drugi do dwóch półfal sinusa. Do identyfikacji i rozróżnienia postaci użyto kryterium MAC. Dwie pierwsze postaci drgań (kilkadziesiąt punktów dla łuku i ściągu) odczytano z modeli wszystkich rozwiązań i porównano z wzorcami o klarownych postaciach, z jedną lub dwiema półfalami. Rezultaty przedstawiono na rysunku \ref{fig:minimum_mac_values_shape_division}.
 
 \begin{figure}[hbt!]
 	\centering
-	\subfloat[wieszaki proste]{\includegraphics[width=0.47\textwidth,trim=40 27 5 27, clip]{WK2/opti/proste_160/proste_160_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[wieszaki pionowe]{\includegraphics[width=0.47\textwidth,trim=40 27 5 27, clip]{WK2/opti/proste_160/proste_160_FREQ_MIN_MAC_XY.pdf}}
 	\subfloat[wieszaki ukośne]{\includegraphics[width=0.47\textwidth,trim=40 27 5 27, clip]{WK2/opti/niels_160/niels_160_FREQ_MIN_MAC_XY.pdf}} \\
 	\subfloat[wieszaki Network]{\includegraphics[width=0.47\textwidth,trim=40 27 5 27, clip]{WK2/opti/netw_160/netw_160_FREQ_MIN_MAC_XY.pdf}}
 	
@@ -2052,10 +2051,10 @@ Na podstawie zauważonej współzależności stabilizacji przyspieszeń maksymal
 \end{figure}
  Czarna linia reprezentuje funkcję liniową $y=x$ czyli równość częstotliwości dla obu postaci. Linia ta również wskazuje, który mod charakteryzuje się wyższą częstotliwością. Dla rozwiązań leżących powyżej czarnej linii postać o dwóch półfalach jest pierwszym modem, a dla rozwiązań poniżej linii pierwszym modem jest postać o jednej półfali.
 
-Poprawność identyfikacji postaci drgań dla dwóch pierwszych częstotliwości drgań własnych uzyskanych rezultatów jest podstawą do dalszych analiz. Bazując na wynikach pokazanych na rysunku \ref{fig:minimum_mac_values_shape_division} stwierdzono, że podział na postaci drgań w zdecydowanej większości został wykonany poprawnie. Kryterium MAC pomiędzy postaciami, a wzorcami jest dla większości rozwiązań większe niż 0.85. Jedynie rozwiązania leżące w pobliżu przekątnej, wyznaczającej równe częstotliwości obu postaci, charakteryzują się kiepskim dopasowaniem do wzorca. Związane jest to ze zmianą kolejności pomiędzy modem z pojedynczą półfalą i dwiema półfalami. W obszarze bliskich sobie częstotliwości, postaci zbliżają się do siebie w swojej formie i odbiegają od wzorców. Położenie w dziedzinie częstotliwości i postaci drgań własnych tych rozwiązań jest mocno niepewne, ponieważ kryterium MAC jest mniejsze niż 0.8. Niemniej, ze względu na to że są one zlokalizowane w pobliżu przekątnej $y=x$ to ich położenie w przestrzeni częstotliwości drgań, nawet przy błędnie przypisanych postaciach, nie zmieniłoby się istotnie. 
+Poprawność identyfikacji postaci drgań dla dwóch pierwszych częstotliwości drgań własnych uzyskanych rezultatów jest podstawą do dalszych analiz. Bazując na wynikach pokazanych na rysunku \ref{fig:minimum_mac_values_shape_division} stwierdzono, że podział na postaci drgań w zdecydowanej większości został wykonany poprawnie. Kryterium MAC pomiędzy postaciami, a wzorcami jest dla większości rozwiązań większe niż 0.85. Jedynie rozwiązania leżące w pobliżu przekątnej, wyznaczającej równe częstotliwości obu postaci, charakteryzują się kiepskim dopasowaniem do wzorca. Związane jest to ze zmianą kolejności pomiędzy modem z pojedynczą półfalą i dwiema półfalami. W obszarze bliskich sobie częstotliwości, postaci zbliżają się do siebie w swojej formie i odbiegają od wzorców. Położenie tych rozwiązań w dziedzinie częstotliwości i postaci drgań własnych jest mocno niepewne, ponieważ kryterium MAC jest mniejsze niż 0.8. Niemniej, ze względu na to że są one zlokalizowane w pobliżu przekątnej $y=x$ to ich położenie w przestrzeni częstotliwości, nawet przy błędnie przypisanych postaciach, nie zmieniłoby się istotnie. 
 
 Mając wystarczającą dozę pewności co do poprawności podziału na postaci drgań, na kolejnych rysunkach przedstawiono wartości funkcji celu oraz zmiennych projektowych z przeprowadzonych optymalizacji, w zależności od pierwszych dwóch częstotliwości drgań własnych.
-Wyniki opracowano dla wszystkich przypadków optymalizacji i wszystkich rozwiązań spełniających ograniczenia. Zastosowano jednak rozróżnienie na rozwiązania spełniające i niespełniające warunek $a_{max}<3.5\;\mathrm{m/s^2}$. Punkty spełniające warunek oznaczono trójkątami, a punkty niespełniające warunku okręgami. W prezentacji graficznej uwzględniono następujące wyniki:
+Wyniki opracowano dla wszystkich przypadków optymalizacji i wszystkich rozwiązań spełniających ograniczenia. Zastosowano jednak rozróżnienie na rozwiązania spełniające i niespełniające warunku $a_{max}<3.5\;\mathrm{m/s^2}$. Punkty spełniające warunek oznaczono trójkątami, a punkty niespełniające warunku okręgami. W prezentacji graficznej uwzględniono następujące wyniki:
 \begin{itemize}
 	\item (a) masę konstrukcji,
 	\item (b) maksymalne przyspieszenia pomostu,
@@ -2064,32 +2063,32 @@ Wyniki opracowano dla wszystkich przypadków optymalizacji i wszystkich rozwiąz
 	\item (e) liczbę półfal postaci drgań własnych modu, dla którego wyznaczona prędkość krytyczna wywołała największe przyspieszenia pomostu. Dla przypadków gdzie decydowała prędkość maksymalna, a nie prędkość krytyczna, przyjęto w rezultacie 0,
 	\item (f) prędkość przejazdu wywołującego maksymalne przyspieszenia pomostu,
 	\item (g) typ modelu pociągu HSLM-A, wywołującego maksymalne przyspieszenia pomostu,
-	\item (h) dzielnik prędkości krytycznej, wywołującej maksymalne przyspieszenia pomostu. W przypadku decydującej prędkości maksymalnej przyjęto 0.
+	\item (h) dzielnik we wzorze definiującym prędkość krytyczną (\ref{eq:critical_speed_2}), wywołującą maksymalne przyspieszenia pomostu. W przypadku decydującej prędkości maksymalnej przyjęto 0.
 \end{itemize}
-
+\noindent%
 Nie pokazano wyników dla zmiennej średnicy wieszaków ponieważ - jak już wcześniej zauważono - powyżej pewnej wartości progowej wielkość ta nieznacznie wpływa na przyspieszenia pomostu. 
 
-Na rysunkach (a-d) przedstawionych rezultatów, zielonym prostokątem zaznaczono obszar zawierający wszystkie rozwiązania z przyspieszeniami maksymalnymi pomostu mniejszymi niż $3.5\;\mathrm{m/s^2}$. Czerwony trójkąt oznacza \enquote{najlepsze} rozwiązanie (tab. \ref{tab:summary_optimal_results}).
-
-Na rysunkach (e-h) czarnymi i czerwonymi liniami przerywanymi zaznaczono pewne charakterystyczne częstotliwości $f_{v,k}^{min/max}$ (na przykład rys. \ref{fig:opti_res_2_freqs_example}). Obliczono je przyrównując dopuszczalną prędkość maksymalną przejazdu $v_{max}$ do prędkości krytycznej $c_{cr}$. Powyższą równość obliczono dla następujących modeli obciążenia:
+Na rysunkach (a-d) przedstawionych rezultatów, zielonym prostokątem zaznaczono obszar zawierający wszystkie rozwiązania z przyspieszeniami maksymalnymi pomostu mniejszymi niż $3.5\;\mathrm{m/s^2}$. Czerwony trójkąt oznacza \enquote{najlepsze} rozwiązanie (tab. \ref{tab:summary_optimal_results}). Na rysunkach (e-h) czarnymi i czerwonymi liniami przerywanymi zaznaczono pewne charakterystyczne częstotliwości $f_{v_{max},k}^{max\,A1/max\,A10}$ (na przykład rys. \ref{fig:opti_res_2_freqs_example}). Obliczono je przyrównując dopuszczalną prędkość maksymalną przejazdu $v_{max}$ do prędkości krytycznej $c_{cr}$. Powyższą równość wyznaczono dla następujących modeli obciążenia HSLM (rys. \ref{fig:train_hslm_a}):
 \begin{itemize}
-	\item HSLM-A1 (rozstaw wózków minimalny $D=18\,\mathrm{m}$ wg rys. \ref{fig:train_hslm_a}),
-	\item HSLM-A10 (rozstaw wózków maksymalny $D=27\,\mathrm{m}$ wg rys. \ref{fig:train_hslm_a}).
+	\item HSLM-A1 (minimalny rozstaw wózków modelu HSLM: $D=18\,\mathrm{m}$),
+	\item HSLM-A10 (maksymalny rozstaw wózków modelu HSLM: $D=27\,\mathrm{m}$).
 \end{itemize}  
 i dzielników prędkości krytycznej równych $k = 1, 2, 3\;\mathrm{lub}\;4$ według wzoru (\ref{eq:critical_speed_2}). Przykładowo dla prędkości maksymalnej $v_{max}=200\,\mathrm{km/h}$ i dzielnika $k=1$ otrzymano następujące częstotliwości:
 \begin{equation*}
 	\begin{split}
-	f_{200,1}^{max} &= \frac{200}{3.6} \cdot \frac{1}{18}=3.09\,\mathrm{Hz} \\
-	f_{200,1}^{min} &= \frac{200}{3.6} \cdot \frac{1}{27}=2.06\,\mathrm{Hz}
+	f_{200,1}^{max A1} &= \frac{200}{3.6} \cdot \frac{1}{18}=3.09\,\mathrm{Hz} \\
+	f_{200,1}^{max A10} &= \frac{200}{3.6} \cdot \frac{1}{27}=2.06\,\mathrm{Hz}
 	\end{split}
 \end{equation*} 
-Interpretacja tych częstotliwości jest następująca. Jeżeli częstotliwość drgań własnych konstrukcji jest większa od $f_{200,1}^{max}$ (linia czarna), to dla wszystkich modeli HSLM-A pierwsza prędkość krytyczna ($k=1$) jest większa od maksymalnej możliwej prędkości na linii. Oznacza to, że dla danego modelu pociągu wymagane jest zwiększenie dzielnika $k$ w celu uzyskania prędkości krytycznej mniejszej lub równej maksymalnej dopuszczalnej prędkości. Częstotliwość oznaczona jako minimalna $f_{200,1}^{min}$ (linia czerwona) oznacza, że od tego miejsca rozpoczyna się konieczne zmniejszanie prędkości rezonansowych dzielnikiem $k$ dla niektórych modeli pociągów HSLM-A. W obszarze od linii czerwonej do czarnej o tym samym dzielniku $k$, kolejne pociągi licząc od A10 do A1 wychodzą z prędkością rezonansową powyżej prędkości maksymalnej i zwiększony musi być dla nich dzielnik $k$. Pomiędzy linią czarną $k$ i linią czerwoną $k+1$, dzielnik jest stały dla wszystkich modeli i równy $k+1$.
+Interpretacja tych częstotliwości jest następująca. Jeżeli częstotliwość drgań własnych konstrukcji jest większa od $f_{200,1}^{max\,A1}$ (czarna linia przerywana), to dla wszystkich modeli HSLM-A pierwsza prędkość krytyczna ($k=1$) jest większa od maksymalnej możliwej prędkości na linii. Oznacza to, że dla wszystkich modeli pociągu wymagane jest zwiększenie dzielnika $k$ w celu uzyskania prędkości krytycznej mniejszej lub równej maksymalnej dopuszczalnej prędkości. Częstotliwość oznaczona jako $f_{200,1}^{max\,A10}$ (czerwona linia przerywana) oznacza, że od tego miejsca rozpoczyna się konieczne zmniejszanie prędkości rezonansowych dzielnikiem $k$, jedynie dla niektórych modeli pociągów HSLM-A. Innymi słowy w obszarze od linii czerwonej do czarnej o tym samym dzielniku $k$, kolejne pociągi licząc od A10 do A1 wychodzą z prędkością krytyczną powyżej prędkości maksymalnej i zwiększony musi być dla nich dzielnik $k$. Pomiędzy linią czarną $k$ i linią czerwoną $k+1$, dzielnik jest stały dla wszystkich modeli i równy $k+1$. Zaznaczone częstotliwości nie są związane z postacią drgań własnych, więc zostały nakreślone zarówno dla postaci z dwiema półfalami (linie pionowe) jak i z jedną półfalą (linie poziome). Liczba linii jest zróżnicowana, ponieważ zależy od maksymalnej prędkości i zakresu uzyskanych częstotliwości dla danej postaci. 
+
+Powyższe ogólne zależności wytłumaczono poniżej na podstawie przykładowego rysunku \ref{fig:opti_res_2_freqs_example}. W obszarze po lewej stronie od pionowej, czerwonej linii przerywanej $k=1$, prędkości krytyczne z dzielnikiem $k=1$ dla modelu pociągu HSLM-A10 ($D=27\, \mathrm{m}$) są mniejsze od prędkości maksymalnej 200 km/h. Model HSLM-A10 ma najdłuższy wymiar charakterystyczny, więc w tym obszarze prędkości obliczane dla wszystkich innych modeli (A1 - A9) również będą posiadały dzielnik $k=1$. Po prawej stronie od pionowej, czerwonej linii przerywanej $k=1$ prędkość wyznaczana dla modelu HSLM-A10 przy dzielniku $k=1$ będzie większa niż maksymalna dopuszczalna na linii, stąd dzielnik musi być zwiększony do $k=2$. Przesuwając się ku czarnej, przerywanej linii $k=1$, kolejne modele A9-A1 będą dochodziły z prędkością krytyczną do granicznej prędkości maksymalnej przy dzielniku $k=1$ i po jej przekroczeniu dzielnik musi być zwiększony do $k=2$. Po prawej stronie od czarnej, przerywanej linii $k=1$ już wszystkie modele pociągów osiągnęły wartość prędkości krytycznej przy dzielniku $k=1$ większą niż maksymalna, dopuszczalna i dla wszystkich dzielnik jest zwiększony do $k=2$. Dla kolejnych linii oznaczonych $k=2,3,4$ obowiązują analogiczne zasady.
 
 
 \begin{figure}[hbt!]
 	\centering
 	\includegraphics[width=0.51\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_VELOCITY_XY.pdf}
-	\caption{Przykładowy rezultat z zaznaczonymi częstotliwościami $f_{v,k}^{min/max}$: \\ wieszaki proste, maksymalna dopuszczalna prędkość $v_{max}=200\;\mathrm{km/h}$}
+	\caption{Przykładowy rezultat z zaznaczonymi częstotliwościami $f_{200,k}^{max\,A1}$ i $f_{200,k}^{max\,A10}$: \\ wieszaki pionowe, maksymalna dopuszczalna prędkość $v_{max}=200\;\mathrm{km/h}$}
 	\label{fig:opti_res_2_freqs_example}
 \end{figure}
 
@@ -2099,7 +2098,7 @@ Interpretacja tych częstotliwości jest następująca. Jeżeli częstotliwość
 
 \clearpage
 
-\subsubsection{Wariant z wieszakami prostymi, prędkość maksymalna 160 km/h}
+\subsubsection{Wariant z wieszakami pionowymi, prędkość maksymalna 160 km/h}
 \begin{figure}[H]
 	\centering
 	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_WEI_XY.pdf} 
@@ -2114,7 +2113,7 @@ Interpretacja tych częstotliwości jest następująca. Jeżeli częstotliwość
 	\label{fig:opti_res_2_freqs_prost_160_e}} \hfill
 	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_VELOCITY_XY.pdf}
 	\label{fig:opti_res_2_freqs_prost_160_f}}
-	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 160 km/h}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 160 km/h}
 	\label{fig:opti_res_2_freqs_prost_160}
 \end{figure}
 \vfill
@@ -2125,27 +2124,27 @@ Interpretacja tych częstotliwości jest następująca. Jeżeli częstotliwość
 	\label{fig:opti_res_2_freqs_prost_160_g}}
 	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_VCR_DIV_XY.pdf}
 	\label{fig:opti_res_2_freqs_prost_160_h}}
-	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 160 km/h. Kont.}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 160 km/h. Kont.}
 	
 \end{figure}
 
-Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami prostymi i prędkością maksymalną 160 km/h:
+Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami pionowymi i prędkością maksymalną 160 km/h:
 \begin{enumerate}
 	
-	\item Dla wariantu z wieszakami prostymi występują wyraźne korelacje pomiędzy:
+	\item Dla wariantu z wieszakami pionowymi występują wyraźne korelacje pomiędzy:
 	\begin{itemize}
 		\item wysokością ściągu, a częstotliwością drgań własnych o postaci z podwójną półfalą (rys. \ref{fig:opti_res_2_freqs_prost_160_c}),
 		\item wysokością łuku, a częstotliwością drgań własnych o postaci z pojedynczą półfalą (rys. \ref{fig:opti_res_2_freqs_prost_160_d}).
 	\end{itemize}
-	\item Maksymalne przyspieszenia charakteryzują się skokowymi zmianami związanymi z wielkością częstotliwości drgań własnych o podwójnej półfali (rys. \ref{fig:opti_res_2_freqs_prost_160_b}). Granice te pokrywają się z częstotliwościami $f_{160,1}^{min}$ i $f_{160,1}^{max}$ postaci z podwójną półfalą. 
-	\item Po przekroczeniu granicy $f_{160,1}^{max}$,  dzielnik $k$ dla wszystkich decydujących przejazdów jest większy od 1 (rys. \ref{fig:opti_res_2_freqs_prost_160_h}). Przyspieszenia dopuszczalne ${a_{max}<3.5\;\mathrm{m/s^2}}$ otrzymano dla wszystkich przypadków, dla których dzielnik prędkości krytycznej związanej z postacią o podwójnej półfali jest większy od~1. 
+	\item Maksymalne przyspieszenia charakteryzują się skokowymi zmianami związanymi z wielkością częstotliwości drgań własnych o podwójnej półfali (rys. \ref{fig:opti_res_2_freqs_prost_160_b}). Granice te pokrywają się z częstotliwościami $f_{160,1}^{max\,A10}$ i $f_{160,1}^{max\,A1}$ postaci z podwójną półfalą. 
+	\item Po przekroczeniu granicy $f_{160,1}^{max\,A1}$,  dzielnik $k$ dla wszystkich decydujących przejazdów jest większy od 1 (rys. \ref{fig:opti_res_2_freqs_prost_160_h}). Przyspieszenia dopuszczalne ${a_{max}<3.5\;\mathrm{m/s^2}}$ otrzymano dla wszystkich przypadków, dla których dzielnik prędkości krytycznej związanej z postacią o podwójnej półfali jest większy od~1. 
 	
 	\item W większości przeanalizowanych przypadków decydująca o maksymalnych przyspieszeniach jest prędkość krytyczna związana z częstotliwością o postaci z podwójną półfalą (rys. \ref{fig:opti_res_2_freqs_prost_160_e}). Dopiero po przekroczeniu częstotliwości ok. 4.2 Hz dla tej postaci, najgorsze przyspieszenia uzyskuje się dla częstotliwości drgań o postaci z pojedynczą półfalą.
 
 \end{enumerate}
 \vfill
 
-\subsubsection{Wariant z wieszakami prostymi, prędkość maksymalna 200 km/h}
+\subsubsection{Wariant z wieszakami pionowymi, prędkość maksymalna 200 km/h}
 \begin{figure}[H]
 	\centering
 	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_a}}
@@ -2156,7 +2155,7 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_MIN_MAC_XY.pdf}}
 	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_f}}
 	
-	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 200 km/h}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 200 km/h}
 	\label{fig:opti_res_2_freqs_prost_200}
 \end{figure}
 
@@ -2164,21 +2163,21 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 	\centering
 	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_g}}
 	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_h}}
-	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 200 km/h. Kont.}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 200 km/h. Kont.}
 	
 \end{figure}
 
-Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami prostymi i prędkością maksymalną 200 km/h. W większości pokrywają się one z wynikami analizy o prędkości maksymalnej 160 km/h:
+Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami pionowymi i prędkością maksymalną 200 km/h. W większości pokrywają się one z wynikami analizy o prędkości maksymalnej 160 km/h:
 \begin{enumerate}
-	\item Maksymalne przyspieszenia charakteryzują się skokowymi zmianami dla częstotliwości drgań własnych o podwójnej półfali (rys. \ref{fig:opti_res_2_freqs_prost_200_b}). Granice te pokrywają się z częstotliwościami $f_{200,1}^{min}$ i $f_{200,1}^{max}$ postaci z podwójną półfalą. 
+	\item Maksymalne przyspieszenia charakteryzują się skokowymi zmianami dla częstotliwości drgań własnych o podwójnej półfali (rys. \ref{fig:opti_res_2_freqs_prost_200_b}). Granice te pokrywają się z częstotliwościami $f_{200,1}^{max\,A10}$ i $f_{200,1}^{max\,A1}$ postaci z podwójną półfalą. 
 	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla wszystkich przypadków, dla których dzielnik prędkości krytycznej związanej z postacią o podwójnej półfali jest większy od 1.
-	\item Po przekroczeniu granicy $f_{200,1}^{max}$  dzielnik $k$ dla wszystkich decydujących przejazdów jest większy od 1 (rys. \ref{fig:opti_res_2_freqs_prost_200_h}). Tym razem granica ta uwidacznia się również dla postaci drgań o jednej półfali. 
+	\item Po przekroczeniu granicy $f_{200,1}^{max\,A1}$  dzielnik $k$ dla wszystkich decydujących przejazdów jest większy od 1 (rys. \ref{fig:opti_res_2_freqs_prost_200_h}). Tym razem granica ta uwidacznia się również dla postaci drgań o jednej półfali. 
 
 	\item W porównaniu do wariantu z prędkością maksymalną 160 km/h, prędkość krytyczna związana z częstotliwością o postaci z pojedynczą półfalą stanowi nieznacznie większą część rozwiązań (rys. \ref{fig:opti_res_2_freqs_prost_200_e}). Rozwiązania dla przypadków prędkości krytycznych z dzielnikiem $k>1$ dla postaci z podwójną półfalą i jednocześnie $k=1$ dla postaci z pojedynczą półfalą (rys. \ref{fig:opti_res_2_freqs_prost_200_b}, wyniki po prawej stronie na dole) charakteryzują się zwiększonymi przyspieszeniami maksymalnymi, względem przypadku gdy $k>1$ dla obu postaci. Niemniej, jest to różnica niewielka i nie wyklucza tych rozwiązań z grupy rozwiązań dopuszczalnych.
 \end{enumerate}
 \vfill
 
-\subsubsection{Wariant z wieszakami prostymi, prędkość maksymalna 300 km/h}
+\subsubsection{Wariant z wieszakami pionowymi, prędkość maksymalna 300 km/h}
 
 \begin{figure}[H]
 	\centering
@@ -2188,7 +2187,7 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_d}}\\
 	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_e}} \hfill
 	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_f}}
-	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 300 km/h}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 300 km/h}
 	\label{fig:opti_res_2_freqs_prost_300}
 \end{figure}
 
@@ -2196,17 +2195,17 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 	\centering
 	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_g}}
 	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_h}}
-	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami prostymi - prędkość maksymalna 300 km/h. Kont.}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 300 km/h. Kont.}
 	
 \end{figure}
 
-Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami prostymi i prędkością maksymalną 300 km/h. W większości pokrywają się one z wynikami analiz o prędkościach maksymalnych 160 i 200 km/h:
+Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami pionowymi i prędkością maksymalną 300 km/h. W większości pokrywają się one z wynikami analiz o prędkościach maksymalnych 160 i 200 km/h:
 \begin{enumerate}
-	\item Maksymalne przyspieszenia charakteryzują się skokowymi zmianami dla częstotliwości drgań własnych o podwójnej półfali (rys. \ref{fig:opti_res_2_freqs_prost_300_b}). Granice te pokrywają się z częstotliwościami $f_{300,1}^{min}$ i $f_{300,1}^{max}$ postaci z podwójną półfalą. 
+	\item Maksymalne przyspieszenia charakteryzują się skokowymi zmianami dla częstotliwości drgań własnych o podwójnej półfali (rys. \ref{fig:opti_res_2_freqs_prost_300_b}). Granice te pokrywają się z częstotliwościami $f_{300,1}^{max\,A10}$ i $f_{300,1}^{max\,A1}$ postaci z podwójną półfalą. 
 	
 	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla przypadków, dla których dzielnik prędkości krytycznej związanej z postacią o podwójnej półfali jest większy od 1.
 	
-	\item Ze względu na wysoką prędkość przejazdu, częstotliwości graniczne $f_{300,1}^{min}$ i $f_{300,1}^{max}$ są znacznie wyższe niż w poprzednich analizach. Dla postaci z jedną półfalą wszystkie rozwiązania mieszczą się poniżej $f_{300,1}^{max}$.
+	\item Ze względu na wysoką prędkość przejazdu, częstotliwości graniczne $f_{300,1}^{max\,A10}$ i $f_{300,1}^{max\,A1}$ są znacznie wyższe niż w poprzednich analizach. Dla postaci z jedną półfalą wszystkie rozwiązania mieszczą się poniżej $f_{300,1}^{max\,A1}$.
 \end{enumerate}
 \vfill
 
@@ -2239,9 +2238,9 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 \begin{enumerate}
 	
 	\item Dla wariantu z wieszakami ukośnymi występuje wyraźna korelacja pomiędzy wysokością łuku, a częstotliwością drgań własnych o postaci z pojedynczą półfalą (rys. \ref{fig:opti_res_2_freqs_niels_160_d}).
-	\item Korelacja pomiędzy wysokością ściągu, a częstotliwością drgań własnych o postaci z podwójną półfalą istnieje, ale jest znacznie słabsza niż w przypadku wieszaków prostych (rys. \ref{fig:opti_res_2_freqs_niels_160_c}).
-	\item Wszystkie rozwiązania mieszczą się powyżej granicy $f_{160,1}^{max}$ dla częstotliwości o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_niels_160_h}).
-	\item Wybór decydującego modu nie jest prosty w określeniu i zależy od wielu czynników. Granice nie są w tym przypadku tak klarowne jak w wariancie z wieszakami prostymi (rys. \ref{fig:opti_res_2_freqs_niels_160_e}). Niemniej, wyraźne są pola gdzie dla niższych wartości częstotliwości o postaci z dwiema półfalami decyduje prędkość krytyczna związana z tą postacią, a po przekroczeniu pewnej wartości częstotliwości to postać z jedną półfalą jest decydująca. Granice $f_{v_{max},i}^{min/max}$ są wyznaczone dla modeli skrajnych HSLM-A1 i A10 i prędkości maksymalnej. Jak można dostrzec na rysunku \ref{fig:opti_res_2_freqs_niels_160_g}, w wielu obszarach to nie te modele wywołują największe przyspieszenia. Granice obliczone dla faktycznie decydujących modeli HSLM-A (rys. \ref{fig:opti_res_2_freqs_niels_160_g}) pokrywają się z granicami decydujących postaci drgań (rys. \ref{fig:opti_res_2_freqs_niels_160_e}).
+	\item Korelacja pomiędzy wysokością ściągu, a częstotliwością drgań własnych o postaci z podwójną półfalą istnieje, ale jest znacznie słabsza niż w przypadku wieszaków pionowych (rys. \ref{fig:opti_res_2_freqs_niels_160_c}).
+	\item Wszystkie rozwiązania mieszczą się powyżej granicy $f_{160,1}^{max\,A1}$ dla częstotliwości o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_niels_160_h}).
+	\item Wybór decydującego modu nie jest prosty w określeniu i zależy od wielu czynników. Granice nie są w tym przypadku tak klarowne jak w wariancie z wieszakami pionowymi (rys. \ref{fig:opti_res_2_freqs_niels_160_e}). Niemniej, wyraźne są pola gdzie dla niższych wartości częstotliwości o postaci z dwiema półfalami decyduje prędkość krytyczna związana z tą postacią, a po przekroczeniu pewnej wartości częstotliwości to postać z jedną półfalą jest decydująca. Granice $f_{v_{max},i}^{max\,A1}$ i $f_{v_{max},i}^{max\,A10}$ są wyznaczone dla modeli skrajnych HSLM-A1 i A10 i prędkości maksymalnej. Jak można dostrzec na rysunku \ref{fig:opti_res_2_freqs_niels_160_g}, w wielu obszarach to nie te modele wywołują największe przyspieszenia. Granice obliczone dla faktycznie decydujących modeli HSLM-A (rys. \ref{fig:opti_res_2_freqs_niels_160_g}) pokrywają się z granicami decydujących postaci drgań (rys. \ref{fig:opti_res_2_freqs_niels_160_e}).
 	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla niemal wszystkich rozwiązań.
 	
 \end{enumerate}
@@ -2274,11 +2273,11 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami ukośnymi i prędkością maksymalną 200 km/h. W dużej mierze są one zgodne z wnioskami dla prędkości 160 km/h:
 \begin{enumerate}
 
-\item Niemal wszystkie rozwiązania mieszczą się powyżej granicy $f_{200,1}^{max}$ dla częstotliwości o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_niels_200_h}).
+\item Niemal wszystkie rozwiązania mieszczą się powyżej granicy $f_{200,1}^{max\,A1}$ dla częstotliwości o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_niels_200_h}).
 
-\item Względem wariantu z prędkością 160 km/h, pojawiają się widoczne skokowe zmiany wielkości przyspieszeń (rys. \ref{fig:opti_res_2_freqs_niels_200_b}). Pokrywają się one z częstotliwościami $f_{200,1}^{max}$ dla obu postaci. Skok wartości przyspieszeń jest znacznie większy przy przekroczeniu granicy dla częstotliwości o postaci z podwójną półfalą. Dla częstotliwości o postaci z pojedynczą półfalą różnica ta jest niewielka.
+\item Względem wariantu z prędkością 160 km/h, pojawiają się widoczne skokowe zmiany wielkości przyspieszeń (rys. \ref{fig:opti_res_2_freqs_niels_200_b}). Pokrywają się one z częstotliwościami $f_{200,1}^{max\,A1}$ dla obu postaci. Skok wartości przyspieszeń jest znacznie większy przy przekroczeniu granicy dla częstotliwości o postaci z podwójną półfalą. Dla częstotliwości o postaci z pojedynczą półfalą różnica ta jest niewielka.
 
-\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla niemal wszystkich rozwiązań, dla których częstotliwość graniczna $f_{200,1}^{max}$ została przekroczona dla częstotliwości drgań własnych o postaci z podwójną półfalą.
+\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla niemal wszystkich rozwiązań, dla których częstotliwość graniczna $f_{200,1}^{max\,A1}$ została przekroczona dla częstotliwości drgań własnych o postaci z podwójną półfalą.
 
 \end{enumerate}
 \vfill
@@ -2311,13 +2310,13 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami ukośnymi i prędkością maksymalną 300 km/h. W dużej mierze są one zgodne z wnioskami dla prędkości 160 i 200 km/h:
 \begin{enumerate}
 	
-	\item W odróżnieniu do wariantu z prędkością 160 km/h pojawiają się widoczne skoki wielkości przyspieszeń (rys. \ref{fig:opti_res_2_freqs_niels_300_b}). Pokrywają się one z częstotliwościami $f_{300,1}^{max}$ i $f_{300,1}^{min}$ dla częstotliwości o postaci z podwójną półfalą.
+	\item W odróżnieniu do wariantu z prędkością 160 km/h pojawiają się widoczne skoki wielkości przyspieszeń (rys. \ref{fig:opti_res_2_freqs_niels_300_b}). Pokrywają się one z częstotliwościami $f_{300,1}^{max\,A1}$ i $f_{300,1}^{max\,A10}$ dla częstotliwości o postaci z podwójną półfalą.
 	
-	\item Poniżej granicy $f_{300,1}^{max}$ dla częstotliwości o postaci z podwójną półfalą decydująca jest właśnie ta częstotliwość, a powyżej tej granicy przede wszystkim decyduje częstotliwość związana z postacią o jednej półfali (rys. \ref{fig:opti_res_2_freqs_niels_300_e}).
+	\item Poniżej granicy $f_{300,1}^{max\,A1}$ dla częstotliwości o postaci z podwójną półfalą decydująca jest właśnie ta częstotliwość, a powyżej tej granicy przede wszystkim decyduje częstotliwość związana z postacią o jednej półfali (rys. \ref{fig:opti_res_2_freqs_niels_300_e}).
 	
 	\item Niemal wszystkie rozwiązania charakteryzują się dzielnikiem $k=1$ dla decydującego przejazdu (rys. \ref{fig:opti_res_2_freqs_niels_300_h}). 
 	
-	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano jedynie dla rozwiązań, dla których częstotliwość graniczna $f_{300,1}^{max}$ została przekroczona dla częstotliwości o postaci z podwójną półfalą (rys. \ref{fig:opti_res_2_freqs_niels_300_b} i \ref{fig:opti_res_2_freqs_niels_300_e}). Spełnienie tego warunku wydaje się być konieczne, ale niewystarczające aby zapewnić odpowiednio niski poziom przyspieszeń. Kiedy decydująca staje się częstotliwość z postacią o pojedynczej półfali, to różnice w maksymalnych przyspieszeniach nie są w tej grupie rozwiązań skokowe tylko płynne. W takim przypadku istotną rolę wydaje się mieć również typ decydującego modelu pojazdu HSLM-A (rys. \ref{fig:opti_res_2_freqs_niels_300_g}). Zwiększenie częstotliwości dla postaci o pojedynczej półfali powyżej pewnej granicy wymusza zastosowanie dzielnika $k=2$ dla niektórych, cięższych modeli pojazdów. Obciążenie osi pojazdu HSLM-A1 i A6 (rys. \ref{fig:opti_res_2_freqs_niels_300_g} pola czerwone i turkusowe) są jednymi z najniższych wśród wszystkich modeli HSLM-A.
+	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano jedynie dla rozwiązań, dla których częstotliwość graniczna $f_{300,1}^{max\,A1}$ została przekroczona dla częstotliwości o postaci z podwójną półfalą (rys. \ref{fig:opti_res_2_freqs_niels_300_b} i \ref{fig:opti_res_2_freqs_niels_300_e}). Spełnienie tego warunku wydaje się być konieczne, ale niewystarczające aby zapewnić odpowiednio niski poziom przyspieszeń. Kiedy decydująca staje się częstotliwość z postacią o pojedynczej półfali, to różnice w maksymalnych przyspieszeniach nie są w tej grupie rozwiązań skokowe tylko płynne. W takim przypadku istotną rolę wydaje się mieć również typ decydującego modelu pojazdu HSLM-A (rys. \ref{fig:opti_res_2_freqs_niels_300_g}). Zwiększenie częstotliwości dla postaci o pojedynczej półfali powyżej pewnej granicy wymusza zastosowanie dzielnika $k=2$ dla niektórych, cięższych modeli pojazdów. Obciążenie osi pojazdu HSLM-A1 i A6 (rys. \ref{fig:opti_res_2_freqs_niels_300_g} pola czerwone i turkusowe) są jednymi z najniższych wśród wszystkich modeli HSLM-A.
 	
 \end{enumerate}
 \vfill
@@ -2353,10 +2352,10 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 \begin{enumerate}
 	
 	\item Dla wariantu z wieszakami Network, podobnie jak w układzie wieszaków ukośnych, występuje wyraźna korelacja pomiędzy wysokością łuku, a częstotliwością drgań własnych o postaci z pojedynczą półfalą (rys. \ref{fig:opti_res_2_freqs_netw_160_d}).
-	\item Korelacja pomiędzy wysokością ściągu, a częstotliwością drgań własnych o postaci z podwójną półfalą istnieje, ale jest znacznie słabsza niż w przypadku wieszaków prostych (rys. \ref{fig:opti_res_2_freqs_netw_160_c}).
-	\item Wszystkie rozwiązania mieszczą się powyżej granicy $f_{160,1}^{max}$ dla częstotliwości o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_netw_160_h}). 
+	\item Korelacja pomiędzy wysokością ściągu, a częstotliwością drgań własnych o postaci z podwójną półfalą istnieje, ale jest znacznie słabsza niż w przypadku wieszaków pionowych (rys. \ref{fig:opti_res_2_freqs_netw_160_c}).
+	\item Wszystkie rozwiązania mieszczą się powyżej granicy $f_{160,1}^{max\,A1}$ dla częstotliwości o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_netw_160_h}). 
 	\item Osiągnięte w rozwiązaniach minimalne częstotliwości o postaci z podwójną półfalą są większe niż w pozostałych wariantach wieszaków.
-	\item Granica decydującej postaci drgań nie jest związana z jedną postacią drgań (rys. \ref{fig:opti_res_2_freqs_netw_160_e}), podobnie jak w przypadku wieszaków ukośnych. Z uwagi na generalnie większe wartości częstotliwości o postaci z podwójna półfalą, szybciej przekroczona jest granica $f_{160,1}^{max}$. To z kolei sprawia, że w zdecydowanej większości decydująca jest częstotliwość drgań o postaci z pojedynczą półfalą.
+	\item Granica decydującej postaci drgań nie jest związana z jedną postacią drgań (rys. \ref{fig:opti_res_2_freqs_netw_160_e}), podobnie jak w przypadku wieszaków ukośnych. Z uwagi na generalnie większe wartości częstotliwości o postaci z podwójna półfalą, szybciej przekroczona jest granica $f_{160,1}^{max\,A1}$. To z kolei sprawia, że w zdecydowanej większości decydująca jest częstotliwość drgań o postaci z pojedynczą półfalą.
 	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla wszystkich rozwiązań.
 	
 \end{enumerate}
@@ -2392,8 +2391,8 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami Network i prędkością maksymalną 200 km/h. Wnioski w dużej mierze pokrywają się wariantem o prędkości maksymalnej 160 km/h:
 \begin{enumerate}
 	
-	\item Wszystkie rozwiązania mieszczą się powyżej granicy $f_{200,1}^{max}$ dla częstotliwości o postaci z podwójną półfalą.  Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ dla tej postaci (rys. \ref{fig:opti_res_2_freqs_netw_200_h}). W obszarze otrzymanych rezultatów dla postaci z pojedynczą półfalą pojawia częstotliwość graniczna $f_{200,1}^{max}$. Do momentu jej uzyskania przez rozwiązania, decydująca jest postać o jednej półfali. Po jej przekroczeniu pojawia się pole gdzie decydująca jest postać drgań z podwójną półfalą.
-	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla wszystkich rozwiązań, pomimo że w dużej części rozwiązań nie została przekroczona granica $f_{200,1}^{max}$ dla częstotliwości o postaci z jedną półfalą. Na mapie przyspieszeń maksymalnych (rys. \ref{fig:opti_res_2_freqs_netw_200_b}) widoczna jest granica pomiędzy rozwiązaniami z dzielnikiem $k=1$ i $k=2$, ale jest to różnica niewielka i nie powoduje przekroczenia wartości maksymalnych.
+	\item Wszystkie rozwiązania mieszczą się powyżej granicy $f_{200,1}^{max\,A1}$ dla częstotliwości o postaci z podwójną półfalą.  Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ dla tej postaci (rys. \ref{fig:opti_res_2_freqs_netw_200_h}). W obszarze otrzymanych rezultatów dla postaci z pojedynczą półfalą pojawia częstotliwość graniczna $f_{200,1}^{max\,A1}$. Do momentu jej uzyskania przez rozwiązania, decydująca jest postać o jednej półfali. Po jej przekroczeniu pojawia się pole gdzie decydująca jest postać drgań z podwójną półfalą.
+	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla wszystkich rozwiązań, pomimo że w dużej części rozwiązań nie została przekroczona granica $f_{200,1}^{max\,A1}$ dla częstotliwości o postaci z jedną półfalą. Na mapie przyspieszeń maksymalnych (rys. \ref{fig:opti_res_2_freqs_netw_200_b}) widoczna jest granica pomiędzy rozwiązaniami z dzielnikiem $k=1$ i $k=2$, ale jest to różnica niewielka i nie powoduje przekroczenia wartości maksymalnych.
 	
 \end{enumerate}
 \vfill
@@ -2428,9 +2427,9 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 
 Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami Network i prędkością maksymalną 300 km/h. Wnioski w dużej mierze pokrywają się wariantami o prędkości maksymalnej 160 i 200 km/h:
 \begin{enumerate}
-	\item W odróżnieniu od mniejszych prędkości, w tym wariancie pojawiają się pola o znacznej różnicy przyspieszeń maksymalnych (rys. \ref{fig:opti_res_2_freqs_netw_300_b}). Jedna z granic pokrywa się z wartością $f_{300,1}^{max}$ dla częstotliwości o postaci z dwiema półfalami. Przed przekroczeniem tej granicy decydująca jest postać o dwóch półfalach, a po jej przekroczeniu o jednej półfali. Podobnie jak w przypadku wieszaków ukośnych i prędkości maksymalnej 300 km/h, granica pozioma wyraźnie zależy od decydującego modelu HSLM-A (rys. \ref{fig:opti_res_2_freqs_netw_300_g}).
+	\item W odróżnieniu od mniejszych prędkości, w tym wariancie pojawiają się pola o znacznej różnicy przyspieszeń maksymalnych (rys. \ref{fig:opti_res_2_freqs_netw_300_b}). Jedna z granic pokrywa się z wartością $f_{300,1}^{max\,A1}$ dla częstotliwości o postaci z dwiema półfalami. Przed przekroczeniem tej granicy decydująca jest postać o dwóch półfalach, a po jej przekroczeniu o jednej półfali. Podobnie jak w przypadku wieszaków ukośnych i prędkości maksymalnej 300 km/h, granica pozioma wyraźnie zależy od decydującego modelu HSLM-A (rys. \ref{fig:opti_res_2_freqs_netw_300_g}).
 	\item Dla niemal wszystkich rezultatów decydujące przejazdy odbywały się z prędkością krytyczną o dzielniku $k=1$.
-	\item W tym wariancie wieszaków i prędkości warto zwrócić uwagę na wszystkie rozwiązania znajdujące się w zielonym prostokącie. W dużej mierze różnią się one od siebie pod względem spełnienia warunku $a_{max}<3.5\;\mathrm{m/s^2}$, pomimo że są zlokalizowane blisko siebie w przestrzeni dwóch pierwszych częstotliwości drgań własnych (rys. \ref{fig:opti_res_2_freqs_netw_300_b}). Największe zagęszczenie rozwiązań dopuszczalnych znajduje się w pobliżu czerwonego trójkąta. Rozwiązania znajdujące się po prawej stronie (większa częstotliwość drgań dla postaci z dwiema półfalami) posiadają niekiedy większe przyspieszenia. Jest to jednak różnica niewielka. Wydaje się, że może to to wynikać z oscylowania maksymalnych przyspieszeń dla danych punków wokół częstotliwości granicznej $3.5\,\mathrm{m/s^2}$. Efekt ten można było również zaobserwować na rysunku \ref{fig:small_stiff_hangers_mode_shape}.
+	\item W tym wariancie wieszaków i prędkości warto zwrócić uwagę na wszystkie rozwiązania znajdujące się w zielonym prostokącie. W dużej mierze różnią się one od siebie pod względem spełnienia warunku $a_{max}<3.5\;\mathrm{m/s^2}$, pomimo że są zlokalizowane blisko siebie w przestrzeni dwóch pierwszych częstotliwości drgań własnych (rys. \ref{fig:opti_res_2_freqs_netw_300_b}). Największe zagęszczenie rozwiązań dopuszczalnych znajduje się w pobliżu czerwonego trójkąta. Rozwiązania znajdujące się po prawej stronie (większa częstotliwość drgań dla postaci z dwiema półfalami) posiadają niekiedy większe przyspieszenia. Jest to jednak różnica niewielka. Wydaje się, że może to to wynikać z oscylowania maksymalnych przyspieszeń dla danych punków wokół częstotliwości granicznej $3.5\,\mathrm{m/s^2}$. Efekt ten można było również zaobserwować na rysunku \ref{fig:network_change_hangers_stiff}.
 \end{enumerate}
 
 Podsumowanie rezultatów i wniosków ze wszystkich wykonanych analiz przedstawiono w kolejnym rozdziale.

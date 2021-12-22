@@ -2032,43 +2032,43 @@ W \enquote{najlepszym} rozwiązaniu z wieszakami pionowymi widoczny jest wyraźn
 \end{figure}
 
 
-Oba przeanalizowane przypadki pokazują, że istnieje wyraźna wartość graniczna średnicy ekwiwalentnej wieszaków po której przekroczeniu najniższe częstotliwości drgań własnych stabilizują się. Rozpatrując przykładowe przypadki można zauważyć, że stabilizacja dwóch najniższych częstotliwości drgań własnych wydaje się mieć związek ze stabilizacją maksymalnych przyspieszeń pomostu. Dla wariantu z wieszakami pionowymi krzywa maksymalnych przyspieszeń staje się niemal płaska od średnicy ekwiwalentnej równej około 46 mm, a dla układu Network od około 70 mm. Układ Network wymaga wprowadzenia większych średnic wieszaków, ponieważ łuk odgrywa znacznie większą rolę w przenoszeniu obciążeń i jest znacznie sztywniejszy niż w przypadku niskiego przekroju łuku w wariancie z wieszakami pionowymi. Rozpatrywane przykłady zmiany sztywności układu i przez to częstotliwości drgań własnych są przypadkami szczególnymi i nie pozwalają na wyciągnięcie ogólnych wniosków. W kolejnym kroku zdecydowano o przeanalizowaniu całych zestawów rozwiązań pochodzących z optymalizacji, ale tym razem w przestrzeni częstotliwości drgań własnych.
+Oba przeanalizowane przypadki pokazują, że istnieje wyraźna wartość graniczna średnicy ekwiwalentnej wieszaków po której przekroczeniu najniższe częstotliwości drgań własnych stabilizują się. Rozpatrując przykładowe przypadki można zauważyć, że stabilizacja dwóch najniższych częstotliwości drgań własnych wydaje się mieć związek ze stabilizacją maksymalnych przyspieszeń pomostu. Dla wariantu z wieszakami pionowymi krzywa maksymalnych przyspieszeń staje się niemal płaska od średnicy ekwiwalentnej równej około 46 mm, a dla układu Network od około 70 mm. Układ Network wymaga wprowadzenia większych średnic wieszaków, ponieważ łuk odgrywa znacznie większą rolę w przenoszeniu obciążeń i jest sztywniejszy niż w przypadku niskiego przekroju łuku w wariancie z wieszakami pionowymi. Rozpatrywane przykłady zmiany sztywności układu i przez to częstotliwości drgań własnych są przypadkami szczególnymi i nie pozwalają na wyciągnięcie ogólnych wniosków. W kolejnym kroku zdecydowano o przeanalizowaniu wszystkich rozwiązań pochodzących z optymalizacji, ale tym razem w przestrzeni częstotliwości drgań własnych.
 
 \section{Rezultaty w dziedzinie częstotliwości}
 
 %\subsubsection{Podział ze względu na postaci drgań własnych}
 
-Na podstawie zauważonej współzależności stabilizacji przyspieszeń maksymalnych i pierwszych częstotliwości drgań własnych układu, w niniejszej części pracy wartości funkcji celu oraz zmiennych projektowych przedstawiono w zależności od pierwszych dwóch częstotliwości i postaci drgań własnych. Rozpatrywano dwa pierwsze mody, z których jeden zawsze charakteryzuje się rozkładem przemieszczeń w formie zbliżonej do jednej półfali sinusa, a drugi do dwóch półfal sinusa. Do identyfikacji i rozróżnienia postaci użyto kryterium MAC. Dwie pierwsze postaci drgań (kilkadziesiąt punktów dla łuku i ściągu) odczytano z modeli wszystkich rozwiązań i porównano z wzorcami o klarownych postaciach, z jedną lub dwiema półfalami. Rezultaty przedstawiono na rysunku \ref{fig:minimum_mac_values_shape_division}.
+Na podstawie zauważonej współzależności stabilizacji przyspieszeń maksymalnych i pierwszych częstotliwości drgań własnych, w niniejszej części pracy wartości funkcji celu oraz zmiennych projektowych przedstawiono w zależności od pierwszych dwóch częstotliwości i postaci drgań własnych (rys. \ref{fig:minimum_mac_values_shape_division}.). Rozpatrywano dwa pierwsze mody, z których postać jednego charakteryzuje się rozkładem przemieszczeń w formie zbliżonej do jednej półfali sinusa, a drugiego do dwóch półfal sinusa. Do identyfikacji i rozróżnienia postaci użyto kryterium MAC. Dwie pierwsze postaci drgań (kilkadziesiąt punktów dla łuku i ściągu) odczytano z modeli wszystkich rozwiązań i porównano z wzorcami o klarownych postaciach z jedną lub dwiema półfalami. % Rezultaty przedstawiono na rysunku \ref{fig:minimum_mac_values_shape_division}.
 
 \begin{figure}[hbt!]
 	\centering
-	\subfloat[wieszaki pionowe]{\includegraphics[width=0.47\textwidth,trim=40 27 5 27, clip]{WK2/opti/proste_160/proste_160_FREQ_MIN_MAC_XY.pdf}}
-	\subfloat[wieszaki ukośne]{\includegraphics[width=0.47\textwidth,trim=40 27 5 27, clip]{WK2/opti/niels_160/niels_160_FREQ_MIN_MAC_XY.pdf}} \\
-	\subfloat[wieszaki Network]{\includegraphics[width=0.47\textwidth,trim=40 27 5 27, clip]{WK2/opti/netw_160/netw_160_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[wieszaki pionowe]{\includegraphics[width=0.46\textwidth,trim=40 27 5 27, clip]{WK2/opti/proste_160/proste_160_FREQ_MIN_MAC_XY.pdf}}
+	\subfloat[wieszaki ukośne]{\includegraphics[width=0.46\textwidth,trim=40 27 5 27, clip]{WK2/opti/niels_160/niels_160_FREQ_MIN_MAC_XY.pdf}} \\
+	\subfloat[wieszaki Network]{\includegraphics[width=0.46\textwidth,trim=40 27 5 27, clip]{WK2/opti/netw_160/netw_160_FREQ_MIN_MAC_XY.pdf}}
 	
 	\caption{Podział rozwiązań procesu optymalizacji ze względu na dwie pierwsze postaci drgań własnych. Kolorem oznaczono minimalną wartość kryterium MAC}
 	\label{fig:minimum_mac_values_shape_division}
 \end{figure}
- Czarna linia reprezentuje funkcję liniową $y=x$ czyli równość częstotliwości dla obu postaci. Linia ta również wskazuje, który mod charakteryzuje się wyższą częstotliwością. Dla rozwiązań leżących powyżej czarnej linii postać o dwóch półfalach jest pierwszym modem, a dla rozwiązań poniżej linii pierwszym modem jest postać o jednej półfali.
+
+Czarna linia reprezentuje funkcję liniową $y=x$ czyli równość częstotliwości dla obu postaci. Linia ta również wskazuje, który mod charakteryzuje się wyższą częstotliwością. Dla rozwiązań leżących powyżej czarnej linii postać o dwóch półfalach jest pierwszym modem, a dla rozwiązań poniżej linii pierwszym modem jest postać o jednej półfali.
 
 Poprawność identyfikacji postaci drgań dla dwóch pierwszych częstotliwości drgań własnych uzyskanych rezultatów jest podstawą do dalszych analiz. Bazując na wynikach pokazanych na rysunku \ref{fig:minimum_mac_values_shape_division} stwierdzono, że podział na postaci drgań w zdecydowanej większości został wykonany poprawnie. Kryterium MAC pomiędzy postaciami, a wzorcami jest dla większości rozwiązań większe niż 0.85. Jedynie rozwiązania leżące w pobliżu przekątnej, wyznaczającej równe częstotliwości obu postaci, charakteryzują się kiepskim dopasowaniem do wzorca. Związane jest to ze zmianą kolejności pomiędzy modem z pojedynczą półfalą i dwiema półfalami. W obszarze bliskich sobie częstotliwości, postaci zbliżają się do siebie w swojej formie i odbiegają od wzorców. Położenie tych rozwiązań w dziedzinie częstotliwości i postaci drgań własnych jest mocno niepewne, ponieważ kryterium MAC jest mniejsze niż 0.8. Niemniej, ze względu na to że są one zlokalizowane w pobliżu przekątnej $y=x$ to ich położenie w przestrzeni częstotliwości, nawet przy błędnie przypisanych postaciach, nie zmieniłoby się istotnie. 
 
-Mając wystarczającą dozę pewności co do poprawności podziału na postaci drgań, na kolejnych rysunkach przedstawiono wartości funkcji celu oraz zmiennych projektowych z przeprowadzonych optymalizacji, w zależności od pierwszych dwóch częstotliwości drgań własnych.
+Mając wystarczającą pewność co do poprawności podziału na postaci drgań, na kolejnych rysunkach przedstawiono wartości funkcji celu oraz zmiennych projektowych z przeprowadzonych optymalizacji, w zależności od pierwszych dwóch częstotliwości drgań własnych.
 Wyniki opracowano dla wszystkich przypadków optymalizacji i wszystkich rozwiązań spełniających ograniczenia. Zastosowano jednak rozróżnienie na rozwiązania spełniające i niespełniające warunku $a_{max}<3.5\;\mathrm{m/s^2}$. Punkty spełniające warunek oznaczono trójkątami, a punkty niespełniające warunku okręgami. W prezentacji graficznej uwzględniono następujące wyniki:
 \begin{itemize}
 	\item (a) masę konstrukcji,
 	\item (b) maksymalne przyspieszenia pomostu,
 	\item (c) wysokość ściągu,
 	\item (d) wysokość łuku,
-	\item (e) liczbę półfal postaci drgań własnych modu, dla którego wyznaczona prędkość krytyczna wywołała największe przyspieszenia pomostu. Dla przypadków gdzie decydowała prędkość maksymalna, a nie prędkość krytyczna, przyjęto w rezultacie 0,
-	\item (f) prędkość przejazdu wywołującego maksymalne przyspieszenia pomostu,
-	\item (g) typ modelu pociągu HSLM-A, wywołującego maksymalne przyspieszenia pomostu,
-	\item (h) dzielnik we wzorze definiującym prędkość krytyczną (\ref{eq:critical_speed_2}), wywołującą maksymalne przyspieszenia pomostu. W przypadku decydującej prędkości maksymalnej przyjęto 0.
+	\item (e) średnicę wieszaka,
+	\item (f) liczbę półfal postaci drgań własnych modu, dla którego wyznaczona prędkość krytyczna wywołała największe przyspieszenia pomostu. Dla przypadków gdzie decydowała prędkość maksymalna, a nie prędkość krytyczna, przyjęto w rezultacie 0,
+	\item (g) prędkość przejazdu wywołującego maksymalne przyspieszenia pomostu,
+	\item (h) typ modelu pociągu HSLM-A wywołującego maksymalne przyspieszenia pomostu,
+	\item (i) dzielnik we wzorze definiującym prędkość krytyczną (\ref{eq:critical_speed_2}), wywołującą maksymalne przyspieszenia pomostu. W przypadku decydującej prędkości maksymalnej przyjęto 0.
 \end{itemize}
-\noindent%
-Nie pokazano wyników dla zmiennej średnicy wieszaków ponieważ - jak już wcześniej zauważono - powyżej pewnej wartości progowej wielkość ta nieznacznie wpływa na przyspieszenia pomostu. 
 
-Na rysunkach (a-d) przedstawionych rezultatów, zielonym prostokątem zaznaczono obszar zawierający wszystkie rozwiązania z przyspieszeniami maksymalnymi pomostu mniejszymi niż $3.5\;\mathrm{m/s^2}$. Czerwony trójkąt oznacza \enquote{najlepsze} rozwiązanie (tab. \ref{tab:summary_optimal_results}). Na rysunkach (e-h) czarnymi i czerwonymi liniami przerywanymi zaznaczono pewne charakterystyczne częstotliwości $f_{v_{max},k}^{max\,A1/max\,A10}$ (na przykład rys. \ref{fig:opti_res_2_freqs_example}). Obliczono je przyrównując dopuszczalną prędkość maksymalną przejazdu $v_{max}$ do prędkości krytycznej $c_{cr}$. Powyższą równość wyznaczono dla następujących modeli obciążenia HSLM (rys. \ref{fig:train_hslm_a}):
+Na rysunkach (a-e) przedstawionych zestawów rezultatów, zielonym prostokątem zaznaczono obszar zawierający wszystkie rozwiązania z przyspieszeniami maksymalnymi pomostu mniejszymi niż $3.5\;\mathrm{m/s^2}$. Czerwony trójkąt oznacza \enquote{najlepsze} rozwiązanie (tab. \ref{tab:summary_optimal_results}). Na rysunkach (f-i) czarnymi i czerwonymi liniami przerywanymi zaznaczono pewne charakterystyczne częstotliwości $f_{v_{max},k}^{max\,A1/max\,A10}$ (na przykład rys. \ref{fig:opti_res_2_freqs_example}). Obliczono je przyrównując dopuszczalną prędkość maksymalną przejazdu $v_{max}$ do prędkości krytycznej $c_{cr}$. Powyższą równość wyznaczono dla następujących modeli obciążenia HSLM (rys. \ref{fig:train_hslm_a}):
 \begin{itemize}
 	\item HSLM-A1 (minimalny rozstaw wózków modelu HSLM: $D=18\,\mathrm{m}$),
 	\item HSLM-A10 (maksymalny rozstaw wózków modelu HSLM: $D=27\,\mathrm{m}$).
@@ -2080,57 +2080,36 @@ i dzielników prędkości krytycznej równych $k = 1, 2, 3\;\mathrm{lub}\;4$ wed
 	f_{200,1}^{max A10} &= \frac{200}{3.6} \cdot \frac{1}{27}=2.06\,\mathrm{Hz}
 	\end{split}
 \end{equation*} 
-Interpretacja tych częstotliwości jest następująca. Jeżeli częstotliwość drgań własnych konstrukcji jest większa od $f_{200,1}^{max\,A1}$ (czarna linia przerywana), to dla wszystkich modeli HSLM-A pierwsza prędkość krytyczna ($k=1$) jest większa od maksymalnej możliwej prędkości na linii. Oznacza to, że dla wszystkich modeli pociągu wymagane jest zwiększenie dzielnika $k$ w celu uzyskania prędkości krytycznej mniejszej lub równej maksymalnej dopuszczalnej prędkości. Częstotliwość oznaczona jako $f_{200,1}^{max\,A10}$ (czerwona linia przerywana) oznacza, że od tego miejsca rozpoczyna się konieczne zmniejszanie prędkości rezonansowych dzielnikiem $k$, jedynie dla niektórych modeli pociągów HSLM-A. Innymi słowy w obszarze od linii czerwonej do czarnej o tym samym dzielniku $k$, kolejne pociągi licząc od A10 do A1 wychodzą z prędkością krytyczną powyżej prędkości maksymalnej i zwiększony musi być dla nich dzielnik $k$. Pomiędzy linią czarną $k$ i linią czerwoną $k+1$, dzielnik jest stały dla wszystkich modeli i równy $k+1$. Zaznaczone częstotliwości nie są związane z postacią drgań własnych, więc zostały nakreślone zarówno dla postaci z dwiema półfalami (linie pionowe) jak i z jedną półfalą (linie poziome). Liczba linii jest zróżnicowana, ponieważ zależy od maksymalnej prędkości i zakresu uzyskanych częstotliwości dla danej postaci. 
+Interpretacja tych częstotliwości jest następująca. Jeżeli częstotliwość drgań własnych konstrukcji jest większa od $f_{200,1}^{max\,A1}$ (czarna linia przerywana), to dla wszystkich modeli HSLM-A pierwsza prędkość krytyczna ($k=1$) jest większa od maksymalnej możliwej prędkości na linii. Oznacza to, że dla wszystkich modeli pociągu wymagane jest zwiększenie dzielnika $k$ w celu uzyskania prędkości krytycznej mniejszej lub równej maksymalnej dopuszczalnej prędkości. Częstotliwość oznaczona jako $f_{200,1}^{max\,A10}$ (czerwona linia przerywana) oznacza, że od tego miejsca rozpoczyna się konieczne zmniejszanie prędkości rezonansowych dzielnikiem $k$, jedynie dla niektórych modeli pociągów HSLM-A. Innymi słowy w obszarze od linii czerwonej do czarnej o tym samym dzielniku $k$, kolejne pociągi licząc od A10 do A1 wychodzą z prędkością krytyczną powyżej prędkości maksymalnej i zwiększony musi być dla nich dzielnik $k$. Pomiędzy linią czarną $k$ i linią czerwoną $k+1$ dzielnik jest stały dla wszystkich modeli i równy $k+1$. Zaznaczone częstotliwości nie są związane z postacią drgań własnych, więc zostały nakreślone zarówno dla postaci z dwiema półfalami (linie pionowe) jak i z jedną półfalą (linie poziome). Liczba linii jest zróżnicowana, ponieważ zależy od maksymalnej prędkości i zakresu zmienności częstotliwości dla danej postaci. 
 
-Powyższe ogólne zależności wytłumaczono poniżej na podstawie przykładowego rysunku \ref{fig:opti_res_2_freqs_example}. W obszarze po lewej stronie od pionowej, czerwonej linii przerywanej $k=1$, prędkości krytyczne z dzielnikiem $k=1$ dla modelu pociągu HSLM-A10 ($D=27\, \mathrm{m}$) są mniejsze od prędkości maksymalnej 200 km/h. Model HSLM-A10 ma najdłuższy wymiar charakterystyczny, więc w tym obszarze prędkości obliczane dla wszystkich innych modeli (A1 - A9) również będą posiadały dzielnik $k=1$. Po prawej stronie od pionowej, czerwonej linii przerywanej $k=1$ prędkość wyznaczana dla modelu HSLM-A10 przy dzielniku $k=1$ będzie większa niż maksymalna dopuszczalna na linii, stąd dzielnik musi być zwiększony do $k=2$. Przesuwając się ku czarnej, przerywanej linii $k=1$, kolejne modele A9-A1 będą dochodziły z prędkością krytyczną do granicznej prędkości maksymalnej przy dzielniku $k=1$ i po jej przekroczeniu dzielnik musi być zwiększony do $k=2$. Po prawej stronie od czarnej, przerywanej linii $k=1$ już wszystkie modele pociągów osiągnęły wartość prędkości krytycznej przy dzielniku $k=1$ większą niż maksymalna, dopuszczalna i dla wszystkich dzielnik jest zwiększony do $k=2$. Dla kolejnych linii oznaczonych $k=2,3,4$ obowiązują analogiczne zasady.
+Powyższe ogólne zależności wytłumaczono poniżej na podstawie przykładowego rysunku \ref{fig:opti_res_2_freqs_example}. W obszarze po lewej stronie od pionowej, czerwonej linii przerywanej $k=1$, prędkości krytyczne z dzielnikiem $k=1$ dla modelu pociągu HSLM-A10 ($D=27\, \mathrm{m}$) są mniejsze od prędkości maksymalnej 200 km/h. Model HSLM-A10 ma największy rozstaw wózków, więc w tym obszarze prędkości obliczane dla wszystkich innych modeli (A1 - A9) również będą posiadały dzielnik $k=1$. Po prawej stronie od pionowej, czerwonej linii przerywanej $k=1$ prędkość wyznaczana dla modelu HSLM-A10 przy dzielniku $k=1$ będzie większa niż maksymalna dopuszczalna na linii, stąd dzielnik musi być zwiększony do $k=2$. Przesuwając się ku czarnej, przerywanej linii $k=1$, kolejne modele A9-A1 będą dochodziły z prędkością krytyczną do granicznej prędkości maksymalnej przy dzielniku $k=1$. Po prawej stronie od czarnej, przerywanej linii $k=1$ wszystkie modele pociągów osiągnęły wartość prędkości krytycznej przy dzielniku $k=1$ większą niż maksymalna, dopuszczalna i dla wszystkich dzielnik jest zwiększony do $k=2$. Dla kolejnych linii oznaczonych $k=2,3,4$ obowiązują analogiczne zasady.
 
 
 \begin{figure}[hbt!]
 	\centering
-	\includegraphics[width=0.51\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_VELOCITY_XY.pdf}
-	\caption{Przykładowy rezultat z zaznaczonymi częstotliwościami $f_{200,k}^{max\,A1}$ i $f_{200,k}^{max\,A10}$: \\ wieszaki pionowe, maksymalna dopuszczalna prędkość $v_{max}=200\;\mathrm{km/h}$}
-	\label{fig:opti_res_2_freqs_example}
+	\subfloat[]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_example}}
+	\subfloat[]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_DEC_FREC_XY.pdf}  \label{fig:opti_res_2_freqs_prost_200_example}}
+	
+	
+	\caption{Przykładowe rezultaty dla układu z wieszaki pionowymi i maksymalną dopuszczalną prędkością $v_{max}=200\;\mathrm{km/h}$: (a) zaznaczone częstotliwości $f_{200,k}^{max\,A1}$ i $f_{200,k}^{max\,A10}$; (b) postać drgań związana z częstotliwością drgań własnych decydującą o prędkości krytycznej wywołującej największe przyspieszenia pomostu }
+	
 \end{figure}
 
+Do opisu uzyskanych rezultatów użyto wielokrotnie przymiotnika \enquote{decydujący}. Wskazuje on na wartość parametru (prędkość krytyczna, typ pojazdu HSLM, liczba półfal postaci drgań dla częstotliwości krytycznej, dzielnik $k$ prędkości krytycznej), który dla danego rozwiązania (zestawu zmiennych projektowych) towarzyszył uzyskaniu maksymalnych przyspieszeń pomostu. Poniżej zaprezentowano przykład pomagający zinterpretować słowo \enquote{decydujący}. Na rysunku \ref{fig:opti_res_2_freqs_prost_200_example} przedstawiono liczbę półfal postaci drgań dla częstotliwości drgań własnych decydującej o prędkości krytycznej wywołującej maksymalne przyspieszenia pomostu. Przykładowo kolor czerwony punktu oznacza, że dla danego rozwiązania, wśród wszystkich przeliczonych przejazdów dynamicznych HSLM i dla obu pierwszych częstotliwości drgań własnych oraz prędkości maksymalnej, największe przyspieszenia uzyskano dla prędkości krytycznej określonej dla częstotliwości drgań własnych o postaci drgań własnych z podwójną półfalą.
 
+Rozwiązania dla danego układu wieszaków ukazują pewne zależności niezależne od ograniczenia prędkości maksymalnej. Dla kolejnych wariantów prędkości nie powielano tych wspólnych elementów w opisie.
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_DEC_FREC_XY.pdf}
+%	\caption{Przykładowy rezultat pokazujący postać drgań związany z częstotliwością drgań własnych decydującą o prędkości krytycznej wywołującej największe przyspieszenia pomostu}
+%		\label{fig:opti_res_2_freqs_prost_200_example}
+%		
+%\end{figure}
 
 
 
 \clearpage
-
-%\subsubsection{Wariant z wieszakami pionowymi, prędkość maksymalna 160 km/h}
-%\begin{figure}[H]
-%	\centering
-%	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_WEI_XY.pdf} 
-%		\label{fig:opti_res_2_freqs_prost_160_a}}
-%	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_ACC_XY.pdf}
-%		\label{fig:opti_res_2_freqs_prost_160_b}}\\
-%	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_XY.pdf}
-%		\label{fig:opti_res_2_freqs_prost_160_c}}
-%	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_XY.pdf}
-%		\label{fig:opti_res_2_freqs_prost_160_d}}\\
-%	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_WIESZAK_XY.pdf}
-%		\label{fig:opti_res_2_freqs_prost_160_e1}}
-%	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 160 km/h}
-%	\label{fig:opti_res_2_freqs_prost_160}
-%\end{figure}
-%\vfill
-%
-%\begin{figure}[H]\ContinuedFloat
-%	\centering
-%	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_DEC_FREC_XY.pdf}
-%		\label{fig:opti_res_2_freqs_prost_160_e}} \hfill
-%	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_VELOCITY_XY.pdf}
-%		\label{fig:opti_res_2_freqs_prost_160_f}}\\
-%	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_HSLM_DEC_XY.pdf}
-%		\label{fig:opti_res_2_freqs_prost_160_g}}
-%	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_VCR_DIV_XY.pdf}
-%		\label{fig:opti_res_2_freqs_prost_160_h}}
-%	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 160 km/h. Kont.}
-%	
-%\end{figure}
-
-
 
 \subsubsection{Wariant z wieszakami pionowymi, prędkość maksymalna 160 km/h}
 \begin{figure}[H]
@@ -2140,7 +2119,6 @@ Powyższe ogólne zależności wytłumaczono poniżej na podstawie przykładoweg
 	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_160/proste_160_FREQ_ACC_XY.pdf}
 	\label{fig:opti_res_2_freqs_prost_160_b}}
 \end{figure}
-
 \begin{figure}[H]\ContinuedFloat
 	\centering
 	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_160/proste_160_FREQ_SCIAG_XY.pdf}
@@ -2148,16 +2126,13 @@ Powyższe ogólne zależności wytłumaczono poniżej na podstawie przykładoweg
 	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_160/proste_160_FREQ_LUK_XY.pdf}
 	\label{fig:opti_res_2_freqs_prost_160_d}}
 \end{figure}
-
 \begin{figure}[H]\ContinuedFloat
 	\centering
-	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_160/proste_160_FREQ_WIESZAK_XY.pdf}}
+	\subfloat[średnica wieszaka]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_160/proste_160_FREQ_WIESZAK_XY.pdf}}
 	\label{fig:opti_res_2_freqs_prost_160_e1}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 160 km/h}
 	\label{fig:opti_res_2_freqs_prost_160}
 \end{figure}
-
-
 \begin{figure}[H]\ContinuedFloat
 	\centering
 	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_160/proste_160_FREQ_DEC_FREC_XY.pdf}
@@ -2199,23 +2174,20 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 \end{figure}
 \begin{figure}[H]\ContinuedFloat
 		\centering
-	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_c}}
-	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_200/proste_200_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_d}}
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_c}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_d}}
 		\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 200 km/h}
 	\label{fig:opti_res_2_freqs_prost_200}
 \end{figure}
 \begin{figure}[H]\ContinuedFloat
 	\centering
-	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_WIESZAK_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_e1}}
+	\subfloat[średnica wieszaka]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_WIESZAK_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_e1}}
 \end{figure}
-	
 \begin{figure}[H]\ContinuedFloat
 	\centering
 	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_e}} \hfill
 	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_f}}
-
 \end{figure}
-
 \begin{figure}[H]\ContinuedFloat
 	\centering
 	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_200/proste_200_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_prost_200_g}}
@@ -2224,13 +2196,13 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 	
 \end{figure}
 
-Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami pionowymi i prędkością maksymalną 200 km/h. W większości pokrywają się one z wynikami analizy o prędkości maksymalnej 160 km/h:
+Analizy powyższych danych pozwalają na wyciągnięcie następujących wniosków dla wariantu z wieszakami pionowymi i prędkości maksymalnej 200 km/h:
 \begin{enumerate}
 	\item Maksymalne przyspieszenia charakteryzują się skokowymi zmianami dla częstotliwości drgań własnych o podwójnej półfali (rys. \ref{fig:opti_res_2_freqs_prost_200_b}). Miejsca zmian pokrywają się z częstotliwościami $f_{200,1}^{max\,A10}$ i $f_{200,1}^{max\,A1}$ postaci z podwójną półfalą. 
-	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla wszystkich przypadków, dla których dzielnik prędkości krytycznej związanej z postacią o podwójnej półfali jest większy od 1.
-	\item Po przekroczeniu granicy $f_{200,1}^{max\,A1}$ i $f_{200,1}^{max\,A10}$  dzielnik $k$ dla wszystkich decydujących przejazdów jest większy od 1 (rys. \ref{fig:opti_res_2_freqs_prost_200_h}). Tym razem granica ta uwidacznia się również dla postaci drgań o jednej półfali. 
+	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla wszystkich przypadków, dla których dzielnik prędkości krytycznej związanej z postacią o podwójnej półfali jest większy od 1 (obciążenie pojawia się na obiekcie w odstępach czasowych równych dwa okresy drgań własnych).
+	\item Po przekroczeniu granicy $f_{200,1}^{max\,A1}$  dzielnik $k$ dla wszystkich decydujących przejazdów jest większy od 1 (rys. \ref{fig:opti_res_2_freqs_prost_200_h}). Tym razem granica ta uwidacznia się również dla postaci drgań o jednej półfali. 
 
-	\item W porównaniu do wariantu z prędkością maksymalną 160 km/h, prędkość krytyczna związana z częstotliwością o postaci z pojedynczą półfalą stanowi nieznacznie większą część rozwiązań (rys. \ref{fig:opti_res_2_freqs_prost_200_e}). Rozwiązania dla przypadków prędkości krytycznych z dzielnikiem $k>1$ dla postaci z podwójną półfalą i jednocześnie $k=1$ dla postaci z pojedynczą półfalą (rys. \ref{fig:opti_res_2_freqs_prost_200_b}, wyniki po prawej stronie na dole) charakteryzują się zwiększonymi przyspieszeniami maksymalnymi, względem przypadku gdy $k>1$ dla obu postaci. Niemniej, jest to różnica niewielka i nie wyklucza tych rozwiązań z grupy rozwiązań dopuszczalnych.
+	\item W porównaniu do wariantu z prędkością maksymalną 160 km/h, prędkość krytyczna związana z częstotliwością drgań własnych o postaci z pojedynczą półfalą stanowi nieznacznie większą część rozwiązań (rys. \ref{fig:opti_res_2_freqs_prost_200_e}). Rozwiązania dla przypadków prędkości krytycznych z dzielnikiem $k>1$ dla postaci z podwójną półfalą i jednocześnie $k=1$ dla postaci z pojedynczą półfalą (rys. \ref{fig:opti_res_2_freqs_prost_200_b}, wyniki po prawej stronie na dole) charakteryzują się zwiększonymi przyspieszeniami maksymalnymi, względem przypadku gdy $k>1$ dla obu postaci. Niemniej, jest to różnica niewielka i nie wyklucza tych rozwiązań z grupy rozwiązań dopuszczalnych.
 \end{enumerate}
 \vfill
 
@@ -2238,25 +2210,34 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 
 \begin{figure}[H]
 	\centering
-	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_a}}
-	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_b}}\\
-	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_c}}
-	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_d}}\\
-	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_e}} \hfill
-	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_f}}
-	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 300 km/h}
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_300/proste_300_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_a}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_300/proste_300_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_b}}
 	\label{fig:opti_res_2_freqs_prost_300}
 \end{figure}
-
 \begin{figure}[H]\ContinuedFloat
 	\centering
-	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_g}}
-	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/proste_300/proste_300_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_h}}
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_300/proste_300_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_c}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_300/proste_300_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_d}}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+	\centering
+	\subfloat[średnica wieszaka]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_300/proste_300_FREQ_WIESZAK_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_e1}}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 300 km/h}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+\centering
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_300/proste_300_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_e}} \hfill
+	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_300/proste_300_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_f}}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_300/proste_300_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_g}}
+	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/proste_300/proste_300_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_prost_300_h}}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami pionowymi - prędkość maksymalna 300 km/h. Kont.}
 	
 \end{figure}
 
-W większości otrzymane wyniki pokrywają się z rezultatami analiz o prędkościach maksymalnych 160 i 200 km/h. Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami pionowymi i prędkością maksymalną 300 km/h. :
+Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami pionowymi i prędkością maksymalną 300 km/h:
 \begin{enumerate}
 	\item Maksymalne przyspieszenia charakteryzują się skokowymi zmianami dla częstotliwości drgań własnych o podwójnej półfali (rys. \ref{fig:opti_res_2_freqs_prost_300_b}). Miejsca zmian pokrywają się z częstotliwościami $f_{300,1}^{max\,A10}$ i $f_{300,1}^{max\,A1}$ postaci z podwójną półfalą. 
 	
@@ -2264,30 +2245,42 @@ W większości otrzymane wyniki pokrywają się z rezultatami analiz o prędkoś
 	
 	\item Ze względu na wysoką prędkość przejazdu, częstotliwości graniczne $f_{300,1}^{max\,A10}$ i $f_{300,1}^{max\,A1}$ są znacznie wyższe niż w poprzednich analizach. Dla postaci z jedną półfalą wszystkie rozwiązania mieszczą się poniżej $f_{300,1}^{max\,A1}$.
 \end{enumerate}
-\vfill
 
 
 
 \subsubsection{Wariant z wieszakami ukośnymi, prędkość maksymalna 160 km/h}
 \begin{figure}[H]
 	\centering
-	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_a}}
-	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_b}}\\
-	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_c}}
-	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_d}}\\
-	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_e}} \hfill
-	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_MIN_MAC_XY.pdf}}
-	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_f}}
-	\captionsetup{justification=centering}
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_160/niels_160_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_a}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_160/niels_160_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_b}}
+\end{figure}
+
+
+\begin{figure}[H]\ContinuedFloat
+\centering
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_160/niels_160_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_c}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_160/niels_160_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_d}}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+	\centering
+	\subfloat[średnica wieszaka]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_160/niels_160_FREQ_WIESZAK_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_e1}}
+		\captionsetup{justification=centering}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 160 km/h}
 	\label{fig:opti_res_2_freqs_niels_160}
+\end{figure}
+
+\begin{figure}[H]\ContinuedFloat
+\centering
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_160/niels_160_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_e}} \hfill
+	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_160/niels_160_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_f}}
+
 \end{figure}
 
 
 \begin{figure}[H]\ContinuedFloat
 	\centering
-	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_g}}
-	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_160/niels_160_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_h}}
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_160/niels_160_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_g}}
+	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_160/niels_160_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_niels_160_h}}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 160 km/h. Kont.}
 	
 \end{figure}
@@ -2296,111 +2289,139 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 	
 	\item Dla wariantu z wieszakami ukośnymi występuje wyraźna korelacja pomiędzy wysokością łuku, a częstotliwością drgań własnych o postaci z pojedynczą półfalą (rys. \ref{fig:opti_res_2_freqs_niels_160_d}).
 	\item Korelacja pomiędzy wysokością ściągu, a częstotliwością drgań własnych o postaci z podwójną półfalą istnieje, ale jest znacznie słabsza niż w przypadku wieszaków pionowych (rys. \ref{fig:opti_res_2_freqs_niels_160_c}).
-	\item Wszystkie rozwiązania mieszczą się powyżej granicy $f_{160,1}^{max\,A1}$ i $f_{160,1}^{max\,A10}$ dla częstotliwości o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_niels_160_h}).
-	\item Wybór decydującego o prędkości krytycznej modu nie jest prosty w określeniu i zależy od wielu czynników. Granice nie są w tym przypadku tak klarowne jak w wariancie z wieszakami pionowymi (rys. \ref{fig:opti_res_2_freqs_niels_160_e}). Niemniej, wyraźne są pola gdzie dla niższych wartości częstotliwości o postaci z dwiema półfalami decyduje prędkość krytyczna związana z tą postacią, a po przekroczeniu pewnej wartości częstotliwości to postać z jedną półfalą jest decydująca. Granice $f_{v_{max},i}^{max\,A1}$ i $f_{v_{max},i}^{max\,A10}$ są wyznaczone dla modeli skrajnych HSLM-A1 i A10 i prędkości maksymalnej. Jak można dostrzec na rysunku \ref{fig:opti_res_2_freqs_niels_160_g}, w wielu obszarach to nie te modele wywołują największe przyspieszenia. Granice obliczone dla faktycznie decydujących modeli HSLM-A (rys. \ref{fig:opti_res_2_freqs_niels_160_g}) pokrywają się z granicami decydujących postaci drgań (rys. \ref{fig:opti_res_2_freqs_niels_160_e}).
+	\item Wyraźnie zarysowuje się również korelacja pomiędzy częstotliwością drgań własnych o postaci z podwójną półfalą, a średnicą wieszaka (rys. \ref{fig:opti_res_2_freqs_niels_160_e1}). Zależność ta wydaje się być silniejsza niż dla wysokości ściągu.
+	\item Wszystkie rozwiązania mieszczą się powyżej granicy $f_{160,1}^{max\,A1}$ i $f_{160,1}^{max\,A10}$ dla częstotliwości drgań własnych o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_niels_160_h}).
+	\item  Granice pomiędzy decydującymi postaciami drgań własnych nie są w tym przypadku tak klarowne i zgodne z częstotliwością $f_{v_{max},i}^{max\,A1}$ jak w wariancie z wieszakami pionowymi (rys. \ref{fig:opti_res_2_freqs_niels_160_e}). Wynika to z tego, że granice $f_{v_{max},i}^{max\,A1}$ i $f_{v_{max},i}^{max\,A10}$ są wyznaczone dla modeli skrajnych HSLM-A1 i A10 i prędkości maksymalnej. Jak można dostrzec na rysunku \ref{fig:opti_res_2_freqs_niels_160_g}, w wielu obszarach to nie te dwa modele wywołują największe przyspieszenia. Granice obliczone dla faktycznie decydujących modeli HSLM-A (rys. \ref{fig:opti_res_2_freqs_niels_160_g}) pokrywają się z granicami decydujących postaci drgań (rys. \ref{fig:opti_res_2_freqs_niels_160_e}).
 	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla niemal wszystkich rozwiązań spełniających założenia wyjściowe.
 	
 \end{enumerate}
-\vfill
+
 
 
 \subsubsection{Wariant z wieszakami ukośnymi, prędkość maksymalna 200 km/h}
 
 \begin{figure}[H]
 	\centering
-	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_a}}
-	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_b}}\\
-	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_c}}
-	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_d}}\\
-	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_e}} \hfill
-	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_f}}
-	\captionsetup{justification=centering}
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_200/niels_200_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_a}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_200/niels_200_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_b}}
+\end{figure}	
+
+\begin{figure}[H]\ContinuedFloat
+	\centering
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_200/niels_200_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_c}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_200/niels_200_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_d}}
+		\captionsetup{justification=centering}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 200 km/h}
 	\label{fig:opti_res_2_freqs_niels_200}
+\end{figure}	
+\begin{figure}[H]\ContinuedFloat
+	\centering
+	\subfloat[średnica wieszaka]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_200/niels_200_FREQ_WIESZAK_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_e1}}
+\end{figure}	
+\begin{figure}[H]\ContinuedFloat
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_200/niels_200_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_e}} \hfill
+	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_200/niels_200_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_f}}
+
 \end{figure}
 
 \begin{figure}[H]\ContinuedFloat
 	\centering
-	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_g}}
-	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_200/niels_200_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_h}}
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_200/niels_200_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_g}}
+	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_200/niels_200_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_niels_200_h}}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 200 km/h. Kont.}
 	
 \end{figure}
 
-Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami ukośnymi i prędkością maksymalną 200 km/h. W dużej mierze są one zgodne z wnioskami dla prędkości 160 km/h:
+Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami ukośnymi i prędkością maksymalną 200 km/h:
 \begin{enumerate}
 
-\item Niemal wszystkie rozwiązania mieszczą się powyżej granicy $f_{200,1}^{max\,A1}$ dla częstotliwości o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_niels_200_h}).
+\item Znacząca większość rozwiązań mieści się powyżej granicy $f_{200,1}^{max\,A1}$ dla częstotliwości o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dla nich dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_niels_200_h}).
 
-\item Względem wariantu z prędkością 160 km/h, pojawiają się widoczne skokowe zmiany wielkości przyspieszeń (rys. \ref{fig:opti_res_2_freqs_niels_200_b}). Pokrywają się one z częstotliwościami $f_{200,1}^{max\,A1}$ dla obu postaci. Skok wartości przyspieszeń jest znacznie większy przy przekroczeniu granicy dla częstotliwości o postaci z podwójną półfalą. Dla częstotliwości o postaci z pojedynczą półfalą różnica ta jest niewielka.
+\item Względem wariantu z prędkością 160 km/h, pojawiają się widoczne skokowe zmiany wielkości przyspieszeń (rys. \ref{fig:opti_res_2_freqs_niels_200_b}). Pokrywają się one z częstotliwościami $f_{200,1}^{max\,A1}$ dla obu postaci. Skok wartości przyspieszeń jest znacznie większy przy przekroczeniu granicy dla częstotliwości o postaci z podwójną półfalą.
 
-\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla niemal wszystkich rozwiązań, dla których częstotliwość graniczna $f_{200,1}^{max\,A1}$ została przekroczona dla częstotliwości drgań własnych o postaci z podwójną półfalą.
+\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla niemal wszystkich otrzymanych rozwiązań, dla których granica $f_{200,1}^{max\,A1}$ została przekroczona dla częstotliwości drgań własnych o postaci z podwójną półfalą.
 
 \end{enumerate}
-\vfill
+
 
 
 \subsubsection{Wariant z wieszakami ukośnymi, prędkość maksymalna 300 km/h}
 
 \begin{figure}[H]
 	\centering
-	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_a}}
-	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_b}}\\
-	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_c}}
-	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_d}}\\
-	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_e}}
-	%\subfloat[minimalny wskaźnik MAC dopasowania postaci do wzorca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_MIN_MAC_XY.pdf}}
-	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_f}}
-	\captionsetup{justification=centering}
-	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 300 km/h}
-	\label{fig:opti_res_2_freqs_niels_300}
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_300/niels_300_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_a}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_300/niels_300_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_b}}
 \end{figure}
 
 \begin{figure}[H]\ContinuedFloat
+		\centering
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_300/niels_300_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_c}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_300/niels_300_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_d}}
+		\captionsetup{justification=centering}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 300 km/h}
+	\label{fig:opti_res_2_freqs_niels_300}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+		\centering
+	\subfloat[średnica wieszaka]{\includegraphics[width=0.49\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_300/niels_300_FREQ_WIESZAK_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_e1}}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+		\centering
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.49\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_300/niels_300_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_e}}
+	\subfloat[prędkość decydująca]{\includegraphics[width=0.49\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_300/niels_300_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_f}}
+	%\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 300 km/h. Kont.}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
 	\centering
-	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_g}}
-	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/niels_300/niels_300_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_h}}
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.49\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_300/niels_300_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_g}}
+	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.49\textwidth,trim=40 25 5 25, clip]{WK2/opti/niels_300/niels_300_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_niels_300_h}}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami ukośnymi - prędkość maksymalna 300 km/h. Kont.}
-	
 \end{figure}
 
-Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami ukośnymi i prędkością maksymalną 300 km/h. W dużej mierze są one zgodne z wnioskami dla prędkości 160 i 200 km/h:
+Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami ukośnymi i prędkością maksymalną 300 km/h:
 \begin{enumerate}
 	
-	\item W odróżnieniu do wariantu z prędkością 160 km/h pojawiają się widoczne skoki wielkości przyspieszeń (rys. \ref{fig:opti_res_2_freqs_niels_300_b}). Pokrywają się one z częstotliwościami $f_{300,1}^{max\,A1}$ i $f_{300,1}^{max\,A10}$ dla częstotliwości o postaci z podwójną półfalą.
+	\item Podobnie jak w prędkości 200 km/h, a w odróżnieniu do wariantu z prędkością 160 km/h pojawiają się widoczne skoki wielkości przyspieszeń (rys. \ref{fig:opti_res_2_freqs_niels_300_b}). Pokrywają się one z częstotliwościami $f_{300,1}^{max\,A1}$ i $f_{300,1}^{max\,A10}$ dla częstotliwości o postaci z podwójną półfalą.
 	
 	\item Poniżej granicy $f_{300,1}^{max\,A1}$ dla częstotliwości o postaci z podwójną półfalą decydująca jest właśnie ta częstotliwość, a powyżej tej granicy przede wszystkim decyduje częstotliwość związana z postacią o jednej półfali (rys. \ref{fig:opti_res_2_freqs_niels_300_e}).
 	
-	\item Niemal wszystkie rozwiązania charakteryzują się dzielnikiem $k=1$ dla decydującego przejazdu (rys. \ref{fig:opti_res_2_freqs_niels_300_h}). 
+	\item W niemal wszystkich otrzymanych rozwiązaniach dla decydującego przejazdu zastosowany został dzielnik prędkości krytycznej $k=1$  (rys. \ref{fig:opti_res_2_freqs_niels_300_h}). 
 	
-	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano jedynie dla rozwiązań, dla których częstotliwość graniczna $f_{300,1}^{max\,A1}$ została przekroczona dla częstotliwości o postaci z podwójną półfalą (rys. \ref{fig:opti_res_2_freqs_niels_300_b} i \ref{fig:opti_res_2_freqs_niels_300_e}). Spełnienie tego warunku wydaje się być konieczne, ale niewystarczające aby zapewnić odpowiednio niski poziom przyspieszeń. Kiedy decydująca staje się częstotliwość z postacią o pojedynczej półfali, to różnice w maksymalnych przyspieszeniach nie są w tej grupie rozwiązań skokowe tylko płynne. W takim przypadku istotną rolę wydaje się mieć również typ decydującego modelu pojazdu HSLM-A (rys. \ref{fig:opti_res_2_freqs_niels_300_g}). Zwiększenie częstotliwości dla postaci o pojedynczej półfali powyżej pewnej granicy wymusza zastosowanie dzielnika $k=2$ dla niektórych, cięższych modeli pojazdów. Obciążenie osi pojazdu HSLM-A1 i A6 (rys. \ref{fig:opti_res_2_freqs_niels_300_g} pola czerwone i turkusowe) są jednymi z najniższych wśród wszystkich modeli HSLM-A.
+	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano jedynie dla rozwiązań, dla których częstotliwość graniczna $f_{300,1}^{max\,A1}$ została przekroczona dla częstotliwości drgań własnych o postaci z podwójną półfalą (rys. \ref{fig:opti_res_2_freqs_niels_300_b} i \ref{fig:opti_res_2_freqs_niels_300_e}). Spełnienie tego warunku wydaje się być konieczne, ale niewystarczające aby zapewnić odpowiednio niski poziom przyspieszeń. Kiedy decydująca staje się częstotliwość drgań własnych z postacią o pojedynczej półfali, to różnice w maksymalnych przyspieszeniach nie są w tej grupie rozwiązań skokowe tylko płynne. W takim przypadku istotną rolę wydaje się mieć również typ decydującego modelu pojazdu HSLM-A (rys. \ref{fig:opti_res_2_freqs_niels_300_g}). Zwiększenie częstotliwości drgań własnych dla postaci o pojedynczej półfali powyżej pewnej granicy wymusza zastosowanie dzielnika $k=2$ dla niektórych, cięższych modeli pociągów. Obciążenie osi pojazdu HSLM-A1 i A6 (rys. \ref{fig:opti_res_2_freqs_niels_300_g} pola czerwone i turkusowe) są jednymi z najniższych wśród wszystkich modeli HSLM-A.
 	
 \end{enumerate}
-\vfill
 
-
-
-
-
+\clearpage
 \subsubsection{Wariant z wieszakami Network, prędkość maksymalna 160 km/h}
 
 \begin{figure}[H]
 	\centering
-	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_a}}
-	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_b}}\\
-	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_c}}
-	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_d}}\\
-	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_e}} \hfill
-	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_f}}
-	\captionsetup{justification=centering}
-	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 160 km/h}
-	 \label{fig:opti_res_2_freqs_netw_160}
-\end{figure}
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_160/netw_160_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_a}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_160/netw_160_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_b}}
 
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+\centering
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_160/netw_160_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_c}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_160/netw_160_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_d}}
+\end{figure}
 \begin{figure}[H]\ContinuedFloat
 	\centering
-	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_HSLM_DEC_XY.pdf}  \label{fig:opti_res_2_freqs_netw_160_g}}
-	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_160/netw_160_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_h}}
+	\subfloat[średnica wieszaka]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_160/netw_160_FREQ_WIESZAK_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_e1}}
+		\captionsetup{justification=centering}
+	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 160 km/h}
+	\label{fig:opti_res_2_freqs_netw_160}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+\centering
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_160/netw_160_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_e}} \hfill
+	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_160/netw_160_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_f}}
+
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_160/netw_160_FREQ_HSLM_DEC_XY.pdf}  \label{fig:opti_res_2_freqs_netw_160_g}}
+	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_160/netw_160_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_netw_160_h}}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 160 km/h. Kont.}
 	
 \end{figure}
@@ -2409,84 +2430,93 @@ Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następującyc
 \begin{enumerate}
 	
 	\item Dla wariantu z wieszakami Network, podobnie jak w układzie wieszaków ukośnych, występuje wyraźna korelacja pomiędzy wysokością łuku, a częstotliwością drgań własnych o postaci z pojedynczą półfalą (rys. \ref{fig:opti_res_2_freqs_netw_160_d}).
-	\item Korelacja pomiędzy wysokością ściągu, a częstotliwością drgań własnych o postaci z podwójną półfalą istnieje, ale jest znacznie słabsza niż w przypadku wieszaków pionowych (rys. \ref{fig:opti_res_2_freqs_netw_160_c}).
-	\item Wszystkie rozwiązania mieszczą się powyżej granicy $f_{160,1}^{max\,A1}$ dla częstotliwości o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_netw_160_h}). 
+	\item Korelacja pomiędzy wysokością ściągu, a częstotliwością drgań własnych o postaci z podwójną półfalą istnieje, ale jest znacznie słabsza niż w przypadku wieszaków pionowych (rys. \ref{fig:opti_res_2_freqs_netw_160_c}). Wyraźniejsza korelacja niż dla wysokości ściągu występuje pomiędzy częstotliwością drgań własnych o postaci z podwójną półfalą i średnicą wieszaka (rys. \ref{fig:opti_res_2_freqs_netw_160_e1}). Widoczne są rozwiązania, dla których podobne częstotliwości drgań własnych uzyskuje się przez zastosowanie wysokiego ściągu, bądź przez użycie dużej średnicy wieszaka. 
+	\item Wszystkie otrzymane rozwiązania mieszczą się powyżej granicy $f_{160,1}^{max\,A1}$ dla częstotliwości o obu rozpatrywanych postaciach. Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ (rys. \ref{fig:opti_res_2_freqs_netw_160_h}). 
 	\item Osiągnięte w rozwiązaniach minimalne częstotliwości o postaci z podwójną półfalą są większe niż w pozostałych wariantach wieszaków.
-	\item Granica decydującej postaci drgań nie jest związana z jedną postacią drgań (rys. \ref{fig:opti_res_2_freqs_netw_160_e}), podobnie jak w przypadku wieszaków ukośnych. Z uwagi na generalnie większe wartości częstotliwości o postaci z podwójna półfalą, szybciej przekroczona jest granica $f_{160,1}^{max\,A1}$. To z kolei sprawia, że w zdecydowanej większości decydująca jest częstotliwość drgań o postaci z pojedynczą półfalą.
-	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla wszystkich rozwiązań.
+	\item Z uwagi na generalnie większe niż w innych wariantach wieszaków wartości częstotliwości drgań własnych o postaci z podwójna półfalą, szybciej przekroczona jest granica $f_{160,1}^{max\,A1}$. To z kolei sprawia, że w większości decydująca jest częstotliwość drgań o postaci z pojedynczą półfalą.
+	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla wszystkich rozwiązań spełniających założenia wyjściowe.
 	
 \end{enumerate}
-\vfill
-
-
-
-
-
 
 \subsubsection{Wariant z wieszakami Network, prędkość maksymalna 200 km/h}
 
 \begin{figure}[H]
 	\centering
-	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_netw_200_a}}
-	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_ACC_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_b}}\\
-	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_c}}
-	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_d}}\\
-	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_DEC_FREC_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_e}} \hfill
-	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_VELOCITY_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_f}} 
-	\captionsetup{justification=centering}
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_200/netw_200_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_netw_200_a}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_200/netw_200_FREQ_ACC_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_b}}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+\centering
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_200/netw_200_FREQ_SCIAG_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_c}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_200/netw_200_FREQ_LUK_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_d}}
+		\captionsetup{justification=centering}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 200 km/h}
 	\label{fig:opti_res_2_freqs_netw_200}
 \end{figure}
 
 \begin{figure}[H]\ContinuedFloat
 	\centering
-	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_HSLM_DEC_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_g}}
-	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_200/netw_200_FREQ_VCR_DIV_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_h}}
+	\subfloat[średnica wieszaka]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_200/netw_200_FREQ_WIESZAK_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_e1}}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+\centering
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_200/netw_200_FREQ_DEC_FREC_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_e}} \hfill
+	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_200/netw_200_FREQ_VELOCITY_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_f}} 
+
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_200/netw_200_FREQ_HSLM_DEC_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_g}}
+	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_200/netw_200_FREQ_VCR_DIV_XY.pdf}\label{fig:opti_res_2_freqs_netw_200_h}}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 200 km/h. Kont.}
 \end{figure}
 
-Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami Network i prędkością maksymalną 200 km/h. Wnioski w dużej mierze pokrywają się wariantem o prędkości maksymalnej 160 km/h:
+Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami Network i prędkością maksymalną 200 km/h:
 \begin{enumerate}
 	
-	\item Wszystkie rozwiązania mieszczą się powyżej granicy $f_{200,1}^{max\,A1}$ dla częstotliwości o postaci z podwójną półfalą.  Przekłada się to na konieczność zastosowania dzielnika prędkości krytycznej $k>1$ dla tej postaci (rys. \ref{fig:opti_res_2_freqs_netw_200_h}). W obszarze otrzymanych rezultatów dla postaci z pojedynczą półfalą pojawia częstotliwość graniczna $f_{200,1}^{max\,A1}$. Do momentu jej uzyskania przez rozwiązania, decydująca jest postać o jednej półfali. Po jej przekroczeniu pojawia się pole gdzie decydująca jest postać drgań z podwójną półfalą.
-	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ otrzymano dla wszystkich rozwiązań, pomimo że w dużej części rozwiązań nie została przekroczona granica $f_{200,1}^{max\,A1}$ dla częstotliwości o postaci z jedną półfalą. Na mapie przyspieszeń maksymalnych (rys. \ref{fig:opti_res_2_freqs_netw_200_b}) widoczna jest granica pomiędzy rozwiązaniami z dzielnikiem $k=1$ i $k=2$, ale jest to różnica niewielka i nie powoduje przekroczenia wartości maksymalnych.
+	\item Wszystkie otrzymane rozwiązania mieszczą się powyżej granicy $f_{200,1}^{max\,A1}$ dla częstotliwości drgań własnych o postaci z podwójną półfalą. W zakresie otrzymanych częstotliwości drgań własnych dla postaci z pojedynczą półfalą pojawia częstotliwość graniczna $f_{200,1}^{max\,A1}$. Do momentu jej uzyskania przez rozwiązania, decydująca jest postać o jednej półfali. Po jej przekroczeniu pojawia się pole gdzie decydująca jest postać drgań z podwójną półfalą.
+	\item Przyspieszenia dopuszczalne $a_{max}<3.5\;\mathrm{m/s^2}$ uzyskano dla wszystkich rozwiązań, pomimo że w dużej części nie została przez nie przekroczona granica $f_{200,1}^{max\,A1}$ dla częstotliwości o postaci z jedną półfalą. Na mapie przyspieszeń maksymalnych (rys. \ref{fig:opti_res_2_freqs_netw_200_b}) widoczna jest granica pomiędzy rozwiązaniami z dzielnikiem $k=1$ i $k=2$. Niemniej różnica przyspieszeń przed i po przekroczeniu granicy jest niewielka.
 	
 \end{enumerate}
-\vfill
-
-
-
-
-
 
 \subsubsection{Wariant z wieszakami Network, prędkość maksymalna 300 km/h}
 
 \begin{figure}[H]
 	\centering
-	\subfloat[masa konstrukcji]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_a}}
-	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_b}}\\
-	\subfloat[wysokość ściągu]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_c}}
-	\subfloat[wysokość łuku]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_d}}\\
-	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_e}} \hfill
-	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_f}}
-	\captionsetup{justification=centering}
+	\subfloat[masa konstrukcji]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_300/netw_300_FREQ_WEI_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_a}}
+	\subfloat[maksymalne przyspieszenia]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_300/netw_300_FREQ_ACC_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_b}}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+\centering
+	\subfloat[wysokość ściągu]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_300/netw_300_FREQ_SCIAG_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_c}}
+	\subfloat[wysokość łuku]{\includegraphics[width=0.48\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_300/netw_300_FREQ_LUK_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_d}}
+		\captionsetup{justification=centering}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 300 km/h}
 	\label{fig:opti_res_2_freqs_netw_300}
 \end{figure}
-
 \begin{figure}[H]\ContinuedFloat
 	\centering
-	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_g}}
-	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 20 5 20, clip]{WK2/opti/netw_300/netw_300_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_h}}
+	\subfloat[średnica wieszaka]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_300/netw_300_FREQ_WIESZAK_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_e1}}
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+\centering
+	\subfloat[postać drgań decydująca o najbardziej niekorzystnej prędkości krytycznej]{\includegraphics[width=0.47\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_300/netw_300_FREQ_DEC_FREC_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_e}} \hfill
+	\subfloat[prędkość decydująca]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_300/netw_300_FREQ_VELOCITY_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_f}}
+
+\end{figure}
+\begin{figure}[H]\ContinuedFloat
+	\centering
+	\subfloat[decydujący model HSLM-A]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_300/netw_300_FREQ_HSLM_DEC_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_g}}
+	\subfloat[dzielnik $k$ przy obliczaniu decydującej prędkości rezonansowej]{\includegraphics[width=0.5\textwidth,trim=40 25 5 25, clip]{WK2/opti/netw_300/netw_300_FREQ_VCR_DIV_XY.pdf} \label{fig:opti_res_2_freqs_netw_300_h}}
 	\caption{Rezultaty optymalizacji w dziedzinie dwóch pierwszych częstotliwości drgań własnych, z rozróżnieniem postaci drgań - wariant z wieszakami Network - prędkość maksymalna 300 km/h. Kont.}
 	
 \end{figure}
 
-Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami Network i prędkością maksymalną 300 km/h. Wnioski w dużej mierze pokrywają się wariantami o prędkości maksymalnej 160 i 200 km/h:
+Analiza powyższych wizualizacji danych pozwala na wyciągnięcie następujących wniosków dla wariantu z wieszakami Network i prędkością maksymalną 300 km/h:
 \begin{enumerate}
-	\item W odróżnieniu od mniejszych prędkości, w tym wariancie pojawiają się pola o znacznej różnicy przyspieszeń maksymalnych (rys. \ref{fig:opti_res_2_freqs_netw_300_b}). Jedna z granic pokrywa się z wartością $f_{300,1}^{max\,A1}$ dla częstotliwości o postaci z dwiema półfalami. Przed przekroczeniem tej granicy decydująca jest postać o dwóch półfalach, a po jej przekroczeniu o jednej półfali. Podobnie jak w przypadku wieszaków ukośnych i prędkości maksymalnej 300 km/h, granica pozioma wyraźnie zależy od decydującego modelu HSLM-A (rys. \ref{fig:opti_res_2_freqs_netw_300_g}).
+	\item W odróżnieniu od mniejszych prędkości, w tym wariancie pojawiają się pola o znacznej różnicy wielkości przyspieszeń maksymalnych (rys. \ref{fig:opti_res_2_freqs_netw_300_b}). Jedna z granic pokrywa się z wartością $f_{300,1}^{max\,A1}$ dla częstotliwości o postaci z dwiema półfalami. Przed przekroczeniem tej granicy decydująca jest postać o dwóch półfalach, a po jej przekroczeniu o jednej półfali. Podobnie jak w przypadku wieszaków ukośnych i prędkości maksymalnej 300 km/h, granica pozioma wyraźnie zależy od decydującego modelu HSLM-A (rys. \ref{fig:opti_res_2_freqs_netw_300_g}).
 	\item Dla niemal wszystkich rezultatów decydujące przejazdy odbywały się z prędkością krytyczną o dzielniku $k=1$.
-	\item W tym wariancie wieszaków i prędkości warto zwrócić uwagę na wszystkie rozwiązania znajdujące się w zielonym prostokącie. W dużej mierze różnią się one od siebie pod względem spełnienia warunku $a_{max}<3.5\;\mathrm{m/s^2}$, pomimo że są zlokalizowane blisko siebie w przestrzeni dwóch pierwszych częstotliwości drgań własnych (rys. \ref{fig:opti_res_2_freqs_netw_300_b}). Największe zagęszczenie rozwiązań dopuszczalnych znajduje się w pobliżu czerwonego trójkąta. Rozwiązania znajdujące się po prawej stronie (większa częstotliwość drgań dla postaci z dwiema półfalami) posiadają niekiedy większe przyspieszenia. Jest to jednak różnica niewielka. Wydaje się, że może to to wynikać z oscylowania maksymalnych przyspieszeń dla danych punków wokół częstotliwości granicznej $3.5\,\mathrm{m/s^2}$. Efekt ten można było również zaobserwować na rysunku \ref{fig:network_change_hangers_stiff}.
+	\item W tym wariancie wieszaków i prędkości warto zwrócić uwagę na wszystkie rozwiązania znajdujące się w zielonym prostokącie. W dużej mierze różnią się one od siebie pod względem spełnienia warunku $a_{max}<3.5\;\mathrm{m/s^2}$, pomimo że są zlokalizowane blisko siebie w przestrzeni dwóch pierwszych częstotliwości drgań własnych (rys. \ref{fig:opti_res_2_freqs_netw_300_b}). Największe zagęszczenie rozwiązań dopuszczalnych znajduje się w pobliżu czerwonego trójkąta. Rozwiązania znajdujące się po prawej stronie (większa częstotliwość drgań dla postaci z dwiema półfalami) posiadają niekiedy większe przyspieszenia. Jest to jednak różnica niewielka. Wydaje się że może to wynikać z oscylowania maksymalnych przyspieszeń dla różnych punktów wokół wartości granicznej $3.5\,\mathrm{m/s^2}$. Efekt ten można było również zaobserwować na rysunku \ref{fig:network_change_hangers_stiff}.
 \end{enumerate}
 
 Podsumowanie rezultatów i wniosków ze wszystkich wykonanych analiz przedstawiono w kolejnym rozdziale.

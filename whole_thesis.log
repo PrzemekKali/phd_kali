@@ -1,8 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.3)  22 DEC 2021 21:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.23)  23 DEC 2021 13:31
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **./whole_thesis.tex
 (whole_thesis.tex
-LaTeX2e <2021-11-15>
+LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22>
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
@@ -1255,7 +1257,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 )
 (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.st
 y
-Package: ragged2e 2021/02/05 v3.0 ragged2e Package
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \CenteringLeftskip=\skip92
 \RaggedLeftLeftskip=\skip93
 \RaggedRightLeftskip=\skip94
@@ -1497,7 +1499,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (C:\Users\PRZKALIT\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
 pdftex.def
-File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count483
 \l__pdf_internal_box=\box83
 ) (whole_thesis.aux (title_page.aux) (statement.aux)
@@ -1752,9 +1754,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--80
 
 
 
-{C:/Users/PRZKALIT/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./figures//p
-g_w_i_l_i_s_kolor-01-eps-converted-to.pdf> <./figures//Wydział_WILiŚ_CMYK.pdf
-
+{C:/Users/PRZKALIT/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures
+//pg_w_i_l_i_s_kolor-01-eps-converted-to.pdf> <./figures//Wydział_WILiŚ_CMYK.
+pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//Wydział_WILiŚ_CMYK.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
@@ -7149,7 +7151,7 @@ Załącznik A.
 
 
 ]
-<./figures//WK2/korelacja/venn_diagram_corr.pdf, id=12960, 165.0988pt x 119.379
+<./figures//WK2/korelacja/venn_diagram_corr.pdf, id=12963, 165.0988pt x 119.379
 pt>
 File: ./figures//WK2/korelacja/venn_diagram_corr.pdf Graphic file (type pdf)
 <use ./figures//WK2/korelacja/venn_diagram_corr.pdf>
@@ -7176,7 +7178,7 @@ nie-za-le�-nej na
  []
 
 [225]
-<./figures//WK2/korelacja/venn_diagram_part.pdf, id=12990, 171.44853pt x 148.58
+<./figures//WK2/korelacja/venn_diagram_part.pdf, id=12993, 171.44853pt x 148.58
 913pt>
 File: ./figures//WK2/korelacja/venn_diagram_part.pdf Graphic file (type pdf)
 <use ./figures//WK2/korelacja/venn_diagram_part.pdf>
@@ -7219,10 +7221,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52530 strings out of 478681
- 1319860 string characters out of 2845113
- 2243219 words of memory out of 12000000
- 68019 multiletter control sequences out of 15000+600000
+ 52538 strings out of 478659
+ 1319934 string characters out of 2844497
+ 2243229 words of memory out of 12000000
+ 68024 multiletter control sequences out of 15000+600000
  645122 words of font info for 188 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,24n,99p,5203b,2153s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -7284,9 +7286,9 @@ l/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/PRZKALIT/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/PRZKALI
 T/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/PRZK
 ALIT/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on whole_thesis.pdf (258 pages, 166315603 bytes).
+Output written on whole_thesis.pdf (258 pages, 166317334 bytes).
 PDF statistics:
- 13770 PDF objects out of 15390 (max. 8388607)
- 1169 named destinations out of 1200 (max. 500000)
+ 13774 PDF objects out of 15390 (max. 8388607)
+ 1172 named destinations out of 1200 (max. 500000)
  5293 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,14 +1,14 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'whole_thesis.blg'
-[135] biber-MSWIN64:340> INFO - === 
-[182] Biber.pm:415> INFO - Reading 'whole_thesis.bcf'
-[382] Biber.pm:952> INFO - Found 293 citekeys in bib section 0
-[398] Biber.pm:4340> INFO - Processing section 0
-[413] Biber.pm:4531> INFO - Looking for bibtex format file '2020_08_19_My_Collection.bib' for section 0
-[520] bibtex.pm:1689> INFO - LaTeX decoding ...
-[1575] bibtex.pm:1494> INFO - Found BibTeX data source '2020_08_19_My_Collection.bib'
-[2674] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2674] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2674] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pl-PL'
-[2832] bbl.pm:654> INFO - Writing 'whole_thesis.bbl' with encoding 'UTF-8'
-[2967] bbl.pm:757> INFO - Output to whole_thesis.bbl
+[102] biber-MSWIN64:340> INFO - === 
+[132] Biber.pm:415> INFO - Reading 'whole_thesis.bcf'
+[323] Biber.pm:952> INFO - Found 293 citekeys in bib section 0
+[340] Biber.pm:4340> INFO - Processing section 0
+[349] Biber.pm:4531> INFO - Looking for bibtex format file '2020_08_19_My_Collection.bib' for section 0
+[436] bibtex.pm:1689> INFO - LaTeX decoding ...
+[1505] bibtex.pm:1494> INFO - Found BibTeX data source '2020_08_19_My_Collection.bib'
+[2580] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2580] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2580] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pl-PL'
+[2724] bbl.pm:654> INFO - Writing 'whole_thesis.bbl' with encoding 'UTF-8'
+[2858] bbl.pm:757> INFO - Output to whole_thesis.bbl

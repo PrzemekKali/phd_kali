@@ -392,7 +392,7 @@ W literaturze można odnaleźć kilka miar tłumienia. Pierwszą z nich jest lic
 \begin{equation} \label{eq: damping_ratio_def}
 	\zeta = \frac{c}{c_{kr}}=\frac{c}{2m\omega}
 \end{equation}
-Tłumieniem krytycznym nazywamy wartość tłumienia, po przekroczeniu której ruch staje się aperiodyczny. Dla tłumienia równego tłumieniu krytycznemu liczba tłumienia jest równa 1. W przypadku rzeczywistych mostów liczba tłumienia zazwyczaj nie przekracza 10\% \parencite{Salamak2003}. 
+Tłumieniem krytycznym nazywamy wartość tłumienia, po której przekroczeniu ruch staje się aperiodyczny. Dla tłumienia równego tłumieniu krytycznemu liczba tłumienia jest równa 1. W przypadku rzeczywistych mostów liczba tłumienia zazwyczaj nie przekracza 10\% \parencite{Salamak2003}. 
 
 Inną miarą tłumienia jest Logarytmiczny Dekrement Tłumienia (LDT). Określa się go jako logarytm naturalny stosunku dwóch kolejnych amplitud drgań swobodnych danego modu:
 \begin{equation} \label{eq: LDT_1}
@@ -402,24 +402,24 @@ Przy małym tłumieniu wartości dwóch kolejnych amplitud mogą różnić się 
  \begin{equation} \label{eq: LDT_N}
  	\text{LDT} = \frac{1}{m}\ln{\frac{a_n}{a_{n+m}}}
  \end{equation}
-Zależność pomiędzy LDT, a liczbą tłumienia określona jest następująco:
+Zależność pomiędzy LDT a liczbą tłumienia określona jest następująco:
  \begin{equation} \label{eq: LDT_dampingratio}
 	\text{LDT} = \ln{\frac{q(t)}{q(t+T)}}=\ln{\frac{e^{-\zeta\omega t}}{e^{-\zeta\omega(t+T)}}} =\ln{e^{\zeta\omega T}}=\zeta\omega T = \zeta\omega\frac{2\pi}{\omega_d}=\frac{2\pi\zeta}{\sqrt{1-\zeta^2}}
 \end{equation}
-gdzie: $\omega_d$ - częstość drgań własnych tłumionych $(\omega_d=\sqrt{1-\zeta^2})$, $T$ - okres drgań własnych tłumionych $T=\frac{2\pi}{\omega_d}$. W przypadku drgań konstrukcji budowlanych liczba tłumienia jest z reguły niewielka $(\zeta<0.1)$. Z tego względu częstości drgań własnych tłumionych i nietłumionych są zbliżone. W takim przypadku zależność pomiędzy LDT, a liczbą tłumienia często upraszcza się do postaci przybliżonej:
+gdzie: $\omega_d$ - częstość drgań własnych tłumionych $(\omega_d=\sqrt{1-\zeta^2})$, $T$ - okres drgań własnych tłumionych $T=\frac{2\pi}{\omega_d}$. W przypadku drgań konstrukcji budowlanych liczba tłumienia jest z reguły niewielka $(\zeta<0.1)$. Z tego względu częstości drgań własnych tłumionych i nietłumionych są zbliżone. W takim przypadku zależność pomiędzy LDT a liczbą tłumienia często upraszcza się do postaci przybliżonej:
 \begin{equation}
 \text{LDT} \approx 2\pi\zeta
 \end{equation}
 
-Spośród metod pozwalających na uwzględnienie tłumienia w obliczeniach najpopularniejszą jest tłumienie masowo-sztywnościowe Rayleigh'a \parencite{Chopra2012a}. Opiera się ono na stworzeniu macierzy tłumienia $\matr{C}$ bazując na liniowej kombinacji macierzy mas $\matr{M}$ i macierzy sztywności $\matr{K}$:
+Spośród metod pozwalających na uwzględnienie tłumienia w obliczeniach najpopularniejszą jest tłumienie masowo-sztywnościowe Rayleigh'a \parencite{Chopra2012a}. Opiera się ono na stworzeniu macierzy tłumienia $\matr{C}$, bazując na liniowej kombinacji macierzy mas $\matr{M}$ i macierzy sztywności $\matr{K}$:
 \begin{equation} \label{eq: rayleigh_damping}
 	\matr{C}=a_0\matr{M}+a_1\matr{K}
 \end{equation}
-W przypadku zastosowania tłumienia Rayleigh'a liczba tłumienia odpowiadająca danemu modowi wyznaczona jest z wzoru:
+W przypadku zastosowania tłumienia Rayleigh'a liczba tłumienia odpowiadająca danemu modowi wyznaczona jest ze wzoru:
 \begin{equation} \label{eq: damping_rayleigh}
 	\zeta_n = \frac{a_0}{2}\frac{1}{\omega_n} + \frac{a_1}{2}\omega_n
 \end{equation}
-Jednakże najczęściej mamy do czynienia z sytuacją odwrotną. Przyjmując z góry wartość liczby tłumienia dla danych modów można wyznaczyć wartości parametrów $a_0$ i $a_1$. Dla danych częstości drgań własnych $\omega_i$ i $\omega_j$ współczynniki Rayleigh'a wyznacza się z wzorów:
+Jednakże najczęściej mamy do czynienia z sytuacją odwrotną. Przyjmując z góry wartość liczby tłumienia dla danych modów, można wyznaczyć wartości parametrów $a_0$ i $a_1$. Dla danych częstości drgań własnych $\omega_i$ i $\omega_j$ współczynniki Rayleigh'a wyznacza się ze wzorów:
 \begin{equation} \label{eq: raileigh_parameters}
 	a_0 = \zeta\frac{2\omega_i\omega_j}{\omega_i+\omega_j} \qquad a_1 = \zeta\frac{2}{\omega_i+\omega_j}
 \end{equation}

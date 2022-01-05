@@ -33,7 +33,7 @@ oszacowanie współczynnika korelacji liniowej określone jest następująco:
 \begin{equation}
 	r_{xy}=\frac{\mathrm{cov}(x,y)}{\sigma_x\cdot\sigma_y}=\frac{\sum_{i=1}^{n}(x_i-\mu_x)(y_i-\mu_y)}{\sqrt{(x_i-\mu_x)^2}\sqrt{(y_i-\mu_y)^2}}
 \end{equation}
-Wartość współczynnika korelacji mieści się w zakresie od -1 do 1. Im większa jest wartość bezwzględna współczynnika korelacji tym silniejsza jest liniowa zależność zmiennych losowych. Na podstawie rezultatów prób dwuwymiarowej zmiennej losowej można wykonać regresję do funkcji liniowej metodą najmniejszych kwadratów. Kwadrat współczynnika korelacji $r_{xy}^2=$ określa miarę dopasowania linii regresji do uzyskanego zbioru punków. Innymi słowy określa on stopień dokładności prognozy wartości zmiennej zależnej na podstawie znanej wartości zmiennej niezależnej i zastosowanego modelu regresji liniowej. Następujące założenia muszą być spełnione, żeby współczynnik korelacji Pearsona był miarodajny:
+Wartość współczynnika korelacji mieści się w zakresie od -1 do 1. Im większa jest wartość bezwzględna współczynnika korelacji, tym silniejsza jest liniowa zależność zmiennych losowych. Na podstawie rezultatów prób dwuwymiarowej zmiennej losowej można wykonać regresję do funkcji liniowej metodą najmniejszych kwadratów. Kwadrat współczynnika korelacji $r_{xy}^2=$ określa miarę dopasowania linii regresji do uzyskanego zbioru punków. Innymi słowy, określa on stopień dokładności prognozy wartości zmiennej zależnej na podstawie znanej wartości zmiennej niezależnej i zastosowanego modelu regresji liniowej. Następujące założenia muszą być spełnione, żeby współczynnik korelacji Pearsona był miarodajny:
 \begin{enumerate}
 	\item realizacje zmiennej losowej $\vect{X}$ powinny być niezależne od siebie,
 	\item realizacje zmiennych losowych powinny być ilościowo określone, a ich rozkład powinien być normalny,
@@ -51,7 +51,7 @@ Pomocne w interpretacji współczynników korelacji $r$ oraz jego kwadratu $r^2$
 	\label{fig:venn_diag_corr}
 \end{figure}
 
-Jeśli występuje wpływ zmiennej niezależnej na zależną to koła częściowo nakładają się na siebie. Pole części wspólnej $A$ reprezentuje kowariancję $\mathrm{cov}(Y,X)$. Z kolei korelację oraz kwadrat korelacji można obliczyć jako:
+Jeśli występuje wpływ zmiennej niezależnej na zależną, to koła częściowo nakładają się na siebie. Pole części wspólnej $A$ reprezentuje kowariancję $\mathrm{cov}(Y,X)$. Z kolei korelację oraz kwadrat korelacji można obliczyć jako:
 \begin{equation}
 	\begin{split}
 	r_{xy} &= \frac{A}{\sqrt{A+C}\sqrt{A+B}} \\
@@ -59,7 +59,7 @@ Jeśli występuje wpływ zmiennej niezależnej na zależną to koła częściowo
 \end{split}
 \end{equation}
 
-Zwłaszcza interpretacja graficzna $r_{xy}^2$ jest pomocna. Nakładanie się okręgów prezentuje $r_{xy}^2$, a więc udział wariancji $\vect{Y}$, który może być przewidziany za pomocą $\vect{X}$. Jeżeli zmienna $\vect{X}$ w dużym stopniu wyjaśnia zmienność $\vect{Y}$ to $r_{xy}^2$ przyjmuje większą wartość, a część wspólna okręgów jest duża. Przeciwnie, kiedy korelacja $\vect{Y}$ z $\vect{X}$ jest słaba to pole wspólne jest małe. Dla zerowej korelacji okręgi są rozłączne, a dla korelacji równej 1 pokrywają się całkowicie.
+Zwłaszcza interpretacja graficzna $r_{xy}^2$ jest pomocna. Nakładanie się okręgów prezentuje $r_{xy}^2$, a więc udział wariancji $\vect{Y}$, który może być przewidziany za pomocą $\vect{X}$. Jeżeli zmienna $\vect{X}$ w dużym stopniu wyjaśnia zmienność $\vect{Y}$, to $r_{xy}^2$ przyjmuje większą wartość, a część wspólna okręgów jest duża. Przeciwnie, kiedy korelacja $\vect{Y}$ z $\vect{X}$ jest słaba, to pole wspólne jest małe. Dla zerowej korelacji okręgi są rozłączne, a dla korelacji równej 1 pokrywają się całkowicie.
 
 
 
@@ -77,7 +77,7 @@ r_{k0} & r_{k1} & 	r_{k2} & \dots & 1
 	\end{bmatrix}
 \end{equation}
 
-Drugą ścieżką jest określenie unikalnego wpływu zmiennej niezależnej na zmienną zależną za pomocą współczynnika korelacji częściowej \teng{partial correlation} lub semi-częściowej \teng{semipartial correlation}. Określają one zależność dwóch zmiennych losowych biorąc pod uwagę wpływ innych, statystycznie zbadanych zmiennych losowych. Kiedy uwzględniany jest wpływ tylko jednej dodatkowej zmiennej, to jest to współczynnik korelacji cząstkowej pierwszego rzędu, kiedy dwóch to drugiego rzędu etc. Jak już wspomniano, współczynnik korelacji zupełnej obliczany jest dla dwóch zmiennych losowych. Jeżeli występuje więcej zmiennych losowych, to współczynnik ten nie pozwala na kontrolę pozostałych zmiennych losowych. Z tego względu określany jest również współczynnikiem korelacji zerowej. 
+Drugą ścieżką jest określenie unikalnego wpływu zmiennej niezależnej na zmienną zależną za pomocą współczynnika korelacji częściowej \teng{partial correlation} lub semi-częściowej \teng{semipartial correlation}. Określają one zależność dwóch zmiennych losowych, biorąc pod uwagę wpływ innych, statystycznie zbadanych zmiennych losowych. Kiedy uwzględniany jest wpływ tylko jednej dodatkowej zmiennej, to jest to współczynnik korelacji cząstkowej pierwszego rzędu, kiedy dwóch to drugiego rzędu etc. Jak już wspomniano, współczynnik korelacji zupełnej obliczany jest dla dwóch zmiennych losowych. Jeżeli występuje więcej zmiennych losowych, to współczynnik ten nie pozwala na kontrolę pozostałych zmiennych losowych. Z tego względu określany jest również współczynnikiem korelacji zerowej. 
 
 Niech symbol $pr_{ij\cdot 1,2,\dots,k}$ oznacz współczynnik korelacji częściowej pomiędzy zmienną losową $\vect{X}_i$ i $\vect{X}_j$, przy uwzględnieniu zmiennych $\vect{X}_1,\dots,\vect{X}_k$. Współczynnik korelacji częściowej możliwy jest do obliczenia za pomocą dopełnień algebraicznych macierzy $\vect{K}$:
 
@@ -86,7 +86,7 @@ Niech symbol $pr_{ij\cdot 1,2,\dots,k}$ oznacz współczynnik korelacji części
 \end{equation}
 gdzie: $\mathrm{Ad}\vect{K_{ij}}$ oznacza dopełnienie algebraiczne elementu $k_{ij}$ macierzy $\vect{K}$. Miarodajność współczynników korelacji częściowej wymaga spełnienia podobnych założeń jak w przypadku korelacji zupełnej.
 \clearpage
-Interpretację kwadratów współczynników korelacji zupełnej $r_i^2$, częściowej $pr_i^2$ i semi-częściowej $sr_i^2$ przedstawiono ponownie za pomocą diagramu Venna (rys. \ref{fig:venn_diag_part_corr}). Przyjmijmy prosty przypadek dwóch zmiennych losowych niezależnych $\vect{X}_1$, $\vect{X}_2$ i jednej zależnej $\vect{Y}$. Pola $A$ i $C$ określają w jakim stopniu wariancja zmiennej $\vect{Y}$ jest wyjaśniana przez odpowiednio zmienne $\vect{X}_1$ i $\vect{X}_2$. Pole $B$ jest częścią wariancji $Y$, która może być wytłumaczona zarówno przez $\vect{X}_1$ jak i $\vect{X}_2$.
+Interpretację kwadratów współczynników korelacji zupełnej $r_i^2$, częściowej $pr_i^2$ i semi-częściowej $sr_i^2$ przedstawiono ponownie za pomocą diagramu Venna (rys. \ref{fig:venn_diag_part_corr}). Przyjmijmy prosty przypadek dwóch zmiennych losowych niezależnych $\vect{X}_1$, $\vect{X}_2$ i jednej zależnej $\vect{Y}$. Pola $A$ i $C$ określają, w jakim stopniu wariancja zmiennej $\vect{Y}$ jest wyjaśniana przez odpowiednio zmienne $\vect{X}_1$ i $\vect{X}_2$. Pole $B$ jest częścią wariancji $Y$, która może być wytłumaczona zarówno przez $\vect{X}_1$, jak i $\vect{X}_2$.
 
 \begin{figure}[hbt!]
 	\centering
@@ -116,7 +116,7 @@ Korzystając z własności przedstawionego diagramu Venna, poszczególne współ
 	\end{split}
 \end{equation}
 
-Z przedstawionej grafiki można wnioskować, że współczynnik korelacji zupełnej (\ref{eqannex:zero_correlation}) pokazuje wpływ zmiennej zależnej na całkowitą wariancję zmiennej niezależnej. Nie uwzględnia w żaden sposób istnienia wpływu innych zmiennych niezależnych. Współczynnik korelacji częściowej (\ref{eqannex:partial_correlation}) wyklucza wpływ innych zmiennych niezależnych zarówno na zmienną zależną jak i na zmienną niezależną. Z kolei współczynnik semi-korelacji (\ref{eqannex:semipartial_correlation}) wyklucza wpływ innych zmiennych niezależnych jedynie ze zmiennej niezależnej. Można więc powiedzieć, że kwadrat współczynnika semi-korelacji wyraża unikalny wkład zmiennej niezależnej na całkowitą wariancję zmiennej zależnej.
+Z przedstawionej grafiki można wnioskować, że współczynnik korelacji zupełnej (\ref{eqannex:zero_correlation}) pokazuje wpływ zmiennej zależnej na całkowitą wariancję zmiennej niezależnej. Nie uwzględnia w żaden sposób istnienia wpływu innych zmiennych niezależnych. Współczynnik korelacji częściowej (\ref{eqannex:partial_correlation}) wyklucza wpływ innych zmiennych niezależnych zarówno na zmienną zależną, jak i na zmienną niezależną. Z kolei współczynnik semi-korelacji (\ref{eqannex:semipartial_correlation}) wyklucza wpływ innych zmiennych niezależnych jedynie ze zmiennej niezależnej. Można więc powiedzieć, że kwadrat współczynnika semi-korelacji wyraża unikalny wkład zmiennej niezależnej na całkowitą wariancję zmiennej zależnej.
 
 
 
